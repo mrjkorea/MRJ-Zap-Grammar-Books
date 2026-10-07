@@ -34,24 +34,48 @@
     return "";
   }
 
+  function brandForBook(bookId) {
+    var book = catalog.findBook(bookId) || catalog.findBook("zap-green-1");
+    var name = (book && book.appName) || engine.APP_NAME;
+    return name + " · MRJ Zap Grammar Books";
+  }
+
+  function practiceHref(bookId, unitId, slug) {
+    return "#/p/" + bookId + "/" + unitId + "/" + slug;
+  }
+
+  function itemDisplayLabel(item, idx) {
+    if (item && item.label) return String(item.label);
+    return "Q" + (idx + 1);
+  }
+
+  function parsePracticeRoute(parts) {
+    if (parts[0] !== "p" || !parts[1]) return null;
+    if (parts.length >= 4) {
+      return { bookId: parts[1], unitId: parts[2], slug: parts[3] };
+    }
+    return { bookId: null, unitId: null, slug: parts[1] };
+  }
+
   function route() {
     var hash = location.hash.replace(/^#/, "") || "/";
     var parts = hash.split("/").filter(Boolean);
-    if (parts[0] === "p" && parts[1]) {
-      renderPractice(parts[1]);
+    var pr = parsePracticeRoute(parts);
+    if (pr) {
+      renderPractice(pr);
       return;
     }
     renderIndex();
   }
 
-  function topbar(backHref) {
+  function topbar(backHref, brandText) {
     var bar = $("div", "topbar");
     if (backHref) {
       var a = $("a", "back-link", "← Index");
       a.href = backHref;
       bar.appendChild(a);
     }
-    bar.appendChild($("div", "brand", "GreenZap 1 · MRJ Zap Grammar Books"));
+    bar.appendChild($("div", "brand", brandText || brandForBook(getSel(SEL_BOOK, "zap-green-1"))));
     var pill = $("span", "student-pill", studentLabel() || "Signed in");
     bar.appendChild(pill);
     return bar;
@@ -59,7 +83,8 @@
 
   function renderIndex() {
     app.innerHTML = "";
-    app.appendChild(topbar());
+    var bookId = getSel(SEL_BOOK, "zap-green-1");
+    app.appendChild(topbar(null, brandForBook(bookId)));
     app.appendChild($("h1", null, "Practice index"));
     app.appendChild(
       $("p", "lead", "Choose your book and unit, then start a timed practice. Use your paper book too.")
@@ -68,7 +93,6 @@
     var panel = $("div", "panel");
     var grid = $("div", "grid-2");
 
-    var bookId = getSel(SEL_BOOK, "zap-green-1");
     var unitId = getSel(SEL_UNIT, "unit-01");
 
     var bookField = $("div");
@@ -123,7 +147,7 @@
       exs.forEach(function (ex) {
         var btn = document.createElement("a");
         btn.className = "exercise-btn";
-        btn.href = "#/p/" + ex.slug;
+        btn.href = practiceHref(bookId, unitId, ex.slug);
         var title = $("span", null, ex.title);
         btn.appendChild(title);
         btn.appendChild($("span", "hint", ex.hint));
@@ -149,6 +173,8 @@
       unitId = unitSel.value || (units[0] && units[0].id);
       setSel(SEL_UNIT, unitId);
       fillExercises();
+      var brandEl = app.querySelector(".brand");
+      if (brandEl) brandEl.textContent = brandForBook(bookId);
     };
 
     unitSel.onchange = function () {
@@ -176,10 +202,14 @@
     );
   }
 
-  function loadPractice(slug) {
-    var bookId = getSel(SEL_BOOK, "zap-green-1");
-    var unitId = getSel(SEL_UNIT, "unit-01");
-    var meta = catalog.findExercise(bookId, unitId, slug);
+  function loadPractice(routeInfo) {
+    var bookId = routeInfo.bookId || getSel(SEL_BOOK, "zap-green-1");
+    var unitId = routeInfo.unitId || getSel(SEL_UNIT, "unit-01");
+    if (routeInfo.bookId) {
+      setSel(SEL_BOOK, bookId);
+      setSel(SEL_UNIT, unitId);
+    }
+    var meta = catalog.findExercise(bookId, unitId, routeInfo.slug);
     if (!meta) return Promise.reject(new Error("Unknown exercise"));
     return fetch(meta.data, { cache: "no-cache" })
       .then(function (r) {
@@ -187,33 +217,40 @@
         return r.json();
       })
       .then(function (data) {
-        data._meta = meta;
+        data._meta = Object.assign({}, meta, { bookId: bookId, unitId: unitId });
+        if (!data.practiceId && meta.practiceId) data.practiceId = meta.practiceId;
         return data;
       });
   }
 
-  function renderPractice(slug) {
+  function renderPractice(routeInfo) {
+    var bookId = routeInfo.bookId || getSel(SEL_BOOK, "zap-green-1");
     app.innerHTML = "";
-    app.appendChild(topbar("#/"));
+    app.appendChild(topbar("#/", brandForBook(bookId)));
     app.appendChild($("p", "lead", "Loading…"));
-    loadPractice(slug)
+    loadPractice(routeInfo)
       .then(function (practice) {
-        startPracticeUI(practice, slug);
+        startPracticeUI(practice, routeInfo);
       })
       .catch(function () {
         app.innerHTML = "";
-        app.appendChild(topbar("#/"));
+        app.appendChild(topbar("#/", brandForBook(bookId)));
         app.appendChild($("p", "lead", "Could not load this practice."));
       });
   }
 
-  function startPracticeUI(practice, slug) {
+  function startPracticeUI(practice, routeInfo) {
+    var bookId = (practice._meta && practice._meta.bookId) || getSel(SEL_BOOK, "zap-green-1");
+    var unitId = (practice._meta && practice._meta.unitId) || getSel(SEL_UNIT, "unit-01");
+    var slug = routeInfo.slug || (practice._meta && practice._meta.slug);
+    var practiceId = engine.practiceIdOf(practice);
+
     app.innerHTML = "";
-    app.appendChild(topbar("#/"));
+    app.appendChild(topbar("#/", brandForBook(bookId)));
     app.appendChild($("h1", null, practice.title));
     if (practice.subtitle) app.appendChild($("p", "lead", practice.subtitle + (practice.pages ? " · p. " + practice.pages : "")));
 
-    if (engine.mustRetry(practice.practiceId)) {
+    if (engine.mustRetry(practiceId)) {
       app.appendChild(
         $("p", "note", "Your last score was below 50%. Please complete this practice again.")
       );
@@ -250,9 +287,15 @@
       return !it.displayOnly;
     });
 
+    var lastSection = null;
     items.forEach(function (item, idx) {
+      if (item.section && item.section !== lastSection) {
+        lastSection = item.section;
+        var secHdr = $("div", "section-header", "Section " + item.section);
+        form.appendChild(secHdr);
+      }
       var card = $("div", "q-card");
-      card.appendChild($("div", "q-num", "Q" + (idx + 1)));
+      card.appendChild($("div", "q-num", itemDisplayLabel(item, idx)));
       if (item.promptKo) card.appendChild($("div", "q-ko", item.promptKo));
       if (item.promptEn) card.appendChild($("div", "q-en", item.promptEn));
 
@@ -279,7 +322,7 @@
           inp.name = item.id;
           inp.autocomplete = "off";
           inp.required = true;
-          inp.setAttribute("aria-label", "Answer for question " + (idx + 1));
+          inp.setAttribute("aria-label", "Answer for " + itemDisplayLabel(item, idx));
           row.appendChild(inp);
         } else {
           for (var b = 0; b < blanks; b++) {
@@ -354,7 +397,7 @@
           return x.id === item.id;
         })[0];
         var line = $("p", null, "");
-        line.appendChild(document.createTextNode("Q" + (idx + 1) + " "));
+        line.appendChild(document.createTextNode(itemDisplayLabel(item, idx) + " "));
         var mark = $("span", r && r.correct ? "mark-ok" : "mark-bad", r && r.correct ? "✓" : "✗");
         line.appendChild(mark);
         panel.appendChild(line);
@@ -370,7 +413,8 @@
           var n = items.findIndex(function (it) {
             return it.id === w.id;
           });
-          ul.appendChild($("li", null, "Q" + (n + 1)));
+          var it = items[n];
+          ul.appendChild($("li", null, itemDisplayLabel(it, n)));
         });
         panel.appendChild(ul);
       }
@@ -385,7 +429,7 @@
       app.appendChild(again);
       if (outcome.mustRetry) {
         var retry = $("a", "btn btn-primary", "Try again");
-        retry.href = "#/p/" + slug;
+        retry.href = practiceHref(bookId, unitId, slug);
         retry.style.marginLeft = "0.5rem";
         retry.style.display = "inline-flex";
         app.appendChild(retry);

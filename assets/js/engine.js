@@ -4,10 +4,38 @@
 
   var N = root.MRJ_NORMALIZE;
   var PROGRAM = "greenzap";
-  var APP_NAME = "GreenZap 1";
   var SOURCE = "greenzap";
   var PASS_PCT = 80;
   var RETRY_PCT = 50;
+  var DEFAULT_APP_NAME = "GreenZap 1";
+  var DEFAULT_BOOK_TITLE = "ZAP Green 1";
+  var DEFAULT_UNIT_TITLE = "Unit 01";
+
+  function practiceIdOf(practice) {
+    if (!practice) return "";
+    if (practice.practiceId) return practice.practiceId;
+    if (practice._meta && practice._meta.practiceId) return practice._meta.practiceId;
+    return "";
+  }
+
+  function metricsContext(practice) {
+    var appName = DEFAULT_APP_NAME;
+    var bookTitle = DEFAULT_BOOK_TITLE;
+    var unitTitle = DEFAULT_UNIT_TITLE;
+    if (practice) {
+      if (practice.appName) appName = practice.appName;
+      if (practice.bookTitle) bookTitle = practice.bookTitle;
+      if (practice.unitTitle) unitTitle = practice.unitTitle;
+    }
+    if (practice && practice._meta && practice._meta.bookId && root.MRJ_CATALOG) {
+      var book = root.MRJ_CATALOG.findBook(practice._meta.bookId);
+      if (book) {
+        if (book.appName) appName = book.appName;
+        if (book.bookTitle) bookTitle = book.bookTitle;
+      }
+    }
+    return { appName: appName, bookTitle: bookTitle, unitTitle: unitTitle };
+  }
 
   function itemMetricId(practiceId, itemId) {
     return practiceId + ":" + itemId;
@@ -52,24 +80,27 @@
 
   function postSummary(practice, scoreValue, scoreMax, scorePct, durationSeconds) {
     if (!root.MRJ_SCORES) return;
+    var pid = practiceIdOf(practice);
+    var ctx = metricsContext(practice);
     root.MRJ_SCORES.post({
       program: PROGRAM,
       source: SOURCE,
-      appName: APP_NAME,
-      bookTitle: "ZAP Green 1",
-      unitTitle: "Unit 01",
-      itemId: practice.practiceId,
+      appName: ctx.appName,
+      bookTitle: ctx.bookTitle,
+      unitTitle: ctx.unitTitle,
+      itemId: pid,
       itemType: "practice_summary",
       scoreValue: scoreValue,
       scoreMax: scoreMax,
       scorePct: scorePct,
       completed: true,
       durationSeconds: durationSeconds,
-      metadata: { exercise: practice.practiceId, pass: scorePct >= PASS_PCT },
+      metadata: { exercise: pid, pass: scorePct >= PASS_PCT },
     });
   }
 
   function scorePractice(practice, responses, startedAt) {
+    var pid = practiceIdOf(practice);
     var items = practice.items.filter(function (it) {
       return !it.displayOnly;
     });
@@ -87,14 +118,14 @@
     var questionRows = results.map(function (r) {
       return {
         id: r.id,
-        metricId: itemMetricId(practice.practiceId, r.id),
+        metricId: itemMetricId(pid, r.id),
         correct: r.correct,
       };
     });
     var pack = packApi();
     if (pack && typeof pack.onPracticeScored === "function") {
       pack.onPracticeScored(
-        practice.practiceId,
+        pid,
         { correct: correct, max: max, pct: pct, durationSec: duration },
         questionRows
       );
@@ -105,7 +136,7 @@
 
   root.MRJ_ENGINE = {
     PROGRAM: PROGRAM,
-    APP_NAME: APP_NAME,
+    APP_NAME: DEFAULT_APP_NAME,
     SOURCE: SOURCE,
     PASS_PCT: PASS_PCT,
     RETRY_PCT: RETRY_PCT,
@@ -113,5 +144,7 @@
     scorePractice: scorePractice,
     mustRetry: mustRetry,
     itemMetricId: itemMetricId,
+    practiceIdOf: practiceIdOf,
+    metricsContext: metricsContext,
   };
 })(window);

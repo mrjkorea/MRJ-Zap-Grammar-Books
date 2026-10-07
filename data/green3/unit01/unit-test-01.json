@@ -1,0 +1,412 @@
+{
+  "practiceId": "g3:u01:quiz",
+  "title": "Unit Test 01",
+  "subtitle": "의문사 있는 의문문 (1) (pp. 22–26)",
+  "pages": "22–26",
+  "timerMinutes": 30,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 의문사 있는 의문문 (1)",
+  "testId": "unit-test-01",
+  "passPct": 80,
+  "retryBelowPct": 50,
+  "showAnswersToStudent": false,
+  "items": [
+    {
+      "id": "q01",
+      "label": "1",
+      "type": "mc",
+      "promptKo": "[1-2] 다음 문장의 빈칸에 알맞은 말을 고르세요.\n이것과 저것 중에서 어느 것이 더 싸니?",
+      "promptEn": "_____ is cheaper, this one or that one?",
+      "choices": [
+        "What",
+        "Who",
+        "Which",
+        "Where",
+        "How"
+      ],
+      "answer": "3",
+      "accept": [
+        "3",
+        "③"
+      ]
+    },
+    {
+      "id": "q02",
+      "label": "2",
+      "type": "mc",
+      "promptKo": "[1-2] 다음 문장의 빈칸에 알맞은 말을 고르세요.\n너는 어디 출신이니?",
+      "promptEn": "_____ are you from?",
+      "choices": [
+        "What",
+        "Who",
+        "Which",
+        "Where",
+        "How"
+      ],
+      "answer": "4",
+      "accept": [
+        "4",
+        "④"
+      ]
+    },
+    {
+      "id": "q03",
+      "label": "3",
+      "type": "mc",
+      "promptKo": "[3-4] 다음 문장에서 밑줄 친 우리말을 영어로 바르게 옮긴 것을 고르세요.",
+      "promptEn": "[제이미는 무엇을 요리했니] for dinner?",
+      "choices": [
+        "What did Jamie cooks",
+        "What does Jamie cook",
+        "What Jamie did cook",
+        "What is Jamie cook",
+        "What did Jamie cook"
+      ],
+      "answer": "5",
+      "accept": [
+        "5",
+        "⑤"
+      ]
+    },
+    {
+      "id": "q04",
+      "label": "4",
+      "type": "mc",
+      "promptKo": "[3-4] 다음 문장에서 밑줄 친 우리말을 영어로 바르게 옮긴 것을 고르세요.",
+      "promptEn": "[누가 풀 수 있니] this problem?",
+      "choices": [
+        "Who solve can",
+        "Who can solve",
+        "Who did solve",
+        "Who solves",
+        "Who is solve"
+      ],
+      "answer": "2",
+      "accept": [
+        "2",
+        "②"
+      ]
+    },
+    {
+      "id": "q05",
+      "label": "5",
+      "type": "mc",
+      "promptKo": "다음 중 올바른 문장을 고르세요.",
+      "promptEn": "",
+      "choices": [
+        "Where your dog sleeps?",
+        "When your birthday is?",
+        "What did you had for lunch?",
+        "How did you opened the door?",
+        "Which dives deeper, a whale or a dolphin?"
+      ],
+      "answer": "5",
+      "accept": [
+        "5",
+        "⑤"
+      ]
+    },
+    {
+      "id": "q06",
+      "label": "6",
+      "type": "mc",
+      "promptKo": "[6-7] 다음 중 밑줄 친 부분이 잘못된 문장을 고르세요.",
+      "promptEn": "(밑줄: does)",
+      "choices": [
+        "Where does she live?",
+        "Why does he wear a cap?",
+        "How does you spell your name?",
+        "What does your father do?",
+        "When does your school begin?"
+      ],
+      "answer": "3",
+      "accept": [
+        "3",
+        "③"
+      ]
+    },
+    {
+      "id": "q07",
+      "label": "7",
+      "type": "mc",
+      "promptKo": "[6-7] 다음 중 밑줄 친 부분이 잘못된 문장을 고르세요.",
+      "promptEn": "(밑줄: can I / will they / do you / we must / can I)",
+      "choices": [
+        "What can I do for you?",
+        "When will they leave?",
+        "Which do you want, milk or juice?",
+        "Why we must wear school uniforms?",
+        "How can I find my needle?"
+      ],
+      "answer": "4",
+      "accept": [
+        "4",
+        "④"
+      ]
+    },
+    {
+      "id": "q08",
+      "label": "8",
+      "type": "mc",
+      "promptKo": "[8-9] 다음 의문문에 대한 대답으로 알맞은 말을 고르세요.",
+      "promptEn": "How did Mr. White drive?",
+      "choices": [
+        "Yes, he was.",
+        "No, he wasn't.",
+        "Last month.",
+        "Because he was fast.",
+        "Carefully."
+      ],
+      "answer": "5",
+      "accept": [
+        "5",
+        "⑤"
+      ]
+    },
+    {
+      "id": "q09",
+      "label": "9",
+      "type": "mc",
+      "promptKo": "[8-9] 다음 의문문에 대한 대답으로 알맞은 말을 고르세요.",
+      "promptEn": "Why is she laughing?",
+      "choices": [
+        "Yes, she is.",
+        "No, she isn't.",
+        "She talked to her brother.",
+        "Because she is reading a funny story.",
+        "She is laughing."
+      ],
+      "answer": "4",
+      "accept": [
+        "4",
+        "④"
+      ]
+    },
+    {
+      "id": "q10",
+      "label": "10",
+      "type": "mc",
+      "promptKo": "다음 중 짝지어진 대화가 어색한 것을 고르세요.",
+      "promptEn": "",
+      "choices": [
+        "A: Who gave you the pencils? / B: Tony gave them to me.",
+        "A: Where does he have lunch? / B: At the cafeteria.",
+        "A: How do you go to school? / B: I'm going to school.",
+        "A: What did he invent? / B: He invented the light bulb.",
+        "A: Why was she crying? / B: Because she watched a sad movie."
+      ],
+      "answer": "3",
+      "accept": [
+        "3",
+        "③"
+      ]
+    },
+    {
+      "id": "q11",
+      "label": "11",
+      "type": "mc",
+      "promptKo": "[11-12] 다음 우리말을 영어로 바르게 옮긴 것을 고르세요.",
+      "promptEn": "너는 그 가방을 어디에서 샀니?",
+      "choices": [
+        "Where you bought the bag?",
+        "Where did you bought the bag?",
+        "Where do you buy the bag?",
+        "Where did you buy the bag?",
+        "Where bought you the bag?"
+      ],
+      "answer": "4",
+      "accept": [
+        "4",
+        "④"
+      ]
+    },
+    {
+      "id": "q12",
+      "label": "12",
+      "type": "mc",
+      "promptKo": "[11-12] 다음 우리말을 영어로 바르게 옮긴 것을 고르세요.",
+      "promptEn": "그녀가 언제 도착할까?",
+      "choices": [
+        "When she will arrive?",
+        "When will she arrive?",
+        "When will she arrives?",
+        "When is she arrive?",
+        "When she arrives?"
+      ],
+      "answer": "2",
+      "accept": [
+        "2",
+        "②"
+      ]
+    },
+    {
+      "id": "q13",
+      "label": "13",
+      "type": "mc",
+      "promptKo": "[13-14] 다음 문장의 빈칸에 들어갈 말이 순서대로 바르게 짝지어진 것을 고르세요.",
+      "promptEn": "• _____ was the party? (그 파티는 어땠니?)\n• _____ did he invite? (그는 누구를 초대했니?)",
+      "choices": [
+        "Who – How",
+        "Who – Why",
+        "How – Who",
+        "What – Who",
+        "How – What"
+      ],
+      "answer": "3",
+      "accept": [
+        "3",
+        "③"
+      ]
+    },
+    {
+      "id": "q14",
+      "label": "14",
+      "type": "mc",
+      "promptKo": "[13-14] 다음 문장의 빈칸에 들어갈 말이 순서대로 바르게 짝지어진 것을 고르세요.",
+      "promptEn": "• _____ is your favorite color? (네가 특히 좋아하는 색은 무엇이니?)\n• _____ do you like better, green or red? (초록색과 빨간색 중에서 너는 어느 것을 더 좋아하니?)",
+      "choices": [
+        "How – What",
+        "Where – Which",
+        "What – Who",
+        "What – Which",
+        "When – Who"
+      ],
+      "answer": "4",
+      "accept": [
+        "4",
+        "④"
+      ]
+    },
+    {
+      "id": "q15",
+      "label": "15",
+      "type": "mc",
+      "promptKo": "[15-17] 다음 대화의 빈칸에 알맞은 말을 고르세요.",
+      "promptEn": "A: Which is bigger, an eagle ( or / and ) a hawk?\nB: An eagle is bigger.",
+      "choices": [
+        "or",
+        "and"
+      ],
+      "answer": "1",
+      "accept": [
+        "or"
+      ]
+    },
+    {
+      "id": "q16",
+      "label": "16",
+      "type": "mc",
+      "promptKo": "[15-17] 다음 대화의 빈칸에 알맞은 말을 고르세요.",
+      "promptEn": "A: Why was he late for school?\nB: ( And / Because ) he missed the bus.",
+      "choices": [
+        "And",
+        "Because"
+      ],
+      "answer": "2",
+      "accept": [
+        "Because"
+      ]
+    },
+    {
+      "id": "q17",
+      "label": "17",
+      "type": "mc",
+      "promptKo": "[15-17] 다음 대화의 빈칸에 알맞은 말을 고르세요.",
+      "promptEn": "A: ( What / Who ) does Mr. Davis teach?\nB: He teaches English.",
+      "choices": [
+        "What",
+        "Who"
+      ],
+      "answer": "1",
+      "accept": [
+        "What"
+      ]
+    },
+    {
+      "id": "q18",
+      "label": "18",
+      "type": "fill",
+      "promptKo": "[18-20] 다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요.\n우리 언제 만날까? ( meet )",
+      "promptEn": "_____ shall _____ _____?",
+      "blanks": 3,
+      "accept": [
+        "When|we|meet"
+      ]
+    },
+    {
+      "id": "q19",
+      "label": "19",
+      "type": "fill",
+      "promptKo": "[18-20] 다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요.\n이 모자와 저 모자 중에서 어느 것이 더 좋아 보이니? ( look )",
+      "promptEn": "_____ _____ better, this cap or that cap?",
+      "blanks": 2,
+      "accept": [
+        "Which|looks"
+      ]
+    },
+    {
+      "id": "q20",
+      "label": "20",
+      "type": "fill",
+      "promptKo": "[18-20] 다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요.\n그녀는 누구를 가장 좋아하니? ( like )",
+      "promptEn": "Who _____ _____ _____ the most?",
+      "blanks": 3,
+      "accept": [
+        "does|she|like"
+      ]
+    },
+    {
+      "id": "q21",
+      "label": "21",
+      "type": "sentence",
+      "promptKo": "[21-25] 주어진 말을 바르게 배열하여 문장을 쓰세요.\n나는 어떻게 바늘을 찾을 수 있니?",
+      "promptEn": "( can / I / how / find / the needle / ? )",
+      "accept": [
+        "How can I find the needle?"
+      ]
+    },
+    {
+      "id": "q22",
+      "label": "22",
+      "type": "sentence",
+      "promptKo": "[21-25] 주어진 말을 바르게 배열하여 문장을 쓰세요.\n그는 이 사진을 언제 찍었니?",
+      "promptEn": "( he / did / take / when / this photo / ? )",
+      "accept": [
+        "When did he take this photo?"
+      ]
+    },
+    {
+      "id": "q23",
+      "label": "23",
+      "type": "sentence",
+      "promptKo": "[21-25] 주어진 말을 바르게 배열하여 문장을 쓰세요.\n크리스는 오늘 아침에 왜 화가 났니?",
+      "promptEn": "( Chris / why / angry / was / this morning / ? )",
+      "accept": [
+        "Why was Chris angry this morning?"
+      ]
+    },
+    {
+      "id": "q24",
+      "label": "24",
+      "type": "sentence",
+      "promptKo": "[21-25] 주어진 말을 바르게 배열하여 문장을 쓰세요.\n그 경기는 어디에서 열렸니?",
+      "promptEn": "( where / the game / did / take place / ? )",
+      "accept": [
+        "Where did the game take place?"
+      ]
+    },
+    {
+      "id": "q25",
+      "label": "25",
+      "type": "sentence",
+      "promptKo": "[21-25] 주어진 말을 바르게 배열하여 문장을 쓰세요.\n너는 방과 후에 무엇을 할 거니?",
+      "promptEn": "( what / you / will / do / after school / ? )",
+      "accept": [
+        "What will you do after school?"
+      ]
+    }
+  ]
+}
