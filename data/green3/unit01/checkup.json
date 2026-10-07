@@ -1,0 +1,64 @@
+{
+  "practiceId": "g3:u01:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue blanks (p. 27)",
+  "pages": "27",
+  "timerMinutes": 6,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 의문사 있는 의문문 (1)",
+  "wordBank": [
+    "where",
+    "what",
+    "how",
+    "which"
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "label": "1",
+      "type": "fill",
+      "promptKo": "Check Up — 그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which)",
+      "promptEn": "[그림 1] 엄마가 휴대 전화를 찾으며 가방을 뒤진다.\n_____ is my cell phone?",
+      "blanks": 1,
+      "accept": [
+        "Where"
+      ]
+    },
+    {
+      "id": "c02",
+      "label": "2",
+      "type": "fill",
+      "promptKo": "Check Up — 그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which)",
+      "promptEn": "[그림 2]\nGirl: _____ are you looking for?\nMom: My cell phone.",
+      "blanks": 1,
+      "accept": [
+        "What"
+      ]
+    },
+    {
+      "id": "c03",
+      "label": "3",
+      "type": "fill",
+      "promptKo": "Check Up — 그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which)",
+      "promptEn": "[그림 3]\nMom: _____ can I find it?\nGirl: I have an idea.",
+      "blanks": 1,
+      "accept": [
+        "How"
+      ]
+    },
+    {
+      "id": "c04",
+      "label": "4",
+      "type": "fill",
+      "promptKo": "Check Up — 그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which)",
+      "promptEn": "[그림 4] 친구가 검은색·흰색 휴대 전화 두 개를 들고 있다.\nFriend: _____ is yours, black one or white one?\nMom: The white one is mine.",
+      "blanks": 1,
+      "accept": [
+        "Which"
+      ]
+    }
+  ]
+}

@@ -171,6 +171,22 @@ select:disabled {
   color: var(--warn);
 }
 
+.section-header {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent-dark);
+  margin: 1.25rem 0 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.q-card:first-of-type,
+form > .section-header:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
 .q-card {
   border: 1px solid var(--border);
   border-radius: var(--radius);
