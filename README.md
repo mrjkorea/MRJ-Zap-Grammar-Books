@@ -68,7 +68,7 @@ Other books/units appear in the index as **coming soon**; **ZAP Green 1** and **
 - Sign-in via shared [mrj-signin](https://github.com/mrjkorea/mrj-signin) (`data-mrj-app="mrj-zap-grammar-books"`).
 - Full questions on screen; students also use the paper book.
 - Each practice shows **Korean directions** per section (choose vs words-only vs full sentence). Mode chips appear on the start screen, section banners, and each question.
-- After submit: ✓/✗ by book **label**, grouped by section — **Wrong:** lists labels only. Correct answers are **never** shown.
+- After submit: ✓/✗ by book **label**, grouped by section, plus a **wrong-answer review** (your answer, question, section instructions — still **no correct answers**). Under **50%**, the same review appears when you open **Try again**.
 - **Pass** tracking at **80%+**; score **under 50%** forces a **retry** (same exercise, still no answers).
 - **Timer** on every practice. Remaining time is shown; at **0:00** the form **auto-submits** and locks.
 - Answers accept contractions and full forms, case-insensitive, trimmed/collapsed spaces. Curly apostrophes from mobile keyboards are normalized.
@@ -98,6 +98,7 @@ node scripts/smoke-sections.js
 node scripts/smoke-unit-test.js
 node scripts/smoke-green3-unit01.js
 node scripts/smoke-app-sections.js
+node scripts/smoke-review.js
 ```
 
 ## Results
