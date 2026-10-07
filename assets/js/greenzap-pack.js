@@ -17,6 +17,8 @@
   var PACK_VERSION = 1;
   var SAVE_INTERVAL_MS = 17000;
   var RETRY_PCT = 50;
+  var LOAD_RETRY_DELAYS_MS = [5000, 15000, 60000];
+  var STALE_SESSION_RETRY_MS = 2000;
 
   var state = {
     idKey: "",
@@ -25,12 +27,18 @@
     dirty: false,
     loadOk: false,
     loadFinished: false,
+    sessionGen: 0,
+    loadRetryAttempt: 0,
     saveTimer: null,
     saveInFlight: false,
     pendingSave: false,
     lastSaveAt: 0,
     retryLoadTimer: null,
   };
+
+  function contextMatches(startIdKey, startGen) {
+    return studentIdKey() === startIdKey && state.sessionGen === startGen;
+  }
 
   function idKeyFromStudent(student) {
     return String(student == null ? "" : student)
@@ -92,12 +100,14 @@
   }
 
   function resetInMemoryState() {
+    state.sessionGen = (state.sessionGen || 0) + 1;
     state.idKey = "";
     state.pack = null;
     state.serverPack = null;
     state.dirty = false;
     state.loadOk = false;
     state.loadFinished = false;
+    state.loadRetryAttempt = 0;
     state.pendingSave = false;
     state.saveInFlight = false;
     state.lastSaveAt = 0;
@@ -106,7 +116,9 @@
       state.saveTimer = null;
     }
     if (state.retryLoadTimer) {
-      clearTimeout(state.retryLoadTimer);
+      try {
+        clearTimeout(state.retryLoadTimer);
+      } catch (e) {}
       state.retryLoadTimer = null;
     }
   }
@@ -284,26 +296,41 @@
       state.pendingSave = true;
       return Promise.resolve();
     }
+    var saveIdKey = state.idKey;
+    var saveGen = state.sessionGen;
     state.saveInFlight = true;
     state.pendingSave = false;
     var merged = mergePacks(state.pack, state.serverPack || emptyPack());
-    state.pack = merged;
-    writeLocalPack(state.idKey, merged);
+    if (contextMatches(saveIdKey, saveGen)) {
+      state.pack = merged;
+      writeLocalPack(saveIdKey, merged);
+    }
     var json = serializePack(merged);
     return authSavePack(PROGRAM, json)
       .then(function (res) {
         state.saveInFlight = false;
+        if (!contextMatches(saveIdKey, saveGen)) return;
         if (res && res.ok) {
           state.lastSaveAt = Date.now();
           state.serverPack = parsePackJson(json).data;
           state.dirty = false;
-        } else state.loadOk = false;
+        } else {
+          state.dirty = true;
+          handleFailedSave(res && res.error ? String(res.error) : "");
+        }
         if (state.pendingSave && state.dirty) scheduleSave();
       })
       .catch(function () {
         state.saveInFlight = false;
-        state.loadOk = false;
+        if (!contextMatches(saveIdKey, saveGen)) return;
+        state.dirty = true;
+        handleFailedSave("network");
       });
+  }
+
+  function handleFailedSave(errorCode) {
+    state.loadOk = false;
+    scheduleLoadRetry(errorCode === "stale_session");
   }
 
   function scheduleSave() {
@@ -350,26 +377,28 @@
       return Promise.resolve();
     }
 
-    var localAtStart = readLocalPack(idKey);
+    var loadIdKey = idKey;
+    var loadGen = state.sessionGen;
+    var localAtStart = readLocalPack(loadIdKey);
     state.loadFinished = false;
     state.loadOk = false;
 
     return authLoadPack(PROGRAM)
       .then(function (res) {
+        if (!contextMatches(loadIdKey, loadGen)) return;
         state.loadFinished = true;
         if (!res || !res.ok) {
-          state.pack = readLocalPack(idKey);
-          state.idKey = idKey;
-          scheduleLoadRetry();
+          handleFailedLoad(loadIdKey, res && res.error ? String(res.error) : "");
           return;
         }
         state.loadOk = true;
+        state.loadRetryAttempt = 0;
         var serverJson = res.progress_json != null ? res.progress_json : "";
-        var localPack = mergePacks(readLocalPack(idKey), localAtStart);
+        var localPack = mergePacks(readLocalPack(loadIdKey), localAtStart);
         var merged = mergePacks(localPack, serverJson);
         var serverParsed = parsePackJson(serverJson).data;
         state.serverPack = serverParsed;
-        applyMergedPack(idKey, merged, serverJson);
+        applyMergedPack(loadIdKey, merged, serverJson);
         state.dirty = false;
         if (isRicherThan(merged, serverParsed)) {
           state.dirty = true;
@@ -377,20 +406,32 @@
         }
       })
       .catch(function () {
+        if (!contextMatches(loadIdKey, loadGen)) return;
         state.loadFinished = true;
-        state.loadOk = false;
-        state.pack = readLocalPack(idKey);
-        state.idKey = idKey;
-        scheduleLoadRetry();
+        handleFailedLoad(loadIdKey, "network");
       });
   }
 
-  function scheduleLoadRetry() {
+  function handleFailedLoad(idKey, errorCode) {
+    state.loadOk = false;
+    if (contextMatches(idKey, state.sessionGen)) {
+      state.pack = readLocalPack(idKey);
+      state.idKey = idKey;
+    }
+    scheduleLoadRetry(errorCode === "stale_session");
+  }
+
+  function scheduleLoadRetry(urgent) {
     if (state.retryLoadTimer) return;
+    var attempt = state.loadRetryAttempt || 0;
+    var wait = urgent
+      ? STALE_SESSION_RETRY_MS
+      : LOAD_RETRY_DELAYS_MS[Math.min(attempt, LOAD_RETRY_DELAYS_MS.length - 1)];
+    state.loadRetryAttempt = attempt + 1;
     state.retryLoadTimer = setTimeout(function () {
       state.retryLoadTimer = null;
-      if (!state.loadOk) runLoad();
-    }, 60000);
+      if (!state.loadOk && studentIdKey()) runLoad();
+    }, wait);
   }
 
   function onPracticeScored(practiceId, outcome, questionRows) {
@@ -458,12 +499,17 @@
     flushSave: flushSave,
     canSave: canSave,
     _state: state,
+    contextMatches: contextMatches,
+    handleFailedLoad: handleFailedLoad,
+    handleFailedSave: handleFailedSave,
     _test: {
       applyMergedPack: applyMergedPack,
       pushSave: pushSave,
+      runLoad: runLoad,
       readLocalPack: readLocalPack,
       writeLocalPack: writeLocalPack,
       syncStudentContext: syncStudentContext,
+      scheduleLoadRetry: scheduleLoadRetry,
     },
   };
 });

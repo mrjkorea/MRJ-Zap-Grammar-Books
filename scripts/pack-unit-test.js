@@ -220,7 +220,115 @@ async function testSaveMergesServerSnapshotBeforeUpload() {
   pack.resetInMemoryState();
 }
 
+async function testLateLoadFailureDoesNotClobberNewStudent() {
+  let resolveLoad;
+  let currentStudent = "Student A";
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return currentStudent;
+    },
+    loadPack() {
+      return new Promise(function (resolve) {
+        resolveLoad = resolve;
+      });
+    },
+    packReady() {
+      return true;
+    },
+  };
+  pack.resetInMemoryState();
+  const loadPromise = pack.runLoad();
+  currentStudent = "Student B";
+  pack._test.syncStudentContext();
+  pack._state.idKey = pack.idKeyFromStudent("Student B");
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  resolveLoad({ ok: false, error: "stale_session" });
+  await loadPromise;
+  assert.strictEqual(pack._state.idKey, pack.idKeyFromStudent("Student B"));
+  assert.strictEqual(pack._state.loadOk, true);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
+async function testLateSaveFailureDoesNotBlockNewStudent() {
+  let resolveSave;
+  let currentStudent = "Student A";
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return currentStudent;
+    },
+    packReady() {
+      return true;
+    },
+    savePack() {
+      return new Promise(function (resolve) {
+        resolveSave = resolve;
+      });
+    },
+  };
+  pack.resetInMemoryState();
+  pack._state.idKey = pack.idKeyFromStudent("Student A");
+  pack._state.pack = pack.emptyPack();
+  pack._state.serverPack = pack.emptyPack();
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  pack._state.dirty = true;
+  const saveGenAtStart = pack._state.sessionGen;
+  const savePromise = pack._test.pushSave(true);
+  currentStudent = "Student B";
+  pack._test.syncStudentContext();
+  pack._state.idKey = pack.idKeyFromStudent("Student B");
+  pack._state.loadOk = true;
+  pack._state.dirty = true;
+  resolveSave({ ok: false, error: "stale_session" });
+  await savePromise;
+  assert.strictEqual(pack._state.idKey, pack.idKeyFromStudent("Student B"));
+  assert.strictEqual(pack._state.loadOk, true);
+  assert.strictEqual(pack._state.dirty, true);
+  assert.notStrictEqual(pack._state.sessionGen, saveGenAtStart);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
+async function testStaleSessionLoadSchedulesRetryWithoutSave() {
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return "Student A";
+    },
+    loadPack() {
+      return Promise.resolve({ ok: false, error: "stale_session" });
+    },
+    packReady() {
+      return false;
+    },
+    savePack() {
+      throw new Error("must not save");
+    },
+  };
+  pack.resetInMemoryState();
+  await pack.runLoad();
+  assert.strictEqual(pack._state.loadOk, false);
+  assert.strictEqual(pack.canSave(), false);
+  assert.strictEqual(pack._state.loadRetryAttempt, 1);
+  assert.ok(pack._state.retryLoadTimer);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
 testSaveMergesServerSnapshotBeforeUpload()
+  .then(function () {
+    return testLateLoadFailureDoesNotClobberNewStudent();
+  })
+  .then(function () {
+    return testLateSaveFailureDoesNotBlockNewStudent();
+  })
+  .then(function () {
+    return testStaleSessionLoadSchedulesRetryWithoutSave();
+  })
   .then(function () {
     console.log("pack-unit-test: ok");
   })
