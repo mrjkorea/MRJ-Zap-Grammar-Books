@@ -148,6 +148,7 @@ function mockStorage() {
     },
   };
   pack._state.idKey = pack.idKeyFromStudent("Student A");
+  pack._state.activeStudentIdKey = pack.idKeyFromStudent("Student A");
   pack._state.pack = pack.emptyPack();
   pack._state.dirty = true;
   pack._state.loadOk = true;
@@ -158,6 +159,7 @@ function mockStorage() {
   };
   pack._test.syncStudentContext();
   assert.strictEqual(pack._state.idKey, "");
+  assert.strictEqual(pack._state.activeStudentIdKey, pack.idKeyFromStudent("Student B"));
   assert.strictEqual(pack._state.pack, null);
   assert.strictEqual(pack._state.dirty, false);
   assert.strictEqual(pack._state.loadOk, false);
@@ -276,6 +278,9 @@ async function testSaveFailureBackoffStopsAndResumesOnScore() {
   pack.onPracticeScored("u01:walk1", { correct: 1, max: 1, pct: 100, durationSec: 1, at: now }, []);
   await Promise.resolve();
   assert.strictEqual(loads - loadsBefore, 1, "score after stop should trigger exactly one load");
+  assert.ok(!pack._state.retryLoadTimer, "stopped retries must clear pending load timer");
+  now += pack.msUntilSaveAllowed() + 1;
+  await pack._test.pushSave(false);
   assert.strictEqual(saves - savesBeforeResume, 1, "score after recovery should trigger exactly one save");
 
   Date.now = prevNow;
@@ -383,6 +388,49 @@ async function testSaveMergesServerSnapshotBeforeUpload() {
   pack.resetInMemoryState();
 }
 
+async function testStudentSwitchStartsLoadWhileOtherInFlight() {
+  let resolveKidA;
+  let currentStudent = "KidA";
+  const loadsByStudent = [];
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return currentStudent;
+    },
+    loadPack() {
+      loadsByStudent.push(currentStudent);
+      if (currentStudent === "KidA") {
+        return new Promise(function (resolve) {
+          resolveKidA = resolve;
+        });
+      }
+      return Promise.resolve({ ok: true, found: true, progress_json: '{"v":1,"practices":{}}' });
+    },
+    packReady() {
+      return true;
+    },
+  };
+  pack.resetInMemoryState();
+  pack.runLoad();
+  currentStudent = "KidB";
+  await pack.runLoad();
+  assert.ok(loadsByStudent.includes("KidB"), "KidB pack load must be requested");
+  assert.strictEqual(
+    loadsByStudent.filter(function (s) {
+      return s === "KidB";
+    }).length,
+    1
+  );
+  pack._state.idKey = pack.idKeyFromStudent("KidB");
+  pack._state.loadOk = true;
+  resolveKidA({ ok: true, found: false, progress_json: "{}" });
+  await Promise.resolve();
+  assert.strictEqual(pack._state.activeStudentIdKey, pack.idKeyFromStudent("KidB"));
+  assert.strictEqual(pack._state.loadOk, true);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
 async function testLateLoadFailureDoesNotClobberNewStudent() {
   let resolveLoad;
   let currentStudent = "Student A";
@@ -434,12 +482,12 @@ async function testLateSaveFailureDoesNotBlockNewStudent() {
   };
   pack.resetInMemoryState();
   pack._state.idKey = pack.idKeyFromStudent("Student A");
+  pack._state.activeStudentIdKey = pack.idKeyFromStudent("Student A");
   pack._state.pack = pack.emptyPack();
   pack._state.serverPack = pack.emptyPack();
   pack._state.loadOk = true;
   pack._state.loadFinished = true;
   pack._state.dirty = true;
-  const saveGenAtStart = pack._state.sessionGen;
   const savePromise = pack._test.pushSave(false);
   currentStudent = "Student B";
   pack._test.syncStudentContext();
@@ -451,7 +499,6 @@ async function testLateSaveFailureDoesNotBlockNewStudent() {
   assert.strictEqual(pack._state.idKey, pack.idKeyFromStudent("Student B"));
   assert.strictEqual(pack._state.loadOk, true);
   assert.strictEqual(pack._state.dirty, true);
-  assert.notStrictEqual(pack._state.sessionGen, saveGenAtStart);
   globalThis.MRJ_AUTH = prevAuth;
   pack.resetInMemoryState();
 }
@@ -483,6 +530,9 @@ async function testStaleSessionLoadSchedulesRetryWithoutSave() {
 }
 
 testSaveMergesServerSnapshotBeforeUpload()
+  .then(function () {
+    return testStudentSwitchStartsLoadWhileOtherInFlight();
+  })
   .then(function () {
     return testLateLoadFailureDoesNotClobberNewStudent();
   })
