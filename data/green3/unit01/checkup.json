@@ -15,12 +15,37 @@
     "how",
     "which"
   ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 4문항(고르기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "1",
       "type": "fill",
-      "promptKo": "Check Up — 그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which)",
       "promptEn": "[그림 1] 엄마가 휴대 전화를 찾으며 가방을 뒤진다.\n_____ is my cell phone?",
       "blanks": 1,
       "accept": [
@@ -29,9 +54,13 @@
     },
     {
       "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "2",
       "type": "fill",
-      "promptKo": "Check Up — 그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which)",
       "promptEn": "[그림 2]\nGirl: _____ are you looking for?\nMom: My cell phone.",
       "blanks": 1,
       "accept": [
@@ -40,9 +69,13 @@
     },
     {
       "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "3",
       "type": "fill",
-      "promptKo": "Check Up — 그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which)",
       "promptEn": "[그림 3]\nMom: _____ can I find it?\nGirl: I have an idea.",
       "blanks": 1,
       "accept": [
@@ -51,9 +84,13 @@
     },
     {
       "id": "c04",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "4",
       "type": "fill",
-      "promptKo": "Check Up — 그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (where / what / how / which)",
       "promptEn": "[그림 4] 친구가 검은색·흰색 휴대 전화 두 개를 들고 있다.\nFriend: _____ is yours, black one or white one?\nMom: The white one is mine.",
       "blanks": 1,
       "accept": [

@@ -9,13 +9,71 @@
   "appName": "GreenZap 3",
   "unitId": "unit-01",
   "unitTitle": "Unit 01 — 의문사 있는 의문문 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(빈칸 말만 쓰기), Section B 11문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 대화를 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "a01",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Who / is",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ your best friend? ( who, be )\nB: Mike is my best friend.",
       "blanks": 2,
       "accept": [
@@ -25,9 +83,12 @@
     {
       "id": "a02",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ the movie? ( how, be )\nB: It was boring.",
       "blanks": 2,
       "accept": [
@@ -37,9 +98,12 @@
     {
       "id": "a03",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ you _____ Jack? ( why, hate )\nB: Because he is rude.",
       "blanks": 3,
       "accept": [
@@ -49,9 +113,12 @@
     {
       "id": "a04",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ you _____ to be? ( what, want )\nB: I want to be a famous singer.",
       "blanks": 3,
       "accept": [
@@ -61,9 +128,12 @@
     {
       "id": "a05",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ your mom _____ to work? ( how, go )\nB: She goes to work by car.",
       "blanks": 3,
       "accept": [
@@ -73,9 +143,12 @@
     {
       "id": "a06",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ they _____ a party? ( where, have )\nB: They had a party at Jessica's house.",
       "blanks": 3,
       "accept": [
@@ -85,9 +158,12 @@
     {
       "id": "a07",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A7",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ your uncle _____ the photo? ( when, take )\nB: He took it ten years ago.",
       "blanks": 3,
       "accept": [
@@ -97,9 +173,12 @@
     {
       "id": "a08",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A8",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ you _____ this weekend? ( what, do, will )\nB: I will go to the movies.",
       "blanks": 3,
       "accept": [
@@ -109,9 +188,12 @@
     {
       "id": "a09",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A9",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ we _____ quiet in class? ( why, be, should )\nB: Because we should listen carefully to our teacher.",
       "blanks": 3,
       "accept": [
@@ -121,9 +203,12 @@
     {
       "id": "a10",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A10",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ Elsa _____? ( where, stay, will )\nB: She will stay at the City Hotel.",
       "blanks": 3,
       "accept": [
@@ -133,9 +218,12 @@
     {
       "id": "a11",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A11",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ bigger, an elephant or a bear? ( which, be )\nB: An elephant is bigger.",
       "blanks": 2,
       "accept": [
@@ -145,9 +233,12 @@
     {
       "id": "a12",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A12",
       "type": "fill",
-      "promptKo": "A. 주어진 말을 사용하여 다음 대화를 완성하세요.",
       "promptEn": "A: _____ _____ the bathroom? ( who, clean )\nB: Dad cleans it.",
       "blanks": 2,
       "accept": [
@@ -157,23 +248,32 @@
     {
       "id": "b01",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "When is Mother's Day?",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n어머니의 날은 언제니?",
+      "promptKo": "어머니의 날은 언제니?",
       "promptEn": "( is / when / Mother's Day / ? )",
       "accept": [
         "When is Mother's Day?",
-        "When is Mother’s Day?",
-        "When's Mother's Day?",
-        "When’s Mother’s Day?"
+        "when's mother's day?"
       ]
     },
     {
       "id": "b02",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B2",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n너는 왜 속상하니?",
+      "promptKo": "너는 왜 속상하니?",
       "promptEn": "( upset / you / are / why / ? )",
       "accept": [
         "Why are you upset?"
@@ -182,9 +282,13 @@
     {
       "id": "b03",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B3",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n너는 무엇이 필요하니?",
+      "promptKo": "너는 무엇이 필요하니?",
       "promptEn": "( you / need / what / do / ? )",
       "accept": [
         "What do you need?"
@@ -193,9 +297,13 @@
     {
       "id": "b04",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B4",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n그는 어제 누구에게 전화했니?",
+      "promptKo": "그는 어제 누구에게 전화했니?",
       "promptEn": "( call / he / who / did / yesterday / ? )",
       "accept": [
         "Who did he call yesterday?"
@@ -204,9 +312,13 @@
     {
       "id": "b05",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B5",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n너는 언제 애나를 만났니?",
+      "promptKo": "너는 언제 애나를 만났니?",
       "promptEn": "( did / you / when / meet / Anna / ? )",
       "accept": [
         "When did you meet Anna?"
@@ -215,9 +327,13 @@
     {
       "id": "b06",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B6",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n루이스는 어디에서 왔니?",
+      "promptKo": "루이스는 어디에서 왔니?",
       "promptEn": "( Louis / where / come from / did / ? )",
       "accept": [
         "Where did Louis come from?"
@@ -226,9 +342,13 @@
     {
       "id": "b07",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B7",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n너는 어떻게 그 반지를 찾았니?",
+      "promptKo": "너는 어떻게 그 반지를 찾았니?",
       "promptEn": "( the ring / you / how / find / did / ? )",
       "accept": [
         "How did you find the ring?"
@@ -237,9 +357,13 @@
     {
       "id": "b08",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B8",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n너는 그 스케치북에 무엇을 그릴 거니?",
+      "promptKo": "너는 그 스케치북에 무엇을 그릴 거니?",
       "promptEn": "( will / draw / in the sketchbook / what / you / ? )",
       "accept": [
         "What will you draw in the sketchbook?"
@@ -248,9 +372,13 @@
     {
       "id": "b09",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B9",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n그녀는 왜 지금 떠나야 하니?",
+      "promptKo": "그녀는 왜 지금 떠나야 하니?",
       "promptEn": "( must / leave now / why / she / ? )",
       "accept": [
         "Why must she leave now?"
@@ -259,34 +387,45 @@
     {
       "id": "b10",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B10",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n누가 문 뒤에 있니?",
+      "promptKo": "누가 문 뒤에 있니?",
       "promptEn": "( behind the door / who / is / ? )",
       "accept": [
         "Who is behind the door?",
-        "Who's behind the door?",
-        "Who’s behind the door?"
+        "who's behind the door?"
       ]
     },
     {
       "id": "b11",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B11",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n독수리와 매 중에서 어느 것이 더 높이 나니?",
+      "promptKo": "독수리와 매 중에서 어느 것이 더 높이 나니?",
       "promptEn": "( flies higher / an eagle or a hawk / which / , / ? )",
       "accept": [
         "Which flies higher, an eagle or a hawk?",
-        "Which flies higher an eagle or a hawk?"
+        "which flies higher an eagle or a hawk?"
       ]
     },
     {
       "id": "b12",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B12",
       "type": "sentence",
-      "promptKo": "B. 주어진 말을 바르게 배열하여 문장을 쓰세요.\n누가 이 문제를 풀 수 있니?",
+      "promptKo": "누가 이 문제를 풀 수 있니?",
       "promptEn": "( solve / who / this problem / can / ? )",
       "accept": [
         "Who can solve this problem?"

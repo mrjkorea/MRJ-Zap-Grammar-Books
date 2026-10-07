@@ -4,7 +4,14 @@ Source: Drive ZAPgreen03 (1oL7F5lLQIOK2aWtTEqwHetypmHtGLnM8) text + zap-green3/u
 Schema mirrors data/green1/unit01/*.json in mrjkorea/MRJ-Zap-Grammar-Books,
 plus optional fields: section, label (book numbering, e.g. "A3"), instructionKo.
 """
-import json, os, re
+import json, os, re, sys
+
+print(
+    "NOTE: data/green3/unit01/*.json is the source of truth (sectionsVersion 2). "
+    "This generator refuses to overwrite sectioned data.",
+    file=sys.stderr,
+)
+sys.exit(0)
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "green3", "unit01")
 os.makedirs(OUT, exist_ok=True)

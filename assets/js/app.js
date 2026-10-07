@@ -49,6 +49,213 @@
     return "Q" + (idx + 1);
   }
 
+  function sectionDef(practice, sectionId) {
+    var secs = practice.sections || [];
+    for (var i = 0; i < secs.length; i++) {
+      if (secs[i].id === sectionId) return secs[i];
+    }
+    return null;
+  }
+
+  function introKoForPractice(practice) {
+    if (practice.introKo) return practice.introKo;
+    var secs = practice.sections || [];
+    if (!secs.length) return "";
+    return secs
+      .map(function (s) {
+        var tag = s.answerModeTag || "";
+        var modeShort = tag.indexOf("·") >= 0 ? tag.split("·")[1].trim() : tag;
+        var title = s.title || (s.id ? "Section " + s.id : "Section");
+        return title + " " + s.itemCount + "문항(" + modeShort + ")";
+      })
+      .join(", ");
+  }
+
+  function sectionBannerTitle(item, practice) {
+    if (item.sectionTitle) return item.sectionTitle;
+    var def = item.section ? sectionDef(practice, item.section) : null;
+    if (def && def.title) return def.title;
+    if (item.section) return "Section " + item.section;
+    return "";
+  }
+
+  function sectionBannerInstruction(item, practice) {
+    if (item.sectionInstructionKo) return item.sectionInstructionKo;
+    var def = item.section ? sectionDef(practice, item.section) : null;
+    if (def && def.instructionKo) return def.instructionKo;
+    return "";
+  }
+
+  function sectionBannerModeTag(item, practice) {
+    if (item.answerModeTag) return item.answerModeTag;
+    var def = item.section ? sectionDef(practice, item.section) : null;
+    if (def && def.answerModeTag) return def.answerModeTag;
+    return "";
+  }
+
+  function appendModeChip(parent, tag) {
+    if (!tag) return;
+    parent.appendChild($("span", "mode-chip", tag));
+  }
+
+  function appendSectionBanner(form, item, practice, lastSection) {
+    if (!item.section || item.section === lastSection) return lastSection;
+    var banner = $("div", "section-banner");
+    var head = $("div", "section-banner-head");
+    head.appendChild($("span", "section-banner-title", sectionBannerTitle(item, practice)));
+    appendModeChip(head, sectionBannerModeTag(item, practice));
+    banner.appendChild(head);
+    var instr = sectionBannerInstruction(item, practice);
+    if (instr) banner.appendChild($("div", "section-banner-instr", instr));
+    form.appendChild(banner);
+    return item.section;
+  }
+
+  function inputPlaceholder(item) {
+    if (item.answerMode === "words") return "빈칸 말만";
+    if (item.answerMode === "sentence") return "문장 전체를 쓰세요";
+    return "";
+  }
+
+  function draftStorageKey(practice) {
+    var pid = engine.practiceIdOf(practice);
+    var ver = practice.sectionsVersion != null ? practice.sectionsVersion : 0;
+    return "gz.draft:" + pid + ":v" + ver;
+  }
+
+  function clearStaleDrafts(practice) {
+    var key = draftStorageKey(practice);
+    try {
+      var keys = [];
+      for (var i = 0; i < sessionStorage.length; i++) keys.push(sessionStorage.key(i));
+      keys.forEach(function (k) {
+        if (k && k.indexOf("gz.draft:") === 0 && k !== key) sessionStorage.removeItem(k);
+      });
+    } catch (e) {}
+  }
+
+  function renderPracticeIntro(practice) {
+    var intro = introKoForPractice(practice);
+    if (intro) app.appendChild($("p", "intro-ko", intro));
+    var secs = practice.sections || [];
+    if (!secs.length) return;
+    var row = $("div", "section-intro-row");
+    secs.forEach(function (s) {
+      var cell = $("div", "section-intro-cell");
+      cell.appendChild($("span", "section-intro-title", s.title || ("Section " + s.id)));
+      if (s.answerModeTag) appendModeChip(cell, s.answerModeTag);
+      row.appendChild(cell);
+    });
+    app.appendChild(row);
+  }
+
+  function appendPromptLines(card, item) {
+    if (item.promptKo) {
+      var ko = $("div", "q-ko");
+      ko.style.whiteSpace = "pre-line";
+      ko.textContent = item.promptKo;
+      card.appendChild(ko);
+    }
+    if (item.promptEn) {
+      var en = $("div", "q-en");
+      en.style.whiteSpace = "pre-line";
+      en.textContent = item.promptEn;
+      card.appendChild(en);
+    }
+    if (item.noteKo) card.appendChild($("div", "q-note", item.noteKo));
+  }
+
+  function renderExampleCard(item) {
+    var card = $("div", "q-card example-card");
+    var head = $("div", "q-head");
+    head.appendChild($("span", "q-num", itemDisplayLabel(item, 0) + " · 예시 (채점 안 함)"));
+    card.appendChild(head);
+    appendPromptLines(card, item);
+    if (item.exampleAnswer) {
+      card.appendChild($("div", "example-answer", "예시 답: " + item.exampleAnswer));
+    }
+    return card;
+  }
+
+  function renderQuestionCard(item, idx) {
+    var card = $("div", "q-card");
+    var head = $("div", "q-head");
+    head.appendChild($("span", "q-num", itemDisplayLabel(item, idx)));
+    appendModeChip(head, item.answerModeTag);
+    card.appendChild(head);
+    appendPromptLines(card, item);
+
+    if (item.type === "mc") {
+      var opts = $("div", "mc-options");
+      (item.choices || []).forEach(function (ch, ci) {
+        var lab = document.createElement("label");
+        var inp = document.createElement("input");
+        inp.type = "radio";
+        inp.name = item.id;
+        inp.value = ch;
+        inp.required = true;
+        lab.appendChild(inp);
+        lab.appendChild(document.createTextNode(" " + (item.choices.length > 2 ? ci + 1 + ". " : "") + ch));
+        opts.appendChild(lab);
+      });
+      card.appendChild(opts);
+    } else {
+      var blanks = item.blanks || 1;
+      var row = $("div", "blank-row");
+      var ph = inputPlaceholder(item);
+      if (blanks <= 1) {
+        var inp = document.createElement("input");
+        inp.type = "text";
+        inp.name = item.id;
+        inp.autocomplete = "off";
+        inp.required = true;
+        if (ph) inp.placeholder = ph;
+        inp.setAttribute("aria-label", "Answer for " + itemDisplayLabel(item, idx));
+        row.appendChild(inp);
+      } else {
+        for (var b = 0; b < blanks; b++) {
+          var slot = $("label", "blank-slot");
+          slot.appendChild($("span", "blank-num", String(b + 1)));
+          var inp2 = document.createElement("input");
+          inp2.type = "text";
+          inp2.name = item.id + "_" + b;
+          inp2.autocomplete = "off";
+          inp2.required = true;
+          if (ph) inp2.placeholder = ph;
+          inp2.setAttribute("aria-label", "Answer part " + (b + 1));
+          slot.appendChild(inp2);
+          row.appendChild(slot);
+        }
+      }
+      card.appendChild(row);
+    }
+    return card;
+  }
+
+  function walkPracticeItems(practice, onItem) {
+    var lastSection = null;
+    (practice.items || []).forEach(function (item, idx) {
+      if (item.section) lastSection = item.section;
+      onItem(item, idx, lastSection);
+    });
+  }
+
+  function selfTestPracticeRender(practice) {
+    var graded = 0;
+    var examples = 0;
+    var banners = 0;
+    var last = null;
+    (practice.items || []).forEach(function (item) {
+      if (item.section && item.section !== last) {
+        banners++;
+        last = item.section;
+      }
+      if (item.displayOnly) examples++;
+      else graded++;
+    });
+    return { graded: graded, examples: examples, banners: banners };
+  }
+
   function parsePracticeRoute(parts) {
     if (parts[0] !== "p" || !parts[1]) return null;
     if (parts.length >= 4) {
@@ -256,6 +463,9 @@
       );
     }
 
+    renderPracticeIntro(practice);
+    clearStaleDrafts(practice);
+
     var timerSec = (practice.timerMinutes || 15) * 60;
     var startedAt = Date.now();
     var locked = false;
@@ -288,56 +498,13 @@
     });
 
     var lastSection = null;
-    items.forEach(function (item, idx) {
-      if (item.section && item.section !== lastSection) {
-        lastSection = item.section;
-        var secHdr = $("div", "section-header", "Section " + item.section);
-        form.appendChild(secHdr);
+    (practice.items || []).forEach(function (item, idx) {
+      lastSection = appendSectionBanner(form, item, practice, lastSection);
+      if (item.displayOnly || item.example) {
+        form.appendChild(renderExampleCard(item));
+        return;
       }
-      var card = $("div", "q-card");
-      card.appendChild($("div", "q-num", itemDisplayLabel(item, idx)));
-      if (item.promptKo) card.appendChild($("div", "q-ko", item.promptKo));
-      if (item.promptEn) card.appendChild($("div", "q-en", item.promptEn));
-
-      if (item.type === "mc") {
-        var opts = $("div", "mc-options");
-        (item.choices || []).forEach(function (ch, ci) {
-          var lab = document.createElement("label");
-          var inp = document.createElement("input");
-          inp.type = "radio";
-          inp.name = item.id;
-          inp.value = ch;
-          inp.required = true;
-          lab.appendChild(inp);
-          lab.appendChild(document.createTextNode(" " + (item.choices.length > 2 ? ci + 1 + ". " : "") + ch));
-          opts.appendChild(lab);
-        });
-        card.appendChild(opts);
-      } else {
-        var blanks = item.blanks || 1;
-        var row = $("div", "blank-row");
-        if (blanks <= 1) {
-          var inp = document.createElement("input");
-          inp.type = "text";
-          inp.name = item.id;
-          inp.autocomplete = "off";
-          inp.required = true;
-          inp.setAttribute("aria-label", "Answer for " + itemDisplayLabel(item, idx));
-          row.appendChild(inp);
-        } else {
-          for (var b = 0; b < blanks; b++) {
-            var inp2 = document.createElement("input");
-            inp2.type = "text";
-            inp2.name = item.id + "_" + b;
-            inp2.autocomplete = "off";
-            inp2.required = true;
-            inp2.setAttribute("aria-label", "Answer part " + (b + 1));
-            row.appendChild(inp2);
-          }
-        }
-        card.appendChild(row);
-      }
-      form.appendChild(card);
+      form.appendChild(renderQuestionCard(item, idx));
     });
 
     var actions = $("div", "actions");
@@ -392,15 +559,25 @@
       if (outcome.mustRetry) status = "Please try this exercise again (under 50%).";
       panel.appendChild($("p", null, status));
 
+      var resultById = {};
+      outcome.results.forEach(function (r) {
+        resultById[r.id] = r;
+      });
+      var groupKey = null;
+      var groupLine = null;
       items.forEach(function (item, idx) {
-        var r = outcome.results.filter(function (x) {
-          return x.id === item.id;
-        })[0];
-        var line = $("p", null, "");
-        line.appendChild(document.createTextNode(itemDisplayLabel(item, idx) + " "));
+        var secTitle = sectionBannerTitle(item, practice) || "Items";
+        var key = (item.section || "") + "\0" + secTitle;
+        if (key !== groupKey) {
+          groupKey = key;
+          groupLine = $("p", "result-section-line", secTitle + ": ");
+          panel.appendChild(groupLine);
+        }
+        groupLine.appendChild(document.createTextNode(itemDisplayLabel(item, idx) + " "));
+        var r = resultById[item.id];
         var mark = $("span", r && r.correct ? "mark-ok" : "mark-bad", r && r.correct ? "✓" : "✗");
-        line.appendChild(mark);
-        panel.appendChild(line);
+        groupLine.appendChild(mark);
+        groupLine.appendChild(document.createTextNode(" "));
       });
 
       var wrong = outcome.results.filter(function (r) {
@@ -410,11 +587,10 @@
         panel.appendChild($("p", null, "Wrong:"));
         var ul = $("ul", "wrong-list");
         wrong.forEach(function (w) {
-          var n = items.findIndex(function (it) {
-            return it.id === w.id;
-          });
-          var it = items[n];
-          ul.appendChild($("li", null, itemDisplayLabel(it, n)));
+          var it = items.filter(function (x) {
+            return x.id === w.id;
+          })[0];
+          ul.appendChild($("li", null, it ? itemDisplayLabel(it, 0) : w.id));
         });
         panel.appendChild(ul);
       }
@@ -462,6 +638,21 @@
       }
     }, 1000);
   }
+
+  var appExports = {
+    introKoForPractice: introKoForPractice,
+    sectionBannerTitle: sectionBannerTitle,
+    sectionBannerInstruction: sectionBannerInstruction,
+    selfTestPracticeRender: selfTestPracticeRender,
+    renderExampleCard: renderExampleCard,
+    renderQuestionCard: renderQuestionCard,
+    appendSectionBanner: appendSectionBanner,
+  };
+  if (typeof module === "object" && module.exports) {
+    module.exports = appExports;
+  }
+
+  if (!app) return;
 
   window.addEventListener("hashchange", route);
   document.addEventListener("mrj-auth-ready", route);

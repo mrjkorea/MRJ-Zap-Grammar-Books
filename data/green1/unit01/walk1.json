@@ -1,14 +1,53 @@
 {
   "practiceId": "u01:walk1",
   "title": "Grammar Walk — Lesson 01",
-  "subtitle": "Affirmative present (pp. 10–11)",
-  "pages": "10–11",
+  "subtitle": "Affirmative present (p. 11)",
+  "pages": "11",
   "timerMinutes": 12,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    }
+  ],
   "items": [
     {
-      "id": "q01",
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "I ( am / is ) thirsty.",
       "choices": [
         "am",
@@ -19,9 +58,14 @@
       ]
     },
     {
-      "id": "q02",
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "He ( am / is ) a police officer.",
       "choices": [
         "am",
@@ -32,9 +76,14 @@
       ]
     },
     {
-      "id": "q03",
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "She ( am / is ) tired.",
       "choices": [
         "am",
@@ -45,9 +94,14 @@
       ]
     },
     {
-      "id": "q04",
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "They ( is / are ) my classmates.",
       "choices": [
         "is",
@@ -58,9 +112,14 @@
       ]
     },
     {
-      "id": "q05",
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "My parents ( is / are ) in the living room.",
       "choices": [
         "is",
@@ -71,9 +130,14 @@
       ]
     },
     {
-      "id": "q06",
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "This bird ( is / are ) very cute.",
       "choices": [
         "is",
@@ -84,9 +148,14 @@
       ]
     },
     {
-      "id": "q07",
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "We ( is / are ) at home today.",
       "choices": [
         "is",
@@ -97,9 +166,14 @@
       ]
     },
     {
-      "id": "q08",
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "I ( like / likes ) bananas.",
       "choices": [
         "like",
@@ -110,9 +184,14 @@
       ]
     },
     {
-      "id": "q09",
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "Hana ( help / helps ) her mother every day.",
       "choices": [
         "help",
@@ -123,9 +202,14 @@
       ]
     },
     {
-      "id": "q10",
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "I ( feed / feeds ) my cat in the evening.",
       "choices": [
         "feed",
@@ -136,9 +220,14 @@
       ]
     },
     {
-      "id": "q11",
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "She ( brush / brushes ) her teeth after dinner.",
       "choices": [
         "brush",
@@ -149,9 +238,14 @@
       ]
     },
     {
-      "id": "q12",
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "He ( fly / flies ) a model airplane on Sunday.",
       "choices": [
         "fly",
@@ -162,9 +256,14 @@
       ]
     },
     {
-      "id": "q13",
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "My brother ( exercise / exercises ) every morning.",
       "choices": [
         "exercise",
@@ -175,9 +274,14 @@
       ]
     },
     {
-      "id": "q14",
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "We ( have / has ) a big tent.",
       "choices": [
         "have",
@@ -188,9 +292,14 @@
       ]
     },
     {
-      "id": "q15",
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
       "type": "mc",
-      "promptKo": "괄호 안에서 알맞은 말을 고르세요.",
       "promptEn": "Tony ( have / has ) a nice skateboard.",
       "choices": [
         "have",

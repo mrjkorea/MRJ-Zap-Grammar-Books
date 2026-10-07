@@ -4,245 +4,422 @@
   "subtitle": "Rewrite & unscramble (pp. 18–19)",
   "pages": "18–19",
   "timerMinutes": 24,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(문장 전체 쓰기), Section B 11문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
   "items": [
     {
-      "id": "q01",
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "This isn't a new computer.",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "This is a new computer. (negative)",
+      "promptEn": "This is a new computer. ( 부정문 )",
       "accept": [
         "This isn't a new computer.",
-        "This is not a new computer.",
-        "This isn't a new computer",
-        "This is not a new computer"
+        "this is not a new computer."
       ]
     },
     {
-      "id": "q02",
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "We are in the yard. (negative)",
+      "promptEn": "We are in the yard. ( 부정문 )",
       "accept": [
         "We aren't in the yard.",
-        "We are not in the yard.",
-        "We're not in the yard.",
-        "We aren't in the yard",
-        "We are not in the yard",
-        "We're not in the yard"
+        "we are not in the yard.",
+        "we're not in the yard."
       ]
     },
     {
-      "id": "q03",
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "I am in the fifth grade. (negative)",
+      "promptEn": "I am in the fifth grade. ( 부정문 )",
       "accept": [
         "I'm not in the fifth grade.",
-        "I am not in the fifth grade.",
-        "I'm not in the fifth grade",
-        "I am not in the fifth grade"
+        "i am not in the fifth grade."
       ]
     },
     {
-      "id": "q04",
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "My father works in a bank. (negative)",
+      "promptEn": "My father works in a bank. ( 부정문 )",
       "accept": [
         "My father doesn't work in a bank.",
-        "My father does not work in a bank."
+        "my father does not work in a bank."
       ]
     },
     {
-      "id": "q05",
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "Nina and her brother drink milk. (negative)",
+      "promptEn": "Nina and her brother drink milk. ( 부정문 )",
       "accept": [
         "Nina and her brother don't drink milk.",
-        "Nina and her brother do not drink milk."
+        "nina and her brother do not drink milk."
       ]
     },
     {
-      "id": "q06",
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A6",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "Paul's family goes to the park on Sundays. (negative)",
+      "promptEn": "Paul's family goes to the park on Sundays. ( 부정문 )",
       "accept": [
         "Paul's family doesn't go to the park on Sundays.",
-        "Paul's family does not go to the park on Sundays."
+        "paul's family does not go to the park on sundays."
       ]
     },
     {
-      "id": "q07",
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A7",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "Your uncle is strong. (question)",
+      "promptEn": "Your uncle is strong. ( 의문문 )",
       "accept": [
-        "Is your uncle strong?",
-        "Is your uncle strong"
+        "Is your uncle strong?"
       ]
     },
     {
-      "id": "q08",
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A8",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "There are a lot of ducks in the pond. (question)",
+      "promptEn": "There are a lot of ducks in the pond. ( 의문문 )",
       "accept": [
-        "Are there a lot of ducks in the pond?",
-        "Are there a lot of ducks in the pond"
+        "Are there a lot of ducks in the pond?"
       ]
     },
     {
-      "id": "q09",
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A9",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "They live near the river. (question)",
+      "promptEn": "They live near the river. ( 의문문 )",
       "accept": [
-        "Do they live near the river?",
-        "Do they live near the river"
+        "Do they live near the river?"
       ]
     },
     {
-      "id": "q10",
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A10",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "She walks her dog in the afternoon. (question)",
+      "promptEn": "She walks her dog in the afternoon. ( 의문문 )",
       "accept": [
-        "Does she walk her dog in the afternoon?",
-        "Does she walk her dog in the afternoon"
+        "Does she walk her dog in the afternoon?"
       ]
     },
     {
-      "id": "q11",
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A11",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "You play the piano after school. (question)",
+      "promptEn": "You play the piano after school. ( 의문문 )",
       "accept": [
-        "Do you play the piano after school?",
-        "Do you play the piano after school"
+        "Do you play the piano after school?"
       ]
     },
     {
-      "id": "q12",
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A12",
       "type": "sentence",
-      "promptKo": "괄호 안 지시대로 문장을 바꿔 쓰세요.",
-      "promptEn": "Jake has new in-line skates. (question)",
+      "promptEn": "Jake has new in-line skates. ( 의문문 )",
       "accept": [
-        "Does Jake have new in-line skates?",
-        "Does Jake have new in-line skates"
+        "Does Jake have new in-line skates?"
       ]
     },
     {
-      "id": "q13",
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I am a good swimmer.",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "I / a good swimmer / am / . (나는 수영을 잘한다.)",
+      "promptKo": "나는 수영을 잘한다.",
+      "promptEn": "( I / a good swimmer / am / . )",
       "accept": [
         "I am a good swimmer.",
-        "I'm a good swimmer."
+        "i'm a good swimmer."
       ]
     },
     {
-      "id": "q14",
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "this cake / very delicious / is / . (이 케이크는 무척 맛있다.)",
+      "promptKo": "이 케이크는 무척 맛있다.",
+      "promptEn": "( this cake / very delicious / is / . )",
       "accept": [
         "This cake is very delicious."
       ]
     },
     {
-      "id": "q15",
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "we / every morning / jump rope / . (우리는 아침마다 줄넘기를 한다.)",
+      "promptKo": "우리는 아침마다 줄넘기를 한다.",
+      "promptEn": "( we / every morning / jump rope / . )",
       "accept": [
         "We jump rope every morning."
       ]
     },
     {
-      "id": "q16",
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "he / his parents / helps / on weekends / . (그는 주말마다 부모님을 돕는다.)",
+      "promptKo": "그는 주말마다 자기 부모님을 돕는다.",
+      "promptEn": "( he / his parents / helps / on weekends / . )",
       "accept": [
         "He helps his parents on weekends."
       ]
     },
     {
-      "id": "q17",
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "my mother / at home now / isn't / . (우리 어머니는 지금 집에 계시지 않는다.)",
+      "promptKo": "우리 어머니는 지금 집에 계시지 않는다.",
+      "promptEn": "( my mother / at home now / isn't / . )",
       "accept": [
         "My mother isn't at home now.",
-        "My mother is not at home now."
+        "my mother is not at home now."
       ]
     },
     {
-      "id": "q18",
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "like / don't / my grandparents / cats / . (우리 조부모님은 고양이를 좋아하지 않는다.)",
+      "promptKo": "우리 조부모님은 고양이를 좋아하시지 않는다.",
+      "promptEn": "( like / don't / my grandparents / cats / . )",
       "accept": [
         "My grandparents don't like cats.",
-        "My grandparents do not like cats."
+        "my grandparents do not like cats."
       ]
     },
     {
-      "id": "q19",
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "in the library / they / aren't / . (그들은 도서관에 있지 않다.)",
+      "promptKo": "그들은 도서관에 있지 않다.",
+      "promptEn": "( in the library / they / aren't / . )",
       "accept": [
         "They aren't in the library.",
-        "They are not in the library.",
-        "They're not in the library."
+        "they are not in the library.",
+        "they're not in the library."
       ]
     },
     {
-      "id": "q20",
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "have a skateboard / Bill / doesn't / . (빌은 스케이트보드가 없다.)",
+      "promptKo": "빌은 스케이트보드를 가지고 있지 않다.",
+      "promptEn": "( have a skateboard / Bill / doesn't / . )",
       "accept": [
         "Bill doesn't have a skateboard.",
-        "Bill does not have a skateboard."
+        "bill does not have a skateboard."
       ]
     },
     {
-      "id": "q21",
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "is / in the afternoon / he / busy / ? (그는 오후에 바쁘니?)",
+      "promptKo": "그는 오후에 바쁘니?",
+      "promptEn": "( is / in the afternoon / he / busy / ? )",
       "accept": [
         "Is he busy in the afternoon?"
       ]
     },
     {
-      "id": "q22",
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "there / are / in the box / many apples / ? (상자에 사과가 많니?)",
+      "promptKo": "상자 안에 사과가 많이 있니?",
+      "promptEn": "( there / are / in the box / many apples / ? )",
       "accept": [
         "Are there many apples in the box?"
       ]
     },
     {
-      "id": "q23",
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "does / every day / read a book / she / ? (그녀는 매일 책을 읽니?)",
+      "promptKo": "그녀는 매일 책을 읽니?",
+      "promptEn": "( does / every day / read a book / she / ? )",
       "accept": [
         "Does she read a book every day?"
       ]
     },
     {
-      "id": "q24",
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B12",
       "type": "sentence",
-      "promptKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
-      "promptEn": "you / do / coffee / drink / ? (너는 커피를 마시니?)",
+      "promptKo": "너는 커피를 마시니?",
+      "promptEn": "( you / do / coffee / drink / ? )",
       "accept": [
         "Do you drink coffee?"
       ]

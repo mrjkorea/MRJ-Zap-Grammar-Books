@@ -9,13 +9,62 @@
   "appName": "GreenZap 3",
   "unitId": "unit-01",
   "unitTitle": "Unit 01 — 의문사 있는 의문문 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 8문항(고르기), Section B 4문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 8,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "a01",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너는 무엇을 먹고 있니?",
+      "promptKo": "너는 무엇을 먹고 있니?",
       "promptEn": "( Who / What ) are you eating?",
       "choices": [
         "Who",
@@ -28,9 +77,13 @@
     {
       "id": "a02",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n네 아버지는 무슨 일을 하시니?",
+      "promptKo": "네 아버지는 무슨 일을 하시니?",
       "promptEn": "( What / Which ) does your father do?",
       "choices": [
         "What",
@@ -43,9 +96,13 @@
     {
       "id": "a03",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너는 엄마 생신을 위해 무엇을 할 거니?",
+      "promptKo": "너는 엄마 생신을 위해 무엇을 할 거니?",
       "promptEn": "( Who / What ) will you do for Mom's birthday?",
       "choices": [
         "Who",
@@ -58,9 +115,13 @@
     {
       "id": "a04",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n파스타와 피자 중에서 어느 것이 더 맛있니?",
+      "promptKo": "파스타와 피자 중에서 어느 것이 더 맛있니?",
       "promptEn": "( Which / What ) is more delicious, pasta or pizza?",
       "choices": [
         "Which",
@@ -73,9 +134,13 @@
     {
       "id": "a05",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n빨간색 외투와 검은색 외투 중에서 어느 것이 더 좋아 보이니?",
+      "promptKo": "빨간색 외투와 검은색 외투 중에서 어느 것이 더 좋아 보이니?",
       "promptEn": "( What / Which ) looks better, a red coat or a black coat?",
       "choices": [
         "What",
@@ -88,9 +153,13 @@
     {
       "id": "a06",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A6",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n그는 스테이크와 스파게티 중에서 어느 것을 먹었니?",
+      "promptKo": "그는 스테이크와 스파게티 중에서 어느 것을 먹었니?",
       "promptEn": "( What / Which ) did he eat, steak or spaghetti?",
       "choices": [
         "What",
@@ -103,9 +172,13 @@
     {
       "id": "a07",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A7",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너희 반에서 가장 예쁜 여자아이는 누구니?",
+      "promptKo": "너희 반에서 가장 예쁜 여자아이는 누구니?",
       "promptEn": "( Who / What ) is the prettiest girl in your class?",
       "choices": [
         "Who",
@@ -118,9 +191,13 @@
     {
       "id": "a08",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A8",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n그녀는 어제 누구를 만났니?",
+      "promptKo": "그녀는 어제 누구를 만났니?",
       "promptEn": "( Who / Which ) did she meet yesterday?",
       "choices": [
         "Who",
@@ -133,9 +210,13 @@
     {
       "id": "a09",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A9",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너는 네 파티에 누구를 초대할 거니?",
+      "promptKo": "너는 네 파티에 누구를 초대할 거니?",
       "promptEn": "( What / Who ) will you invite to your party?",
       "choices": [
         "What",
@@ -148,9 +229,15 @@
     {
       "id": "b01",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "무엇이",
       "type": "mc",
-      "promptKo": "B. 다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요.",
       "promptEn": "What is in the box?  (밑줄: What)",
       "choices": [
         "무엇이",
@@ -163,9 +250,12 @@
     {
       "id": "b02",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B2",
       "type": "mc",
-      "promptKo": "B. 다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요.",
       "promptEn": "What does he want for lunch?  (밑줄: What)",
       "choices": [
         "무엇이",
@@ -178,9 +268,12 @@
     {
       "id": "b03",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B3",
       "type": "mc",
-      "promptKo": "B. 다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요.",
       "promptEn": "Which do you want, milk or juice?  (밑줄: Which)",
       "choices": [
         "어느 것이",
@@ -193,9 +286,12 @@
     {
       "id": "b04",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B4",
       "type": "mc",
-      "promptKo": "B. 다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요.",
       "promptEn": "Who will you invite?  (밑줄: Who)",
       "choices": [
         "누가",
@@ -208,9 +304,12 @@
     {
       "id": "b05",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B5",
       "type": "mc",
-      "promptKo": "B. 다음 문장에서 밑줄 친 부분의 알맞은 우리말 뜻을 골라 동그라미 하세요.",
       "promptEn": "Who helps you with your homework?  (밑줄: Who)",
       "choices": [
         "누가",
