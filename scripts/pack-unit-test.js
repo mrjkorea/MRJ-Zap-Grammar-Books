@@ -148,6 +148,7 @@ function mockStorage() {
     },
   };
   pack._state.idKey = pack.idKeyFromStudent("Student A");
+  pack._state.activeStudentIdKey = pack.idKeyFromStudent("Student A");
   pack._state.pack = pack.emptyPack();
   pack._state.dirty = true;
   pack._state.loadOk = true;
@@ -158,6 +159,7 @@ function mockStorage() {
   };
   pack._test.syncStudentContext();
   assert.strictEqual(pack._state.idKey, "");
+  assert.strictEqual(pack._state.activeStudentIdKey, pack.idKeyFromStudent("Student B"));
   assert.strictEqual(pack._state.pack, null);
   assert.strictEqual(pack._state.dirty, false);
   assert.strictEqual(pack._state.loadOk, false);
@@ -174,6 +176,172 @@ function mockStorage() {
   globalThis.MRJ_AUTH = prevAuth;
   pack.resetInMemoryState();
 })();
+
+async function testScoreDuringSaveKeepsDirty() {
+  let resolveSave;
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return "student_a";
+    },
+    packReady() {
+      return true;
+    },
+    savePack() {
+      return new Promise(function (resolve) {
+        resolveSave = resolve;
+      });
+    },
+  };
+  pack.resetInMemoryState();
+  pack._state.idKey = pack.idKeyFromStudent("student_a");
+  pack._state.pack = pack.emptyPack();
+  pack._state.serverPack = pack.emptyPack();
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  pack._state.dirty = true;
+  const savePromise = pack._test.pushSave(false);
+  pack.onPracticeScored("u01:walk1", { correct: 5, max: 10, pct: 50, durationSec: 1, at: 1 }, []);
+  resolveSave({ ok: true });
+  await savePromise;
+  assert.strictEqual(pack._state.dirty, true);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
+async function testSaveFailureBackoffStopsAndResumesOnScore() {
+  let saves = 0;
+  let loads = 0;
+  let saveShouldFail = true;
+  let now = 0;
+  const prevNow = Date.now;
+  Date.now = function () {
+    return now;
+  };
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return "student_a";
+    },
+    packReady() {
+      return true;
+    },
+    loadPack() {
+      loads++;
+      return Promise.resolve({ ok: true, found: false, progress_json: "{}" });
+    },
+    savePack() {
+      saves++;
+      return Promise.resolve(
+        saveShouldFail ? { ok: false, error: "network" } : { ok: true }
+      );
+    },
+  };
+  pack.resetInMemoryState();
+  pack._state.idKey = pack.idKeyFromStudent("student_a");
+  pack._state.pack = pack.emptyPack();
+  pack._state.serverPack = pack.emptyPack();
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  pack.recordPracticeAttempt(
+    pack._state.pack,
+    "u01:walk1",
+    { correct: 1, max: 1, pct: 100, durationSec: 1, at: 1 },
+    []
+  );
+  pack._state.dirty = true;
+
+  async function saveReloadCycle() {
+    if (!pack._state.loadOk) {
+      await pack.runLoad();
+      pack._state.dirty = true;
+    }
+    await pack._test.pushSave(false);
+  }
+
+  while (now < 45 * 60 * 1000 && !pack._state.saveRetryStopped) {
+    const wait = pack.msUntilSaveAllowed();
+    now += (wait > 0 ? wait : 0) + 1;
+    await saveReloadCycle();
+  }
+  const savesBeforeStop = saves;
+  assert.ok(savesBeforeStop <= 8, "expected at most ~6 failures plus early retries, got " + saves);
+  assert.strictEqual(pack._state.saveRetryStopped, true);
+
+  now += 45 * 60 * 1000;
+  await pack._test.pushSave(false);
+  assert.strictEqual(saves, savesBeforeStop, "no saves after stop until new score");
+
+  saveShouldFail = false;
+  const loadsBefore = loads;
+  const savesBeforeResume = saves;
+  pack.onPracticeScored("u01:walk1", { correct: 1, max: 1, pct: 100, durationSec: 1, at: now }, []);
+  await Promise.resolve();
+  assert.strictEqual(loads - loadsBefore, 1, "score after stop should trigger exactly one load");
+  assert.ok(!pack._state.retryLoadTimer, "stopped retries must clear pending load timer");
+  now += pack.msUntilSaveAllowed() + 1;
+  await pack._test.pushSave(false);
+  assert.strictEqual(saves - savesBeforeResume, 1, "score after recovery should trigger exactly one save");
+
+  Date.now = prevNow;
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
+async function testPagehideFlushBypassesThrottleWithScore() {
+  let saves = 0;
+  let savedJson = "";
+  let now = 0;
+  const prevNow = Date.now;
+  Date.now = function () {
+    return now;
+  };
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return "student_a";
+    },
+    packReady() {
+      return true;
+    },
+    loadPack() {
+      return Promise.resolve({ ok: true, found: false, progress_json: "{}" });
+    },
+    savePack(_program, json) {
+      saves++;
+      savedJson = json;
+      return Promise.resolve({ ok: true });
+    },
+  };
+  pack.resetInMemoryState();
+  pack._state.idKey = pack.idKeyFromStudent("student_a");
+  pack._state.pack = pack.emptyPack();
+  pack._state.serverPack = pack.emptyPack();
+  pack.recordPracticeAttempt(
+    pack._state.pack,
+    "u01:walk1",
+    { correct: 5, max: 10, pct: 50, durationSec: 1, at: 1 },
+    []
+  );
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  pack._state.dirty = true;
+  now = 0;
+  await pack._test.pushSave(false);
+  assert.strictEqual(saves, 1);
+
+  now = 8000;
+  pack.onPracticeScored("u01:walk2", { correct: 8, max: 10, pct: 80, durationSec: 1, at: 8000 }, []);
+  now = 10000;
+  await pack._test.flushSave();
+  assert.strictEqual(saves, 2, "pagehide flush should send save despite 17s throttle");
+  const saved = pack.parsePackJson(savedJson).data;
+  assert.ok(saved.practices["u01:walk2"], "flush save should include the new score");
+
+  Date.now = prevNow;
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
 
 async function testSaveMergesServerSnapshotBeforeUpload() {
   let savedJson = "";
@@ -211,7 +379,7 @@ async function testSaveMergesServerSnapshotBeforeUpload() {
   pack._state.loadOk = true;
   pack._state.loadFinished = true;
   pack._state.dirty = true;
-  await pack._test.pushSave(true);
+  await pack._test.pushSave(false);
   const saved = pack.parsePackJson(savedJson).data;
   assert.ok(saved.practices["u01:walk1"]);
   assert.ok(saved.practices["u01:walk2"]);
@@ -220,7 +388,169 @@ async function testSaveMergesServerSnapshotBeforeUpload() {
   pack.resetInMemoryState();
 }
 
+async function testStudentSwitchStartsLoadWhileOtherInFlight() {
+  let resolveKidA;
+  let currentStudent = "KidA";
+  const loadsByStudent = [];
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return currentStudent;
+    },
+    loadPack() {
+      loadsByStudent.push(currentStudent);
+      if (currentStudent === "KidA") {
+        return new Promise(function (resolve) {
+          resolveKidA = resolve;
+        });
+      }
+      return Promise.resolve({ ok: true, found: true, progress_json: '{"v":1,"practices":{}}' });
+    },
+    packReady() {
+      return true;
+    },
+  };
+  pack.resetInMemoryState();
+  pack.runLoad();
+  currentStudent = "KidB";
+  await pack.runLoad();
+  assert.ok(loadsByStudent.includes("KidB"), "KidB pack load must be requested");
+  assert.strictEqual(
+    loadsByStudent.filter(function (s) {
+      return s === "KidB";
+    }).length,
+    1
+  );
+  pack._state.idKey = pack.idKeyFromStudent("KidB");
+  pack._state.loadOk = true;
+  resolveKidA({ ok: true, found: false, progress_json: "{}" });
+  await Promise.resolve();
+  assert.strictEqual(pack._state.activeStudentIdKey, pack.idKeyFromStudent("KidB"));
+  assert.strictEqual(pack._state.loadOk, true);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
+async function testLateLoadFailureDoesNotClobberNewStudent() {
+  let resolveLoad;
+  let currentStudent = "Student A";
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return currentStudent;
+    },
+    loadPack() {
+      return new Promise(function (resolve) {
+        resolveLoad = resolve;
+      });
+    },
+    packReady() {
+      return true;
+    },
+  };
+  pack.resetInMemoryState();
+  const loadPromise = pack.runLoad();
+  currentStudent = "Student B";
+  pack._test.syncStudentContext();
+  pack._state.idKey = pack.idKeyFromStudent("Student B");
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  resolveLoad({ ok: false, error: "stale_session" });
+  await loadPromise;
+  assert.strictEqual(pack._state.idKey, pack.idKeyFromStudent("Student B"));
+  assert.strictEqual(pack._state.loadOk, true);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
+async function testLateSaveFailureDoesNotBlockNewStudent() {
+  let resolveSave;
+  let currentStudent = "Student A";
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return currentStudent;
+    },
+    packReady() {
+      return true;
+    },
+    savePack() {
+      return new Promise(function (resolve) {
+        resolveSave = resolve;
+      });
+    },
+  };
+  pack.resetInMemoryState();
+  pack._state.idKey = pack.idKeyFromStudent("Student A");
+  pack._state.activeStudentIdKey = pack.idKeyFromStudent("Student A");
+  pack._state.pack = pack.emptyPack();
+  pack._state.serverPack = pack.emptyPack();
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  pack._state.dirty = true;
+  const savePromise = pack._test.pushSave(false);
+  currentStudent = "Student B";
+  pack._test.syncStudentContext();
+  pack._state.idKey = pack.idKeyFromStudent("Student B");
+  pack._state.loadOk = true;
+  pack._state.dirty = true;
+  resolveSave({ ok: false, error: "stale_session" });
+  await savePromise;
+  assert.strictEqual(pack._state.idKey, pack.idKeyFromStudent("Student B"));
+  assert.strictEqual(pack._state.loadOk, true);
+  assert.strictEqual(pack._state.dirty, true);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
+async function testStaleSessionLoadSchedulesRetryWithoutSave() {
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return "Student A";
+    },
+    loadPack() {
+      return Promise.resolve({ ok: false, error: "stale_session" });
+    },
+    packReady() {
+      return false;
+    },
+    savePack() {
+      throw new Error("must not save");
+    },
+  };
+  pack.resetInMemoryState();
+  await pack.runLoad();
+  assert.strictEqual(pack._state.loadOk, false);
+  assert.strictEqual(pack.canSave(), false);
+  assert.strictEqual(pack._state.loadRetryAttempt, 1);
+  assert.ok(pack._state.retryLoadTimer);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
 testSaveMergesServerSnapshotBeforeUpload()
+  .then(function () {
+    return testStudentSwitchStartsLoadWhileOtherInFlight();
+  })
+  .then(function () {
+    return testLateLoadFailureDoesNotClobberNewStudent();
+  })
+  .then(function () {
+    return testLateSaveFailureDoesNotBlockNewStudent();
+  })
+  .then(function () {
+    return testStaleSessionLoadSchedulesRetryWithoutSave();
+  })
+  .then(function () {
+    return testScoreDuringSaveKeepsDirty();
+  })
+  .then(function () {
+    return testSaveFailureBackoffStopsAndResumesOnScore();
+  })
+  .then(function () {
+    return testPagehideFlushBypassesThrottleWithScore();
+  })
   .then(function () {
     console.log("pack-unit-test: ok");
   })
