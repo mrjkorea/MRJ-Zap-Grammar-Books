@@ -49,8 +49,9 @@ Other books/units (ZAP Red/Blue/Green slots) appear in the index as **coming soo
 
 - `program=greenzap`, `app_name=GreenZap 1`, `source=greenzap`
 - `correctness`: `correct` | `incorrect`
-- One event per question (`u01:walk1:q03`, …) and one summary per finished practice (`u01:walk1`, `u01:quiz`, …)
-- `MRJ_AUTH.noteScore` on summary
+- One summary event per finished practice (`u01:walk1`, `u01:quiz`, …); per-question detail lives in the `greenzap` progress pack
+- `MRJ_AUTH.noteScore` on summary only
+- Per-student pack sync via `MRJ_AUTH.loadPack` / `savePack` (`program=greenzap`); build string in `version.json`
 
 ## Local preview
 
@@ -62,6 +63,7 @@ python3 -m http.server 8080
 ## Smoke test (Unit Test grading)
 
 ```bash
+node scripts/pack-unit-test.js
 node scripts/smoke-unit-test.js
 ```
 
