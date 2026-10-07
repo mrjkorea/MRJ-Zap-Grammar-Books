@@ -37,6 +37,9 @@
     staleFastRetryUsed: false,
     lastSaveFailAt: 0,
     lastSaveAttemptAt: 0,
+    lastFlushBypassAt: 0,
+    loadInFlight: false,
+    scoreResumePending: false,
     saveTimer: null,
     saveInFlight: false,
     pendingSave: false,
@@ -121,6 +124,9 @@
     state.staleFastRetryUsed = false;
     state.lastSaveFailAt = 0;
     state.lastSaveAttemptAt = 0;
+    state.lastFlushBypassAt = 0;
+    state.loadInFlight = false;
+    state.scoreResumePending = false;
     state.packChangeSeq = 0;
     state.pendingSave = false;
     state.saveInFlight = false;
@@ -306,28 +312,49 @@
     state.saveRetryStopped = false;
   }
 
-  function msUntilSaveAllowed() {
-    var now = Date.now();
-    var throttleWait = 0;
-    if (state.lastSaveAttemptAt) {
-      throttleWait = Math.max(0, SAVE_INTERVAL_MS - (now - state.lastSaveAttemptAt));
-    }
-    var backoffWait = 0;
-    if (state.saveFailureCount > 0 && state.lastSaveFailAt) {
-      var idx = Math.min(state.saveFailureCount - 1, SAVE_FAILURE_BACKOFF_MS.length - 1);
-      var delay = SAVE_FAILURE_BACKOFF_MS[idx];
-      backoffWait = Math.max(0, delay - (now - state.lastSaveFailAt));
-    }
-    return Math.max(throttleWait, backoffWait);
+  function currentBackoffDelayMs() {
+    if (!state.saveFailureCount) return 0;
+    var idx = Math.min(state.saveFailureCount - 1, SAVE_FAILURE_BACKOFF_MS.length - 1);
+    return SAVE_FAILURE_BACKOFF_MS[idx];
   }
 
-  function pushSave(force) {
+  function msUntilBackoffAllowed() {
+    if (!state.saveFailureCount || !state.lastSaveFailAt) return 0;
+    var delay = currentBackoffDelayMs();
+    return Math.max(0, delay - (Date.now() - state.lastSaveFailAt));
+  }
+
+  function msUntilSaveAllowed() {
+    var throttleWait = 0;
+    if (state.lastSaveAttemptAt) {
+      throttleWait = Math.max(0, SAVE_INTERVAL_MS - (Date.now() - state.lastSaveAttemptAt));
+    }
+    return Math.max(throttleWait, msUntilBackoffAllowed());
+  }
+
+  function loadPending() {
+    return state.loadInFlight || !!state.retryLoadTimer;
+  }
+
+  function pushSave(bypassThrottle) {
+    var bypass = bypassThrottle === true;
     if (!state.idKey || !state.pack || !state.dirty) return Promise.resolve();
     if (state.saveRetryStopped) return Promise.resolve();
     if (!state.loadOk || !state.loadFinished || !authPackReady(PROGRAM)) {
       return Promise.resolve();
     }
-    var wait = msUntilSaveAllowed();
+    var wait = 0;
+    if (bypass) {
+      if (state.saveFailureCount > 0) {
+        var windowMs = currentBackoffDelayMs();
+        if (state.lastFlushBypassAt && Date.now() - state.lastFlushBypassAt < windowMs) {
+          return Promise.resolve();
+        }
+        state.lastFlushBypassAt = Date.now();
+      }
+    } else {
+      wait = msUntilSaveAllowed();
+    }
     if (wait > 0) {
       state.pendingSave = true;
       scheduleSave(wait);
@@ -359,6 +386,7 @@
           state.saveFailureCount = 0;
           state.staleFastRetryUsed = false;
           state.saveRetryStopped = false;
+          state.scoreResumePending = false;
           state.dirty = state.packChangeSeq !== changeSeqAtStart;
         } else {
           state.dirty = true;
@@ -377,6 +405,13 @@
 
   function handleFailedSave(errorCode) {
     state.loadOk = false;
+    if (state.scoreResumePending) {
+      state.scoreResumePending = false;
+      state.saveFailureCount = SAVE_FAILURE_STOP_AFTER;
+      state.lastSaveFailAt = Date.now();
+      state.saveRetryStopped = true;
+      return;
+    }
     state.saveFailureCount = (state.saveFailureCount || 0) + 1;
     state.lastSaveFailAt = Date.now();
     if (state.saveFailureCount >= SAVE_FAILURE_STOP_AFTER) {
@@ -400,11 +435,14 @@
 
   function flushSave() {
     if (!state.dirty || state.saveRetryStopped) return Promise.resolve();
+    if (!state.loadOk || !state.loadFinished || !authPackReady(PROGRAM)) {
+      return Promise.resolve();
+    }
     if (state.saveTimer) {
       clearTimeout(state.saveTimer);
       state.saveTimer = null;
     }
-    return pushSave(false);
+    return pushSave(true);
   }
 
   function applyMergedPack(idKey, merged, serverJson) {
@@ -429,15 +467,18 @@
       state.loadFinished = true;
       return Promise.resolve();
     }
+    if (state.loadInFlight) return Promise.resolve();
 
     var loadIdKey = idKey;
     var loadGen = state.sessionGen;
     var localAtStart = readLocalPack(loadIdKey);
     state.loadFinished = false;
     state.loadOk = false;
+    state.loadInFlight = true;
 
     return authLoadPack(PROGRAM)
       .then(function (res) {
+        state.loadInFlight = false;
         if (!contextMatches(loadIdKey, loadGen)) return;
         state.loadFinished = true;
         if (!res || !res.ok) {
@@ -459,6 +500,7 @@
         }
       })
       .catch(function () {
+        state.loadInFlight = false;
         if (!contextMatches(loadIdKey, loadGen)) return;
         state.loadFinished = true;
         handleFailedLoad(loadIdKey, "network");
@@ -467,6 +509,17 @@
 
   function handleFailedLoad(idKey, errorCode) {
     state.loadOk = false;
+    if (state.scoreResumePending) {
+      state.scoreResumePending = false;
+      state.saveFailureCount = SAVE_FAILURE_STOP_AFTER;
+      state.saveRetryStopped = true;
+      state.lastSaveFailAt = Date.now();
+      if (contextMatches(idKey, state.sessionGen)) {
+        state.pack = readLocalPack(idKey);
+        state.idKey = idKey;
+      }
+      return;
+    }
     if (contextMatches(idKey, state.sessionGen)) {
       state.pack = readLocalPack(idKey);
       state.idKey = idKey;
@@ -520,12 +573,17 @@
     if (!idKey) return;
     if (!state.pack) state.pack = readLocalPack(idKey);
     state.idKey = idKey;
+    var needsLoad = state.saveRetryStopped || !state.loadOk;
     resumeSaveRetries();
+    if (needsLoad) state.scoreResumePending = true;
     recordPracticeAttempt(state.pack, practiceId, outcome, questionRows);
     writeLocalPack(idKey, state.pack);
     state.packChangeSeq = (state.packChangeSeq || 0) + 1;
     state.dirty = true;
-    if (state.loadOk && state.loadFinished && authPackReady(PROGRAM)) scheduleSave();
+    if (!loadPending()) {
+      if (needsLoad) runLoad();
+      else if (state.loadOk && state.loadFinished && authPackReady(PROGRAM)) scheduleSave();
+    }
   }
 
   function getPack() {
@@ -598,6 +656,7 @@
       syncStudentContext: syncStudentContext,
       scheduleLoadRetry: scheduleLoadRetry,
       msUntilSaveAllowed: msUntilSaveAllowed,
+      flushSave: flushSave,
     },
   };
 });

@@ -209,6 +209,8 @@ async function testScoreDuringSaveKeepsDirty() {
 
 async function testSaveFailureBackoffStopsAndResumesOnScore() {
   let saves = 0;
+  let loads = 0;
+  let saveShouldFail = true;
   let now = 0;
   const prevNow = Date.now;
   Date.now = function () {
@@ -223,11 +225,14 @@ async function testSaveFailureBackoffStopsAndResumesOnScore() {
       return true;
     },
     loadPack() {
+      loads++;
       return Promise.resolve({ ok: true, found: false, progress_json: "{}" });
     },
     savePack() {
       saves++;
-      return Promise.resolve({ ok: false, error: "network" });
+      return Promise.resolve(
+        saveShouldFail ? { ok: false, error: "network" } : { ok: true }
+      );
     },
   };
   pack.resetInMemoryState();
@@ -265,12 +270,68 @@ async function testSaveFailureBackoffStopsAndResumesOnScore() {
   await pack._test.pushSave(false);
   assert.strictEqual(saves, savesBeforeStop, "no saves after stop until new score");
 
+  saveShouldFail = false;
+  const loadsBefore = loads;
+  const savesBeforeResume = saves;
   pack.onPracticeScored("u01:walk1", { correct: 1, max: 1, pct: 100, durationSec: 1, at: now }, []);
+  await Promise.resolve();
+  assert.strictEqual(loads - loadsBefore, 1, "score after stop should trigger exactly one load");
+  assert.strictEqual(saves - savesBeforeResume, 1, "score after recovery should trigger exactly one save");
+
+  Date.now = prevNow;
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
+async function testPagehideFlushBypassesThrottleWithScore() {
+  let saves = 0;
+  let savedJson = "";
+  let now = 0;
+  const prevNow = Date.now;
+  Date.now = function () {
+    return now;
+  };
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return "student_a";
+    },
+    packReady() {
+      return true;
+    },
+    loadPack() {
+      return Promise.resolve({ ok: true, found: false, progress_json: "{}" });
+    },
+    savePack(_program, json) {
+      saves++;
+      savedJson = json;
+      return Promise.resolve({ ok: true });
+    },
+  };
+  pack.resetInMemoryState();
+  pack._state.idKey = pack.idKeyFromStudent("student_a");
+  pack._state.pack = pack.emptyPack();
+  pack._state.serverPack = pack.emptyPack();
+  pack.recordPracticeAttempt(
+    pack._state.pack,
+    "u01:walk1",
+    { correct: 5, max: 10, pct: 50, durationSec: 1, at: 1 },
+    []
+  );
   pack._state.loadOk = true;
   pack._state.loadFinished = true;
-  now += pack.msUntilSaveAllowed() + 1;
+  pack._state.dirty = true;
+  now = 0;
   await pack._test.pushSave(false);
-  assert.ok(saves > savesBeforeStop);
+  assert.strictEqual(saves, 1);
+
+  now = 8000;
+  pack.onPracticeScored("u01:walk2", { correct: 8, max: 10, pct: 80, durationSec: 1, at: 8000 }, []);
+  now = 10000;
+  await pack._test.flushSave();
+  assert.strictEqual(saves, 2, "pagehide flush should send save despite 17s throttle");
+  const saved = pack.parsePackJson(savedJson).data;
+  assert.ok(saved.practices["u01:walk2"], "flush save should include the new score");
 
   Date.now = prevNow;
   globalThis.MRJ_AUTH = prevAuth;
@@ -436,6 +497,9 @@ testSaveMergesServerSnapshotBeforeUpload()
   })
   .then(function () {
     return testSaveFailureBackoffStopsAndResumesOnScore();
+  })
+  .then(function () {
+    return testPagehideFlushBypassesThrottleWithScore();
   })
   .then(function () {
     console.log("pack-unit-test: ok");
