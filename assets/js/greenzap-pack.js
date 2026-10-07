@@ -17,20 +17,42 @@
   var PACK_VERSION = 1;
   var SAVE_INTERVAL_MS = 17000;
   var RETRY_PCT = 50;
+  var LOAD_RETRY_DELAYS_MS = [5000, 15000, 60000];
+  var SAVE_FAILURE_BACKOFF_MS = [5000, 15000, 60000, 60000, 60000, 60000];
+  var SAVE_FAILURE_STOP_AFTER = 6;
+  var STALE_SESSION_RETRY_MS = 2000;
 
   var state = {
     idKey: "",
     pack: null,
     serverPack: null,
     dirty: false,
+    packChangeSeq: 0,
     loadOk: false,
     loadFinished: false,
+    sessionGen: 0,
+    loadRetryAttempt: 0,
+    saveFailureCount: 0,
+    saveRetryStopped: false,
+    staleFastRetryUsed: false,
+    lastSaveFailAt: 0,
+    lastSaveAttemptAt: 0,
+    lastFlushBypassAt: 0,
+    activeStudentIdKey: "",
+    loadInFlight: false,
+    loadInFlightOwnerIdKey: "",
+    loadInFlightOwnerGen: 0,
+    scoreResumePending: false,
     saveTimer: null,
     saveInFlight: false,
     pendingSave: false,
     lastSaveAt: 0,
     retryLoadTimer: null,
   };
+
+  function contextMatches(startIdKey, startGen) {
+    return studentIdKey() === startIdKey && state.sessionGen === startGen;
+  }
 
   function idKeyFromStudent(student) {
     return String(student == null ? "" : student)
@@ -92,12 +114,26 @@
   }
 
   function resetInMemoryState() {
+    state.sessionGen = (state.sessionGen || 0) + 1;
     state.idKey = "";
     state.pack = null;
     state.serverPack = null;
     state.dirty = false;
     state.loadOk = false;
     state.loadFinished = false;
+    state.loadRetryAttempt = 0;
+    state.saveFailureCount = 0;
+    state.saveRetryStopped = false;
+    state.staleFastRetryUsed = false;
+    state.lastSaveFailAt = 0;
+    state.lastSaveAttemptAt = 0;
+    state.lastFlushBypassAt = 0;
+    state.activeStudentIdKey = "";
+    state.loadInFlight = false;
+    state.loadInFlightOwnerIdKey = "";
+    state.loadInFlightOwnerGen = 0;
+    state.scoreResumePending = false;
+    state.packChangeSeq = 0;
     state.pendingSave = false;
     state.saveInFlight = false;
     state.lastSaveAt = 0;
@@ -106,7 +142,9 @@
       state.saveTimer = null;
     }
     if (state.retryLoadTimer) {
-      clearTimeout(state.retryLoadTimer);
+      try {
+        clearTimeout(state.retryLoadTimer);
+      } catch (e) {}
       state.retryLoadTimer = null;
     }
   }
@@ -268,50 +306,168 @@
   }
 
   function canSave() {
-    return state.loadOk && state.loadFinished && authPackReady(PROGRAM);
+    return (
+      state.loadOk &&
+      state.loadFinished &&
+      authPackReady(PROGRAM) &&
+      !state.saveRetryStopped
+    );
   }
 
-  function pushSave(force) {
-    if (!canSave() || !state.idKey || !state.pack) return Promise.resolve();
-    if (!state.dirty) return Promise.resolve();
-    var now = Date.now();
-    if (!force && now - state.lastSaveAt < SAVE_INTERVAL_MS) {
+  function resumeSaveRetries() {
+    state.saveRetryStopped = false;
+  }
+
+  function currentBackoffDelayMs() {
+    if (!state.saveFailureCount) return 0;
+    var idx = Math.min(state.saveFailureCount - 1, SAVE_FAILURE_BACKOFF_MS.length - 1);
+    return SAVE_FAILURE_BACKOFF_MS[idx];
+  }
+
+  function msUntilBackoffAllowed() {
+    if (!state.saveFailureCount || !state.lastSaveFailAt) return 0;
+    var delay = currentBackoffDelayMs();
+    return Math.max(0, delay - (Date.now() - state.lastSaveFailAt));
+  }
+
+  function msUntilSaveAllowed() {
+    var throttleWait = 0;
+    if (state.lastSaveAttemptAt) {
+      throttleWait = Math.max(0, SAVE_INTERVAL_MS - (Date.now() - state.lastSaveAttemptAt));
+    }
+    return Math.max(throttleWait, msUntilBackoffAllowed());
+  }
+
+  function clearLoadRetryTimer() {
+    if (state.retryLoadTimer) {
+      try {
+        clearTimeout(state.retryLoadTimer);
+      } catch (e) {}
+      state.retryLoadTimer = null;
+    }
+  }
+
+  function loadOwnerKey(idKey, gen) {
+    return String(idKey || "") + "\0" + String(gen == null ? 0 : gen);
+  }
+
+  function beginLoadFlight(loadIdKey, loadGen) {
+    state.loadInFlight = true;
+    state.loadInFlightOwnerIdKey = loadIdKey;
+    state.loadInFlightOwnerGen = loadGen;
+  }
+
+  function endLoadFlight(loadIdKey, loadGen) {
+    if (
+      state.loadInFlightOwnerIdKey === loadIdKey &&
+      state.loadInFlightOwnerGen === loadGen
+    ) {
+      state.loadInFlight = false;
+      state.loadInFlightOwnerIdKey = "";
+      state.loadInFlightOwnerGen = 0;
+    }
+  }
+
+  function loadPending() {
+    return state.loadInFlight || !!state.retryLoadTimer;
+  }
+
+  function markSaveRetryStopped() {
+    state.saveRetryStopped = true;
+    clearLoadRetryTimer();
+  }
+
+  function pushSave(bypassThrottle) {
+    var bypass = bypassThrottle === true;
+    if (!state.idKey || !state.pack || !state.dirty) return Promise.resolve();
+    if (state.saveRetryStopped) return Promise.resolve();
+    if (!state.loadOk || !state.loadFinished || !authPackReady(PROGRAM)) {
+      return Promise.resolve();
+    }
+    var wait = 0;
+    if (bypass) {
+      if (state.saveFailureCount > 0) {
+        var windowMs = currentBackoffDelayMs();
+        if (state.lastFlushBypassAt && Date.now() - state.lastFlushBypassAt < windowMs) {
+          return Promise.resolve();
+        }
+        state.lastFlushBypassAt = Date.now();
+      }
+    } else {
+      wait = msUntilSaveAllowed();
+    }
+    if (wait > 0) {
       state.pendingSave = true;
-      scheduleSave();
+      scheduleSave(wait);
       return Promise.resolve();
     }
     if (state.saveInFlight) {
       state.pendingSave = true;
       return Promise.resolve();
     }
+    var saveIdKey = state.idKey;
+    var saveGen = state.sessionGen;
+    var changeSeqAtStart = state.packChangeSeq;
     state.saveInFlight = true;
     state.pendingSave = false;
+    state.lastSaveAttemptAt = Date.now();
     var merged = mergePacks(state.pack, state.serverPack || emptyPack());
-    state.pack = merged;
-    writeLocalPack(state.idKey, merged);
+    if (contextMatches(saveIdKey, saveGen)) {
+      state.pack = merged;
+      writeLocalPack(saveIdKey, merged);
+    }
     var json = serializePack(merged);
     return authSavePack(PROGRAM, json)
       .then(function (res) {
         state.saveInFlight = false;
+        if (!contextMatches(saveIdKey, saveGen)) return;
         if (res && res.ok) {
           state.lastSaveAt = Date.now();
           state.serverPack = parsePackJson(json).data;
-          state.dirty = false;
-        } else state.loadOk = false;
-        if (state.pendingSave && state.dirty) scheduleSave();
+          state.saveFailureCount = 0;
+          state.staleFastRetryUsed = false;
+          state.saveRetryStopped = false;
+          state.scoreResumePending = false;
+          state.dirty = state.packChangeSeq !== changeSeqAtStart;
+        } else {
+          state.dirty = true;
+          handleFailedSave(res && res.error ? String(res.error) : "");
+        }
+        if (state.pendingSave && state.dirty && !state.saveRetryStopped) scheduleSave();
       })
       .catch(function () {
         state.saveInFlight = false;
-        state.loadOk = false;
+        if (!contextMatches(saveIdKey, saveGen)) return;
+        state.dirty = true;
+        handleFailedSave("network");
+        if (state.pendingSave && state.dirty && !state.saveRetryStopped) scheduleSave();
       });
   }
 
-  function scheduleSave() {
-    if (state.saveTimer) return;
-    var wait = SAVE_INTERVAL_MS;
-    if (state.lastSaveAt) {
-      wait = Math.max(0, SAVE_INTERVAL_MS - (Date.now() - state.lastSaveAt));
+  function handleFailedSave(errorCode) {
+    state.loadOk = false;
+    if (state.scoreResumePending) {
+      state.scoreResumePending = false;
+      state.saveFailureCount = SAVE_FAILURE_STOP_AFTER;
+      state.lastSaveFailAt = Date.now();
+      markSaveRetryStopped();
+      return;
     }
+    state.saveFailureCount = (state.saveFailureCount || 0) + 1;
+    state.lastSaveFailAt = Date.now();
+    if (state.saveFailureCount >= SAVE_FAILURE_STOP_AFTER) {
+      markSaveRetryStopped();
+      return;
+    }
+    var useStaleFast = errorCode === "stale_session" && !state.staleFastRetryUsed;
+    scheduleLoadRetry({ fromSaveFailure: true, useStaleFast: useStaleFast });
+  }
+
+  function scheduleSave(waitOverride) {
+    if (state.saveRetryStopped) return;
+    if (state.saveTimer) return;
+    var wait = typeof waitOverride === "number" ? waitOverride : msUntilSaveAllowed();
+    if (wait <= 0) wait = 0;
     state.saveTimer = setTimeout(function () {
       state.saveTimer = null;
       pushSave(false);
@@ -319,7 +475,10 @@
   }
 
   function flushSave() {
-    if (!state.dirty) return Promise.resolve();
+    if (!state.dirty || state.saveRetryStopped) return Promise.resolve();
+    if (!state.loadOk || !state.loadFinished || !authPackReady(PROGRAM)) {
+      return Promise.resolve();
+    }
     if (state.saveTimer) {
       clearTimeout(state.saveTimer);
       state.saveTimer = null;
@@ -336,10 +495,13 @@
   function syncStudentContext() {
     var idKey = studentIdKey();
     if (!idKey) {
-      if (state.idKey) resetInMemoryState();
+      if (state.activeStudentIdKey) resetInMemoryState();
       return "";
     }
-    if (state.idKey && state.idKey !== idKey) resetInMemoryState();
+    if (state.activeStudentIdKey && state.activeStudentIdKey !== idKey) {
+      resetInMemoryState();
+    }
+    state.activeStudentIdKey = idKey;
     return idKey;
   }
 
@@ -350,47 +512,114 @@
       return Promise.resolve();
     }
 
-    var localAtStart = readLocalPack(idKey);
+    var loadIdKey = idKey;
+    var loadGen = state.sessionGen;
+    if (
+      state.loadInFlight &&
+      state.loadInFlightOwnerIdKey === loadIdKey &&
+      state.loadInFlightOwnerGen === loadGen
+    ) {
+      return Promise.resolve();
+    }
+
+    var localAtStart = readLocalPack(loadIdKey);
+    if (state.pack && state.idKey === loadIdKey) {
+      localAtStart = mergePacks(localAtStart, state.pack);
+    }
     state.loadFinished = false;
     state.loadOk = false;
+    beginLoadFlight(loadIdKey, loadGen);
 
     return authLoadPack(PROGRAM)
       .then(function (res) {
+        endLoadFlight(loadIdKey, loadGen);
+        if (!contextMatches(loadIdKey, loadGen)) return;
         state.loadFinished = true;
         if (!res || !res.ok) {
-          state.pack = readLocalPack(idKey);
-          state.idKey = idKey;
-          scheduleLoadRetry();
+          handleFailedLoad(loadIdKey, res && res.error ? String(res.error) : "");
           return;
         }
         state.loadOk = true;
+        state.loadRetryAttempt = 0;
         var serverJson = res.progress_json != null ? res.progress_json : "";
-        var localPack = mergePacks(readLocalPack(idKey), localAtStart);
+        var localPack = mergePacks(readLocalPack(loadIdKey), localAtStart);
         var merged = mergePacks(localPack, serverJson);
         var serverParsed = parsePackJson(serverJson).data;
         state.serverPack = serverParsed;
-        applyMergedPack(idKey, merged, serverJson);
+        applyMergedPack(loadIdKey, merged, serverJson);
         state.dirty = false;
         if (isRicherThan(merged, serverParsed)) {
           state.dirty = true;
-          return pushSave(true);
+          scheduleSave();
         }
       })
       .catch(function () {
+        endLoadFlight(loadIdKey, loadGen);
+        if (!contextMatches(loadIdKey, loadGen)) return;
         state.loadFinished = true;
-        state.loadOk = false;
-        state.pack = readLocalPack(idKey);
-        state.idKey = idKey;
-        scheduleLoadRetry();
+        handleFailedLoad(loadIdKey, "network");
       });
   }
 
-  function scheduleLoadRetry() {
+  function handleFailedLoad(idKey, errorCode) {
+    state.loadOk = false;
+    if (state.scoreResumePending) {
+      state.scoreResumePending = false;
+      state.saveFailureCount = SAVE_FAILURE_STOP_AFTER;
+      markSaveRetryStopped();
+      state.lastSaveFailAt = Date.now();
+      if (contextMatches(idKey, state.sessionGen)) {
+        state.pack = readLocalPack(idKey);
+        state.idKey = idKey;
+      }
+      return;
+    }
+    if (contextMatches(idKey, state.sessionGen)) {
+      state.pack = readLocalPack(idKey);
+      state.idKey = idKey;
+    }
+    scheduleLoadRetry({
+      fromSaveFailure: false,
+      useStaleFast: errorCode === "stale_session",
+    });
+  }
+
+  function scheduleLoadRetry(opts) {
+    opts = opts || {};
     if (state.retryLoadTimer) return;
+    if (opts.fromSaveFailure && state.saveRetryStopped) return;
+    var wait;
+    if (opts.fromSaveFailure) {
+      if (opts.useStaleFast) {
+        state.staleFastRetryUsed = true;
+        wait = STALE_SESSION_RETRY_MS;
+      } else {
+        var fIdx = Math.min(
+          Math.max(0, state.saveFailureCount - 1),
+          SAVE_FAILURE_BACKOFF_MS.length - 1
+        );
+        wait = SAVE_FAILURE_BACKOFF_MS[fIdx];
+        if (state.lastSaveFailAt) {
+          wait = Math.max(0, wait - (Date.now() - state.lastSaveFailAt));
+        }
+      }
+    } else {
+      var attempt = state.loadRetryAttempt || 0;
+      if (opts.useStaleFast && !state.staleFastRetryUsed) {
+        state.staleFastRetryUsed = true;
+        wait = STALE_SESSION_RETRY_MS;
+      } else {
+        wait = LOAD_RETRY_DELAYS_MS[Math.min(attempt, LOAD_RETRY_DELAYS_MS.length - 1)];
+      }
+      state.loadRetryAttempt = attempt + 1;
+    }
+    var fromSaveFailure = !!opts.fromSaveFailure;
     state.retryLoadTimer = setTimeout(function () {
       state.retryLoadTimer = null;
-      if (!state.loadOk) runLoad();
-    }, 60000);
+      if (!studentIdKey() || state.loadOk) return;
+      if (fromSaveFailure && state.saveRetryStopped) return;
+      runLoad();
+    }, wait);
   }
 
   function onPracticeScored(practiceId, outcome, questionRows) {
@@ -398,10 +627,19 @@
     if (!idKey) return;
     if (!state.pack) state.pack = readLocalPack(idKey);
     state.idKey = idKey;
+    var needsLoad = state.saveRetryStopped || !state.loadOk;
+    resumeSaveRetries();
+    if (needsLoad) state.scoreResumePending = true;
     recordPracticeAttempt(state.pack, practiceId, outcome, questionRows);
     writeLocalPack(idKey, state.pack);
+    state.packChangeSeq = (state.packChangeSeq || 0) + 1;
     state.dirty = true;
-    if (canSave()) scheduleSave();
+    if (needsLoad) {
+      clearLoadRetryTimer();
+      runLoad();
+    } else if (state.loadOk && state.loadFinished && authPackReady(PROGRAM)) {
+      scheduleSave();
+    }
   }
 
   function getPack() {
@@ -421,6 +659,7 @@
     if (typeof root.addEventListener !== "function") return;
     root.__MRJ_GZ_PACK_BOUND = true;
     root.addEventListener("mrj-auth-ready", function () {
+      resumeSaveRetries();
       runLoad();
     });
     root.addEventListener("pagehide", function () {
@@ -438,6 +677,9 @@
     LS_KEY_BASE: LS_KEY_BASE,
     RETRY_PCT: RETRY_PCT,
     SAVE_INTERVAL_MS: SAVE_INTERVAL_MS,
+    SAVE_FAILURE_STOP_AFTER: SAVE_FAILURE_STOP_AFTER,
+    msUntilSaveAllowed: msUntilSaveAllowed,
+    resumeSaveRetries: resumeSaveRetries,
     idKeyFromStudent: idKeyFromStudent,
     storageKey: storageKey,
     emptyPack: emptyPack,
@@ -458,12 +700,21 @@
     flushSave: flushSave,
     canSave: canSave,
     _state: state,
+    contextMatches: contextMatches,
+    handleFailedLoad: handleFailedLoad,
+    handleFailedSave: handleFailedSave,
     _test: {
       applyMergedPack: applyMergedPack,
       pushSave: pushSave,
+      runLoad: runLoad,
       readLocalPack: readLocalPack,
       writeLocalPack: writeLocalPack,
       syncStudentContext: syncStudentContext,
+      scheduleLoadRetry: scheduleLoadRetry,
+      msUntilSaveAllowed: msUntilSaveAllowed,
+      flushSave: flushSave,
+      clearLoadRetryTimer: clearLoadRetryTimer,
+      endLoadFlight: endLoadFlight,
     },
   };
 });
