@@ -13,23 +13,16 @@
     return practiceId + ":" + itemId;
   }
 
-  function retryKey(practiceId) {
-    return "gz-retry-" + practiceId;
+  function packApi() {
+    return root.MRJ_GREENZAP_PACK;
   }
 
   function mustRetry(practiceId) {
-    try {
-      return localStorage.getItem(retryKey(practiceId)) === "1";
-    } catch (e) {
-      return false;
+    var pack = packApi();
+    if (pack && typeof pack.mustRetryPractice === "function") {
+      return pack.mustRetryPractice(practiceId);
     }
-  }
-
-  function setRetry(practiceId, on) {
-    try {
-      if (on) localStorage.setItem(retryKey(practiceId), "1");
-      else localStorage.removeItem(retryKey(practiceId));
-    } catch (e) {}
+    return false;
   }
 
   function gradeItem(item, response) {
@@ -55,23 +48,6 @@
       return N.matchAccept(response.value, item.accept);
     }
     return false;
-  }
-
-  function postQuestion(practice, item, correct, durationSeconds) {
-    if (!root.MRJ_SCORES) return;
-    root.MRJ_SCORES.post({
-      program: PROGRAM,
-      source: SOURCE,
-      appName: APP_NAME,
-      bookTitle: "ZAP Green 1",
-      unitTitle: "Unit 01",
-      itemId: itemMetricId(practice.practiceId, item.id),
-      itemType: "question",
-      correctness: correct ? "correct" : "incorrect",
-      completed: true,
-      durationSeconds: durationSeconds || "",
-      metadata: { exercise: practice.practiceId },
-    });
   }
 
   function postSummary(practice, scoreValue, scoreMax, scorePct, durationSeconds) {
@@ -108,15 +84,22 @@
     var max = items.length;
     var pct = max ? Math.round((correct / max) * 100) : 0;
     var duration = startedAt ? Math.round((Date.now() - startedAt) / 1000) : "";
-    results.forEach(function (r) {
-      var item = items.filter(function (x) {
-        return x.id === r.id;
-      })[0];
-      if (item) postQuestion(practice, item, r.correct, "");
+    var questionRows = results.map(function (r) {
+      return {
+        id: r.id,
+        metricId: itemMetricId(practice.practiceId, r.id),
+        correct: r.correct,
+      };
     });
+    var pack = packApi();
+    if (pack && typeof pack.onPracticeScored === "function") {
+      pack.onPracticeScored(
+        practice.practiceId,
+        { correct: correct, max: max, pct: pct, durationSec: duration },
+        questionRows
+      );
+    }
     postSummary(practice, correct, max, pct, duration);
-    if (pct < RETRY_PCT) setRetry(practice.practiceId, true);
-    else setRetry(practice.practiceId, false);
     return { correct: correct, max: max, pct: pct, results: results, passed: pct >= PASS_PCT, mustRetry: pct < RETRY_PCT };
   }
 
@@ -129,7 +112,6 @@
     gradeItem: gradeItem,
     scorePractice: scorePractice,
     mustRetry: mustRetry,
-    setRetry: setRetry,
     itemMetricId: itemMetricId,
   };
 })(window);
