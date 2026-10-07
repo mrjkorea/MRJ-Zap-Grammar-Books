@@ -448,6 +448,132 @@ form > .section-banner:first-child {
   padding-left: 1.2rem;
 }
 
+.wrong-review-wrap {
+  margin: 1.25rem 0 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.wrong-review-heading {
+  font-size: 1.15rem;
+  margin: 0 0 0.35rem;
+  color: var(--bad);
+}
+
+.wrong-review-lead {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0 0 0.85rem;
+}
+
+.wrong-review-section {
+  margin-bottom: 1.1rem;
+}
+
+.wrong-review-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.65rem;
+  margin-bottom: 0.35rem;
+}
+
+.wrong-review-section-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent-dark);
+}
+
+.wrong-review-instr {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--ink);
+  white-space: pre-line;
+  margin-bottom: 0.65rem;
+  padding: 0.5rem 0.65rem;
+  background: #f3f8f4;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.wrong-review-card {
+  border: 1px solid #e8c4c0;
+  border-left: 4px solid var(--bad);
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.75rem;
+  background: #fffafa;
+}
+
+.wrong-review-label {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--bad);
+  margin-bottom: 0.35rem;
+}
+
+.wrong-review-answer {
+  margin-top: 0.65rem;
+  padding: 0.65rem 0.75rem;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px dashed #e0b4b0;
+}
+
+.wrong-review-answer-label {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--bad);
+  margin-bottom: 0.25rem;
+}
+
+.wrong-review-answer-text {
+  font-size: 1.05rem;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.wrong-review-blanks {
+  margin: 0.25rem 0 0.35rem;
+  padding-left: 1.1rem;
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.wrong-review-blanks li.blank-wrong {
+  color: var(--bad);
+}
+
+.wrong-review-blanks li.blank-ok-part {
+  color: var(--ink);
+}
+
+.wrong-review-warn {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+}
+
+.wrong-review-reminder {
+  margin-top: 0.65rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.88rem;
+}
+
+.wrong-review-reminder-label {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--accent-dark);
+}
+
+.wrong-review-reminder-text {
+  white-space: pre-line;
+  margin-top: 0.35rem;
+  line-height: 1.45;
+}
+
 .note {
   font-size: 0.9rem;
   color: var(--muted);

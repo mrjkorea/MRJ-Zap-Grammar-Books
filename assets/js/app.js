@@ -4,6 +4,7 @@
   var app = document.getElementById("mrj-app-root");
   var catalog = window.MRJ_CATALOG;
   var engine = window.MRJ_ENGINE;
+  var review = window.MRJ_REVIEW;
   var SEL_BOOK = "gz.book";
   var SEL_UNIT = "gz.unit";
 
@@ -463,6 +464,17 @@
       );
     }
 
+    if (review && engine.mustRetry(practiceId)) {
+      var prev = review.loadLastReview(practice);
+      if (prev && prev.results && prev.responses) {
+        var prevPanel = review.renderWrongReviewPanel(document, practice, prev.responses, prev.results, {
+          heading: "지난 시도에서 틀린 문제",
+          lead: "아래는 지난번에 쓴 답입니다. 정답은 화면에 나오지 않습니다. 다시 풀어 보세요.",
+        });
+        if (prevPanel) app.appendChild(prevPanel);
+      }
+    }
+
     renderPracticeIntro(practice);
     clearStaleDrafts(practice);
 
@@ -548,7 +560,7 @@
       return responses;
     }
 
-    function showResults(outcome) {
+    function showResults(outcome, responses) {
       form.remove();
       timerEl.remove();
       var panel = $("div", "panel result-panel" + (outcome.mustRetry ? " fail-retry" : ""));
@@ -580,19 +592,13 @@
         groupLine.appendChild(document.createTextNode(" "));
       });
 
-      var wrong = outcome.results.filter(function (r) {
-        return !r.correct;
-      });
-      if (wrong.length) {
-        panel.appendChild($("p", null, "Wrong:"));
-        var ul = $("ul", "wrong-list");
-        wrong.forEach(function (w) {
-          var it = items.filter(function (x) {
-            return x.id === w.id;
-          })[0];
-          ul.appendChild($("li", null, it ? itemDisplayLabel(it, 0) : w.id));
+      if (review) {
+        review.saveLastReview(practice, responses, outcome.results);
+        var reviewEl = review.renderWrongReviewPanel(document, practice, responses, outcome.results, {
+          heading: "틀린 문제 다시 보기",
+          lead: "내가 쓴 답만 보입니다. 정답은 화면에 나오지 않습니다.",
         });
-        panel.appendChild(ul);
+        if (reviewEl) panel.appendChild(reviewEl);
       }
 
       panel.appendChild($("p", "note", "Correct answers are not shown on screen. Check your book or ask your teacher."));
@@ -617,7 +623,7 @@
       form.dataset.submitted = "1";
       var responses = collectResponses();
       var outcome = engine.scorePractice(practice, responses, startedAt);
-      showResults(outcome);
+      showResults(outcome, responses);
     }
 
     form.onsubmit = function (e) {
