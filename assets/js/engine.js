@@ -99,11 +99,31 @@
     });
   }
 
-  function scorePractice(practice, responses, startedAt) {
-    var pid = practiceIdOf(practice);
-    var items = practice.items.filter(function (it) {
+  function gradedItems(practice) {
+    return (practice.items || []).filter(function (it) {
       return !it.displayOnly;
     });
+  }
+
+  function validItemIds(practice) {
+    var ids = {};
+    gradedItems(practice).forEach(function (it) {
+      ids[it.id] = true;
+    });
+    return ids;
+  }
+
+  function filterQuestionRows(practice, questionRows) {
+    var ids = validItemIds(practice);
+    if (!questionRows || !questionRows.length) return [];
+    return questionRows.filter(function (row) {
+      return row && ids[row.id];
+    });
+  }
+
+  function scorePractice(practice, responses, startedAt) {
+    var pid = practiceIdOf(practice);
+    var items = gradedItems(practice);
     var results = [];
     var correct = 0;
     items.forEach(function (item) {
@@ -115,13 +135,16 @@
     var max = items.length;
     var pct = max ? Math.round((correct / max) * 100) : 0;
     var duration = startedAt ? Math.round((Date.now() - startedAt) / 1000) : "";
-    var questionRows = results.map(function (r) {
-      return {
-        id: r.id,
-        metricId: itemMetricId(pid, r.id),
-        correct: r.correct,
-      };
-    });
+    var questionRows = filterQuestionRows(
+      practice,
+      results.map(function (r) {
+        return {
+          id: r.id,
+          metricId: itemMetricId(pid, r.id),
+          correct: r.correct,
+        };
+      })
+    );
     var pack = packApi();
     if (pack && typeof pack.onPracticeScored === "function") {
       pack.onPracticeScored(
@@ -141,6 +164,8 @@
     PASS_PCT: PASS_PCT,
     RETRY_PCT: RETRY_PCT,
     gradeItem: gradeItem,
+    gradedItems: gradedItems,
+    filterQuestionRows: filterQuestionRows,
     scorePractice: scorePractice,
     mustRetry: mustRetry,
     itemMetricId: itemMetricId,

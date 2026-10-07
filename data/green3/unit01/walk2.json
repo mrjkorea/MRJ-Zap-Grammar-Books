@@ -9,13 +9,51 @@
   "appName": "GreenZap 3",
   "unitId": "unit-01",
   "unitTitle": "Unit 01 — 의문사 있는 의문문 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "a01",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "When",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n그는 언제 떠났니?",
+      "promptKo": "그는 언제 떠났니?",
       "promptEn": "( When / Where ) did he leave?",
       "choices": [
         "When",
@@ -28,9 +66,13 @@
     {
       "id": "a02",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너희 학교는 언제 시작하니?",
+      "promptKo": "너희 학교는 언제 시작하니?",
       "promptEn": "( When / Where ) does your school begin?",
       "choices": [
         "When",
@@ -43,9 +85,13 @@
     {
       "id": "a03",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n그 기차는 언제 도착할까?",
+      "promptKo": "그 기차는 언제 도착할까?",
       "promptEn": "( Why / When ) will the train arrive?",
       "choices": [
         "Why",
@@ -58,9 +104,13 @@
     {
       "id": "a04",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너는 어디에 가고 있니?",
+      "promptKo": "너는 어디에 가고 있니?",
       "promptEn": "( When / Where ) are you going?",
       "choices": [
         "When",
@@ -73,9 +123,13 @@
     {
       "id": "a05",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n테일러의 강아지는 어디에서 자니?",
+      "promptKo": "테일러의 강아지는 어디에서 자니?",
       "promptEn": "( Why / Where ) does Taylor's puppy sleep?",
       "choices": [
         "Why",
@@ -88,9 +142,13 @@
     {
       "id": "a06",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A6",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너는 네 신발을 어디에서 샀니?",
+      "promptKo": "너는 네 신발을 어디에서 샀니?",
       "promptEn": "( Where / How ) did you buy your shoes?",
       "choices": [
         "Where",
@@ -103,9 +161,13 @@
     {
       "id": "a07",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A7",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n네 장갑은 어디에 있니?",
+      "promptKo": "네 장갑은 어디에 있니?",
       "promptEn": "( Where / When ) are your gloves?",
       "choices": [
         "Where",
@@ -118,9 +180,13 @@
     {
       "id": "a08",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A8",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너희 어머니는 어떻게 지내시니?",
+      "promptKo": "너희 어머니는 어떻게 지내시니?",
       "promptEn": "( Why / How ) is your mother doing?",
       "choices": [
         "Why",
@@ -133,9 +199,13 @@
     {
       "id": "a09",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A9",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n우체국에 어떻게 갈 수 있니?",
+      "promptKo": "우체국에 어떻게 갈 수 있니?",
       "promptEn": "( When / How ) can I get to the post office?",
       "choices": [
         "When",
@@ -148,9 +218,13 @@
     {
       "id": "a10",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A10",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n네 이름의 철자를 어떻게 쓰니?",
+      "promptKo": "네 이름의 철자를 어떻게 쓰니?",
       "promptEn": "( How / When ) do you spell your name?",
       "choices": [
         "How",
@@ -163,9 +237,13 @@
     {
       "id": "a11",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A11",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n오늘 네 하루는 어땠니?",
+      "promptKo": "오늘 네 하루는 어땠니?",
       "promptEn": "( How / Why ) was your day today?",
       "choices": [
         "How",
@@ -178,9 +256,13 @@
     {
       "id": "a12",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A12",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n제러미는 바이올린 교습에 왜 늦었니?",
+      "promptKo": "제러미는 바이올린 교습에 왜 늦었니?",
       "promptEn": "( Why / How ) was Jeremy late for the violin lesson?",
       "choices": [
         "Why",
@@ -193,9 +275,13 @@
     {
       "id": "a13",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A13",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너는 오늘 아침에 왜 화가 났니?",
+      "promptKo": "너는 오늘 아침에 왜 화가 났니?",
       "promptEn": "( Why / When ) were you angry this morning?",
       "choices": [
         "Why",
@@ -208,9 +294,13 @@
     {
       "id": "a14",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A14",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n너는 어젯밤에 왜 내게 전화했니?",
+      "promptKo": "너는 어젯밤에 왜 내게 전화했니?",
       "promptEn": "( Where / Why ) did you call me last night?",
       "choices": [
         "Where",
@@ -223,9 +313,13 @@
     {
       "id": "a15",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A15",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.\n우리는 왜 교복을 입어야 하니?",
+      "promptKo": "우리는 왜 교복을 입어야 하니?",
       "promptEn": "( How / Why ) must we wear school uniforms?",
       "choices": [
         "How",

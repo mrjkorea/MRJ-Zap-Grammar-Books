@@ -9,13 +9,74 @@
   "appName": "GreenZap 3",
   "unitId": "unit-01",
   "unitTitle": "Unit 01 — 의문사 있는 의문문 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(고르기), Section B 11문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "directionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "a01",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "Where _____ the post office?",
       "choices": [
         "is",
@@ -28,9 +89,12 @@
     {
       "id": "a02",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "What _____ that in your hand?",
       "choices": [
         "is",
@@ -43,9 +107,12 @@
     {
       "id": "a03",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "Why _____ they so excited?",
       "choices": [
         "is",
@@ -58,9 +125,12 @@
     {
       "id": "a04",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "How _____ the weather now?",
       "choices": [
         "is",
@@ -73,9 +143,12 @@
     {
       "id": "a05",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "How _____ Paul go to the library?",
       "choices": [
         "do",
@@ -88,9 +161,12 @@
     {
       "id": "a06",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A6",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "Where _____ Tina have lunch?",
       "choices": [
         "does",
@@ -103,9 +179,12 @@
     {
       "id": "a07",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A7",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "Why _____ babies cry?",
       "choices": [
         "do",
@@ -118,9 +197,12 @@
     {
       "id": "a08",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A8",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "Who _____ you know?",
       "choices": [
         "do",
@@ -133,9 +215,12 @@
     {
       "id": "a09",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A9",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "What _____ do after school?",
       "choices": [
         "you will",
@@ -148,9 +233,12 @@
     {
       "id": "a10",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A10",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "Who _____ miss the most?",
       "choices": [
         "will she",
@@ -163,9 +251,12 @@
     {
       "id": "a11",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A11",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "When _____ see you again?",
       "choices": [
         "can I",
@@ -178,9 +269,12 @@
     {
       "id": "a12",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A12",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "Why _____ leave now?",
       "choices": [
         "you must",
@@ -193,9 +287,12 @@
     {
       "id": "a13",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A13",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "What _____ in the cave?",
       "choices": [
         "live",
@@ -208,9 +305,12 @@
     {
       "id": "a14",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A14",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "Who _____ the flowers?",
       "choices": [
         "water",
@@ -223,9 +323,12 @@
     {
       "id": "a15",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A15",
       "type": "mc",
-      "promptKo": "A. 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
       "promptEn": "Which _____ first, the chicken or the egg?",
       "choices": [
         "comes",
@@ -238,9 +341,15 @@
     {
       "id": "b01",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ is your favorite color?\nB: It is pink.",
       "blanks": 1,
       "accept": [
@@ -250,9 +359,12 @@
     {
       "id": "b02",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ did Edison invent?\nB: He invented the light bulb.",
       "blanks": 1,
       "accept": [
@@ -262,9 +374,12 @@
     {
       "id": "b03",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ do you like better, pizza or hamburgers?\nB: I like hamburgers better.",
       "blanks": 1,
       "accept": [
@@ -274,9 +389,12 @@
     {
       "id": "b04",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ will you call tomorrow?\nB: I will call Bella.",
       "blanks": 1,
       "accept": [
@@ -286,9 +404,12 @@
     {
       "id": "b05",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ took this photo?\nB: My dad took it.",
       "blanks": 1,
       "accept": [
@@ -298,9 +419,12 @@
     {
       "id": "b06",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B6",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ is your birthday?\nB: It is February 17th.",
       "blanks": 1,
       "accept": [
@@ -310,9 +434,12 @@
     {
       "id": "b07",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B7",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ is the library?\nB: It's on Sun Street.",
       "blanks": 1,
       "accept": [
@@ -322,9 +449,12 @@
     {
       "id": "b08",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B8",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ should we play badminton?\nB: You should play badminton in the yard.",
       "blanks": 1,
       "accept": [
@@ -334,9 +464,12 @@
     {
       "id": "b09",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B9",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ was the cake?\nB: It was delicious.",
       "blanks": 1,
       "accept": [
@@ -346,9 +479,12 @@
     {
       "id": "b10",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B10",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ does Tommy go to school?\nB: He goes to school on foot.",
       "blanks": 1,
       "accept": [
@@ -358,9 +494,12 @@
     {
       "id": "b11",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B11",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ do you like Ted?\nB: Because he is kind.",
       "blanks": 1,
       "accept": [
@@ -370,9 +509,12 @@
     {
       "id": "b12",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (의문사 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B12",
       "type": "fill",
-      "promptKo": "B. 다음 대화의 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "A: _____ was Lily late for school?\nB: Because she missed the bus.",
       "blanks": 1,
       "accept": [

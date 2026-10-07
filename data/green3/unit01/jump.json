@@ -9,13 +9,74 @@
   "appName": "GreenZap 3",
   "unitId": "unit-01",
   "unitTitle": "Unit 01 — 의문사 있는 의문문 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(빈칸 말만 쓰기), Section B 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.",
+      "ruleKo": "빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "a01",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "When / is / Jimmy",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "When are you free? ( Jimmy )   [밑줄: you]\n_____ _____ _____ free?",
       "blanks": 3,
       "accept": [
@@ -25,9 +86,12 @@
     {
       "id": "a02",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "Where is the festival taking place? ( the games )   [밑줄: the festival]\n_____ _____ _____ _____ taking place?",
       "blanks": 4,
       "accept": [
@@ -37,9 +101,12 @@
     {
       "id": "a03",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "How is your grandmother doing? ( you )   [밑줄: your grandmother]\n_____ _____ _____ doing?",
       "blanks": 3,
       "accept": [
@@ -49,9 +116,12 @@
     {
       "id": "a04",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "Why is the boy laughing? ( the students )   [밑줄: the boy]\n_____ _____ _____ _____ laughing?",
       "blanks": 4,
       "accept": [
@@ -61,9 +131,12 @@
     {
       "id": "a05",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "Who do you want to meet? ( he )   [밑줄: you]\n_____ _____ _____ want to meet?",
       "blanks": 3,
       "accept": [
@@ -73,9 +146,12 @@
     {
       "id": "a06",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "How do they go to school? ( Kevin )   [밑줄: they]\n_____ _____ _____ go to school?",
       "blanks": 3,
       "accept": [
@@ -85,9 +161,12 @@
     {
       "id": "a07",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A7",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "What does your father do? ( your parents )   [밑줄: your father]\n_____ _____ _____ _____ do?",
       "blanks": 4,
       "accept": [
@@ -97,9 +176,12 @@
     {
       "id": "a08",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A8",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "What does an elephant eat? ( elephants )   [밑줄: an elephant]\n_____ _____ _____ eat?",
       "blanks": 3,
       "accept": [
@@ -109,9 +191,12 @@
     {
       "id": "a09",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A9",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "Where does she live? ( you )   [밑줄: she]\n_____ _____ _____ live?",
       "blanks": 3,
       "accept": [
@@ -121,9 +206,12 @@
     {
       "id": "a10",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A10",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "Why does Mary wear black all the time? ( they )   [밑줄: Mary]\n_____ _____ _____ wear black all the time?",
       "blanks": 3,
       "accept": [
@@ -133,9 +221,12 @@
     {
       "id": "a11",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A11",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "Which should we order, pizza or hot dogs? ( Helen )   [밑줄: we]\n_____ _____ _____ order, pizza or hot dogs?",
       "blanks": 3,
       "accept": [
@@ -145,9 +236,12 @@
     {
       "id": "a12",
       "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A12",
       "type": "fill",
-      "promptKo": "A. 다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
       "promptEn": "Who will you invite? ( she )   [밑줄: you]\n_____ _____ _____ invite?",
       "blanks": 3,
       "accept": [
@@ -157,9 +251,16 @@
     {
       "id": "b01",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What / are",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n너는 무엇을 찾고 있니?",
+      "promptKo": "너는 무엇을 찾고 있니?",
       "promptEn": "_____ _____ you looking for?",
       "blanks": 2,
       "accept": [
@@ -169,9 +270,13 @@
     {
       "id": "b02",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n추수 감사절은 언제니?",
+      "promptKo": "추수 감사절은 언제니?",
       "promptEn": "_____ _____ Thanksgiving Day?",
       "blanks": 2,
       "accept": [
@@ -181,9 +286,13 @@
     {
       "id": "b03",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n너는 어젯밤에 어디에 있었니?",
+      "promptKo": "너는 어젯밤에 어디에 있었니?",
       "promptEn": "_____ _____ you last night?",
       "blanks": 2,
       "accept": [
@@ -193,9 +302,13 @@
     {
       "id": "b04",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n너는 저녁 식사로 무엇을 원하니?",
+      "promptKo": "너는 저녁 식사로 무엇을 원하니?",
       "promptEn": "_____ _____ you want for dinner?",
       "blanks": 2,
       "accept": [
@@ -205,9 +318,13 @@
     {
       "id": "b05",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n그녀는 왜 그 의상이 필요하니?",
+      "promptKo": "그녀는 왜 그 의상이 필요하니?",
       "promptEn": "_____ _____ she need the costume?",
       "blanks": 2,
       "accept": [
@@ -217,9 +334,13 @@
     {
       "id": "b06",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B6",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n너희 학교는 언제 끝나니?",
+      "promptKo": "너희 학교는 언제 끝나니?",
       "promptEn": "_____ _____ your school end?",
       "blanks": 2,
       "accept": [
@@ -229,9 +350,13 @@
     {
       "id": "b07",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B7",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n샘은 과자를 어떻게 굽니?",
+      "promptKo": "샘은 과자를 어떻게 굽니?",
       "promptEn": "_____ _____ Sam bake cookies?",
       "blanks": 2,
       "accept": [
@@ -241,9 +366,13 @@
     {
       "id": "b08",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B8",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n비가 언제 왔니?",
+      "promptKo": "비가 언제 왔니?",
       "promptEn": "_____ _____ it rain?",
       "blanks": 2,
       "accept": [
@@ -253,9 +382,13 @@
     {
       "id": "b09",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B9",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n그녀는 어디에서 태권도를 배울 수 있니?",
+      "promptKo": "그녀는 어디에서 태권도를 배울 수 있니?",
       "promptEn": "_____ _____ she learn taekwondo?",
       "blanks": 2,
       "accept": [
@@ -265,9 +398,13 @@
     {
       "id": "b10",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B10",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n누가 내일 내게 초콜릿을 줄까?",
+      "promptKo": "누가 내일 내게 초콜릿을 줄까?",
       "promptEn": "_____ _____ give me chocolates tomorrow?",
       "blanks": 2,
       "accept": [
@@ -277,9 +414,13 @@
     {
       "id": "b11",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B11",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n나는 해변에서 바늘을 어떻게 찾을 수 있니?",
+      "promptKo": "나는 해변에서 바늘을 어떻게 찾을 수 있니?",
       "promptEn": "_____ _____ I find the needle on the beach?",
       "blanks": 2,
       "accept": [
@@ -289,9 +430,13 @@
     {
       "id": "b12",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B12",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n고래와 돌고래 중에서 어느 것이 더 깊이 잠수할 수 있니?",
+      "promptKo": "고래와 돌고래 중에서 어느 것이 더 깊이 잠수할 수 있니?",
       "promptEn": "_____ _____ dive deeper, a whale or a dolphin?",
       "blanks": 2,
       "accept": [
@@ -301,9 +446,13 @@
     {
       "id": "b13",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B13",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n그 차 안에 누가 있니?",
+      "promptKo": "그 차 안에 누가 있니?",
       "promptEn": "_____ _____ in the car? ( be )",
       "blanks": 2,
       "accept": [
@@ -313,9 +462,13 @@
     {
       "id": "b14",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B14",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n이 모자와 저 모자 중에서 어느 것이 더 좋아 보이니?",
+      "promptKo": "이 모자와 저 모자 중에서 어느 것이 더 좋아 보이니?",
       "promptEn": "_____ _____ better, this cap or that cap? ( look )",
       "blanks": 2,
       "accept": [
@@ -325,9 +478,13 @@
     {
       "id": "b15",
       "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B15",
       "type": "fill",
-      "promptKo": "B. 다음 문장의 빈칸에 알맞은 말을 쓰세요. 주어진 말이 있으면 주어진 말을 사용해서 쓰세요.\n누가 이 사진을 찍었니?",
+      "promptKo": "누가 이 사진을 찍었니?",
       "promptEn": "_____ _____ this photo? ( take )",
       "blanks": 2,
       "accept": [

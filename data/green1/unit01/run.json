@@ -4,162 +4,323 @@
   "subtitle": "Present tense practice (pp. 14–15)",
   "pages": "14–15",
   "timerMinutes": 20,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기), Section B 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
   "items": [
     {
-      "id": "q01",
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "are",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "Kate and I ________ at the fire station. (be)",
+      "promptEn": "Kate and I ________ at the fire station. ( be )",
       "blanks": 1,
       "accept": [
         "are"
       ]
     },
     {
-      "id": "q02",
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "She ________ my classmate. (be)",
+      "promptEn": "She ________ my classmate. ( be )",
       "blanks": 1,
       "accept": [
         "is"
       ]
     },
     {
-      "id": "q03",
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "I ________ busy today. (be)",
+      "promptEn": "I ________ busy today. ( be )",
       "blanks": 1,
       "accept": [
         "am"
       ]
     },
     {
-      "id": "q04",
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "My father ________ strong. (be)",
+      "promptEn": "My father ________ strong. ( be )",
       "blanks": 1,
       "accept": [
         "is"
       ]
     },
     {
-      "id": "q05",
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "There ________ two squirrels in the tree. (be)",
+      "promptEn": "There ________ two squirrels in the tree. ( be )",
       "blanks": 1,
       "accept": [
         "are"
       ]
     },
     {
-      "id": "q06",
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "My grandmother ________ up early in the morning. (get)",
+      "promptEn": "My grandmother ________ up early in the morning. ( get )",
       "blanks": 1,
       "accept": [
         "gets"
       ]
     },
     {
-      "id": "q07",
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "I ________ comedies. (like)",
+      "promptEn": "I ________ comedies. ( like )",
       "blanks": 1,
       "accept": [
         "like"
       ]
     },
     {
-      "id": "q08",
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "Bora ________ new sneakers. (have)",
+      "promptEn": "Bora ________ new sneakers. ( have )",
       "blanks": 1,
       "accept": [
         "has"
       ]
     },
     {
-      "id": "q09",
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "Namsu ________ English every day. (study)",
+      "promptEn": "Namsu ________ English every day. ( study )",
       "blanks": 1,
       "accept": [
         "studies"
       ]
     },
     {
-      "id": "q10",
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "They ________ badminton on weekends. (play)",
+      "promptEn": "They ________ badminton on weekends. ( play )",
       "blanks": 1,
       "accept": [
         "play"
       ]
     },
     {
-      "id": "q11",
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "We ________ lunch at 12 o'clock. (have)",
+      "promptEn": "We ________ lunch at 12 o'clock. ( have )",
       "blanks": 1,
       "accept": [
         "have"
       ]
     },
     {
-      "id": "q12",
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "She ________ in the evening. (exercise)",
+      "promptEn": "She ________ in the evening. ( exercise )",
       "blanks": 1,
       "accept": [
         "exercises"
       ]
     },
     {
-      "id": "q13",
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "The model airplane ________ very fast in the sky. (fly)",
+      "promptEn": "The model airplane ________ very fast in the sky. ( fly )",
       "blanks": 1,
       "accept": [
         "flies"
       ]
     },
     {
-      "id": "q14",
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "He ________ his dog in the afternoon. (feed)",
+      "promptEn": "He ________ his dog in the afternoon. ( feed )",
       "blanks": 1,
       "accept": [
         "feeds"
       ]
     },
     {
-      "id": "q15",
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
       "type": "fill",
-      "promptKo": "주어진 말을 사용하여 문장을 완성하세요.",
-      "promptEn": "My sister ________ her homework after school. (do)",
+      "promptEn": "My sister ________ her homework after school. ( do )",
       "blanks": 1,
       "accept": [
         "does"
       ]
     },
     {
-      "id": "q16",
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "not",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
-      "promptEn": "It's raining today, but it ________ sunny.",
+      "promptKo": "나는 아프지 않지만, 피곤하다.",
+      "promptEn": "I'm ________ sick, but I'm tired.",
+      "blanks": 1,
+      "accept": [
+        "not"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "오늘은 비가 오지만, 춥지는 않다.",
+      "promptEn": "It's raining today, but it ________ cold.",
       "blanks": 1,
       "accept": [
         "isn't",
@@ -167,9 +328,15 @@
       ]
     },
     {
-      "id": "q17",
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "그들은 축구는 좋아하지만, 야구는 좋아하지 않는다.",
       "promptEn": "They like soccer, but they ________ like baseball.",
       "blanks": 1,
       "accept": [
@@ -178,9 +345,15 @@
       ]
     },
     {
-      "id": "q18",
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "그는 지금 슬프지 않다. 그는 매우 행복하다.",
       "promptEn": "He ________ sad now. He is very happy.",
       "blanks": 1,
       "accept": [
@@ -189,9 +362,15 @@
       ]
     },
     {
-      "id": "q19",
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "우리 아버지는 커피는 드시지만 우유는 드시지 않는다.",
       "promptEn": "My father drinks coffee, but he ________ drink milk.",
       "blanks": 1,
       "accept": [
@@ -200,9 +379,15 @@
       ]
     },
     {
-      "id": "q20",
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "우리는 개를 두 마리 가지고 있지만, 고양이는 가지고 있지 않다.",
       "promptEn": "We have two dogs, but we ________ have a cat.",
       "blanks": 1,
       "accept": [
@@ -211,9 +396,15 @@
       ]
     },
     {
-      "id": "q21",
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "그녀의 할머니는 요구르트는 드시지만, 아이스크림은 드시지 않는다.",
       "promptEn": "Her grandmother eats yogurt, but she ________ eat ice cream.",
       "blanks": 1,
       "accept": [
@@ -222,9 +413,15 @@
       ]
     },
     {
-      "id": "q22",
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "너는 목이 마르니? / 아니, 그렇지 않아.",
       "promptEn": "________ you thirsty? / No, I'm not.",
       "blanks": 1,
       "accept": [
@@ -232,9 +429,15 @@
       ]
     },
     {
-      "id": "q23",
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "네 여동생은 2학년이니? / 응, 그래.",
       "promptEn": "________ your sister in the second grade? / Yes, she is.",
       "blanks": 1,
       "accept": [
@@ -242,9 +445,15 @@
       ]
     },
     {
-      "id": "q24",
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "이것은 네 장갑이니? / 아니, 그렇지 않아.",
       "promptEn": "Are these your gloves? / No, they ________.",
       "blanks": 1,
       "accept": [
@@ -253,9 +462,15 @@
       ]
     },
     {
-      "id": "q25",
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "그는 캐나다 출신이니? / 아니, 그렇지 않아.",
       "promptEn": "Is he from Canada? / No, he ________.",
       "blanks": 1,
       "accept": [
@@ -264,9 +479,15 @@
       ]
     },
     {
-      "id": "q26",
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "그녀는 매일 학교에 걸어서 가니? / 응, 그래.",
       "promptEn": "________ she walk to school every day? / Yes, she does.",
       "blanks": 1,
       "accept": [
@@ -274,9 +495,15 @@
       ]
     },
     {
-      "id": "q27",
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B13",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "네 부모님은 매일 아침 산책을 하시니? / 아니, 그러지 않으셔.",
       "promptEn": "________ your parents take a walk every morning? / No, they don't.",
       "blanks": 1,
       "accept": [
@@ -284,9 +511,15 @@
       ]
     },
     {
-      "id": "q28",
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B14",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "너는 자명종이 필요하니? / 응, 그래.",
       "promptEn": "Do you need an alarm clock? / Yes, I ________.",
       "blanks": 1,
       "accept": [
@@ -294,9 +527,15 @@
       ]
     },
     {
-      "id": "q29",
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장 또는 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B15",
       "type": "fill",
-      "promptKo": "빈칸에 알맞은 말을 쓰세요.",
+      "promptKo": "네 삼촌은 서울에 사시니? / 아니, 그러지 않으셔.",
       "promptEn": "Does your uncle live in Seoul? / No, he ________.",
       "blanks": 1,
       "accept": [

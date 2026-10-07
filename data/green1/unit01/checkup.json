@@ -5,38 +5,72 @@
   "pages": "27",
   "timerMinutes": 8,
   "wordBank": [
+    "do",
+    "doesn't",
     "is",
-    "Do",
-    "play",
-    "doesn't"
+    "play"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 3문항(고르기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (do / doesn't / is / play) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (do / doesn't / is / play)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
   ],
   "items": [
     {
-      "id": "q01",
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (do / doesn't / is / play) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
       "type": "fill",
-      "promptKo": "그림을 보고 대화 빈칸을 채우세요.",
-      "promptEn": "Sunny: Wow, he ________ a good soccer player!",
+      "promptEn": "[그림 1] 축구 경기를 보며\nWow, he ______ a good soccer player!",
       "blanks": 1,
       "accept": [
         "is"
       ]
     },
     {
-      "id": "q02",
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (do / doesn't / is / play) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
       "type": "fill",
-      "promptKo": "그림을 보고 대화 빈칸을 채우세요.",
-      "promptEn": "Sunny: ________ you ________ soccer well?",
+      "promptEn": "[그림 2]\nGirl: ______ you ______ soccer well?\nBoy: Yes, I do.",
       "blanks": 2,
       "accept": [
-        "Do|play",
-        "do|play"
+        "Do|play"
       ]
     },
     {
-      "id": "q03",
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (do / doesn't / is / play) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
       "type": "fill",
-      "promptKo": "그림을 보고 대화 빈칸을 채우세요.",
-      "promptEn": "Snowie: Jack ________ soccer well.",
+      "promptEn": "[그림 4] 넘어진 남자아이를 보며\nZack ______ play soccer well.",
       "blanks": 1,
       "accept": [
         "doesn't",

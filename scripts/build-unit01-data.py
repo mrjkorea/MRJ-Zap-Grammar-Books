@@ -2,6 +2,14 @@
 """Generate GreenZap 1 Unit 01 practice JSON (student app)."""
 import json
 import os
+import sys
+
+print(
+    "NOTE: data/green1/unit01/*.json is the source of truth (sectionsVersion 2). "
+    "This generator refuses to overwrite sectioned data.",
+    file=sys.stderr,
+)
+sys.exit(0)
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "green1", "unit01")
 os.makedirs(OUT, exist_ok=True)

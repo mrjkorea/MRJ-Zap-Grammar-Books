@@ -16,65 +16,72 @@ Static files are served from the **repository root** (`index.html`, `assets/`, `
 2. **Build and deployment** → Source: **GitHub Actions**
 3. Push to `main` runs `.github/workflows/pages.yml` and publishes the site.
 
-## GreenZap 1 — Unit 01 (9 practices)
+## Practice data (Unit 01)
 
-Signed-in students use the **index**: Book → Unit → exercise.
+Each practice JSON under `data/green1/unit01/` and `data/green3/unit01/` is hand-maintained (**source of truth**). Generators under `scripts/build-*-unit01-data.py` refuse to overwrite sectioned files.
 
-| # | Practice | Book pages |
-|---|----------|------------|
-| 1 | Grammar Walk — Lesson 01 (affirmative present) | ~10–11 |
-| 2 | Grammar Walk — Lesson 02 (negatives & questions) | ~12–13 |
-| 3 | Grammar Run | ~14–15 |
-| 4 | Grammar Jump | ~16–17 |
-| 5 | Grammar Fly | ~18–19 |
-| 6 | Grammar & Writing | ~20–21 |
-| 7 | Unit Test 01 (25 items) | ~22–26 |
-| 8 | Wrap Up | ~26–27 |
-| 9 | Check Up (comic dialogue) | ~27 |
+- `sectionsVersion: 2` — bump when section layout or item ids change (clears mismatched in-progress drafts).
+- `sections[]` — per-section summary: `id`, `title`, `instructionKo`, `answerMode` (`choice` | `words` | `sentence`), `answerModeTag`, `itemCount`, `exampleCount`, `labels`, optional `mixedModes`.
+- `introKo` — one-line Korean summary on the practice start screen.
+- Every item: `section`, `sectionTitle`, `sectionInstructionKo`, `answerMode`, `answerModeTag`, `label` (book numbering: A1, B3, 18, 1-4, …), optional `noteKo`.
+- Book examples (answer printed in the book): `example: true`, `displayOnly: true`, `exampleAnswer` — shown as grey cards, **not graded**.
+- Item ids are section-based (`a01`, `b01`, unit-test `q01`–`q25`, wrap `w1_1`, checkup `c01`, …). `practiceId` values are unchanged (`u01:*`, `g3:u01:*`).
+
+### GreenZap 1 — Unit 01 sections (graded counts)
+
+| Practice | practiceId | Graded | Sections (modes) |
+|----------|------------|--------|------------------|
+| Grammar Walk — Lesson 01 | u01:walk1 | 14 | A: 14 [choice] |
+| Grammar Walk — Lesson 02 | u01:walk2 | 11 | A: 8 [choice]; B: 3 [choice] |
+| Grammar Run | u01:run | 28 | A: 14 [words]; B: 14 [words] |
+| Grammar Jump | u01:jump | 22 | A: 11 [words]; B: 11 [words] |
+| Grammar Fly | u01:fly | 22 | A: 11 [sentence]; B: 11 [sentence] |
+| Grammar & Writing | u01:writing | 9 | A: 5 [words]; B: 4 [words] |
+| Unit Test 01 | u01:quiz | 25 | Direction groups [1–2]…[21–25] (choice / words) |
+| Wrap Up | u01:wrap | 6 | §1: 3 [words]; §2: 3 [words] |
+| Check Up | u01:checkup | 3 | Check Up [choice] |
 
 Deep link example: `#/p/zap-green-1/unit-01/walk1`
 
-## GreenZap 3 — Unit 01 (9 practices)
+### GreenZap 3 — Unit 01 sections (graded counts)
 
-**Unit 01 — 의문사 있는 의문문 (1)** (interrogatives: what, which, who, when, where, why, how).
+| Practice | practiceId | Graded | Sections (modes) |
+|----------|------------|--------|------------------|
+| Grammar Walk — Lesson 01 | g3:u01:walk1 | 12 | A: 8 [choice]; B: 4 [choice] |
+| Grammar Walk — Lesson 02 | g3:u01:walk2 | 14 | A: 14 [choice] |
+| Grammar Run | g3:u01:run | 25 | A: 14 [choice]; B: 11 [words] |
+| Grammar Jump | g3:u01:jump | 25 | A: 11 [words]; B: 14 [words] |
+| Grammar Fly | g3:u01:fly | 22 | A: 11 [words]; B: 11 [sentence] |
+| Grammar & Writing | g3:u01:writing | 10 | A: 5 [words]; B: 5 [sentence/words] |
+| Unit Test 01 | g3:u01:quiz | 25 | Direction groups [1–2]…[21–25] |
+| Wrap Up | g3:u01:wrap | 6 | §1: 3 [words]; §2: 3 [words] |
+| Check Up | g3:u01:checkup | 4 | Check Up [choice] |
 
-| # | Practice | Book pages | Items | Timer (min) |
-|---|----------|------------|-------|-------------|
-| 1 | Grammar Walk — Lesson 01 | 11 | 14 | 10 |
-| 2 | Grammar Walk — Lesson 02 | 13 | 15 | 10 |
-| 3 | Grammar Run | 14–15 | 27 | 18 |
-| 4 | Grammar Jump | 16–17 | 27 | 25 |
-| 5 | Grammar Fly | 18–19 | 24 | 28 |
-| 6 | Grammar & Writing | 20–21 | 12 | 20 |
-| 7 | Unit Test 01 | 22–26 | 25 | 30 |
-| 8 | Wrap Up | 27 | 6 | 8 |
-| 9 | Check Up | 27 | 4 | 6 |
-
-**154 items** total. Practice IDs use the `g3:u01:*` prefix (e.g. `g3:u01:walk1`).
+**283 graded items** (+22 display-only book examples) across both books’ Unit 01.
 
 Deep link example: `#/p/zap-green-3/unit-01/walk1`
 
-Other books/units (ZAP Red/Blue/Green slots) appear in the index as **coming soon**; **ZAP Green 1** and **ZAP Green 3 / Unit 01** are active.
+Other books/units appear in the index as **coming soon**; **ZAP Green 1** and **ZAP Green 3 / Unit 01** are active.
 
 ## Student rules
 
 - Sign-in via shared [mrj-signin](https://github.com/mrjkorea/mrj-signin) (`data-mrj-app="mrj-zap-grammar-books"`).
 - Full questions on screen; students also use the paper book.
-- After submit: ✓/✗ per item and **Wrong:** list (book labels like **A3** when present) — correct answers are **never** shown.
+- Each practice shows **Korean directions** per section (choose vs words-only vs full sentence). Mode chips appear on the start screen, section banners, and each question.
+- After submit: ✓/✗ by book **label**, grouped by section — **Wrong:** lists labels only. Correct answers are **never** shown.
 - **Pass** tracking at **80%+**; score **under 50%** forces a **retry** (same exercise, still no answers).
-- **Timer** on every practice (generous defaults for writing). Remaining time is shown; at **0:00** the form **auto-submits** and locks (same as pressing Submit).
-- Answers accept contractions and full forms, case-insensitive, trimmed/collapsed spaces (e.g. `don't` / `do not`, `I'm` / `I am`). Curly apostrophes from mobile keyboards are normalized.
+- **Timer** on every practice. Remaining time is shown; at **0:00** the form **auto-submits** and locks.
+- Answers accept contractions and full forms, case-insensitive, trimmed/collapsed spaces. Curly apostrophes from mobile keyboards are normalized.
 
 ## Metrics
 
-`mrj-scores.js` (from day5-practice) posts to **MRJ Classroom Metrics**:
+`mrj-scores.js` posts to **MRJ Classroom Metrics**:
 
 - `program=greenzap`, `source=greenzap`
-- `app_name` is **GreenZap 1** or **GreenZap 3** (and future books) per selected practice
-- `correctness`: `correct` | `incorrect`
-- One summary event per finished practice (`u01:walk1`, `g3:u01:quiz`, …); per-question detail lives in the `greenzap` progress pack
+- `app_name` is **GreenZap 1** or **GreenZap 3** per selected practice
+- One summary event per finished practice; per-question detail in the `greenzap` progress pack (item metric ids use current item ids; old `q01` rows in saved packs are ignored for new items)
 - `MRJ_AUTH.noteScore` on summary only
-- Per-student pack sync via `MRJ_AUTH.loadPack` / `savePack` (`program=greenzap`); build string in `version.json`
+- Per-student pack sync via `MRJ_AUTH.loadPack` / `savePack`; build string in `version.json`
 
 ## Local preview
 
@@ -87,8 +94,10 @@ python3 -m http.server 8080
 
 ```bash
 node scripts/pack-unit-test.js
+node scripts/smoke-sections.js
 node scripts/smoke-unit-test.js
 node scripts/smoke-green3-unit01.js
+node scripts/smoke-app-sections.js
 ```
 
 ## Results
