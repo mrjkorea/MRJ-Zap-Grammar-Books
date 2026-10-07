@@ -175,6 +175,108 @@ function mockStorage() {
   pack.resetInMemoryState();
 })();
 
+async function testScoreDuringSaveKeepsDirty() {
+  let resolveSave;
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return "student_a";
+    },
+    packReady() {
+      return true;
+    },
+    savePack() {
+      return new Promise(function (resolve) {
+        resolveSave = resolve;
+      });
+    },
+  };
+  pack.resetInMemoryState();
+  pack._state.idKey = pack.idKeyFromStudent("student_a");
+  pack._state.pack = pack.emptyPack();
+  pack._state.serverPack = pack.emptyPack();
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  pack._state.dirty = true;
+  const savePromise = pack._test.pushSave(false);
+  pack.onPracticeScored("u01:walk1", { correct: 5, max: 10, pct: 50, durationSec: 1, at: 1 }, []);
+  resolveSave({ ok: true });
+  await savePromise;
+  assert.strictEqual(pack._state.dirty, true);
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
+async function testSaveFailureBackoffStopsAndResumesOnScore() {
+  let saves = 0;
+  let now = 0;
+  const prevNow = Date.now;
+  Date.now = function () {
+    return now;
+  };
+  const prevAuth = globalThis.MRJ_AUTH;
+  globalThis.MRJ_AUTH = {
+    student() {
+      return "student_a";
+    },
+    packReady() {
+      return true;
+    },
+    loadPack() {
+      return Promise.resolve({ ok: true, found: false, progress_json: "{}" });
+    },
+    savePack() {
+      saves++;
+      return Promise.resolve({ ok: false, error: "network" });
+    },
+  };
+  pack.resetInMemoryState();
+  pack._state.idKey = pack.idKeyFromStudent("student_a");
+  pack._state.pack = pack.emptyPack();
+  pack._state.serverPack = pack.emptyPack();
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  pack.recordPracticeAttempt(
+    pack._state.pack,
+    "u01:walk1",
+    { correct: 1, max: 1, pct: 100, durationSec: 1, at: 1 },
+    []
+  );
+  pack._state.dirty = true;
+
+  async function saveReloadCycle() {
+    if (!pack._state.loadOk) {
+      await pack.runLoad();
+      pack._state.dirty = true;
+    }
+    await pack._test.pushSave(false);
+  }
+
+  while (now < 45 * 60 * 1000 && !pack._state.saveRetryStopped) {
+    const wait = pack.msUntilSaveAllowed();
+    now += (wait > 0 ? wait : 0) + 1;
+    await saveReloadCycle();
+  }
+  const savesBeforeStop = saves;
+  assert.ok(savesBeforeStop <= 8, "expected at most ~6 failures plus early retries, got " + saves);
+  assert.strictEqual(pack._state.saveRetryStopped, true);
+
+  now += 45 * 60 * 1000;
+  await pack._test.pushSave(false);
+  assert.strictEqual(saves, savesBeforeStop, "no saves after stop until new score");
+
+  pack.onPracticeScored("u01:walk1", { correct: 1, max: 1, pct: 100, durationSec: 1, at: now }, []);
+  pack._state.loadOk = true;
+  pack._state.loadFinished = true;
+  now += pack.msUntilSaveAllowed() + 1;
+  await pack._test.pushSave(false);
+  assert.ok(saves > savesBeforeStop);
+
+  Date.now = prevNow;
+  globalThis.MRJ_AUTH = prevAuth;
+  pack.resetInMemoryState();
+}
+
 async function testSaveMergesServerSnapshotBeforeUpload() {
   let savedJson = "";
   const prevAuth = globalThis.MRJ_AUTH;
@@ -211,7 +313,7 @@ async function testSaveMergesServerSnapshotBeforeUpload() {
   pack._state.loadOk = true;
   pack._state.loadFinished = true;
   pack._state.dirty = true;
-  await pack._test.pushSave(true);
+  await pack._test.pushSave(false);
   const saved = pack.parsePackJson(savedJson).data;
   assert.ok(saved.practices["u01:walk1"]);
   assert.ok(saved.practices["u01:walk2"]);
@@ -277,7 +379,7 @@ async function testLateSaveFailureDoesNotBlockNewStudent() {
   pack._state.loadFinished = true;
   pack._state.dirty = true;
   const saveGenAtStart = pack._state.sessionGen;
-  const savePromise = pack._test.pushSave(true);
+  const savePromise = pack._test.pushSave(false);
   currentStudent = "Student B";
   pack._test.syncStudentContext();
   pack._state.idKey = pack.idKeyFromStudent("Student B");
@@ -328,6 +430,12 @@ testSaveMergesServerSnapshotBeforeUpload()
   })
   .then(function () {
     return testStaleSessionLoadSchedulesRetryWithoutSave();
+  })
+  .then(function () {
+    return testScoreDuringSaveKeepsDirty();
+  })
+  .then(function () {
+    return testSaveFailureBackoffStopsAndResumesOnScore();
   })
   .then(function () {
     console.log("pack-unit-test: ok");
