@@ -21,6 +21,8 @@
   var state = {
     idKey: "",
     pack: null,
+    serverPack: null,
+    dirty: false,
     loadOk: false,
     loadFinished: false,
     saveTimer: null,
@@ -73,6 +75,42 @@
     }
   }
 
+  function latestAttemptFromAttempts(attempts) {
+    if (!attempts || !attempts.length) return null;
+    var latest = attempts[0];
+    for (var i = 1; i < attempts.length; i++) {
+      if ((attempts[i].at || 0) >= (latest.at || 0)) latest = attempts[i];
+    }
+    return latest;
+  }
+
+  function mustRetryFromPractice(practice) {
+    if (!practice) return false;
+    var latest = latestAttemptFromAttempts(practice.attempts);
+    if (latest && typeof latest.pct === "number") return latest.pct < RETRY_PCT;
+    return !!practice.mustRetry;
+  }
+
+  function resetInMemoryState() {
+    state.idKey = "";
+    state.pack = null;
+    state.serverPack = null;
+    state.dirty = false;
+    state.loadOk = false;
+    state.loadFinished = false;
+    state.pendingSave = false;
+    state.saveInFlight = false;
+    state.lastSaveAt = 0;
+    if (state.saveTimer) {
+      clearTimeout(state.saveTimer);
+      state.saveTimer = null;
+    }
+    if (state.retryLoadTimer) {
+      clearTimeout(state.retryLoadTimer);
+      state.retryLoadTimer = null;
+    }
+  }
+
   function practiceEntry(pack, practiceId) {
     if (!pack.practices[practiceId]) {
       pack.practices[practiceId] = {
@@ -120,11 +158,7 @@
     }
 
     out.best = pickBest(locals.best, remotes.best);
-    if (out.best && typeof out.best.pct === "number") {
-      out.mustRetry = out.best.pct < RETRY_PCT;
-    } else {
-      out.mustRetry = !!(locals.mustRetry || remotes.mustRetry);
-    }
+    out.mustRetry = mustRetryFromPractice(out);
     return out;
   }
 
@@ -191,7 +225,7 @@
 
   function recordPracticeAttempt(pack, practiceId, outcome, questionRows) {
     var entry = practiceEntry(pack, practiceId);
-    var at = Date.now();
+    var at = outcome.at != null ? outcome.at : Date.now();
     var attempt = {
       at: at,
       correct: outcome.correct,
@@ -203,16 +237,13 @@
     entry.attempts = (entry.attempts || []).concat([attempt]);
     var prevBest = entry.best;
     entry.best = mergePractice({ best: prevBest }, { best: attempt }).best;
-    entry.mustRetry = !!(entry.best && typeof entry.best.pct === "number" && entry.best.pct < RETRY_PCT);
+    entry.mustRetry = outcome.pct < RETRY_PCT;
     return pack;
   }
 
   function mustRetry(pack, practiceId) {
     var p = pack && pack.practices && pack.practices[practiceId];
-    if (!p) return false;
-    if (p.mustRetry) return true;
-    if (p.best && typeof p.best.pct === "number") return p.best.pct < RETRY_PCT;
-    return false;
+    return mustRetryFromPractice(p);
   }
 
   function authLoadPack(program) {
@@ -242,6 +273,7 @@
 
   function pushSave(force) {
     if (!canSave() || !state.idKey || !state.pack) return Promise.resolve();
+    if (!state.dirty) return Promise.resolve();
     var now = Date.now();
     if (!force && now - state.lastSaveAt < SAVE_INTERVAL_MS) {
       state.pendingSave = true;
@@ -254,13 +286,19 @@
     }
     state.saveInFlight = true;
     state.pendingSave = false;
-    var json = serializePack(state.pack);
+    var merged = mergePacks(state.pack, state.serverPack || emptyPack());
+    state.pack = merged;
+    writeLocalPack(state.idKey, merged);
+    var json = serializePack(merged);
     return authSavePack(PROGRAM, json)
       .then(function (res) {
         state.saveInFlight = false;
-        if (res && res.ok) state.lastSaveAt = Date.now();
-        else state.loadOk = false;
-        if (state.pendingSave) scheduleSave();
+        if (res && res.ok) {
+          state.lastSaveAt = Date.now();
+          state.serverPack = parsePackJson(json).data;
+          state.dirty = false;
+        } else state.loadOk = false;
+        if (state.pendingSave && state.dirty) scheduleSave();
       })
       .catch(function () {
         state.saveInFlight = false;
@@ -281,6 +319,7 @@
   }
 
   function flushSave() {
+    if (!state.dirty) return Promise.resolve();
     if (state.saveTimer) {
       clearTimeout(state.saveTimer);
       state.saveTimer = null;
@@ -294,12 +333,20 @@
     writeLocalPack(idKey, merged);
   }
 
-  function runLoad() {
+  function syncStudentContext() {
     var idKey = studentIdKey();
     if (!idKey) {
-      state.loadOk = false;
+      if (state.idKey) resetInMemoryState();
+      return "";
+    }
+    if (state.idKey && state.idKey !== idKey) resetInMemoryState();
+    return idKey;
+  }
+
+  function runLoad() {
+    var idKey = syncStudentContext();
+    if (!idKey) {
       state.loadFinished = true;
-      state.pack = emptyPack();
       return Promise.resolve();
     }
 
@@ -321,8 +368,11 @@
         var localPack = mergePacks(readLocalPack(idKey), localAtStart);
         var merged = mergePacks(localPack, serverJson);
         var serverParsed = parsePackJson(serverJson).data;
+        state.serverPack = serverParsed;
         applyMergedPack(idKey, merged, serverJson);
+        state.dirty = false;
         if (isRicherThan(merged, serverParsed)) {
+          state.dirty = true;
           return pushSave(true);
         }
       })
@@ -344,19 +394,22 @@
   }
 
   function onPracticeScored(practiceId, outcome, questionRows) {
-    var idKey = studentIdKey();
+    var idKey = syncStudentContext();
     if (!idKey) return;
     if (!state.pack) state.pack = readLocalPack(idKey);
+    state.idKey = idKey;
     recordPracticeAttempt(state.pack, practiceId, outcome, questionRows);
     writeLocalPack(idKey, state.pack);
+    state.dirty = true;
     if (canSave()) scheduleSave();
   }
 
   function getPack() {
-    if (state.pack) return state.pack;
+    syncStudentContext();
     var idKey = studentIdKey();
-    if (idKey) return readLocalPack(idKey);
-    return emptyPack();
+    if (!idKey) return emptyPack();
+    if (state.pack && state.idKey === idKey) return state.pack;
+    return readLocalPack(idKey);
   }
 
   function mustRetryPractice(practiceId) {
@@ -394,6 +447,9 @@
     isRicherThan: isRicherThan,
     recordPracticeAttempt: recordPracticeAttempt,
     mustRetry: mustRetry,
+    mustRetryFromPractice: mustRetryFromPractice,
+    latestAttemptFromAttempts: latestAttemptFromAttempts,
+    resetInMemoryState: resetInMemoryState,
     serializePack: serializePack,
     runLoad: runLoad,
     onPracticeScored: onPracticeScored,
@@ -407,6 +463,7 @@
       pushSave: pushSave,
       readLocalPack: readLocalPack,
       writeLocalPack: writeLocalPack,
+      syncStudentContext: syncStudentContext,
     },
   };
 });
