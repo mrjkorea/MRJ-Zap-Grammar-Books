@@ -135,10 +135,12 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptEn": "( turn, red and yellow )\nThe leaves _____ _____ _____ _____ in fall.",
-      "blanks": 4,
+      "promptEn": "( turn, red and yellow )\nThe leaves _____ _____\n_____ in fall.",
+      "blanks": 3,
       "accept": [
-        "turn|red|and|yellow"
+        "turn|red and|yellow",
+        "turn|red|and yellow",
+        "turn|red and yellow"
       ],
       "id": "a06"
     },
