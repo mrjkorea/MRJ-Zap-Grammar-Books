@@ -1,8 +1,8 @@
 {
   "practiceId": "g3:u06:checkup",
   "title": "Check Up",
-  "subtitle": "Comic dialogue blanks (p. 134)",
-  "pages": "134",
+  "subtitle": "Comic dialogue blanks (p. 135)",
+  "pages": "135",
   "timerMinutes": 6,
   "unitTitle": "Unit 06 — 전치사",
   "bookId": "zap-green-3",
@@ -46,13 +46,11 @@
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "1",
       "type": "fill",
-      "promptEn": "A: Where is the cat?\nB: It is _____ the sofa.\n[그림: 고양이가 소파 뒤]",
+      "promptEn": "Can you come home _____ dinner?",
       "blanks": 1,
       "accept": [
-        "behind",
-        "behind"
-      ],
-      "noteKo": "from OCR - needs check"
+        "before"
+      ]
     },
     {
       "id": "c02",
@@ -63,13 +61,11 @@
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "2",
       "type": "fill",
-      "promptEn": "A: When does school start?\nB: _____ eight o'clock.\n[그림: 시계 8시, 등교]",
+      "promptEn": "I am _____ the sofa.",
       "blanks": 1,
       "accept": [
-        "At",
-        "at"
-      ],
-      "noteKo": "from OCR - needs check"
+        "behind"
+      ]
     },
     {
       "id": "c03",
@@ -80,13 +76,11 @@
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "3",
       "type": "fill",
-      "promptEn": "A: Did you eat breakfast?\nB: No. I brush my teeth _____ breakfast.\n[그림: 아침 식사 전]",
+      "promptEn": "He's _____ the door. Are you ready?",
       "blanks": 1,
       "accept": [
-        "before",
-        "before"
-      ],
-      "noteKo": "from OCR - needs check"
+        "at"
+      ]
     },
     {
       "id": "c04",
@@ -97,13 +91,11 @@
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "4",
       "type": "fill",
-      "promptEn": "A: Can we play soccer?\nB: Yes, _____ school.\n[그림: 방과 후 축구]",
+      "promptEn": "I'll come again _____ the party.",
       "blanks": 1,
       "accept": [
-        "after",
         "after"
-      ],
-      "noteKo": "from OCR - needs check"
+      ]
     }
   ]
 }

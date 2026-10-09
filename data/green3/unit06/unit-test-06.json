@@ -49,8 +49,8 @@
     {
       "id": "5",
       "title": "[5]",
-      "instructionKo": "다음 중 빈칸에 들어갈 말이 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "다음 중 빈칸에 들어갈 말이 알맞은 문장을 고르세요.",
+      "instructionKo": "다음 중 빈칸에 들어갈 말이 다른 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 빈칸에 들어갈 말이 다른 문장을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
@@ -272,25 +272,24 @@
       "id": "q05",
       "section": "5",
       "sectionTitle": "[5]",
-      "sectionInstructionKo": "다음 중 빈칸에 들어갈 말이 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "sectionInstructionKo": "다음 중 빈칸에 들어갈 말이 다른 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "5",
       "type": "mc",
-      "promptEn": "Choose the correct sentence.",
+      "promptEn": "",
       "choices": [
-        "Halloween is October.",
-        "My aunt lives in New Zealand.",
-        "It is hot summer.",
-        "The wolf cried at night.",
-        "My brother takes a shower in the morning."
+        "Halloween is _______ October.",
+        "My aunt lives _______ New Zealand.",
+        "It is hot _______ summer.",
+        "The wolf cried _______ night.",
+        "My brother takes a shower _______ the morning."
       ],
       "accept": [
-        "2",
-        "②"
+        "4",
+        "④"
       ],
-      "answer": "2",
-      "noteKo": "from OCR - needs check"
+      "answer": "4"
     },
     {
       "id": "q06",
@@ -302,20 +301,19 @@
       "label": "6",
       "type": "mc",
       "promptKo": "우리 할머니는 오전 4시에 일어나신다. / 캐런은 온종일 집에 머물렀다.",
-      "promptEn": "• My grandma gets up _____ 4 a.m.\n• Karen stayed home all day.",
+      "promptEn": "• My grandma gets up _____ 4 a.m.\n• Karen stayed _____ home all day.",
       "choices": [
         "on",
         "in",
+        "during",
         "at",
-        "to",
-        "between"
+        "for"
       ],
       "accept": [
         "4",
         "④"
       ],
-      "answer": "4",
-      "noteKo": "from OCR - needs check"
+      "answer": "4"
     },
     {
       "id": "q07",
@@ -331,16 +329,15 @@
       "choices": [
         "on",
         "in",
+        "during",
         "at",
-        "to",
-        "between"
+        "for"
       ],
       "accept": [
         "2",
         "②"
       ],
-      "answer": "2",
-      "noteKo": "from OCR - needs check"
+      "answer": "2"
     },
     {
       "id": "q08",
@@ -356,16 +353,15 @@
       "choices": [
         "on",
         "in",
+        "during",
         "at",
-        "to",
-        "between"
+        "for"
       ],
       "accept": [
         "1",
         "①"
       ],
-      "answer": "1",
-      "noteKo": "from OCR - needs check"
+      "answer": "1"
     },
     {
       "id": "q09",
@@ -571,7 +567,8 @@
       "promptEn": "His dog is walking <u>behind</u> him. → His dog is walking _____ him.\n그의 개는 그의 옆에서 걷고 있다.",
       "blanks": 1,
       "accept": [
-        "beside"
+        "beside",
+        "next to"
       ]
     },
     {
@@ -676,7 +673,7 @@
       "promptEn": "그 학교 앞에 버스 정류장이 하나 있다. ( the school )\nThere is a bus stop _____ _____ _____ _____.",
       "blanks": 4,
       "accept": [
-        "in|front|of|the|school"
+        "in|front|of|the school"
       ]
     }
   ]

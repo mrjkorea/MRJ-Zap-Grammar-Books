@@ -15,6 +15,18 @@ let total = 0;
 let bad = 0;
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const seen = new Set();
+  for (const it of d.items) {
+    if (seen.has(it.id)) {
+      bad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    seen.add(it.id);
+    if (it.noteKo && /OCR|needs check/i.test(it.noteKo)) {
+      bad++;
+      console.log("OCR-FLAG", f, it.id, it.noteKo);
+    }
+  }
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;

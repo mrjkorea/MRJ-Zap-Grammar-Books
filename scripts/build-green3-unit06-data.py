@@ -24,8 +24,6 @@ OUT = os.path.join(ROOT, "data", "green3", "unit06")
 UT = "Unit 06 — 전치사"
 UID = "g3:u06"
 BOOK = {"bookId": "zap-green-3", "bookTitle": "ZAP Green 3", "appName": "GreenZap 3", "unitId": "unit-06"}
-OCR_NOTE = "from OCR - needs check"
-
 R_WORD1 = "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)"
 R_WORDN = "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)"
 R_SENT = "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)"
@@ -62,10 +60,8 @@ def ko_fill(label, en, ko, accept, ex=False, note=None):
     return it
 
 
-def tag_ocr(d, item_ids):
-    for it in d["items"]:
-        if it["id"] in item_ids:
-            it["noteKo"] = OCR_NOTE
+def make_idfmt(prefix):
+    return lambda sid, n: f"{prefix}_{sid.lower()}{n:02d}"
 
 
 files = {}
@@ -98,9 +94,8 @@ B1 = [MC(f"B{i + 1}", en, ch, ans) for i, (en, ch, ans) in enumerate(walk1_b)]
 files["walk1.json"] = finish(
     g3meta("walk1", "Grammar Walk — Lesson 01", "시간을 나타내는 전치사 (p. 119)", "119", 10),
     [(secA1, A1), (secB1, B1)],
-    letter_id,
+    make_idfmt("u06w1"),
 )
-tag_ocr(files["walk1.json"], {"a01", "a02", "a03", "a04", "a05", "a06"})
 
 # ---------- walk2 p.121 ----------
 DIR_A2 = "다음 문장에서 장소를 나타내는 「전치사+명사(구)」를 찾아 동그라미 하세요."
@@ -129,7 +124,7 @@ B2 = [MC(f"B{i + 1}", en, ch, ans) for i, (en, ch, ans) in enumerate(walk2_b)]
 files["walk2.json"] = finish(
     g3meta("walk2", "Grammar Walk — Lesson 02", "장소/위치를 나타내는 전치사 (p. 121)", "121", 10),
     [(secA2, A2), (secB2, B2)],
-    letter_id,
+    make_idfmt("u06w2"),
 )
 
 # ---------- run pp.122-123 ----------
@@ -189,7 +184,7 @@ RB = [
 files["run.json"] = finish(
     g3meta("run", "Grammar Run", "전치사 (pp. 122–123)", "122–123", 20),
     [(secRA, RA), (secRB, RB)],
-    letter_id,
+    make_idfmt("u06run"),
 )
 
 # ---------- jump pp.124-125 ----------
@@ -222,7 +217,7 @@ jump_b = [
     ("Jake brushes his teeth _____ dinner. ( dinner )", "after"),
     ("It rained heavily _____ the night. ( the night )", "during"),
     ("Snowie often sleeps _____ the day. ( the day )", "during"),
-    ("My dad works _____ 9 a.m. _____ 5 p.m. ( 9 a.m. ) ( the day )", "from|9 a.m.|to|5 p.m."),
+    ("My dad works _____ _____ _____ to 5 p.m. ( 9 a.m. )", "from|9|a.m."),
     ("We looked for our puppy _____ three hours. ( three hours )", "for"),
     ("They don't exercise _____ bed. ( bed )", "before"),
     ("Seagulls are flying _____ the sea. ( the sea )", "over"),
@@ -255,15 +250,18 @@ JA = [
     FILL("A12", "They speak English and French _____ Canada.", ["in"]),
 ]
 JB = []
+JB_SYNONYMS = {8: ("next to", "beside"), 9: ("beside", "next to")}
 for i, (en, ans) in enumerate(jump_b):
-    blanks = len(ans.split("|"))
-    JB.append(FILL(f"B{i + 1}", en, word_accept(ans), blanks=blanks))
+    if i in JB_SYNONYMS:
+        JB.append(FILL(f"B{i + 1}", en, word_accept(*JB_SYNONYMS[i]), blanks=1))
+    else:
+        blanks = len(ans.split("|"))
+        JB.append(FILL(f"B{i + 1}", en, word_accept(ans), blanks=blanks))
 files["jump.json"] = finish(
     g3meta("jump", "Grammar Jump", "전치사 (pp. 124–125)", "124–125", 25),
     [(secJA, JA), (secJB, JB)],
-    letter_id,
+    make_idfmt("u06jmp"),
 )
-tag_ocr(files["jump.json"], {f"b{i:02d}" for i in range(1, 16)})
 
 # ---------- fly pp.126-127 ----------
 DIR_FA = "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요."
@@ -320,9 +318,8 @@ FB = [SENT(f"B{i + 1}", en, [ans], ko=ko, ex=ex) for i, (en, ko, ans, *rest) in 
 files["fly.json"] = finish(
     g3meta("fly", "Grammar Fly", "전치사 (pp. 126–127)", "126–127", 28),
     [(secFA, FA), (secFB, FB)],
-    letter_id,
+    make_idfmt("u06fly"),
 )
-tag_ocr(files["fly.json"], {f"b{i:02d}" for i in range(2, 13)})
 
 # ---------- writing pp.128-129 ----------
 DIR_WA = "[정보 활용하기] 올리비아와 친구들이 여러 파티의 초대장을 만들었습니다. 초대장을 보고, 다음 문장을 완성하세요."
@@ -365,11 +362,12 @@ WB = [
 files["writing.json"] = finish(
     g3meta("writing", "Grammar & Writing", "초대장·지도 (pp. 128–129)", "128–129", 20),
     [(secWA, WA), (secWB, WB)],
-    letter_id,
+    make_idfmt("u06wrt"),
 )
 
 # ---------- unit test pp.130-134 ----------
 CHO5 = ["on", "in", "at", "to", "between"]
+CHO68 = ["on", "in", "during", "at", "for"]
 PAIR_CHO = ["under - under", "over - over", "behind - between", "over - under", "under - over"]
 PAIR2_CHO = ["for - at", "during - on", "for - from", "during - to", "for - before"]
 
@@ -384,7 +382,7 @@ def mc_pair(label, prompt, choices, ans_num):
 test_groups = []
 sec = S("1-3", "[1–3]", "다음 문장의 빈칸에 알맞은 말을 고르세요.", R_PICK, "choice")
 sec4 = S("4", "[4]", "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요.", R_PICK, "choice")
-sec5 = S("5", "[5]", "다음 중 빈칸에 들어갈 말이 알맞은 문장을 고르세요.", R_PICK, "choice")
+sec5 = S("5", "[5]", "다음 중 빈칸에 들어갈 말이 다른 문장을 고르세요.", R_PICK, "choice")
 sec68 = S("6-8", "[6–8]", "다음 문장의 빈칸에 공통으로 알맞은 말을 고르세요.", R_PICK, "choice")
 sec910 = S("9-10", "[9–10]", "다음 문장의 빈칸에 들어갈 말이 순서대로 바르게 짝지어진 것을 고르세요.", R_PICK, "choice")
 sec1112 = S("11-12", "[11–12]", "다음 문장의 우리말 뜻으로 알맞은 것을 고르세요.", R_PICK, "choice")
@@ -424,41 +422,37 @@ T = [
     ),
     MC(
         "5",
-        "Choose the correct sentence.",
+        "",
         [
-            "Halloween is October.",
-            "My aunt lives in New Zealand.",
-            "It is hot summer.",
-            "The wolf cried at night.",
-            "My brother takes a shower in the morning.",
+            "Halloween is _______ October.",
+            "My aunt lives _______ New Zealand.",
+            "It is hot _______ summer.",
+            "The wolf cried _______ night.",
+            "My brother takes a shower _______ the morning.",
         ],
-        "2",
+        "4",
         numbered=True,
-        noteKo=OCR_NOTE,
     ),
     mc5(
         "6",
-        "• My grandma gets up _____ 4 a.m.\n• Karen stayed home all day.",
+        "• My grandma gets up _____ 4 a.m.\n• Karen stayed _____ home all day.",
         "우리 할머니는 오전 4시에 일어나신다. / 캐런은 온종일 집에 머물렀다.",
-        CHO5,
+        CHO68,
         4,
-        noteKo=OCR_NOTE,
     ),
     mc5(
         "7",
         "• School begins _____ March.\n• Mom cooked dinner _____ the kitchen.",
         "학교는 3월에 시작한다. / 엄마는 부엌에서 저녁 식사를 요리하셨다.",
-        CHO5,
+        CHO68,
         2,
-        noteKo=OCR_NOTE,
     ),
     mc5(
         "8",
         "• The library closes _____ Monday.\n• Let's hang the picture _____ the wall.",
         "그 도서관은 월요일에 문을 닫는다. / 벽에 그 그림을 걸자.",
-        CHO5,
+        CHO68,
         1,
-        noteKo=OCR_NOTE,
     ),
     mc_pair(
         "9",
@@ -535,7 +529,7 @@ T = [
     FILL(
         "18",
         "His dog is walking <u>behind</u> him. → His dog is walking _____ him.\n그의 개는 그의 옆에서 걷고 있다.",
-        ["beside"],
+        word_accept("beside", "next to"),
     ),
     FILL(
         "19",
@@ -574,7 +568,7 @@ T = [
     FILL(
         "25",
         "그 학교 앞에 버스 정류장이 하나 있다. ( the school )\nThere is a bus stop _____ _____ _____ _____.",
-        word_accept("in|front|of|the|school"),
+        word_accept("in|front|of|the school"),
         blanks=4,
     ),
 ]
@@ -627,41 +621,39 @@ for lab, sec, prompt, acc in wrap_items:
             "promptEn": "",
             "blanks": 1,
             "accept": acc,
-            "noteKo": OCR_NOTE,
         }
     )
 files["wrap.json"] = finish(
-    g3meta("wrap", "Wrap Up", "Unit 06 summary fill-ins (p. 134)", "134", 8),
+    g3meta("wrap", "Wrap Up", "Unit 06 summary fill-ins (p. 135)", "135", 8),
     [(secW1, W[:3]), (secW2, W[3:])],
     lambda sid, n: f"w{sid}_{n}",
 )
 
-# ---------- check up p.134 ----------
+# ---------- check up p.135 ----------
 CU_DIR = "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (behind / at / before / after)"
 secCU = S("CU", "Check Up", CU_DIR, R_BANK, "choice")
 check_items = [
-    ("1", "A: Where is the cat?\nB: It is _____ the sofa.", "behind", "[그림: 고양이가 소파 뒤]"),
-    ("2", "A: When does school start?\nB: _____ eight o'clock.", "at", "[그림: 시계 8시, 등교]"),
-    ("3", "A: Did you eat breakfast?\nB: No. I brush my teeth _____ breakfast.", "before", "[그림: 아침 식사 전]"),
-    ("4", "A: Can we play soccer?\nB: Yes, _____ school.", "after", "[그림: 방과 후 축구]"),
+    ("1", "Can you come home _____ dinner?", "before"),
+    ("2", "I am _____ the sofa.", "behind"),
+    ("3", "He's _____ the door. Are you ready?", "at"),
+    ("4", "I'll come again _____ the party.", "after"),
 ]
 CU = [
     {
         "label": lab,
         "type": "fill",
-        "promptEn": en + ("\n" + note if note else ""),
+        "promptEn": en,
         "blanks": 1,
-        "accept": [ans.capitalize() if lab == "2" else ans, ans],
-        "noteKo": OCR_NOTE,
+        "accept": word_accept(ans),
     }
-    for lab, en, ans, note in check_items
+    for lab, en, ans in check_items
 ]
 files["checkup.json"] = finish(
     g3meta(
         "checkup",
         "Check Up",
-        "Comic dialogue blanks (p. 134)",
-        "134",
+        "Comic dialogue blanks (p. 135)",
+        "135",
         6,
         wordBank=["behind", "at", "before", "after"],
     ),
