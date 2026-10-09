@@ -1,4 +1,4 @@
-/* Smoke-grade every GZ3 Unit 01 item with the repo's own normalize.js + engine.js gradeItem. */
+/* Smoke-grade every GZ3 Unit 07 item with the repo's own normalize.js + engine.js gradeItem. */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
