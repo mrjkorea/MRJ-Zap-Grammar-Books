@@ -1,4 +1,5 @@
-/* Smoke-grade every Green2 Unit 07 item with the repo's own normalize.js + engine.js gradeItem. */
+/* Smoke-grade every Green2 Unit 07 item with normalize.js + engine.js gradeItem.
+   Includes walk1 two-blank (동사|동명사) items from Grammar Walk p.143 marking exercise. */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
