@@ -1,4 +1,4 @@
-/* Smoke-grade every GZ3 Unit 01 item with the repo's own normalize.js + engine.js gradeItem. */
+/* Smoke-grade every GZ2 Unit 01 item with normalize.js + engine.js gradeItem. */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
@@ -15,8 +15,14 @@ let total = 0;
 let bad = 0;
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const seen = new Set();
   let ok = 0;
   for (const it of d.items) {
+    if (seen.has(it.id)) {
+      bad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    seen.add(it.id);
     if (it.displayOnly) continue;
     total++;
     let right;

@@ -15,8 +15,8 @@
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "다음 빈칸에 우리말 뜻을 쓰세요.",
+      "instructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 빈칸에 우리 말 뜻을 쓰세요.",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -45,7 +45,7 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
@@ -63,7 +63,7 @@
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
@@ -78,7 +78,7 @@
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
@@ -93,7 +93,7 @@
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
@@ -101,14 +101,17 @@
       "promptEn": "4. a glass of water",
       "blanks": 1,
       "accept": [
-        "물 한 컵"
+        "물 한 컵",
+        "물 한 잔",
+        "한 컵의 물",
+        "한 잔의 물"
       ]
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
@@ -123,7 +126,7 @@
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A6",
@@ -131,14 +134,15 @@
       "promptEn": "6. a bar of soap",
       "blanks": 1,
       "accept": [
-        "비누 한 개"
+        "비누 한 개",
+        "비누 한 조각"
       ]
     },
     {
       "id": "a07",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A7",
@@ -153,7 +157,7 @@
       "id": "a08",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A8",
@@ -161,14 +165,15 @@
       "promptEn": "8. four cups of coffee",
       "blanks": 1,
       "accept": [
-        "커피 네 잔"
+        "커피 네 잔",
+        "커피 4잔"
       ]
     },
     {
       "id": "a09",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A9",
@@ -176,14 +181,15 @@
       "promptEn": "9. five cans of cola",
       "blanks": 1,
       "accept": [
-        "콜라 다섯 캔"
+        "콜라 다섯 캔",
+        "콜라 5캔"
       ]
     },
     {
       "id": "a10",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A10",
@@ -198,7 +204,7 @@
       "id": "a11",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A11",
@@ -213,7 +219,7 @@
       "id": "a12",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A12",
@@ -228,7 +234,7 @@
       "id": "a13",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A13",
@@ -243,7 +249,7 @@
       "id": "a14",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A14",
@@ -251,14 +257,15 @@
       "promptEn": "14. two glasses of milk",
       "blanks": 1,
       "accept": [
-        "우유 두 컵"
+        "우유 두 컵",
+        "우유 두 잔"
       ]
     },
     {
       "id": "a15",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 우리말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 빈칸에 우리 말 뜻을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A15",
