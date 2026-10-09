@@ -4,7 +4,7 @@
   "subtitle": "전치사 to / for / of (p. 33)",
   "pages": "33",
   "timerMinutes": 10,
-  "introKo": "이 연습은 Section A 15문항(빈칸 말만 쓰기)으로 되어 있어요. (p.33은 OCR만 참고 — from OCR - needs check)",
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
   "sections": [
     {
       "id": "A",
@@ -14,10 +14,9 @@
       "ruleKo": "동사와 전치사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 15,
-      "exampleCount": 0,
+      "itemCount": 14,
+      "exampleCount": 1,
       "labels": [
-        "A1",
         "A2",
         "A3",
         "A4",
@@ -48,8 +47,12 @@
       "promptEn": "Clara gave a bone to her dog.\n[동사] _____   [전치사] _____",
       "blanks": 2,
       "accept": [
-        "gave|to"
-      ]
+        "gave|to",
+        "gave | to"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "gave / to"
     },
     {
       "section": "A",

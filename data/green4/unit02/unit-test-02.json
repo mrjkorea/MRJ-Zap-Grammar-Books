@@ -8,7 +8,7 @@
   "passPct": 80,
   "retryBelowPct": 50,
   "showAnswersToStudent": false,
-  "introKo": "이 연습은 [1–2]~[18] 고르기, [19–21] 빈칸 말만, [22–25] 문장 전체로 되어 있어요. [19–21]은 OCR 참고 (from OCR - needs check).",
+  "introKo": "이 연습은 [1–2]~[18] 고르기, [19–21] 빈칸 말만(빈칸 두 개), [22–25] 문장 전체로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -148,9 +148,9 @@
     {
       "id": "19-21",
       "title": "[19–21]",
-      "instructionKo": "짝지어진 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "짝지어진 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
       "directionKo": "짝지어진 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 3,
@@ -287,7 +287,6 @@
       ],
       "accept": [
         "2",
-        "②",
         "②"
       ],
       "promptKo": "마이크는 오늘 아침 내게 자기 이구아나를 보여 주었다."
@@ -311,7 +310,6 @@
       ],
       "accept": [
         "4",
-        "④",
         "④"
       ],
       "promptKo": "우리 선생님은 내게 질문을 하나 하셨다."
@@ -571,46 +569,49 @@
     {
       "section": "19-21",
       "sectionTitle": "[19–21]",
-      "sectionInstructionKo": "짝지어진 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "짝지어진 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "19",
       "id": "q19",
       "type": "fill",
-      "promptEn": "Let's send her a birthday card.\n= Let's send a birthday card _____.",
-      "blanks": 1,
+      "promptEn": "Let's send her a birthday card.\n= Let's send a birthday card _____ _____.",
+      "blanks": 2,
       "accept": [
-        "to her"
+        "to|her",
+        "to | her"
       ]
     },
     {
       "section": "19-21",
       "sectionTitle": "[19–21]",
-      "sectionInstructionKo": "짝지어진 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "짝지어진 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "20",
       "id": "q20",
       "type": "fill",
-      "promptEn": "Ben's aunt bought him new soccer shoes.\n= Ben's aunt bought new soccer shoes _____.",
-      "blanks": 1,
+      "promptEn": "Ben's aunt bought him new soccer shoes.\n= Ben's aunt bought new soccer shoes _____ _____.",
+      "blanks": 2,
       "accept": [
-        "for him"
+        "for|him",
+        "for | him"
       ]
     },
     {
       "section": "19-21",
       "sectionTitle": "[19–21]",
-      "sectionInstructionKo": "짝지어진 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "짝지어진 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "21",
       "id": "q21",
       "type": "fill",
-      "promptEn": "I asked Jenny his e-mail address.\n= I asked his e-mail address _____.",
-      "blanks": 1,
+      "promptEn": "I asked Jenny his e-mail address.\n= I asked his e-mail address _____ _____.",
+      "blanks": 2,
       "accept": [
-        "of Jenny"
+        "of|Jenny",
+        "of | Jenny"
       ]
     },
     {
