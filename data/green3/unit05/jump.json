@@ -1,0 +1,505 @@
+{
+  "practiceId": "g3:u05:jump",
+  "title": "Grammar Jump",
+  "subtitle": "현재 완료 문장 완성 (pp. 104–106)",
+  "pages": "104–106",
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 현재 완료 시제 (3)",
+  "timerMinutes": 25,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기), Section B 11문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "has practiced",
+      "type": "fill",
+      "promptEn": "She has practiced taekwondo since last month. ( practice )\n그녀는 지난달부터 태권도를 연습해 왔다.",
+      "blanks": 1,
+      "accept": [
+        "has practiced"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "We _____ at Bill's house for two days. ( stay )\n우리는 이틀 동안 빌의 집에서 머물고 있다.",
+      "blanks": 1,
+      "accept": [
+        "have stayed"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Jake _____ the song since the second grade. ( know )\n제이크는 2학년 때부터 그 노래를 알고 있다.",
+      "blanks": 1,
+      "accept": [
+        "has known"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "I _____ Max for three years. ( raise )\n나는 3년 동안 맥스를 키워 왔다.",
+      "blanks": 1,
+      "accept": [
+        "have raised"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "He _____ to New York. ( go )\n그는 뉴욕에 가고 없다.",
+      "blanks": 1,
+      "accept": [
+        "has gone"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "They _____ the concert tickets. ( sell )\n그들은 콘서트 입장권을 팔아 버렸다.",
+      "blanks": 1,
+      "accept": [
+        "have sold"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Jack and Jill _____ all the milk. ( drink )\n잭과 질이 그 우유를 모두 마셔 버렸다.",
+      "blanks": 1,
+      "accept": [
+        "have drunk"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "He _____ the window. ( break )\n그는 창문을 깨뜨렸다.",
+      "blanks": 1,
+      "accept": [
+        "has broken"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "They _____ not _____ sweets for six months. ( eat )\n그들은 6개월 동안 단것을 먹지 않고 있다.",
+      "blanks": 2,
+      "accept": [
+        "have|not eaten"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Mr. Kirk _____ not _____ us since last year. ( teach )\n커크 선생님은 지난해부터 우리를 가르치시지 않는다.",
+      "blanks": 2,
+      "accept": [
+        "has|not taught"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "She _____ not _____ well for two days. ( not, sleep )\n그녀는 이틀 동안 잠을 잘 자지 못하고 있다.",
+      "blanks": 2,
+      "accept": [
+        "has|not slept"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "_____ Mr. and Mrs. Simpson _____ a car since 1997? ( have )\n심프슨 씨 부부는 1997년부터 차를 가지고 있니?",
+      "blanks": 2,
+      "accept": [
+        "Have|had"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "_____ you _____ English since the third grade? ( study )\n너는 3학년 때부터 영어를 공부해 왔니?",
+      "blanks": 2,
+      "accept": [
+        "Have|studied"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "_____ she _____ her textbook at home? ( leave )\n그녀는 집에 교과서를 두고 왔니?",
+      "blanks": 2,
+      "accept": [
+        "Has|left"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "_____ he _____ his pet? ( lose )\n그는 자기 애완동물을 잃어버렸니?",
+      "blanks": 2,
+      "accept": [
+        "Has|lost"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "has worn",
+      "type": "fill",
+      "promptEn": "He has worn glasses for two years.\n그는 2년 동안 안경을 써 왔다.",
+      "blanks": 1,
+      "accept": [
+        "has worn"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "She _____ here since two o'clock.\n그녀는 2시부터 여기에 있다.",
+      "blanks": 1,
+      "accept": [
+        "has been"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Angela _____ her purse.\n앤절라는 자기 지갑을 찾았다.",
+      "blanks": 1,
+      "accept": [
+        "has found"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "They _____ to the museum.\n그들은 박물관에 가고 없다.",
+      "blanks": 1,
+      "accept": [
+        "have gone"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "I _____ not _____ my e-mail for a week.\n나는 일주일 동안 이메일을 확인하지 않고 있다.",
+      "blanks": 2,
+      "accept": [
+        "have|checked"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Jeff _____ not _____ a picture since June.\n제프는 6월부터 그림을 그리지 않고 있다.",
+      "blanks": 2,
+      "accept": [
+        "has|drawn"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "They _____ not _____ computer games since last week.\n그들은 지난주부터 컴퓨터 게임을 하지 않고 있다.",
+      "blanks": 2,
+      "accept": [
+        "have|played"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Jack and Sunny _____ not _____ Max for a week.\n잭과 서니는 일주일 동안 맥스를 보지 못하고 있다.",
+      "blanks": 2,
+      "accept": [
+        "have|seen"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "_____ it _____ a lot since yesterday?\n어제부터 눈이 많이 오니?",
+      "blanks": 2,
+      "accept": [
+        "Has|snowed"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "_____ you _____ children's books for ten years?\n너는 10년 동안 어린이 책을 써 왔니?",
+      "blanks": 2,
+      "accept": [
+        "Have|written"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "_____ she _____ my name?\n그녀는 내 이름을 잊어버렸니?",
+      "blanks": 2,
+      "accept": [
+        "Has|forgotten"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (상자 안의 말을 사용하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "_____ the wild goose _____ north?\n그 기러기는 북쪽으로 날아가 버렸니?",
+      "blanks": 2,
+      "accept": [
+        "Has|flown"
+      ],
+      "noteKo": "from OCR - needs check (p.106 image missing)"
+    }
+  ],
+  "wordBank": [
+    "flown",
+    "seen",
+    "been",
+    "forgotten",
+    "snowed",
+    "worn",
+    "gone",
+    "found",
+    "played",
+    "checked",
+    "written",
+    "drawn"
+  ]
+}
