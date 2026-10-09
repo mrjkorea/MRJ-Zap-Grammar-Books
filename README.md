@@ -74,7 +74,18 @@ Section layout matches the printed book (`sectionsVersion: 2`). See PR tables fo
 
 Deep link example: `#/p/zap-green-3/unit-01/walk1`
 
-Other books/units appear in the index as **coming soon**. **ZAP Green 1 / Units 01–05** and **ZAP Green 3 / Unit 01** are active in the index.
+### GreenZap 1 — Units 06–08 + Review & Final Tests
+
+| Unit / group | Practices | Graded items (approx.) | Deep link |
+|--------------|-----------|------------------------|-----------|
+| 06 조동사 (2) | 9 | 129 | `#/p/zap-green-1/unit-06/walk1` |
+| 07 조동사 (3) | 9 | 129 | `#/p/zap-green-1/unit-07/walk1` |
+| 08 여러 가지 문장 | 9 | 144 | `#/p/zap-green-1/unit-08/walk1` |
+| Review & Final Tests | 6 (RT01–04, FT01–02) | 120 | `#/p/zap-green-1/tests/rt01` |
+
+**GreenZap 1 full book:** 8 units × 9 practices + 6 tests = **78 practices**, **1252 graded items** (see `PROOF-GZ1.md` for per-practice rows, smoke results, and live URLs). Build string: `20261009-gz1-full`.
+
+Other books/units appear in the index as **coming soon**. **ZAP Green 1 (Units 01–08 + tests)** and **ZAP Green 3 / Unit 01** are active in the index.
 
 ## Student rules
 
@@ -107,12 +118,18 @@ python3 -m http.server 8080
 
 ```bash
 node scripts/pack-unit-test.js
-node scripts/smoke-sections.js    # GreenZap 1 units 01–05 + GreenZap 3 unit 01
-node scripts/smoke-units-02-05.js # optional: units 02–05 only (same checks)
+node scripts/smoke-sections.js    # GreenZap 1 units 01–08 + GreenZap 3 unit 01
+node scripts/smoke-gz1-all.js       # catalog-driven: all 78 GreenZap 1 data files
+node scripts/smoke-gz1-tests.js
+node scripts/smoke-units-02-05.js
+node scripts/smoke-unit06.js
+node scripts/smoke-unit07.js
+node scripts/smoke-unit08.js
 node scripts/smoke-unit-test.js
 node scripts/smoke-green3-unit01.js
 node scripts/smoke-app-sections.js
 node scripts/smoke-review.js
+node scripts/e2e-gz1-browser.js     # headless browser (needs: npm install playwright)
 ```
 
 ## Results

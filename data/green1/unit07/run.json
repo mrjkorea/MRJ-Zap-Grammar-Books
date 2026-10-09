@@ -1,0 +1,488 @@
+{
+  "sectionsVersion": 2,
+  "unitTitle": "Unit 07 — 조동사 (3)",
+  "practiceId": "u07:run",
+  "title": "Grammar Run",
+  "subtitle": "Modal meanings & blanks (pp. 146–147)",
+  "pages": "146–147",
+  "timerMinutes": 20,
+  "introKo": "이 연습은 Section A 12문항(고르기), Section B 12문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 12,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요.",
+      "ruleKo": "괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "You should bring your lunch box.  (밑줄: should bring)",
+      "choices": [
+        "가져올 수 있다",
+        "가져오는 것이 좋겠다"
+      ],
+      "accept": [
+        "가져오는 것이 좋겠다",
+        "②",
+        "2"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "You should not eat too much junk food.  (밑줄: should not eat)",
+      "choices": [
+        "먹지 않았을 것이다",
+        "먹지 않는 것이 좋겠다"
+      ],
+      "accept": [
+        "먹지 않는 것이 좋겠다",
+        "②",
+        "2"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "You had better come home early today.  (밑줄: had better come)",
+      "choices": [
+        "오는 것이 좋겠다",
+        "와도 된다"
+      ],
+      "accept": [
+        "오는 것이 좋겠다",
+        "①",
+        "1"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "We had better not forget our homework.  (밑줄: had better not forget)",
+      "choices": [
+        "잊어버리지 않는 것이 좋겠다",
+        "잊어버리지 않을 것이다"
+      ],
+      "accept": [
+        "잊어버리지 않는 것이 좋겠다",
+        "①",
+        "1"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Will you move this table?  (밑줄: Will you)",
+      "choices": [
+        "옮겨도 되니?",
+        "옮겨 주겠니?"
+      ],
+      "accept": [
+        "옮겨 주겠니?",
+        "②",
+        "2"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Will you lend me your ruler?  (밑줄: Will you)",
+      "choices": [
+        "빌려 주어야 하니?",
+        "빌려 주겠니?"
+      ],
+      "accept": [
+        "빌려 주겠니?",
+        "②",
+        "2"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Shall I answer his e-mail?  (밑줄: Shall I)",
+      "choices": [
+        "내게 답장해 주겠니?",
+        "내가 답장할까?"
+      ],
+      "accept": [
+        "내가 답장할까?",
+        "②",
+        "2"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Shall we ride a bike in the park?  (밑줄: Shall we)",
+      "choices": [
+        "우리 자전거를 탈까?",
+        "우리 자전거를 타야 하니?"
+      ],
+      "accept": [
+        "우리 자전거를 탈까?",
+        "①",
+        "1"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Shall we have some spaghetti?  (밑줄: Shall we have)",
+      "choices": [
+        "우리 먹을까?",
+        "우리 먹을 수 있을까?"
+      ],
+      "accept": [
+        "우리 먹을까?",
+        "①",
+        "1"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "Would you like to play basketball today?  (밑줄: Would you like to)",
+      "choices": [
+        "농구를 하시겠어요?",
+        "농구를 할 수 있나요?"
+      ],
+      "accept": [
+        "농구를 하시겠어요?",
+        "①",
+        "1"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "Would you like to go sledding tomorrow?  (밑줄: Would you like to)",
+      "choices": [
+        "썰매를 타러 가시겠어요?",
+        "썰매를 타러 가야 하나요?"
+      ],
+      "accept": [
+        "썰매를 타러 가시겠어요?",
+        "①",
+        "1"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "I'd like to play a board game.  (밑줄: I'd like to)",
+      "choices": [
+        "해야 한다",
+        "하고 싶다"
+      ],
+      "accept": [
+        "하고 싶다",
+        "②",
+        "2"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "We ________ stand in line. ( will / should )",
+      "blanks": 1,
+      "accept": [
+        "should"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "should"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "You ________ throw away the trash here. ( won't / shouldn't )",
+      "blanks": 1,
+      "accept": [
+        "shouldn't",
+        "should not"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "You ________ be quiet in class. ( had to / had better )",
+      "blanks": 1,
+      "accept": [
+        "had better"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "You ________ ________ tease her. ( don't have to / had better not )",
+      "blanks": 2,
+      "accept": [
+        "had better|not"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "You ________ ________ lock the door. ( had better / should not )",
+      "blanks": 2,
+      "accept": [
+        "had|better"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "________ you pass me the spoon? ( Will / Shall )",
+      "blanks": 1,
+      "accept": [
+        "Will"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "________ you buy me a hamburger? ( Should / Will )",
+      "blanks": 1,
+      "accept": [
+        "Will"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "________ I wash the dishes? ( Shall / Must )",
+      "blanks": 1,
+      "accept": [
+        "Shall"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "________ we wait for Karl here? ( Would / Shall )",
+      "blanks": 1,
+      "accept": [
+        "Shall"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "________ you like to go on a picnic this Sunday? ( Should / Would )",
+      "blanks": 1,
+      "accept": [
+        "Would"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "Would you ________ ________ come to my house? ( like to / have to )",
+      "blanks": 2,
+      "accept": [
+        "like|to"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 괄호 안에서 골라 빈칸에 쓰세요. 괄호 안에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "________ ________ to watch the soccer game. ( I have / I'd like )",
+      "blanks": 2,
+      "accept": [
+        "I'd|like",
+        "I|d|like"
+      ]
+    }
+  ]
+}

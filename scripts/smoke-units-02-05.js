@@ -4,8 +4,8 @@
  * In the repo: node scripts/smoke-units-02-05.js assets/js data
  */
 const fs = require("fs"), path = require("path"), vm = require("vm");
-const JS = process.argv[2] || path.join(__dirname, "live/js");
-const ROOT = process.argv[3] || path.join(__dirname, "data");
+const JS = process.argv[2] || path.join(__dirname, "..", "assets", "js");
+const ROOT = process.argv[3] || path.join(__dirname, "..", "data");
 const win = {};
 const ctx = vm.createContext({ window: win, Date, Math, JSON, String, Array, Object, RegExp, Promise });
 for (const f of ["normalize.js", "engine.js"]) vm.runInContext(fs.readFileSync(path.join(JS, f), "utf8"), ctx);

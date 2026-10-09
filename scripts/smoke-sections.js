@@ -84,13 +84,16 @@ for (const book of ["green1", "green3"]) {
       n++;
       if (/^[A-Z]$/.test(it.section) && it.label !== it.section + n) fail(where, it.id, "label", it.label, "expected", it.section + n);
       if (it.example && !it.displayOnly) fail(where, it.id, "example must be displayOnly");
-      if (it.answerMode === "words")
+      if (it.answerMode === "words") {
+        const koGloss = (s) => /[\u3131-\u318E\uAC00-\uD7A3]/.test(s) || /^~/.test(String(s).trim());
         for (const a of it.accept)
           if (
-            /[?.!]$/.test(a.trim()) ||
-            a.split("|").some((p) => p.trim().split(/\s+/).length > 6)
+            !koGloss(a) &&
+            (/[?.!]$/.test(a.trim()) ||
+              a.split("|").some((p) => p.trim().split(/\s+/).length > 6))
           )
             fail(where, it.id, "words-mode accept looks like a sentence:", a);
+      }
       if (it.answerMode === "sentence" && it.type !== "sentence") fail(where, it.id, "sentence mode but type", it.type);
       if (it.type === "mc" && it.answerMode !== "choice") fail(where, it.id, "mc must be choice mode");
       if (it.displayOnly) {
