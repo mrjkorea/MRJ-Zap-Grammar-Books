@@ -1,0 +1,532 @@
+{
+  "practiceId": "g4:u04:fly",
+  "title": "Grammar Fly",
+  "subtitle": "문장 완성 & 배열 (pp. 82–83)",
+  "pages": "82–83",
+  "timerMinutes": 28,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 1예시 + 14문항(빈칸 말만), Section B 1예시 + 14문항(문장 전체)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "Jimmy let Matt _____ his computer. ( use, let )",
+      "blanks": 2,
+      "accept": [
+        "let|use"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "let / use",
+      "promptKo": "지미는 맷이 자기 컴퓨터를 사용하게 해 주었다."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "My mother _____ me _____ to Sue's home. ( go, let )",
+      "blanks": 2,
+      "accept": [
+        "let|go"
+      ],
+      "promptKo": "우리 어머니는 내가 수의 집에 가게 해 주셨다."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "The rain _____ Chris _____ at home. ( stay, make )",
+      "blanks": 2,
+      "accept": [
+        "makes|stay"
+      ],
+      "promptKo": "비는 크리스가 집에 머무르게 만들었다."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "Sad movies always _____ her _____. ( cry, make )",
+      "blanks": 2,
+      "accept": [
+        "make|cry"
+      ],
+      "promptKo": "슬픈 영화는 항상 그녀를 울게 만든다."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "Bob _____ his sister _____ his room. ( clean, make )",
+      "blanks": 2,
+      "accept": [
+        "makes|clean"
+      ],
+      "promptKo": "밥은 자기 여동생이 그의 방을 청소하게 만들었다."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "id": "a06",
+      "type": "fill",
+      "promptEn": "She _____ John _____ his shoes. ( wash, have )",
+      "blanks": 2,
+      "accept": [
+        "had|wash"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "id": "a07",
+      "type": "fill",
+      "promptEn": "He _____ Lisa _____ up the trash. ( pick, have )",
+      "blanks": 2,
+      "accept": [
+        "had|pick"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "id": "a08",
+      "type": "fill",
+      "promptEn": "I _____ him _____ to the library. ( go, see )",
+      "blanks": 2,
+      "accept": [
+        "saw|go"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "id": "a09",
+      "type": "fill",
+      "promptEn": "We _____ a boy _____ a kite. ( fly, see )",
+      "blanks": 2,
+      "accept": [
+        "saw|fly"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "id": "a10",
+      "type": "fill",
+      "promptEn": "The captain _____ the sun _____. ( rise, watch )",
+      "blanks": 2,
+      "accept": [
+        "watched|rise"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "id": "a11",
+      "type": "fill",
+      "promptEn": "He _____ the sheep _____ grass every day. ( eat, watch )",
+      "blanks": 2,
+      "accept": [
+        "watches|eat"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "id": "a12",
+      "type": "fill",
+      "promptEn": "They _____ a man _____ last night. ( shout, hear )",
+      "blanks": 2,
+      "accept": [
+        "heard|shout"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "id": "a13",
+      "type": "fill",
+      "promptEn": "I _____ you _____ a song. ( sing, hear )",
+      "blanks": 2,
+      "accept": [
+        "heard|sing"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "id": "a14",
+      "type": "fill",
+      "promptEn": "We _____ the wind _____. ( blow, feel )",
+      "blanks": 2,
+      "accept": [
+        "felt|blow"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "id": "a15",
+      "type": "fill",
+      "promptEn": "He _____ the rain _____ on his face. ( fall, feel )",
+      "blanks": 2,
+      "accept": [
+        "felt|fall"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "id": "b01",
+      "type": "sentence",
+      "promptEn": "My aunt _____ on the sofa.\n( let / jump / us )\n우리 이모는 우리가 소파에서 뛰게 해 주셨다.",
+      "accept": [
+        "My aunt let us jump on the sofa."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "My aunt let us jump on the sofa."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "id": "b02",
+      "type": "sentence",
+      "promptEn": "( let / use / Tom / her / cell / phone / Sally / . )",
+      "accept": [
+        "Sally let Tom use her cell phone.",
+        "Sally let Tom use her cell phone."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "id": "b03",
+      "type": "sentence",
+      "promptEn": "( makes / keep / him / a / diary / His / dad / . )",
+      "accept": [
+        "His dad makes him keep a diary.",
+        "His dad makes him keep a diary."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "id": "b04",
+      "type": "sentence",
+      "promptEn": "( makes / exercise / his / cat / every / day / Peter / . )",
+      "accept": [
+        "Peter makes his cat exercise every day.",
+        "Peter makes his cat exercise every day."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "id": "b05",
+      "type": "sentence",
+      "promptEn": "( has / read / me / a / book / My / sister / . )",
+      "accept": [
+        "My sister has me read a book.",
+        "My sister has me read a book."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "id": "b06",
+      "type": "sentence",
+      "promptEn": "( had / close / Betty / the / window / He / . )",
+      "accept": [
+        "He had Betty close the window.",
+        "He had Betty close the window."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
+      "id": "b07",
+      "type": "sentence",
+      "promptEn": "( saw / climb / a / girl / a / tree / I / . )",
+      "accept": [
+        "I saw a girl climb a tree.",
+        "I saw a girl climb a tree."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
+      "id": "b08",
+      "type": "sentence",
+      "promptEn": "( saw / fall / an / apple / Newton / . )",
+      "accept": [
+        "Newton saw an apple fall.",
+        "Newton saw an apple fall."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
+      "id": "b09",
+      "type": "sentence",
+      "promptEn": "( watched / throw / her / the / ball / The / coach / . )",
+      "accept": [
+        "The coach watched her throw the ball.",
+        "The coach watched her throw the ball."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
+      "id": "b10",
+      "type": "sentence",
+      "promptEn": "( watched / swim / him / across / the / river / You / . )",
+      "accept": [
+        "You watched him swim across the river.",
+        "You watched him swim across the river."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
+      "id": "b11",
+      "type": "sentence",
+      "promptEn": "( watches / play / Bill / the / piano / Bill's / grandfather / . )",
+      "accept": [
+        "Bill's grandfather watches Bill play the piano.",
+        "Bill’s grandfather watches Bill play the piano."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B12",
+      "id": "b12",
+      "type": "sentence",
+      "promptEn": "( heard / call / you / my / name / I / . )",
+      "accept": [
+        "I heard you call my name.",
+        "I heard you call my name."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B13",
+      "id": "b13",
+      "type": "sentence",
+      "promptEn": "( heard / open / her / the / door / They / . )",
+      "accept": [
+        "They heard her open the door.",
+        "They heard her open the door."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B14",
+      "id": "b14",
+      "type": "sentence",
+      "promptEn": "( felt / move / the / bus / Ms. / Shirley / . )",
+      "accept": [
+        "Ms. Shirley felt the bus move.",
+        "Ms. Shirley felt the bus move."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B15",
+      "id": "b15",
+      "type": "sentence",
+      "promptEn": "( felt / lick / her / cat / her / nose / She / . )",
+      "accept": [
+        "She felt her cat lick her nose.",
+        "She felt her cat lick her nose."
+      ]
+    }
+  ],
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 여러 가지 동사 (4)"
+}

@@ -1,0 +1,513 @@
+{
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 현재 완료 시제 (2)",
+  "sectionsVersion": 2,
+  "practiceId": "g3:u04:fly",
+  "title": "Grammar Fly",
+  "subtitle": "현재 완료 시제 (pp. 82–83)",
+  "pages": "82–83",
+  "timerMinutes": 28,
+  "introKo": "이 연습은 Section A 12문항(빈칸 말만 쓰기), Section B 15문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "directionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I have saw a musical before.\nI have _____ a musical before.",
+      "blanks": 1,
+      "accept": [
+        "seen"
+      ],
+      "promptKo": "나는 전에 뮤지컬을 본 적이 있다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "seen",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "He has wrote a book before.\nHe has _____ a book before.",
+      "blanks": 1,
+      "accept": [
+        "written"
+      ],
+      "promptKo": "그는 전에 책을 쓴 적이 있다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "You do made a big mistake before.\nYou _____ made a big mistake before.",
+      "blanks": 1,
+      "accept": [
+        "have"
+      ],
+      "promptKo": "너는 전에 큰 실수를 한 적이 있다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The party does just started.\nThe party _____ just started.",
+      "blanks": 1,
+      "accept": [
+        "has"
+      ],
+      "promptKo": "그 파티는 방금 시작했다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "My brother and I have clean our room.\nMy brother and I have _____ our room.",
+      "blanks": 1,
+      "accept": [
+        "cleaned"
+      ],
+      "promptKo": "내 남동생과 나는 우리 방을 청소했다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Mom have knitted two sweaters already.\nMom _____ knitted two sweaters already.",
+      "blanks": 1,
+      "accept": [
+        "has"
+      ],
+      "promptKo": "엄마는 스웨터 두 벌을 이미 뜨셨다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "She haven't listened to the song before.\nShe _____ listened to the song before.",
+      "blanks": 1,
+      "accept": [
+        "hasn't",
+        "hasn’t"
+      ],
+      "promptKo": "그녀는 그 노래를 전에 들어 본 적이 없다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "The train haven't arrived yet.\nThe train _____ arrived yet.",
+      "blanks": 1,
+      "accept": [
+        "hasn't",
+        "hasn’t"
+      ],
+      "promptKo": "그 기차는 아직 도착하지 않았다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The birds hasn't returned yet.\nThe birds _____ returned yet.",
+      "blanks": 1,
+      "accept": [
+        "haven't",
+        "haven’t"
+      ],
+      "promptKo": "그 새들은 아직 돌아오지 않았다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "The plane not has taken off yet.\nThe plane _____ taken off yet.",
+      "blanks": 1,
+      "accept": [
+        "hasn't",
+        "hasn’t"
+      ],
+      "promptKo": "그 비행기는 아직 이륙하지 않았다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Has Jenny ever took a ballet lesson?\nHas Jenny ever _____ a ballet lesson?",
+      "blanks": 1,
+      "accept": [
+        "taken"
+      ],
+      "promptKo": "제니는 발레 교습을 받아 본 적이 있니?",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Did you sent Clara e-mail already?\n_____ you sent Clara e-mail already?",
+      "blanks": 1,
+      "accept": [
+        "Have"
+      ],
+      "promptKo": "너는 클라라에게 이메일을 벌써 보냈니?",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "( read ) I _____ _____ the book twice.",
+      "blanks": 2,
+      "accept": [
+        "have|read"
+      ],
+      "promptKo": "나는 그 책을 읽은 적이 두 번 있다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "have / read"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "( meet ) Sarah _____ _____ the boy before.",
+      "blanks": 2,
+      "accept": [
+        "has|met"
+      ],
+      "promptKo": "사라는 그 남자아이를 전에 만난 적이 있다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "( break ) My cat _____ _____ its leg several times.",
+      "blanks": 2,
+      "accept": [
+        "has|broken"
+      ],
+      "promptKo": "우리 고양이는 다리가 부러진 적이 몇 번 있다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "( eat ) I _____ _____ Chinese food many times.",
+      "blanks": 2,
+      "accept": [
+        "have|eaten"
+      ],
+      "promptKo": "나는 중국 음식을 먹어 본 적이 여러 번 있다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "( take ) My uncle _____ just _____ a bath.",
+      "blanks": 2,
+      "accept": [
+        "has|taken"
+      ],
+      "promptKo": "우리 삼촌은 방금 목욕하셨다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "( leave ) They _____ already _____ for the airport.",
+      "blanks": 2,
+      "accept": [
+        "have|left"
+      ],
+      "promptKo": "그들은 이미 공항으로 떠났다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "( wash ) He _____ already _____ his car.",
+      "blanks": 2,
+      "accept": [
+        "has|washed"
+      ],
+      "promptKo": "그는 자기 차를 이미 세차했다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "( finish ) We _____ already _____ the comic book.",
+      "blanks": 2,
+      "accept": [
+        "have|finished"
+      ],
+      "promptKo": "우리는 이미 그 만화책을 끝냈다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "( begin ) School _____ just _____ .",
+      "blanks": 2,
+      "accept": [
+        "has|begun"
+      ],
+      "promptKo": "학교가 이제 막 시작했다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "( come ) Dad _____ _____ home yet.",
+      "blanks": 2,
+      "accept": [
+        "hasn't|come",
+        "hasn’t|come"
+      ],
+      "promptKo": "아빠는 집에 아직 오시지 않았다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "( have ) We _____ _____ dinner yet.",
+      "blanks": 2,
+      "accept": [
+        "haven't|had",
+        "haven’t|had"
+      ],
+      "promptKo": "우리는 저녁 식사를 아직 하지 않았다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "( hear ) _____ you ever _____ this story before?",
+      "blanks": 2,
+      "accept": [
+        "Have|heard"
+      ],
+      "promptKo": "너는 이 이야기를 전에 들어 본 적이 있니?",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "( be ) _____ James ever _____ to Seoul?",
+      "blanks": 2,
+      "accept": [
+        "Has|been"
+      ],
+      "promptKo": "제임스는 서울에 가 본 적이 있니?",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "( sing ) _____ she _____ already?",
+      "blanks": 2,
+      "accept": [
+        "Has|sung"
+      ],
+      "promptKo": "그녀는 벌써 노래했니?",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "( stop ) _____ the snow _____ already?",
+      "blanks": 2,
+      "accept": [
+        "Has|stopped"
+      ],
+      "promptKo": "눈이 이미 그쳤니?",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (필요하면 주어진 말의 형태를 바꾸세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ]
+}

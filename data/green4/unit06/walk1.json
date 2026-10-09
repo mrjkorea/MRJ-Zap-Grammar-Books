@@ -1,0 +1,225 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 수동태 (2)",
+  "sectionsVersion": 3,
+  "practiceId": "g4:u06:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "능동태↔수동태 바꿔 쓰기 (p. 121)",
+  "pages": "121",
+  "timerMinutes": 10,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "directionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    }
+  ],
+  "introKo": "이 연습은 Section A 11문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 주어·목적어 표시는 책에서 하고, 앱에서는 수동태 빈칸만 채점합니다.",
+  "items": [
+    {
+      "id": "walk1_a01",
+      "section": "A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "(능동태) I draw a picture.\n(수동태) A picture is drawn by me.",
+      "blanks": 1,
+      "accept": [
+        "A picture"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "A picture",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a02",
+      "section": "A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "(능동태) Mr. Smith teaches them.\n(수동태) _____ are taught by Mr. Smith.",
+      "blanks": 1,
+      "accept": [
+        "They"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a03",
+      "section": "A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "(능동태) My parents love me.\n(수동태) _____ am loved by my parents.",
+      "blanks": 1,
+      "accept": [
+        "I"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a04",
+      "section": "A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "(능동태) She washes the dishes.\n(수동태) The dishes are washed by _____.",
+      "blanks": 1,
+      "accept": [
+        "her"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a05",
+      "section": "A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "(능동태) We sell fresh vegetables.\n(수동태) Fresh vegetables are sold by _____.",
+      "blanks": 1,
+      "accept": [
+        "us"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a06",
+      "section": "A",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "(능동태) They build bridges.\n(수동태) Bridges are built by _____.",
+      "blanks": 1,
+      "accept": [
+        "them"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a07",
+      "section": "A",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "(능동태) David saw her.\n(수동태) _____ was seen by David.",
+      "blanks": 1,
+      "accept": [
+        "She"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a08",
+      "section": "A",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "(능동태) They painted the wall.\n(수동태) _____ was painted by them.",
+      "blanks": 1,
+      "accept": [
+        "The wall"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a09",
+      "section": "A",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "(능동태) I made the kite.\n(수동태) _____ was made by me.",
+      "blanks": 1,
+      "accept": [
+        "The kite"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a10",
+      "section": "A",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "(능동태) Dickens wrote the books.\n(수동태) The books were written by _____.",
+      "blanks": 1,
+      "accept": [
+        "Dickens"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a11",
+      "section": "A",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "(능동태) You sang a few songs.\n(수동태) A few songs were sung by _____.",
+      "blanks": 1,
+      "accept": [
+        "you"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "walk1_a12",
+      "section": "A",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "(능동태) He caught a few fish.\n(수동태) A few fish were caught by _____.",
+      "blanks": 1,
+      "accept": [
+        "him"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 능동태의 문장에서 주어를 찾아 동그라미 하고, 목적어를 찾아 밑줄을 치세요. 그런 다음, 수동태 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ]
+}

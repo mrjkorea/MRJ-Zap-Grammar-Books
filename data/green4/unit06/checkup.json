@@ -1,0 +1,84 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 수동태 (2)",
+  "sectionsVersion": 3,
+  "practiceId": "g4:u06:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic passive phrases (p. 135)",
+  "pages": "135",
+  "timerMinutes": 6,
+  "wordBank": [
+    "was mopped",
+    "was cleaned",
+    "was painted"
+  ],
+  "introKo": "Check Up 3문항 — word bank에서 알맞은 말을 골라 빈칸에 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (was mopped / was cleaned / was painted)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 것을 골라 쓰세요. (was와 과거분사를 각각 한 칸에 쓰세요.)",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (was mopped / was cleaned / was painted) 상자 안의 말 중에서 알맞은 것을 골라 was와 과거분사를 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "checkup_c01",
+      "section": "CU",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "A chair _____ _____ by Dad.",
+      "blanks": 2,
+      "accept": [
+        "was|painted"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (was mopped / was cleaned / was painted) 상자 안의 말 중에서 알맞은 것을 골라 was와 과거분사를 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "checkup_c02",
+      "section": "CU",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "The floor _____ _____ by Mom.",
+      "blanks": 2,
+      "accept": [
+        "was|mopped"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (was mopped / was cleaned / was painted) 상자 안의 말 중에서 알맞은 것을 골라 was와 과거분사를 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "checkup_c03",
+      "section": "CU",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "The room _____ _____ by Sunny.",
+      "blanks": 2,
+      "accept": [
+        "was|cleaned"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (was mopped / was cleaned / was painted) 상자 안의 말 중에서 알맞은 것을 골라 was와 과거분사를 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ]
+}

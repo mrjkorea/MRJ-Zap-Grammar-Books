@@ -1,11 +1,11 @@
-/* Global integrity: all green1/green2/green3 practice JSON + catalog practiceIds. */
+/* Global integrity: all green1–green4 practice JSON + catalog practiceIds. */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 
 const REPO = path.join(__dirname, "..");
 const JS = path.join(REPO, "assets/js");
-const BOOKS = ["green1", "green2", "green3"];
+const BOOKS = ["green1", "green2", "green3", "green4"];
 const MODES = new Set(["choice", "words", "sentence"]);
 
 const win = {};
@@ -71,11 +71,15 @@ function respFor(it, acc) {
 
 const globalPracticeIds = new Map();
 
+const OCR_PAT = /from OCR - needs check|ocrNeedsCheck|auditNote/;
+
 for (const book of BOOKS) {
   const root = path.join(REPO, "data", book);
   for (const fp of walkJson(root)) {
     const rel = path.relative(REPO, fp).replace(/\\/g, "/");
-    const d = JSON.parse(fs.readFileSync(fp, "utf8"));
+    const raw = fs.readFileSync(fp, "utf8");
+    if (OCR_PAT.test(raw)) fail(rel, "OCR/audit flag still present");
+    const d = JSON.parse(raw);
     if (!d.practiceId) fail(rel, "missing practiceId");
     else {
       if (globalPracticeIds.has(d.practiceId)) fail("dup practiceId", d.practiceId, globalPracticeIds.get(d.practiceId), rel);

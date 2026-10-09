@@ -93,7 +93,23 @@ Deep link example: `#/p/zap-green-3/unit-01/walk1`
 
 Deep link example: `#/p/zap-green-2/unit-01/walk1`
 
-Other books/units appear in the index as **coming soon**. **ZAP Green 1**, **ZAP Green 2** (full books), and **ZAP Green 3 / Unit 01** are active in the index.
+### GreenZap 3 — full book
+
+**GreenZap 3** data under `data/green3/` (units `unit01`–`unit08` + `tests/`). Catalog id **`zap-green-3`**, app name **GreenZap 3**.
+
+**78 practices** — see `PROOF-GZ3.md` for graded counts, smoke/e2e/audit rows, and live deep links.
+
+Deep link example: `#/p/zap-green-3/unit-02/walk1`
+
+### GreenZap 4 — full book
+
+**GreenZap 4** data under `data/green4/` (units `unit01`–`unit08` + `tests/`). Catalog id **`zap-green-4`**, app name **GreenZap 4**.
+
+**78 practices** — see `PROOF-GZ4.md`.
+
+Deep link example: `#/p/zap-green-4/unit-01/walk1`
+
+**ZAP Green 1–4** full books are active in the index (build `20261009-gz34-full`).
 
 ## Student rules
 
@@ -110,7 +126,7 @@ Other books/units appear in the index as **coming soon**. **ZAP Green 1**, **ZAP
 `mrj-scores.js` posts to **MRJ Classroom Metrics**:
 
 - `program=greenzap`, `source=greenzap`
-- `app_name` is **GreenZap 1**, **GreenZap 2**, or **GreenZap 3** per selected practice
+- `app_name` is **GreenZap 1** … **GreenZap 4** per selected practice
 - One summary event per finished practice; per-question detail in the `greenzap` progress pack (item metric ids use current item ids; old `q01` rows in saved packs are ignored for new items)
 - `MRJ_AUTH.noteScore` on summary only
 - Per-student pack sync via `MRJ_AUTH.loadPack` / `savePack`; build string in `version.json`
@@ -127,9 +143,11 @@ python3 -m http.server 8080
 ```bash
 node scripts/pack-unit-test.js
 node scripts/smoke-sections.js    # GreenZap 1 units 01–08 + GreenZap 3 unit 01
-node scripts/check-all-data.js      # all green1/green2/green3 JSON integrity
+node scripts/check-all-data.js      # all green1–green4 JSON integrity
 node scripts/smoke-gz1-all.js       # catalog-driven: all 78 GreenZap 1 data files
 node scripts/smoke-gz2-all.js       # all 78 GreenZap 2 practices + per-unit smokes
+node scripts/smoke-gz3-all.js
+node scripts/smoke-gz4-all.js
 node scripts/smoke-gz1-tests.js
 node scripts/smoke-units-02-05.js
 node scripts/smoke-unit06.js
@@ -141,6 +159,8 @@ node scripts/smoke-app-sections.js
 node scripts/smoke-review.js
 node scripts/e2e-gz1-browser.js     # headless browser (needs: npm install playwright)
 node scripts/e2e-gz2-browser.js
+node scripts/e2e-gz3-browser.js
+node scripts/e2e-gz4-browser.js
 ```
 
 ## Results

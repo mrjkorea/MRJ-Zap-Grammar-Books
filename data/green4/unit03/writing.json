@@ -1,0 +1,241 @@
+{
+  "practiceId": "g4:u03:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "감정 표현 & 도표 (pp. 64–65)",
+  "pages": "64–65",
+  "timerMinutes": 20,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 여러 가지 동사 (3)",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 Section A 5문항(빈칸 말만 쓰기), Section B 5문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "그림을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음은 부모님들이 자녀들에게 원하는 것을 정리한 도표입니다. 도표를 보고, 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음은 부모님들이 자녀들에게 원하는 것을 정리한 도표입니다. 도표를 보고, 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "My puppy made me angry.\n( angry )",
+      "blanks": 3,
+      "accept": [
+        "made|me|angry"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "made / me / angry"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "The cake _____ _____ _____. ( happy )",
+      "blanks": 3,
+      "accept": [
+        "made|me|happy"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The movie _____ _____ _____. ( sad )",
+      "blanks": 3,
+      "accept": [
+        "made|me|sad"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The news _____ _____ _____. ( surprised )",
+      "blanks": 3,
+      "accept": [
+        "made|me|surprised"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The book _____ _____ _____. ( sleepy )",
+      "blanks": 3,
+      "accept": [
+        "made|me|sleepy"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "The lightning _____ _____ _____. ( scared )",
+      "blanks": 3,
+      "accept": [
+        "made|me|scared"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음은 부모님들이 자녀들에게 원하는 것을 정리한 도표입니다. 도표를 보고, 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "Twenty parents _____.",
+      "blanks": 1,
+      "accept": [
+        "want their children to get up early"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "want their children to get up early"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음은 부모님들이 자녀들에게 원하는 것을 정리한 도표입니다. 도표를 보고, 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "Twelve parents _____.",
+      "blanks": 1,
+      "accept": [
+        "want their children to have breakfast"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음은 부모님들이 자녀들에게 원하는 것을 정리한 도표입니다. 도표를 보고, 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "Ten parents _____.",
+      "blanks": 1,
+      "accept": [
+        "want their children to exercise regularly"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음은 부모님들이 자녀들에게 원하는 것을 정리한 도표입니다. 도표를 보고, 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "Eight parents _____.",
+      "blanks": 1,
+      "accept": [
+        "want their children to study hard"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음은 부모님들이 자녀들에게 원하는 것을 정리한 도표입니다. 도표를 보고, 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "Six parents _____.",
+      "blanks": 1,
+      "accept": [
+        "want their children to read lots of books"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음은 부모님들이 자녀들에게 원하는 것을 정리한 도표입니다. 도표를 보고, 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "6",
+      "type": "fill",
+      "promptEn": "Four parents _____.",
+      "blanks": 1,
+      "accept": [
+        "want their children to clean their rooms"
+      ]
+    }
+  ]
+}

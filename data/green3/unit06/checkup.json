@@ -1,0 +1,101 @@
+{
+  "practiceId": "g3:u06:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue blanks (p. 135)",
+  "pages": "135",
+  "timerMinutes": 6,
+  "unitTitle": "Unit 06 — 전치사",
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-06",
+  "wordBank": [
+    "behind",
+    "at",
+    "before",
+    "after"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 4문항(고르기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (behind / at / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (behind / at / before / after)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (behind / at / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "Can you come home _____ dinner?",
+      "blanks": 1,
+      "accept": [
+        "before"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (behind / at / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "I am _____ the sofa.",
+      "blanks": 1,
+      "accept": [
+        "behind"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (behind / at / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "He's _____ the door. Are you ready?",
+      "blanks": 1,
+      "accept": [
+        "at"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (behind / at / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "I'll come again _____ the party.",
+      "blanks": 1,
+      "accept": [
+        "after"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 여러 가지 동사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u01:run",
+  "title": "Grammar Run",
+  "subtitle": "주격 보어 (pp. 14–15)",
+  "pages": "14–15",
+  "timerMinutes": 20,
+  "introKo": "이 연습은 Section A 14문항(고르기), Section B 13문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 13,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "The girls are ( a pretty / pretty ) today.",
+      "choices": [
+        "a pretty",
+        "pretty"
+      ],
+      "accept": [
+        "pretty"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "pretty",
+      "id": "a01"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "Your answer was ( right / rightly ).",
+      "choices": [
+        "right",
+        "rightly"
+      ],
+      "accept": [
+        "right"
+      ],
+      "id": "a02"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "The trip became ( excite / exciting ).",
+      "choices": [
+        "excite",
+        "exciting"
+      ],
+      "accept": [
+        "exciting"
+      ],
+      "id": "a03"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "The man became ( angrily / angry ).",
+      "choices": [
+        "angrily",
+        "angry"
+      ],
+      "accept": [
+        "angry"
+      ],
+      "id": "a04"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "The students get ( strongly / strong ).",
+      "choices": [
+        "strongly",
+        "strong"
+      ],
+      "accept": [
+        "strong"
+      ],
+      "id": "a05"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "The man went ( baldly / bald ).",
+      "choices": [
+        "baldly",
+        "bald"
+      ],
+      "accept": [
+        "bald"
+      ],
+      "id": "a06"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "His face turned ( red / redly ).",
+      "choices": [
+        "red",
+        "redly"
+      ],
+      "accept": [
+        "red"
+      ],
+      "id": "a07"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "The sky grew ( dark / darkly ).",
+      "choices": [
+        "dark",
+        "darkly"
+      ],
+      "accept": [
+        "dark"
+      ],
+      "id": "a08"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "They look ( sadly / sad ) today.",
+      "choices": [
+        "sadly",
+        "sad"
+      ],
+      "accept": [
+        "sad"
+      ],
+      "id": "a09"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "That song sounds ( beautiful / beautifully ).",
+      "choices": [
+        "beautiful",
+        "beautifully"
+      ],
+      "accept": [
+        "beautiful"
+      ],
+      "id": "a10"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "The pie smells ( sweet / sweetly ).",
+      "choices": [
+        "sweet",
+        "sweetly"
+      ],
+      "accept": [
+        "sweet"
+      ],
+      "id": "a11"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "The pizza tastes ( delicious / deliciously ).",
+      "choices": [
+        "delicious",
+        "deliciously"
+      ],
+      "accept": [
+        "delicious"
+      ],
+      "id": "a12"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "I feel ( coldly / cold ).",
+      "choices": [
+        "coldly",
+        "cold"
+      ],
+      "accept": [
+        "cold"
+      ],
+      "id": "a13"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "She looks like ( a teacher / happy ).",
+      "choices": [
+        "a teacher",
+        "happy"
+      ],
+      "accept": [
+        "a teacher"
+      ],
+      "id": "a14"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "It sounds like ( thunder / bad ).",
+      "choices": [
+        "thunder",
+        "bad"
+      ],
+      "accept": [
+        "thunder"
+      ],
+      "id": "a15"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "This skirt is too _____.",
+      "blanks": 1,
+      "accept": [
+        "short"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "short",
+      "id": "b01"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "She was _____ in the world.",
+      "blanks": 1,
+      "accept": [
+        "a famous violinist"
+      ],
+      "id": "b02"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "His song became _____.",
+      "blanks": 1,
+      "accept": [
+        "popular"
+      ],
+      "id": "b03"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Neil became _____.",
+      "blanks": 1,
+      "accept": [
+        "an astronaut"
+      ],
+      "id": "b04"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "My dog is going _____.",
+      "blanks": 1,
+      "accept": [
+        "blind"
+      ],
+      "id": "b05"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Her face turned _____.",
+      "blanks": 1,
+      "accept": [
+        "pale"
+      ],
+      "id": "b06"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "The boy grew _____.",
+      "blanks": 1,
+      "accept": [
+        "taller"
+      ],
+      "id": "b07"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "You look _____ today.",
+      "blanks": 1,
+      "accept": [
+        "handsome"
+      ],
+      "id": "b08"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "The story sounds _____.",
+      "blanks": 1,
+      "accept": [
+        "true"
+      ],
+      "id": "b09"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "The soup smells _____.",
+      "blanks": 1,
+      "accept": [
+        "good"
+      ],
+      "id": "b10"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "This medicine tastes _____.",
+      "blanks": 1,
+      "accept": [
+        "bitter"
+      ],
+      "id": "b11"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "He feels very _____.",
+      "blanks": 1,
+      "accept": [
+        "hungry"
+      ],
+      "id": "b12"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "He looks like _____.",
+      "blanks": 1,
+      "accept": [
+        "a doctor"
+      ],
+      "id": "b13"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "That sounds like _____.",
+      "blanks": 1,
+      "accept": [
+        "rain"
+      ],
+      "id": "b14"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "practiceId": "g3:u07:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "재귀대명사 역할·표현 (p. 145)",
+  "pages": "145",
+  "timerMinutes": 10,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 재귀대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 9문항(고르기), Section B 4문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, 재귀대명사를 찾아 동그라미 하세요. 앱에서는 재귀대명사만 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, 재귀대명사를 찾아 동그라미 하세요.",
+      "ruleKo": "앱에서는 재귀대명사만 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 주어진 말의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 주어진 말의 알맞은 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "walk2_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "herself",
+      "type": "mc",
+      "promptKo": "리사는 자기 자신을 사랑한다.",
+      "promptEn": "Lisa loves ( herself / her ).",
+      "choices": [
+        "herself",
+        "her"
+      ],
+      "accept": [
+        "herself"
+      ]
+    },
+    {
+      "id": "walk2_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptKo": "우리는 TV에서 우리 자신을 보았다.",
+      "promptEn": "We saw ( ourselves / us ) on TV.",
+      "choices": [
+        "ourselves",
+        "us"
+      ],
+      "accept": [
+        "ourselves"
+      ]
+    },
+    {
+      "id": "walk2_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptKo": "너는 네 자신을 돌봐야 한다.",
+      "promptEn": "You must take care of ( yourself / you ).",
+      "choices": [
+        "yourself",
+        "you"
+      ],
+      "accept": [
+        "yourself"
+      ]
+    },
+    {
+      "id": "walk2_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptKo": "토비는 자기 자신이 자랑스러웠다.",
+      "promptEn": "Toby was proud of ( himself / him ).",
+      "choices": [
+        "himself",
+        "him"
+      ],
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "walk2_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptKo": "크리스티나는 자기 사진을 찍었다.",
+      "promptEn": "Christina took pictures of ( herself / her ).",
+      "choices": [
+        "herself",
+        "her"
+      ],
+      "accept": [
+        "herself"
+      ]
+    },
+    {
+      "id": "walk2_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptKo": "내가 직접 그 문을 페인트칠했다.",
+      "promptEn": "I ( myself / me ) painted the door.",
+      "choices": [
+        "myself",
+        "me"
+      ],
+      "accept": [
+        "myself"
+      ]
+    },
+    {
+      "id": "walk2_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptKo": "너와 케이트가 직접 저녁을 요리했다.",
+      "promptEn": "You and Kate cooked dinner ( yourselves / you ).",
+      "choices": [
+        "yourselves",
+        "you"
+      ],
+      "accept": [
+        "yourselves"
+      ]
+    },
+    {
+      "id": "walk2_a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptKo": "그 시험 자체는 어렵지 않다.",
+      "promptEn": "The exam ( itself / it ) isn't difficult.",
+      "choices": [
+        "itself",
+        "it"
+      ],
+      "accept": [
+        "itself"
+      ]
+    },
+    {
+      "id": "walk2_a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptKo": "아빠와 내가 직접 정원을 만들었다.",
+      "promptEn": "My father and I made the garden ( ourselves / us ).",
+      "choices": [
+        "ourselves",
+        "us"
+      ],
+      "accept": [
+        "ourselves"
+      ]
+    },
+    {
+      "id": "walk2_a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾고, 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptKo": "아이들이 직접 그 개를 훈련시켰다.",
+      "promptEn": "The kids trained the dog ( themselves / them ).",
+      "choices": [
+        "themselves",
+        "them"
+      ],
+      "accept": [
+        "themselves"
+      ]
+    },
+    {
+      "id": "walk2_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 말의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "e. (〜을) 마음껏 먹다",
+      "type": "mc",
+      "promptEn": "help oneself to",
+      "choices": [
+        "a. 즐거운 시간을 보내다",
+        "b. 독학하다",
+        "c. 혼자서, 저절로",
+        "d. 베이다",
+        "e. (〜을) 마음껏 먹다"
+      ],
+      "accept": [
+        "e. (〜을) 마음껏 먹다",
+        "e",
+        "⑤"
+      ]
+    },
+    {
+      "id": "walk2_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 말의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "enjoy oneself",
+      "choices": [
+        "a. 즐거운 시간을 보내다",
+        "b. 독학하다",
+        "c. 혼자서, 저절로",
+        "d. 베이다",
+        "e. (〜을) 마음껏 먹다"
+      ],
+      "accept": [
+        "a. 즐거운 시간을 보내다",
+        "a",
+        "①"
+      ]
+    },
+    {
+      "id": "walk2_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 말의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "by oneself",
+      "choices": [
+        "a. 즐거운 시간을 보내다",
+        "b. 독학하다",
+        "c. 혼자서, 저절로",
+        "d. 베이다",
+        "e. (〜을) 마음껏 먹다"
+      ],
+      "accept": [
+        "c. 혼자서, 저절로",
+        "c",
+        "③"
+      ]
+    },
+    {
+      "id": "walk2_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 말의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "cut oneself",
+      "choices": [
+        "a. 즐거운 시간을 보내다",
+        "b. 독학하다",
+        "c. 혼자서, 저절로",
+        "d. 베이다",
+        "e. (〜을) 마음껏 먹다"
+      ],
+      "accept": [
+        "d. 베이다",
+        "d",
+        "④"
+      ]
+    },
+    {
+      "id": "walk2_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 말의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "teach oneself",
+      "choices": [
+        "a. 즐거운 시간을 보내다",
+        "b. 독학하다",
+        "c. 혼자서, 저절로",
+        "d. 베이다",
+        "e. (〜을) 마음껏 먹다"
+      ],
+      "accept": [
+        "b. 독학하다",
+        "b",
+        "②"
+      ]
+    }
+  ]
+}
