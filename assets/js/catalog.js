@@ -30,6 +30,7 @@
     "zap-green-3": [
       { id: "unit-01", title: "Unit 01 — 의문사 있는 의문문 (1)", enabled: true },
       { id: "unit-02", title: "Unit 02", enabled: false },
+      { id: "unit-05", title: "Unit 05 — 현재 완료 시제 (3)", enabled: true },
     ],
   };
 
@@ -665,6 +666,71 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green3/unit01/checkup.json",
         practiceId: "g3:u01:checkup",
+      },
+    ],
+    "zap-green-3:unit-05": [
+      {
+        slug: "walk1",
+        title: "Grammar Walk — Lesson 01",
+        hint: "Present perfect · duration (p. 99)",
+        data: "data/green3/unit05/walk1.json",
+        practiceId: "g3:u05:walk1",
+      },
+      {
+        slug: "walk2",
+        title: "Grammar Walk — Lesson 02",
+        hint: "Present perfect · result (p. 101)",
+        data: "data/green3/unit05/walk2.json",
+        practiceId: "g3:u05:walk2",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "Forms & meaning (pp. 102–104)",
+        data: "data/green3/unit05/run.json",
+        practiceId: "g3:u05:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "Complete sentences (pp. 104–106)",
+        data: "data/green3/unit05/jump.json",
+        practiceId: "g3:u05:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "Correct & unscramble (pp. 106–107)",
+        data: "data/green3/unit05/fly.json",
+        practiceId: "g3:u05:fly",
+      },
+      {
+        slug: "writing",
+        title: "Grammar & Writing",
+        hint: "Lost & found · interviews (pp. 108–109)",
+        data: "data/green3/unit05/writing.json",
+        practiceId: "g3:u05:writing",
+      },
+      {
+        slug: "quiz",
+        title: "Unit Test 05",
+        hint: "pp. 110–114",
+        data: "data/green3/unit05/unit-test-05.json",
+        practiceId: "g3:u05:quiz",
+      },
+      {
+        slug: "wrap",
+        title: "Wrap Up",
+        hint: "Summary · p. 115",
+        data: "data/green3/unit05/wrap.json",
+        practiceId: "g3:u05:wrap",
+      },
+      {
+        slug: "checkup",
+        title: "Check Up",
+        hint: "Comic dialogue · p. 115",
+        data: "data/green3/unit05/checkup.json",
+        practiceId: "g3:u05:checkup",
       },
     ],
   };
