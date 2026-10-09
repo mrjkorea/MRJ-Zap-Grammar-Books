@@ -78,9 +78,32 @@ for (const rel of FILES) {
   data.items.forEach((item) => {
     if (item.displayOnly) return;
     graded++;
-    const resp = respFor(item, item.accept[0]);
+    const key =
+      item.type === "mc" && item.answer
+        ? item.answer
+        : item.accept[0];
+    const resp = respFor(item, key);
     if (resp && E.gradeItem(item, resp)) ok++;
-    else console.error("FAIL", rel, item.id, item.label, item.accept[0]);
+    else console.error("FAIL", rel, item.id, item.label, key);
+    if (item.type === "mc" && item.answer) {
+      const idx = Number(item.answer) - 1;
+      const circled = "①②③④⑤"[idx];
+      const numericOk = item.accept.some(
+        (a) => a === item.answer || a === circled
+      );
+      if (!numericOk) {
+        console.error(
+          "FAIL",
+          rel,
+          item.id,
+          "answer",
+          item.answer,
+          "not in accept",
+          item.accept
+        );
+        process.exitCode = 1;
+      }
+    }
   });
   console.log(path.basename(rel), ok, "/", graded);
   totalOk += ok;
