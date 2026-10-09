@@ -1,0 +1,98 @@
+{
+  "practiceId": "u08:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 179)",
+  "pages": "179",
+  "timerMinutes": 6,
+  "unitTitle": "Unit 08 — 여러 가지 문장",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 4문항(고르기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (jump / will / what / let's) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (jump / will / what / let's)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (jump / will / what / let's) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[만화] Zack & Blackie\nBlackie, ________ exercise. Stand up!",
+      "blanks": 1,
+      "accept": [
+        "Let's",
+        "let's"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (jump / will / what / let's) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "________ up! Here's your food.",
+      "blanks": 1,
+      "accept": [
+        "Jump"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (jump / will / what / let's) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "________ a bad cat you are!",
+      "blanks": 1,
+      "accept": [
+        "What"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (jump / will / what / let's) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "Zack, clean the floor, ________ you?",
+      "blanks": 1,
+      "accept": [
+        "will"
+      ]
+    }
+  ],
+  "wordBank": [
+    "jump",
+    "will",
+    "what",
+    "let's"
+  ]
+}
