@@ -1,0 +1,109 @@
+{
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — to부정사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g2:u05:wrap",
+  "title": "Wrap Up",
+  "subtitle": "Unit summary fill-ins (p. 115)",
+  "pages": "115",
+  "timerMinutes": 8,
+  "introKo": "이 연습은 1. to부정사란? 1문항(빈칸 말만 쓰기), 2. 명사처럼 쓰이는 to부정사 3문항(빈칸 말만 쓰기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만 쓰세요.",
+  "sections": [
+    {
+      "id": "1",
+      "title": "1. to부정사란?",
+      "instructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "Unit 05에서 배운 내용을 정리하세요.",
+      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "1-1"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "2. 명사처럼 쓰이는 to부정사",
+      "instructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "Unit 05에서 배운 내용을 정리하세요.",
+      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "2-1",
+        "2-2",
+        "2-3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "1",
+      "sectionTitle": "1. to부정사란?",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1-1",
+      "id": "w1",
+      "type": "fill",
+      "promptKo": "「to + 1[        ]」의 형태로 문장에서 2[        ], 형용사, 부사의 역할을 하는 말이다.",
+      "blanks": 2,
+      "accept": [
+        "동사원형|명사",
+        "동사 원형|명사"
+      ]
+    },
+    {
+      "section": "2",
+      "sectionTitle": "2. 명사처럼 쓰이는 to부정사",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-1",
+      "id": "w2_1",
+      "type": "fill",
+      "promptKo": "① 목적어: 동사 뒤에서 1[        ]로 쓰인다.",
+      "blanks": 1,
+      "accept": [
+        "목적어"
+      ]
+    },
+    {
+      "section": "2",
+      "sectionTitle": "2. 명사처럼 쓰이는 to부정사",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-2",
+      "id": "w2_2",
+      "type": "fill",
+      "promptKo": "② 주어: 문장에서 2[        ]로 쓰인다.",
+      "blanks": 1,
+      "accept": [
+        "주어"
+      ]
+    },
+    {
+      "section": "2",
+      "sectionTitle": "2. 명사처럼 쓰이는 to부정사",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-3",
+      "id": "w2_3",
+      "type": "fill",
+      "promptKo": "③ 보어: be동사 뒤에서 3[        ]로 쓰인다.",
+      "blanks": 1,
+      "accept": [
+        "보어"
+      ]
+    }
+  ]
+}
