@@ -1,0 +1,65 @@
+{
+  "practiceId": "u04:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 91)",
+  "pages": "91",
+  "timerMinutes": 8,
+  "unitTitle": "Unit 04 — 진행 시제",
+  "wordBank": [
+    "were",
+    "playing",
+    "was",
+    "Are"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 2문항(고르기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (were / playing / was / Are) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (were / playing / was / Are)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (were / playing / was / Are) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "Are you ______ with Snowie?\nNo, I'm not. I ______ watching two birds in the tree.",
+      "blanks": 2,
+      "accept": [
+        "playing|was"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (were / playing / was / Are) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "______ the birds singing?\nYes, they were.",
+      "blanks": 1,
+      "accept": [
+        "Were"
+      ]
+    }
+  ]
+}

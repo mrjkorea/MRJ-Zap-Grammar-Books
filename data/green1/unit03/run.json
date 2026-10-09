@@ -1,0 +1,542 @@
+{
+  "practiceId": "u03:run",
+  "title": "Grammar Run",
+  "subtitle": "Future tense practice (pp. 58–59)",
+  "pages": "58–59",
+  "timerMinutes": 20,
+  "unitTitle": "Unit 03 — 미래 시제",
+  "wordBank": [
+    "will",
+    "not",
+    "is",
+    "are",
+    "be",
+    "going",
+    "take",
+    "go",
+    "won't",
+    "to",
+    "aren't"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 13문항(빈칸 말만 쓰기), Section B 13문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 13,
+      "exampleCount": 2,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요.",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 13,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "will / call",
+      "type": "fill",
+      "promptEn": "I will call you later. ( call )",
+      "blanks": 2,
+      "accept": [
+        "will|call"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "He ______ ______ the baseball game on TV. ( watch )",
+      "blanks": 2,
+      "accept": [
+        "will|watch"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The bank ______ ______ at 4 p.m. ( close )",
+      "blanks": 2,
+      "accept": [
+        "will|close"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The train ______ ______ in 20 minutes. ( arrive )",
+      "blanks": 2,
+      "accept": [
+        "will|arrive"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "My mother ______ ______ me with my homework. ( help )",
+      "blanks": 2,
+      "accept": [
+        "will|help"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "I ______ ______ your bag. ( carry )",
+      "blanks": 2,
+      "accept": [
+        "will|carry"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They ______ ______ her some flowers. ( give )",
+      "blanks": 2,
+      "accept": [
+        "will|give"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "We ______ ______ a walk in the park. ( take )",
+      "blanks": 2,
+      "accept": [
+        "will|take"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is / going / to / clean",
+      "type": "fill",
+      "promptEn": "My family is going to clean the house today. ( clean )",
+      "blanks": 4,
+      "accept": [
+        "is|going|to|clean"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "He ______ ______ ______ ______ a jacket today. ( buy )",
+      "blanks": 4,
+      "accept": [
+        "is|going|to|buy"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "We ______ ______ ______ ______ lunch outside. ( have )",
+      "blanks": 4,
+      "accept": [
+        "are|going|to|have"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "His uncle ______ ______ ______ ______ tomorrow. ( leave )",
+      "blanks": 4,
+      "accept": [
+        "is|going|to|leave"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "They ______ ______ ______ ______ a musical tonight. ( see )",
+      "blanks": 4,
+      "accept": [
+        "are|going|to|see"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "I ______ ______ ______ ______ my aunt next week. ( visit )",
+      "blanks": 4,
+      "accept": [
+        "am|going|to|visit"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "She ______ ______ ______ ______ a red dress to the party. ( wear )",
+      "blanks": 4,
+      "accept": [
+        "is|going|to|wear"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "won't",
+      "type": "fill",
+      "promptKo": "나는 네게 문자 메시지를 보내지 않을 것이다.",
+      "promptEn": "I ______ send a text message to you.",
+      "blanks": 1,
+      "accept": [
+        "won't",
+        "will not"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "나는 오늘 밤에 늦게까지 깨어 있지 않을 것이다.",
+      "promptEn": "I will ______ stay up late tonight.",
+      "blanks": 1,
+      "accept": [
+        "not"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "그 어린이는 우유를 너무 많이 마시지 않을 것이다.",
+      "promptEn": "The child ______ drink too much milk.",
+      "blanks": 1,
+      "accept": [
+        "won't",
+        "will not"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "데이브는 자기 엄마에게 거짓말하지 않을 것이다.",
+      "promptEn": "Dave ______ tell a lie to his mom.",
+      "blanks": 1,
+      "accept": [
+        "won't",
+        "will not"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "그는 내일 자기 삼촌을 만나지 않을 것이다.",
+      "promptEn": "He ______ ______ going ______ meet his uncle tomorrow.",
+      "blanks": 3,
+      "accept": [
+        "is|not|to"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "그녀는 독서 동아리에 가입하지 않을 것이다.",
+      "promptEn": "She ______ going to join a reading club.",
+      "blanks": 1,
+      "accept": [
+        "isn't",
+        "is not"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B7",
+      "type": "fill",
+      "promptKo": "그들은 그 연주회에 가지 않을 것이다.",
+      "promptEn": "They are ______ going to ______ to the concert.",
+      "blanks": 2,
+      "accept": [
+        "not|go"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B8",
+      "type": "fill",
+      "promptKo": "나는 오늘 울타리를 페인트칠하지 않을 것이다.",
+      "promptEn": "I'm ______ ______ paint the fence today.",
+      "blanks": 2,
+      "accept": [
+        "not|going"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B9",
+      "type": "fill",
+      "promptKo": "그들은 내 생일 파티에 올까? / 응, 그럴 거야.",
+      "promptEn": "______ they come to my birthday party? / Yes, they will.",
+      "blanks": 1,
+      "accept": [
+        "Will"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B10",
+      "type": "fill",
+      "promptKo": "오늘은 날씨가 따뜻할까? / 아니, 그렇지 않을 거야.",
+      "promptEn": "______ it ______ warm today? / No, it won't.",
+      "blanks": 2,
+      "accept": [
+        "Will|be"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B11",
+      "type": "fill",
+      "promptKo": "너희들은 시험에 대비하여 열심히 공부할 거니? / 응, 그럴 거야.",
+      "promptEn": "Will you study hard for the test? / Yes, we ______.",
+      "blanks": 1,
+      "accept": [
+        "will"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B12",
+      "type": "fill",
+      "promptKo": "하나는 피아노 교습을 받을 거니? / 응, 그럴 거야.",
+      "promptEn": "______ Hana going to ______ piano lessons? / Yes, she is.",
+      "blanks": 2,
+      "accept": [
+        "Is|take"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B13",
+      "type": "fill",
+      "promptKo": "너는 지하철을 타고 시청에 갈 거니? / 응, 그럴 거야.",
+      "promptEn": "______ you ______ to take the subway to City Hall? / Yes, I am.",
+      "blanks": 2,
+      "accept": [
+        "Are|going"
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (will / not / is / are / be / going / take / go / won't / to / aren't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B14",
+      "type": "fill",
+      "promptKo": "잭과 질은 이번 주 금요일에 캠핑하러 갈 거니? / 아니, 그러지 않을 거야.",
+      "promptEn": "Are Jack and Jill going to go camping this Friday? / No, they ______.",
+      "blanks": 1,
+      "accept": [
+        "aren't",
+        "are not"
+      ]
+    }
+  ]
+}

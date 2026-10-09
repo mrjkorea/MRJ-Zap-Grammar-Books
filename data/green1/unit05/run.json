@@ -1,0 +1,484 @@
+{
+  "practiceId": "u05:run",
+  "title": "Grammar Run",
+  "subtitle": "Modal forms & Korean meanings (pp. 102–103)",
+  "pages": "102–103",
+  "timerMinutes": 20,
+  "unitTitle": "Unit 05 — 조동사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(빈칸 말만 쓰기), Section B 14문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요.",
+      "ruleKo": "빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "can't / drive",
+      "type": "fill",
+      "promptEn": "My mother can drive a car. ( − )\n→ My mother ______ ______ a car.",
+      "blanks": 2,
+      "accept": [
+        "can't|drive",
+        "can not|drive",
+        "cannot|drive"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I can draw pictures well. ( − )\n→ I ______ ______ pictures well.",
+      "blanks": 2,
+      "accept": [
+        "can't|draw",
+        "can not|draw",
+        "cannot|draw"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The boy can ride a skateboard. ( − )\n→ The boy ______ ______ a skateboard.",
+      "blanks": 2,
+      "accept": [
+        "can't|ride",
+        "can not|ride",
+        "cannot|ride"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "We could see the stars last night. ( − )\n→ We ______ ______ the stars last night.",
+      "blanks": 2,
+      "accept": [
+        "couldn't|see"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "I will call you tomorrow morning. ( − )\n→ I ______ ______ you tomorrow morning.",
+      "blanks": 2,
+      "accept": [
+        "won't|call",
+        "will not|call"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "She will send me a letter. ( − )\n→ She ______ ______ me a letter.",
+      "blanks": 2,
+      "accept": [
+        "won't|send",
+        "will not|send"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "You can play table tennis. ( ? )\n→ ______ you ______ table tennis?",
+      "blanks": 2,
+      "accept": [
+        "Can|play"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Minho's sister can make gimchi. ( ? )\n→ ______ Minho's sister ______ gimchi?",
+      "blanks": 2,
+      "accept": [
+        "Can|make"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "They can speak Japanese. ( ? )\n→ ______ they ______ Japanese?",
+      "blanks": 2,
+      "accept": [
+        "Can|speak"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "The store will close at 10 o'clock. ( ? )\n→ ______ the store ______ at 10 o'clock?",
+      "blanks": 2,
+      "accept": [
+        "Will|close"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Tony will water the plants. ( ? )\n→ ______ Tony ______ the plants?",
+      "blanks": 2,
+      "accept": [
+        "Will|water"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "It will be sunny tomorrow. ( ? )\n→ ______ it ______ sunny tomorrow?",
+      "blanks": 2,
+      "accept": [
+        "Will|be"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "우리는 겨울에 썰매를 타러 갈 수 있다.",
+      "type": "sentence",
+      "promptKo": "우리는 겨울에 썰매를 타러 갈 수 있다.",
+      "promptEn": "We can go sledding in winter.",
+      "accept": [
+        "우리는 겨울에 썰매를 타러 갈 수 있다."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptKo": "그녀는 자기 필통을 찾을 수 없다.",
+      "promptEn": "She can't find her pencil case.",
+      "accept": [
+        "그녀는 자기 필통을 찾을 수 없다."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptKo": "그들은 산에 오를 수 있니?",
+      "promptEn": "Can they climb the mountain?",
+      "accept": [
+        "그들은 산에 오를 수 있니?"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptKo": "어떤 새들은 말을 할 수 있다.",
+      "promptEn": "Some birds are able to speak.",
+      "accept": [
+        "어떤 새들은 말을 할 수 있다."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptKo": "그 남자는 말을 탈 수 없다.",
+      "promptEn": "The man isn't able to ride a horse.",
+      "accept": [
+        "그 남자는 말을 탈 수 없다."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptKo": "너는 쿠키를 구울 수 있니?",
+      "promptEn": "Are you able to bake cookies?",
+      "accept": [
+        "너는 쿠키를 구울 수 있니?"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptKo": "나는 그녀의 이름을 기억할 수 있었다.",
+      "promptEn": "I could remember her name.",
+      "accept": [
+        "나는 그녀의 이름을 기억할 수 있었다."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptKo": "나는 어제 그 경주에서 이기지 못했다.",
+      "promptEn": "I could not win the race yesterday.",
+      "accept": [
+        "나는 어제 그 경주에서 이기지 못했다."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptKo": "너는 이제 쉬어도 된다.",
+      "promptEn": "You can take a rest now.",
+      "accept": [
+        "너는 이제 쉬어도 된다."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptKo": "너는 이제 컴퓨터 게임을 해도 된다.",
+      "promptEn": "You can play a computer game now.",
+      "accept": [
+        "너는 이제 컴퓨터 게임을 해도 된다."
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptKo": "내가 네 책을 빌려도 되니?",
+      "promptEn": "Can I borrow your book?",
+      "accept": [
+        "내가 네 책을 빌려도 되니?"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptKo": "내가 이 탄산음료를 마셔도 되니?",
+      "promptEn": "Can I drink this soda?",
+      "accept": [
+        "내가 이 탄산음료를 마셔도 되니?"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B13",
+      "type": "sentence",
+      "promptKo": "내게 물을 좀 줄 수 있니?",
+      "promptEn": "Can you give me some water?",
+      "accept": [
+        "내게 물을 좀 줄 수 있니?"
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B14",
+      "type": "sentence",
+      "promptKo": "그 새에게 먹이를 주어 줄 수 있니?",
+      "promptEn": "Can you feed the bird, please?",
+      "accept": [
+        "그 새에게 먹이를 주어 줄 수 있니?"
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B15",
+      "type": "sentence",
+      "promptKo": "제 가방을 나르는 것을 도와줄 수 있니?",
+      "promptEn": "Can you carry my bag, please?",
+      "accept": [
+        "제 가방을 나르는 것을 도와줄 수 있니?"
+      ]
+    }
+  ]
+}
