@@ -1,0 +1,529 @@
+{
+  "practiceId": "g2:u03:jump",
+  "title": "Grammar Jump",
+  "subtitle": "Comparatives & error correction (pp. 60–61)",
+  "pages": "60–61",
+  "timerMinutes": 24,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 비교 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기), Section B 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a01",
+      "label": "A1",
+      "promptEn": "My pencil is ______ than yours. ( long )",
+      "blanks": 1,
+      "accept": [
+        "longer"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "longer"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a02",
+      "label": "A2",
+      "promptEn": "Apples were ______ than tomatoes. ( cheap )",
+      "blanks": 1,
+      "accept": [
+        "cheaper"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a03",
+      "label": "A3",
+      "promptEn": "Brenda is ______ ______ than Laura. ( famous )",
+      "blanks": 2,
+      "accept": [
+        "more|famous"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a04",
+      "label": "A4",
+      "promptEn": "These pants are ______ than those ones. ( good )",
+      "blanks": 1,
+      "accept": [
+        "better"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a05",
+      "label": "A5",
+      "promptEn": "You can swim ______ than Ken. ( fast )",
+      "blanks": 1,
+      "accept": [
+        "faster"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a06",
+      "label": "A6",
+      "promptEn": "That movie is ______ ______ than this one. ( popular )",
+      "blanks": 2,
+      "accept": [
+        "more|popular"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a07",
+      "label": "A7",
+      "promptEn": "Mary sings ______ ______ than Mike. ( beautifully )",
+      "blanks": 2,
+      "accept": [
+        "more|beautifully"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a08",
+      "label": "A8",
+      "promptEn": "I went to bed ______ than my mom yesterday. ( early )",
+      "blanks": 1,
+      "accept": [
+        "earlier"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a09",
+      "label": "A9",
+      "promptEn": "Tom is ______ ______ ______ student of the five. ( honest )",
+      "blanks": 3,
+      "accept": [
+        "the|most|honest"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a10",
+      "label": "A10",
+      "promptEn": "Daisy is ______ ______ person in the shop. ( busy )",
+      "blanks": 2,
+      "accept": [
+        "the|busiest"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a11",
+      "label": "A11",
+      "promptEn": "Patrick got ______ ______ score in his class. ( bad )",
+      "blanks": 2,
+      "accept": [
+        "the|worst"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a12",
+      "label": "A12",
+      "promptEn": "Your bag is ______ ______ of them all. ( heavy )",
+      "blanks": 2,
+      "accept": [
+        "the|heaviest"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a13",
+      "label": "A13",
+      "promptEn": "What is ______ ______ mountain in the world? ( high )",
+      "blanks": 2,
+      "accept": [
+        "the|highest"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a14",
+      "label": "A14",
+      "promptEn": "New York is ______ ______ city in the U.S. ( large )",
+      "blanks": 2,
+      "accept": [
+        "the|largest"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 비교급이나 최상급의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a15",
+      "label": "A15",
+      "promptEn": "Fred was ______ ______ ______ of them all. ( careful )",
+      "blanks": 3,
+      "accept": [
+        "the|most|careful"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b01",
+      "label": "B1",
+      "promptEn": "The train runs <u>fastest</u> than the bus.",
+      "blanks": 1,
+      "accept": [
+        "faster"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "faster"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b02",
+      "label": "B2",
+      "promptEn": "I am <u>strong</u> than my brother.",
+      "blanks": 1,
+      "accept": [
+        "stronger"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b03",
+      "label": "B3",
+      "promptEn": "A lion is <u>biggest</u> than a cheetah.",
+      "blanks": 1,
+      "accept": [
+        "bigger"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b04",
+      "label": "B4",
+      "promptEn": "The Nile is <u>longest</u> than the Mississippi.",
+      "blanks": 1,
+      "accept": [
+        "longer"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b05",
+      "label": "B5",
+      "promptEn": "The park is <u>far</u> than the bank from here.",
+      "blanks": 1,
+      "accept": [
+        "farther",
+        "further"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b06",
+      "label": "B6",
+      "promptEn": "He got up <u>late</u> than his sister.",
+      "blanks": 1,
+      "accept": [
+        "later"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b07",
+      "label": "B7",
+      "promptEn": "Jenny made a kite <u>easily</u> than me.",
+      "blanks": 2,
+      "accept": [
+        "more|easily"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b08",
+      "label": "B8",
+      "promptEn": "Tokyo is the <u>large</u> city in Japan.",
+      "blanks": 1,
+      "accept": [
+        "largest"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b09",
+      "label": "B9",
+      "promptEn": "February was the <u>colder</u> month of the year.",
+      "blanks": 1,
+      "accept": [
+        "coldest"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b10",
+      "label": "B10",
+      "promptEn": "My mother is <u>older</u> in my family.",
+      "blanks": 2,
+      "accept": [
+        "the|oldest"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b11",
+      "label": "B11",
+      "promptEn": "This is <u>better</u> restaurant in the village.",
+      "blanks": 2,
+      "accept": [
+        "the|best"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b12",
+      "label": "B12",
+      "promptEn": "Mt. Everest is <u>higher</u> mountain in the world.",
+      "blanks": 2,
+      "accept": [
+        "the|highest"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b13",
+      "label": "B13",
+      "promptEn": "This picture is <u>beautiful</u> of the three.",
+      "blanks": 3,
+      "accept": [
+        "the|most|beautiful"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b14",
+      "label": "B14",
+      "promptEn": "Roy wrote <u>manyest</u> letters of the five.",
+      "blanks": 2,
+      "accept": [
+        "the|most"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (밑줄 친 부분만 고쳐 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "b15",
+      "label": "B15",
+      "promptEn": "Kennedy is <u>lazier</u> of the three.",
+      "blanks": 2,
+      "accept": [
+        "the|laziest"
+      ]
+    }
+  ]
+}
