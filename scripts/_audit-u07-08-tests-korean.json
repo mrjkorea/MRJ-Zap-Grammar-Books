@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "GreenZap 1 audit — Korean / accept gaps (unit07–08 + tests)",
+    "build": "20261009-gz1-followup1",
+    "pageRule": "pNNNN.png = PDF page NNN = book page NNN-1",
+    "imageDir": "/tmp/gz1-pages-u78/gz1-rest/pages",
+    "rules": "Same as unit06: tilde gloss bare forms, obvious contraction expansions for multi-blank fills"
+  },
+  "summary": {
+    "koreanAcceptGapCount": 3
+  },
+  "koreanAcceptGaps": [
+    {
+      "file": "data/green1/unit07/wrap.json",
+      "id": "w2_2",
+      "label": "2-2",
+      "type": "fill",
+      "accept": [
+        "우리 ~할까",
+        "우리 ~할까?",
+        "할까",
+        "할까?"
+      ],
+      "issue": "Student may type gloss with 우리 but without ~.",
+      "suggestedAdds": [
+        "우리 할까",
+        "우리 할까?"
+      ],
+      "bookPage": 159
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b02",
+      "label": "B2",
+      "type": "mc",
+      "accept": [
+        "d. 우리 ~할까?",
+        "d",
+        "우리 ~할까?",
+        "할까?"
+      ],
+      "bookPage": 145,
+      "issue": "Student may type gloss without 우리 / ~",
+      "suggestedAdds": [
+        "우리 할까?",
+        "d. 우리 할까?"
+      ]
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b05",
+      "label": "B5",
+      "type": "mc",
+      "accept": [
+        "b. 내가 ~할까?",
+        "b",
+        "내가 ~할까?",
+        "할까?"
+      ],
+      "bookPage": 145,
+      "issue": "Student may type gloss without 내가 / ~",
+      "suggestedAdds": [
+        "내가 할까?",
+        "b. 내가 할까?"
+      ]
+    }
+  ],
+  "notes": {
+    "englishFills": "Unit07–08 and review/final test fill items use English blanks with don't/do not or contraction pairs where needed; no additional gaps flagged on image pass.",
+    "tests": "Review/final tests are English-only MC/fill; no Korean accept gaps.",
+    "unit08": "Wrap Up pp.179 checked (w2_1/w2_2 긍정/부정 labels match book); no new Korean gaps."
+  }
+}
