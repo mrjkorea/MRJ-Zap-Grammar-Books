@@ -1,0 +1,85 @@
+{
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 현재 완료 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g3:u03:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 70)",
+  "pages": "70",
+  "timerMinutes": 6,
+  "wordBank": [
+    "haven't",
+    "seen",
+    "has"
+  ],
+  "introKo": "Check Up — printed p.70, no page image — from OCR - needs check.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (haven't / seen / has) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (haven't / seen / has)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[농구 만화] We _____ lost a game before.",
+      "blanks": 1,
+      "accept": [
+        "haven't",
+        "have not"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (haven't / seen / has) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기"
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "… before? — Yes, she _____.",
+      "blanks": 1,
+      "accept": [
+        "has"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (haven't / seen / has) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기"
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "Have you ever _____ a whale?",
+      "blanks": 1,
+      "accept": [
+        "seen"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (haven't / seen / has) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기"
+    }
+  ]
+}
