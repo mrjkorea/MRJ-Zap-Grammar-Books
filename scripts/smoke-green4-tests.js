@@ -62,11 +62,24 @@ for (const ex of exercises) {
   if (d.practiceId !== ex.practiceId) fail(rel, "practiceId", d.practiceId, ex.practiceId);
   let ok = 0;
   let graded = 0;
+  const seenIds = new Set();
   for (const it of d.items) {
     for (const k of ["id", "section", "sectionTitle", "sectionInstructionKo", "answerMode", "label", "type", "accept"]) {
       if (it[k] == null || it[k] === "") fail(rel, it.id, "missing", k);
     }
+    if (seenIds.has(it.id)) fail(rel, it.id, "duplicate id");
+    seenIds.add(it.id);
     if (!MODES.has(it.answerMode)) fail(rel, it.id, "bad answerMode");
+    if (it.type === "mc" && (!Array.isArray(it.choices) || it.choices.length < 2)) {
+      fail(rel, it.id, "mc needs choices");
+    }
+    if (it.type === "fill" || it.answerMode === "words") {
+      const b = it.blanks || 1;
+      for (const acc of it.accept) {
+        const n = String(acc).split("|").length;
+        if (n !== b) fail(rel, it.id, "blanks mismatch", b, n, acc);
+      }
+    }
     if (it.displayOnly) continue;
     graded++;
     const right = respFor(it, it.accept[0]);

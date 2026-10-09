@@ -390,16 +390,16 @@
       "promptEn": "",
       "choices": [
         "Ms. Conrad made her son a pilot.",
-        "Mom wants me study hard.",
         "She found the box heavy.",
+        "Mom wants me study hard.",
         "He had us close the windows.",
         "We felt the bus move."
       ],
       "accept": [
-        "2",
-        "②"
+        "3",
+        "③"
       ],
-      "answer": "2",
+      "answer": "3",
       "id": "q11"
     },
     {
@@ -498,11 +498,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "16",
       "type": "fill",
-      "promptEn": "My grandma ________ ________ ________ ________ ________ .",
-      "blanks": 5,
+      "promptEn": "My grandma ________ ________ ________ ________ .",
+      "blanks": 4,
       "accept": [
-        "calls|me|a|crybaby",
-        "calls|me|a|cry|baby"
+        "calls|me|a|crybaby"
       ],
       "promptKo": "우리 할머니는 나를 울보라고 부르신다. ( call, a crybaby )",
       "id": "q16"
