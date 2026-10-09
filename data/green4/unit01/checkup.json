@@ -11,23 +11,19 @@
   "pages": "27",
   "timerMinutes": 6,
   "wordBank": [
-    "look",
+    "happy",
     "looks",
-    "sound",
-    "sounds",
-    "smell",
     "smells",
-    "like",
-    "became"
+    "hungry"
   ],
-  "introKo": "Check Up 4문항. Printed p.27 not in PDF 9–27 — from OCR - needs check.",
+  "introKo": "이 연습은 Check Up 4문항(고르기)으로 되어 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요.",
   "sections": [
     {
       "id": "CU",
       "title": "Check Up",
-      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요.",
-      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요.",
-      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요.",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "itemCount": 4,
@@ -45,65 +41,61 @@
       "id": "c01",
       "section": "CU",
       "sectionTitle": "Check Up",
-      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (look / looks / sound / sounds / smell / smells / like / became) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "1",
       "type": "fill",
-      "promptEn": "[그림 1] 케이크를 보며\nWow! That cake _____ delicious!",
+      "promptEn": "[그림 1] 강아지가 먹이를 보며\nI am _____ .",
       "blanks": 1,
       "accept": [
-        "looks"
-      ],
-      "ocrNeedsCheck": true
+        "hungry"
+      ]
     },
     {
       "id": "c02",
       "section": "CU",
       "sectionTitle": "Check Up",
-      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (look / looks / sound / sounds / smell / smells / like / became) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "2",
       "type": "fill",
-      "promptEn": "[그림 2]\nA: How does the soup _____?\nB: It _____ good.",
-      "blanks": 2,
+      "promptEn": "[그림 2] 강아지가 빵 냄새를 맡으며\nIt _____ good.",
+      "blanks": 1,
       "accept": [
-        "smells|good"
-      ],
-      "ocrNeedsCheck": true
+        "smells"
+      ]
     },
     {
       "id": "c03",
       "section": "CU",
       "sectionTitle": "Check Up",
-      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (look / looks / sound / sounds / smell / smells / like / became) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "3",
       "type": "fill",
-      "promptEn": "[그림 3]\nThat _____ _____ thunder.",
-      "blanks": 2,
+      "promptEn": "[그림 3] 배불리 누운 강아지\nI feel _____ .",
+      "blanks": 1,
       "accept": [
-        "sounds|like"
-      ],
-      "ocrNeedsCheck": true
+        "happy"
+      ]
     },
     {
       "id": "c04",
       "section": "CU",
       "sectionTitle": "Check Up",
-      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (look / looks / sound / sounds / smell / smells / like / became) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "4",
       "type": "fill",
-      "promptEn": "[그림 4]\nHe _____ a doctor after college.",
+      "promptEn": "[그림 4] 화난 표정의 여자를 보며\nShe _____ very angry.",
       "blanks": 1,
       "accept": [
-        "became"
-      ],
-      "ocrNeedsCheck": true
+        "looks"
+      ]
     }
   ]
 }

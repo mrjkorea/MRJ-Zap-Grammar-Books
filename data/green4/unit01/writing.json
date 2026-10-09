@@ -10,7 +10,7 @@
   "subtitle": "봄·가을 & 대화 (pp. 20–21)",
   "pages": "20–21",
   "timerMinutes": 20,
-  "introKo": "이 연습은 Section A 5문항, Section B 4문항(빈칸 말만)입니다. Section B(21쪽) OCR만 — from OCR - needs check.",
+  "introKo": "이 연습은 Section A 5문항, Section B 4문항(빈칸 말만)입니다. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
   "sections": [
     {
       "id": "A",
@@ -155,7 +155,6 @@
       "accept": [
         "feels|soft"
       ],
-      "ocrNeedsCheck": false,
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "feels / soft",
@@ -174,7 +173,6 @@
       "accept": [
         "look|pretty"
       ],
-      "ocrNeedsCheck": true,
       "id": "b02"
     },
     {
@@ -190,7 +188,6 @@
       "accept": [
         "sounds|exciting"
       ],
-      "ocrNeedsCheck": true,
       "id": "b03"
     },
     {
@@ -206,7 +203,6 @@
       "accept": [
         "smell|good"
       ],
-      "ocrNeedsCheck": true,
       "id": "b04"
     },
     {
@@ -222,7 +218,6 @@
       "accept": [
         "tastes|sour"
       ],
-      "ocrNeedsCheck": true,
       "id": "b05"
     }
   ]

@@ -15,6 +15,27 @@ let total = 0;
 let bad = 0;
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const ids = d.items.map((it) => it.id);
+  const dup = ids.filter((id, i) => ids.indexOf(id) !== i);
+  if (dup.length) {
+    bad++;
+    console.log("DUP-ID", f, dup.join(","));
+  }
+  for (const it of d.items) {
+    if ("ocrNeedsCheck" in it) {
+      bad++;
+      console.log("OCR-FLAG", f, it.id);
+    }
+  }
+  if (d.sections) {
+    for (const s of d.sections) {
+      const graded = d.items.filter((it) => !it.displayOnly && it.section === s.id);
+      if (graded.length !== s.itemCount) {
+        bad++;
+        console.log("SECTION-COUNT", f, s.id, "expected", s.itemCount, "got", graded.length);
+      }
+    }
+  }
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;

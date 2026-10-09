@@ -14,7 +14,7 @@
   "passPct": 80,
   "retryBelowPct": 50,
   "showAnswersToStudent": false,
-  "introKo": "Unit Test 01 — 25문항. [18–20], [21–25] 및 일부 페이지는 OCR만 — from OCR - needs check.",
+  "introKo": "Unit Test 01 — 25문항. [1–2]부터 [21–25]까지 책 순서대로입니다. 보기는 ①–⑤ 순서와 같습니다.",
   "sections": [
     {
       "id": "1-2",
@@ -306,16 +306,16 @@
       "promptEn": "A: How do you feel now?\nB: I _____ tired now.",
       "choices": [
         "become",
-        "taste",
         "look",
-        "grow",
-        "feel"
+        "smell",
+        "feel",
+        "turn"
       ],
       "accept": [
-        "5",
-        "⑤"
+        "4",
+        "④"
       ],
-      "answer": "5"
+      "answer": "4"
     },
     {
       "id": "q07",
@@ -589,8 +589,7 @@
       "blanks": 2,
       "accept": [
         "became|popular"
-      ],
-      "ocrNeedsCheck": true
+      ]
     },
     {
       "id": "q19",
@@ -602,13 +601,11 @@
       "label": "19",
       "type": "fill",
       "promptKo": "메리는 자기 엄마처럼 생겼다.",
-      "promptEn": "( her mother, look like )\nMary _____ _____ _____ .",
-      "blanks": 3,
+      "promptEn": "( her mother, look like )\nMary _____ _____ _____ _____ .",
+      "blanks": 4,
       "accept": [
-        "looks|like|her|mother",
-        "looks|like|her|mother."
-      ],
-      "ocrNeedsCheck": true
+        "looks|like|her|mother"
+      ]
     },
     {
       "id": "q20",
@@ -624,8 +621,7 @@
       "blanks": 2,
       "accept": [
         "went|blind"
-      ],
-      "ocrNeedsCheck": true
+      ]
     },
     {
       "id": "q21",
@@ -641,8 +637,7 @@
       "blanks": 1,
       "accept": [
         "was"
-      ],
-      "ocrNeedsCheck": true
+      ]
     },
     {
       "id": "q22",
@@ -658,8 +653,7 @@
       "blanks": 1,
       "accept": [
         "dark"
-      ],
-      "ocrNeedsCheck": true
+      ]
     },
     {
       "id": "q23",
@@ -675,8 +669,7 @@
       "blanks": 1,
       "accept": [
         "tastes"
-      ],
-      "ocrNeedsCheck": true
+      ]
     },
     {
       "id": "q24",
@@ -692,8 +685,7 @@
       "blanks": 1,
       "accept": [
         "pale"
-      ],
-      "ocrNeedsCheck": true
+      ]
     },
     {
       "id": "q25",
@@ -709,8 +701,7 @@
       "blanks": 1,
       "accept": [
         "sounds"
-      ],
-      "ocrNeedsCheck": true
+      ]
     }
   ]
 }
