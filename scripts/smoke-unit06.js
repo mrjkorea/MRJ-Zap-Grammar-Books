@@ -82,6 +82,11 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
     }
     if (it.answerMode === "sentence" && it.type !== "sentence") fail(where, it.id, "sentence mode but type", it.type);
     if (it.type === "mc" && it.answerMode !== "choice") fail(where, it.id, "mc must be choice mode");
+    for (const acc of it.accept) {
+      if (String(acc).split("|").some((p) => p.trim() === "")) {
+        fail(where, it.id, "accept has empty pipe segment:", acc);
+      }
+    }
     if (it.displayOnly) continue;
     const right = respFor(it, it.accept[0]);
     if (!right) {
