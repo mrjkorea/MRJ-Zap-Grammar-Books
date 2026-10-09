@@ -1,0 +1,432 @@
+{
+  "practiceId": "g2:u07:fly",
+  "title": "Grammar Fly",
+  "subtitle": "문장 완성·배열 (pp. 150–151)",
+  "pages": "150–151",
+  "timerMinutes": 28,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 동명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 12문항(빈칸 말만 쓰기), Section B 12문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "______ is not easy. ( build a sandcastle )",
+      "blanks": 1,
+      "accept": [
+        "Building a sandcastle",
+        "building a sandcastle"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Building a sandcastle"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "______ is not fun. ( watch TV )",
+      "blanks": 1,
+      "accept": [
+        "Watching TV",
+        "watching TV"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "______ is dangerous. ( play on the street )",
+      "blanks": 1,
+      "accept": [
+        "Playing on the street",
+        "playing on the street"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "My dream is ______. ( meet Ryu Hyunjin )",
+      "blanks": 1,
+      "accept": [
+        "meeting Ryu Hyunjin",
+        "Meeting Ryu Hyunjin"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "My aunt's job is ______. ( take care of flowers )",
+      "blanks": 1,
+      "accept": [
+        "taking care of flowers",
+        "Taking care of flowers"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Arthur's hobby is ______. ( draw cartoons )",
+      "blanks": 1,
+      "accept": [
+        "drawing cartoons",
+        "Drawing cartoons"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "My puppy likes ______. ( listen to music )",
+      "blanks": 1,
+      "accept": [
+        "listening to music",
+        "Listening to music"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "He enjoys ______. ( play baseball )",
+      "blanks": 1,
+      "accept": [
+        "playing baseball",
+        "Playing baseball"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "They stopped ______. ( feed the horses )",
+      "blanks": 1,
+      "accept": [
+        "feeding the horses",
+        "Feeding the horses"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "She hates ______. ( clean the bathroom )",
+      "blanks": 1,
+      "accept": [
+        "cleaning the bathroom",
+        "Cleaning the bathroom"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "The calf is good at ______. ( jump over the fence )",
+      "blanks": 1,
+      "accept": [
+        "jumping over the fence",
+        "Jumping over the fence"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "My mom is poor at ______. ( cook )",
+      "blanks": 1,
+      "accept": [
+        "cooking",
+        "Cooking"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "( fun / fishing / is / . )",
+      "accept": [
+        "Fishing is fun."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Fishing is fun."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "( is good for / exercising regularly / our health / . )",
+      "accept": [
+        "Exercising regularly is good for our health."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "( a good habit / is / reading books every day / . )",
+      "accept": [
+        "Reading books every day is a good habit."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "( is / my hobby / listening to music / . )",
+      "accept": [
+        "My hobby is listening to music."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "( her dream / traveling around the world / is / . )",
+      "accept": [
+        "Her dream is traveling around the world."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "( taking care of animals / is / his job / . )",
+      "accept": [
+        "His job is taking care of animals."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "( climbing trees / likes / my cat / . )",
+      "accept": [
+        "My cat likes climbing trees."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "( his grandmother / knitting / enjoys / . )",
+      "accept": [
+        "His grandmother enjoys knitting."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "( teasing his brother / Jack / stopped / . )",
+      "accept": [
+        "Jack stopped teasing his brother."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "( started / they / laughing / . )",
+      "accept": [
+        "They started laughing."
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "( playing the cello / she / is good at / . )",
+      "accept": [
+        "She is good at playing the cello."
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "( Max / dancing / is interested in / . )",
+      "accept": [
+        "Max is interested in dancing."
+      ]
+    }
+  ]
+}
