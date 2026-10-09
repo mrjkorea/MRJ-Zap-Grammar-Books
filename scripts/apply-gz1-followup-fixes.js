@@ -69,8 +69,11 @@ const u06 = loadJson(path.join(__dirname, "_audit-u06.json")).koreanAcceptGaps.m
   id: g.id,
   suggestedAdds: g.suggestedAdds,
 }));
-const u07 = loadJson(path.join(__dirname, "_audit-rest-korean.json")).koreanAcceptGaps;
-applyKoreanGaps([...u06, ...u07]);
+const u07rest = loadJson(path.join(__dirname, "_audit-rest-korean.json")).koreanAcceptGaps;
+const u07u08 = fs.existsSync(path.join(__dirname, "_audit-u07-08-tests-korean.json"))
+  ? loadJson(path.join(__dirname, "_audit-u07-08-tests-korean.json")).koreanAcceptGaps
+  : [];
+applyKoreanGaps([...u06, ...u07rest, ...u07u08]);
 
 // Unit 05 Run B: widen common Korean gloss variants (book-aligned synonyms)
 const u05run = path.join(REPO, "data/green1/unit05/run.json");
