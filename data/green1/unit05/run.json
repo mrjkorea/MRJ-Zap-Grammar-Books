@@ -6,7 +6,7 @@
   "timerMinutes": 20,
   "unitTitle": "Unit 05 — 조동사 (1)",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 11문항(빈칸 말만 쓰기), Section B 14문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "introKo": "이 연습은 Section A 11문항(빈칸 말만 쓰기), Section B 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
   "sections": [
     {
       "id": "A",
@@ -35,11 +35,11 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "directionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요.",
-      "ruleKo": "빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "ruleKo": "빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 14,
       "exampleCount": 1,
       "labels": [
@@ -256,228 +256,260 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "우리는 겨울에 썰매를 타러 갈 수 있다.",
-      "type": "sentence",
-      "promptKo": "우리는 겨울에 썰매를 타러 갈 수 있다.",
+      "exampleAnswer": "갈 수 있다",
+      "type": "fill",
+      "promptKo": "우리는 겨울에 썰매를 타러 ______.",
       "promptEn": "We can go sledding in winter.",
+      "blanks": 1,
       "accept": [
-        "우리는 겨울에 썰매를 타러 갈 수 있다."
+        "갈 수 있다"
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
-      "type": "sentence",
-      "promptKo": "그녀는 자기 필통을 찾을 수 없다.",
+      "type": "fill",
+      "promptKo": "그녀는 자기 필통을 ______.",
       "promptEn": "She can't find her pencil case.",
+      "blanks": 1,
       "accept": [
-        "그녀는 자기 필통을 찾을 수 없다."
+        "찾지 못한다",
+        "찾을 수 없다"
       ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
-      "type": "sentence",
-      "promptKo": "그들은 산에 오를 수 있니?",
+      "type": "fill",
+      "promptKo": "그들은 산에 ______?",
       "promptEn": "Can they climb the mountain?",
+      "blanks": 1,
       "accept": [
-        "그들은 산에 오를 수 있니?"
+        "오를 수 있니",
+        "오를 수 있나요"
       ]
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
-      "type": "sentence",
-      "promptKo": "어떤 새들은 말을 할 수 있다.",
+      "type": "fill",
+      "promptKo": "어떤 새들은 ______.",
       "promptEn": "Some birds are able to speak.",
+      "blanks": 1,
       "accept": [
-        "어떤 새들은 말을 할 수 있다."
+        "말할 수 있다"
       ]
     },
     {
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
-      "type": "sentence",
-      "promptKo": "그 남자는 말을 탈 수 없다.",
+      "type": "fill",
+      "promptKo": "그 남자는 말을 ______.",
       "promptEn": "The man isn't able to ride a horse.",
+      "blanks": 1,
       "accept": [
-        "그 남자는 말을 탈 수 없다."
+        "타지 못한다",
+        "탈 수 없다"
       ]
     },
     {
       "id": "b06",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B6",
-      "type": "sentence",
-      "promptKo": "너는 쿠키를 구울 수 있니?",
+      "type": "fill",
+      "promptKo": "너는 쿠키를 ______?",
       "promptEn": "Are you able to bake cookies?",
+      "blanks": 1,
       "accept": [
-        "너는 쿠키를 구울 수 있니?"
+        "구울 수 있니",
+        "구울 수 있나요"
       ]
     },
     {
       "id": "b07",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B7",
-      "type": "sentence",
-      "promptKo": "나는 그녀의 이름을 기억할 수 있었다.",
+      "type": "fill",
+      "promptKo": "나는 그녀의 이름을 ______.",
       "promptEn": "I could remember her name.",
+      "blanks": 1,
       "accept": [
-        "나는 그녀의 이름을 기억할 수 있었다."
+        "기억할 수 있었다"
       ]
     },
     {
       "id": "b08",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B8",
-      "type": "sentence",
-      "promptKo": "나는 어제 그 경주에서 이기지 못했다.",
+      "type": "fill",
+      "promptKo": "나는 어제 그 경주에서 ______.",
       "promptEn": "I could not win the race yesterday.",
+      "blanks": 1,
       "accept": [
-        "나는 어제 그 경주에서 이기지 못했다."
+        "이기지 못했다"
       ]
     },
     {
       "id": "b09",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B9",
-      "type": "sentence",
-      "promptKo": "너는 이제 쉬어도 된다.",
+      "type": "fill",
+      "promptKo": "너는 이제 ______.",
       "promptEn": "You can take a rest now.",
+      "blanks": 1,
       "accept": [
-        "너는 이제 쉬어도 된다."
+        "쉬어도 된다",
+        "쉬어도 돼"
       ]
     },
     {
       "id": "b10",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B10",
-      "type": "sentence",
-      "promptKo": "너는 이제 컴퓨터 게임을 해도 된다.",
+      "type": "fill",
+      "promptKo": "너는 이제 컴퓨터 게임을 ______.",
       "promptEn": "You can play a computer game now.",
+      "blanks": 1,
       "accept": [
-        "너는 이제 컴퓨터 게임을 해도 된다."
+        "해도 된다",
+        "해도 돼"
       ]
     },
     {
       "id": "b11",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B11",
-      "type": "sentence",
-      "promptKo": "내가 네 책을 빌려도 되니?",
+      "type": "fill",
+      "promptKo": "내가 네 책을 ______?",
       "promptEn": "Can I borrow your book?",
+      "blanks": 1,
       "accept": [
-        "내가 네 책을 빌려도 되니?"
+        "빌려도 되니",
+        "빌려도 될까",
+        "빌려도 될까요"
       ]
     },
     {
       "id": "b12",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B12",
-      "type": "sentence",
-      "promptKo": "내가 이 탄산음료를 마셔도 되니?",
+      "type": "fill",
+      "promptKo": "내가 이 탄산음료를 ______?",
       "promptEn": "Can I drink this soda?",
+      "blanks": 1,
       "accept": [
-        "내가 이 탄산음료를 마셔도 되니?"
+        "마셔도 되니",
+        "마셔도 될까",
+        "마셔도 될까요"
       ]
     },
     {
       "id": "b13",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B13",
-      "type": "sentence",
-      "promptKo": "내게 물을 좀 줄 수 있니?",
+      "type": "fill",
+      "promptKo": "내게 물을 좀 ______?",
       "promptEn": "Can you give me some water?",
+      "blanks": 1,
       "accept": [
-        "내게 물을 좀 줄 수 있니?"
+        "줄 수 있니",
+        "줄 수 있나요",
+        "주실 수 있니"
       ]
     },
     {
       "id": "b14",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B14",
-      "type": "sentence",
-      "promptKo": "그 새에게 먹이를 주어 줄 수 있니?",
+      "type": "fill",
+      "promptKo": "그 새에게 ______?",
       "promptEn": "Can you feed the bird, please?",
+      "blanks": 1,
       "accept": [
-        "그 새에게 먹이를 주어 줄 수 있니?"
+        "먹이를 주어 줄 수 있니",
+        "먹이를 줄 수 있니",
+        "먹이를 주실 수 있니"
       ]
     },
     {
       "id": "b15",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "B15",
-      "type": "sentence",
-      "promptKo": "제 가방을 나르는 것을 도와줄 수 있니?",
+      "type": "fill",
+      "promptKo": "제 가방을 ______?",
       "promptEn": "Can you carry my bag, please?",
+      "blanks": 1,
       "accept": [
-        "제 가방을 나르는 것을 도와줄 수 있니?"
+        "나르는 것을 도와줄 수 있니",
+        "나르는 것을 도와줄 수 있나요",
+        "나르는 것을 도와주실 수 있니",
+        "날라 주실 수 있나요"
       ]
     }
   ]

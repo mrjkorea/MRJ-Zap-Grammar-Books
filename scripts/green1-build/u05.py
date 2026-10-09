@@ -74,26 +74,25 @@ ra = [
 ]
 A = [FILL(f"A{n}", f"{s}\n→ {t}", [a], blanks=len(a.split("|")), ex=(n == 1)) for n, (s, t, a) in enumerate(ra, 1)]
 
-secB = S("B", "Section B", "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요.",
-         "빈칸에 우리말 뜻을 문장 형태로 쓰세요. (문장 전체를 쓰세요.)", "sentence")
+secB = S("B", "Section B", "다음 문장에서 밑줄 친 부분의 뜻을 우리말로 쓰세요.", R_KO_PHRASE, "words")
 rb = [
-    ("We can go sledding in winter.", "우리는 겨울에 썰매를 타러 갈 수 있다."),
-    ("She can't find her pencil case.", "그녀는 자기 필통을 찾을 수 없다."),
-    ("Can they climb the mountain?", "그들은 산에 오를 수 있니?"),
-    ("Some birds are able to speak.", "어떤 새들은 말을 할 수 있다."),
-    ("The man isn't able to ride a horse.", "그 남자는 말을 탈 수 없다."),
-    ("Are you able to bake cookies?", "너는 쿠키를 구울 수 있니?"),
-    ("I could remember her name.", "나는 그녀의 이름을 기억할 수 있었다."),
-    ("I could not win the race yesterday.", "나는 어제 그 경주에서 이기지 못했다."),
-    ("You can take a rest now.", "너는 이제 쉬어도 된다."),
-    ("You can play a computer game now.", "너는 이제 컴퓨터 게임을 해도 된다."),
-    ("Can I borrow your book?", "내가 네 책을 빌려도 되니?"),
-    ("Can I drink this soda?", "내가 이 탄산음료를 마셔도 되니?"),
-    ("Can you give me some water?", "내게 물을 좀 줄 수 있니?"),
-    ("Can you feed the bird, please?", "그 새에게 먹이를 주어 줄 수 있니?"),
-    ("Can you carry my bag, please?", "제 가방을 나르는 것을 도와줄 수 있니?"),
+    ("We can go sledding in winter.", "우리는 겨울에 썰매를 타러 ______.", ["갈 수 있다"], True),
+    ("She can't find her pencil case.", "그녀는 자기 필통을 ______.", ["찾지 못한다", "찾을 수 없다"], False),
+    ("Can they climb the mountain?", "그들은 산에 ______?", ["오를 수 있니", "오를 수 있나요"], False),
+    ("Some birds are able to speak.", "어떤 새들은 ______.", ["말할 수 있다"], False),
+    ("The man isn't able to ride a horse.", "그 남자는 말을 ______.", ["타지 못한다", "탈 수 없다"], False),
+    ("Are you able to bake cookies?", "너는 쿠키를 ______?", ["구울 수 있니", "구울 수 있나요"], False),
+    ("I could remember her name.", "나는 그녀의 이름을 ______.", ["기억할 수 있었다"], False),
+    ("I could not win the race yesterday.", "나는 어제 그 경주에서 ______.", ["이기지 못했다"], False),
+    ("You can take a rest now.", "너는 이제 ______.", ["쉬어도 된다", "쉬어도 돼"], False),
+    ("You can play a computer game now.", "너는 이제 컴퓨터 게임을 ______.", ["해도 된다", "해도 돼"], False),
+    ("Can I borrow your book?", "내가 네 책을 ______?", ["빌려도 되니", "빌려도 될까", "빌려도 될까요"], False),
+    ("Can I drink this soda?", "내가 이 탄산음료를 ______?", ["마셔도 되니", "마셔도 될까", "마셔도 될까요"], False),
+    ("Can you give me some water?", "내게 물을 좀 ______?", ["줄 수 있니", "줄 수 있나요", "주실 수 있니"], False),
+    ("Can you feed the bird, please?", "그 새에게 ______?", ["먹이를 주어 줄 수 있니", "먹이를 줄 수 있니", "먹이를 주실 수 있니"], False),
+    ("Can you carry my bag, please?", "제 가방을 ______?", ["나르는 것을 도와줄 수 있니", "나르는 것을 도와줄 수 있나요", "나르는 것을 도와주실 수 있니", "날라 주실 수 있나요"], False),
 ]
-B = [SENT(f"B{n}", en, ko, ko=ko, ex=(n == 1)) for n, (en, ko) in enumerate(rb, 1)]
+B = [KO_MEAN(f"B{n}", en, ko, acc, ex=ex) for n, (en, ko, acc, ex) in enumerate(rb, 1)]
 F["run.json"] = finish(meta(U, "run", "Grammar Run", "Modal forms & Korean meanings (pp. 102–103)", "102–103", UT),
                       [(secA, A), (secB, B)], letter_id, timer=20)
 

@@ -6,7 +6,7 @@
   "timerMinutes": 24,
   "unitTitle": "Unit 03 — 미래 시제",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기), Section B 10문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기), Section B 11문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
   "sections": [
     {
       "id": "A",
@@ -39,14 +39,15 @@
       "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 10,
-      "exampleCount": 2,
+      "itemCount": 11,
+      "exampleCount": 1,
       "labels": [
         "B2",
         "B3",
         "B4",
         "B5",
         "B6",
+        "B7",
         "B8",
         "B9",
         "B10",
@@ -343,11 +344,8 @@
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B7",
-      "example": true,
-      "displayOnly": true,
-      "exampleAnswer": "Are / they / going / to / buy",
       "type": "fill",
-      "promptEn": "They are going to buy a tent for camping.\n→ Are they going to buy a tent for camping?",
+      "promptEn": "They are going to buy a tent for camping.\n→ ______ ______ ______ ______ ______ a tent for camping?",
       "blanks": 5,
       "accept": [
         "Are|they|going|to|buy"

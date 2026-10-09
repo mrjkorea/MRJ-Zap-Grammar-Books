@@ -119,6 +119,16 @@ def SENT(label, en, answers, ko=None, ex=False, **kw):
     if ex: it["example"] = True
     it.update(kw); return it
 
+R_KO_PHRASE = "빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)"
+
+def KO_MEAN(label, en, ko_blank, accept, ex=False, **kw):
+    """Grammar Run-style Korean gloss: student types only the underlined phrase."""
+    acc = accept if isinstance(accept, list) else [accept]
+    it = {"label": label, "type": "fill", "promptEn": en, "promptKo": ko_blank, "blanks": 1, "accept": acc}
+    if ex: it["example"] = True
+    it.update(kw)
+    return it
+
 def example_answer(it):
     a = it["accept"][0]
     if it["type"] == "mc" and re.fullmatch(r"\d", a):
