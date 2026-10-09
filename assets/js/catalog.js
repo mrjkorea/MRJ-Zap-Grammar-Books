@@ -655,6 +655,20 @@
         data: "data/green4/unit03/unit-test-03.json",
         practiceId: "g4:u03:quiz",
       },
+      {
+        slug: "wrap",
+        title: "Wrap Up",
+        hint: "Summary · p. 71",
+        data: "data/green4/unit03/wrap.json",
+        practiceId: "g4:u03:wrap",
+      },
+      {
+        slug: "checkup",
+        title: "Check Up",
+        hint: "Comic dialogue · p. 71",
+        data: "data/green4/unit03/checkup.json",
+        practiceId: "g4:u03:checkup",
+      },
     ],
     "zap-green-3:unit-01": [
       {

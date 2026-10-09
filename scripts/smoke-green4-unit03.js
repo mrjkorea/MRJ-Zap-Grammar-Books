@@ -1,4 +1,4 @@
-/* Smoke-grade every GZ3 Unit 01 item with the repo's own normalize.js + engine.js gradeItem. */
+/* Smoke-grade every GreenZap 4 Unit 03 item with normalize.js + engine.js gradeItem. */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
@@ -15,8 +15,14 @@ let total = 0;
 let bad = 0;
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const ids = new Set();
   let ok = 0;
   for (const it of d.items) {
+    if (ids.has(it.id)) {
+      bad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    ids.add(it.id);
     if (it.displayOnly) continue;
     total++;
     let right;
@@ -33,7 +39,11 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       wp[0] = "xyz";
       wrong = { parts: wp, value: wp.join(" ") };
     } else {
-      right = { value: "  " + it.accept[0].toUpperCase() + "  " };
+      const expect0 = it.accept[0];
+      const probe = /[\uAC00-\uD7A3]/.test(expect0)
+        ? "  " + expect0 + "  "
+        : "  " + expect0.toUpperCase() + "  ";
+      right = { value: probe };
       wrong = { value: "nope" };
     }
     const r = E.gradeItem(it, right);
