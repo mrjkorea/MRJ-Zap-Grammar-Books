@@ -1,0 +1,575 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 여러 가지 동사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u01:jump",
+  "title": "Grammar Jump",
+  "subtitle": "우리말 완성 & 문장 완성 (pp. 16–17)",
+  "pages": "16–17",
+  "timerMinutes": 25,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기), Section B 15문항(문장 전체 쓰기)으로 되어 있어요. Section B는 OCR만 있는 페이지(16쪽) 기반 — from OCR - needs check.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 우리말 뜻을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "The song was so great.",
+      "promptKo": "그 노래는 _____",
+      "blanks": 1,
+      "accept": [
+        "무척 훌륭했다",
+        "무척훌륭했다",
+        "매우 훌륭했다",
+        "매우훌륭했다"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "무척 훌륭했다",
+      "id": "a01"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "He is my grandfather.",
+      "promptKo": "그는 _____",
+      "blanks": 1,
+      "accept": [
+        "내 할아버지이다",
+        "내할아버지이다",
+        "우리 할아버지이다",
+        "우리할아버지이다",
+        "나의 할아버지이다",
+        "나의할아버지이다"
+      ],
+      "id": "a02"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The book became popular.",
+      "promptKo": "그 책은 _____",
+      "blanks": 1,
+      "accept": [
+        "인기가 많아졌다",
+        "인기가많아졌다",
+        "유명해졌다"
+      ],
+      "id": "a03"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Sandy will become a good doctor.",
+      "promptKo": "샌디는 _____",
+      "blanks": 1,
+      "accept": [
+        "좋은 의사가 될 것이다",
+        "좋은의사가될것이다",
+        "훌륭한 의사가 될 것이다",
+        "훌륭한의사가될것이다"
+      ],
+      "id": "a04"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The theater got dark.",
+      "promptKo": "극장이 _____",
+      "blanks": 1,
+      "accept": [
+        "어두워졌다"
+      ],
+      "id": "a05"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "The musician went deaf.",
+      "promptKo": "그 음악가는 _____",
+      "blanks": 1,
+      "accept": [
+        "청각을 잃었다",
+        "청각을잃었다",
+        "귀가 멀어졌다",
+        "귀가멀어졌다",
+        "못 듣게 되었다",
+        "못듣게되었다"
+      ],
+      "id": "a06"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "His hair turned gray.",
+      "promptKo": "그의 머리는 _____",
+      "blanks": 1,
+      "accept": [
+        "희끗해졌다",
+        "반백이 되었다",
+        "반백이되었다"
+      ],
+      "id": "a07"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "They grew old together.",
+      "promptKo": "그들은 함께 _____",
+      "blanks": 1,
+      "accept": [
+        "늙어갔다",
+        "늙어졌다"
+      ],
+      "id": "a08"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "Lisa looked happy yesterday.",
+      "promptKo": "리사는 어제 _____",
+      "blanks": 1,
+      "accept": [
+        "행복해 보였다",
+        "행복해보였다"
+      ],
+      "id": "a09"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Your plan sounds nice.",
+      "promptKo": "네 계획은 _____",
+      "blanks": 1,
+      "accept": [
+        "좋게 들린다",
+        "좋게들린다",
+        "멋지게 들린다",
+        "멋지게들린다"
+      ],
+      "id": "a10"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "The eggs smell strange.",
+      "promptKo": "그 달걀들은 _____",
+      "blanks": 1,
+      "accept": [
+        "이상한 냄새가 난다",
+        "이상한냄새가난다"
+      ],
+      "id": "a11"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "This cake tastes delicious.",
+      "promptKo": "이 케이크는 _____",
+      "blanks": 1,
+      "accept": [
+        "맛있다",
+        "맛있는 맛이 난다",
+        "맛있는맛이난다"
+      ],
+      "id": "a12"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Bob felt very sleepy.",
+      "promptKo": "밥은 무척 _____",
+      "blanks": 1,
+      "accept": [
+        "졸렸다",
+        "졸리게 느껴졌다",
+        "졸리게느껴졌다",
+        "졸린 느낌이 들었다",
+        "졸린느낌이들었다"
+      ],
+      "id": "a13"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "The baby looks like a doll.",
+      "promptKo": "그 아기는 _____",
+      "blanks": 1,
+      "accept": [
+        "인형처럼 보인다",
+        "인형처럼보인다"
+      ],
+      "id": "a14"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "The noise sounded like a cat.",
+      "promptKo": "그 소리는 _____",
+      "blanks": 1,
+      "accept": [
+        "고양이 소리처럼 들렸다",
+        "고양이소리처럼들렸다"
+      ],
+      "id": "a15"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "(She / my math teacher / be)",
+      "accept": [
+        "She was my math teacher."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b01"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "(The shoes / too big / be / for me)",
+      "accept": [
+        "The shoes are too big for me."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b02"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "(Olivia / brave / become)",
+      "accept": [
+        "Olivia became brave."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b03"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "(We / friends / become)",
+      "accept": [
+        "We became friends."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b04"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "(The nights / colder / get)",
+      "accept": [
+        "The nights got colder."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b05"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "(Mr. Martin / bald / go)",
+      "accept": [
+        "Mr. Martin went bald."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b06"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "(The river / red / turn)",
+      "accept": [
+        "The river turned red."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b07"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "(Jenny / taller / grow / every day)",
+      "accept": [
+        "Jenny grows taller every day."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b08"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "(The sky / clear / look)",
+      "accept": [
+        "The sky looks clear."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b09"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "(His voice / soft / sound)",
+      "accept": [
+        "His voice sounds soft."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b10"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "(Your room / fresh / smell)",
+      "accept": [
+        "Your room smells fresh."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b11"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "(The soup / salty / taste)",
+      "accept": [
+        "The soup tastes salty."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b12"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B13",
+      "type": "sentence",
+      "promptEn": "(I / thirsty / feel / during the race)",
+      "accept": [
+        "I felt thirsty during the race."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b13"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B14",
+      "type": "sentence",
+      "promptEn": "(He / an actor / look like)",
+      "accept": [
+        "He looks like an actor."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b14"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B15",
+      "type": "sentence",
+      "promptEn": "(That / guitars / sound like)",
+      "accept": [
+        "That sounds like guitars."
+      ],
+      "ocrNeedsCheck": true,
+      "id": "b15"
+    }
+  ]
+}

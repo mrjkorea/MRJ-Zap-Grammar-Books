@@ -1,0 +1,109 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 여러 가지 동사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u01:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue blanks (p. 27)",
+  "pages": "27",
+  "timerMinutes": 6,
+  "wordBank": [
+    "look",
+    "looks",
+    "sound",
+    "sounds",
+    "smell",
+    "smells",
+    "like",
+    "became"
+  ],
+  "introKo": "Check Up 4문항. Printed p.27 not in PDF 9–27 — from OCR - needs check.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요.",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요.",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (look / looks / sound / sounds / smell / smells / like / became) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[그림 1] 케이크를 보며\nWow! That cake _____ delicious!",
+      "blanks": 1,
+      "accept": [
+        "looks"
+      ],
+      "ocrNeedsCheck": true
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (look / looks / sound / sounds / smell / smells / like / became) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "[그림 2]\nA: How does the soup _____?\nB: It _____ good.",
+      "blanks": 2,
+      "accept": [
+        "smells|good"
+      ],
+      "ocrNeedsCheck": true
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (look / looks / sound / sounds / smell / smells / like / became) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "[그림 3]\nThat _____ _____ thunder.",
+      "blanks": 2,
+      "accept": [
+        "sounds|like"
+      ],
+      "ocrNeedsCheck": true
+    },
+    {
+      "id": "c04",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (look / looks / sound / sounds / smell / smells / like / became) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "[그림 4]\nHe _____ a doctor after college.",
+      "blanks": 1,
+      "accept": [
+        "became"
+      ],
+      "ocrNeedsCheck": true
+    }
+  ]
+}
