@@ -576,11 +576,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "18",
       "type": "fill",
-      "promptEn": "너는 그 개를 만지지 않는 것이 좋겠다.\n→ You ______ ______ touch the dog.",
-      "blanks": 2,
+      "promptEn": "너는 그 개를 만지지 않는 것이 좋겠다.\n→ You ______ ______ ______ the dog.",
+      "blanks": 3,
       "accept": [
-        "should|not",
-        "shouldn't"
+        "should|not|touch"
       ]
     },
     {
@@ -655,8 +654,7 @@
       "promptEn": "나를 도와주겠니?\n( help )\n______ ______ ______ me?",
       "blanks": 3,
       "accept": [
-        "Will|you|help",
-        "Would|you|help"
+        "Will|you|help"
       ]
     },
     {

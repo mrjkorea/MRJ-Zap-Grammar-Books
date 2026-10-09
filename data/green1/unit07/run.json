@@ -114,9 +114,9 @@
         "와도 된다"
       ],
       "accept": [
-        "와도 된다",
-        "②",
-        "2"
+        "오는 것이 좋겠다",
+        "①",
+        "1"
       ]
     },
     {
@@ -134,9 +134,9 @@
         "잊어버리지 않을 것이다"
       ],
       "accept": [
-        "잊어버리지 않을 것이다",
-        "②",
-        "2"
+        "잊어버리지 않는 것이 좋겠다",
+        "①",
+        "1"
       ]
     },
     {
@@ -208,15 +208,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A8",
       "type": "mc",
-      "promptEn": "Shall we ride a bike in the park?  (밑줄: Shall we ride)",
+      "promptEn": "Shall we ride a bike in the park?  (밑줄: Shall we)",
       "choices": [
         "우리 자전거를 탈까?",
         "우리 자전거를 타야 하니?"
       ],
       "accept": [
-        "우리 자전거를 타야 하니?",
-        "②",
-        "2"
+        "우리 자전거를 탈까?",
+        "①",
+        "1"
       ]
     },
     {
@@ -234,9 +234,9 @@
         "우리 먹을 수 있을까?"
       ],
       "accept": [
-        "우리 먹을 수 있을까?",
-        "②",
-        "2"
+        "우리 먹을까?",
+        "①",
+        "1"
       ]
     },
     {
@@ -254,9 +254,9 @@
         "농구를 할 수 있나요?"
       ],
       "accept": [
-        "농구를 할 수 있나요?",
-        "②",
-        "2"
+        "농구를 하시겠어요?",
+        "①",
+        "1"
       ]
     },
     {
@@ -274,9 +274,9 @@
         "썰매를 타러 가야 하나요?"
       ],
       "accept": [
-        "썰매를 타러 가야 하나요?",
-        "②",
-        "2"
+        "썰매를 타러 가시겠어요?",
+        "①",
+        "1"
       ]
     },
     {
@@ -357,10 +357,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "You ________ ________ ________ tease her. ( don't have to / had better not )",
-      "blanks": 3,
+      "promptEn": "You ________ ________ tease her. ( don't have to / had better not )",
+      "blanks": 2,
       "accept": [
-        "had|better|not"
+        "had better|not"
       ]
     },
     {
@@ -372,10 +372,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "You ________ lock the door. ( had better / should not )",
-      "blanks": 1,
+      "promptEn": "You ________ ________ lock the door. ( had better / should not )",
+      "blanks": 2,
       "accept": [
-        "had better"
+        "had|better"
       ]
     },
     {

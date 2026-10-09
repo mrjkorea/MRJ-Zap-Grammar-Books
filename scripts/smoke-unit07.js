@@ -78,8 +78,12 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
     }
     if (it.example && !it.displayOnly) fail(where, it.id, "example must be displayOnly");
     if (it.answerMode === "words") {
+      const koGloss = (s) => /[\u3131-\u318E\uAC00-\uD7A3]/.test(s) || /^~/.test(s.trim());
       for (const a of it.accept) {
-        if (/[?.!]$/.test(a.trim()) || a.split("|").some((p) => p.trim().split(/\s+/).length > 6)) {
+        if (
+          !koGloss(a) &&
+          (/[?.!]$/.test(a.trim()) || a.split("|").some((p) => p.trim().split(/\s+/).length > 6))
+        ) {
           fail(where, it.id, "words-mode accept looks like a sentence:", a);
         }
       }
