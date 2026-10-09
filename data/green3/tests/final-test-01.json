@@ -98,9 +98,9 @@
     {
       "id": "14-15",
       "title": "[14–15]",
-      "directionKo": "[14–15] 다음 한글 문장을 영어로 바르게 옮긴 것을 고르세요.",
+      "directionKo": "[14–15] 다음 우리말을 영어로 바르게 옮긴 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "instructionKo": "[14–15] 다음 한글 문장을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "instructionKo": "[14–15] 다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "itemCount": 2,
@@ -459,7 +459,7 @@
       "id": "q14",
       "section": "14-15",
       "sectionTitle": "[14–15]",
-      "sectionInstructionKo": "[14–15] 다음 한글 문장을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "sectionInstructionKo": "[14–15] 다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "14",
@@ -483,7 +483,7 @@
       "id": "q15",
       "section": "14-15",
       "sectionTitle": "[14–15]",
-      "sectionInstructionKo": "[14–15] 다음 한글 문장을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "sectionInstructionKo": "[14–15] 다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "15",
@@ -512,7 +512,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "16",
       "type": "fill",
-      "promptEn": "ⓐ anyone → ?   ⓑ someone → ?",
+      "promptEn": "A: There is anyone behind us. Can you see him?\nB: No, I can't. There isn't someone.",
       "blanks": 2,
       "accept": [
         "someone|anyone"
@@ -527,11 +527,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "17",
       "type": "fill",
-      "promptEn": "Mike and I ______ on the beach.",
-      "blanks": 1,
+      "promptEn": "Mike and I ______ ______ on the beach.",
+      "blanks": 2,
       "accept": [
-        "enjoyed ourselves",
-        "enjoyed ourselves."
+        "enjoyed|ourselves"
       ],
       "promptKo": "마이크와 나는 해변에서 즐거운 시간을 보냈다. ( enjoy )"
     },
@@ -544,10 +543,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "18",
       "type": "fill",
-      "promptEn": "John sat ______.",
-      "blanks": 1,
+      "promptEn": "John sat ______ ______ ______.",
+      "blanks": 3,
       "accept": [
-        "between his parents"
+        "between|his|parents"
       ],
       "promptKo": "존은 자기 부모님 사이에 앉았다. ( his parents )"
     },

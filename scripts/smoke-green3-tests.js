@@ -35,9 +35,20 @@ function respFor(it, acc) {
 let totalOk = 0;
 let totalGraded = 0;
 
+const CIRCLED = "①②③④⑤";
+
 for (const rel of FILES) {
   const data = JSON.parse(fs.readFileSync(path.join(REPO, rel), "utf8"));
   const gradedItems = data.items.filter((it) => !it.displayOnly);
+  const ids = data.items.map((it) => it.id);
+  if (new Set(ids).size !== ids.length) {
+    console.error("FAIL", rel, "duplicate item ids");
+    process.exitCode = 1;
+  }
+  if (gradedItems.length !== 20) {
+    console.error("FAIL", rel, "graded count", gradedItems.length, "expected 20");
+    process.exitCode = 1;
+  }
   const sectionLabels = new Set();
   for (const sec of data.sections || []) {
     for (const lb of sec.labels || []) sectionLabels.add(lb);
@@ -68,6 +79,18 @@ for (const rel of FILES) {
   for (const item of data.items) {
     if (item.displayOnly) continue;
     graded++;
+    if (item.type === "mc" && item.choices?.length) {
+      for (const acc of item.accept || []) {
+        let idx = -1;
+        if (/^\d$/.test(acc)) idx = Number(acc) - 1;
+        else if (CIRCLED.includes(acc)) idx = CIRCLED.indexOf(acc);
+        else idx = item.choices.indexOf(acc);
+        if (idx < 0 || idx >= item.choices.length) {
+          console.error("FAIL", rel, item.id, "mc accept out of range", acc);
+          process.exitCode = 1;
+        }
+      }
+    }
     for (const acc of item.accept || []) {
       const resp = respFor(item, acc);
       if (resp && !E.gradeItem(item, resp)) {

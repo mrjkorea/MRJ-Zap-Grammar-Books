@@ -200,10 +200,10 @@
         "talk to oneself - 혼잣말하다"
       ],
       "accept": [
-        "1",
-        "①"
+        "3",
+        "③"
       ],
-      "answer": "1"
+      "answer": "3"
     },
     {
       "id": "q02",
@@ -445,6 +445,7 @@
       "label": "12",
       "type": "mc",
       "promptEn": "There are two computers in my house. ______ is new, and ______ is old.",
+      "promptKo": "우리 집에는 컴퓨터가 두 대 있다. 하나는 새것이고, 나머지 하나는 오래된 것이다.",
       "choices": [
         "One – another",
         "One – the other",
@@ -468,6 +469,7 @@
       "label": "13",
       "type": "mc",
       "promptEn": "I ______ cooked the pasta for you. ______ yourself.",
+      "promptKo": "내가 직접 너를 위해 파스타를 요리했다. 마음껏 먹어라.",
       "choices": [
         "myself – Try",
         "myself – Help",
@@ -536,10 +538,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "16",
       "type": "fill",
-      "promptEn": "We have two pets. One is a cat, and ______ ______ ______ is a hamster.",
-      "blanks": 3,
+      "promptEn": "We have two pets. One is a cat, and ______ ______ is a hamster.",
+      "blanks": 2,
       "accept": [
-        "the|other|one"
+        "the|other"
       ],
       "promptKo": "우리는 애완동물이 두 마리 있다. 한 마리는 고양이고, 나머지 한 마리는 햄스터이다."
     },
