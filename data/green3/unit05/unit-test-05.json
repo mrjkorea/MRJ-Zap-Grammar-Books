@@ -496,8 +496,7 @@
         "2",
         "②"
       ],
-      "answer": "2",
-      "noteKo": "from OCR - needs check (p.114 image missing)"
+      "answer": "2"
     },
     {
       "id": "q15",
@@ -571,9 +570,9 @@
       "promptEn": "They has went to New York. They are still in New York.\n→ They _____ _____ to New York.",
       "blanks": 2,
       "accept": [
-        "have|gone"
-      ],
-      "noteKo": "from OCR - needs check (p.114 image missing)"
+        "have|gone",
+        "Have|gone"
+      ]
     },
     {
       "id": "q19",
@@ -587,9 +586,9 @@
       "promptEn": "He has broke his arm. He can't play tennis.\n→ He _____ _____ his arm.",
       "blanks": 2,
       "accept": [
-        "has|broken"
-      ],
-      "noteKo": "from OCR - needs check (p.114 image missing)"
+        "has|broken",
+        "Has|broken"
+      ]
     },
     {
       "id": "q20",
@@ -603,9 +602,9 @@
       "promptEn": "Amy didn't washed her car since last week. The car is dirty.\n→ Amy _____ _____ her car since last week.",
       "blanks": 2,
       "accept": [
-        "hasn't|washed"
-      ],
-      "noteKo": "from OCR - needs check (p.114 image missing)"
+        "hasn't|washed",
+        "has not|washed"
+      ]
     },
     {
       "id": "q21",
@@ -649,10 +648,10 @@
       "label": "23",
       "type": "fill",
       "promptKo": "나는 그를 어제부터 보지 못하고 있다.",
-      "promptEn": "나는 그를 어제부터 보지 못하고 있다. ( see )\n→ I _____ _____ him since yesterday.",
-      "blanks": 2,
+      "promptEn": "나는 그를 어제부터 보지 못하고 있다. ( see )\n→ I _____ _____ _____ him since yesterday.",
+      "blanks": 3,
       "accept": [
-        "haven't|seen"
+        "have|not|seen"
       ]
     },
     {

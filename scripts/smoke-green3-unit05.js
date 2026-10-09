@@ -13,8 +13,24 @@ for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
 const E = win.MRJ_ENGINE;
 let total = 0;
 let bad = 0;
+const metricIds = {};
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const pid = d.practiceId || f;
+  const seen = {};
+  for (const it of d.items || []) {
+    if (seen[it.id]) {
+      bad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    seen[it.id] = true;
+    const mid = pid + ":" + it.id;
+    if (metricIds[mid]) {
+      bad++;
+      console.log("DUP-METRIC", mid, f, metricIds[mid]);
+    }
+    metricIds[mid] = f;
+  }
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;
