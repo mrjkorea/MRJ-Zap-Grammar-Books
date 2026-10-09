@@ -26,7 +26,7 @@
     "have",
     "has"
   ],
-  "introKo": "이 연습은 Section A 15문항(고르기), Section B 12문항(빈칸 말만 쓰기)으로 되어 있어요. Section B는 보기 상자의 말을 사용할 수 있어요.",
+  "introKo": "이 연습은 Section A 15문항(고르기), Section B 12문항(빈칸 말만 쓰기)으로 되어 있어요. Section B는 보기 상자의 말을 사용할 수 있어요. 회색 '예시'는 채점하지 않아요.",
   "sections": [
     {
       "id": "A",
@@ -64,10 +64,9 @@
       "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 12,
-      "exampleCount": 0,
+      "itemCount": 11,
+      "exampleCount": 1,
       "labels": [
-        "B1",
         "B2",
         "B3",
         "B4",
@@ -433,26 +432,29 @@
       "section": "B",
       "label": "B1",
       "type": "fill",
-      "promptEn": "I _____ won the prize once.",
-      "blanks": 1,
+      "promptEn": "I _____ _____ the prize once.",
+      "blanks": 2,
       "accept": [
-        "have"
+        "have|won"
       ],
       "promptKo": "나는 그 상을 탄 적이 한 번 있다.",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 현재 완료 시제 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만"
+      "answerModeTag": "Words only · 빈칸 말만",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "have / won"
     },
     {
       "id": "b02",
       "section": "B",
       "label": "B2",
       "type": "fill",
-      "promptEn": "He _____ seen a shooting star three times.",
-      "blanks": 1,
+      "promptEn": "He _____ _____ a shooting star three times.",
+      "blanks": 2,
       "accept": [
-        "has"
+        "has|seen"
       ],
       "promptKo": "그는 별똥별을 본 적이 세 번 있다.",
       "sectionTitle": "Section B",
@@ -465,10 +467,10 @@
       "section": "B",
       "label": "B3",
       "type": "fill",
-      "promptEn": "You _____ told me the story before.",
-      "blanks": 1,
+      "promptEn": "You _____ _____ me the story before.",
+      "blanks": 2,
       "accept": [
-        "have"
+        "have|told"
       ],
       "promptKo": "너는 전에 내게 그 이야기를 말한 적이 있다.",
       "sectionTitle": "Section B",
@@ -481,10 +483,10 @@
       "section": "B",
       "label": "B4",
       "type": "fill",
-      "promptEn": "She _____ ridden a roller coaster several times.",
-      "blanks": 1,
+      "promptEn": "She _____ _____ a roller coaster several times.",
+      "blanks": 2,
       "accept": [
-        "has"
+        "has|ridden"
       ],
       "promptKo": "그녀는 롤러코스터를 타 본 적이 몇 번 있다.",
       "sectionTitle": "Section B",
@@ -497,10 +499,10 @@
       "section": "B",
       "label": "B5",
       "type": "fill",
-      "promptEn": "They _____ been to the city twice.",
-      "blanks": 1,
+      "promptEn": "They _____ _____ to the city twice.",
+      "blanks": 2,
       "accept": [
-        "have"
+        "have|been"
       ],
       "promptKo": "그들은 그 도시에 가 본 적이 두 번 있다.",
       "sectionTitle": "Section B",
@@ -513,10 +515,10 @@
       "section": "B",
       "label": "B6",
       "type": "fill",
-      "promptEn": "We _____ eaten the cheesecake already.",
-      "blanks": 1,
+      "promptEn": "We _____ _____ the cheesecake already.",
+      "blanks": 2,
       "accept": [
-        "have"
+        "have|eaten"
       ],
       "promptKo": "우리는 이미 그 치즈 케이크를 먹었다.",
       "sectionTitle": "Section B",
@@ -529,10 +531,10 @@
       "section": "B",
       "label": "B7",
       "type": "fill",
-      "promptEn": "The show _____ begun already.",
-      "blanks": 1,
+      "promptEn": "The show _____ _____ already.",
+      "blanks": 2,
       "accept": [
-        "has"
+        "has|begun"
       ],
       "promptKo": "그 쇼는 이미 시작했다.",
       "sectionTitle": "Section B",
@@ -545,10 +547,10 @@
       "section": "B",
       "label": "B8",
       "type": "fill",
-      "promptEn": "Chad _____ just brushed his hair.",
-      "blanks": 1,
+      "promptEn": "Chad _____ just _____ his hair.",
+      "blanks": 2,
       "accept": [
-        "has"
+        "has|brushed"
       ],
       "promptKo": "채드는 방금 자기 머리를 빗었다.",
       "sectionTitle": "Section B",
@@ -561,10 +563,10 @@
       "section": "B",
       "label": "B9",
       "type": "fill",
-      "promptEn": "Lisa and Greg _____ just met.",
-      "blanks": 1,
+      "promptEn": "Lisa and Greg _____ just _____.",
+      "blanks": 2,
       "accept": [
-        "have"
+        "have|met"
       ],
       "promptKo": "리사와 그레그는 방금 만났다.",
       "sectionTitle": "Section B",
@@ -577,10 +579,10 @@
       "section": "B",
       "label": "B10",
       "type": "fill",
-      "promptEn": "My sister _____ already swept the floor.",
-      "blanks": 1,
+      "promptEn": "My sister _____ already _____ the floor.",
+      "blanks": 2,
       "accept": [
-        "has"
+        "has|swept"
       ],
       "promptKo": "내 여동생은 이미 바닥을 쓸었다.",
       "sectionTitle": "Section B",
@@ -593,10 +595,10 @@
       "section": "B",
       "label": "B11",
       "type": "fill",
-      "promptEn": "The birds _____ already flown south.",
-      "blanks": 1,
+      "promptEn": "The birds _____ already _____ south.",
+      "blanks": 2,
       "accept": [
-        "have"
+        "have|flown"
       ],
       "promptKo": "그 새들은 이미 남쪽으로 날아갔다.",
       "sectionTitle": "Section B",
@@ -609,10 +611,10 @@
       "section": "B",
       "label": "B12",
       "type": "fill",
-      "promptEn": "Betty _____ just bought a new hair pin.",
-      "blanks": 1,
+      "promptEn": "Betty _____ just _____ a new hairpin.",
+      "blanks": 2,
       "accept": [
-        "has"
+        "has|bought"
       ],
       "promptKo": "베티는 방금 새 머리핀을 샀다.",
       "sectionTitle": "Section B",

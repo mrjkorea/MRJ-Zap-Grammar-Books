@@ -14,7 +14,7 @@
   "passPct": 80,
   "retryBelowPct": 50,
   "showAnswersToStudent": false,
-  "introKo": "Unit Test 04 — [1–2]부터 [21–25]까지 25문항. [16–17]은 원본 p.90 이미지 없음(OCR 미복원)으로 유사 유형으로 넣었습니다.",
+  "introKo": "Unit Test 04 — [1–2]부터 [21–25]까지 25문항입니다.",
   "sections": [
     {
       "id": "1-2",
@@ -453,17 +453,17 @@
       "promptEn": "우리는 그 강아지에게 방금 먹이를 주었다.",
       "choices": [
         "We feed the dog.",
-        "We have fed the dog before.",
-        "We haven't fed the dog yet.",
         "We don't feed the dog.",
-        "We have just fed the dog."
+        "We have fed the dog before.",
+        "We have just fed the dog.",
+        "We haven't fed the dog yet."
       ],
       "accept": [
-        "5",
-        "⑤",
+        "4",
+        "④",
         "We have just fed the dog."
       ],
-      "answer": "5",
+      "answer": "4",
       "sectionTitle": "[11–12]",
       "sectionInstructionKo": "다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
@@ -546,15 +546,15 @@
       "section": "16-17",
       "label": "16",
       "type": "mc",
-      "promptEn": "A: Have you finished your homework yet?\nB: No, I ( haven't / don't ).",
+      "promptEn": "A: ( Have / Do ) you ever visited Canada?\nB: Yes, I have.",
       "choices": [
-        "haven't",
-        "don't"
+        "Have",
+        "Do"
       ],
       "accept": [
         "1",
         "①",
-        "haven't"
+        "Have"
       ],
       "answer": "1",
       "sectionTitle": "[16–17]",
@@ -567,15 +567,15 @@
       "section": "16-17",
       "label": "17",
       "type": "mc",
-      "promptEn": "A: Has she left for the airport already?\nB: Yes, she ( has / does ).",
+      "promptEn": "A: ( Has / Have ) she washed the dishes yet?\nB: No, she hasn't.",
       "choices": [
-        "has",
-        "does"
+        "Has",
+        "Have"
       ],
       "accept": [
         "1",
         "①",
-        "has"
+        "Has"
       ],
       "answer": "1",
       "sectionTitle": "[16–17]",

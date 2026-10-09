@@ -44,10 +44,9 @@
       "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 12,
+      "itemCount": 11,
       "exampleCount": 1,
       "labels": [
-        "B1",
         "B2",
         "B3",
         "B4",
@@ -255,32 +254,32 @@
       "section": "B",
       "label": "B1",
       "type": "fill",
-      "promptEn": "A: Have you ever been to Canada?\nB: Yes, _____.",
-      "blanks": 1,
+      "promptEn": "A: Have you ever been to Canada?\nB: Yes, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "I have"
+        "I|have"
       ],
-      "promptKo": "응, 있어.",
-      "example": true,
-      "displayOnly": true,
-      "exampleAnswer": "I have",
+      "promptKo": "너는 캐나다에 가 본 적이 있니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만"
+      "answerModeTag": "Words only · 빈칸 말만",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I / have"
     },
     {
       "id": "b02",
       "section": "B",
       "label": "B2",
       "type": "fill",
-      "promptEn": "A: Have you ever eaten octopus?\nB: No, _____.",
-      "blanks": 1,
+      "promptEn": "A: Have you ever eaten octopus?\nB: No, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "I haven't",
-        "I haven’t"
+        "I|haven't",
+        "I|haven’t"
       ],
-      "promptKo": "아니, 없어.",
+      "promptKo": "너는 문어를 먹어 본 적이 있니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -291,12 +290,12 @@
       "section": "B",
       "label": "B3",
       "type": "fill",
-      "promptEn": "A: Has she ever volunteered at the library?\nB: Yes, _____.",
-      "blanks": 1,
+      "promptEn": "A: Has she ever volunteered at the library?\nB: Yes, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "she has"
+        "she|has"
       ],
-      "promptKo": "응, 있어.",
+      "promptKo": "그녀는 도서관에서 자원봉사를 해 본 적이 있니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -307,13 +306,13 @@
       "section": "B",
       "label": "B4",
       "type": "fill",
-      "promptEn": "A: Has he ever baked a cake?\nB: No, _____.",
-      "blanks": 1,
+      "promptEn": "A: Has he ever baked a cake?\nB: No, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "he hasn't",
-        "he hasn’t"
+        "he|hasn't",
+        "he|hasn’t"
       ],
-      "promptKo": "아니, 없어.",
+      "promptKo": "그는 케이크를 구워 본 적이 있니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -324,13 +323,13 @@
       "section": "B",
       "label": "B5",
       "type": "fill",
-      "promptEn": "A: Have you and your friend ever climbed Mt. Everest?\nB: No, _____.",
-      "blanks": 1,
+      "promptEn": "A: Have you and your friend ever climbed Mt. Everest?\nB: No, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "we haven't",
-        "we haven’t"
+        "we|haven't",
+        "we|haven’t"
       ],
-      "promptKo": "아니, 없어.",
+      "promptKo": "너와 네 친구는 에베레스트 산에 올라간 적이 있니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -341,12 +340,12 @@
       "section": "B",
       "label": "B6",
       "type": "fill",
-      "promptEn": "A: Have your parents ever run a marathon?\nB: Yes, _____.",
-      "blanks": 1,
+      "promptEn": "A: Have your parents ever run a marathon?\nB: Yes, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "they have"
+        "they|have"
       ],
-      "promptKo": "응, 있으셔.",
+      "promptKo": "너희 부모님은 마라톤을 뛰어 보신 적이 있니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -357,12 +356,12 @@
       "section": "B",
       "label": "B7",
       "type": "fill",
-      "promptEn": "A: Have they bought my present already?\nB: Yes, _____.",
-      "blanks": 1,
+      "promptEn": "A: Have they bought my present already?\nB: Yes, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "they have"
+        "they|have"
       ],
-      "promptKo": "응, 그랬어.",
+      "promptKo": "그들은 벌써 내 선물을 샀니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -373,12 +372,12 @@
       "section": "B",
       "label": "B8",
       "type": "fill",
-      "promptEn": "A: Has the class started yet?\nB: Yes, _____.",
-      "blanks": 1,
+      "promptEn": "A: Has the class started yet?\nB: Yes, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "it has"
+        "it|has"
       ],
-      "promptKo": "응, 그랬어.",
+      "promptKo": "수업이 이미 시작했니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -389,13 +388,13 @@
       "section": "B",
       "label": "B9",
       "type": "fill",
-      "promptEn": "A: Have the kids had lunch yet?\nB: No, _____.",
-      "blanks": 1,
+      "promptEn": "A: Have the kids had lunch yet?\nB: No, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "they haven't",
-        "they haven’t"
+        "they|haven't",
+        "they|haven’t"
       ],
-      "promptKo": "아니, 안 그랬어.",
+      "promptKo": "그 아이들은 이미 점심 식사를 했니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -406,13 +405,13 @@
       "section": "B",
       "label": "B10",
       "type": "fill",
-      "promptEn": "A: Have the boys taken a bath already?\nB: No, _____.",
-      "blanks": 1,
+      "promptEn": "A: Have the boys taken a bath already?\nB: No, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "they haven't",
-        "they haven’t"
+        "they|haven't",
+        "they|haven’t"
       ],
-      "promptKo": "아니, 안 그랬어.",
+      "promptKo": "그 남자아이들은 벌써 목욕을 했니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -423,12 +422,12 @@
       "section": "B",
       "label": "B11",
       "type": "fill",
-      "promptEn": "A: Has Mike passed the exam already?\nB: Yes, _____.",
-      "blanks": 1,
+      "promptEn": "A: Has Mike passed the exam already?\nB: Yes, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "he has"
+        "he|has"
       ],
-      "promptKo": "응, 그랬어.",
+      "promptKo": "마이크는 벌써 시험에 통과했니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
@@ -439,13 +438,13 @@
       "section": "B",
       "label": "B12",
       "type": "fill",
-      "promptEn": "A: Has your mom met your teacher already?\nB: No, _____.",
-      "blanks": 1,
+      "promptEn": "A: Has your mom met your teacher already?\nB: No, _____ _____.",
+      "blanks": 2,
       "accept": [
-        "she hasn't",
-        "she hasn’t"
+        "she|hasn't",
+        "she|hasn’t"
       ],
-      "promptKo": "아니, 안 그러셨어.",
+      "promptKo": "너희 엄마는 벌써 너희 선생님을 만나셨니?",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
