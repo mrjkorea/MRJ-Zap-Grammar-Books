@@ -13,8 +13,25 @@ for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
 const E = win.MRJ_ENGINE;
 let total = 0;
 let bad = 0;
+const EXPECT_GRADED = {
+  "walk1.json": 29,
+  "walk2.json": 29,
+  "run.json": 23,
+  "jump.json": 25,
+  "fly.json": 22,
+  "writing.json": 9,
+  "unit-test-02.json": 25,
+  "wrap.json": 8,
+  "checkup.json": 4,
+};
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const graded = d.items.filter((it) => !it.displayOnly).length;
+  const exp = EXPECT_GRADED[f];
+  if (exp != null && graded !== exp) {
+    bad++;
+    console.log("COUNT-FAIL", f, "graded", graded, "expected", exp);
+  }
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;
