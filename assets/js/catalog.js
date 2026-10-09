@@ -29,7 +29,7 @@
     ],
     "zap-green-3": [
       { id: "unit-01", title: "Unit 01 — 의문사 있는 의문문 (1)", enabled: true },
-      { id: "unit-02", title: "Unit 02", enabled: false },
+      { id: "unit-02", title: "Unit 02 — 의문사 있는 의문문 (2)", enabled: true },
     ],
   };
 
@@ -665,6 +665,71 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green3/unit01/checkup.json",
         practiceId: "g3:u01:checkup",
+      },
+    ],
+    "zap-green-3:unit-02": [
+      {
+        slug: "walk1",
+        title: "Grammar Walk — Lesson 01",
+        hint: "what/which/whose + noun · p. 31",
+        data: "data/green3/unit02/walk1.json",
+        practiceId: "g3:u02:walk1",
+      },
+      {
+        slug: "walk2",
+        title: "Grammar Walk — Lesson 02",
+        hint: "how + adj/adv, how many/much · p. 33",
+        data: "data/green3/unit02/walk2.json",
+        practiceId: "g3:u02:walk2",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "pp. 34–35",
+        data: "data/green3/unit02/run.json",
+        practiceId: "g3:u02:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "pp. 36–37",
+        data: "data/green3/unit02/jump.json",
+        practiceId: "g3:u02:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "pp. 38–39",
+        data: "data/green3/unit02/fly.json",
+        practiceId: "g3:u02:fly",
+      },
+      {
+        slug: "writing",
+        title: "Grammar & Writing",
+        hint: "pp. 40–41",
+        data: "data/green3/unit02/writing.json",
+        practiceId: "g3:u02:writing",
+      },
+      {
+        slug: "quiz",
+        title: "Unit Test 02",
+        hint: "pp. 42–46",
+        data: "data/green3/unit02/unit-test-02.json",
+        practiceId: "g3:u02:quiz",
+      },
+      {
+        slug: "wrap",
+        title: "Wrap Up",
+        hint: "Unit summary fill-ins · p. 48",
+        data: "data/green3/unit02/wrap.json",
+        practiceId: "g3:u02:wrap",
+      },
+      {
+        slug: "checkup",
+        title: "Check Up",
+        hint: "Comic dialogue · p. 48",
+        data: "data/green3/unit02/checkup.json",
+        practiceId: "g3:u02:checkup",
       },
     ],
   };
