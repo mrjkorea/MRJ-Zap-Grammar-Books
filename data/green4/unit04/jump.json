@@ -20,7 +20,7 @@
     "ride"
   ],
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 12문항(빈칸 말만 쓰기), Section B 13문항(골라서 그 단어만 쓰기)으로 되어 있어요. (p.81 Section B 예시, p.82 word bank는 OCR 기준)",
+  "introKo": "이 연습은 Section A 1예시 + 11문항(우리말 빈칸), Section B 1예시 + 12문항(골라서 그 단어만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
@@ -30,10 +30,9 @@
       "ruleKo": "빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 12,
-      "exampleCount": 0,
+      "itemCount": 11,
+      "exampleCount": 1,
       "labels": [
-        "A1",
         "A2",
         "A3",
         "A4",
@@ -55,10 +54,9 @@
       "ruleKo": "(knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
-      "itemCount": 13,
+      "itemCount": 12,
       "exampleCount": 1,
       "labels": [
-        "B1",
         "B2",
         "B3",
         "B4",
@@ -87,10 +85,12 @@
       "promptEn": "My dad let me invite my friends.",
       "blanks": 1,
       "accept": [
-        "내 친구들을 초대하게 해 주셨다",
         "내 친구들을 초대하게 해 주셨다"
       ],
-      "promptKo": "우리 아빠는 내가 _____ 내 친구들을 초대하게 해 주셨다."
+      "promptKo": "우리 아빠는 내가 _____.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "내 친구들을 초대하게 해 주셨다"
     },
     {
       "section": "A",
@@ -104,7 +104,8 @@
       "promptEn": "Bill sometimes lets his sister play with his ball.",
       "blanks": 1,
       "accept": [
-        "자기 여동생이 자기 공을 가지고 놀게 해 준다",
+        "자기 공을 가지고 놀게 해 준다",
+        "자기 공을 가지고 놀게 해준다",
         "자기 여동생이 자기 공을 가지고 놀게 해 준다"
       ],
       "promptKo": "빌은 가끔 자기 여동생이 _____."
@@ -122,7 +123,8 @@
       "blanks": 1,
       "accept": [
         "아침 식사를 하게 만든다",
-        "아침 식사를 하게 만든다"
+        "아침을 먹게 만든다",
+        "아침 식사를 하게 만드신다"
       ],
       "promptKo": "댄의 어머니는 그가 _____."
     },
@@ -139,7 +141,7 @@
       "blanks": 1,
       "accept": [
         "노란 모자를 쓰게 만들었다",
-        "노란 모자를 쓰게 만들었다"
+        "노란색 모자를 쓰게 만들었다"
       ],
       "promptKo": "그는 우리가 _____."
     },
@@ -156,7 +158,7 @@
       "blanks": 1,
       "accept": [
         "개를 산책시키게 한다",
-        "개를 산책시키게 한다"
+        "개를 데리고 산책하게 한다"
       ],
       "promptKo": "다이애나의 아버지는 그녀가 _____."
     },
@@ -173,7 +175,7 @@
       "blanks": 1,
       "accept": [
         "그녀의 차를 고치게 했다",
-        "그녀의 차를 고치게 했다"
+        "차를 고치게 했다"
       ],
       "promptKo": "우즈 씨는 그가 _____."
     },
@@ -190,7 +192,7 @@
       "blanks": 1,
       "accept": [
         "고양이에게 먹이를 주는 것을 보았다",
-        "고양이에게 먹이를 주는 것을 보았다"
+        "고양이에게 밥을 주는 것을 보았다"
       ],
       "promptKo": "나는 네가 _____."
     },
@@ -207,7 +209,7 @@
       "blanks": 1,
       "accept": [
         "농구하는 것을 보았다",
-        "농구하는 것을 보았다"
+        "농구를 하는 것을 보았다"
       ],
       "promptKo": "그녀는 그들이 _____."
     },
@@ -224,7 +226,7 @@
       "blanks": 1,
       "accept": [
         "위층으로 달려가는 것을 지켜보았다",
-        "위층으로 달려가는 것을 지켜보았다"
+        "위층으로 뛰어가는 것을 지켜보았다"
       ],
       "promptKo": "우리는 개 한 마리가 _____."
     },
@@ -241,7 +243,7 @@
       "blanks": 1,
       "accept": [
         "큰 소리로 웃는 것을 들었다",
-        "큰 소리로 웃는 것을 들었다"
+        "크게 웃는 것을 들었다"
       ],
       "promptKo": "우리는 한 남자아이가 _____."
     },
@@ -258,9 +260,9 @@
       "blanks": 1,
       "accept": [
         "그에게 말하는 것을 들었다",
-        "그에게 말하는 것을 들었다"
+        "그와 이야기하는 것을 들었다"
       ],
-      "promptKo": "내 여동생은 네가 그에게 말하는 것을 _____."
+      "promptKo": "내 여동생은 네가 _____."
     },
     {
       "section": "A",
@@ -275,7 +277,7 @@
       "blanks": 1,
       "accept": [
         "흔들리는 것을 느꼈다",
-        "흔들리는 것을 느꼈다"
+        "떨리는 것을 느꼈다"
       ],
       "promptKo": "나는 유리잔이 _____."
     },
@@ -323,10 +325,10 @@
       "label": "B3",
       "id": "b03",
       "type": "fill",
-      "promptEn": "Ron's mother makes him _____ early.",
-      "blanks": 1,
+      "promptEn": "Ron's mother makes him _____ _____ early.",
+      "blanks": 2,
       "accept": [
-        "get up"
+        "get|up"
       ],
       "promptKo": "론의 어머니는 그가 일찍 일어나게 만드신다."
     },

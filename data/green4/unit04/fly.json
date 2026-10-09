@@ -5,7 +5,7 @@
   "pages": "82–83",
   "timerMinutes": 28,
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 15문항(빈칸 말만 쓰기), Section B 15문항(문장 전체 쓰기)으로 되어 있어요. (p.83–84 Section B는 OCR 기준)",
+  "introKo": "이 연습은 Section A 1예시 + 14문항(빈칸 말만), Section B 1예시 + 14문항(문장 전체)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
@@ -42,10 +42,9 @@
       "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
-      "itemCount": 15,
-      "exampleCount": 0,
+      "itemCount": 14,
+      "exampleCount": 1,
       "labels": [
-        "B1",
         "B2",
         "B3",
         "B4",
@@ -96,7 +95,8 @@
       "blanks": 2,
       "accept": [
         "let|go"
-      ]
+      ],
+      "promptKo": "우리 어머니는 내가 수의 집에 가게 해 주셨다."
     },
     {
       "section": "A",
@@ -110,8 +110,9 @@
       "promptEn": "The rain _____ Chris _____ at home. ( stay, make )",
       "blanks": 2,
       "accept": [
-        "make|stay"
-      ]
+        "makes|stay"
+      ],
+      "promptKo": "비는 크리스가 집에 머무르게 만들었다."
     },
     {
       "section": "A",
@@ -126,7 +127,8 @@
       "blanks": 2,
       "accept": [
         "make|cry"
-      ]
+      ],
+      "promptKo": "슬픈 영화는 항상 그녀를 울게 만든다."
     },
     {
       "section": "A",
@@ -140,8 +142,9 @@
       "promptEn": "Bob _____ his sister _____ his room. ( clean, make )",
       "blanks": 2,
       "accept": [
-        "make|clean"
-      ]
+        "makes|clean"
+      ],
+      "promptKo": "밥은 자기 여동생이 그의 방을 청소하게 만들었다."
     },
     {
       "section": "A",
@@ -302,11 +305,13 @@
       "label": "B1",
       "id": "b01",
       "type": "sentence",
-      "promptEn": "( let / jump / us / on / the / sofa / My / aunt / . )",
+      "promptEn": "My aunt _____ on the sofa.\n( let / jump / us )\n우리 이모는 우리가 소파에서 뛰게 해 주셨다.",
       "accept": [
-        "My aunt let us jump on the sofa.",
         "My aunt let us jump on the sofa."
-      ]
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "My aunt let us jump on the sofa."
     },
     {
       "section": "B",

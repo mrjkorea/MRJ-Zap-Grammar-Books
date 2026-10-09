@@ -13,8 +13,45 @@ for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
 const E = win.MRJ_ENGINE;
 let total = 0;
 let bad = 0;
+const metricIds = {};
+
+function gradedItems(d) {
+  return (d.items || []).filter((it) => !it.displayOnly);
+}
+
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const pid = d.practiceId || f;
+  const seen = {};
+  for (const it of d.items || []) {
+    if (!it.id) {
+      bad++;
+      console.log("MISSING-ID", f);
+      continue;
+    }
+    if (seen[it.id]) {
+      bad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    seen[it.id] = true;
+    const mid = E.itemMetricId(pid, it.id);
+    if (metricIds[mid]) {
+      bad++;
+      console.log("DUP-METRIC", mid, f, "and", metricIds[mid]);
+    } else metricIds[mid] = f;
+  }
+  for (const sec of d.sections || []) {
+    const labels = sec.labels || [];
+    const graded = gradedItems(d).filter((it) => it.section === sec.id);
+    if (labels.length && labels.length !== graded.length) {
+      bad++;
+      console.log("SECTION-COUNT", f, sec.id, "labels", labels.length, "graded", graded.length);
+    }
+    if (sec.itemCount != null && sec.itemCount !== graded.length) {
+      bad++;
+      console.log("SECTION-ITEMCOUNT", f, sec.id, "expected", sec.itemCount, "graded", graded.length);
+    }
+  }
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;
@@ -59,7 +96,7 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       }
     }
   }
-  console.log(f.padEnd(22), (d.practiceId || "").padEnd(18), "items", d.items.length, "ok", ok, "timer", d.timerMinutes);
+  console.log(f.padEnd(22), (d.practiceId || "").padEnd(18), "graded", gradedItems(d).length, "ok", ok, "timer", d.timerMinutes);
 }
 console.log(bad ? "FAILURES: " + bad : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)");
 process.exit(bad ? 1 : 0);
