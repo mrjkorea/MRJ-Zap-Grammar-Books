@@ -247,7 +247,7 @@ G.append((S("18-19", "[18–19]", "다음 문장을 지시대로 바꿀 때 빈�
 G.append((S("20", "[20]", "다음 밑줄 친 부분을 바르게 고쳐서 문장을 완성하세요.", R_WORD1, "words"),
           [FILL("20", "Jordan isn't playing the piano yesterday.\n→ Jordan ______ playing the piano yesterday.", ["wasn't", "was not"])]))
 G.append((S("21-23", "[21–23]", "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요.", R_WORDN + " (빈칸 수만큼만 쓰세요.)", "words"),
-          [FILL("21", "The baby ______ ______ ______ now.", ["isn't|crying", "is|not|crying"], ko="그 아기는 지금 울고 있지 않다. ( cry )"),
+          [FILL("21", "The baby ______ ______ ______ now.", ["isn't|crying", "is|not|crying", "is not|crying"], ko="그 아기는 지금 울고 있지 않다. ( cry )", blanks=3),
            FILL("22", "______ ______ ______ pictures?", ["Are|you|taking"], ko="너는 사진을 찍고 있니? ( take )"),
            FILL("23", "______ ______ ______ ______ a text message to me?", ["Was|Julie|sending"], ko="줄리는 내게 문자 메시지를 보내고 있었니? ( Julie, send )")]))
 G.append((S("24-25", "[24–25]", "주어진 말을 바르게 배열하여 문장을 쓰세요.", R_SENT, "sentence"),
@@ -270,12 +270,13 @@ W2 = [
 ]
 F["wrap.json"] = finish(meta(U, "wrap", "Wrap Up", "Unit summary fill-ins (p. 91)", "91", UT, timer=10), [(s1, W1), (s2, W2)], lambda sid, n: f"w{sid}_{n}")
 
-sc = S("CU", "Check Up", "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (were / playing / was / Are)", R_BANK, "choice")
+sc = S("CU", "Check Up", "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (were / playing / was)", R_BANK, "choice")
 C = [
-    FILL("1", "Are you ______ with Snowie?\nNo, I'm not. I ______ watching two birds in the tree.", ["playing|was"]),
-    FILL("2", "______ the birds singing?\nYes, they were.", ["Were"]),
+    FILL("1", "[그림 1]\nGirl: Are you ______ with Snowie?\nBoy: No, I'm not.", ["playing"]),
+    FILL("2", "[그림 2]\nGirl: I ______ watching two birds in the tree.", ["was"]),
+    FILL("3", "[그림 3]\nGirl: ______ the birds singing?\nBoy: Yes, they were.", ["Were"]),
 ]
-F["checkup.json"] = finish(meta(U, "checkup", "Check Up", "Comic dialogue (p. 91)", "91", UT, timer=8, wordBank=["were", "playing", "was", "Are"]),
+F["checkup.json"] = finish(meta(U, "checkup", "Check Up", "Comic dialogue (p. 91)", "91", UT, timer=8, wordBank=["were", "playing", "was"]),
                            [(sc, C)], lambda sid, n: f"c{n:02d}")
 
 if __name__ == "__main__":

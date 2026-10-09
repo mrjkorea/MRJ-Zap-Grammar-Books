@@ -118,27 +118,20 @@ ja = [
 A = [FILL(f"A{n}", f"{s}\n→ {t}", [a], blanks=len(a.split("|")), ex=ex) for n, (s, t, a, ex) in enumerate(ja, 1)]
 
 jb = [
-    ("You will give me some juice.", "Will you give me some juice?", "Will|you|give", True),
-    ("They will arrive at the airport on time.", "______ ______ ______ at the airport on time?", "Will|they|arrive"),
-    ("Our soccer team will win the game.", "______ ______ ______ ______ ______ the game?", "Will|our|soccer|team|win"),
-    ("Mark will visit the museum this weekend.", "______ ______ ______ ______ the museum this weekend?", "Will|Mark|visit|the"),
-    ("She will be fourteen years old next year.", "______ ______ ______ ______ fourteen years old next year?", "Will|she|be"),
-    ("You will keep the rules.", "______ ______ ______ the rules?", "Will|you|keep"),
-    ("They are going to buy a tent for camping.", "______ ______ ______ ______ ______ a tent for camping?", "Are|they|going|to|buy"),
-    ("Bora is going to bring a camera.", "______ ______ ______ ______ ______ a camera?", "Is|Bora|going|to|bring"),
-    ("He is going to fix the roof.", "______ ______ ______ ______ ______ the roof?", "Is|he|going|to|fix"),
-    ("You are going to play golf today.", "______ ______ ______ ______ ______ golf today?", "Are|you|going|to|play"),
-    ("Dad is going to cook dinner.", "______ ______ ______ ______ ______ dinner?", "Is|Dad|going|to|cook"),
-    ("We are going to go on a picnic.", "______ ______ ______ ______ ______ on a picnic?", "Are|we|going|to|go"),
+    ("You will give me some juice.", "______ ______ ______ me some juice?", "Will|you|give", True),
+    ("They will arrive at the airport on time.", "______ ______ ______ at the airport on time?", "Will|they|arrive", False),
+    ("Our soccer team will win the game.", "______ ______ ______ ______ ______ the game?", "Will|our|soccer|team|win", False),
+    ("Mark will visit the museum this weekend.", "______ ______ ______ ______ the museum this weekend?", "Will|Mark|visit|the", False),
+    ("She will be fourteen years old next year.", "______ ______ ______ fourteen years old next year?", "Will|she|be", False),
+    ("You will keep the rules.", "______ ______ ______ the rules?", "Will|you|keep", False),
+    ("They are going to buy a tent for camping.", "______ ______ ______ ______ ______ a tent for camping?", "Are|they|going|to|buy", True),
+    ("Bora is going to bring a camera.", "______ ______ ______ ______ ______ a camera?", "Is|Bora|going|to|bring", False),
+    ("He is going to fix the roof.", "______ ______ ______ ______ ______ the roof?", "Is|he|going|to|fix", False),
+    ("You are going to play golf today.", "______ ______ ______ ______ ______ golf today?", "Are|you|going|to|play", False),
+    ("Dad is going to cook dinner.", "______ ______ ______ ______ ______ dinner?", "Is|Dad|going|to|cook", False),
+    ("We are going to go on a picnic.", "______ ______ ______ ______ ______ ______ on a picnic?", "Are|we|going|to|go", False),
 ]
-B = []
-for n, row in enumerate(jb, 1):
-    if len(row) == 4:
-        s, t, a, ex = row
-        B.append(FILL(f"B{n}", f"{s}\n→ {t}", [a], blanks=len(a.split("|")), ex=ex))
-    else:
-        s, t, a = row
-        B.append(FILL(f"B{n}", f"{s}\n→ {t}", [a], blanks=len(a.split("|"))))
+B = [FILL(f"B{n}", f"{s}\n→ {t}", [a], blanks=len(a.split("|")), ex=ex) for n, (s, t, a, ex) in enumerate(jb, 1)]
 F["jump.json"] = finish(meta(U, "jump", "Grammar Jump", "Negatives & questions (pp. 60–61)", "60–61", UT),
                         [(secA, A), (secB, B)], letter_id, timer=24)
 
@@ -261,13 +254,13 @@ G.append((S("18-19", "[18–19]", "다음 문장의 밑줄 친 부분을 바르�
           [FILL("18", "Randy won't watches the soccer game on TV.\n→ Randy won't ______ the soccer game on TV.", ["watch"]),
            FILL("19", "It's going not to snows this Christmas.\n→ It's ______ ______ ______ ______ this Christmas.", ["not|going|to|snow"])]))
 G.append((S("20-21", "[20–21]", "다음 대화의 빈칸에 알맞은 말을 쓰세요.", R_WORDN + " (빈칸 수만큼만 쓰세요.)", "words"),
-          [FILL("20", "A: Will you go to the concert this evening?\nB: No, ______ ______.", ["I|won't", "I|will|not"]),
-           FILL("21", "A: Are you and Mina going to join the reading club?\nB: Yes, ______ ______ ______.", ["we|are", "Yes|we|are"])]))
+          [FILL("20", "A: Will you go to the concert this evening?\nB: No, ______ ______.", ["I|won't", "I|will|not"], blanks=2),
+           FILL("21", "A: Are you and Mina going to join the reading club?\nB: Yes, ______ ______ ______.", ["we|are"], blanks=3)]))
 G.append((S("22-25", "[22–25]", "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요.", R_WORDN + " (빈칸 수만큼만 쓰세요.)", "words"),
-          [FILL("22", "I ______ ______ a diary.", ["will|keep"], ko="나는 일기를 쓸 것이다. ( keep )"),
-           FILL("23", "We ______ ______ ______ ______ late for the concert.", ["won't|be", "will|not|be"], ko="우리는 연주회에 늦지 않을 것이다. ( be )"),
-           FILL("24", "______ ______ ______ ______ this to your brother?", ["Will|you|give"], ko="너는 이것을 네 남동생에게 줄 거니? ( give )"),
-           FILL("25", "______ ______ ______ ______ me the story?", ["Will|he|tell"], ko="그는 내게 그 이야기를 해 줄까? ( tell )")]))
+          [FILL("22", "I ______ ______ a diary.", ["will|keep"], ko="나는 일기를 쓸 것이다. ( keep )", blanks=2),
+           FILL("23", "We ______ ______ ______ ______ late for the concert.", ["aren't|going|to|be", "are|not|going|to|be"], ko="우리는 연주회에 늦지 않을 것이다. ( be )", blanks=4),
+           FILL("24", "______ ______ ______ this to your brother?", ["Will|you|give"], ko="너는 이것을 네 남동생에게 줄 거니? ( give )", blanks=3),
+           FILL("25", "______ ______ ______ ______ me the story?", ["Is|he|going|to|tell"], ko="그는 내게 그 이야기를 해 줄까? ( tell )", blanks=4)]))
 F["unit-test-03.json"] = q_ids(finish(test_meta(3, UT, "66–70"), G, lambda s, n: None))
 
 # --- Wrap Up (p.71) ---

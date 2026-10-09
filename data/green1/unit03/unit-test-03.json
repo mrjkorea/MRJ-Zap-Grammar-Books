@@ -643,10 +643,9 @@
       "label": "21",
       "type": "fill",
       "promptEn": "A: Are you and Mina going to join the reading club?\nB: Yes, ______ ______ ______.",
-      "blanks": 2,
+      "blanks": 3,
       "accept": [
-        "we|are",
-        "Yes|we|are"
+        "we|are"
       ]
     },
     {
@@ -676,11 +675,11 @@
       "type": "fill",
       "promptKo": "우리는 연주회에 늦지 않을 것이다. ( be )",
       "promptEn": "We ______ ______ ______ ______ late for the concert.",
-      "blanks": 2,
+      "blanks": 4,
       "accept": [
-        "won't|be",
-        "will|not|be",
-        "will not|be"
+        "aren't|going|to|be",
+        "are|not|going|to|be",
+        "are not|going|to|be"
       ]
     },
     {
@@ -693,7 +692,7 @@
       "label": "24",
       "type": "fill",
       "promptKo": "너는 이것을 네 남동생에게 줄 거니? ( give )",
-      "promptEn": "______ ______ ______ ______ this to your brother?",
+      "promptEn": "______ ______ ______ this to your brother?",
       "blanks": 3,
       "accept": [
         "Will|you|give"
@@ -710,9 +709,9 @@
       "type": "fill",
       "promptKo": "그는 내게 그 이야기를 해 줄까? ( tell )",
       "promptEn": "______ ______ ______ ______ me the story?",
-      "blanks": 3,
+      "blanks": 4,
       "accept": [
-        "Will|he|tell"
+        "Is|he|going|to|tell"
       ]
     }
   ]
