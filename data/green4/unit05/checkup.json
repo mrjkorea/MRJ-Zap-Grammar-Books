@@ -1,0 +1,56 @@
+{
+  "practiceId": "g4:u05:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 115) — needs page image",
+  "pages": "115",
+  "timerMinutes": 6,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 수동태 (1)",
+  "sectionsVersion": 2,
+  "wordBank": [
+    "is",
+    "are",
+    "was",
+    "were"
+  ],
+  "introKo": "이 연습은 Check Up 1문항(골라서 단어만 쓰기)으로 되어 있어요. (p. 115 원본 미제공 — needs check)",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (is / are / was / were) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (is / are / was / were)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "1"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (is / are / was / were) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[그림 없음 — 확인 필요] English _____ spoken here.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "is",
+        "Is"
+      ],
+      "needsSourceCheck": true
+    }
+  ]
+}

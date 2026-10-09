@@ -12,7 +12,7 @@
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
     { id: "zap-green-2", title: "ZAP Green 2", enabled: false },
     { id: "zap-green-3", title: "ZAP Green 3", enabled: true, appName: "GreenZap 3", bookTitle: "ZAP Green 3" },
-    { id: "zap-green-4", title: "ZAP Green 4", enabled: false },
+    { id: "zap-green-4", title: "ZAP Green 4", enabled: true, appName: "GreenZap 4", bookTitle: "ZAP Green 4" },
   ];
 
   var UNITS = {
@@ -30,6 +30,9 @@
     "zap-green-3": [
       { id: "unit-01", title: "Unit 01 — 의문사 있는 의문문 (1)", enabled: true },
       { id: "unit-02", title: "Unit 02", enabled: false },
+    ],
+    "zap-green-4": [
+      { id: "unit-05", title: "Unit 05 — 수동태 (1)", enabled: true },
     ],
   };
 
@@ -600,6 +603,71 @@
         hint: "Final · pp. 188–191",
         data: "data/green1/tests/final-test-02.json",
         practiceId: "tests:ft02",
+      },
+    ],
+    "zap-green-4:unit-05": [
+      {
+        slug: "walk1",
+        title: "Grammar Walk — Lesson 01",
+        hint: "능동태와 수동태 · p. 99",
+        data: "data/green4/unit05/walk1.json",
+        practiceId: "g4:u05:walk1",
+      },
+      {
+        slug: "walk2",
+        title: "Grammar Walk — Lesson 02",
+        hint: "be동사+과거분사 · p. 101",
+        data: "data/green4/unit05/walk2.json",
+        practiceId: "g4:u05:walk2",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "pp. 102–105",
+        data: "data/green4/unit05/run.json",
+        practiceId: "g4:u05:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "p. 104",
+        data: "data/green4/unit05/jump.json",
+        practiceId: "g4:u05:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "pp. 106–107",
+        data: "data/green4/unit05/fly.json",
+        practiceId: "g4:u05:fly",
+      },
+      {
+        slug: "writing",
+        title: "Grammar & Writing",
+        hint: "pp. 108–109",
+        data: "data/green4/unit05/writing.json",
+        practiceId: "g4:u05:writing",
+      },
+      {
+        slug: "quiz",
+        title: "Unit Test 05",
+        hint: "pp. 110–114",
+        data: "data/green4/unit05/unit-test-05.json",
+        practiceId: "g4:u05:quiz",
+      },
+      {
+        slug: "wrap",
+        title: "Wrap Up",
+        hint: "Summary · p. 115",
+        data: "data/green4/unit05/wrap.json",
+        practiceId: "g4:u05:wrap",
+      },
+      {
+        slug: "checkup",
+        title: "Check Up",
+        hint: "Comic dialogue · p. 115",
+        data: "data/green4/unit05/checkup.json",
+        practiceId: "g4:u05:checkup",
       },
     ],
     "zap-green-3:unit-01": [
