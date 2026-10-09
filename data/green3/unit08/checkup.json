@@ -1,0 +1,88 @@
+{
+  "practiceId": "g3:u08:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue · p. 179",
+  "pages": "179",
+  "timerMinutes": 6,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 부정대명사",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the other / something / anyone / another) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the other / something / anyone / another)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[그림] I want to do _____ exciting.",
+      "blanks": 1,
+      "accept": [
+        "something",
+        "Something"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the other / something / anyone / another) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기"
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "[그림] Did _____ borrow these games?",
+      "blanks": 1,
+      "accept": [
+        "anyone",
+        "Anyone"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the other / something / anyone / another) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기"
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "[그림] One is for me, _____ is for Sunny, and _____ is for my dog.",
+      "blanks": 2,
+      "accept": [
+        "another|the other",
+        "another|The other"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the other / something / anyone / another) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기"
+    }
+  ],
+  "wordBank": [
+    "the other",
+    "something",
+    "anyone",
+    "another"
+  ],
+  "introKo": "Check Up 3문항."
+}
