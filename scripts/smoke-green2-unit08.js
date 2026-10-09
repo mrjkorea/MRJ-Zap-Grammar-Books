@@ -73,9 +73,13 @@ if (b11) {
     bad++;
     console.log("FAIL jump b11 to+hide");
   }
-  if (!E.gradeItem(b11, { parts: ["", "hide"], value: "hide" })) {
+  if (E.gradeItem(b11, { parts: ["", "hide"], value: "hide" })) {
     bad++;
-    console.log("FAIL jump b11 optional to (blank+hide)");
+    console.log("FAIL jump b11 must not accept empty first blank + hide");
+  }
+  if (!E.gradeItem(b11, { parts: ["to hide"], value: "to hide" })) {
+    bad++;
+    console.log("FAIL jump b11 phrase to hide in one box");
   }
 }
 if (b12) {
@@ -86,6 +90,14 @@ if (b12) {
   if (!E.gradeItem(b12, { parts: ["to", "say"], value: "to say" })) {
     bad++;
     console.log("FAIL jump b12 to+say");
+  }
+  if (E.gradeItem(b12, { parts: ["", "say"], value: "say" })) {
+    bad++;
+    console.log("FAIL jump b12 must not accept empty first blank + say");
+  }
+  if (!E.gradeItem(b12, { parts: ["to say"], value: "to say" })) {
+    bad++;
+    console.log("FAIL jump b12 phrase to say in one box");
   }
 }
 console.log(bad ? "FAILURES: " + bad : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)");
