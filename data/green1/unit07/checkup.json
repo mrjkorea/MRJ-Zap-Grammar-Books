@@ -1,0 +1,82 @@
+{
+  "sectionsVersion": 2,
+  "unitTitle": "Unit 07 — 조동사 (3)",
+  "practiceId": "u07:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 159)",
+  "pages": "159",
+  "timerMinutes": 6,
+  "wordBank": [
+    "would",
+    "had",
+    "shall"
+  ],
+  "introKo": "이 연습은 Check Up 3문항(고르기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (would / had / shall) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (would / had / shall)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (would / had / shall) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[그림 1] Man: ______ you like to dance with me?\nWoman: OK.",
+      "blanks": 1,
+      "accept": [
+        "Would",
+        "would"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (would / had / shall) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "[그림 2] Man: Oh, sorry. ______ we dance together?",
+      "blanks": 1,
+      "accept": [
+        "Shall",
+        "shall"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (would / had / shall) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "[그림 3] Parents: Sunny, you ______ better not dance with Snowie.",
+      "blanks": 1,
+      "accept": [
+        "had"
+      ]
+    }
+  ]
+}
