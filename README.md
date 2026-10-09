@@ -118,12 +118,18 @@ python3 -m http.server 8080
 
 ```bash
 node scripts/pack-unit-test.js
-node scripts/smoke-sections.js    # GreenZap 1 units 01–05 + GreenZap 3 unit 01
-node scripts/smoke-units-02-05.js # optional: units 02–05 only (same checks)
+node scripts/smoke-sections.js    # GreenZap 1 units 01–08 + GreenZap 3 unit 01
+node scripts/smoke-gz1-all.js       # catalog-driven: all 78 GreenZap 1 data files
+node scripts/smoke-gz1-tests.js
+node scripts/smoke-units-02-05.js
+node scripts/smoke-unit06.js
+node scripts/smoke-unit07.js
+node scripts/smoke-unit08.js
 node scripts/smoke-unit-test.js
 node scripts/smoke-green3-unit01.js
 node scripts/smoke-app-sections.js
 node scripts/smoke-review.js
+node scripts/e2e-gz1-browser.js     # headless browser (needs: npm install playwright)
 ```
 
 ## Results
