@@ -1,4 +1,4 @@
-/* Smoke-grade every GZ3 Unit 01 item with the repo's own normalize.js + engine.js gradeItem. */
+/* Smoke-grade GreenZap 4 Unit 06 with normalize.js + engine.js gradeItem. */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
@@ -11,6 +11,21 @@ for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
   vm.runInContext(fs.readFileSync(path.join(REPO, f), "utf8"), ctx);
 }
 const E = win.MRJ_ENGINE;
+const allIds = new Map();
+let dupIds = 0;
+for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json"))) {
+  const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  for (const it of d.items) {
+    if (allIds.has(it.id)) {
+      dupIds++;
+      console.log("DUPLICATE-ID", it.id, allIds.get(it.id), f);
+    } else allIds.set(it.id, f);
+  }
+}
+if (dupIds) {
+  console.log("FAILURES: " + dupIds + " duplicate item ids across unit06");
+  process.exit(1);
+}
 let total = 0;
 let bad = 0;
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {

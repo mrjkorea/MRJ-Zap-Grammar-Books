@@ -4,7 +4,7 @@
   "appName": "GreenZap 4",
   "unitId": "unit-06",
   "unitTitle": "Unit 06 — 수동태 (2)",
-  "sectionsVersion": 2,
+  "sectionsVersion": 3,
   "practiceId": "g4:u06:quiz",
   "title": "Unit Test 06",
   "subtitle": "수동태 (2) (pp. 130–134)",
@@ -187,7 +187,7 @@
   "introKo": "Unit Test 06 — 25문항. Review Test 03 (pp. 137–140)은 이 PR에 포함하지 않습니다.",
   "items": [
     {
-      "id": "q01",
+      "id": "quiz_q01",
       "section": "1-2",
       "label": "1",
       "type": "mc",
@@ -210,7 +210,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q02",
+      "id": "quiz_q02",
       "section": "1-2",
       "label": "2",
       "type": "mc",
@@ -233,7 +233,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q03",
+      "id": "quiz_q03",
       "section": "3-4",
       "label": "3",
       "type": "mc",
@@ -257,7 +257,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q04",
+      "id": "quiz_q04",
       "section": "3-4",
       "label": "4",
       "type": "mc",
@@ -281,7 +281,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q05",
+      "id": "quiz_q05",
       "section": "5-6",
       "label": "5",
       "type": "mc",
@@ -305,7 +305,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q06",
+      "id": "quiz_q06",
       "section": "5-6",
       "label": "6",
       "type": "mc",
@@ -329,7 +329,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q07",
+      "id": "quiz_q07",
       "section": "7-8",
       "label": "7",
       "type": "mc",
@@ -352,7 +352,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q08",
+      "id": "quiz_q08",
       "section": "7-8",
       "label": "8",
       "type": "mc",
@@ -375,7 +375,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q09",
+      "id": "quiz_q09",
       "section": "9-10",
       "label": "9",
       "type": "mc",
@@ -395,7 +395,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q10",
+      "id": "quiz_q10",
       "section": "9-10",
       "label": "10",
       "type": "mc",
@@ -415,7 +415,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q11",
+      "id": "quiz_q11",
       "section": "11-12",
       "label": "11",
       "type": "mc",
@@ -438,7 +438,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q12",
+      "id": "quiz_q12",
       "section": "11-12",
       "label": "12",
       "type": "mc",
@@ -461,7 +461,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q13",
+      "id": "quiz_q13",
       "section": "13-14",
       "label": "13",
       "type": "mc",
@@ -484,7 +484,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q14",
+      "id": "quiz_q14",
       "section": "13-14",
       "label": "14",
       "type": "mc",
@@ -507,7 +507,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q15",
+      "id": "quiz_q15",
       "section": "15-16",
       "label": "15",
       "type": "mc",
@@ -530,7 +530,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q16",
+      "id": "quiz_q16",
       "section": "15-16",
       "label": "16",
       "type": "mc",
@@ -553,7 +553,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q17",
+      "id": "quiz_q17",
       "section": "17-18",
       "label": "17",
       "type": "mc",
@@ -576,7 +576,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q18",
+      "id": "quiz_q18",
       "section": "17-18",
       "label": "18",
       "type": "mc",
@@ -599,7 +599,7 @@
       "answerModeTag": "Choose · 고르기"
     },
     {
-      "id": "q19",
+      "id": "quiz_q19",
       "section": "19-20",
       "label": "19",
       "type": "fill",
@@ -615,7 +615,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "q20",
+      "id": "quiz_q20",
       "section": "19-20",
       "label": "20",
       "type": "fill",
@@ -630,7 +630,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "q21",
+      "id": "quiz_q21",
       "section": "21-25",
       "label": "21",
       "type": "fill",
@@ -646,7 +646,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "q22",
+      "id": "quiz_q22",
       "section": "21-25",
       "label": "22",
       "type": "fill",
@@ -661,7 +661,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "q23",
+      "id": "quiz_q23",
       "section": "21-25",
       "label": "23",
       "type": "fill",
@@ -676,7 +676,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "q24",
+      "id": "quiz_q24",
       "section": "21-25",
       "label": "24",
       "type": "fill",
@@ -691,7 +691,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "q25",
+      "id": "quiz_q25",
       "section": "21-25",
       "label": "25",
       "type": "fill",
