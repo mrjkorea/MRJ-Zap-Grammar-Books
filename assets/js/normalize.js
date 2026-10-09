@@ -52,7 +52,29 @@
     return s;
   }
 
+  function hasHangul(s) {
+    return /[\uAC00-\uD7A3]/.test(String(s || ""));
+  }
+
+  function normalizeKoreanPhrase(s) {
+    s = String(s || "")
+      .replace(/[\u2018\u2019\u201A\u2032]/g, "'")
+      .trim();
+    s = collapseSpaces(stripEndPunct(s));
+    return s;
+  }
+
+  function koreanEquivalent(user, expected) {
+    var u = normalizeKoreanPhrase(user);
+    var e = normalizeKoreanPhrase(expected);
+    if (u === e) return true;
+    var uBare = u.replace(/^~/, "").trim();
+    var eBare = e.replace(/^~/, "").trim();
+    return uBare === eBare;
+  }
+
   function normalizePhrase(s) {
+    if (hasHangul(s)) return normalizeKoreanPhrase(s);
     return normalizeToken(s);
   }
 
@@ -74,6 +96,9 @@
   }
 
   function matchOne(user, expected) {
+    if (hasHangul(user) || hasHangul(expected)) {
+      return koreanEquivalent(user, expected);
+    }
     var u = normalizePhrase(user);
     if (!u && !expected) return true;
     var ok = variants(expected);
@@ -131,13 +156,18 @@
   }
 
   function matchMc(choiceValue, accept) {
-    var u = normalizePhrase(choiceValue);
     var list = Array.isArray(accept) ? accept : [accept];
     for (var i = 0; i < list.length; i++) {
-      var a = normalizePhrase(String(list[i]));
+      var raw = String(list[i]);
+      if (hasHangul(raw) || hasHangul(choiceValue)) {
+        if (koreanEquivalent(choiceValue, raw)) return true;
+        continue;
+      }
+      var u = normalizePhrase(choiceValue);
+      var a = normalizePhrase(raw);
       if (u === a) return true;
-      if (/^[①②③④⑤]$/.test(list[i])) {
-        var n = "①②③④⑤".indexOf(list[i]) + 1;
+      if (/^[①②③④⑤]$/.test(raw)) {
+        var n = "①②③④⑤".indexOf(raw) + 1;
         if (u === String(n)) return true;
       }
     }

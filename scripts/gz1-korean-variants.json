@@ -1,0 +1,323 @@
+{
+  "build": "20261009-gz1-followup1",
+  "entries": [
+    {
+      "file": "data/green1/unit06/wrap.json",
+      "id": "w1_1",
+      "mustPass": [
+        "해도 좋다|may|not",
+        "해도 된다|may|not"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/wrap.json",
+      "id": "w2_1",
+      "mustPass": [
+        "해야 한다|해서는 안 된다",
+        "해야 한다|하면 안 된다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/wrap.json",
+      "id": "w2_3",
+      "mustPass": [
+        "~임에 틀림없다",
+        "임에 틀림없다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a01",
+      "mustPass": [
+        "가면 안 된다",
+        "① 가면 안 된다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a02",
+      "mustPass": [
+        "물어도 될까요?",
+        "② 물어도 될까요?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a03",
+      "mustPass": [
+        "사용해도 된다",
+        "② 사용해도 된다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a04",
+      "mustPass": [
+        "좋아하지 않을지도 모른다",
+        "② 좋아하지 않을지도 모른다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a05",
+      "mustPass": [
+        "화창할지도 모른다",
+        "① 화창할지도 모른다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a06",
+      "mustPass": [
+        "사실일지도 모른다",
+        "① 사실일지도 모른다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a07",
+      "mustPass": [
+        "닦아야 한다",
+        "① 닦아야 한다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a08",
+      "mustPass": [
+        "만지면 안 된다",
+        "② 만지면 안 된다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a09",
+      "mustPass": [
+        "빗어야 한다",
+        "① 빗어야 한다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a10",
+      "mustPass": [
+        "가져올 필요가 없다",
+        "② 가져올 필요가 없다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a11",
+      "mustPass": [
+        "지민이의 것이 틀림없다",
+        "② 지민이의 것이 틀림없다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/run.json",
+      "id": "a12",
+      "mustPass": [
+        "아픈 것이 틀림없다",
+        "② 아픈 것이 틀림없다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk1.json",
+      "id": "b02",
+      "mustPass": [
+        "해도 될까요?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk1.json",
+      "id": "b03",
+      "mustPass": [
+        "해도 된다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk1.json",
+      "id": "b04",
+      "mustPass": [
+        "해서는 안 된다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk1.json",
+      "id": "b05",
+      "mustPass": [
+        "할지도 모른다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk1.json",
+      "id": "b06",
+      "mustPass": [
+        "하지 않을지도 모른다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk2.json",
+      "id": "b02",
+      "mustPass": [
+        "할 필요가 없다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk2.json",
+      "id": "b03",
+      "mustPass": [
+        "해야 한다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk2.json",
+      "id": "b04",
+      "mustPass": [
+        "할 필요가 없다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk2.json",
+      "id": "b05",
+      "mustPass": [
+        "해서는 안 된다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/walk2.json",
+      "id": "b06",
+      "mustPass": [
+        "임이 틀림없다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/wrap.json",
+      "id": "w2_1",
+      "mustPass": [
+        "해 주겠니",
+        "해 주겠니?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/wrap.json",
+      "id": "w2_2",
+      "mustPass": [
+        "할까",
+        "할까?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b01",
+      "mustPass": [
+        "해 주겠니?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b02",
+      "mustPass": [
+        "할까?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b03",
+      "mustPass": [
+        "을 하시겠어요?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b04",
+      "mustPass": [
+        "해 주겠니?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b05",
+      "mustPass": [
+        "할까?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit05/run.json",
+      "id": "b09",
+      "mustPass": [
+        "쉬어도 좋다",
+        "쉬어도 좋아"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit05/run.json",
+      "id": "b10",
+      "mustPass": [
+        "해도 좋다",
+        "해도 좋아"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/wrap.json",
+      "id": "w1_1",
+      "mustPass": [
+        "해도 좋다|may|not",
+        "해도 된다|may|not"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/wrap.json",
+      "id": "w2_1",
+      "mustPass": [
+        "해야 한다|해서는 안 된다",
+        "해야 한다|하면 안 된다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit06/wrap.json",
+      "id": "w2_3",
+      "mustPass": [
+        "~임에 틀림없다",
+        "임에 틀림없다"
+      ],
+      "mustFail": []
+    }
+  ]
+}

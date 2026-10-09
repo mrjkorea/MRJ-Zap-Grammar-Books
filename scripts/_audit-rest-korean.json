@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "GreenZap 1 rest audit — Korean / accept gaps (tests, unit07–08)",
+    "build": "20261009-gz1-rest",
+    "rules": "Same as unit06: tilde gloss bare forms, obvious contraction expansions for multi-blank fills"
+  },
+  "summary": {
+    "koreanAcceptGapCount": 7
+  },
+  "koreanAcceptGaps": [
+    {
+      "file": "data/green1/unit07/wrap.json",
+      "id": "w2_1",
+      "label": "2-1",
+      "type": "fill",
+      "accept": [
+        "~해 주겠니",
+        "~해 주겠니?"
+      ],
+      "issue": "Book gloss uses ~ placeholder; student may omit leading ~.",
+      "suggestedAdds": [
+        "해 주겠니",
+        "해 주겠니?"
+      ]
+    },
+    {
+      "file": "data/green1/unit07/wrap.json",
+      "id": "w2_2",
+      "label": "2-2",
+      "type": "fill",
+      "accept": [
+        "우리 ~할까",
+        "우리 ~할까?"
+      ],
+      "issue": "Student may type gloss without leading 우리 or ~.",
+      "suggestedAdds": [
+        "할까",
+        "할까?"
+      ]
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b01",
+      "label": "B1",
+      "type": "mc",
+      "accept": [
+        "c. ~해 주겠니?",
+        "c",
+        "~해 주겠니?"
+      ],
+      "bookPage": 155,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "해 주겠니?"
+      ]
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b02",
+      "label": "B2",
+      "type": "mc",
+      "accept": [
+        "d. 우리 ~할까?",
+        "d",
+        "우리 ~할까?"
+      ],
+      "bookPage": 155,
+      "issue": "Student may type gloss without 우리 / ~",
+      "suggestedAdds": [
+        "할까?"
+      ]
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b03",
+      "label": "B3",
+      "type": "mc",
+      "accept": [
+        "a. ~을 하시겠어요?",
+        "a",
+        "~을 하시겠어요?"
+      ],
+      "bookPage": 155,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "을 하시겠어요?"
+      ]
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b04",
+      "label": "B4",
+      "type": "mc",
+      "accept": [
+        "c. ~해 주겠니?",
+        "c",
+        "~해 주겠니?"
+      ],
+      "bookPage": 155,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "해 주겠니?"
+      ]
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b05",
+      "label": "B5",
+      "type": "mc",
+      "accept": [
+        "b. 내가 ~할까?",
+        "b",
+        "내가 ~할까?"
+      ],
+      "bookPage": 155,
+      "issue": "Student may type gloss without 내가 / ~",
+      "suggestedAdds": [
+        "할까?"
+      ]
+    }
+  ],
+  "notes": {
+    "englishFills": "Most unit07–08 and test fill items already include don't/do not or I'd/I would pairs; no additional gaps flagged.",
+    "tests": "Review/final test fills are English word blanks only; no Korean accept gaps beyond unit07 wrap/walk2 tilde glosses."
+  }
+}

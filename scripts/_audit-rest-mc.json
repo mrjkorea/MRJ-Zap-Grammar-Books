@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "GreenZap 1 rest audit — MC choice order (tests + unit07–08)",
+    "build": "20261009-gz1-rest",
+    "pageRule": "pNNNN.png = PDF page NNN = book page NNN-1",
+    "scope": {
+      "tests": "data/green1/tests/*.json",
+      "unit07": "data/green1/unit07/*.json (MC order skipped — no page images)",
+      "unit08": "data/green1/unit08/*.json (MC order skipped — no page images)"
+    },
+    "imageAvailability": {
+      "review-test-01": {
+        "bookPages": "48–51",
+        "expectedPng": [
+          "p0048.png",
+          "p0049.png",
+          "p0050.png",
+          "p0051.png",
+          "p0052.png"
+        ],
+        "dir": "/tmp/gz1-pages/gz1-units2-5/pages/",
+        "present": [
+          "p0048.png"
+        ],
+        "missing": [
+          "p0049.png",
+          "p0050.png",
+          "p0051.png",
+          "p0052.png"
+        ],
+        "note": "p0048 is Unit 02 Wrap Up (book p.47), not Review Test 01. MC order not verified."
+      },
+      "review-test-02": {
+        "bookPages": "92–95",
+        "images": false,
+        "note": "No images — MC order not verified."
+      },
+      "review-test-03": {
+        "bookPages": "136–139",
+        "partialPng": [
+          "p0137.png",
+          "p0138.png"
+        ],
+        "dir": "/tmp/gz1-pages/gz1-rest/pages/",
+        "verifiedLabels": "1–10 only (book pp.136–137)",
+        "missingForLabels": "11–15 (book pp.138–139)"
+      },
+      "review-test-04": {
+        "bookPages": null,
+        "images": false
+      },
+      "final-test-01": {
+        "images": false
+      },
+      "final-test-02": {
+        "images": false
+      },
+      "unit07": {
+        "bookPages": "141–160",
+        "images": false,
+        "note": "MC order verification skipped per audit brief."
+      },
+      "unit08": {
+        "bookPages": "161–180",
+        "images": false,
+        "note": "MC order verification skipped per audit brief."
+      }
+    }
+  },
+  "summary": {
+    "mcChoiceOrderFixes": 1,
+    "mcItemsVerifiedOk": 9,
+    "mcItemsVerifiedMismatch": 1,
+    "mcItemsNotVerified": "review-test-01 (missing PNGs), review-test-02/04, final tests, unit07–08, review-test-03 q11–15"
+  },
+  "mcChoiceOrderFixes": [
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "issue": "choices[3] and choices[4] swapped vs book: ④ must love / ⑤ has to",
+      "before": [
+        "He will love his dog.",
+        "He can love his dog.",
+        "He may love his dog.",
+        "He has to love his dog.",
+        "He must love his dog."
+      ],
+      "after": [
+        "He will love his dog.",
+        "He can love his dog.",
+        "He may love his dog.",
+        "He must love his dog.",
+        "He has to love his dog."
+      ],
+      "acceptBefore": "5",
+      "acceptAfter": "4"
+    }
+  ],
+  "mcItemsVerified": [
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q01",
+      "label": "1",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q02",
+      "label": "2",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q03",
+      "label": "3",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q04",
+      "label": "4",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q05",
+      "label": "5",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q06",
+      "label": "6",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "ok"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q07",
+      "label": "7",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "ok"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q08",
+      "label": "8",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "ok"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q09",
+      "label": "9",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "ok"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "order_fix",
+      "printedOrderNote": "book ①–⑤ = choices[0..4]; JSON had ④⑤ reversed"
+    }
+  ]
+}

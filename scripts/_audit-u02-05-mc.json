@@ -1,0 +1,146 @@
+[
+  {
+    "file": "data/green1/unit04/unit-test-04.json",
+    "id": "q01",
+    "before": [
+      "tie – tying",
+      "shop – shoping",
+      "watch – watching",
+      "sit – sitting",
+      "fly – flying"
+    ],
+    "after": [
+      "write – writing",
+      "shop – shoping",
+      "read – reading",
+      "tie – tying",
+      "watch – watching"
+    ],
+    "acceptBefore": "2",
+    "acceptAfter": "2"
+  },
+  {
+    "file": "data/green1/unit04/unit-test-04.json",
+    "id": "q02",
+    "before": [
+      "read – reading",
+      "write – writing",
+      "dance – danceing",
+      "lie – lying",
+      "rain – raining"
+    ],
+    "after": [
+      "sit – sitting",
+      "fly – flying",
+      "lie – lying",
+      "dance – danceing",
+      "rain – raining"
+    ],
+    "acceptBefore": "3",
+    "acceptAfter": "4"
+  },
+  {
+    "file": "data/green1/unit04/unit-test-04.json",
+    "id": "q05",
+    "before": [
+      "were talking",
+      "was talking",
+      "did talking",
+      "talking was",
+      "was talks"
+    ],
+    "after": [
+      "were talking",
+      "was talking",
+      "talking was",
+      "did talking",
+      "was talks"
+    ],
+    "acceptBefore": "2",
+    "acceptAfter": "2"
+  },
+  {
+    "file": "data/green1/unit04/unit-test-04.json",
+    "id": "q07",
+    "before": [
+      "weren't watching",
+      "watching weren't",
+      "were watching not",
+      "wasn't watching",
+      "didn't watching"
+    ],
+    "after": [
+      "weren't watching",
+      "were watching not",
+      "wasn't watching",
+      "watching weren't",
+      "didn't watching"
+    ],
+    "acceptBefore": "1",
+    "acceptAfter": "1"
+  },
+  {
+    "file": "data/green1/unit04/unit-test-04.json",
+    "id": "q11",
+    "before": [
+      "Yes, they did.",
+      "No, they wasn't.",
+      "No, it wasn't.",
+      "Yes, they was.",
+      "Yes, they were."
+    ],
+    "after": [
+      "Yes, they did.",
+      "No, they wasn't.",
+      "Yes, they were.",
+      "No, it wasn't.",
+      "Yes, they was."
+    ],
+    "acceptBefore": "5",
+    "acceptAfter": "3"
+  },
+  {
+    "file": "data/green1/unit04/unit-test-04.json",
+    "id": "q12",
+    "before": [
+      "is – snowing",
+      "was – snow",
+      "were – snowing",
+      "was – snowing",
+      "is – snow"
+    ],
+    "after": [
+      "is – snowing",
+      "was – snow",
+      "were – snowing",
+      "was – snowing",
+      "is – snow"
+    ],
+    "acceptBefore": "4",
+    "acceptAfter": "4",
+    "promptBefore": "It ______ yesterday. It's sunny now.",
+    "promptAfter": "It ______ snowing yesterday.\nIt isn't ______ now. It's sunny."
+  },
+  {
+    "file": "data/green1/unit04/unit-test-04.json",
+    "id": "q13",
+    "before": [
+      "was – weren't",
+      "were – aren't",
+      "were – isn't",
+      "are – were",
+      "were – don't"
+    ],
+    "after": [
+      "was – weren't",
+      "were – aren't",
+      "were – isn't",
+      "are – were",
+      "were – don't"
+    ],
+    "acceptBefore": "2",
+    "acceptAfter": "2",
+    "promptBefore": "The students ______ soccer then. They ______ soccer now. They are playing basketball.",
+    "promptAfter": "The students ______ playing soccer then.\nThey ______ playing soccer now. They are playing basketball."
+  }
+]

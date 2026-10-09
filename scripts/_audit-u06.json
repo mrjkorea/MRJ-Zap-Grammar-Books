@@ -1,0 +1,2041 @@
+{
+  "meta": {
+    "title": "GreenZap 1 Unit 06 audit — MC choice order + Korean accept gaps",
+    "build": "20261009-gz1-full",
+    "pageRule": "pNNNN.png = PDF NNN = book page NNN-1",
+    "auditedFiles": [
+      "checkup.json",
+      "fly.json",
+      "jump.json",
+      "run.json",
+      "unit-test-06.json",
+      "walk1.json",
+      "walk2.json",
+      "wrap.json",
+      "writing.json"
+    ],
+    "mcOnlyFiles": [
+      "walk1.json",
+      "walk2.json",
+      "run.json",
+      "unit-test-06.json"
+    ],
+    "practiceBookPages": {
+      "walk1.json": [
+        119
+      ],
+      "walk2.json": [
+        121
+      ],
+      "run.json": [
+        122,
+        123
+      ],
+      "jump.json": [
+        124,
+        125
+      ],
+      "fly.json": [
+        126,
+        127
+      ],
+      "writing.json": [
+        128,
+        129
+      ],
+      "unit-test-06.json": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "wrap.json": [
+        135
+      ],
+      "checkup.json": [
+        135
+      ]
+    }
+  },
+  "summary": {
+    "mcItemCount": 55,
+    "mcGradedCount": 51,
+    "mcChoiceOrderFixes": 0,
+    "koreanAcceptGapCount": 25
+  },
+  "mcChoiceOrderFixes": [],
+  "koreanAcceptGaps": [
+    {
+      "file": "wrap.json",
+      "id": "w1_1",
+      "label": "1-1~3",
+      "type": "fill",
+      "accept": [
+        "~해도 된다|may|not",
+        "~해도 좋다|may|not"
+      ],
+      "bookPage": 135,
+      "bookBlanks": {
+        "1": "해도 좋다",
+        "2": "may",
+        "3": "not"
+      },
+      "issue": "Book prints blank [1] as 해도 좋다 (no leading ~). JSON tilde forms only for [1].",
+      "suggestedAdds": [
+        "해도 좋다|may|not",
+        "해도 된다|may|not"
+      ]
+    },
+    {
+      "file": "wrap.json",
+      "id": "w2_1",
+      "label": "2-1~2",
+      "type": "fill",
+      "accept": [
+        "~해야 한다|~해서는 안 된다",
+        "~해야 한다|~하면 안 된다"
+      ],
+      "bookPage": 135,
+      "bookBlanks": {
+        "1": "해야 한다",
+        "2": "해서는 안 된다"
+      },
+      "issue": "Book glosses omit leading ~ on both blanks.",
+      "suggestedAdds": [
+        "해야 한다|해서는 안 된다",
+        "해야 한다|하면 안 된다"
+      ]
+    },
+    {
+      "file": "wrap.json",
+      "id": "w2_3",
+      "label": "2-5",
+      "type": "fill",
+      "accept": [
+        "~임이 틀림없다",
+        "~일 것이다"
+      ],
+      "bookPage": 135,
+      "bookBlank5": "~임에 틀림없다",
+      "issue": "Book prints ~임에 틀림없다; JSON has ~임이 틀림없다 (이 vs 에).",
+      "suggestedAdds": [
+        "~임에 틀림없다",
+        "임에 틀림없다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a01",
+      "label": "A1",
+      "type": "mc",
+      "accept": [
+        "1",
+        "①"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "가면 안 된다",
+        "① 가면 안 된다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a02",
+      "label": "A2",
+      "type": "mc",
+      "accept": [
+        "2",
+        "②"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "물어도 될까요?",
+        "② 물어도 될까요?"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a03",
+      "label": "A3",
+      "type": "mc",
+      "accept": [
+        "2",
+        "②"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "사용해도 된다",
+        "② 사용해도 된다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a04",
+      "label": "A4",
+      "type": "mc",
+      "accept": [
+        "2",
+        "②"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "좋아하지 않을지도 모른다",
+        "② 좋아하지 않을지도 모른다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a05",
+      "label": "A5",
+      "type": "mc",
+      "accept": [
+        "1",
+        "①"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "화창할지도 모른다",
+        "① 화창할지도 모른다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a06",
+      "label": "A6",
+      "type": "mc",
+      "accept": [
+        "1",
+        "①"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "사실일지도 모른다",
+        "① 사실일지도 모른다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a07",
+      "label": "A7",
+      "type": "mc",
+      "accept": [
+        "1",
+        "①"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "닦아야 한다",
+        "① 닦아야 한다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a08",
+      "label": "A8",
+      "type": "mc",
+      "accept": [
+        "2",
+        "②"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "만지면 안 된다",
+        "② 만지면 안 된다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a09",
+      "label": "A9",
+      "type": "mc",
+      "accept": [
+        "1",
+        "①"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "빗어야 한다",
+        "① 빗어야 한다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a10",
+      "label": "A10",
+      "type": "mc",
+      "accept": [
+        "2",
+        "②"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "가져올 필요가 없다",
+        "② 가져올 필요가 없다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a11",
+      "label": "A11",
+      "type": "mc",
+      "accept": [
+        "2",
+        "②"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "지민이의 것이 틀림없다",
+        "② 지민이의 것이 틀림없다"
+      ]
+    },
+    {
+      "file": "run.json",
+      "id": "a12",
+      "label": "A12",
+      "type": "mc",
+      "accept": [
+        "2",
+        "②"
+      ],
+      "bookPage": 122,
+      "issue": "Typed Korean answer not in accept (only numeral/circled index).",
+      "suggestedAdds": [
+        "아픈 것이 틀림없다",
+        "② 아픈 것이 틀림없다"
+      ]
+    },
+    {
+      "file": "walk1.json",
+      "id": "b02",
+      "label": "B2",
+      "type": "mc",
+      "accept": [
+        "e. ~해도 될까요?",
+        "e",
+        "~해도 될까요?"
+      ],
+      "bookPage": 119,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "해도 될까요?"
+      ]
+    },
+    {
+      "file": "walk1.json",
+      "id": "b03",
+      "label": "B3",
+      "type": "mc",
+      "accept": [
+        "b. ~해도 된다",
+        "b",
+        "~해도 된다"
+      ],
+      "bookPage": 119,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "해도 된다"
+      ]
+    },
+    {
+      "file": "walk1.json",
+      "id": "b04",
+      "label": "B4",
+      "type": "mc",
+      "accept": [
+        "d. ~해서는 안 된다",
+        "d",
+        "~해서는 안 된다"
+      ],
+      "bookPage": 119,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "해서는 안 된다"
+      ]
+    },
+    {
+      "file": "walk1.json",
+      "id": "b05",
+      "label": "B5",
+      "type": "mc",
+      "accept": [
+        "a. ~할지도 모른다",
+        "a",
+        "~할지도 모른다"
+      ],
+      "bookPage": 119,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "할지도 모른다"
+      ]
+    },
+    {
+      "file": "walk1.json",
+      "id": "b06",
+      "label": "B6",
+      "type": "mc",
+      "accept": [
+        "c. ~하지 않을지도 모른다",
+        "c",
+        "~하지 않을지도 모른다"
+      ],
+      "bookPage": 119,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "하지 않을지도 모른다"
+      ]
+    },
+    {
+      "file": "walk2.json",
+      "id": "b02",
+      "label": "B2",
+      "type": "mc",
+      "accept": [
+        "d. ~할 필요가 없다",
+        "d",
+        "~할 필요가 없다"
+      ],
+      "bookPage": 121,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "할 필요가 없다"
+      ]
+    },
+    {
+      "file": "walk2.json",
+      "id": "b03",
+      "label": "B3",
+      "type": "mc",
+      "accept": [
+        "a. ~해야 한다",
+        "a",
+        "~해야 한다"
+      ],
+      "bookPage": 121,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "해야 한다"
+      ]
+    },
+    {
+      "file": "walk2.json",
+      "id": "b04",
+      "label": "B4",
+      "type": "mc",
+      "accept": [
+        "d. ~할 필요가 없다",
+        "d",
+        "~할 필요가 없다"
+      ],
+      "bookPage": 121,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "할 필요가 없다"
+      ]
+    },
+    {
+      "file": "walk2.json",
+      "id": "b05",
+      "label": "B5",
+      "type": "mc",
+      "accept": [
+        "c. ~해서는 안 된다",
+        "c",
+        "~해서는 안 된다"
+      ],
+      "bookPage": 121,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "해서는 안 된다"
+      ]
+    },
+    {
+      "file": "walk2.json",
+      "id": "b06",
+      "label": "B6",
+      "type": "mc",
+      "accept": [
+        "b. ~임이 틀림없다",
+        "b",
+        "~임이 틀림없다"
+      ],
+      "bookPage": 121,
+      "issue": "Student may type gloss without leading ~",
+      "suggestedAdds": [
+        "임이 틀림없다"
+      ]
+    }
+  ],
+  "mcItemsVerified": [
+    {
+      "file": "run.json",
+      "id": "a01",
+      "label": "A1",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "You <u>may not go</u> to the concert today.",
+      "choices": [
+        "① 가면 안 된다",
+        "② 갈지도 모른다"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a02",
+      "label": "A2",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "<u>May I ask</u> you a question?",
+      "choices": [
+        "① 물어야 할까요?",
+        "② 물어도 될까요?"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a03",
+      "label": "A3",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "You <u>may use</u> my phone.",
+      "choices": [
+        "① 사용해야 한다",
+        "② 사용해도 된다"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a04",
+      "label": "A4",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "She <u>may not like</u> this flower.",
+      "choices": [
+        "① 좋아할 필요가 없다",
+        "② 좋아하지 않을지도 모른다"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a05",
+      "label": "A5",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "It <u>may be</u> sunny tomorrow.",
+      "choices": [
+        "① 화창할지도 모른다",
+        "② 틀림없이 화창하다"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a06",
+      "label": "A6",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "The news <u>may be</u> true.",
+      "choices": [
+        "① 사실일지도 모른다",
+        "② 틀림없이 사실이다"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a07",
+      "label": "A7",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "He <u>must wash</u> the window.",
+      "choices": [
+        "① 닦아야 한다",
+        "② 닦을지도 모른다"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a08",
+      "label": "A8",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "We <u>must not touch</u> the pictures.",
+      "choices": [
+        "① 만지지 않을 수도 있다",
+        "② 만지면 안 된다"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a09",
+      "label": "A9",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "I <u>have to comb</u> my hair.",
+      "choices": [
+        "① 빗어야 한다",
+        "② 빗어도 된다"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a10",
+      "label": "A10",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "Jinsu <u>doesn't have to bring</u> a camera.",
+      "choices": [
+        "① 가져오지 말아야 한다",
+        "② 가져올 필요가 없다"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a11",
+      "label": "A11",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "This pencil case <u>must be</u> Jimin's.",
+      "choices": [
+        "① 지민이의 것일지도 모른다",
+        "② 지민이의 것이 틀림없다"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "run.json",
+      "id": "a12",
+      "label": "A12",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        122,
+        123
+      ],
+      "png": [
+        "p0123.png",
+        "p0124.png"
+      ],
+      "promptEn": "Mary <u>must be</u> sick.",
+      "choices": [
+        "① 아플지도 모른다",
+        "② 아픈 것이 틀림없다"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q01",
+      "label": "1",
+      "section": "1-2",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "",
+      "choices": [
+        "We may be late for the concert.",
+        "You have to feed the bird.",
+        "I must arrive on time.",
+        "The child have to brush his teeth.",
+        "They may need some food."
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q02",
+      "label": "2",
+      "section": "1-2",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "",
+      "choices": [
+        "We don't have to hurry.",
+        "I can't play basketball.",
+        "You may touch not the paintings.",
+        "You must not run in the classroom.",
+        "She doesn't have to wear a uniform today."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q03",
+      "label": "3",
+      "section": "3-4",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "Brian must finish his homework.\n= Brian ________ finish his homework.",
+      "choices": [
+        "can",
+        "will",
+        "may",
+        "does",
+        "has to"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q04",
+      "label": "4",
+      "section": "3-4",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "You can use my cell phone. = You ________ use my cell phone.",
+      "choices": [
+        "will",
+        "must",
+        "may",
+        "are going to",
+        "have to"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q05",
+      "label": "5",
+      "section": "5",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "",
+      "choices": [
+        "The boy must is hungry.",
+        "We must pick not the apples.",
+        "May I take a rest now?",
+        "He don't have to get up early tomorrow.",
+        "Jane may not knows my e-mail address."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q06",
+      "label": "6",
+      "section": "6-8",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "You may play with the dog. → You ________ with the dog.",
+      "choices": [
+        "not may play",
+        "may not play",
+        "don't may play",
+        "may play not",
+        "may don't play"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q07",
+      "label": "7",
+      "section": "6-8",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "You must turn off the light. → You ________ turn off the light.",
+      "choices": [
+        "must not",
+        "not must",
+        "don't must",
+        "didn't must",
+        "weren't must"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q08",
+      "label": "8",
+      "section": "6-8",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "My father has to fix the car. → My father ________ fix the car.",
+      "choices": [
+        "has not to",
+        "don't have to",
+        "has doesn't to",
+        "doesn't have to",
+        "has to not"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q09",
+      "label": "9",
+      "section": "9-11",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "A: ________ sit on the chair?\nB: Yes, you may.",
+      "choices": [
+        "Will I",
+        "Can you",
+        "May I",
+        "Do I",
+        "May you"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q10",
+      "label": "10",
+      "section": "9-11",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "A: I can't find my brother.\nB: He ________ be at the playground.",
+      "choices": [
+        "will",
+        "may",
+        "can't",
+        "mustn't",
+        "has to"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q11",
+      "label": "11",
+      "section": "9-11",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "A: Laura walks her dog every day.\nB: She ________ love her dog.",
+      "choices": [
+        "must",
+        "will",
+        "can",
+        "may",
+        "can't"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q12",
+      "label": "12",
+      "section": "12-13",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "Jane was looking for her bag. That bag must be hers.",
+      "choices": [
+        "You must clean your room.",
+        "We must be quiet here.",
+        "You must come home before dark.",
+        "You must brush your teeth.",
+        "He must be sleepy."
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q13",
+      "label": "13",
+      "section": "12-13",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "It may be cold tomorrow.",
+      "choices": [
+        "You may buy that jacket.",
+        "I may be wrong.",
+        "May I use your eraser?",
+        "You may borrow my book.",
+        "May I watch TV now?"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q14",
+      "label": "14",
+      "section": "14",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "",
+      "choices": [
+        "A: May I try on this shirt? B: Sure.",
+        "A: May I help you? B: Yes. I'm looking for a T-shirt.",
+        "A: May I study English with you? B: Sorry, but you may.",
+        "A: May I have some water? B: OK. Here you are.",
+        "A: May I go home now? B: Yes, you may."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q15",
+      "label": "15",
+      "section": "15-16",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "• It ________ rain this afternoon.\n• You ________ have this pizza.",
+      "choices": [
+        "can",
+        "will",
+        "must",
+        "may",
+        "have to"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q16",
+      "label": "16",
+      "section": "15-16",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "• Jane ________ be sick today.\n• You ________ wash your hands first.",
+      "choices": [
+        "may",
+        "can",
+        "must",
+        "has to",
+        "will"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "unit-test-06.json",
+      "id": "q17",
+      "label": "17",
+      "section": "17",
+      "example": false,
+      "bookPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "png": [
+        "p0131.png",
+        "p0132.png",
+        "p0133.png",
+        "p0134.png",
+        "p0135.png"
+      ],
+      "promptEn": "• My father ________ work this Sunday.\n• You ________ tell a lie.",
+      "choices": [
+        "has to – must not",
+        "has to – can",
+        "must – may",
+        "can – may not",
+        "doesn't have to – mustn't"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "a01",
+      "label": "A1",
+      "section": "A",
+      "example": true,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "You ( may plays / may play ) a computer game now.",
+      "choices": [
+        "may plays",
+        "may play"
+      ],
+      "accept": [
+        "may play"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "a02",
+      "label": "A2",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "You ( not may / may not ) sleep more.",
+      "choices": [
+        "not may",
+        "may not"
+      ],
+      "accept": [
+        "may not"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "a03",
+      "label": "A3",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "( May I / May you ) sit here? / Yes, you may.",
+      "choices": [
+        "May I",
+        "May you"
+      ],
+      "accept": [
+        "May I"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "a04",
+      "label": "A4",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "May I use your pencil sharpener? / No, you ( not may / may not ).",
+      "choices": [
+        "not may",
+        "may not"
+      ],
+      "accept": [
+        "may not"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "a05",
+      "label": "A5",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "It ( may rain / mays rain ) this afternoon.",
+      "choices": [
+        "may rain",
+        "mays rain"
+      ],
+      "accept": [
+        "may rain"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "a06",
+      "label": "A6",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "She may ( not know / not knows ) my name.",
+      "choices": [
+        "not know",
+        "not knows"
+      ],
+      "accept": [
+        "not know"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "b01",
+      "label": "B1",
+      "section": "B",
+      "example": true,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "You <u>may not</u> like the color.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "c. ~하지 않을지도 모른다",
+        "c",
+        "~하지 않을지도 모른다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "b02",
+      "label": "B2",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "<u>May I</u> have some water?",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "e. ~해도 될까요?",
+        "e",
+        "~해도 될까요?"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "b03",
+      "label": "B3",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "You <u>may</u> watch a cartoon on TV.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "b. ~해도 된다",
+        "b",
+        "~해도 된다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "b04",
+      "label": "B4",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "You <u>may not</u> touch the dog.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "d. ~해서는 안 된다",
+        "d",
+        "~해서는 안 된다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "b05",
+      "label": "B5",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "The child <u>may</u> be hungry.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "a. ~할지도 모른다",
+        "a",
+        "~할지도 모른다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk1.json",
+      "id": "b06",
+      "label": "B6",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        119
+      ],
+      "png": [
+        "p0120.png"
+      ],
+      "promptEn": "It <u>may not</u> snow today.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "c. ~하지 않을지도 모른다",
+        "c",
+        "~하지 않을지도 모른다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "a01",
+      "label": "A1",
+      "section": "A",
+      "example": true,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "Nancy ( must / musts ) study math now.",
+      "choices": [
+        "must",
+        "musts"
+      ],
+      "accept": [
+        "must"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "a02",
+      "label": "A2",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "You ( must not / not must ) jump in the classroom.",
+      "choices": [
+        "must not",
+        "not must"
+      ],
+      "accept": [
+        "must not"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "a03",
+      "label": "A3",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "You have to ( wear / wearing ) a helmet.",
+      "choices": [
+        "wear",
+        "wearing"
+      ],
+      "accept": [
+        "wear"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "a04",
+      "label": "A4",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "He ( don't have to / doesn't have to ) buy a new bag.",
+      "choices": [
+        "don't have to",
+        "doesn't have to"
+      ],
+      "accept": [
+        "doesn't have to"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "a05",
+      "label": "A5",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "We ( don't have to / doesn't have to ) go to school today.",
+      "choices": [
+        "don't have to",
+        "doesn't have to"
+      ],
+      "accept": [
+        "don't have to"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "a06",
+      "label": "A6",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "They ( must are / must be ) thirsty.",
+      "choices": [
+        "must are",
+        "must be"
+      ],
+      "accept": [
+        "must be"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "a07",
+      "label": "A7",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "He ( musts / must ) be at home.",
+      "choices": [
+        "musts",
+        "must"
+      ],
+      "accept": [
+        "must"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "a08",
+      "label": "A8",
+      "section": "A",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "She must ( likes / like ) that color.",
+      "choices": [
+        "likes",
+        "like"
+      ],
+      "accept": [
+        "like"
+      ],
+      "printedOrderNote": "book: slash pair — JSON[0]=left/first, JSON[1]=right/second",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "b01",
+      "label": "B1",
+      "section": "B",
+      "example": true,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "You <u>must not</u> sit on the chair.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "c. ~해서는 안 된다",
+        "c",
+        "~해서는 안 된다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "b02",
+      "label": "B2",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "She <u>doesn't have to</u> be quiet.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "d. ~할 필요가 없다",
+        "d",
+        "~할 필요가 없다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "b03",
+      "label": "B3",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "I <u>must</u> make my bed.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "a. ~해야 한다",
+        "a",
+        "~해야 한다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "b04",
+      "label": "B4",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "We <u>don't have to</u> hurry.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "d. ~할 필요가 없다",
+        "d",
+        "~할 필요가 없다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "b05",
+      "label": "B5",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "I <u>must not</u> be late for school.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "c. ~해서는 안 된다",
+        "c",
+        "~해서는 안 된다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    },
+    {
+      "file": "walk2.json",
+      "id": "b06",
+      "label": "B6",
+      "section": "B",
+      "example": false,
+      "bookPages": [
+        121
+      ],
+      "png": [
+        "p0122.png"
+      ],
+      "promptEn": "Sorry. You <u>must</u> have the wrong number.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "b. ~임이 틀림없다",
+        "b",
+        "~임이 틀림없다"
+      ],
+      "printedOrderNote": "book: ①②③④⑤ matches choices[] index 0..n-1",
+      "status": "ok"
+    }
+  ]
+}
