@@ -12,7 +12,7 @@
   "sectionsVersion": 2,
   "items": [
     {
-      "id": "w1_1",
+      "id": "wrap-w1_1",
       "section": "1",
       "sectionTitle": "1. what/which/whose+명사",
       "sectionInstructionKo": "Unit 02에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 의문사는 영어로, 문법 용어는 우리말로 쓰세요.)",
@@ -20,15 +20,16 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "1-1",
       "type": "fill",
-      "promptKo": "① what+[1]는 '무엇', '어떤 ~'이라는 뜻이다. → [1]",
+      "promptKo": "① 「what+[1]」는 '무슨 ~', '어떤 ~'이라는 뜻이다. → [1]",
       "blanks": 1,
       "accept": [
         "명사",
-        "noun"
+        "noun",
+        "Noun"
       ]
     },
     {
-      "id": "w1_2",
+      "id": "wrap-w1_2",
       "section": "1",
       "sectionTitle": "1. what/which/whose+명사",
       "sectionInstructionKo": "Unit 02에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 의문사는 영어로, 문법 용어는 우리말로 쓰세요.)",
@@ -36,14 +37,14 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "1-2",
       "type": "fill",
-      "promptKo": "② '어느'라는 뜻으로, 제한된 범위 안에서 선택할 때 [2]+명사를 쓴다. → [2]",
+      "promptKo": "② '어느 ~'라는 뜻으로, 제한된 범위 안에서 어느 것을 선택할지 물을 때 「[2]+명사」를 쓴다. → [2]",
       "blanks": 1,
       "accept": [
         "which"
       ]
     },
     {
-      "id": "w1_3",
+      "id": "wrap-w1_3",
       "section": "1",
       "sectionTitle": "1. what/which/whose+명사",
       "sectionInstructionKo": "Unit 02에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 의문사는 영어로, 문법 용어는 우리말로 쓰세요.)",
@@ -51,14 +52,14 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "1-3",
       "type": "fill",
-      "promptKo": "③ '누구의'라는 뜻으로 [3]+명사를 쓴다. → [3]",
+      "promptKo": "③ '누구의 ~'라는 뜻으로 명사가 누구의 것인지 물을 때 「[3]+명사」를 쓴다. → [3]",
       "blanks": 1,
       "accept": [
         "whose"
       ]
     },
     {
-      "id": "w2_1",
+      "id": "wrap-w2_1",
       "section": "2",
       "sectionTitle": "2. how+형용사/부사",
       "sectionInstructionKo": "Unit 02에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 의문사는 영어로, 문법 용어는 우리말로 쓰세요.)",
@@ -66,15 +67,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "2-1",
       "type": "fill",
-      "promptKo": "① [1] how much는 (가격이) 얼마, 얼마나 많은을 묻는다. → [1]",
+      "promptKo": "① [1]는 얼마나 많은, (가격이) 얼마를 묻는다. → [1]",
       "blanks": 1,
       "accept": [
         "how much",
-        "much"
+        "How much"
       ]
     },
     {
-      "id": "w2_2",
+      "id": "wrap-w2_2",
       "section": "2",
       "sectionTitle": "2. how+형용사/부사",
       "sectionInstructionKo": "Unit 02에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 의문사는 영어로, 문법 용어는 우리말로 쓰세요.)",
@@ -82,9 +83,11 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "2-2",
       "type": "fill",
-      "promptKo": "② how many는 셀 수 있는 명사의 [2]를 묻는다. → [2]",
+      "promptKo": "② [2]는 셀 수 있는 명사(복수)의 개수를 묻는다. → [2]",
       "blanks": 1,
       "accept": [
+        "how many",
+        "How many",
         "개수",
         "수",
         "number",
@@ -92,7 +95,7 @@
       ]
     },
     {
-      "id": "w2_3",
+      "id": "wrap-w2_3",
       "section": "2",
       "sectionTitle": "2. how+형용사/부사",
       "sectionInstructionKo": "Unit 02에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 의문사는 영어로, 문법 용어는 우리말로 쓰세요.)",
@@ -100,12 +103,14 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "2-3",
       "type": "fill",
-      "promptKo": "③ how far는 거리가 [3], how often은 얼마나 자주를 묻는다. → [3]",
+      "promptKo": "③ how old는 (나이가) [3]을, how tall은 (키가) 몇, 얼마를 묻는다. → [3]",
       "blanks": 1,
       "accept": [
-        "먼",
-        "멀리",
-        "far"
+        "얼마나 많은",
+        "많은",
+        "나이가 많은",
+        "나이가 얼마나 많은",
+        "old"
       ]
     }
   ],

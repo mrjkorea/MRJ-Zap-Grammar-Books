@@ -12,7 +12,7 @@
   "sectionsVersion": 2,
   "items": [
     {
-      "id": "a01",
+      "id": "jump-a01",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -30,7 +30,7 @@
       "exampleAnswer": "What"
     },
     {
-      "id": "a02",
+      "id": "jump-a02",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": "a03",
+      "id": "jump-a03",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "id": "a04",
+      "id": "jump-a04",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": "a05",
+      "id": "jump-a05",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "id": "a06",
+      "id": "jump-a06",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "id": "a07",
+      "id": "jump-a07",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "id": "a08",
+      "id": "jump-a08",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "id": "a09",
+      "id": "jump-a09",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "id": "a10",
+      "id": "jump-a10",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "id": "a11",
+      "id": "jump-a11",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "id": "a12",
+      "id": "jump-a12",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "id": "b01",
+      "id": "jump-b01",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -203,17 +203,14 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "What size is this shirt?\n이 셔츠는 무슨 사이즈니?",
-      "blanks": 5,
-      "accept": [
-        "What|size|is|this|shirt?"
-      ],
+      "promptEn": "What size is this shirt?",
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "What size is this shirt?"
+      "exampleAnswer": "What size is this shirt?",
+      "promptKo": "이 셔츠는 무슨 사이즈니?"
     },
     {
-      "id": "b02",
+      "id": "jump-b02",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -221,15 +218,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "Which / story / is / more / interesting, / Snow White / or / Pinocchio?",
-      "blanks": 8,
+      "promptEn": "_____ _____ story more interesting, \"Snow White\" or \"Pinocchio\"?",
+      "blanks": 2,
       "accept": [
-        "Which|story|is|more|interesting,|Snow White|or|Pinocchio?",
-        "Which|story|is|more|interesting,|\"Snow White\"|or|\"Pinocchio\"?"
-      ]
+        "Which|is"
+      ],
+      "promptKo": "「백설 공주」와 「피노키오」 중에서 어느 이야기가 더 흥미롭니?"
     },
     {
-      "id": "b03",
+      "id": "jump-b03",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -237,14 +234,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "Whose / phone / is / this?",
-      "blanks": 4,
+      "promptEn": "_____ _____ phone this?",
+      "blanks": 2,
       "accept": [
-        "Whose|phone|is|this?"
-      ]
+        "Whose|is"
+      ],
+      "promptKo": "이것은 누구의 전화기니?"
     },
     {
-      "id": "b04",
+      "id": "jump-b04",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -252,14 +250,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "How / far / is / the / beach / from / here?",
-      "blanks": 7,
+      "promptEn": "_____ far _____ the beach from here?",
+      "blanks": 2,
       "accept": [
-        "How|far|is|the|beach|from|here?"
-      ]
+        "How|is"
+      ],
+      "promptKo": "그 해변은 여기에서 얼마나 머니?"
     },
     {
-      "id": "b05",
+      "id": "jump-b05",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -267,14 +266,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "Whose / shoes / are / those?",
-      "blanks": 4,
+      "promptEn": "_____ _____ shoes those?",
+      "blanks": 2,
       "accept": [
-        "Whose|shoes|are|those?"
-      ]
+        "Whose|are"
+      ],
+      "promptKo": "저것은 누구의 신발이니?"
     },
     {
-      "id": "b06",
+      "id": "jump-b06",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -282,14 +282,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B6",
       "type": "fill",
-      "promptEn": "What / flowers / does / she / like?",
-      "blanks": 5,
+      "promptEn": "_____ _____ flowers she like?",
+      "blanks": 2,
       "accept": [
-        "What|flowers|does|she|like?"
-      ]
+        "What|does"
+      ],
+      "promptKo": "그녀는 무슨 꽃을 좋아하니?"
     },
     {
-      "id": "b07",
+      "id": "jump-b07",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -297,15 +298,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B7",
       "type": "fill",
-      "promptEn": "How / fast / can / a / cheetah / run?",
-      "blanks": 6,
+      "promptEn": "_____ _____ fast a cheetah run?",
+      "blanks": 2,
       "accept": [
-        "How|fast|can|a|cheetah|run?",
-        "How|fast|does|a|cheetah|run?"
-      ]
+        "How|can"
+      ],
+      "promptKo": "치타는 얼마나 빨리 달리니?"
     },
     {
-      "id": "b08",
+      "id": "jump-b08",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -313,14 +314,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B8",
       "type": "fill",
-      "promptEn": "Which / musical / does / she / like / more, / Les Miserables / or / The Lion King?",
-      "blanks": 9,
+      "promptEn": "_____ _____ musical she like more, Les Misérables or The Lion King?",
+      "blanks": 2,
       "accept": [
-        "Which|musical|does|she|like|more,|Les Miserables|or|The Lion King?"
-      ]
+        "Which|does"
+      ],
+      "promptKo": "그녀는 「레 미제라블」과 「라이언 킹」 중에서 어느 뮤지컬을 더 좋아하니?"
     },
     {
-      "id": "b09",
+      "id": "jump-b09",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -328,14 +330,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B9",
       "type": "fill",
-      "promptEn": "How / long / can / you / stay / here?",
-      "blanks": 6,
+      "promptEn": "_____ _____ long you stay here?",
+      "blanks": 2,
       "accept": [
-        "How|long|can|you|stay|here?"
-      ]
+        "How|can"
+      ],
+      "promptKo": "너는 얼마나 오래 여기에 머무를 수 있니?"
     },
     {
-      "id": "b10",
+      "id": "jump-b10",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -343,14 +346,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B10",
       "type": "fill",
-      "promptEn": "How / tall / can / this / tree / grow?",
-      "blanks": 6,
+      "promptEn": "_____ _____ tall this tree grow?",
+      "blanks": 2,
       "accept": [
-        "How|tall|can|this|tree|grow?"
-      ]
+        "How|can"
+      ],
+      "promptKo": "이 나무는 얼마나 높이 자랄 수 있니?"
     },
     {
-      "id": "b11",
+      "id": "jump-b11",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -358,14 +362,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B11",
       "type": "fill",
-      "promptEn": "What / day / shall / we / practice / soccer?",
-      "blanks": 6,
+      "promptEn": "_____ _____ day we practice soccer?",
+      "blanks": 2,
       "accept": [
-        "What|day|shall|we|practice|soccer?"
-      ]
+        "What|shall"
+      ],
+      "promptKo": "우리 무슨 요일에 축구 연습을 할까?"
     },
     {
-      "id": "b12",
+      "id": "jump-b12",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -373,14 +378,15 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B12",
       "type": "fill",
-      "promptEn": "How / much / water / does / the / plant / need / a / day?",
-      "blanks": 9,
+      "promptEn": "_____ _____ water _____ the plant need a day?",
+      "blanks": 3,
       "accept": [
-        "How|much|water|does|the|plant|need|a|day?"
-      ]
+        "How|much|does"
+      ],
+      "promptKo": "그 식물은 하루에 물이 얼마나 많이 필요하니?"
     },
     {
-      "id": "b13",
+      "id": "jump-b13",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장의 빈칸에 쓰세요. 중복해서 쓸 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -388,11 +394,12 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B13",
       "type": "fill",
-      "promptEn": "How / many / dishes / did / Charlie / break?",
-      "blanks": 6,
+      "promptEn": "_____ _____ dishes _____ Charlie break?",
+      "blanks": 3,
       "accept": [
-        "How|many|dishes|did|Charlie|break?"
-      ]
+        "How|many|did"
+      ],
+      "promptKo": "찰리는 접시를 몇 개 깨뜨렸니?"
     }
   ],
   "introKo": "이 연습은 Section A 12문항(빈칸 말만 쓰기), Section B 13문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",

@@ -11,12 +11,67 @@ for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
   vm.runInContext(fs.readFileSync(path.join(REPO, f), "utf8"), ctx);
 }
 const E = win.MRJ_ENGINE;
+
+/** Lock MC choice order / counts verified against book scans (PDF pp. 31–48). */
+const MC_LOCK = {
+  "g3:u02:walk1": {
+    b01: ["①", "②", "③"],
+    b02: ["①", "②", "③"],
+    b03: ["①", "②", "③"],
+    b04: ["①", "②", "③"],
+    b05: ["①", "②", "③"],
+  },
+  "g3:u02:walk2": {
+    b01: ["①", "②"],
+    b02: ["①", "②"],
+    b03: ["①", "②"],
+    b04: ["①", "②"],
+    b05: ["①", "②"],
+  },
+  "g3:u02:run": {
+    b02: ["I play the sport every day.", "I play tennis."],
+    b03: ["I like a turtle better.", "A turtle lives longer."],
+    b12: ["I have five friends.", "They are eleven years old."],
+  },
+};
+
 let total = 0;
 let bad = 0;
+const globalIds = new Set();
+
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const pid = d.practiceId || f;
+  const slug = pid.replace(/^g3:u02:/, "");
+  const localIds = new Set();
   let ok = 0;
   for (const it of d.items) {
+    if (!it.id || !String(it.id).startsWith(slug + "-")) {
+      bad++;
+      console.log("ID-FORMAT", f, it.id, "expected prefix", slug + "-");
+    }
+    if (localIds.has(it.id)) {
+      bad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    localIds.add(it.id);
+    const metricId = pid + ":" + it.id;
+    if (globalIds.has(metricId)) {
+      bad++;
+      console.log("DUP-METRIC", metricId);
+    }
+    globalIds.add(metricId);
+
+    if (it.type === "mc" && MC_LOCK[pid] && MC_LOCK[pid][it.id.replace(slug + "-", "")]) {
+      const want = MC_LOCK[pid][it.id.replace(slug + "-", "")];
+      const got = JSON.stringify(it.choices);
+      const exp = JSON.stringify(want);
+      if (got !== exp) {
+        bad++;
+        console.log("CHOICE-LOCK", f, it.id, "want", exp, "got", got);
+      }
+    }
+
     if (it.displayOnly) continue;
     total++;
     let right;
