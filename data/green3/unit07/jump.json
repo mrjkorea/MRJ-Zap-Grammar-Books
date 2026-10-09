@@ -1,0 +1,508 @@
+{
+  "practiceId": "g3:u07:jump",
+  "title": "Grammar Jump",
+  "subtitle": "재귀대명사 (pp. 148–149)",
+  "pages": "148–149",
+  "timerMinutes": 24,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 재귀대명사",
+  "wordBank": [
+    "myself",
+    "yourself",
+    "itself",
+    "herself",
+    "himself",
+    "ourselves",
+    "yourselves",
+    "themselves",
+    "by herself",
+    "enjoyed myself",
+    "to himself"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기), Section B 11문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요.",
+      "ruleKo": "(myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "himself",
+      "type": "fill",
+      "promptKo": "고흐는 자기 자신을 그렸다.",
+      "promptEn": "Gogh drew _____. ( he )",
+      "blanks": 1,
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptKo": "그 작은 새는 아침마다 자기 자신을 씻는다.",
+      "promptEn": "The little bird washes _____ every morning. ( it )",
+      "blanks": 1,
+      "accept": [
+        "itself"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptKo": "그 아이들은 자신들을 보살필 수 없다.",
+      "promptEn": "The kids can't take care of _____. ( they )",
+      "blanks": 1,
+      "accept": [
+        "themselves"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptKo": "우리는 물에 비친 우리 자신을 보았다.",
+      "promptEn": "We looked at _____ in the water. ( we )",
+      "blanks": 1,
+      "accept": [
+        "ourselves"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptKo": "나는 나 자신을 위해 새 머리띠를 살 것이다.",
+      "promptEn": "I will buy a new headband for _____. ( I )",
+      "blanks": 1,
+      "accept": [
+        "myself"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptKo": "그 영화 자체가 무척 흥미로웠다.",
+      "promptEn": "The movie _____ was very interesting. ( it )",
+      "blanks": 1,
+      "accept": [
+        "itself"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptKo": "우리 누나와 내가 직접 그 케이크를 만들었다.",
+      "promptEn": "My sister and I made the cake _____. ( we )",
+      "blanks": 1,
+      "accept": [
+        "ourselves"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptKo": "릴리가 내게 그 이야기를 직접 말해 주었다.",
+      "promptEn": "Lily told me the story _____. ( she )",
+      "blanks": 1,
+      "accept": [
+        "herself"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptKo": "너와 토니가 직접 꽃에 물을 주었다.",
+      "promptEn": "You and Tony watered the flowers _____. ( you )",
+      "blanks": 1,
+      "accept": [
+        "yourselves"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptKo": "망치를 조심해라, 그러지 않으면 네가 다칠 것이다.",
+      "promptEn": "Be careful with the hammer, or you will hurt _____. ( you )",
+      "blanks": 1,
+      "accept": [
+        "yourself"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptKo": "카일은 혼자서 일주일 동안 여행했다.",
+      "promptEn": "Kyle traveled by _____ for a week. ( he )",
+      "blanks": 1,
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptKo": "그 노부인은 자주 혼잣말을 하신다.",
+      "promptEn": "The old lady often talks to _____. ( she )",
+      "blanks": 1,
+      "accept": [
+        "herself"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptKo": "마이크와 나는 동물원에서 아주 즐거운 시간을 보냈다.",
+      "promptEn": "Mike and I really enjoyed _____ at the zoo. ( we )",
+      "blanks": 1,
+      "accept": [
+        "ourselves"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptKo": "그 남자아이들은 햄버거를 마음껏 먹었다.",
+      "promptEn": "The boys helped _____ to the hamburgers. ( they )",
+      "blanks": 1,
+      "accept": [
+        "themselves"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptKo": "나는 독일어를 독학하고 있다.",
+      "promptEn": "I am teaching _____ German. ( I )",
+      "blanks": 1,
+      "accept": [
+        "myself"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "itself",
+      "type": "fill",
+      "promptEn": "The lion cleaned _____ with its tongue.",
+      "blanks": 1,
+      "accept": [
+        "itself"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Anna introduced _____ to her new classmates.",
+      "blanks": 1,
+      "accept": [
+        "herself"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "We can take care of _____.",
+      "blanks": 1,
+      "accept": [
+        "ourselves"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Do you know _____ well?",
+      "blanks": 1,
+      "accept": [
+        "yourselves"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "I _____ fixed the TV.",
+      "blanks": 1,
+      "accept": [
+        "myself"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "My brother and I built the sandcastle _____.",
+      "blanks": 1,
+      "accept": [
+        "ourselves"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "Do you make your bed _____?",
+      "blanks": 1,
+      "accept": [
+        "yourself"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "My dad walks the dog _____.",
+      "blanks": 1,
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "The students painted the wall _____.",
+      "blanks": 1,
+      "accept": [
+        "themselves"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "My aunt lives _____ _____.",
+      "blanks": 2,
+      "accept": [
+        "by|herself"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "The old man often talks _____ _____.",
+      "blanks": 2,
+      "accept": [
+        "to|himself"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (myself / yourself / itself / herself / himself / ourselves / yourselves / themselves / by herself / enjoyed myself / to himself) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "I _____ _____ at the concert.",
+      "blanks": 2,
+      "accept": [
+        "enjoyed|myself"
+      ]
+    }
+  ]
+}

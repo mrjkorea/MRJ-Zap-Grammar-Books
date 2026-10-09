@@ -1,0 +1,714 @@
+{
+  "practiceId": "g3:u07:quiz",
+  "title": "Unit Test 07",
+  "subtitle": "재귀대명사 (pp. 154–158)",
+  "pages": "154–158",
+  "timerMinutes": 28,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 재귀대명사",
+  "testId": "unit-test-07",
+  "passPct": 80,
+  "retryBelowPct": 50,
+  "showAnswersToStudent": false,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(고르기), [3–4] 2문항(고르기), [5] 1문항(고르기), [6] 1문항(고르기), [7–9] 3문항(고르기), [10–11] 2문항(고르기), [12–13] 2문항(고르기), [14–15] 2문항(고르기), [16–18] 3문항(고르기), [19–21] 3문항(빈칸 말만 쓰기), [22–25] 4문항(빈칸 말만 쓰기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "1",
+      "title": "[1]",
+      "instructionKo": "다음 중 재귀대명사와 우리말 뜻이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 재귀대명사와 우리말 뜻이 바르게 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "1"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "[2]",
+      "instructionKo": "다음 중 인칭대명사와 재귀대명사가 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 인칭대명사와 재귀대명사가 바르게 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "2"
+      ]
+    },
+    {
+      "id": "3-4",
+      "title": "[3–4]",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "[5]",
+      "instructionKo": "다음 중 영어와 우리말이 잘못 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 영어와 우리말이 잘못 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "5"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "[6]",
+      "instructionKo": "다음 중 밑줄 친 부분의 우리말 뜻이 올바른 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 밑줄 친 부분의 우리말 뜻이 올바른 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "6"
+      ]
+    },
+    {
+      "id": "7-9",
+      "title": "[7–9]",
+      "instructionKo": "다음 문장에서 밑줄 친 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 우리말을 영어로 바르게 옮긴 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "10-11",
+      "title": "[10–11]",
+      "instructionKo": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "10",
+        "11"
+      ]
+    },
+    {
+      "id": "12-13",
+      "title": "[12–13]",
+      "instructionKo": "다음 문장의 우리말 뜻으로 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 우리말 뜻으로 알맞은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "14-15",
+      "title": "[14–15]",
+      "instructionKo": "다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 우리말을 영어로 바르게 옮긴 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "14",
+        "15"
+      ]
+    },
+    {
+      "id": "16-18",
+      "title": "[16–18]",
+      "instructionKo": "다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "16",
+        "17",
+        "18"
+      ]
+    },
+    {
+      "id": "19-21",
+      "title": "[19–21]",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "19",
+        "20",
+        "21"
+      ]
+    },
+    {
+      "id": "22-25",
+      "title": "[22–25]",
+      "instructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "22",
+        "23",
+        "24",
+        "25"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "1",
+      "sectionTitle": "[1]",
+      "sectionInstructionKo": "다음 중 재귀대명사와 우리말 뜻이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "himself - 그녀 자신",
+        "herself - 그 자신",
+        "themselves - 그것 자신",
+        "ourselves - 우리 자신",
+        "itself - 그들 자신"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q02",
+      "section": "2",
+      "sectionTitle": "[2]",
+      "sectionInstructionKo": "다음 중 인칭대명사와 재귀대명사가 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "I - meself",
+        "you - yourself",
+        "he - hiself",
+        "we - weselves",
+        "they - themself"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q03",
+      "section": "3-4",
+      "sectionTitle": "[3–4]",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "Do you know _____ well?",
+      "choices": [
+        "yourself",
+        "themselves",
+        "herself",
+        "myself",
+        "ourselves"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q04",
+      "section": "3-4",
+      "sectionTitle": "[3–4]",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "Mom and I made the garden _____.",
+      "choices": [
+        "yourself",
+        "yourselves",
+        "herself",
+        "myself",
+        "ourselves"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q05",
+      "section": "5",
+      "sectionTitle": "[5]",
+      "sectionInstructionKo": "다음 중 영어와 우리말이 잘못 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "by oneself - 혼자서",
+        "enjoy oneself - 즐거운 시간을 보내다",
+        "teach oneself - 독학하다",
+        "cut oneself - 베이다",
+        "help oneself - 마음대로 하다"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q06",
+      "section": "6",
+      "sectionTitle": "[6]",
+      "sectionInstructionKo": "다음 중 밑줄 친 부분의 우리말 뜻이 올바른 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "I heard the news myself. (나 혼자서)",
+        "They love themselves. (그들이 직접)",
+        "Did you do your homework yourself? (너 자신을 위해)",
+        "He himself decorated the house. (그가 직접)",
+        "You yourself cooked dinner. (너 혼자서)"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q07",
+      "section": "7-9",
+      "sectionTitle": "[7–9]",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "Jane and Betty cleaned their room [그들이 직접].",
+      "choices": [
+        "they",
+        "their",
+        "themselves",
+        "themself",
+        "them"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q08",
+      "section": "7-9",
+      "sectionTitle": "[7–9]",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "Mr. Bruce traveled [혼자서] for a week.",
+      "choices": [
+        "him",
+        "by him",
+        "about him",
+        "about himself",
+        "by himself"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q09",
+      "section": "7-9",
+      "sectionTitle": "[7–9]",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "The lion licked [그 자신].",
+      "choices": [
+        "it",
+        "itself",
+        "them",
+        "themselves",
+        "yourself"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q10",
+      "section": "10-11",
+      "sectionTitle": "[10–11]",
+      "sectionInstructionKo": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "I am proud of myself.",
+        "She saw herself on TV.",
+        "I knitted the mittens ourselves.",
+        "Tom bought a nice hat for himself.",
+        "The dogs barked at themselves in the mirror."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q11",
+      "section": "10-11",
+      "sectionTitle": "[10–11]",
+      "sectionInstructionKo": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "I enjoyed myself.",
+        "The computer turned off by itself.",
+        "Mom hurt themselves.",
+        "Did you teach yourself to skate?",
+        "The boy cooked the soup himself."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q12",
+      "section": "12-13",
+      "sectionTitle": "[12–13]",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻으로 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "We enjoyed ourselves at the party.",
+      "choices": [
+        "우리는 파티를 했다.",
+        "우리는 파티를 좋아한다.",
+        "우리는 파티에서 시간을 보냈다.",
+        "우리는 파티에서 즐거운 시간을 보냈다.",
+        "우리는 직접 파티를 열었다."
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q13",
+      "section": "12-13",
+      "sectionTitle": "[12–13]",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻으로 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "13",
+      "type": "mc",
+      "promptEn": "Susan cut herself with paper.",
+      "choices": [
+        "수전은 종이를 잘랐다.",
+        "수전은 종이에 베였다.",
+        "수전은 직접 종이를 잘랐다.",
+        "수전은 종이로 잘랐다.",
+        "수전 자신이 종이를 잘랐다."
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q14",
+      "section": "14-15",
+      "sectionTitle": "[14–15]",
+      "sectionInstructionKo": "다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "그는 그 학생들에게 자기 자신을 소개했다.",
+      "choices": [
+        "He introduced the students.",
+        "He introduced to the students.",
+        "He introduced himself to the students.",
+        "He introduced him to the students.",
+        "He was introducing to the students."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q15",
+      "section": "14-15",
+      "sectionTitle": "[14–15]",
+      "sectionInstructionKo": "다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "과자를 마음껏 먹어라.",
+      "choices": [
+        "Help for yourself.",
+        "Help you to the cookies.",
+        "Help you with the cookies.",
+        "Help yourself for the cookies.",
+        "Help yourself to the cookies."
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q16",
+      "section": "16-18",
+      "sectionTitle": "[16–18]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "16",
+      "type": "mc",
+      "promptEn": "I taught ( me / myself ) to swim.",
+      "choices": [
+        "me",
+        "myself"
+      ],
+      "accept": [
+        "myself"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "16-18",
+      "sectionTitle": "[16–18]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "17",
+      "type": "mc",
+      "promptEn": "Lisa makes her bed ( her / herself ).",
+      "choices": [
+        "her",
+        "herself"
+      ],
+      "accept": [
+        "herself"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "16-18",
+      "sectionTitle": "[16–18]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "18",
+      "type": "mc",
+      "promptEn": "Gogh drew ( him / himself ) many times.",
+      "choices": [
+        "him",
+        "himself"
+      ],
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "19-21",
+      "sectionTitle": "[19–21]",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "19",
+      "type": "fill",
+      "promptKo": "스미스 씨는 스미스 씨에 대해 말하지 않는다.",
+      "promptEn": "Mr. Smith doesn't talk about Mr. Smith.\nMr. Smith doesn't talk about _____.",
+      "blanks": 1,
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "19-21",
+      "sectionTitle": "[19–21]",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "20",
+      "type": "fill",
+      "promptKo": "아기들은 아기들을 돌볼 수 없다.",
+      "promptEn": "Babies can't take care of the babies.\nBabies can't take care of _____.",
+      "blanks": 1,
+      "accept": [
+        "themselves"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "19-21",
+      "sectionTitle": "[19–21]",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "21",
+      "type": "fill",
+      "promptKo": "제인은 제인을 위해 코코아를 만들었다.",
+      "promptEn": "Jane made hot chocolate for Jane.\nJane made hot chocolate for _____.",
+      "blanks": 1,
+      "accept": [
+        "herself"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "22-25",
+      "sectionTitle": "[22–25]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "22",
+      "type": "fill",
+      "promptKo": "그 말은 경주 중에 다쳤다.",
+      "promptEn": "그 말은 경주 중에 다쳤다. ( hurt )\nThe horse _____ _____ during the race.",
+      "blanks": 2,
+      "accept": [
+        "hurt|itself"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "22-25",
+      "sectionTitle": "[22–25]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "23",
+      "type": "fill",
+      "promptKo": "그 노부인은 자주 혼잣말을 하신다.",
+      "promptEn": "그 노부인은 자주 혼잣말을 하신다. ( talk )\nThe old lady often _____ _____ _____.",
+      "blanks": 3,
+      "accept": [
+        "talks|to|herself"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "22-25",
+      "sectionTitle": "[22–25]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "24",
+      "type": "fill",
+      "promptKo": "내가 직접 그 사진들을 찍었다.",
+      "promptEn": "내가 직접 그 사진들을 찍었다. ( take )\nI _____ the pictures _____.",
+      "blanks": 2,
+      "accept": [
+        "took|myself"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "22-25",
+      "sectionTitle": "[22–25]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "25",
+      "type": "fill",
+      "promptKo": "그는 그 컴퓨터를 직접 고쳤니?",
+      "promptEn": "그는 그 컴퓨터를 직접 고쳤니? ( fix )\nDid he _____ _____ the computer?",
+      "blanks": 2,
+      "accept": [
+        "fix|himself"
+      ]
+    }
+  ]
+}

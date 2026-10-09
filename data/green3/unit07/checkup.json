@@ -1,0 +1,87 @@
+{
+  "practiceId": "g3:u07:checkup",
+  "title": "Check Up",
+  "subtitle": "만화 대화 빈칸 (p. 159)",
+  "pages": "159",
+  "timerMinutes": 6,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 재귀대명사",
+  "wordBank": [
+    "myself",
+    "yourself",
+    "ourselves"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 3문항(고르기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (myself / yourself / ourselves) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (myself / yourself / ourselves)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (myself / yourself / ourselves) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[만화] 장난감 가게에서 혼자 인형을 고르는 아이.\nBoy: I can choose this doll _____.",
+      "blanks": 1,
+      "accept": [
+        "myself"
+      ],
+      "auditNote": "from OCR - needs check"
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (myself / yourself / ourselves) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "[만화] 밖에서 친구가 기다리며 손짓한다.\nMom: You should try the toy _____, honey.",
+      "blanks": 1,
+      "accept": [
+        "yourself"
+      ],
+      "auditNote": "from OCR - needs check"
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (myself / yourself / ourselves) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "[만화] 형제가 함께 장난감을 고른다.\nWe picked these toys _____.",
+      "blanks": 1,
+      "accept": [
+        "ourselves"
+      ],
+      "auditNote": "from OCR - needs check"
+    }
+  ]
+}
