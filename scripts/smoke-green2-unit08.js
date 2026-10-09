@@ -1,0 +1,105 @@
+/* Smoke-grade every GZ2 Unit 08 item with normalize.js + engine.js gradeItem. */
+const fs = require("fs");
+const path = require("path");
+const vm = require("vm");
+
+const REPO = path.join(__dirname, "..");
+const DATA = path.join(REPO, "data/green2/unit08");
+const win = {};
+const ctx = vm.createContext({ window: win, Date, Math, JSON, String, Array, Object, RegExp, Promise });
+for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
+  vm.runInContext(fs.readFileSync(path.join(REPO, f), "utf8"), ctx);
+}
+const E = win.MRJ_ENGINE;
+let total = 0;
+let bad = 0;
+for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
+  const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  let ok = 0;
+  for (const it of d.items) {
+    if (it.displayOnly) continue;
+    total++;
+    let right;
+    let wrong;
+    if (it.type === "mc") {
+      const a = it.accept[0];
+      const idx = /^\d$/.test(a) ? Number(a) - 1 : it.choices.indexOf(a);
+      right = { value: it.choices[idx] };
+      wrong = { value: it.choices[(idx + 1) % it.choices.length] };
+    } else if ((it.blanks || 1) > 1) {
+      const parts = it.accept[0].split("|");
+      right = { parts, value: parts.join(" ") };
+      const wp = parts.slice();
+      wp[0] = "xyz";
+      wrong = { parts: wp, value: wp.join(" ") };
+    } else {
+      const acc0 = it.accept[0];
+      right = /^[a-zA-Z .,'-]+$/.test(acc0) ? { value: "  " + acc0.toUpperCase() + "  " } : { value: acc0 };
+      wrong = { value: "nope" };
+    }
+    const r = E.gradeItem(it, right);
+    const w = E.gradeItem(it, wrong);
+    if (r && !w) ok++;
+    else {
+      bad++;
+      console.log("FAIL", f, it.id, JSON.stringify(right), r, w);
+    }
+    for (const acc of it.accept) {
+      let resp;
+      if (it.type === "mc") {
+        const i2 = /^\d$/.test(acc) ? Number(acc) - 1 : it.choices.indexOf(acc);
+        if (i2 < 0) continue;
+        resp = { value: it.choices[i2] };
+      } else if ((it.blanks || 1) > 1) {
+        const p = acc.split("|");
+        resp = { parts: p, value: p.join(" ") };
+      } else resp = { value: acc };
+      if (!E.gradeItem(it, resp)) {
+        bad++;
+        console.log("ACCEPT-FAIL", f, it.id, acc);
+      }
+    }
+  }
+  console.log(f.padEnd(20), (d.practiceId || "").padEnd(16), "items", d.items.length, "ok", ok, "timer", d.timerMinutes);
+}
+const jump = JSON.parse(fs.readFileSync(path.join(DATA, "jump.json"), "utf8"));
+const b11 = jump.items.find((x) => x.id === "b11");
+const b12 = jump.items.find((x) => x.id === "b12");
+if (b11) {
+  if (E.gradeItem(b11, { parts: ["where", "hide"], value: "where hide" })) {
+    bad++;
+    console.log("FAIL jump b11 must not accept where+hide");
+  }
+  if (!E.gradeItem(b11, { parts: ["to", "hide"], value: "to hide" })) {
+    bad++;
+    console.log("FAIL jump b11 to+hide");
+  }
+  if (E.gradeItem(b11, { parts: ["", "hide"], value: "hide" })) {
+    bad++;
+    console.log("FAIL jump b11 must not accept empty first blank + hide");
+  }
+  if (!E.gradeItem(b11, { parts: ["to hide"], value: "to hide" })) {
+    bad++;
+    console.log("FAIL jump b11 phrase to hide in one box");
+  }
+}
+if (b12) {
+  if (E.gradeItem(b12, { parts: ["what", "say"], value: "what say" })) {
+    bad++;
+    console.log("FAIL jump b12 must not accept what+say");
+  }
+  if (!E.gradeItem(b12, { parts: ["to", "say"], value: "to say" })) {
+    bad++;
+    console.log("FAIL jump b12 to+say");
+  }
+  if (E.gradeItem(b12, { parts: ["", "say"], value: "say" })) {
+    bad++;
+    console.log("FAIL jump b12 must not accept empty first blank + say");
+  }
+  if (!E.gradeItem(b12, { parts: ["to say"], value: "to say" })) {
+    bad++;
+    console.log("FAIL jump b12 phrase to say in one box");
+  }
+}
+console.log(bad ? "FAILURES: " + bad : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)");
+process.exit(bad ? 1 : 0);

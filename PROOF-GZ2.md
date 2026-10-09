@@ -1,0 +1,122 @@
+# PROOF-GZ2 — GreenZap 2 full book
+
+Build: `20261009-gz2-full`
+
+## Practice matrix (78 rows)
+
+| Unit | Practice | Book pages | Graded | Smoke | Audit | Live link |
+|------|----------|------------|--------|-------|-------|----------|
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | Grammar Walk — Lesson 01 | 11 | 28 | OK | OK (PR #18) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-01/walk1 |
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | Grammar Walk — Lesson 02 | 13 | 14 | OK | OK (PR #18) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-01/walk2 |
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | Grammar Run | 14–15 | 42 | OK | OK (PR #18) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-01/run |
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | Grammar Jump | 16–17 | 25 | OK | OK (PR #18) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-01/jump |
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | Grammar Fly | 18–19 | 22 | OK | OK (PR #18) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-01/fly |
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | Grammar & Writing | 20–21 | 9 | OK | OK (PR #18) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-01/writing |
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | Unit Test 01 | 22–26 | 25 | OK | OK (PR #18) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-01/quiz |
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | Wrap Up | 27 | 8 | OK | OK (PR #18) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-01/wrap |
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | Check Up | 27 | 3 | OK | OK (PR #18) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-01/checkup |
+| Unit 02 — 형용사와 부사 | Grammar Walk — Lesson 01 | 31 | 29 | OK | OK / integration: itemCount −1 for book examples; wrap sectionTitle | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-02/walk1 |
+| Unit 02 — 형용사와 부사 | Grammar Walk — Lesson 02 | 33 | 29 | OK | OK / integration: itemCount −1 for book examples; wrap sectionTitle | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-02/walk2 |
+| Unit 02 — 형용사와 부사 | Grammar Run | 34–35 | 23 | OK | OK / integration: itemCount −1 for book examples; wrap sectionTitle | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-02/run |
+| Unit 02 — 형용사와 부사 | Grammar Jump | 36–37 | 25 | OK | OK / integration: itemCount −1 for book examples; wrap sectionTitle | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-02/jump |
+| Unit 02 — 형용사와 부사 | Grammar Fly | 38–39 | 22 | OK | OK / integration: itemCount −1 for book examples; wrap sectionTitle | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-02/fly |
+| Unit 02 — 형용사와 부사 | Grammar & Writing | 40–41 | 9 | OK | OK / integration: itemCount −1 for book examples; wrap sectionTitle | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-02/writing |
+| Unit 02 — 형용사와 부사 | Unit Test 02 | 42–46 | 25 | OK | OK / integration: itemCount −1 for book examples; wrap sectionTitle | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-02/quiz |
+| Unit 02 — 형용사와 부사 | Wrap Up | 47 | 8 | OK | OK / integration: itemCount −1 for book examples; wrap sectionTitle | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-02/wrap |
+| Unit 02 — 형용사와 부사 | Check Up | 47 | 4 | OK | OK / integration: itemCount −1 for book examples; wrap sectionTitle | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-02/checkup |
+| Unit 03 — 비교 (1) | Grammar Walk — Lesson 01 | 55 | 14 | OK | OK (PR #23) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-03/walk1 |
+| Unit 03 — 비교 (1) | Grammar Walk — Lesson 02 | 57 | 14 | OK | OK (PR #23) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-03/walk2 |
+| Unit 03 — 비교 (1) | Grammar Run | 58–59 | 26 | OK | OK (PR #23) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-03/run |
+| Unit 03 — 비교 (1) | Grammar Jump | 60–61 | 28 | OK | OK (PR #23) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-03/jump |
+| Unit 03 — 비교 (1) | Grammar Fly | 62–63 | 21 | OK | OK (PR #23) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-03/fly |
+| Unit 03 — 비교 (1) | Grammar & Writing | 64–65 | 9 | OK | OK (PR #23) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-03/writing |
+| Unit 03 — 비교 (1) | Unit Test 03 | 66–70 | 25 | OK | OK (PR #23) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-03/quiz |
+| Unit 03 — 비교 (1) | Wrap Up | 71 | 11 | OK | OK (PR #23) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-03/wrap |
+| Unit 03 — 비교 (1) | Check Up | 71 | 3 | OK | OK (PR #23) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-03/checkup |
+| Unit 04 — 비교 (2) | Grammar Walk — Lesson 01 | 75 | 14 | OK | OK (PR #19) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-04/walk1 |
+| Unit 04 — 비교 (2) | Grammar Walk — Lesson 02 | 77 | 14 | OK | OK (PR #19) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-04/walk2 |
+| Unit 04 — 비교 (2) | Grammar Run | 78–79 | 28 | OK | OK (PR #19) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-04/run |
+| Unit 04 — 비교 (2) | Grammar Jump | 80–81 | 28 | OK | OK (PR #19) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-04/jump |
+| Unit 04 — 비교 (2) | Grammar Fly | 82–83 | 22 | OK | OK (PR #19) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-04/fly |
+| Unit 04 — 비교 (2) | Grammar & Writing | 84–85 | 10 | OK | OK (PR #19) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-04/writing |
+| Unit 04 — 비교 (2) | Unit Test 04 | 86–90 | 25 | OK | OK (PR #19) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-04/quiz |
+| Unit 04 — 비교 (2) | Wrap Up | 91 | 7 | OK | OK (PR #19) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-04/wrap |
+| Unit 04 — 비교 (2) | Check Up | 91 | 4 | OK | OK (PR #19) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-04/checkup |
+| Unit 05 — to부정사 (1) | Grammar Walk — Lesson 01 | 99 | 18 | OK | OK (PR #16) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-05/walk1 |
+| Unit 05 — to부정사 (1) | Grammar Walk — Lesson 02 | 101 | 10 | OK | OK (PR #16) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-05/walk2 |
+| Unit 05 — to부정사 (1) | Grammar Run | 102–103 | 28 | OK | OK (PR #16) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-05/run |
+| Unit 05 — to부정사 (1) | Grammar Jump | 104–105 | 25 | OK | OK (PR #16) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-05/jump |
+| Unit 05 — to부정사 (1) | Grammar Fly | 106–107 | 22 | OK | OK (PR #16) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-05/fly |
+| Unit 05 — to부정사 (1) | Grammar & Writing | 108–109 | 10 | OK | OK (PR #16) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-05/writing |
+| Unit 05 — to부정사 (1) | Unit Test 05 | 110–114 | 25 | OK | OK (PR #16) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-05/quiz |
+| Unit 05 — to부정사 (1) | Wrap Up | 115 | 4 | OK | OK (PR #16) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-05/wrap |
+| Unit 05 — to부정사 (1) | Check Up | 115 | 3 | OK | OK (PR #16) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-05/checkup |
+| Unit 06 — to부정사 (2) | Grammar Walk — Lesson 01 | 119 | 10 | OK | OK (PR #22) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-06/walk1 |
+| Unit 06 — to부정사 (2) | Grammar Walk — Lesson 02 | 121 | 14 | OK | OK (PR #22) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-06/walk2 |
+| Unit 06 — to부정사 (2) | Grammar Run | 122–123 | 25 | OK | OK (PR #22) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-06/run |
+| Unit 06 — to부정사 (2) | Grammar Jump | 124–125 | 25 | OK | OK (PR #22) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-06/jump |
+| Unit 06 — to부정사 (2) | Grammar Fly | 126–127 | 22 | OK | OK (PR #22) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-06/fly |
+| Unit 06 — to부정사 (2) | Grammar & Writing | 128–129 | 9 | OK | OK (PR #22) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-06/writing |
+| Unit 06 — to부정사 (2) | Unit Test 06 | 130–134 | 25 | OK | OK (PR #22) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-06/quiz |
+| Unit 06 — to부정사 (2) | Wrap Up | 135 | 4 | OK | OK (PR #22) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-06/wrap |
+| Unit 06 — to부정사 (2) | Check Up | 135 | 3 | OK | OK (PR #22) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-06/checkup |
+| Unit 07 — 동명사 | Grammar Walk — Lesson 01 | 143 | 14 | OK | OK (PR #15) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-07/walk1 |
+| Unit 07 — 동명사 | Grammar Walk — Lesson 02 | 145 | 14 | OK | OK (PR #15) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-07/walk2 |
+| Unit 07 — 동명사 | Grammar Run | 146–147 | 39 | OK | OK (PR #15) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-07/run |
+| Unit 07 — 동명사 | Grammar Jump | 148–149 | 25 | OK | OK (PR #15) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-07/jump |
+| Unit 07 — 동명사 | Grammar Fly | 150–151 | 22 | OK | OK (PR #15) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-07/fly |
+| Unit 07 — 동명사 | Grammar & Writing | 152–153 | 10 | OK | OK (PR #15) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-07/writing |
+| Unit 07 — 동명사 | Unit Test 07 | 154–158 | 25 | OK | OK (PR #15) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-07/quiz |
+| Unit 07 — 동명사 | Wrap Up | 159 | 8 | OK | OK (PR #15) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-07/wrap |
+| Unit 07 — 동명사 | Check Up | 159 | 4 | OK | OK (PR #15) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-07/checkup |
+| Unit 08 — 동명사와 to부정사 | Grammar Walk — Lesson 01 | 163 | 9 | OK | OK / integration: unit-test section ids; itemCount; smoke script | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/walk1 |
+| Unit 08 — 동명사와 to부정사 | Grammar Walk — Lesson 02 | 165 | 10 | OK | OK / integration: unit-test section ids; itemCount; smoke script | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/walk2 |
+| Unit 08 — 동명사와 to부정사 | Grammar Run | 166–167 | 27 | OK | OK / integration: unit-test section ids; itemCount; smoke script | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/run |
+| Unit 08 — 동명사와 to부정사 | Grammar Jump | 168–169 | 26 | OK | OK / integration: unit-test section ids; itemCount; smoke script | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/jump |
+| Unit 08 — 동명사와 to부정사 | Grammar Fly | 170–171 | 24 | OK | OK / integration: unit-test section ids; itemCount; smoke script | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/fly |
+| Unit 08 — 동명사와 to부정사 | Grammar & Writing | 172–173 | 10 | OK | OK / integration: unit-test section ids; itemCount; smoke script | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/writing |
+| Unit 08 — 동명사와 to부정사 | Unit Test 08 | 174–178 | 25 | OK | OK / integration: unit-test section ids; itemCount; smoke script | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/quiz |
+| Unit 08 — 동명사와 to부정사 | Wrap Up | 179 | 11 | OK | OK / integration: unit-test section ids; itemCount; smoke script | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/wrap |
+| Unit 08 — 동명사와 to부정사 | Check Up | 179 | 3 | OK | OK / integration: unit-test section ids; itemCount; smoke script | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/checkup |
+| Review & Final Tests | Review Test 01 | 48–51 | 20 | OK | OK (PR #21) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/tests/rt01 |
+| Review & Final Tests | Review Test 02 | 92–95 | 20 | OK | OK (PR #21) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/tests/rt02 |
+| Review & Final Tests | Review Test 03 | 136–139 | 20 | OK | OK (PR #21) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/tests/rt03 |
+| Review & Final Tests | Review Test 04 | 180–183 | 20 | OK | OK (PR #21) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/tests/rt04 |
+| Review & Final Tests | Final Test 01 | 184–187 | 20 | OK | OK (PR #21) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/tests/ft01 |
+| Review & Final Tests | Final Test 02 | 188–191 | 20 | OK | OK (PR #21) | https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/tests/ft02 |
+
+## Totals per unit
+
+| Unit | Practices | Graded items |
+|------|-----------|---------------|
+| Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사 | 9 | 176 |
+| Unit 02 — 형용사와 부사 | 9 | 174 |
+| Unit 03 — 비교 (1) | 9 | 151 |
+| Unit 04 — 비교 (2) | 9 | 152 |
+| Unit 05 — to부정사 (1) | 9 | 145 |
+| Unit 06 — to부정사 (2) | 9 | 137 |
+| Unit 07 — 동명사 | 9 | 161 |
+| Unit 08 — 동명사와 to부정사 | 9 | 145 |
+| Review & Final Tests | 6 | 120 |
+
+**Book total:** 78 practices, **1361** graded items (+ display-only book examples per practice).
+
+## Smoke commands (all passed)
+
+```
+node scripts/check-all-data.js
+node scripts/smoke-gz2-all.js
+node scripts/e2e-gz2-browser.js
+node scripts/smoke-gz1-all.js
+node scripts/e2e-gz1-browser.js
+```
+
+## Integration integrity fixes
+
+- **Global:** `scripts/check-all-data.js` — unique item/practice ids, MC accept mapping, section `itemCount`, `sectionInstructionKo` + `answerMode`.
+- **Unit 02:** `itemCount` decremented where book examples are `displayOnly`; `wrap.json` missing `sectionTitle` on §2 items.
+- **Unit 08:** `unit-test-08.json` section `id` values aligned to `1-3` … (match item `section` fields, same as GZ1 tests); `smoke-green2-unit08.js` no longer uppercases Korean gloss answers.
+
+## Source PRs (merged via integration)
+
+#18 Unit01, #20 Unit02, #23 Unit03, #19 Unit04, #16 Unit05, #22 Unit06, #15 Unit07, #24 Unit08, #21 Review/Final tests.

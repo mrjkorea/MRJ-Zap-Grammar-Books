@@ -1,0 +1,525 @@
+{
+  "practiceId": "g2:u08:jump",
+  "title": "Grammar Jump",
+  "subtitle": "우리말 뜻·단어 완성 (pp. 168–169)",
+  "pages": "168–169",
+  "timerMinutes": 24,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 동명사와 to부정사",
+  "wordBank": [
+    "hide",
+    "read",
+    "cook",
+    "exercise",
+    "shop",
+    "solve",
+    "prepare",
+    "play",
+    "stay",
+    "take",
+    "laugh",
+    "knit",
+    "say"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기), Section B 12문항(골라서 그 단어만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요.",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 12,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptKo": "너희 엄마는 _____ 끝마치셨니?",
+      "promptEn": "Did your mom finish washing her car?",
+      "blanks": 1,
+      "accept": [
+        "차를 씻는 것을",
+        "차 씻는 것을",
+        "차를 씻기를"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptKo": "그녀는 _____ 즐긴다.",
+      "promptEn": "She enjoys playing soccer.",
+      "blanks": 1,
+      "accept": [
+        "축구하는 것을",
+        "축구하기를"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptKo": "폴은 커피를 _____ 그만두었다.",
+      "promptEn": "Paul gave up drinking coffee.",
+      "blanks": 1,
+      "accept": [
+        "마시는 것을",
+        "마시기를"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptKo": "우리는 이번 금요일에 _____ 결정했다.",
+      "promptEn": "We decided to go on a picnic this Friday.",
+      "blanks": 1,
+      "accept": [
+        "소풍 가기를",
+        "소풍을 가기를"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptKo": "잭은 자기 생일 파티에 샐리를 _____ 했다.",
+      "promptEn": "Jack chose to invite Sally to his birthday party.",
+      "blanks": 1,
+      "accept": [
+        "초대하기를",
+        "초대하는 것을"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "id": "a06",
+      "type": "fill",
+      "promptKo": "너는 _____ 좋아하니?",
+      "promptEn": "Do you like to dance?",
+      "blanks": 1,
+      "accept": [
+        "춤추는 것을",
+        "춤추기를"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "id": "a07",
+      "type": "fill",
+      "promptKo": "그 키가 큰 남자는 _____ 시작했다.",
+      "promptEn": "The tall man started whistling.",
+      "blanks": 1,
+      "accept": [
+        "휘파람을 부는 것을",
+        "휘파람 부는 것을"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "id": "a08",
+      "type": "fill",
+      "promptKo": "제시카는 자기 어머니를 _____ 바빴다.",
+      "promptEn": "Jessica was busy helping her mother.",
+      "blanks": 1,
+      "accept": [
+        "돕느라",
+        "도와주느라",
+        "돕는 것을",
+        "도와주는 것을"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "id": "a09",
+      "type": "fill",
+      "promptKo": "나는 _____ 싶다.",
+      "promptEn": "I feel like taking a walk.",
+      "blanks": 1,
+      "accept": [
+        "산책하기를",
+        "산책하는 것을"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "id": "a10",
+      "type": "fill",
+      "promptKo": "그들은 가끔 방과 후에 _____ 간다.",
+      "promptEn": "They sometimes go swimming after school.",
+      "blanks": 1,
+      "accept": [
+        "수영하러"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "id": "a11",
+      "type": "fill",
+      "promptKo": "그들은 _____ 결정할 수 없다.",
+      "promptEn": "They can't decide what to buy.",
+      "blanks": 1,
+      "accept": [
+        "무엇을 살지",
+        "무엇을 사야 할지"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "id": "a12",
+      "type": "fill",
+      "promptKo": "나는 _____ 모른다.",
+      "promptEn": "I don't know where to sit.",
+      "blanks": 1,
+      "accept": [
+        "어디에 앉아야 할지",
+        "어디에 앉을지"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "id": "a13",
+      "type": "fill",
+      "promptKo": "이 시계는 네게 _____ 알려 줄 것이다.",
+      "promptEn": "This clock will show you when to wake up.",
+      "blanks": 1,
+      "accept": [
+        "언제 일어나야 할지",
+        "언제 깨야 할지"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "id": "a14",
+      "type": "fill",
+      "promptKo": "그는 자기 아들에게 _____을 가르쳐 주었다.",
+      "promptEn": "He taught his son how to hunt.",
+      "blanks": 1,
+      "accept": [
+        "사냥하는 법을",
+        "사냥하는 방법을"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B1",
+      "id": "b01",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "reading",
+      "type": "fill",
+      "promptEn": "The boy kept reading the storybook.",
+      "blanks": 1,
+      "accept": [
+        "reading"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B2",
+      "id": "b02",
+      "type": "fill",
+      "promptEn": "Mary gave up _____ at the park.",
+      "blanks": 1,
+      "accept": [
+        "exercising"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B3",
+      "id": "b03",
+      "type": "fill",
+      "promptEn": "We chose _____ at the hotel.",
+      "blanks": 1,
+      "accept": [
+        "to stay"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B4",
+      "id": "b04",
+      "type": "fill",
+      "promptEn": "I hate _____ medicine.",
+      "blanks": 1,
+      "accept": [
+        "taking"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B5",
+      "id": "b05",
+      "type": "fill",
+      "promptEn": "They began _____ loudly.",
+      "blanks": 1,
+      "accept": [
+        "laughing"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B6",
+      "id": "b06",
+      "type": "fill",
+      "promptEn": "Joe felt like _____ tennis.",
+      "blanks": 1,
+      "accept": [
+        "playing"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B7",
+      "id": "b07",
+      "type": "fill",
+      "promptEn": "Ms. Benson is busy _____ the scarf.",
+      "blanks": 1,
+      "accept": [
+        "knitting"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B8",
+      "id": "b08",
+      "type": "fill",
+      "promptEn": "Let's go _____ tomorrow.",
+      "blanks": 1,
+      "accept": [
+        "shopping"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B9",
+      "id": "b09",
+      "type": "fill",
+      "promptEn": "My dad will be busy _____ breakfast on Sunday.",
+      "blanks": 1,
+      "accept": [
+        "preparing"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B10",
+      "id": "b10",
+      "type": "fill",
+      "promptEn": "The recipe shows how _____ bulgogi.",
+      "blanks": 1,
+      "accept": [
+        "to cook"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B11",
+      "id": "b11",
+      "type": "fill",
+      "promptEn": "They have to decide where _____ _____.",
+      "blanks": 2,
+      "accept": [
+        "to|hide",
+        "to hide"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B12",
+      "id": "b12",
+      "type": "fill",
+      "promptEn": "We don't know what _____ _____.",
+      "blanks": 2,
+      "accept": [
+        "to|say",
+        "to say"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (hide / read / cook / exercise / shop / solve / prepare / play / stay / take / laugh / knit / say) 중복해서 사용할 수 있고, 필요하면 형태를 바꿔 쓰세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B13",
+      "id": "b13",
+      "type": "fill",
+      "promptEn": "He taught us how _____ _____ the problem.",
+      "blanks": 2,
+      "accept": [
+        "to|solve"
+      ]
+    }
+  ]
+}

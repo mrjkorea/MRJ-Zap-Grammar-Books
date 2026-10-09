@@ -1,0 +1,219 @@
+{
+  "practiceId": "g2:u01:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "Play props & chart (pp. 20–21)",
+  "pages": "20–21",
+  "timerMinutes": 20,
+  "unitTitle": "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사",
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-01",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(빈칸 말만 쓰기), Section B 4문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "[정보 활용하기] 수미네 반 친구들이 다음 주에 공연할 연극에 필요한 물건들을 나눠서 가져오기로 했어요. 다음 사진을 보고 친구들이 무엇을 가져 올지 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[정보 활용하기] 수미네 반 친구들이 다음 주에 공연할 연극에 필요한 물건들을 나눠서 가져오기로 했어요. 다음 사진을 보고 친구들이 무엇을 가져 올지 문장을 완성하세요.",
+      "ruleKo": "빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "[표 활용하기] 다음은 루시와 친구들이 오후에 먹은 것을 나타낸 것입니다. 표의 내용에 맞게 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[표 활용하기] 다음은 루시와 친구들이 오후에 먹은 것을 나타낸 것입니다. 표의 내용에 맞게 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 수미네 반 친구들이 다음 주에 공연할 연극에 필요한 물건들을 나눠서 가져오기로 했어요. 다음 사진을 보고 친구들이 무엇을 가져 올지 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "five / crayons",
+      "type": "fill",
+      "promptEn": "1. (crayon)  Sumi will bring _____ _____ for the play.",
+      "blanks": 2,
+      "accept": [
+        "five|crayons"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 수미네 반 친구들이 다음 주에 공연할 연극에 필요한 물건들을 나눠서 가져오기로 했어요. 다음 사진을 보고 친구들이 무엇을 가져 올지 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "2. (vase)  Minsu will bring _____ _____ for the play.",
+      "blanks": 2,
+      "accept": [
+        "two|vases"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 수미네 반 친구들이 다음 주에 공연할 연극에 필요한 물건들을 나눠서 가져오기로 했어요. 다음 사진을 보고 친구들이 무엇을 가져 올지 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "3. (kettle)  Yuri will bring _____ _____ for the play.",
+      "blanks": 2,
+      "accept": [
+        "two|kettles"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 수미네 반 친구들이 다음 주에 공연할 연극에 필요한 물건들을 나눠서 가져오기로 했어요. 다음 사진을 보고 친구들이 무엇을 가져 올지 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "4. (glass)  Insu will bring _____ _____ for the play.",
+      "blanks": 2,
+      "accept": [
+        "four|glasses"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 수미네 반 친구들이 다음 주에 공연할 연극에 필요한 물건들을 나눠서 가져오기로 했어요. 다음 사진을 보고 친구들이 무엇을 가져 올지 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "5. (tomato)  Sujin will bring _____ _____ for the play.",
+      "blanks": 2,
+      "accept": [
+        "three|tomatoes"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 수미네 반 친구들이 다음 주에 공연할 연극에 필요한 물건들을 나눠서 가져오기로 했어요. 다음 사진을 보고 친구들이 무엇을 가져 올지 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "6. (knife)  Hyunjin will bring _____ _____ for the play.",
+      "blanks": 2,
+      "accept": [
+        "two|knives"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 활용하기] 다음은 루시와 친구들이 오후에 먹은 것을 나타낸 것입니다. 표의 내용에 맞게 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Lucy ate two slices of bread and drank three bottles of milk.",
+      "type": "sentence",
+      "promptEn": "1. Lucy ate _____ and drank _____.  [표: two slices of bread / three bottles of milk]",
+      "accept": [
+        "Lucy ate two slices of bread and drank three bottles of milk."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 활용하기] 다음은 루시와 친구들이 오후에 먹은 것을 나타낸 것입니다. 표의 내용에 맞게 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "2. Jack ate _____ and _____.  [표: a bowl of cereal / an apple]",
+      "accept": [
+        "Jack ate a bowl of cereal and an apple."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 활용하기] 다음은 루시와 친구들이 오후에 먹은 것을 나타낸 것입니다. 표의 내용에 맞게 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "3. Amy ate _____ and drank _____.  [표: a hamburger / a glass of cola]",
+      "accept": [
+        "Amy ate a hamburger and drank a glass of cola."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 활용하기] 다음은 루시와 친구들이 오후에 먹은 것을 나타낸 것입니다. 표의 내용에 맞게 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "4. Oliver ate _____ and drank _____.  [표: a slice of cake / three glasses of water]",
+      "accept": [
+        "Oliver ate a slice of cake and drank three glasses of water."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 활용하기] 다음은 루시와 친구들이 오후에 먹은 것을 나타낸 것입니다. 표의 내용에 맞게 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "5. Eric ate _____ and drank _____.  [표: a bar of chocolate / a cup of tea]",
+      "accept": [
+        "Eric ate a bar of chocolate and drank a cup of tea."
+      ]
+    }
+  ]
+}

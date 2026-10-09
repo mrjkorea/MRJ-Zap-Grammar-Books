@@ -1,6 +1,6 @@
 # MRJ Zap Grammar Books
 
-Student typing practices for ZAP grammar books (**GreenZap 1**, **GreenZap 3**, and future titles).
+Student typing practices for ZAP grammar books (**GreenZap 1**, **GreenZap 2**, **GreenZap 3**, and future titles).
 
 Separate from [`mrj-grammar-app`](https://github.com/mrjkorea/mrj-grammar-app) (gold extract only — do not mix).
 
@@ -83,9 +83,17 @@ Deep link example: `#/p/zap-green-3/unit-01/walk1`
 | 08 여러 가지 문장 | 9 | 144 | `#/p/zap-green-1/unit-08/walk1` |
 | Review & Final Tests | 6 (RT01–04, FT01–02) | 120 | `#/p/zap-green-1/tests/rt01` |
 
-**GreenZap 1 full book:** 8 units × 9 practices + 6 tests = **78 practices**, **1252 graded items** (see `PROOF-GZ1.md` for per-practice rows, smoke results, and live URLs). Build string: `20261009-gz1-full`.
+**GreenZap 1 full book:** 8 units × 9 practices + 6 tests = **78 practices**, **1252 graded items** (see `PROOF-GZ1.md` for per-practice rows, smoke results, and live URLs).
 
-Other books/units appear in the index as **coming soon**. **ZAP Green 1 (Units 01–08 + tests)** and **ZAP Green 3 / Unit 01** are active in the index.
+### GreenZap 2 — full book
+
+**GreenZap 2** data lives under `data/green2/` (units `unit01`–`unit08` + `tests/`). Catalog id **`zap-green-2`**, app name **GreenZap 2**.
+
+**78 practices**, **1361 graded items** — see `PROOF-GZ2.md` for per-practice pages, smoke/audit notes, and live deep links. Build string: `20261009-gz2-full`.
+
+Deep link example: `#/p/zap-green-2/unit-01/walk1`
+
+Other books/units appear in the index as **coming soon**. **ZAP Green 1**, **ZAP Green 2** (full books), and **ZAP Green 3 / Unit 01** are active in the index.
 
 ## Student rules
 
@@ -102,7 +110,7 @@ Other books/units appear in the index as **coming soon**. **ZAP Green 1 (Units 0
 `mrj-scores.js` posts to **MRJ Classroom Metrics**:
 
 - `program=greenzap`, `source=greenzap`
-- `app_name` is **GreenZap 1** or **GreenZap 3** per selected practice
+- `app_name` is **GreenZap 1**, **GreenZap 2**, or **GreenZap 3** per selected practice
 - One summary event per finished practice; per-question detail in the `greenzap` progress pack (item metric ids use current item ids; old `q01` rows in saved packs are ignored for new items)
 - `MRJ_AUTH.noteScore` on summary only
 - Per-student pack sync via `MRJ_AUTH.loadPack` / `savePack`; build string in `version.json`
@@ -119,7 +127,9 @@ python3 -m http.server 8080
 ```bash
 node scripts/pack-unit-test.js
 node scripts/smoke-sections.js    # GreenZap 1 units 01–08 + GreenZap 3 unit 01
+node scripts/check-all-data.js      # all green1/green2/green3 JSON integrity
 node scripts/smoke-gz1-all.js       # catalog-driven: all 78 GreenZap 1 data files
+node scripts/smoke-gz2-all.js       # all 78 GreenZap 2 practices + per-unit smokes
 node scripts/smoke-gz1-tests.js
 node scripts/smoke-units-02-05.js
 node scripts/smoke-unit06.js
@@ -130,6 +140,7 @@ node scripts/smoke-green3-unit01.js
 node scripts/smoke-app-sections.js
 node scripts/smoke-review.js
 node scripts/e2e-gz1-browser.js     # headless browser (needs: npm install playwright)
+node scripts/e2e-gz2-browser.js
 ```
 
 ## Results

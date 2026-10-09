@@ -1,0 +1,234 @@
+{
+  "practiceId": "g2:u07:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "직업·취미 표 (pp. 152–153)",
+  "pages": "152–153",
+  "timerMinutes": 20,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 동명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 6문항(빈칸 말만 쓰기), Section B 6문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "[정보 활용하기] 다음은 사람들의 직업에 대해 이야기한 것입니다. 사진을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. His/Her job is 뒤 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[정보 활용하기] 다음은 사람들의 직업에 대해 이야기한 것입니다. 사진을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "His/Her job is 뒤 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "[표 해석하기] 다음은 샘이 친구들의 취미 생활을 조사한 표입니다. 표의 내용에 맞게 enjoy와 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[표 해석하기] 다음은 샘이 친구들의 취미 생활을 조사한 표입니다. 표의 내용에 맞게 enjoy와 주어진 말을 사용하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 다음은 사람들의 직업에 대해 이야기한 것입니다. 사진을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. His/Her job is 뒤 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "His job is ______. ( cook )  [사진: 요리사]",
+      "blanks": 1,
+      "accept": [
+        "cooking"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "cooking"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 다음은 사람들의 직업에 대해 이야기한 것입니다. 사진을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. His/Her job is 뒤 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "His job is ______. ( drive a bus )  [사진: 버스 기사]",
+      "blanks": 1,
+      "accept": [
+        "driving a bus"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 다음은 사람들의 직업에 대해 이야기한 것입니다. 사진을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. His/Her job is 뒤 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "His job is ______. ( dance )  [사진: 댄서]",
+      "blanks": 1,
+      "accept": [
+        "dancing"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 다음은 사람들의 직업에 대해 이야기한 것입니다. 사진을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. His/Her job is 뒤 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Her job is ______. ( teach )  [사진: 선생님]",
+      "blanks": 1,
+      "accept": [
+        "teaching"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 다음은 사람들의 직업에 대해 이야기한 것입니다. 사진을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. His/Her job is 뒤 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "His job is ______. ( take care of animals )  [사진: 수의사]",
+      "blanks": 1,
+      "accept": [
+        "taking care of animals"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 다음은 사람들의 직업에 대해 이야기한 것입니다. 사진을 보고, 주어진 말을 사용하여 다음 문장을 완성하세요. His/Her job is 뒤 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Her job is ______. ( write stories )  [사진: 작가]",
+      "blanks": 1,
+      "accept": [
+        "writing stories"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 샘이 친구들의 취미 생활을 조사한 표입니다. 표의 내용에 맞게 enjoy와 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Nine children enjoy playing soccer.",
+      "type": "fill",
+      "promptEn": "( play soccer )  [표: 축구 9명]",
+      "accept": [
+        "Nine children enjoy playing soccer."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 샘이 친구들의 취미 생활을 조사한 표입니다. 표의 내용에 맞게 enjoy와 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "( listen to music )  [표: 음악 듣기 5명]",
+      "accept": [
+        "Five children enjoy listening to music."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 샘이 친구들의 취미 생활을 조사한 표입니다. 표의 내용에 맞게 enjoy와 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "( ride a bike )  [표: 자전거 3명]",
+      "accept": [
+        "Three children enjoy riding a bike."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 샘이 친구들의 취미 생활을 조사한 표입니다. 표의 내용에 맞게 enjoy와 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "( read a book )  [표: 책 읽기 2명]",
+      "accept": [
+        "Two children enjoy reading a book."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 샘이 친구들의 취미 생활을 조사한 표입니다. 표의 내용에 맞게 enjoy와 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "( cook )  [표: 요리 4명]",
+      "accept": [
+        "Four children enjoy cooking."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 샘이 친구들의 취미 생활을 조사한 표입니다. 표의 내용에 맞게 enjoy와 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "( jog )  [표: 조깅 8명]",
+      "accept": [
+        "Eight children enjoy jogging."
+      ]
+    }
+  ]
+}

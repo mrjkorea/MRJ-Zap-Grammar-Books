@@ -1,0 +1,409 @@
+{
+  "practiceId": "g2:u03:fly",
+  "title": "Grammar Fly",
+  "subtitle": "Rewrite & unscramble (pp. 62–63)",
+  "pages": "62–63",
+  "timerMinutes": 26,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 비교 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 10문항(문장 전체 쓰기), Section B 11문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 10,
+      "exampleCount": 2,
+      "labels": [
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a01",
+      "label": "A1",
+      "promptEn": "Zack jumped rope well. ( than Nicole )",
+      "accept": [
+        "Zack jumped rope better than Nicole."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Zack jumped rope better than Nicole."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a02",
+      "label": "A2",
+      "promptEn": "This apple is small. ( than that orange )",
+      "accept": [
+        "This apple is smaller than that orange."
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a03",
+      "label": "A3",
+      "promptEn": "A tiger is dangerous. ( than a dog )",
+      "accept": [
+        "A tiger is more dangerous than a dog."
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a04",
+      "label": "A4",
+      "promptEn": "She answered quickly. ( than me )",
+      "accept": [
+        "She answered more quickly than me."
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a05",
+      "label": "A5",
+      "promptEn": "The cucumbers were fresh. ( than the potatoes )",
+      "accept": [
+        "The cucumbers were fresher than the potatoes."
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a06",
+      "label": "A6",
+      "promptEn": "My puppy was dirty. ( than your cat )",
+      "accept": [
+        "My puppy was dirtier than your cat."
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a07",
+      "label": "A7",
+      "promptEn": "A goldfish is a quiet pet. ( of all )",
+      "accept": [
+        "A goldfish is the quietest pet of all."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "A goldfish is the quietest pet of all."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a08",
+      "label": "A8",
+      "promptEn": "Amy is a wise girl. ( in my class )",
+      "accept": [
+        "Amy is the wisest girl in my class."
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a09",
+      "label": "A9",
+      "promptEn": "The dictionary is new. ( of the three )",
+      "accept": [
+        "The dictionary is the newest of the three."
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a10",
+      "label": "A10",
+      "promptEn": "Ken sat on a comfortable sofa. ( in the store )",
+      "accept": [
+        "Ken sat on the most comfortable sofa in the store."
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a11",
+      "label": "A11",
+      "promptEn": "She is a great pianist. ( in Korea )",
+      "accept": [
+        "She is the greatest pianist in Korea."
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 비교급 또는 최상급 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "a12",
+      "label": "A12",
+      "promptEn": "This is a funny story. ( of them all )",
+      "accept": [
+        "This is the funniest story of them all."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b01",
+      "label": "B1",
+      "promptEn": "( are older than / these slippers / the boots / . )",
+      "accept": [
+        "These slippers are older than the boots."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "These slippers are older than the boots."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b02",
+      "label": "B2",
+      "promptEn": "( are more expensive than / melons / pears / . )",
+      "accept": [
+        "Melons are more expensive than pears."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b03",
+      "label": "B3",
+      "promptEn": "( better than / I like / milk / juice / . )",
+      "accept": [
+        "I like juice better than milk."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b04",
+      "label": "B4",
+      "promptEn": "( speaks English / better than / Bora / Minji / . )",
+      "accept": [
+        "Bora speaks English better than Minji."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b05",
+      "label": "B5",
+      "promptEn": "( is more dangerous than / a whale / a shark / . )",
+      "accept": [
+        "A shark is more dangerous than a whale."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b06",
+      "label": "B6",
+      "promptEn": "( the youngest / Monica was / in her family / . )",
+      "accept": [
+        "Monica was the youngest in her family."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b07",
+      "label": "B7",
+      "promptEn": "( the best dancer / Jun is / in the village / . )",
+      "accept": [
+        "Jun is the best dancer in the village."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b08",
+      "label": "B8",
+      "promptEn": "( the smallest / the cat is / of the four animals / . )",
+      "accept": [
+        "The cat is the smallest of the four animals."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b09",
+      "label": "B9",
+      "promptEn": "( the worst / she cooked / of the three / . )",
+      "accept": [
+        "She cooked the worst of the three."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b10",
+      "label": "B10",
+      "promptEn": "( in the town / the tallest / Jessica is / . )",
+      "accept": [
+        "Jessica is the tallest in the town."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b11",
+      "label": "B11",
+      "promptEn": "( of all / this movie is / the most interesting / . )",
+      "accept": [
+        "This movie is the most interesting of all."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "type": "sentence",
+      "id": "b12",
+      "label": "B12",
+      "promptEn": "( the nicest / of them all / the T-shirt is / . )",
+      "accept": [
+        "The T-shirt is the nicest of them all."
+      ]
+    }
+  ]
+}

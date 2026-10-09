@@ -1,0 +1,101 @@
+{
+  "practiceId": "g2:u02:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 47)",
+  "pages": "47",
+  "timerMinutes": 6,
+  "wordBank": [
+    "very",
+    "brown",
+    "strong",
+    "always"
+  ],
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 형용사와 부사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 4문항(골라서 그 단어만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (very / brown / strong / always) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (very / brown / strong / always)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (very / brown / strong / always) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "id": "c01",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[그림 1] I am ______.",
+      "blanks": 1,
+      "accept": [
+        "strong"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (very / brown / strong / always) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "id": "c02",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "[그림 2] I ______ exercise in the morning.",
+      "blanks": 1,
+      "accept": [
+        "always"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (very / brown / strong / always) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "id": "c03",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "[그림 3] Look at the ______ dog.",
+      "blanks": 1,
+      "accept": [
+        "brown"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (very / brown / strong / always) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "id": "c04",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "[그림 4] You are ______ fast.",
+      "blanks": 1,
+      "accept": [
+        "very"
+      ]
+    }
+  ]
+}
