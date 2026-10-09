@@ -1,0 +1,448 @@
+{
+  "practiceId": "u05:jump",
+  "title": "Grammar Jump",
+  "subtitle": "can / be able to & dialogues (pp. 104–105)",
+  "pages": "104–105",
+  "timerMinutes": 24,
+  "unitTitle": "Unit 05 — 조동사 (1)",
+  "wordBank": [
+    "can",
+    "are",
+    "drive",
+    "climb",
+    "tell",
+    "dive",
+    "make",
+    "is",
+    "watch",
+    "pass",
+    "pick",
+    "turn",
+    "eat",
+    "move",
+    "catch"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(빈칸 말만 쓰기), Section B 11문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요.",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "can / fix",
+      "type": "fill",
+      "promptEn": "My father can fix a car. ( fix, can )",
+      "blanks": 2,
+      "accept": [
+        "can|fix"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Danny ______ the drums. ( not, play, can )",
+      "blanks": 2,
+      "accept": [
+        "can't|play",
+        "can not|play",
+        "cannot|play"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "______ they ______ the river? ( cross, can )",
+      "blanks": 2,
+      "accept": [
+        "Can|cross"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "I ______ Sally at the mall. ( not, meet, could )",
+      "blanks": 2,
+      "accept": [
+        "couldn't|meet"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The child ______ a bike. ( ride, be able to )",
+      "blanks": 4,
+      "accept": [
+        "is|able|to|ride"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "An ostrich ______. ( not, fly, be able to )",
+      "blanks": 4,
+      "accept": [
+        "isn't|able|to|fly",
+        "is not|able|to|fly"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "______ she ______ golf? ( play, be able to )",
+      "blanks": 4,
+      "accept": [
+        "Is|able|to|play"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "You ______ that backpack. ( buy, can )",
+      "blanks": 2,
+      "accept": [
+        "can|buy"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "You ______ my computer. ( use, can )",
+      "blanks": 2,
+      "accept": [
+        "can|use"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "______ I ______ this shirt? ( try on, can )",
+      "blanks": 3,
+      "accept": [
+        "Can|try|on"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "______ you ______ shopping with me? ( go, can )",
+      "blanks": 2,
+      "accept": [
+        "Can|go"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "______ you ______ my cat for me? ( find, can )",
+      "blanks": 2,
+      "accept": [
+        "Can|find"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Can",
+      "type": "fill",
+      "promptEn": "A: Can you climb the ladder?\nB: Yes, I can.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "A: ______ the children dive?\nB: No, they can't.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "A: ______ bears able to catch fish?\nB: Yes, they are.",
+      "blanks": 1,
+      "accept": [
+        "Are"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A: ______ he move that bookcase?\nB: No, he can't.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "A: ______ your sister able to make pizza?\nB: Of course.",
+      "blanks": 1,
+      "accept": [
+        "Is"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A: ______ I watch a cartoon?\nB: Sorry, but I can't.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A: ______ I pick those apples?\nB: Of course, you can.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "A: ______ I eat some more bread?\nB: Sorry, but you can't.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "A: ______ you pass me the fork?\nB: Sure. Here you are.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "A: ______ you drive me to school, please?\nB: OK.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "A: ______ you turn off the light?\nB: OK.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (can / are / drive / climb / tell / dive / make / is / watch / pass / pick / turn / eat / move / catch) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "A: ______ you tell me your phone number?\nB: OK.",
+      "blanks": 1,
+      "accept": [
+        "Can"
+      ]
+    }
+  ]
+}

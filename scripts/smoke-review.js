@@ -69,9 +69,20 @@ const fail = (...a) => {
   console.log("FAIL", ...a);
 };
 
+function listUnitDirs(book) {
+  const base = path.join(DATA, book);
+  if (book === "green3") return [path.join(base, "unit01")];
+  return fs
+    .readdirSync(base)
+    .filter((d) => /^unit\d{2}$/.test(d))
+    .sort()
+    .map((d) => path.join(base, d));
+}
+
 for (const book of ["green1", "green3"]) {
-  const dir = path.join(DATA, book, "unit01");
+  for (const dir of listUnitDirs(book)) {
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json")).sort()) {
+    const where = path.relative(path.join(DATA, book), dir) + "/" + f;
     const practice = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
     const graded = practice.items.filter((it) => !it.displayOnly);
     const responses = {};
@@ -83,18 +94,18 @@ for (const book of ["green1", "green3"]) {
     });
     const text = R.reviewPlainText(practice, responses, results);
     if (!text.includes(R.WRONG_ANSWER_LABEL)) {
-      fail(book + "/" + f, "missing student answer label");
+      fail(where, "missing student answer label");
     }
     graded.forEach((it) => {
       if (it.sectionInstructionKo && !text.includes(it.sectionInstructionKo)) {
-        fail(book + "/" + f, it.id, "missing sectionInstructionKo");
+        fail(where, it.id, "missing sectionInstructionKo");
       }
       if (it.promptEn && !text.includes(it.promptEn)) {
-        fail(book + "/" + f, it.id, "missing promptEn");
+        fail(where, it.id, "missing promptEn");
       }
       const wrong = responses[it.id];
       if (E.gradeItem(it, wrong)) {
-        fail(book + "/" + f, it.id, "wrongFor produced a passing answer");
+        fail(where, it.id, "wrongFor produced a passing answer");
       }
       const wrongSummary = normForLeak(R.studentAnswerSummary(it, wrong));
       (it.accept || []).forEach((acc) => {
@@ -102,13 +113,13 @@ for (const book of ["green1", "green3"]) {
         if (!right || !E.gradeItem(it, right)) return;
         const rightSummary = normForLeak(R.studentAnswerSummary(it, right));
         if (rightSummary && rightSummary === wrongSummary) {
-          fail(book + "/" + f, it.id, "review shows correct accept as student answer:", acc);
+          fail(where, it.id, "review shows correct accept as student answer:", acc);
         }
       });
       const rows = R.collectWrongRows(practice, { [it.id]: wrong }, [{ id: it.id, correct: false }]);
       const row = rows[0];
       if (row && JSON.stringify(row).indexOf('"accept"') >= 0) {
-        fail(book + "/" + f, it.id, "row object contains accept key");
+        fail(where, it.id, "row object contains accept key");
       }
       if (row) {
         row.studentLines.forEach((ln) => {
@@ -116,7 +127,7 @@ for (const book of ["green1", "green3"]) {
           if (lnNorm === normForLeak(R.EMPTY_ANSWER_KO)) return;
           (it.accept || []).forEach((acc) => {
             if (lnNorm === normForLeak(acc)) {
-              fail(book + "/" + f, it.id, "answer line equals accept:", acc);
+              fail(where, it.id, "answer line equals accept:", acc);
             }
           });
         });
@@ -125,8 +136,9 @@ for (const book of ["green1", "green3"]) {
 
     const rows = R.collectWrongRows(practice, responses, results);
     if (rows.length !== graded.length) {
-      fail(book + "/" + f, "row count", rows.length, "!=", graded.length);
+      fail(where, "row count", rows.length, "!=", graded.length);
     }
+  }
   }
 }
 

@@ -16,9 +16,11 @@ Static files are served from the **repository root** (`index.html`, `assets/`, `
 2. **Build and deployment** → Source: **GitHub Actions**
 3. Push to `main` runs `.github/workflows/pages.yml` and publishes the site.
 
-## Practice data (Unit 01)
+## Practice data
 
-Each practice JSON under `data/green1/unit01/` and `data/green3/unit01/` is hand-maintained (**source of truth**). Generators under `scripts/build-*-unit01-data.py` refuse to overwrite sectioned files.
+**GreenZap 1 Unit 01** and **GreenZap 3 Unit 01** JSON under `data/green1/unit01/` and `data/green3/unit01/` is hand-maintained (**source of truth**). Generators under `scripts/build-*-unit01-data.py` refuse to overwrite sectioned files.
+
+**GreenZap 1 Units 02–05** live under `data/green1/unit02/` … `unit05/`. Regenerate from `scripts/green1-build/u02.py` … `u05.py` (`python3 u0N.py` in that folder writes `data/green1/unit0N/`).
 
 - `sectionsVersion: 2` — bump when section layout or item ids change (clears mismatched in-progress drafts).
 - `sections[]` — per-section summary: `id`, `title`, `instructionKo`, `answerMode` (`choice` | `words` | `sentence`), `answerModeTag`, `itemCount`, `exampleCount`, `labels`, optional `mixedModes`.
@@ -43,6 +45,17 @@ Each practice JSON under `data/green1/unit01/` and `data/green3/unit01/` is hand
 
 Deep link example: `#/p/zap-green-1/unit-01/walk1`
 
+### GreenZap 1 — Units 02–05 (graded counts)
+
+| Unit | Practices | Graded items (approx.) | Test URL |
+|------|-----------|------------------------|----------|
+| 02 과거 시제 | 9 timed (walk1 … checkup) | 153 | `#/p/zap-green-1/unit-02/walk1` |
+| 03 미래 시제 | 9 | 142 | `#/p/zap-green-1/unit-03/walk1` |
+| 04 진행 시제 | 9 | 154 | `#/p/zap-green-1/unit-04/walk1` |
+| 05 조동사 (1) | 9 | 129 | `#/p/zap-green-1/unit-05/walk1` |
+
+Section layout matches the printed book (`sectionsVersion: 2`). See PR tables for per-practice page ranges, section modes, and book typos noted during entry.
+
 ### GreenZap 3 — Unit 01 sections (graded counts)
 
 | Practice | practiceId | Graded | Sections (modes) |
@@ -61,7 +74,7 @@ Deep link example: `#/p/zap-green-1/unit-01/walk1`
 
 Deep link example: `#/p/zap-green-3/unit-01/walk1`
 
-Other books/units appear in the index as **coming soon**; **ZAP Green 1** and **ZAP Green 3 / Unit 01** are active.
+Other books/units appear in the index as **coming soon**. **ZAP Green 1 / Units 01–05** and **ZAP Green 3 / Unit 01** are active in the index.
 
 ## Student rules
 
@@ -94,7 +107,8 @@ python3 -m http.server 8080
 
 ```bash
 node scripts/pack-unit-test.js
-node scripts/smoke-sections.js
+node scripts/smoke-sections.js    # GreenZap 1 units 01–05 + GreenZap 3 unit 01
+node scripts/smoke-units-02-05.js # optional: units 02–05 only (same checks)
 node scripts/smoke-unit-test.js
 node scripts/smoke-green3-unit01.js
 node scripts/smoke-app-sections.js

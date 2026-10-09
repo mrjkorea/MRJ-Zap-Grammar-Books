@@ -1,0 +1,223 @@
+{
+  "practiceId": "u05:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "Requests & ability chart (pp. 108–109)",
+  "pages": "108–109",
+  "timerMinutes": 20,
+  "unitTitle": "Unit 05 — 조동사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(문장 전체 쓰기), Section B 4문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "[상황 묘사하기] 다음 그림을 보고, Can you ~?를 사용하여 부탁하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[상황 묘사하기] 다음 그림을 보고, Can you ~?를 사용하여 부탁하는 문장을 써 보세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "[표 해석하기] 다음은 할 수 있는 것과 할 수 없는 것을 정리한 표입니다. 표를 보고, 대화를 완성해 보세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "[표 해석하기] 다음은 할 수 있는 것과 할 수 없는 것을 정리한 표입니다. 표를 보고, 대화를 완성해 보세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 다음 그림을 보고, Can you ~?를 사용하여 부탁하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Can you move this desk?",
+      "type": "sentence",
+      "promptEn": "( move this desk )",
+      "accept": [
+        "Can you move this desk?"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 다음 그림을 보고, Can you ~?를 사용하여 부탁하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
+      "type": "sentence",
+      "promptEn": "( open the window )",
+      "accept": [
+        "Can you open the window?"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 다음 그림을 보고, Can you ~?를 사용하여 부탁하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
+      "type": "sentence",
+      "promptEn": "( give me some food, please )",
+      "accept": [
+        "Can you give me some food, please?",
+        "Can you give me some food please?"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 다음 그림을 보고, Can you ~?를 사용하여 부탁하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
+      "type": "sentence",
+      "promptEn": "( pass me the towel )",
+      "accept": [
+        "Can you pass me the towel?"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 다음 그림을 보고, Can you ~?를 사용하여 부탁하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
+      "type": "sentence",
+      "promptEn": "( find my dog, please )",
+      "accept": [
+        "Can you find my dog, please?",
+        "Can you find my dog please?"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 다음 그림을 보고, Can you ~?를 사용하여 부탁하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A6",
+      "type": "sentence",
+      "promptEn": "( play badminton with me )",
+      "accept": [
+        "Can you play badminton with me?"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 할 수 있는 것과 할 수 없는 것을 정리한 표입니다. 표를 보고, 대화를 완성해 보세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "can't / play / the / guitar",
+      "type": "fill",
+      "promptKo": "[표] Mina: can play flute / can't play guitar / father: can't fix computer / can fix bicycle / mother: can speak Chinese / can't speak French / ostriches: can't fly / can run fast / elephants: can pick fruit / can't climb trees",
+      "promptEn": "Q: Can Mina play the flute?\nA: Yes, she can. But she can't play the guitar.",
+      "blanks": 4,
+      "accept": [
+        "can't|play|the|guitar",
+        "can not|play|the|guitar",
+        "cannot|play|the|guitar"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 할 수 있는 것과 할 수 없는 것을 정리한 표입니다. 표를 보고, 대화를 완성해 보세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Q: Can Mina's father fix a computer?\nA: No, he ______. But he can fix a bicycle.",
+      "blanks": 1,
+      "accept": [
+        "can't",
+        "can not",
+        "cannot"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 할 수 있는 것과 할 수 없는 것을 정리한 표입니다. 표를 보고, 대화를 완성해 보세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Q: Can Mina's mother speak French?\nA: Yes, she can. But she ______.",
+      "blanks": 3,
+      "accept": [
+        "can't|speak|French",
+        "can not|speak|French",
+        "cannot|speak|French"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 할 수 있는 것과 할 수 없는 것을 정리한 표입니다. 표를 보고, 대화를 완성해 보세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Q: Can ostriches fly?\nA: No, they can't. But they ______.",
+      "blanks": 3,
+      "accept": [
+        "can|run|fast"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 할 수 있는 것과 할 수 없는 것을 정리한 표입니다. 표를 보고, 대화를 완성해 보세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Q: Can elephants pick fruit?\nA: Yes, they can. But they can't ______.",
+      "blanks": 2,
+      "accept": [
+        "climb|trees"
+      ]
+    }
+  ]
+}
