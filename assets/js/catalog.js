@@ -720,6 +720,20 @@
         data: "data/green4/unit07/unit-test-07.json",
         practiceId: "g4:u07:quiz",
       },
+      {
+        slug: "wrap",
+        title: "Wrap Up",
+        hint: "Summary · p. 159",
+        data: "data/green4/unit07/wrap.json",
+        practiceId: "g4:u07:wrap",
+      },
+      {
+        slug: "checkup",
+        title: "Check Up",
+        hint: "Comic dialogue · p. 159",
+        data: "data/green4/unit07/checkup.json",
+        practiceId: "g4:u07:checkup",
+      },
     ],
   };
 

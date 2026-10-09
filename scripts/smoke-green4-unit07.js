@@ -13,10 +13,24 @@ for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
 const E = win.MRJ_ENGINE;
 let total = 0;
 let bad = 0;
+const seenIds = new Map();
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const pid = d.practiceId || f;
+  const local = new Set();
   let ok = 0;
   for (const it of d.items) {
+    if (local.has(it.id)) {
+      bad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    local.add(it.id);
+    const globalKey = pid + ":" + it.id;
+    if (seenIds.has(globalKey)) {
+      bad++;
+      console.log("DUP-GLOBAL", globalKey, seenIds.get(globalKey), f);
+    }
+    seenIds.set(globalKey, f);
     if (it.displayOnly) continue;
     total++;
     let right;
