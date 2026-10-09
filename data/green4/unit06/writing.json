@@ -4,7 +4,7 @@
   "appName": "GreenZap 4",
   "unitId": "unit-06",
   "unitTitle": "Unit 06 — 수동태 (2)",
-  "sectionsVersion": 2,
+  "sectionsVersion": 3,
   "practiceId": "g4:u06:writing",
   "title": "Grammar & Writing",
   "subtitle": "사진·표 활용 수동태 (pp. 128–129)",
@@ -53,14 +53,14 @@
       ]
     }
   ],
-  "introKo": "Section A는 각 그림마다 부정·긍정 두 문장(빈칸 1개씩, was/wasn't는 이미 있음). Section B는 질문 한 줄 완성.",
+  "introKo": "Section A는 그림마다 부정·긍정 두 문장(빈칸 두 칸: be동사 부정/긍정 + 과거분사). Section B는 표를 보고 질문 한 줄을 완성합니다.",
   "items": [
     {
-      "id": "a01a",
+      "id": "writing_a01a",
       "section": "A",
       "label": "A1a",
       "type": "fill",
-      "promptEn": "( paint ) Tom\nThe wall wasn't _____ _____ by Jim.",
+      "promptEn": "( paint ) Tom\nThe wall wasn't painted by Jim.",
       "blanks": 2,
       "accept": [
         "wasn't|painted"
@@ -74,11 +74,11 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a01b",
+      "id": "writing_a01b",
       "section": "A",
       "label": "A1b",
       "type": "fill",
-      "promptEn": "The wall was _____ _____ by Tom.",
+      "promptEn": "The wall was painted by Tom.",
       "blanks": 2,
       "accept": [
         "was|painted"
@@ -92,15 +92,14 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a02a",
+      "id": "writing_a02a",
       "section": "A",
       "label": "A2a",
       "type": "fill",
-      "promptEn": "( hit ) David\nThe ball wasn't _____ _____ by Ben.",
+      "promptEn": "( hit ) David\nThe ball _____ _____ by Ben.",
       "blanks": 2,
       "accept": [
-        "wasn't|hit",
-        "was|not|hit"
+        "wasn't|hit"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "[정보 활용하기] 톰과 친구들은 어제 모두 다른 하루를 보냈습니다. 그림을 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -108,11 +107,11 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a02b",
+      "id": "writing_a02b",
       "section": "A",
       "label": "A2b",
       "type": "fill",
-      "promptEn": "The ball was _____ _____ by David.",
+      "promptEn": "The ball _____ _____ by David.",
       "blanks": 2,
       "accept": [
         "was|hit"
@@ -123,15 +122,14 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a03a",
+      "id": "writing_a03a",
       "section": "A",
       "label": "A3a",
       "type": "fill",
-      "promptEn": "( sing ) Amy\nThe song wasn't _____ _____ by Mary.",
+      "promptEn": "( sing ) Amy\nThe song _____ _____ by Mary.",
       "blanks": 2,
       "accept": [
-        "wasn't|sung",
-        "was|not|sung"
+        "wasn't|sung"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "[정보 활용하기] 톰과 친구들은 어제 모두 다른 하루를 보냈습니다. 그림을 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -139,11 +137,11 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a03b",
+      "id": "writing_a03b",
       "section": "A",
       "label": "A3b",
       "type": "fill",
-      "promptEn": "The song was _____ _____ by Amy.",
+      "promptEn": "The song _____ _____ by Amy.",
       "blanks": 2,
       "accept": [
         "was|sung"
@@ -154,15 +152,14 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a04a",
+      "id": "writing_a04a",
       "section": "A",
       "label": "A4a",
       "type": "fill",
-      "promptEn": "( take ) Betty\nThe pictures weren't _____ _____ by Cathy.",
+      "promptEn": "( take ) Betty\nThe pictures _____ _____ by Cathy.",
       "blanks": 2,
       "accept": [
-        "weren't|taken",
-        "were|not|taken"
+        "weren't|taken"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "[정보 활용하기] 톰과 친구들은 어제 모두 다른 하루를 보냈습니다. 그림을 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -170,11 +167,11 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a04b",
+      "id": "writing_a04b",
       "section": "A",
       "label": "A4b",
       "type": "fill",
-      "promptEn": "The pictures were _____ _____ by Betty.",
+      "promptEn": "The pictures _____ _____ by Betty.",
       "blanks": 2,
       "accept": [
         "were|taken"
@@ -185,15 +182,14 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a05a",
+      "id": "writing_a05a",
       "section": "A",
       "label": "A5a",
       "type": "fill",
-      "promptEn": "( break ) Ben\nThe bottles weren't _____ _____ by Ken.",
+      "promptEn": "( break ) Ben\nThe bottles _____ _____ by Ken.",
       "blanks": 2,
       "accept": [
-        "weren't|broken",
-        "were|not|broken"
+        "weren't|broken"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "[정보 활용하기] 톰과 친구들은 어제 모두 다른 하루를 보냈습니다. 그림을 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -201,11 +197,11 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a05b",
+      "id": "writing_a05b",
       "section": "A",
       "label": "A5b",
       "type": "fill",
-      "promptEn": "The bottles were _____ _____ by Ben.",
+      "promptEn": "The bottles _____ _____ by Ben.",
       "blanks": 2,
       "accept": [
         "were|broken"
@@ -216,15 +212,14 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a06a",
+      "id": "writing_a06a",
       "section": "A",
       "label": "A6a",
       "type": "fill",
-      "promptEn": "( clean ) Cathy\nThe room wasn't _____ _____ by Betty.",
+      "promptEn": "( clean ) Cathy\nThe room _____ _____ by Betty.",
       "blanks": 2,
       "accept": [
-        "wasn't|cleaned",
-        "was|not|cleaned"
+        "wasn't|cleaned"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "[정보 활용하기] 톰과 친구들은 어제 모두 다른 하루를 보냈습니다. 그림을 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -232,11 +227,11 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "a06b",
+      "id": "writing_a06b",
       "section": "A",
       "label": "A6b",
       "type": "fill",
-      "promptEn": "The room was _____ _____ by Cathy.",
+      "promptEn": "The room _____ _____ by Cathy.",
       "blanks": 2,
       "accept": [
         "was|cleaned"
@@ -247,7 +242,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "b01",
+      "id": "writing_b01",
       "section": "B",
       "label": "B1",
       "type": "fill",
@@ -265,7 +260,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "b02",
+      "id": "writing_b02",
       "section": "B",
       "label": "B2",
       "type": "fill",
@@ -280,7 +275,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "b03",
+      "id": "writing_b03",
       "section": "B",
       "label": "B3",
       "type": "fill",
@@ -295,7 +290,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "b04",
+      "id": "writing_b04",
       "section": "B",
       "label": "B4",
       "type": "fill",
@@ -310,7 +305,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "b05",
+      "id": "writing_b05",
       "section": "B",
       "label": "B5",
       "type": "fill",
@@ -325,7 +320,7 @@
       "answerModeTag": "Words only · 빈칸 말만"
     },
     {
-      "id": "b06",
+      "id": "writing_b06",
       "section": "B",
       "label": "B6",
       "type": "fill",

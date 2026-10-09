@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "introKo": "Section A 11문항, Section B 11문항(빈칸 말만). B는 p.125 이미지 없음 — OCR 확인 필요.",
+  "introKo": "Section A 11문항, Section B 11문항(빈칸 말만). 회색 예시는 채점하지 않아요.",
   "items": [
     {
       "id": "a01",
@@ -108,8 +108,7 @@
       "promptEn": "Big fish are caught here. (부정문)\nBig fish _____ _____ here.",
       "blanks": 2,
       "accept": [
-        "aren't|caught",
-        "are|not|caught"
+        "aren't|caught"
       ],
       "example": false,
       "displayOnly": false,
@@ -165,8 +164,7 @@
       "promptEn": "The stars were seen then. (부정문)\nThe stars _____ _____ then.",
       "blanks": 2,
       "accept": [
-        "weren't|seen",
-        "were|not|seen"
+        "weren't|seen"
       ],
       "example": false,
       "displayOnly": false,
