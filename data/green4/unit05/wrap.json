@@ -1,7 +1,7 @@
 {
   "practiceId": "g4:u05:wrap",
   "title": "Wrap Up",
-  "subtitle": "Unit summary (p. 115) — needs page image",
+  "subtitle": "Unit summary (p. 115)",
   "pages": "115",
   "timerMinutes": 8,
   "bookId": "zap-green-4",
@@ -10,147 +10,144 @@
   "unitId": "unit-05",
   "unitTitle": "Unit 05 — 수동태 (1)",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 1. 능동태와 수동태 3문항(빈칸 말만 쓰기), 2. 수동태의 형태 3문항(빈칸 말만 쓰기)으로 되어 있어요. (p. 115 원본 미제공 — from OCR / concept draft, needs check)",
+  "introKo": "이 연습은 1. 능동태와 수동태 4문항(빈칸 말만 쓰기), 2. 수동태의 형태 2문항(빈칸 말만 쓰기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, 빈칸에 들어갈 말만 쓰세요.",
   "sections": [
     {
       "id": "1",
       "title": "1. 능동태와 수동태",
-      "instructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+      "instructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "directionKo": "Unit 05에서 배운 내용을 정리하세요.",
-      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 3,
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "1-1",
         "1-2",
-        "1-3"
+        "1-3",
+        "1-4"
       ]
     },
     {
       "id": "2",
       "title": "2. 수동태의 형태",
-      "instructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+      "instructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "directionKo": "Unit 05에서 배운 내용을 정리하세요.",
-      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 3,
+      "itemCount": 2,
       "exampleCount": 0,
       "labels": [
         "2-1",
-        "2-2",
-        "2-3"
+        "2-2"
       ]
     }
   ],
   "items": [
     {
-      "id": "w1_1",
+      "id": "wrap_w1_1",
       "section": "1",
       "sectionTitle": "1. 능동태와 수동태",
-      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "1-1",
       "type": "fill",
-      "promptEn": "① 능동태: 주어가 직접 행동하여 '(주어가) ~[1]다'의 뜻.",
-      "promptKo": "",
+      "promptKo": "① 능동태: 주어가 [1]으로 행동하여 '(주어가) ~하다'라는 의미를 가진 문장이다.",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "하"
-      ],
-      "needsSourceCheck": true
+        "직접",
+        "능동"
+      ]
     },
     {
-      "id": "w1_2",
+      "id": "wrap_w1_2",
       "section": "1",
       "sectionTitle": "1. 능동태와 수동태",
-      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "1-2",
       "type": "fill",
-      "promptEn": "② 수동태: '(주어가) ~당하다, ~[2]다'의 뜻.",
-      "promptKo": "",
+      "promptKo": "Lisa cleans the room. → 주어인 'Lisa'가 직접 능동적으로 [2] 것.",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "되"
-      ],
-      "needsSourceCheck": true
+        "청소하는",
+        "하는"
+      ]
     },
     {
-      "id": "w1_3",
+      "id": "wrap_w1_3",
       "section": "1",
       "sectionTitle": "1. 능동태와 수동태",
-      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "1-3",
       "type": "fill",
-      "promptEn": "③ 수동태는 「[3]동사+과거분사」 형태.",
-      "promptKo": "",
+      "promptKo": "② 수동태: 주어가 [3]으로 동작을 당하여 '(주어가) ~당하다'라는 의미를 가진 문장이다.",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "be",
-        "Be"
-      ],
-      "needsSourceCheck": true
+        "수동",
+        "수동적"
+      ]
     },
     {
-      "id": "w2_1",
+      "id": "wrap_w1_4",
+      "section": "1",
+      "sectionTitle": "1. 능동태와 수동태",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1-4",
+      "type": "fill",
+      "promptKo": "The room is cleaned by Lisa. → 주어인 'The room'이 수동적으로 [4] 것.",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "청소되는",
+        "되는"
+      ]
+    },
+    {
+      "id": "wrap_w2_1",
       "section": "2",
       "sectionTitle": "2. 수동태의 형태",
-      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "2-1",
       "type": "fill",
-      "promptEn": "① 현재 수동태: [1]/are/is + 과거분사",
-      "promptKo": "",
+      "promptKo": "「be동사 + [1]」의 형태로 '(주어가) ~당하다, ~되다'의 뜻이다.",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "am",
-        "Am"
-      ],
-      "needsSourceCheck": true
+        "과거분사",
+        "과거 분사"
+      ]
     },
     {
-      "id": "w2_2",
+      "id": "wrap_w2_2",
       "section": "2",
       "sectionTitle": "2. 수동태의 형태",
-      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "2-2",
       "type": "fill",
-      "promptEn": "② 과거 수동태: [2]/were + 과거분사",
-      "promptKo": "",
+      "promptKo": "이때 [2]는 주어와 시제에 따라 달라진다.",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "was",
-        "Was"
-      ],
-      "needsSourceCheck": true
-    },
-    {
-      "id": "w2_3",
-      "section": "2",
-      "sectionTitle": "2. 수동태의 형태",
-      "sectionInstructionKo": "Unit 05에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "2-3",
-      "type": "fill",
-      "promptEn": "③ be동사는 주어와 [3]에 따라 달라진다.",
-      "promptKo": "",
-      "blanks": 1,
-      "accept": [
-        "시제",
-        "시제에"
-      ],
-      "needsSourceCheck": true
+        "be동사",
+        "Be동사",
+        "be 동사"
+      ]
     }
   ]
 }

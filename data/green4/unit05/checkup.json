@@ -1,7 +1,7 @@
 {
   "practiceId": "g4:u05:checkup",
   "title": "Check Up",
-  "subtitle": "Comic dialogue (p. 115) — needs page image",
+  "subtitle": "Comic dialogue (p. 115)",
   "pages": "115",
   "timerMinutes": 6,
   "bookId": "zap-green-4",
@@ -11,46 +11,99 @@
   "unitTitle": "Unit 05 — 수동태 (1)",
   "sectionsVersion": 2,
   "wordBank": [
-    "is",
-    "are",
-    "was",
-    "were"
+    "opened",
+    "were",
+    "delivered",
+    "carried"
   ],
-  "introKo": "이 연습은 Check Up 1문항(골라서 단어만 쓰기)으로 되어 있어요. (p. 115 원본 미제공 — needs check)",
+  "introKo": "이 연습은 Check Up 4문항(골라서 단어만 쓰기)으로 되어 있어요. 그림 3번에는 빈칸이 없어서 문항으로 넣지 않았어요.",
   "sections": [
     {
       "id": "CU",
       "title": "Check Up",
-      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (is / are / was / were) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (is / are / was / were)",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (opened / were / delivered / carried) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (opened / were / delivered / carried)",
       "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
-      "itemCount": 1,
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
-        "1"
+        "1",
+        "2",
+        "3",
+        "4"
       ]
     }
   ],
   "items": [
     {
-      "id": "c01",
+      "id": "checkup_c01",
       "section": "CU",
       "sectionTitle": "Check Up",
-      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (is / are / was / were) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (opened / were / delivered / carried) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "1",
       "type": "fill",
-      "promptEn": "[그림 없음 — 확인 필요] English _____ spoken here.",
+      "promptEn": "A huge box was ______ yesterday.",
       "promptKo": "",
       "blanks": 1,
       "accept": [
-        "is",
-        "Is"
-      ],
-      "needsSourceCheck": true
+        "delivered",
+        "Delivered"
+      ]
+    },
+    {
+      "id": "checkup_c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (opened / were / delivered / carried) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "The box was ______ into the kitchen.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "carried",
+        "Carried"
+      ]
+    },
+    {
+      "id": "checkup_c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (opened / were / delivered / carried) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "The box was ______.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "opened",
+        "Opened"
+      ]
+    },
+    {
+      "id": "checkup_c04",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (opened / were / delivered / carried) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "Some bottles ______ broken.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "were",
+        "Were"
+      ]
     }
   ]
 }

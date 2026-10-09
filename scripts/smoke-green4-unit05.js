@@ -11,10 +11,29 @@ for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
   vm.runInContext(fs.readFileSync(path.join(REPO, f), "utf8"), ctx);
 }
 const E = win.MRJ_ENGINE;
+const EXPECTED_GRADED = 154;
 let total = 0;
 let bad = 0;
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const slug = (d.practiceId || "").split(":").pop() || "";
+  const seen = new Set();
+  for (const it of d.items || []) {
+    if (!it.id) {
+      bad++;
+      console.log("MISSING-ID", f, it.label);
+      continue;
+    }
+    if (seen.has(it.id)) {
+      bad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    seen.add(it.id);
+    if (slug && !it.id.startsWith(slug + "_") && !it.id.startsWith("wrap_") && !it.id.startsWith("checkup_")) {
+      bad++;
+      console.log("ID-PREFIX", f, it.id, "expected", slug + "_*");
+    }
+  }
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;
@@ -33,7 +52,9 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       wp[0] = "xyz";
       wrong = { parts: wp, value: wp.join(" ") };
     } else {
-      right = { value: "  " + it.accept[0].toUpperCase() + "  " };
+      const sample = it.accept[0];
+      const hangul = /[\u3131-\uD79D]/.test(sample);
+      right = { value: hangul ? "  " + sample + "  " : "  " + sample.toUpperCase() + "  " };
       wrong = { value: "nope" };
     }
     const r = E.gradeItem(it, right);
@@ -60,6 +81,10 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
     }
   }
   console.log(f.padEnd(22), (d.practiceId || "").padEnd(16), "items", d.items.length, "ok", ok, "timer", d.timerMinutes);
+}
+if (total !== EXPECTED_GRADED) {
+  bad++;
+  console.log("GRADED-COUNT", total, "expected", EXPECTED_GRADED);
 }
 console.log(bad ? "FAILURES: " + bad : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)");
 process.exit(bad ? 1 : 0);
