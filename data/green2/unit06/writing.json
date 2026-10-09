@@ -172,7 +172,10 @@
       "promptEn": "Genie: What do you need for a picnic?\nAladdin: ________________________________ ( eat )\n[사진: 빵]",
       "blanks": 1,
       "accept": [
-        "I need sweet bread to eat."
+        "I need sweet bread to eat.",
+        "I need bread to eat.",
+        "I need some sweet bread to eat.",
+        "I need some bread to eat."
       ]
     },
     {
@@ -187,7 +190,10 @@
       "promptEn": "Genie: What do you need for a picnic?\nAladdin: ________________________________ ( drink )\n[사진: 우유]",
       "blanks": 1,
       "accept": [
-        "I need fresh milk to drink."
+        "I need fresh milk to drink.",
+        "I need milk to drink.",
+        "I need some fresh milk to drink.",
+        "I need some milk to drink."
       ]
     },
     {
@@ -202,7 +208,10 @@
       "promptEn": "Genie: What do you need for a picnic?\nAladdin: ________________________________ ( give Jasmine )\n[사진: 꽃]",
       "blanks": 1,
       "accept": [
-        "I need beautiful flowers to give Jasmine."
+        "I need beautiful flowers to give Jasmine.",
+        "I need flowers to give Jasmine.",
+        "I need some beautiful flowers to give Jasmine.",
+        "I need some flowers to give Jasmine."
       ]
     },
     {
@@ -217,7 +226,8 @@
       "promptEn": "Genie: What do you need for a picnic?\nAladdin: ________________________________ ( fly with her )\n[사진: 연]",
       "blanks": 1,
       "accept": [
-        "I need a pretty kite to fly with her."
+        "I need a pretty kite to fly with her.",
+        "I need a kite to fly with her."
       ]
     }
   ]

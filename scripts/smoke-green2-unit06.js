@@ -54,6 +54,13 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       bad++;
       console.log("FAIL", f, it.id, JSON.stringify(right), r, w);
     }
+    if (d.practiceId === "g2:u06:writing" && it.id && it.id.startsWith("b0") && !it.displayOnly) {
+      const wrong = { value: "I need to eat sweet bread." };
+      if (E.gradeItem(it, wrong)) {
+        bad++;
+        console.log("WRONG-ACCEPT", f, it.id, "should reject bad infinitive use");
+      }
+    }
     for (const acc of it.accept) {
       let resp;
       if (it.type === "mc") {
