@@ -1,0 +1,87 @@
+{
+  "practiceId": "g3:u02:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue blanks (p. 48)",
+  "pages": "48",
+  "timerMinutes": 6,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 의문사 있는 의문문 (2)",
+  "wordBank": [
+    "many",
+    "which",
+    "how"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 3문항(골라서 그 단어만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (many / which / how) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (many / which / how)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "checkup-c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (many / which / how) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[그림] Customer: I need a birthday cake.\nBaker: _____ cake do you want, the cheesecake or the chocolate cake?",
+      "blanks": 1,
+      "accept": [
+        "Which",
+        "which"
+      ]
+    },
+    {
+      "id": "checkup-c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (many / which / how) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "Customer: I'll take it. _____ much is it?\nBaker: It's 35 dollars.",
+      "blanks": 1,
+      "accept": [
+        "How",
+        "how"
+      ]
+    },
+    {
+      "id": "checkup-c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (many / which / how) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "Baker: How _____ candles do you need?\nCustomer: Well......",
+      "blanks": 1,
+      "accept": [
+        "many",
+        "Many"
+      ]
+    }
+  ]
+}

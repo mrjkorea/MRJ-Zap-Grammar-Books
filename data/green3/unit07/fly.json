@@ -1,0 +1,433 @@
+{
+  "practiceId": "g3:u07:fly",
+  "title": "Grammar Fly",
+  "subtitle": "고치기 & 변환 (pp. 150–151)",
+  "pages": "150–151",
+  "timerMinutes": 26,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 재귀대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(문장 전체 쓰기), Section B 11문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "fly_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "My sister bought herself ice cream.",
+      "type": "sentence",
+      "promptKo": "내 여동생은 자신을 위해 아이스크림을 샀다.",
+      "promptEn": "My sister bought <u>her</u> ice cream.",
+      "accept": [
+        "My sister bought herself ice cream."
+      ]
+    },
+    {
+      "id": "fly_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
+      "type": "sentence",
+      "promptKo": "헨리는 자기 자신을 자주 그린다.",
+      "promptEn": "Henry often draws <u>him</u>.",
+      "accept": [
+        "Henry often draws himself."
+      ]
+    },
+    {
+      "id": "fly_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
+      "type": "sentence",
+      "promptKo": "많은 사람들이 자기 자신을 잘 모른다.",
+      "promptEn": "Many people don't know <u>them</u> well.",
+      "accept": [
+        "Many people don't know themselves well.",
+        "Many people do not know themselves well."
+      ]
+    },
+    {
+      "id": "fly_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
+      "type": "sentence",
+      "promptKo": "메리는 그 선생님께 자기 자신을 소개했니?",
+      "promptEn": "Did Mary introduce <u>her</u> to the teacher?",
+      "accept": [
+        "Did Mary introduce herself to the teacher?"
+      ]
+    },
+    {
+      "id": "fly_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
+      "type": "sentence",
+      "promptKo": "내가 직접 그 울타리를 고칠 수 있다.",
+      "promptEn": "I can fix the fence <u>meself</u>.",
+      "accept": [
+        "I can fix the fence myself."
+      ]
+    },
+    {
+      "id": "fly_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A6",
+      "type": "sentence",
+      "promptKo": "너와 네 여동생은 스스로 숙제를 해야 한다.",
+      "promptEn": "You and your sister have to do your homework <u>yourself</u>.",
+      "accept": [
+        "You and your sister have to do your homework yourselves."
+      ]
+    },
+    {
+      "id": "fly_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A7",
+      "type": "sentence",
+      "promptKo": "때때로 우리 아빠는 직접 빵을 구우신다.",
+      "promptEn": "Sometimes my dad bakes bread <u>herself</u>.",
+      "accept": [
+        "Sometimes my dad bakes bread himself."
+      ]
+    },
+    {
+      "id": "fly_a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A8",
+      "type": "sentence",
+      "promptKo": "많은 동물들이 직접 자신들의 둥지를 짓는다.",
+      "promptEn": "Lots of animals build their nests <u>ourselves</u>.",
+      "accept": [
+        "Lots of animals build their nests themselves."
+      ]
+    },
+    {
+      "id": "fly_a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A9",
+      "type": "sentence",
+      "promptKo": "월리 씨는 어제 혼자서 식사를 했다.",
+      "promptEn": "Mr. Willy ate by <u>him</u> yesterday.",
+      "accept": [
+        "Mr. Willy ate by himself yesterday."
+      ]
+    },
+    {
+      "id": "fly_a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A10",
+      "type": "sentence",
+      "promptKo": "너는 자전거 타는 것을 스스로 배웠다.",
+      "promptEn": "You taught <u>you</u> to ride a bike.",
+      "accept": [
+        "You taught yourself to ride a bike."
+      ]
+    },
+    {
+      "id": "fly_a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A11",
+      "type": "sentence",
+      "promptKo": "그들은 그 축제에서 즐거운 시간을 보냈니?",
+      "promptEn": "Did they enjoy <u>them</u> at the festival?",
+      "accept": [
+        "Did they enjoy themselves at the festival?"
+      ]
+    },
+    {
+      "id": "fly_a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A12",
+      "type": "sentence",
+      "promptKo": "케이크를 마음껏 드세요.",
+      "promptEn": "Please help <u>you</u> to the cake.",
+      "accept": [
+        "Please help yourself to the cake."
+      ]
+    },
+    {
+      "id": "fly_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "himself",
+      "type": "fill",
+      "promptEn": "She introduced herself to the neighbors. ( your brother )\nYour brother introduced _____ to the neighbors.",
+      "blanks": 1,
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "fly_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "The duck washes itself in the pond. ( the ducks )\nThe ducks wash _____ in the pond.",
+      "blanks": 1,
+      "accept": [
+        "themselves"
+      ]
+    },
+    {
+      "id": "fly_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "He likes to draw himself. ( I )\nI like to draw _____.",
+      "blanks": 1,
+      "accept": [
+        "myself"
+      ]
+    },
+    {
+      "id": "fly_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "They wrote a song about themselves. ( the woman )\nThe woman wrote a song about _____.",
+      "blanks": 1,
+      "accept": [
+        "herself"
+      ]
+    },
+    {
+      "id": "fly_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Bob knitted the scarves himself. ( we )\nWe knitted the scarves _____.",
+      "blanks": 1,
+      "accept": [
+        "ourselves"
+      ]
+    },
+    {
+      "id": "fly_b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Did you see the UFO yourself? ( they )\nDid they see the UFO _____?",
+      "blanks": 1,
+      "accept": [
+        "themselves"
+      ]
+    },
+    {
+      "id": "fly_b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "Did you make the snowman yourself? ( you and Ben )\nDid you and Ben make the snowman _____?",
+      "blanks": 1,
+      "accept": [
+        "yourselves"
+      ]
+    },
+    {
+      "id": "fly_b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "The puppy barked at itself in the mirror. ( the puppies )\nThe puppies barked at _____ in the mirror.",
+      "blanks": 1,
+      "accept": [
+        "themselves"
+      ]
+    },
+    {
+      "id": "fly_b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "I taught myself to play the cello. ( Jane's brother )\nJane's brother taught _____ to play the cello.",
+      "blanks": 1,
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "fly_b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "They cut themselves with paper. ( my dad )\nMy dad cut _____ with paper.",
+      "blanks": 1,
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "fly_b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "They helped themselves to the fish. ( I )\nI helped _____ to the fish.",
+      "blanks": 1,
+      "accept": [
+        "myself"
+      ]
+    },
+    {
+      "id": "fly_b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 주어진 말로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "Does the little boy comb his hair by himself? ( you )\nDo you comb your hair _____ _____?",
+      "blanks": 2,
+      "accept": [
+        "by|yourself"
+      ]
+    }
+  ]
+}

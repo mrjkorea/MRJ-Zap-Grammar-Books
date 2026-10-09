@@ -1,0 +1,226 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 여러 가지 동사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u01:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "봄·가을 & 대화 (pp. 20–21)",
+  "pages": "20–21",
+  "timerMinutes": 20,
+  "introKo": "이 연습은 Section A 5문항, Section B 4문항(빈칸 말만)입니다. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "[정보 활용하기] 그림을 보고, 주어진 말을 사용하여 봄과 가을의 특성을 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "directionKo": "[정보 활용하기] 그림을 보고, 주어진 말을 사용하여 봄과 가을의 특성을 설명하는 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "[정보 활용하기] 헐리우드 스타 샐리가 차고 세일을 하고 있습니다. 그림을 보고, 주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "directionKo": "[정보 활용하기] 헐리우드 스타 샐리가 차고 세일을 하고 있습니다. 그림을 보고, 주어진 말을 사용하여 다음 대화를 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 그림을 보고, 주어진 말을 사용하여 봄과 가을의 특성을 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "( become, warm )\nThe weather _____ _____ in spring.",
+      "blanks": 2,
+      "accept": [
+        "becomes|warm"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "becomes / warm",
+      "id": "a01"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 그림을 보고, 주어진 말을 사용하여 봄과 가을의 특성을 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "( get, longer )\nThe days _____ _____ in spring.",
+      "blanks": 2,
+      "accept": [
+        "get|longer"
+      ],
+      "id": "a02"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 그림을 보고, 주어진 말을 사용하여 봄과 가을의 특성을 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "( turn, green )\nThe leaves _____ _____ in spring.",
+      "blanks": 2,
+      "accept": [
+        "turn|green"
+      ],
+      "id": "a03"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 그림을 보고, 주어진 말을 사용하여 봄과 가을의 특성을 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "( become, cool )\nThe weather _____ _____ in fall.",
+      "blanks": 2,
+      "accept": [
+        "becomes|cool"
+      ],
+      "id": "a04"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 그림을 보고, 주어진 말을 사용하여 봄과 가을의 특성을 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "( get, shorter )\nThe days _____ _____ in fall.",
+      "blanks": 2,
+      "accept": [
+        "get|shorter"
+      ],
+      "id": "a05"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 그림을 보고, 주어진 말을 사용하여 봄과 가을의 특성을 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "( turn, red and yellow )\nThe leaves _____ _____\n_____ in fall.",
+      "blanks": 3,
+      "accept": [
+        "turn|red and|yellow",
+        "turn|red|and yellow",
+        "turn|red and yellow"
+      ],
+      "id": "a06"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 헐리우드 스타 샐리가 차고 세일을 하고 있습니다. 그림을 보고, 주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "( feel, soft )\nA: How is the red scarf?\nB: The red scarf _____ _____ .",
+      "blanks": 2,
+      "accept": [
+        "feels|soft"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "feels / soft",
+      "id": "b01"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 헐리우드 스타 샐리가 차고 세일을 하고 있습니다. 그림을 보고, 주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "( look, pretty )\nA: How are the hairpins?\nB: The hairpins _____ _____ .",
+      "blanks": 2,
+      "accept": [
+        "look|pretty"
+      ],
+      "id": "b02"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 헐리우드 스타 샐리가 차고 세일을 하고 있습니다. 그림을 보고, 주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "( sound, exciting )\nA: How is the music?\nB: The music _____ _____ .",
+      "blanks": 2,
+      "accept": [
+        "sounds|exciting"
+      ],
+      "id": "b03"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 헐리우드 스타 샐리가 차고 세일을 하고 있습니다. 그림을 보고, 주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "( smell, good )\nA: How are the pancakes?\nB: The pancakes _____ _____ .",
+      "blanks": 2,
+      "accept": [
+        "smell|good"
+      ],
+      "id": "b04"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 헐리우드 스타 샐리가 차고 세일을 하고 있습니다. 그림을 보고, 주어진 말을 사용하여 다음 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "( taste, sour )\nA: How is the lemonade?\nB: The lemonade _____ _____ .",
+      "blanks": 2,
+      "accept": [
+        "tastes|sour"
+      ],
+      "id": "b05"
+    }
+  ]
+}

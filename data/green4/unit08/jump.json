@@ -1,0 +1,501 @@
+{
+  "practiceId": "g4:u08:jump",
+  "title": "Grammar Jump",
+  "subtitle": "접속사 문장 완성 (pp. 168–169)",
+  "pages": "168–169",
+  "timerMinutes": 24,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 접속사 (2)",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "ruleKo": "중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 12,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "jump-a01",
+      "section": "A",
+      "label": "A1",
+      "type": "sentence",
+      "promptEn": "_____, he couldn't sleep well. ( because )",
+      "promptKo": "마크는 커피를 너무 많이 마셔서, 잠을 잘 자지 못했다.",
+      "accept": [
+        "Because Mark drank too much coffee, he couldn't sleep well.",
+        "Because Mark drank too much coffee, he couldn’t sleep well.",
+        "Because Mark drank too much coffee he couldn't sleep well.",
+        "Because Mark drank too much coffee he couldn’t sleep well."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Because Mark drank too much coffee, he couldn't sleep well.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a02",
+      "section": "A",
+      "label": "A2",
+      "type": "sentence",
+      "promptEn": "_____, we ate some sandwiches. ( because )",
+      "promptKo": "우리는 배가 고파서, 샌드위치를 조금 먹었다.",
+      "accept": [
+        "Because we were hungry, we ate some sandwiches.",
+        "Because we were hungry we ate some sandwiches."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a03",
+      "section": "A",
+      "label": "A3",
+      "type": "sentence",
+      "promptEn": "_____, I can't send e-mail to him. ( because )",
+      "promptKo": "내 컴퓨터가 고장 나서, 나는 그에게 이메일을 보내지 못한다.",
+      "accept": [
+        "Because my computer is broken, I can't send e-mail to him.",
+        "Because my computer is broken, I can’t send e-mail to him.",
+        "Because my computer is broken, I can not send e-mail to him.",
+        "Because my computer is broken I can't send e-mail to him.",
+        "Because my computer is broken I can’t send e-mail to him.",
+        "Because my computer is broken I can not send e-mail to him."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a04",
+      "section": "A",
+      "label": "A4",
+      "type": "sentence",
+      "promptEn": "_____, she raised her hand. ( because )",
+      "promptKo": "케이트는 질문이 있어서, 손을 들었다.",
+      "accept": [
+        "Because Kate had a question, she raised her hand.",
+        "Because Kate had a question she raised her hand."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a05",
+      "section": "A",
+      "label": "A5",
+      "type": "sentence",
+      "promptEn": "_____, I will go to the concert. ( if )",
+      "promptKo": "나는 숙제를 일찍 끝내면, 그 콘서트에 갈 것이다.",
+      "accept": [
+        "If I finish my homework early, I will go to the concert.",
+        "If I finish my homework early, i'll go to the concert.",
+        "If I finish my homework early, i’ll go to the concert.",
+        "If I finish my homework early I will go to the concert.",
+        "If I finish my homework early i'll go to the concert.",
+        "If I finish my homework early i’ll go to the concert."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a06",
+      "section": "A",
+      "label": "A6",
+      "type": "sentence",
+      "promptEn": "_____, they won't play soccer. ( if )",
+      "promptKo": "내일 비가 오면, 그들은 축구를 하지 않을 것이다.",
+      "accept": [
+        "If it rains tomorrow, they won't play soccer.",
+        "If it rains tomorrow, they won’t play soccer.",
+        "If it rains tomorrow, they will not play soccer.",
+        "If it rains tomorrow they won't play soccer.",
+        "If it rains tomorrow they won’t play soccer.",
+        "If it rains tomorrow they will not play soccer."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a07",
+      "section": "A",
+      "label": "A7",
+      "type": "sentence",
+      "promptEn": "_____, he will come with you. ( if )",
+      "promptKo": "네가 잠깐만 기다리면, 그가 너와 함께 올 것이다.",
+      "accept": [
+        "If you wait a minute, he will come with you.",
+        "If you wait a minute he will come with you."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a08",
+      "section": "A",
+      "label": "A8",
+      "type": "sentence",
+      "promptEn": "_____, your teacher will get angry. ( if )",
+      "promptKo": "네가 다시 늦으면, 너희 선생님은 화를 내실 것이다.",
+      "accept": [
+        "If you are late again, your teacher will get angry.",
+        "If you're late again, your teacher will get angry.",
+        "If you’re late again, your teacher will get angry.",
+        "If you are late again your teacher will get angry.",
+        "If you're late again your teacher will get angry.",
+        "If you’re late again your teacher will get angry."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a09",
+      "section": "A",
+      "label": "A9",
+      "type": "sentence",
+      "promptEn": "She knows _____. ( that )",
+      "promptKo": "그녀는 제이미가 정직하다는 것을 알고 있다.",
+      "accept": [
+        "She knows that Jamie is honest.",
+        "She knows that Jamie is honest"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a10",
+      "section": "A",
+      "label": "A10",
+      "type": "sentence",
+      "promptEn": "Most people expect _____. ( that )",
+      "promptKo": "대부분의 사람들이 그녀가 금메달을 딸 것이라고 예상한다.",
+      "accept": [
+        "Most people expect that she will win the gold medal.",
+        "Most people expect that she will win the gold medal"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a11",
+      "section": "A",
+      "label": "A11",
+      "type": "sentence",
+      "promptEn": "They believe _____. ( that )",
+      "promptKo": "그들은 그 아픈 아이를 구할 수 있다고 믿는다.",
+      "accept": [
+        "They believe that they can save the sick child.",
+        "They believe that they can save the sick child"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-a12",
+      "section": "A",
+      "label": "A12",
+      "type": "sentence",
+      "promptEn": "He thought _____. ( that )",
+      "promptKo": "그는 그 영화가 지루하다고 생각했다.",
+      "accept": [
+        "He thought that the movie was boring.",
+        "He thought that the movie was boring"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 괄호 안에 주어진 접속사와 함께 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "jump-b01",
+      "section": "B",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "Because he had to take care of his dog, he went home early.",
+      "blanks": 1,
+      "accept": [
+        "Because",
+        "BECAUSE"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Because",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b02",
+      "section": "B",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "_____ I was taking a shower, I couldn't answer the phone.",
+      "blanks": 1,
+      "accept": [
+        "Because",
+        "BECAUSE"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b03",
+      "section": "B",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "_____ October 9th is a holiday, we don't have to go to school.",
+      "blanks": 1,
+      "accept": [
+        "Because",
+        "BECAUSE"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b04",
+      "section": "B",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "_____ I have an exam tomorrow, I can't go out tonight.",
+      "blanks": 1,
+      "accept": [
+        "Because",
+        "BECAUSE"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b05",
+      "section": "B",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "_____ it snows tomorrow, let's make a snowman.",
+      "blanks": 1,
+      "accept": [
+        "If",
+        "IF"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b06",
+      "section": "B",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "_____ I'm late, don't wait for me.",
+      "blanks": 1,
+      "accept": [
+        "If",
+        "IF"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b07",
+      "section": "B",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "_____ you don't hurry, we will miss the plane.",
+      "blanks": 1,
+      "accept": [
+        "If",
+        "IF"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b08",
+      "section": "B",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "_____ you go straight, you will find the bookstore.",
+      "blanks": 1,
+      "accept": [
+        "If",
+        "IF"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b09",
+      "section": "B",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "He believes _____ we can travel in space soon.",
+      "blanks": 1,
+      "accept": [
+        "that",
+        "That",
+        "THAT"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b10",
+      "section": "B",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "We know _____ the Earth is getting warmer.",
+      "blanks": 1,
+      "accept": [
+        "that",
+        "That",
+        "THAT"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b11",
+      "section": "B",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "He hopes _____ she will pass the test.",
+      "blanks": 1,
+      "accept": [
+        "that",
+        "That",
+        "THAT"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b12",
+      "section": "B",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "They think _____ she is the best player in the world.",
+      "blanks": 1,
+      "accept": [
+        "that",
+        "That",
+        "THAT"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "jump-b13",
+      "section": "B",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "I expect _____ I can visit China next summer.",
+      "blanks": 1,
+      "accept": [
+        "that",
+        "That",
+        "THAT"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 빈칸에 쓰세요. 중복해서 사용할 수 있어요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ],
+  "introKo": "이 연습은 Section A 11문항(문장 전체 쓰기), Section B 12문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "wordBank": [
+    "because",
+    "if",
+    "that"
+  ]
+}

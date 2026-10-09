@@ -1,0 +1,315 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 접속사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u07:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "그림·표 활용 (pp. 152–153)",
+  "pages": "152–153",
+  "timerMinutes": 20,
+  "introKo": "이 연습은 Section A 5문항(빈칸 말만 쓰기), Section B 11문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "그림을 보고, 제이슨의 어제 하루가 어땠는지 주어진 말을 사용하여 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "directionKo": "그림을 보고, 제이슨의 어제 하루가 어땠는지 주어진 말을 사용하여 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "directionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 10,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 제이슨의 어제 하루가 어땠는지 주어진 말을 사용하여 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "type": "sentence",
+      "promptEn": "( while, was reading a book )\nWhile Jason was reading a book, the phone rang.",
+      "promptKo": "",
+      "accept": [
+        "While Jason was reading a book"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "While Jason was reading a book"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 제이슨의 어제 하루가 어땠는지 주어진 말을 사용하여 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
+      "type": "sentence",
+      "promptEn": "( while, was talking on the phone )\n______, someone knocked on the door.",
+      "promptKo": "",
+      "accept": [
+        "While Jason was talking on the phone"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 제이슨의 어제 하루가 어땠는지 주어진 말을 사용하여 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
+      "type": "sentence",
+      "promptEn": "( when, opened the door )\n______, the water started boiling.",
+      "promptKo": "",
+      "accept": [
+        "When Jason opened the door"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 제이슨의 어제 하루가 어땠는지 주어진 말을 사용하여 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
+      "type": "sentence",
+      "promptEn": "( when, turned off the gas )\n______, his dog began to bark.",
+      "promptKo": "",
+      "accept": [
+        "When Jason turned off the gas"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보고, 제이슨의 어제 하루가 어땠는지 주어진 말을 사용하여 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
+      "type": "sentence",
+      "promptEn": "( while, was feeding his dog )\n______, the phone rang again.",
+      "promptKo": "",
+      "accept": [
+        "While Jason was feeding his dog"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "After I had breakfast, I rode a bike.\nBefore I rode a bike, I had breakfast.",
+      "promptKo": "예시",
+      "accept": [
+        "After I had breakfast, I rode a bike.",
+        "Before I rode a bike, I had breakfast."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "After I had breakfast, I rode a bike."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "_______ , I played basketball.",
+      "promptKo": "",
+      "accept": [
+        "After I met Dave, I played basketball.",
+        "Before I played basketball, I met Dave."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "_______ , I met Dave.",
+      "promptKo": "",
+      "accept": [
+        "After I rode a bike, I met Dave.",
+        "Before I met Dave, I rode a bike."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "_______ , I had lunch.",
+      "promptKo": "",
+      "accept": [
+        "After I took a shower, I had lunch.",
+        "Before I had lunch, I took a shower."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "_______ , I took a shower.",
+      "promptKo": "",
+      "accept": [
+        "After I played basketball, I took a shower.",
+        "Before I took a shower, I played basketball."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "_______ , I made a kite.",
+      "promptKo": "",
+      "accept": [
+        "After I did my homework, I made a kite.",
+        "Before I made a kite, I did my homework."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "_______ , I did my homework.",
+      "promptKo": "",
+      "accept": [
+        "After I had lunch, I did my homework.",
+        "Before I did my homework, I had lunch."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "_______ , I had dinner.",
+      "promptKo": "",
+      "accept": [
+        "After I made a kite, I had dinner.",
+        "Before I had dinner, I made a kite."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "_______ , I watched TV.",
+      "promptKo": "",
+      "accept": [
+        "After I had dinner, I watched TV.",
+        "Before I watched TV, I had dinner."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "_______ , I read a book.",
+      "promptKo": "",
+      "accept": [
+        "After I watched TV, I read a book.",
+        "Before I read a book, I watched TV."
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "표를 보고, after와 before를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (쉼표 앞 절 전체를 한 칸에 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "_______ , I went to bed.",
+      "promptKo": "",
+      "accept": [
+        "After I read a book, I went to bed.",
+        "Before I went to bed, I read a book."
+      ]
+    }
+  ]
+}

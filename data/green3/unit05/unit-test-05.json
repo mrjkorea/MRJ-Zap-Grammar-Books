@@ -1,0 +1,690 @@
+{
+  "practiceId": "g3:u05:quiz",
+  "title": "Unit Test 05",
+  "subtitle": "현재 완료 시제 (3) (pp. 110–114)",
+  "pages": "110–114",
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 현재 완료 시제 (3)",
+  "timerMinutes": 30,
+  "testId": "unit-test-05",
+  "passPct": 80,
+  "retryBelowPct": 50,
+  "showAnswersToStudent": false,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–5] 3문항(고르기), [6–7] 2문항(고르기), [8] 1문항(고르기), [9–10] 2문항(고르기), [11–12] 2문항(고르기), [13–14] 2문항(고르기), [15–17] 3문항(고르기), [18–20] 3문항(빈칸 말만 쓰기), [21–25] 5문항(빈칸 말만 쓰기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "1-2",
+      "title": "[1–2]",
+      "instructionKo": "다음 중 동사원형과 과거분사형이 잘못 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 동사원형과 과거분사형이 잘못 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "3-5",
+      "title": "[3–5]",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "6-7",
+      "title": "[6–7]",
+      "instructionKo": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "[8]",
+      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 대화의 빈칸에 알맞은 말을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "8"
+      ]
+    },
+    {
+      "id": "9-10",
+      "title": "[9–10]",
+      "instructionKo": "다음 문장의 빈칸에 공통으로 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 공통으로 알맞은 말을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "11-12",
+      "title": "[11–12]",
+      "instructionKo": "다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 우리말을 영어로 바르게 옮긴 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "13-14",
+      "title": "[13–14]",
+      "instructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "13",
+        "14"
+      ]
+    },
+    {
+      "id": "15-17",
+      "title": "[15–17]",
+      "instructionKo": "다음 대화의 괄호 안에서 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 대화의 괄호 안에서 알맞은 말을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "15",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "id": "18-20",
+      "title": "[18–20]",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "18",
+        "19",
+        "20"
+      ]
+    },
+    {
+      "id": "21-25",
+      "title": "[21–25]",
+      "instructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "1-2",
+      "sectionTitle": "[1–2]",
+      "sectionInstructionKo": "다음 중 동사원형과 과거분사형이 잘못 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "study – studyed",
+        "play – played",
+        "stay – stayed",
+        "live – lived",
+        "raise – raised"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q02",
+      "section": "1-2",
+      "sectionTitle": "[1–2]",
+      "sectionInstructionKo": "다음 중 동사원형과 과거분사형이 잘못 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "leave – left",
+        "lose – lost",
+        "feel – felt",
+        "sleep – slept",
+        "sell – selt"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q03",
+      "section": "3-5",
+      "sectionTitle": "[3–5]",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptKo": "우리는 1년 동안 그 비밀을 알아 왔다.",
+      "promptEn": "We _____ known the secret for a year.",
+      "choices": [
+        "did",
+        "do",
+        "does",
+        "have",
+        "has"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q04",
+      "section": "3-5",
+      "sectionTitle": "[3–5]",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptKo": "지난 겨울부터 눈이 오지 않는다.",
+      "promptEn": "It _____ snowed since last winter.",
+      "choices": [
+        "don't",
+        "doesn't",
+        "didn't",
+        "haven't",
+        "hasn't"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q05",
+      "section": "3-5",
+      "sectionTitle": "[3–5]",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptKo": "그 고기는 상해 버렸니?",
+      "promptEn": "_____ the meat gone bad?",
+      "choices": [
+        "Did",
+        "Do",
+        "Does",
+        "Has",
+        "Have"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q06",
+      "section": "6-7",
+      "sectionTitle": "[6–7]",
+      "sectionInstructionKo": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요.",
+      "choices": [
+        "Bob has broken the window.",
+        "She has forgotten the password.",
+        "He has worn glasses for ten months.",
+        "I have swimed for two years.",
+        "We haven't seen Jasmine since Friday."
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q07",
+      "section": "6-7",
+      "sectionTitle": "[6–7]",
+      "sectionInstructionKo": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "다음 중 밑줄 친 부분이 잘못된 문장을 고르세요.",
+      "choices": [
+        "I have lost my key.",
+        "He has left his cap on the bench.",
+        "He has taught not us since last month.",
+        "She hasn't felt well for three days.",
+        "They haven't ridden a bike since last year."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q08",
+      "section": "8",
+      "sectionTitle": "[8]",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "A: Have you left your homework at home?\nB: _____",
+      "choices": [
+        "Yes, I do.",
+        "Yes, I did.",
+        "Yes, I have.",
+        "Yes, I had.",
+        "Yes, I was."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q09",
+      "section": "9-10",
+      "sectionTitle": "[9–10]",
+      "sectionInstructionKo": "다음 문장의 빈칸에 공통으로 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "• My dog _____ broken his leg.\n• _____ he lost his wallet?",
+      "choices": [
+        "does[Does]",
+        "do[Do]",
+        "has[Has]",
+        "have[Have]",
+        "haven't[Haven't]"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q10",
+      "section": "9-10",
+      "sectionTitle": "[9–10]",
+      "sectionInstructionKo": "다음 문장의 빈칸에 공통으로 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "• I _____ seen a dentist for two years.\n• The children _____ brushed their teeth since yesterday.",
+      "choices": [
+        "doesn't",
+        "don't",
+        "didn't",
+        "hasn't",
+        "haven't"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q11",
+      "section": "11-12",
+      "sectionTitle": "[11–12]",
+      "sectionInstructionKo": "다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "나는 2학년 때부터 발레를 연습해 왔다.",
+      "choices": [
+        "I practice ballet since the second grade.",
+        "I practices ballet since the second grade.",
+        "I have practiced ballet since the second grade.",
+        "I was practicing ballet since the second grade.",
+        "I will practice ballet since the second grade."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q12",
+      "section": "11-12",
+      "sectionTitle": "[11–12]",
+      "sectionInstructionKo": "다음 우리말을 영어로 바르게 옮긴 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "그녀는 학교에 가고 없다.",
+      "choices": [
+        "She goes to school.",
+        "She has gone to school.",
+        "She will go to school.",
+        "She went to school.",
+        "She has been to school."
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q13",
+      "section": "13-14",
+      "sectionTitle": "[13–14]",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "13",
+      "type": "mc",
+      "promptEn": "It has been cold since Sunday. (부정문)\n→ It _____ cold since Sunday.",
+      "choices": [
+        "haven't been",
+        "hasn't were",
+        "haven't was",
+        "hasn't been",
+        "hasn't is"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q14",
+      "section": "13-14",
+      "sectionTitle": "[13–14]",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "You have played the cello for ten years. (의문문)\n→ _____ you _____ the cello for ten years?",
+      "choices": [
+        "Do – play",
+        "Have – played",
+        "Has – played",
+        "Did – play",
+        "Were – playing"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q15",
+      "section": "15-17",
+      "sectionTitle": "[15–17]",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "A: You look tired.\nB: I haven't ( sleep / slept ) well for a week.",
+      "choices": [
+        "sleep",
+        "slept"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q16",
+      "section": "15-17",
+      "sectionTitle": "[15–17]",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "16",
+      "type": "mc",
+      "promptEn": "A: Let's play soccer.\nB: Sorry, I can't. I ( have / has ) broken my leg.",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q17",
+      "section": "15-17",
+      "sectionTitle": "[15–17]",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "17",
+      "type": "mc",
+      "promptEn": "A: Has Ruth left her umbrella at school?\nB: Yes, she ( has / had ).",
+      "choices": [
+        "has",
+        "had"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q18",
+      "section": "18-20",
+      "sectionTitle": "[18–20]",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "18",
+      "type": "fill",
+      "promptEn": "They has went to New York. They are still in New York.\n→ They _____ _____ to New York.",
+      "blanks": 2,
+      "accept": [
+        "have|gone",
+        "Have|gone"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "18-20",
+      "sectionTitle": "[18–20]",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "19",
+      "type": "fill",
+      "promptEn": "He has broke his arm. He can't play tennis.\n→ He _____ _____ his arm.",
+      "blanks": 2,
+      "accept": [
+        "has|broken",
+        "Has|broken"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "18-20",
+      "sectionTitle": "[18–20]",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "20",
+      "type": "fill",
+      "promptEn": "Amy didn't washed her car since last week. The car is dirty.\n→ Amy _____ _____ her car since last week.",
+      "blanks": 2,
+      "accept": [
+        "hasn't|washed",
+        "has not|washed"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "21-25",
+      "sectionTitle": "[21–25]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "21",
+      "type": "fill",
+      "promptKo": "엄마는 쇼핑 가고 안 계신다.",
+      "promptEn": "엄마는 쇼핑 가고 안 계신다. ( go )\n→ Mom _____ _____ shopping.",
+      "blanks": 2,
+      "accept": [
+        "has|gone"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "21-25",
+      "sectionTitle": "[21–25]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "22",
+      "type": "fill",
+      "promptKo": "그는 살이 많이 빠졌다.",
+      "promptEn": "그는 살이 많이 빠졌다. ( lose )\n→ He _____ _____ a lot of weight.",
+      "blanks": 2,
+      "accept": [
+        "has|lost"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "21-25",
+      "sectionTitle": "[21–25]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "23",
+      "type": "fill",
+      "promptKo": "나는 그를 어제부터 보지 못하고 있다.",
+      "promptEn": "나는 그를 어제부터 보지 못하고 있다. ( see )\n→ I _____ _____ _____ him since yesterday.",
+      "blanks": 3,
+      "accept": [
+        "have|not|seen"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "21-25",
+      "sectionTitle": "[21–25]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "24",
+      "type": "fill",
+      "promptKo": "그녀는 6년 동안 소방관이니?",
+      "promptEn": "그녀는 6년 동안 소방관이니? ( be )\n→ _____ she _____ a firefighter for six years?",
+      "blanks": 2,
+      "accept": [
+        "Has|been"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "21-25",
+      "sectionTitle": "[21–25]",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "25",
+      "type": "fill",
+      "promptKo": "너는 내 이름을 잊어버렸니?",
+      "promptEn": "너는 내 이름을 잊어버렸니? ( forget )\n→ _____ you _____ my name?",
+      "blanks": 2,
+      "accept": [
+        "Have|forgotten"
+      ]
+    }
+  ]
+}
