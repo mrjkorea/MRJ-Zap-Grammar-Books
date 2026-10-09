@@ -48,8 +48,12 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       let resp;
       if (it.type === "mc") {
         const i2 = /^\d$/.test(acc) ? Number(acc) - 1 : it.choices.indexOf(acc);
-        if (i2 < 0) continue;
-        resp = { value: it.choices[i2] };
+        if (i2 >= 0) resp = { value: it.choices[i2] };
+        else if (/^[①②③④⑤]$/.test(acc)) {
+          const n = "①②③④⑤".indexOf(acc);
+          if (n >= 0 && it.choices[n]) resp = { value: it.choices[n] };
+        } else resp = { value: acc };
+        if (!resp) continue;
       } else if ((it.blanks || 1) > 1) {
         const p = acc.split("|");
         resp = { parts: p, value: p.join(" ") };
