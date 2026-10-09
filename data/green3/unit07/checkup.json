@@ -36,7 +36,7 @@
   ],
   "items": [
     {
-      "id": "c01",
+      "id": "checkup_01",
       "section": "CU",
       "sectionTitle": "Check Up",
       "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (myself / yourself / ourselves) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -44,15 +44,14 @@
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "1",
       "type": "fill",
-      "promptEn": "[만화] 장난감 가게에서 혼자 인형을 고르는 아이.\nBoy: I can choose this doll _____.",
+      "promptEn": "[만화 1] Boy: Are you home by _____?\nGirl: Yes, I am.",
       "blanks": 1,
       "accept": [
-        "myself"
-      ],
-      "auditNote": "from OCR - needs check"
+        "yourself"
+      ]
     },
     {
-      "id": "c02",
+      "id": "checkup_02",
       "section": "CU",
       "sectionTitle": "Check Up",
       "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (myself / yourself / ourselves) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -60,15 +59,14 @@
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "2",
       "type": "fill",
-      "promptEn": "[만화] 밖에서 친구가 기다리며 손짓한다.\nMom: You should try the toy _____, honey.",
+      "promptEn": "[만화 2] Girl: Let's draw cartoons. We can teach _____.",
       "blanks": 1,
       "accept": [
-        "yourself"
-      ],
-      "auditNote": "from OCR - needs check"
+        "ourselves"
+      ]
     },
     {
-      "id": "c03",
+      "id": "checkup_03",
       "section": "CU",
       "sectionTitle": "Check Up",
       "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (myself / yourself / ourselves) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -76,12 +74,11 @@
       "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
       "label": "3",
       "type": "fill",
-      "promptEn": "[만화] 형제가 함께 장난감을 고른다.\nWe picked these toys _____.",
+      "promptEn": "[만화 3] Boy: What are you drawing?\nGirl: I'm drawing _____.",
       "blanks": 1,
       "accept": [
-        "ourselves"
-      ],
-      "auditNote": "from OCR - needs check"
+        "myself"
+      ]
     }
   ]
 }

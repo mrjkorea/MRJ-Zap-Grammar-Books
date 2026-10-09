@@ -15,6 +15,30 @@ let total = 0;
 let bad = 0;
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const seenIds = new Set();
+  for (const it of d.items) {
+    if (seenIds.has(it.id)) {
+      bad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    seenIds.add(it.id);
+    if (it.auditNote) {
+      bad++;
+      console.log("AUDIT-NOTE", f, it.id, it.auditNote);
+    }
+    if (it.type === "mc" && it.choices && it.accept) {
+      for (const acc of it.accept) {
+        if (/^\d$/.test(acc)) continue;
+        if (/^[①②③④⑤]$/.test(acc)) continue;
+        if (/^[a-e]$/i.test(acc)) continue;
+        const ix = it.choices.indexOf(acc);
+        if (ix < 0) {
+          bad++;
+          console.log("MC-MISSING-CHOICE", f, it.id, acc);
+        }
+      }
+    }
+  }
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;

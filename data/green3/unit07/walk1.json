@@ -55,7 +55,7 @@
   ],
   "items": [
     {
-      "id": "a01",
+      "id": "walk1_a01",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "a02",
+      "id": "walk1_a02",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "id": "a03",
+      "id": "walk1_a03",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": "a04",
+      "id": "walk1_a04",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "id": "a05",
+      "id": "walk1_a05",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "id": "a06",
+      "id": "walk1_a06",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "id": "a07",
+      "id": "walk1_a07",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "id": "a08",
+      "id": "walk1_a08",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "id": "b01",
+      "id": "walk1_b01",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -224,11 +224,13 @@
       "promptEn": "I → [1] _____  |  [2] _____",
       "blanks": 2,
       "accept": [
-        "myself|나 자신"
+        "myself|나 자신",
+        "myself|나자신",
+        "myself|자신"
       ]
     },
     {
-      "id": "b02",
+      "id": "walk1_b02",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -239,11 +241,13 @@
       "promptEn": "you (너) → [1] _____  |  [2] _____",
       "blanks": 2,
       "accept": [
-        "yourself|너 자신"
+        "yourself|너 자신",
+        "yourself|너자신",
+        "yourself|자신"
       ]
     },
     {
-      "id": "b03",
+      "id": "walk1_b03",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -254,11 +258,13 @@
       "promptEn": "she → [1] _____  |  [2] _____",
       "blanks": 2,
       "accept": [
-        "herself|그녀 자신"
+        "herself|그녀 자신",
+        "herself|그녀자신",
+        "herself|자신"
       ]
     },
     {
-      "id": "b04",
+      "id": "walk1_b04",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -269,11 +275,13 @@
       "promptEn": "he → [1] _____  |  [2] _____",
       "blanks": 2,
       "accept": [
-        "himself|그 자신"
+        "himself|그 자신",
+        "himself|그자신",
+        "himself|자신"
       ]
     },
     {
-      "id": "b05",
+      "id": "walk1_b05",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -284,11 +292,13 @@
       "promptEn": "it → [1] _____  |  [2] _____",
       "blanks": 2,
       "accept": [
-        "itself|그것 자신"
+        "itself|그것 자신",
+        "itself|그것자신",
+        "itself|자신"
       ]
     },
     {
-      "id": "b06",
+      "id": "walk1_b06",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -299,11 +309,13 @@
       "promptEn": "we → [1] _____  |  [2] _____",
       "blanks": 2,
       "accept": [
-        "ourselves|우리 자신"
+        "ourselves|우리 자신",
+        "ourselves|우리자신",
+        "ourselves|자신"
       ]
     },
     {
-      "id": "b07",
+      "id": "walk1_b07",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -314,11 +326,14 @@
       "promptEn": "you (너희들) → [1] _____  |  [2] _____",
       "blanks": 2,
       "accept": [
-        "yourselves|너희 자신"
+        "yourselves|너희 자신",
+        "yourselves|너희자신",
+        "yourselves|너희들 자신",
+        "yourselves|자신"
       ]
     },
     {
-      "id": "b08",
+      "id": "walk1_b08",
       "section": "B",
       "sectionTitle": "Section B",
       "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -329,7 +344,9 @@
       "promptEn": "they → [1] _____  |  [2] _____",
       "blanks": 2,
       "accept": [
-        "themselves|그들 자신"
+        "themselves|그들 자신",
+        "themselves|그들자신",
+        "themselves|자신"
       ]
     }
   ]
