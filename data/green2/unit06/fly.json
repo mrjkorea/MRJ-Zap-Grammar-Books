@@ -1,0 +1,456 @@
+{
+  "practiceId": "g2:u06:fly",
+  "title": "Grammar Fly",
+  "subtitle": "문장 완성 & 배열 (pp. 126–127)",
+  "pages": "126–127",
+  "timerMinutes": 28,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — to부정사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 12문항(문장 전체 쓰기), Section B 12문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 12,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 12,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "type": "fill",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Fred had fresh water to drink.",
+      "promptKo": "프레드는 신선한 마실 물이 있었다.",
+      "promptEn": "( fresh water, drink )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "Fred had fresh water to drink."
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
+      "type": "fill",
+      "promptKo": "수는 보내야 할 이메일이 조금 있다.",
+      "promptEn": "( some e-mail, send )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "Sue has some e-mail to send."
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
+      "type": "fill",
+      "promptKo": "그것이 오늘 읽을 책이다.",
+      "promptEn": "( the book, read today )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "It is the book to read today."
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
+      "type": "fill",
+      "promptKo": "나는 네게 말할 비밀이 있다.",
+      "promptEn": "( a secret, tell you )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "I have a secret to tell you."
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
+      "type": "fill",
+      "promptKo": "우리 엄마는 내 성적표를 보시고 속상해하셨다.",
+      "promptEn": "( upset, see my report card )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "My mom was upset to see my report card."
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A6",
+      "type": "fill",
+      "promptKo": "나는 그 뉴스를 읽고 놀랐다.",
+      "promptEn": "( surprised, read the news )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "I was surprised to read the news."
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A7",
+      "type": "fill",
+      "promptKo": "그녀는 금메달을 따게 되어 기뻤다.",
+      "promptEn": "( happy, win a gold medal )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "She was happy to win a gold medal."
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A8",
+      "type": "fill",
+      "promptKo": "나는 네게 작별 인사를 하게 되어 슬프다.",
+      "promptEn": "( sad, say good-bye to you )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "I am sad to say good-bye to you."
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A9",
+      "type": "fill",
+      "promptKo": "닉은 음악을 듣기 위해 라디오를 켰다.",
+      "promptEn": "( turned on the radio, listen to music )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "Nick turned on the radio to listen to music."
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A10",
+      "type": "fill",
+      "promptKo": "우리는 좋은 점수를 받기 위해 열심히 공부했다.",
+      "promptEn": "( studied hard, get a good score )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "We studied hard to get a good score."
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A11",
+      "type": "fill",
+      "promptKo": "나는 자전거를 타기 위해 공원에 갔다.",
+      "promptEn": "( went to the park, ride a bike )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "I went to the park to ride a bike."
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A12",
+      "type": "fill",
+      "promptKo": "샘은 우리를 도와주기 위해 여기에 왔다.",
+      "promptEn": "( came here, help us )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "Sam came here to help us."
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "type": "fill",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I have some letters to show you.",
+      "promptKo": "나는 네게 보여 줄 편지들이 조금 있다.",
+      "promptEn": "( I / some letters / have / to show you / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "I have some letters to show you."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "그들은 물어볼 질문이 많았다.",
+      "promptEn": "( they / to ask / had / a lot of questions / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "They had a lot of questions to ask."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "렐라는 파티에서 입을 드레스가 필요했다.",
+      "promptEn": "( Rella / needed / to wear to the party / a dress / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "Rella needed a dress to wear to the party."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "하 선생님은 가난한 사람들을 돕는 의사이다.",
+      "promptEn": "( Ms. Ha / is / to help poor people / a doctor / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "Ms. Ha is a doctor to help poor people."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "그녀는 저 영화를 보고 놀랐다.",
+      "promptEn": "( she / to see that movie / was surprised / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "She was surprised to see that movie."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "나는 이 마을을 떠나게 되어 슬프다.",
+      "promptEn": "( I / to leave this town / am sad / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "I am sad to leave this town."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
+      "type": "fill",
+      "promptKo": "오바마 씨는 그 소식을 듣고 속상했다.",
+      "promptEn": "( Mr. Obama / to hear the news / was upset / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "Mr. Obama was upset to hear the news."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
+      "type": "fill",
+      "promptKo": "그들은 동물 농장을 방문하게 되어 신이 났다.",
+      "promptEn": "( they / to visit the animal farm / were excited / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "They were excited to visit the animal farm."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
+      "type": "fill",
+      "promptKo": "우리는 그 보고서를 끝마치기 위해 만났다.",
+      "promptEn": "( we / to finish the report / met / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "We met to finish the report."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
+      "type": "fill",
+      "promptKo": "제임스는 그 버스를 타기 위해 일찍 일어났다.",
+      "promptEn": "( James / to take the bus / got up early / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "James got up early to take the bus."
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
+      "type": "fill",
+      "promptKo": "낸시는 점심 식사를 하기 위해 학교 식당에 갔다.",
+      "promptEn": "( Nancy / to have lunch / went to the school cafeteria / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "Nancy went to the school cafeteria to have lunch."
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B12",
+      "type": "fill",
+      "promptKo": "우리 누나가 나를 응원하기 위해 왔다.",
+      "promptEn": "( my sister / to cheer for me / came / . )\n________________________________",
+      "blanks": 1,
+      "accept": [
+        "My sister came to cheer for me."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "practiceId": "g2:u06:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "정보 활용하기 (pp. 128–129)",
+  "pages": "128–129",
+  "timerMinutes": 20,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — to부정사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 6문항(문장 전체 쓰기), Section B 5문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "[정보 활용하기] 젠의 친구들이 지난 주말 즐거웠던 일들에 대해 이야기하고 있어요. 사진을 보고 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "사진을 보고 다음 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 6,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "[정보 활용하기] 알라딘이 재스민과 소풍을 가기로 하고 지니와 함께 필요한 것을 싸고 있어요. 주어진 말을 사용하여 알라딘과 지니의 대화를 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 사용하여 알라딘과 지니의 대화를 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 젠의 친구들이 지난 주말 즐거웠던 일들에 대해 이야기하고 있어요. 사진을 보고 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "type": "fill",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I was happy to have a new robot.",
+      "promptEn": "( have a new robot ) [사진: 로봇]\nI was happy ________________________________.",
+      "blanks": 1,
+      "accept": [
+        "I was happy to have a new robot."
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 젠의 친구들이 지난 주말 즐거웠던 일들에 대해 이야기하고 있어요. 사진을 보고 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "( visit New York ) [사진: 뉴욕]\nI was happy ________________________________.",
+      "blanks": 1,
+      "accept": [
+        "I was happy to visit New York."
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 젠의 친구들이 지난 주말 즐거웠던 일들에 대해 이야기하고 있어요. 사진을 보고 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "( eat chocolate cake ) [사진: 초콜릿 케이크]\nI was happy ________________________________.",
+      "blanks": 1,
+      "accept": [
+        "I was happy to eat chocolate cake."
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 젠의 친구들이 지난 주말 즐거웠던 일들에 대해 이야기하고 있어요. 사진을 보고 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "( win the contest ) [사진: 트로피]\nI was happy ________________________________.",
+      "blanks": 1,
+      "accept": [
+        "I was happy to win the contest."
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 젠의 친구들이 지난 주말 즐거웠던 일들에 대해 이야기하고 있어요. 사진을 보고 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "( go swimming ) [사진: 수영장]\nI was happy ________________________________.",
+      "blanks": 1,
+      "accept": [
+        "I was happy to go swimming."
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 젠의 친구들이 지난 주말 즐거웠던 일들에 대해 이야기하고 있어요. 사진을 보고 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "( ride a roller coaster ) [사진: 롤러코스터]\nI was happy ________________________________.",
+      "blanks": 1,
+      "accept": [
+        "I was happy to ride a roller coaster."
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 알라딘이 재스민과 소풍을 가기로 하고 지니와 함께 필요한 것을 싸고 있어요. 주어진 말을 사용하여 알라딘과 지니의 대화를 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "type": "fill",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I need a cap to wear.",
+      "promptEn": "Genie: What do you need for a picnic?\nAladdin: ________________________________ ( wear )\n[사진: 모자]",
+      "blanks": 1,
+      "accept": [
+        "I need a cap to wear."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 알라딘이 재스민과 소풍을 가기로 하고 지니와 함께 필요한 것을 싸고 있어요. 주어진 말을 사용하여 알라딘과 지니의 대화를 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Genie: What do you need for a picnic?\nAladdin: ________________________________ ( eat )\n[사진: 빵]",
+      "blanks": 1,
+      "accept": [
+        "I need sweet bread to eat."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 알라딘이 재스민과 소풍을 가기로 하고 지니와 함께 필요한 것을 싸고 있어요. 주어진 말을 사용하여 알라딘과 지니의 대화를 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Genie: What do you need for a picnic?\nAladdin: ________________________________ ( drink )\n[사진: 우유]",
+      "blanks": 1,
+      "accept": [
+        "I need fresh milk to drink."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 알라딘이 재스민과 소풍을 가기로 하고 지니와 함께 필요한 것을 싸고 있어요. 주어진 말을 사용하여 알라딘과 지니의 대화를 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Genie: What do you need for a picnic?\nAladdin: ________________________________ ( give Jasmine )\n[사진: 꽃]",
+      "blanks": 1,
+      "accept": [
+        "I need beautiful flowers to give Jasmine."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 알라딘이 재스민과 소풍을 가기로 하고 지니와 함께 필요한 것을 싸고 있어요. 주어진 말을 사용하여 알라딘과 지니의 대화를 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Genie: What do you need for a picnic?\nAladdin: ________________________________ ( fly with her )\n[사진: 연]",
+      "blanks": 1,
+      "accept": [
+        "I need a pretty kite to fly with her."
+      ]
+    }
+  ]
+}
