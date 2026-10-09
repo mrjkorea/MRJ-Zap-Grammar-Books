@@ -1,0 +1,84 @@
+{
+  "practiceId": "g4:u04:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 91)",
+  "pages": "91",
+  "timerMinutes": 6,
+  "wordBank": [
+    "come",
+    "catch",
+    "run"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 3문항(골라서 그 단어만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (come / catch / run) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (come / catch / run)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (come / catch / run) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "id": "c01",
+      "type": "fill",
+      "promptEn": "[그림 1] I'll make you _____.",
+      "blanks": 1,
+      "accept": [
+        "run"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (come / catch / run) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "id": "c02",
+      "type": "fill",
+      "promptEn": "[그림 2] We'll see Snowie _____ the ball.",
+      "blanks": 1,
+      "accept": [
+        "catch"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (come / catch / run) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "id": "c03",
+      "type": "fill",
+      "promptEn": "[그림 3] I hear him _____ with it.",
+      "blanks": 1,
+      "accept": [
+        "come"
+      ]
+    }
+  ],
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 여러 가지 동사 (4)"
+}

@@ -1,0 +1,499 @@
+{
+  "practiceId": "g4:u04:jump",
+  "title": "Grammar Jump",
+  "subtitle": "우리말 뜻 & word bank (pp. 80–81)",
+  "pages": "80–81",
+  "timerMinutes": 25,
+  "wordBank": [
+    "knock",
+    "watch",
+    "eat",
+    "dance",
+    "use",
+    "touch",
+    "get up",
+    "cook",
+    "leave",
+    "wash",
+    "play",
+    "clear",
+    "ride"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 12문항(빈칸 말만 쓰기), Section B 13문항(골라서 그 단어만 쓰기)으로 되어 있어요. (p.81 Section B 예시, p.82 word bank는 OCR 기준)",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 12,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요.",
+      "ruleKo": "(knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 13,
+      "exampleCount": 1,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "My dad let me invite my friends.",
+      "blanks": 1,
+      "accept": [
+        "내 친구들을 초대하게 해 주셨다",
+        "내 친구들을 초대하게 해 주셨다"
+      ],
+      "promptKo": "우리 아빠는 내가 _____ 내 친구들을 초대하게 해 주셨다."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "Bill sometimes lets his sister play with his ball.",
+      "blanks": 1,
+      "accept": [
+        "자기 여동생이 자기 공을 가지고 놀게 해 준다",
+        "자기 여동생이 자기 공을 가지고 놀게 해 준다"
+      ],
+      "promptKo": "빌은 가끔 자기 여동생이 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "Dan's mother makes him have breakfast.",
+      "blanks": 1,
+      "accept": [
+        "아침 식사를 하게 만든다",
+        "아침 식사를 하게 만든다"
+      ],
+      "promptKo": "댄의 어머니는 그가 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "He made us wear the yellow hats.",
+      "blanks": 1,
+      "accept": [
+        "노란 모자를 쓰게 만들었다",
+        "노란 모자를 쓰게 만들었다"
+      ],
+      "promptKo": "그는 우리가 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "Diana's father has her walk the dog.",
+      "blanks": 1,
+      "accept": [
+        "개를 산책시키게 한다",
+        "개를 산책시키게 한다"
+      ],
+      "promptKo": "다이애나의 아버지는 그녀가 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "id": "a06",
+      "type": "fill",
+      "promptEn": "Ms. Woods had him fix her car.",
+      "blanks": 1,
+      "accept": [
+        "그녀의 차를 고치게 했다",
+        "그녀의 차를 고치게 했다"
+      ],
+      "promptKo": "우즈 씨는 그가 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "id": "a07",
+      "type": "fill",
+      "promptEn": "I saw you feed the cat.",
+      "blanks": 1,
+      "accept": [
+        "고양이에게 먹이를 주는 것을 보았다",
+        "고양이에게 먹이를 주는 것을 보았다"
+      ],
+      "promptKo": "나는 네가 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "id": "a08",
+      "type": "fill",
+      "promptEn": "She saw them play basketball.",
+      "blanks": 1,
+      "accept": [
+        "농구하는 것을 보았다",
+        "농구하는 것을 보았다"
+      ],
+      "promptKo": "그녀는 그들이 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "id": "a09",
+      "type": "fill",
+      "promptEn": "We watched a dog run upstairs.",
+      "blanks": 1,
+      "accept": [
+        "위층으로 달려가는 것을 지켜보았다",
+        "위층으로 달려가는 것을 지켜보았다"
+      ],
+      "promptKo": "우리는 개 한 마리가 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "id": "a10",
+      "type": "fill",
+      "promptEn": "We heard a boy laugh loudly.",
+      "blanks": 1,
+      "accept": [
+        "큰 소리로 웃는 것을 들었다",
+        "큰 소리로 웃는 것을 들었다"
+      ],
+      "promptKo": "우리는 한 남자아이가 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "id": "a11",
+      "type": "fill",
+      "promptEn": "My sister heard you talk to him.",
+      "blanks": 1,
+      "accept": [
+        "그에게 말하는 것을 들었다",
+        "그에게 말하는 것을 들었다"
+      ],
+      "promptKo": "내 여동생은 네가 그에게 말하는 것을 _____."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 부분에 주의하여 다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "id": "a12",
+      "type": "fill",
+      "promptEn": "I felt the glass shake.",
+      "blanks": 1,
+      "accept": [
+        "흔들리는 것을 느꼈다",
+        "흔들리는 것을 느꼈다"
+      ],
+      "promptKo": "나는 유리잔이 _____."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B1",
+      "id": "b01",
+      "type": "fill",
+      "promptEn": "My dad let me _____ TV.",
+      "blanks": 1,
+      "accept": [
+        "watch"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "watch",
+      "promptKo": "우리 아빠는 내가 TV를 보게 해 주셨다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B2",
+      "id": "b02",
+      "type": "fill",
+      "promptEn": "I let her _____ my eraser.",
+      "blanks": 1,
+      "accept": [
+        "use"
+      ],
+      "promptKo": "나는 그녀가 내 지우개를 사용하게 해 주었다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B3",
+      "id": "b03",
+      "type": "fill",
+      "promptEn": "Ron's mother makes him _____ early.",
+      "blanks": 1,
+      "accept": [
+        "get up"
+      ],
+      "promptKo": "론의 어머니는 그가 일찍 일어나게 만드신다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B4",
+      "id": "b04",
+      "type": "fill",
+      "promptEn": "He made me _____ the room.",
+      "blanks": 1,
+      "accept": [
+        "leave"
+      ],
+      "promptKo": "그는 내가 방을 떠나게 만들었다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B5",
+      "id": "b05",
+      "type": "fill",
+      "promptEn": "She had Hans _____ the dishes.",
+      "blanks": 1,
+      "accept": [
+        "wash"
+      ],
+      "promptKo": "그녀는 한스가 설거지를 하게 했다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B6",
+      "id": "b06",
+      "type": "fill",
+      "promptEn": "My sister had me _____ the desk.",
+      "blanks": 1,
+      "accept": [
+        "clear"
+      ],
+      "promptKo": "우리 언니는 내가 책상을 치우게 했다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B7",
+      "id": "b07",
+      "type": "fill",
+      "promptEn": "I saw you _____ ice cream.",
+      "blanks": 1,
+      "accept": [
+        "eat"
+      ],
+      "promptKo": "나는 네가 아이스크림을 먹는 것을 보았다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B8",
+      "id": "b08",
+      "type": "fill",
+      "promptEn": "We saw him _____ on the stage.",
+      "blanks": 1,
+      "accept": [
+        "dance"
+      ],
+      "promptKo": "우리는 그가 무대에서 춤추는 것을 보았다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B9",
+      "id": "b09",
+      "type": "fill",
+      "promptEn": "I watched her _____ dinner.",
+      "blanks": 1,
+      "accept": [
+        "cook"
+      ],
+      "promptKo": "나는 그녀가 저녁 식사를 요리하는 것을 지켜보았다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B10",
+      "id": "b10",
+      "type": "fill",
+      "promptEn": "They watched Lisa _____ a bike.",
+      "blanks": 1,
+      "accept": [
+        "ride"
+      ],
+      "promptKo": "그들은 리사가 자전거를 타는 것을 지켜보았다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B11",
+      "id": "b11",
+      "type": "fill",
+      "promptEn": "She heard Tom _____ the cello.",
+      "blanks": 1,
+      "accept": [
+        "play"
+      ],
+      "promptKo": "그녀는 톰이 첼로를 켜는 것을 들었다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B12",
+      "id": "b12",
+      "type": "fill",
+      "promptEn": "I heard somebody _____ on the door.",
+      "blanks": 1,
+      "accept": [
+        "knock"
+      ],
+      "promptKo": "나는 누군가 문을 두드리는 것을 들었다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (knock / watch / eat / dance / use / touch / get up / cook / leave / wash / play / clear / ride) 상자 안의 말 중에서 알맞은 말을 골라 빈칸에 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B13",
+      "id": "b13",
+      "type": "fill",
+      "promptEn": "I felt my hamster _____ my hand.",
+      "blanks": 1,
+      "accept": [
+        "touch"
+      ],
+      "promptKo": "나는 내 햄스터가 내 손을 만지는 것을 느꼈다."
+    }
+  ],
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 여러 가지 동사 (4)"
+}
