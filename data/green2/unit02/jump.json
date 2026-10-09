@@ -1,0 +1,520 @@
+{
+  "practiceId": "g2:u02:jump",
+  "title": "Grammar Jump",
+  "subtitle": "우리말 뜻·단어 배열 (pp. 36–37)",
+  "pages": "36–37",
+  "timerMinutes": 22,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 형용사와 부사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 12문항(빈칸 말만 쓰기), Section B 15문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 12,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 15,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "He is my good friend.",
+      "promptKo": "그는 내 좋은 친구이다.",
+      "blanks": 1,
+      "accept": [
+        "내 좋은 친구"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "내 좋은 친구"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Einstein was a famous scientist.",
+      "promptKo": "아인슈타인은 유명한 과학자였다.",
+      "blanks": 1,
+      "accept": [
+        "유명한 과학자",
+        "유명한 과학자이"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The woman is honest.",
+      "promptKo": "그 여자는 정직하다.",
+      "blanks": 1,
+      "accept": [
+        "정직하다",
+        "정직한"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "They bought a few pears yesterday.",
+      "promptKo": "그들은 어제 사과 몇 개를 샀다.",
+      "blanks": 1,
+      "accept": [
+        "사과 몇 개",
+        "몇 개의 배",
+        "배 몇 개"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The child saw lots of lions at the zoo.",
+      "promptKo": "그 어린이는 동물원에서 많은 사자들을 보았다.",
+      "blanks": 1,
+      "accept": [
+        "많은 사자들",
+        "많은 사자"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "My brother is reading a very interesting magazine.",
+      "promptKo": "우리 오빠는 매우 재미있는 잡지를 읽고 있다.",
+      "blanks": 1,
+      "accept": [
+        "매우 재미있는 잡지",
+        "아주 재미있는 잡지"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Suji smiled happily.",
+      "promptKo": "수지는 행복하게 미소지었다.",
+      "blanks": 1,
+      "accept": [
+        "행복하게",
+        "기쁘게"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Jack was crossing the street carefully.",
+      "promptKo": "잭은 조심스럽게 길을 건너고 있었다.",
+      "blanks": 1,
+      "accept": [
+        "조심스럽게",
+        "주의하여",
+        "조심하여"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The deer ran away quite quickly.",
+      "promptKo": "그 사슴은 꽤 빠르게 달아났다.",
+      "blanks": 1,
+      "accept": [
+        "꽤 빠르게",
+        "상당히 빠르게"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Sandy is always diligent.",
+      "promptKo": "샌디는 항상 부지런하다.",
+      "blanks": 1,
+      "accept": [
+        "항상",
+        "언제나"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "I will often play the violin.",
+      "promptKo": "나는 자주 바이올린을 켤 것이다.",
+      "blanks": 1,
+      "accept": [
+        "자주",
+        "흔히"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Dad usually climbs a mountain on Sundays.",
+      "promptKo": "아빠는 보통 일요일마다 등산을 하신다.",
+      "blanks": 1,
+      "accept": [
+        "보통",
+        "대개"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptKo": "다이앤은 비싼 손목시계 하나를 가지고 있다.",
+      "promptEn": "Diane has ___ ___ ___.\n(expensive / an / watch)",
+      "blanks": 3,
+      "accept": [
+        "an|expensive|watch"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "an / expensive / watch"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "저 웃긴 어릿광대를 봐.",
+      "promptEn": "Look at ___ ___ ___.\n(clown / that / funny)",
+      "blanks": 3,
+      "accept": [
+        "that|funny|clown"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "저 책들은 재미있다.",
+      "promptEn": "Those books ___ ___.\n(interesting / are)",
+      "blanks": 2,
+      "accept": [
+        "are|interesting"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "그 음식점에는 사람들이 거의 없었다.",
+      "promptEn": "There were ___ ___ in the restaurant.\n(people / few)",
+      "blanks": 2,
+      "accept": [
+        "few|people"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "우리는 많은 시간이 필요하다.",
+      "promptEn": "We need ___ ___ ___.\n(time / a lot of)",
+      "blanks": 3,
+      "accept": [
+        "a|lot|of"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "그 마을에는 병원이 많이 없었다.",
+      "promptEn": "There weren't ___ ___ in the town.\n(many / hospitals)",
+      "blanks": 2,
+      "accept": [
+        "many|hospitals"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptKo": "치타는 빠르게 움직인다.",
+      "promptEn": "A cheetah ___ ___.\n(quickly / moves)",
+      "blanks": 2,
+      "accept": [
+        "moves|quickly"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptKo": "수학은 내게 너무 어렵다.",
+      "promptEn": "Math is ___ ___ for me.\n(difficult / too)",
+      "blanks": 2,
+      "accept": [
+        "too|difficult"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptKo": "앤절라는 무척 조용히 말한다.",
+      "promptEn": "Angela talks ___ ___.\n(so / quietly)",
+      "blanks": 2,
+      "accept": [
+        "so|quietly"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptKo": "그 영화는 정말 흥미진진하다.",
+      "promptEn": "The movie is ___ ___.\n(exciting / really)",
+      "blanks": 2,
+      "accept": [
+        "really|exciting"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptKo": "케이트는 매우 귀여운 고양이 한 마리를 키운다.",
+      "promptEn": "Kate raises a ___ ___ cat.\n(cute / very)",
+      "blanks": 2,
+      "accept": [
+        "very|cute"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptKo": "에이미는 항상 약속을 지킨다.",
+      "promptEn": "Amy ___ ___ her promises.\n(keeps / always)",
+      "blanks": 2,
+      "accept": [
+        "always|keeps"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptKo": "나는 결코 네 이름을 잊지 않을 것이다.",
+      "promptEn": "I ___ ___ ___ your name.\n(forget / will / never)",
+      "blanks": 3,
+      "accept": [
+        "will|never|forget"
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptKo": "겨울에는 보통 춥다.",
+      "promptEn": "It ___ ___ cold in winter.\n(usually / is)",
+      "blanks": 2,
+      "accept": [
+        "is|usually"
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptKo": "너는 가끔 내 컴퓨터를 써도 된다.",
+      "promptEn": "You ___ ___ ___ my computer.\n(can / use / sometimes)",
+      "blanks": 3,
+      "accept": [
+        "can|sometimes|use"
+      ]
+    }
+  ]
+}

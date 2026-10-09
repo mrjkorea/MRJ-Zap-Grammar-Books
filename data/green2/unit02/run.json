@@ -1,0 +1,470 @@
+{
+  "practiceId": "g2:u02:run",
+  "title": "Grammar Run",
+  "subtitle": "형용사·부사 문장 완성 (pp. 34–35)",
+  "pages": "34–35",
+  "timerMinutes": 20,
+  "wordBank": [
+    "careful",
+    "interesting",
+    "long",
+    "empty",
+    "colorful",
+    "much",
+    "little",
+    "a few",
+    "a little",
+    "few",
+    "many",
+    "delicious"
+  ],
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 형용사와 부사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 12문항(골라서 그 단어만 쓰기), Section B 12문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 12,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 12,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A1",
+      "type": "fill",
+      "promptKo": "이 브로콜리 수프는 맛있다.",
+      "promptEn": "This broccoli soup is ______.",
+      "blanks": 1,
+      "accept": [
+        "delicious"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "delicious"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A2",
+      "type": "fill",
+      "promptKo": "마이클은 빈 깡통들을 모았다.",
+      "promptEn": "Michael collected ______ cans.",
+      "blanks": 1,
+      "accept": [
+        "empty"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A3",
+      "type": "fill",
+      "promptKo": "로라는 저 화려한 바지를 원한다.",
+      "promptEn": "Laura wants those ______ pants.",
+      "blanks": 1,
+      "accept": [
+        "colorful"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A4",
+      "type": "fill",
+      "promptKo": "우리 할머니는 내게 재미있는 이야기를 들려주셨다.",
+      "promptEn": "My grandma told me an ______ story.",
+      "blanks": 1,
+      "accept": [
+        "interesting"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A5",
+      "type": "fill",
+      "promptKo": "그것은 긴 목을 가지고 있다.",
+      "promptEn": "It has a ______ neck.",
+      "blanks": 1,
+      "accept": [
+        "long"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A6",
+      "type": "fill",
+      "promptKo": "그는 주의 깊은 운전자이다.",
+      "promptEn": "He is a ______ driver.",
+      "blanks": 1,
+      "accept": [
+        "careful"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A7",
+      "type": "fill",
+      "promptKo": "컵 안에 우유가 거의 없다.",
+      "promptEn": "There is ______ milk in the cup.",
+      "blanks": 1,
+      "accept": [
+        "little"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A8",
+      "type": "fill",
+      "promptKo": "몇몇 학생들이 거리에서 춤을 추고 있었다.",
+      "promptEn": "______ students were dancing on the street.",
+      "blanks": 1,
+      "accept": [
+        "A few",
+        "a few"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A9",
+      "type": "fill",
+      "promptKo": "작년 여름에는 비가 많이 오지 않았다.",
+      "promptEn": "We didn't have ______ rain last summer.",
+      "blanks": 1,
+      "accept": [
+        "much"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A10",
+      "type": "fill",
+      "promptKo": "그녀는 서점에서 책을 많이 사지 않았다.",
+      "promptEn": "She didn't buy ______ books in the bookstore.",
+      "blanks": 1,
+      "accept": [
+        "many"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A11",
+      "type": "fill",
+      "promptKo": "양동이 안에 물이 조금 있다.",
+      "promptEn": "There is ______ water in the bucket.",
+      "blanks": 1,
+      "accept": [
+        "a little",
+        "A little"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (careful, interesting, long, empty, colorful, much, little, a few, a little, few, many, delicious) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A12",
+      "type": "fill",
+      "promptKo": "길버트에게는 친구가 거의 없었다.",
+      "promptEn": "Gilbert had ______ friends.",
+      "blanks": 1,
+      "accept": [
+        "few"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptKo": "우리 삼촌은 연을 수월하게 만드신다.",
+      "promptEn": "My uncle makes kites ______. ( easy / easily )",
+      "blanks": 1,
+      "accept": [
+        "easily"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "도로시는 꽤 일찍 여기에 왔다.",
+      "promptEn": "Dorothy came here ______ early. ( quite / never )",
+      "blanks": 1,
+      "accept": [
+        "quite"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "우리 할아버지는 늦게 일어나신다.",
+      "promptEn": "My grandfather gets up ______. ( early / late )",
+      "blanks": 1,
+      "accept": [
+        "late"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "그들은 정말 열심히 태권도를 연습했다.",
+      "promptEn": "They practiced taekwondo ______ hard. ( real / really )",
+      "blanks": 1,
+      "accept": [
+        "really"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "너는 아직 서울에 사니?",
+      "promptEn": "Do you ______ live in Seoul? ( still / again )",
+      "blanks": 1,
+      "accept": [
+        "still"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "우리 형은 가끔 바쁘다.",
+      "promptEn": "My brother is ______ busy. ( sometimes / quite )",
+      "blanks": 1,
+      "accept": [
+        "sometimes"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptKo": "그들은 보통 아침에 커피를 마신다.",
+      "promptEn": "They ______ drink coffee in the morning. ( never / usually )",
+      "blanks": 1,
+      "accept": [
+        "usually"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptKo": "아놀드는 자주 학교에 지각한다.",
+      "promptEn": "Arnold is ______ late for school. ( often / always )",
+      "blanks": 1,
+      "accept": [
+        "often"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptKo": "나는 결코 그를 다시 보지 않을 것이다.",
+      "promptEn": "I will ______ see him again. ( never / still )",
+      "blanks": 1,
+      "accept": [
+        "never"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptKo": "제이슨은 항상 여자들에게 친절하다.",
+      "promptEn": "Jason is ______ nice to women. ( never / always )",
+      "blanks": 1,
+      "accept": [
+        "always"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptKo": "나도 졸려.",
+      "promptEn": "A: I am sleepy.\nB: I am sleepy ______. ( too / either )",
+      "blanks": 1,
+      "accept": [
+        "too"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "괄호 안에서 알맞은 말을 골라 다음 문장 또는 대화의 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptKo": "나도 당근을 좋아하지 않아.",
+      "promptEn": "A: I don't like carrots.\nB: I don't like carrots ______. ( too / either )",
+      "blanks": 1,
+      "accept": [
+        "either"
+      ]
+    }
+  ]
+}
