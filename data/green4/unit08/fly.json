@@ -1,0 +1,446 @@
+{
+  "practiceId": "g4:u08:fly",
+  "title": "Grammar Fly",
+  "subtitle": "문장 합치기 & 배열 (pp. 171–172)",
+  "pages": "171–172",
+  "timerMinutes": 26,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 접속사 (2)",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "sentence",
+      "promptEn": "It was very cold. / I closed the window. ( because )",
+      "accept": [
+        "Because it was very cold, I closed the window.",
+        "Because it was very cold I closed the window."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Because it was very cold, I closed the window.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "sentence",
+      "promptEn": "He had a toothache. / He went to the dentist. ( because )",
+      "accept": [
+        "Because he had a toothache, he went to the dentist.",
+        "Because he had a toothache he went to the dentist."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "sentence",
+      "promptEn": "She joined the drama club. / She is very happy. ( because )",
+      "accept": [
+        "Because she joined the drama club, she is very happy.",
+        "Because she joined the drama club, she's very happy.",
+        "Because she joined the drama club, she’s very happy.",
+        "Because she joined the drama club she is very happy.",
+        "Because she joined the drama club she's very happy.",
+        "Because she joined the drama club she’s very happy."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "sentence",
+      "promptEn": "You hurt your leg. / You should not play soccer today. ( because )",
+      "accept": [
+        "Because you hurt your leg, you should not play soccer today.",
+        "Because you hurt your leg you should not play soccer today."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "sentence",
+      "promptEn": "You find my cell phone. / Bring it to me. ( if )",
+      "accept": [
+        "If you find my cell phone, bring it to me.",
+        "If you find my cell phone bring it to me."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "sentence",
+      "promptEn": "William watches this scary film. / He will not be able to sleep. ( if )",
+      "accept": [
+        "If William watches this scary film, he will not be able to sleep.",
+        "If William watches this scary film, he won't be able to sleep.",
+        "If William watches this scary film, he won’t be able to sleep.",
+        "If William watches this scary film he will not be able to sleep.",
+        "If William watches this scary film he won't be able to sleep.",
+        "If William watches this scary film he won’t be able to sleep."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "sentence",
+      "promptEn": "Grace finishes her homework. / She will help her brother. ( if )",
+      "accept": [
+        "If Grace finishes her homework, she will help her brother.",
+        "If Grace finishes her homework she will help her brother."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "sentence",
+      "promptEn": "The zoo isn't far from the station. / We will walk there. ( if )",
+      "accept": [
+        "If the zoo isn't far from the station, we will walk there.",
+        "If the zoo isn’t far from the station, we will walk there.",
+        "If the zoo is not far from the station, we will walk there.",
+        "If the zoo isn't far from the station, we'll walk there.",
+        "If the zoo isn’t far from the station, we’ll walk there.",
+        "If the zoo isn't far from the station we will walk there.",
+        "If the zoo isn’t far from the station we will walk there.",
+        "If the zoo is not far from the station we will walk there.",
+        "If the zoo isn't far from the station we'll walk there.",
+        "If the zoo isn’t far from the station we’ll walk there."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "sentence",
+      "promptEn": "They know. / Alice is very smart. ( that )",
+      "accept": [
+        "They know that Alice is very smart."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "sentence",
+      "promptEn": "My mother thought. / The bag was too expensive. ( that )",
+      "accept": [
+        "My mother thought that the bag was too expensive."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "sentence",
+      "promptEn": "She believed. / She was the most beautiful woman in the world. ( that )",
+      "accept": [
+        "She believed that she was the most beautiful woman in the world."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "sentence",
+      "promptEn": "I hope. / You will enjoy the concert. ( that )",
+      "accept": [
+        "I hope that you will enjoy the concert."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 접속사를 사용하여 다음을 한 문장으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "( snowed / it / because )\nBecause it snowed, they had a snowball fight.",
+      "accept": [
+        "Because it snowed, they had a snowball fight.",
+        "Because it snowed they had a snowball fight."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Because it snowed, they had a snowball fight.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "( rang / the phone / because )\n_____, she answered it.",
+      "accept": [
+        "Because the phone rang, she answered it.",
+        "Because the phone rang she answered it."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "( needed some notebooks / he / because )\n_____, he went to the store.",
+      "accept": [
+        "Because he needed some notebooks, he went to the store.",
+        "Because he needed some notebooks he went to the store."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "( was sleeping / the baby / because )\n_____, they were quiet.",
+      "accept": [
+        "Because the baby was sleeping, they were quiet.",
+        "Because the baby was sleeping they were quiet."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "( don't wear your coat / you / if )\n_____, you will catch a cold.",
+      "accept": [
+        "If you don't wear your coat, you will catch a cold.",
+        "If you don’t wear your coat, you will catch a cold.",
+        "If you do not wear your coat, you will catch a cold.",
+        "If you don't wear your coat you will catch a cold.",
+        "If you don’t wear your coat you will catch a cold.",
+        "If you do not wear your coat you will catch a cold."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "( has free time / he / if )\n_____, he often climbs a mountain.",
+      "accept": [
+        "If he has free time, he often climbs a mountain.",
+        "If he has free time he often climbs a mountain."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "( comes to Seoul / my uncle / if )\n_____, he will stay with us.",
+      "accept": [
+        "If my uncle comes to Seoul, he will stay with us.",
+        "If my uncle comes to Seoul he will stay with us."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "( tell a lie / I / if )\n_____, my parents will be sad.",
+      "accept": [
+        "If I tell a lie, my parents will be sad.",
+        "If I tell a lie my parents will be sad."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "( is right / she / that )\nI believe _____.",
+      "accept": [
+        "I believe that she is right.",
+        "I believe that she's right.",
+        "I believe that she’s right."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "( speaks English / he / well / that )\nI know _____.",
+      "accept": [
+        "I know that he speaks English well."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "( were from / they / China / that )\nWe thought _____.",
+      "accept": [
+        "We thought that they were from China."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "( was in Spain / she / that )\nHe heard _____.",
+      "accept": [
+        "He heard that she was in Spain."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    }
+  ],
+  "introKo": "이 연습은 Section A 11문항(문장 전체 쓰기), Section B 11문항(문장 전체 쓰기)으로 되어 있어요."
+}
