@@ -45,11 +45,21 @@ function wrongFor(it) {
   return { value: "nope" };
 }
 
+function listUnitDirs(book) {
+  const base = path.join(ROOT, book);
+  if (book === "green3") return [path.join(base, "unit01")];
+  return fs
+    .readdirSync(base)
+    .filter((d) => /^unit\d{2}$/.test(d))
+    .sort()
+    .map((d) => path.join(base, d));
+}
+
 for (const book of ["green1", "green3"]) {
-  const dir = path.join(ROOT, book, "unit01");
+  for (const dir of listUnitDirs(book)) {
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json")).sort()) {
+    const where = path.relative(path.join(ROOT, book), dir) + "/" + f;
     const d = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
-    const where = book + "/" + f;
     if (!d.practiceId) fail(where, "no practiceId");
     if (!d.title) fail(where, "no title");
     if (!Array.isArray(d.sections) || !d.sections.length) fail(where, "no sections[]");
@@ -76,7 +86,11 @@ for (const book of ["green1", "green3"]) {
       if (it.example && !it.displayOnly) fail(where, it.id, "example must be displayOnly");
       if (it.answerMode === "words")
         for (const a of it.accept)
-          if (/[?.!]$/.test(a.trim()) || a.split(/\s+/).length > 6) fail(where, it.id, "words-mode accept looks like a sentence:", a);
+          if (
+            /[?.!]$/.test(a.trim()) ||
+            a.split("|").some((p) => p.trim().split(/\s+/).length > 6)
+          )
+            fail(where, it.id, "words-mode accept looks like a sentence:", a);
       if (it.answerMode === "sentence" && it.type !== "sentence") fail(where, it.id, "sentence mode but type", it.type);
       if (it.type === "mc" && it.answerMode !== "choice") fail(where, it.id, "mc must be choice mode");
       if (it.displayOnly) {
@@ -122,6 +136,7 @@ for (const book of ["green1", "green3"]) {
       "timer",
       d.timerMinutes || "(default)"
     );
+  }
   }
 }
 console.log(
