@@ -1,6 +1,6 @@
 # PROOF-GZ1 — GreenZap 1 full book
 
-Build: `20261009-gz1-followup1`
+Build: `20261009-gz1-followup2`
 
 ## Practice matrix (78 rows)
 
@@ -138,11 +138,27 @@ Standing rules applied: (1) MC `choices[]` order locked to printed ①–⑤ via
 | Unit 04 Unit Test | q13 | prompt → add “playing” in both blanks (choices unchanged) |
 | Review Test 03 | q10 | swap ④⑤ (must love / has to love); accept ⑤→④ |
 
-**Not image-verified this pass (no PNGs in upload):** Unit 01; Review Tests 01–02, 04; Final Tests 01–02; Review Test 03 q11–15; **all Unit 07–08 MC** (awaiting pp.141–192 scans from teacher follow-up).
+**Not image-verified in followup1:** Unit 01 (no page PNG in repo uploads).
 
 **Korean accept widened (37 smoke-checked variant groups):** Unit 05 Run B9–B10 (됐다/좋다/좋아); Unit 06 Wrap w1_1, w2_1, w2_3 (~임에 틀림없다); Unit 06 Run A1–A12 + Walk B glosses; Unit 07 Wrap w2_1–w2_2 + Walk2 B1–B5.
 
 **Engine:** `assets/js/normalize.js` — Hangul-aware matching (optional `~`, strip trailing `.?!`).
+
+## Follow-up fixes (`20261009-gz1-followup2`) — Units 07–08 + cumulative tests
+
+Page images: Unit 07 (PDF pp.141–160), Unit 08 (pp.161–180), Review/Final tests (pp.48–53, 92–96, 136–140, 180–192).
+
+**MC audit:** **188** additional graded MC items image-verified (all of unit07, unit08, six review/final tests). **0** reorders — printed ①–⑤ already matched `choices[]` (including Review Tests 01–02, 03 q11–15, 04, Final 01–02).
+
+**Korean accept widened (+3 items, 40 total in `gz1-korean-variants.json`):**
+
+| Practice | Item | Added variants |
+|----------|------|----------------|
+| Unit 07 Wrap Up | w2_2 | `우리 할까`, `우리 할까?` |
+| Unit 07 Walk 2 | B2 | `우리 할까?`, `d. 우리 할까?` |
+| Unit 07 Walk 2 | B5 | `내가 할까?`, `b. 내가 할까?` |
+
+**Cumulative MC coverage:** all **457** book MC items are in `gz1-book-choices.json`; Units 02–06 + partial tests were verified in followup1, Units 07–08 + all six cumulative tests verified in followup2 (188 graded MC in that scope, 0 reorders).
 
 ## Open teacher questions (from PROOF-NOTES)
 

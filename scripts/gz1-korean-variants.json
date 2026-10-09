@@ -1,5 +1,5 @@
 {
-  "build": "20261009-gz1-followup1",
+  "build": "20261009-gz1-followup2",
   "entries": [
     {
       "file": "data/green1/unit06/wrap.json",
@@ -271,6 +271,33 @@
       "id": "b05",
       "mustPass": [
         "할까?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/wrap.json",
+      "id": "w2_2",
+      "mustPass": [
+        "우리 할까",
+        "우리 할까?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b02",
+      "mustPass": [
+        "우리 할까?",
+        "d. 우리 할까?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b05",
+      "mustPass": [
+        "내가 할까?",
+        "b. 내가 할까?"
       ],
       "mustFail": []
     },

@@ -18,6 +18,12 @@ const u07 = JSON.parse(fs.readFileSync(path.join(__dirname, "_audit-rest-korean.
 for (const g of u07) {
   add(g.file, g.id, g.suggestedAdds);
 }
+const u78 = fs.existsSync(path.join(__dirname, "_audit-u07-08-tests-korean.json"))
+  ? JSON.parse(fs.readFileSync(path.join(__dirname, "_audit-u07-08-tests-korean.json"), "utf8")).koreanAcceptGaps
+  : [];
+for (const g of u78) {
+  add(g.file, g.id, g.suggestedAdds);
+}
 
 add("data/green1/unit05/run.json", "b09", ["쉬어도 좋다", "쉬어도 좋아"]);
 add("data/green1/unit05/run.json", "b10", ["해도 좋다", "해도 좋아"]);

@@ -1,0 +1,1839 @@
+{
+  "meta": {
+    "title": "GreenZap 1 audit — MC choice order (unit07–08 + tests)",
+    "build": "20261009-gz1-followup1",
+    "pageRule": "pNNNN.png = PDF page NNN = book page NNN-1",
+    "imageDir": "/tmp/gz1-pages-u78/gz1-rest/pages",
+    "scope": {
+      "unit07": "data/green1/unit07/*.json",
+      "unit08": "data/green1/unit08/*.json",
+      "tests": "data/green1/tests/*.json"
+    },
+    "verification": "All graded MC items checked against NEW page PNGs (gz1-rest u78). Two-choice Grammar Walk items match parenthesis order; five-choice tests/unit tests match ①–⑤ on book pages; no reorder fixes required."
+  },
+  "summary": {
+    "mcGradedCount": 188,
+    "mcChoiceOrderFixes": 0,
+    "mcItemsVerifiedOk": 188,
+    "mcItemsUnverified": 0
+  },
+  "mcChoiceOrderFixes": [],
+  "mcItemsVerified": [
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q01",
+      "label": "1",
+      "bookPage": 184,
+      "png": "p0185.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q02",
+      "label": "2",
+      "bookPage": 184,
+      "png": "p0185.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q03",
+      "label": "3",
+      "bookPage": 184,
+      "png": "p0185.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q04",
+      "label": "4",
+      "bookPage": 184,
+      "png": "p0185.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q05",
+      "label": "5",
+      "bookPage": 184,
+      "png": "p0185.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q06",
+      "label": "6",
+      "bookPage": 185,
+      "png": "p0186.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q07",
+      "label": "7",
+      "bookPage": 185,
+      "png": "p0186.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q08",
+      "label": "8",
+      "bookPage": 185,
+      "png": "p0186.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q09",
+      "label": "9",
+      "bookPage": 185,
+      "png": "p0186.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 185,
+      "png": "p0186.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q11",
+      "label": "11",
+      "bookPage": 186,
+      "png": "p0187.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q12",
+      "label": "12",
+      "bookPage": 186,
+      "png": "p0187.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q13",
+      "label": "13",
+      "bookPage": 186,
+      "png": "p0187.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q14",
+      "label": "14",
+      "bookPage": 186,
+      "png": "p0187.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-01.json",
+      "id": "q15",
+      "label": "15",
+      "bookPage": 186,
+      "png": "p0187.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q01",
+      "label": "1",
+      "bookPage": 188,
+      "png": "p0189.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q02",
+      "label": "2",
+      "bookPage": 188,
+      "png": "p0189.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q03",
+      "label": "3",
+      "bookPage": 188,
+      "png": "p0189.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q04",
+      "label": "4",
+      "bookPage": 188,
+      "png": "p0189.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q05",
+      "label": "5",
+      "bookPage": 188,
+      "png": "p0189.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q06",
+      "label": "6",
+      "bookPage": 189,
+      "png": "p0190.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q07",
+      "label": "7",
+      "bookPage": 189,
+      "png": "p0190.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q08",
+      "label": "8",
+      "bookPage": 189,
+      "png": "p0190.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q09",
+      "label": "9",
+      "bookPage": 189,
+      "png": "p0190.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 189,
+      "png": "p0190.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q11",
+      "label": "11",
+      "bookPage": 190,
+      "png": "p0191.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q12",
+      "label": "12",
+      "bookPage": 190,
+      "png": "p0191.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q13",
+      "label": "13",
+      "bookPage": 190,
+      "png": "p0191.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q14",
+      "label": "14",
+      "bookPage": 190,
+      "png": "p0191.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/final-test-02.json",
+      "id": "q15",
+      "label": "15",
+      "bookPage": 190,
+      "png": "p0191.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q01",
+      "label": "1",
+      "bookPage": 48,
+      "png": "p0049.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q02",
+      "label": "2",
+      "bookPage": 48,
+      "png": "p0049.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q03",
+      "label": "3",
+      "bookPage": 48,
+      "png": "p0049.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q04",
+      "label": "4",
+      "bookPage": 48,
+      "png": "p0049.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q05",
+      "label": "5",
+      "bookPage": 48,
+      "png": "p0049.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q06",
+      "label": "6",
+      "bookPage": 49,
+      "png": "p0050.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q07",
+      "label": "7",
+      "bookPage": 49,
+      "png": "p0050.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q08",
+      "label": "8",
+      "bookPage": 49,
+      "png": "p0050.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q09",
+      "label": "9",
+      "bookPage": 49,
+      "png": "p0050.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 49,
+      "png": "p0050.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q11",
+      "label": "11",
+      "bookPage": 50,
+      "png": "p0051.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q12",
+      "label": "12",
+      "bookPage": 50,
+      "png": "p0051.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q13",
+      "label": "13",
+      "bookPage": 50,
+      "png": "p0051.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q14",
+      "label": "14",
+      "bookPage": 50,
+      "png": "p0051.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-01.json",
+      "id": "q15",
+      "label": "15",
+      "bookPage": 50,
+      "png": "p0051.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q01",
+      "label": "1",
+      "bookPage": 92,
+      "png": "p0093.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q02",
+      "label": "2",
+      "bookPage": 92,
+      "png": "p0093.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q03",
+      "label": "3",
+      "bookPage": 92,
+      "png": "p0093.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q04",
+      "label": "4",
+      "bookPage": 92,
+      "png": "p0093.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q05",
+      "label": "5",
+      "bookPage": 92,
+      "png": "p0093.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q06",
+      "label": "6",
+      "bookPage": 93,
+      "png": "p0094.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q07",
+      "label": "7",
+      "bookPage": 93,
+      "png": "p0094.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q08",
+      "label": "8",
+      "bookPage": 93,
+      "png": "p0094.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q09",
+      "label": "9",
+      "bookPage": 93,
+      "png": "p0094.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 93,
+      "png": "p0094.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q11",
+      "label": "11",
+      "bookPage": 94,
+      "png": "p0095.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q12",
+      "label": "12",
+      "bookPage": 94,
+      "png": "p0095.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q13",
+      "label": "13",
+      "bookPage": 94,
+      "png": "p0095.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q14",
+      "label": "14",
+      "bookPage": 94,
+      "png": "p0095.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-02.json",
+      "id": "q15",
+      "label": "15",
+      "bookPage": 94,
+      "png": "p0095.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q01",
+      "label": "1",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q02",
+      "label": "2",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q03",
+      "label": "3",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q04",
+      "label": "4",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q05",
+      "label": "5",
+      "bookPage": 136,
+      "png": "p0137.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q06",
+      "label": "6",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q07",
+      "label": "7",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q08",
+      "label": "8",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q09",
+      "label": "9",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 137,
+      "png": "p0138.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q11",
+      "label": "11",
+      "bookPage": 138,
+      "png": "p0139.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q12",
+      "label": "12",
+      "bookPage": 138,
+      "png": "p0139.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q13",
+      "label": "13",
+      "bookPage": 138,
+      "png": "p0139.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q14",
+      "label": "14",
+      "bookPage": 138,
+      "png": "p0139.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-03.json",
+      "id": "q15",
+      "label": "15",
+      "bookPage": 138,
+      "png": "p0139.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q01",
+      "label": "1",
+      "bookPage": 180,
+      "png": "p0181.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q02",
+      "label": "2",
+      "bookPage": 180,
+      "png": "p0181.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q03",
+      "label": "3",
+      "bookPage": 180,
+      "png": "p0181.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q04",
+      "label": "4",
+      "bookPage": 180,
+      "png": "p0181.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q05",
+      "label": "5",
+      "bookPage": 180,
+      "png": "p0181.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q06",
+      "label": "6",
+      "bookPage": 181,
+      "png": "p0182.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q07",
+      "label": "7",
+      "bookPage": 181,
+      "png": "p0182.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q08",
+      "label": "8",
+      "bookPage": 181,
+      "png": "p0182.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q09",
+      "label": "9",
+      "bookPage": 181,
+      "png": "p0182.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 181,
+      "png": "p0182.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q11",
+      "label": "11",
+      "bookPage": 182,
+      "png": "p0183.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q12",
+      "label": "12",
+      "bookPage": 182,
+      "png": "p0183.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q13",
+      "label": "13",
+      "bookPage": 182,
+      "png": "p0183.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q14",
+      "label": "14",
+      "bookPage": 182,
+      "png": "p0183.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/tests/review-test-04.json",
+      "id": "q15",
+      "label": "15",
+      "bookPage": 182,
+      "png": "p0183.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a01",
+      "label": "A1",
+      "bookPage": 146,
+      "png": "p0147.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a02",
+      "label": "A2",
+      "bookPage": 146,
+      "png": "p0147.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a03",
+      "label": "A3",
+      "bookPage": 146,
+      "png": "p0147.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a04",
+      "label": "A4",
+      "bookPage": 146,
+      "png": "p0147.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a05",
+      "label": "A5",
+      "bookPage": 146,
+      "png": "p0147.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a06",
+      "label": "A6",
+      "bookPage": 146,
+      "png": "p0147.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a07",
+      "label": "A7",
+      "bookPage": 147,
+      "png": "p0148.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a08",
+      "label": "A8",
+      "bookPage": 147,
+      "png": "p0148.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a09",
+      "label": "A9",
+      "bookPage": 147,
+      "png": "p0148.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a10",
+      "label": "A10",
+      "bookPage": 147,
+      "png": "p0148.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a11",
+      "label": "A11",
+      "bookPage": 147,
+      "png": "p0148.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/run.json",
+      "id": "a12",
+      "label": "A12",
+      "bookPage": 147,
+      "png": "p0148.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q01",
+      "label": "1",
+      "bookPage": 154,
+      "png": "p0155.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q02",
+      "label": "2",
+      "bookPage": 154,
+      "png": "p0155.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q3",
+      "label": "3",
+      "bookPage": 154,
+      "png": "p0155.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q4",
+      "label": "4",
+      "bookPage": 154,
+      "png": "p0155.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q5",
+      "label": "5",
+      "bookPage": 154,
+      "png": "p0155.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q06",
+      "label": "6",
+      "bookPage": 155,
+      "png": "p0156.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q07",
+      "label": "7",
+      "bookPage": 155,
+      "png": "p0156.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q08",
+      "label": "8",
+      "bookPage": 155,
+      "png": "p0156.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q09",
+      "label": "9",
+      "bookPage": 155,
+      "png": "p0156.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 155,
+      "png": "p0156.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q11",
+      "label": "11",
+      "bookPage": 156,
+      "png": "p0157.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q12",
+      "label": "12",
+      "bookPage": 156,
+      "png": "p0157.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q13",
+      "label": "13",
+      "bookPage": 156,
+      "png": "p0157.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q14",
+      "label": "14",
+      "bookPage": 156,
+      "png": "p0157.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q15",
+      "label": "15",
+      "bookPage": 156,
+      "png": "p0157.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q16",
+      "label": "16",
+      "bookPage": 157,
+      "png": "p0158.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/unit-test-07.json",
+      "id": "q17",
+      "label": "17",
+      "bookPage": 157,
+      "png": "p0158.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "a02",
+      "label": "A2",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "a03",
+      "label": "A3",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "a04",
+      "label": "A4",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "a05",
+      "label": "A5",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "a06",
+      "label": "A6",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "a07",
+      "label": "A7",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "a08",
+      "label": "A8",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "b02",
+      "label": "B2",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "book_abcd_bank"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "b03",
+      "label": "B3",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "book_abcd_bank"
+    },
+    {
+      "file": "data/green1/unit07/walk1.json",
+      "id": "b04",
+      "label": "B4",
+      "bookPage": 143,
+      "png": "p0144.png",
+      "status": "ok",
+      "method": "book_abcd_bank"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "a02",
+      "label": "A2",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "a03",
+      "label": "A3",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "a04",
+      "label": "A4",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "a05",
+      "label": "A5",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "a06",
+      "label": "A6",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "a07",
+      "label": "A7",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "a08",
+      "label": "A8",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b02",
+      "label": "B2",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "book_abcd_bank"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b03",
+      "label": "B3",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "book_abcd_bank"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b04",
+      "label": "B4",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "book_abcd_bank"
+    },
+    {
+      "file": "data/green1/unit07/walk2.json",
+      "id": "b05",
+      "label": "B5",
+      "bookPage": 145,
+      "png": "p0146.png",
+      "status": "ok",
+      "method": "book_abcd_bank"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a02",
+      "label": "A2",
+      "bookPage": 166,
+      "png": "p0167.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a03",
+      "label": "A3",
+      "bookPage": 166,
+      "png": "p0167.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a04",
+      "label": "A4",
+      "bookPage": 166,
+      "png": "p0167.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a05",
+      "label": "A5",
+      "bookPage": 166,
+      "png": "p0167.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a06",
+      "label": "A6",
+      "bookPage": 166,
+      "png": "p0167.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a07",
+      "label": "A7",
+      "bookPage": 166,
+      "png": "p0167.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a08",
+      "label": "A8",
+      "bookPage": 166,
+      "png": "p0167.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a09",
+      "label": "A9",
+      "bookPage": 167,
+      "png": "p0168.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a10",
+      "label": "A10",
+      "bookPage": 167,
+      "png": "p0168.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a11",
+      "label": "A11",
+      "bookPage": 167,
+      "png": "p0168.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a12",
+      "label": "A12",
+      "bookPage": 167,
+      "png": "p0168.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a13",
+      "label": "A13",
+      "bookPage": 167,
+      "png": "p0168.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a14",
+      "label": "A14",
+      "bookPage": 167,
+      "png": "p0168.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/run.json",
+      "id": "a15",
+      "label": "A15",
+      "bookPage": 167,
+      "png": "p0168.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q01",
+      "label": "1",
+      "bookPage": 174,
+      "png": "p0175.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q02",
+      "label": "2",
+      "bookPage": 174,
+      "png": "p0175.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q03",
+      "label": "3",
+      "bookPage": 174,
+      "png": "p0175.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q04",
+      "label": "4",
+      "bookPage": 174,
+      "png": "p0175.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q05",
+      "label": "5",
+      "bookPage": 174,
+      "png": "p0175.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q06",
+      "label": "6",
+      "bookPage": 175,
+      "png": "p0176.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q07",
+      "label": "7",
+      "bookPage": 175,
+      "png": "p0176.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q08",
+      "label": "8",
+      "bookPage": 175,
+      "png": "p0176.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q09",
+      "label": "9",
+      "bookPage": 175,
+      "png": "p0176.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q10",
+      "label": "10",
+      "bookPage": 175,
+      "png": "p0176.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q11",
+      "label": "11",
+      "bookPage": 176,
+      "png": "p0177.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q12",
+      "label": "12",
+      "bookPage": 176,
+      "png": "p0177.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q13",
+      "label": "13",
+      "bookPage": 176,
+      "png": "p0177.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q14",
+      "label": "14",
+      "bookPage": 176,
+      "png": "p0177.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q15",
+      "label": "15",
+      "bookPage": 176,
+      "png": "p0177.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q16",
+      "label": "16",
+      "bookPage": 177,
+      "png": "p0178.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/unit-test-08.json",
+      "id": "q17",
+      "label": "17",
+      "bookPage": 177,
+      "png": "p0178.png",
+      "status": "ok",
+      "method": "book_12345_circled",
+      "printedOrderNote": "book ①–⑤ matches choices[] index 0..4"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "a02",
+      "label": "A2",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "a03",
+      "label": "A3",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "a04",
+      "label": "A4",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "a05",
+      "label": "A5",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "a06",
+      "label": "A6",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "a07",
+      "label": "A7",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "b02",
+      "label": "B2",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "b03",
+      "label": "B3",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "b04",
+      "label": "B4",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "b05",
+      "label": "B5",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit08/walk1.json",
+      "id": "b06",
+      "label": "B6",
+      "bookPage": 163,
+      "png": "p0164.png",
+      "status": "ok",
+      "method": "image_page"
+    },
+    {
+      "file": "data/green1/unit08/walk2.json",
+      "id": "a02",
+      "label": "A2",
+      "bookPage": 165,
+      "png": "p0166.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk2.json",
+      "id": "a03",
+      "label": "A3",
+      "bookPage": 165,
+      "png": "p0166.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk2.json",
+      "id": "a04",
+      "label": "A4",
+      "bookPage": 165,
+      "png": "p0166.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk2.json",
+      "id": "a05",
+      "label": "A5",
+      "bookPage": 165,
+      "png": "p0166.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk2.json",
+      "id": "a06",
+      "label": "A6",
+      "bookPage": 165,
+      "png": "p0166.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    },
+    {
+      "file": "data/green1/unit08/walk2.json",
+      "id": "a07",
+      "label": "A7",
+      "bookPage": 165,
+      "png": "p0166.png",
+      "status": "ok",
+      "method": "prompt_paren_order"
+    }
+  ],
+  "mcItemsUnverified": []
+}
