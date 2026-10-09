@@ -1,0 +1,351 @@
+{
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 현재 완료 시제 (2)",
+  "sectionsVersion": 2,
+  "practiceId": "g3:u04:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "현재 완료 — 완료 (p. 77)",
+  "pages": "77",
+  "timerMinutes": 10,
+  "introKo": "이 연습은 Section A 8문항(고르기), Section B 5문항(고르기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요. 완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요.",
+      "ruleKo": "완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 8,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 대한 알맞은 대답을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 대한 알맞은 대답을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I have finished the homework already.",
+      "choices": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "accept": [
+        "1",
+        "①",
+        "already"
+      ],
+      "answer": "1",
+      "promptKo": "나는 이미 숙제를 끝냈다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요. 완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "You have already eaten three sandwiches.",
+      "choices": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "accept": [
+        "1",
+        "①",
+        "already"
+      ],
+      "answer": "1",
+      "promptKo": "너는 이미 샌드위치 세 개를 먹었다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요. 완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "Mom has just come home.",
+      "choices": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "accept": [
+        "2",
+        "②",
+        "just"
+      ],
+      "answer": "2",
+      "promptKo": "엄마는 지금 막 집에 오셨다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요. 완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "The movie has just begun.",
+      "choices": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "accept": [
+        "2",
+        "②",
+        "just"
+      ],
+      "answer": "2",
+      "promptKo": "그 영화는 지금 막 시작했다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요. 완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "The snow hasn't stopped yet.",
+      "choices": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "accept": [
+        "3",
+        "③",
+        "yet"
+      ],
+      "answer": "3",
+      "promptKo": "눈이 아직 그치지 않았다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요. 완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Eddy and his friends haven't heard the news yet.",
+      "choices": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "accept": [
+        "3",
+        "③",
+        "yet"
+      ],
+      "answer": "3",
+      "promptKo": "에디와 그의 친구들은 아직 그 소식을 듣지 못했다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요. 완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Your Christmas card hasn't arrived yet.",
+      "choices": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "accept": [
+        "3",
+        "③",
+        "yet"
+      ],
+      "answer": "3",
+      "promptKo": "네 크리스마스카드는 아직 도착하지 않았다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요. 완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "They haven't left for London yet.",
+      "choices": [
+        "already",
+        "just",
+        "yet"
+      ],
+      "accept": [
+        "3",
+        "③",
+        "yet"
+      ],
+      "answer": "3",
+      "promptKo": "그들은 아직 런던으로 떠나지 않았다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」 또는 「haven't/hasn't+과거분사」를 찾아 밑줄을 치고, 행동의 완료를 나타낼 때 함께 쓰이는 말을 찾아 동그라미 하세요. 완료를 나타낼 때 함께 쓰이는 말(부사 등)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Has she made her bed yet?",
+      "choices": [
+        "Yes, she does.",
+        "Yes, she has."
+      ],
+      "accept": [
+        "2",
+        "②",
+        "Yes, she has."
+      ],
+      "answer": "2",
+      "promptKo": "그녀는 이미 잠자리를 정돈했니?",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 알맞은 대답을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Have you sent a letter to Susan yet?",
+      "choices": [
+        "Yes, I have.",
+        "Yes, I do."
+      ],
+      "accept": [
+        "1",
+        "①",
+        "Yes, I have."
+      ],
+      "answer": "1",
+      "promptKo": "너는 이미 수전에게 편지를 보냈니?",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 알맞은 대답을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Has the class started already?",
+      "choices": [
+        "No, it doesn't.",
+        "No, it hasn't."
+      ],
+      "accept": [
+        "2",
+        "②",
+        "No, it hasn't."
+      ],
+      "answer": "2",
+      "promptKo": "그 수업은 벌써 시작했니?",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 알맞은 대답을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Have they had lunch yet?",
+      "choices": [
+        "No, they don't.",
+        "No, they haven't."
+      ],
+      "accept": [
+        "2",
+        "②",
+        "No, they haven't."
+      ],
+      "answer": "2",
+      "promptKo": "그들은 이미 점심 식사를 했니?",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 알맞은 대답을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Has Oliver called you already?",
+      "choices": [
+        "Yes, he did.",
+        "Yes, he has."
+      ],
+      "accept": [
+        "2",
+        "②",
+        "Yes, he has."
+      ],
+      "answer": "2",
+      "promptKo": "올리버가 네게 벌써 전화했니?",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 알맞은 대답을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ]
+}

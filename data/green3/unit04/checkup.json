@@ -1,0 +1,84 @@
+{
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 현재 완료 시제 (2)",
+  "sectionsVersion": 2,
+  "practiceId": "g3:u04:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue blanks (p. 91)",
+  "pages": "91",
+  "timerMinutes": 6,
+  "wordBank": [
+    "skated",
+    "have",
+    "haven't"
+  ],
+  "introKo": "Check Up 3문항 — word bank에서 골라 빈칸에 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (skated / have / haven't) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (skated / have / haven't)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[그림 1] Have you ever skated?\nNo, _____.",
+      "blanks": 1,
+      "accept": [
+        "haven't"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (skated / have / haven't) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기"
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "[그림 2] I _____ skated before.",
+      "blanks": 1,
+      "accept": [
+        "have"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (skated / have / haven't) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기"
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "[그림 4] I _____ just hurt my arm!",
+      "blanks": 1,
+      "accept": [
+        "have"
+      ],
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (skated / have / haven't) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기"
+    }
+  ]
+}
