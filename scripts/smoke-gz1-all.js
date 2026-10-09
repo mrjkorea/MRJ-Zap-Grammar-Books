@@ -121,3 +121,7 @@ if (bad) {
   process.exit(1);
 }
 console.log(`GreenZap 1 catalog smoke: ALL OK — ${fileCount} practices`);
+
+const { execSync } = require("child_process");
+execSync("node scripts/smoke-gz1-choices.js", { stdio: "inherit", cwd: REPO });
+execSync("node scripts/smoke-gz1-korean.js", { stdio: "inherit", cwd: REPO });

@@ -223,11 +223,11 @@
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "tie – tying",
+        "write – writing",
         "shop – shoping",
-        "watch – watching",
-        "sit – sitting",
-        "fly – flying"
+        "read – reading",
+        "tie – tying",
+        "watch – watching"
       ],
       "accept": [
         "2",
@@ -246,17 +246,17 @@
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "read – reading",
-        "write – writing",
-        "dance – danceing",
+        "sit – sitting",
+        "fly – flying",
         "lie – lying",
+        "dance – danceing",
         "rain – raining"
       ],
       "accept": [
-        "3",
-        "③"
+        "4",
+        "④"
       ],
-      "answer": "3"
+      "answer": "4"
     },
     {
       "id": "q03",
@@ -317,8 +317,8 @@
       "choices": [
         "were talking",
         "was talking",
-        "did talking",
         "talking was",
+        "did talking",
         "was talks"
       ],
       "accept": [
@@ -362,9 +362,9 @@
       "promptEn": "We were watching a baseball game.\n→ We ______ a baseball game.",
       "choices": [
         "weren't watching",
-        "watching weren't",
         "were watching not",
         "wasn't watching",
+        "watching weren't",
         "didn't watching"
       ],
       "accept": [
@@ -455,15 +455,15 @@
       "choices": [
         "Yes, they did.",
         "No, they wasn't.",
+        "Yes, they were.",
         "No, it wasn't.",
-        "Yes, they was.",
-        "Yes, they were."
+        "Yes, they was."
       ],
       "accept": [
-        "5",
-        "⑤"
+        "3",
+        "③"
       ],
-      "answer": "5"
+      "answer": "3"
     },
     {
       "id": "q12",
@@ -474,7 +474,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "12",
       "type": "mc",
-      "promptEn": "It ______ yesterday. It's sunny now.",
+      "promptEn": "It ______ snowing yesterday.\nIt isn't ______ now. It's sunny.",
       "choices": [
         "is – snowing",
         "was – snow",
@@ -497,7 +497,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "13",
       "type": "mc",
-      "promptEn": "The students ______ soccer then. They ______ soccer now. They are playing basketball.",
+      "promptEn": "The students ______ playing soccer then.\nThey ______ playing soccer now. They are playing basketball.",
       "choices": [
         "was – weren't",
         "were – aren't",
