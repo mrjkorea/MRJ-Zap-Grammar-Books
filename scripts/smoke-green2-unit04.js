@@ -1,4 +1,4 @@
-/* Smoke-grade every GZ3 Unit 01 item with the repo's own normalize.js + engine.js gradeItem. */
+/* Smoke-grade every GZ2 Unit 04 item with normalize.js + engine.js gradeItem. */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
@@ -13,6 +13,13 @@ for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
 const E = win.MRJ_ENGINE;
 let total = 0;
 let bad = 0;
+const runB15 = JSON.parse(fs.readFileSync(path.join(DATA, "run.json"), "utf8")).items.find(
+  (it) => it.id === "b15"
+);
+if (!runB15 || runB15.choices.join("|") !== "more|the most") {
+  bad++;
+  console.log("STRUCT-FAIL run.json b15 choices must be parenthesis tokens: more | the most");
+}
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
   let ok = 0;
