@@ -1,0 +1,101 @@
+{
+  "practiceId": "g2:u04:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 91)",
+  "pages": "91",
+  "timerMinutes": 6,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 비교 (2)",
+  "sectionsVersion": 2,
+  "wordBank": [
+    "the strongest",
+    "much",
+    "strong",
+    "stronger"
+  ],
+  "introKo": "이 연습은 Check Up 4문항(골라서 그 단어만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the strongest / much / strong / stronger) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요.",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Section CU",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the strongest / much / strong / stronger) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "Superman is one of ______ men in the world.",
+      "blanks": 1,
+      "accept": [
+        "the strongest"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Section CU",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the strongest / much / strong / stronger) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "I am as ______ as Superman.",
+      "blanks": 1,
+      "accept": [
+        "strong"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Section CU",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the strongest / much / strong / stronger) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "You are getting ______ and ______.",
+      "blanks": 2,
+      "accept": [
+        "stronger|stronger"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "CU",
+      "sectionTitle": "Section CU",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (the strongest / much / strong / stronger) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "Superman is ______ stronger than you.",
+      "blanks": 1,
+      "accept": [
+        "much"
+      ]
+    }
+  ]
+}
