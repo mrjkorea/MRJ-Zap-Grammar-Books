@@ -1,0 +1,97 @@
+{
+  "practiceId": "u06:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue blanks (p. 135)",
+  "pages": "135",
+  "timerMinutes": 6,
+  "wordBank": [
+    "must",
+    "may",
+    "have",
+    "not"
+  ],
+  "unitTitle": "Unit 06 — 조동사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 4문항(골라서 그 단어만 쓰기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, 상자 안의 말 중 알맞은 것을 골라 그 단어만 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (must / may / have / not) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (must / may / have / not)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (must / may / have / not) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "id": "c01",
+      "type": "fill",
+      "promptEn": "[그림 1] Mom: Zack, you must ______ open this box.",
+      "blanks": 1,
+      "accept": [
+        "not"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (must / may / have / not) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "id": "c02",
+      "type": "fill",
+      "promptEn": "[그림 2] Zack: Dad, ______ I open the box?",
+      "blanks": 1,
+      "accept": [
+        "May"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (must / may / have / not) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "id": "c03",
+      "type": "fill",
+      "promptEn": "[그림 2] Dad: Yes, you may. But you ______ to be careful.",
+      "blanks": 1,
+      "accept": [
+        "have"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (must / may / have / not) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "4",
+      "id": "c04",
+      "type": "fill",
+      "promptEn": "[그림 3] Girl: This must be a present for me.\nZack: No! It ______ be a present for me.",
+      "blanks": 1,
+      "accept": [
+        "must"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "sectionsVersion": 2,
+  "unitTitle": "Unit 07 — 조동사 (3)",
+  "practiceId": "u07:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "Will / Shall / Would you like to (p. 145)",
+  "pages": "145",
+  "timerMinutes": 10,
+  "introKo": "이 연습은 Section A 8문항(고르기), Section B 5문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "( Will you go / Will you going ) to the concert with me?",
+      "choices": [
+        "Will you go",
+        "Will you going"
+      ],
+      "accept": [
+        "Will you go"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Will you go"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "( Will I / Will you ) help me with my homework?",
+      "choices": [
+        "Will I",
+        "Will you"
+      ],
+      "accept": [
+        "Will you"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "( Shall you / Shall I ) turn down the volume?",
+      "choices": [
+        "Shall you",
+        "Shall I"
+      ],
+      "accept": [
+        "Shall I"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "( Shall you / Shall I ) turn on the light?",
+      "choices": [
+        "Shall you",
+        "Shall I"
+      ],
+      "accept": [
+        "Shall I"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Shall ( we dancing / we dance ) together?",
+      "choices": [
+        "we dancing",
+        "we dance"
+      ],
+      "accept": [
+        "we dance"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Would you ( like have to / like to have ) some pizza?",
+      "choices": [
+        "like have to",
+        "like to have"
+      ],
+      "accept": [
+        "like to have"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Would ( you like / you like to ) drink some juice?",
+      "choices": [
+        "you like",
+        "you like to"
+      ],
+      "accept": [
+        "you like to"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "I'd ( like to read / like read to ) this book.",
+      "choices": [
+        "like to read",
+        "like read to"
+      ],
+      "accept": [
+        "like to read"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Will you lend me your book?  (밑줄: Will you)",
+      "choices": [
+        "a. ~을 하시겠어요?",
+        "b. 내가 ~할까?",
+        "c. ~해 주겠니?",
+        "d. 우리 ~할까?"
+      ],
+      "accept": [
+        "c. ~해 주겠니?",
+        "c",
+        "~해 주겠니?"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "c. ~해 주겠니?"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Shall we take a walk now?  (밑줄: Shall we)",
+      "choices": [
+        "a. ~을 하시겠어요?",
+        "b. 내가 ~할까?",
+        "c. ~해 주겠니?",
+        "d. 우리 ~할까?"
+      ],
+      "accept": [
+        "d. 우리 ~할까?",
+        "d",
+        "우리 ~할까?"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Would you like to come to my party?  (밑줄: Would you like to)",
+      "choices": [
+        "a. ~을 하시겠어요?",
+        "b. 내가 ~할까?",
+        "c. ~해 주겠니?",
+        "d. 우리 ~할까?"
+      ],
+      "accept": [
+        "a. ~을 하시겠어요?",
+        "a",
+        "~을 하시겠어요?"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Will you open the door?  (밑줄: Will you)",
+      "choices": [
+        "a. ~을 하시겠어요?",
+        "b. 내가 ~할까?",
+        "c. ~해 주겠니?",
+        "d. 우리 ~할까?"
+      ],
+      "accept": [
+        "c. ~해 주겠니?",
+        "c",
+        "~해 주겠니?"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Shall I close the window?  (밑줄: Shall I)",
+      "choices": [
+        "a. ~을 하시겠어요?",
+        "b. 내가 ~할까?",
+        "c. ~해 주겠니?",
+        "d. 우리 ~할까?"
+      ],
+      "accept": [
+        "b. 내가 ~할까?",
+        "b",
+        "내가 ~할까?"
+      ]
+    }
+  ]
+}

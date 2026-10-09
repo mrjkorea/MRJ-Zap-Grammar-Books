@@ -1,0 +1,302 @@
+{
+  "practiceId": "u06:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "may — permission & possibility (p. 119)",
+  "pages": "119",
+  "timerMinutes": 10,
+  "unitTitle": "Unit 06 — 조동사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(고르기), Section B 5문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "id": "a01",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "may play",
+      "type": "mc",
+      "promptEn": "You ( may plays / may play ) a computer game now.",
+      "choices": [
+        "may plays",
+        "may play"
+      ],
+      "accept": [
+        "may play"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "id": "a02",
+      "type": "mc",
+      "promptEn": "You ( not may / may not ) sleep more.",
+      "choices": [
+        "not may",
+        "may not"
+      ],
+      "accept": [
+        "may not"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "id": "a03",
+      "type": "mc",
+      "promptEn": "( May I / May you ) sit here? / Yes, you may.",
+      "choices": [
+        "May I",
+        "May you"
+      ],
+      "accept": [
+        "May I"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "id": "a04",
+      "type": "mc",
+      "promptEn": "May I use your pencil sharpener? / No, you ( not may / may not ).",
+      "choices": [
+        "not may",
+        "may not"
+      ],
+      "accept": [
+        "may not"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "id": "a05",
+      "type": "mc",
+      "promptEn": "It ( may rain / mays rain ) this afternoon.",
+      "choices": [
+        "may rain",
+        "mays rain"
+      ],
+      "accept": [
+        "may rain"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "id": "a06",
+      "type": "mc",
+      "promptEn": "She may ( not know / not knows ) my name.",
+      "choices": [
+        "not know",
+        "not knows"
+      ],
+      "accept": [
+        "not know"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "id": "b01",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "c",
+      "type": "mc",
+      "promptEn": "You <u>may not</u> like the color.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "c. ~하지 않을지도 모른다",
+        "c",
+        "~하지 않을지도 모른다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "id": "b02",
+      "type": "mc",
+      "promptEn": "<u>May I</u> have some water?",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "e. ~해도 될까요?",
+        "e",
+        "~해도 될까요?"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "id": "b03",
+      "type": "mc",
+      "promptEn": "You <u>may</u> watch a cartoon on TV.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "b. ~해도 된다",
+        "b",
+        "~해도 된다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "id": "b04",
+      "type": "mc",
+      "promptEn": "You <u>may not</u> touch the dog.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "d. ~해서는 안 된다",
+        "d",
+        "~해서는 안 된다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "id": "b05",
+      "type": "mc",
+      "promptEn": "The child <u>may</u> be hungry.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "a. ~할지도 모른다",
+        "a",
+        "~할지도 모른다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "id": "b06",
+      "type": "mc",
+      "promptEn": "It <u>may not</u> snow today.",
+      "choices": [
+        "a. ~할지도 모른다",
+        "b. ~해도 된다",
+        "c. ~하지 않을지도 모른다",
+        "d. ~해서는 안 된다",
+        "e. ~해도 될까요?"
+      ],
+      "accept": [
+        "c. ~하지 않을지도 모른다",
+        "c",
+        "~하지 않을지도 모른다"
+      ]
+    }
+  ]
+}

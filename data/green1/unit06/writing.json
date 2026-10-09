@@ -1,0 +1,223 @@
+{
+  "practiceId": "u06:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "May I ~? & school rules (pp. 128–129)",
+  "pages": "128–129",
+  "timerMinutes": 20,
+  "unitTitle": "Unit 06 — 조동사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 4문항(문장 전체 쓰기), Section B 5문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "[상황 묘사하기] 그림을 보고, May I ~?를 사용하여 허락을 구하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[상황 묘사하기] 그림을 보고, May I ~?를 사용하여 허락을 구하는 문장을 써 보세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "[정보 활용하기] 준호와 친구들이 학교에서 지켜야 할 규칙을 정해 게시판을 꾸몄어요. 게시판을 보고 must를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[정보 활용하기] 준호와 친구들이 학교에서 지켜야 할 규칙을 정해 게시판을 꾸몄어요. 게시판을 보고 must를 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 그림을 보고, May I ~?를 사용하여 허락을 구하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "id": "a01",
+      "type": "sentence",
+      "promptKo": "",
+      "promptEn": "[그림 1] (speak to Junho)\nA: ________\nB: Speaking.",
+      "accept": [
+        "May I speak to Junho?"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "May I speak to Junho?"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 그림을 보고, May I ~?를 사용하여 허락을 구하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
+      "id": "a02",
+      "type": "sentence",
+      "promptKo": "",
+      "promptEn": "[그림 2] (go to the concert)\nA: ________\nB: Yes, you may.",
+      "accept": [
+        "May I go to the concert?"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 그림을 보고, May I ~?를 사용하여 허락을 구하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
+      "id": "a03",
+      "type": "sentence",
+      "promptKo": "",
+      "promptEn": "[그림 3] (have these bananas)\nA: ________\nB: Sure.",
+      "accept": [
+        "May I have these bananas?"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 그림을 보고, May I ~?를 사용하여 허락을 구하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
+      "id": "a04",
+      "type": "sentence",
+      "promptKo": "",
+      "promptEn": "[그림 4] (help you)\nA: ________\nB: Yes. I'm looking for a cap.",
+      "accept": [
+        "May I help you?"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[상황 묘사하기] 그림을 보고, May I ~?를 사용하여 허락을 구하는 문장을 써 보세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
+      "id": "a05",
+      "type": "sentence",
+      "promptKo": "",
+      "promptEn": "[그림 5] (buy this skirt)\nA: ________\nB: OK. It looks nice.",
+      "accept": [
+        "May I buy this skirt?"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 준호와 친구들이 학교에서 지켜야 할 규칙을 정해 게시판을 꾸몄어요. 게시판을 보고 must를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "id": "b01",
+      "type": "fill",
+      "promptEn": "We ________ for school.",
+      "blanks": 1,
+      "accept": [
+        "must not be late",
+        "mustn't be late"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "must not be late"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 준호와 친구들이 학교에서 지켜야 할 규칙을 정해 게시판을 꾸몄어요. 게시판을 보고 must를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "id": "b02",
+      "type": "fill",
+      "promptEn": "We ________ in class.",
+      "blanks": 1,
+      "accept": [
+        "must not chew gum",
+        "mustn't chew gum"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 준호와 친구들이 학교에서 지켜야 할 규칙을 정해 게시판을 꾸몄어요. 게시판을 보고 must를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "id": "b03",
+      "type": "fill",
+      "promptEn": "We ________.",
+      "blanks": 1,
+      "accept": [
+        "must not run on the stairs",
+        "mustn't run on the stairs"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 준호와 친구들이 학교에서 지켜야 할 규칙을 정해 게시판을 꾸몄어요. 게시판을 보고 must를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "id": "b04",
+      "type": "fill",
+      "promptEn": "We ________ in class.",
+      "blanks": 1,
+      "accept": [
+        "must listen to our teacher"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 준호와 친구들이 학교에서 지켜야 할 규칙을 정해 게시판을 꾸몄어요. 게시판을 보고 must를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "id": "b05",
+      "type": "fill",
+      "promptEn": "We ________ in class.",
+      "blanks": 1,
+      "accept": [
+        "must turn off our cell phones"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[정보 활용하기] 준호와 친구들이 학교에서 지켜야 할 규칙을 정해 게시판을 꾸몄어요. 게시판을 보고 must를 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "id": "b06",
+      "type": "fill",
+      "promptEn": "We ________.",
+      "blanks": 1,
+      "accept": [
+        "must be kind to our friends"
+      ]
+    }
+  ]
+}
