@@ -1,5 +1,5 @@
 {
-  "build": "20261009-gz1-followup2",
+  "build": "20261009-u01-audit",
   "entries": [
     {
       "file": "data/green1/unit06/wrap.json",
@@ -343,6 +343,186 @@
       "mustPass": [
         "~임에 틀림없다",
         "임에 틀림없다"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/wrap.json",
+      "id": "w1_3",
+      "mustPass": [
+        "동사원형",
+        "동사의 원형"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/wrap.json",
+      "id": "w2_3",
+      "mustPass": [
+        "Subject"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q18",
+      "mustPass": [
+        "I|do not"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q22",
+      "mustPass": [
+        "do|not|exercise"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q23",
+      "mustPass": [
+        "is|not|from"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit01/checkup.json",
+      "id": "c02",
+      "mustPass": [
+        "do|play"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit01/checkup.json",
+      "id": "c03",
+      "mustPass": [
+        "does not",
+        "doesn't"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/checkup.json",
+      "id": "c01",
+      "mustPass": [
+        "where"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/checkup.json",
+      "id": "c02",
+      "mustPass": [
+        "what"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/checkup.json",
+      "id": "c03",
+      "mustPass": [
+        "how"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/checkup.json",
+      "id": "c04",
+      "mustPass": [
+        "which"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q21",
+      "mustPass": [
+        "How can I find the needle",
+        "How can I find the needle?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q22",
+      "mustPass": [
+        "When did he take this photo",
+        "When did he take this photo?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q23",
+      "mustPass": [
+        "Why was Chris angry this morning",
+        "Why was Chris angry this morning?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q24",
+      "mustPass": [
+        "Where did the game take place",
+        "Where did the game take place?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q25",
+      "mustPass": [
+        "What will you do after school",
+        "What will you do after school?"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q18",
+      "mustPass": [
+        "I|don't",
+        "I|do not"
+      ],
+      "mustFail": [
+        "we|don't"
+      ]
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q22",
+      "mustPass": [
+        "do|not|exercise"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q23",
+      "mustPass": [
+        "is|not|from"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit01/checkup.json",
+      "id": "c02",
+      "mustPass": [
+        "Do|play",
+        "do|play"
+      ],
+      "mustFail": []
+    },
+    {
+      "file": "data/green1/unit01/checkup.json",
+      "id": "c03",
+      "mustPass": [
+        "doesn't",
+        "does not"
       ],
       "mustFail": []
     }

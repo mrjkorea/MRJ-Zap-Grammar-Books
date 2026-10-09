@@ -1,0 +1,111 @@
+{
+  "note": "Image-verified Unit 01 (GZ1 + GZ3) — MC order checked against uploaded PNGs; no reorder needed.",
+  "mcChoiceOrderFixes": [],
+  "koreanAcceptGaps": [
+    {
+      "file": "data/green3/unit01/wrap.json",
+      "id": "w1_3",
+      "suggestedAdds": ["동사원형", "동사의 원형"]
+    },
+    {
+      "file": "data/green3/unit01/wrap.json",
+      "id": "w2_3",
+      "suggestedAdds": ["Subject"]
+    }
+  ],
+  "englishAcceptGaps": [
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q18",
+      "remove": ["we|don't"],
+      "suggestedAdds": ["I|do not"]
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q22",
+      "replaceAccept": ["do|not|exercise"]
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q23",
+      "replaceAccept": ["is|not|from"]
+    },
+    {
+      "file": "data/green1/unit01/checkup.json",
+      "id": "c02",
+      "suggestedAdds": ["do|play"]
+    },
+    {
+      "file": "data/green1/unit01/checkup.json",
+      "id": "c03",
+      "suggestedAdds": ["does not", "doesn't"]
+    },
+    {
+      "file": "data/green3/unit01/checkup.json",
+      "id": "c01",
+      "suggestedAdds": ["where"]
+    },
+    {
+      "file": "data/green3/unit01/checkup.json",
+      "id": "c02",
+      "suggestedAdds": ["what"]
+    },
+    {
+      "file": "data/green3/unit01/checkup.json",
+      "id": "c03",
+      "suggestedAdds": ["how"]
+    },
+    {
+      "file": "data/green3/unit01/checkup.json",
+      "id": "c04",
+      "suggestedAdds": ["which"]
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q21",
+      "suggestedAdds": ["How can I find the needle", "How can I find the needle?"]
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q22",
+      "suggestedAdds": ["When did he take this photo", "When did he take this photo?"]
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q23",
+      "suggestedAdds": ["Why was Chris angry this morning", "Why was Chris angry this morning?"]
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q24",
+      "suggestedAdds": ["Where did the game take place", "Where did the game take place?"]
+    },
+    {
+      "file": "data/green3/unit01/unit-test-01.json",
+      "id": "q25",
+      "suggestedAdds": ["What will you do after school", "What will you do after school?"]
+    }
+  ],
+  "practiceMetaFixes": [
+    {
+      "file": "data/green1/unit01/walk1.json",
+      "timerMinutes": 10
+    },
+    {
+      "file": "data/green1/unit01/walk2.json",
+      "timerMinutes": 10
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q22",
+      "blanks": 3,
+      "promptEn": "My parents ______ ______ ______ in the morning."
+    },
+    {
+      "file": "data/green1/unit01/unit-test-01.json",
+      "id": "q23",
+      "blanks": 3,
+      "promptEn": "Brian ______ ______ ______ Canada."
+    }
+  ]
+}
