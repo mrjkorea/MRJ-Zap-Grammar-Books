@@ -1,0 +1,334 @@
+{
+  "practiceId": "u06:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "must & have to (p. 121)",
+  "pages": "121",
+  "timerMinutes": 10,
+  "unitTitle": "Unit 06 — 조동사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 7문항(고르기), Section B 5문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "id": "a01",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "must",
+      "type": "mc",
+      "promptEn": "Nancy ( must / musts ) study math now.",
+      "choices": [
+        "must",
+        "musts"
+      ],
+      "accept": [
+        "must"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "id": "a02",
+      "type": "mc",
+      "promptEn": "You ( must not / not must ) jump in the classroom.",
+      "choices": [
+        "must not",
+        "not must"
+      ],
+      "accept": [
+        "must not"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "id": "a03",
+      "type": "mc",
+      "promptEn": "You have to ( wear / wearing ) a helmet.",
+      "choices": [
+        "wear",
+        "wearing"
+      ],
+      "accept": [
+        "wear"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "id": "a04",
+      "type": "mc",
+      "promptEn": "He ( don't have to / doesn't have to ) buy a new bag.",
+      "choices": [
+        "don't have to",
+        "doesn't have to"
+      ],
+      "accept": [
+        "doesn't have to"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "id": "a05",
+      "type": "mc",
+      "promptEn": "We ( don't have to / doesn't have to ) go to school today.",
+      "choices": [
+        "don't have to",
+        "doesn't have to"
+      ],
+      "accept": [
+        "don't have to"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "id": "a06",
+      "type": "mc",
+      "promptEn": "They ( must are / must be ) thirsty.",
+      "choices": [
+        "must are",
+        "must be"
+      ],
+      "accept": [
+        "must be"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "id": "a07",
+      "type": "mc",
+      "promptEn": "He ( musts / must ) be at home.",
+      "choices": [
+        "musts",
+        "must"
+      ],
+      "accept": [
+        "must"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "id": "a08",
+      "type": "mc",
+      "promptEn": "She must ( likes / like ) that color.",
+      "choices": [
+        "likes",
+        "like"
+      ],
+      "accept": [
+        "like"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "id": "b01",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "c",
+      "type": "mc",
+      "promptEn": "You <u>must not</u> sit on the chair.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "c. ~해서는 안 된다",
+        "c",
+        "~해서는 안 된다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "id": "b02",
+      "type": "mc",
+      "promptEn": "She <u>doesn't have to</u> be quiet.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "d. ~할 필요가 없다",
+        "d",
+        "~할 필요가 없다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "id": "b03",
+      "type": "mc",
+      "promptEn": "I <u>must</u> make my bed.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "a. ~해야 한다",
+        "a",
+        "~해야 한다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "id": "b04",
+      "type": "mc",
+      "promptEn": "We <u>don't have to</u> hurry.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "d. ~할 필요가 없다",
+        "d",
+        "~할 필요가 없다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "id": "b05",
+      "type": "mc",
+      "promptEn": "I <u>must not</u> be late for school.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "c. ~해서는 안 된다",
+        "c",
+        "~해서는 안 된다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "id": "b06",
+      "type": "mc",
+      "promptEn": "Sorry. You <u>must</u> have the wrong number.",
+      "choices": [
+        "a. ~해야 한다",
+        "b. ~임이 틀림없다",
+        "c. ~해서는 안 된다",
+        "d. ~할 필요가 없다"
+      ],
+      "accept": [
+        "b. ~임이 틀림없다",
+        "b",
+        "~임이 틀림없다"
+      ]
+    }
+  ]
+}
