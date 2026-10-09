@@ -12,7 +12,7 @@
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
     { id: "zap-green-2", title: "ZAP Green 2", enabled: false },
     { id: "zap-green-3", title: "ZAP Green 3", enabled: true, appName: "GreenZap 3", bookTitle: "ZAP Green 3" },
-    { id: "zap-green-4", title: "ZAP Green 4", enabled: false },
+    { id: "zap-green-4", title: "ZAP Green 4", enabled: true, appName: "GreenZap 4", bookTitle: "ZAP Green 4" },
   ];
 
   var UNITS = {
@@ -30,6 +30,9 @@
     "zap-green-3": [
       { id: "unit-01", title: "Unit 01 — 의문사 있는 의문문 (1)", enabled: true },
       { id: "unit-02", title: "Unit 02", enabled: false },
+    ],
+    "zap-green-4": [
+      { id: "unit-07", title: "Unit 07 — 접속사 (1)", enabled: true },
     ],
   };
 
@@ -665,6 +668,57 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green3/unit01/checkup.json",
         practiceId: "g3:u01:checkup",
+      },
+    ],
+    "zap-green-4:unit-07": [
+      {
+        slug: "walk1",
+        title: "Grammar Walk — Lesson 01",
+        hint: "when & while · p. 143",
+        data: "data/green4/unit07/walk1.json",
+        practiceId: "g4:u07:walk1",
+      },
+      {
+        slug: "walk2",
+        title: "Grammar Walk — Lesson 02",
+        hint: "before & after · p. 145",
+        data: "data/green4/unit07/walk2.json",
+        practiceId: "g4:u07:walk2",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "pp. 146–147",
+        data: "data/green4/unit07/run.json",
+        practiceId: "g4:u07:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "pp. 148–149",
+        data: "data/green4/unit07/jump.json",
+        practiceId: "g4:u07:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "pp. 150–151",
+        data: "data/green4/unit07/fly.json",
+        practiceId: "g4:u07:fly",
+      },
+      {
+        slug: "writing",
+        title: "Grammar & Writing",
+        hint: "pp. 152–153",
+        data: "data/green4/unit07/writing.json",
+        practiceId: "g4:u07:writing",
+      },
+      {
+        slug: "quiz",
+        title: "Unit Test 07",
+        hint: "pp. 154–158",
+        data: "data/green4/unit07/unit-test-07.json",
+        practiceId: "g4:u07:quiz",
       },
     ],
   };
