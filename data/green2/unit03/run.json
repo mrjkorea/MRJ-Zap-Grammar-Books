@@ -1,0 +1,545 @@
+{
+  "practiceId": "g2:u03:run",
+  "title": "Grammar Run",
+  "subtitle": "Korean meanings & word bank (pp. 58–59)",
+  "pages": "58–59",
+  "timerMinutes": 20,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 비교 (1)",
+  "wordBank": [
+    "heavier",
+    "the most delicious",
+    "the hottest",
+    "slower",
+    "the easiest",
+    "the tallest",
+    "better",
+    "the most handsome",
+    "longer",
+    "harder",
+    "the cutest",
+    "more difficult",
+    "stronger",
+    "the most diligent"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 13문항(빈칸 말만 쓰기), Section B 13문항(골라서 그 단어만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 우리말 뜻을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 13,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요.",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 13,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a01",
+      "label": "A1",
+      "promptEn": "Russia is larger than China.",
+      "promptKo": "러시아는 ______.",
+      "blanks": 1,
+      "accept": [
+        "중국보다 크다",
+        "중국보다 더 크다"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "중국보다 크다"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a02",
+      "label": "A2",
+      "promptEn": "Britney is more famous than him.",
+      "promptKo": "브리트니는 ______.",
+      "blanks": 1,
+      "accept": [
+        "그보다 더 유명하다",
+        "그보다 더 유명해",
+        "그보다 유명하다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a03",
+      "label": "A3",
+      "promptEn": "Strawberries are sweeter than oranges.",
+      "promptKo": "딸기가 ______.",
+      "blanks": 1,
+      "accept": [
+        "오렌지보다 더 달다",
+        "오렌지보다 달다",
+        "오렌지보다 더 달아"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a04",
+      "label": "A4",
+      "promptEn": "My sister walks faster than me.",
+      "promptKo": "내 여동생은 ______.",
+      "blanks": 1,
+      "accept": [
+        "나보다 더 빨리 걷는다",
+        "나보다 빨리 걷는다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a05",
+      "label": "A5",
+      "promptEn": "Jakarta is hotter than Seoul.",
+      "promptKo": "자카르타는 ______.",
+      "blanks": 1,
+      "accept": [
+        "서울보다 더 덥다",
+        "서울보다 덥다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a06",
+      "label": "A6",
+      "promptEn": "Busan is farther than Daegu.",
+      "promptKo": "부산은 ______.",
+      "blanks": 1,
+      "accept": [
+        "대구보다 더 멀다",
+        "대구보다 멀다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a07",
+      "label": "A7",
+      "promptEn": "Sam is healthier than you.",
+      "promptKo": "샘은 ______.",
+      "blanks": 1,
+      "accept": [
+        "너보다 더 건강하다",
+        "너보다 건강하다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a08",
+      "label": "A8",
+      "promptEn": "Pandas are fatter than koalas.",
+      "promptKo": "판다는 ______.",
+      "blanks": 1,
+      "accept": [
+        "코알라보다 더 뚱뚱하다",
+        "코알라보다 뚱뚱하다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a09",
+      "label": "A9",
+      "promptEn": "The bird gets up the earliest in the forest.",
+      "promptKo": "그 새가 숲에서 ______ 일어난다.",
+      "blanks": 1,
+      "accept": [
+        "가장 일찍",
+        "제일 일찍"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a10",
+      "label": "A10",
+      "promptEn": "The brown sofa looks the most comfortable of the three.",
+      "promptKo": "그 갈색 소파가 셋 중에서 ______ 보인다.",
+      "blanks": 1,
+      "accept": [
+        "가장 편안해",
+        "제일 편안해",
+        "가장 편안하게"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a11",
+      "label": "A11",
+      "promptEn": "My dad's feet are the biggest in my family.",
+      "promptKo": "우리 아빠 발이 우리 가족 중에서 ______.",
+      "blanks": 1,
+      "accept": [
+        "가장 크다",
+        "제일 크다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a12",
+      "label": "A12",
+      "promptEn": "Ken studied the hardest of them all.",
+      "promptKo": "켄이 그들 중에서 ______ 공부했다.",
+      "blanks": 1,
+      "accept": [
+        "가장 열심히",
+        "제일 열심히"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a13",
+      "label": "A13",
+      "promptEn": "Pang got the worst score of us all.",
+      "promptKo": "팡이 우리 중에서 ______ 점수를 받았다.",
+      "blanks": 1,
+      "accept": [
+        "가장 나쁜",
+        "제일 나쁜",
+        "가장 낮은",
+        "제일 낮은"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "id": "a14",
+      "label": "A14",
+      "promptEn": "The cake was the most delicious of the three.",
+      "promptKo": "그 케이크가 셋 중에서 ______.",
+      "blanks": 1,
+      "accept": [
+        "가장 맛있었다",
+        "제일 맛있었다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b01",
+      "label": "B1",
+      "promptEn": "Jacob is ______ than you.",
+      "blanks": 1,
+      "accept": [
+        "heavier"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "heavier"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b02",
+      "label": "B2",
+      "promptEn": "Sam feels ______ today than yesterday.",
+      "blanks": 1,
+      "accept": [
+        "better"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b03",
+      "label": "B3",
+      "promptEn": "The Nakdonggang is ______ than the Hangang.",
+      "blanks": 1,
+      "accept": [
+        "longer"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b04",
+      "label": "B4",
+      "promptEn": "Math is ______ than English for me.",
+      "blanks": 1,
+      "accept": [
+        "more difficult"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b05",
+      "label": "B5",
+      "promptEn": "A snail is ______ than a turtle.",
+      "blanks": 1,
+      "accept": [
+        "slower"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b06",
+      "label": "B6",
+      "promptEn": "Kevin studies ______ than Paul.",
+      "blanks": 1,
+      "accept": [
+        "harder"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b07",
+      "label": "B7",
+      "promptEn": "A tiger is ______ than a lion.",
+      "blanks": 1,
+      "accept": [
+        "stronger"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b08",
+      "label": "B8",
+      "promptEn": "The japchae was ______ ______ ______ in the restaurant.",
+      "blanks": 3,
+      "accept": [
+        "the|most|delicious"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b09",
+      "label": "B9",
+      "promptEn": "December is ______ ______ month in Australia.",
+      "blanks": 2,
+      "accept": [
+        "the|hottest"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b10",
+      "label": "B10",
+      "promptEn": "I am ______ ______ of all my friends.",
+      "blanks": 2,
+      "accept": [
+        "the|tallest"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b11",
+      "label": "B11",
+      "promptEn": "This exam was ______ ______ of all the exams.",
+      "blanks": 2,
+      "accept": [
+        "the|easiest"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b12",
+      "label": "B12",
+      "promptEn": "Minho is ______ ______ ______ boy in his school.",
+      "blanks": 3,
+      "accept": [
+        "the|most|handsome"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b13",
+      "label": "B13",
+      "promptEn": "Kate is ______ ______ girl in her class.",
+      "blanks": 2,
+      "accept": [
+        "the|cutest"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (heavier / the most delicious / the hottest / slower / the easiest / the tallest / better / the most handsome / longer / harder / the cutest / more difficult / stronger / the most diligent) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "b14",
+      "label": "B14",
+      "promptEn": "Melanie is ______ ______ ______ woman in the town.",
+      "blanks": 3,
+      "accept": [
+        "the|most|diligent"
+      ]
+    }
+  ]
+}

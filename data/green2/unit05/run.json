@@ -1,0 +1,618 @@
+{
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — to부정사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g2:u05:run",
+  "title": "Grammar Run",
+  "subtitle": "괄호 고르기 · 목적어·주어·보어 (pp. 102–103)",
+  "pages": "102–103",
+  "timerMinutes": 20,
+  "introKo": "이 연습은 Section A 14문항(고르기), Section B 14문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "id": "a01",
+      "type": "mc",
+      "promptEn": "I want ( drink / to drink ) some water.",
+      "choices": [
+        "drink",
+        "to drink"
+      ],
+      "accept": [
+        "to drink"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "to drink"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "id": "a02",
+      "type": "mc",
+      "promptEn": "My father didn't like ( went / to go ) jogging.",
+      "choices": [
+        "went",
+        "to go"
+      ],
+      "accept": [
+        "to go"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "id": "a03",
+      "type": "mc",
+      "promptEn": "He loves ( to cook / to cooks ) Korean food.",
+      "choices": [
+        "to cook",
+        "to cooks"
+      ],
+      "accept": [
+        "to cook"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "id": "a04",
+      "type": "mc",
+      "promptEn": "Sam decided ( to become / to became ) an engineer.",
+      "choices": [
+        "to become",
+        "to became"
+      ],
+      "accept": [
+        "to become"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "id": "a05",
+      "type": "mc",
+      "promptEn": "We started ( to climb / climbs ) the mountain.",
+      "choices": [
+        "to climb",
+        "climbs"
+      ],
+      "accept": [
+        "to climb"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "id": "a06",
+      "type": "mc",
+      "promptEn": "Janet likes ( to played / to play ) badminton.",
+      "choices": [
+        "to played",
+        "to play"
+      ],
+      "accept": [
+        "to play"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "id": "a07",
+      "type": "mc",
+      "promptEn": "Ms. Mun hates ( exercised / to exercise ).",
+      "choices": [
+        "exercised",
+        "to exercise"
+      ],
+      "accept": [
+        "to exercise"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "id": "a08",
+      "type": "mc",
+      "promptEn": "I'm planning ( to learned / to learn ) Japanese this summer.",
+      "choices": [
+        "to learned",
+        "to learn"
+      ],
+      "accept": [
+        "to learn"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "id": "a09",
+      "type": "mc",
+      "promptEn": "You need ( to wear / wear ) your seat belt.",
+      "choices": [
+        "to wear",
+        "wear"
+      ],
+      "accept": [
+        "to wear"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "id": "a10",
+      "type": "mc",
+      "promptEn": "Edgar promised ( to lend / lend ) the book to me.",
+      "choices": [
+        "to lend",
+        "lend"
+      ],
+      "accept": [
+        "to lend"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "id": "a11",
+      "type": "mc",
+      "promptEn": "Her mother forgot ( to turn / to turns ) off the lamp.",
+      "choices": [
+        "to turn",
+        "to turns"
+      ],
+      "accept": [
+        "to turn"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "id": "a12",
+      "type": "mc",
+      "promptEn": "They wanted ( to have / have ) a new table.",
+      "choices": [
+        "to have",
+        "have"
+      ],
+      "accept": [
+        "to have"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "id": "a13",
+      "type": "mc",
+      "promptEn": "The twins began ( cries / to cry ).",
+      "choices": [
+        "cries",
+        "to cry"
+      ],
+      "accept": [
+        "to cry"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "id": "a14",
+      "type": "mc",
+      "promptEn": "She decided ( to call / called ) Jack tonight.",
+      "choices": [
+        "to call",
+        "called"
+      ],
+      "accept": [
+        "to call"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "id": "a15",
+      "type": "mc",
+      "promptEn": "His grandmother is learning ( to dance / danced ).",
+      "choices": [
+        "to dance",
+        "danced"
+      ],
+      "accept": [
+        "to dance"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "id": "b01",
+      "type": "mc",
+      "promptEn": "( To drive / Drove ) is exciting.",
+      "choices": [
+        "To drive",
+        "Drove"
+      ],
+      "accept": [
+        "To drive"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "To drive"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "id": "b02",
+      "type": "mc",
+      "promptEn": "( To read / Read ) a book is sometimes boring.",
+      "choices": [
+        "To read",
+        "Read"
+      ],
+      "accept": [
+        "To read"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "id": "b03",
+      "type": "mc",
+      "promptEn": "( Spoke / To speak ) Chinese is difficult.",
+      "choices": [
+        "Spoke",
+        "To speak"
+      ],
+      "accept": [
+        "To speak"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "id": "b04",
+      "type": "mc",
+      "promptEn": "( To caught / To catch ) the ball was easy.",
+      "choices": [
+        "To caught",
+        "To catch"
+      ],
+      "accept": [
+        "To catch"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "id": "b05",
+      "type": "mc",
+      "promptEn": "( To draw / Draws ) pictures is fun.",
+      "choices": [
+        "To draw",
+        "Draws"
+      ],
+      "accept": [
+        "To draw"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "id": "b06",
+      "type": "mc",
+      "promptEn": "( Has / To have ) breakfast is good for our health.",
+      "choices": [
+        "Has",
+        "To have"
+      ],
+      "accept": [
+        "To have"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "id": "b07",
+      "type": "mc",
+      "promptEn": "( To swim / Swam ) across the Hangang is dangerous.",
+      "choices": [
+        "To swim",
+        "Swam"
+      ],
+      "accept": [
+        "To swim"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "id": "b08",
+      "type": "mc",
+      "promptEn": "( Played / To play ) the violin is interesting.",
+      "choices": [
+        "Played",
+        "To play"
+      ],
+      "accept": [
+        "To play"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "id": "b09",
+      "type": "mc",
+      "promptEn": "My hobby is ( to collected / to collect ) coins.",
+      "choices": [
+        "to collected",
+        "to collect"
+      ],
+      "accept": [
+        "to collect"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "id": "b10",
+      "type": "mc",
+      "promptEn": "Her job is ( to teach / taught ) English.",
+      "choices": [
+        "to teach",
+        "taught"
+      ],
+      "accept": [
+        "to teach"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "id": "b11",
+      "type": "mc",
+      "promptEn": "Jake's wish was ( lives / to live ) with his family.",
+      "choices": [
+        "lives",
+        "to live"
+      ],
+      "accept": [
+        "to live"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "id": "b12",
+      "type": "mc",
+      "promptEn": "His dream is ( to became / to become ) a soldier.",
+      "choices": [
+        "to became",
+        "to become"
+      ],
+      "accept": [
+        "to become"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "id": "b13",
+      "type": "mc",
+      "promptEn": "Her hobby was ( to take / took ) pictures.",
+      "choices": [
+        "to take",
+        "took"
+      ],
+      "accept": [
+        "to take"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "id": "b14",
+      "type": "mc",
+      "promptEn": "Tim's job is ( to build / builds ) a ship.",
+      "choices": [
+        "to build",
+        "builds"
+      ],
+      "accept": [
+        "to build"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "id": "b15",
+      "type": "mc",
+      "promptEn": "Sue's goal is ( win / to win ) the contest.",
+      "choices": [
+        "win",
+        "to win"
+      ],
+      "accept": [
+        "to win"
+      ]
+    }
+  ]
+}

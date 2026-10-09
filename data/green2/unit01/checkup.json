@@ -1,0 +1,84 @@
+{
+  "practiceId": "g2:u01:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 27)",
+  "pages": "27",
+  "timerMinutes": 6,
+  "unitTitle": "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사",
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-01",
+  "wordBank": [
+    "a glass of water",
+    "deer",
+    "lions"
+  ],
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (a glass of water / deer / lions) 상자 안의 말 중에서 알맞은 말을 골라 그 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (a glass of water / deer / lions)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "introKo": "이 연습은 Check Up 3문항(골라서 그 말만 쓰기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (a glass of water / deer / lions) 상자 안의 말 중에서 알맞은 말을 골라 그 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "[그림: 사슴 한 마리]\nThere is a _____.",
+      "blanks": 1,
+      "accept": [
+        "deer"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (a glass of water / deer / lions) 상자 안의 말 중에서 알맞은 말을 골라 그 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "[그림: 사자 두 마리]\nThere are two _____.",
+      "blanks": 1,
+      "accept": [
+        "lions"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (a glass of water / deer / lions) 상자 안의 말 중에서 알맞은 말을 골라 그 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "[그림: 목말라 하는 아이]\nI need _____.",
+      "blanks": 1,
+      "accept": [
+        "a glass of water"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "practiceId": "g2:u04:jump",
+  "title": "Grammar Jump",
+  "subtitle": "우리말 뜻 & 문장 완성 (pp. 80–81)",
+  "pages": "80–81",
+  "timerMinutes": 24,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 비교 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기), Section B 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "He is as brave as a tiger.",
+      "blanks": 1,
+      "accept": [
+        "호랑이만큼 용감한",
+        "호랑이 만큼 용감한"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "호랑이만큼 용감한",
+      "promptKo": "→ 호랑이만큼 용감한"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "The kite flew as high as an eagle.",
+      "blanks": 1,
+      "accept": [
+        "독수리만큼 높게",
+        "독수리 만큼 높게"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Ken was singing as well as Linda.",
+      "blanks": 1,
+      "accept": [
+        "린다만큼 잘",
+        "린다 만큼 잘",
+        "린다만큼 잘하게"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The moon is not as bright as that star.",
+      "blanks": 1,
+      "accept": [
+        "그 별만큼 밝지 않은",
+        "그 별 만큼 밝지 않은",
+        "저 별만큼 밝지 않은"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Yesterday was not as cold as today.",
+      "blanks": 1,
+      "accept": [
+        "오늘만큼 춥지 않은",
+        "오늘 만큼 춥지 않은",
+        "오늘만큼 춥지 않았던"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "A moth is not as colorful as a butterfly.",
+      "blanks": 1,
+      "accept": [
+        "나비만큼 다채롭지 않은",
+        "나비 만큼 다채롭지 않은",
+        "나비만큼 형형색색이 아닌"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "It's getting warmer and warmer.",
+      "blanks": 1,
+      "accept": [
+        "점점 더 따뜻한",
+        "점점 더 따뜻해지는",
+        "점점 더 따뜻하게"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "The game became more and more boring.",
+      "blanks": 1,
+      "accept": [
+        "점점 더 지루한",
+        "점점 더 지루해지는"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "Sandra got thinner and thinner.",
+      "blanks": 1,
+      "accept": [
+        "점점 더 날씬한",
+        "점점 더 마른",
+        "점점 더 날씬해지는"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "A bear is far bigger than a rabbit.",
+      "blanks": 1,
+      "accept": [
+        "토끼보다 훨씬 큰",
+        "토끼보다 훨씬 더 큰"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Jack looks much sleepier than you.",
+      "blanks": 1,
+      "accept": [
+        "너보다 훨씬 더 졸린",
+        "너보다 훨씬 졸린",
+        "당신보다 훨씬 더 졸린"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "I visit my grandparents as often as I can.",
+      "blanks": 1,
+      "accept": [
+        "할 수 있는 한 자주",
+        "할수 있는 한 자주"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "He studied as hard as he could.",
+      "blanks": 1,
+      "accept": [
+        "할 수 있는 한 열심히",
+        "할수 있는 한 열심히",
+        "할 수 있는 한 열심히 공부한"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Paul is one of the best cooks in the world.",
+      "blanks": 1,
+      "accept": [
+        "세계에서 가장 훌륭한 요리사들 중 하나",
+        "세계에서 가장 훌륭한 요리사 중 하나"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Soccer is one of the most popular sports in the world.",
+      "blanks": 1,
+      "accept": [
+        "세계에서 가장 인기 있는 운동들 중 하나",
+        "세계에서 가장 인기 있는 스포츠들 중 하나"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "( quietly, as, Alex )\nJoe spoke ______.",
+      "blanks": 1,
+      "accept": [
+        "as quietly as Alex"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "as quietly as Alex"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "( hot, as, yesterday )\nToday is ______.",
+      "blanks": 1,
+      "accept": [
+        "as hot as yesterday"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "( pretty, as, her sister )\nLinda was ______.",
+      "blanks": 1,
+      "accept": [
+        "as pretty as her sister"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "( early, as, her mom )\nShe didn't get up ______.",
+      "blanks": 1,
+      "accept": [
+        "as early as her mom"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "( not, young, as, Ms. Kim )\nMs. Park is ______.",
+      "blanks": 1,
+      "accept": [
+        "not as young as Ms. Kim"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "( fast, and )\nThe truck ran ______.",
+      "blanks": 1,
+      "accept": [
+        "faster and faster"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "( fat, and )\nThe pigs grew ______.",
+      "blanks": 1,
+      "accept": [
+        "fatter and fatter"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "( expensive, and )\nRoses are getting ______.",
+      "blanks": 1,
+      "accept": [
+        "more and more expensive"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "( much, small )\nThe star is ______ than the sun.",
+      "blanks": 1,
+      "accept": [
+        "much smaller"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "( a lot, comfortable )\nThis sofa looks ______ than that chair.",
+      "blanks": 1,
+      "accept": [
+        "a lot more comfortable"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "( even, long )\nJenny's pencil is ______ than Tim's.",
+      "blanks": 1,
+      "accept": [
+        "even longer"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "( quicky, as, could )\nSue finished her homework ______ she ______.",
+      "blanks": 2,
+      "accept": [
+        "as quickly as|she could",
+        "as quickly as she could"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "( far, as, could )\nI threw the ball ______ I ______.",
+      "blanks": 2,
+      "accept": [
+        "as far as|I could",
+        "as far as I could"
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "( famous, park )\nHyde Park is one of ______ in the world.",
+      "blanks": 1,
+      "accept": [
+        "the most famous parks"
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 여러 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "( kind, doctor )\nHe is one of ______ in the hospital.",
+      "blanks": 1,
+      "accept": [
+        "the kindest doctors"
+      ]
+    }
+  ]
+}

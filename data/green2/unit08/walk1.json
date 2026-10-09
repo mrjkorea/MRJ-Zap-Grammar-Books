@@ -1,0 +1,248 @@
+{
+  "practiceId": "g2:u08:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "동명사·to부정사 목적어 (p. 163)",
+  "pages": "163",
+  "timerMinutes": 10,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 동명사와 to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(고르기), Section B 4문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "다음 두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "id": "a01",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "jogging",
+      "type": "mc",
+      "promptKo": "엄마와 나는 공원에서 조깅하는 것을 즐긴다.",
+      "promptEn": "My mom and I enjoy ( to jog / jogging ) in the park.",
+      "choices": [
+        "to jog",
+        "jogging"
+      ],
+      "accept": [
+        "jogging"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "id": "a02",
+      "type": "mc",
+      "promptKo": "소냐는 과학 책 읽기를 포기했다.",
+      "promptEn": "Sonya gave up ( reading / to read ) the science books.",
+      "choices": [
+        "reading",
+        "to read"
+      ],
+      "accept": [
+        "reading"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "id": "a03",
+      "type": "mc",
+      "promptKo": "창문을 열어도 괜찮니?",
+      "promptEn": "Do you mind ( opening / to open ) the window?",
+      "choices": [
+        "opening",
+        "to open"
+      ],
+      "accept": [
+        "opening"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "id": "a04",
+      "type": "mc",
+      "promptKo": "나는 달 여행을 하기를 바란다.",
+      "promptEn": "I hope ( to travel / traveling ) to the moon.",
+      "choices": [
+        "to travel",
+        "traveling"
+      ],
+      "accept": [
+        "to travel"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "id": "a05",
+      "type": "mc",
+      "promptKo": "대니는 L.A.에 있는 할아버지를 방문할 계획이다.",
+      "promptEn": "Danny plans ( to visit / visiting ) his grandfather in L.A.",
+      "choices": [
+        "to visit",
+        "visiting"
+      ],
+      "accept": [
+        "to visit"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "id": "a06",
+      "type": "mc",
+      "promptKo": "우리 부모님은 나에게 그 코트를 사 주기로 약속했다.",
+      "promptEn": "My parents promised ( to buy / buying ) me the coat.",
+      "choices": [
+        "to buy",
+        "buying"
+      ],
+      "accept": [
+        "to buy"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "id": "b01",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "to / sweep",
+      "type": "fill",
+      "promptEn": "We continued sweeping the floor.\n→ We continued _____ _____ the floor.",
+      "blanks": 2,
+      "accept": [
+        "to|sweep"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "id": "b02",
+      "type": "fill",
+      "promptEn": "Brent hates going to the dentist.\n→ Brent hates _____ _____ to the dentist.",
+      "blanks": 2,
+      "accept": [
+        "to|go"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "id": "b03",
+      "type": "fill",
+      "promptEn": "The baby started talking.\n→ The baby started _____ _____ .",
+      "blanks": 2,
+      "accept": [
+        "to|talk"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "id": "b04",
+      "type": "fill",
+      "promptEn": "They began learning Japanese two years ago.\n→ They began _____ _____ Japanese two years ago.",
+      "blanks": 2,
+      "accept": [
+        "to|learn"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "id": "b05",
+      "type": "fill",
+      "promptEn": "Matthew loves exercising.\n→ Matthew loves _____ _____ .",
+      "blanks": 2,
+      "accept": [
+        "to|exercise"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "practiceId": "g2:u03:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue blanks (p. 71)",
+  "pages": "71",
+  "timerMinutes": 6,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 비교 (1)",
+  "wordBank": [
+    "most",
+    "than",
+    "the"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 3문항(골라서 그 단어만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (most / than / the) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요.",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (most / than / the) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "c01",
+      "label": "1",
+      "promptEn": "[그림 2] Salesman: This is the ______ comfortable sofa in my shop.",
+      "blanks": 1,
+      "accept": [
+        "most"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (most / than / the) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "c02",
+      "label": "2",
+      "promptEn": "[그림 3] Son: That sofa looks more comfortable ______ this one.",
+      "blanks": 1,
+      "accept": [
+        "than"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (most / than / the) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "type": "fill",
+      "id": "c03",
+      "label": "3",
+      "promptEn": "[그림 4] Salesman: Right. This is ______ ______ comfortable sofa in the world.",
+      "blanks": 2,
+      "accept": [
+        "the|most"
+      ]
+    }
+  ]
+}

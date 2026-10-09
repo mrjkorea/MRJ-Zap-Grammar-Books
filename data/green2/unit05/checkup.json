@@ -1,0 +1,86 @@
+{
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — to부정사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g2:u05:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue (p. 115)",
+  "pages": "115",
+  "timerMinutes": 6,
+  "wordBank": [
+    "to catch",
+    "to play",
+    "to tell"
+  ],
+  "introKo": "이 연습은 Check Up 3문항(빈칸 말만 쓰기)으로 되어 있어요. 그림 3번에는 빈칸이 없어서 문항으로 넣지 않았어요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (to catch / to play / to tell) 상자 안의 말 중에서 알맞은 것을 골라 그 구만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (to catch / to play / to tell)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 것을 골라 그 구만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (to catch / to play / to tell) 상자 안의 말 중에서 알맞은 것을 골라 그 구만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1",
+      "id": "c01",
+      "type": "fill",
+      "promptEn": "I love ______ baseball.",
+      "blanks": 1,
+      "accept": [
+        "to play"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (to catch / to play / to tell) 상자 안의 말 중에서 알맞은 것을 골라 그 구만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2",
+      "id": "c02",
+      "type": "fill",
+      "promptEn": "______ the ball wasn't easy.",
+      "blanks": 1,
+      "accept": [
+        "To catch",
+        "to catch"
+      ]
+    },
+    {
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (to catch / to play / to tell) 상자 안의 말 중에서 알맞은 것을 골라 그 구만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "3",
+      "id": "c03",
+      "type": "fill",
+      "promptEn": "______ a lie is bad.",
+      "blanks": 1,
+      "accept": [
+        "To tell",
+        "to tell"
+      ]
+    }
+  ]
+}

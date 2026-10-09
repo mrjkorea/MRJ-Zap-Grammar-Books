@@ -1,0 +1,411 @@
+{
+  "practiceId": "g2:u01:fly",
+  "title": "Grammar Fly",
+  "subtitle": "Rewrite & unscramble (pp. 18–19)",
+  "pages": "18–19",
+  "timerMinutes": 28,
+  "unitTitle": "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사",
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-01",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(문장 전체 쓰기), Section B 11문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I bought three roses.",
+      "type": "sentence",
+      "promptEn": "1. I bought a rose.  ( three )",
+      "accept": [
+        "I bought three roses."
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
+      "type": "sentence",
+      "promptEn": "2. We need a knife.  ( four )",
+      "accept": [
+        "We need four knives."
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
+      "type": "sentence",
+      "promptEn": "3. The child saw an ox.  ( five )",
+      "accept": [
+        "The child saw five oxen."
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
+      "type": "sentence",
+      "promptEn": "4. She had a goose.  ( two )",
+      "accept": [
+        "She had two geese."
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
+      "type": "sentence",
+      "promptEn": "5. He borrowed a dictionary from the library.  ( three )",
+      "accept": [
+        "He borrowed three dictionaries from the library."
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A6",
+      "type": "sentence",
+      "promptEn": "6. Jessica gave me a tomato.  ( eleven )",
+      "accept": [
+        "Jessica gave me eleven tomatoes."
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A7",
+      "type": "sentence",
+      "promptEn": "7. Edgar raises a puppy.  ( four )",
+      "accept": [
+        "Edgar raises four puppies."
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A8",
+      "type": "sentence",
+      "promptEn": "8. Minsu has a watch.  ( ten )",
+      "accept": [
+        "Minsu has ten watches."
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A9",
+      "type": "sentence",
+      "promptEn": "9. Sunny doesn't need a box.  ( three )",
+      "accept": [
+        "Sunny doesn't need three boxes.",
+        "Sunny does not need three boxes."
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A10",
+      "type": "sentence",
+      "promptEn": "10. The police officer caught a wolf on the street.  ( five )",
+      "accept": [
+        "The police officer caught five wolves on the street."
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A11",
+      "type": "sentence",
+      "promptEn": "11. The driver has a bike.  ( two )",
+      "accept": [
+        "The driver has two bikes."
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 말 대신 주어진 말을 사용하여 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A12",
+      "type": "sentence",
+      "promptEn": "12. My sister was washing a potato.  ( eight )",
+      "accept": [
+        "My sister was washing eight potatoes."
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I ate three bowls of rice.",
+      "type": "sentence",
+      "promptEn": "1. ( I ate / three / rice / bowls / of / . )\n(나는 밥 세 그릇을 먹었다.)",
+      "accept": [
+        "I ate three bowls of rice."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "2. ( six / of / cans / my uncle bought / corn / . )\n(우리 삼촌은 옥수수 여섯 캔을 사셨다.)",
+      "accept": [
+        "My uncle bought six cans of corn."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "3. ( David has / bag / of / salt / a / . )\n(데이비드는 소금 한 자루를 가지고 있다.)",
+      "accept": [
+        "David has a bag of salt."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "4. ( a / juice / glass / she drank / of / . )\n(그녀는 주스 한 컵을 마셨다.)",
+      "accept": [
+        "She drank a glass of juice."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "5. ( three / Meg doesn't want / pieces / cake / of / . )\n(메그는 케이크 세 조각을 원하지 않는다.)",
+      "accept": [
+        "Meg doesn't want three pieces of cake.",
+        "Meg does not want three pieces of cake."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "6. ( she drinks / of / coffee / cups / five / a day / . )\n(그녀는 하루에 커피 다섯 잔을 마신다.)",
+      "accept": [
+        "She drinks five cups of coffee a day."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "7. ( he had / for lunch / pieces / pizza / three / of / . )\n(그는 점심 식사로 피자 세 조각을 먹었다.)",
+      "accept": [
+        "He had three pieces of pizza for lunch."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "8. ( five / slices / of / they wanted / cheese / . )\n(그들은 치즈 다섯 장을 원했다.)",
+      "accept": [
+        "They wanted five slices of cheese."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "9. ( my mother gave me / soap / two / of / bars / . )\n(우리 어머니는 내게 비누 두 개를 주셨다.)",
+      "accept": [
+        "My mother gave me two bars of soap."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "10. ( two / we bought / of / bread / loaves / . )\n(우리는 빵 두 덩어리를 샀다.)",
+      "accept": [
+        "We bought two loaves of bread."
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "11. ( Dad needed / spoonfuls / of / sugar / four / . )\n(아빠는 설탕 네 숟가락이 필요하셨다.)",
+      "accept": [
+        "Dad needed four spoonfuls of sugar."
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "12. ( paper / I will bring / sheets / two / of / . )\n(나는 종이 두 장을 가져올 것이다.)",
+      "accept": [
+        "I will bring two sheets of paper.",
+        "I'll bring two sheets of paper."
+      ]
+    }
+  ]
+}
