@@ -19,6 +19,7 @@
     "zap-green-1": [
       { id: "unit-01", title: "Unit 01 — 현재 시제", enabled: true },
       { id: "unit-02", title: "Unit 02", enabled: false },
+      { id: "tests", title: "Review & Final Tests", enabled: true },
     ],
     "zap-green-3": [
       { id: "unit-01", title: "Unit 01 — 의문사 있는 의문문 (1)", enabled: true },
@@ -90,6 +91,50 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green1/unit01/checkup.json",
         practiceId: "u01:checkup",
+      },
+    ],
+    "zap-green-1:tests": [
+      {
+        slug: "rt01",
+        title: "Review Test 01",
+        hint: "Units 01–02 · pp. 48–51",
+        data: "data/green1/tests/review-test-01.json",
+        practiceId: "tests:rt01",
+      },
+      {
+        slug: "rt02",
+        title: "Review Test 02",
+        hint: "Units 03–04 · pp. 92–95",
+        data: "data/green1/tests/review-test-02.json",
+        practiceId: "tests:rt02",
+      },
+      {
+        slug: "rt03",
+        title: "Review Test 03",
+        hint: "Units 05–06 · pp. 136–139",
+        data: "data/green1/tests/review-test-03.json",
+        practiceId: "tests:rt03",
+      },
+      {
+        slug: "rt04",
+        title: "Review Test 04",
+        hint: "Units 07–08 · pp. 180–183",
+        data: "data/green1/tests/review-test-04.json",
+        practiceId: "tests:rt04",
+      },
+      {
+        slug: "ft01",
+        title: "Final Test 01",
+        hint: "Final · pp. 184–187",
+        data: "data/green1/tests/final-test-01.json",
+        practiceId: "tests:ft01",
+      },
+      {
+        slug: "ft02",
+        title: "Final Test 02",
+        hint: "Final · pp. 188–191",
+        data: "data/green1/tests/final-test-02.json",
+        practiceId: "tests:ft02",
       },
     ],
     "zap-green-3:unit-01": [
