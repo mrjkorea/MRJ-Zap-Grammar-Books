@@ -13,8 +13,30 @@ for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
 const E = win.MRJ_ENGINE;
 let total = 0;
 let bad = 0;
+let auditBad = 0;
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const seen = new Set();
+  for (const it of d.items) {
+    if (seen.has(it.id)) {
+      auditBad++;
+      console.log("DUP-ID", f, it.id);
+    }
+    seen.add(it.id);
+    if (it.noteKo) {
+      auditBad++;
+      console.log("NOTEKO", f, it.id, it.noteKo);
+    }
+    if (it.type === "mc" && it.choices && it.choices.length >= 2) {
+      for (const acc of it.accept || []) {
+        if (/^\d$/.test(acc)) continue;
+        if (it.choices.indexOf(acc) < 0 && !/^[①②③④⑤]/.test(acc)) {
+          auditBad++;
+          console.log("MC-ACCEPT-NOT-IN-CHOICES", f, it.id, acc);
+        }
+      }
+    }
+  }
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;
@@ -61,5 +83,10 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
   }
   console.log(f.padEnd(22), (d.practiceId || "").padEnd(16), "items", d.items.length, "ok", ok, "timer", d.timerMinutes);
 }
-console.log(bad ? "FAILURES: " + bad : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)");
-process.exit(bad ? 1 : 0);
+if (auditBad) console.log("AUDIT FLAGS: " + auditBad);
+console.log(
+  bad || auditBad
+    ? "FAILURES: " + bad + (auditBad ? " audit=" + auditBad : "")
+    : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)"
+);
+process.exit(bad || auditBad ? 1 : 0);

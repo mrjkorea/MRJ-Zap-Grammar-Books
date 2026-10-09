@@ -54,15 +54,15 @@
       "section": "A",
       "label": "A1",
       "type": "fill",
-      "promptEn": "It's so cold. I want _____ warm. ( warm )",
-      "blanks": 1,
+      "promptEn": "It's so cold. I want _____ _____. ( warm )",
+      "blanks": 2,
       "accept": [
-        "something"
+        "something|warm"
       ],
       "promptKo": "너무 춥다. 따뜻한 것을 원한다.",
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "something",
+      "exampleAnswer": "something|warm",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "[그림 묘사하기] 세라와 친구들이 원하는 것과 원하지 않는 것에 대해 말하고 있습니다. 그림을 보고, 다음 중 알맞은 말을 찾아 주어진 말을 사용하여 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (something / anything)",
       "answerMode": "words",

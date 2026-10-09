@@ -566,11 +566,13 @@
       "section": "18-20",
       "label": "20",
       "type": "fill",
-      "promptEn": "Correct the underlined word: I saw two movies today. One was interesting, but another was boring.",
-      "blanks": 1,
+      "promptEn": "I saw two movies today. One was interesting, but _____ _____ was boring. (Correct the underlined word.)",
+      "blanks": 2,
       "accept": [
-        "the other",
-        "The other"
+        "the|other",
+        "The|other",
+        "the|Other",
+        "The|Other"
       ],
       "promptKo": "한 편은 재미있었지만 나머지 한 편은 지루했다.",
       "sectionTitle": "[18–20]",
@@ -583,11 +585,12 @@
       "section": "21-25",
       "label": "21",
       "type": "fill",
-      "promptEn": "I have two uncles. _____ is a doctor, and _____ is a writer.",
-      "blanks": 2,
+      "promptEn": "I have two uncles. _____ is a doctor, and _____ _____ is a writer.",
+      "blanks": 3,
       "accept": [
-        "One|the other",
-        "One|The other"
+        "One|the|other",
+        "One|The|other",
+        "One|the|Other"
       ],
       "promptKo": "나는 삼촌이 두 분 계신다. 한 분은 의사이시고, 나머지 한 분은 작가이시다.",
       "sectionTitle": "[21–25]",
@@ -639,8 +642,8 @@
       "accept": [
         "anyone",
         "Anyone",
-        "someone",
-        "Someone"
+        "anybody",
+        "Anybody"
       ],
       "promptKo": "누군가 오늘 내게 전화했니?",
       "sectionTitle": "[21–25]",
