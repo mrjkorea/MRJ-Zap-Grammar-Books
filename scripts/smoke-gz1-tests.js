@@ -35,8 +35,44 @@ function respFor(it, acc) {
 let totalOk = 0;
 let totalGraded = 0;
 
+const DELIBERATE_WRONG = /\b(brushs|dryed|How a pretty flower)\b/i;
+
 for (const rel of FILES) {
   const data = JSON.parse(fs.readFileSync(path.join(REPO, rel), "utf8"));
+  const gradedItems = data.items.filter((it) => !it.displayOnly);
+  if (gradedItems.length !== 20) {
+    console.error("FAIL", rel, "expected 20 graded items, got", gradedItems.length);
+    process.exitCode = 1;
+  }
+  const sectionLabels = new Set();
+  for (const sec of data.sections || []) {
+    for (const lb of sec.labels || []) sectionLabels.add(lb);
+    const n = (sec.labels || []).length;
+    if (n !== sec.itemCount) {
+      console.error("FAIL", rel, "section", sec.id, "itemCount", sec.itemCount, "labels", n);
+      process.exitCode = 1;
+    }
+  }
+  for (const it of gradedItems) {
+    if (!sectionLabels.has(it.label)) {
+      console.error("FAIL", rel, it.id, "label", it.label, "not in sections");
+      process.exitCode = 1;
+    }
+    const blanks = it.blanks || (it.type === "fill" ? 1 : 0);
+    if (blanks > 1) {
+      for (const acc of it.accept || []) {
+        const parts = String(acc).split("|");
+        if (parts.length !== blanks) {
+          console.error("FAIL", rel, it.id, "blanks", blanks, "accept parts", parts.length, acc);
+          process.exitCode = 1;
+        }
+        if (DELIBERATE_WRONG.test(acc)) {
+          console.error("FAIL", rel, it.id, "deliberate typo in accept:", acc);
+          process.exitCode = 1;
+        }
+      }
+    }
+  }
   let ok = 0;
   let graded = 0;
   data.items.forEach((item) => {

@@ -19,6 +19,12 @@
     "zap-green-1": [
       { id: "unit-01", title: "Unit 01 — 현재 시제", enabled: true },
       { id: "unit-02", title: "Unit 02", enabled: false },
+      { id: "unit-03", title: "Unit 03", enabled: false },
+      { id: "unit-04", title: "Unit 04", enabled: false },
+      { id: "unit-05", title: "Unit 05", enabled: false },
+      { id: "unit-06", title: "Unit 06", enabled: false },
+      { id: "unit-07", title: "Unit 07", enabled: false },
+      { id: "unit-08", title: "Unit 08", enabled: false },
       { id: "tests", title: "Review & Final Tests", enabled: true },
     ],
     "zap-green-3": [

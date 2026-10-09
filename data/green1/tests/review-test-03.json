@@ -154,16 +154,16 @@
       "promptEn": "",
       "choices": [
         "I can skate well.",
+        "Susan will ride a bike.",
         "The child can't read a map.",
-        "He will not plays table tennis.",
-        "You may go home now.",
-        "He don't have to get up early."
+        "We won't go to the zoo.",
+        "He will not plays table tennis."
       ],
       "accept": [
-        "3",
-        "③"
+        "5",
+        "⑤"
       ],
-      "answer": "3"
+      "answer": "5"
     },
     {
       "id": "q02",
@@ -176,17 +176,17 @@
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "You may not watch TV now.",
+        "You may go home now.",
         "We must not make noise here.",
+        "He don't have to get up early.",
         "They have to do their homework.",
-        "Susan will ride a bike.",
-        "He don't have to get up early."
+        "You may not watch TV now."
       ],
       "accept": [
-        "5",
-        "⑤"
+        "3",
+        "③"
       ],
-      "answer": "5"
+      "answer": "3"
     },
     {
       "id": "q03",
@@ -271,7 +271,7 @@
         "not may rain",
         "may rain not",
         "doesn't may rain",
-        "isn't may rain",
+        "isn't may use",
         "may not rain"
       ],
       "accept": [
@@ -436,10 +436,10 @@
         "Will – may"
       ],
       "accept": [
-        "5",
-        "⑤"
+        "3",
+        "③"
       ],
-      "answer": "5"
+      "answer": "3"
     },
     {
       "id": "q14",
@@ -512,11 +512,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "17",
       "type": "fill",
-      "promptEn": "You ________ ________ gum here.",
-      "blanks": 2,
+      "promptEn": "You ________ ________ ________ gum here.",
+      "blanks": 3,
       "accept": [
-        "mustn't|chew",
-        "must not|chew"
+        "must|not|chew"
       ],
       "promptKo": "너는 여기에서 껌을 씹으면 안 된다. ( chew )"
     },
