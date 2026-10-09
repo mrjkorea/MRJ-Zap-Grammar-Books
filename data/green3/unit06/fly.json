@@ -1,0 +1,448 @@
+{
+  "practiceId": "g3:u06:fly",
+  "title": "Grammar Fly",
+  "subtitle": "전치사 (pp. 126–127)",
+  "pages": "126–127",
+  "timerMinutes": 28,
+  "unitTitle": "Unit 06 — 전치사",
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-06",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(문장 전체 쓰기), Section B 11문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "My grandmother takes a shower in the morning.",
+      "type": "sentence",
+      "promptKo": "우리 할머니는 아침에 샤워하신다.",
+      "promptEn": "My grandmother takes a shower <u>at</u> the morning.",
+      "accept": [
+        "My grandmother takes a shower in the morning."
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
+      "type": "sentence",
+      "promptKo": "나는 방학 동안 그 박물관을 방문했다.",
+      "promptEn": "I visited the museum <u>at</u> the vacation.",
+      "accept": [
+        "I visited the museum during the vacation."
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
+      "type": "sentence",
+      "promptKo": "우리는 10일 동안 캠핑을 갈 것이다.",
+      "promptEn": "We will go camping <u>during</u> ten days.",
+      "accept": [
+        "We will go camping for ten days.",
+        "We'll go camping for ten days."
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
+      "type": "sentence",
+      "promptKo": "학교는 목요일부터 일요일까지 문을 닫을 것이다.",
+      "promptEn": "School will close <u>to</u> Thursday <u>from</u> Sunday.",
+      "accept": [
+        "School will close from Thursday to Sunday."
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
+      "type": "sentence",
+      "promptKo": "나는 잠자리에 들기 전에 일기를 쓴다.",
+      "promptEn": "I write in my diary <u>behind</u> bed.",
+      "accept": [
+        "I write in my diary before bed."
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A6",
+      "type": "sentence",
+      "promptKo": "그녀는 집에 있다.",
+      "promptEn": "She is <u>in</u> home.",
+      "accept": [
+        "She is at home.",
+        "She's at home."
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A7",
+      "type": "sentence",
+      "promptKo": "마일스가 제과점 앞에 서 있다.",
+      "promptEn": "Miles is standing <u>by</u> the bakery.",
+      "accept": [
+        "Miles is standing in front of the bakery."
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A8",
+      "type": "sentence",
+      "promptKo": "블랙키가 나무 아래에서 자고 있었다.",
+      "promptEn": "Blackie was sleeping <u>on</u> the tree.",
+      "accept": [
+        "Blackie was sleeping under the tree."
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A9",
+      "type": "sentence",
+      "promptKo": "패드는 빌리와 나 사이에 앉았다.",
+      "promptEn": "Pad sat <u>among</u> Billy and me.",
+      "accept": [
+        "Pad sat between Billy and me."
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A10",
+      "type": "sentence",
+      "promptKo": "그들은 얼음 위에서 스케이트를 타고 있다.",
+      "promptEn": "They are skating <u>over</u> the ice.",
+      "accept": [
+        "They are skating on the ice.",
+        "They're skating on the ice."
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A11",
+      "type": "sentence",
+      "promptKo": "그 강아지는 커튼 뒤에 숨어 있다.",
+      "promptEn": "The puppy is hiding <u>beside</u> the curtain.",
+      "accept": [
+        "The puppy is hiding behind the curtain."
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A12",
+      "type": "sentence",
+      "promptKo": "우리 집 옆에 호수가 하나 있다.",
+      "promptEn": "There is a lake <u>behind</u> my house.",
+      "accept": [
+        "There is a lake beside my house.",
+        "There's a lake beside my house."
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "My dad exercises in the evening.",
+      "type": "sentence",
+      "promptKo": "우리 아빠는 저녁에 운동하신다.",
+      "promptEn": "( my dad / exercises / the evening / in / . )",
+      "accept": [
+        "My dad exercises in the evening."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptKo": "나는 저녁 식사 후에 숙제를 한다.",
+      "promptEn": "( I / dinner / do my homework / after / . )",
+      "accept": [
+        "I do my homework after dinner."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptKo": "그 가게는 3일 동안 문을 닫을 것이다.",
+      "promptEn": "( will close / the shop / three days / for / . )",
+      "accept": [
+        "The shop will close for three days."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptKo": "내 생일에 눈이 왔다.",
+      "promptEn": "( on / it / snowed / my birthday / . )",
+      "accept": [
+        "It snowed on my birthday."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptKo": "그 꽃은 봄부터 가을까지 핀다.",
+      "promptEn": "( from / the flower / blooms / fall / to / spring / . )",
+      "accept": [
+        "The flower blooms from spring to fall."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptKo": "우리 강아지는 밤에 짖지 않는다.",
+      "promptEn": "( doesn't bark / night / at / my puppy / . )",
+      "accept": [
+        "My puppy doesn't bark at night.",
+        "My puppy does not bark at night."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptKo": "그녀는 많은 꽃 중에서 장미를 선택했다.",
+      "promptEn": "( chose a rose / among / she / lots of flowers / . )",
+      "accept": [
+        "She chose a rose among lots of flowers."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptKo": "나는 도서관 앞에서 수를 만났다.",
+      "promptEn": "( the library / I / in front of / met Sue / . )",
+      "accept": [
+        "I met Sue in front of the library."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptKo": "앤은 내 옆에 앉는다.",
+      "promptEn": "( me / next to / Anne / sits / . )",
+      "accept": [
+        "Anne sits next to me."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptKo": "그 새는 나무 위를 날고 있었다.",
+      "promptEn": "( the bird / was flying / the tree / over / . )",
+      "accept": [
+        "The bird was flying over the tree."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptKo": "한 남자가 나무 아래에 서 있다.",
+      "promptEn": "( under / the tree / a man / is standing / . )",
+      "accept": [
+        "A man is standing under the tree."
+      ],
+      "noteKo": "from OCR - needs check"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptKo": "도로에 차들이 많다.",
+      "promptEn": "( a lot of cars / the road / there are / on / . )",
+      "accept": [
+        "There are a lot of cars on the road."
+      ],
+      "noteKo": "from OCR - needs check"
+    }
+  ]
+}

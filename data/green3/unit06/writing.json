@@ -1,0 +1,245 @@
+{
+  "practiceId": "g3:u06:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "초대장·지도 (pp. 128–129)",
+  "pages": "128–129",
+  "timerMinutes": 20,
+  "unitTitle": "Unit 06 — 전치사",
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-06",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(빈칸 말만 쓰기), Section B 5문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "[정보 활용하기] 올리비아와 친구들이 여러 파티의 초대장을 만들었습니다. 초대장을 보고, 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[정보 활용하기] 올리비아와 친구들이 여러 파티의 초대장을 만들었습니다. 초대장을 보고, 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "[그림 묘사하기] 존이 마을 지도를 그렸습니다. 지도를 보고, 무엇이 어디에 있는지 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[그림 묘사하기] 존이 마을 지도를 그렸습니다. 지도를 보고, 무엇이 어디에 있는지 설명하는 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 올리비아와 친구들이 여러 파티의 초대장을 만들었습니다. 초대장을 보고, 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "on / May / 28",
+      "type": "fill",
+      "promptEn": "The pajama party is on May 28.",
+      "blanks": 3,
+      "accept": [
+        "on|May|28"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 올리비아와 친구들이 여러 파티의 초대장을 만들었습니다. 초대장을 보고, 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptKo": "[초대장: Pajama Party — Where: at Olivia's house]",
+      "promptEn": "They will have the party _____ _____ _____.",
+      "blanks": 3,
+      "accept": [
+        "at|Olivia's|house"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 올리비아와 친구들이 여러 파티의 초대장을 만들었습니다. 초대장을 보고, 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptKo": "[초대장: Halloween — When: at 8 p.m.]",
+      "promptEn": "The Halloween party will start _____ _____ _____ today.",
+      "blanks": 3,
+      "accept": [
+        "at|8|p.m."
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 올리비아와 친구들이 여러 파티의 초대장을 만들었습니다. 초대장을 보고, 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptKo": "[초대장: haunted house next to the library]",
+      "promptEn": "They will have the party at the haunted house _____ _____ _____ _____.",
+      "blanks": 4,
+      "accept": [
+        "next|to|the|library"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 올리비아와 친구들이 여러 파티의 초대장을 만들었습니다. 초대장을 보고, 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptKo": "[초대장: Jack's Birthday — on Sunday]",
+      "promptEn": "They will have Jack's birthday party _____ _____.",
+      "blanks": 2,
+      "accept": [
+        "on|Sunday"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 올리비아와 친구들이 여러 파티의 초대장을 만들었습니다. 초대장을 보고, 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptKo": "[초대장: at the Rose Garden]",
+      "promptEn": "They will have the party _____ _____ _____ _____.",
+      "blanks": 4,
+      "accept": [
+        "at|the|Rose|Garden"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 존이 마을 지도를 그렸습니다. 지도를 보고, 무엇이 어디에 있는지 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "on / Main / Street",
+      "type": "fill",
+      "promptEn": "The library is on Main Street.",
+      "blanks": 3,
+      "accept": [
+        "on|Main|Street"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 존이 마을 지도를 그렸습니다. 지도를 보고, 무엇이 어디에 있는지 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "There is a fountain _____ _____ City Hall.",
+      "blanks": 3,
+      "accept": [
+        "in|front|of"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 존이 마을 지도를 그렸습니다. 지도를 보고, 무엇이 어디에 있는지 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "City Hall is _____ the fountain.",
+      "blanks": 1,
+      "accept": [
+        "behind"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 존이 마을 지도를 그렸습니다. 지도를 보고, 무엇이 어디에 있는지 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "The school is _____ First Avenue.",
+      "blanks": 1,
+      "accept": [
+        "on"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 존이 마을 지도를 그렸습니다. 지도를 보고, 무엇이 어디에 있는지 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "The hospital is _____ City Hall _____ the school.",
+      "blanks": 2,
+      "accept": [
+        "between|and"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 존이 마을 지도를 그렸습니다. 지도를 보고, 무엇이 어디에 있는지 설명하는 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "There is a park _____ the school.",
+      "blanks": 1,
+      "accept": [
+        "behind"
+      ]
+    }
+  ]
+}
