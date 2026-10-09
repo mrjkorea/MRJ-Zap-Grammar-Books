@@ -15,6 +15,17 @@ let total = 0;
 let bad = 0;
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  if (d.sections) {
+    for (const sec of d.sections) {
+      const graded = d.items.filter(
+        (it) => it.section === sec.id && !it.displayOnly
+      ).length;
+      if (graded !== sec.itemCount) {
+        bad++;
+        console.log("COUNT", f, sec.id, "itemCount", sec.itemCount, "graded", graded);
+      }
+    }
+  }
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;
