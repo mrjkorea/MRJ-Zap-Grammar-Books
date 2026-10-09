@@ -1,0 +1,504 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 수동태 (2)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u06:jump",
+  "title": "Grammar Jump",
+  "subtitle": "부정·의문 수동태 & 능동→수동 (pp. 124–125)",
+  "pages": "124–125",
+  "timerMinutes": 25,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "directionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "directionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "introKo": "Section A 11문항, Section B 11문항(빈칸 말만). B는 p.125 이미지 없음 — OCR 확인 필요.",
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "English is taught at school. (부정문)\nEnglish _____ _____ _____ at school.",
+      "blanks": 3,
+      "accept": [
+        "is|not|taught",
+        "isn't|taught"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is / not / taught",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "The window is opened easily. (부정문)\nThe window _____ _____ _____ easily.",
+      "blanks": 3,
+      "accept": [
+        "isn't|opened",
+        "is|not|opened"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "isn't / opened",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Big fish are caught here. (부정문)\nBig fish _____ _____ here.",
+      "blanks": 2,
+      "accept": [
+        "aren't|caught",
+        "are|not|caught"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "aren't / caught",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The map was hidden in the box. (부정문)\nThe map _____ _____ _____ in the box.",
+      "blanks": 3,
+      "accept": [
+        "wasn't|hidden",
+        "was|not|hidden"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "wasn't / hidden",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "She was found in the park. (부정문)\nShe _____ _____ _____ in the park.",
+      "blanks": 3,
+      "accept": [
+        "wasn't|found",
+        "was|not|found"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "wasn't / found",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "The stars were seen then. (부정문)\nThe stars _____ _____ then.",
+      "blanks": 2,
+      "accept": [
+        "weren't|seen",
+        "were|not|seen"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "weren't / seen",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Tennis is played in lots of countries. (의문문)\n_____ tennis _____ in lots of countries?",
+      "blanks": 2,
+      "accept": [
+        "Is|played"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Is / played",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "The book is loved by children. (의문문)\n_____ the book _____ by children?",
+      "blanks": 2,
+      "accept": [
+        "Is|loved"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Is / loved",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The classrooms are cleaned after school. (의문문)\n_____ the classrooms _____ after school?",
+      "blanks": 2,
+      "accept": [
+        "Are|cleaned"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Are / cleaned",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "The postcard was sent to Betty. (의문문)\n_____ the postcard _____ to Betty?",
+      "blanks": 2,
+      "accept": [
+        "Was|sent"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Was / sent",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "He was taken to the hospital. (의문문)\n_____ he _____ to the hospital?",
+      "blanks": 2,
+      "accept": [
+        "Was|taken"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Was / taken",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Those pears were grown in Naju. (의문문)\n_____ those pears _____ in Naju?",
+      "blanks": 2,
+      "accept": [
+        "Were|grown"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Were / grown",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "Mr. Son teaches science this year.\nScience _____ _____ by Mr. Son this year.",
+      "blanks": 2,
+      "accept": [
+        "is|taught"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is / taught",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "We set the table.\nThe table _____ _____ by us.",
+      "blanks": 2,
+      "accept": [
+        "is|set"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is / set",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "My brother waters the plant.\nThe plant _____ _____ by my brother.",
+      "blanks": 2,
+      "accept": [
+        "is|watered"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is / watered",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Children like penguins.\nPenguins _____ _____ by children.",
+      "blanks": 2,
+      "accept": [
+        "are|liked"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "are / liked",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "He cleans the rooms.\nThe rooms _____ _____ by him.",
+      "blanks": 2,
+      "accept": [
+        "are|cleaned"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "are / cleaned",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "I feed the cats.\nThe cats _____ _____ by me.",
+      "blanks": 2,
+      "accept": [
+        "are|fed"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "are / fed",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "She kicked the soccer ball.\nThe soccer ball _____ _____ by her.",
+      "blanks": 2,
+      "accept": [
+        "was|kicked"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "was / kicked",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Edison invented the light bulb.\nThe light bulb _____ _____ by Edison.",
+      "blanks": 2,
+      "accept": [
+        "was|invented"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "was / invented",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "The police caught the thief.\nThe thief _____ _____ by the police.",
+      "blanks": 2,
+      "accept": [
+        "was|caught"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "was / caught",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "They helped sick people.\nSick people _____ _____ by them.",
+      "blanks": 2,
+      "accept": [
+        "were|helped"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "were / helped",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "The man stole three chickens.\nThree chickens _____ _____ by the man.",
+      "blanks": 2,
+      "accept": [
+        "were|stolen"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "were / stolen",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "Shakespeare wrote the plays.\nThe plays _____ _____ by Shakespeare.",
+      "blanks": 2,
+      "accept": [
+        "were|written"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "were / written",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ]
+}

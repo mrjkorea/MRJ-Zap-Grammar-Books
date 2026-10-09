@@ -1,0 +1,546 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 수동태 (2)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u06:fly",
+  "title": "Grammar Fly",
+  "subtitle": "수동태 부정·의문 & 문장 바꿔 쓰기 (pp. 126–127)",
+  "pages": "126–127",
+  "timerMinutes": 28,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "directionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 13,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "directionKo": "다음 문장을 수동태로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "instructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "introKo": "Section A 13문항(빈칸), Section B 11문항(문장 전체). B는 p.127 이미지 없음 — OCR 확인 필요.",
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "The newspaper isn't delivered in the morning. ( deliver )",
+      "blanks": 2,
+      "accept": [
+        "isn't|delivered",
+        "is|not|delivered"
+      ],
+      "promptKo": null,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "isn't / delivered",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "The sky _____ _____ from here. ( see )",
+      "blanks": 2,
+      "accept": [
+        "isn't|seen",
+        "is|not|seen"
+      ],
+      "promptKo": "여기에서는 하늘이 보이지 않는다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "You _____ _____ by them. ( help )",
+      "blanks": 2,
+      "accept": [
+        "aren't|helped",
+        "are|not|helped"
+      ],
+      "promptKo": "너는 그들에게 도움을 받지 않는다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "I _____ _____ to the concert. ( invite )",
+      "blanks": 2,
+      "accept": [
+        "wasn't|invited",
+        "was|not|invited"
+      ],
+      "promptKo": "나는 그 콘서트에 초대받지 않았다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The picture _____ _____ by him. ( draw )",
+      "blanks": 2,
+      "accept": [
+        "wasn't|drawn",
+        "was|not|drawn"
+      ],
+      "promptKo": "그 그림은 그에 의해 그려지지 않았다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Those onions _____ _____ there. ( grow )",
+      "blanks": 2,
+      "accept": [
+        "aren't|grown",
+        "are|not|grown"
+      ],
+      "promptKo": "저 양파들은 그곳에서 재배되지 않았다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "The computers _____ _____ at the store. ( sell )",
+      "blanks": 2,
+      "accept": [
+        "aren't|sold",
+        "are|not|sold"
+      ],
+      "promptKo": "그 컴퓨터들은 그 가게에서 판매되지 않았다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "_____ _____ _____ in English? ( the book, write )",
+      "blanks": 3,
+      "accept": [
+        "Is|the book|written"
+      ],
+      "promptKo": "그 책은 영어로 쓰여 있니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "_____ _____ _____ in Singapore? ( Chinese, speak )",
+      "blanks": 3,
+      "accept": [
+        "Is|Chinese|spoken"
+      ],
+      "promptKo": "싱가포르에서는 중국어가 쓰이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "_____ _____ _____ by children? ( the books, read )",
+      "blanks": 3,
+      "accept": [
+        "Are|the books|read"
+      ],
+      "promptKo": "그 책들은 아이들에게 읽히니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "_____ _____ _____ ? ( Jack's backpack, steal )",
+      "blanks": 3,
+      "accept": [
+        "Was|Jack's backpack|stolen"
+      ],
+      "promptKo": "잭의 배낭은 도둑맞았니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "_____ _____ _____ on the bus? ( the bag, leave )",
+      "blanks": 3,
+      "accept": [
+        "Was|the bag|left"
+      ],
+      "promptKo": "그 가방은 버스에 남겨져 있었니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "_____ _____ _____ in the forest? ( wild pigs, find )",
+      "blanks": 3,
+      "accept": [
+        "Were|wild pigs|found"
+      ],
+      "promptKo": "숲에서 멧돼지들이 발견되었니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "_____ _____ _____ yesterday? ( the thieves, catch )",
+      "blanks": 3,
+      "accept": [
+        "Were|the thieves|caught"
+      ],
+      "promptKo": "그 도둑들은 어제 잡혔니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 수동태의 부정문 또는 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "She cooks dinner.",
+      "accept": [
+        "Dinner is cooked by her."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Dinner is cooked by her.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "Children love the song.",
+      "accept": [
+        "The song is loved by children.",
+        "The song is loved by the children."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "He sweeps the yard.",
+      "accept": [
+        "The yard is swept by him."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "Ms. Gates teaches us.",
+      "accept": [
+        "We are taught by Ms. Gates."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "I make model airplanes.",
+      "accept": [
+        "Model airplanes are made by me."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "They sell fresh vegetables.",
+      "accept": [
+        "Fresh vegetables are sold by them."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "He delivered the letter.",
+      "accept": [
+        "The letter was delivered by him."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "My sister caught the butterfly.",
+      "accept": [
+        "The butterfly was caught by my sister."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "Bill carried the box.",
+      "accept": [
+        "The box was carried by Bill."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "Jenny ate the apples.",
+      "accept": [
+        "The apples were eaten by Jenny."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "We threw the snowballs.",
+      "accept": [
+        "The snowballs were thrown by us."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "Mr. Harrington found them.",
+      "accept": [
+        "They were found by Mr. Harrington."
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    }
+  ]
+}
