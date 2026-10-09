@@ -590,7 +590,7 @@
       "blanks": 2,
       "accept": [
         "I|don't",
-        "we|don't"
+        "I|do not"
       ]
     },
     {
@@ -649,10 +649,10 @@
       "label": "22",
       "type": "fill",
       "promptKo": "우리 부모님은 아침에 운동을 하시지 않는다. ( exercise )",
-      "promptEn": "My parents ______ ______ in the morning.",
-      "blanks": 2,
+      "promptEn": "My parents ______ ______ ______ in the morning.",
+      "blanks": 3,
       "accept": [
-        "don't|exercise"
+        "do|not|exercise"
       ]
     },
     {
@@ -665,10 +665,10 @@
       "label": "23",
       "type": "fill",
       "promptKo": "브라이언은 캐나다 출신이 아니다. ( be from )",
-      "promptEn": "Brian ______ ______ Canada.",
-      "blanks": 2,
+      "promptEn": "Brian ______ ______ ______ Canada.",
+      "blanks": 3,
       "accept": [
-        "isn't|from"
+        "is|not|from"
       ]
     },
     {
