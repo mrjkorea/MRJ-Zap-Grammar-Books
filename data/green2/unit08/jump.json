@@ -216,7 +216,8 @@
       "accept": [
         "돕느라",
         "도와주느라",
-        "돕기를"
+        "돕는 것을",
+        "도와주는 것을"
       ]
     },
     {
@@ -249,8 +250,7 @@
       "promptEn": "They sometimes go swimming after school.",
       "blanks": 1,
       "accept": [
-        "수영하러",
-        "수영하기를"
+        "수영하러"
       ]
     },
     {
@@ -486,8 +486,9 @@
       "promptEn": "They have to decide where _____ _____.",
       "blanks": 2,
       "accept": [
-        "where|hide",
-        "where|to|hide"
+        "to|hide",
+        "|hide",
+        "to hide"
       ]
     },
     {
@@ -502,8 +503,9 @@
       "promptEn": "We don't know what _____ _____.",
       "blanks": 2,
       "accept": [
-        "what|say",
-        "what|to|say"
+        "to|say",
+        "|say",
+        "to say"
       ]
     },
     {
@@ -515,7 +517,7 @@
       "label": "B13",
       "id": "b13",
       "type": "fill",
-      "promptEn": "He taught us how _____ the problem.",
+      "promptEn": "He taught us how _____ _____ the problem.",
       "blanks": 2,
       "accept": [
         "to|solve"

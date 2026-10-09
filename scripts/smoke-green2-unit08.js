@@ -1,4 +1,4 @@
-/* Smoke-grade every GZ3 Unit 01 item with the repo's own normalize.js + engine.js gradeItem. */
+/* Smoke-grade every GZ2 Unit 08 item with normalize.js + engine.js gradeItem. */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
@@ -60,6 +60,33 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
     }
   }
   console.log(f.padEnd(20), (d.practiceId || "").padEnd(16), "items", d.items.length, "ok", ok, "timer", d.timerMinutes);
+}
+const jump = JSON.parse(fs.readFileSync(path.join(DATA, "jump.json"), "utf8"));
+const b11 = jump.items.find((x) => x.id === "b11");
+const b12 = jump.items.find((x) => x.id === "b12");
+if (b11) {
+  if (E.gradeItem(b11, { parts: ["where", "hide"], value: "where hide" })) {
+    bad++;
+    console.log("FAIL jump b11 must not accept where+hide");
+  }
+  if (!E.gradeItem(b11, { parts: ["to", "hide"], value: "to hide" })) {
+    bad++;
+    console.log("FAIL jump b11 to+hide");
+  }
+  if (!E.gradeItem(b11, { parts: ["", "hide"], value: "hide" })) {
+    bad++;
+    console.log("FAIL jump b11 optional to (blank+hide)");
+  }
+}
+if (b12) {
+  if (E.gradeItem(b12, { parts: ["what", "say"], value: "what say" })) {
+    bad++;
+    console.log("FAIL jump b12 must not accept what+say");
+  }
+  if (!E.gradeItem(b12, { parts: ["to", "say"], value: "to say" })) {
+    bad++;
+    console.log("FAIL jump b12 to+say");
+  }
 }
 console.log(bad ? "FAILURES: " + bad : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)");
 process.exit(bad ? 1 : 0);

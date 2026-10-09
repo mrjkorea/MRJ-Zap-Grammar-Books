@@ -108,11 +108,10 @@
       "label": "A3",
       "id": "a03",
       "type": "fill",
-      "promptEn": "I don't _____ _____ _____ off the TV. (mind, turn)",
-      "blanks": 3,
+      "promptEn": "I don't _____ _____ off the TV. (mind, turn)",
+      "blanks": 2,
       "accept": [
-        "don't|mind|turning",
-        "do|not|mind|turning"
+        "mind|turning"
       ]
     },
     {
@@ -188,11 +187,10 @@
       "label": "A8",
       "id": "a08",
       "type": "fill",
-      "promptEn": "I don't _____ _____ _____ _____ a snowman. (feel like, make)",
-      "blanks": 4,
+      "promptEn": "I don't _____ _____ _____ a snowman. (feel like, make)",
+      "blanks": 3,
       "accept": [
-        "don't|feel|like|making",
-        "do|not|feel|like|making"
+        "feel|like|making"
       ]
     },
     {
