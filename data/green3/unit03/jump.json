@@ -16,7 +16,7 @@
     "hasn't",
     "haven't"
   ],
-  "introKo": "이 연습은 Section A 13문항, Section B 14문항(빈칸 말만)입니다. Section B(printed p.61)는 페이지 이미지 없음 — from OCR - needs check.",
+  "introKo": "이 연습은 Section A 13문항, Section B 14문항(빈칸 말만)입니다. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
   "sections": [
     {
       "id": "A",
@@ -83,7 +83,7 @@
       "blanks": 1,
       "accept": [
         "have",
-        "have"
+        "Have"
       ],
       "example": true,
       "displayOnly": true,
@@ -103,7 +103,7 @@
       "blanks": 1,
       "accept": [
         "have",
-        "have"
+        "Have"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 상자 안의 말(has / have / hasn't / haven't) 중에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -120,7 +120,7 @@
       "blanks": 1,
       "accept": [
         "has",
-        "has"
+        "Has"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 상자 안의 말(has / have / hasn't / haven't) 중에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -137,7 +137,7 @@
       "blanks": 1,
       "accept": [
         "has",
-        "has"
+        "Has"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 상자 안의 말(has / have / hasn't / haven't) 중에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -154,7 +154,7 @@
       "blanks": 1,
       "accept": [
         "has",
-        "has"
+        "Has"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 상자 안의 말(has / have / hasn't / haven't) 중에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -222,7 +222,7 @@
       "blanks": 1,
       "accept": [
         "Has",
-        "Has"
+        "has"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 상자 안의 말(has / have / hasn't / haven't) 중에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -239,7 +239,7 @@
       "blanks": 1,
       "accept": [
         "Has",
-        "Has"
+        "has"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 상자 안의 말(has / have / hasn't / haven't) 중에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -256,7 +256,7 @@
       "blanks": 1,
       "accept": [
         "Have",
-        "Have"
+        "have"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 상자 안의 말(has / have / hasn't / haven't) 중에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -273,7 +273,7 @@
       "blanks": 1,
       "accept": [
         "have",
-        "have"
+        "Have"
       ],
       "sectionTitle": "Section A",
       "sectionInstructionKo": "다음 중에서 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 상자 안의 말(has / have / hasn't / haven't) 중에서 골라 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -339,7 +339,7 @@
       "label": "B2",
       "type": "fill",
       "promptKo": "그들은 이미 점식 식사를 끝냈다.",
-      "promptEn": "_____ … ( finished )",
+      "promptEn": "They _____ _____ lunch already. ( finished )",
       "blanks": 2,
       "accept": [
         "have|finished"
@@ -355,10 +355,10 @@
       "label": "B3",
       "type": "fill",
       "promptKo": "앤디는 오후 2시부터 여기에 있다.",
-      "promptEn": "_____ … ( been )",
-      "blanks": 3,
+      "promptEn": "Andy _____ _____ here since 2 p.m. ( been )",
+      "blanks": 2,
       "accept": [
-        "has|been|here"
+        "has|been"
       ],
       "sectionTitle": "Section B",
       "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -371,10 +371,10 @@
       "label": "B4",
       "type": "fill",
       "promptKo": "브라운 씨는 10년 동안 과학을 가르쳐 왔다.",
-      "promptEn": "_____ … ( taught )",
-      "blanks": 3,
+      "promptEn": "Mr. Brown _____ _____ science for ten years. ( taught )",
+      "blanks": 2,
       "accept": [
-        "has|taught|science"
+        "has|taught"
       ],
       "sectionTitle": "Section B",
       "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -387,10 +387,10 @@
       "label": "B5",
       "type": "fill",
       "promptKo": "우리 남동생은 작년 이후로 10센티미터가 자랐다.",
-      "promptEn": "_____ … ( grown )",
-      "blanks": 4,
+      "promptEn": "My brother _____ _____ 10 centimeters since last year. ( grown )",
+      "blanks": 2,
       "accept": [
-        "has|grown|10|centimeters"
+        "has|grown"
       ],
       "sectionTitle": "Section B",
       "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -403,10 +403,11 @@
       "label": "B6",
       "type": "fill",
       "promptKo": "그들은 피카소의 그림을 본 적이 없다.",
-      "promptEn": "_____ … ( seen )",
-      "blanks": 3,
+      "promptEn": "They _____ not _____ Picasso's paintings. ( seen )",
+      "blanks": 2,
       "accept": [
-        "have|not|seen"
+        "have|seen",
+        "haven't|seen"
       ],
       "sectionTitle": "Section B",
       "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -419,10 +420,11 @@
       "label": "B7",
       "type": "fill",
       "promptKo": "그 나뭇잎들은 아직 떨어지지 않았다.",
-      "promptEn": "_____ … ( fallen )",
-      "blanks": 3,
+      "promptEn": "The leaves _____ not _____ yet. ( fallen )",
+      "blanks": 2,
       "accept": [
-        "have|not|fallen"
+        "have|fallen",
+        "haven't|fallen"
       ],
       "sectionTitle": "Section B",
       "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -435,10 +437,11 @@
       "label": "B8",
       "type": "fill",
       "promptKo": "그 팀은 경기에서 이긴 적이 없다.",
-      "promptEn": "_____ … ( won )",
-      "blanks": 3,
+      "promptEn": "The team _____ not _____ a game. ( won )",
+      "blanks": 2,
       "accept": [
-        "has|not|won"
+        "has|won",
+        "hasn't|won"
       ],
       "sectionTitle": "Section B",
       "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -451,10 +454,11 @@
       "label": "B9",
       "type": "fill",
       "promptKo": "케이트는 숙제를 하지 않았다.",
-      "promptEn": "_____ … ( done )",
-      "blanks": 3,
+      "promptEn": "Kate _____ not _____ her homework. ( done )",
+      "blanks": 2,
       "accept": [
-        "has|not|done"
+        "has|done",
+        "hasn't|done"
       ],
       "sectionTitle": "Section B",
       "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -467,10 +471,11 @@
       "label": "B10",
       "type": "fill",
       "promptKo": "아빠는 아직 집에 오지 않으셨다.",
-      "promptEn": "_____ … ( come )",
-      "blanks": 3,
+      "promptEn": "Dad _____ not _____ home yet. ( come )",
+      "blanks": 2,
       "accept": [
-        "has|not|come"
+        "has|come",
+        "hasn't|come"
       ],
       "sectionTitle": "Section B",
       "sectionInstructionKo": "주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -483,7 +488,7 @@
       "label": "B11",
       "type": "fill",
       "promptKo": "우리가 전에 만난 적이 있니?",
-      "promptEn": "_____ … ( met )",
+      "promptEn": "_____ we _____ before? ( met )",
       "blanks": 3,
       "accept": [
         "Have|we|met"
@@ -499,7 +504,7 @@
       "label": "B12",
       "type": "fill",
       "promptKo": "너는 타임머신에 대하여 들은 적이 있니?",
-      "promptEn": "_____ … ( heard )",
+      "promptEn": "_____ you _____ about time machines? ( heard )",
       "blanks": 3,
       "accept": [
         "Have|you|heard"
@@ -515,7 +520,7 @@
       "label": "B13",
       "type": "fill",
       "promptKo": "그들은 행방불명된 남자아이를 찾았니?",
-      "promptEn": "_____ … ( found )",
+      "promptEn": "_____ they _____ the missing boy? ( found )",
       "blanks": 3,
       "accept": [
         "Have|they|found"
@@ -531,7 +536,7 @@
       "label": "B14",
       "type": "fill",
       "promptKo": "비가 많이 내렸니?",
-      "promptEn": "_____ … ( rained )",
+      "promptEn": "_____ it _____ a lot? ( rained )",
       "blanks": 3,
       "accept": [
         "Has|it|rained"
@@ -547,7 +552,7 @@
       "label": "B15",
       "type": "fill",
       "promptKo": "그녀는 샌드위치를 만들었니?",
-      "promptEn": "_____ … ( made )",
+      "promptEn": "_____ she _____ the sandwiches? ( made )",
       "blanks": 3,
       "accept": [
         "Has|she|made"

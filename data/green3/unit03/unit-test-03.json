@@ -14,7 +14,7 @@
   "passPct": 80,
   "retryBelowPct": 50,
   "showAnswersToStudent": false,
-  "introKo": "[1]~[25] 구간별 안내는 섹션 제목을 보세요. [15–20]·[21–25] 일부는 OCR만 — from OCR - needs check.",
+  "introKo": "Unit Test 03 — [1]~[25] 구간별 안내는 섹션 제목을 보세요. 보기 번호(①~⑤)는 책 순서와 같습니다.",
   "sections": [
     {
       "id": "1-3",
@@ -610,8 +610,7 @@
       "promptEn": "Did you always known the secret?\n→ _____ you always _____ the secret?",
       "blanks": 2,
       "accept": [
-        "Have|known",
-        "Have you always known the secret?"
+        "Have|known"
       ],
       "sectionTitle": "[18–20]",
       "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐서 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -628,7 +627,8 @@
       "blanks": 2,
       "accept": [
         "not|heard",
-        "hasn't|heard"
+        "hasn't|heard",
+        "has not|heard"
       ],
       "sectionTitle": "[18–20]",
       "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐서 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -692,7 +692,9 @@
       "promptKo": "너는 3년 동안 영어를 공부해 왔다.",
       "promptEn": "You _____ _____ English for three years. ( study )",
       "accept": [
-        "You have studied English for three years."
+        "You have studied English for three years.",
+        "You've studied English for three years.",
+        "You have studied English for three years"
       ],
       "sectionTitle": "[21–25]",
       "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
@@ -707,7 +709,9 @@
       "promptKo": "그는 5년 동안 여기에 살고 있다.",
       "promptEn": "He _____ _____ here for five years. ( live )",
       "accept": [
-        "He has lived here for five years."
+        "He has lived here for five years.",
+        "He's lived here for five years.",
+        "He has lived here for five years"
       ],
       "sectionTitle": "[21–25]",
       "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",

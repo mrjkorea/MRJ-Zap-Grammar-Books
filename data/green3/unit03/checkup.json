@@ -7,15 +7,15 @@
   "sectionsVersion": 2,
   "practiceId": "g3:u03:checkup",
   "title": "Check Up",
-  "subtitle": "Comic dialogue (p. 70)",
-  "pages": "70",
+  "subtitle": "Comic dialogue (p. 71)",
+  "pages": "71",
   "timerMinutes": 6,
   "wordBank": [
     "haven't",
     "seen",
     "has"
   ],
-  "introKo": "Check Up — printed p.70, no page image — from OCR - needs check.",
+  "introKo": "이 연습은 Check Up 3문항(골라서 그 단어만 쓰기)으로 되어 있어요. 상자 안의 말(haven't / seen / has) 중 알맞은 것을 골라 그 단어만 쓰세요.",
   "sections": [
     {
       "id": "CU",
@@ -40,11 +40,10 @@
       "section": "CU",
       "label": "1",
       "type": "fill",
-      "promptEn": "[농구 만화] We _____ lost a game before.",
+      "promptEn": "Have you _____ Snowie?",
       "blanks": 1,
       "accept": [
-        "haven't",
-        "have not"
+        "seen"
       ],
       "sectionTitle": "Check Up",
       "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (haven't / seen / has) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -56,7 +55,7 @@
       "section": "CU",
       "label": "2",
       "type": "fill",
-      "promptEn": "… before? — Yes, she _____.",
+      "promptEn": "He _____ stayed in my room all day.",
       "blanks": 1,
       "accept": [
         "has"
@@ -71,10 +70,11 @@
       "section": "CU",
       "label": "3",
       "type": "fill",
-      "promptEn": "Have you ever _____ a whale?",
+      "promptEn": "You _____ eaten any food.",
       "blanks": 1,
       "accept": [
-        "seen"
+        "haven't",
+        "have not"
       ],
       "sectionTitle": "Check Up",
       "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (haven't / seen / has) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
