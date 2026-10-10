@@ -10,7 +10,7 @@
   "unitId": "unit-03",
   "unitTitle": "Unit 03 — 셀 수 없는 명사",
   "sectionsVersion": 2,
-  "introKo": "Section A는 문장 속 셀 수 없는 명사, Section B는 보기(15단어)를 물질·추상·고유명사 칸에 순서대로 씁니다.",
+  "introKo": "Section A는 문장 속 셀 수 없는 명사, Section B는 보기(15단어)를 물질·추상·고유명사 칸에 나누어 씁니다 (칸마다 순서 무관).",
   "sections": [
     {
       "id": "A",
@@ -47,21 +47,12 @@
       "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "itemCount": 12,
+      "itemCount": 3,
       "exampleCount": 3,
       "labels": [
-        "B2",
-        "B3",
-        "B4",
-        "B5",
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B12",
-        "B13",
-        "B14",
-        "B15"
+        "B2–B5",
+        "B7–B10",
+        "B12–B15"
       ]
     }
   ],
@@ -303,54 +294,16 @@
       "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "B2",
+      "label": "B2–B5",
       "type": "fill",
-      "promptEn": "물질명사 칸 2",
+      "promptEn": "보기: air, baseball, Asia, juice, English, love, Paul, snow, math, Christmas, bread, Monday, gold, music, December",
       "accept": [
-        "juice"
-      ]
-    },
-    {
-      "id": "b03",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "B3",
-      "type": "fill",
-      "promptEn": "물질명사 칸 3",
-      "accept": [
-        "snow"
-      ]
-    },
-    {
-      "id": "b04",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "B4",
-      "type": "fill",
-      "promptEn": "물질명사 칸 4",
-      "accept": [
-        "bread"
-      ]
-    },
-    {
-      "id": "b05",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "B5",
-      "type": "fill",
-      "promptEn": "물질명사 칸 5",
-      "accept": [
-        "gold"
-      ]
+        "juice|snow|bread|gold"
+      ],
+      "promptKo": "물질명사 칸(예시 제외 빈칸 4개). 칸마다 순서는 상관없어요.",
+      "blanks": 4,
+      "unordered": true,
+      "noteKo": "칸 안 순서는 상관없어요."
     },
     {
       "id": "b06",
@@ -376,54 +329,16 @@
       "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "B7",
+      "label": "B7–B10",
       "type": "fill",
-      "promptEn": "추상명사 칸 2",
+      "promptEn": "보기: air, baseball, Asia, juice, English, love, Paul, snow, math, Christmas, bread, Monday, gold, music, December",
       "accept": [
-        "English"
-      ]
-    },
-    {
-      "id": "b08",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "B8",
-      "type": "fill",
-      "promptEn": "추상명사 칸 3",
-      "accept": [
-        "love"
-      ]
-    },
-    {
-      "id": "b09",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "B9",
-      "type": "fill",
-      "promptEn": "추상명사 칸 4",
-      "accept": [
-        "math"
-      ]
-    },
-    {
-      "id": "b10",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "B10",
-      "type": "fill",
-      "promptEn": "추상명사 칸 5",
-      "accept": [
-        "music"
-      ]
+        "English|love|math|music"
+      ],
+      "promptKo": "추상명사 칸(예시 제외 빈칸 4개). 칸마다 순서는 상관없어요.",
+      "blanks": 4,
+      "unordered": true,
+      "noteKo": "칸 안 순서는 상관없어요."
     },
     {
       "id": "b11",
@@ -449,54 +364,16 @@
       "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "B12",
+      "label": "B12–B15",
       "type": "fill",
-      "promptEn": "고유명사 칸 2",
+      "promptEn": "보기: air, baseball, Asia, juice, English, love, Paul, snow, math, Christmas, bread, Monday, gold, music, December",
       "accept": [
-        "Paul"
-      ]
-    },
-    {
-      "id": "b13",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "B13",
-      "type": "fill",
-      "promptEn": "고유명사 칸 3",
-      "accept": [
-        "Christmas"
-      ]
-    },
-    {
-      "id": "b14",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "B14",
-      "type": "fill",
-      "promptEn": "고유명사 칸 4",
-      "accept": [
-        "Monday"
-      ]
-    },
-    {
-      "id": "b15",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "B15",
-      "type": "fill",
-      "promptEn": "고유명사 칸 5",
-      "accept": [
-        "December"
-      ]
+        "Paul|Christmas|Monday|December"
+      ],
+      "promptKo": "고유명사 칸(예시 제외 빈칸 4개). 칸마다 순서는 상관없어요.",
+      "blanks": 4,
+      "unordered": true,
+      "noteKo": "칸 안 순서는 상관없어요."
     }
   ]
 }

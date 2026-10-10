@@ -66,6 +66,13 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       const wp = parts.slice();
       wp[0] = "xyz";
       wrong = { parts: wp, value: wp.join(" ") };
+      if (it.unordered && parts.length > 1) {
+        const perm = parts.slice().reverse();
+        if (!E.gradeItem(it, { parts: perm, value: perm.join(" ") })) {
+          bad++;
+          console.log("UNORDERED-PERM-FAIL", f, it.id, perm.join("|"));
+        }
+      }
     } else {
       right = { value: "  " + String(it.accept[0]).toUpperCase() + "  " };
       wrong = { value: "nope" };

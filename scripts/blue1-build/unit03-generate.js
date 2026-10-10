@@ -32,6 +32,8 @@ function fill(id, section, label, promptEn, accept, opts = {}) {
   const it = { ...itemBase(id, section, label, opts), type: opts.type || "fill", promptEn, accept: [].concat(accept) };
   if (opts.promptKo) it.promptKo = opts.promptKo;
   if (opts.blanks) it.blanks = opts.blanks;
+  if (opts.unordered) it.unordered = true;
+  if (opts.noteKo) it.noteKo = opts.noteKo;
   if (opts.example) it.example = true;
   if (opts.displayOnly) it.displayOnly = true;
   if (opts.exampleAnswer) it.exampleAnswer = opts.exampleAnswer;
@@ -265,14 +267,27 @@ const jump1Items = jump1a.map((row, i) => {
   if (ex) Object.assign(opts, { example: true, displayOnly: true, exampleAnswer: ans });
   return fill("a" + String(i + 1).padStart(2, "0"), "A", label, sent, [ans], opts);
 });
-const jump1bLabels = ["B2", "B3", "B4", "B5", "B7", "B8", "B9", "B10", "B12", "B13", "B14", "B15"];
+const jumpWordBank =
+  "air, baseball, Asia, juice, English, love, Paul, snow, math, Christmas, bread, Monday, gold, music, December";
+
+function jumpSortColumn(id, label, colKo, words) {
+  return fill(id, "B", label, `보기: ${jumpWordBank}`, [words.join("|")], {
+    sectionInstructionKo: j1bDir,
+    promptKo: `${colKo} 칸(예시 제외 빈칸 4개). 칸마다 순서는 상관없어요.`,
+    blanks: 4,
+    unordered: true,
+    noteKo: "칸 안 순서는 상관없어요.",
+  });
+}
+
+const jump1bSortLabels = ["B2–B5", "B7–B10", "B12–B15"];
 const jump1bItems = [
   fill("b01", "B", "B1", "물질명사 — air (예시)", ["air"], { sectionInstructionKo: j1bDir, example: true, displayOnly: true, exampleAnswer: "air" }),
-  ...matWords.map((w, i) => fill("b" + String(i + 2).padStart(2, "0"), "B", jump1bLabels[i], `물질명사 칸 ${i + 2}`, [w], { sectionInstructionKo: j1bDir })),
+  jumpSortColumn("b02", jump1bSortLabels[0], "물질명사", matWords),
   fill("b06", "B", "B6", "추상명사 — baseball (예시)", ["baseball"], { sectionInstructionKo: j1bDir, example: true, displayOnly: true, exampleAnswer: "baseball" }),
-  ...absWords.map((w, i) => fill("b" + String(i + 7).padStart(2, "0"), "B", jump1bLabels[i + 4], `추상명사 칸 ${i + 2}`, [w], { sectionInstructionKo: j1bDir })),
+  jumpSortColumn("b07", jump1bSortLabels[1], "추상명사", absWords),
   fill("b11", "B", "B11", "고유명사 — Asia (예시)", ["Asia"], { sectionInstructionKo: j1bDir, example: true, displayOnly: true, exampleAnswer: "Asia" }),
-  ...propWords.map((w, i) => fill("b" + String(i + 12).padStart(2, "0"), "B", jump1bLabels[i + 8], `고유명사 칸 ${i + 2}`, [w], { sectionInstructionKo: j1bDir })),
+  jumpSortColumn("b12", jump1bSortLabels[2], "고유명사", propWords),
 ];
 
 write(
@@ -283,10 +298,10 @@ write(
     "pp. 62–63",
     "62–63",
     24,
-    "Section A는 문장 속 셀 수 없는 명사, Section B는 보기(15단어)를 물질·추상·고유명사 칸에 순서대로 씁니다.",
+    "Section A는 문장 속 셀 수 없는 명사, Section B는 보기(15단어)를 물질·추상·고유명사 칸에 나누어 씁니다 (칸마다 순서 무관).",
     [
       sec("A", "Section A", j1aDir, "다음 문장에서 셀 수 없는 명사를 찾아 쓰세요.", "빈칸에 들어갈 말만 쓰세요.", "words", "Words · 빈칸 말만", 14, 1, ["A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14", "A15"]),
-      sec("B", "Section B", j1bDir, "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요.", "빈칸에 들어갈 말만 쓰세요.", "words", "Words · 빈칸 말만", 12, 3, jump1bLabels),
+      sec("B", "Section B", j1bDir, "다음 단어들을 물질명사, 추상명사, 고유명사로 나누어 빈칸에 쓰세요.", "빈칸에 들어갈 말만 쓰세요.", "words", "Words · 빈칸 말만", 3, 3, jump1bSortLabels),
     ],
     [...jump1Items, ...jump1bItems]
   )
@@ -513,17 +528,17 @@ const jump2a = [
   ["I drink <u>a glass of water</u>.", ["물 한 잔", "물한잔"], true],
   ["We have <u>a bottle of juice</u>.", ["주스 한 병", "주스한병"]],
   ["You drink <u>a cup of coffee</u>.", ["커피 한 잔", "커피한잔"]],
-  ["Give me <u>ten sheets of paper</u>.", ["종이 열 장", "종이열장", "종이 10장"]],
+  ["Give me <u>ten sheets of paper</u>.", ["종이 열 장", "종이열장", "종이 10장", "종이 10 장"]],
   ["I have <u>a loaf of bread</u>.", ["빵 한 덩어리", "빵한덩어리"]],
-  ["I eat <u>two pieces of cake</u>.", ["케이크 두 조각", "케이크두조각"]],
+  ["I eat <u>two pieces of cake</u>.", ["케이크 두 조각", "케이크두조각", "케이크 2조각", "케이크 2 조각"]],
   ["We eat <u>a bowl of rice</u>.", ["밥 한 그릇", "쌀 한 그릇", "밥한그릇", "쌀한그릇"]],
-  ["I need <u>six spoonfuls of sugar</u>.", ["설탕 여섯 숟가락", "설탕 6 숟가락", "설탕여섯숟가락"]],
-  ["They buy <u>two kilos of flour</u>.", ["밀가루 2킬로", "밀가루 두 킬로", "밀가루2킬로"]],
-  ["We have <u>a liter of milk</u>.", ["우유 1리터", "우유 한 리터", "우유1리터"]],
-  ["They eat <u>four pieces of pizza</u>.", ["피자 네 조각", "피자 4조각", "피자네조각"]],
-  ["I make <u>five bowls of salad</u>.", ["샐러드 다섯 그릇", "샐러드 5그릇"]],
+  ["I need <u>six spoonfuls of sugar</u>.", ["설탕 여섯 숟가락", "설탕 6 숟가락", "설탕여섯숟가락", "설탕 6숟가락"]],
+  ["They buy <u>two kilos of flour</u>.", ["밀가루 2킬로", "밀가루 두 킬로", "밀가루2킬로", "밀가루 2 킬로"]],
+  ["We have <u>a liter of milk</u>.", ["우유 1리터", "우유 한 리터", "우유1리터", "우유 1 리터"]],
+  ["They eat <u>four pieces of pizza</u>.", ["피자 네 조각", "피자 4조각", "피자네조각", "피자 4 조각"]],
+  ["I make <u>five bowls of salad</u>.", ["샐러드 다섯 그릇", "샐러드 5그릇", "샐러드 5 그릇", "샐러드다섯그릇"]],
   ["We buy <u>a loaf of meat</u>.", ["고기 한 덩어리", "고기한덩어리"]],
-  ["I drink <u>three glasses of juice</u>.", ["주스 세 잔", "주스 3잔", "주스세잔"]],
+  ["I drink <u>three glasses of juice</u>.", ["주스 세 잔", "주스 3잔", "주스세잔", "주스 3 잔"]],
   ["We need <u>a spoonful of salt</u>.", ["소금 한 숟가락", "소금한숟가락"]],
 ];
 
