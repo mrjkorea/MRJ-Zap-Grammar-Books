@@ -74,30 +74,6 @@
           return false;
         }
         if (N.matchBlanks(response.parts, item.accept)) return true;
-        if (item.unordered && item.accept && item.accept.length) {
-          var parts = response.parts;
-          function permOk(exp) {
-            if (exp.length !== parts.length) return false;
-            var used = {};
-            for (var pi = 0; pi < parts.length; pi++) {
-              var matched = false;
-              for (var ei = 0; ei < exp.length; ei++) {
-                if (used[ei]) continue;
-                if (N.matchAccept(parts[pi], exp[ei])) {
-                  used[ei] = true;
-                  matched = true;
-                  break;
-                }
-              }
-              if (!matched) return false;
-            }
-            return true;
-          }
-          for (var ai = 0; ai < item.accept.length; ai++) {
-            var pat = String(item.accept[ai]);
-            if (pat.indexOf("|") >= 0 && permOk(pat.split("|"))) return true;
-          }
-        }
         if (N.matchAccept(response.parts.join(" "), item.accept)) return true;
         return false;
       }

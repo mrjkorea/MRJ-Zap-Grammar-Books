@@ -13,7 +13,8 @@ PDF page = file `pNNNN.png`; **printed page ≈ PDF − 1**. Unit ends at PDF **
 | 39 | 38 | Lesson 01 concept — must not & don't have to | No |
 | 40 | 39 | **Grammar Walk** — prohibition circle; meaning match | Yes → `lesson01-walk2` |
 | 41–42 | 40–41 | **Grammar Run** — MC (must / have to) | Yes → `lesson01-run` |
-| 43–46 | 42–45 | **Grammar Jump** — Korean gloss; fills; error fix; unscramble | Yes → `lesson01-jump` |
+| 43–44 | 42–43 | **Grammar Jump** — Korean gloss; fills | Yes → `lesson01-jump` |
+| 45–46 | 44–45 | **Grammar Fly** — error correction; word build | Yes → `lesson01-fly` |
 | 47 | 46 | Lesson 02 concept — should | No |
 | 48 | 47 | **Grammar Walk** — circle should; meaning match | Yes → `lesson02-walk1` |
 | 49 | 48 | Lesson 02 concept — had better | No |
@@ -32,10 +33,11 @@ Blue 3 Unit 02 uses **Green-style** lesson blocks (Walk / Run / Jump / Fly per l
 
 | Slug | Pages (printed) | Graded items | Sections | Modes |
 |------|-----------------|-------------:|----------|-------|
-| `lesson01-walk1` | 37 | 8 | A4 + B4 | words (2-blank unordered on A) |
+| `lesson01-walk1` | 37 | 8 | A4 + B4 | words |
 | `lesson01-walk2` | 39 | 8 | A4 + B4 | words / choice |
 | `lesson01-run` | 40–41 | 29 | A14 + B15 | choice |
-| `lesson01-jump` | 42–45 | 58 | A14 + B14 + C15 + D15 | words |
+| `lesson01-jump` | 42–43 | 28 | A14 + B14 | words |
+| `lesson01-fly` | 44–45 | 28 | A14 + B14 | words |
 | `lesson02-walk1` | 47 | 8 | A4 + B4 | words / choice |
 | `lesson02-walk2` | 49 | 8 | A4 + B4 | words (unordered) / choice |
 | `lesson02-run` | 50–51 | 29 | A14 + B15 | choice |

@@ -94,9 +94,16 @@
       {
         slug: "lesson01-jump",
         title: "Grammar Jump — Lesson 01",
-        hint: "pp. 42–45",
+        hint: "pp. 42–43",
         data: "data/blue3/unit02/lesson01-jump.json",
         practiceId: "b3:u02:lesson01-jump",
+      },
+      {
+        slug: "lesson01-fly",
+        title: "Grammar Fly — Lesson 01",
+        hint: "pp. 44–45",
+        data: "data/blue3/unit02/lesson01-fly.json",
+        practiceId: "b3:u02:lesson01-fly",
       },
       {
         slug: "lesson02-walk1",
