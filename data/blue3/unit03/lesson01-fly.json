@@ -1,0 +1,530 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — there, it",
+  "sectionsVersion": 2,
+  "practiceId": "b3:u03:lesson01-fly",
+  "title": "Grammar Fly — Lesson 01",
+  "subtitle": "Correct & write there is/are (pp. 70–71)",
+  "pages": "70–71",
+  "timerMinutes": 26,
+  "introKo": "Section A 15문항(밑줄 고치기), Section B 15문항(문장 전체). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요.",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "밑줄 친 부분만 고쳐 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요.",
+      "directionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "There <u>is</u> two bicycles on the playground.",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "are"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "are"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "There <u>are</u> a tall tower on the mountain.",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "is"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "<u>Are</u> there a gym in your school?",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "Is"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "<u>Is</u> there any cans on the table?",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "Are"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "There <u>are</u> a basket under the table.",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "is"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "There <u>is</u> a lot of nuts in the bottle.",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "are"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "<u>Are</u> there an ambulance in front of the hospital?",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "Is"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "There <u>are</u> a lot of rice in the bowl.",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "is"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "Is there <u>toothbrushes</u> in the mug?",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "toothbrush"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "There are three <u>umbrella</u> in the basket.",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "umbrellas"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Are there four <u>picture</u> on the wall?",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "pictures"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "There is <u>trees</u> behind the house.",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "tree"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Is there <u>garden</u> in the house?",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "a garden"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "There are <u>flower</u> in the garden.",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "flowers"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Are there <u>butterfly</u> near the flowers?",
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 쓰세요.",
+      "accept": [
+        "butterflies"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "a vase / on the table (의문문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "Is there a vase on the table?"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Is there a vase on the table?"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "a letter / in the mailbox (평서문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "There is a letter in the mailbox."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "forty chairs / in the hall (평서문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "There are forty chairs in the hall."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "mirrors / in the classroom (의문문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "Are there mirrors in the classroom?"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "a stove / in the kitchen (평서문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "There is a stove in the kitchen."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "cars / in the garage (의문문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "Are there cars in the garage?"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "a bathtub / in the bathroom (평서문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "There is a bathtub in the bathroom."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "a turtle / on the elephant (평서문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "There is a turtle on the elephant."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "a hamster / in the cage (의문문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "Is there a hamster in the cage?"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "monkeys / in the tree (의문문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "Are there monkeys in the tree?"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "some juice / in the glass (평서문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "There is some juice in the glass."
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "carrots / in the basket (의문문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "Are there carrots in the basket?"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B13",
+      "type": "sentence",
+      "promptEn": "three cabbages / in the box (평서문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "There are three cabbages in the box."
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B14",
+      "type": "sentence",
+      "promptEn": "three boys / in the room (평서문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "There are three boys in the room."
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "there is/are와 주어진 말을 사용하여 괄호 안의 지시대로 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B15",
+      "type": "sentence",
+      "promptEn": "a roller coaster / in the park (의문문)",
+      "promptKo": "주어진 말로 there is/are 문장을 완성하세요.",
+      "accept": [
+        "Is there a roller coaster in the park?"
+      ]
+    }
+  ]
+}

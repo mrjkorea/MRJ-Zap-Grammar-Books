@@ -1,0 +1,180 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — there, it",
+  "sectionsVersion": 2,
+  "practiceId": "b3:u03:lesson02-walk2",
+  "title": "Grammar Walk — Lesson 02 (2)",
+  "subtitle": "It is time for/to (p. 75)",
+  "pages": "75",
+  "timerMinutes": 10,
+  "introKo": "Section A 5문항(time), Section B 2문항(for/to 연결·고르기). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 문장의 빈칸에 들어갈 수 있는 말을 찾아 선으로 연결하세요. 알맞은 보기(a~e)를 하나 골라 누르세요.",
+      "directionKo": "다음 문장의 빈칸에 들어갈 수 있는 말을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 보기(a~e)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "It is time for a snack.",
+      "promptKo": "간식 먹을 시간이다.",
+      "accept": [
+        "time",
+        "Time"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "time"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "It is _____ to practice taekwondo.",
+      "promptKo": "태권도 연습할 시간이다.",
+      "accept": [
+        "time",
+        "Time"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "It is _____ for school.",
+      "promptKo": "학교 갈 시간이다.",
+      "accept": [
+        "time",
+        "Time"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "It is _____ to take a walk.",
+      "promptKo": "산책할 시간이다.",
+      "accept": [
+        "time",
+        "Time"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "It is _____ to meet Jane.",
+      "promptKo": "제인을 만날 시간이다.",
+      "accept": [
+        "time",
+        "Time"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 들어갈 수 있는 말을 찾아 선으로 연결하세요. 알맞은 보기(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "It is time for _____.",
+      "promptKo": "피아노 레슨을 받을 시간이다.",
+      "choices": [
+        "a. a piano lesson",
+        "b. get up",
+        "c. play soccer",
+        "d. breakfast",
+        "e. bed"
+      ],
+      "accept": [
+        "a. a piano lesson",
+        "a"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 들어갈 수 있는 말을 찾아 선으로 연결하세요. 알맞은 보기(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "It is time to _____.",
+      "promptKo": "일어날 시간이다.",
+      "choices": [
+        "a. a piano lesson",
+        "b. get up",
+        "c. play soccer",
+        "d. breakfast",
+        "e. bed"
+      ],
+      "accept": [
+        "b. get up",
+        "b"
+      ]
+    }
+  ]
+}
