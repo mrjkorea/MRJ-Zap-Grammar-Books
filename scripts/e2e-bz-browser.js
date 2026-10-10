@@ -5,7 +5,7 @@ const path = require("path");
 const { chromium } = require("playwright");
 
 const REPO = path.join(__dirname, "..");
-const PORT = 8769;
+const PORT = Number(process.env.E2E_PORT) || 8770 + Math.floor(Math.random() * 50);
 const BASE = `http://127.0.0.1:${PORT}`;
 
 function mime(p) {
