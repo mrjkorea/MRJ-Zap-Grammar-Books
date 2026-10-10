@@ -54,7 +54,8 @@ Blue 4 Unit 02 follows **two lessons × (Walk₁, Walk₂, Run, Jump, Fly) + Rev
 
 ## Uncertain / notes
 
-- **lesson01-jump Section A** Korean glosses accept several synonymous endings (~할 것이다 / ~일 것이다); graded items have no `promptKo` (book prints English only).
+- **lesson01-jump Section A** Korean glosses accept synonymous endings (~할 것이다 / ~일 것이다 / spacing variants); graded items have no `promptKo` (book prints English only).
+- **lesson02-jump** multi-blank items are ordered sentence slots (smoke rejects reversed blank order).
 - **lesson01-jump Section B** negatives use three blanks (`will | not | verb`); positives use `will | verb`.
 - Printed typo in book Run p.41 item 5: **will'nt** (wrong option); keyed to **won't**.
 - Review item **5** instruction in OCR: “쓸 수 **알늘**” → book likely “**없는**”.
