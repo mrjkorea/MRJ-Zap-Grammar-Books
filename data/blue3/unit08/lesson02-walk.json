@@ -225,18 +225,18 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B4",
       "type": "mc",
-      "promptEn": "① Let's ② get up ③ early.",
+      "promptEn": "① Let's ② get up ③ early ④.",
       "promptKo": "일찍 일어나지 말자.",
       "choices": [
         "Let's",
         "get up",
         "early",
-        "④"
+        "."
       ],
       "accept": [
-        "get up",
-        "2",
-        "②"
+        "Let's",
+        "1",
+        "①"
       ]
     },
     {
@@ -254,12 +254,12 @@
         "play",
         "basketball",
         "today",
-        "④"
+        "."
       ],
       "accept": [
-        "basketball",
-        "2",
-        "②"
+        "play",
+        "1",
+        "①"
       ]
     }
   ]

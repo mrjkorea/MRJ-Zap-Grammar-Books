@@ -86,5 +86,18 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
   }
   console.log(f.padEnd(24), (d.practiceId || "").padEnd(26), "items", d.items.length, "ok", ok, "timer", d.timerMinutes);
 }
+const w1 = JSON.parse(fs.readFileSync(path.join(DATA, "lesson03-walk1.json"), "utf8"));
+const w1a02 = w1.items.find((it) => it.id === "a02");
+if (E.gradeItem(w1a02, { parts: ["palace", "old"], value: "palace old" })) {
+  bad++;
+  console.log("ORDER-FAIL", "lesson03-walk1.json", "a02", "palace|old must not pass");
+}
+const jmp = JSON.parse(fs.readFileSync(path.join(DATA, "lesson01-jump.json"), "utf8"));
+const jb02 = jmp.items.find((it) => it.id === "b02");
+if (E.gradeItem(jb02, { value: "Run slowly." })) {
+  bad++;
+  console.log("OPPOSITE-FAIL", "lesson01-jump.json", "b02", "Run slowly must not pass");
+}
+
 console.log(bad ? "FAILURES: " + bad : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)");
 process.exit(bad ? 1 : 0);

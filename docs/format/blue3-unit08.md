@@ -44,7 +44,7 @@ Blue 3 Unit 08 uses **Walk + Run + Jump + Fly** (Green-style) for lessons 1–2 
 | lesson01-run | 200–201 | 29 | A, B | choice |
 | lesson01-jump | 202–203 | 28 | A, B | words, sentence |
 | lesson01-fly | 204–205 | 28 | A, B | words, sentence |
-| lesson03-walk1 | 207–208 | 8 | A, B | words (unordered adj+noun), choice |
+| lesson03-walk1 | 207–208 | 8 | A, B | words (adj then noun), choice |
 | lesson03-walk2 | 209 | 8 | A, B | words, choice |
 | lesson03-run | 210–211 | 28 | A, B | choice |
 | lesson03-jump | 212–213 | 28 | A, B | words, words |
@@ -59,8 +59,6 @@ Walk 10 · Run 20 · Jump 24 · Fly 28 · Review 30 (minutes, generous).
 
 ## Uncertain / notes
 
-- **Lesson02 Walk §B:** `not` 위치 — app uses MC on the word at the circled number (book circles a word position, not ①–④ alone).
-- **Lesson03 Walk1 §B / Walk2 §B:** insertion-position items mapped to MC on slot words; verify against answer key p.45 if student reports mismatch.
-- **Lesson01 Jump §B:** “opposite meaning” for some items (e.g. item 5) may accept more than one natural English opposite; only book-likely forms are in `accept`.
-- **Lesson03 Jump §B:** items 10–15 use `How + adj` only in the blank (noun phrase omitted in book layout).
+- **Lesson01 Jump §B:** “반대의 뜻” items accept the book’s paired imperative/Let’s forms only (not loose paraphrases like *Run slowly* for *Run fast*).
+- **Lesson03 Walk2 §B item 4:** `(sweet)` → circle ③ `apple` per answer key p.45 (insertion slot before `is`).
 - **Printed typos in source:** `Let's don't` appears intentionally as a wrong option in Run/Review; `How a …` errors appear in Fly.

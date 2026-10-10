@@ -60,11 +60,9 @@
       "promptEn": "What a small dog it is!",
       "promptKo": "",
       "accept": [
-        "small|dog",
-        "dog|small"
+        "small|dog"
       ],
       "blanks": 2,
-      "unordered": true,
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "small / dog"
@@ -81,11 +79,9 @@
       "promptEn": "What an old palace this is!",
       "promptKo": "책 지시에 따라 답하세요.",
       "accept": [
-        "old|palace",
-        "palace|old"
+        "old|palace"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a03",
@@ -99,11 +95,9 @@
       "promptEn": "What strong men they are!",
       "promptKo": "책 지시에 따라 답하세요.",
       "accept": [
-        "strong|men",
-        "men|strong"
+        "strong|men"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a04",
@@ -117,11 +111,9 @@
       "promptEn": "What funny stories they are!",
       "promptKo": "책 지시에 따라 답하세요.",
       "accept": [
-        "funny|stories",
-        "stories|funny"
+        "funny|stories"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a05",
@@ -135,11 +127,9 @@
       "promptEn": "What a big elephant it is!",
       "promptKo": "책 지시에 따라 답하세요.",
       "accept": [
-        "big|elephant",
-        "elephant|big"
+        "big|elephant"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "b01",
@@ -225,7 +215,9 @@
         "is"
       ],
       "accept": [
-        "movie"
+        "is",
+        "4",
+        "④"
       ]
     },
     {
