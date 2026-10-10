@@ -69,7 +69,7 @@
     if (type === "fill" || type === "sentence") {
       var blanks = item.blanks || 1;
       if (blanks > 1 && response.parts) {
-        if (N.matchBlanks(response.parts, item.accept)) return true;
+        if (N.matchBlanks(response.parts, item.accept, item.unordered)) return true;
         if (N.matchAccept(response.parts.join(" "), item.accept)) return true;
         return false;
       }

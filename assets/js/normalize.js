@@ -133,8 +133,29 @@
     return false;
   }
 
+  function permuteMatch(users, exp) {
+    if (users.length !== exp.length) return false;
+    if (users.length <= 1) {
+      return users.length === 1 && matchOne(users[0], exp[0]);
+    }
+    var used = {};
+    for (var u = 0; u < users.length; u++) {
+      var matched = false;
+      for (var e = 0; e < exp.length; e++) {
+        if (used[e]) continue;
+        if (matchOne(users[u], exp[e])) {
+          used[e] = true;
+          matched = true;
+          break;
+        }
+      }
+      if (!matched) return false;
+    }
+    return true;
+  }
+
   /** Multi-blank: users[] and accept entry like "are|no" or full phrase */
-  function matchBlanks(users, acceptList) {
+  function matchBlanks(users, acceptList, unordered) {
     users = users || [];
     if (!acceptList || !acceptList.length) return false;
     for (var i = 0; i < acceptList.length; i++) {
@@ -147,6 +168,7 @@
             if (!matchOne(users[b], exp[b])) ok = false;
           }
           if (ok) return true;
+          if (unordered && permuteMatch(users, exp)) return true;
         }
       }
       if (users.length === 1 && matchAccept(users[0], acceptList[i])) return true;

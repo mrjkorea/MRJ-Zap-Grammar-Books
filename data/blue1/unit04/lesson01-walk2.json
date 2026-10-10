@@ -1,0 +1,236 @@
+{
+  "practiceId": "b1:u04:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 부정관사 a/an",
+  "subtitle": "의미 연결 · O/X (p. 85)",
+  "pages": "85",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 관사",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 밑줄 친 a/an의 의미를 고르고, Section B는 O/X입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부정관사 a/an의 의미를 찾아 선으로 연결하세요. 알맞은 뜻(a~c)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "밑줄 친 a/an의 의미를 연결하세요.",
+      "ruleKo": "보기 a~c 중 하나를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 말이 맞으면 O, 틀리면 X를 빈칸에 쓰세요.",
+      "directionKo": "맞으면 O, 틀리면 X.",
+      "ruleKo": "O 또는 X만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부정관사 a/an의 의미를 찾아 선으로 연결하세요. 알맞은 뜻(a~c)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "promptKo": "우리 아버지는 작가이다.",
+      "type": "mc",
+      "promptEn": "My father is <u>a</u> writer.",
+      "choices": [
+        "a. 직업, 신분",
+        "b. 하나의(one)",
+        "c. ~마다, 매 ~"
+      ],
+      "accept": [
+        "a. 직업, 신분",
+        "a"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a. 직업, 신분"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부정관사 a/an의 의미를 찾아 선으로 연결하세요. 알맞은 뜻(a~c)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "I have two pencils and <u>a</u> pen.",
+      "choices": [
+        "a. 직업, 신분",
+        "b. 하나의(one)",
+        "c. ~마다, 매 ~"
+      ],
+      "accept": [
+        "b. 하나의(one)",
+        "b"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부정관사 a/an의 의미를 찾아 선으로 연결하세요. 알맞은 뜻(a~c)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "I eat three meals <u>a</u> day.",
+      "choices": [
+        "a. 직업, 신분",
+        "b. 하나의(one)",
+        "c. ~마다, 매 ~"
+      ],
+      "accept": [
+        "c. ~마다, 매 ~",
+        "c"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부정관사 a/an의 의미를 찾아 선으로 연결하세요. 알맞은 뜻(a~c)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "She is <u>a</u> painter.",
+      "choices": [
+        "a. 직업, 신분",
+        "b. 하나의(one)",
+        "c. ~마다, 매 ~"
+      ],
+      "accept": [
+        "a. 직업, 신분",
+        "a"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부정관사 a/an의 의미를 찾아 선으로 연결하세요. 알맞은 뜻(a~c)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "We go there once <u>a</u> week.",
+      "choices": [
+        "a. 직업, 신분",
+        "b. 하나의(one)",
+        "c. ~마다, 매 ~"
+      ],
+      "accept": [
+        "c. ~마다, 매 ~",
+        "c"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O, 틀리면 X를 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "a students",
+      "accept": [
+        "X",
+        "x"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "X"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O, 틀리면 X를 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "a ball",
+      "accept": [
+        "O",
+        "o",
+        "0"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O, 틀리면 X를 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "a jeans",
+      "accept": [
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O, 틀리면 X를 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "a books",
+      "accept": [
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O, 틀리면 X를 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "a glass",
+      "accept": [
+        "O",
+        "o",
+        "0"
+      ]
+    }
+  ]
+}

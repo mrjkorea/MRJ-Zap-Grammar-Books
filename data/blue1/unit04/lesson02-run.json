@@ -1,0 +1,681 @@
+{
+  "practiceId": "b1:u04:lesson02-run",
+  "title": "Lesson 02 Run — 정관사 the",
+  "subtitle": "괄호 · 빈칸 고르기 (pp. 96–97)",
+  "pages": "96–97",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 관사",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 the/X 또는 A/The, Section B는 the 또는 필요 없음.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "괄호 안에서 고르세요.",
+      "ruleKo": "보기 중 하나를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "빈칸에 알맞은 것을 고르세요.",
+      "ruleKo": "보기 중 하나를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "Close ( a / the ) window.",
+      "choices": [
+        "a",
+        "the"
+      ],
+      "accept": [
+        "2",
+        "the",
+        "the"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "the"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "I like ( a / the ) moon.",
+      "choices": [
+        "a",
+        "the"
+      ],
+      "accept": [
+        "2",
+        "the",
+        "the"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "They play ( a / the ) violin.",
+      "choices": [
+        "a",
+        "the"
+      ],
+      "accept": [
+        "2",
+        "the",
+        "the"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "I have a dog. ( A / The ) dog is cute.",
+      "choices": [
+        "A",
+        "The"
+      ],
+      "accept": [
+        "2",
+        "The",
+        "the"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Birds fly in ( a / the ) sky.",
+      "choices": [
+        "a",
+        "the"
+      ],
+      "accept": [
+        "2",
+        "the",
+        "the"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "We play ( the / X ) soccer.",
+      "choices": [
+        "the",
+        "X"
+      ],
+      "accept": [
+        "2",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "They have ( the / X ) breakfast.",
+      "choices": [
+        "the",
+        "X"
+      ],
+      "accept": [
+        "2",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "I like ( the / X ) science.",
+      "choices": [
+        "the",
+        "X"
+      ],
+      "accept": [
+        "2",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "I know a dancer. ( A / The ) dancer is tall.",
+      "choices": [
+        "A",
+        "The"
+      ],
+      "accept": [
+        "2",
+        "The",
+        "the"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "They speak ( the / X ) English.",
+      "choices": [
+        "the",
+        "X"
+      ],
+      "accept": [
+        "2",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "I have ( the / X ) lunch with my friend.",
+      "choices": [
+        "the",
+        "X"
+      ],
+      "accept": [
+        "2",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "You play ( the / X ) guitar.",
+      "choices": [
+        "the",
+        "X"
+      ],
+      "accept": [
+        "1",
+        "the",
+        "the"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "Open ( a / the ) door.",
+      "choices": [
+        "a",
+        "the"
+      ],
+      "accept": [
+        "2",
+        "the",
+        "the"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "They live on ( an / the ) Earth.",
+      "choices": [
+        "an",
+        "the"
+      ],
+      "accept": [
+        "2",
+        "the",
+        "the"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "They play ( the / X ) tennis.",
+      "choices": [
+        "the",
+        "X"
+      ],
+      "accept": [
+        "2",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I play _______ violin.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "1",
+        "the"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "the"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "I like _______ math.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "2",
+        "필요 없음",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Close _______ door.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "1",
+        "the"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "_______ moon is beautiful.",
+      "choices": [
+        "The",
+        "필요 없음"
+      ],
+      "accept": [
+        "1",
+        "The",
+        "the"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "A kite is in _______ sky.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "1",
+        "the"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "I have _______ dinner.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "2",
+        "필요 없음",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "We watch _______ television.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "2",
+        "필요 없음",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "I have a box. _______ box is green.",
+      "choices": [
+        "The",
+        "필요 없음"
+      ],
+      "accept": [
+        "1",
+        "The",
+        "the"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "We like _______ badminton.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "2",
+        "필요 없음",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "They play _______ piano.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "1",
+        "the"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "The boys like _______ science.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "2",
+        "필요 없음",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "They have _______ lunch at home.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "2",
+        "필요 없음",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "Look at _______ bird.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "1",
+        "the"
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "We speak _______ Korean.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "2",
+        "필요 없음",
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 것을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "They play _______ baseball.",
+      "choices": [
+        "the",
+        "필요 없음"
+      ],
+      "accept": [
+        "2",
+        "필요 없음",
+        "X",
+        "x"
+      ]
+    }
+  ]
+}
