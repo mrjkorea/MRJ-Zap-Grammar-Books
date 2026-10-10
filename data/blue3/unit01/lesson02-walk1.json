@@ -1,0 +1,218 @@
+{
+  "practiceId": "b3:u01:lesson02-walk1",
+  "title": "Lesson 02 Walk 1 — be able to",
+  "subtitle": "can과 같은 뜻 · 변환 (p. 22)",
+  "pages": "22",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 조동사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 4문항, Section B 4문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 ‘할 수 있다’라는 의미를 나타내는 말을 찾아 동그라미 하세요. be동사 + able + to를 순서대로 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "‘할 수 있다’를 나타내는 말을 찾으세요.",
+      "ruleKo": "be + able + to를 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. able to는 인쇄되어 있으므로, 그 앞 빈칸에 be동사(와 not)만 쓰세요. 빈칸마다 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "can과 같은 뜻이 되도록 쓰세요.",
+      "ruleKo": "able to 앞 빈칸만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 ‘할 수 있다’라는 의미를 나타내는 말을 찾아 동그라미 하세요. be동사 + able + to를 순서대로 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I am able to run fast.",
+      "accept": [
+        "am|able|to"
+      ],
+      "promptKo": "나는 빨리 달릴 수 있다.",
+      "blanks": 3,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am / able / to"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 ‘할 수 있다’라는 의미를 나타내는 말을 찾아 동그라미 하세요. be동사 + able + to를 순서대로 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You are able to ski.",
+      "accept": [
+        "are|able|to"
+      ],
+      "promptKo": "너는 스키를 탈 수 있다.",
+      "blanks": 3
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 ‘할 수 있다’라는 의미를 나타내는 말을 찾아 동그라미 하세요. be동사 + able + to를 순서대로 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "A bear is able to catch fish.",
+      "accept": [
+        "is|able|to"
+      ],
+      "promptKo": "곰은 물고기를 잡을 수 있다.",
+      "blanks": 3
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 ‘할 수 있다’라는 의미를 나타내는 말을 찾아 동그라미 하세요. be동사 + able + to를 순서대로 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "We are able to draw a map.",
+      "accept": [
+        "are|able|to"
+      ],
+      "promptKo": "우리는 지도를 그릴 수 있다.",
+      "blanks": 3
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 ‘할 수 있다’라는 의미를 나타내는 말을 찾아 동그라미 하세요. be동사 + able + to를 순서대로 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Snakes are able to climb trees.",
+      "accept": [
+        "are|able|to"
+      ],
+      "promptKo": "뱀은 나무를 오를 수 있다.",
+      "blanks": 3
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. able to는 인쇄되어 있으므로, 그 앞 빈칸에 be동사(와 not)만 쓰세요. 빈칸마다 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I can read Chinese.\n→ I ______ able to read Chinese.",
+      "accept": [
+        "am"
+      ],
+      "promptKo": "나는 중국어를 읽을 수 있다.",
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. able to는 인쇄되어 있으므로, 그 앞 빈칸에 be동사(와 not)만 쓰세요. 빈칸마다 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "John can't use the washing machine.\n→ John ______ ______ able to use the washing machine.",
+      "accept": [
+        "is|not"
+      ],
+      "promptKo": "존은 세탁기를 사용하지 못한다.",
+      "blanks": 2
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. able to는 인쇄되어 있으므로, 그 앞 빈칸에 be동사(와 not)만 쓰세요. 빈칸마다 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "The puppies can climb the stairs.\n→ The puppies ______ able to climb the stairs.",
+      "accept": [
+        "are"
+      ],
+      "promptKo": "강아지들은 계단을 오를 수 있다.",
+      "blanks": 1
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. able to는 인쇄되어 있으므로, 그 앞 빈칸에 be동사(와 not)만 쓰세요. 빈칸마다 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "She can't make pancakes.\n→ She ______ ______ able to make pancakes.",
+      "accept": [
+        "is|not"
+      ],
+      "promptKo": "그녀는 팬케이크를 만들지 못한다.",
+      "blanks": 2
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장이 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰세요. able to는 인쇄되어 있으므로, 그 앞 빈칸에 be동사(와 not)만 쓰세요. 빈칸마다 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "We can play soccer.\n→ We ______ able to play soccer.",
+      "accept": [
+        "are"
+      ],
+      "promptKo": "우리는 축구를 할 수 있다.",
+      "blanks": 1
+    }
+  ]
+}
