@@ -76,13 +76,13 @@
       "type": "fill",
       "promptEn": "I told <u>the story him</u>.",
       "accept": [
-        "him|the story"
+        "him|the|story"
       ],
-      "blanks": 2,
+      "blanks": 3,
       "unordered": false,
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "him the story"
+      "exampleAnswer": "him / the / story"
     },
     {
       "id": "a02",
@@ -95,9 +95,9 @@
       "type": "fill",
       "promptEn": "Tommy showed <u>his toys them</u>.",
       "accept": [
-        "them|his toys"
+        "them|his|toys"
       ],
-      "blanks": 2,
+      "blanks": 3,
       "unordered": false
     },
     {
@@ -111,9 +111,9 @@
       "type": "fill",
       "promptEn": "I wrote <u>a letter Johnny</u>.",
       "accept": [
-        "Johnny|a letter"
+        "Johnny|a|letter"
       ],
-      "blanks": 2,
+      "blanks": 3,
       "unordered": false
     },
     {
@@ -127,9 +127,9 @@
       "type": "fill",
       "promptEn": "My brother sent <u>this box her</u>.",
       "accept": [
-        "her|this box"
+        "her|this|box"
       ],
-      "blanks": 2,
+      "blanks": 3,
       "unordered": false
     },
     {
@@ -143,9 +143,9 @@
       "type": "fill",
       "promptEn": "They brought <u>a cat me</u>.",
       "accept": [
-        "me|a cat"
+        "me|a|cat"
       ],
-      "blanks": 2,
+      "blanks": 3,
       "unordered": false
     },
     {

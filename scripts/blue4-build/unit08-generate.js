@@ -481,7 +481,7 @@ function write(name, data) {
       "그에게 로봇을 하나 사 주었다",
       ["그에게 로봇을 하나 사 주었다", "팀에게 로봇을 하나 사 주었다"],
     ],
-    ["This pillow <u>feels soft</u>.", "푹신하다", ["푹신하다", "푹신한 느낌이 든다", "부드럽다"]],
+    ["This pillow <u>feels soft</u>.", "푹신하다", ["푹신하다", "푹신한 느낌이 든다"]],
     [
       "We <u>asked the boy his name</u>.",
       "그 소년에게 그의 이름을 물어보았다",
@@ -503,8 +503,8 @@ function write(name, data) {
     ["They <u>sent me e-mail</u>.", "나에게 이메일을 보냈다", ["나에게 이메일을 보냈다", "나에게 e-mail을 보냈다"]],
     [
       "She <u>reads her baby a fairy tale</u>.",
-      "아기에게 동화를 읽어 주었다",
-      ["아기에게 동화를 읽어 주었다", "그녀의 아기에게 동화를 읽어 주었다"],
+      "아기에게 동화를 읽어 준다",
+      ["아기에게 동화를 읽어 준다", "그녀의 아기에게 동화를 읽어 준다", "자기 아기에게 동화를 읽어 준다"],
     ],
     ["This cake <u>tastes sweet</u>.", "달다", ["달다", "단 맛이 난다", "맛이 달다"]],
   ];
@@ -552,7 +552,7 @@ function write(name, data) {
     ["This shampoo _____ _____. (good)", "smells|good"],
     ["This apple _____ _____. (sour)", "tastes|sour"],
     ["They _____ _____. (tired)", "feel|tired"],
-    ["His voice _____ _____. (strange)", "sounded|strange", , "sounds|strange"],
+    ["His voice _____ _____. (strange)", "sounded|strange"],
   ];
   cRows.forEach((row, i) => {
     const [prompt, acc, ex, acc2] = row;
@@ -607,11 +607,11 @@ function write(name, data) {
   ]);
   const insA = sectionA.instructionKo;
   const aRows = [
-    ["I told <u>the story him</u>.", "him|the story", 2, true],
-    ["Tommy showed <u>his toys them</u>.", "them|his toys", 2],
-    ["I wrote <u>a letter Johnny</u>.", "Johnny|a letter", 2, , "Johnny|a letter"],
-    ["My brother sent <u>this box her</u>.", "her|this box", 2],
-    ["They brought <u>a cat me</u>.", "me|a cat", 2],
+    ["I told <u>the story him</u>.", "him|the|story", 3, true],
+    ["Tommy showed <u>his toys them</u>.", "them|his|toys", 3],
+    ["I wrote <u>a letter Johnny</u>.", "Johnny|a|letter", 3],
+    ["My brother sent <u>this box her</u>.", "her|this|box", 3],
+    ["They brought <u>a cat me</u>.", "me|a|cat", 3],
     ["You gave the pictures <u>for Emily</u>.", "to|Emily", 2],
     ["My mother bought new shoes <u>to me</u>.", "for|me", 2],
     ["She got that skirt <u>to you</u>.", "for|you", 2],
@@ -992,7 +992,7 @@ function write(name, data) {
       "words",
       "Words · 빈칸 말만",
       "앨리스는 오늘 예뻐 보인다.\nAlice _____ _____ today.",
-      ["looks|pretty", "look|pretty"],
+      ["looks|pretty"],
       { blanks: 2, promptKo: "앨리스는 오늘 예뻐 보인다." }
     )
   );
@@ -1005,7 +1005,7 @@ function write(name, data) {
       "words",
       "Words · 빈칸 말만",
       "나는 지금 행복한 느낌이다.\nI _____ _____ now.",
-      ["feel|happy", "feels|happy"],
+      ["feel|happy"],
       { blanks: 2, promptKo: "나는 지금 행복한 느낌이다." }
     )
   );
