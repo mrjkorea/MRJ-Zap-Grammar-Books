@@ -386,12 +386,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "The plants need ______ ______ ______ water.",
+      "promptEn": "The plants need ______ ______ water.",
       "promptKo": "그 식물들은 많은 물이 필요하다.",
-      "blanks": 3,
+      "blanks": 2,
       "accept": [
-        "a|lot|of",
-        "A|lot|of"
+        "lots|of",
+        "Lots|of"
       ]
     },
     {
@@ -407,9 +407,7 @@
       "promptKo": "너는 삼촌들이 많이 있니?",
       "blanks": 1,
       "accept": [
-        "many",
-        "a lot of",
-        "lots of"
+        "many"
       ]
     },
     {
@@ -442,9 +440,7 @@
       "promptKo": "그는 많은 잼을 원하지 않는다.",
       "blanks": 1,
       "accept": [
-        "much",
-        "a lot of",
-        "lots of"
+        "much"
       ]
     },
     {
@@ -477,9 +473,7 @@
       "promptKo": "앤은 초콜릿을 많이 먹지 않는다.",
       "blanks": 1,
       "accept": [
-        "much",
-        "a lot of",
-        "lots of"
+        "much"
       ]
     },
     {
@@ -512,9 +506,7 @@
       "promptKo": "토미는 질문을 많이 하지 않는다.",
       "blanks": 1,
       "accept": [
-        "many",
-        "a lot of",
-        "lots of"
+        "many"
       ]
     },
     {
@@ -547,9 +539,7 @@
       "promptKo": "그 벌들은 꿀을 많이 만드니?",
       "blanks": 1,
       "accept": [
-        "much",
-        "a lot of",
-        "lots of"
+        "much"
       ]
     },
     {
@@ -582,9 +572,7 @@
       "promptKo": "너는 많은 나라를 방문하니?",
       "blanks": 1,
       "accept": [
-        "many",
-        "a lot of",
-        "lots of"
+        "many"
       ]
     },
     {
@@ -634,9 +622,7 @@
       "promptKo": "그들은 많은 컴퓨터 게임을 하지 않는다.",
       "blanks": 1,
       "accept": [
-        "many",
-        "a lot of",
-        "lots of"
+        "many"
       ]
     }
   ]
