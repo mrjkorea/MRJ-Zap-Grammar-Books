@@ -68,3 +68,9 @@ Same pipeline as Green: `program=greenzap`, `source=greenzap`, `app_name` = book
 ## Excluded from repo
 
 Page images, OCR text, and answer keys are **not** committed (public repo).
+
+## BlueZap 2 — Unit 07 (현재 진행 시제)
+
+Blue 2 Unit 07 follows the **Green-style lesson arc** (Walk / Run / Jump / Fly per lesson), not Blue 1’s walk-only pattern. Two lessons plus Review 07; no Wrap Up blanks.
+
+Full page map, timers, and section notes: `docs/format/blue2-unit07.md`.

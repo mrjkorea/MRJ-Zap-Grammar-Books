@@ -11,9 +11,9 @@ Printed page numbers ≈ PDF page − 1. Unit 07 ends on p. 190; p. 191 is Unit 
 | p170 | 169 | Grammar Walk | `lesson01-walk2` |
 | p171–172 | 170–171 | Grammar Run | `lesson01-run` |
 | p173–174 | 172–173 | Grammar Jump | `lesson01-jump` |
-| p175–176 | 174–175 | Grammar Fly | `lesson01-fly` |
-| p176–178 | 175–177 | Concept (부정·의문) | — |
-| p177 | 176 | Grammar Walk (Lesson 02 intro) | — |
+| p175 | 174 | Grammar Fly (A) | `lesson01-fly` |
+| p176 | 175 | Grammar Fly (B) | `lesson01-fly` |
+| p177 | 176 | Concept (부정문, Lesson 02) | — |
 | p178 | 177 | Grammar Walk | `lesson02-walk1` |
 | p179 | 178 | Concept (의문문) | — |
 | p180 | 179 | Grammar Walk | `lesson02-walk2` |
