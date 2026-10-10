@@ -7,7 +7,7 @@
     { id: "zap-red-2", title: "ZAP Red 2", enabled: false },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
-    { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
+    { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
     { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
     { id: "zap-green-2", title: "ZAP Green 2", enabled: true, appName: "GreenZap 2", bookTitle: "ZAP Green 2" },
@@ -52,6 +52,9 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-3": [
+      { id: "unit-07", title: "Unit 07 — 과거 시제 - 일반동사", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +69,99 @@
   };
 
   var EXERCISES = {
+    "zap-blue-3:unit-07": [
+      {
+        slug: "lesson01-walk",
+        title: "Lesson 01 Walk — 과거형 -ed",
+        hint: "p. 167",
+        data: "data/blue3/unit07/lesson01-walk.json",
+        practiceId: "b3:u07:lesson01-walk",
+      },
+      {
+        slug: "lesson02-walk",
+        title: "Lesson 02 Walk — -y / doubling",
+        hint: "p. 169",
+        data: "data/blue3/unit07/lesson02-walk.json",
+        practiceId: "b3:u07:lesson02-walk",
+      },
+      {
+        slug: "lesson03-walk",
+        title: "Lesson 03 Walk — irregular",
+        hint: "p. 171",
+        data: "data/blue3/unit07/lesson03-walk.json",
+        practiceId: "b3:u07:lesson03-walk",
+      },
+      {
+        slug: "lesson03-run",
+        title: "Grammar Run",
+        hint: "pp. 172–173",
+        data: "data/blue3/unit07/lesson03-run.json",
+        practiceId: "b3:u07:lesson03-run",
+      },
+      {
+        slug: "lesson03-jump",
+        title: "Grammar Jump",
+        hint: "pp. 174–175",
+        data: "data/blue3/unit07/lesson03-jump.json",
+        practiceId: "b3:u07:lesson03-jump",
+      },
+      {
+        slug: "lesson03-fly",
+        title: "Grammar Fly",
+        hint: "pp. 176–177",
+        data: "data/blue3/unit07/lesson03-fly.json",
+        practiceId: "b3:u07:lesson03-fly",
+      },
+      {
+        slug: "lesson04-walk",
+        title: "Lesson 04 Walk — did not",
+        hint: "p. 179",
+        data: "data/blue3/unit07/lesson04-walk.json",
+        practiceId: "b3:u07:lesson04-walk",
+      },
+      {
+        slug: "lesson05-walk",
+        title: "Lesson 05 Walk — Did questions",
+        hint: "p. 181",
+        data: "data/blue3/unit07/lesson05-walk.json",
+        practiceId: "b3:u07:lesson05-walk",
+      },
+      {
+        slug: "lesson06-walk",
+        title: "Lesson 06 Walk — wh- + did",
+        hint: "p. 183",
+        data: "data/blue3/unit07/lesson06-walk.json",
+        practiceId: "b3:u07:lesson06-walk",
+      },
+      {
+        slug: "lesson06-run",
+        title: "Grammar Run",
+        hint: "pp. 184–185",
+        data: "data/blue3/unit07/lesson06-run.json",
+        practiceId: "b3:u07:lesson06-run",
+      },
+      {
+        slug: "lesson06-jump",
+        title: "Grammar Jump",
+        hint: "pp. 186–187",
+        data: "data/blue3/unit07/lesson06-jump.json",
+        practiceId: "b3:u07:lesson06-jump",
+      },
+      {
+        slug: "lesson06-fly",
+        title: "Grammar Fly",
+        hint: "pp. 188–189",
+        data: "data/blue3/unit07/lesson06-fly.json",
+        practiceId: "b3:u07:lesson06-fly",
+      },
+      {
+        slug: "review07",
+        title: "Review 07",
+        hint: "pp. 190–192",
+        data: "data/blue3/unit07/review-07.json",
+        practiceId: "b3:u07:review07",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",
