@@ -10,7 +10,7 @@
   "unitId": "unit-05",
   "unitTitle": "Unit 05 — 의문사 (2)",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 12문항(Words only), Section B 12문항(Words only)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
+  "introKo": "이 연습은 Section A 11문항(Words only), Section B 11문항(Words only)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
   "sections": [
     {
       "id": "A",
@@ -269,12 +269,12 @@
       "promptKo": "그 가수는 몇 살이니?",
       "promptEn": "A: How old is the singer?\nB: He's thirty-two years old.",
       "accept": [
-        "How old"
+        "How|old"
       ],
-      "blanks": 1,
+      "blanks": 2,
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "How old"
+      "exampleAnswer": "How|old"
     },
     {
       "id": "b02",
@@ -286,11 +286,11 @@
       "label": "B2",
       "type": "fill",
       "promptKo": "리본 길이는 얼마나 되니?",
-      "promptEn": "A: How _____ is the ribbon?\nB: It's one meter long.",
+      "promptEn": "A: _____ _____ is the ribbon?\nB: It's one meter long.",
       "accept": [
-        "How long"
+        "How|long"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b03",
@@ -302,11 +302,11 @@
       "label": "B3",
       "type": "fill",
       "promptKo": "N서울타워는 높이가 얼마나 되니?",
-      "promptEn": "A: How _____ is N Seoul Tower?\nB: It's 360 meters tall.",
+      "promptEn": "A: _____ _____ is N Seoul Tower?\nB: It's 360 meters tall.",
       "accept": [
-        "How tall"
+        "How|tall"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b04",
@@ -318,11 +318,11 @@
       "label": "B4",
       "type": "fill",
       "promptKo": "자전거를 얼마나 자주 타니?",
-      "promptEn": "A: How _____ do you ride a bicycle?\nB: I ride it every day.",
+      "promptEn": "A: _____ _____ do you ride a bicycle?\nB: I ride it every day.",
       "accept": [
-        "How often"
+        "How|often"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b05",
@@ -334,11 +334,11 @@
       "label": "B5",
       "type": "fill",
       "promptKo": "치즈를 얼마나 사니?",
-      "promptEn": "A: How _____ cheese do you buy?\nB: I buy two loaves every day.",
+      "promptEn": "A: _____ _____ cheese do you buy?\nB: I buy two loaves every day.",
       "accept": [
-        "How much"
+        "How|much"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b06",
@@ -350,11 +350,11 @@
       "label": "B6",
       "type": "fill",
       "promptKo": "Tom은 얼마나 자주 고양이에게 먹이를 주니?",
-      "promptEn": "A: How _____ does Tom feed his cat?\nB: He feeds her twice a day.",
+      "promptEn": "A: _____ _____ does Tom feed his cat?\nB: He feeds her twice a day.",
       "accept": [
-        "How often"
+        "How|often"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b07",
@@ -366,11 +366,11 @@
       "label": "B7",
       "type": "fill",
       "promptKo": "영어 선생님은 몇 살이니?",
-      "promptEn": "A: How _____ is your English teacher?\nB: She's forty years old.",
+      "promptEn": "A: _____ _____ is your English teacher?\nB: She's forty years old.",
       "accept": [
-        "How old"
+        "How|old"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b08",
@@ -382,11 +382,11 @@
       "label": "B8",
       "type": "fill",
       "promptKo": "차에 설탕을 얼마나 넣니?",
-      "promptEn": "A: How _____ sugar do you put in the tea?\nB: I put a spoonful of sugar.",
+      "promptEn": "A: _____ _____ sugar do you put in the tea?\nB: I put a spoonful of sugar.",
       "accept": [
-        "How much"
+        "How|much"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b09",
@@ -398,11 +398,11 @@
       "label": "B9",
       "type": "fill",
       "promptKo": "Amy는 축구를 얼마나 오래 하니?",
-      "promptEn": "A: How _____ does Amy play soccer?\nB: For two hours.",
+      "promptEn": "A: _____ _____ does Amy play soccer?\nB: For two hours.",
       "accept": [
-        "How long"
+        "How|long"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b10",
@@ -414,11 +414,11 @@
       "label": "B10",
       "type": "fill",
       "promptKo": "샌드위치를 하루에 몇 개 만들니?",
-      "promptEn": "A: How _____ sandwiches do you make?\nB: I make one hundred a day.",
+      "promptEn": "A: _____ _____ sandwiches do you make?\nB: I make one hundred a day.",
       "accept": [
-        "How many"
+        "How|many"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b11",
@@ -430,11 +430,11 @@
       "label": "B11",
       "type": "fill",
       "promptKo": "가게는 여기서 얼마나 멀니?",
-      "promptEn": "A: How _____ is the store from here?\nB: It's a kilometer from here.",
+      "promptEn": "A: _____ _____ is the store from here?\nB: It's a kilometer from here.",
       "accept": [
-        "How far"
+        "How|far"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b12",
@@ -446,11 +446,11 @@
       "label": "B12",
       "type": "fill",
       "promptKo": "연못에 오리가 몇 마리 있니?",
-      "promptEn": "A: How _____ ducks are there in the pond?\nB: There are eleven.",
+      "promptEn": "A: _____ _____ ducks are there in the pond?\nB: There are eleven.",
       "accept": [
-        "How many"
+        "How|many"
       ],
-      "blanks": 1
+      "blanks": 2
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "practiceId": "b3:u05:review05",
+  "practiceId": "b3:u05:review-05",
   "title": "Review 05",
   "subtitle": "Unit 05 의문사 (2) (pp. 135–137)",
   "pages": "135–137",
@@ -45,7 +45,7 @@
       "id": "4-5",
       "title": "[4–5]",
       "instructionKo": "[4–5] 다음 중 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
-      "directionKo": "다음 중 잘못된 문장을 고르세요.",
+      "directionKo": "잘못된 문장을 고르세요.",
       "ruleKo": "보기 중 하나를 골라 누르세요.",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
@@ -234,12 +234,12 @@
       "id": "q04",
       "section": "4-5",
       "sectionTitle": "Section 4-5",
-      "sectionInstructionKo": "[4–5] 다음 중 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "sectionInstructionKo": "[4–5] 다음 중 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "4",
       "type": "mc",
-      "promptKo": "알맞은 문장을 고르세요.",
+      "promptKo": "잘못된 문장을 고르세요.",
       "promptEn": "",
       "choices": [
         "Where is your bag?",
@@ -256,12 +256,12 @@
       "id": "q05",
       "section": "4-5",
       "sectionTitle": "Section 4-5",
-      "sectionInstructionKo": "[4–5] 다음 중 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "sectionInstructionKo": "[4–5] 다음 중 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "5",
       "type": "mc",
-      "promptKo": "알맞은 문장을 고르세요.",
+      "promptKo": "잘못된 문장을 고르세요.",
       "promptEn": "",
       "choices": [
         "How often do you play soccer?",
@@ -467,7 +467,7 @@
       "label": "15",
       "type": "fill",
       "promptKo": "민호는 얼마나 자주 수영을 하러 가니?",
-      "promptEn": "How _____ does Minho go swimming?",
+      "promptEn": "A: _____ _____ does Minho go swimming?",
       "accept": [
         "How|often"
       ],
@@ -483,7 +483,7 @@
       "label": "16",
       "type": "fill",
       "promptKo": "그 농구 선수는 키가 얼마나 크니?",
-      "promptEn": "How _____ is the basketball player?",
+      "promptEn": "A: _____ _____ is the basketball player?",
       "accept": [
         "How|tall"
       ],
@@ -499,7 +499,7 @@
       "label": "17",
       "type": "sentence",
       "promptKo": "David는 야구를 얼마나 오래 하니?",
-      "promptEn": "<u>How long do David play baseball?</u>",
+      "promptEn": "How long <u>do</u> David play baseball?",
       "accept": [
         "How long does David play baseball?"
       ]
@@ -514,7 +514,7 @@
       "label": "18",
       "type": "sentence",
       "promptKo": "David는 펜을 몇 자루 가지고 있니?",
-      "promptEn": "<u>How many pen does David have?</u>",
+      "promptEn": "How many <u>pen</u> does David have?",
       "accept": [
         "How many pens does David have?"
       ]

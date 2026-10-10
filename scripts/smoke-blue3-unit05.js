@@ -86,5 +86,22 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
   }
   console.log(f.padEnd(24), (d.practiceId || "").padEnd(24), "items", d.items.length, "ok", ok, "timer", d.timerMinutes);
 }
+// Spot-checks from independent audit (ordered multi-blank, Jump §B aux)
+const jump = JSON.parse(fs.readFileSync(path.join(DATA, "lesson01-jump.json"), "utf8"));
+const fly = JSON.parse(fs.readFileSync(path.join(DATA, "lesson01-fly.json"), "utf8"));
+const jB2 = jump.items.find((it) => it.id === "b02");
+if (!E.gradeItem(jB2, { value: "does" }) || E.gradeItem(jB2, { value: "How" })) {
+  bad++;
+  console.log("SPOT jump-b02 aux does");
+}
+const fA15 = fly.items.find((it) => it.id === "a15");
+if (
+  !E.gradeItem(fA15, { parts: ["is", "the", "weather"], value: "is the weather" }) ||
+  E.gradeItem(fA15, { parts: ["the", "is", "weather"], value: "the is weather" })
+) {
+  bad++;
+  console.log("SPOT fly-a15 ordered is|the|weather");
+}
+
 console.log(bad ? "FAILURES: " + bad : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)");
 process.exit(bad ? 1 : 0);

@@ -10,7 +10,7 @@
   "unitId": "unit-05",
   "unitTitle": "Unit 05 — 의문사 (2)",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 12문항(Choose), Section B 12문항(Choose)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
+  "introKo": "이 연습은 Section A 11문항(Choose), Section B 11문항(Choose)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
   "sections": [
     {
       "id": "A",
@@ -33,7 +33,8 @@
         "A9",
         "A10",
         "A11",
-        "A12"
+        "A12",
+        "A13"
       ]
     },
     {
@@ -57,7 +58,8 @@
         "B9",
         "B10",
         "B11",
-        "B12"
+        "B12",
+        "B13"
       ]
     }
   ],
@@ -71,8 +73,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A1",
       "type": "mc",
-      "promptKo": "A: ( When / Where ) do you go to school?\nB: I go to school at eight thirty.",
-      "promptEn": "When",
+      "promptKo": "언제 학교에 가니?",
+      "promptEn": "A: ( When / Where ) do you go to school?\nB: I go to school at eight thirty.",
       "choices": [
         "When",
         "Where"
@@ -93,8 +95,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A2",
       "type": "mc",
-      "promptKo": "A: ( How / Why ) do you go home?\nB: I go home by bicycle.",
-      "promptEn": "How",
+      "promptKo": "집에 어떻게 가니?",
+      "promptEn": "A: ( How / Why ) do you go home?\nB: I go home by bicycle.",
       "choices": [
         "How",
         "Why"
@@ -112,8 +114,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A3",
       "type": "mc",
-      "promptKo": "A: ( How / Where ) is David?\nB: He is in the classroom.",
-      "promptEn": "Where",
+      "promptKo": "David는 어디에 있니?",
+      "promptEn": "A: ( How / Where ) is David?\nB: He is in the classroom.",
       "choices": [
         "How",
         "Where"
@@ -131,8 +133,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A4",
       "type": "mc",
-      "promptKo": "A: ( When / Why ) do you like winter?\nB: Because I can skate.",
-      "promptEn": "Why",
+      "promptKo": "왜 겨울을 좋아하니?",
+      "promptEn": "A: ( When / Why ) do you like winter?\nB: Because I can skate.",
       "choices": [
         "When",
         "Why"
@@ -150,8 +152,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A5",
       "type": "mc",
-      "promptKo": "A: ( When / How ) is Christmas?\nB: It's on December the 25th.",
-      "promptEn": "When",
+      "promptKo": "크리스마스는 언제니?",
+      "promptEn": "A: ( When / How ) is Christmas?\nB: It's on December the 25th.",
       "choices": [
         "When",
         "How"
@@ -169,8 +171,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A6",
       "type": "mc",
-      "promptKo": "A: ( Why / Where ) are they dancing?\nB: They are dancing behind the building.",
-      "promptEn": "Where",
+      "promptKo": "그들은 어디에서 춤을 추고 있니?",
+      "promptEn": "A: ( Why / Where ) are they dancing?\nB: They are dancing behind the building.",
       "choices": [
         "Why",
         "Where"
@@ -188,8 +190,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A7",
       "type": "mc",
-      "promptKo": "A: ( Where / How ) do you go to the zoo?\nB: I go there by subway.",
-      "promptEn": "How",
+      "promptKo": "동물원에 어떻게 가니?",
+      "promptEn": "A: ( Where / How ) do you go to the zoo?\nB: I go there by subway.",
       "choices": [
         "Where",
         "How"
@@ -207,8 +209,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A8",
       "type": "mc",
-      "promptKo": "A: ( Why / How ) are you crying?\nB: Because I miss my puppy.",
-      "promptEn": "Why",
+      "promptKo": "왜 울고 있니?",
+      "promptEn": "A: ( Why / How ) are you crying?\nB: Because I miss my puppy.",
       "choices": [
         "Why",
         "How"
@@ -226,8 +228,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A9",
       "type": "mc",
-      "promptKo": "A: ( Where / When ) does the movie begin?\nB: It begins at three p.m.",
-      "promptEn": "When",
+      "promptKo": "영화는 언제 시작하니?",
+      "promptEn": "A: ( Where / When ) does the movie begin?\nB: It begins at three p.m.",
       "choices": [
         "Where",
         "When"
@@ -245,8 +247,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A10",
       "type": "mc",
-      "promptKo": "A: ( Where / How ) is my backpack?\nB: It's on the chair.",
-      "promptEn": "Where",
+      "promptKo": "내 배낭은 어디에 있니?",
+      "promptEn": "A: ( Where / How ) is my backpack?\nB: It's on the chair.",
       "choices": [
         "Where",
         "How"
@@ -264,8 +266,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A11",
       "type": "mc",
-      "promptKo": "A: ( Why / How ) is this sweater?\nB: It's pretty.",
-      "promptEn": "How",
+      "promptKo": "이 스웨터는 어때?",
+      "promptEn": "A: ( Why / How ) is this sweater?\nB: It's pretty.",
       "choices": [
         "Why",
         "How"
@@ -283,8 +285,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A12",
       "type": "mc",
-      "promptKo": "A: ( Where / Why ) do you hate beans?\nB: Because they aren't delicious.",
-      "promptEn": "Why",
+      "promptKo": "왜 콩을 싫어하니?",
+      "promptEn": "A: ( Where / Why ) do you hate beans?\nB: Because they aren't delicious.",
       "choices": [
         "Where",
         "Why"

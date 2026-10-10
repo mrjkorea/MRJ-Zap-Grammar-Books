@@ -128,8 +128,8 @@ const FULL = "Full sentence · 문장 전체";
   const instrB =
     "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)";
   const sections = [
-    sec("A", "Section A", instrA, "다음 대화에서 의문사를 찾아 동그라미 하세요.", "동그라미 친 의문사만 쓰세요.", "words", WORDS, 5, 1, labelsFrom(5, 2, "A")),
-    sec("B", "Section B", instrB, "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요.", "알맞은 뜻을 하나 골라 누르세요.", "choice", CHOOSE, 5, 1, labelsFrom(5, 2, "B")),
+    sec("A", "Section A", instrA, "다음 대화에서 의문사를 찾아 동그라미 하세요.", "동그라미 친 의문사만 쓰세요.", "words", WORDS, 4, 1, labelsFrom(5, 2, "A")),
+    sec("B", "Section B", instrB, "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요.", "알맞은 뜻을 하나 골라 누르세요.", "choice", CHOOSE, 4, 1, labelsFrom(5, 2, "B")),
   ];
   const meanChoices = ["a. 언제", "b. 어디에(서)"];
   const items = [
@@ -163,8 +163,8 @@ const FULL = "Full sentence · 문장 전체";
   const instrB =
     "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)";
   const sections = [
-    sec("A", "Section A", instrA, "다음 대화에서 의문사를 찾아 동그라미 하세요.", "동그라미 친 의문사만 쓰세요.", "words", WORDS, 5, 1, labelsFrom(5, 2, "A")),
-    sec("B", "Section B", instrB, "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요.", "알맞은 뜻을 하나 골라 누르세요.", "choice", CHOOSE, 5, 1, labelsFrom(5, 2, "B")),
+    sec("A", "Section A", instrA, "다음 대화에서 의문사를 찾아 동그라미 하세요.", "동그라미 친 의문사만 쓰세요.", "words", WORDS, 4, 1, labelsFrom(5, 2, "A")),
+    sec("B", "Section B", instrB, "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요.", "알맞은 뜻을 하나 골라 누르세요.", "choice", CHOOSE, 4, 1, labelsFrom(5, 2, "B")),
   ];
   const meanChoices = ["a. 어떤/어떻게", "b. 왜"];
   const items = [
@@ -195,8 +195,8 @@ const FULL = "Full sentence · 문장 전체";
   const instrB =
     "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)";
   const sections = [
-    sec("A", "Section A", instrA, "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 12, 1, labelsFrom(12, 2, "A")),
-    sec("B", "Section B", instrB, "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 12, 1, labelsFrom(12, 2, "B")),
+    sec("A", "Section A", instrA, "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 11, 1, labelsFrom(12, 2, "A")),
+    sec("B", "Section B", instrB, "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 11, 1, labelsFrom(12, 2, "B")),
   ];
   const aData = [
     ["When", "Where", "When", "A: ( When / Where ) do you go to school?\nB: I go to school at eight thirty.", "언제 학교에 가니?"],
@@ -228,12 +228,12 @@ const FULL = "Full sentence · 문장 전체";
   ];
   const items = [
     ex(
-      mc("a01", "A", "A1", instrA, CHOOSE, aData[0][3], aData[0][2], [aData[0][0], aData[0][1]], aData[0][2]),
+      mc("a01", "A", "A1", instrA, CHOOSE, aData[0][4], aData[0][3], [aData[0][0], aData[0][1]], aData[0][2]),
       aData[0][2]
     ),
   ];
   aData.slice(1).forEach((row, i) => {
-    items.push(mc("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), instrA, CHOOSE, row[3], row[2], [row[0], row[1]], row[2]));
+    items.push(mc("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), instrA, CHOOSE, row[4], row[3], [row[0], row[1]], row[2]));
   });
   items.push(
     ex(
@@ -253,10 +253,11 @@ const FULL = "Full sentence · 문장 전체";
 // —— Lesson 01 Jump (pp. 121–122) ——
 (function lesson01Jump() {
   const instrA = "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 의문사 한 단어만 쓰세요. (문장 전체를 쓰지 마세요.)";
-  const instrB = "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 의문사 한 단어만 쓰세요. (문장 전체를 쓰지 마세요.)";
+  const instrB =
+    "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 do/does/is/are 한 단어만 쓰세요. (문장 전체를 쓰지 마세요.)";
   const sections = [
-    sec("A", "Section A", instrA, "다음 대화의 빈칸에 알맞은 말을 쓰세요.", "의문사 한 단어만 쓰세요.", "words", WORDS_ONLY, 12, 1, labelsFrom(12, 2, "A")),
-    sec("B", "Section B", instrB, "다음 대화의 빈칸에 알맞은 말을 쓰세요.", "의문사 한 단어만 쓰세요.", "words", WORDS_ONLY, 12, 1, labelsFrom(12, 2, "B")),
+    sec("A", "Section A", instrA, "다음 대화의 빈칸에 알맞은 말을 쓰세요.", "의문사 한 단어만 쓰세요.", "words", WORDS_ONLY, 11, 1, labelsFrom(12, 2, "A")),
+    sec("B", "Section B", instrB, "다음 대화의 빈칸에 알맞은 말을 쓰세요.", "do/does/is/are 한 단어만 쓰세요.", "words", WORDS_ONLY, 11, 1, labelsFrom(12, 2, "B")),
   ];
   const aAns = ["When", "Where", "How", "Why", "When", "Where", "How", "Why", "When", "How", "Where", "How"];
   const aPrompts = [
@@ -273,7 +274,7 @@ const FULL = "Full sentence · 문장 전체";
     ["A: _____ does your cat sleep?\nB: She sleeps on the sofa.", "네 고양이는 어디에서 잠을 자니?"],
     ["A: _____ is your grandma's cake?\nB: It's really delicious!", "할머니 케이크는 어때?"],
   ];
-  const bAns = ["Where", "How", "Where", "Why", "When", "How", "Why", "How", "Why", "How", "Where", "When"];
+  const bAns = ["does", "do", "do", "does", "do", "does", "are", "is", "are", "is", "is"];
   const bPrompts = [
     ["A: _____ do you do your homework?\nB: I do my homework at home.", "어디에서 숙제를 하니?"],
     ["A: How _____ John come here?\nB: He comes here on foot.", "John은 어떻게 여기에 오니?"],
@@ -291,7 +292,7 @@ const FULL = "Full sentence · 문장 전체";
   const items = [ex(fill("a01", "A", "A1", instrA, WORDS_ONLY, aPrompts[0][1], aPrompts[0][0], [aAns[0]], 1), aAns[0])];
   aPrompts.slice(1).forEach((p, i) => items.push(fill("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), instrA, WORDS_ONLY, p[1], p[0], [aAns[i + 1]], 1)));
   items.push(ex(fill("b01", "B", "B1", instrB, WORDS_ONLY, "어디에서 숙제를 하니?", "A: Where do you do your homework?\nB: I do my homework at home.", ["Where"], 1), "Where"));
-  bPrompts.slice(1).forEach((p, i) => items.push(fill("b" + String(i + 2).padStart(2, "0"), "B", "B" + (i + 2), instrB, WORDS_ONLY, p[1], p[0], [bAns[i + 1]], 1)));
+  bPrompts.slice(1).forEach((p, i) => items.push(fill("b" + String(i + 2).padStart(2, "0"), "B", "B" + (i + 2), instrB, WORDS_ONLY, p[1], p[0], [bAns[i]], 1)));
   writePractice(
     "lesson01-jump.json",
     practice("lesson01-jump", "Grammar Jump", "의문사 when, where, how, why (pp. 121–122)", "121–122", 25, sections, items)
@@ -305,25 +306,25 @@ const FULL = "Full sentence · 문장 전체";
   const instrB =
     "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)";
   const sections = [
-    sec("A", "Section A", instrA, "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.", "빈칸에 들어갈 말만 쓰세요.", "words", WORDS_ONLY, 15, 1, labelsFrom(15, 2, "A")),
-    sec("B", "Section B", instrB, "대답을 보고 다음 의문문을 완성하세요.", "빈칸마다 한 단어씩 쓰세요.", "words", WORDS_ONLY, 12, 1, labelsFrom(12, 2, "B")),
+    sec("A", "Section A", instrA, "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.", "빈칸에 들어갈 말만 쓰세요.", "words", WORDS_ONLY, 14, 1, labelsFrom(15, 2, "A")),
+    sec("B", "Section B", instrB, "대답을 보고 다음 의문문을 완성하세요.", "빈칸마다 한 단어씩 쓰세요.", "words", WORDS_ONLY, 11, 1, labelsFrom(12, 2, "B")),
   ];
   const aData = [
-    ["A: <u>When</u> are my socks? B: On the bed.", ["Where"], 1, "내 양말은 어디에 있니?"],
-    ["A: <u>How</u> does the concert begin? B: It begins at nine.", ["When"], 1, "콘서트는 언제 시작하니?"],
-    ["A: <u>Where</u> are Johnny? B: On the playground.", ["is"], 1, "Johnny는 어디에 있니?"],
-    ["A: <u>Why</u> do they go to Japan? B: By ship.", ["How"], 1, "그들은 일본에 어떻게 가니?"],
-    ["A: <u>Where</u> do you like apples? B: Because they're sweet.", ["Why"], 1, "왜 사과를 좋아하니?"],
-    ["A: <u>When</u> do Tom take a shower? B: In the morning.", ["does"], 1, "Tom은 언제 샤워를 하니?"],
-    ["A: <u>Where</u> are you staying in bed? B: Because I'm sick.", ["Why"], 1, "왜 침대에 누워 있니?"],
-    ["A: <u>Why</u> do you watch TV? B: After dinner.", ["When"], 1, "언제 TV를 보니?"],
-    ["A: <u>Where</u> is my sneakers? B: Next to the box.", ["are"], 1, "내 운동화는 어디에 있니?"],
-    ["A: <u>When</u> do she bake cookies? B: On Sundays.", ["does"], 1, "그녀는 언제 쿠키를 굽니?"],
-    ["A: <u>When</u> be Hangeul Day? B: It's October the 9th.", ["is"], 1, "한글날은 언제니?"],
-    ["A: <u>Why</u> do you go swimming? B: Every morning.", ["When"], 1, "언제 수영을 가니?"],
-    ["A: <u>How</u> does you spell his name? B: P-A-T-R-I-C-K.", ["do"], 1, "그의 이름은 어떻게 철자를 쓰니?"],
-    ["A: <u>Where</u> he is now? B: In the garage.", ["is|he"], 2, "그는 지금 어디에 있니?"],
-    ["A: <u>How</u> the weather is now? B: It's raining.", ["is|the weather"], 2, "지금 날씨는 어때?"],
+    [u("A: When are my socks? B: On the bed.", "When"), ["Where"], 1, "내 양말은 어디에 있니?"],
+    [u("A: How does the concert begin? B: It begins at nine.", "How"), ["When"], 1, "콘서트는 언제 시작하니?"],
+    [u("A: Where are Johnny? B: On the playground.", "are"), ["is"], 1, "Johnny는 어디에 있니?"],
+    [u("A: Why do they go to Japan? B: By ship.", "Why"), ["How"], 1, "그들은 일본에 어떻게 가니?"],
+    [u("A: Where do you like apples? B: Because they're sweet.", "Where"), ["Why"], 1, "왜 사과를 좋아하니?"],
+    [u("A: When do Tom take a shower? B: In the morning.", "do"), ["does"], 1, "Tom은 언제 샤워를 하니?"],
+    [u("A: Where are you staying in bed? B: Because I'm sick.", "Where"), ["Why"], 1, "왜 침대에 누워 있니?"],
+    [u("A: Why do you watch TV? B: After dinner.", "Why"), ["When"], 1, "언제 TV를 보니?"],
+    [u("A: Where is my sneakers? B: Next to the box.", "is"), ["are"], 1, "내 운동화는 어디에 있니?"],
+    [u("A: When do she bake cookies? B: On Sundays.", "do"), ["does"], 1, "그녀는 언제 쿠키를 굽니?"],
+    [u("A: When be Hangeul Day? B: It's October the 9th.", "be"), ["is"], 1, "한글날은 언제니?"],
+    [u("A: Why do you go swimming? B: Every morning.", "Why"), ["When"], 1, "언제 수영을 가니?"],
+    [u("A: How does you spell his name? B: P-A-T-R-I-C-K.", "does"), ["do"], 1, "그의 이름은 어떻게 철자를 쓰니?"],
+    [u("A: Where he is now? B: In the garage.", "he is"), ["is|he"], 2, "그는 지금 어디에 있니?"],
+    [u("A: How the weather is now? B: It's raining.", "the weather is"), ["is|the|weather"], 3, "지금 날씨는 어때?"],
   ];
   const bData = [
     ["A: _____ _____ you have lunch?\nB: We have lunch at noon.", ["When|do"], 2, "점심은 언제 먹니?"],
@@ -362,8 +363,8 @@ const FULL = "Full sentence · 문장 전체";
   const instrB =
     "다음 문장의 빈칸에 알맞은 말을 찾아 선으로 연결하세요. How many 또는 How much를 골라 누르세요. (직접 쓰지 않아요.)";
   const sections = [
-    sec("A", "Section A", instrA, "다음 대화에서 how many 또는 how much를 찾아 동그라미 하세요.", "how many/much와 명사를 쓰세요.", "words", WORDS_ONLY, 5, 1, labelsFrom(5, 2, "A")),
-    sec("B", "Section B", instrB, "다음 문장의 빈칸에 알맞은 말을 찾아 선으로 연결하세요.", "How many 또는 How much를 골라 누르세요.", "choice", CHOOSE, 5, 1, labelsFrom(5, 2, "B")),
+    sec("A", "Section A", instrA, "다음 대화에서 how many 또는 how much를 찾아 동그라미 하세요.", "how many/much와 명사를 쓰세요.", "words", WORDS_ONLY, 4, 1, labelsFrom(5, 2, "A")),
+    sec("B", "Section B", instrB, "다음 문장의 빈칸에 알맞은 말을 찾아 선으로 연결하세요.", "How many 또는 How much를 골라 누르세요.", "choice", CHOOSE, 4, 1, labelsFrom(5, 2, "B")),
   ];
   const hm = ["How many", "How much"];
   const items = [
@@ -407,8 +408,8 @@ const FULL = "Full sentence · 문장 전체";
   const instrB =
     "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)";
   const sections = [
-    sec("A", "Section A", instrA, "다음 대화에서 「how + 형용사/부사」를 찾아 동그라미 하세요.", "동그라미 친 말만 쓰세요.", "words", WORDS, 5, 1, labelsFrom(5, 2, "A")),
-    sec("B", "Section B", instrB, "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요.", "알맞은 뜻을 하나 골라 누르세요.", "choice", CHOOSE, 5, 1, labelsFrom(5, 2, "B")),
+    sec("A", "Section A", instrA, "다음 대화에서 「how + 형용사/부사」를 찾아 동그라미 하세요.", "동그라미 친 말만 쓰세요.", "words", WORDS, 4, 1, labelsFrom(5, 2, "A")),
+    sec("B", "Section B", instrB, "다음 문장에서 밑줄 친 부분의 우리말 뜻을 찾아 선으로 연결하세요.", "알맞은 뜻을 하나 골라 누르세요.", "choice", CHOOSE, 4, 1, labelsFrom(5, 2, "B")),
   ];
   const meanChoices = ["a. 몇 살", "b. 얼마나 키가 큰", "c. 얼마나 자주", "d. 얼마나 먼", "e. 얼마나 길이가 긴"];
   const items = [
@@ -439,8 +440,8 @@ const FULL = "Full sentence · 문장 전체";
   const instrB =
     "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)";
   const sections = [
-    sec("A", "Section A", instrA, "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 12, 1, labelsFrom(12, 2, "A")),
-    sec("B", "Section B", instrB, "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 12, 1, labelsFrom(12, 2, "B")),
+    sec("A", "Section A", instrA, "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 11, 1, labelsFrom(12, 2, "A")),
+    sec("B", "Section B", instrB, "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 11, 1, labelsFrom(12, 2, "B")),
   ];
   const aData = [
     ["many", "much", "many", "A: How ( many / much ) tables are there in the restaurant?\nB: There are ten tables.", "식당에 테이블이 몇 개 있니?"],
@@ -487,8 +488,8 @@ const FULL = "Full sentence · 문장 전체";
   const instrA = "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)";
   const instrB = "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)";
   const sections = [
-    sec("A", "Section A", instrA, "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요.", "한국어 보기에서 골라 쓰세요.", "words", WORDS, 13, 1, labelsFrom(13, 2, "A")),
-    sec("B", "Section B", instrB, "다음 대화의 빈칸에 알맞은 말을 쓰세요.", "how 구문만 쓰세요.", "words", WORDS_ONLY, 15, 1, labelsFrom(15, 2, "B")),
+    sec("A", "Section A", instrA, "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요.", "한국어 보기에서 골라 쓰세요.", "words", WORDS, 12, 1, labelsFrom(13, 2, "A")),
+    sec("B", "Section B", instrB, "다음 대화의 빈칸에 알맞은 말을 쓰세요.", "how 구문만 쓰세요.", "words", WORDS_ONLY, 14, 1, labelsFrom(15, 2, "B")),
   ];
   const catAns = ["가격", "개수", "나이", "키", "횟수", "기간", "거리", "기간", "길이", "양", "횟수", "개수", "나이"];
   const catPrompts = [
@@ -558,23 +559,28 @@ const FULL = "Full sentence · 문장 전체";
     ["A: <u>How many</u> tea do you drink? B: I drink three cups of tea a day.", ["How", "much"], "차를 얼마나 마시니?"],
   ];
   const bData = [
-    ["How long", "리본 길이는 얼마나 되니?", "A: How _____ is the ribbon?\nB: It's one meter long."],
-    ["How tall", "N서울타워는 높이가 얼마나 되니?", "A: How _____ is N Seoul Tower?\nB: It's 360 meters tall."],
-    ["How often", "자전거를 얼마나 자주 타니?", "A: How _____ do you ride a bicycle?\nB: I ride it every day."],
-    ["How much", "치즈를 얼마나 사니?", "A: How _____ cheese do you buy?\nB: I buy two loaves every day."],
-    ["How often", "Tom은 얼마나 자주 고양이에게 먹이를 주니?", "A: How _____ does Tom feed his cat?\nB: He feeds her twice a day."],
-    ["How old", "영어 선생님은 몇 살이니?", "A: How _____ is your English teacher?\nB: She's forty years old."],
-    ["How much", "차에 설탕을 얼마나 넣니?", "A: How _____ sugar do you put in the tea?\nB: I put a spoonful of sugar."],
-    ["How long", "Amy는 축구를 얼마나 오래 하니?", "A: How _____ does Amy play soccer?\nB: For two hours."],
-    ["How many", "샌드위치를 하루에 몇 개 만들니?", "A: How _____ sandwiches do you make?\nB: I make one hundred a day."],
-    ["How far", "가게는 여기서 얼마나 멀니?", "A: How _____ is the store from here?\nB: It's a kilometer from here."],
-    ["How many", "연못에 오리가 몇 마리 있니?", "A: How _____ ducks are there in the pond?\nB: There are eleven."],
+    ["How|long", "리본 길이는 얼마나 되니?", "A: _____ _____ is the ribbon?\nB: It's one meter long."],
+    ["How|tall", "N서울타워는 높이가 얼마나 되니?", "A: _____ _____ is N Seoul Tower?\nB: It's 360 meters tall."],
+    ["How|often", "자전거를 얼마나 자주 타니?", "A: _____ _____ do you ride a bicycle?\nB: I ride it every day."],
+    ["How|much", "치즈를 얼마나 사니?", "A: _____ _____ cheese do you buy?\nB: I buy two loaves every day."],
+    ["How|often", "Tom은 얼마나 자주 고양이에게 먹이를 주니?", "A: _____ _____ does Tom feed his cat?\nB: He feeds her twice a day."],
+    ["How|old", "영어 선생님은 몇 살이니?", "A: _____ _____ is your English teacher?\nB: She's forty years old."],
+    ["How|much", "차에 설탕을 얼마나 넣니?", "A: _____ _____ sugar do you put in the tea?\nB: I put a spoonful of sugar."],
+    ["How|long", "Amy는 축구를 얼마나 오래 하니?", "A: _____ _____ does Amy play soccer?\nB: For two hours."],
+    ["How|many", "샌드위치를 하루에 몇 개 만들니?", "A: _____ _____ sandwiches do you make?\nB: I make one hundred a day."],
+    ["How|far", "가게는 여기서 얼마나 멀니?", "A: _____ _____ is the store from here?\nB: It's a kilometer from here."],
+    ["How|many", "연못에 오리가 몇 마리 있니?", "A: _____ _____ ducks are there in the pond?\nB: There are eleven."],
   ];
   const items = [ex(fill("a01", "A", "A1", instrA, WORDS_ONLY, aData[0][2], aData[0][0], ["How|much"], 2), "How|much")];
   aData.slice(1).forEach((row, i) => items.push(fill("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), instrA, WORDS_ONLY, row[2], row[0], [row[1].join("|")], 2)));
-  items.push(ex(fill("b01", "B", "B1", instrB, WORDS_ONLY, "그 가수는 몇 살이니?", "A: How old is the singer?\nB: He's thirty-two years old.", ["How old"], 1), "How old"));
+  items.push(
+    ex(
+      fill("b01", "B", "B1", instrB, WORDS_ONLY, "그 가수는 몇 살이니?", "A: How old is the singer?\nB: He's thirty-two years old.", ["How|old"], 2),
+      "How|old"
+    )
+  );
   bData.forEach((row, i) =>
-    items.push(fill("b" + String(i + 2).padStart(2, "0"), "B", "B" + (i + 2), instrB, WORDS_ONLY, row[1], row[2], [row[0]], 1))
+    items.push(fill("b" + String(i + 2).padStart(2, "0"), "B", "B" + (i + 2), instrB, WORDS_ONLY, row[1], row[2], [row[0]], 2))
   );
   writePractice(
     "lesson02-fly.json",
@@ -589,7 +595,7 @@ const FULL = "Full sentence · 문장 전체";
   const sections = [
     sec("1-2", "[1–2]", "[1–2] 다음 중 빈칸에 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.", "빈칸에 알맞은 말을 고르세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 2, 0, ["1", "2"]),
     sec("3", "[3]", "[3] 다음 중 빈칸에 공통으로 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.", "공통으로 알맞은 말을 고르세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 1, 0, ["3"]),
-    sec("4-5", "[4–5]", "[4–5] 다음 중 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.", "알맞은 문장을 고르세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 2, 0, ["4", "5"]),
+    sec("4-5", "[4–5]", "[4–5] 다음 중 잘못된 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.", "잘못된 문장을 고르세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 2, 0, ["4", "5"]),
     sec("6", "[6]", "[6] 다음 대화의 빈칸에 알맞은 말이 순서대로 바르게 짝지어진 것을 고르세요.", "짝지어진 것을 고르세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 1, 0, ["6"]),
     sec("7-10", "[7–10]", "[7–10] 다음 중 밑줄 친 부분 중 잘못된 것을 고르거나, 짝지어진 대화가 어색한 것을 고르세요.", "잘못된 것 또는 어색한 것을 고르세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 4, 0, ["7", "8", "9", "10"]),
     sec("11-12", "[11–12]", "[11–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요.", "괄호 안에서 알맞은 말을 고르세요.", "보기 중 하나를 골라 누르세요.", "choice", CHOOSE, 2, 0, ["11", "12"]),
@@ -604,7 +610,7 @@ const FULL = "Full sentence · 문장 전체";
     c("q01", "1-2", "1", sections[0].instructionKo, "A: _____ does Paul get up?\nB: He gets up at seven o'clock.", ["How", "When", "Why", "Where"], ["When", "2"], "Paul은 몇 시에 일어나니?"),
     c("q02", "1-2", "2", sections[0].instructionKo, "A: _____ is she late?\nB: Because she gets up late.", ["What", "How", "When", "Why"], ["Why", "4"], "그녀는 왜 늦었니?"),
     c("q03", "3", "3", sections[1].instructionKo, "• _____ far is the library from here?\n• _____ old is Paula?", ["What", "When", "How", "Why"], ["How", "3"], "빈칸에 공통으로 들어갈 말을 고르세요."),
-    c("q04", "4-5", "4", sections[2].instructionKo, "", ["Where is your bag?", "How is this book?", "When is your birthday?", "Why Tom is at home?"], ["Why Tom is at home?", "4"], "알맞은 문장을 고르세요."),
+    c("q04", "4-5", "4", sections[2].instructionKo, "", ["Where is your bag?", "How is this book?", "When is your birthday?", "Why Tom is at home?"], ["Why Tom is at home?", "4"], "잘못된 문장을 고르세요."),
     c(
       "q05",
       "4-5",
@@ -618,7 +624,7 @@ const FULL = "Full sentence · 문장 전체";
         "How much time do you need?",
       ],
       ["How long do Emily read a book a day?", "2"],
-      "알맞은 문장을 고르세요."
+      "잘못된 문장을 고르세요."
     ),
     c(
       "q06",
@@ -697,8 +703,28 @@ const FULL = "Full sentence · 문장 전체";
     ),
     fill("q13", "13-14", "13", sections[6].instructionKo, WORDS, "너는 언제 등산을 가니?", "A: _____ do you go hiking?\nB: I go hiking on Saturday.", ["When"], 1),
     fill("q14", "13-14", "14", sections[6].instructionKo, WORDS, "서울 날씨는 어때?", "A: _____ is the weather in Seoul?\nB: It's cloudy.", ["How"], 1),
-    fill("q15", "15-16", "15", sections[7].instructionKo, WORDS_ONLY, "민호는 얼마나 자주 수영을 하러 가니?", "How _____ does Minho go swimming?", ["How|often"], 2),
-    fill("q16", "15-16", "16", sections[7].instructionKo, WORDS_ONLY, "그 농구 선수는 키가 얼마나 크니?", "How _____ is the basketball player?", ["How|tall"], 2),
+    fill(
+      "q15",
+      "15-16",
+      "15",
+      sections[7].instructionKo,
+      WORDS_ONLY,
+      "민호는 얼마나 자주 수영을 하러 가니?",
+      "A: _____ _____ does Minho go swimming?",
+      ["How|often"],
+      2
+    ),
+    fill(
+      "q16",
+      "15-16",
+      "16",
+      sections[7].instructionKo,
+      WORDS_ONLY,
+      "그 농구 선수는 키가 얼마나 크니?",
+      "A: _____ _____ is the basketball player?",
+      ["How|tall"],
+      2
+    ),
     sentence(
       "q17",
       "17-18",
@@ -706,7 +732,7 @@ const FULL = "Full sentence · 문장 전체";
       sections[8].instructionKo,
       SENT,
       "David는 야구를 얼마나 오래 하니?",
-      "<u>How long do David play baseball?</u>",
+      u("How long do David play baseball?", "do"),
       ["How long does David play baseball?"]
     ),
     sentence(
@@ -716,7 +742,7 @@ const FULL = "Full sentence · 문장 전체";
       sections[8].instructionKo,
       SENT,
       "David는 펜을 몇 자루 가지고 있니?",
-      "<u>How many pen does David have?</u>",
+      u("How many pen does David have?", "pen"),
       ["How many pens does David have?"]
     ),
     sentence(
