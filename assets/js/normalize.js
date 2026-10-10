@@ -133,6 +133,43 @@
     return false;
   }
 
+  function permuteParts(arr) {
+    if (arr.length <= 1) return [arr];
+    var out = [];
+    for (var i = 0; i < arr.length; i++) {
+      var rest = arr.slice(0, i).concat(arr.slice(i + 1));
+      var sub = permuteParts(rest);
+      for (var j = 0; j < sub.length; j++) {
+        out.push([arr[i]].concat(sub[j]));
+      }
+    }
+    return out;
+  }
+
+  /** Multi-blank with blanks in any order (accept entry uses | between blank answers). */
+  function matchBlanksAnyOrder(users, acceptList) {
+    users = users || [];
+    if (!acceptList || !acceptList.length) return false;
+    for (var i = 0; i < acceptList.length; i++) {
+      var pattern = String(acceptList[i]);
+      if (pattern.indexOf("|") < 0) {
+        if (matchBlanks(users, [pattern])) return true;
+        continue;
+      }
+      var exp = pattern.split("|");
+      if (exp.length !== users.length) continue;
+      var perms = permuteParts(exp);
+      for (var p = 0; p < perms.length; p++) {
+        var ok = true;
+        for (var b = 0; b < users.length; b++) {
+          if (!matchOne(users[b], perms[p][b])) ok = false;
+        }
+        if (ok) return true;
+      }
+    }
+    return false;
+  }
+
   /** Multi-blank: users[] and accept entry like "are|no" or full phrase */
   function matchBlanks(users, acceptList) {
     users = users || [];
@@ -178,6 +215,7 @@
     normalizePhrase: normalizePhrase,
     matchAccept: matchAccept,
     matchBlanks: matchBlanks,
+    matchBlanksAnyOrder: matchBlanksAnyOrder,
     matchMc: matchMc,
   };
 })(window);

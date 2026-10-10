@@ -1,0 +1,278 @@
+{
+  "practiceId": "b4:u05:lesson02-walk1",
+  "title": "Lesson 02 Walk 1 — 최상급 (2)",
+  "subtitle": "최상급 표현 (p. 126)",
+  "pages": "126",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 비교 — 최상급",
+  "sectionsVersion": 2,
+  "introKo": "Section A 5문항, Section B 10문항. 예시 1개는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "최상급을 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "directionKo": "최상급을 쓰세요.",
+      "ruleKo": "the+최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 10,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "The snail moves the most slowly of the five.",
+      "accept": [
+        "most slowly",
+        "the most slowly"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "It was the worst of all the holidays.",
+      "accept": [
+        "worst",
+        "the worst"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "This flower is the most beautiful in the garden.",
+      "accept": [
+        "most beautiful",
+        "the most beautiful"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "You are the most diligent student in the class.",
+      "accept": [
+        "most diligent",
+        "the most diligent"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Pooh is the most famous bear in the zoo.",
+      "accept": [
+        "most famous",
+        "the most famous"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "difficult → ______",
+      "accept": [
+        "the most difficult"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "the most difficult"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "quickly → ______",
+      "accept": [
+        "the most quickly"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "expensive → ______",
+      "accept": [
+        "the most expensive"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "well → ______",
+      "accept": [
+        "the best"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "interesting → ______",
+      "accept": [
+        "the most interesting"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "bad → ______",
+      "accept": [
+        "the worst"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "beautifully → ______",
+      "accept": [
+        "the most beautifully"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "many → ______",
+      "accept": [
+        "the most"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "slowly → ______",
+      "accept": [
+        "the most slowly"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사나 부사의 최상급을 빈칸에 쓰세요. the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "far → ______",
+      "accept": [
+        "the farthest",
+        "the furthest"
+      ]
+    }
+  ]
+}
