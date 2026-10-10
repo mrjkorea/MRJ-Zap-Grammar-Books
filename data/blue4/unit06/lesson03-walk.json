@@ -1,0 +1,225 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 접속사",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u06:lesson03-walk",
+  "title": "Lesson 03 Walk — 접속사와 문장",
+  "subtitle": "선택 의문문 (p. 153)",
+  "pages": "153",
+  "timerMinutes": 10,
+  "introKo": "Section A는 접속사(·의문사) 찾기, Section B는 대답 보기 알파벳입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "directionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요.",
+      "ruleKo": "의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "instructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "directionKo": "다음 질문에 알맞은 대답을 찾아 그 알파벳을 빈칸에 쓰세요.",
+      "ruleKo": "보기 알파벳(a–e)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 질문에 알맞은 대답을 찾아 그 알파벳을 빈칸에 쓰세요. 보기 알파벳(a–e)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "lw3-a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Is she Korean _____ Chinese?",
+      "promptKo": "그녀는 한국인이니, 중국인이니?",
+      "blanks": 1,
+      "accept": [
+        "or"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "or"
+    },
+    {
+      "id": "lw3-a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Does he like chocolate _____ cookies?",
+      "promptKo": "그는 초콜릿을 좋아하니, 쿠키를 좋아하니?",
+      "blanks": 1,
+      "accept": [
+        "or"
+      ]
+    },
+    {
+      "id": "lw3-a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Which do you like, apples _____ / _____ pears?",
+      "promptKo": "사과와 배 중 어느 것을 좋아하니?",
+      "blanks": 2,
+      "accept": [
+        "Which|or"
+      ],
+      "unordered": true
+    },
+    {
+      "id": "lw3-a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Are these Jane's shoes _____ Tom's shoes?",
+      "promptKo": "이것들은 제인의 신발이니, 톰의 신발이니?",
+      "blanks": 1,
+      "accept": [
+        "or"
+      ]
+    },
+    {
+      "id": "lw3-a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Which will you buy, a bag _____ / _____ a skirt?",
+      "promptKo": "가방과 치마 중 어느 것을 살 거니?",
+      "blanks": 2,
+      "accept": [
+        "Which|or"
+      ],
+      "unordered": true
+    },
+    {
+      "id": "lw3-b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 질문에 알맞은 대답을 찾아 그 알파벳을 빈칸에 쓰세요. 보기 알파벳(a–e)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "Do you want some water or juice?",
+      "promptKo": "물이나 주스를 원하니?",
+      "blanks": 1,
+      "accept": [
+        "d",
+        "D"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "d"
+    },
+    {
+      "id": "lw3-b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 질문에 알맞은 대답을 찾아 그 알파벳을 빈칸에 쓰세요. 보기 알파벳(a–e)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Are they playing badminton or tennis?",
+      "promptKo": "그들은 배드민턴을 하는 중이니, 테니스를 하는 중이니?",
+      "blanks": 1,
+      "accept": [
+        "e",
+        "E"
+      ]
+    },
+    {
+      "id": "lw3-b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 질문에 알맞은 대답을 찾아 그 알파벳을 빈칸에 쓰세요. 보기 알파벳(a–e)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Which is funnier, this book or that book?",
+      "promptKo": "이 책과 저 책 중 어느 것이 더 재미있니?",
+      "blanks": 1,
+      "accept": [
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "lw3-b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 질문에 알맞은 대답을 찾아 그 알파벳을 빈칸에 쓰세요. 보기 알파벳(a–e)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Which do you need, a ruler or scissors?",
+      "promptKo": "자와 가위 중 어느 것이 필요하니?",
+      "blanks": 1,
+      "accept": [
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "lw3-b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 질문에 알맞은 대답을 찾아 그 알파벳을 빈칸에 쓰세요. 보기 알파벳(a–e)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Is it a dolphin or a whale?",
+      "promptKo": "그것은 돌고래니, 고래니?",
+      "blanks": 1,
+      "accept": [
+        "a",
+        "A"
+      ]
+    }
+  ]
+}

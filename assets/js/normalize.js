@@ -134,7 +134,24 @@
   }
 
   /** Multi-blank: users[] and accept entry like "are|no" or full phrase */
-  function matchBlanks(users, acceptList) {
+  function permuteOk(users, exp) {
+    if (users.length !== exp.length) return false;
+    var used = {};
+    function tryMatch(ui) {
+      if (ui >= users.length) return true;
+      for (var j = 0; j < exp.length; j++) {
+        if (used[j]) continue;
+        if (!matchOne(users[ui], exp[j])) continue;
+        used[j] = true;
+        if (tryMatch(ui + 1)) return true;
+        used[j] = false;
+      }
+      return false;
+    }
+    return tryMatch(0);
+  }
+
+  function matchBlanks(users, acceptList, unordered) {
     users = users || [];
     if (!acceptList || !acceptList.length) return false;
     for (var i = 0; i < acceptList.length; i++) {
@@ -147,6 +164,7 @@
             if (!matchOne(users[b], exp[b])) ok = false;
           }
           if (ok) return true;
+          if (unordered && permuteOk(users, exp)) return true;
         }
       }
       if (users.length === 1 && matchAccept(users[0], acceptList[i])) return true;
