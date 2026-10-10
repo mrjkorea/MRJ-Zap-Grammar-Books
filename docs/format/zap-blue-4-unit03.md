@@ -38,7 +38,7 @@ Blue 4 grammar units use **Walk + Run + Jump + Fly** per lesson (two lessons in 
 
 | Practice | Pages | Graded items | Sections | Modes |
 |----------|-------|--------------|----------|-------|
-| lesson01-walk1 | 63 | 9 | A words (2-blank, unordered), B words (4-blank) | words |
+| lesson01-walk1 | 63 | 9 | A words (2-blank ordered: be going to \| verb), B words (4-blank) | words |
 | lesson01-walk2 | 65 | 8 | A words, B sentence | words, sentence |
 | lesson01-run | 66–67 | 28 | A choice MC, B choice MC | choice |
 | lesson01-jump | 68–69 | 27 | A Korean words, B 4-blank words | words |

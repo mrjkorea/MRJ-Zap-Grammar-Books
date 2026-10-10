@@ -183,7 +183,7 @@
       "sectionInstructionKo": "[1–2] 다음 중 잘못된 문장을 고르세요. 보기 중 하나를 골라 누르세요.",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "promptKo": "빈칸을 채우세요."
+      "promptKo": "다음 중 잘못된 문장을 고르세요."
     },
     {
       "id": "q02",
@@ -248,7 +248,7 @@
       "sectionInstructionKo": "[3–4] 다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "promptKo": "의문문·대화 연습"
+      "promptKo": "다음 문장의 빈칸에 알맞은 말을 고르세요."
     },
     {
       "id": "q05",
@@ -427,8 +427,7 @@
       "type": "fill",
       "promptEn": "We are going to study math today. (부정문)\nWe ___ ___ ___ to study math today.",
       "accept": [
-        "are|not|going",
-        "aren't|going"
+        "are|not|going"
       ],
       "blanks": 3,
       "promptKo": "부정문",
@@ -531,7 +530,7 @@
       "sectionInstructionKo": "[19–20] 다음 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요.",
       "answerMode": "sentence",
       "answerModeTag": "Sentence · 문장 전체",
-      "promptKo": "주어진 말을 배열하여 문장을 완성하세요."
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요."
     },
     {
       "id": "q20",
@@ -546,7 +545,7 @@
       "sectionInstructionKo": "[19–20] 다음 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요.",
       "answerMode": "sentence",
       "answerModeTag": "Sentence · 문장 전체",
-      "promptKo": "주어진 말을 배열하여 문장을 완성하세요."
+      "promptKo": "밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요."
     }
   ],
   "introKo": "Review 03 (pp. 82–84): 단원 종합. Check Check 점수표(p. 84)는 채점하지 않습니다."
