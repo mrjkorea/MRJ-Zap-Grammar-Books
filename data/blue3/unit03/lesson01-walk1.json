@@ -10,14 +10,14 @@
   "subtitle": "there+be (p. 63)",
   "pages": "63",
   "timerMinutes": 10,
-  "introKo": "Section A 5문항(there+be), Section B 5문항(장소·위치). 회색 '예시'는 채점하지 않아요. 동그라미 친 말만 쓰세요.",
+  "introKo": "Section A 5문항(there+be·주어), Section B 5문항(장소·위치). 회색 '예시'는 채점하지 않아요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "Section A 다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 쓰세요.",
-      "directionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요.",
-      "ruleKo": "동그라미 친 there+be만 쓰세요.",
+      "instructionKo": "Section A 다음 문장에서 「there+be동사」를 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 첫 빈칸에 동그라미 친 there+be, 둘째 빈칸에 밑줄 친 주어를 순서대로 쓰세요.",
+      "directionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요.",
+      "ruleKo": "첫 빈칸: there+be, 둘째 빈칸: 주어 (순서대로).",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "itemCount": 4,
@@ -52,81 +52,86 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 첫 빈칸에 동그라미 친 there+be, 둘째 빈칸에 밑줄 친 주어를 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "There is a <u>cat</u> under the sofa.",
+      "promptEn": "____ ____ under the sofa.",
       "promptKo": "소파 밑에 고양이 한 마리가 있다.",
+      "blanks": 2,
       "accept": [
-        "There is",
-        "There's"
+        "There is|a cat",
+        "There's|a cat"
       ],
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "There is"
+      "exampleAnswer": "There is · a cat"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 첫 빈칸에 동그라미 친 there+be, 둘째 빈칸에 밑줄 친 주어를 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "There are <u>two chairs</u> in the room.",
+      "promptEn": "____ ____ in the room.",
       "promptKo": "방에 의자 두 개가 있다.",
+      "blanks": 2,
       "accept": [
-        "There are"
+        "There are|two chairs"
       ]
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 첫 빈칸에 동그라미 친 there+be, 둘째 빈칸에 밑줄 친 주어를 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "There is a <u>bee</u> on the flower.",
+      "promptEn": "____ ____ on the flower.",
       "promptKo": "꽃 위에 벌 한 마리가 있다.",
+      "blanks": 2,
       "accept": [
-        "There is",
-        "There's"
+        "There is|a bee",
+        "There's|a bee"
       ]
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 첫 빈칸에 동그라미 친 there+be, 둘째 빈칸에 밑줄 친 주어를 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "There are <u>green tomatoes</u> in the basket.",
+      "promptEn": "____ ____ in the basket.",
       "promptKo": "바구니에 토마토가 몇 개 있다.",
+      "blanks": 2,
       "accept": [
-        "There are"
+        "There are|green tomatoes"
       ]
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 첫 빈칸에 동그라미 친 there+be, 둘째 빈칸에 밑줄 친 주어를 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "There is a <u>big cabbage</u> on the table.",
+      "promptEn": "____ ____ on the table.",
       "promptKo": "식탁 위에 큰 양배추가 하나 있다.",
+      "blanks": 2,
       "accept": [
-        "There is",
-        "There's"
+        "There is|a big cabbage",
+        "There's|a big cabbage"
       ]
     },
     {
