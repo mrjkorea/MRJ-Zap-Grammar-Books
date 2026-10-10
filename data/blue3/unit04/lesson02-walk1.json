@@ -1,0 +1,277 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 의문사 (1)",
+  "practiceId": "b3:u04:lesson02-walk1",
+  "title": "Lesson 02 Walk 1 — 의문사 what",
+  "subtitle": "what (p. 99)",
+  "pages": "99",
+  "timerMinutes": 10,
+  "sectionsVersion": 2,
+  "introKo": "Section A 5문항, Section B 5문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "A: What are those?\nB: They are sheep.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "저것들은 무엇이니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "A: What does he do after school?\nB: He usually plays soccer.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "그는 방과 후에 무엇을 하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "A: What do you need?\nB: I need some water.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "무엇이 필요하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "A: What is this?\nB: It's a hat.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "이것은 무엇이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "A: What do you want?\nB: I want noodles.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "무엇을 원하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "<u>What flower</u> does she like?",
+      "choices": [
+        "a. 몇 시",
+        "b. 무슨 색",
+        "c. 무슨 꽃",
+        "d. 무슨 요일",
+        "e. 무슨 과일"
+      ],
+      "accept": [
+        "c. 무슨 꽃",
+        "c",
+        "3"
+      ],
+      "promptKo": "그녀는 무슨 꽃을 좋아하니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "c. 무슨 꽃"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "<u>What time</u> do you get up?",
+      "choices": [
+        "a. 몇 시",
+        "b. 무슨 색",
+        "c. 무슨 꽃",
+        "d. 무슨 요일",
+        "e. 무슨 과일"
+      ],
+      "accept": [
+        "a. 몇 시",
+        "a",
+        "1"
+      ],
+      "promptKo": "몇 시에 일어나니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "<u>What day</u> is it today?",
+      "choices": [
+        "a. 몇 시",
+        "b. 무슨 색",
+        "c. 무슨 꽃",
+        "d. 무슨 요일",
+        "e. 무슨 과일"
+      ],
+      "accept": [
+        "d. 무슨 요일",
+        "d",
+        "4"
+      ],
+      "promptKo": "오늘은 무슨 요일이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "<u>What color</u> does Sam like?",
+      "choices": [
+        "a. 몇 시",
+        "b. 무슨 색",
+        "c. 무슨 꽃",
+        "d. 무슨 요일",
+        "e. 무슨 과일"
+      ],
+      "accept": [
+        "b. 무슨 색",
+        "b",
+        "2"
+      ],
+      "promptKo": "샘은 무슨 색을 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "<u>What fruit</u> do they eat every day?",
+      "choices": [
+        "a. 몇 시",
+        "b. 무슨 색",
+        "c. 무슨 꽃",
+        "d. 무슨 요일",
+        "e. 무슨 과일"
+      ],
+      "accept": [
+        "e. 무슨 과일",
+        "e",
+        "5"
+      ],
+      "promptKo": "그들은 매일 무슨 과일을 먹니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    }
+  ]
+}
