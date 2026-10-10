@@ -48,7 +48,7 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       bad++;
       console.log("NO-UNDERLINE", f, it.id);
     }
-    if (f === "review-01.json" && it.type === "mc" && ["1", "2"].includes(String(it.label))) {
+    if (f === "review-01.json" && it.type === "mc" && ["1", "2", "11", "12"].includes(String(it.label))) {
       const missing = (it.choices || []).some((c) => !/<u>/.test(c));
       if (missing) {
         bad++;
@@ -66,6 +66,18 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
     } else if ((it.blanks || 1) > 1) {
       const parts = it.accept[0].split("|");
       right = { parts, value: parts.join(" ") };
+      if (it.unordered && parts.length >= 2) {
+        const rev = parts.slice().reverse();
+        if (!E.gradeItem(it, { parts: rev, value: rev.join(" ") })) {
+          bad++;
+          console.log("UNORDERED-REV-FAIL", f, it.id);
+        }
+        const partial = { parts: [parts[0]], value: parts[0] };
+        if (E.gradeItem(it, partial)) {
+          bad++;
+          console.log("UNORDERED-PARTIAL-PASS", f, it.id);
+        }
+      }
       const wp = parts.slice();
       wp[0] = "xyz";
       wrong = { parts: wp, value: wp.join(" ") };

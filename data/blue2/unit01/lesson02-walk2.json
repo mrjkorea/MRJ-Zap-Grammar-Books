@@ -31,17 +31,12 @@
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (동사원형을 쓰세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "itemCount": 8,
+      "itemCount": 3,
       "exampleCount": 1,
       "labels": [
         "A2",
         "A3",
-        "A4",
-        "A5",
-        "A6",
-        "A7",
-        "A8",
-        "A9"
+        "A4"
       ]
     },
     {
@@ -94,10 +89,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "[-y → -ies]",
+      "promptEn": "[-y → -ies] (빈칸 3개 — 순서 무관)",
+      "blanks": 3,
+      "unordered": true,
       "accept": [
-        "try"
-      ]
+        "try|copy|study"
+      ],
+      "noteKo": "같은 규칙 줄의 빈칸은 세 개 모두 채우세요. 빈칸 안 순서는 상관없어요."
     },
     {
       "id": "l02w2_a03",
@@ -108,10 +106,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "[-y → -ies]",
+      "promptEn": "[동사원형 + -s] (빈칸 4개 — 순서 무관)",
+      "blanks": 4,
+      "unordered": true,
       "accept": [
-        "copy"
-      ]
+        "say|buy|enjoy|play"
+      ],
+      "noteKo": "같은 규칙 줄의 빈칸은 네 개 모두 채우세요. 빈칸 안 순서는 상관없어요."
     },
     {
       "id": "l02w2_a04",
@@ -122,77 +123,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "[-y → -ies]",
-      "accept": [
-        "study"
-      ]
-    },
-    {
-      "id": "l02w2_a05",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 3인칭 단수 현재형을 만드는 규칙이 같은 동사끼리 모아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (동사원형을 쓰세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "A5",
-      "type": "fill",
-      "promptEn": "[동사원형 + -s]",
-      "accept": [
-        "say"
-      ]
-    },
-    {
-      "id": "l02w2_a06",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 3인칭 단수 현재형을 만드는 규칙이 같은 동사끼리 모아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (동사원형을 쓰세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "A6",
-      "type": "fill",
-      "promptEn": "[동사원형 + -s]",
-      "accept": [
-        "buy"
-      ]
-    },
-    {
-      "id": "l02w2_a07",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 3인칭 단수 현재형을 만드는 규칙이 같은 동사끼리 모아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (동사원형을 쓰세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "A7",
-      "type": "fill",
-      "promptEn": "[동사원형 + -s]",
-      "accept": [
-        "enjoy"
-      ]
-    },
-    {
-      "id": "l02w2_a08",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 3인칭 단수 현재형을 만드는 규칙이 같은 동사끼리 모아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (동사원형을 쓰세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "A8",
-      "type": "fill",
-      "promptEn": "[동사원형 + -s]",
-      "accept": [
-        "play"
-      ]
-    },
-    {
-      "id": "l02w2_a09",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 3인칭 단수 현재형을 만드는 규칙이 같은 동사끼리 모아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (동사원형을 쓰세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "A9",
-      "type": "fill",
-      "promptEn": "[불규칙]",
+      "promptEn": "[불규칙 동사]",
       "accept": [
         "have"
       ]

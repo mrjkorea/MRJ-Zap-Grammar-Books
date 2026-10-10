@@ -15,8 +15,8 @@
     {
       "id": "1-2",
       "title": "[1–2]",
-      "instructionKo": "[1–2] 다음 중 밑줄 친 말이 일반동사인 것을 고르세요. 보기 중 하나를 골라 누르세요.",
-      "directionKo": "[1–2] 다음 중 밑줄 친 말이 일반동사인 것을 고르세요.",
+      "instructionKo": "[1–2] 1번: 일반동사 고르기 / 2번: 밑줄 친 말이 잘못된 문장 고르기. 보기 중 하나를 골라 누르세요.",
+      "directionKo": "[1–2] 1번·2번 지시는 문항마다 다릅니다.",
       "ruleKo": "보기 중 하나를 골라 누르세요.",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
@@ -150,7 +150,7 @@
       "id": "rv02",
       "section": "1-2",
       "sectionTitle": "[1–2]",
-      "sectionInstructionKo": "[1–2] 다음 중 밑줄 친 말이 일반동사인 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "sectionInstructionKo": "[1–2] 다음 중 밑줄 친 말이 잘못된 문장을 고르세요. 보기 중 하나를 골라 누르세요.",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "2",
@@ -344,13 +344,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "11",
       "type": "mc",
-      "promptEn": "그는 만화책을 읽는다.\nHe ( read / reads ) comic books.",
+      "promptEn": "그는 만화책을 읽는다.\nHe ( <u>read</u> / <u>reads</u> ) comic books.",
       "choices": [
-        "read",
-        "reads"
+        "<u>read</u>",
+        "<u>reads</u>"
       ],
       "accept": [
-        "reads"
+        "2",
+        "reads",
+        "<u>reads</u>"
       ],
       "promptKo": "그는 만화책을 읽는다."
     },
@@ -363,13 +365,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "12",
       "type": "mc",
-      "promptEn": "민호와 재희는 숙제를 함께 한다.\nMinho and Jaehee ( do / does ) their homework together.",
+      "promptEn": "민호와 재희는 숙제를 함께 한다.\nMinho and Jaehee ( <u>do</u> / <u>does</u> ) their homework together.",
       "choices": [
-        "do",
-        "does"
+        "<u>do</u>",
+        "<u>does</u>"
       ],
       "accept": [
-        "do"
+        "1",
+        "do",
+        "<u>do</u>"
       ],
       "promptKo": "민호와 재희는 숙제를 함께 한다."
     },

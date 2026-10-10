@@ -42,18 +42,18 @@ Blue 2 Unit 01 follows a **two-lesson** layout with **Walk + Run + Jump + Fly** 
 | `lesson01-run` | 14–15 | A MC verb (14), B MC subject (14) | 28 | 20 |
 | `lesson01-jump` | 16–17 | A Korean meaning (14), B complete (14) | 28 | 22 |
 | `lesson01-fly` | 18–19 | A correct verb (14), B complete (14) | 28 | 26 |
-| `lesson02-walk1` | 21 | A group verbs (8), B -es forms (8) | 16 | 10 |
-| `lesson02-walk2` | 23 | A group verbs (8), B forms incl. carry (9) | 17 | 10 |
+| `lesson02-walk1` | 21 | A group verbs (2 rows, multi-blank unordered), B -es forms (9) | 11 | 10 |
+| `lesson02-walk2` | 23 | A group verbs (3 rows, multi-blank unordered), B forms incl. carry (9) | 12 | 10 |
 | `lesson02-run` | 24–25 | A MC (14), B MC (14) | 28 | 20 |
 | `lesson02-jump` | 26–27 | A Korean (14), B complete (14) | 28 | 24 |
 | `lesson02-fly` | 28–29 | A correct (14), B complete (14) | 28 | 28 |
 | `review01` | 30–32 | [1–2]…[19–20] | 20 | 30 |
 
-**Total graded:** 249 items across 11 practices.
+**Total graded:** 239 items across 11 practices.
 
 ## Typing notes
 
-- **Walk** grouping rows: one blank per verb token (base form), book order within each rule row.
+- **Walk** grouping rows (lesson 02 §A): one graded item per rule row; `blanks` = verbs in that row; `unordered: true` (order within the row does not matter).
 - **Run** §B: two subject choices per line; student picks the subject that matches the verb form shown.
 - **Jump** §A: type Korean gloss for underlined verb (`<u>` in prompt).
 - **Fly** §A: type corrected verb only (not full sentence); §B same as Jump §B.
