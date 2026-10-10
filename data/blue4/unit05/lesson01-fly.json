@@ -42,9 +42,9 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "밑줄 친 말을 최상급으로 바꿔 완성하세요.",
-      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "instructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
+      "directionKo": "밑줄 친 말을 최상급으로 바꿔 빈칸을 완성하세요.",
+      "ruleKo": "빈칸에 완성할 부분만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "itemCount": 11,
@@ -297,196 +297,195 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "Baekdusan is a <u>high</u> mountain. → ______ ______ in Korea.",
+      "promptEn": "Baekdusan is a <u>high</u> mountain. → ______ in Korea.",
       "accept": [
         "the|highest"
       ],
       "promptKo": "백두산은 한국에서 가장 높은 산이다.",
-      "blanks": 2,
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "the / highest"
+      "exampleAnswer": "Baekdusan is the highest mountain"
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "Ms. Wise was a <u>wise</u> lady. → ______ ______ in the village.",
+      "promptEn": "Ms. Wise was a <u>wise</u> lady. → ______ in the village.",
       "accept": [
-        "the|wisest"
+        "Ms. Wise was the wisest lady",
+        "She was the wisest lady"
       ],
-      "promptKo": "와이즈 부인은 마을에서 가장 지혜로운 여성이었다.",
-      "blanks": 2
+      "promptKo": "와이즈 부인은 마을에서 가장 지혜로운 여성이었다."
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "Jack is a <u>lazy</u> boy. → ______ ______ in the village.",
+      "promptEn": "Jack is a <u>lazy</u> boy. → ______ in the village.",
       "accept": [
-        "the|laziest"
+        "Jack is the laziest boy",
+        "He is the laziest boy"
       ],
-      "promptKo": "잭은 마을에서 가장 게으른 남자아이다.",
-      "blanks": 2
+      "promptKo": "잭은 마을에서 가장 게으른 남자아이다."
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "This is a <u>large</u> swimming pool. → ______ ______ in the country.",
+      "promptEn": "This is a <u>large</u> swimming pool. → ______ in the country.",
       "accept": [
-        "the|largest"
+        "This is the largest swimming pool",
+        "It is the largest swimming pool"
       ],
-      "promptKo": "이것은 그 나라에서 가장 큰 수영장이다.",
-      "blanks": 2
+      "promptKo": "이것은 그 나라에서 가장 큰 수영장이다."
     },
     {
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "Maria is <u>tall</u>. → ______ ______ of all the students.",
+      "promptEn": "Maria is <u>tall</u>. → ______ of all the students.",
       "accept": [
-        "the|tallest"
+        "Maria is the tallest",
+        "She is the tallest"
       ],
-      "promptKo": "마리아는 모든 학생 중에서 가장 키가 크다.",
-      "blanks": 2
+      "promptKo": "마리아는 모든 학생 중에서 가장 키가 크다."
     },
     {
       "id": "b06",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B6",
       "type": "fill",
-      "promptEn": "Summer is <u>hot</u>. → ______ ______ of the four seasons.",
+      "promptEn": "Summer is <u>hot</u>. → ______ of the four seasons.",
       "accept": [
-        "the|hottest"
+        "Summer is the hottest",
+        "It is the hottest"
       ],
-      "promptKo": "여름은 네 계절 중에서 가장 덥다.",
-      "blanks": 2
+      "promptKo": "여름은 네 계절 중에서 가장 덥다."
     },
     {
       "id": "b07",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B7",
       "type": "fill",
-      "promptEn": "The white car is <u>new</u>. → ______ ______ of the three.",
+      "promptEn": "The white car is <u>new</u>. → ______ of the three.",
       "accept": [
-        "the|newest"
+        "The white car is the newest",
+        "It is the newest"
       ],
-      "promptKo": "하얀 차가 셋 중에서 가장 새롭다.",
-      "blanks": 2
+      "promptKo": "하얀 차가 셋 중에서 가장 새롭다."
     },
     {
       "id": "b08",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B8",
       "type": "fill",
-      "promptEn": "The basketball is <u>big</u>. → ______ ______ of the five.",
+      "promptEn": "The basketball is <u>big</u>. → ______ of the five.",
       "accept": [
-        "the|biggest"
+        "The basketball is the biggest",
+        "It is the biggest"
       ],
-      "promptKo": "농구공이 다섯 개 중에서 가장 크다.",
-      "blanks": 2
+      "promptKo": "농구공이 다섯 개 중에서 가장 크다."
     },
     {
       "id": "b09",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B9",
       "type": "fill",
-      "promptEn": "My mother gets up <u>early</u>. → ______ ______ in my family.",
+      "promptEn": "My mother gets up <u>early</u>. → ______ in my family.",
       "accept": [
-        "the|earliest"
+        "My mother gets up the earliest",
+        "She gets up the earliest"
       ],
-      "promptKo": "우리 어머니가 가족 중에서 가장 일찍 일어난다.",
-      "blanks": 2
+      "promptKo": "우리 어머니가 가족 중에서 가장 일찍 일어난다."
     },
     {
       "id": "b10",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B10",
       "type": "fill",
-      "promptEn": "Ostriches run <u>fast</u>. → ______ ______ of all the birds.",
+      "promptEn": "Ostriches run <u>fast</u>. → ______ of all the birds.",
       "accept": [
-        "the|fastest"
+        "Ostriches run the fastest",
+        "They run the fastest"
       ],
-      "promptKo": "타조가 모든 새 중에서 가장 빨리 달린다.",
-      "blanks": 2
+      "promptKo": "타조가 모든 새 중에서 가장 빨리 달린다."
     },
     {
       "id": "b11",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B11",
       "type": "fill",
-      "promptEn": "I study English <u>hard</u>. → ______ ______ in my class.",
+      "promptEn": "I study English <u>hard</u>. → ______ in my class.",
       "accept": [
-        "the|hardest"
+        "I study English the hardest",
+        "I study English hardest"
       ],
-      "promptKo": "나는 우리 반에서 영어를 가장 열심히 공부한다.",
-      "blanks": 2
+      "promptKo": "나는 우리 반에서 영어를 가장 열심히 공부한다."
     },
     {
       "id": "b12",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 말을 최상급으로 바꿔 문장을 완성하세요. 빈칸에 완성할 부분만 쓰세요. (뒤에 이어지는 in/of 구는 이미 적혀 있으므로 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B12",
       "type": "fill",
-      "promptEn": "Blanca jumps <u>high</u>. → ______ ______ in the world.",
+      "promptEn": "Blanca jumps <u>high</u>. → ______ in the world.",
       "accept": [
-        "the|highest"
+        "Blanca jumps the highest",
+        "She jumps the highest"
       ],
-      "promptKo": "블랑카는 세계에서 가장 높이 뛴다.",
-      "blanks": 2
+      "promptKo": "블랑카는 세계에서 가장 높이 뛴다."
     }
   ]
 }

@@ -54,5 +54,6 @@ Blue 4 Unit 05 follows the **Green-style lesson arc** (Grammar Walk / Run / Jump
 
 ## Notes
 
-- `lesson02-walk2` Section A: two blanks per item (superlative phrase + `in`/`of` range); `unordered: true`.
+- `lesson02-walk2` Section A: two **ordered** blanks per item (1 = superlative phrase, 2 = `in`/`of` range); not `unordered`.
+- `lesson01-fly` / `lesson02-fly` Section B: one blank per item (completion phrase before printed `in`/`of` tail); accept natural subject/word-order variants.
 - Review **Check Check** score table on p137 is not graded.

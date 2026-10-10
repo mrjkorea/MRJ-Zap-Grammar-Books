@@ -15,9 +15,9 @@
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "instructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "directionKo": "최상급과 비교 범위를 쓰세요.",
-      "ruleKo": "두 칸에 나누어 쓰세요.",
+      "ruleKo": "앞 칸: 최상급(구), 뒤 칸: 비교 범위",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "itemCount": 11,
@@ -42,7 +42,7 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
@@ -52,7 +52,6 @@
         "the kindest|in her class"
       ],
       "blanks": 2,
-      "unordered": true,
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "the kindest / in her class"
@@ -61,7 +60,7 @@
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
@@ -70,14 +69,13 @@
       "accept": [
         "the smartest|of all the students"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
@@ -87,14 +85,13 @@
         "the biggest|in this zoo",
         "the biggest animal|in this zoo"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
@@ -103,31 +100,30 @@
       "accept": [
         "the wisest|in my family"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
       "promptEn": "Ron wrote the most letters of the three children.",
       "accept": [
+        "the most letters|of the three children",
         "the most|of the three children",
         "most|of the three children"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A6",
@@ -136,14 +132,13 @@
       "accept": [
         "the most expensive|in the village"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a07",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A7",
@@ -152,14 +147,13 @@
       "accept": [
         "the best|of all the children"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a08",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A8",
@@ -169,14 +163,13 @@
         "the largest|in Korea",
         "the largest island|in Korea"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a09",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A9",
@@ -186,14 +179,13 @@
         "the tallest|in the world",
         "the tallest tower|in the world"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a10",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A10",
@@ -203,14 +195,13 @@
         "the best|of the three",
         "best cook|of the three"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a11",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A11",
@@ -219,14 +210,13 @@
       "accept": [
         "the sweetest|of them all"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a12",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸에는 최상급(구), 뒤 칸에는 in/of 등 비교 범위를 쓰세요. (순서는 바꿔도 됩니다.)",
+      "sectionInstructionKo": "다음 문장에서 최상급을 찾아 밑줄을 치고 비교의 범위를 나타내는 말을 찾아 동그라미 하세요. 앞 칸(1)에는 최상급(구), 뒤 칸(2)에는 in/of 등 비교 범위를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A12",
@@ -235,8 +225,7 @@
       "accept": [
         "the biggest|of those fruits"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     }
   ]
 }

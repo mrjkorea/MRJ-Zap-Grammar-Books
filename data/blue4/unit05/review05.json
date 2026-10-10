@@ -451,8 +451,7 @@
       "type": "fill",
       "promptEn": "이 나무가 그 정원에서 가장 크다.\nThis tree is ______ ______ in the garden. ( big )",
       "accept": [
-        "the|biggest",
-        "the biggest|biggest"
+        "the|biggest"
       ],
       "blanks": 2
     },
@@ -467,8 +466,7 @@
       "type": "fill",
       "promptEn": "톰은 자기 반에서 피아노를 가장 잘 친다.\nTom plays the piano ______ ______ in his class. ( well )",
       "accept": [
-        "the|best",
-        "best"
+        "the|best"
       ],
       "blanks": 2
     },
@@ -509,9 +507,10 @@
       "answerModeTag": "Sentence · 문장 전체",
       "label": "19",
       "type": "sentence",
-      "promptEn": "Jane came home the earliest <u>of</u> her family.",
+      "promptEn": "Jane came home <u>the earliest of her family</u>.",
       "accept": [
-        "Jane came home the earliest in her family."
+        "Jane came home the earliest in her family.",
+        "Jane came home earliest in her family."
       ]
     },
     {
@@ -523,9 +522,10 @@
       "answerModeTag": "Sentence · 문장 전체",
       "label": "20",
       "type": "sentence",
-      "promptEn": "The dictionary is <u>the useful</u> of the three.",
+      "promptEn": "The dictionary is <u>the useful of the three</u>.",
       "accept": [
-        "The dictionary is the most useful of the three."
+        "The dictionary is the most useful of the three.",
+        "The dictionary is the most useful one of the three."
       ]
     }
   ]
