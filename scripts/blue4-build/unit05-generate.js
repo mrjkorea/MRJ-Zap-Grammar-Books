@@ -93,7 +93,18 @@ function theSup(word, alts) {
   return [w, word, ...a];
 }
 
+function syncSections(sections, items) {
+  for (const s of sections) {
+    const inSec = items.filter((it) => it.section === s.id);
+    const graded = inSec.filter((it) => !it.displayOnly);
+    s.itemCount = graded.length;
+    s.exampleCount = inSec.filter((it) => it.displayOnly).length;
+    s.labels = graded.map((it) => it.label);
+  }
+}
+
 function write(name, data) {
+  syncSections(data.sections, data.items);
   fs.mkdirSync(OUT, { recursive: true });
   fs.writeFileSync(path.join(OUT, name), JSON.stringify(data, null, 2) + "\n");
   console.log("wrote", name, data.items.length, "items");

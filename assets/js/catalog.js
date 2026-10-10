@@ -8,7 +8,7 @@
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
-    { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
+    { id: "zap-blue-4", title: "ZAP Blue 4", enabled: true, appName: "BlueZap 4", bookTitle: "ZAP Blue 4" },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
     { id: "zap-green-2", title: "ZAP Green 2", enabled: true, appName: "GreenZap 2", bookTitle: "ZAP Green 2" },
     { id: "zap-green-3", title: "ZAP Green 3", enabled: true, appName: "GreenZap 3", bookTitle: "ZAP Green 3" },
@@ -52,6 +52,9 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-4": [
+      { id: "unit-05", title: "Unit 05 — 비교 — 최상급", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +69,85 @@
   };
 
   var EXERCISES = {
+    "zap-blue-4:unit-05": [
+      {
+        slug: "lesson01-walk1",
+        title: "Lesson 01 Walk 1 — 최상급 (1)",
+        hint: "최상급 찾기·만들기 · pp. 115–116",
+        data: "data/blue4/unit05/lesson01-walk1.json",
+        practiceId: "b4:u05:lesson01-walk1",
+      },
+      {
+        slug: "lesson01-walk2",
+        title: "Lesson 01 Walk 2 — 최상급 (1)",
+        hint: "-e / -y 규칙 · p. 118",
+        data: "data/blue4/unit05/lesson01-walk2.json",
+        practiceId: "b4:u05:lesson01-walk2",
+      },
+      {
+        slug: "lesson01-run",
+        title: "Lesson 01 Run — 최상급 (1)",
+        hint: "pp. 119–120",
+        data: "data/blue4/unit05/lesson01-run.json",
+        practiceId: "b4:u05:lesson01-run",
+      },
+      {
+        slug: "lesson01-jump",
+        title: "Lesson 01 Jump — 최상급 (1)",
+        hint: "pp. 121–122",
+        data: "data/blue4/unit05/lesson01-jump.json",
+        practiceId: "b4:u05:lesson01-jump",
+      },
+      {
+        slug: "lesson01-fly",
+        title: "Lesson 01 Fly — 최상급 (1)",
+        hint: "pp. 123–124",
+        data: "data/blue4/unit05/lesson01-fly.json",
+        practiceId: "b4:u05:lesson01-fly",
+      },
+      {
+        slug: "lesson02-walk1",
+        title: "Lesson 02 Walk 1 — 최상급 (2)",
+        hint: "most / irregular · p. 126",
+        data: "data/blue4/unit05/lesson02-walk1.json",
+        practiceId: "b4:u05:lesson02-walk1",
+      },
+      {
+        slug: "lesson02-walk2",
+        title: "Lesson 02 Walk 2 — 최상급 (2)",
+        hint: "in / of · p. 128",
+        data: "data/blue4/unit05/lesson02-walk2.json",
+        practiceId: "b4:u05:lesson02-walk2",
+      },
+      {
+        slug: "lesson02-run",
+        title: "Lesson 02 Run — 최상급 (2)",
+        hint: "pp. 129–130",
+        data: "data/blue4/unit05/lesson02-run.json",
+        practiceId: "b4:u05:lesson02-run",
+      },
+      {
+        slug: "lesson02-jump",
+        title: "Lesson 02 Jump — 최상급 (2)",
+        hint: "pp. 131–132",
+        data: "data/blue4/unit05/lesson02-jump.json",
+        practiceId: "b4:u05:lesson02-jump",
+      },
+      {
+        slug: "lesson02-fly",
+        title: "Lesson 02 Fly — 최상급 (2)",
+        hint: "pp. 133–134",
+        data: "data/blue4/unit05/lesson02-fly.json",
+        practiceId: "b4:u05:lesson02-fly",
+      },
+      {
+        slug: "review05",
+        title: "Review 05",
+        hint: "pp. 135–137",
+        data: "data/blue4/unit05/review05.json",
+        practiceId: "b4:u05:review05",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",
