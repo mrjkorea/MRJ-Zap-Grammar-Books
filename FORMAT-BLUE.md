@@ -41,7 +41,7 @@ Blue 2+ units use **Walk / Run / Jump / Fly** per lesson (see `docs/format/blue2
 | Book activity | App adaptation | `answerMode` |
 |---------------|----------------|--------------|
 | Sort into columns (단어 vs 문장) | Word bank shown; blanks in book order; words = single token, sentences = full sentence | `words` / `sentence` |
-| Circle noun, verb, pronoun, etc. | Student types the circled word only | `words` |
+| Circle noun, verb, pronoun, etc. | Student types the circled word(s); **two+ circles** → `blanks: N` + `unordered: true` (all required, any order) | `words` |
 | Match lines (1–4 ↔ a–d) | MC: pick matching line (`a.`…`d.` in book order) | `choice` |
 | Write Korean sentence type (평서문…) | Type term; accept synonymous spacing | `words` |
 | Write POS (명사, 부사…) | Type Korean term | `words` |

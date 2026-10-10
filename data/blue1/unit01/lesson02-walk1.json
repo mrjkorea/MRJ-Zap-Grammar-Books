@@ -9,7 +9,7 @@
   "appName": "BlueZap 1",
   "unitId": "unit-01",
   "unitTitle": "Unit 01 — 문장의 구성",
-  "sectionsVersion": 2,
+  "sectionsVersion": 3,
   "introKo": "Section A 4문항, Section B 4문항(동그라미 친 말을 타이핑). 예시는 채점하지 않아요.",
   "sections": [
     {
@@ -121,12 +121,14 @@
       "label": "A5",
       "type": "fill",
       "promptEn": "Tom is a student.",
+      "blanks": 2,
+      "unordered": true,
       "accept": [
-        "student",
-        "Student",
-        "Tom"
+        "Tom|student",
+        "student|Tom"
       ],
-      "promptKo": "톰은 학생이다."
+      "promptKo": "톰은 학생이다.",
+      "noteKo": "명사가 두 개이면 빈칸도 두 개입니다. 순서는 상관없어요."
     },
     {
       "id": "b01",
