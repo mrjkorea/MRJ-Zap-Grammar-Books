@@ -1,0 +1,241 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 현재 진행 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u07:lesson02-walk1",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "부정문 not 위치 · 줄임 (p. 178)",
+  "pages": "178",
+  "timerMinutes": 10,
+  "introKo": "이 연습은 Section A 5문항(not 위치 고르기), Section B 4문항(줄여 쓰기)으로 되어 있어요. 회색 '예시' 문제는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 위치로 알맞은 곳을 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 위치로 알맞은 곳을 찾아 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 밑줄 친 부분을 줄여서 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 밑줄 친 부분을 줄여서 문장을 다시 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 위치로 알맞은 곳을 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "id": "a01",
+      "type": "mc",
+      "promptEn": "I ① am ② drinking ③ hot chocolate ④ .",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "②",
+        "2"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 위치로 알맞은 곳을 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "id": "a02",
+      "type": "mc",
+      "promptEn": "We ① are ② watching ③ TV ④ now.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "②",
+        "2"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 위치로 알맞은 곳을 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "id": "a03",
+      "type": "mc",
+      "promptEn": "The farmer ① is ② counting ③ his cows ④ .",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "②",
+        "2"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 위치로 알맞은 곳을 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "id": "a04",
+      "type": "mc",
+      "promptEn": "They ① are ② selling ③ potatoes ④ there.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "②",
+        "2"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 위치로 알맞은 곳을 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "id": "a05",
+      "type": "mc",
+      "promptEn": "A mouse ① is ② eating ③ cheese ④ .",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "②",
+        "2"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄여서 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "id": "b01",
+      "type": "sentence",
+      "promptEn": "<u>She is</u> doing her homework.",
+      "accept": [
+        "She's doing her homework."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "She's doing her homework."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄여서 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "id": "b02",
+      "type": "sentence",
+      "promptEn": "<u>We are not</u> making a snowman.",
+      "accept": [
+        "We're not making a snowman.",
+        "We aren't making a snowman.",
+        "We are not making a snowman."
+      ],
+      "promptKo": "지시에 맞게 문장 전체를 쓰세요."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄여서 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "id": "b03",
+      "type": "sentence",
+      "promptEn": "<u>They are</u> going to the concert.",
+      "accept": [
+        "They're going to the concert.",
+        "They are going to the concert."
+      ],
+      "promptKo": "지시에 맞게 문장 전체를 쓰세요."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄여서 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "id": "b04",
+      "type": "sentence",
+      "promptEn": "<u>I am</u> not looking at the poster.",
+      "accept": [
+        "I'm not looking at the poster.",
+        "I am not looking at the poster."
+      ],
+      "promptKo": "지시에 맞게 문장 전체를 쓰세요."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄여서 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "id": "b05",
+      "type": "sentence",
+      "promptEn": "<u>You are not</u> sleeping.",
+      "accept": [
+        "You aren't sleeping.",
+        "You're not sleeping.",
+        "You are not sleeping."
+      ],
+      "promptKo": "지시에 맞게 문장 전체를 쓰세요."
+    }
+  ]
+}

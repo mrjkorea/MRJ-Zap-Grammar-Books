@@ -1,0 +1,266 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 현재 진행 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u07:lesson02-walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "의문문 · 대답 연결 (p. 180)",
+  "pages": "180",
+  "timerMinutes": 10,
+  "introKo": "이 연습은 Section A 4문항(의문문 세 칸), Section B 5문항(대답 고르기)으로 되어 있어요. 회색 '예시' 문제는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 의문문으로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장을 의문문으로 바꿀 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 찾아 골라 누르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 알맞은 대답을 찾아 골라 누르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "She is cleaning the window.\n→ ______ ______ ______ the window?",
+      "blanks": 3,
+      "accept": [
+        "Is|she|cleaning"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Is / she / cleaning"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "You are looking for a coin.\n→ ______ ______ ______ for a coin?",
+      "blanks": 3,
+      "accept": [
+        "Are|you|looking"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "They are waving their hands.\n→ ______ ______ ______ their hands?",
+      "blanks": 3,
+      "accept": [
+        "Are|they|waving"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "Tom is eating French fries.\n→ ______ ______ ______ French fries?",
+      "blanks": 3,
+      "accept": [
+        "Is|Tom|eating"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "He is coming home.\n→ ______ ______ ______ home?",
+      "blanks": 3,
+      "accept": [
+        "Is|he|coming"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 골라 누르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "id": "b01",
+      "type": "mc",
+      "promptEn": "Are you making strawberry jam?",
+      "choices": [
+        "Yes, they are.",
+        "Yes, she is.",
+        "No, we aren't.",
+        "No, he isn't.",
+        "Yes, I am.",
+        "Yes, it is."
+      ],
+      "accept": [
+        "Yes, I am."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Yes, I am."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 골라 누르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "id": "b02",
+      "type": "mc",
+      "promptEn": "Is Tom reading a magazine?",
+      "choices": [
+        "Yes, they are.",
+        "Yes, she is.",
+        "No, we aren't.",
+        "No, he isn't.",
+        "Yes, I am.",
+        "Yes, it is."
+      ],
+      "accept": [
+        "No, he isn't."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 골라 누르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "id": "b03",
+      "type": "mc",
+      "promptEn": "Are those girls dancing?",
+      "choices": [
+        "Yes, they are.",
+        "Yes, she is.",
+        "No, we aren't.",
+        "No, he isn't.",
+        "Yes, I am.",
+        "Yes, it is."
+      ],
+      "accept": [
+        "Yes, they are."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 골라 누르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "id": "b04",
+      "type": "mc",
+      "promptEn": "Is your mother sleeping?",
+      "choices": [
+        "Yes, they are.",
+        "Yes, she is.",
+        "No, we aren't.",
+        "No, he isn't.",
+        "Yes, I am.",
+        "Yes, it is."
+      ],
+      "accept": [
+        "Yes, she is."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 골라 누르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "id": "b05",
+      "type": "mc",
+      "promptEn": "Are we waiting for Emily?",
+      "choices": [
+        "Yes, they are.",
+        "Yes, she is.",
+        "No, we aren't.",
+        "No, he isn't.",
+        "Yes, I am.",
+        "Yes, it is."
+      ],
+      "accept": [
+        "No, we aren't."
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 골라 누르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "id": "b06",
+      "type": "mc",
+      "promptEn": "Is a bird sitting on the bench?",
+      "choices": [
+        "Yes, they are.",
+        "Yes, she is.",
+        "No, we aren't.",
+        "No, he isn't.",
+        "Yes, I am.",
+        "Yes, it is."
+      ],
+      "accept": [
+        "Yes, it is."
+      ]
+    }
+  ]
+}

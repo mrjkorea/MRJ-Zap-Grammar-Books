@@ -1,0 +1,456 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 현재 진행 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u07:lesson02-jump",
+  "title": "Grammar Jump",
+  "subtitle": "부정·의문문 변환 (pp. 183–184)",
+  "pages": "183–184",
+  "timerMinutes": 24,
+  "introKo": "이 연습은 Section A 9문항(세 칸), Section B 14문항(부정·의문 완성)으로 되어 있어요. 회색 '예시' 문제는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "I'm listening to music. (부정문)\n→ ______ ______ ______ to music.",
+      "blanks": 3,
+      "accept": [
+        "I'm|not|listening",
+        "I am|not|listening"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I'm / not / listening"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "You are cleaning your room. (의문문)\n→ ______ ______ ______ your room?",
+      "blanks": 3,
+      "accept": [
+        "Are|you|cleaning"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "John is swimming now. (부정문)\n→ ______ ______ ______ ______ now.",
+      "blanks": 4,
+      "accept": [
+        "John|is|not|swimming"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "Jenny is lying on the sand. (의문문)\n→ ______ ______ ______ on the sand?",
+      "blanks": 3,
+      "accept": [
+        "Is|Jenny|lying"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "They are watching a baseball game. (부정문)\n→ ______ ______ ______ ______ a baseball game.",
+      "blanks": 4,
+      "accept": [
+        "They|are|not|watching"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "id": "a06",
+      "type": "fill",
+      "promptEn": "She is knitting a scarf. (의문문)\n→ ______ ______ ______ a scarf?",
+      "blanks": 3,
+      "accept": [
+        "Is|she|knitting"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "id": "a07",
+      "type": "fill",
+      "promptEn": "Tony is looking for his pencil case. (의문문)\n→ ______ ______ ______ for his pencil case?",
+      "blanks": 3,
+      "accept": [
+        "Is|Tony|looking"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "id": "a08",
+      "type": "fill",
+      "promptEn": "They are using the machine. (부정문)\n→ ______ ______ ______ ______ the machine.",
+      "blanks": 4,
+      "accept": [
+        "They|are|not|using"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "id": "a09",
+      "type": "fill",
+      "promptEn": "Your mother is boiling eggs. (의문문)\n→ ______ ______ ______ eggs?",
+      "blanks": 3,
+      "accept": [
+        "Is|your mother|boiling"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "id": "a10",
+      "type": "fill",
+      "promptEn": "The boys are jumping rope. (부정문)\n→ ______ ______ ______ ______ rope.",
+      "blanks": 4,
+      "accept": [
+        "The boys|are|not|jumping"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "id": "b01",
+      "type": "fill",
+      "promptEn": "Sue ______ ______ ______ to the lake. ( go )",
+      "blanks": 3,
+      "accept": [
+        "is|not|going",
+        "is|not|going"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is / not / going"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "id": "b02",
+      "type": "fill",
+      "promptEn": "We ______ ______ ______ the chairs. ( move )",
+      "blanks": 3,
+      "accept": [
+        "are|not|moving",
+        "are|not|moving"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "id": "b03",
+      "type": "fill",
+      "promptEn": "I ______ ______ ______ my teeth. ( brush )",
+      "blanks": 3,
+      "accept": [
+        "am|not|brushing",
+        "am|not|brushing"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "id": "b04",
+      "type": "fill",
+      "promptEn": "Chris ______ ______ ______ the road. ( cross )",
+      "blanks": 3,
+      "accept": [
+        "is|not|crossing",
+        "is|not|crossing"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "id": "b05",
+      "type": "fill",
+      "promptEn": "They ______ ______ ______ for a cushion. ( look )",
+      "blanks": 3,
+      "accept": [
+        "are|not|looking",
+        "are|not|looking"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "id": "b06",
+      "type": "fill",
+      "promptEn": "The boy ______ ______ ______ his cat. ( feed )",
+      "blanks": 3,
+      "accept": [
+        "is|not|feeding",
+        "is|not|feeding"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "id": "b07",
+      "type": "fill",
+      "promptEn": "The girl and her dog ______ ______ ______ fast. ( run )",
+      "blanks": 3,
+      "accept": [
+        "are|not|running",
+        "are|not|running"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "id": "b08",
+      "type": "fill",
+      "promptEn": "______ ______ your homework? ( do )",
+      "blanks": 2,
+      "accept": [
+        "Are|doing"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "id": "b09",
+      "type": "fill",
+      "promptEn": "______ ______ a goat? ( draw )",
+      "blanks": 2,
+      "accept": [
+        "Is|drawing"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "id": "b10",
+      "type": "fill",
+      "promptEn": "______ ______ a balloon? ( hold )",
+      "blanks": 2,
+      "accept": [
+        "Is|holding"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "id": "b11",
+      "type": "fill",
+      "promptEn": "______ your grandfather ______ the door now? ( fix )",
+      "blanks": 2,
+      "accept": [
+        "Is|fixing"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "id": "b12",
+      "type": "fill",
+      "promptEn": "______ your mom ______ in the garden? ( sit )",
+      "blanks": 2,
+      "accept": [
+        "Is|sitting"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B13",
+      "id": "b13",
+      "type": "fill",
+      "promptEn": "______ they ______ on the sofa? ( jump )",
+      "blanks": 2,
+      "accept": [
+        "Are|jumping"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B14",
+      "id": "b14",
+      "type": "fill",
+      "promptEn": "______ she ______ a ribbon? ( tie )",
+      "blanks": 2,
+      "accept": [
+        "Is|tying"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제의 부정문 또는 의문문을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B15",
+      "id": "b15",
+      "type": "fill",
+      "promptEn": "______ the children ______ a roller coaster? ( ride )",
+      "blanks": 2,
+      "accept": [
+        "Are|riding"
+      ]
+    }
+  ]
+}
