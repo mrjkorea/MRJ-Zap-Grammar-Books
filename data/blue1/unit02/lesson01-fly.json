@@ -1,0 +1,558 @@
+{
+  "practiceId": "b1:u02:lesson01-fly",
+  "title": "Lesson 01 Fly — 셀 수 있는 명사",
+  "subtitle": "고치기·완성 (pp. 38–39)",
+  "pages": "38–39",
+  "timerMinutes": 26,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 셀 수 있는 명사",
+  "sectionsVersion": 2,
+  "introKo": "Section A: 밑줄 친 부분만 고쳐 쓰기. Section B: 괄호 단어로 문장 완성(빈칸 말만).",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I need a <u>bags</u>.",
+      "blanks": 1,
+      "accept": [
+        "bag"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "bag",
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I want two <u>pen</u>.",
+      "blanks": 1,
+      "accept": [
+        "pens"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We have five <u>dish</u>.",
+      "blanks": 1,
+      "accept": [
+        "dishes"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "They have two <u>dog</u>.",
+      "blanks": 1,
+      "accept": [
+        "dogs"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "I know five <u>girl</u>.",
+      "blanks": 1,
+      "accept": [
+        "girls"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "They need two <u>benchs</u>.",
+      "blanks": 1,
+      "accept": [
+        "benches"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They have one <u>sons</u>.",
+      "blanks": 1,
+      "accept": [
+        "son"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "I have ten <u>book</u>.",
+      "blanks": 1,
+      "accept": [
+        "books"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "I want two <u>tomato</u>.",
+      "blanks": 1,
+      "accept": [
+        "tomatoes"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "We have one <u>horses</u>.",
+      "blanks": 1,
+      "accept": [
+        "horse"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "I have three <u>room</u>.",
+      "blanks": 1,
+      "accept": [
+        "rooms"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Give me one <u>pencils</u>.",
+      "blanks": 1,
+      "accept": [
+        "pencil"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "I need ten <u>box</u>.",
+      "blanks": 1,
+      "accept": [
+        "boxes"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "I have two <u>notebook</u>.",
+      "blanks": 1,
+      "accept": [
+        "notebooks"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "They have two <u>piano</u>.",
+      "blanks": 1,
+      "accept": [
+        "pianos"
+      ],
+      "promptKo": "밑줄 친 부분을 바르게 고치세요."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "We have two ______. (cat)",
+      "blanks": 1,
+      "accept": [
+        "cats"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "cats",
+      "promptKo": "우리는 고양이 두 마리를 가지고 있다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "I have three ______. (bag)",
+      "blanks": 1,
+      "accept": [
+        "bags"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "I have twenty ______. (book)",
+      "blanks": 1,
+      "accept": [
+        "books"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "I have seven ______. (friend)",
+      "blanks": 1,
+      "accept": [
+        "friends"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "They have two ______. (bear)",
+      "blanks": 1,
+      "accept": [
+        "bears"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "We need five ______. (table)",
+      "blanks": 1,
+      "accept": [
+        "tables"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "They need two ______. (bench)",
+      "blanks": 1,
+      "accept": [
+        "benches"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "They know three ______. (hero)",
+      "blanks": 1,
+      "accept": [
+        "heroes"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "I know ten ______. (teacher)",
+      "blanks": 1,
+      "accept": [
+        "teachers"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "We need eight ______. (potato)",
+      "blanks": 1,
+      "accept": [
+        "potatoes"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "I have six ______. (box)",
+      "blanks": 1,
+      "accept": [
+        "boxes"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "We have two ______. (piano)",
+      "blanks": 1,
+      "accept": [
+        "pianos"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "They have four ______. (bus)",
+      "blanks": 1,
+      "accept": [
+        "buses"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "I need five ______. (dish)",
+      "blanks": 1,
+      "accept": [
+        "dishes"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "They need ten ______. (glass)",
+      "blanks": 1,
+      "accept": [
+        "glasses"
+      ],
+      "promptKo": "괄호 안 단어를 알맞은 형태로 바꿔 쓰세요."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "practiceId": "b1:u02:lesson01-walk",
+  "title": "Lesson 01 Walk — 셀 수 있는 명사",
+  "subtitle": "단수와 복수 (p. 31)",
+  "pages": "31",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 셀 수 있는 명사",
+  "sectionsVersion": 2,
+  "introKo": "Grammar Walk p.31: Section A 셀 수 있는 명사 5개(예시 1), Section B 단수·복수 열 3행(예시 1). 보기 순서대로 빈칸을 채우세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 중 셀 수 있는 명사를 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 셀 수 있는 명사를 찾아 빈칸에 순서대로 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 셀 수 있는 명사를 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "셀 수 있는 명사 ① desk",
+      "blanks": 1,
+      "accept": [
+        "desk"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "desk"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 셀 수 있는 명사를 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "셀 수 있는 명사 2",
+      "blanks": 1,
+      "accept": [
+        "boy"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 셀 수 있는 명사를 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "셀 수 있는 명사 3",
+      "blanks": 1,
+      "accept": [
+        "computer"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 셀 수 있는 명사를 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "셀 수 있는 명사 4",
+      "blanks": 1,
+      "accept": [
+        "dog"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 셀 수 있는 명사를 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "셀 수 있는 명사 5",
+      "blanks": 1,
+      "accept": [
+        "phone"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 셀 수 있는 명사를 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "셀 수 있는 명사 6",
+      "blanks": 1,
+      "accept": [
+        "cap"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "단수형 ① girl / 복수형 ① dogs",
+      "blanks": 2,
+      "accept": [
+        "girl|dogs"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "girl / dogs"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "단수형 2 / 복수형 2",
+      "blanks": 2,
+      "accept": [
+        "chair|houses"
+      ],
+      "promptKo": "의자 / 집(들)"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "단수형 3 / 복수형 3",
+      "blanks": 2,
+      "accept": [
+        "bird|rooms"
+      ],
+      "promptKo": "새 / 방(들)"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "단수형 4 / 복수형 4",
+      "blanks": 2,
+      "accept": [
+        "flower|trees"
+      ],
+      "promptKo": "꽃 / 나무(들)"
+    }
+  ],
+  "wordBank": [
+    "desk",
+    "water",
+    "boy",
+    "love",
+    "computer",
+    "dog",
+    "air",
+    "phone",
+    "cap",
+    "math"
+  ]
+}

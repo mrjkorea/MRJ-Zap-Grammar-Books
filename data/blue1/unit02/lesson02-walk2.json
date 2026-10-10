@@ -1,0 +1,235 @@
+{
+  "practiceId": "b1:u02:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — 셀 수 있는 명사",
+  "subtitle": "불규칙 복수 (p. 43)",
+  "pages": "43",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 셀 수 있는 명사",
+  "sectionsVersion": 2,
+  "introKo": "Section A: 불규칙 단수·복수 열. Section B: 단수·복수 연결 고르기.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 명사의 단수형과 복수형을 선으로 연결하세요. 알맞은 복수형(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 명사의 단수형과 복수형을 선으로 연결하세요.",
+      "ruleKo": "알맞은 복수형(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "단수형 ① ox / 복수형 ① teeth",
+      "blanks": 2,
+      "accept": [
+        "ox|teeth"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "ox / teeth"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "단수형 2 / 복수형 2",
+      "blanks": 2,
+      "accept": [
+        "goose|women"
+      ],
+      "promptKo": "거위 / (성인) 여자들"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "단수형 3 / 복수형 3",
+      "blanks": 2,
+      "accept": [
+        "tooth|oxen"
+      ],
+      "promptKo": "이, 치아 / 황소들"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 명사의 단수형과 복수형을 찾아 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "단수형 4 / 복수형 4",
+      "blanks": 2,
+      "accept": [
+        "woman|geese"
+      ],
+      "promptKo": "(성인) 여자 / 거위들"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 명사의 단수형과 복수형을 선으로 연결하세요. 알맞은 복수형(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "deer",
+      "choices": [
+        "a. feet",
+        "b. deer",
+        "c. sheep",
+        "d. children",
+        "e. men"
+      ],
+      "accept": [
+        "b. deer",
+        "b"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "b. deer",
+      "promptKo": "사슴"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 명사의 단수형과 복수형을 선으로 연결하세요. 알맞은 복수형(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "man",
+      "choices": [
+        "a. feet",
+        "b. deer",
+        "c. sheep",
+        "d. children",
+        "e. men"
+      ],
+      "accept": [
+        "e. men",
+        "e"
+      ],
+      "promptKo": "남자"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 명사의 단수형과 복수형을 선으로 연결하세요. 알맞은 복수형(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "child",
+      "choices": [
+        "a. feet",
+        "b. deer",
+        "c. sheep",
+        "d. children",
+        "e. men"
+      ],
+      "accept": [
+        "d. children",
+        "d"
+      ],
+      "promptKo": "어린이"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 명사의 단수형과 복수형을 선으로 연결하세요. 알맞은 복수형(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "foot",
+      "choices": [
+        "a. feet",
+        "b. deer",
+        "c. sheep",
+        "d. children",
+        "e. men"
+      ],
+      "accept": [
+        "a. feet",
+        "a"
+      ],
+      "promptKo": "발"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 명사의 단수형과 복수형을 선으로 연결하세요. 알맞은 복수형(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "sheep",
+      "choices": [
+        "a. feet",
+        "b. deer",
+        "c. sheep",
+        "d. children",
+        "e. men"
+      ],
+      "accept": [
+        "c. sheep",
+        "c"
+      ],
+      "promptKo": "양"
+    }
+  ]
+}

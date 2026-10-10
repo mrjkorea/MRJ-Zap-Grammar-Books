@@ -1,0 +1,212 @@
+{
+  "practiceId": "b1:u02:lesson02-walk",
+  "title": "Lesson 02 Walk — 셀 수 있는 명사",
+  "subtitle": "복수형 규칙 (2) (p. 41)",
+  "pages": "41",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 셀 수 있는 명사",
+  "sectionsVersion": 2,
+  "introKo": "규칙 보기(y→ies, s, f→ves, fe→ves)에서 골라 복수형을 씁니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요.",
+      "ruleKo": "규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "baby + y → ies → babies",
+      "blanks": 2,
+      "accept": [
+        "y → ies|babies",
+        "y→ies|babies"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "y → ies / babies"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "strawberry + ___ → ___",
+      "blanks": 2,
+      "accept": [
+        "y → ies|strawberries",
+        "y→ies|strawberries",
+        "y-ies|strawberries"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "monkey + ___ → ___",
+      "blanks": 2,
+      "accept": [
+        "s|monkeys",
+        "+ s|monkeys",
+        "+s|monkeys"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "leaf + ___ → ___",
+      "blanks": 2,
+      "accept": [
+        "f → ves|leaves",
+        "f→ves|leaves",
+        "f-ves|leaves"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "knife + ___ → ___",
+      "blanks": 2,
+      "accept": [
+        "fe → ves|knives",
+        "fe→ves|knives",
+        "fe-ves|knives"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "roof + ___ → ___",
+      "blanks": 2,
+      "accept": [
+        "s|roofs",
+        "+ s|roofs",
+        "+s|roofs"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "city + ___ → ___",
+      "blanks": 2,
+      "accept": [
+        "y → ies|cities",
+        "y→ies|cities",
+        "y-ies|cities"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "wolf + ___ → ___",
+      "blanks": 2,
+      "accept": [
+        "f → ves|wolves",
+        "f→ves|wolves",
+        "f-ves|wolves"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "lady + ___ → ___",
+      "blanks": 2,
+      "accept": [
+        "y → ies|ladies",
+        "y→ies|ladies",
+        "y-ies|ladies"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 중 알맞은 규칙을 찾아 빈칸에 써넣고, 주어진 명사의 복수형을 쓰세요. 규칙 칸과 복수형 칸에 각각 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "puppy + ___ → ___",
+      "blanks": 2,
+      "accept": [
+        "y → ies|puppies",
+        "y→ies|puppies",
+        "y-ies|puppies"
+      ]
+    }
+  ]
+}
