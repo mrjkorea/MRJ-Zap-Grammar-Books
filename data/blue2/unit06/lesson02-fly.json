@@ -15,9 +15,9 @@
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
-      "ruleKo": "두 칸에 말만 쓰거나 문장 전체를 쓸 수 있어요.",
+      "ruleKo": "빈칸 두 개에 들어갈 말만 각각 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "itemCount": 14,
@@ -72,16 +72,14 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
       "type": "fill",
       "promptEn": "John <u>always is</u> diligent.",
       "accept": [
-        "is|always",
-        "always|is",
-        "John is always diligent."
+        "is|always"
       ],
       "promptKo": "존은 항상 부지런하다.",
       "blanks": 2,
@@ -93,16 +91,14 @@
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
       "type": "fill",
       "promptEn": "Mandy <u>reads often</u> comic books.",
       "accept": [
-        "often|reads",
-        "reads|often",
-        "Mandy often reads comic books."
+        "often|reads"
       ],
       "promptKo": "맨디는 가끔 만화책을 읽는다.",
       "blanks": 2
@@ -111,16 +107,14 @@
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
       "promptEn": "Ostriches <u>never can</u> fly.",
       "accept": [
-        "can|never",
-        "never|can",
-        "Ostriches can never fly."
+        "can|never"
       ],
       "promptKo": "타조는 결코 날 수 없다.",
       "blanks": 2
@@ -129,16 +123,14 @@
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
       "promptEn": "My pet <u>sleeps sometimes</u> with me.",
       "accept": [
-        "sometimes|sleeps",
-        "sleeps|sometimes",
-        "My pet sometimes sleeps with me."
+        "sometimes|sleeps"
       ],
       "promptKo": "우리 애완동물은 가끔 나와 함께 잔다.",
       "blanks": 2
@@ -147,16 +139,14 @@
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
       "promptEn": "The students <u>take usually</u> a bus.",
       "accept": [
-        "usually|take",
-        "take|usually",
-        "The students usually take a bus."
+        "usually|take"
       ],
       "promptKo": "학생들은 보통 버스를 탄다.",
       "blanks": 2
@@ -165,16 +155,14 @@
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A6",
       "type": "fill",
       "promptEn": "He <u>wears always</u> a wig.",
       "accept": [
-        "always|wears",
-        "wears|always",
-        "He always wears a wig."
+        "always|wears"
       ],
       "promptKo": "그는 항상 가발을 쓴다.",
       "blanks": 2
@@ -183,16 +171,14 @@
       "id": "a07",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A7",
       "type": "fill",
       "promptEn": "They <u>go swimming never</u> in winter.",
       "accept": [
-        "never|go",
-        "go|never",
-        "They never go swimming in winter."
+        "never|go"
       ],
       "promptKo": "그들은 겨울에 결코 수영하러 가지 않는다.",
       "blanks": 2
@@ -201,16 +187,14 @@
       "id": "a08",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A8",
       "type": "fill",
       "promptEn": "We <u>sometimes can</u> play golf.",
       "accept": [
-        "can|sometimes",
-        "sometimes|can",
-        "We can sometimes play golf."
+        "can|sometimes"
       ],
       "promptKo": "우리는 가끔 골프를 칠 수 있다.",
       "blanks": 2
@@ -219,16 +203,14 @@
       "id": "a09",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A9",
       "type": "fill",
       "promptEn": "He <u>often is</u> sleepy in the morning.",
       "accept": [
-        "is|often",
-        "often|is",
-        "He is often sleepy in the morning."
+        "is|often"
       ],
       "promptKo": "그는 아침에 자주 졸리다.",
       "blanks": 2
@@ -237,16 +219,14 @@
       "id": "a10",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A10",
       "type": "fill",
       "promptEn": "Tom <u>eats usually</u> sandwiches for lunch.",
       "accept": [
-        "usually|eats",
-        "eats|usually",
-        "Tom usually eats sandwiches for lunch."
+        "usually|eats"
       ],
       "promptKo": "톰은 보통 점심으로 샌드위치를 먹는다.",
       "blanks": 2
@@ -255,16 +235,14 @@
       "id": "a11",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A11",
       "type": "fill",
       "promptEn": "You <u>can use always</u> the phone.",
       "accept": [
-        "can|always",
-        "always|can",
-        "You can always use the phone."
+        "can|always"
       ],
       "promptKo": "너는 항상 전화를 사용할 수 있다.",
       "blanks": 2
@@ -273,16 +251,14 @@
       "id": "a12",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A12",
       "type": "fill",
       "promptEn": "My brother <u>cleans never</u> his room.",
       "accept": [
-        "never|cleans",
-        "cleans|never",
-        "My brother never cleans his room."
+        "never|cleans"
       ],
       "promptKo": "우리 오빠는 결코 방을 청소하지 않는다.",
       "blanks": 2
@@ -291,16 +267,14 @@
       "id": "a13",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A13",
       "type": "fill",
       "promptEn": "I <u>sometimes am</u> sad.",
       "accept": [
-        "am|sometimes",
-        "sometimes|am",
-        "I am sometimes sad."
+        "am|sometimes"
       ],
       "promptKo": "나는 가끔 슬프다.",
       "blanks": 2
@@ -309,16 +283,14 @@
       "id": "a14",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A14",
       "type": "fill",
       "promptEn": "Yunho <u>watches often</u> baseball games.",
       "accept": [
-        "often|watches",
-        "watches|often",
-        "Yunho often watches baseball games."
+        "often|watches"
       ],
       "promptKo": "윤호는 자주 야구 경기를 본다.",
       "blanks": 2
@@ -327,16 +299,14 @@
       "id": "a15",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만 / 문장 전체",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "A15",
       "type": "fill",
       "promptEn": "We <u>go usually</u> to bed at 10 p.m.",
       "accept": [
-        "usually|go",
-        "go|usually",
-        "We usually go to bed at 10 p.m."
+        "usually|go"
       ],
       "promptKo": "우리는 보통 밤 10시에 잔다.",
       "blanks": 2

@@ -59,10 +59,11 @@ Blue 2 Unit 06 uses **two lessons** with **Walk (×2) + Run + Jump + Fly** each 
 ## Uncertain / notes
 
 - **Lesson 01 Jump B #5:** Korean gloss in the book may read like “sadly” for *sing*; answer keyed as **sadly** from the printed Korean line.
-- **Lesson 01 Jump B #11:** *very* vs *too* for “너무 바쁘다” — both accepted where noted in data.
+- **Lesson 01 Jump B #11:** *too* / *very* / *so* for “너무 바쁘다” (promptKo matches book).
 - **Review [11]:** Parentheses offer only `Korean hard` / `hard Korean`; keyed to **Korean hard** as the book’s MC pattern for adverb-after-object placement.
 - **Review [5] option 2:** Printed **bad – badily** (typo for *badly*); keyed as the wrong pair.
-- **Lesson 02 Fly A:** Two blanks or full-sentence rewrite accepted for frequency-adverb fixes.
+- **Lesson 02 Fly A:** Two ordered blanks only (book: 빈칸에 쓰세요; no full-sentence mode).
+- **Lesson 01 Walk 1:** All 11 graded sentences have a single circled adverb in the book; no multi-blank items.
 
 ## Printed typos (book)
 

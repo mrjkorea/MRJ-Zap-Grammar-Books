@@ -125,9 +125,14 @@ function sentAcc(s) {
   return out;
 }
 
-function swapAcc(pair, full) {
-  const [a, b] = pair.split("|");
-  return [pair, b + "|" + a, ...sentAcc(full)];
+function pairAccOrdered(pair) {
+  const parts = pair.split("|");
+  const caps = parts.map((p) => en(p));
+  const variants = [pair];
+  if (caps.some((c, i) => c[0] !== parts[i])) {
+    variants.push(parts.map((p, i) => caps[i][0]).join("|"));
+  }
+  return [...new Set(variants)];
 }
 
 function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, build) {
@@ -347,7 +352,11 @@ function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, bui
     { en: "Annie replies to my letters ____.", ko: "애니는 내 편지에 친절하게 답장을 보낸다.", ans: "kindly" },
     { en: "Bill plays computer games ____.", ko: "빌은 컴퓨터 게임을 잘한다.", ans: "well" },
     { en: "The diligent man works ____.", ko: "그 부지런한 남자는 열심히 일한다.", ans: "hard" },
-    { en: "They are ____ busy.", ko: "그들은 매우 바쁘다.", ans: "very" },
+    {
+      en: "They are ____ busy.",
+      ko: "그들은 너무 바쁘다.",
+      ans: ["too", "very", "so"],
+    },
     { en: "Bill reads comic books ____.", ko: "빌은 행복하게 만화책을 읽는다.", ans: "happily" },
     { en: "This apple pie is ____ delicious.", ko: "이 애플파이는 꽤 맛있다.", ans: "pretty" },
     { en: "Your brother is tall ____.", ko: "네 남동생은 충분히 키가 크다.", ans: "enough" },
@@ -356,8 +365,9 @@ function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, bui
   bRows.forEach((r, n) => {
     const label = "B" + (n + 1);
     const id = "b" + String(n + 1).padStart(2, "0");
-    const base = fillItem(id, "B", label, r.en, en(r.ans), { sectionInstructionKo: instrB, promptKo: r.ko });
-    items.push(r.ex ? exItem(base, r.ans) : base);
+    const accept = Array.isArray(r.ans) ? r.ans.flatMap((w) => en(w)) : en(r.ans);
+    const base = fillItem(id, "B", label, r.en, accept, { sectionInstructionKo: instrB, promptKo: r.ko });
+    items.push(r.ex ? exItem(base, Array.isArray(r.ans) ? r.ans[0] : r.ans) : base);
   });
   writePractice(
     "lesson01-jump.json",
@@ -676,7 +686,7 @@ function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, bui
 // —— Lesson 02 Fly (pp. 159–160) ——
 (function lesson02Fly() {
   const instrA =
-    "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰거나, 문장 전체를 쓸 수 있어요.";
+    "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)";
   const instrB =
     "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)";
   const aRows = [
@@ -699,11 +709,11 @@ function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, bui
   const items = aRows.map((r, n) => {
     const label = "A" + (n + 1);
     const id = "a" + String(n + 1).padStart(2, "0");
-    const base = fillItem(id, "A", label, r.en, swapAcc(r.pair, r.full), {
+    const base = fillItem(id, "A", label, r.en, pairAccOrdered(r.pair), {
       sectionInstructionKo: instrA,
       promptKo: r.ko,
       blanks: 2,
-      answerModeTag: "Words · 빈칸 말만 / 문장 전체",
+      answerModeTag: "Words · 빈칸 말만",
       extra: { type: "fill" },
     });
     return r.ex ? exItem(base, r.pair) : base;
@@ -746,7 +756,7 @@ function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, bui
     28,
     "Section A 14문항(위치 고치기), Section B 14문항(문장 완성). A1·B1 예시는 채점하지 않아요.",
     [
-      sec("A", "Section A", instrA, "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.", "두 칸에 말만 쓰거나 문장 전체를 쓸 수 있어요.", "words", "Words · 빈칸 말만", 14, 1, ["A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14", "A15"]),
+      sec("A", "Section A", instrA, "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.", "빈칸 두 개에 들어갈 말만 각각 쓰세요.", "words", "Words · 빈칸 말만", 14, 1, ["A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14", "A15"]),
       sec("B", "Section B", instrB, "주어진 말을 사용하여 다음 문장을 완성하세요.", "문장 전체를 쓰세요.", "sentence", "Sentence · 문장 전체", 14, 1, ["B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10", "B11", "B12", "B13", "B14", "B15"]),
     ],
     items
@@ -819,9 +829,9 @@ function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, bui
   );
   const s1618 = "[16–18] 주어진 단어들을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)";
   items.push(
-    fillItem("q16", "16-18", "16", "She ____ ____ coffee. (drink, often)", ["often|drinks", "drinks|often"], { sectionInstructionKo: s1618, promptKo: "그녀는 자주 커피를 마신다.", blanks: 2, unordered: true }),
-    fillItem("q17", "16-18", "17", "Bill ____ ____ angry. (be, never)", ["is|never", "never|is"], { sectionInstructionKo: s1618, promptKo: "빌은 결코 화내지 않는다.", blanks: 2, unordered: true }),
-    fillItem("q18", "16-18", "18", "We ____ ____ ____ TV at night. (can, watch, always)", ["can|always|watch", "can|watch|always"], { sectionInstructionKo: s1618, promptKo: "우리는 항상 밤에 TV를 볼 수 있다.", blanks: 3, unordered: true })
+    fillItem("q16", "16-18", "16", "She ____ ____ coffee. (drink, often)", pairAccOrdered("often|drinks"), { sectionInstructionKo: s1618, promptKo: "그녀는 자주 커피를 마신다.", blanks: 2 }),
+    fillItem("q17", "16-18", "17", "Bill ____ ____ angry. (be, never)", pairAccOrdered("is|never"), { sectionInstructionKo: s1618, promptKo: "빌은 결코 화내지 않는다.", blanks: 2 }),
+    fillItem("q18", "16-18", "18", "We ____ ____ ____ TV at night. (can, watch, always)", pairAccOrdered("can|always|watch"), { sectionInstructionKo: s1618, promptKo: "우리는 항상 밤에 TV를 볼 수 있다.", blanks: 3 })
   );
   const s1920 = "[19–20] 다음 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)";
   items.push(
@@ -830,7 +840,7 @@ function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, bui
   );
   writePractice(
     "review-06.json",
-    "review-06",
+    "review06",
     "Review 06",
     "Unit 06 부사 (pp. 161–163)",
     "161–163",
