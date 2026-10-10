@@ -6,7 +6,7 @@
     { id: "zap-red-1", title: "ZAP Red 1", enabled: false },
     { id: "zap-red-2", title: "ZAP Red 2", enabled: false },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
-    { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
+    { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
     { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
@@ -52,6 +52,9 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-2": [
+      { id: "unit-07", title: "Unit 07 — 현재 진행 시제", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +69,85 @@
   };
 
   var EXERCISES = {
+    "zap-blue-2:unit-07": [
+      {
+        slug: "lesson01-walk1",
+        title: "Grammar Walk — Lesson 01",
+        hint: "be+ing · P/PC · p. 168",
+        data: "data/blue2/unit07/lesson01-walk1.json",
+        practiceId: "b2:u07:lesson01-walk1",
+      },
+      {
+        slug: "lesson01-walk2",
+        title: "Grammar Walk — Lesson 01",
+        hint: "동사원형-ing · p. 170",
+        data: "data/blue2/unit07/lesson01-walk2.json",
+        practiceId: "b2:u07:lesson01-walk2",
+      },
+      {
+        slug: "lesson01-run",
+        title: "Grammar Run",
+        hint: "pp. 171–172",
+        data: "data/blue2/unit07/lesson01-run.json",
+        practiceId: "b2:u07:lesson01-run",
+      },
+      {
+        slug: "lesson01-jump",
+        title: "Grammar Jump",
+        hint: "pp. 173–174",
+        data: "data/blue2/unit07/lesson01-jump.json",
+        practiceId: "b2:u07:lesson01-jump",
+      },
+      {
+        slug: "lesson01-fly",
+        title: "Grammar Fly",
+        hint: "pp. 175–176",
+        data: "data/blue2/unit07/lesson01-fly.json",
+        practiceId: "b2:u07:lesson01-fly",
+      },
+      {
+        slug: "lesson02-walk1",
+        title: "Grammar Walk — Lesson 02",
+        hint: "not 위치 · 줄임 · p. 178",
+        data: "data/blue2/unit07/lesson02-walk1.json",
+        practiceId: "b2:u07:lesson02-walk1",
+      },
+      {
+        slug: "lesson02-walk2",
+        title: "Grammar Walk — Lesson 02",
+        hint: "의문문 · 대답 · p. 180",
+        data: "data/blue2/unit07/lesson02-walk2.json",
+        practiceId: "b2:u07:lesson02-walk2",
+      },
+      {
+        slug: "lesson02-run",
+        title: "Grammar Run",
+        hint: "pp. 181–182",
+        data: "data/blue2/unit07/lesson02-run.json",
+        practiceId: "b2:u07:lesson02-run",
+      },
+      {
+        slug: "lesson02-jump",
+        title: "Grammar Jump",
+        hint: "pp. 183–184",
+        data: "data/blue2/unit07/lesson02-jump.json",
+        practiceId: "b2:u07:lesson02-jump",
+      },
+      {
+        slug: "lesson02-fly",
+        title: "Grammar Fly",
+        hint: "pp. 185–186",
+        data: "data/blue2/unit07/lesson02-fly.json",
+        practiceId: "b2:u07:lesson02-fly",
+      },
+      {
+        slug: "review-07",
+        title: "Review 07",
+        hint: "pp. 187–189",
+        data: "data/blue2/unit07/review-07.json",
+        practiceId: "b2:u07:review-07",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",

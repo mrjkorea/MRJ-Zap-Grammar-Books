@@ -1,0 +1,438 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 현재 진행 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u07:lesson01-jump",
+  "title": "Grammar Jump",
+  "subtitle": "우리말 뜻 & 문장 완성 (pp. 173–174)",
+  "pages": "173–174",
+  "timerMinutes": 24,
+  "introKo": "이 연습은 Section A 8문항(우리말 두 칸), Section B 15문항(be+ing 두 칸)으로 되어 있어요. 회색 '예시' 문제는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸마다 밑줄 친 부분의 우리말 뜻을 한 칸에 한 줄씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸마다 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸마다 밑줄 친 부분의 우리말 뜻을 한 칸에 한 줄씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "Paul <u>plays basketball</u> every day.\nHe <u>is playing basketball</u> now.",
+      "blanks": 2,
+      "accept": [
+        "농구를 한다|농구를 하고 있다"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "농구를 한다 / 농구를 하고 있다"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸마다 밑줄 친 부분의 우리말 뜻을 한 칸에 한 줄씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "Alice <u>reads a book</u> every week.\nShe <u>is reading a detective story</u> now.",
+      "blanks": 2,
+      "accept": [
+        "책을 읽는다|탐정 소설을 읽고 있다"
+      ],
+      "promptKo": "→ 책을 읽는다 / 탐정 소설을 읽고 있다"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸마다 밑줄 친 부분의 우리말 뜻을 한 칸에 한 줄씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "Paul and I <u>practice taekwondo</u> twice a week.\nWe <u>are practicing taekwondo</u> now.",
+      "blanks": 2,
+      "accept": [
+        "태권도를 연습한다|태권도를 연습하고 있다"
+      ],
+      "promptKo": "→ 태권도를 연습한다 / 태권도를 연습하고 있다"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸마다 밑줄 친 부분의 우리말 뜻을 한 칸에 한 줄씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "You and your sister often <u>sing</u> together.\nYou <u>are singing</u> now.",
+      "blanks": 2,
+      "accept": [
+        "노래한다|노래하고 있다"
+      ],
+      "promptKo": "→ 노래한다 / 노래하고 있다"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸마다 밑줄 친 부분의 우리말 뜻을 한 칸에 한 줄씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "He and Sue usually <u>study</u> at the library.\nThey <u>are studying</u> at the library now.",
+      "blanks": 2,
+      "accept": [
+        "공부한다|공부하고 있다"
+      ],
+      "promptKo": "→ 공부한다 / 공부하고 있다"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸마다 밑줄 친 부분의 우리말 뜻을 한 칸에 한 줄씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "id": "a06",
+      "type": "fill",
+      "promptEn": "My mother <u>bakes cookies</u> on the weekend.\nShe <u>is baking cookies</u> now.",
+      "blanks": 2,
+      "accept": [
+        "쿠키를 굽는다|쿠키를 굽고 있다"
+      ],
+      "promptKo": "→ 쿠키를 굽는다 / 쿠키를 굽고 있다"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸마다 밑줄 친 부분의 우리말 뜻을 한 칸에 한 줄씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "id": "a07",
+      "type": "fill",
+      "promptEn": "John always <u>asks lots of questions</u>.\nHe <u>is asking a question</u> now.",
+      "blanks": 2,
+      "accept": [
+        "많은 질문을 한다|질문을 하고 있다"
+      ],
+      "promptKo": "→ 많은 질문을 한다 / 질문을 하고 있다"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸마다 밑줄 친 부분의 우리말 뜻을 한 칸에 한 줄씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "id": "a08",
+      "type": "fill",
+      "promptEn": "I sometimes <u>wash my dad's car</u>.\nI <u>am washing his car</u> now.",
+      "blanks": 2,
+      "accept": [
+        "아빠 차를 닦는다|그의 차를 닦고 있다"
+      ],
+      "promptKo": "→ 아빠 차를 닦는다 / 그의 차를 닦고 있다"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "id": "b01",
+      "type": "fill",
+      "promptEn": "They ______ ______ on the bench. ( sit )",
+      "blanks": 2,
+      "accept": [
+        "are|sitting"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "are / sitting"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "id": "b02",
+      "type": "fill",
+      "promptEn": "We ______ ______ to the dentist. ( go )",
+      "blanks": 2,
+      "accept": [
+        "are|going"
+      ],
+      "promptKo": "→ are / going"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "id": "b03",
+      "type": "fill",
+      "promptEn": "Their babies ______ ______ sadly. ( cry )",
+      "blanks": 2,
+      "accept": [
+        "are|crying"
+      ],
+      "promptKo": "→ are / crying"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "id": "b04",
+      "type": "fill",
+      "promptEn": "Tom ______ ______ Christmas cards to his friends. ( write )",
+      "blanks": 2,
+      "accept": [
+        "is|writing"
+      ],
+      "promptKo": "→ is / writing"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "id": "b05",
+      "type": "fill",
+      "promptEn": "The boy ______ ______ the cushion. ( hit )",
+      "blanks": 2,
+      "accept": [
+        "is|hitting"
+      ],
+      "promptKo": "→ is / hitting"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "id": "b06",
+      "type": "fill",
+      "promptEn": "It ______ ______ now. ( rain )",
+      "blanks": 2,
+      "accept": [
+        "is|raining"
+      ],
+      "promptKo": "→ is / raining"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "id": "b07",
+      "type": "fill",
+      "promptEn": "My sister ______ ______ her shoes. ( tie )",
+      "blanks": 2,
+      "accept": [
+        "is|tying"
+      ],
+      "promptKo": "→ is / tying"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "id": "b08",
+      "type": "fill",
+      "promptEn": "Alice ______ ______ a donkey now. ( ride )",
+      "blanks": 2,
+      "accept": [
+        "is|riding"
+      ],
+      "promptKo": "→ is / riding"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "id": "b09",
+      "type": "fill",
+      "promptEn": "Those students ______ ______ happily. ( laugh )",
+      "blanks": 2,
+      "accept": [
+        "are|laughing"
+      ],
+      "promptKo": "→ are / laughing"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "id": "b10",
+      "type": "fill",
+      "promptEn": "They ______ ______ loudly. ( clap )",
+      "blanks": 2,
+      "accept": [
+        "are|clapping"
+      ],
+      "promptKo": "→ are / clapping"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "id": "b11",
+      "type": "fill",
+      "promptEn": "Minsu ______ ______ his dog. ( walk )",
+      "blanks": 2,
+      "accept": [
+        "is|walking"
+      ],
+      "promptKo": "→ is / walking"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "id": "b12",
+      "type": "fill",
+      "promptEn": "My sister and I ______ ______ the problems. ( solve )",
+      "blanks": 2,
+      "accept": [
+        "are|solving"
+      ],
+      "promptKo": "→ are / solving"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B13",
+      "id": "b13",
+      "type": "fill",
+      "promptEn": "The men ______ ______ the trees. ( cut )",
+      "blanks": 2,
+      "accept": [
+        "are|cutting"
+      ],
+      "promptKo": "→ are / cutting"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B14",
+      "id": "b14",
+      "type": "fill",
+      "promptEn": "She ______ ______ chicken soup. ( make )",
+      "blanks": 2,
+      "accept": [
+        "is|making"
+      ],
+      "promptKo": "→ is / making"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 현재 진행 시제 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. 빈칸이 두 개면 be동사와 -ing형을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B15",
+      "id": "b15",
+      "type": "fill",
+      "promptEn": "A boy ______ ______ on the door. ( knock )",
+      "blanks": 2,
+      "accept": [
+        "is|knocking"
+      ],
+      "promptKo": "→ is / knocking"
+    }
+  ]
+}

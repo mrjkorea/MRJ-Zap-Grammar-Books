@@ -1,0 +1,577 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 현재 진행 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u07:lesson02-fly",
+  "title": "Grammar Fly",
+  "subtitle": "고치기 & 워드뱅크 (pp. 185–186)",
+  "pages": "185–186",
+  "timerMinutes": 26,
+  "wordBank": [
+    "eat",
+    "read",
+    "clean",
+    "take",
+    "keep",
+    "swim",
+    "cry",
+    "play",
+    "look",
+    "go",
+    "drink",
+    "drive",
+    "ride",
+    "watch",
+    "smile"
+  ],
+  "introKo": "이 연습은 Section A 15문항(밑줄 고치기), Section B 14문항(워드뱅크)으로 되어 있어요. 회색 '예시' 문제는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "directionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "I <u>not am</u> taking a walk.",
+      "blanks": 2,
+      "accept": [
+        "am|not"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am / not"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "<u>Is singing she</u> loudly?",
+      "blanks": 2,
+      "accept": [
+        "Is she|singing",
+        "Is|she singing"
+      ],
+      "promptKo": "→ Is she / singing"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "Paul <u>does not</u> practicing tennis.",
+      "blanks": 2,
+      "accept": [
+        "is|not"
+      ],
+      "promptKo": "→ is / not"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "Is he <u>buy</u> any cheese?",
+      "blanks": 1,
+      "accept": [
+        "buying"
+      ],
+      "promptKo": "→ buying"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "Julia <u>not is</u> going home.",
+      "blanks": 2,
+      "accept": [
+        "is|not"
+      ],
+      "promptKo": "→ is / not"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "id": "a06",
+      "type": "fill",
+      "promptEn": "<u>Does</u> your father cooking in the kitchen?",
+      "blanks": 1,
+      "accept": [
+        "Is"
+      ],
+      "promptKo": "→ Is"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "id": "a07",
+      "type": "fill",
+      "promptEn": "Mike <u>doesn't</u> washing the dishes.",
+      "blanks": 1,
+      "accept": [
+        "isn't",
+        "is not"
+      ],
+      "promptKo": "→ isn't"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "id": "a08",
+      "type": "fill",
+      "promptEn": "<u>Do</u> they sleeping on the couch?",
+      "blanks": 1,
+      "accept": [
+        "Are"
+      ],
+      "promptKo": "→ Are"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "id": "a09",
+      "type": "fill",
+      "promptEn": "We aren't <u>answer</u> his questions.",
+      "blanks": 1,
+      "accept": [
+        "answering"
+      ],
+      "promptKo": "→ answering"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "id": "a10",
+      "type": "fill",
+      "promptEn": "<u>Is</u> the girls carrying the desk?",
+      "blanks": 1,
+      "accept": [
+        "Are"
+      ],
+      "promptKo": "→ Are"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "id": "a11",
+      "type": "fill",
+      "promptEn": "The cows <u>is</u> eating grass.",
+      "blanks": 1,
+      "accept": [
+        "are"
+      ],
+      "promptKo": "→ are"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "id": "a12",
+      "type": "fill",
+      "promptEn": "<u>Are wearing they</u> school uniforms?",
+      "blanks": 2,
+      "accept": [
+        "Are they|wearing"
+      ],
+      "promptKo": "→ Are they / wearing"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "id": "a13",
+      "type": "fill",
+      "promptEn": "Tony <u>doesn't</u> washing his face.",
+      "blanks": 1,
+      "accept": [
+        "isn't",
+        "is not"
+      ],
+      "promptKo": "→ isn't"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "id": "a14",
+      "type": "fill",
+      "promptEn": "Are you <u>solve</u> the math problems?",
+      "blanks": 1,
+      "accept": [
+        "solving"
+      ],
+      "promptKo": "→ solving"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "id": "a15",
+      "type": "fill",
+      "promptEn": "The boys are <u>play</u> computer games.",
+      "blanks": 1,
+      "accept": [
+        "playing"
+      ],
+      "promptKo": "→ playing"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "id": "b01",
+      "type": "fill",
+      "promptEn": "Tom ______ ______ ______ .",
+      "blanks": 3,
+      "accept": [
+        "is|not|crying"
+      ],
+      "promptKo": "톰은 울고 있지 않다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is / not / crying"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "id": "b02",
+      "type": "fill",
+      "promptEn": "______ ______ hamburgers?",
+      "blanks": 2,
+      "accept": [
+        "Are|eating"
+      ],
+      "promptKo": "그들은 햄버거를 먹고 있니?"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "id": "b03",
+      "type": "fill",
+      "promptEn": "I ______ ______ ______ a musical.",
+      "blanks": 3,
+      "accept": [
+        "am|not|watching"
+      ],
+      "promptKo": "나는 뮤지컬을 보고 있지 않다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "id": "b04",
+      "type": "fill",
+      "promptEn": "______ ______ an e-mail?",
+      "blanks": 2,
+      "accept": [
+        "Are|reading"
+      ],
+      "promptKo": "너는 이메일을 읽고 있니?"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "id": "b05",
+      "type": "fill",
+      "promptEn": "Jane ______ ______ ______ .",
+      "blanks": 3,
+      "accept": [
+        "is|not|smiling"
+      ],
+      "promptKo": "제인은 미소 짓고 있지 않다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "id": "b06",
+      "type": "fill",
+      "promptEn": "______ ______ photos?",
+      "blanks": 2,
+      "accept": [
+        "Is|taking"
+      ],
+      "promptKo": "그녀는 사진을 찍고 있니?"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "id": "b07",
+      "type": "fill",
+      "promptEn": "Minho ______ ______ ______ basketball.",
+      "blanks": 3,
+      "accept": [
+        "is|not|playing"
+      ],
+      "promptKo": "민호는 농구를 하고 있지 않다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "id": "b08",
+      "type": "fill",
+      "promptEn": "______ ______ the street?",
+      "blanks": 2,
+      "accept": [
+        "Are|cleaning"
+      ],
+      "promptKo": "그들은 거리를 청소하고 있니?"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "id": "b09",
+      "type": "fill",
+      "promptEn": "You ______ ______ ______ a diary.",
+      "blanks": 3,
+      "accept": [
+        "are|not|keeping"
+      ],
+      "promptKo": "너는 일기를 쓰고 있지 않다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "id": "b10",
+      "type": "fill",
+      "promptEn": "______ Youngmin ______ to a bookstore?",
+      "blanks": 2,
+      "accept": [
+        "Is|going"
+      ],
+      "promptKo": "영민이는 서점에 가고 있니?"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "id": "b11",
+      "type": "fill",
+      "promptEn": "They ______ ______ ______ at the moon.",
+      "blanks": 3,
+      "accept": [
+        "are|not|looking"
+      ],
+      "promptKo": "그들은 달을 쳐다보고 있지 않다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "id": "b12",
+      "type": "fill",
+      "promptEn": "______ ______ milk?",
+      "blanks": 2,
+      "accept": [
+        "Are|drinking"
+      ],
+      "promptKo": "너는 우유를 마시고 있니?"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B13",
+      "id": "b13",
+      "type": "fill",
+      "promptEn": "He ______ ______ ______ a bus.",
+      "blanks": 3,
+      "accept": [
+        "is|not|driving"
+      ],
+      "promptKo": "그는 버스를 운전하고 있지 않다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B14",
+      "id": "b14",
+      "type": "fill",
+      "promptEn": "______ the dolphin ______ in the sea?",
+      "blanks": 2,
+      "accept": [
+        "Is|swimming"
+      ],
+      "promptKo": "그 돌고래는 바다에서 헤엄치고 있니?"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 단어를 찾아 문장을 완성하세요. 필요하면 형태를 바꿔 쓰세요. 상자: eat, read, clean, take, keep, swim, cry, play, look, go, drink, drive, ride, watch, smile.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B15",
+      "id": "b15",
+      "type": "fill",
+      "promptEn": "We ______ ______ ______ horses.",
+      "blanks": 3,
+      "accept": [
+        "are|not|riding"
+      ],
+      "promptKo": "우리는 말을 타고 있지 않다."
+    }
+  ]
+}
