@@ -1,0 +1,582 @@
+{
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — be동사의 현재 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "b1:u07:lesson02-jump",
+  "title": "Lesson 02 Jump — 지시대명사와 be동사",
+  "subtitle": "뜻·빈칸 (pp. 166–167)",
+  "pages": "166–167",
+  "timerMinutes": 24,
+  "introKo": "Section A는 밑줄 be동사의 우리말 뜻, Section B는 am/is/are와 줄임말입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 13,
+      "exampleCount": 2,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I <u>am</u> Korean.",
+      "accept": [
+        "이다",
+        "~이다"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "이다",
+      "promptKo": "나는 한국인이다."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You <u>are</u> smart.",
+      "accept": [
+        "하다",
+        "~(하)다"
+      ],
+      "blanks": 1,
+      "promptKo": "너는 똑똑하다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "She <u>is</u> in the room.",
+      "accept": [
+        "있다",
+        "~에 있다"
+      ],
+      "blanks": 1,
+      "promptKo": "그녀는 방에 있다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "It <u>is</u> my watch.",
+      "accept": [
+        "이다",
+        "~이다"
+      ],
+      "blanks": 1,
+      "promptKo": "그것은 내 손목시계이다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "This <u>is</u> a pine tree.",
+      "accept": [
+        "이다",
+        "~이다"
+      ],
+      "blanks": 1,
+      "promptKo": "이것은 소나무이다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "He <u>is</u> a pianist.",
+      "accept": [
+        "이다",
+        "~이다"
+      ],
+      "blanks": 1,
+      "promptKo": "그는 피아니스트이다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "That <u>is</u> a sofa.",
+      "accept": [
+        "이다",
+        "~이다"
+      ],
+      "blanks": 1,
+      "promptKo": "저것은 소파이다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "We <u>are</u> in the restaurant.",
+      "accept": [
+        "있다",
+        "~에 있다"
+      ],
+      "blanks": 1,
+      "promptKo": "우리는 식당에 있다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "These <u>are</u> my pencils.",
+      "accept": [
+        "이다",
+        "~이다"
+      ],
+      "blanks": 1,
+      "promptKo": "이것들은 내 연필이다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Those <u>are</u> his books.",
+      "accept": [
+        "이다",
+        "~이다"
+      ],
+      "blanks": 1,
+      "promptKo": "저것들은 그의 책이다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "They <u>are</u> in the classroom.",
+      "accept": [
+        "있다",
+        "~에 있다"
+      ],
+      "blanks": 1,
+      "promptKo": "그들은 교실에 있다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Sumin <u>is</u> my friend.",
+      "accept": [
+        "이다",
+        "~이다"
+      ],
+      "blanks": 1,
+      "promptKo": "수민이는 내 친구이다."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "The house <u>is</u> theirs.",
+      "accept": [
+        "이다",
+        "~이다"
+      ],
+      "blanks": 1,
+      "promptKo": "그 집은 그들의 것이다."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "The boys <u>are</u> tall.",
+      "accept": [
+        "하다",
+        "~(하)다"
+      ],
+      "blanks": 1,
+      "promptKo": "그 남자아이들은 키가 크다."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Jojo and Mike <u>are</u> kind.",
+      "accept": [
+        "하다",
+        "~(하)다"
+      ],
+      "blanks": 1,
+      "promptKo": "조조와 마이크는 친절하다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "You <u>are</u> smart.",
+      "accept": [
+        "are"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "are",
+      "promptKo": "너는 똑똑하다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Emily ______ kind.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1,
+      "promptKo": "에밀리는 친절하다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "They ______ friends.",
+      "accept": [
+        "are"
+      ],
+      "blanks": 1,
+      "promptKo": "그들은 친구이다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "He ______ my brother.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1,
+      "promptKo": "그는 내 남동생이다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "I ______ in my room.",
+      "accept": [
+        "am"
+      ],
+      "blanks": 1,
+      "promptKo": "나는 내 방에 있다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "This ______ a bottle.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1,
+      "promptKo": "이것은 병이다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "Those ______ dolls.",
+      "accept": [
+        "are"
+      ],
+      "blanks": 1,
+      "promptKo": "저것들은 인형이다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "<u>I'm</u> ten years old.",
+      "accept": [
+        "I'm"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I'm",
+      "promptKo": "나는 열 살이다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "______ cute.",
+      "accept": [
+        "You're",
+        "you're"
+      ],
+      "blanks": 1,
+      "promptKo": "너는 귀엽다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "______ mine.",
+      "accept": [
+        "That's",
+        "that's"
+      ],
+      "blanks": 1,
+      "promptKo": "저것은 내 것이다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "______ my cousin.",
+      "accept": [
+        "She's",
+        "she's"
+      ],
+      "blanks": 1,
+      "promptKo": "그녀는 내 사촌이다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "______ a science teacher.",
+      "accept": [
+        "He's",
+        "he's"
+      ],
+      "blanks": 1,
+      "promptKo": "그는 과학 선생님이다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "______ in the classroom.",
+      "accept": [
+        "We're",
+        "we're"
+      ],
+      "blanks": 1,
+      "promptKo": "우리는 교실에 있다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "______ a picture.",
+      "accept": [
+        "It's",
+        "it's"
+      ],
+      "blanks": 1,
+      "promptKo": "그것은 그림이다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "______ from China.",
+      "accept": [
+        "They're",
+        "they're"
+      ],
+      "blanks": 1,
+      "promptKo": "그들은 중국 출신이다."
+    }
+  ]
+}

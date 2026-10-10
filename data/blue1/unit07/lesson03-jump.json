@@ -1,0 +1,580 @@
+{
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — be동사의 현재 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "b1:u07:lesson03-jump",
+  "title": "Lesson 03 Jump — be동사의 부정문",
+  "subtitle": "뜻·부정 빈칸 (pp. 176–177)",
+  "pages": "176–177",
+  "timerMinutes": 24,
+  "introKo": "Section A는 부정 be의 우리말 뜻, Section B는 not·줄임 부정형입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 13,
+      "exampleCount": 2,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I <u>am not</u> a boy.",
+      "accept": [
+        "아니다"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "아니다",
+      "promptKo": "나는 남자아이가 아니다."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You <u>are not</u> his sister.",
+      "accept": [
+        "아니다",
+        "아니 다"
+      ],
+      "blanks": 1,
+      "promptKo": "너는 그의 여동생이 아니다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "He <u>is not</u> short.",
+      "accept": [
+        "않다",
+        "지 않다",
+        "않다."
+      ],
+      "blanks": 1,
+      "promptKo": "그는 키가 작지 않다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "It <u>is not</u> my umbrella.",
+      "accept": [
+        "아니다",
+        "아니 다"
+      ],
+      "blanks": 1,
+      "promptKo": "그것은 내 우산이 아니다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "She <u>is not</u> in the room.",
+      "accept": [
+        "않다",
+        "지 않다",
+        "않다."
+      ],
+      "blanks": 1,
+      "promptKo": "그녀는 방에 있지 않다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "This <u>is not</u> her pen.",
+      "accept": [
+        "아니다",
+        "아니 다"
+      ],
+      "blanks": 1,
+      "promptKo": "이것은 그녀의 펜이 아니다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "That <u>is not</u> my bag.",
+      "accept": [
+        "아니다",
+        "아니 다"
+      ],
+      "blanks": 1,
+      "promptKo": "저것은 내 가방이 아니다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Minho <u>isn't</u> my brother.",
+      "accept": [
+        "아니다",
+        "아니 다"
+      ],
+      "blanks": 1,
+      "promptKo": "민호는 내 남동생이 아니다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "We <u>aren't</u> her cousins.",
+      "accept": [
+        "아니다",
+        "아니 다"
+      ],
+      "blanks": 1,
+      "promptKo": "우리는 그녀의 사촌이 아니다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "The dog <u>isn't</u> big.",
+      "accept": [
+        "않다",
+        "지 않다",
+        "않다."
+      ],
+      "blanks": 1,
+      "promptKo": "그 개는 몸집이 크지 않다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "These <u>aren't</u> his shoes.",
+      "accept": [
+        "아니다",
+        "아니 다"
+      ],
+      "blanks": 1,
+      "promptKo": "이것들은 그의 신발이 아니다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "They <u>aren't</u> in the park.",
+      "accept": [
+        "않다",
+        "지 않다",
+        "않다."
+      ],
+      "blanks": 1,
+      "promptKo": "그들은 공원에 있지 않다."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Jane and I <u>aren't</u> tall.",
+      "accept": [
+        "않다",
+        "지 않다",
+        "않다."
+      ],
+      "blanks": 1,
+      "promptKo": "제인과 나는 키가 크지 않다."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Lee <u>isn't</u> a firefighter.",
+      "accept": [
+        "아니다",
+        "아니 다"
+      ],
+      "blanks": 1,
+      "promptKo": "리는 소방관이 아니다."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Those <u>aren't</u> mine.",
+      "accept": [
+        "아니다",
+        "아니 다"
+      ],
+      "blanks": 1,
+      "promptKo": "저것들은 내 것이 아니다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I am <u>not</u> a doctor.",
+      "accept": [
+        "not"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "not",
+      "promptKo": "나는 의사가 아니다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "They <u>aren't</u> in the kitchen.",
+      "accept": [
+        "aren't",
+        "are not"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "aren't",
+      "promptKo": "그들은 부엌에 있지 않다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "You ______ not fat.",
+      "accept": [
+        "are"
+      ],
+      "blanks": 1,
+      "promptKo": "너는 뚱뚱하지 않다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "This is ______ a fruit.",
+      "accept": [
+        "not"
+      ],
+      "blanks": 1,
+      "promptKo": "이것은 과일이 아니다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "We ______ not students.",
+      "accept": [
+        "are"
+      ],
+      "blanks": 1,
+      "promptKo": "우리는 학생이 아니다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Emily ______ not kind.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1,
+      "promptKo": "에밀리는 친절하지 않다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "They ______ not mine.",
+      "accept": [
+        "are"
+      ],
+      "blanks": 1,
+      "promptKo": "그들은 내 것이 아니다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "It is ______ a photo.",
+      "accept": [
+        "not"
+      ],
+      "blanks": 1,
+      "promptKo": "그것은 사진이 아니다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "That ______ not a bed.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1,
+      "promptKo": "저것은 침대가 아니다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "These ______ books.",
+      "accept": [
+        "aren't"
+      ],
+      "blanks": 1,
+      "promptKo": "이것들은 책이 아니다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "The room ______ clean.",
+      "accept": [
+        "isn't"
+      ],
+      "blanks": 1,
+      "promptKo": "그 방은 깨끗하지 않다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "Those ______ kangaroos.",
+      "accept": [
+        "aren't"
+      ],
+      "blanks": 1,
+      "promptKo": "저것들은 캥거루가 아니다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "The children ______ tall.",
+      "accept": [
+        "aren't"
+      ],
+      "blanks": 1,
+      "promptKo": "그 아이들은 키가 크지 않다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "He ______ a pilot.",
+      "accept": [
+        "isn't"
+      ],
+      "blanks": 1,
+      "promptKo": "그는 비행기 조종사가 아니다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "They ______ my classmates.",
+      "accept": [
+        "aren't"
+      ],
+      "blanks": 1,
+      "promptKo": "그들은 내 반 친구들이 아니다."
+    }
+  ]
+}
