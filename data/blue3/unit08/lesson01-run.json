@@ -1,0 +1,646 @@
+{
+  "practiceId": "b3:u08:lesson01-run",
+  "title": "Grammar Run — 명령문·제안문",
+  "subtitle": "pp. 200–201",
+  "pages": "200–201",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 명령문과 감탄문",
+  "sectionsVersion": 2,
+  "introKo": "Section A 15문항, Section B 15문항. 괄호·빈칸에서 고르기.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "( Clean / Cleans ) your room now.",
+      "promptKo": "지금 방을 청소해라.",
+      "choices": [
+        "Clean",
+        "Cleans"
+      ],
+      "accept": [
+        "Clean"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Clean"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "Let's ( eat / eating ) some doughnuts.",
+      "promptKo": "도넛을 먹자.",
+      "choices": [
+        "eat",
+        "eating"
+      ],
+      "accept": [
+        "eat"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "( Doesn't / Don't ) run in the classroom.",
+      "promptKo": "교실에서 뛰지 마라.",
+      "choices": [
+        "Doesn't",
+        "Don't"
+      ],
+      "accept": [
+        "Don't"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Let's ( don't / not ) wait for him.",
+      "promptKo": "그를 기다리지 말자.",
+      "choices": [
+        "don't",
+        "not"
+      ],
+      "accept": [
+        "not"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "( Practicing / Practice ) the piano.",
+      "promptKo": "피아노를 연습해라.",
+      "choices": [
+        "Practicing",
+        "Practice"
+      ],
+      "accept": [
+        "Practice"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Don't ( make / makes ) noise.",
+      "promptKo": "떠들지 마라.",
+      "choices": [
+        "make",
+        "makes"
+      ],
+      "accept": [
+        "make"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Let's ( listen / listens ) carefully.",
+      "promptKo": "조심해서 들으자.",
+      "choices": [
+        "listen",
+        "listens"
+      ],
+      "accept": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "( Let's not / Not let's ) play the computer game.",
+      "promptKo": "컴퓨터 게임하지 말자.",
+      "choices": [
+        "Let's not",
+        "Not let's"
+      ],
+      "accept": [
+        "Let's not"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "Please ( feed / feeds ) the dogs.",
+      "promptKo": "개들에게 먹이를 주세요.",
+      "choices": [
+        "feed",
+        "feeds"
+      ],
+      "accept": [
+        "feed"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "Don't ( drink / not drink ) cold water.",
+      "promptKo": "찬물을 마시지 마라.",
+      "choices": [
+        "drink",
+        "not drink"
+      ],
+      "accept": [
+        "drink"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "( Let ride / Let's ride ) bicycles in the park.",
+      "promptKo": "공원에서 자전거를 타자.",
+      "choices": [
+        "Let ride",
+        "Let's ride"
+      ],
+      "accept": [
+        "Let's ride"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "Let's ( don't / not ) play soccer here.",
+      "promptKo": "여기서 축구하지 말자.",
+      "choices": [
+        "don't",
+        "not"
+      ],
+      "accept": [
+        "not"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "( Be / Are ) quiet in the library, please.",
+      "promptKo": "도서관에서 조용히 해라.",
+      "choices": [
+        "Be",
+        "Are"
+      ],
+      "accept": [
+        "Be"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "Don't ( going / go ) to bed late.",
+      "promptKo": "늦게 자지 마라.",
+      "choices": [
+        "going",
+        "go"
+      ],
+      "accept": [
+        "go"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "Let's ( meet / met ) on Friday afternoon.",
+      "promptKo": "금요일 오후에 만나자.",
+      "choices": [
+        "meet",
+        "met"
+      ],
+      "accept": [
+        "meet"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "______ your homework now.",
+      "promptKo": "지금 숙제를 해라.",
+      "choices": [
+        "Do",
+        "Don't do"
+      ],
+      "accept": [
+        "Do"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "______ afraid.",
+      "promptKo": "두려워하지 마라.",
+      "choices": [
+        "Not be",
+        "Don't be"
+      ],
+      "accept": [
+        "Don't be"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "______ a birthday party.",
+      "promptKo": "생일 파티를 하자.",
+      "choices": [
+        "Let's have",
+        "Have"
+      ],
+      "accept": [
+        "Let's have"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "______ sing the song.",
+      "promptKo": "그 노래 부르지 말자.",
+      "choices": [
+        "Let's",
+        "Let's not"
+      ],
+      "accept": [
+        "Let's not"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "______ the door.",
+      "promptKo": "문을 닫으세요.",
+      "choices": [
+        "Please close",
+        "Let's close"
+      ],
+      "accept": [
+        "Please close"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "______ the guitar.",
+      "promptKo": "기타를 치지 마라.",
+      "choices": [
+        "Let's not play",
+        "Don't play"
+      ],
+      "accept": [
+        "Don't play"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "______ at the bus stop.",
+      "promptKo": "버스 정류장에서 만나자.",
+      "choices": [
+        "Let's meet",
+        "Let's not meet"
+      ],
+      "accept": [
+        "Let's meet"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "______ too much chocolate.",
+      "promptKo": "초콜릿을 너무 많이 먹지 말자.",
+      "choices": [
+        "Let's eat",
+        "Let's not eat"
+      ],
+      "accept": [
+        "Let's not eat"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "______ to your friends.",
+      "promptKo": "친구들에게 친절해라.",
+      "choices": [
+        "Let's be kind",
+        "Be kind"
+      ],
+      "accept": [
+        "Be kind"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "______ with your brothers.",
+      "promptKo": "형제들과 절대 싸우지 마라.",
+      "choices": [
+        "Never fight",
+        "Let's fight"
+      ],
+      "accept": [
+        "Never fight"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "______ to the dentist.",
+      "promptKo": "치과에 가자.",
+      "choices": [
+        "Don't go",
+        "Let's go"
+      ],
+      "accept": [
+        "Let's go"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "______ outside today.",
+      "promptKo": "오늘은 밖에서 놀지 말자.",
+      "choices": [
+        "Let's not play",
+        "Let's play"
+      ],
+      "accept": [
+        "Let's not play"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "______ your hand.",
+      "promptKo": "손을 들어라.",
+      "choices": [
+        "Don't raise",
+        "Raise"
+      ],
+      "accept": [
+        "Raise"
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "______ the flowers.",
+      "promptKo": "꽃을 꺾지 마세요.",
+      "choices": [
+        "Please pick",
+        "Please don't pick"
+      ],
+      "accept": [
+        "Please don't pick"
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "______ the TV show.",
+      "promptKo": "그 TV 프로그램을 보자.",
+      "choices": [
+        "Let's watch",
+        "Let's not watch"
+      ],
+      "accept": [
+        "Let's watch"
+      ]
+    }
+  ]
+}
