@@ -1,0 +1,214 @@
+{
+  "practiceId": "b3:u07:lesson04-walk",
+  "title": "Grammar Walk — Lesson 04",
+  "subtitle": "did not / didn't (p. 180)",
+  "pages": "180",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 과거 시제 - 일반동사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 4문항(did|not|동사), Section B 4문항(didn't+동사원형).",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
+      "directionKo": "did not과 동사를 찾으세요.",
+      "ruleKo": "did|not|동사원형",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. didn't와 동사원형 두 칸에 | 로 구분해 쓰세요.",
+      "directionKo": "didn't 축약형으로 바꾸세요.",
+      "ruleKo": "didn't|동사원형",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I did not go to the museum yesterday.",
+      "accept": [
+        "did|not|go"
+      ],
+      "promptKo": "나는 어제 박물관에 가지 않았다.",
+      "blanks": 3,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "did|not|go"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "She did not carry the boxes.",
+      "accept": [
+        "did|not|carry"
+      ],
+      "promptKo": "그녀는 상자들을 나르지 않았다.",
+      "blanks": 3
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We did not wear hats.",
+      "accept": [
+        "did|not|wear"
+      ],
+      "promptKo": "우리는 모자를 쓰지 않았다.",
+      "blanks": 3
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Danny did not close the door.",
+      "accept": [
+        "did|not|close"
+      ],
+      "promptKo": "대니는 문을 닫지 않았다.",
+      "blanks": 3
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They did not have lunch today.",
+      "accept": [
+        "did|not|have"
+      ],
+      "promptKo": "그들은 오늘 점심을 먹지 않았다.",
+      "blanks": 3
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. didn't와 동사원형 두 칸에 | 로 구분해 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "You did not brush your hair this morning.\n→ You ______ your hair this morning.",
+      "accept": [
+        "didn't|brush"
+      ],
+      "promptKo": "너는 오늘 아침에 머리를 빗지 않았다.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "didn't|brush"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. didn't와 동사원형 두 칸에 | 로 구분해 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "He did not go to the library yesterday.\n→ He ______ to the library yesterday.",
+      "accept": [
+        "didn't|go"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. didn't와 동사원형 두 칸에 | 로 구분해 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "They did not open the box.\n→ They ______ the box.",
+      "accept": [
+        "didn't|open"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. didn't와 동사원형 두 칸에 | 로 구분해 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "I did not study English last night.\n→ I ______ English last night.",
+      "accept": [
+        "didn't|study"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. didn't와 동사원형 두 칸에 | 로 구분해 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "She did not run in the park.\n→ She ______ in the park.",
+      "accept": [
+        "didn't|run"
+      ],
+      "blanks": 2
+    }
+  ]
+}
