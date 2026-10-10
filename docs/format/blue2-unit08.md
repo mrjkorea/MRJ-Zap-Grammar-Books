@@ -57,3 +57,4 @@ Timers: Walk ~10 min; Run ~20; Jump ~25; Fly ~28; Review ~30.
 - **Review [1–2] item 2:** wrong pair is ② **with babies – 아기들에 대한** (`with` = together, not “about”).
 - **Jump B (lesson01):** B1 gray sample **in**; B4/B6/B10/B12 use multiple blanks per printed boxes; B7 **between|and** (ordered).
 - **Audit fix:** Review **#14–#15** had been swapped (tree vs John/puppy); corrected to match p214.
+- **Fly B:** every item uses printed blank count (lesson02 B14 = 4 blanks); ordered pipe accepts.
