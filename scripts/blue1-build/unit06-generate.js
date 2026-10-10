@@ -672,12 +672,12 @@ function practiceBase(practiceId, title, subtitle, pages, timerMinutes, introKo)
     ["<u>That</u> baby rabbit is cute.", ["This"]],
     ["<u>These</u> are my friends.", ["Those"]],
     ["<u>These</u> child is nice.", ["This"]],
-    ["I like <u>those</u> animal.", ["those animals", "those"]],
-    ["They know <u>this</u> girls.", ["this girl", "this"]],
+    ["I like <u>those</u> animal.", ["those animals", "Those animals"]],
+    ["They know <u>this</u> girls.", ["this girl", "This girl"]],
     ["<u>That</u> is Judy's doll.", ["This"]],
     ["<u>Those</u> is my cousin.", ["That"]],
-    ["<u>Those</u> tree are green.", ["Those trees", "Those"]],
-    ["<u>These</u> shoe are mine.", ["This shoe", "This", "These shoes", "These"]],
+    ["<u>Those</u> tree are green.", ["Those trees", "those trees"]],
+    ["<u>These</u> shoe are mine.", ["This shoe", "This", "this shoe", "this"]],
   ];
   const items = aData.map((r, i) => {
     const base = fillItem("a" + String(i + 1).padStart(2, "0"), "A", String(i + 1), r[0], r[1], { sectionInstructionKo: dirA });
