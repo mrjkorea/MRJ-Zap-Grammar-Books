@@ -1,0 +1,520 @@
+{
+  "practiceId": "b1:u08:lesson01-fly",
+  "title": "Lesson 01 Fly — be동사의 의문문 (1)",
+  "subtitle": "pp. 194–195",
+  "pages": "194–195",
+  "timerMinutes": 26,
+  "introKo": "Section A는 의문문 전체, Section B는 대답 두 칸. 예시는 채점하지 않아요.",
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — be동사의 현재 시제 (2)",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "directionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요.",
+      "ruleKo": "대명사와 be동사를 각 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A1",
+      "type": "sentence",
+      "promptEn": "I am pretty.",
+      "accept": [
+        "Am I pretty?"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Am I pretty?"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A2",
+      "type": "sentence",
+      "promptEn": "You are a teacher.",
+      "accept": [
+        "Are you a teacher?"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A3",
+      "type": "sentence",
+      "promptEn": "She is your sister.",
+      "accept": [
+        "Is she your sister?"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A4",
+      "type": "sentence",
+      "promptEn": "It is his map.",
+      "accept": [
+        "Is it his map?"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A5",
+      "type": "sentence",
+      "promptEn": "This is your glove.",
+      "accept": [
+        "Is this your glove?"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A6",
+      "type": "sentence",
+      "promptEn": "We are friends.",
+      "accept": [
+        "Are we friends?"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A7",
+      "type": "sentence",
+      "promptEn": "That is her scarf.",
+      "accept": [
+        "Is that her scarf?"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A8",
+      "type": "sentence",
+      "promptEn": "They are her children.",
+      "accept": [
+        "Are they her children?"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A9",
+      "type": "sentence",
+      "promptEn": "He is kind.",
+      "accept": [
+        "Is he kind?"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A10",
+      "type": "sentence",
+      "promptEn": "You are sick.",
+      "accept": [
+        "Are you sick?"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A11",
+      "type": "sentence",
+      "promptEn": "This is new.",
+      "accept": [
+        "Is this new?"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A12",
+      "type": "sentence",
+      "promptEn": "It is your bag.",
+      "accept": [
+        "Is it your bag?"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A13",
+      "type": "sentence",
+      "promptEn": "They are her puppies.",
+      "accept": [
+        "Are they her puppies?"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A14",
+      "type": "sentence",
+      "promptEn": "These are our cookies.",
+      "accept": [
+        "Are these our cookies?"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 빈칸에 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A15",
+      "type": "sentence",
+      "promptEn": "Those are heavy.",
+      "accept": [
+        "Are those heavy?"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "A: Am I your friend?  B: Yes/No, _____ _____.",
+      "accept": [
+        "you|are"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "you are"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "A: Is this my ball?  B: Yes/No, _____ _____.",
+      "accept": [
+        "it|is"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "A: Are you a student?  B: Yes/No, _____ _____.",
+      "accept": [
+        "I|am"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A: Is she a singer?  B: Yes/No, _____ _____.",
+      "accept": [
+        "she|isn't",
+        "she|she|is not|isn't"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "A: Is it her address?  B: Yes/No, _____ _____.",
+      "accept": [
+        "it|isn't",
+        "it|it|is not|isn't"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A: Are they painters?  B: Yes/No, _____ _____.",
+      "accept": [
+        "they|are"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A: Are these your socks?  B: Yes/No, _____ _____.",
+      "accept": [
+        "they|are"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "A: Is that your umbrella?  B: Yes/No, _____ _____.",
+      "accept": [
+        "it|isn't",
+        "it|it|is not|isn't"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "A: Are you her students?  B: Yes/No, _____ _____.",
+      "accept": [
+        "we|are"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "A: Is he in the classroom?  B: Yes/No, _____ _____.",
+      "accept": [
+        "he|is"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "A: Are those your gloves?  B: Yes/No, _____ _____.",
+      "accept": [
+        "they|aren't",
+        "they|they|are not|aren't"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "A: Are you nurses?  B: Yes/No, _____ _____.",
+      "accept": [
+        "we|aren't",
+        "we|we|are not|aren't"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "A: Is this salt?  B: Yes/No, _____ _____.",
+      "accept": [
+        "it|isn't",
+        "it|it|is not|isn't"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "A: Is she sad?  B: Yes/No, _____ _____.",
+      "accept": [
+        "she|is"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 써서 대화를 완성하세요. 빈칸 두 개에 대명사와 be동사를 각각 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "A: Are these your books?  B: Yes/No, _____ _____.",
+      "accept": [
+        "they|aren't",
+        "they|they|are not|aren't"
+      ],
+      "blanks": 2
+    }
+  ]
+}

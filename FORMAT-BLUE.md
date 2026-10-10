@@ -32,7 +32,9 @@ Blue books (Grammar, Zap! **기본**) teach **grammar concepts** in three lesson
 2. **Review NN** — one practice; sections use book banners `[1–2]`, `[3–4]`, …; item labels `1`–`20` (continuous across the review, grouped by banner sections).
 3. **Wrap Up** — only if the page has blanks students must fill; Unit 01 Wrap Up is display-only summary → **excluded**.
 
-**Not in Blue:** `run`, `jump`, `fly`, `writing`, `quiz` (unit test), `checkup`, Green-style `tests/rt01`… (unless a later Blue book adds book-level tests).
+**Unit 08+ (from Unit 02 in the book):** two lessons per unit, each with **Grammar Walk** (often two walk pages), **Run**, **Jump**, **Fly**, then **Review** and **Wrap Up**. See `docs/format/blue1-unit08.md` for the Unit 08 page map.
+
+**Not in Blue:** `writing`, Green-style per-unit `quiz` / `checkup`, or `tests/rt01`… unless added later. Units 02–08 use Run/Jump/Fly like the printed book (not Green’s exact slug names, but the same activity types).
 
 ## Exercise types → typing (same engine as Green)
 
