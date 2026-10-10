@@ -33,13 +33,13 @@ Blue 2 Unit 04 follows the **two-lesson** pattern: each lesson has **Grammar Wal
 
 | Slug | Book pages (printed) | Graded items | Sections | Modes |
 |------|----------------------|-------------|----------|-------|
-| `lesson01-walk` | 89 | 8 | A match×4, B circle+underline×4 | choice, words (2 blanks, unordered) |
-| `lesson01-walk2` | 91 | 9 | A circle+underline×4, B any position×5 | words (unordered), choice |
+| `lesson01-walk` | 89 | 8 | A match×4, B circle+underline×4 | choice, words (2 blanks, ordered) |
+| `lesson01-walk2` | 91 | 9 | A circle+underline×4, B any position×5 | words (ordered), choice |
 | `lesson01-run` | 92–93 | 28 | A MC×14, B MC×14 | choice |
-| `lesson01-jump` | 94–95 | 28 | A transform×14, B fill×14 | words |
+| `lesson01-jump` | 94–95 | 28 | A transform×14, B fill×14 (some/any or noun) | words |
 | `lesson01-fly` | 96–97 | 28 | A correct phrase×14, B complete×14 | words (2 blanks) |
-| `lesson02-walk` | 99 | 8 | A match×4, B circle+underline×4 | choice, words (unordered) |
-| `lesson02-walk2` | 101 | 8 | A match×4, B circle+underline×4 | choice, words (unordered) |
+| `lesson02-walk` | 99 | 8 | A match×4, B circle+underline×4 | choice, words (2 blanks, ordered) |
+| `lesson02-walk2` | 101 | 8 | A match×4, B circle+underline×4 | choice, words (2 blanks, ordered) |
 | `lesson02-run` | 102–103 | 28 | A MC×14, B MC×14 | choice |
 | `lesson02-jump` | 104–105 | 28 | A Korean gloss×14, B every/all×14 | words |
 | `lesson02-fly` | 106–107 | 28 | A fix one word×14, B complete×14 | words |
@@ -56,4 +56,4 @@ Blue 2 Unit 04 follows the **two-lesson** pattern: each lesson has **Grammar Wal
 
 ## Engine note
 
-Multi-blank circle+underline items use `unordered: true` so `some` + `bread` may be entered in either order (`assets/js/normalize.js` + `engine.js`).
+Walk circle+underline items use two ordered blanks (circled quantifier, then underlined noun). `unordered: true` is not used on this unit.

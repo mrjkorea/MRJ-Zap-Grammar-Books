@@ -10,7 +10,7 @@
   "subtitle": "Grammar Jump (pp. 94–95)",
   "pages": "94–95",
   "timerMinutes": 24,
-  "introKo": "Section A는 한 칸( some/any ), Section B는 some/any와 명사 형태를 씁니다.",
+  "introKo": "Section A는 some/any로 바꿀 때 한 칸만 쓰기, Section B는 빈칸에 some·any 또는 명사 형태를 씁니다.",
   "sections": [
     {
       "id": "A",
@@ -42,8 +42,8 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요.",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
@@ -302,17 +302,18 @@
       "sectionTitle": "Section B",
       "label": "B1",
       "type": "fill",
-      "promptEn": "I have some dictionaries.",
+      "promptEn": "I have ______ dictionaries.",
       "accept": [
-        "some|dictionaries"
+        "some"
       ],
-      "blanks": 2,
+      "blanks": 1,
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "some / dictionaries",
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "exampleAnswer": "some",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "나는 사전을 몇 권 가지고 있다."
     },
     {
       "id": "b02",
@@ -322,12 +323,13 @@
       "type": "fill",
       "promptEn": "I don't have ______ sneakers.",
       "accept": [
-        "any|sneakers"
+        "any"
       ],
-      "blanks": 2,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "blanks": 1,
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "나는 운동화가 하나도 없다."
     },
     {
       "id": "b03",
@@ -337,12 +339,13 @@
       "type": "fill",
       "promptEn": "Do you have ______ white socks?",
       "accept": [
-        "any|white socks"
+        "any"
       ],
-      "blanks": 2,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "blanks": 1,
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "너 흰 양말 있니?"
     },
     {
       "id": "b04",
@@ -352,12 +355,13 @@
       "type": "fill",
       "promptEn": "Would you like ______ apples?",
       "accept": [
-        "some|apples"
+        "some"
       ],
-      "blanks": 2,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "blanks": 1,
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "사과를 조금 드실래요?"
     },
     {
       "id": "b05",
@@ -367,12 +371,13 @@
       "type": "fill",
       "promptEn": "Can I have ______ hot chocolate?",
       "accept": [
-        "some|hot chocolate"
+        "some"
       ],
-      "blanks": 2,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "blanks": 1,
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "코코아를 조금 마셔도 되니?"
     },
     {
       "id": "b06",
@@ -382,12 +387,13 @@
       "type": "fill",
       "promptEn": "I don't need ______ forks.",
       "accept": [
-        "any|forks"
+        "any"
       ],
-      "blanks": 2,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "blanks": 1,
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "나는 포크가 하나도 필요 없다."
     },
     {
       "id": "b07",
@@ -397,12 +403,13 @@
       "type": "fill",
       "promptEn": "Does she want ______ flowers?",
       "accept": [
-        "any|flowers"
+        "any"
       ],
-      "blanks": 2,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "blanks": 1,
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "그녀는 꽃을 원하니?"
     },
     {
       "id": "b08",
@@ -412,12 +419,13 @@
       "type": "fill",
       "promptEn": "Kevin has ______ baseballs.",
       "accept": [
-        "some|baseballs"
+        "some"
       ],
-      "blanks": 2,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "blanks": 1,
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "케빈은 야구공을 몇 개 가지고 있다."
     },
     {
       "id": "b09",
@@ -427,12 +435,13 @@
       "type": "fill",
       "promptEn": "I don't have ______ sugar.",
       "accept": [
-        "any|sugar"
+        "any"
       ],
-      "blanks": 2,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "blanks": 1,
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "나는 설탕이 조금도 없다."
     },
     {
       "id": "b10",
@@ -445,9 +454,10 @@
         "rice"
       ],
       "blanks": 1,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "우리는 쌀을 조금 가지고 있다."
     },
     {
       "id": "b11",
@@ -460,9 +470,10 @@
         "aunts"
       ],
       "blanks": 1,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "민수는 이모가 계시니?"
     },
     {
       "id": "b12",
@@ -475,9 +486,10 @@
         "cookies"
       ],
       "blanks": 1,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "과자 좀 먹을래?"
     },
     {
       "id": "b13",
@@ -490,9 +502,10 @@
         "books"
       ],
       "blanks": 1,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "그는 책을 하나도 사지 않는다."
     },
     {
       "id": "b14",
@@ -505,9 +518,10 @@
         "chicken"
       ],
       "blanks": 1,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "수는 닭고기를 조금도 먹지 않는다."
     },
     {
       "id": "b15",
@@ -520,9 +534,10 @@
         "baskets"
       ],
       "blanks": 1,
-      "sectionInstructionKo": "다음 문장을 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만"
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "나는 바구니가 몇 개 필요하다."
     }
   ]
 }

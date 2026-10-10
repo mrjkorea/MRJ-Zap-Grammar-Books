@@ -32,7 +32,7 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "instructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
       "directionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요.",
       "ruleKo": "동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
       "answerMode": "words",
@@ -123,28 +123,6 @@
       "sectionTitle": "Section A",
       "label": "A4",
       "type": "mc",
-      "promptEn": "some hens",
-      "choices": [
-        "a. 몇 권의 책들",
-        "b. 몇몇 친구들",
-        "c. 몇 마리의 암탉들",
-        "d. 버터 조금",
-        "e. 우유 조금"
-      ],
-      "accept": [
-        "c. 몇 마리의 암탉들",
-        "c"
-      ],
-      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기"
-    },
-    {
-      "id": "a05",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "label": "A5",
-      "type": "mc",
       "promptEn": "some milk",
       "choices": [
         "a. 몇 권의 책들",
@@ -156,6 +134,28 @@
       "accept": [
         "e. 우유 조금",
         "e"
+      ],
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "some hens",
+      "choices": [
+        "a. 몇 권의 책들",
+        "b. 몇몇 친구들",
+        "c. 몇 마리의 암탉들",
+        "d. 버터 조금",
+        "e. 우유 조금"
+      ],
+      "accept": [
+        "c. 몇 마리의 암탉들",
+        "c"
       ],
       "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
@@ -176,8 +176,7 @@
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "some / bread",
-      "unordered": true,
-      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만"
     },
@@ -193,8 +192,7 @@
       ],
       "blanks": 2,
       "promptKo": "피터는 펜이 몇 자루 필요하다.",
-      "unordered": true,
-      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만"
     },
@@ -210,8 +208,7 @@
       ],
       "blanks": 2,
       "promptKo": "녹차 좀 드실래요?",
-      "unordered": true,
-      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만"
     },
@@ -227,8 +224,7 @@
       ],
       "blanks": 2,
       "promptKo": "나는 사과를 몇 개 원한다.",
-      "unordered": true,
-      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만"
     },
@@ -244,8 +240,7 @@
       ],
       "blanks": 2,
       "promptKo": "그들은 밀가루가 조금 필요하다.",
-      "unordered": true,
-      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "sectionInstructionKo": "다음 문장에서 some을 찾아 동그라미 하고 some이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만"
     }
