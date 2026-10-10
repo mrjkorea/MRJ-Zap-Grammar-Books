@@ -312,7 +312,8 @@
       ],
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "John was brushing his teeth."
+      "exampleAnswer": "John was brushing his teeth.",
+      "promptKo": "존은 이를 닦고 있었다."
     },
     {
       "id": "b02",
@@ -326,7 +327,8 @@
       "promptEn": "I ______ ______ at the map. ( look )",
       "accept": [
         "I was looking at the map."
-      ]
+      ],
+      "promptKo": "나는 지도를 보고 있었다."
     },
     {
       "id": "b03",
@@ -340,7 +342,8 @@
       "promptEn": "The children ______ ______ together. ( sing )",
       "accept": [
         "The children were singing together."
-      ]
+      ],
+      "promptKo": "그 아이들은 함께 노래하고 있었다."
     },
     {
       "id": "b04",
@@ -354,7 +357,8 @@
       "promptEn": "The girl ______ ______ happily. ( smile )",
       "accept": [
         "The girl was smiling happily."
-      ]
+      ],
+      "promptKo": "그 여자아이는 행복하게 미소 짓고 있었다."
     },
     {
       "id": "b05",
@@ -368,7 +372,8 @@
       "promptEn": "They ______ ______ on the street. ( march )",
       "accept": [
         "They were marching on the street."
-      ]
+      ],
+      "promptKo": "그들은 거리에서 행진하고 있었다."
     },
     {
       "id": "b06",
@@ -382,7 +387,8 @@
       "promptEn": "We ______ ______ to the teacher. ( listen )",
       "accept": [
         "We were listening to the teacher."
-      ]
+      ],
+      "promptKo": "우리는 선생님 말씀을 귀 기울여 듣고 있었다."
     },
     {
       "id": "b07",
@@ -396,7 +402,8 @@
       "promptEn": "Annie ______ ______ a fairy tale. ( read )",
       "accept": [
         "Annie was reading a fairy tale."
-      ]
+      ],
+      "promptKo": "애니는 동화를 읽고 있었다."
     },
     {
       "id": "b08",
@@ -407,10 +414,11 @@
       "answerModeTag": "Sentence · 문장 전체",
       "label": "B8",
       "type": "sentence",
-      "promptEn": "______ ______ in the pool. ( swim )",
+      "promptEn": "I ______ ______ in the pool. ( swim )",
       "accept": [
         "I was swimming in the pool."
-      ]
+      ],
+      "promptKo": "나는 수영장에서 수영을 하고 있었다."
     },
     {
       "id": "b09",
@@ -424,7 +432,8 @@
       "promptEn": "My mom ______ ______ mittens for me. ( knit )",
       "accept": [
         "My mom was knitting mittens for me."
-      ]
+      ],
+      "promptKo": "우리 엄마는 나를 위해 벙어리장갑을 뜨고 계셨다."
     },
     {
       "id": "b10",
@@ -438,7 +447,8 @@
       "promptEn": "The students ______ ______ on the playground. ( run )",
       "accept": [
         "The students were running on the playground."
-      ]
+      ],
+      "promptKo": "그 학생들은 운동장에서 달리고 있었다."
     },
     {
       "id": "b11",
@@ -453,7 +463,8 @@
       "accept": [
         "You were not driving a car.",
         "You weren't driving a car."
-      ]
+      ],
+      "promptKo": "너는 차를 운전하고 있지 않았다."
     },
     {
       "id": "b12",
@@ -468,7 +479,8 @@
       "accept": [
         "Harry was not going to school.",
         "Harry wasn't going to school."
-      ]
+      ],
+      "promptKo": "해리는 학교에 가고 있지 않았다."
     },
     {
       "id": "b13",
@@ -483,7 +495,8 @@
       "accept": [
         "They were not kicking the balls.",
         "They weren't kicking the balls."
-      ]
+      ],
+      "promptKo": "그들은 공을 차고 있지 않았다."
     },
     {
       "id": "b14",
@@ -498,7 +511,8 @@
       "accept": [
         "I was not closing the door.",
         "I wasn't closing the door."
-      ]
+      ],
+      "promptKo": "나는 문을 닫고 있지 않았다."
     },
     {
       "id": "b15",
@@ -513,7 +527,8 @@
       "accept": [
         "My cat was not sleeping on the desk.",
         "My cat wasn't sleeping on the desk."
-      ]
+      ],
+      "promptKo": "우리 고양이는 그 책상 위에서 자고 있지 않았다."
     }
   ]
 }
