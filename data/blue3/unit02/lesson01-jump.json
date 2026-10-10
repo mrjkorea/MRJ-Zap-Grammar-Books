@@ -1,0 +1,600 @@
+{
+  "practiceId": "b3:u02:lesson01-jump",
+  "title": "Grammar Jump — Lesson 01",
+  "subtitle": "Korean gloss & fills (pp. 43–44)",
+  "pages": "43–44",
+  "timerMinutes": 24,
+  "bookId": "zap-blue-3",
+  "appName": "BlueZap 3",
+  "bookTitle": "ZAP Blue 3",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 조동사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 15(예시1), B 15(예시1)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "You <u>must lock</u> the door.",
+      "promptKo": "너는 그 문을 ______ 한다.",
+      "blanks": 1,
+      "accept": [
+        "잠가야",
+        "~잠가야",
+        "잠그어야",
+        "~잠그어야"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "잠가야",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "Jenny <u>has to go home now</u>.",
+      "promptKo": "제니는 지금 집에 ______.",
+      "blanks": 1,
+      "accept": [
+        "가야 한다",
+        "~가야 한다",
+        "가야한다",
+        "~가야한다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "We <u>must not waste</u> water.",
+      "promptKo": "우리는 물을 ______.",
+      "blanks": 1,
+      "accept": [
+        "낭비하면 안 된다",
+        "~낭비하면 안 된다",
+        "낭비해서는 안 된다",
+        "~낭비해서는 안 된다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "They <u>don't have to clean</u> the kitchen.",
+      "promptKo": "그들은 부엌을 ______.",
+      "blanks": 1,
+      "accept": [
+        "청소할 필요 없다",
+        "~청소할 필요 없다",
+        "청소하지 않아도 된다",
+        "~청소하지 않아도 된다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "Phil <u>must take care of</u> his brother.",
+      "promptKo": "필은 자기 남동생을 ______.",
+      "blanks": 1,
+      "accept": [
+        "돌봐야 한다",
+        "~돌봐야 한다",
+        "보살펴야 한다",
+        "~보살펴야 한다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "label": "A6",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "I <u>have to buy</u> some notebooks.",
+      "promptKo": "나는 공책 몇 권을 ______.",
+      "blanks": 1,
+      "accept": [
+        "사야 한다",
+        "~사야 한다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "label": "A7",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "We <u>must wait for</u> the bus.",
+      "promptKo": "우리는 그 버스를 ______.",
+      "blanks": 1,
+      "accept": [
+        "기다려야 한다",
+        "~기다려야 한다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "label": "A8",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "You <u>must not pick</u> flowers.",
+      "promptKo": "너는 꽃을 ______.",
+      "blanks": 1,
+      "accept": [
+        "꺾으면 안 된다",
+        "~꺾으면 안 된다",
+        "따면 안 된다",
+        "~따면 안 된다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "label": "A9",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "She <u>has to sit</u> behind Ted.",
+      "promptKo": "그녀는 테드 뒤에 ______.",
+      "blanks": 1,
+      "accept": [
+        "앉아야 한다",
+        "~앉아야 한다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "We <u>must practice</u> taekwondo.",
+      "promptKo": "우리는 태권도를 ______.",
+      "blanks": 1,
+      "accept": [
+        "연습해야 한다",
+        "~연습해야 한다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "They <u>don't have to wear</u> skirts.",
+      "promptKo": "그들은 치마를 ______.",
+      "blanks": 1,
+      "accept": [
+        "입을 필요 없다",
+        "~입을 필요 없다",
+        "입지 않아도 된다",
+        "~입지 않아도 된다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "Children <u>must not play</u> on the street.",
+      "promptKo": "어린이들은 길에서 ______.",
+      "blanks": 1,
+      "accept": [
+        "놀면 안 된다",
+        "~놀면 안 된다",
+        "놀아서는 안 된다",
+        "~놀아서는 안 된다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a13",
+      "label": "A13",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "Students <u>have to do</u> their homework.",
+      "promptKo": "학생들은 숙제를 ______.",
+      "blanks": 1,
+      "accept": [
+        "해야 한다",
+        "~해야 한다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a14",
+      "label": "A14",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "Tom <u>must wash</u> the dishes today.",
+      "promptKo": "톰은 오늘 ______.",
+      "blanks": 1,
+      "accept": [
+        "설거지를 해야 한다",
+        "~설거지를 해야 한다",
+        "그릇을 씻어야 한다",
+        "~그릇을 씻어야 한다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a15",
+      "label": "A15",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "I <u>don't have to keep</u> a diary.",
+      "promptKo": "나는 일기를 ______.",
+      "blanks": 1,
+      "accept": [
+        "쓸 필요 없다",
+        "~쓸 필요 없다",
+        "쓰지 않아도 된다",
+        "~쓰지 않아도 된다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "type": "fill",
+      "promptKo": "나는 우리 어머니를 도와 드려야 한다.",
+      "promptEn": "I ______ help my mother.",
+      "blanks": 1,
+      "accept": [
+        "must"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "must",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "수는 지금 출발해야 한다.",
+      "promptEn": "Sue ______ ______ leave now.",
+      "blanks": 2,
+      "accept": [
+        "has|to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "너희는 그 꽃병을 만지면 안 된다.",
+      "promptEn": "You ______ ______ touch the vase.",
+      "blanks": 2,
+      "accept": [
+        "must|not"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "우리는 신발을 벗지 않아도 된다.",
+      "promptEn": "We ______ ______ ______ take off our shoes.",
+      "blanks": 3,
+      "accept": [
+        "don't|have|to",
+        "do|not|have|to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "존은 자신의 조부모님을 찾아뵈어야 한다.",
+      "promptEn": "John ______ visit his grandparents.",
+      "blanks": 1,
+      "accept": [
+        "must",
+        "has to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b06",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "우리는 공원을 청소해야 한다.",
+      "promptEn": "We ______ ______ clean the park.",
+      "blanks": 2,
+      "accept": [
+        "have|to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b07",
+      "label": "B7",
+      "type": "fill",
+      "promptKo": "너희는 길에서 스케이트보드를 타면 안 된다.",
+      "promptEn": "You ______ ______ ride a skateboard on the street.",
+      "blanks": 2,
+      "accept": [
+        "must|not"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b08",
+      "label": "B8",
+      "type": "fill",
+      "promptKo": "주디는 우산을 가져오지 않아도 된다.",
+      "promptEn": "Judy ______ ______ ______ bring an umbrella.",
+      "blanks": 3,
+      "accept": [
+        "doesn't|have|to",
+        "does|not|have|to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b09",
+      "label": "B9",
+      "type": "fill",
+      "promptKo": "나는 내 여동생에게 잘해 줘야 한다.",
+      "promptEn": "I ______ be nice to my sister.",
+      "blanks": 1,
+      "accept": [
+        "must",
+        "have to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b10",
+      "label": "B10",
+      "type": "fill",
+      "promptKo": "그들은 오늘 집에 있어야 한다.",
+      "promptEn": "They ______ ______ stay home today.",
+      "blanks": 2,
+      "accept": [
+        "have|to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b11",
+      "label": "B11",
+      "type": "fill",
+      "promptKo": "너희는 계단에서 점프해서는 안 된다.",
+      "promptEn": "You ______ ______ jump on the stairs.",
+      "blanks": 2,
+      "accept": [
+        "must|not"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b12",
+      "label": "B12",
+      "type": "fill",
+      "promptKo": "그녀는 빨리 달리지 않아도 된다.",
+      "promptEn": "She ______ ______ ______ run fast.",
+      "blanks": 3,
+      "accept": [
+        "doesn't|have|to",
+        "does|not|have|to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b13",
+      "label": "B13",
+      "type": "fill",
+      "promptKo": "나는 책을 많이 읽어야 한다.",
+      "promptEn": "I ______ read a lot of books.",
+      "blanks": 1,
+      "accept": [
+        "must",
+        "have to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b14",
+      "label": "B14",
+      "type": "fill",
+      "promptKo": "그는 초콜릿을 너무 많이 먹으면 안 된다.",
+      "promptEn": "He ______ ______ eat too much chocolate.",
+      "blanks": 2,
+      "accept": [
+        "must|not"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b15",
+      "label": "B15",
+      "type": "fill",
+      "promptKo": "우리는 수업 시간에 영어로 말하지 않아도 된다.",
+      "promptEn": "We ______ ______ ______ speak English in class.",
+      "blanks": 3,
+      "accept": [
+        "don't|have|to",
+        "do|not|have|to"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ]
+}

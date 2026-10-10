@@ -1,0 +1,533 @@
+{
+  "practiceId": "b3:u02:lesson01-fly",
+  "title": "Grammar Fly — Lesson 01",
+  "subtitle": "고치기 & 배열 (pp. 45–46)",
+  "pages": "45–46",
+  "timerMinutes": 26,
+  "bookId": "zap-blue-3",
+  "appName": "BlueZap 3",
+  "bookTitle": "ZAP Blue 3",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 조동사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 15(예시1), B 15(예시1)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Tommy must <u>arrives</u> in time.",
+      "blanks": 1,
+      "accept": [
+        "arrive"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "arrive"
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Minho <u>have</u> to practice taekwondo.",
+      "blanks": 1,
+      "accept": [
+        "has"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We must not <u>wastes</u> paper.",
+      "blanks": 1,
+      "accept": [
+        "waste"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "They <u>have not</u> to turn on the light.",
+      "blanks": 2,
+      "accept": [
+        "don't|have",
+        "do|not|have"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "James <u>musts</u> wash his hair every day.",
+      "blanks": 1,
+      "accept": [
+        "must"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "You <u>have send</u> e-mail to Laura.",
+      "blanks": 2,
+      "accept": [
+        "to|send"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "We don't have <u>get</u> up early on Sunday.",
+      "blanks": 1,
+      "accept": [
+        "to"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "You must <u>don't</u> use chopsticks.",
+      "blanks": 1,
+      "accept": [
+        "not"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "I have to <u>fixing</u> my chair.",
+      "blanks": 1,
+      "accept": [
+        "fix"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "You must <u>to bring</u> your books.",
+      "blanks": 1,
+      "accept": [
+        "bring"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "George <u>don't</u> have to wear sunglasses.",
+      "blanks": 1,
+      "accept": [
+        "doesn't",
+        "does not"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "They must <u>don't</u> eat too much fast food.",
+      "blanks": 1,
+      "accept": [
+        "not"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a13",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "People <u>must not runs</u> at the pool.",
+      "blanks": 2,
+      "accept": [
+        "not|run"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a14",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "I have <u>brush</u> my teeth before bed.",
+      "blanks": 2,
+      "accept": [
+        "to|brush"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a15",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "I don't <u>must</u> to do my homework today.",
+      "blanks": 2,
+      "accept": [
+        "have|to"
+      ],
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 쓰세요. 빈칸 수에 맞게 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "We ______ ______ ______ animals. ( not, tease, must )",
+      "blanks": 3,
+      "accept": [
+        "must|not|tease"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "must / not / tease"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "She ______ ______ ______ her yellow socks. ( wash, have to )",
+      "blanks": 3,
+      "accept": [
+        "has|to|wash"
+      ]
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "You ______ ______ your bedroom. ( tidy, must )",
+      "blanks": 2,
+      "accept": [
+        "must|tidy"
+      ]
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Mom ______ ______ ______ ______. ( not, run, have to )",
+      "blanks": 4,
+      "accept": [
+        "doesn't|have|to|run",
+        "does|not|have|to|run"
+      ]
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "They ______ ______ ______ in the river. ( not, swim, must )",
+      "blanks": 3,
+      "accept": [
+        "must|not|swim"
+      ]
+    },
+    {
+      "id": "b06",
+      "label": "B6",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Paul ______ ______ ______ in bed. ( stay, have to )",
+      "blanks": 3,
+      "accept": [
+        "has|to|stay"
+      ]
+    },
+    {
+      "id": "b07",
+      "label": "B7",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "The boy ______ ______ ______ a card for his grandpa. ( buy, must )",
+      "blanks": 3,
+      "accept": [
+        "must|buy|a"
+      ]
+    },
+    {
+      "id": "b08",
+      "label": "B8",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "We ______ ______ ______ the plants. ( water, have to )",
+      "blanks": 3,
+      "accept": [
+        "have|to|water"
+      ]
+    },
+    {
+      "id": "b09",
+      "label": "B9",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "You ______ ______ ______ pictures here. ( not, take, must )",
+      "blanks": 3,
+      "accept": [
+        "must|not|take"
+      ]
+    },
+    {
+      "id": "b10",
+      "label": "B10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "My father ______ ______ ______ the car. ( wash, have to )",
+      "blanks": 3,
+      "accept": [
+        "has|to|wash"
+      ]
+    },
+    {
+      "id": "b11",
+      "label": "B11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "They ______ ______ care of their pets. ( take, must )",
+      "blanks": 2,
+      "accept": [
+        "must|take"
+      ]
+    },
+    {
+      "id": "b12",
+      "label": "B12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Tom ______ ______ ______ ______ it. ( buy, have to, not )",
+      "blanks": 4,
+      "accept": [
+        "doesn't|have|to|buy",
+        "does|not|have|to|buy"
+      ]
+    },
+    {
+      "id": "b13",
+      "label": "B13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "You ______ ______ ______ food in the car. ( not, eat, must )",
+      "blanks": 3,
+      "accept": [
+        "must|not|eat"
+      ]
+    },
+    {
+      "id": "b14",
+      "label": "B14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "We ______ ______ ______ ______ there. ( walk, have to, not )",
+      "blanks": 4,
+      "accept": [
+        "don't|have|to|walk",
+        "do|not|have|to|walk"
+      ]
+    },
+    {
+      "id": "b15",
+      "label": "B15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Harry ______ ______ ______ noise. ( not, make, must )",
+      "blanks": 3,
+      "accept": [
+        "must|not|make"
+      ]
+    }
+  ]
+}
