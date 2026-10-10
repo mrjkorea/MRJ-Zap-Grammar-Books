@@ -76,6 +76,15 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       bad++;
       console.log("FAIL", f, it.id, JSON.stringify(right), r, w);
     }
+    for (const acc of it.accept || []) {
+      if (typeof acc === "string" && acc.includes("|")) {
+        const parts = acc.split("|");
+        if (parts.some((p) => p === "")) {
+          bad++;
+          console.log("EMPTY-BLANK-PART", f, it.id, acc);
+        }
+      }
+    }
     for (const acc of it.accept) {
       let resp;
       if (it.type === "mc") {

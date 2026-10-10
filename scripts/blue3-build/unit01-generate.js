@@ -567,9 +567,9 @@ function write(name, data) {
   const rowsB = [
     { stem: "I can read Chinese.", line: "I ______ able to read Chinese.", a: ["am"], b: 1, ko: "나는 중국어를 읽을 수 있다." },
     { stem: "John can't use the washing machine.", line: "John ______ ______ able to use the washing machine.", a: ["is|not"], b: 2, ko: "존은 세탁기를 사용하지 못한다." },
-    { stem: "The puppies can climb the stairs.", line: "The puppies ______ ______ able to climb the stairs.", a: ["are|"], b: 2, ko: "강아지들은 계단을 오를 수 있다." },
+    { stem: "The puppies can climb the stairs.", line: "The puppies ______ able to climb the stairs.", a: ["are"], b: 1, ko: "강아지들은 계단을 오를 수 있다." },
     { stem: "She can't make pancakes.", line: "She ______ ______ able to make pancakes.", a: ["is|not"], b: 2, ko: "그녀는 팬케이크를 만들지 못한다." },
-    { stem: "We can play soccer.", line: "We ______ ______ able to play soccer.", a: ["are|"], b: 2, ko: "우리는 축구를 할 수 있다." },
+    { stem: "We can play soccer.", line: "We ______ able to play soccer.", a: ["are"], b: 1, ko: "우리는 축구를 할 수 있다." },
   ];
   items.push(
     exItem(
@@ -1057,7 +1057,7 @@ function write(name, data) {
 
   const s1617 = "[16–17] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)";
   items.push(
-    fillItem("q16", "16-17", "16", "My brother ______ ______ write his name.", ["can|not", "can't|", "cannot|", "can not|"], {
+    fillItem("q16", "16-17", "16", "My brother ______ ______ write his name.", ["can|not"], {
       sectionInstructionKo: s1617,
       blanks: 2,
       promptKo: "내 남동생은 자기 이름을 못 쓴다.",
