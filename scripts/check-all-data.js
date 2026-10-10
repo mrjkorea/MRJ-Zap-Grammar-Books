@@ -5,7 +5,7 @@ const vm = require("vm");
 
 const REPO = path.join(__dirname, "..");
 const JS = path.join(REPO, "assets/js");
-const BOOKS = ["green1", "green2", "green3", "green4"];
+const BOOKS = ["green1", "green2", "green3", "green4", "blue1"];
 const MODES = new Set(["choice", "words", "sentence"]);
 
 const win = {};

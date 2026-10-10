@@ -1,0 +1,267 @@
+{
+  "practiceId": "b1:u01:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 문장",
+  "subtitle": "단어와 문장 (p. 11)",
+  "pages": "11",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 문장의 구성",
+  "sectionsVersion": 2,
+  "wordBank": [
+    "dog",
+    "I am Korean.",
+    "boy",
+    "are",
+    "student",
+    "Korean",
+    "Are you a student?",
+    "teacher",
+    "He is tall.",
+    "they",
+    "What a good girl!",
+    "good",
+    "tall"
+  ],
+  "introKo": "이 연습은 Section A 8문항(단어), Section B 3문항(문장 전체)으로 되어 있어요. 위 단어·문장 목록을 보고, 단어 칸에는 보기 순서대로 단어 하나만, 문장 칸에는 문장 전체를 쓰세요. 회색 '예시'는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A — 단어",
+      "instructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 8,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B — 문장",
+      "instructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표·느낌표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 3,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "단어 ①",
+      "accept": [
+        "dog"
+      ],
+      "promptKo": "예시: dog",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "dog"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "단어 2",
+      "accept": [
+        "boy",
+        "boy"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "단어 3",
+      "accept": [
+        "are",
+        "are"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "단어 4",
+      "accept": [
+        "student",
+        "student"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "단어 5",
+      "accept": [
+        "Korean",
+        "korean"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "단어 6",
+      "accept": [
+        "teacher",
+        "teacher"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "단어 7",
+      "accept": [
+        "they",
+        "they"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "단어 8",
+      "accept": [
+        "good",
+        "good"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "단어 9",
+      "accept": [
+        "tall",
+        "tall"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표·느낌표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "문장 ①",
+      "accept": [
+        "I am Korean."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I am Korean."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표·느낌표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "문장 2",
+      "accept": [
+        "Are you a student?"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표·느낌표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "문장 3",
+      "accept": [
+        "He is tall."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 단어와 문장으로 구별하여 빈칸에 순서대로 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표·느낌표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "문장 4",
+      "accept": [
+        "What a good girl!"
+      ]
+    }
+  ]
+}

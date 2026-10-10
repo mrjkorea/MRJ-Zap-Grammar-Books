@@ -5,7 +5,7 @@
   var BOOKS = [
     { id: "zap-red-1", title: "ZAP Red 1", enabled: false },
     { id: "zap-red-2", title: "ZAP Red 2", enabled: false },
-    { id: "zap-blue-1", title: "ZAP Blue 1", enabled: false },
+    { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
     { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
@@ -49,6 +49,9 @@
       { id: "unit-08", title: "Unit 08 — 접속사 (2)", enabled: true },
       { id: "tests", title: "Review & Final Tests", enabled: true },
     ],
+    "zap-blue-1": [
+      { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -63,6 +66,64 @@
   };
 
   var EXERCISES = {
+    "zap-blue-1:unit-01": [
+      {
+        slug: "lesson01-walk1",
+        title: "Lesson 01 Walk 1 — 문장",
+        hint: "단어와 문장 · p. 11",
+        data: "data/blue1/unit01/lesson01-walk1.json",
+        practiceId: "b1:u01:lesson01-walk1",
+      },
+      {
+        slug: "lesson01-walk2",
+        title: "Lesson 01 Walk 2 — 문장",
+        hint: "문장의 종류 · p. 13",
+        data: "data/blue1/unit01/lesson01-walk2.json",
+        practiceId: "b1:u01:lesson01-walk2",
+      },
+      {
+        slug: "lesson02-walk1",
+        title: "Lesson 02 Walk 1 — 품사",
+        hint: "명사·대명사 · p. 15",
+        data: "data/blue1/unit01/lesson02-walk1.json",
+        practiceId: "b1:u01:lesson02-walk1",
+      },
+      {
+        slug: "lesson02-walk2",
+        title: "Lesson 02 Walk 2 — 품사",
+        hint: "동사·조동사 · p. 17",
+        data: "data/blue1/unit01/lesson02-walk2.json",
+        practiceId: "b1:u01:lesson02-walk2",
+      },
+      {
+        slug: "lesson02-walk3",
+        title: "Lesson 02 Walk 3 — 품사",
+        hint: "형용사·부사·전치사 · p. 19",
+        data: "data/blue1/unit01/lesson02-walk3.json",
+        practiceId: "b1:u01:lesson02-walk3",
+      },
+      {
+        slug: "lesson03-walk1",
+        title: "Lesson 03 Walk 1 — 문장의 구성 요소",
+        hint: "주어·동사 · p. 21",
+        data: "data/blue1/unit01/lesson03-walk1.json",
+        practiceId: "b1:u01:lesson03-walk1",
+      },
+      {
+        slug: "lesson03-walk2",
+        title: "Lesson 03 Walk 2 — 문장의 구성 요소",
+        hint: "목적어·보어 · p. 23",
+        data: "data/blue1/unit01/lesson03-walk2.json",
+        practiceId: "b1:u01:lesson03-walk2",
+      },
+      {
+        slug: "review01",
+        title: "Review 01",
+        hint: "pp. 24–26",
+        data: "data/blue1/unit01/review-01.json",
+        practiceId: "b1:u01:review01",
+      },
+    ],
     "zap-green-1:unit-01": [
       {
         slug: "walk1",

@@ -1,0 +1,226 @@
+{
+  "practiceId": "b1:u01:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 문장",
+  "subtitle": "문장의 종류 (p. 13)",
+  "pages": "13",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 문장의 구성",
+  "sectionsVersion": 2,
+  "introKo": "Section A 5문항(문장 종류), Section B 3문항(같은 종류 연결·고르기)입니다. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 종류가 무엇인지 보기에서 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (평서문·의문문·명령문·감탄문)",
+      "directionKo": "다음 문장의 종류가 무엇인지 보기에서 찾아 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음을 같은 종류의 문장끼리 선으로 연결하세요. 알맞은 문장(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음을 같은 종류의 문장끼리 선으로 연결하세요.",
+      "ruleKo": "알맞은 문장(a~d)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 종류가 무엇인지 보기에서 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (평서문·의문문·명령문·감탄문)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I read a book.",
+      "accept": [
+        "평서문"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "평서문"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 종류가 무엇인지 보기에서 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (평서문·의문문·명령문·감탄문)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Are you Korean?",
+      "accept": [
+        "의문문"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 종류가 무엇인지 보기에서 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (평서문·의문문·명령문·감탄문)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Open the window.",
+      "accept": [
+        "명령문"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 종류가 무엇인지 보기에서 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (평서문·의문문·명령문·감탄문)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "This is so big!",
+      "accept": [
+        "감탄문"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 종류가 무엇인지 보기에서 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (평서문·의문문·명령문·감탄문)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "What a good boy!",
+      "accept": [
+        "감탄문"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 종류가 무엇인지 보기에서 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (평서문·의문문·명령문·감탄문)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "She is a student.",
+      "accept": [
+        "평서문"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 같은 종류의 문장끼리 선으로 연결하세요. 알맞은 문장(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "We are boys.",
+      "choices": [
+        "a. Are you tall?",
+        "b. What a good girl!",
+        "c. She is a teacher.",
+        "d. Read a book."
+      ],
+      "accept": [
+        "c. She is a teacher.",
+        "c"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "c. She is a teacher."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 같은 종류의 문장끼리 선으로 연결하세요. 알맞은 문장(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Is this a book?",
+      "choices": [
+        "a. Are you tall?",
+        "b. What a good girl!",
+        "c. She is a teacher.",
+        "d. Read a book."
+      ],
+      "accept": [
+        "a. Are you tall?",
+        "a"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 같은 종류의 문장끼리 선으로 연결하세요. 알맞은 문장(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Close the window.",
+      "choices": [
+        "a. Are you tall?",
+        "b. What a good girl!",
+        "c. She is a teacher.",
+        "d. Read a book."
+      ],
+      "accept": [
+        "d. Read a book.",
+        "d"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 같은 종류의 문장끼리 선으로 연결하세요. 알맞은 문장(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "What a tall tree!",
+      "choices": [
+        "a. Are you tall?",
+        "b. What a good girl!",
+        "c. She is a teacher.",
+        "d. Read a book."
+      ],
+      "accept": [
+        "b. What a good girl!",
+        "b"
+      ]
+    }
+  ]
+}
