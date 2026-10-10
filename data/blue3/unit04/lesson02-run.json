@@ -1,0 +1,732 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 의문사 (1)",
+  "practiceId": "b3:u04:lesson02-run",
+  "title": "Lesson 02 Run — what, which",
+  "subtitle": "Grammar Run (pp. 102–103)",
+  "pages": "102–103",
+  "timerMinutes": 20,
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 15문항. 1번 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) is her name?\nB: Her name is Bomi.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "그녀의 이름은 무엇이니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) does he want?\nB: He wants this shirt.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "그는 어느 것을 원하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) is your favorite song?\nB: It is \"Humpty Dumpty.\"",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "네가 좋아하는 노래는 무엇이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) does she need?\nB: She needs some beans.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "그녀는 무엇이 필요하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) team do you like?\nB: I like Tigers.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "너는 무슨 팀을 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) is your father cooking?\nB: He is cooking japchae.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "네 아버지는 무엇을 요리하고 계시니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) is your chair?\nB: That small one is mine.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "어느 것이 네 의자니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) color does Jane like?\nB: She likes green.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "제인은 무슨 색을 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) is your e-mail address?\nB: It is grammar@zap.com.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "네 이메일 주소가 무엇이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) time do you have lunch?\nB: I have lunch at noon.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "몇 시에 점심 식사를 하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) is John's room?\nB: The left one is his.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "어느 것이 존의 방이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) is that animal?\nB: It is a seal.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "저 동물은 무엇이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) jacket is yours?\nB: The black one is mine.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "어느 재킷이 네 것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) day is it today?\nB: It's Friday.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "오늘은 무슨 요일이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "A: ( What / Which ) do you do after dinner?\nB: I play badminton.",
+      "choices": [
+        "What",
+        "Which"
+      ],
+      "accept": [
+        "What"
+      ],
+      "promptKo": "저녁 식사 후에 무엇을 하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "What _____ your sister's name?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "is"
+      ],
+      "promptKo": "네 여동생의 이름은 무엇이니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Which _____ Henry's backpack?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "is"
+      ],
+      "promptKo": "어느 것이 헨리의 배낭이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "What time _____ it now?",
+      "choices": [
+        "is",
+        "does"
+      ],
+      "accept": [
+        "is"
+      ],
+      "promptKo": "지금 몇 시니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "What _____ Minsu drink?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "does"
+      ],
+      "promptKo": "민수는 무엇을 마시니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Which _____ you want, apples or kiwis?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "do"
+      ],
+      "promptKo": "사과와 키위 중 어느 것을 원하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "What _____ the date today?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "is"
+      ],
+      "promptKo": "오늘은 며칠이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "Which _____ your shoes?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "are"
+      ],
+      "promptKo": "어느 것이 네 신발이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "What _____ Frank usually draw?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "does"
+      ],
+      "promptKo": "프랭크는 보통 무엇을 그리니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "What fruit _____ her brother like?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "does"
+      ],
+      "promptKo": "그녀의 남동생은 무슨 과일을 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "Which _____ Emily's among these spoons?",
+      "choices": [
+        "is",
+        "does"
+      ],
+      "accept": [
+        "is"
+      ],
+      "promptKo": "이 숟가락들 중 어느 것이 에밀리의 것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "What _____ she have in her hand?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "does"
+      ],
+      "promptKo": "그녀는 손에 무엇을 가지고 있니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "Which bus _____ you take, number 10 or 9?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "do"
+      ],
+      "promptKo": "10번과 9번 중 어느 버스를 타니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "What _____ Mina do on Sundays?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "does"
+      ],
+      "promptKo": "미나는 일요일에 무엇을 하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "What size _____ this shirt?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "is"
+      ],
+      "promptKo": "이 셔츠는 무슨 사이즈니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "Which ice cream _____ you like?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "do"
+      ],
+      "promptKo": "어느 아이스크림을 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    }
+  ]
+}
