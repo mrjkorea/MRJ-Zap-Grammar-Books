@@ -1,0 +1,739 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 미래 시제 be going to",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u03:lesson01-run",
+  "title": "Lesson 01 Run — be going to 긍정문·부정문",
+  "subtitle": "Grammar Run · pp. 66–67",
+  "pages": "66–67",
+  "timerMinutes": 20,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I ( am / is ) going to be a fifth grader next year.",
+      "choices": [
+        "am",
+        "is"
+      ],
+      "accept": [
+        "am"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "She ( am / is ) going ( to calls / to call ) Miso today.",
+      "accept": [
+        "is|to call"
+      ],
+      "blanks": 2,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "They ( is / are ) going to leave for China tomorrow.",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "are"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "are",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Ted ( is go / is going ) to wash his puppy this evening.",
+      "choices": [
+        "is go",
+        "is going"
+      ],
+      "accept": [
+        "is going"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is going",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "We ( are going / do going ) to have a party next Saturday.",
+      "choices": [
+        "are going",
+        "do going"
+      ],
+      "accept": [
+        "are going"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "are going",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a06",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Joan is going ( joins / to join ) the club.",
+      "choices": [
+        "joins",
+        "to join"
+      ],
+      "accept": [
+        "to join"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "to join",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a07",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "They are going ( pick / to pick ) apples next week.",
+      "choices": [
+        "pick",
+        "to pick"
+      ],
+      "accept": [
+        "to pick"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "to pick",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a08",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "My aunt is going ( to move / moving ) to Busan next month.",
+      "choices": [
+        "to move",
+        "moving"
+      ],
+      "accept": [
+        "to move"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "to move",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a09",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "We ( are not / do not ) going to climb the mountain this weekend.",
+      "choices": [
+        "are not",
+        "do not"
+      ],
+      "accept": [
+        "are not"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "are not",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "My sister ( does not / is not ) going to play tennis after school.",
+      "choices": [
+        "does not",
+        "is not"
+      ],
+      "accept": [
+        "is not"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is not",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "Mr. Kent ( isn't / doesn't ) going to buy a computer.",
+      "choices": [
+        "isn't",
+        "doesn't"
+      ],
+      "accept": [
+        "isn't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "isn't",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "I ( won't / am not ) going to go to the library tomorrow.",
+      "choices": [
+        "won't",
+        "am not"
+      ],
+      "accept": [
+        "am not"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "am not",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a13",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "Edna and May ( aren't / won't ) going to go diving this summer.",
+      "choices": [
+        "aren't",
+        "won't"
+      ],
+      "accept": [
+        "aren't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "aren't",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a14",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "He ( does not / is not ) going to have lunch today.",
+      "choices": [
+        "does not",
+        "is not"
+      ],
+      "accept": [
+        "is not"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is not",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "a15",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "She ( won't / isn't ) going to return the book tonight.",
+      "choices": [
+        "won't",
+        "isn't"
+      ],
+      "accept": [
+        "isn't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "isn't",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "괄호 안에서 알맞은 말을 고르세요."
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "My mom ___ going to make cake.",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "is",
+        "1"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "He ___ going to stay in Seoul for 2 days.",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "is",
+        "1"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "I ___ going to wear a T-shirt today.",
+      "choices": [
+        "am",
+        "is"
+      ],
+      "accept": [
+        "am",
+        "1"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "am",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "We are ___ to cook dinner together.",
+      "choices": [
+        "go",
+        "going"
+      ],
+      "accept": [
+        "going",
+        "2"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "going",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Bobby ___ to send some cards today.",
+      "choices": [
+        "is going",
+        "does going"
+      ],
+      "accept": [
+        "is going",
+        "1"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is going",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b06",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "They ___ to walk along the river.",
+      "choices": [
+        "do go",
+        "are going"
+      ],
+      "accept": [
+        "are going",
+        "2"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "are going",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b07",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "Joe and I are going ___ hiking today.",
+      "choices": [
+        "go",
+        "to go"
+      ],
+      "accept": [
+        "to go",
+        "2"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "to go",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b08",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Kate is going ___ the homework with me.",
+      "choices": [
+        "to do",
+        "to does"
+      ],
+      "accept": [
+        "to do",
+        "1"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "to do",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b09",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "I ___ going to watch TV tonight.",
+      "choices": [
+        "don't",
+        "am not"
+      ],
+      "accept": [
+        "am not",
+        "2"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "am not",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b10",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "She ___ going to buy beans this morning.",
+      "choices": [
+        "isn't",
+        "doesn't"
+      ],
+      "accept": [
+        "isn't",
+        "1"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "isn't",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b11",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "My brother ___ going to ski.",
+      "choices": [
+        "will not",
+        "is not"
+      ],
+      "accept": [
+        "is not",
+        "2"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is not",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b12",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "They ___ going to come home next week.",
+      "choices": [
+        "aren't",
+        "won't"
+      ],
+      "accept": [
+        "aren't",
+        "1"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "aren't",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b13",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "He ___ going to take the train.",
+      "choices": [
+        "does not",
+        "is not"
+      ],
+      "accept": [
+        "is not",
+        "2"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is not",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b14",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "___ going to rain tomorrow.",
+      "choices": [
+        "It isn't",
+        "It doesn't"
+      ],
+      "accept": [
+        "It isn't",
+        "1"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "It isn't",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b15",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "___ going to listen to music at night.",
+      "choices": [
+        "We're not",
+        "We'll not"
+      ],
+      "accept": [
+        "We're not",
+        "1"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "We're not",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "promptKo": "빈칸을 채우세요."
+    }
+  ],
+  "introKo": "Grammar Run (pp. 66–67): 괄호 고르기와 빈칸 고르기."
+}

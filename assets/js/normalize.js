@@ -133,8 +133,26 @@
     return false;
   }
 
+  function permMatches(users, exp) {
+    if (users.length !== exp.length) return false;
+    if (!users.length) return true;
+    var used = {};
+    function go(i) {
+      if (i >= users.length) return true;
+      for (var e = 0; e < exp.length; e++) {
+        if (used[e]) continue;
+        if (!matchOne(users[i], exp[e])) continue;
+        used[e] = true;
+        if (go(i + 1)) return true;
+        used[e] = false;
+      }
+      return false;
+    }
+    return go(0);
+  }
+
   /** Multi-blank: users[] and accept entry like "are|no" or full phrase */
-  function matchBlanks(users, acceptList) {
+  function matchBlanks(users, acceptList, unordered) {
     users = users || [];
     if (!acceptList || !acceptList.length) return false;
     for (var i = 0; i < acceptList.length; i++) {
@@ -142,6 +160,7 @@
       if (pattern.indexOf("|") >= 0 && users.length > 1) {
         var exp = pattern.split("|");
         if (exp.length === users.length) {
+          if (unordered && permMatches(users, exp)) return true;
           var ok = true;
           for (var b = 0; b < exp.length; b++) {
             if (!matchOne(users[b], exp[b])) ok = false;

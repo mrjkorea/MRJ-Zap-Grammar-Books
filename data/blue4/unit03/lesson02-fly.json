@@ -1,0 +1,511 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 미래 시제 be going to",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u03:lesson02-fly",
+  "title": "Lesson 02 Fly — be going to 의문문",
+  "subtitle": "Grammar Fly · pp. 80–81",
+  "pages": "80–81",
+  "timerMinutes": 26,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "directionKo": "주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "A: <u>Are</u> your mother going to fix the TV?\nB: Yes, she is.",
+      "accept": [
+        "Is"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Is",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "A: <u>Is</u> your friends going to play soccer after school?\nB: No, they aren't.",
+      "accept": [
+        "Are"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Are",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "A: <u>Is</u> the men going to cut down the big tree tomorrow?\nB: Yes, they are.",
+      "accept": [
+        "Are"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Are",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "A: Is he going to finish his painting this week?\nB: Yes, he <u>won't</u>.",
+      "accept": [
+        "is"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "A: Are they going to catch fish tonight?\nB: No, they <u>don't</u>.",
+      "accept": [
+        "aren't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "aren't",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a06",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "A: Are you going to dive into the sea?\nB: <u>Yes</u>, I'm not.",
+      "accept": [
+        "No"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "No",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a07",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "A: Who <u>are</u> going to take care of you tomorrow?\nB: My grandmother is going to take care of us.",
+      "accept": [
+        "is"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a08",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "A: What <u>is</u> his parents going to buy for him?\nB: They are going to buy a new bicycle for him.",
+      "accept": [
+        "are"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "are",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a09",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "A: When is the baby <u>go</u> to sleep?\nB: She is going to sleep soon.",
+      "accept": [
+        "going"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "going",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "A: Where is Jim going to run this morning?\nB: He is going <u>runs</u> in the park.",
+      "accept": [
+        "to run"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "to run",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "A: How are you going to go to the theater?\nB: I <u>go</u> to go there by subway.",
+      "accept": [
+        "am going"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "am going",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "A: What is Jessica going <u>draw</u>?\nB: She is going to draw a rainbow.",
+      "accept": [
+        "to draw"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "to draw",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "Are you going to go surfing this weekend? ( you, go surfing )",
+      "accept": [
+        "Are you going to go surfing this weekend?"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Are you going to go surfing this weekend?",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "Is your brother going to watch TV tonight? ( your brother, watch )",
+      "accept": [
+        "Is your brother going to watch TV tonight?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "Is he going to join the club this year? ( he, join )",
+      "accept": [
+        "Is he going to join the club this year?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "Are they going to bring their pets to school? ( they, bring )",
+      "accept": [
+        "Are they going to bring their pets to school?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "Is Bill going to write a postcard to her? ( Bill, write )",
+      "accept": [
+        "Is Bill going to write a postcard to her?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b06",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "Are you going to dance on the stage? ( you, dance )",
+      "accept": [
+        "Are you going to dance on the stage?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b07",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "Is your uncle going to sleep on the couch? ( your uncle, sleep )",
+      "accept": [
+        "Is your uncle going to sleep on the couch?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b08",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "Is Sue going to ride a horse in the park? ( Sue, ride )",
+      "accept": [
+        "Is Sue going to ride a horse in the park?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b09",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "Is the farmer going to sell his cows tomorrow? ( the farmer, sell )",
+      "accept": [
+        "Is the farmer going to sell his cows tomorrow?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b10",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "Who are you going to meet at the restaurant? ( you, meet )",
+      "accept": [
+        "Who are you going to meet at the restaurant?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b11",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "Where are they going to play soccer? ( they, play )",
+      "accept": [
+        "Where are they going to play soccer?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b12",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "When is your dad going to come back home? ( your dad, come )",
+      "accept": [
+        "When is your dad going to come back home?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b13",
+      "label": "B13",
+      "type": "sentence",
+      "promptEn": "How is she going to fix the roof? ( she, fix )",
+      "accept": [
+        "How is she going to fix the roof?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b14",
+      "label": "B14",
+      "type": "sentence",
+      "promptEn": "What are they going to buy for her? ( they, buy )",
+      "accept": [
+        "What are they going to buy for her?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    },
+    {
+      "id": "b15",
+      "label": "B15",
+      "type": "sentence",
+      "promptEn": "Who is going to take care of the poor cat? ( take care of )",
+      "accept": [
+        "Who is going to take care of the poor cat?"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 의문문을 완성하세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "promptKo": "의문문·대화 연습"
+    }
+  ],
+  "introKo": "Grammar Fly (pp. 80–81): 대화 오류 고치기와 의문문 쓰기."
+}
