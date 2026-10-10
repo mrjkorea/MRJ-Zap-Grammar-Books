@@ -64,6 +64,3 @@ Page map uses **PDF page** (image `pNNNN.png`). **Printed page ≈ PDF − 1** u
 Source: `/tmp/blue4-pages/blue4/pages/` OCR + page images. Regenerate JSON:
 
 ```bash
-python3 scripts/blue4-build-unit04.py
-node scripts/smoke-blue4-unit04.js
-```
