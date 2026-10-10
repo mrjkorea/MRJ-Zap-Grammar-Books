@@ -33,6 +33,13 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;
+    if (it.type === "fill" && (it.blanks || 1) > 1) {
+      const uc = ((it.promptEn || "").match(/______/g) || []).length;
+      if (uc > 0 && uc !== it.blanks) {
+        bad++;
+        console.log("BLANK-UNDERSCORE", f, it.id, "blanks", it.blanks, "underscores", uc);
+      }
+    }
     if (
       it.type !== "mc" &&
       it.promptEn &&
