@@ -42,7 +42,7 @@ Unit 04 uses **two lessons** with **Walk → Run → Jump → Fly** each (like B
 | lesson01-jump | 88–89 | 29 | A14 + B15 | words |
 | lesson01-fly | 90–91 | 28 | A14 + B14 | words, sentence |
 | lesson02-walk1 | 93 | 9 | A9 | words (multi-blank, unordered) |
-| lesson02-walk2 | 95 | 14 | A14 | words |
+| lesson02-walk2 | 95 | 4 | A4 (category groups, unordered) | words |
 | lesson02-run | 96–97 | 28 | A14 + B14 | choice |
 | lesson02-jump | 98–99 | 28 | A14 + B14 | words |
 | lesson02-fly | 100–101 | 28 | A14 + B14 | words, sentence |

@@ -10,33 +10,23 @@
   "unitId": "unit-04",
   "unitTitle": "Unit 04 — 관사",
   "sectionsVersion": 2,
-  "introKo": "단어 목록에서 관사를 쓰지 않는 명사만 보기 순서대로 쓰세요.",
+  "introKo": "보기에서 관사를 쓰지 않는 명사를 찾아 쓰세요. 식사·과목·운동·언어 그룹 안에서는 순서는 상관없습니다.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "directionKo": "관사 없는 명사를 순서대로 쓰세요.",
+      "instructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "관사 없는 명사를 찾아 쓰세요.",
       "ruleKo": "단어 하나만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "itemCount": 14,
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "1",
         "2",
         "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14"
+        "4"
       ]
     }
   ],
@@ -45,196 +35,74 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "1",
+      "promptKo": "식사 이름 (3개)",
+      "blanks": 3,
+      "unordered": true,
       "type": "fill",
-      "promptEn": "보기 순서 1",
+      "promptEn": "Meals — find all nouns in the word bank that do not take an article.",
       "accept": [
-        "math"
+        "breakfast|lunch|dinner",
+        "breakfast|dinner|lunch",
+        "lunch|breakfast|dinner",
+        "lunch|dinner|breakfast",
+        "dinner|breakfast|lunch",
+        "dinner|lunch|breakfast"
       ]
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "2",
+      "promptKo": "과목 이름 (2개)",
+      "blanks": 2,
+      "unordered": true,
       "type": "fill",
-      "promptEn": "보기 순서 2",
+      "promptEn": "School subjects — find all nouns in the word bank that do not take an article.",
       "accept": [
-        "basketball"
+        "math|science",
+        "science|math"
       ]
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "3",
+      "promptKo": "운동 경기 이름 (5개)",
+      "blanks": 5,
+      "unordered": true,
       "type": "fill",
-      "promptEn": "보기 순서 3",
+      "promptEn": "Sports — find all nouns in the word bank that do not take an article.",
       "accept": [
-        "lunch"
+        "basketball|soccer|tennis|baseball|badminton"
       ]
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "4",
+      "promptKo": "언어 이름 (4개)",
+      "blanks": 4,
+      "unordered": true,
       "type": "fill",
-      "promptEn": "보기 순서 4",
+      "promptEn": "Languages — find all nouns in the word bank that do not take an article.",
       "accept": [
-        "Chinese"
-      ]
-    },
-    {
-      "id": "a05",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "5",
-      "type": "fill",
-      "promptEn": "보기 순서 5",
-      "accept": [
-        "soccer"
-      ]
-    },
-    {
-      "id": "a06",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "6",
-      "type": "fill",
-      "promptEn": "보기 순서 6",
-      "accept": [
-        "science"
-      ]
-    },
-    {
-      "id": "a07",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "7",
-      "type": "fill",
-      "promptEn": "보기 순서 7",
-      "accept": [
-        "tennis"
-      ]
-    },
-    {
-      "id": "a08",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "8",
-      "type": "fill",
-      "promptEn": "보기 순서 8",
-      "accept": [
-        "breakfast"
-      ]
-    },
-    {
-      "id": "a09",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "9",
-      "type": "fill",
-      "promptEn": "보기 순서 9",
-      "accept": [
-        "Japanese"
-      ]
-    },
-    {
-      "id": "a10",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "10",
-      "type": "fill",
-      "promptEn": "보기 순서 10",
-      "accept": [
-        "dinner"
-      ]
-    },
-    {
-      "id": "a11",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "11",
-      "type": "fill",
-      "promptEn": "보기 순서 11",
-      "accept": [
-        "baseball"
-      ]
-    },
-    {
-      "id": "a12",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "12",
-      "type": "fill",
-      "promptEn": "보기 순서 12",
-      "accept": [
-        "Korean"
-      ]
-    },
-    {
-      "id": "a13",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "13",
-      "type": "fill",
-      "promptEn": "보기 순서 13",
-      "accept": [
-        "English"
-      ]
-    },
-    {
-      "id": "a14",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 순서대로 쓰세요. 보기 순서(왼쪽에서 오른쪽, 위에서 아래)대로 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "label": "14",
-      "type": "fill",
-      "promptEn": "보기 순서 14",
-      "accept": [
-        "badminton"
+        "Chinese|Japanese|Korean|English"
       ]
     }
   ],
