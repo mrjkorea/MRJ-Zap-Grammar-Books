@@ -15,9 +15,9 @@
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. will과 주어를 빈칸 두 칸에 쓰세요. 순서는 상관없습니다.",
+      "instructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 1번 빈칸에 Will, 2번 빈칸에 주어를 쓰세요. (문장 전체를 쓰지 마세요.)",
       "directionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요.",
-      "ruleKo": "will과 주어를 빈칸에 쓰세요.",
+      "ruleKo": "1번 빈칸에 Will, 2번 빈칸에 주어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "itemCount": 4,
@@ -52,19 +52,17 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. will과 주어를 빈칸 두 칸에 쓰세요. 순서는 상관없습니다.",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 1번 빈칸에 Will, 2번 빈칸에 주어를 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
       "type": "fill",
       "promptEn": "Will you do your homework after lunch?",
       "accept": [
-        "Will|you",
-        "you|Will"
+        "Will|you"
       ],
       "promptKo": "너는 점심 식사 후에 숙제를 할 거니?",
       "blanks": 2,
-      "unordered": true,
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "Will / you"
@@ -73,73 +71,65 @@
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. will과 주어를 빈칸 두 칸에 쓰세요. 순서는 상관없습니다.",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 1번 빈칸에 Will, 2번 빈칸에 주어를 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
       "type": "fill",
       "promptEn": "Will Jamie buy a new school bag?",
       "accept": [
-        "Will|Jamie",
-        "Jamie|Will"
+        "Will|Jamie"
       ],
       "promptKo": "제이미는 새 책가방을 살 거니?",
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. will과 주어를 빈칸 두 칸에 쓰세요. 순서는 상관없습니다.",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 1번 빈칸에 Will, 2번 빈칸에 주어를 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
       "promptEn": "Will it be sunny tomorrow?",
       "accept": [
-        "Will|it",
-        "it|Will"
+        "Will|it"
       ],
       "promptKo": "내일 날씨가 화창할 거니?",
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. will과 주어를 빈칸 두 칸에 쓰세요. 순서는 상관없습니다.",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 1번 빈칸에 Will, 2번 빈칸에 주어를 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
       "promptEn": "Will the class finish at five o'clock?",
       "accept": [
-        "Will|the class",
-        "the class|Will"
+        "Will|the class"
       ],
       "promptKo": "그 수업은 5시에 끝날 거니?",
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. will과 주어를 빈칸 두 칸에 쓰세요. 순서는 상관없습니다.",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. 1번 빈칸에 Will, 2번 빈칸에 주어를 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
       "promptEn": "Will we learn Chinese next year?",
       "accept": [
-        "Will|we",
-        "we|Will"
+        "Will|we"
       ],
       "promptKo": "우리는 내년에 중국어를 배울 거니?",
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "b01",

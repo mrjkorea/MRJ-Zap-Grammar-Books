@@ -38,24 +38,24 @@ Blue 4 Unit 02 follows **two lessons × (Walk₁, Walk₂, Run, Jump, Fly) + Rev
 
 | Slug | Pages (printed) | Graded items | Sections | Modes |
 |------|-----------------|-------------|----------|-------|
-| lesson01-walk1 | 37–38 | 8 | A, B | words (2-blank unordered); words |
-| lesson01-walk2 | 39–40 | 8 | A, B | words (unordered); words |
+| lesson01-walk1 | 37–38 | 8 | A, B | words (2-blank ordered: will + verb); words |
+| lesson01-walk2 | 39–40 | 8 | A, B | words (ordered: will not + verb); words |
 | lesson01-run | 40–41 | 28 | A, B | choice |
 | lesson01-jump | 42–43 | 28 | A, B | words (Korean); words (2-blank) |
 | lesson01-fly | 44–45 | 27 | A, B | words (2-blank); sentence |
-| lesson02-walk1 | 47 | 8 | A, B | words (unordered); choice |
-| lesson02-walk2 | 49 | 8 | A, B | words (unordered); choice |
+| lesson02-walk1 | 47 | 8 | A, B | words (ordered: Will + subject); choice |
+| lesson02-walk2 | 49 | 8 | A, B | words (ordered: wh + will); choice |
 | lesson02-run | 50–51 | 28 | A, B | choice |
 | lesson02-jump | 52–53 | 26 | A, B | words; words |
-| lesson02-fly | 54–55 | 18 | A, B, C | sentence; words; sentence |
+| lesson02-fly | 54–56 | 18 | A, B, C | sentence; words; sentence |
 | review02 | 56–58 | 20 | [1–2]…[19–20] | choice / words / sentence |
 
 **Timers:** Walk 10 · Run 20 · Jump 24 · Fly 26 · Review 30 (minutes).
 
 ## Uncertain / notes
 
-- **lesson02-fly Section B** prompts use a generic blank line in data; answers match the book stems.
-- **lesson01-jump Section A** Korean glosses accept several synonymous endings (~할 것이다 / ~일 것이다).
+- **lesson01-jump Section A** Korean glosses accept several synonymous endings (~할 것이다 / ~일 것이다); graded items have no `promptKo` (book prints English only).
+- **lesson01-jump Section B** negatives use three blanks (`will | not | verb`); positives use `will | verb`.
 - Printed typo in book Run p.41 item 5: **will'nt** (wrong option); keyed to **won't**.
 - Review item **5** instruction in OCR: “쓸 수 **알늘**” → book likely “**없는**”.
 

@@ -101,8 +101,7 @@
       "accept": [
         "열두 살이 될 것이다",
         "12살이 될 것이다"
-      ],
-      "promptKo": "너는 내년에 열두 살이 될 것이다."
+      ]
     },
     {
       "id": "a03",
@@ -117,8 +116,7 @@
       "accept": [
         "4시에 도착할 것이다",
         "네 시에 도착할 것이다"
-      ],
-      "promptKo": "그 기차는 4시에 도착할 것이다."
+      ]
     },
     {
       "id": "a04",
@@ -132,8 +130,7 @@
       "promptEn": "Kevin <u>will make</u> a sandwich tomorrow.",
       "accept": [
         "샌드위치를 만들 것이다"
-      ],
-      "promptKo": "케빈은 내일 샌드위치를 만들 것이다."
+      ]
     },
     {
       "id": "a05",
@@ -148,8 +145,7 @@
       "accept": [
         "내일 파티를 할 것이다",
         "파티를 할 것이다"
-      ],
-      "promptKo": "우리는 내일 파티를 할 것이다."
+      ]
     },
     {
       "id": "a06",
@@ -164,8 +160,7 @@
       "accept": [
         "오늘 눈이 올 것이다",
         "눈이 내릴 것이다"
-      ],
-      "promptKo": "오늘 눈이 올 것이다."
+      ]
     },
     {
       "id": "a07",
@@ -180,8 +175,7 @@
       "accept": [
         "오늘 저녁 영화를 볼 것이다",
         "영화를 볼 것이다"
-      ],
-      "promptKo": "그들은 오늘 저녁 영화를 볼 것이다."
+      ]
     },
     {
       "id": "a08",
@@ -196,8 +190,7 @@
       "accept": [
         "다음 토요일에 오지 않을 것이다",
         "오지 않을 것이다"
-      ],
-      "promptKo": "나는 다음 토요일에 여기에 오지 않을 것이다."
+      ]
     },
     {
       "id": "a09",
@@ -211,8 +204,7 @@
       "promptEn": "Cathy <u>won't be busy</u> next week.",
       "accept": [
         "다음 주에 바쁘지 않을 것이다"
-      ],
-      "promptKo": "캐시는 다음 주에 바쁘지 않을 것이다."
+      ]
     },
     {
       "id": "a10",
@@ -226,8 +218,7 @@
       "promptEn": "My dad <u>won't drive a car</u> this morning.",
       "accept": [
         "오늘 아침 차를 운전하지 않을 것이다"
-      ],
-      "promptKo": "우리 아빠는 오늘 아침 차를 운전하지 않을 것이다."
+      ]
     },
     {
       "id": "a11",
@@ -241,8 +232,7 @@
       "promptEn": "He <u>won't visit his aunts</u> tomorrow.",
       "accept": [
         "내일 고모들을 방문하지 않을 것이다"
-      ],
-      "promptKo": "그는 내일 고모들을 방문하지 않을 것이다."
+      ]
     },
     {
       "id": "a12",
@@ -256,8 +246,7 @@
       "promptEn": "We <u>won't be late</u> for the concert.",
       "accept": [
         "콘서트에 늦지 않을 것이다"
-      ],
-      "promptKo": "우리는 콘서트에 늦지 않을 것이다."
+      ]
     },
     {
       "id": "a13",
@@ -271,8 +260,7 @@
       "promptEn": "They <u>won't eat chocolate</u> for dessert.",
       "accept": [
         "디저트로 초콜릿을 먹지 않을 것이다"
-      ],
-      "promptKo": "그들은 디저트로 초콜릿을 먹지 않을 것이다."
+      ]
     },
     {
       "id": "a14",
@@ -286,8 +274,7 @@
       "promptEn": "We <u>won't go to the beach</u> this summer.",
       "accept": [
         "이번 여름 해변에 가지 않을 것이다"
-      ],
-      "promptKo": "우리는 이번 여름 해변에 가지 않을 것이다."
+      ]
     },
     {
       "id": "a15",
@@ -302,8 +289,7 @@
       "accept": [
         "나무를 베지 않을 것이다",
         "나무를 쓰러뜨리지 않을 것이다"
-      ],
-      "promptKo": "그 남자들은 나무를 베지 않을 것이다."
+      ]
     },
     {
       "id": "b01",
@@ -334,15 +320,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "I _____ _____ a bike this evening. ( not, ride )",
+      "promptEn": "I _____ _____ _____ a bike this evening. ( not, ride )",
       "accept": [
-        "won't|ride",
-        "will not|ride",
-        "ride|won't",
-        "ride|will not"
+        "will|not|ride",
+        "won't|ride"
       ],
-      "promptKo": "나는 오늘 저녁에 자전거를 타지 않을 것이다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "b03",
@@ -356,9 +339,8 @@
       "promptEn": "We _____ _____ tennis after school. ( play )",
       "accept": [
         "will|play",
-        "play|will"
+        "won't|play"
       ],
-      "promptKo": "우리는 방과 후에 테니스를 할 것이다.",
       "blanks": 2
     },
     {
@@ -373,9 +355,8 @@
       "promptEn": "Mary _____ _____ a tree next Friday. ( plant )",
       "accept": [
         "will|plant",
-        "plant|will"
+        "won't|plant"
       ],
-      "promptKo": "메리는 다음 금요일에 나무를 심을 것이다.",
       "blanks": 2
     },
     {
@@ -387,15 +368,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "He _____ _____ the coat today. ( not, put on )",
+      "promptEn": "He _____ _____ _____ the coat today. ( not, put on )",
       "accept": [
-        "won't|put on",
-        "will not|put on",
-        "put on|won't",
-        "put on|will not"
+        "will|not|put on",
+        "won't|put on"
       ],
-      "promptKo": "그는 오늘 그 코트를 입지 않을 것이다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "b06",
@@ -409,9 +387,8 @@
       "promptEn": "They _____ _____ some comic books. ( buy )",
       "accept": [
         "will|buy",
-        "buy|will"
+        "won't|buy"
       ],
-      "promptKo": "그들은 만화책을 몇 권 살 것이다.",
       "blanks": 2
     },
     {
@@ -426,9 +403,8 @@
       "promptEn": "It _____ _____ cold this winter. ( be )",
       "accept": [
         "will|be",
-        "be|will"
+        "won't|be"
       ],
-      "promptKo": "이번 겨울은 추울 것이다.",
       "blanks": 2
     },
     {
@@ -440,15 +416,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B8",
       "type": "fill",
-      "promptEn": "I _____ _____ violin lessons next year. ( not, take )",
+      "promptEn": "I _____ _____ _____ violin lessons next year. ( not, take )",
       "accept": [
-        "won't|take",
-        "will not|take",
-        "take|won't",
-        "take|will not"
+        "will|not|take",
+        "won't|take"
       ],
-      "promptKo": "나는 내년에 바이올린 수업을 받지 않을 것이다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "b09",
@@ -459,13 +432,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B9",
       "type": "fill",
-      "promptEn": "Joe _____ _____ the radio at two. ( listen to )",
+      "promptEn": "Joe _____ _____ _____ the radio at two. ( listen to )",
       "accept": [
-        "will|listen to",
-        "listen to|will"
+        "will|listen|to"
       ],
-      "promptKo": "조는 2시에 라디오를 들을 것이다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "b10",
@@ -479,9 +450,8 @@
       "promptEn": "My aunt and uncle _____ _____ us today. ( visit )",
       "accept": [
         "will|visit",
-        "visit|will"
+        "won't|visit"
       ],
-      "promptKo": "우리 이모부는 오늘 우리를 방문할 것이다.",
       "blanks": 2
     },
     {
@@ -493,15 +463,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B11",
       "type": "fill",
-      "promptEn": "She _____ _____ Mr. Pitt tomorrow. ( not, meet )",
+      "promptEn": "She _____ _____ _____ Mr. Pitt tomorrow. ( not, meet )",
       "accept": [
-        "won't|meet",
-        "will not|meet",
-        "meet|won't",
-        "meet|will not"
+        "will|not|meet",
+        "won't|meet"
       ],
-      "promptKo": "그녀는 내일 피트 씨를 만나지 않을 것이다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "b12",
@@ -515,9 +482,8 @@
       "promptEn": "Mom _____ _____ us to school tomorrow morning. ( drive )",
       "accept": [
         "will|drive",
-        "drive|will"
+        "won't|drive"
       ],
-      "promptKo": "엄마는 내일 아침 우리를 학교까지 태워다 줄 것이다.",
       "blanks": 2
     },
     {
@@ -529,15 +495,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B13",
       "type": "fill",
-      "promptEn": "We _____ _____ on a picnic next Sunday. ( not, go )",
+      "promptEn": "We _____ _____ _____ on a picnic next Sunday. ( not, go )",
       "accept": [
-        "won't|go",
-        "will not|go",
-        "go|won't",
-        "go|will not"
+        "will|not|go",
+        "won't|go"
       ],
-      "promptKo": "우리는 다음 일요일에 소풍 가지 않을 것이다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "b14",
@@ -551,9 +514,8 @@
       "promptEn": "They _____ _____ some food for the party. ( bring )",
       "accept": [
         "will|bring",
-        "bring|will"
+        "won't|bring"
       ],
-      "promptKo": "그들은 파티를 위해 음식을 가져올 것이다.",
       "blanks": 2
     },
     {
@@ -565,15 +527,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B15",
       "type": "fill",
-      "promptEn": "You _____ _____ in the library tomorrow. ( not, study )",
+      "promptEn": "You _____ _____ _____ in the library tomorrow. ( not, study )",
       "accept": [
-        "won't|study",
-        "will not|study",
-        "study|won't",
-        "study|will not"
+        "will|not|study",
+        "won't|study"
       ],
-      "promptKo": "너는 내일 도서관에서 공부하지 않을 것이다.",
-      "blanks": 2
+      "blanks": 3
     }
   ]
 }
