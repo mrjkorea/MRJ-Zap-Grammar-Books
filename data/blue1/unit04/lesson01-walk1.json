@@ -1,0 +1,215 @@
+{
+  "practiceId": "b1:u04:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 부정관사 a/an",
+  "subtitle": "Grammar Walk · a/an 찾기 (p. 83)",
+  "pages": "83",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 관사",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 문장에서 a/an을 찾아 쓰고, Section B는 O/X입니다. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 관사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 말이 맞으면 O에, 틀리면 X에 동그라미 하세요. O 또는 X만 빈칸에 쓰세요.",
+      "directionKo": "다음 말이 맞으면 O에, 틀리면 X에 동그라미 하세요.",
+      "ruleKo": "O 또는 X만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "promptKo": "이것은 코끼리다.",
+      "type": "fill",
+      "promptEn": "This is an elephant.",
+      "accept": [
+        "an"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "an"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "promptKo": "그들은 집이 있다.",
+      "type": "fill",
+      "promptEn": "They have a house.",
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "promptKo": "나는 책상이 있다.",
+      "type": "fill",
+      "promptEn": "I have a desk.",
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "promptKo": "우리는 의자가 필요하다.",
+      "type": "fill",
+      "promptEn": "We need a chair.",
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "promptKo": "저것은 이글루이다.",
+      "type": "fill",
+      "promptEn": "That is an igloo.",
+      "accept": [
+        "an"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O에, 틀리면 X에 동그라미 하세요. O 또는 X만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "a glass",
+      "accept": [
+        "O",
+        "o",
+        "0"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "O"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O에, 틀리면 X에 동그라미 하세요. O 또는 X만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "promptKo": "비 (셀 수 없음)",
+      "type": "fill",
+      "promptEn": "a rain",
+      "accept": [
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O에, 틀리면 X에 동그라미 하세요. O 또는 X만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "promptKo": "아시아 (고유명사)",
+      "type": "fill",
+      "promptEn": "an Asia",
+      "accept": [
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O에, 틀리면 X에 동그라미 하세요. O 또는 X만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "promptKo": "오렌지 한 개",
+      "type": "fill",
+      "promptEn": "an orange",
+      "accept": [
+        "O",
+        "o",
+        "0"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말이 맞으면 O에, 틀리면 X에 동그라미 하세요. O 또는 X만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "promptKo": "책상 한 개",
+      "type": "fill",
+      "promptEn": "a desk",
+      "accept": [
+        "O",
+        "o",
+        "0"
+      ]
+    }
+  ]
+}

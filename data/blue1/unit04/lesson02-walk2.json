@@ -1,0 +1,135 @@
+{
+  "practiceId": "b1:u04:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — 정관사 the",
+  "subtitle": "관사 없는 명사 (p. 95)",
+  "pages": "95",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 관사",
+  "sectionsVersion": 2,
+  "introKo": "보기에서 관사를 쓰지 않는 명사를 찾아 쓰세요. 식사·과목·운동·언어 그룹 안에서는 순서는 상관없습니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "관사 없는 명사를 찾아 쓰세요.",
+      "ruleKo": "단어 하나만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "promptKo": "식사 이름 (3개)",
+      "blanks": 3,
+      "unordered": true,
+      "type": "fill",
+      "promptEn": "Meals — find all nouns in the word bank that do not take an article.",
+      "accept": [
+        "breakfast|lunch|dinner",
+        "breakfast|dinner|lunch",
+        "lunch|breakfast|dinner",
+        "lunch|dinner|breakfast",
+        "dinner|breakfast|lunch",
+        "dinner|lunch|breakfast"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "promptKo": "과목 이름 (2개)",
+      "blanks": 2,
+      "unordered": true,
+      "type": "fill",
+      "promptEn": "School subjects — find all nouns in the word bank that do not take an article.",
+      "accept": [
+        "math|science",
+        "science|math"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "promptKo": "운동 경기 이름 (5개)",
+      "blanks": 5,
+      "unordered": true,
+      "type": "fill",
+      "promptEn": "Sports — find all nouns in the word bank that do not take an article.",
+      "accept": [
+        "basketball|soccer|tennis|baseball|badminton"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 관사를 쓰지 않는 명사를 찾아 빈칸에 쓰세요. 식사 이름, 과목 이름, 운동 경기 이름, 언어 이름은 각각 한 그룹입니다. 같은 그룹 안에서는 순서는 상관없습니다. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "promptKo": "언어 이름 (4개)",
+      "blanks": 4,
+      "unordered": true,
+      "type": "fill",
+      "promptEn": "Languages — find all nouns in the word bank that do not take an article.",
+      "accept": [
+        "Chinese|Japanese|Korean|English"
+      ]
+    }
+  ],
+  "wordBank": [
+    "math",
+    "basketball",
+    "piano",
+    "lunch",
+    "dish",
+    "Chinese",
+    "soccer",
+    "violin",
+    "science",
+    "doctor",
+    "tennis",
+    "breakfast",
+    "Japanese",
+    "guitar",
+    "moon",
+    "dinner",
+    "baseball",
+    "sunshine",
+    "flower",
+    "Korean",
+    "cheese",
+    "school",
+    "English",
+    "badminton"
+  ]
+}
