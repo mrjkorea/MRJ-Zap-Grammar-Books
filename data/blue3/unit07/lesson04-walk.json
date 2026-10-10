@@ -10,14 +10,14 @@
   "unitId": "unit-07",
   "unitTitle": "Unit 07 — 과거 시제 - 일반동사",
   "sectionsVersion": 2,
-  "introKo": "Section A 4문항(did not+동사), Section B 4문항(didn't+동사원형).",
+  "introKo": "Section A 4문항(did|not|동사), Section B 4문항(didn't+동사원형).",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did not과 동사원형을 | 로 구분해 두 칸에 쓰세요.",
+      "instructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
       "directionKo": "did not과 동사를 찾으세요.",
-      "ruleKo": "did not|동사원형",
+      "ruleKo": "did|not|동사원형",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "itemCount": 4,
@@ -52,84 +52,84 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did not과 동사원형을 | 로 구분해 두 칸에 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
       "type": "fill",
       "promptEn": "I did not go to the museum yesterday.",
       "accept": [
-        "did not|go"
+        "did|not|go"
       ],
       "promptKo": "나는 어제 박물관에 가지 않았다.",
-      "blanks": 2,
+      "blanks": 3,
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "did not|go"
+      "exampleAnswer": "did|not|go"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did not과 동사원형을 | 로 구분해 두 칸에 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
       "type": "fill",
       "promptEn": "She did not carry the boxes.",
       "accept": [
-        "did not|carry"
+        "did|not|carry"
       ],
       "promptKo": "그녀는 상자들을 나르지 않았다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did not과 동사원형을 | 로 구분해 두 칸에 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
       "promptEn": "We did not wear hats.",
       "accept": [
-        "did not|wear"
+        "did|not|wear"
       ],
       "promptKo": "우리는 모자를 쓰지 않았다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did not과 동사원형을 | 로 구분해 두 칸에 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
       "promptEn": "Danny did not close the door.",
       "accept": [
-        "did not|close"
+        "did|not|close"
       ],
       "promptKo": "대니는 문을 닫지 않았다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did not과 동사원형을 | 로 구분해 두 칸에 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 did not을 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. did, not, 동사원형을 | 로 구분해 세 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
       "promptEn": "They did not have lunch today.",
       "accept": [
-        "did not|have"
+        "did|not|have"
       ],
       "promptKo": "그들은 오늘 점심을 먹지 않았다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "b01",
