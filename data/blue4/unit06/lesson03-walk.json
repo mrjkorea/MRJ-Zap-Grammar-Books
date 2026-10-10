@@ -10,14 +10,14 @@
   "subtitle": "선택 의문문 (p. 153)",
   "pages": "153",
   "timerMinutes": 10,
-  "introKo": "Section A는 접속사(·의문사) 찾기, Section B는 대답 보기 알파벳입니다.",
+  "introKo": "Section A는 접속사·의문사 찾기, Section B는 대답 보기 알파벳입니다.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
       "directionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요.",
-      "ruleKo": "의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
-      "instructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "ruleKo": "의문사가 있으면 의문사와 접속사를 순서대로 쓰세요(의문사 → 접속사). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "instructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사를 순서대로 쓰세요(의문사 → 접속사). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "itemCount": 4,
@@ -52,7 +52,7 @@
       "id": "lw3-a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사를 순서대로 쓰세요(의문사 → 접속사). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
@@ -71,7 +71,7 @@
       "id": "lw3-a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사를 순서대로 쓰세요(의문사 → 접속사). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
@@ -87,24 +87,24 @@
       "id": "lw3-a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사를 순서대로 쓰세요(의문사 → 접속사). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "Which do you like, apples _____ / _____ pears?",
+      "promptEn": "Which do you like, apples or pears?",
       "promptKo": "사과와 배 중 어느 것을 좋아하니?",
       "blanks": 2,
       "accept": [
-        "Which|or"
-      ],
-      "unordered": true
+        "Which|or",
+        "which|or"
+      ]
     },
     {
       "id": "lw3-a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사를 순서대로 쓰세요(의문사 → 접속사). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
@@ -120,18 +120,18 @@
       "id": "lw3-a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사 두 칸 모두 쓰세요(순서 무관). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하고, 의문사가 있으면 의문사를 찾아 밑줄을 치세요. 의문사가 있으면 의문사와 접속사를 순서대로 쓰세요(의문사 → 접속사). 접속사만 있으면 접속사만 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "Which will you buy, a bag _____ / _____ a skirt?",
+      "promptEn": "Which will you buy, a bag or a skirt?",
       "promptKo": "가방과 치마 중 어느 것을 살 거니?",
       "blanks": 2,
       "accept": [
-        "Which|or"
-      ],
-      "unordered": true
+        "Which|or",
+        "which|or"
+      ]
     },
     {
       "id": "lw3-b01",
