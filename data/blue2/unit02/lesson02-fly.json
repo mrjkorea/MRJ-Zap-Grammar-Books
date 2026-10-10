@@ -1,0 +1,546 @@
+{
+  "practiceId": "b2:u02:lesson02-fly",
+  "title": "Lesson 02 Fly — 의문문",
+  "subtitle": "오류 고치기 · 의문문 쓰기 (pp. 54–55)",
+  "pages": "54–55",
+  "timerMinutes": 26,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
+  "sectionsVersion": 2,
+  "introKo": "Section A 15문항(한 단어), Section B 15문항(문장 전체). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 문장을 의문문으로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "<u>Does</u> you have brown eyes?",
+      "accept": [
+        "Do"
+      ],
+      "promptKo": "너는 갈색 눈을 가지고 있니?",
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Do"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "You have a pet.",
+      "accept": [
+        "Do you have a pet?"
+      ],
+      "promptKo": "너는 애완동물을 가지고 있니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Do you have a pet?"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "<u>Do</u> Yunseok live in Busan?",
+      "accept": [
+        "Does"
+      ],
+      "promptKo": "윤석은 부산에 사니?",
+      "blanks": 1
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "<u>Are</u> you read novels?",
+      "accept": [
+        "Do"
+      ],
+      "promptKo": "너는 소설을 읽니?",
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Does Chris <u>likes</u> autumn?",
+      "accept": [
+        "like"
+      ],
+      "promptKo": "크리스는 가을을 좋아하니?",
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "<u>Does</u> they study English hard?",
+      "accept": [
+        "Do"
+      ],
+      "promptKo": "그들은 영어를 열심히 공부하니?",
+      "blanks": 1
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "<u>Is</u> Minho know your birthday?",
+      "accept": [
+        "Does"
+      ],
+      "promptKo": "민호는 네 생일을 아니?",
+      "blanks": 1
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Do they <u>remembers</u> her name?",
+      "accept": [
+        "remember"
+      ],
+      "promptKo": "그들은 그녀의 이름을 기억하니?",
+      "blanks": 1
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Does Sam <u>wears</u> blue jeans?",
+      "accept": [
+        "wear"
+      ],
+      "promptKo": "샘은 청바지를 입니?",
+      "blanks": 1
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "Do <u>you</u> listen to classical music? - Yes, you do.",
+      "accept": [
+        "I"
+      ],
+      "promptKo": "너는 클래식 음악을 듣니? — 응, 그래.",
+      "blanks": 1
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "<u>Does</u> he play chess? - No, he does.",
+      "accept": [
+        "doesn't",
+        "does not"
+      ],
+      "promptKo": "그는 체스를 두니? — 아니, 그렇지 않아.",
+      "blanks": 1
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Do the boys run fast? - Yes, <u>we</u> do.",
+      "accept": [
+        "they"
+      ],
+      "promptKo": "그 남자아이들은 빨리 달리니? — 응, 그래.",
+      "blanks": 1
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Does Tommy help his sister? - No, he <u>don't</u>.",
+      "accept": [
+        "doesn't",
+        "does not"
+      ],
+      "promptKo": "토미는 여동생을 돕니? — 아니, 그렇지 않아.",
+      "blanks": 1
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Does your mot<u>he</u>r need a car? - Yes, he does.",
+      "accept": [
+        "she"
+      ],
+      "promptKo": "너의 어머니는 차가 필요하니? — 응, 그래.",
+      "blanks": 1
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Do they watch baseball games? - No, they <u>doesn't</u>.",
+      "accept": [
+        "don't",
+        "do not"
+      ],
+      "promptKo": "그들은 야구 경기를 보니? — 아니, 그렇지 않아.",
+      "blanks": 1
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "<u>Do</u>es Amy ride her bicycle? - Yes, she do.",
+      "accept": [
+        "does"
+      ],
+      "promptKo": "에이미는 자전거를 타니? — 응, 그래.",
+      "blanks": 1
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "They use the Internet.",
+      "accept": [
+        "Do they use the Internet?"
+      ],
+      "promptKo": "그들은 인터넷을 사용하니?"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "She plays the cello.",
+      "accept": [
+        "Does she play the cello?"
+      ],
+      "promptKo": "그녀는 첼로를 연주하니?"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "Tommy reads a magazine.",
+      "accept": [
+        "Does Tommy read a magazine?"
+      ],
+      "promptKo": "토미는 잡지를 읽니?"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "Your parents get up early.",
+      "accept": [
+        "Do your parents get up early?"
+      ],
+      "promptKo": "너희 부모님은 일찍 일어나니?"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "Angie studies in New York.",
+      "accept": [
+        "Does Angie study in New York?"
+      ],
+      "promptKo": "앤지는 뉴욕에서 공부하니?"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "He drinks coffee.",
+      "accept": [
+        "Does he drink coffee?"
+      ],
+      "promptKo": "그는 커피를 마시니?"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "You live in Yeosu.",
+      "accept": [
+        "Do you live in Yeosu?"
+      ],
+      "promptKo": "너는 여수에 사니?"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "They need a new car.",
+      "accept": [
+        "Do they need a new car?"
+      ],
+      "promptKo": "그들은 새 차가 필요하니?"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "She likes the actor.",
+      "accept": [
+        "Does she like the actor?"
+      ],
+      "promptKo": "그녀는 그 배우를 좋아하니?"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "Kelly goes to school.",
+      "accept": [
+        "Does Kelly go to school?"
+      ],
+      "promptKo": "켈리는 학교에 가니?"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "They teach science.",
+      "accept": [
+        "Do they teach science?"
+      ],
+      "promptKo": "그들은 과학을 가르치니?"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B13",
+      "type": "sentence",
+      "promptEn": "The students wear school uniforms.",
+      "accept": [
+        "Do the students wear school uniforms?"
+      ],
+      "promptKo": "학생들은 교복을 입니?"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B14",
+      "type": "sentence",
+      "promptEn": "The boys know her phone number.",
+      "accept": [
+        "Do the boys know her phone number?"
+      ],
+      "promptKo": "그 남자아이들은 그녀의 전화번호를 아니?"
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B15",
+      "type": "sentence",
+      "promptEn": "Kevin does his homework after dinner.",
+      "accept": [
+        "Does Kevin do his homework after dinner?"
+      ],
+      "promptKo": "케빈은 저녁 식사 후에 숙제를 하니?"
+    }
+  ]
+}

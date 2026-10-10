@@ -1,0 +1,568 @@
+{
+  "practiceId": "b2:u02:lesson02-jump",
+  "title": "Lesson 02 Jump — 의문문",
+  "subtitle": "의문문 완성 · 대답 (pp. 52–53)",
+  "pages": "52–53",
+  "timerMinutes": 24,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 15문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말을 사용하여 의문문을 완성하세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "directionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "______ ______ ______ movies? ( you, like )",
+      "accept": [
+        "Do|you|like"
+      ],
+      "promptKo": "너는 영화를 좋아하니?",
+      "blanks": 3,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Do|you|like"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "A: Do you have art class today?\nB: No, ______ ______.",
+      "accept": [
+        "I|don't",
+        "I|do not"
+      ],
+      "promptKo": "너는 오늘 미술 수업이 있니? — 아니, 없어.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I|don't"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "______ ______ ______ a watch? ( he, have )",
+      "accept": [
+        "Does|he|have"
+      ],
+      "promptKo": "그는 손목시계를 가지고 있니?",
+      "blanks": 3
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "______ ______ ______ English? ( you, learn )",
+      "accept": [
+        "Do|you|learn"
+      ],
+      "promptKo": "너희는 영어를 배우니?",
+      "blanks": 3
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "______ ______ ______ the newspaper? ( your father, read )",
+      "accept": [
+        "Does|your father|read",
+        "Does|your father|read"
+      ],
+      "promptKo": "너희 아버지는 신문을 읽으시니?",
+      "blanks": 3
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "______ ______ ______ volleyball? ( they, play )",
+      "accept": [
+        "Do|they|play"
+      ],
+      "promptKo": "그들은 배구를 하니?",
+      "blanks": 3
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "______ ______ ______ cars? ( she, wash )",
+      "accept": [
+        "Does|she|wash"
+      ],
+      "promptKo": "그녀는 세차를 하니?",
+      "blanks": 3
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "______ ______ ______ good? ( we, look )",
+      "accept": [
+        "Do|we|look"
+      ],
+      "promptKo": "우리가 좋아 보이니?",
+      "blanks": 3
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "______ ______ ______ the dishes? ( she, wash )",
+      "accept": [
+        "Does|she|wash"
+      ],
+      "promptKo": "그녀는 설거지를 하니?",
+      "blanks": 3
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "______ ______ ______ home early? ( you, come )",
+      "accept": [
+        "Do|you|come"
+      ],
+      "promptKo": "너희는 집에 일찍 오니?",
+      "blanks": 3
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "______ ______ ______ on the bed? ( he, sleep )",
+      "accept": [
+        "Does|he|sleep"
+      ],
+      "promptKo": "그는 침대에서 자니?",
+      "blanks": 3
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "______ ______ ______ your grandparents? ( you, visit )",
+      "accept": [
+        "Do|you|visit"
+      ],
+      "promptKo": "너는 조부모님을 찾아뵙니?",
+      "blanks": 3
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "______ ______ ______ in Jeju? ( they, live )",
+      "accept": [
+        "Do|they|live"
+      ],
+      "promptKo": "그들은 제주도에 사니?",
+      "blanks": 3
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "______ ______ ______ a diary? ( she, keep )",
+      "accept": [
+        "Does|she|keep"
+      ],
+      "promptKo": "그녀는 일기를 쓰니?",
+      "blanks": 3
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "______ ______ ______ to the dentist? ( you, go )",
+      "accept": [
+        "Do|you|go"
+      ],
+      "promptKo": "너희는 치과에 가니?",
+      "blanks": 3
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "______ ______ ______ bananas? ( the monkey, eat )",
+      "accept": [
+        "Does|the monkey|eat",
+        "Does|the monkey|eat"
+      ],
+      "promptKo": "그 원숭이는 바나나를 먹니?",
+      "blanks": 3
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "A: Does Katie learn yoga?\nB: Yes, ______ ______.",
+      "accept": [
+        "she|does"
+      ],
+      "promptKo": "케이티는 요가를 배우니? — 응, 그래.",
+      "blanks": 2
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "A: Do they meet on Saturday?\nB: Yes, ______ ______.",
+      "accept": [
+        "they|do"
+      ],
+      "promptKo": "그들은 토요일에 만나니? — 응, 그래.",
+      "blanks": 2
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A: Does he send e-mail to Julia?\nB: No, ______ ______.",
+      "accept": [
+        "he|doesn't",
+        "he|does not"
+      ],
+      "promptKo": "그는 줄리아에게 이메일을 보내니? — 아니, 그렇지 않아.",
+      "blanks": 2
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "A: Do the boys enjoy sports?\nB: Yes, ______ ______.",
+      "accept": [
+        "they|do"
+      ],
+      "promptKo": "그 남자아이들은 스포츠를 즐기니? — 응, 그래.",
+      "blanks": 2
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A: Does her brother like dogs?\nB: No, ______ ______.",
+      "accept": [
+        "he|doesn't",
+        "he|does not"
+      ],
+      "promptKo": "그녀의 오빠는 개를 좋아하니? — 아니, 그렇지 않아.",
+      "blanks": 2
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A: Do they wear school uniforms?\nB: Yes, ______ ______.",
+      "accept": [
+        "they|do"
+      ],
+      "promptKo": "그들은 교복을 입니? — 응, 그래.",
+      "blanks": 2
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "A: Does your aunt drive a car?\nB: Yes, ______ ______.",
+      "accept": [
+        "she|does"
+      ],
+      "promptKo": "너의 이모는 자동차를 운전하니? — 응, 그래.",
+      "blanks": 2
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "A: Do your parents read your diary?\nB: No, ______ ______.",
+      "accept": [
+        "they|don't",
+        "they|do not"
+      ],
+      "promptKo": "너의 부모님은 네 일기를 읽니? — 아니, 그렇지 않아.",
+      "blanks": 2
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "A: Does your sister want the sweater?\nB: No, ______ ______.",
+      "accept": [
+        "she|doesn't",
+        "she|does not"
+      ],
+      "promptKo": "너의 여동생은 그 스웨터를 원하니? — 아니, 그렇지 않아.",
+      "blanks": 2
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "A: Do the children play badminton?\nB: No, ______ ______.",
+      "accept": [
+        "they|don't",
+        "they|do not"
+      ],
+      "promptKo": "그 아이들은 배드민턴을 치니? — 아니, 그렇지 않아.",
+      "blanks": 2
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "A: Does John live in a city?\nB: Yes, ______ ______.",
+      "accept": [
+        "he|does"
+      ],
+      "promptKo": "존은 도시에 사니? — 응, 그래.",
+      "blanks": 2
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "A: Does your father cook every day?\nB: No, ______ ______.",
+      "accept": [
+        "he|doesn't",
+        "he|does not"
+      ],
+      "promptKo": "너의 아버지는 매일 요리하니? — 아니, 그렇지 않아.",
+      "blanks": 2
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "A: Do they go to the museum?\nB: Yes, ______ ______.",
+      "accept": [
+        "they|do"
+      ],
+      "promptKo": "그들은 박물관에 가니? — 응, 그래.",
+      "blanks": 2
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "A: Do you and Jane buy toys here?\nB: No, ______ ______.",
+      "accept": [
+        "we|don't",
+        "we|do not"
+      ],
+      "promptKo": "너와 제인은 여기서 장난감을 사니? — 아니, 그렇지 않아.",
+      "blanks": 2
+    }
+  ]
+}

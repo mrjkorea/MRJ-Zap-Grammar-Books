@@ -1,0 +1,648 @@
+{
+  "practiceId": "b2:u02:lesson01-jump",
+  "title": "Lesson 01 Jump — 부정문",
+  "subtitle": "don't/doesn't · 주어진 말 (pp. 42–43)",
+  "pages": "42–43",
+  "timerMinutes": 24,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 15문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "don't 또는 doesn't만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말을 사용하여 부정문을 완성하세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I ______ need new shoes.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "나는 새 신발이 필요하지 않다.",
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "don't"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I ______ ______ his address. ( know )",
+      "accept": [
+        "don't|know",
+        "do|not|know"
+      ],
+      "promptKo": "나는 그의 주소를 모른다.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "don't|know"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "A polar bear ______ like summer.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "북극곰은 여름을 좋아하지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We ______ have math class today.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "우리는 오늘 수학 수업이 없다.",
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "My sister ______ wash her hair at night.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "우리 언니는 밤에 머리를 감지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They ______ know us.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "그들은 우리를 모른다.",
+      "blanks": 1
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Annie ______ play the guitar.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "애니는 기타를 치지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Luna and I ______ swim today.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "루나와 나는 오늘 수영하지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Susie ______ clean her room.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "수지는 자신의 방을 청소하지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The children ______ draw pictures.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "그 아이들은 그림을 그리지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Tony's father ______ work on weekends.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "토니의 아버지는 주말에는 일하시지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "They ______ watch soccer games.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "그들은 축구 경기를 보지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Kate ______ teach English.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "케이트는 영어를 가르치지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Giraffes ______ eat worms.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "기린은 벌레를 먹지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "My father ______ drive a car.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "우리 아버지는 자동차를 운전하시지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (don't 또는 doesn't)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "The girls ______ wear skirts.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "그 여자아이들은 치마를 입지 않는다.",
+      "blanks": 1
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "He ______ ______ English. ( speak )",
+      "accept": [
+        "doesn't|speak",
+        "does|not|speak"
+      ],
+      "promptKo": "그는 영어를 말하지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "We ______ ______ tea. ( drink )",
+      "accept": [
+        "don't|drink",
+        "do|not|drink"
+      ],
+      "promptKo": "우리는 차를 마시지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Sally ______ ______ late. ( get up )",
+      "accept": [
+        "doesn't|get up",
+        "does not|get up"
+      ],
+      "promptKo": "샐리는 늦게 일어나지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "They ______ ______ the Internet. ( use )",
+      "accept": [
+        "don't|use",
+        "do|not|use"
+      ],
+      "promptKo": "그들은 인터넷을 사용하지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "The bus ______ ______ here. ( stop )",
+      "accept": [
+        "doesn't|stop",
+        "does|not|stop"
+      ],
+      "promptKo": "그 버스는 여기에 멈추지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "You ______ ______ books here. ( buy )",
+      "accept": [
+        "don't|buy",
+        "do|not|buy"
+      ],
+      "promptKo": "너희는 여기서 책을 사지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "She ______ ______ her homework. ( do )",
+      "accept": [
+        "doesn't|do",
+        "does|not|do"
+      ],
+      "promptKo": "그녀는 숙제를 하지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "I ______ ______ in the living room. ( study )",
+      "accept": [
+        "don't|study",
+        "do|not|study"
+      ],
+      "promptKo": "나는 거실에서 공부하지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "Minju ______ ______ fast. ( walk )",
+      "accept": [
+        "doesn't|walk",
+        "does|not|walk"
+      ],
+      "promptKo": "민주는 빨리 걷지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "The teachers ______ ______ math. ( teach )",
+      "accept": [
+        "don't|teach",
+        "do|not|teach"
+      ],
+      "promptKo": "선생님들은 수학을 가르치지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "Emily ______ ______ table tennis. ( play )",
+      "accept": [
+        "doesn't|play",
+        "does|not|play"
+      ],
+      "promptKo": "에밀리는 탁구를 치지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "Tom and Sarah ______ ______ to the pool. ( go )",
+      "accept": [
+        "don't|go",
+        "do|not|go"
+      ],
+      "promptKo": "톰과 사라는 수영장에 가지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "The boy ______ ______ a new bag. ( need )",
+      "accept": [
+        "doesn't|need",
+        "does|not|need"
+      ],
+      "promptKo": "그 남자아이는 새 가방이 필요하지 않다.",
+      "blanks": 2
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 부정문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "You ______ ______ hard. ( try )",
+      "accept": [
+        "don't|try",
+        "do|not|try"
+      ],
+      "promptKo": "너희는 열심히 노력하지 않는다.",
+      "blanks": 2
+    }
+  ]
+}
