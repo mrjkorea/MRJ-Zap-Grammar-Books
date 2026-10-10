@@ -271,7 +271,7 @@ function initScript() {
       const wrongSlug =
         exs.find((e) => /^review0?/.test(e.slug))?.slug || exs.find((e) => e.slug.startsWith("review"))?.slug || exs[0]?.slug;
       for (const ex of exs) {
-        if (practicesSinceCtx >= 24) await refreshContext();
+        if (practicesSinceCtx >= 10) await refreshContext();
         const r1 = await withRetry(`${ex.practiceId}`, () =>
           runPractice(context, book.id, unit.id, ex, "all-correct")
         );
