@@ -6,7 +6,7 @@
     { id: "zap-red-1", title: "ZAP Red 1", enabled: false },
     { id: "zap-red-2", title: "ZAP Red 2", enabled: false },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
-    { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
+    { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
     { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
@@ -52,6 +52,9 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-2": [
+      { id: "unit-08", title: "Unit 08 — 전치사", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +69,85 @@
   };
 
   var EXERCISES = {
+    "zap-blue-2:unit-08": [
+      {
+        slug: "lesson01-walk1",
+        title: "Lesson 01 Walk 1 — 전치사",
+        hint: "장소 전치사 · p. 193",
+        data: "data/blue2/unit08/lesson01-walk1.json",
+        practiceId: "b2:u08:lesson01-walk1",
+      },
+      {
+        slug: "lesson01-walk2",
+        title: "Lesson 01 Walk 2 — 전치사",
+        hint: "방향 전치사 · p. 195",
+        data: "data/blue2/unit08/lesson01-walk2.json",
+        practiceId: "b2:u08:lesson01-walk2",
+      },
+      {
+        slug: "lesson01-run",
+        title: "Lesson 01 Run — 전치사",
+        hint: "pp. 196–197",
+        data: "data/blue2/unit08/lesson01-run.json",
+        practiceId: "b2:u08:lesson01-run",
+      },
+      {
+        slug: "lesson01-jump",
+        title: "Lesson 01 Jump — 전치사",
+        hint: "pp. 198–199",
+        data: "data/blue2/unit08/lesson01-jump.json",
+        practiceId: "b2:u08:lesson01-jump",
+      },
+      {
+        slug: "lesson01-fly",
+        title: "Lesson 01 Fly — 전치사",
+        hint: "pp. 200–201",
+        data: "data/blue2/unit08/lesson01-fly.json",
+        practiceId: "b2:u08:lesson01-fly",
+      },
+      {
+        slug: "lesson02-walk1",
+        title: "Lesson 02 Walk 1 — 전치사",
+        hint: "시간 전치사 · p. 203",
+        data: "data/blue2/unit08/lesson02-walk1.json",
+        practiceId: "b2:u08:lesson02-walk1",
+      },
+      {
+        slug: "lesson02-walk2",
+        title: "Lesson 02 Walk 2 — 전치사",
+        hint: "기타 전치사 · p. 205",
+        data: "data/blue2/unit08/lesson02-walk2.json",
+        practiceId: "b2:u08:lesson02-walk2",
+      },
+      {
+        slug: "lesson02-run",
+        title: "Lesson 02 Run — 전치사",
+        hint: "pp. 206–207",
+        data: "data/blue2/unit08/lesson02-run.json",
+        practiceId: "b2:u08:lesson02-run",
+      },
+      {
+        slug: "lesson02-jump",
+        title: "Lesson 02 Jump — 전치사",
+        hint: "pp. 208–209",
+        data: "data/blue2/unit08/lesson02-jump.json",
+        practiceId: "b2:u08:lesson02-jump",
+      },
+      {
+        slug: "lesson02-fly",
+        title: "Lesson 02 Fly — 전치사",
+        hint: "pp. 210–211",
+        data: "data/blue2/unit08/lesson02-fly.json",
+        practiceId: "b2:u08:lesson02-fly",
+      },
+      {
+        slug: "review08",
+        title: "Review 08",
+        hint: "pp. 212–214",
+        data: "data/blue2/unit08/review08.json",
+        practiceId: "b2:u08:review08",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",
