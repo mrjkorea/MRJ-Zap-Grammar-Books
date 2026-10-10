@@ -1,0 +1,691 @@
+{
+  "practiceId": "b3:u02:lesson01-run",
+  "title": "Grammar Run — Lesson 01",
+  "subtitle": "must / have to MC (pp. 41–42)",
+  "pages": "41–42",
+  "timerMinutes": 18,
+  "bookId": "zap-blue-3",
+  "appName": "BlueZap 3",
+  "bookTitle": "ZAP Blue 3",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 조동사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 괄호 고르기 15문항(예시 1), Section B는 빈칸 고르기 15문항입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "I clean my room. (must / has to)",
+      "promptKo": "나는 내 방을 청소해야 한다.",
+      "choices": [
+        "must",
+        "has to"
+      ],
+      "accept": [
+        "must"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "must",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "Cathy close the door. (have to / has to)",
+      "promptKo": "캐시는 그 문을 닫아야 한다.",
+      "choices": [
+        "have to",
+        "has to"
+      ],
+      "accept": [
+        "has to"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "We go to bed early tonight. (have to / don't have to)",
+      "promptKo": "우리는 오늘 밤에 일찍 자지 않아도 된다.",
+      "choices": [
+        "have to",
+        "don't have to"
+      ],
+      "accept": [
+        "don't have to"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "They enter the room. (must / mustn't)",
+      "promptKo": "그들은 그 방에 들어가면 안 된다.",
+      "choices": [
+        "must",
+        "mustn't"
+      ],
+      "accept": [
+        "mustn't"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "Firefighters be brave. (have to / has to)",
+      "promptKo": "소방관들은 용감해야 한다.",
+      "choices": [
+        "have to",
+        "has to"
+      ],
+      "accept": [
+        "have to"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a06",
+      "label": "A6",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "Students listen to their teachers. (must / must not)",
+      "promptKo": "학생들은 선생님 말씀에 귀를 기울여야 한다.",
+      "choices": [
+        "must",
+        "must not"
+      ],
+      "accept": [
+        "must"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a07",
+      "label": "A7",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "Tommy finish his homework. (must / doesn't have to)",
+      "promptKo": "토미는 숙제를 끝내야 한다.",
+      "choices": [
+        "must",
+        "doesn't have to"
+      ],
+      "accept": [
+        "must"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a08",
+      "label": "A8",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "We brush our teeth. (have to / must not)",
+      "promptKo": "우리는 양치질을 해야 한다.",
+      "choices": [
+        "have to",
+        "must not"
+      ],
+      "accept": [
+        "have to"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a09",
+      "label": "A9",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "You be late for school. (must / must not)",
+      "promptKo": "너는 학교에 지각하면 안 된다.",
+      "choices": [
+        "must",
+        "must not"
+      ],
+      "accept": [
+        "must not"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "He take a bus. (don't have to / doesn't have to)",
+      "promptKo": "그는 버스를 타지 않아도 된다.",
+      "choices": [
+        "don't have to",
+        "doesn't have to"
+      ],
+      "accept": [
+        "doesn't have to"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "We touch the paintings. (must not / don't have to)",
+      "promptKo": "우리는 그 그림들을 만지면 안 된다.",
+      "choices": [
+        "must not",
+        "don't have to"
+      ],
+      "accept": [
+        "must not"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "They stand in line. (must / don't have to)",
+      "promptKo": "그들은 줄을 서야 한다.",
+      "choices": [
+        "must",
+        "don't have to"
+      ],
+      "accept": [
+        "must"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a13",
+      "label": "A13",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "You run in the classroom. (must not / don't have to)",
+      "promptKo": "너희는 교실에서 뛰어서는 안 된다.",
+      "choices": [
+        "must not",
+        "don't have to"
+      ],
+      "accept": [
+        "must not"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a14",
+      "label": "A14",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "Julia buy new shoes. (has to / doesn't have to)",
+      "promptKo": "줄리아는 새 신발을 사야 한다.",
+      "choices": [
+        "has to",
+        "doesn't have to"
+      ],
+      "accept": [
+        "has to"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a15",
+      "label": "A15",
+      "section": "A",
+      "type": "mc",
+      "promptEn": "They wear their coats. (must not / don't have to)",
+      "promptKo": "그들은 외투를 입을 필요가 없다.",
+      "choices": [
+        "must not",
+        "don't have to"
+      ],
+      "accept": [
+        "don't have to"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "We must ______ quiet in the library.",
+      "promptKo": "우리는 도서관에서 조용해야 한다.",
+      "choices": [
+        "① be",
+        "② are"
+      ],
+      "accept": [
+        "be",
+        "①",
+        "① be",
+        "be"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "Anne has to ______ every day.",
+      "promptKo": "앤은 매일 운동해야 한다.",
+      "choices": [
+        "① exercise",
+        "② exercises"
+      ],
+      "accept": [
+        "exercise",
+        "①",
+        "① exercise",
+        "exercise"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "I must ______ lots of vegetables.",
+      "promptKo": "나는 채소를 많이 먹어야 한다.",
+      "choices": [
+        "① eat",
+        "② eating"
+      ],
+      "accept": [
+        "eat",
+        "①",
+        "① eat",
+        "eat"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "They have ______ hard.",
+      "promptKo": "그들은 열심히 공부해야 한다.",
+      "choices": [
+        "① study",
+        "② to study"
+      ],
+      "accept": [
+        "to study",
+        "②",
+        "② to study",
+        "to study"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "Kelly has ______ a helmet.",
+      "promptKo": "켈리는 헬멧을 써야 한다.",
+      "choices": [
+        "① wear",
+        "② to wear"
+      ],
+      "accept": [
+        "to wear",
+        "②",
+        "② to wear",
+        "to wear"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b06",
+      "label": "B6",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "I ______ to come home early.",
+      "promptKo": "나는 일찍 집에 와야 한다.",
+      "choices": [
+        "① must",
+        "② have"
+      ],
+      "accept": [
+        "have",
+        "②",
+        "② have",
+        "have"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b07",
+      "label": "B7",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "You ______ clear your desk.",
+      "promptKo": "너는 책상을 치워야 한다.",
+      "choices": [
+        "① must",
+        "② have"
+      ],
+      "accept": [
+        "must",
+        "①",
+        "① must",
+        "must"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b08",
+      "label": "B8",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "She ______ to wash her hands.",
+      "promptKo": "그녀는 손을 씻어야 한다.",
+      "choices": [
+        "① have",
+        "② has"
+      ],
+      "accept": [
+        "has",
+        "②",
+        "② has",
+        "has"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b09",
+      "label": "B9",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "You must not ______ photos here.",
+      "promptKo": "여기서 사진을 찍으면 안 된다.",
+      "choices": [
+        "① take",
+        "② to take"
+      ],
+      "accept": [
+        "take",
+        "①",
+        "① take",
+        "take"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b10",
+      "label": "B10",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "Paul ______ go to school today.",
+      "promptKo": "폴은 오늘 학교에 갈 필요가 없다.",
+      "choices": [
+        "① has not to",
+        "② doesn't have to"
+      ],
+      "accept": [
+        "doesn't have to",
+        "②",
+        "② doesn't have to",
+        "doesn't have to"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b11",
+      "label": "B11",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "He ______ park here.",
+      "promptKo": "그는 여기에 주차하면 안 된다.",
+      "choices": [
+        "① don't must",
+        "② must not"
+      ],
+      "accept": [
+        "must not",
+        "②",
+        "② must not",
+        "must not"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b12",
+      "label": "B12",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "They don't have ______ in English.",
+      "promptKo": "그들은 영어로 말할 필요가 없다.",
+      "choices": [
+        "① speak",
+        "② to speak"
+      ],
+      "accept": [
+        "to speak",
+        "②",
+        "② to speak",
+        "to speak"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b13",
+      "label": "B13",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "I must ______ watch too much TV.",
+      "promptKo": "나는 TV를 너무 많이 보면 안 된다.",
+      "choices": [
+        "① don't",
+        "② not"
+      ],
+      "accept": [
+        "not",
+        "②",
+        "② not",
+        "not"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b14",
+      "label": "B14",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "You ______ have to take a shower.",
+      "promptKo": "너는 샤워할 필요가 없다.",
+      "choices": [
+        "① don't",
+        "② doesn't"
+      ],
+      "accept": [
+        "don't",
+        "①",
+        "① don't",
+        "don't"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b15",
+      "label": "B15",
+      "section": "B",
+      "type": "mc",
+      "promptEn": "We ______ not tell a lie.",
+      "promptKo": "우리는 거짓말하면 안 된다.",
+      "choices": [
+        "① have to",
+        "② must"
+      ],
+      "accept": [
+        "must",
+        "②",
+        "② must",
+        "must"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ]
+}

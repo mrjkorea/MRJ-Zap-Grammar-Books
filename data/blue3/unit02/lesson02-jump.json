@@ -1,0 +1,588 @@
+{
+  "practiceId": "b3:u02:lesson02-jump",
+  "title": "Grammar Jump — Lesson 02",
+  "subtitle": "should / had better (pp. 53–54)",
+  "pages": "53–54",
+  "timerMinutes": 24,
+  "bookId": "zap-blue-3",
+  "appName": "BlueZap 3",
+  "bookTitle": "ZAP Blue 3",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 조동사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 14문항(예시1), Section B 11문항(예시1)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "We <u>should eat</u> a lot of fruit.",
+      "promptKo": "우리는 과일을 많이 ______.",
+      "blanks": 1,
+      "accept": [
+        "먹는 것이 좋겠다",
+        "~먹는 것이 좋겠다",
+        "먹는것이 좋겠다",
+        "~먹는것이 좋겠다"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "먹는 것이 좋겠다",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "Emily <u>had better take</u> a rest.",
+      "promptKo": "에밀리는 ______.",
+      "blanks": 1,
+      "accept": [
+        "쉬는 것이 좋겠다",
+        "~쉬는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "Barry <u>should clear</u> his desk.",
+      "promptKo": "배리는 자기 책상을 ______.",
+      "blanks": 1,
+      "accept": [
+        "치우는 것이 좋겠다",
+        "~치우는 것이 좋겠다",
+        "정리하는 것이 좋겠다",
+        "~정리하는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "They <u>had better water</u> the plants.",
+      "promptKo": "그들은 그 식물들에 ______.",
+      "blanks": 1,
+      "accept": [
+        "물을 주는 것이 좋겠다",
+        "~물을 주는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "He <u>should not drink</u> cold water.",
+      "promptKo": "그는 찬 물을 ______.",
+      "blanks": 1,
+      "accept": [
+        "마시지 않는 것이 좋겠다",
+        "~마시지 않는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "label": "A6",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "You <u>had better not tease</u> your cat.",
+      "promptKo": "너는 네 고양이를 ______.",
+      "blanks": 1,
+      "accept": [
+        "괴롭히지 않는 것이 좋겠다",
+        "~괴롭히지 않는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "label": "A7",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "She <u>should be kind</u> to others.",
+      "promptKo": "그녀는 다른 사람들에게 ______.",
+      "blanks": 1,
+      "accept": [
+        "친절하는 것이 좋겠다",
+        "~친절하는 것이 좋겠다",
+        "친절할 것이 좋겠다",
+        "~친절할 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "label": "A8",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "You <u>had better not play</u> on the street.",
+      "promptKo": "너는 길에서 ______.",
+      "blanks": 1,
+      "accept": [
+        "놀지 않는 것이 좋겠다",
+        "~놀지 않는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "label": "A9",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "They <u>should drink</u> lots of milk.",
+      "promptKo": "그들은 우유를 많이 ______.",
+      "blanks": 1,
+      "accept": [
+        "마시는 것이 좋겠다",
+        "~마시는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "Tom <u>had better exercise</u> regularly.",
+      "promptKo": "톰은 규칙적으로 ______.",
+      "blanks": 1,
+      "accept": [
+        "운동하는 것이 좋겠다",
+        "~운동하는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "You <u>should not sleep</u> on the floor.",
+      "promptKo": "너는 바닥에서 ______.",
+      "blanks": 1,
+      "accept": [
+        "자지 않는 것이 좋겠다",
+        "~자지 않는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "He <u>had better wear</u> his gloves.",
+      "promptKo": "그는 장갑을 ______.",
+      "blanks": 1,
+      "accept": [
+        "끼는 것이 좋겠다",
+        "~끼는 것이 좋겠다",
+        "착용하는 것이 좋겠다",
+        "~착용하는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a13",
+      "label": "A13",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "We <u>had better not pick</u> flowers.",
+      "promptKo": "우리는 꽃을 ______.",
+      "blanks": 1,
+      "accept": [
+        "꺾지 않는 것이 좋겠다",
+        "~꺾지 않는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a14",
+      "label": "A14",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "I <u>should take</u> a paper bag.",
+      "promptKo": "나는 종이 봉지를 ______.",
+      "blanks": 1,
+      "accept": [
+        "가져가는 것이 좋겠다",
+        "~가져가는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a15",
+      "label": "A15",
+      "section": "A",
+      "type": "fill",
+      "promptEn": "I <u>had better ride</u> a bicycle.",
+      "promptKo": "나는 자전거를 ______.",
+      "blanks": 1,
+      "accept": [
+        "타는 것이 좋겠다",
+        "~타는 것이 좋겠다"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 밑줄 친 부분의 우리말 뜻만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "type": "fill",
+      "promptKo": "너는 스카프를 매는 것이 좋겠다.",
+      "promptEn": "You ______ wear a scarf.",
+      "blanks": 1,
+      "accept": [
+        "should"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "should",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "우리는 지금 출발하는 것이 좋겠다.",
+      "promptEn": "We ______ start now.",
+      "blanks": 1,
+      "accept": [
+        "should"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "그는 밤에 TV를 보지 않는 것이 좋겠다.",
+      "promptEn": "He ______ ______ watch TV at night.",
+      "blanks": 2,
+      "accept": [
+        "should|not",
+        "shouldn't"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "너는 단것을 먹지 않는 것이 좋겠다.",
+      "promptEn": "You ______ ______ eat sweets.",
+      "blanks": 2,
+      "accept": [
+        "should|not",
+        "shouldn't"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "존은 세수를 하는 것이 좋겠다.",
+      "promptEn": "John ______ wash his face.",
+      "blanks": 1,
+      "accept": [
+        "should"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b06",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "아빠는 오늘 운전을 하시지 않는 것이 좋겠다.",
+      "promptEn": "Dad ______ ______ drive today.",
+      "blanks": 2,
+      "accept": [
+        "should|not",
+        "shouldn't"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b07",
+      "label": "B7",
+      "type": "fill",
+      "promptKo": "너는 살을 좀 빼는 것이 좋겠다.",
+      "promptEn": "You ______ lose some weight.",
+      "blanks": 1,
+      "accept": [
+        "should"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b08",
+      "label": "B8",
+      "type": "fill",
+      "promptKo": "우리는 택시를 타는 것이 좋겠다.",
+      "promptEn": "We ______ ______ take a taxi.",
+      "blanks": 2,
+      "accept": [
+        "had|better"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b09",
+      "label": "B9",
+      "type": "fill",
+      "promptKo": "그녀는 따뜻한 물을 조금 마시는 것이 좋겠다.",
+      "promptEn": "She ______ drink some warm water.",
+      "blanks": 1,
+      "accept": [
+        "should"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b10",
+      "label": "B10",
+      "type": "fill",
+      "promptKo": "그는 커피를 마시지 않는 것이 좋겠다.",
+      "promptEn": "He ______ ______ drink coffee.",
+      "blanks": 2,
+      "accept": [
+        "should|not",
+        "shouldn't"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b11",
+      "label": "B11",
+      "type": "fill",
+      "promptKo": "낸시는 그 콘서트에 가지 않는 것이 좋겠다.",
+      "promptEn": "Nancy ______ ______ go to the concert.",
+      "blanks": 2,
+      "accept": [
+        "should|not",
+        "shouldn't"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b12",
+      "label": "B12",
+      "type": "fill",
+      "promptKo": "너는 그 우유를 마시지 않는 것이 좋겠다.",
+      "promptEn": "You ______ ______ drink the milk.",
+      "blanks": 2,
+      "accept": [
+        "should|not",
+        "shouldn't"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b13",
+      "label": "B13",
+      "type": "fill",
+      "promptKo": "우리는 나무를 좀 심는 것이 좋겠다.",
+      "promptEn": "We ______ plant some trees.",
+      "blanks": 1,
+      "accept": [
+        "should"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b14",
+      "label": "B14",
+      "type": "fill",
+      "promptKo": "그들은 그 강에서 수영을 하지 않는 것이 좋겠다.",
+      "promptEn": "They ______ ______ swim in the river.",
+      "blanks": 2,
+      "accept": [
+        "should|not",
+        "shouldn't"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b15",
+      "label": "B15",
+      "type": "fill",
+      "promptKo": "우리는 그녀를 돕는 것이 좋겠다.",
+      "promptEn": "We ______ help her.",
+      "blanks": 1,
+      "accept": [
+        "should"
+      ],
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ]
+}
