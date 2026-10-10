@@ -8,7 +8,7 @@
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
-    { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
+    { id: "zap-blue-4", title: "ZAP Blue 4", enabled: true, appName: "BlueZap 4", bookTitle: "ZAP Blue 4" },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
     { id: "zap-green-2", title: "ZAP Green 2", enabled: true, appName: "GreenZap 2", bookTitle: "ZAP Green 2" },
     { id: "zap-green-3", title: "ZAP Green 3", enabled: true, appName: "GreenZap 3", bookTitle: "ZAP Green 3" },
@@ -52,6 +52,9 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-4": [
+      { id: "unit-02", title: "Unit 02 — 미래 시제 will", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +69,85 @@
   };
 
   var EXERCISES = {
+    "zap-blue-4:unit-02": [
+      {
+        slug: "lesson01-walk1",
+        title: "Lesson 01 Walk 1 — 미래 시제 will",
+        hint: "will + 동사원형 · pp. 37–38",
+        data: "data/blue4/unit02/lesson01-walk1.json",
+        practiceId: "b4:u02:lesson01-walk1",
+      },
+      {
+        slug: "lesson01-walk2",
+        title: "Lesson 01 Walk 2 — 미래 시제 will",
+        hint: "will not / won't · pp. 39–40",
+        data: "data/blue4/unit02/lesson01-walk2.json",
+        practiceId: "b4:u02:lesson01-walk2",
+      },
+      {
+        slug: "lesson01-run",
+        title: "Lesson 01 Run — 미래 시제 will",
+        hint: "긍정·부정 선택 · pp. 40–41",
+        data: "data/blue4/unit02/lesson01-run.json",
+        practiceId: "b4:u02:lesson01-run",
+      },
+      {
+        slug: "lesson01-jump",
+        title: "Lesson 01 Jump — 미래 시제 will",
+        hint: "뜻 쓰기·문장 완성 · pp. 42–43",
+        data: "data/blue4/unit02/lesson01-jump.json",
+        practiceId: "b4:u02:lesson01-jump",
+      },
+      {
+        slug: "lesson01-fly",
+        title: "Lesson 01 Fly — 미래 시제 will",
+        hint: "고치기·미래 시제로 바꾸기 · pp. 44–45",
+        data: "data/blue4/unit02/lesson01-fly.json",
+        practiceId: "b4:u02:lesson01-fly",
+      },
+      {
+        slug: "lesson02-walk1",
+        title: "Lesson 02 Walk 1 — 미래 시제 will",
+        hint: "의문사 없는 의문문 · p. 47",
+        data: "data/blue4/unit02/lesson02-walk1.json",
+        practiceId: "b4:u02:lesson02-walk1",
+      },
+      {
+        slug: "lesson02-walk2",
+        title: "Lesson 02 Walk 2 — 미래 시제 will",
+        hint: "의문사 있는 의문문 · p. 49",
+        data: "data/blue4/unit02/lesson02-walk2.json",
+        practiceId: "b4:u02:lesson02-walk2",
+      },
+      {
+        slug: "lesson02-run",
+        title: "Lesson 02 Run — 미래 시제 will",
+        hint: "의문문 형태·대답 · pp. 50–51",
+        data: "data/blue4/unit02/lesson02-run.json",
+        practiceId: "b4:u02:lesson02-run",
+      },
+      {
+        slug: "lesson02-jump",
+        title: "Lesson 02 Jump — 미래 시제 will",
+        hint: "의문문 완성·대화 · pp. 52–53",
+        data: "data/blue4/unit02/lesson02-jump.json",
+        practiceId: "b4:u02:lesson02-jump",
+      },
+      {
+        slug: "lesson02-fly",
+        title: "Lesson 02 Fly — 미래 시제 will",
+        hint: "의문문으로 바꾸기·배열 · pp. 54–55",
+        data: "data/blue4/unit02/lesson02-fly.json",
+        practiceId: "b4:u02:lesson02-fly",
+      },
+      {
+        slug: "review02",
+        title: "Review 02",
+        hint: "pp. 56–58",
+        data: "data/blue4/unit02/review-02.json",
+        practiceId: "b4:u02:review-02",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",

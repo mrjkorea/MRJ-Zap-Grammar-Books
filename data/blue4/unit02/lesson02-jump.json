@@ -1,0 +1,506 @@
+{
+  "practiceId": "b4:u02:lesson02-jump",
+  "title": "Lesson 02 Jump — 미래 시제 will",
+  "subtitle": "의문문 완성 · 대화 (pp. 52–53)",
+  "pages": "52–53",
+  "timerMinutes": 24,
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 미래 시제 will",
+  "sectionsVersion": 2,
+  "introKo": "Section A 15문항, Section B 12문항.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "directionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "directionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 12,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Will you go to the amusement park? ( go )",
+      "accept": [
+        "Will|you|go"
+      ],
+      "promptKo": "너는 놀이공원에 갈 거니?",
+      "blanks": 3,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Will / you / go"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "_____ the show _____ before nine? ( begin )",
+      "accept": [
+        "Will|the show|begin"
+      ],
+      "promptKo": "그 쇼는 9시 전에 시작될 거니?",
+      "blanks": 3
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "_____ George _____ London next week? ( visit )",
+      "accept": [
+        "Will|George|visit"
+      ],
+      "promptKo": "조지는 다음 주에 런던을 방문할 거니?",
+      "blanks": 3
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "_____ your grandfather _____ the door this afternoon? ( fix )",
+      "accept": [
+        "Will|your grandfather|fix"
+      ],
+      "promptKo": "너희 할아버지는 오늘 오후 문을 고칠 거니?",
+      "blanks": 3
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "_____ she _____ _____ her hat? ( put on )",
+      "accept": [
+        "Will|she|put|on"
+      ],
+      "promptKo": "그녀는 모자를 쓸 거니?",
+      "blanks": 4
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "_____ they _____ their homework before dinner? ( finish )",
+      "accept": [
+        "Will|they|finish"
+      ],
+      "promptKo": "그들은 저녁 식사 전에 숙제를 끝낼 거니?",
+      "blanks": 3
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "_____ he _____ ten years old next year? ( be )",
+      "accept": [
+        "Will|he|be"
+      ],
+      "promptKo": "그는 내년에 열 살이 될 거니?",
+      "blanks": 3
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "_____ you _____ your cup? ( bring )",
+      "accept": [
+        "Will|you|bring"
+      ],
+      "promptKo": "너는 컵을 가져올 거니?",
+      "blanks": 3
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "Who _____ _____ the rabbit tomorrow? ( feed )",
+      "accept": [
+        "Who|will|feed"
+      ],
+      "promptKo": "누가 내일 그 토끼에게 먹이를 줄 거니?",
+      "blanks": 3
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "What _____ they _____ this weekend? ( do )",
+      "accept": [
+        "What|will|they|do"
+      ],
+      "promptKo": "그들은 이번 주말에 무엇을 할 거니?",
+      "blanks": 4
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "When _____ Jack _____ dinner today? ( have )",
+      "accept": [
+        "When|will|Jack|have"
+      ],
+      "promptKo": "잭은 오늘 언제 저녁 식사를 할 거니?",
+      "blanks": 4
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Where _____ you _____ books? ( read )",
+      "accept": [
+        "Where|will|you|read"
+      ],
+      "promptKo": "너는 어디에서 책을 읽을 거니?",
+      "blanks": 4
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "How _____ Kevin _____ the letters? ( send )",
+      "accept": [
+        "How|will|Kevin|send"
+      ],
+      "promptKo": "케빈은 어떻게 그 편지들을 보낼 거니?",
+      "blanks": 4
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "How long _____ you _____ computer games today? ( play )",
+      "accept": [
+        "How long|will|you|play"
+      ],
+      "promptKo": "너는 오늘 컴퓨터 게임을 얼마나 할 거니?",
+      "blanks": 4
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 미래 시제 의문문을 완성하세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "What _____ the children _____ ? ( make )",
+      "accept": [
+        "What|will|the children|make"
+      ],
+      "promptKo": "그 아이들은 무엇을 만들 거니?",
+      "blanks": 4
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "A: _____ they come home early?\nB: No, they won't.",
+      "accept": [
+        "Will"
+      ],
+      "promptKo": "그들은 일찍 집에 올 거니?",
+      "blanks": 1
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "A: _____ Ms. Hanks jog along the river?\nB: Yes, she will.",
+      "accept": [
+        "Will"
+      ],
+      "promptKo": "행크스 씨는 강가를 따라 조깅할 거니?",
+      "blanks": 1
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "A: _____ the library close next Monday?\nB: Yes, it will.",
+      "accept": [
+        "Will"
+      ],
+      "promptKo": "그 도서관은 다음 월요일에 문을 닫을 거니?",
+      "blanks": 1
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A: _____ you buy a cell phone?\nB: No, I won't.",
+      "accept": [
+        "Will"
+      ],
+      "promptKo": "너는 휴대전화를 살 거니?",
+      "blanks": 1
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "A: Will it rain this weekend?\nB: Yes, _____.",
+      "accept": [
+        "it|will"
+      ],
+      "promptKo": "이번 주말에 비가 올 거니?",
+      "blanks": 2
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A: Will Frank watch a movie tonight?\nB: No, _____.",
+      "accept": [
+        "he|won't",
+        "he|will not"
+      ],
+      "promptKo": "프랭크는 오늘 밤 영화를 볼 거니?",
+      "blanks": 2
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A: Will they climb the mountain?\nB: Yes, _____.",
+      "accept": [
+        "they|will"
+      ],
+      "promptKo": "그들은 그 산을 오를 거니?",
+      "blanks": 2
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "A: Who _____ knit the vest?\nB: Mom will knit it.",
+      "accept": [
+        "will"
+      ],
+      "promptKo": "누가 그 조끼를 뜰 거니?",
+      "blanks": 1
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "A: When _____ they go on a picnic?\nB: They will go on a picnic next Thursday.",
+      "accept": [
+        "will"
+      ],
+      "promptKo": "그들은 언제 소풍을 갈 거니?",
+      "blanks": 1
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "A: How _____ you visit the island?\nB: We will visit the island by ship.",
+      "accept": [
+        "will"
+      ],
+      "promptKo": "너는 어떻게 그 섬을 방문할 거니?",
+      "blanks": 1
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "A: What will you make for breakfast?\nB: _____ _____ make some sandwiches.",
+      "accept": [
+        "I|will"
+      ],
+      "promptKo": "아침 식사로 무엇을 만들 거니?",
+      "blanks": 2
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "A: When will Mr. Parker wash his puppy?\nB: _____ _____ wash his puppy after dinner.",
+      "accept": [
+        "He|will"
+      ],
+      "promptKo": "파커 씨는 언제 강아지를 씻길 거니?",
+      "blanks": 2
+    }
+  ]
+}
