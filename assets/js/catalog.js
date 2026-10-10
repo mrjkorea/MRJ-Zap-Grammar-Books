@@ -8,7 +8,7 @@
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
-    { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
+    { id: "zap-blue-4", title: "ZAP Blue 4", enabled: true, appName: "BlueZap 4", bookTitle: "ZAP Blue 4" },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
     { id: "zap-green-2", title: "ZAP Green 2", enabled: true, appName: "GreenZap 2", bookTitle: "ZAP Green 2" },
     { id: "zap-green-3", title: "ZAP Green 3", enabled: true, appName: "GreenZap 3", bookTitle: "ZAP Green 3" },
@@ -52,6 +52,9 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-4": [
+      { id: "unit-08", title: "Unit 08 — 여러 가지 동사", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +69,57 @@
   };
 
   var EXERCISES = {
+    "zap-blue-4:unit-08": [
+      {
+        slug: "lesson01-walk1",
+        title: "Lesson 01 Walk 1 — 수여동사와 감각동사",
+        hint: "간접·직접목적어 · p. 193",
+        data: "data/blue4/unit08/lesson01-walk1.json",
+        practiceId: "b4:u08:lesson01-walk1",
+      },
+      {
+        slug: "lesson01-walk2",
+        title: "Lesson 01 Walk 2 — 수여동사와 감각동사",
+        hint: "전치사 to/for/of · p. 195",
+        data: "data/blue4/unit08/lesson01-walk2.json",
+        practiceId: "b4:u08:lesson01-walk2",
+      },
+      {
+        slug: "lesson01-walk3",
+        title: "Lesson 01 Walk 3 — 수여동사와 감각동사",
+        hint: "감각동사+형용사 · p. 197",
+        data: "data/blue4/unit08/lesson01-walk3.json",
+        practiceId: "b4:u08:lesson01-walk3",
+      },
+      {
+        slug: "lesson01-run",
+        title: "Lesson 01 Run — 수여동사와 감각동사",
+        hint: "pp. 198–199",
+        data: "data/blue4/unit08/lesson01-run.json",
+        practiceId: "b4:u08:lesson01-run",
+      },
+      {
+        slug: "lesson01-jump",
+        title: "Lesson 01 Jump — 수여동사와 감각동사",
+        hint: "pp. 200–201",
+        data: "data/blue4/unit08/lesson01-jump.json",
+        practiceId: "b4:u08:lesson01-jump",
+      },
+      {
+        slug: "lesson01-fly",
+        title: "Lesson 01 Fly — 수여동사와 감각동사",
+        hint: "pp. 202–203",
+        data: "data/blue4/unit08/lesson01-fly.json",
+        practiceId: "b4:u08:lesson01-fly",
+      },
+      {
+        slug: "review08",
+        title: "Review 08",
+        hint: "pp. 204–206",
+        data: "data/blue4/unit08/review08.json",
+        practiceId: "b4:u08:review08",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",
