@@ -134,7 +134,20 @@
   }
 
   /** Multi-blank: users[] and accept entry like "are|no" or full phrase */
-  function matchBlanks(users, acceptList) {
+  function permute(arr) {
+    if (arr.length <= 1) return [arr.slice()];
+    var out = [];
+    for (var i = 0; i < arr.length; i++) {
+      var rest = arr.slice(0, i).concat(arr.slice(i + 1));
+      var sub = permute(rest);
+      for (var j = 0; j < sub.length; j++) {
+        out.push([arr[i]].concat(sub[j]));
+      }
+    }
+    return out;
+  }
+
+  function matchBlanks(users, acceptList, unordered) {
     users = users || [];
     if (!acceptList || !acceptList.length) return false;
     for (var i = 0; i < acceptList.length; i++) {
@@ -142,11 +155,15 @@
       if (pattern.indexOf("|") >= 0 && users.length > 1) {
         var exp = pattern.split("|");
         if (exp.length === users.length) {
-          var ok = true;
-          for (var b = 0; b < exp.length; b++) {
-            if (!matchOne(users[b], exp[b])) ok = false;
+          var trials = unordered ? permute(exp) : [exp];
+          for (var t = 0; t < trials.length; t++) {
+            var trial = trials[t];
+            var ok = true;
+            for (var b = 0; b < trial.length; b++) {
+              if (!matchOne(users[b], trial[b])) ok = false;
+            }
+            if (ok) return true;
           }
-          if (ok) return true;
         }
       }
       if (users.length === 1 && matchAccept(users[0], acceptList[i])) return true;

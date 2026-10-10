@@ -203,7 +203,7 @@ function intro(parts) {
       sectionInstructionKo: instrA,
       promptKo: "내일은 그녀의 13번째 생일이다.",
     }),
-    matchMc("b01", "B", "B1", "one", ORD_CH, "c", { sectionInstructionKo: instrB }),
+    ex(matchMc("b01", "B", "B1", "one", ORD_CH, "c", { sectionInstructionKo: instrB }), "c. first"),
     matchMc("b02", "B", "B2", "two", ORD_CH, "d", { sectionInstructionKo: instrB }),
     matchMc("b03", "B", "B3", "three", ORD_CH, "a", { sectionInstructionKo: instrB }),
     matchMc("b04", "B", "B4", "nine", ORD_CH, "e", { sectionInstructionKo: instrB }),
@@ -220,10 +220,10 @@ function intro(parts) {
     timerMinutes: 10,
     ...META,
     sectionsVersion: 2,
-    introKo: intro(["Section A 4문항(고르기)", "Section B 8문항(연결·고르기)"]),
+    introKo: intro(["Section A 4문항(고르기)", "Section B 7문항(연결·고르기)"]),
     sections: [
       sec("A", "Section A", instrA, "다음 문장의 밑줄 친 부분을 바르게 읽은 것을 골라 동그라미 하세요.", R_PICK, "choice", "Choose · 고르기", 4, 1, ["A2", "A3", "A4", "A5"]),
-      sec("B", "Section B", instrB, "다음 기수에 알맞은 서수를 찾아 선으로 연결하세요.", R_PICK, "choice", "Choose · 고르기", 8, 0, ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8"]),
+      sec("B", "Section B", instrB, "다음 기수에 알맞은 서수를 찾아 선으로 연결하세요.", R_PICK, "choice", "Choose · 고르기", 7, 1, ["B2", "B3", "B4", "B5", "B6", "B7", "B8"]),
     ],
     items,
   });
@@ -1139,7 +1139,7 @@ function intro(parts) {
   );
 
   write("review-03.json", {
-    practiceId: "b2:u03:review-03",
+    practiceId: "b2:u03:review03",
     title: "Review 03",
     subtitle: "Unit 03 형용사 (pp. 82–84)",
     pages: "82–84",
