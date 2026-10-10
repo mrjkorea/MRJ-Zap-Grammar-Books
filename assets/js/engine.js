@@ -88,6 +88,10 @@
     if (type === "fill" || type === "sentence") {
       var blanks = item.blanks || 1;
       if (blanks > 1 && response.parts) {
+        if (item.unordered && N.matchBlanksUnordered) {
+          if (N.matchBlanksUnordered(response.parts, item.accept)) return true;
+          return false;
+        }
         if (N.matchBlanks(response.parts, item.accept)) return true;
         if (item.unordered) {
           var tries = permuteParts(response.parts);
