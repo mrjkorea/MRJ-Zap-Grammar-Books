@@ -398,11 +398,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B7",
       "type": "fill",
-      "promptEn": "It is _____ the bakery and the bank. ( the bakery )",
+      "promptEn": "It is _____ _____ _____ and the bank. ( the bakery )",
       "accept": [
-        "between the bakery and the bank"
+        "between|the|bakery"
       ],
-      "promptKo": "그것은 빵집과 은행 사이에 있다."
+      "promptKo": "그것은 빵집과 은행 사이에 있다.",
+      "blanks": 3
     },
     {
       "id": "l01fly_b08",

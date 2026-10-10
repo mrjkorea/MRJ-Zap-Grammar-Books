@@ -10,7 +10,7 @@
   "unitId": "unit-08",
   "unitTitle": "Unit 08 — 전치사",
   "sectionsVersion": 2,
-  "introKo": "Section A 14문항(우리말 뜻), Section B 15문항(빈칸). A1은 예시입니다.",
+  "introKo": "Section A 14문항(우리말 뜻), Section B 14문항(빈칸). A1·B1은 예시입니다.",
   "sections": [
     {
       "id": "A",
@@ -47,10 +47,9 @@
       "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "itemCount": 15,
-      "exampleCount": 0,
+      "itemCount": 14,
+      "exampleCount": 1,
       "labels": [
-        "B1",
         "B2",
         "B3",
         "B4",
@@ -323,7 +322,10 @@
       "accept": [
         "at"
       ],
-      "promptKo": "나는 7시에 일어난다."
+      "promptKo": "나는 7시에 일어난다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "at"
     },
     {
       "id": "l02jmp_b02",

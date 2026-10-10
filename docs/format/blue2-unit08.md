@@ -53,6 +53,7 @@ Timers: Walk ~10 min; Run ~20; Jump ~25; Fly ~28; Review ~30.
 
 ## Printed typos / uncertain (self-audit)
 
-- **p210 (Fly A) item 9:** header in OCR says “Children's Day is **on May**” while footer vocabulary lists Children's Day — answer keyed as **in May** (month).
-- **Review [1–2] item 2:** book prints “내 친구s 己…” in OCR; keyed as **with babies – 아기들에 대한** (wrong pair).
-- **Jump B item 7 (lesson01):** two blanks for `between` / `and` in “Korea is ___ China ___ Japan.”
+- **p210 (Fly A) item 9:** book underlines only **on** (not “May”); accept **in** or **in May** (same pattern as other Fly A phrase corrections).
+- **Review [1–2] item 2:** wrong pair is ② **with babies – 아기들에 대한** (`with` = together, not “about”).
+- **Jump B (lesson01):** B1 gray sample **in**; B4/B6/B10/B12 use multiple blanks per printed boxes; B7 **between|and** (ordered).
+- **Audit fix:** Review **#14–#15** had been swapped (tree vs John/puppy); corrected to match p214.

@@ -71,6 +71,14 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       bad++;
       console.log("FAIL", f, it.id, JSON.stringify(right), r, w);
     }
+    if ((it.blanks || 1) > 1 && !it.unordered && it.accept[0].includes("|")) {
+      const parts = it.accept[0].split("|");
+      const rev = parts.slice().reverse();
+      if (E.gradeItem(it, { parts: rev, value: rev.join(" ") })) {
+        bad++;
+        console.log("ORDER-FAIL", f, it.id);
+      }
+    }
     for (const acc of it.accept) {
       let resp;
       if (it.type === "mc") {

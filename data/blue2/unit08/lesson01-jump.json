@@ -10,7 +10,7 @@
   "unitId": "unit-08",
   "unitTitle": "Unit 08 — 전치사",
   "sectionsVersion": 2,
-  "introKo": "Section A는 밑줄 부분의 우리말 뜻, Section B는 빈칸에 전치사를 씁니다. A1은 예시입니다.",
+  "introKo": "Section A는 밑줄 부분의 우리말 뜻, Section B는 빈칸에 전치사를 씁니다. A1·B1은 예시입니다.",
   "sections": [
     {
       "id": "A",
@@ -47,10 +47,9 @@
       "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "itemCount": 15,
-      "exampleCount": 0,
+      "itemCount": 14,
+      "exampleCount": 1,
       "labels": [
-        "B1",
         "B2",
         "B3",
         "B4",
@@ -330,7 +329,10 @@
       "accept": [
         "in"
       ],
-      "promptKo": "우리는 부엌에서 이야기를 나누고 있다."
+      "promptKo": "우리는 부엌에서 이야기를 나누고 있다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "in"
     },
     {
       "id": "l01jmp_b02",
@@ -371,11 +373,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "The hospital is _____ the bookstore.",
+      "promptEn": "The hospital is _____ _____ the bookstore.",
       "accept": [
-        "next to"
+        "next|to"
       ],
-      "promptKo": "그 병원은 그 서점 바로 옆에 있다."
+      "promptKo": "그 병원은 그 서점 바로 옆에 있다.",
+      "blanks": 2
     },
     {
       "id": "l01jmp_b05",
@@ -401,11 +404,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B6",
       "type": "fill",
-      "promptEn": "Mina is _____ the door.",
+      "promptEn": "Mina is _____ _____ _____ the door.",
       "accept": [
-        "in front of"
+        "in|front|of"
       ],
-      "promptKo": "미나는 그 문 앞에 있다."
+      "promptKo": "미나는 그 문 앞에 있다.",
+      "blanks": 3
     },
     {
       "id": "l01jmp_b07",
@@ -462,11 +466,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B10",
       "type": "fill",
-      "promptEn": "She is coming _____ the bathroom.",
+      "promptEn": "She is coming _____ _____ the bathroom.",
       "accept": [
-        "out of"
+        "out|of"
       ],
-      "promptKo": "그녀는 욕실에서 나오고 있다."
+      "promptKo": "그녀는 욕실에서 나오고 있다.",
+      "blanks": 2
     },
     {
       "id": "l01jmp_b11",
@@ -492,11 +497,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B12",
       "type": "fill",
-      "promptEn": "Some kids are running _____ the stairs.",
+      "promptEn": "Some kids are running _____ _____ the stairs.",
       "accept": [
-        "down"
+        "down|the"
       ],
-      "promptKo": "몇몇 아이들이 계단을 달려 내려오고 있다."
+      "promptKo": "몇몇 아이들이 계단을 달려 내려오고 있다.",
+      "blanks": 2
     },
     {
       "id": "l01jmp_b13",
