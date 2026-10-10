@@ -47,10 +47,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "You are pretty.",
+      "promptEn": "You are <u>pretty</u>.",
       "accept": [
-        "형용사"
+        "형용사",
+        "형용사(adj)",
+        "adj",
+        "adjective"
       ],
+      "promptKo": "너는 예쁘다.",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "형용사"
@@ -64,10 +68,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "This is a tall tree.",
+      "promptEn": "This is a <u>tall</u> tree.",
       "accept": [
-        "형용사"
-      ]
+        "형용사",
+        "형용사(adj)",
+        "adj",
+        "adjective"
+      ],
+      "promptKo": "이것은 큰 나무이다."
     },
     {
       "id": "a03",
@@ -78,10 +86,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "You speak fast.",
+      "promptEn": "You speak <u>fast</u>.",
       "accept": [
-        "부사"
-      ]
+        "부사",
+        "부사(adv)",
+        "adv",
+        "adverb"
+      ],
+      "promptKo": "너는 말을 빨리 한다."
     },
     {
       "id": "a04",
@@ -92,10 +104,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "The dog is small.",
+      "promptEn": "The dog is <u>small</u>.",
       "accept": [
-        "형용사"
-      ]
+        "형용사",
+        "형용사(adj)",
+        "adj",
+        "adjective"
+      ],
+      "promptKo": "그 개는 작다."
     },
     {
       "id": "a05",
@@ -106,10 +122,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "She is very kind.",
+      "promptEn": "She is <u>very</u> kind.",
       "accept": [
-        "부사"
-      ]
+        "부사",
+        "부사(adv)",
+        "adv",
+        "adverb"
+      ],
+      "promptKo": "그녀는 매우 친절하다."
     },
     {
       "id": "a06",
@@ -120,10 +140,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptEn": "A book is on the table.",
+      "promptEn": "A book is <u>on</u> the table.",
       "accept": [
-        "전치사"
-      ]
+        "전치사",
+        "전치사(prep)",
+        "prep",
+        "preposition"
+      ],
+      "promptKo": "책 한 권이 탁자 위에 있다."
     },
     {
       "id": "a07",
@@ -134,10 +158,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A7",
       "type": "fill",
-      "promptEn": "They run very fast.",
+      "promptEn": "They run <u>very</u> fast.",
       "accept": [
-        "부사"
-      ]
+        "부사",
+        "부사(adv)",
+        "adv",
+        "adverb"
+      ],
+      "promptKo": "그들은 매우 빨리 달린다."
     },
     {
       "id": "a08",
@@ -148,10 +176,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A8",
       "type": "fill",
-      "promptEn": "I am in my room.",
+      "promptEn": "I am <u>in</u> my room.",
       "accept": [
-        "전치사"
-      ]
+        "전치사",
+        "전치사(prep)",
+        "prep",
+        "preposition"
+      ],
+      "promptKo": "나는 방 안에 있다."
     },
     {
       "id": "a09",
@@ -162,10 +194,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A9",
       "type": "fill",
-      "promptEn": "They play with their friends.",
+      "promptEn": "They play <u>with</u> their friends.",
       "accept": [
-        "전치사"
-      ]
+        "전치사",
+        "전치사(prep)",
+        "prep",
+        "preposition"
+      ],
+      "promptKo": "그들은 친구들과 함께 논다."
     },
     {
       "id": "a10",
@@ -176,10 +212,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A10",
       "type": "fill",
-      "promptEn": "Yuna is a cute girl.",
+      "promptEn": "Yuna is a <u>cute</u> girl.",
       "accept": [
-        "형용사"
-      ]
+        "형용사",
+        "형용사(adj)",
+        "adj",
+        "adjective"
+      ],
+      "promptKo": "유나는 귀여운 여자아이다."
     },
     {
       "id": "a11",
@@ -190,10 +230,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A11",
       "type": "fill",
-      "promptEn": "I go to school at nine.",
+      "promptEn": "I go to school <u>at</u> nine.",
       "accept": [
-        "전치사"
-      ]
+        "전치사",
+        "전치사(prep)",
+        "prep",
+        "preposition"
+      ],
+      "promptKo": "나는 9시에 학교에 간다."
     },
     {
       "id": "a12",
@@ -204,10 +248,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A12",
       "type": "fill",
-      "promptEn": "I speak English well.",
+      "promptEn": "I speak English <u>well</u>.",
       "accept": [
-        "부사"
-      ]
+        "부사",
+        "부사(adv)",
+        "adv",
+        "adverb"
+      ],
+      "promptKo": "나는 영어를 잘 말한다."
     }
   ]
 }

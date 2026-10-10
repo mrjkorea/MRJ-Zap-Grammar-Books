@@ -61,6 +61,7 @@
       "accept": [
         "cat"
       ],
+      "promptKo": "이것은 고양이다.",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "cat"
@@ -77,7 +78,8 @@
       "promptEn": "They live in London.",
       "accept": [
         "London"
-      ]
+      ],
+      "promptKo": "그들은 런던에 산다."
     },
     {
       "id": "a03",
@@ -91,7 +93,8 @@
       "promptEn": "I have a book.",
       "accept": [
         "book"
-      ]
+      ],
+      "promptKo": "나는 책을 한 권 가지고 있다."
     },
     {
       "id": "a04",
@@ -105,7 +108,8 @@
       "promptEn": "Is it a flower?",
       "accept": [
         "flower"
-      ]
+      ],
+      "promptKo": "그것은 꽃이니?"
     },
     {
       "id": "a05",
@@ -118,9 +122,11 @@
       "type": "fill",
       "promptEn": "Tom is a student.",
       "accept": [
-        "Tom",
-        "student"
-      ]
+        "student",
+        "Student",
+        "Tom"
+      ],
+      "promptKo": "톰은 학생이다."
     },
     {
       "id": "b01",
@@ -135,6 +141,7 @@
       "accept": [
         "I"
       ],
+      "promptKo": "나는 학생이다.",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "I"
@@ -151,7 +158,8 @@
       "promptEn": "You are cute.",
       "accept": [
         "You"
-      ]
+      ],
+      "promptKo": "너는 귀엽다."
     },
     {
       "id": "b03",
@@ -165,7 +173,8 @@
       "promptEn": "Is this a cap?",
       "accept": [
         "this"
-      ]
+      ],
+      "promptKo": "이것은 모자니?"
     },
     {
       "id": "b04",
@@ -179,7 +188,8 @@
       "promptEn": "He is a singer.",
       "accept": [
         "He"
-      ]
+      ],
+      "promptKo": "그는 가수이다."
     },
     {
       "id": "b05",
@@ -193,7 +203,8 @@
       "promptEn": "They play soccer after school.",
       "accept": [
         "They"
-      ]
+      ],
+      "promptKo": "그들은 방과 후에 축구를 한다."
     }
   ]
 }

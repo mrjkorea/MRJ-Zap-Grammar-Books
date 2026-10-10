@@ -61,6 +61,7 @@
       "accept": [
         "like"
       ],
+      "promptKo": "나는 개를 좋아한다.",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "like"
@@ -77,7 +78,8 @@
       "promptEn": "You are kind.",
       "accept": [
         "are"
-      ]
+      ],
+      "promptKo": "너는 친절하다."
     },
     {
       "id": "a03",
@@ -91,7 +93,8 @@
       "promptEn": "Is she a cook?",
       "accept": [
         "Is"
-      ]
+      ],
+      "promptKo": "그녀는 요리사니?"
     },
     {
       "id": "a04",
@@ -106,7 +109,8 @@
       "accept": [
         "Open",
         "open"
-      ]
+      ],
+      "promptKo": "창문을 열어라."
     },
     {
       "id": "a05",
@@ -120,7 +124,8 @@
       "promptEn": "They go to school together.",
       "accept": [
         "go"
-      ]
+      ],
+      "promptKo": "그들은 함께 학교에 간다."
     },
     {
       "id": "b01",
@@ -135,6 +140,7 @@
       "accept": [
         "must"
       ],
+      "promptKo": "나는 숙제를 해야 한다.",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "must"
@@ -151,7 +157,8 @@
       "promptEn": "She can swim.",
       "accept": [
         "can"
-      ]
+      ],
+      "promptKo": "그녀는 수영을 할 수 있다."
     },
     {
       "id": "b03",
@@ -165,7 +172,8 @@
       "promptEn": "He can speak English.",
       "accept": [
         "can"
-      ]
+      ],
+      "promptKo": "그는 영어를 말할 수 있다."
     },
     {
       "id": "b04",
@@ -179,7 +187,8 @@
       "promptEn": "She will come.",
       "accept": [
         "will"
-      ]
+      ],
+      "promptKo": "그녀는 올 것이다."
     },
     {
       "id": "b05",
@@ -193,7 +202,8 @@
       "promptEn": "We can do it.",
       "accept": [
         "can"
-      ]
+      ],
+      "promptKo": "우리는 그것을 할 수 있다."
     }
   ]
 }

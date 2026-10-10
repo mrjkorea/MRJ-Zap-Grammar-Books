@@ -8,22 +8,22 @@ Blue books (Grammar, Zap! **기본**) teach **grammar concepts** in three lesson
 |-----|---------|------|---------|
 | 9–10 | 8–9 | Comic + concept intro (문장) | **No** — not graded |
 | 11 | 10 | Concept (단어와 문장, punctuation) | **No** |
-| 11 | 11 | **Grammar Walk** — sort word bank → 단어 / 문장 | **Yes** → Lesson 01 Walk 1 |
-| 12 | 12 | Concept (문장의 종류) | **No** |
-| 13 | 13 | **Grammar Walk** — sentence types + match | **Yes** → Lesson 01 Walk 2 |
-| 14 | 14 | Concept (명사·대명사) | **No** |
-| 15 | 15 | **Grammar Walk** — circle noun / pronoun | **Yes** → Lesson 02 Walk 1 |
-| 16 | 16 | Concept (동사·조동사) | **No** |
-| 17 | 17 | **Grammar Walk** — circle verb / auxiliary | **Yes** → Lesson 02 Walk 2 |
-| 18 | 18 | Concept (형용사·부사·전치사) | **No** |
-| 19 | 19 | **Grammar Walk** — POS of underlined word | **Yes** → Lesson 02 Walk 3 |
-| 20 | 20 | Concept (주어·동사) | **No** |
-| 21 | 21 | **Grammar Walk** — circle subject / verb | **Yes** → Lesson 03 Walk 1 |
-| 22 | 22 | Concept (목적어·보어) | **No** |
-| 23 | 23 | **Grammar Walk** — O vs C | **Yes** → Lesson 03 Walk 2 |
-| 24–26 | 23–25 | **Review 01** (items 1–20) | **Yes** → Review 01 |
-| 27 | 26 | Check Check score table on Review | **No** — not graded |
-| 28 | 27 | **Wrap Up** filled summary tables | **No** — no student blanks |
+| 12 | 11 | **Grammar Walk** — sort word bank → 단어 / 문장 | **Yes** → Lesson 01 Walk 1 |
+| 13 | 12 | Concept (문장의 종류) | **No** |
+| 14 | 13 | **Grammar Walk** — sentence types + match | **Yes** → Lesson 01 Walk 2 |
+| 15 | 14 | Concept (명사·대명사) | **No** |
+| 16 | 15 | **Grammar Walk** — circle noun / pronoun | **Yes** → Lesson 02 Walk 1 |
+| 17 | 16 | Concept (동사·조동사) | **No** |
+| 18 | 17 | **Grammar Walk** — circle verb / auxiliary | **Yes** → Lesson 02 Walk 2 |
+| 19 | 18 | Concept (형용사·부사·전치사) | **No** |
+| 20 | 19 | **Grammar Walk** — POS of underlined word | **Yes** → Lesson 02 Walk 3 |
+| 21 | 20 | Concept (주어·동사) | **No** |
+| 22 | 21 | **Grammar Walk** — circle subject / verb | **Yes** → Lesson 03 Walk 1 |
+| 23 | 22 | Concept (목적어·보어) | **No** |
+| 24 | 23 | **Grammar Walk** — O vs C | **Yes** → Lesson 03 Walk 2 |
+| 25–27 | 24–26 | **Review 01** (items 1–20) | **Yes** → Review 01 |
+| 28 | 27 | Check Check score table on Review | **No** — not graded |
+| 29 | 28 | **Wrap Up** filled summary tables | **No** — no student blanks |
 | 29+ | 28+ | Next unit preview | **No** |
 
 ## Practices per unit (Blue)

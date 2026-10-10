@@ -45,12 +45,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "I like dogs.",
+      "promptEn": "I like <u>dogs</u>.",
       "accept": [
         "O",
         "o",
         "목적어"
       ],
+      "promptKo": "나는 개를 좋아한다.",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "O"
@@ -64,12 +65,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "You are a boy.",
+      "promptEn": "You are <u>a boy</u>.",
       "accept": [
         "C",
         "c",
         "보어"
-      ]
+      ],
+      "promptKo": "너는 남자아이다."
     },
     {
       "id": "a03",
@@ -80,12 +82,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "She is kind.",
+      "promptEn": "She is <u>kind</u>.",
       "accept": [
         "C",
         "c",
         "보어"
-      ]
+      ],
+      "promptKo": "그녀는 친절하다."
     },
     {
       "id": "a04",
@@ -96,12 +99,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "Jay has a bag.",
+      "promptEn": "Jay has <u>a bag</u>.",
       "accept": [
         "O",
         "o",
         "목적어"
-      ]
+      ],
+      "promptKo": "제이는 가방을 하나 가지고 있다."
     },
     {
       "id": "a05",
@@ -112,12 +116,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "We learn math.",
+      "promptEn": "We learn <u>math</u>.",
       "accept": [
         "O",
         "o",
         "목적어"
-      ]
+      ],
+      "promptKo": "우리는 수학을 배운다."
     },
     {
       "id": "a06",
@@ -128,12 +133,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptEn": "She can play the piano.",
+      "promptEn": "She can play <u>the piano</u>.",
       "accept": [
         "O",
         "o",
         "목적어"
-      ]
+      ],
+      "promptKo": "그녀는 피아노를 칠 수 있다."
     },
     {
       "id": "a07",
@@ -144,12 +150,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A7",
       "type": "fill",
-      "promptEn": "My brother is a student.",
+      "promptEn": "My brother is <u>a student</u>.",
       "accept": [
         "C",
         "c",
         "보어"
-      ]
+      ],
+      "promptKo": "우리 오빠는 학생이다."
     },
     {
       "id": "a08",
@@ -160,12 +167,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A8",
       "type": "fill",
-      "promptEn": "It is small.",
+      "promptEn": "It is <u>small</u>.",
       "accept": [
         "C",
         "c",
         "보어"
-      ]
+      ],
+      "promptKo": "그것은 작다."
     },
     {
       "id": "a09",
@@ -176,12 +184,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A9",
       "type": "fill",
-      "promptEn": "They are dancers.",
+      "promptEn": "They are <u>dancers</u>.",
       "accept": [
         "C",
         "c",
         "보어"
-      ]
+      ],
+      "promptKo": "그들은 무용수이다."
     },
     {
       "id": "a10",
@@ -192,12 +201,13 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A10",
       "type": "fill",
-      "promptEn": "They know him.",
+      "promptEn": "They know <u>him</u>.",
       "accept": [
         "O",
         "o",
         "목적어"
-      ]
+      ],
+      "promptKo": "그들은 그를 안다."
     }
   ]
 }

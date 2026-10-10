@@ -29,41 +29,52 @@ function sec(id, title, instructionKo, directionKo, ruleKo, answerMode, tag, ite
 
 function fillItem(id, section, label, promptEn, accept, opts) {
   opts = opts || {};
-  return Object.assign(
-    {
-      id,
-      section,
-      sectionTitle: opts.sectionTitle || "Section " + section,
-      sectionInstructionKo: opts.sectionInstructionKo,
-      answerMode: opts.answerMode || "words",
-      answerModeTag: opts.answerModeTag || "Words · 빈칸 말만",
-      label,
-      type: opts.type || "fill",
-      promptEn,
-      accept: Array.isArray(accept) ? accept : [accept],
-    },
-    opts.extra || {}
-  );
+  const item = {
+    id,
+    section,
+    sectionTitle: opts.sectionTitle || "Section " + section,
+    sectionInstructionKo: opts.sectionInstructionKo,
+    answerMode: opts.answerMode || "words",
+    answerModeTag: opts.answerModeTag || "Words · 빈칸 말만",
+    label,
+    type: opts.type || "fill",
+    promptEn,
+    accept: Array.isArray(accept) ? accept : [accept],
+  };
+  if (opts.promptKo) item.promptKo = opts.promptKo;
+  if (opts.noteKo) item.noteKo = opts.noteKo;
+  if (opts.blanks) item.blanks = opts.blanks;
+  return Object.assign(item, opts.extra || {});
 }
 
 function mcItem(id, section, label, promptEn, choices, accept, opts) {
   opts = opts || {};
-  return Object.assign(
-    {
-      id,
-      section,
-      sectionTitle: opts.sectionTitle || "Section " + section,
-      sectionInstructionKo: opts.sectionInstructionKo,
-      answerMode: "choice",
-      answerModeTag: "Choose · 고르기",
-      label,
-      type: "mc",
-      promptEn,
-      choices,
-      accept: Array.isArray(accept) ? accept : [accept],
-    },
-    opts.extra || {}
-  );
+  const item = {
+    id,
+    section,
+    sectionTitle: opts.sectionTitle || "Section " + section,
+    sectionInstructionKo: opts.sectionInstructionKo,
+    answerMode: "choice",
+    answerModeTag: "Choose · 고르기",
+    label,
+    type: "mc",
+    promptEn,
+    choices,
+    accept: Array.isArray(accept) ? accept : [accept],
+  };
+  if (opts.promptKo) item.promptKo = opts.promptKo;
+  if (opts.noteKo) item.noteKo = opts.noteKo;
+  return Object.assign(item, opts.extra || {});
+}
+
+/** Wrap the first case-insensitive match in <u>…</u> (visible in UI as tagged text). */
+function underlineInSentence(sentence, phrase) {
+  if (!phrase) return sentence;
+  const low = sentence.toLowerCase();
+  const p = phrase.toLowerCase();
+  const idx = low.indexOf(p);
+  if (idx < 0) return sentence;
+  return sentence.slice(0, idx) + "<u>" + sentence.slice(idx, idx + phrase.length) + "</u>" + sentence.slice(idx + phrase.length);
 }
 
 function exItem(base, exampleAnswer) {
@@ -88,13 +99,13 @@ const KO_TYPE = {
   exclamatory: ["감탄문"],
 };
 const POS = {
-  noun: ["명사"],
-  pronoun: ["대명사"],
-  verb: ["동사"],
-  aux: ["조동사"],
-  adj: ["형용사"],
-  adv: ["부사"],
-  prep: ["전치사"],
+  noun: ["명사", "명사(noun)", "noun"],
+  pronoun: ["대명사", "대명사(pronoun)", "pronoun"],
+  verb: ["동사", "동사(verb)", "verb"],
+  aux: ["조동사", "조동사(auxiliary)", "auxiliary", "aux"],
+  adj: ["형용사", "형용사(adj)", "adj", "adjective"],
+  adv: ["부사", "부사(adv)", "adv", "adverb"],
+  prep: ["전치사", "전치사(prep)", "prep", "preposition"],
 };
 
 // —— Lesson 01 Walk 1 (p. 11) ——
@@ -200,7 +211,7 @@ const POS = {
     fillItem("a02", "A", "A2", "Are you Korean?", KO_TYPE.interrogative, { sectionInstructionKo: instrA, promptKo: "너는 한국인이니?" }),
     fillItem("a03", "A", "A3", "Open the window.", KO_TYPE.imperative, { sectionInstructionKo: instrA, promptKo: "창문을 열어라." }),
     fillItem("a04", "A", "A4", "This is so big!", KO_TYPE.exclamatory, { sectionInstructionKo: instrA, promptKo: "이것은 무척 크구나!" }),
-    fillItem("a05", "A", "A5", "What a good boy!", KO_TYPE.exclamatory, { sectionInstructionKo: instrA, promptKo: "정말 착한 남자아이구나!" }),
+    fillItem("a05", "A", "A5", "What a big boy!", KO_TYPE.exclamatory, { sectionInstructionKo: instrA, promptKo: "정말 큰 남자아이구나!" }),
     fillItem("a06", "A", "A6", "She is a student.", KO_TYPE.declarative, { sectionInstructionKo: instrA, promptKo: "그녀는 학생이다." }),
     exItem(
       mcItem("b01", "B", "B1", "We are boys.", choices, ["c. She is a teacher.", "c"], { sectionInstructionKo: instrB, promptKo: "우리는 남자아이다." }),
@@ -298,7 +309,7 @@ circleWalk(
       { en: "They live in London.", accept: ["London"], ko: "그들은 런던에 산다." },
       { en: "I have a book.", accept: ["book"], ko: "나는 책을 한 권 가지고 있다." },
       { en: "Is it a flower?", accept: ["flower"], ko: "그것은 꽃이니?" },
-      { en: "Tom is a student.", accept: ["Tom", "student"], ko: "톰은 학생이다." },
+      { en: "Tom is a student.", accept: ["student", "Student", "Tom"], ko: "톰은 학생이다." },
     ],
   },
   {
@@ -360,24 +371,35 @@ circleWalk(
   const instr =
     "다음 문장에서 밑줄 친 단어의 품사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)";
   const rows = [
-    { en: "You are pretty.", pos: POS.adj, ko: "너는 예쁘다." },
-    { en: "This is a tall tree.", pos: POS.adj, ko: "이것은 큰 나무이다." },
-    { en: "You speak fast.", pos: POS.adv, ko: "너는 말을 빨리 한다." },
-    { en: "The dog is small.", pos: POS.adj, ko: "그 개는 작다." },
-    { en: "She is very kind.", pos: POS.adv, ko: "그녀는 매우 친절하다." },
-    { en: "A book is on the table.", pos: POS.prep, ko: "책 한 권이 탁자 위에 있다." },
-    { en: "They run very fast.", pos: POS.adv, ko: "그들은 매우 빨리 달린다." },
-    { en: "I am in my room.", pos: POS.prep, ko: "나는 방 안에 있다." },
-    { en: "They play with their friends.", pos: POS.prep, ko: "그들은 친구들과 함께 논다." },
-    { en: "Yuna is a cute girl.", pos: POS.adj, ko: "유나는 귀여운 여자아이다." },
-    { en: "I go to school at nine.", pos: POS.prep, ko: "나는 9시에 학교에 간다." },
-    { en: "I speak English well.", pos: POS.adv, ko: "나는 영어를 잘 말한다." },
+    { en: "You are pretty.", ul: "pretty", pos: POS.adj, ko: "너는 예쁘다." },
+    { en: "This is a tall tree.", ul: "tall", pos: POS.adj, ko: "이것은 큰 나무이다." },
+    { en: "You speak fast.", ul: "fast", pos: POS.adv, ko: "너는 말을 빨리 한다." },
+    { en: "The dog is small.", ul: "small", pos: POS.adj, ko: "그 개는 작다." },
+    { en: "She is very kind.", ul: "very", pos: POS.adv, ko: "그녀는 매우 친절하다." },
+    { en: "A book is on the table.", ul: "on", pos: POS.prep, ko: "책 한 권이 탁자 위에 있다." },
+    { en: "They run very fast.", ul: "very", pos: POS.adv, ko: "그들은 매우 빨리 달린다." },
+    { en: "I am in my room.", ul: "in", pos: POS.prep, ko: "나는 방 안에 있다." },
+    { en: "They play with their friends.", ul: "with", pos: POS.prep, ko: "그들은 친구들과 함께 논다." },
+    { en: "Yuna is a cute girl.", ul: "cute", pos: POS.adj, ko: "유나는 귀여운 여자아이다." },
+    { en: "I go to school at nine.", ul: "at", pos: POS.prep, ko: "나는 9시에 학교에 간다." },
+    { en: "I speak English well.", ul: "well", pos: POS.adv, ko: "나는 영어를 잘 말한다." },
   ];
   const items = [
-    exItem(fillItem("a01", "A", "A1", "You are pretty.", POS.adj, { sectionInstructionKo: instr, promptKo: "너는 예쁘다." }), "형용사"),
+    exItem(
+      fillItem("a01", "A", "A1", underlineInSentence(rows[0].en, rows[0].ul), POS.adj, {
+        sectionInstructionKo: instr,
+        promptKo: rows[0].ko,
+      }),
+      "형용사"
+    ),
   ];
   rows.slice(1).forEach((r, i) => {
-    items.push(fillItem("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), r.en, r.pos, { sectionInstructionKo: instr, promptKo: r.ko }));
+    items.push(
+      fillItem("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), underlineInSentence(r.en, r.ul), r.pos, {
+        sectionInstructionKo: instr,
+        promptKo: r.ko,
+      })
+    );
   });
   write("lesson02-walk3.json", {
     practiceId: "b1:u01:lesson02-walk3",
@@ -450,21 +472,32 @@ circleWalk(
     "다음 밑줄 친 말이 목적어이면 O, 보어이면 C를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (O 또는 C, 또는 목적어·보어)";
   const OC = (o) => (o ? ["O", "o", "목적어"] : ["C", "c", "보어"]);
   const rows = [
-    { en: "You are a boy.", o: false, ko: "너는 남자아이다." },
-    { en: "She is kind.", o: false, ko: "그녀는 친절하다." },
-    { en: "Jay has a bag.", o: true, ko: "제이는 가방을 하나 가지고 있다." },
-    { en: "We learn math.", o: true, ko: "우리는 수학을 배운다." },
-    { en: "She can play the piano.", o: true, ko: "그녀는 피아노를 칠 수 있다." },
-    { en: "My brother is a student.", o: false, ko: "우리 오빠는 학생이다." },
-    { en: "It is small.", o: false, ko: "그것은 작다." },
-    { en: "They are dancers.", o: false, ko: "그들은 무용수이다." },
-    { en: "They know him.", o: true, ko: "그들은 그를 안다." },
+    { en: "You are a boy.", ul: "a boy", o: false, ko: "너는 남자아이다." },
+    { en: "She is kind.", ul: "kind", o: false, ko: "그녀는 친절하다." },
+    { en: "Jay has a bag.", ul: "a bag", o: true, ko: "제이는 가방을 하나 가지고 있다." },
+    { en: "We learn math.", ul: "math", o: true, ko: "우리는 수학을 배운다." },
+    { en: "She can play the piano.", ul: "the piano", o: true, ko: "그녀는 피아노를 칠 수 있다." },
+    { en: "My brother is a student.", ul: "a student", o: false, ko: "우리 오빠는 학생이다." },
+    { en: "It is small.", ul: "small", o: false, ko: "그것은 작다." },
+    { en: "They are dancers.", ul: "dancers", o: false, ko: "그들은 무용수이다." },
+    { en: "They know him.", ul: "him", o: true, ko: "그들은 그를 안다." },
   ];
   const items = [
-    exItem(fillItem("a01", "A", "A1", "I like dogs.", OC(true), { sectionInstructionKo: instr, promptKo: "나는 개를 좋아한다." }), "O"),
+    exItem(
+      fillItem("a01", "A", "A1", underlineInSentence("I like dogs.", "dogs"), OC(true), {
+        sectionInstructionKo: instr,
+        promptKo: "나는 개를 좋아한다.",
+      }),
+      "O"
+    ),
   ];
   rows.forEach((r, i) => {
-    items.push(fillItem("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), r.en, OC(r.o), { sectionInstructionKo: instr, promptKo: r.ko }));
+    items.push(
+      fillItem("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), underlineInSentence(r.en, r.ul), OC(r.o), {
+        sectionInstructionKo: instr,
+        promptKo: r.ko,
+      })
+    );
   });
   write("lesson03-walk2.json", {
     practiceId: "b1:u01:lesson03-walk2",
@@ -524,12 +557,28 @@ circleWalk(
   );
 
   const s810 = "[8–10] 다음 중 밑줄 친 부분의 품사가 다른 하나를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)";
+  const r8 = [
+    underlineInSentence("She is cute.", "cute"),
+    underlineInSentence("It is a cat.", "cat"),
+    underlineInSentence("He is a small boy.", "small"),
+    underlineInSentence("Mr. Smith is tall.", "tall"),
+  ];
+  const r9 = [
+    underlineInSentence("I am Korean.", "I"),
+    underlineInSentence("They are students.", "They"),
+    underlineInSentence("John is very tall.", "John"),
+    underlineInSentence("That is a table.", "That"),
+  ];
+  const r10 = [
+    underlineInSentence("I run fast.", "fast"),
+    underlineInSentence("You sing well.", "well"),
+    underlineInSentence("This is very cute.", "very"),
+    underlineInSentence("We are in the room.", "in"),
+  ];
   items.push(
-    mc("q08", "8-10", "8", "She is cute. / It is a cat. / He is a small boy. / Mr. Smith is tall.", ["She is cute.", "It is a cat.", "He is a small boy.", "Mr. Smith is tall."], ["It is a cat.", "2"], {
-      sectionInstructionKo: s810,
-    }),
-    mc("q09", "8-10", "9", "", ["I am Korean.", "They are students.", "John is very tall.", "That is a table."], ["John is very tall.", "3"], { sectionInstructionKo: s810 }),
-    mc("q10", "8-10", "10", "", ["I run fast.", "You sing well.", "This is very cute.", "We are in the room."], ["We are in the room.", "4"], { sectionInstructionKo: s810 })
+    mc("q08", "8-10", "8", "", r8, [r8[1], "2"], { sectionInstructionKo: s810 }),
+    mc("q09", "8-10", "9", "", r9, [r9[2], "3"], { sectionInstructionKo: s810 }),
+    mc("q10", "8-10", "10", "", r10, [r10[3], "4"], { sectionInstructionKo: s810 })
   );
 
   const s1112 =
@@ -541,33 +590,38 @@ circleWalk(
 
   const s1314 = "[13–14] 다음 문장에서 주어를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)";
   items.push(
-    fillItem("q13", "13-14", "13", "This is my book.", ["This"], { sectionInstructionKo: s1314 }),
-    fillItem("q14", "13-14", "14", "My mother is a teacher.", ["My mother", "mother"], { sectionInstructionKo: s1314 })
+    fillItem("q13", "13-14", "13", "This is my book.", ["This"], { sectionInstructionKo: s1314, promptKo: "이것은 내 책이다." }),
+    fillItem("q14", "13-14", "14", "My mother is a teacher.", ["My mother", "mother"], {
+      sectionInstructionKo: s1314,
+      promptKo: "우리 어머니는 선생님이다.",
+    })
   );
 
   const s1516 = "[15–16] 다음 문장에서 동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)";
   items.push(
-    fillItem("q15", "15-16", "15", "I go to school at eight.", ["go"], { sectionInstructionKo: s1516 }),
-    fillItem("q16", "15-16", "16", "They are students.", ["are"], { sectionInstructionKo: s1516 })
+    fillItem("q15", "15-16", "15", "I go to school at eight.", ["go"], { sectionInstructionKo: s1516, promptKo: "나는 8시에 학교에 간다." }),
+    fillItem("q16", "15-16", "16", "They are students.", ["are"], { sectionInstructionKo: s1516, promptKo: "그들은 학생이다." })
   );
 
   const s17 = "[17] 다음 문장에서 목적어를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)";
-  items.push(fillItem("q17", "17", "17", "We have a dog.", ["a dog", "dog"], { sectionInstructionKo: s17 }));
+  items.push(fillItem("q17", "17", "17", "We have a dog.", ["a dog", "dog"], { sectionInstructionKo: s17, promptKo: "우리는 개 한 마리를 가지고 있다." }));
 
   const s18 = "[18] 다음 문장에서 보어를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)";
-  items.push(fillItem("q18", "18", "18", "She is kind.", ["kind"], { sectionInstructionKo: s18 }));
+  items.push(fillItem("q18", "18", "18", "She is kind.", ["kind"], { sectionInstructionKo: s18, promptKo: "그녀는 친절하다." }));
 
   const s1920 =
     "[19–20] 다음 문장에서 잘못된 부분을 찾아 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)";
   items.push(
     fillItem("q19", "19-20", "19", "the girl is smart.", ["The girl is smart.", "The girl is smart"], {
       sectionInstructionKo: s1920,
+      promptKo: "그 여자아이는 똑똑하다.",
       answerMode: "sentence",
       type: "sentence",
       answerModeTag: "Sentence · 문장 전체",
     }),
     fillItem("q20", "19-20", "20", "this is a book", ["This is a book.", "This is a book"], {
       sectionInstructionKo: s1920,
+      promptKo: "이것은 책이다.",
       answerMode: "sentence",
       type: "sentence",
       answerModeTag: "Sentence · 문장 전체",

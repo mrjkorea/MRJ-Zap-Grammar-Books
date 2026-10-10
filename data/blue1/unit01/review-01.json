@@ -320,15 +320,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "8",
       "type": "mc",
-      "promptEn": "She is cute. / It is a cat. / He is a small boy. / Mr. Smith is tall.",
+      "promptEn": "",
       "choices": [
-        "She is cute.",
-        "It is a cat.",
-        "He is a small boy.",
-        "Mr. Smith is tall."
+        "She is <u>cute</u>.",
+        "It is a <u>cat</u>.",
+        "He is a <u>small</u> boy.",
+        "Mr. Smith is <u>tall</u>."
       ],
       "accept": [
-        "It is a cat.",
+        "It is a <u>cat</u>.",
         "2"
       ]
     },
@@ -343,13 +343,13 @@
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "I am Korean.",
-        "They are students.",
-        "John is very tall.",
-        "That is a table."
+        "<u>I</u> am Korean.",
+        "<u>They</u> are students.",
+        "<u>John</u> is very tall.",
+        "<u>That</u> is a table."
       ],
       "accept": [
-        "John is very tall.",
+        "<u>John</u> is very tall.",
         "3"
       ]
     },
@@ -364,13 +364,13 @@
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "I run fast.",
-        "You sing well.",
-        "This is very cute.",
-        "We are in the room."
+        "I run <u>fast</u>.",
+        "You sing <u>well</u>.",
+        "This is <u>very</u> cute.",
+        "We are <u>in</u> the room."
       ],
       "accept": [
-        "We are in the room.",
+        "We are <u>in</u> the room.",
         "4"
       ]
     },
@@ -424,7 +424,8 @@
       "promptEn": "This is my book.",
       "accept": [
         "This"
-      ]
+      ],
+      "promptKo": "이것은 내 책이다."
     },
     {
       "id": "q14",
@@ -439,7 +440,8 @@
       "accept": [
         "My mother",
         "mother"
-      ]
+      ],
+      "promptKo": "우리 어머니는 선생님이다."
     },
     {
       "id": "q15",
@@ -453,7 +455,8 @@
       "promptEn": "I go to school at eight.",
       "accept": [
         "go"
-      ]
+      ],
+      "promptKo": "나는 8시에 학교에 간다."
     },
     {
       "id": "q16",
@@ -467,7 +470,8 @@
       "promptEn": "They are students.",
       "accept": [
         "are"
-      ]
+      ],
+      "promptKo": "그들은 학생이다."
     },
     {
       "id": "q17",
@@ -482,7 +486,8 @@
       "accept": [
         "a dog",
         "dog"
-      ]
+      ],
+      "promptKo": "우리는 개 한 마리를 가지고 있다."
     },
     {
       "id": "q18",
@@ -496,7 +501,8 @@
       "promptEn": "She is kind.",
       "accept": [
         "kind"
-      ]
+      ],
+      "promptKo": "그녀는 친절하다."
     },
     {
       "id": "q19",
@@ -511,7 +517,8 @@
       "accept": [
         "The girl is smart.",
         "The girl is smart"
-      ]
+      ],
+      "promptKo": "그 여자아이는 똑똑하다."
     },
     {
       "id": "q20",
@@ -526,7 +533,8 @@
       "accept": [
         "This is a book.",
         "This is a book"
-      ]
+      ],
+      "promptKo": "이것은 책이다."
     }
   ]
 }

@@ -33,6 +33,31 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;
+    if (
+      it.type !== "mc" &&
+      it.promptEn &&
+      /[A-Za-z]/.test(it.promptEn) &&
+      !/^단어 |^문장 /.test(it.promptEn) &&
+      !it.promptKo
+    ) {
+      bad++;
+      console.log("NO-PROMPT-KO", f, it.id);
+    }
+    if (f === "lesson02-walk3.json" && it.type === "fill" && !it.displayOnly && !/<u>/.test(it.promptEn || "")) {
+      bad++;
+      console.log("NO-UNDERLINE", f, it.id);
+    }
+    if (f === "lesson03-walk2.json" && it.type === "fill" && !it.displayOnly && !/<u>/.test(it.promptEn || "")) {
+      bad++;
+      console.log("NO-UNDERLINE", f, it.id);
+    }
+    if (f === "review-01.json" && it.type === "mc" && ["8", "9", "10"].includes(String(it.label))) {
+      const missing = (it.choices || []).some((c) => !/<u>/.test(c));
+      if (missing) {
+        bad++;
+        console.log("REVIEW-UL", f, it.id);
+      }
+    }
     total++;
     let right;
     let wrong;

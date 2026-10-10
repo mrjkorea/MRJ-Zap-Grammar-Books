@@ -61,6 +61,7 @@
       "accept": [
         "평서문"
       ],
+      "promptKo": "나는 책을 읽는다.",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "평서문"
@@ -77,7 +78,8 @@
       "promptEn": "Are you Korean?",
       "accept": [
         "의문문"
-      ]
+      ],
+      "promptKo": "너는 한국인이니?"
     },
     {
       "id": "a03",
@@ -91,7 +93,8 @@
       "promptEn": "Open the window.",
       "accept": [
         "명령문"
-      ]
+      ],
+      "promptKo": "창문을 열어라."
     },
     {
       "id": "a04",
@@ -105,7 +108,8 @@
       "promptEn": "This is so big!",
       "accept": [
         "감탄문"
-      ]
+      ],
+      "promptKo": "이것은 무척 크구나!"
     },
     {
       "id": "a05",
@@ -116,10 +120,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "What a good boy!",
+      "promptEn": "What a big boy!",
       "accept": [
         "감탄문"
-      ]
+      ],
+      "promptKo": "정말 큰 남자아이구나!"
     },
     {
       "id": "a06",
@@ -133,7 +138,8 @@
       "promptEn": "She is a student.",
       "accept": [
         "평서문"
-      ]
+      ],
+      "promptKo": "그녀는 학생이다."
     },
     {
       "id": "b01",
@@ -155,6 +161,7 @@
         "c. She is a teacher.",
         "c"
       ],
+      "promptKo": "우리는 남자아이다.",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "c. She is a teacher."
@@ -178,7 +185,8 @@
       "accept": [
         "a. Are you tall?",
         "a"
-      ]
+      ],
+      "promptKo": "이것은 책이니?"
     },
     {
       "id": "b03",
@@ -199,7 +207,8 @@
       "accept": [
         "d. Read a book.",
         "d"
-      ]
+      ],
+      "promptKo": "창문을 닫아라."
     },
     {
       "id": "b04",
@@ -220,7 +229,8 @@
       "accept": [
         "b. What a good girl!",
         "b"
-      ]
+      ],
+      "promptKo": "정말 키가 큰 나무구나!"
     }
   ]
 }
