@@ -8,7 +8,7 @@
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
-    { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
+    { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false, appName: "BlueZap 4", bookTitle: "ZAP Blue 4" },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
     { id: "zap-green-2", title: "ZAP Green 2", enabled: true, appName: "GreenZap 2", bookTitle: "ZAP Green 2" },
     { id: "zap-green-3", title: "ZAP Green 3", enabled: true, appName: "GreenZap 3", bookTitle: "ZAP Green 3" },
@@ -52,6 +52,7 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-4": [{ id: "unit-06", title: "Unit 06 — 접속사", enabled: true }],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +67,85 @@
   };
 
   var EXERCISES = {
+    "zap-blue-4:unit-06": [
+      {
+        slug: "lesson01-walk",
+        title: "Lesson 01 Walk — 접속사",
+        hint: "and · but (p. 141)",
+        data: "data/blue4/unit06/lesson01-walk.json",
+        practiceId: "b4:u06:lesson01-walk",
+      },
+      {
+        slug: "lesson02-walk",
+        title: "Lesson 02 Walk — 접속사",
+        hint: "or · because (p. 143)",
+        data: "data/blue4/unit06/lesson02-walk.json",
+        practiceId: "b4:u06:lesson02-walk",
+      },
+      {
+        slug: "lesson01-run",
+        title: "Lesson 01 Run — 접속사",
+        hint: "and / but (p. 144)",
+        data: "data/blue4/unit06/lesson01-run.json",
+        practiceId: "b4:u06:lesson01-run",
+      },
+      {
+        slug: "lesson02-run",
+        title: "Lesson 02 Run — 접속사",
+        hint: "or / because (p. 145)",
+        data: "data/blue4/unit06/lesson02-run.json",
+        practiceId: "b4:u06:lesson02-run",
+      },
+      {
+        slug: "lesson02-jump",
+        title: "Lesson 02 Jump — 접속사",
+        hint: "pp. 146–147",
+        data: "data/blue4/unit06/lesson02-jump.json",
+        practiceId: "b4:u06:lesson02-jump",
+      },
+      {
+        slug: "lesson02-fly",
+        title: "Lesson 02 Fly — 접속사",
+        hint: "pp. 148–149",
+        data: "data/blue4/unit06/lesson02-fly.json",
+        practiceId: "b4:u06:lesson02-fly",
+      },
+      {
+        slug: "lesson03-walk",
+        title: "Lesson 03 Walk — 접속사와 문장",
+        hint: "선택 의문문 (p. 153)",
+        data: "data/blue4/unit06/lesson03-walk.json",
+        practiceId: "b4:u06:lesson03-walk",
+      },
+      {
+        slug: "lesson03-run",
+        title: "Lesson 03 Run — 접속사와 문장",
+        hint: "pp. 154–155",
+        data: "data/blue4/unit06/lesson03-run.json",
+        practiceId: "b4:u06:lesson03-run",
+      },
+      {
+        slug: "lesson03-jump",
+        title: "Lesson 03 Jump — 접속사와 문장",
+        hint: "pp. 156–157",
+        data: "data/blue4/unit06/lesson03-jump.json",
+        practiceId: "b4:u06:lesson03-jump",
+      },
+      {
+        slug: "lesson03-fly",
+        title: "Lesson 03 Fly — 접속사와 문장",
+        hint: "pp. 158–159",
+        data: "data/blue4/unit06/lesson03-fly.json",
+        practiceId: "b4:u06:lesson03-fly",
+      },
+      {
+        slug: "review06",
+        title: "Review 06",
+        hint: "pp. 160–162",
+        data: "data/blue4/unit06/review06.json",
+        practiceId: "b4:u06:review06",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",
