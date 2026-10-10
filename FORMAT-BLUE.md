@@ -68,3 +68,7 @@ Same pipeline as Green: `program=greenzap`, `source=greenzap`, `app_name` = book
 ## Excluded from repo
 
 Page images, OCR text, and answer keys are **not** committed (public repo).
+
+## Unit 05+ (Walk / Run / Jump / Fly)
+
+Later Blue 1 units (e.g. **Unit 05 — 대명사 (1)**) use **Grammar Walk, Run, Jump, Fly** per lesson plus Review. See [docs/format/blue1-unit05.md](docs/format/blue1-unit05.md) for the full page map.

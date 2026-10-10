@@ -1,0 +1,341 @@
+{
+  "practiceId": "b1:u05:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 인칭대명사",
+  "subtitle": "인칭대명사 · p. 109",
+  "pages": "109",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 대명사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 우리말 뜻(7문항), Section B는 단수·복수 고르기(7문항)입니다. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I — 나",
+      "accept": [
+        "나"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "나",
+      "promptKo": "예시"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "it",
+      "accept": [
+        "그것"
+      ],
+      "promptKo": "그것"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "you (단수)",
+      "accept": [
+        "너",
+        "당신",
+        "네",
+        "당신은",
+        "너는"
+      ],
+      "promptKo": "너 (단수)"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "we",
+      "accept": [
+        "우리",
+        "우리는"
+      ],
+      "promptKo": "우리"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "he",
+      "accept": [
+        "그",
+        "그는"
+      ],
+      "promptKo": "그"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "she",
+      "accept": [
+        "그녀",
+        "그녀는"
+      ],
+      "promptKo": "그녀"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "they",
+      "accept": [
+        "그들",
+        "그것들",
+        "그들은",
+        "그것들은"
+      ],
+      "promptKo": "그들 / 그것들"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "you (복수)",
+      "accept": [
+        "너희",
+        "당신들",
+        "너희는",
+        "당신들은"
+      ],
+      "promptKo": "너희 (복수)"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I ( you / we )",
+      "choices": [
+        "you",
+        "we"
+      ],
+      "accept": [
+        "we"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "we"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "he ( we / they )",
+      "choices": [
+        "we",
+        "they"
+      ],
+      "accept": [
+        "they"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "she ( they / you )",
+      "choices": [
+        "they",
+        "you"
+      ],
+      "accept": [
+        "they"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "you ( they / you )",
+      "choices": [
+        "they",
+        "you"
+      ],
+      "accept": [
+        "you"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "it ( they / you )",
+      "choices": [
+        "they",
+        "you"
+      ],
+      "accept": [
+        "they"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "they ( it / you )",
+      "choices": [
+        "it",
+        "you"
+      ],
+      "accept": [
+        "it"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "we ( I / you )",
+      "choices": [
+        "I",
+        "you"
+      ],
+      "accept": [
+        "I"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사가 단수형이면 복수형을, 복수형이면 단수형을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "they ( I / he )",
+      "choices": [
+        "I",
+        "he"
+      ],
+      "accept": [
+        "I"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "practiceId": "b1:u05:lesson01-jump",
+  "title": "Lesson 01 Jump — 인칭대명사",
+  "subtitle": "우리말 뜻·빈칸 · pp. 114–115",
+  "pages": "114–115",
+  "timerMinutes": 24,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 대명사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 밑줄 우리말 14문항, Section B 빈칸 14문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "<u>I</u> am happy.",
+      "accept": [
+        "나",
+        "나는"
+      ],
+      "promptKo": "나는 행복하다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "나"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "<u>You</u> are kind.",
+      "accept": [
+        "너",
+        "너는",
+        "당신",
+        "당신은"
+      ],
+      "promptKo": "친절하다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "<u>She</u> is hungry.",
+      "accept": [
+        "그녀",
+        "그녀는"
+      ],
+      "promptKo": "배고프다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "<u>He</u> is busy.",
+      "accept": [
+        "그",
+        "그는"
+      ],
+      "promptKo": "바쁘다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "<u>It</u> is cute.",
+      "accept": [
+        "그것",
+        "그것은"
+      ],
+      "promptKo": "귀엽다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "<u>We</u> are tall.",
+      "accept": [
+        "우리",
+        "우리는"
+      ],
+      "promptKo": "키가 크다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "<u>You</u> are students.",
+      "accept": [
+        "너희",
+        "너희는",
+        "당신들",
+        "당신들은"
+      ],
+      "promptKo": "학생이다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "<u>They</u> are handsome.",
+      "accept": [
+        "그들",
+        "그들은"
+      ],
+      "promptKo": "잘생겼다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "We eat <u>them</u>.",
+      "accept": [
+        "그것들",
+        "그것들을",
+        "그들",
+        "그들을"
+      ],
+      "promptKo": "우리는 ___ 먹는다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "The nurses like <u>her</u>.",
+      "accept": [
+        "그녀",
+        "그녀를"
+      ],
+      "promptKo": "그 간호사들은 ___ 좋아한다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "The children visit <u>him</u> every day.",
+      "accept": [
+        "그",
+        "그를"
+      ],
+      "promptKo": "그 아이들은 매일 ___ 찾아간다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Firefighters help <u>us</u>.",
+      "accept": [
+        "우리",
+        "우리를"
+      ],
+      "promptKo": "소방관들은 ___ 도와준다."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "The puppies love <u>me</u>.",
+      "accept": [
+        "나",
+        "나를"
+      ],
+      "promptKo": "그 강아지들은 ___ 대단히 좋아한다."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "The teachers know <u>them</u>.",
+      "accept": [
+        "그들",
+        "그들을"
+      ],
+      "promptKo": "그 선생님들은 ___ 알고 있다."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "The students have <u>them</u>.",
+      "accept": [
+        "그것들",
+        "그것들을",
+        "그들",
+        "그들을"
+      ],
+      "promptKo": "그 학생들은 ___ 가지고 있다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "They are big.",
+      "accept": [
+        "They"
+      ],
+      "promptKo": "그것들은 크다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "They"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "________ are students.",
+      "accept": [
+        "We"
+      ],
+      "promptKo": "우리는 학생이다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "________ are firefighters.",
+      "accept": [
+        "They"
+      ],
+      "promptKo": "그들은 소방관이다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "________ is a donkey.",
+      "accept": [
+        "It"
+      ],
+      "promptKo": "그것은 당나귀이다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "________ is a hairdresser.",
+      "accept": [
+        "She"
+      ],
+      "promptKo": "그녀는 미용사이다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "________ is a teacher.",
+      "accept": [
+        "He"
+      ],
+      "promptKo": "그는 선생님이다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "________ are brothers.",
+      "accept": [
+        "You"
+      ],
+      "promptKo": "너희는 형제이다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "They like ______.",
+      "accept": [
+        "me"
+      ],
+      "promptKo": "그들은 나를 좋아한다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "We love ______.",
+      "accept": [
+        "you"
+      ],
+      "promptKo": "우리는 너를 대단히 좋아한다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "I visit ______ every day.",
+      "accept": [
+        "her"
+      ],
+      "promptKo": "나는 그녀를 매일 찾아간다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "They know ______.",
+      "accept": [
+        "him"
+      ],
+      "promptKo": "그들은 그를 안다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "You have ______.",
+      "accept": [
+        "it"
+      ],
+      "promptKo": "너는 그것을 가지고 있다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "They teach ______.",
+      "accept": [
+        "us"
+      ],
+      "promptKo": "그들은 우리를 가르친다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "We help ______.",
+      "accept": [
+        "you"
+      ],
+      "promptKo": "우리는 너희를 도와준다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "You know ______.",
+      "accept": [
+        "them"
+      ],
+      "promptKo": "너희는 그들을 안다."
+    }
+  ]
+}

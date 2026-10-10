@@ -1,0 +1,648 @@
+{
+  "practiceId": "b1:u05:lesson02-run",
+  "title": "Lesson 02 Run — 소유격",
+  "subtitle": "소유격·소유대명사 · pp. 122–123",
+  "pages": "122–123",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 대명사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 14문항, Section B 14문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "It is ( my / me ) bag.",
+      "choices": [
+        "my",
+        "me"
+      ],
+      "accept": [
+        "my"
+      ],
+      "promptKo": "그것은 내 가방이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "my"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "It is ( you / your ) pencil.",
+      "choices": [
+        "you",
+        "your"
+      ],
+      "accept": [
+        "your"
+      ],
+      "promptKo": "그것은 네 연필이다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "She is ( his / him ) sister.",
+      "choices": [
+        "his",
+        "him"
+      ],
+      "accept": [
+        "his"
+      ],
+      "promptKo": "그녀는 그의 여동생이다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "I am ( her / hers ) student.",
+      "choices": [
+        "her",
+        "hers"
+      ],
+      "accept": [
+        "her"
+      ],
+      "promptKo": "나는 그녀의 학생이다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "We are ( their / them ) friends.",
+      "choices": [
+        "their",
+        "them"
+      ],
+      "accept": [
+        "their"
+      ],
+      "promptKo": "우리는 그들의 친구이다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "The house is ( us / ours ).",
+      "choices": [
+        "us",
+        "ours"
+      ],
+      "accept": [
+        "ours"
+      ],
+      "promptKo": "그 집은 우리 것이다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "The mobile phone is ( my / mine ).",
+      "choices": [
+        "my",
+        "mine"
+      ],
+      "accept": [
+        "mine"
+      ],
+      "promptKo": "그 휴대전화는 내 것이다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "The pants are ( her / hers ).",
+      "choices": [
+        "her",
+        "hers"
+      ],
+      "accept": [
+        "hers"
+      ],
+      "promptKo": "그 바지는 그녀의 것이다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "The book is ( yours / your ).",
+      "choices": [
+        "yours",
+        "your"
+      ],
+      "accept": [
+        "yours"
+      ],
+      "promptKo": "그 책은 네 것이다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "The umbrella is ( his / him ).",
+      "choices": [
+        "his",
+        "him"
+      ],
+      "accept": [
+        "his"
+      ],
+      "promptKo": "그 우산은 그의 것이다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "They are ( Tommy / Tommy's ) teachers.",
+      "choices": [
+        "Tommy",
+        "Tommy's"
+      ],
+      "accept": [
+        "Tommy's"
+      ],
+      "promptKo": "그들은 토미의 선생님이다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "You are ( Emily / Emily's ) friend.",
+      "choices": [
+        "Emily",
+        "Emily's"
+      ],
+      "accept": [
+        "Emily's"
+      ],
+      "promptKo": "너는 에밀리의 친구이다."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "It is my ( uncle / uncle's ) chair.",
+      "choices": [
+        "uncle",
+        "uncle's"
+      ],
+      "accept": [
+        "uncle's"
+      ],
+      "promptKo": "그것은 우리 삼촌의 의자이다."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "The car is my ( aunts / aunt's ).",
+      "choices": [
+        "aunts",
+        "aunt's"
+      ],
+      "accept": [
+        "aunt's"
+      ],
+      "promptKo": "그 차는 우리 고모의 것이다."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "The dog is my ( friends / friend's ).",
+      "choices": [
+        "friends",
+        "friend's"
+      ],
+      "accept": [
+        "friend's"
+      ],
+      "promptKo": "그 개는 내 친구의 것이다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "It is ______ room.",
+      "choices": [
+        "I",
+        "my"
+      ],
+      "accept": [
+        "my"
+      ],
+      "promptKo": "그것은 내 방이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "my"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "______ eyes are black.",
+      "choices": [
+        "It",
+        "Its"
+      ],
+      "accept": [
+        "Its"
+      ],
+      "promptKo": "그것의 눈은 검다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "He is ______ brother.",
+      "choices": [
+        "her",
+        "hers"
+      ],
+      "accept": [
+        "her"
+      ],
+      "promptKo": "그는 그녀의 남동생이다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "They are ______ books.",
+      "choices": [
+        "you",
+        "your"
+      ],
+      "accept": [
+        "your"
+      ],
+      "promptKo": "그것들은 네 책이다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "It is ______ school.",
+      "choices": [
+        "us",
+        "our"
+      ],
+      "accept": [
+        "our"
+      ],
+      "promptKo": "그것은 우리 학교이다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "The watch is ______.",
+      "choices": [
+        "him",
+        "his"
+      ],
+      "accept": [
+        "his"
+      ],
+      "promptKo": "그 손목시계는 그의 것이다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "The clothes are ______.",
+      "choices": [
+        "theirs",
+        "them"
+      ],
+      "accept": [
+        "theirs"
+      ],
+      "promptKo": "그 옷은 그들의 것이다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "The building is ______.",
+      "choices": [
+        "us",
+        "ours"
+      ],
+      "accept": [
+        "ours"
+      ],
+      "promptKo": "그 건물은 우리 것이다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "It is ______.",
+      "choices": [
+        "mine",
+        "my"
+      ],
+      "accept": [
+        "mine"
+      ],
+      "promptKo": "그것은 내 것이다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "The notebook is ______.",
+      "choices": [
+        "her",
+        "hers"
+      ],
+      "accept": [
+        "hers"
+      ],
+      "promptKo": "그 공책은 그녀의 것이다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "She is Mrs. ______ daughter.",
+      "choices": [
+        "Miller",
+        "Miller's"
+      ],
+      "accept": [
+        "Miller's"
+      ],
+      "promptKo": "그녀는 밀러 부인의 딸이다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "The cat is ______.",
+      "choices": [
+        "Minas",
+        "Mina's"
+      ],
+      "accept": [
+        "Mina's"
+      ],
+      "promptKo": "그 고양이는 미나의 것이다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "It is ______ car.",
+      "choices": [
+        "Jane's",
+        "Jane"
+      ],
+      "accept": [
+        "Jane's"
+      ],
+      "promptKo": "그것은 제인의 차이다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "The desk is ______.",
+      "choices": [
+        "Nate",
+        "Nate's"
+      ],
+      "accept": [
+        "Nate's"
+      ],
+      "promptKo": "그 책상은 네이트의 것이다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "She is ______ sister.",
+      "choices": [
+        "Mike's",
+        "Mike"
+      ],
+      "accept": [
+        "Mike's"
+      ],
+      "promptKo": "그녀는 마이크의 여동생이다."
+    }
+  ]
+}
