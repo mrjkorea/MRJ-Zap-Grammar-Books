@@ -6,7 +6,7 @@
     { id: "zap-red-1", title: "ZAP Red 1", enabled: false },
     { id: "zap-red-2", title: "ZAP Red 2", enabled: false },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
-    { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
+    { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
     { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
@@ -52,6 +52,9 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-2": [
+      { id: "unit-05", title: "Unit 05 — 수량을 나타내는 말", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +69,85 @@
   };
 
   var EXERCISES = {
+    "zap-blue-2:unit-05": [
+      {
+        slug: "lesson01-walk1",
+        title: "Lesson 01 Walk 1 — many / much",
+        hint: "many·much · p. 115",
+        data: "data/blue2/unit05/lesson01-walk1.json",
+        practiceId: "b2:u05:lesson01-walk1",
+      },
+      {
+        slug: "lesson01-walk2",
+        title: "Lesson 01 Walk 2 — a lot of / lots of",
+        hint: "a lot of·lots of · p. 117",
+        data: "data/blue2/unit05/lesson01-walk2.json",
+        practiceId: "b2:u05:lesson01-walk2",
+      },
+      {
+        slug: "lesson01-run",
+        title: "Lesson 01 Run",
+        hint: "Grammar Run · pp. 118–119",
+        data: "data/blue2/unit05/lesson01-run.json",
+        practiceId: "b2:u05:lesson01-run",
+      },
+      {
+        slug: "lesson01-jump",
+        title: "Lesson 01 Jump",
+        hint: "Grammar Jump · pp. 120–121",
+        data: "data/blue2/unit05/lesson01-jump.json",
+        practiceId: "b2:u05:lesson01-jump",
+      },
+      {
+        slug: "lesson01-fly",
+        title: "Lesson 01 Fly",
+        hint: "Grammar Fly · pp. 122–123",
+        data: "data/blue2/unit05/lesson01-fly.json",
+        practiceId: "b2:u05:lesson01-fly",
+      },
+      {
+        slug: "lesson02-walk1",
+        title: "Lesson 02 Walk 1 — a few / a little",
+        hint: "a few·a little · p. 125",
+        data: "data/blue2/unit05/lesson02-walk1.json",
+        practiceId: "b2:u05:lesson02-walk1",
+      },
+      {
+        slug: "lesson02-walk2",
+        title: "Lesson 02 Walk 2 — few / little",
+        hint: "few·little · p. 127",
+        data: "data/blue2/unit05/lesson02-walk2.json",
+        practiceId: "b2:u05:lesson02-walk2",
+      },
+      {
+        slug: "lesson02-run",
+        title: "Lesson 02 Run",
+        hint: "Grammar Run · pp. 128–129",
+        data: "data/blue2/unit05/lesson02-run.json",
+        practiceId: "b2:u05:lesson02-run",
+      },
+      {
+        slug: "lesson02-jump",
+        title: "Lesson 02 Jump",
+        hint: "Grammar Jump · pp. 130–131",
+        data: "data/blue2/unit05/lesson02-jump.json",
+        practiceId: "b2:u05:lesson02-jump",
+      },
+      {
+        slug: "lesson02-fly",
+        title: "Lesson 02 Fly",
+        hint: "Grammar Fly · pp. 132–133",
+        data: "data/blue2/unit05/lesson02-fly.json",
+        practiceId: "b2:u05:lesson02-fly",
+      },
+      {
+        slug: "review05",
+        title: "Review 05",
+        hint: "pp. 134–136",
+        data: "data/blue2/unit05/review-05.json",
+        practiceId: "b2:u05:review05",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",

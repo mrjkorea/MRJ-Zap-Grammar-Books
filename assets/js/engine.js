@@ -53,6 +53,25 @@
     return false;
   }
 
+  function permuteParts(parts) {
+    if (!parts || parts.length < 2) return [parts];
+    if (parts.length === 2) return [parts, [parts[1], parts[0]]];
+    var out = [];
+    function walk(cur, rest) {
+      if (!rest.length) {
+        out.push(cur);
+        return;
+      }
+      for (var i = 0; i < rest.length; i++) {
+        var next = rest.slice();
+        var pick = next.splice(i, 1)[0];
+        walk(cur.concat([pick]), next);
+      }
+    }
+    walk([], parts.slice());
+    return out;
+  }
+
   function gradeItem(item, response) {
     var type = item.type;
     if (type === "mc") {
@@ -70,6 +89,12 @@
       var blanks = item.blanks || 1;
       if (blanks > 1 && response.parts) {
         if (N.matchBlanks(response.parts, item.accept)) return true;
+        if (item.unordered) {
+          var tries = permuteParts(response.parts);
+          for (var pi = 0; pi < tries.length; pi++) {
+            if (N.matchBlanks(tries[pi], item.accept)) return true;
+          }
+        }
         if (N.matchAccept(response.parts.join(" "), item.accept)) return true;
         return false;
       }
