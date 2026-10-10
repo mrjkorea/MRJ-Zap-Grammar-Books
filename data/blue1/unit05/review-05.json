@@ -149,13 +149,13 @@
       "type": "mc",
       "promptEn": "1",
       "choices": [
-        "She is kind.",
-        "They like you.",
-        "Their are teachers.",
-        "Its eyes are brown."
+        "<u>She</u> is kind.",
+        "They like <u>you</u>.",
+        "<u>Their</u> are teachers.",
+        "<u>Its</u> eyes are brown."
       ],
       "accept": [
-        "Their are teachers.",
+        "<u>Their</u> are teachers.",
         "3"
       ],
       "promptKo": "밑줄 친 부분이 잘못된 것"
@@ -171,13 +171,13 @@
       "type": "mc",
       "promptEn": "2",
       "choices": [
-        "It is my bag.",
-        "It is him cap.",
-        "We love her.",
-        "It is their house."
+        "It is <u>my</u> bag.",
+        "It is <u>him</u> cap.",
+        "We love <u>her</u>.",
+        "It is <u>their</u> house."
       ],
       "accept": [
-        "It is him cap.",
+        "It is <u>him</u> cap.",
         "2"
       ],
       "promptKo": "밑줄 친 부분이 잘못된 것"
