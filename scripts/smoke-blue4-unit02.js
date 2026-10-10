@@ -78,6 +78,18 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
     const w = E.gradeItem(it, wrongFor(it));
     if (r && !w) ok++;
     else fail(where, it.id, "right/wrong", r, w);
+    if (!it.unordered && (it.blanks || 1) > 1) {
+      const canonical = it.accept.find((a) => a.includes("|"));
+      if (canonical) {
+        const parts = canonical.split("|");
+        if (parts.length >= 2) {
+          const rev = parts.slice().reverse();
+          if (rev.join("|") !== canonical && E.gradeItem(it, { parts: rev, value: rev.join(" ") })) {
+            fail(where, it.id, "reversed-order must fail", canonical);
+          }
+        }
+      }
+    }
   }
   if (d.sections) {
     for (const s of d.sections) {
