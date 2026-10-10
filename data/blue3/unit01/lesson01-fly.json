@@ -1,0 +1,578 @@
+{
+  "practiceId": "b3:u01:lesson01-fly",
+  "title": "Lesson 01 Fly — 조동사 can",
+  "subtitle": "고치기 · can 배열 (pp. 19–20)",
+  "pages": "19–20",
+  "timerMinutes": 26,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 조동사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 14문항(고치기), Section B 14문항(can 배열). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "can과 주어진 말로 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "They can <u>speaks</u> English well.",
+      "accept": [
+        "speak"
+      ],
+      "promptKo": "그들은 영어를 잘 말할 수 있다.",
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "speak"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "The police officer <u>cans run</u> very fast.",
+      "accept": [
+        "can|run"
+      ],
+      "promptKo": "그 경찰관은 매우 빨리 달릴 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "<u>Do can you</u> swim across the river?",
+      "accept": [
+        "Can you"
+      ],
+      "promptKo": "너는 그 강을 가로질러 수영할 수 있니?",
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "He <u>not can</u> lift the rock.",
+      "accept": [
+        "cannot",
+        "can't",
+        "can not"
+      ],
+      "promptKo": "그는 그 바위를 들어 올리지 못한다.",
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Dad <u>doesn't can</u> cook chicken soup.",
+      "accept": [
+        "can't",
+        "cannot",
+        "can not"
+      ],
+      "promptKo": "아빠는 닭고기 수프를 요리하지 못하신다.",
+      "blanks": 1
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "We cannot <u>seeing</u> wind.",
+      "accept": [
+        "see"
+      ],
+      "promptKo": "우리는 바람을 볼 수 없다.",
+      "blanks": 1
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Snakes <u>don't can</u> hear.",
+      "accept": [
+        "can't",
+        "cannot",
+        "can not"
+      ],
+      "promptKo": "뱀은 듣지 못한다.",
+      "blanks": 1
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "She <u>make can</u> a kite.",
+      "accept": [
+        "can|make"
+      ],
+      "promptKo": "그녀는 연을 만들 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The little girl can <u>feeds</u> the cow.",
+      "accept": [
+        "feed"
+      ],
+      "promptKo": "그 어린 여자아이는 그 소에게 먹이를 줄 수 있다.",
+      "blanks": 1
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "<u>Are you can</u> read a map?",
+      "accept": [
+        "Can you"
+      ],
+      "promptKo": "너는 지도를 읽을 수 있니?",
+      "blanks": 1
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "My brother can <u>go not</u> to school alone.",
+      "accept": [
+        "cannot go",
+        "can't go",
+        "can not go"
+      ],
+      "promptKo": "내 남동생은 학교에 혼자 다니지 못한다.",
+      "blanks": 1
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Koalas can <u>live not</u> in the jungle.",
+      "accept": [
+        "cannot live",
+        "can't live",
+        "can not live"
+      ],
+      "promptKo": "코알라는 정글에서 살지 못한다.",
+      "blanks": 1
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Can Tom ride a bike? / No, Tom can.",
+      "accept": [
+        "can't",
+        "cannot",
+        "can not"
+      ],
+      "promptKo": "톰은 자전거를 탈 수 있니? / 아니, 못해.",
+      "blanks": 1
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Can Ms. Sawyer use chopsticks? / Yes, she do.",
+      "accept": [
+        "can"
+      ],
+      "promptKo": "소여 씨는 젓가락을 사용할 수 있니? / 응, 할 수 있어.",
+      "blanks": 1
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장 또는 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Can you fix the bell? / Yes, I am.",
+      "accept": [
+        "can"
+      ],
+      "promptKo": "너는 그 종을 고칠 수 있니? / 응, 할 수 있어.",
+      "blanks": 1
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "We ______ ______ in winter. ( ski )",
+      "accept": [
+        "can|ski"
+      ],
+      "promptKo": "우리는 겨울에 스키를 탈 수 있다.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "can / ski"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Mr. Page ______ ______ the drums. ( not, play )",
+      "accept": [
+        "can't|play",
+        "cannot|play",
+        "can not|play"
+      ],
+      "promptKo": "페이지 씨는 드럼을 못 친다.",
+      "blanks": 2
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "______ ______ ______ well? ( you, draw )",
+      "accept": [
+        "Can|you|draw"
+      ],
+      "promptKo": "너는 그림을 잘 그릴 수 있니?",
+      "blanks": 3
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Adam ______ ______ the snakes. ( touch )",
+      "accept": [
+        "can|touch"
+      ],
+      "promptKo": "아담은 그 뱀들을 만질 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Gorillas ______ ______ . ( not, swim )",
+      "accept": [
+        "can't|swim",
+        "cannot|swim",
+        "can not|swim"
+      ],
+      "promptKo": "고릴라는 수영을 못한다.",
+      "blanks": 2
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "______ ______ ______ this table? ( she, move )",
+      "accept": [
+        "Can|she|move"
+      ],
+      "promptKo": "그녀가 이 탁자를 옮길 수 있니?",
+      "blanks": 3
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "Many spiders ______ ______ webs. ( make )",
+      "accept": [
+        "can|make"
+      ],
+      "promptKo": "많은 거미들이 거미집을 만들 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "I ______ ______ spaghetti. ( cook )",
+      "accept": [
+        "can|cook"
+      ],
+      "promptKo": "나는 스파게티를 요리할 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "______ ______ ______ Korean? ( he, speak )",
+      "accept": [
+        "Can|he|speak"
+      ],
+      "promptKo": "그는 한국어를 말할 수 있니?",
+      "blanks": 3
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "My dog ______ ______ a ball. ( catch )",
+      "accept": [
+        "can|catch"
+      ],
+      "promptKo": "우리 개는 공을 잡을 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "They ______ ______ a model airplane. ( not, fly )",
+      "accept": [
+        "can't|fly",
+        "cannot|fly",
+        "can not|fly"
+      ],
+      "promptKo": "그들은 모형 비행기를 날리지 못한다.",
+      "blanks": 2
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "______ ______ ______ basketball? ( you, play )",
+      "accept": [
+        "Can|you|play"
+      ],
+      "promptKo": "너희는 농구를 할 수 있니?",
+      "blanks": 3
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "He ______ ______ taekwondo. ( teach )",
+      "accept": [
+        "can|teach"
+      ],
+      "promptKo": "그는 태권도를 가르칠 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "My father ______ ______ the computer. ( not, fix )",
+      "accept": [
+        "can't|fix",
+        "cannot|fix",
+        "can not|fix"
+      ],
+      "promptKo": "우리 아버지는 그 컴퓨터를 못 고치신다.",
+      "blanks": 2
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "______ ______ ______ cucumbers? ( they, eat )",
+      "accept": [
+        "Can|they|eat"
+      ],
+      "promptKo": "그들은 오이를 먹을 수 있니?",
+      "blanks": 3
+    }
+  ]
+}
