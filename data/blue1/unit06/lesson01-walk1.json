@@ -1,0 +1,370 @@
+{
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 대명사 (2)",
+  "practiceId": "b1:u06:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 명사와 대명사의 일치",
+  "subtitle": "p. 135",
+  "pages": "135",
+  "timerMinutes": 10,
+  "sectionsVersion": 2,
+  "introKo": "Section A 표 13칸, Section B 고르기 5문항입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 13,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "B 다음 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "Mike · 소유격 (①)",
+      "accept": [
+        "his",
+        "his"
+      ],
+      "promptKo": "마이크 — 소유격"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "Mike · 목적격 (②)",
+      "accept": [
+        "him",
+        "him"
+      ],
+      "promptKo": "마이크 — 목적격"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "my mother · 주격 (③)",
+      "accept": [
+        "she",
+        "she"
+      ],
+      "promptKo": "my mother — 주격"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "my mother · 목적격 (④)",
+      "accept": [
+        "her",
+        "her"
+      ],
+      "promptKo": "my mother — 목적격"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "your friends · 주격 (⑤)",
+      "accept": [
+        "they",
+        "they"
+      ],
+      "promptKo": "your friends — 주격"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "6",
+      "type": "fill",
+      "promptEn": "your friends · 목적격 (⑥)",
+      "accept": [
+        "them",
+        "them"
+      ],
+      "promptKo": "your friends — 목적격"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "7",
+      "type": "fill",
+      "promptEn": "the pen · 소유격 (⑦)",
+      "accept": [
+        "its",
+        "its"
+      ],
+      "promptKo": "the pen — 소유격"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "8",
+      "type": "fill",
+      "promptEn": "the pen · 목적격 (⑧)",
+      "accept": [
+        "it",
+        "it"
+      ],
+      "promptKo": "the pen — 목적격"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "9",
+      "type": "fill",
+      "promptEn": "the pens · 소유격 (⑨)",
+      "accept": [
+        "their",
+        "their"
+      ],
+      "promptKo": "the pens — 소유격"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "10",
+      "type": "fill",
+      "promptEn": "the pens · 목적격 (⑩)",
+      "accept": [
+        "them",
+        "them"
+      ],
+      "promptKo": "the pens — 목적격"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "11",
+      "type": "fill",
+      "promptEn": "his dog · 주격 (⑪)",
+      "accept": [
+        "it",
+        "it"
+      ],
+      "promptKo": "his dog — 주격"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "12",
+      "type": "fill",
+      "promptEn": "his dogs · 소유격 (⑫)",
+      "accept": [
+        "their",
+        "their"
+      ],
+      "promptKo": "his dogs — 소유격"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 명사를 대명사로 대신할 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "13",
+      "type": "fill",
+      "promptEn": "his dogs · 목적격 (⑬)",
+      "accept": [
+        "them",
+        "them"
+      ],
+      "promptKo": "his dogs — 목적격"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "<u>The man</u> is handsome.",
+      "choices": [
+        "He",
+        "She"
+      ],
+      "accept": [
+        "He",
+        "1"
+      ],
+      "promptKo": "그 남자는 잘생겼다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "I know <u>the girl</u>.",
+      "choices": [
+        "she",
+        "her"
+      ],
+      "accept": [
+        "her",
+        "2"
+      ],
+      "promptKo": "나는 그 여자아이를 안다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "I have <u>a computer</u>.",
+      "choices": [
+        "it",
+        "its"
+      ],
+      "accept": [
+        "it",
+        "1"
+      ],
+      "promptKo": "나는 컴퓨터를 한 대 가지고 있다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "I help <u>my neighbors</u>.",
+      "choices": [
+        "their",
+        "them"
+      ],
+      "accept": [
+        "them",
+        "2"
+      ],
+      "promptKo": "나는 내 이웃들을 도와준다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "I like <u>the candies</u>.",
+      "choices": [
+        "their",
+        "them"
+      ],
+      "accept": [
+        "them",
+        "2"
+      ],
+      "promptKo": "나는 그 사탕을 좋아한다."
+    }
+  ]
+}

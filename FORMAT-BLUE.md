@@ -2,6 +2,11 @@
 
 Blue books (Grammar, Zap! **기본**) teach **grammar concepts** in three lessons per unit, with **multiple Grammar Walk pages per lesson**, a **Review** spread, and a **Wrap Up** summary. There is **no** Grammar Run / Jump / Fly / Writing / Unit Test / Check Up sequence from Green.
 
+## Unit format varies by unit
+
+- **Unit 01:** three lessons, **Grammar Walk only** + Review (no Run/Jump/Fly). See table below.
+- **Unit 06:** two lessons, **Walk + Run + Jump + Fly** per lesson + Review 06 (like Green lesson arc). See [docs/format/blue1-unit06.md](docs/format/blue1-unit06.md).
+
 ## Unit 01 page map (PDF page = file `pNNNN.png`; printed page ≈ PDF−1)
 
 | PDF | Printed | Type | In app? |
