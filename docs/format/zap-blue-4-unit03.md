@@ -56,6 +56,7 @@ Blue 4 grammar units use **Walk + Run + Jump + Fly** per lesson (two lessons in 
 
 - **Lesson 01 Fly A11** (`He not going…`): accepted `He is not` / `He's not` — book may expect full sentence rewrite; keyed to corrected subject+be fragment only.
 - **Lesson 02 Fly A4–A6**: dialogue B-line fixes (`is`, `aren't`, `No`) — only the underlined token is graded, not the full reply.
+- **Lesson 02 Fly A10**: three printed boxes → ordered `going|to|run`.
 - **Review 16**: two blanks both `am` (common be-verb).
 - **Printed typos in source**: `Christamas` (p. 63), `Miso` vs `Miso` in run item 2, `Gotsby`/`Gatsby` on p. 77 — prompts follow the book.
 - Answer key pages (book pp. 14–21) were not in the zip; answers derived from grammar rules and self-audit against page images.
