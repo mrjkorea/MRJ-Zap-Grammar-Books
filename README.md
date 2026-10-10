@@ -27,6 +27,8 @@ Static files are served from the **repository root** (`index.html`, `assets/`, `
 - `introKo` — one-line Korean summary on the practice start screen.
 - Every item: `section`, `sectionTitle`, `sectionInstructionKo`, `answerMode`, `answerModeTag`, `label` (book numbering: A1, B3, 18, 1-4, …), optional `noteKo`.
 - Book examples (answer printed in the book): `example: true`, `displayOnly: true`, `exampleAnswer` — shown as grey cards, **not graded**.
+- **Multi-blank items:** `blanks: N` (N ≥ 2) with `accept` entries using `|` between blank answers (e.g. `"Do|Does"`). Each printed blank box = one part in `response.parts`.
+- **`unordered: true`** (optional): when the book expects **two or more separate answers** and **any order** is correct (e.g. circle every noun in “Tom is a student.” → `Tom` and `student`). Set `blanks` to the answer count, list one pipe tuple in `accept` (e.g. `"Tom|student"`); the engine accepts any permutation. Students must fill **all** blanks; a single correct word is **not** enough. Do not use for ordered slots (sentence building, wrap-up tables with fixed slots) or for “pick one of” synonym lists on a single blank.
 - Item ids are section-based (`a01`, `b01`, unit-test `q01`–`q25`, wrap `w1_1`, checkup `c01`, …). `practiceId` values are unchanged (`u01:*`, `g3:u01:*`).
 
 ### GreenZap 1 — Unit 01 sections (graded counts)
@@ -157,6 +159,9 @@ node scripts/smoke-unit-test.js
 node scripts/smoke-green3-unit01.js
 node scripts/smoke-app-sections.js
 node scripts/smoke-review.js
+node scripts/smoke-unordered.js   # unordered multi-blank grading
+node scripts/smoke-blue1-unit01.js
+node scripts/e2e-bz1-browser.js
 node scripts/e2e-gz1-browser.js     # headless browser (needs: npm install playwright)
 node scripts/e2e-gz2-browser.js
 node scripts/e2e-gz3-browser.js

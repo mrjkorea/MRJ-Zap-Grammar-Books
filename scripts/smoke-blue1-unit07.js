@@ -89,6 +89,13 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
         console.log("ACCEPT-FAIL", f, it.id, acc);
       }
     }
+    if ((it.blanks || 1) > 1 && !it.unordered && (it.accept[0] || "").includes("|")) {
+      const rev = it.accept[0].split("|").reverse();
+      if (E.gradeItem(it, { parts: rev, value: rev.join(" ") })) {
+        bad++;
+        console.log("REVERSE-PASS", f, it.id);
+      }
+    }
   }
   console.log(f.padEnd(24), (d.practiceId || "").padEnd(26), "items", d.items.length, "ok", ok, "timer", d.timerMinutes);
 }

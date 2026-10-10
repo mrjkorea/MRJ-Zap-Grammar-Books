@@ -97,7 +97,6 @@
       "type": "fill",
       "promptEn": "My father <u>are</u> a teacher.",
       "accept": [
-        "is",
         "is"
       ],
       "blanks": 1
@@ -113,7 +112,6 @@
       "type": "fill",
       "promptEn": "They <u>is</u> in the kitchen.",
       "accept": [
-        "are",
         "are"
       ],
       "blanks": 1
@@ -129,7 +127,6 @@
       "type": "fill",
       "promptEn": "These <u>is</u> balls.",
       "accept": [
-        "are",
         "are"
       ],
       "blanks": 1
@@ -145,7 +142,6 @@
       "type": "fill",
       "promptEn": "Harry <u>are</u> very tall.",
       "accept": [
-        "is",
         "is"
       ],
       "blanks": 1
@@ -161,7 +157,6 @@
       "type": "fill",
       "promptEn": "We <u>is</u> soccer players.",
       "accept": [
-        "are",
         "are"
       ],
       "blanks": 1
@@ -177,7 +172,6 @@
       "type": "fill",
       "promptEn": "This <u>are</u> my mother.",
       "accept": [
-        "is",
         "is"
       ],
       "blanks": 1
@@ -193,7 +187,6 @@
       "type": "fill",
       "promptEn": "The cats <u>is</u> in the room.",
       "accept": [
-        "are",
         "are"
       ],
       "blanks": 1
@@ -257,10 +250,10 @@
       "type": "fill",
       "promptEn": "This'<u>s</u> my chair.",
       "accept": [
-        "This is",
-        "this is"
+        "This|is",
+        "this|is"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "a13",

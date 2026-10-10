@@ -147,7 +147,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "1",
       "type": "mc",
-      "promptEn": "Choose the sentence with the incorrectly underlined be verb.",
+      "promptEn": "",
       "choices": [
         "I <u>am</u> Korean.",
         "You <u>are</u> kind.",
@@ -450,7 +450,7 @@
       "answerModeTag": "Sentence · 문장 전체",
       "label": "16",
       "type": "sentence",
-      "promptEn": "I <u>am</u> from Korea.",
+      "promptEn": "<u>I am</u> from Korea.",
       "accept": [
         "I'm from Korea.",
         "I'm from Korea"
@@ -501,12 +501,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "19",
       "type": "fill",
-      "promptEn": "The girl ______ my classmate.",
+      "promptEn": "The girl ______ ______ my classmate.",
       "accept": [
-        "isn't",
-        "is not"
+        "is|not"
       ],
-      "blanks": 1,
+      "blanks": 2,
       "promptKo": "그 여자아이는 우리 반 친구가 아니다."
     },
     {
@@ -518,12 +517,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "20",
       "type": "fill",
-      "promptEn": "These shoes ______ my mom's.",
+      "promptEn": "These shoes ______ ______ my mom's.",
       "accept": [
-        "aren't",
-        "are not"
+        "are|not"
       ],
-      "blanks": 1,
+      "blanks": 2,
       "promptKo": "이 신발은 우리 엄마의 것이 아니다."
     }
   ]
