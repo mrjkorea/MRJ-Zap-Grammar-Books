@@ -1,0 +1,567 @@
+{
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — be동사의 현재 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "b1:u07:lesson03-fly",
+  "title": "Lesson 03 Fly — be동사의 부정문",
+  "subtitle": "고치기·부정문 (pp. 178–179)",
+  "pages": "178–179",
+  "timerMinutes": 28,
+  "introKo": "Section A는 밑줄 고치기(1–10은 be+not 두 칸), Section B는 줄임 부정문 전체입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "directionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I <u>not am</u> a student.",
+      "accept": [
+        "am|not"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am|not",
+      "unordered": true
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You <u>is not</u> my sister.",
+      "accept": [
+        "are|not"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Paul <u>are not</u> tall.",
+      "accept": [
+        "is|not"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "It <u>not is</u> my room.",
+      "accept": [
+        "is|not"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "This <u>are not</u> his house.",
+      "accept": [
+        "is|not"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "We <u>is not</u> children.",
+      "accept": [
+        "are|not"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "The door <u>are not</u> dirty.",
+      "accept": [
+        "is|not"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "They <u>not are</u> my aunts.",
+      "accept": [
+        "are|not"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "That <u>are not</u> my house.",
+      "accept": [
+        "is|not"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "These <u>is not</u> your pants.",
+      "accept": [
+        "are|not"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "She <u>aren't</u> my mother.",
+      "accept": [
+        "isn't"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "The girls <u>isn't</u> my friends.",
+      "accept": [
+        "aren't"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "He <u>aren't</u> hungry.",
+      "accept": [
+        "isn't"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "The shoes <u>isn't</u> dirty.",
+      "accept": [
+        "aren't"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "That <u>aren't</u> my book.",
+      "accept": [
+        "isn't"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "You are ugly.",
+      "accept": [
+        "You aren't ugly.",
+        "You aren't ugly"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "You aren't ugly."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "I am her sister.",
+      "accept": [
+        "I'm not her sister.",
+        "I'm not her sister."
+      ],
+      "blanks": 1,
+      "promptKo": "나는 그녀의 여동생이 아니다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "This is a vegetable.",
+      "accept": [
+        "This isn't a vegetable.",
+        "This is not a vegetable."
+      ],
+      "blanks": 1,
+      "promptKo": "이것은 채소가 아니다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "Jenny and Tom are singers.",
+      "accept": [
+        "Jenny and Tom aren't singers.",
+        "Jenny and Tom are not singers."
+      ],
+      "blanks": 1,
+      "promptKo": "제니와 톰은 가수가 아니다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "We are his students.",
+      "accept": [
+        "We aren't his students.",
+        "We are not his students."
+      ],
+      "blanks": 1,
+      "promptKo": "우리는 그의 학생들이 아니다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "These are her books.",
+      "accept": [
+        "These aren't her books.",
+        "These are not her books."
+      ],
+      "blanks": 1,
+      "promptKo": "이것들은 그녀의 책들이 아니다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "The iguanas are theirs.",
+      "accept": [
+        "The iguanas aren't theirs.",
+        "The iguanas are not theirs."
+      ],
+      "blanks": 1,
+      "promptKo": "이구아나들은 그들의 것이 아니다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "He is handsome.",
+      "accept": [
+        "He isn't handsome.",
+        "He is not handsome."
+      ],
+      "blanks": 1,
+      "promptKo": "그는 잘생기지 않다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "That is my chair.",
+      "accept": [
+        "That isn't my chair.",
+        "That is not my chair."
+      ],
+      "blanks": 1,
+      "promptKo": "저것은 내 의자가 아니다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "The house is ours.",
+      "accept": [
+        "The house isn't ours.",
+        "The house is not ours."
+      ],
+      "blanks": 1,
+      "promptKo": "그 집은 우리의 것이 아니다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "Those are her pens.",
+      "accept": [
+        "Those aren't her pens.",
+        "Those are not her pens."
+      ],
+      "blanks": 1,
+      "promptKo": "저것들은 그녀의 펜들이 아니다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "The bears are big.",
+      "accept": [
+        "The bears aren't big.",
+        "The bears are not big."
+      ],
+      "blanks": 1,
+      "promptKo": "그 곰들은 크지 않다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B13",
+      "type": "sentence",
+      "promptEn": "They are my parents.",
+      "accept": [
+        "They aren't my parents.",
+        "They are not my parents."
+      ],
+      "blanks": 1,
+      "promptKo": "그들은 내 부모님이 아니다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B14",
+      "type": "sentence",
+      "promptEn": "She is kind.",
+      "accept": [
+        "She isn't kind.",
+        "She is not kind."
+      ],
+      "blanks": 1,
+      "promptKo": "그녀는 친절하지 않다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 줄임말을 사용하여 부정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B15",
+      "type": "sentence",
+      "promptEn": "The pears are delicious.",
+      "accept": [
+        "The pears aren't delicious.",
+        "The pears are not delicious."
+      ],
+      "blanks": 1,
+      "promptKo": "그 배들은 맛있지 않다."
+    }
+  ]
+}

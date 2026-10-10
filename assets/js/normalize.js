@@ -155,6 +155,29 @@
     return false;
   }
 
+  function permute(arr) {
+    if (arr.length <= 1) return [arr];
+    var out = [];
+    for (var i = 0; i < arr.length; i++) {
+      var rest = arr.slice(0, i).concat(arr.slice(i + 1));
+      permute(rest).forEach(function (p) {
+        out.push([arr[i]].concat(p));
+      });
+    }
+    return out;
+  }
+
+  /** Multi-blank with any blank order when accept uses | between parts */
+  function matchBlanksUnordered(users, acceptList) {
+    users = users || [];
+    if (!acceptList || !acceptList.length || users.length < 2) return false;
+    var perms = permute(users);
+    for (var p = 0; p < perms.length; p++) {
+      if (matchBlanks(perms[p], acceptList)) return true;
+    }
+    return false;
+  }
+
   function matchMc(choiceValue, accept) {
     var list = Array.isArray(accept) ? accept : [accept];
     for (var i = 0; i < list.length; i++) {
@@ -178,6 +201,7 @@
     normalizePhrase: normalizePhrase,
     matchAccept: matchAccept,
     matchBlanks: matchBlanks,
+    matchBlanksUnordered: matchBlanksUnordered,
     matchMc: matchMc,
   };
 })(window);
