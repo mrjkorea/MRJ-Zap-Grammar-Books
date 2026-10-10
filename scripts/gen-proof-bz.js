@@ -4,8 +4,31 @@ const path = require("path");
 const vm = require("vm");
 
 const REPO = path.join(__dirname, "..");
-const BUILD = "20261010-blue-full";
+const BUILD = fs.existsSync(path.join(REPO, "assets/js/version.js"))
+  ? (() => {
+      const v = fs.readFileSync(path.join(REPO, "assets/js/version.js"), "utf8");
+      const m = v.match(/MRJ_ZAP_BUILD\s*=\s*"([^"]+)"/);
+      return m ? m[1] : "20261010-blue-full";
+    })()
+  : "20261010-blue-full";
 const BASE = "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books";
+
+const e2eResultsPath = path.join(REPO, "scripts/e2e-bz-results.json");
+let e2eData = { practices: {}, books: {} };
+if (fs.existsSync(e2eResultsPath)) {
+  e2eData = JSON.parse(fs.readFileSync(e2eResultsPath, "utf8"));
+}
+
+function e2eCell(practiceId, bookN) {
+  const p = e2eData.practices[practiceId];
+  if (p?.e2e === "OK") {
+    return p.wrongReview === "OK" ? "OK+review" : p.wrongReview === "FAIL" ? "OK/review FAIL" : "OK";
+  }
+  if (p?.e2e === "FAIL") return "FAIL";
+  const b = e2eData.books[String(bookN)];
+  if (b?.passed) return "—";
+  return "pending";
+}
 
 const AUDIT = {
   1: {
@@ -74,8 +97,9 @@ for (let n = 1; n <= 4; n++) {
       items += graded;
       const link = `${BASE}/#/p/${bookId}/${unit.id}/${ex.slug}`;
       const audit = AUDIT[n][unit.id] || "Independent audit";
+      const e2e = e2eCell(ex.practiceId, n);
       rows.push(
-        `| Blue ${n} | ${unit.title} | ${ex.title} | ${d.pages || ex.hint || "—"} | ${graded} | OK | OK | ${audit} | ${link} |`
+        `| Blue ${n} | ${unit.title} | ${ex.title} | ${d.pages || ex.hint || "—"} | ${graded} | OK | ${e2e} | ${audit} | ${link} |`
       );
     }
   }
@@ -94,6 +118,18 @@ Build: \`${BUILD}\`
 ${bookTotals.map((b) => `| BlueZap ${b.n} | ${b.practices} | ${b.items} |`).join("\n")}
 | **All Blue** | **${bookTotals.reduce((s, b) => s + b.practices, 0)}** | **${bookTotals.reduce((s, b) => s + b.items, 0)}** |
 
+## E2E browser (Playwright)
+
+| Book | Practices @ 100% | Wrong-review units | Run |
+|------|------------------|--------------------|-----|
+${[1, 2, 3, 4]
+  .map((n) => {
+    const b = e2eData.books[String(n)];
+    if (!b) return `| BlueZap ${n} | — | — | pending |`;
+    return `| BlueZap ${n} | ${b.passed}/${b.total} | ${b.wrongReviewUnits}/8 | ${b.at || "OK"} |`;
+  })
+  .join("\n")}
+
 ## Practice matrix
 
 | Book | Unit | Practice | Pages | Graded | Smoke | E2E | Audit | Live link |
@@ -109,7 +145,10 @@ node scripts/smoke-blue2-all.js
 node scripts/smoke-blue3-all.js
 node scripts/smoke-blue4-all.js
 node scripts/smoke-unordered.js
-node scripts/e2e-bz-browser.js
+node scripts/e2e-bz-book.js 2
+node scripts/e2e-bz-book.js 3
+node scripts/e2e-bz-book.js 4
+node scripts/e2e-bz-browser.js all
 \`\`\`
 
 Unit PRs #47–#77 were merged via this integration branch (not individually merged to main).
