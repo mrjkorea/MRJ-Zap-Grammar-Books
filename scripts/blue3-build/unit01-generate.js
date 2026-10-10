@@ -860,53 +860,65 @@ function write(name, data) {
   const instrB =
     "be able to와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)";
   const fixA = [
-    { p: ul("I can able to swim in the sea.", "can"), a: ["am"], b: 1 },
-    { p: ul("He is able play the violin.", "play"), a: ["to play"], b: 1 },
-    { p: ul("I cannot able to boil an egg.", "cannot"), a: ["am not"], b: 1 },
-    { p: ul("She able is to play the guitar.", "able is"), a: ["is able"], b: 1 },
-    { p: ul("Dad does not able to drink coffee.", "does not"), a: ["is not"], b: 1 },
-    { p: ul("Helen able to ride a skateboard.", "Helen able"), a: ["is able"], b: 1 },
-    { p: ul("Amy is able to making a pinwheel.", "making"), a: ["make"], b: 1 },
-    { p: ul("A fish does not able to close its eyes.", "does not"), a: ["is not"], b: 1 },
-    { p: ul("My dog is able to opens the door.", "opens"), a: ["open"], b: 1 },
-    { p: ul("The girls isn't able to go up the ladder.", "isn't"), a: ["aren't"], b: 1 },
-    { p: ul("A: Is able Eric to draw a horse? B: Yes, he is.", "Is able Eric"), a: ["Is Eric able"], b: 1 },
-    { p: "A: Do you able to count salt? B: No, I'm not.", a: ["Are"], b: 1 },
-    { p: "A: Can Sally able to speak French? B: No, she isn't.", a: ["Is"], b: 1 },
-    { p: "A: Be they able to play tennis? B: No, they aren't.", a: ["Are"], b: 1 },
-    { p: "A: Do you able to jump the fence? B: Yes, I am.", a: ["Are"], b: 1 },
+    { p: ul("I can able to swim in the sea.", "can"), a: ["am"], b: 1, ko: "나는 바다에서 수영할 수 있다." },
+    { p: ul("He is able play the violin.", "play"), a: ["to play"], b: 1, ko: "그는 바이올린을 칠 수 있다." },
+    { p: ul("I cannot able to boil an egg.", "cannot"), a: ["am not"], b: 1, ko: "나는 달걀을 삶지 못한다." },
+    { p: ul("She able is to play the guitar.", "able is"), a: ["is able"], b: 1, ko: "그녀는 기타를 칠 수 있다." },
+    { p: ul("Dad does not able to drink coffee.", "does not"), a: ["is not"], b: 1, ko: "아빠는 커피를 마시지 못한다." },
+    { p: ul("Helen able to ride a skateboard.", "Helen able"), a: ["is able"], b: 1, ko: "헬렌은 스케이트보드를 탈 수 있다." },
+    { p: ul("Amy is able to making a pinwheel.", "making"), a: ["make"], b: 1, ko: "에이미는 바람개비를 만들 수 있다." },
+    { p: ul("A fish does not able to close its eyes.", "does not"), a: ["is not"], b: 1, ko: "물고기는 눈을 감지 못한다." },
+    { p: ul("My dog is able to opens the door.", "opens"), a: ["open"], b: 1, ko: "우리 개는 문을 열 수 있다." },
+    { p: ul("The girls isn't able to go up the ladder.", "isn't"), a: ["aren't"], b: 1, ko: "그 여자아이들은 사다리를 올라가지 못한다." },
+    { p: ul("A: Is able Eric to draw a horse? B: Yes, he is.", "Is able Eric"), a: ["Is Eric able"], b: 1, ko: "에릭이 말을 그릴 수 있니? / 응, 할 수 있어." },
+    { p: "A: Do you able to count salt? B: No, I'm not.", a: ["Are"], b: 1, ko: "너는 소금을 셀 수 있니? / 아니, 못해." },
+    { p: "A: Can Sally able to speak French? B: No, she isn't.", a: ["Is"], b: 1, ko: "샐리가 프랑스어를 말할 수 있니? / 아니, 못해." },
+    { p: "A: Be they able to play tennis? B: No, they aren't.", a: ["Are"], b: 1, ko: "그들이 테니스를 할 수 있니? / 아니, 못해." },
+    { p: "A: Do you able to jump the fence? B: Yes, I am.", a: ["Are"], b: 1, ko: "너는 울타리를 뛰어넘을 수 있니? / 응, 할 수 있어." },
   ];
   const items = [
-    exItem(fillItem("a01", "A", "A1", fixA[0].p, fixA[0].a, { sectionInstructionKo: instrA, blanks: 1 }), "am"),
+    exItem(
+      fillItem("a01", "A", "A1", fixA[0].p, fixA[0].a, {
+        sectionInstructionKo: instrA,
+        blanks: 1,
+        promptKo: fixA[0].ko,
+      }),
+      "am"
+    ),
   ];
   fixA.slice(1).forEach((r, i) => {
     items.push(
       fillItem("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), r.p, r.a, {
         sectionInstructionKo: instrA,
         blanks: r.b,
+        promptKo: r.ko,
       })
     );
   });
   const bankB = [
-    { p: "Hans ______ ______ ______ the problem. ( solve )", a: ["is|able|to|solve"], b: 4 },
-    { p: "She ______ ______ ______ down the tree. ( not, cut )", a: ["is|not|able|to|cut", "isn't|able|to|cut"], b: 5 },
-    { p: "______ ______ ______ ? ( knit )", a: ["Are|you|able|to|knit"], b: 4 },
-    { p: "The boy ______ ______ ______ an orange. ( peel )", a: ["is|able|to|peel"], b: 4 },
-    { p: "I ______ ______ ______ computer games. ( not, play )", a: ["am|not|able|to|play"], b: 5 },
-    { p: "______ ______ ______ yoga? ( teach, she )", a: ["Is|she|able|to|teach"], b: 4 },
-    { p: "My sister ______ ______ ______ gimchi. ( make )", a: ["is|able|to|make"], b: 4 },
-    { p: "My grandfather ______ ______ ______ a car. ( not, drive )", a: ["is|not|able|to|drive", "isn't|able|to|drive"], b: 5 },
-    { p: "______ ______ ______ his ball? ( catch, you )", a: ["Are|you|able|to|catch"], b: 4 },
-    { p: "Chris ______ ______ ______ a sandcastle. ( build )", a: ["is|able|to|build"], b: 4 },
-    { p: "Dogs ______ ______ ______ up trees. ( not, climb )", a: ["are|not|able|to|climb", "aren't|able|to|climb"], b: 5 },
-    { p: "______ ______ ______ pictures? ( take, they )", a: ["Are|they|able|to|take"], b: 4 },
-    { p: "The elephant ______ ______ ______ the apple. ( pick )", a: ["is|able|to|pick"], b: 4 },
-    { p: "Kelly ______ ______ ______ Korean. ( not, read )", a: ["is|not|able|to|read", "isn't|able|to|read"], b: 5 },
-    { p: "______ ______ ______ ? ( talk, the parrot )", a: ["Is|the parrot|able|to|talk"], b: 4 },
+    { p: "Hans ______ ______ ______ the problem. ( solve )", a: ["is|able|to|solve"], b: 4, ko: "한스는 그 문제를 풀 수 있다." },
+    { p: "She ______ ______ ______ down the tree. ( not, cut )", a: ["is|not|able|to|cut", "isn't|able|to|cut"], b: 5, ko: "그녀는 나무를 베어 내리지 못한다." },
+    { p: "______ ______ ______ ? ( knit )", a: ["Are|you|able|to|knit"], b: 4, ko: "너는 뜨개질을 할 수 있니?" },
+    { p: "The boy ______ ______ ______ an orange. ( peel )", a: ["is|able|to|peel"], b: 4, ko: "그 남자아이는 오렌지 껍질을 벗길 수 있다." },
+    { p: "I ______ ______ ______ computer games. ( not, play )", a: ["am|not|able|to|play"], b: 5, ko: "나는 컴퓨터 게임을 하지 못한다." },
+    { p: "______ ______ ______ yoga? ( teach, she )", a: ["Is|she|able|to|teach"], b: 4, ko: "그녀가 요가를 가르칠 수 있니?" },
+    { p: "My sister ______ ______ ______ gimchi. ( make )", a: ["is|able|to|make"], b: 4, ko: "내 여동생은 김치를 만들 수 있다." },
+    { p: "My grandfather ______ ______ ______ a car. ( not, drive )", a: ["is|not|able|to|drive", "isn't|able|to|drive"], b: 5, ko: "우리 할아버지는 자동차를 운전하지 못하신다." },
+    { p: "______ ______ ______ his ball? ( catch, you )", a: ["Are|you|able|to|catch"], b: 4, ko: "너는 그의 공을 잡을 수 있니?" },
+    { p: "Chris ______ ______ ______ a sandcastle. ( build )", a: ["is|able|to|build"], b: 4, ko: "크리스는 모래성을 쌓을 수 있다." },
+    { p: "Dogs ______ ______ ______ up trees. ( not, climb )", a: ["are|not|able|to|climb", "aren't|able|to|climb"], b: 5, ko: "개들은 나무를 올라가지 못한다." },
+    { p: "______ ______ ______ pictures? ( take, they )", a: ["Are|they|able|to|take"], b: 4, ko: "그들이 사진을 찍을 수 있니?" },
+    { p: "The elephant ______ ______ ______ the apple. ( pick )", a: ["is|able|to|pick"], b: 4, ko: "그 코끼리는 사과를 딸 수 있다." },
+    { p: "Kelly ______ ______ ______ Korean. ( not, read )", a: ["is|not|able|to|read", "isn't|able|to|read"], b: 5, ko: "켈리는 한국어를 읽지 못한다." },
+    { p: "______ ______ ______ ? ( talk, the parrot )", a: ["Is|the parrot|able|to|talk"], b: 4, ko: "그 앵무새가 말을 할 수 있니?" },
   ];
   items.push(
     exItem(
-      fillItem("b01", "B", "B1", bankB[0].p, bankB[0].a, { sectionInstructionKo: instrB, blanks: 4 }),
+      fillItem("b01", "B", "B1", bankB[0].p, bankB[0].a, {
+        sectionInstructionKo: instrB,
+        blanks: 4,
+        promptKo: bankB[0].ko,
+      }),
       "is / able / to / solve"
     )
   );
@@ -915,6 +927,7 @@ function write(name, data) {
       fillItem("b" + String(i + 2).padStart(2, "0"), "B", "B" + (i + 2), r.p, r.a, {
         sectionInstructionKo: instrB,
         blanks: r.b,
+        promptKo: r.ko,
       })
     );
   });
@@ -1087,7 +1100,7 @@ function write(name, data) {
   );
 
   write("review-01.json", {
-    practiceId: "b3:u01:review-01",
+    practiceId: "b3:u01:review01",
     title: "Review 01",
     subtitle: "Unit 01 조동사 (1) (pp. 31–33)",
     pages: "31–33",

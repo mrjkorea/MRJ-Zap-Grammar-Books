@@ -7,7 +7,7 @@
     { id: "zap-red-2", title: "ZAP Red 2", enabled: false },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
-    { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
+    { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
     { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
     { id: "zap-green-2", title: "ZAP Green 2", enabled: true, appName: "GreenZap 2", bookTitle: "ZAP Green 2" },
@@ -52,6 +52,9 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-3": [
+      { id: "unit-01", title: "Unit 01 — 조동사 (1)", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +69,85 @@
   };
 
   var EXERCISES = {
+    "zap-blue-3:unit-01": [
+      {
+        slug: "lesson01-walk1",
+        title: "Lesson 01 Walk 1 — 조동사 can",
+        hint: "can · 동그라미·밑줄 · p. 11",
+        data: "data/blue3/unit01/lesson01-walk1.json",
+        practiceId: "b3:u01:lesson01-walk1",
+      },
+      {
+        slug: "lesson01-walk2",
+        title: "Lesson 01 Walk 2 — 조동사 can",
+        hint: "can 의문문 · p. 13",
+        data: "data/blue3/unit01/lesson01-walk2.json",
+        practiceId: "b3:u01:lesson01-walk2",
+      },
+      {
+        slug: "lesson01-run",
+        title: "Lesson 01 Run — 조동사 can",
+        hint: "pp. 14–15",
+        data: "data/blue3/unit01/lesson01-run.json",
+        practiceId: "b3:u01:lesson01-run",
+      },
+      {
+        slug: "lesson01-jump",
+        title: "Lesson 01 Jump — 조동사 can",
+        hint: "pp. 16–17",
+        data: "data/blue3/unit01/lesson01-jump.json",
+        practiceId: "b3:u01:lesson01-jump",
+      },
+      {
+        slug: "lesson01-fly",
+        title: "Lesson 01 Fly — 조동사 can",
+        hint: "pp. 18–19",
+        data: "data/blue3/unit01/lesson01-fly.json",
+        practiceId: "b3:u01:lesson01-fly",
+      },
+      {
+        slug: "lesson02-walk1",
+        title: "Lesson 02 Walk 1 — be able to",
+        hint: "be able to · p. 21",
+        data: "data/blue3/unit01/lesson02-walk1.json",
+        practiceId: "b3:u01:lesson02-walk1",
+      },
+      {
+        slug: "lesson02-walk2",
+        title: "Lesson 02 Walk 2 — be able to",
+        hint: "be able to 의문문 · p. 23",
+        data: "data/blue3/unit01/lesson02-walk2.json",
+        practiceId: "b3:u01:lesson02-walk2",
+      },
+      {
+        slug: "lesson02-run",
+        title: "Lesson 02 Run — be able to",
+        hint: "pp. 24–25",
+        data: "data/blue3/unit01/lesson02-run.json",
+        practiceId: "b3:u01:lesson02-run",
+      },
+      {
+        slug: "lesson02-jump",
+        title: "Lesson 02 Jump — be able to",
+        hint: "pp. 26–27",
+        data: "data/blue3/unit01/lesson02-jump.json",
+        practiceId: "b3:u01:lesson02-jump",
+      },
+      {
+        slug: "lesson02-fly",
+        title: "Lesson 02 Fly — be able to",
+        hint: "pp. 28–29",
+        data: "data/blue3/unit01/lesson02-fly.json",
+        practiceId: "b3:u01:lesson02-fly",
+      },
+      {
+        slug: "review01",
+        title: "Review 01",
+        hint: "pp. 30–32",
+        data: "data/blue3/unit01/review-01.json",
+        practiceId: "b3:u01:review01",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",
