@@ -145,26 +145,29 @@ function sectionPair(secA, secB, countA, countB) {
 // —— Lesson 01 Walk (p. 37) ——
 (function lesson01Walk() {
   const instrA =
-    "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)";
+    "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 위치(①~③)를 골라 누르세요. (직접 쓰지 않아요.)";
   const instrB = "다음 문장에서 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.";
+  const posChoices = ["①", "②", "③"];
+  const posAcc = ["1", "①"];
   const aRows = [
-    { en: "We eat snacks at 3 p.m.", v: "eat", ko: "우리는 오후 3시에 간식을 먹는다." },
-    { en: "They listen to the radio in the evening.", v: "listen", ko: "그들은 저녁에 라디오를 듣는다." },
-    { en: "Terry and Cindy drink milk in the morning.", v: "drink", ko: "테리와 신디는 아침에 우유를 마신다." },
-    { en: "Those children learn history at school.", v: "learn", ko: "저 아이들은 학교에서 역사를 배운다." },
+    { en: "I ① read ② books ③ at night.", ko: "나는 밤에 책을 읽는다." },
+    { en: "We ① eat ② snacks ③ at 3 p.m.", ko: "우리는 오후 3시에 간식을 먹는다." },
+    { en: "They ① listen ② to the radio ③ in the evening.", ko: "그들은 저녁에 라디오를 듣는다." },
+    { en: "Terry and Cindy ① drink ② milk ③ in the morning.", ko: "테리와 신디는 아침에 우유를 마신다." },
+    { en: "Those children ① learn ② history ③ at school.", ko: "저 아이들은 학교에서 역사를 배운다." },
   ];
   const items = [
     exItem(
-      fillItem("a01", "A", "A1", "I read books at night.", ["read"], {
+      mcItem("a01", "A", "A1", aRows[0].en, posChoices, posAcc, {
         sectionInstructionKo: instrA,
-        promptKo: "나는 밤에 책을 읽는다.",
+        promptKo: aRows[0].ko,
       }),
-      "read"
+      "①"
     ),
   ];
-  aRows.forEach((r, i) => {
+  aRows.slice(1).forEach((r, i) => {
     items.push(
-      fillItem("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), r.en, [r.v, r.v.toLowerCase()], {
+      mcItem("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), r.en, posChoices, posAcc, {
         sectionInstructionKo: instrA,
         promptKo: r.ko,
       })
@@ -201,14 +204,14 @@ function sectionPair(secA, secB, countA, countB) {
       "do not 위치 · don't (p. 37)",
       "37",
       10,
-      "Section A 4문항(동사), Section B 4문항(don't). 예시는 채점하지 않아요.",
+      "Section A 4문항(do not 들어갈 위치 고르기), Section B 4문항(don't). 예시는 채점하지 않아요.",
       sectionPair(
         {
           instr: instrA,
           dir: "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요.",
-          rule: "동그라미 친 동사만 쓰세요.",
-          mode: "words",
-          tag: "Words · 빈칸 말만",
+          rule: "보기 중 하나를 골라 누르세요.",
+          mode: "choice",
+          tag: "Choose · 고르기",
           labels: ["A2", "A3", "A4", "A5"],
         },
         {
@@ -392,7 +395,7 @@ function sectionPair(secA, secB, countA, countB) {
   const bRows = [
     { p: "He ______ ______ English. ( speak )", parts: ["doesn't", "speak"], ko: "그는 영어를 말하지 않는다." },
     { p: "We ______ ______ tea. ( drink )", parts: ["don't", "drink"], ko: "우리는 차를 마시지 않는다." },
-    { p: "Sally ______ ______ ______ late. ( get up )", parts: ["doesn't", "get", "up"], ko: "샐리는 늦게 일어나지 않는다.", blanks: 3 },
+    { p: "Sally ______ ______ late. ( get up )", parts: ["doesn't", "get up"], ko: "샐리는 늦게 일어나지 않는다.", blanks: 2 },
     { p: "They ______ ______ the Internet. ( use )", parts: ["don't", "use"], ko: "그들은 인터넷을 사용하지 않는다." },
     { p: "The bus ______ ______ here. ( stop )", parts: ["doesn't", "stop"], ko: "그 버스는 여기에 멈추지 않는다." },
     { p: "You ______ ______ books here. ( buy )", parts: ["don't", "buy"], ko: "너희는 여기서 책을 사지 않는다." },
@@ -1045,7 +1048,7 @@ function sectionPair(secA, secB, countA, countB) {
       promptKo: "너는 컴퓨터를 가지고 있니?",
       blanks: 3,
     }),
-    fillItem("q14", "13-15", "14", "She plays chess. (부정문)\n______ ______ ______ chess.", pipeNeg(["doesn't", "play"]), {
+    fillItem("q14", "13-15", "14", "She plays chess. (부정문)\n______ ______ ______ chess.", ["She|doesn't|play", "She|does not|play"], {
       sectionInstructionKo: s1315,
       promptKo: "그녀는 체스를 두지 않는다.",
       blanks: 3,

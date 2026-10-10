@@ -32,7 +32,7 @@ Blue 2 Unit 02 uses **two lessons** with **Grammar Walk (×2 per lesson) + Run +
 
 | Slug | Book pages (printed) | Graded items | Sections | Modes |
 |------|----------------------|-------------|----------|-------|
-| `lesson01-walk` | 37 | 8 | A, B | words |
+| `lesson01-walk` | 37 | 8 | A, B | choice (A) / words (B) |
 | `lesson01-walk2` | 39 | 8 | A, B | words |
 | `lesson01-run` | 40–41 | 28 | A, B | choice |
 | `lesson01-jump` | 42–43 | 28 | A, B | words / multi-blank |
@@ -48,7 +48,7 @@ Blue 2 Unit 02 uses **two lessons** with **Grammar Walk (×2 per lesson) + Run +
 
 ## Uncertain / notes
 
-- **Walk A (p.37):** Circles mark *position* markers; app uses “type the main verb” (same adaptation as Blue 1 circle tasks).
+- **Walk A (p.37):** do not position circles ①–③ → MC (same pattern as GreenZap 4 Walk2 not-position).
 - **Walk2 B (p.49):** Line-matching → one MC per question with choices `a.`–`e.` in book order.
 - **Review [11–12]:** Parenthesis options rendered as two-choice MC per item.
 - **Review [13–15]:** Three blanks per transformation; students type one word per blank.

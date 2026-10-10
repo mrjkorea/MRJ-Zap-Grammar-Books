@@ -78,6 +78,13 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       bad++;
       console.log("FAIL", f, it.id, JSON.stringify(right), r, w);
     }
+    if (f === "review-02.json" && it.id === "q14") {
+      const bad14 = { parts: ["doesn't", "play"], value: "doesn't play" };
+      if (E.gradeItem(it, bad14)) {
+        bad++;
+        console.log("REVIEW14-INCOMPLETE", f, it.id);
+      }
+    }
     for (const acc of it.accept) {
       let resp;
       if (it.type === "mc") {

@@ -10,16 +10,16 @@
   "unitId": "unit-02",
   "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
   "sectionsVersion": 2,
-  "introKo": "Section A 4문항(동사), Section B 4문항(don't). 예시는 채점하지 않아요.",
+  "introKo": "Section A 4문항(do not 들어갈 위치 고르기), Section B 4문항(don't). 예시는 채점하지 않아요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 위치(①~③)를 골라 누르세요. (직접 쓰지 않아요.)",
       "directionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요.",
-      "ruleKo": "동그라미 친 동사만 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "itemCount": 4,
       "exampleCount": 1,
       "labels": [
@@ -52,33 +52,44 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 위치(①~③)를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "I read books at night.",
+      "type": "mc",
+      "promptEn": "I ① read ② books ③ at night.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
       "accept": [
-        "read"
+        "1",
+        "①"
       ],
       "promptKo": "나는 밤에 책을 읽는다.",
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "read"
+      "exampleAnswer": "①"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 위치(①~③)를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
-      "type": "fill",
-      "promptEn": "We eat snacks at 3 p.m.",
+      "type": "mc",
+      "promptEn": "We ① eat ② snacks ③ at 3 p.m.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
       "accept": [
-        "eat",
-        "eat"
+        "1",
+        "①"
       ],
       "promptKo": "우리는 오후 3시에 간식을 먹는다."
     },
@@ -86,15 +97,20 @@
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 위치(①~③)를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
-      "type": "fill",
-      "promptEn": "They listen to the radio in the evening.",
+      "type": "mc",
+      "promptEn": "They ① listen ② to the radio ③ in the evening.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
       "accept": [
-        "listen",
-        "listen"
+        "1",
+        "①"
       ],
       "promptKo": "그들은 저녁에 라디오를 듣는다."
     },
@@ -102,15 +118,20 @@
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 위치(①~③)를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
-      "type": "fill",
-      "promptEn": "Terry and Cindy drink milk in the morning.",
+      "type": "mc",
+      "promptEn": "Terry and Cindy ① drink ② milk ③ in the morning.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
       "accept": [
-        "drink",
-        "drink"
+        "1",
+        "①"
       ],
       "promptKo": "테리와 신디는 아침에 우유를 마신다."
     },
@@ -118,15 +139,20 @@
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 위치(①~③)를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
-      "type": "fill",
-      "promptEn": "Those children learn history at school.",
+      "type": "mc",
+      "promptEn": "Those children ① learn ② history ③ at school.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
       "accept": [
-        "learn",
-        "learn"
+        "1",
+        "①"
       ],
       "promptKo": "저 아이들은 학교에서 역사를 배운다."
     },
