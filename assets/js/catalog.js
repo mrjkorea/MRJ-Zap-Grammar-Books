@@ -63,6 +63,9 @@
       { id: "unit-08", title: "Unit 08 — 동명사와 to부정사", enabled: true },
       { id: "tests", title: "Review & Final Tests", enabled: true },
     ],
+    "zap-green-4": [
+      { id: "unit-02", title: "Unit 02 — 여러 가지 동사 (2)", enabled: true },
+    ],
   };
 
   var EXERCISES = {
@@ -690,6 +693,71 @@
         hint: "Final · pp. 188–191",
         data: "data/green1/tests/final-test-02.json",
         practiceId: "tests:ft02",
+      },
+    ],
+    "zap-green-4:unit-02": [
+      {
+        slug: "walk1",
+        title: "Grammar Walk — Lesson 01",
+        hint: "간접·직접목적어 (p. 31)",
+        data: "data/green4/unit02/walk1.json",
+        practiceId: "g4:u02:walk1",
+      },
+      {
+        slug: "walk2",
+        title: "Grammar Walk — Lesson 02",
+        hint: "전치사 to / for / of (p. 33)",
+        data: "data/green4/unit02/walk2.json",
+        practiceId: "g4:u02:walk2",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "pp. 34–35",
+        data: "data/green4/unit02/run.json",
+        practiceId: "g4:u02:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "pp. 36–37",
+        data: "data/green4/unit02/jump.json",
+        practiceId: "g4:u02:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "pp. 38–39",
+        data: "data/green4/unit02/fly.json",
+        practiceId: "g4:u02:fly",
+      },
+      {
+        slug: "writing",
+        title: "Grammar & Writing",
+        hint: "pp. 40–41",
+        data: "data/green4/unit02/writing.json",
+        practiceId: "g4:u02:writing",
+      },
+      {
+        slug: "quiz",
+        title: "Unit Test 02",
+        hint: "pp. 42–46",
+        data: "data/green4/unit02/unit-test-02.json",
+        practiceId: "g4:u02:quiz",
+      },
+      {
+        slug: "wrap",
+        title: "Wrap Up",
+        hint: "Summary · p. 47",
+        data: "data/green4/unit02/wrap.json",
+        practiceId: "g4:u02:wrap",
+      },
+      {
+        slug: "checkup",
+        title: "Check Up",
+        hint: "Comic dialogue · p. 47",
+        data: "data/green4/unit02/checkup.json",
+        practiceId: "g4:u02:checkup",
       },
     ],
     "zap-green-3:unit-01": [
