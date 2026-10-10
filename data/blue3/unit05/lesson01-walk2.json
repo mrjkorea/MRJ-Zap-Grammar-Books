@@ -1,0 +1,235 @@
+{
+  "practiceId": "b3:u05:lesson01-walk2",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "의문사 how, why (p. 118)",
+  "pages": "118",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 의문사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(Words), Section B 5문항(Choose)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 의문사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptKo": "기분이 어때?",
+      "promptEn": "A: How are you?\nB: I'm fine.",
+      "accept": [
+        "How"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "How"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptKo": "왜 Helen을 좋아하니?",
+      "promptEn": "A: Why do you like Helen?\nB: Because she is kind.",
+      "accept": [
+        "Why"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptKo": "공원에 어떻게 가니?",
+      "promptEn": "A: How do you go to the park?\nB: I go to the park by subway.",
+      "accept": [
+        "How"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptKo": "Anne는 왜 늦었니?",
+      "promptEn": "A: Why is Anne late?\nB: Because she has a cold.",
+      "accept": [
+        "Why"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptKo": "컴퓨터는 어때?",
+      "promptEn": "A: How is the computer?\nB: It's very good.",
+      "accept": [
+        "How"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptKo": "새 학교는 어때?",
+      "promptEn": "<u>How</u> is your new school?",
+      "choices": [
+        "a. 어떤/어떻게",
+        "b. 왜"
+      ],
+      "accept": [
+        "a. 어떤/어떻게"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a. 어떤/어떻게"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptKo": "왜 피곤하니?",
+      "promptEn": "<u>Why</u> are you tired?",
+      "choices": [
+        "a. 어떤/어떻게",
+        "b. 왜"
+      ],
+      "accept": [
+        "b. 왜"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptKo": "오늘 날씨는 어때?",
+      "promptEn": "<u>How</u> is the weather today?",
+      "choices": [
+        "a. 어떤/어떻게",
+        "b. 왜"
+      ],
+      "accept": [
+        "a. 어떤/어떻게"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptKo": "Steve는 왜 축구를 좋아하니?",
+      "promptEn": "<u>Why</u> does Steve like soccer?",
+      "choices": [
+        "a. 어떤/어떻게",
+        "b. 왜"
+      ],
+      "accept": [
+        "b. 왜"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptKo": "동물원에 어떻게 가니?",
+      "promptEn": "<u>How</u> do you go to the zoo?",
+      "choices": [
+        "a. 어떤/어떻게",
+        "b. 왜"
+      ],
+      "accept": [
+        "a. 어떤/어떻게"
+      ]
+    }
+  ]
+}

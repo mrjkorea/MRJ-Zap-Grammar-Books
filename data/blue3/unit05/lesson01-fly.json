@@ -1,0 +1,509 @@
+{
+  "practiceId": "b3:u05:lesson01-fly",
+  "title": "Grammar Fly",
+  "subtitle": "의문사 when, where, how, why (pp. 123–124)",
+  "pages": "123–124",
+  "timerMinutes": 28,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 의문사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 15문항(Words only), Section B 12문항(Words only)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 15,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "대답을 보고 다음 의문문을 완성하세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 12,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptKo": "내 양말은 어디에 있니?",
+      "promptEn": "A: <u>When</u> are my socks? B: On the bed.",
+      "accept": [
+        "Where"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Where"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptKo": "콘서트는 언제 시작하니?",
+      "promptEn": "A: <u>How</u> does the concert begin? B: It begins at nine.",
+      "accept": [
+        "When"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptKo": "Johnny는 어디에 있니?",
+      "promptEn": "A: <u>Where</u> are Johnny? B: On the playground.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptKo": "그들은 일본에 어떻게 가니?",
+      "promptEn": "A: <u>Why</u> do they go to Japan? B: By ship.",
+      "accept": [
+        "How"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptKo": "왜 사과를 좋아하니?",
+      "promptEn": "A: <u>Where</u> do you like apples? B: Because they're sweet.",
+      "accept": [
+        "Why"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptKo": "Tom은 언제 샤워를 하니?",
+      "promptEn": "A: <u>When</u> do Tom take a shower? B: In the morning.",
+      "accept": [
+        "does"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptKo": "왜 침대에 누워 있니?",
+      "promptEn": "A: <u>Where</u> are you staying in bed? B: Because I'm sick.",
+      "accept": [
+        "Why"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptKo": "언제 TV를 보니?",
+      "promptEn": "A: <u>Why</u> do you watch TV? B: After dinner.",
+      "accept": [
+        "When"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptKo": "내 운동화는 어디에 있니?",
+      "promptEn": "A: <u>Where</u> is my sneakers? B: Next to the box.",
+      "accept": [
+        "are"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptKo": "그녀는 언제 쿠키를 굽니?",
+      "promptEn": "A: <u>When</u> do she bake cookies? B: On Sundays.",
+      "accept": [
+        "does"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptKo": "한글날은 언제니?",
+      "promptEn": "A: <u>When</u> be Hangeul Day? B: It's October the 9th.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptKo": "언제 수영을 가니?",
+      "promptEn": "A: <u>Why</u> do you go swimming? B: Every morning.",
+      "accept": [
+        "When"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptKo": "그의 이름은 어떻게 철자를 쓰니?",
+      "promptEn": "A: <u>How</u> does you spell his name? B: P-A-T-R-I-C-K.",
+      "accept": [
+        "do"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptKo": "그는 지금 어디에 있니?",
+      "promptEn": "A: <u>Where</u> he is now? B: In the garage.",
+      "accept": [
+        "is|he"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptKo": "지금 날씨는 어때?",
+      "promptEn": "A: <u>How</u> the weather is now? B: It's raining.",
+      "accept": [
+        "is|the weather"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptKo": "점심은 언제 먹니?",
+      "promptEn": "A: _____ _____ you have lunch?\nB: We have lunch at noon.",
+      "accept": [
+        "When|do"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "When|do"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "오늘 기분이 어때?",
+      "promptEn": "A: How _____ you today?\nB: I'm fine.",
+      "accept": [
+        "are"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "그녀는 어디에 살니?",
+      "promptEn": "A: Where _____ she live?\nB: She lives in Seoul.",
+      "accept": [
+        "does"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "오늘 왜 집에 있니?",
+      "promptEn": "A: Why _____ you at home today?\nB: Because I have no school today.",
+      "accept": [
+        "are"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "빵집은 언제 열니?",
+      "promptEn": "A: When _____ the bakery open?\nB: It opens at seven in the morning.",
+      "accept": [
+        "does"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "그는 박물관에 어떻게 가니?",
+      "promptEn": "A: How _____ he go to the museum?\nB: He goes by bus.",
+      "accept": [
+        "does"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptKo": "Paul은 왜 자주 동물원에 가니?",
+      "promptEn": "A: Why _____ Paul often go to the zoo?\nB: Because he likes animals.",
+      "accept": [
+        "does"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptKo": "Sue의 생일은 언제니?",
+      "promptEn": "A: When _____ Sue's birthday?\nB: It's this Thursday.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptKo": "이 사진은 어때?",
+      "promptEn": "A: How _____ this picture?\nB: It's beautiful.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptKo": "그들은 언제 축구를 하니?",
+      "promptEn": "A: When _____ they play soccer?\nB: They play soccer on Saturday.",
+      "accept": [
+        "do"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptKo": "Peter는 어디에서 책을 읽니?",
+      "promptEn": "A: Where _____ Peter read books?\nB: He reads books in the evening.",
+      "accept": [
+        "does"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "대답을 보고 다음 의문문을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptKo": "은행은 어디에 있니?",
+      "promptEn": "A: Where _____ the bank?\nB: It's next to the supermarket.",
+      "accept": [
+        "is"
+      ],
+      "blanks": 1
+    }
+  ]
+}

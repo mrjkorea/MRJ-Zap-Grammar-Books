@@ -1,0 +1,526 @@
+{
+  "practiceId": "b3:u05:lesson02-jump",
+  "title": "Grammar Jump",
+  "subtitle": "how many/much & how + 형용사/부사 (pp. 131–132)",
+  "pages": "131–132",
+  "timerMinutes": 25,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 의문사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 13문항(Words), Section B 15문항(Words only)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "directionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요.",
+      "ruleKo": "한국어 보기에서 골라 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 13,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "how 구문만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 15,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptKo": "이 공책 가격은 얼마니?",
+      "promptEn": "A: How much is this notebook? B: It's one thousand won.",
+      "accept": [
+        "가격"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "가격"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptKo": "여동생이 몇 명이니?",
+      "promptEn": "A: How many sisters do you have? B: I have two.",
+      "accept": [
+        "개수"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptKo": "엄마는 몇 살이니?",
+      "promptEn": "A: How old is your mom? B: She's forty years old.",
+      "accept": [
+        "나이"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptKo": "축구 선수는 키가 얼마나 크니?",
+      "promptEn": "A: How tall is the soccer player? B: He's 180 centimeters tall.",
+      "accept": [
+        "키"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptKo": "얼마나 자주 등산을 가니?",
+      "promptEn": "A: How often do you go hiking? B: We go hiking twice a month.",
+      "accept": [
+        "횟수"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptKo": "하루에 운동을 얼마나 하니?",
+      "promptEn": "A: How long do you exercise a day? B: I exercise for one hour a day.",
+      "accept": [
+        "기간"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptKo": "기차역은 얼마나 멀니?",
+      "promptEn": "A: How far is the train station? B: It's four hundred meters from here.",
+      "accept": [
+        "거리"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptKo": "샤워를 얼마나 오래 하니?",
+      "promptEn": "A: How long do you take a shower? B: I take a shower for thirty minutes.",
+      "accept": [
+        "기간"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptKo": "강 길이는 얼마나 되니?",
+      "promptEn": "A: How long is the river? B: It's one hundred kilometers long.",
+      "accept": [
+        "길이"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptKo": "그는 커피를 얼마나 팔니?",
+      "promptEn": "A: How much coffee does he sell? B: He sells two hundred cups of coffee a day.",
+      "accept": [
+        "양"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptKo": "얼마나 자주 소풍을 가니?",
+      "promptEn": "A: How often do they go on a picnic? B: They go on a picnic once a month.",
+      "accept": [
+        "횟수"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptKo": "테이블에 당근이 몇 개 있니?",
+      "promptEn": "A: How many carrots are there on the table? B: There are five carrots.",
+      "accept": [
+        "개수"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화가 무엇에 관한 것인지 찾아 빈칸에 쓰세요. (개수, 양, 길이, 키, 나이, 거리, 기간, 횟수, 가격)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptKo": "그녀의 고양이는 몇 살이니?",
+      "promptEn": "A: How old is her cat? B: It's two years old.",
+      "accept": [
+        "나이"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptKo": "책상 위에 책이 몇 권 있니?",
+      "promptEn": "A: How _____ books are there on the desk?\nB: There are three.",
+      "accept": [
+        "many"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "many"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "이 핫도그 가격은 얼마니?",
+      "promptEn": "A: How _____ is this hot dog?\nB: It's two dollars.",
+      "accept": [
+        "much"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "그 피아니스트는 몇 살이니?",
+      "promptEn": "A: How _____ is that pianist?\nB: She's thirty years old.",
+      "accept": [
+        "old"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "James는 키가 얼마나 크니?",
+      "promptEn": "A: How _____ is James?\nB: He's 150 centimeters tall.",
+      "accept": [
+        "tall"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "그들은 얼마나 자주 이를 닦니?",
+      "promptEn": "A: How _____ do they brush their teeth?\nB: Three times a day.",
+      "accept": [
+        "often"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "그녀는 커피를 얼마나 마시니?",
+      "promptEn": "A: How _____ coffee does she drink?\nB: She drinks two cups of coffee a day.",
+      "accept": [
+        "much"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptKo": "버스 정류장은 얼마나 멀니?",
+      "promptEn": "A: How _____ is the bus stop from here?\nB: It's one hundred meters from here.",
+      "accept": [
+        "far"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptKo": "벨트 길이는 얼마나 되니?",
+      "promptEn": "A: How _____ is the belt?\nB: It's one meter long.",
+      "accept": [
+        "long"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptKo": "빵을 얼마나 가지고 있니?",
+      "promptEn": "A: How _____ bread do you have?\nB: I have six loaves of bread.",
+      "accept": [
+        "much"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptKo": "인형을 몇 개 가지고 있니?",
+      "promptEn": "A: How _____ dolls does she have?\nB: She has five dolls.",
+      "accept": [
+        "many"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptKo": "컴퓨터 게임을 얼마나 오래 하니?",
+      "promptEn": "A: How _____ do you play computer games?\nB: For one hour a day.",
+      "accept": [
+        "long"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptKo": "Ann은 얼마나 자주 도서관에 가니?",
+      "promptEn": "A: How _____ does Ann go to the library?\nB: She goes there three times a week.",
+      "accept": [
+        "often"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptKo": "이 신발 가격은 얼마니?",
+      "promptEn": "A: How _____ are these shoes?\nB: They are twenty dollars.",
+      "accept": [
+        "much"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptKo": "유나는 몇 살이니?",
+      "promptEn": "A: How _____ is Yuna?\nB: She is twenty years old.",
+      "accept": [
+        "old"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. how many/much 또는 how + 형용사/부사 한 단어(구)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptKo": "나무는 높이가 얼마나 되니?",
+      "promptEn": "A: How _____ is the tree?\nB: It's four meters tall.",
+      "accept": [
+        "tall"
+      ],
+      "blanks": 1
+    }
+  ]
+}

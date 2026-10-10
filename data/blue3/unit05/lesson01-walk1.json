@@ -1,0 +1,235 @@
+{
+  "practiceId": "b3:u05:lesson01-walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "의문사 when, where (p. 116)",
+  "pages": "116",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 의문사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(Words), Section B 5문항(Choose)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 의문사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptKo": "어버이날은 언제니?",
+      "promptEn": "A: When is Parents' Day?\nB: It's May the eighth.",
+      "accept": [
+        "When"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "When"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptKo": "상하이는 어디에 있니?",
+      "promptEn": "A: Where is Shanghai?\nB: It's in China.",
+      "accept": [
+        "Where"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptKo": "너는 언제 잠자리에 드니?",
+      "promptEn": "A: When do you go to bed?\nB: I go to bed at ten o'clock.",
+      "accept": [
+        "When"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptKo": "그녀는 어디에서 채소를 사니?",
+      "promptEn": "A: Where does she buy vegetables?\nB: She buys them at the market.",
+      "accept": [
+        "Where"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptKo": "너희는 언제 수학 수업을 하니?",
+      "promptEn": "A: When do you have math class?\nB: We have math class on Thursday.",
+      "accept": [
+        "When"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptKo": "네 개는 어디에 있니?",
+      "promptEn": "<u>Where</u> is your dog?",
+      "choices": [
+        "a. 언제",
+        "b. 어디에(서)"
+      ],
+      "accept": [
+        "b. 어디에(서)"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "b. 어디에(서)"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptKo": "너는 언제 조깅을 하러 가니?",
+      "promptEn": "<u>When</u> do you go jogging?",
+      "choices": [
+        "a. 언제",
+        "b. 어디에(서)"
+      ],
+      "accept": [
+        "a. 언제"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptKo": "Brad는 어디에서 책을 읽니?",
+      "promptEn": "<u>Where</u> does Brad read books?",
+      "choices": [
+        "a. 언제",
+        "b. 어디에(서)"
+      ],
+      "accept": [
+        "b. 어디에(서)"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptKo": "수업은 언제 시작하니?",
+      "promptEn": "<u>When</u> does the class begin?",
+      "choices": [
+        "a. 언제",
+        "b. 어디에(서)"
+      ],
+      "accept": [
+        "a. 언제"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptKo": "그들은 매년 어디에 가니?",
+      "promptEn": "<u>Where</u> do they go every year?",
+      "choices": [
+        "a. 언제",
+        "b. 어디에(서)"
+      ],
+      "accept": [
+        "b. 어디에(서)"
+      ]
+    }
+  ]
+}
