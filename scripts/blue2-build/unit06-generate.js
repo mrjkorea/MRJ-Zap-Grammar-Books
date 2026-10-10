@@ -786,11 +786,12 @@ function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, bui
       });
     })()
   );
-  const s35 = "[3–5] 다음 중 형용사와 부사가 1:1 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)";
+  const s35Stem = "[3–5] 다음 중 형용사와 부사가 1:1 짝지어지지 않은 것을 고르세요.";
+  const s35 = s35Stem + " 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)";
   items.push(
-    mcItem("q03", "3-5", "3", "", ["kind - kindly", "early - early", "busy - busily", "high - highly"], mcAcc(["kind - kindly", "early - early", "busy - busily", "high - highly"], 3), { sectionInstructionKo: s35, promptKo: "형용사·부사 짝" }),
-    mcItem("q04", "3-5", "4", "", ["slow - slowly", "careful - carefully", "happy - happyly", "good - well"], mcAcc(["slow - slowly", "careful - carefully", "happy - happyly", "good - well"], 2), { sectionInstructionKo: s35, promptKo: "형용사·부사 짝" }),
-    mcItem("q05", "3-5", "5", "", ["quick - quickly", "bad - badily", "quiet - quietly", "late - late"], mcAcc(["quick - quickly", "bad - badily", "quiet - quietly", "late - late"], 1), { sectionInstructionKo: s35, promptKo: "형용사·부사 짝" })
+    mcItem("q03", "3-5", "3", s35Stem, ["kind - kindly", "early - early", "busy - busily", "high - highly"], mcAcc(["kind - kindly", "early - early", "busy - busily", "high - highly"], 3), { sectionInstructionKo: s35, promptKo: "형용사·부사가 1:1 짝지어지지 않은 것" }),
+    mcItem("q04", "3-5", "4", s35Stem, ["slow - slowly", "careful - carefully", "happy - happyly", "good - well"], mcAcc(["slow - slowly", "careful - carefully", "happy - happyly", "good - well"], 2), { sectionInstructionKo: s35, promptKo: "형용사·부사가 1:1 짝지어지지 않은 것" }),
+    mcItem("q05", "3-5", "5", s35Stem, ["quick - quickly", "bad - badily", "quiet - quietly", "late - late"], mcAcc(["quick - quickly", "bad - badily", "quiet - quietly", "late - late"], 1), { sectionInstructionKo: s35, promptKo: "형용사·부사가 1:1 짝지어지지 않은 것" })
   );
   const s6 = "[6] 다음 문장의 빈칸에 공통으로 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)";
   items.push(
@@ -848,7 +849,7 @@ function addSectionItems(items, section, instr, rows, idPrefix, labelPrefix, bui
     "Review 06은 [1–2]부터 [19–20]까지 20문항입니다. Check Check 점수표는 채점하지 않아요.",
     [
       sec("1-2", "[1–2]", s12, "부사 고르기 / 부사가 아닌 것 고르기", "보기 중 하나를 골라 누르세요.", "choice", "Choose · 고르기", 2, 0, ["1", "2"]),
-      sec("3-5", "[3–5]", s35, "형용사와 부사 짝 고르기", "보기 중 하나를 골라 누르세요.", "choice", "Choose · 고르기", 3, 0, ["3", "4", "5"]),
+      sec("3-5", "[3–5]", s35, s35Stem, "보기 중 하나를 골라 누르세요.", "choice", "Choose · 고르기", 3, 0, ["3", "4", "5"]),
       sec("6", "[6]", s6, "빈칸에 공통으로 알맞은 말 고르기", "보기 중 하나를 골라 누르세요.", "choice", "Choose · 고르기", 1, 0, ["6"]),
       sec("7", "[7]", s7, "우리말 뜻에 맞는 말 고르기", "보기 중 하나를 골라 누르세요.", "choice", "Choose · 고르기", 1, 0, ["7"]),
       sec("8-9", "[8–9]", s89, "틀린 문장 고르기", "보기 중 하나를 골라 누르세요.", "choice", "Choose · 고르기", 2, 0, ["8", "9"]),
