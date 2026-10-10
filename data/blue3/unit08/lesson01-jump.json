@@ -1,0 +1,556 @@
+{
+  "practiceId": "b3:u08:lesson01-jump",
+  "title": "Grammar Jump — 명령문·제안문",
+  "subtitle": "pp. 202–203",
+  "pages": "202–203",
+  "timerMinutes": 24,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 명령문과 감탄문",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 밑줄 부분 우리말, Section B는 반대 뜻 영어 문장 전체.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "directionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "<u>Listen to</u> music.",
+      "promptKo": "예시: 들어라",
+      "accept": [
+        "들어라",
+        "들어",
+        "들으세요"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "들어라"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "<u>Don't touch</u> the pictures.",
+      "accept": [
+        "만지지 마라",
+        "만지지 말아라",
+        "만지지 마세요"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "<u>Let's go jogging</u> together.",
+      "accept": [
+        "조깅하러 가자",
+        "가자"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "<u>Let's not run</u> in this room.",
+      "accept": [
+        "뛰지 말자",
+        "뛰지 마라"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "<u>Come</u> home before dinner.",
+      "accept": [
+        "집에 오라",
+        "집에 와라",
+        "돌아와라"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "<u>Don't shout</u> in the classroom.",
+      "accept": [
+        "소리치지 마라",
+        "소리치지 마세요"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "<u>Let's go on a picnic</u> this Saturday.",
+      "accept": [
+        "소풍 가자"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "<u>Let's not watch</u> that movie.",
+      "accept": [
+        "보지 말자",
+        "보지 마라"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "<u>Please speak</u> in English.",
+      "accept": [
+        "말해라",
+        "말하세요",
+        "해 주세요"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "<u>Don't enter</u> the room.",
+      "accept": [
+        "들어가지 마라",
+        "들어가지 마세요"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "<u>Let's plant</u> a tree.",
+      "accept": [
+        "심자",
+        "심으자"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "<u>Let's not turn on</u> the light.",
+      "accept": [
+        "켜지 말자",
+        "켜지 마라"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "<u>Don't eat</u> too many sweets.",
+      "accept": [
+        "먹지 마라",
+        "먹지 마세요"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "<u>Brush</u> your hair.",
+      "accept": [
+        "닦아라",
+        "닦으세요"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "<u>Please don't swim</u> in the lake.",
+      "accept": [
+        "수영하지 마세요",
+        "수영하지 마라"
+      ],
+      "promptKo": "책 지시에 따라 답하세요."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "Let's go to the park.",
+      "promptKo": "예시",
+      "accept": [
+        "Let's not go to the park.",
+        "Lets not go to the park."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Let's not go to the park."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "Run fast.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Don't run fast.",
+        "Do not run fast."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "Don't open your eyes.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Open your eyes."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "Let's not take a bus.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Let's take a bus.",
+        "Lets take a bus."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "Return the book today.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Don't return the book today.",
+        "Do not return the book today."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "Don't throw the ball.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Throw the ball."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "Let's play badminton.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Let's not play badminton.",
+        "Lets not play badminton."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "Please don't use this computer.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Please use this computer."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "Let's not sit here.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Let's sit here.",
+        "Lets sit here."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "Close your book.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Open your book."
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "Let's cross the street.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Let's not cross the street.",
+        "Lets not cross the street."
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "Don't climb the tree.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Climb the tree."
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B13",
+      "type": "sentence",
+      "promptEn": "Let's not get up late tomorrow.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Let's get up late tomorrow.",
+        "Lets get up late tomorrow."
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B14",
+      "type": "sentence",
+      "promptEn": "Eat this cake.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Don't eat this cake.",
+        "Do not eat this cake."
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 읽고, 반대의 뜻이 되도록 문장을 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B15",
+      "type": "sentence",
+      "promptEn": "Let's walk to school.",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "Let's not walk to school.",
+        "Lets not walk to school."
+      ]
+    }
+  ]
+}
