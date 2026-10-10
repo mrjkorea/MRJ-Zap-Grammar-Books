@@ -1,0 +1,676 @@
+{
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 대명사 (2)",
+  "practiceId": "b1:u06:lesson01-run",
+  "title": "Lesson 01 Run — 명사와 대명사의 일치",
+  "subtitle": "pp. 138–139",
+  "pages": "138–139",
+  "timerMinutes": 20,
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 15문항 고르기입니다. A1은 예시(채점 없음).",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "I have a sister. ( He / She ) is eight years old.",
+      "choices": [
+        "He",
+        "She"
+      ],
+      "accept": [
+        "She",
+        "2"
+      ],
+      "promptKo": "나는 여동생이 한 명 있다. 그녀는 여덟 살이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "She"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "I eat a sandwich once a week. ( It / They ) is delicious.",
+      "choices": [
+        "It",
+        "They"
+      ],
+      "accept": [
+        "It",
+        "1"
+      ],
+      "promptKo": "나는 일주일에 한 번 샌드위치를 먹는다. 그것은 맛있다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "I have a doll. ( It / They ) is pretty.",
+      "choices": [
+        "It",
+        "They"
+      ],
+      "accept": [
+        "It",
+        "1"
+      ],
+      "promptKo": "나는 인형 한 개를 가지고 있다. 그것은 예쁘다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "They have a son. ( It / He ) is five years old.",
+      "choices": [
+        "It",
+        "He"
+      ],
+      "accept": [
+        "He",
+        "2"
+      ],
+      "promptKo": "그들은 아들이 한 명 있다. 그는 다섯 살이다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "I play baseball with my friends. ( He / They ) are boys.",
+      "choices": [
+        "He",
+        "They"
+      ],
+      "accept": [
+        "They",
+        "2"
+      ],
+      "promptKo": "나는 내 친구들과 야구를 한다. 그들은 남자아이들이다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "My sister's name is Julie. ( She / He ) is cute.",
+      "choices": [
+        "She",
+        "He"
+      ],
+      "accept": [
+        "She",
+        "1"
+      ],
+      "promptKo": "내 여동생의 이름은 줄리이다. 그녀는 귀엽다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "I have three balls. ( It / They ) are green.",
+      "choices": [
+        "It",
+        "They"
+      ],
+      "accept": [
+        "They",
+        "2"
+      ],
+      "promptKo": "나는 공 세 개를 가지고 있다. 그것들은 초록색이다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "I have two brothers. ( They / He ) are kind.",
+      "choices": [
+        "They",
+        "He"
+      ],
+      "accept": [
+        "They",
+        "1"
+      ],
+      "promptKo": "나는 남자 형제가 두 명 있다. 그들은 친절하다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "I know a man. ( He / His ) hair is brown.",
+      "choices": [
+        "He",
+        "His"
+      ],
+      "accept": [
+        "His",
+        "2"
+      ],
+      "promptKo": "나는 한 남자를 안다. 그의 머리카락은 갈색이다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "Look at the girl. ( She / Her ) cap is pretty.",
+      "choices": [
+        "She",
+        "Her"
+      ],
+      "accept": [
+        "Her",
+        "2"
+      ],
+      "promptKo": "저 여자아이를 봐. 그녀의 모자가 예쁘다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "I eat bread every day. I like ( it / its ).",
+      "choices": [
+        "it",
+        "its"
+      ],
+      "accept": [
+        "it",
+        "1"
+      ],
+      "promptKo": "나는 매일 빵을 먹는다. 나는 그것을 좋아한다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "We have two dogs. We love ( they / them ).",
+      "choices": [
+        "they",
+        "them"
+      ],
+      "accept": [
+        "them",
+        "2"
+      ],
+      "promptKo": "우리는 개 두 마리를 가지고 있다. 우리는 그것들을 대단히 좋아한다."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "13",
+      "type": "mc",
+      "promptEn": "My teacher is Mr. Brown. ( He / She ) is American.",
+      "choices": [
+        "He",
+        "She"
+      ],
+      "accept": [
+        "He",
+        "1"
+      ],
+      "promptKo": "우리 선생님은 브라운 씨이다. 그는 미국인이다."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "I have a magazine. ( It / Its ) title is The Kids.",
+      "choices": [
+        "It",
+        "Its"
+      ],
+      "accept": [
+        "Its",
+        "2"
+      ],
+      "promptKo": "나는 잡지 한 권을 가지고 있다. 그것의 제목은 『The Kids』이다."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "Look at the man. I know ( his / him ).",
+      "choices": [
+        "his",
+        "him"
+      ],
+      "accept": [
+        "him",
+        "2"
+      ],
+      "promptKo": "그 남자를 봐. 나는 그를 안다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "<u>Tom and I</u> are cousins.",
+      "choices": [
+        "He",
+        "We"
+      ],
+      "accept": [
+        "We",
+        "2"
+      ],
+      "promptKo": "톰과 나는 사촌이다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "<u>You and Susie</u> are sisters.",
+      "choices": [
+        "We",
+        "You"
+      ],
+      "accept": [
+        "You",
+        "2"
+      ],
+      "promptKo": "너와 수지는 자매이다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "<u>She and Sam</u> are students.",
+      "choices": [
+        "They",
+        "We"
+      ],
+      "accept": [
+        "They",
+        "1"
+      ],
+      "promptKo": "그녀와 샘은 학생이다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "<u>Dick and Jane</u> are pilots.",
+      "choices": [
+        "He",
+        "They"
+      ],
+      "accept": [
+        "They",
+        "2"
+      ],
+      "promptKo": "딕과 제인은 비행기 조종사이다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "<u>My mom and I</u> play the piano.",
+      "choices": [
+        "We",
+        "She"
+      ],
+      "accept": [
+        "We",
+        "1"
+      ],
+      "promptKo": "우리 엄마와 나는 피아노를 친다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "<u>He and James</u> are tall.",
+      "choices": [
+        "You",
+        "They"
+      ],
+      "accept": [
+        "They",
+        "2"
+      ],
+      "promptKo": "그와 제임스는 키가 크다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "<u>Tom and I</u> live in Seoul.",
+      "choices": [
+        "We",
+        "They"
+      ],
+      "accept": [
+        "We",
+        "1"
+      ],
+      "promptKo": "톰과 나는 서울에 산다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "<u>You and Sam</u> are smart.",
+      "choices": [
+        "You",
+        "They"
+      ],
+      "accept": [
+        "You",
+        "1"
+      ],
+      "promptKo": "너와 샘은 똑똑하다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "<u>She and Mia</u> have a cat.",
+      "choices": [
+        "You",
+        "They"
+      ],
+      "accept": [
+        "They",
+        "2"
+      ],
+      "promptKo": "그녀와 미아는 고양이를 한 마리 가지고 있다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "<u>Jack and Kate</u> are friends.",
+      "choices": [
+        "You",
+        "They"
+      ],
+      "accept": [
+        "They",
+        "2"
+      ],
+      "promptKo": "잭과 케이트는 친구이다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "<u>He and his son</u> like dogs.",
+      "choices": [
+        "They",
+        "We"
+      ],
+      "accept": [
+        "They",
+        "1"
+      ],
+      "promptKo": "그와 그의 아들은 개를 좋아한다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "<u>She and I</u> are teachers.",
+      "choices": [
+        "They",
+        "We"
+      ],
+      "accept": [
+        "We",
+        "2"
+      ],
+      "promptKo": "그녀와 나는 선생님이다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "13",
+      "type": "mc",
+      "promptEn": "<u>Tom and Nick</u> love soccer.",
+      "choices": [
+        "He",
+        "They"
+      ],
+      "accept": [
+        "They",
+        "2"
+      ],
+      "promptKo": "톰과 닉은 축구를 좋아한다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "<u>You and your sister</u> are nice.",
+      "choices": [
+        "You",
+        "They"
+      ],
+      "accept": [
+        "You",
+        "1"
+      ],
+      "promptKo": "너와 네 여동생은 멋지다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 부분을 대신할 수 있는 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "<u>He and his brother</u> are students.",
+      "choices": [
+        "They",
+        "You"
+      ],
+      "accept": [
+        "They",
+        "1"
+      ],
+      "promptKo": "그와 그의 남동생은 학생이다."
+    }
+  ]
+}

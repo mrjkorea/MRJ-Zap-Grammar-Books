@@ -1,0 +1,213 @@
+{
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 대명사 (2)",
+  "practiceId": "b1:u06:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — 지시대명사",
+  "subtitle": "p. 147",
+  "pages": "147",
+  "timerMinutes": 10,
+  "sectionsVersion": 2,
+  "introKo": "these/those 찾기·복수형 바꾸기.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "B 다음 말을 복수형으로 바꾸어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 말을 복수형으로 바꾸어 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "These are my brothers.",
+      "accept": [
+        "These",
+        "these"
+      ],
+      "promptKo": "이것들은 내 형제들이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "These"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "Those are my hats.",
+      "accept": [
+        "Those",
+        "those"
+      ],
+      "promptKo": "저것들은 내 모자들이다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "These shoes are mine.",
+      "accept": [
+        "These",
+        "these"
+      ],
+      "promptKo": "이 신발들은 내 것이다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "Those boys are lazy.",
+      "accept": [
+        "Those",
+        "those"
+      ],
+      "promptKo": "저 남자아이들은 게으르다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "I want these toys.",
+      "accept": [
+        "these",
+        "these"
+      ],
+      "promptKo": "나는 이 장난감들을 원한다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 말을 복수형으로 바꾸어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "this",
+      "accept": [
+        "these"
+      ],
+      "promptKo": "this → 복수형",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "these"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 말을 복수형으로 바꾸어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "that",
+      "accept": [
+        "those"
+      ],
+      "promptKo": "that → 복수형"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 말을 복수형으로 바꾸어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "this girl",
+      "accept": [
+        "these girls"
+      ],
+      "promptKo": "this girl → 복수형"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 말을 복수형으로 바꾸어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "that house",
+      "accept": [
+        "those houses"
+      ],
+      "promptKo": "that house → 복수형"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 말을 복수형으로 바꾸어 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "that student",
+      "accept": [
+        "those students"
+      ],
+      "promptKo": "that student → 복수형"
+    }
+  ]
+}
