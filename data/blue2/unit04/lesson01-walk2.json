@@ -1,0 +1,241 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — some과 any, every와 all",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u04:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — some과 any",
+  "subtitle": "any (p. 91)",
+  "pages": "91",
+  "timerMinutes": 10,
+  "introKo": "Section A는 any와 꾸밈 말, Section B는 any가 들어갈 위치를 고르기입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 any를 찾아 동그라미 하고 any가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "directionKo": "다음 문장에서 any를 찾아 동그라미 하고 any가 꾸며 주는 말을 찾아 밑줄을 치세요.",
+      "ruleKo": "동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 any가 들어갈 알맞은 위치에 동그라미 하세요. 알맞은 위치(①~③)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 any가 들어갈 알맞은 위치에 동그라미 하세요.",
+      "ruleKo": "알맞은 위치(①~③)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Do you have any brothers?",
+      "accept": [
+        "any|brothers"
+      ],
+      "blanks": 2,
+      "promptKo": "너는 남자 형제가 있니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "any / brothers",
+      "unordered": true,
+      "sectionInstructionKo": "다음 문장에서 any를 찾아 동그라미 하고 any가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "We don't have any tables.",
+      "accept": [
+        "any|tables"
+      ],
+      "blanks": 2,
+      "promptKo": "우리는 탁자가 하나도 없다.",
+      "unordered": true,
+      "sectionInstructionKo": "다음 문장에서 any를 찾아 동그라미 하고 any가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "I don't have any postcards.",
+      "accept": [
+        "any|postcards"
+      ],
+      "blanks": 2,
+      "promptKo": "나는 엽서가 하나도 없다.",
+      "unordered": true,
+      "sectionInstructionKo": "다음 문장에서 any를 찾아 동그라미 하고 any가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Do you know any doctors?",
+      "accept": [
+        "any|doctors"
+      ],
+      "blanks": 2,
+      "promptKo": "너는 의사를 알고 있니?",
+      "unordered": true,
+      "sectionInstructionKo": "다음 문장에서 any를 찾아 동그라미 하고 any가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Phil doesn't play any games.",
+      "accept": [
+        "any|games"
+      ],
+      "blanks": 2,
+      "promptKo": "필은 게임을 전혀 하지 않는다.",
+      "unordered": true,
+      "sectionInstructionKo": "다음 문장에서 any를 찾아 동그라미 하고 any가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요. (순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I don't have money.",
+      "choices": [
+        "① don't",
+        "② have",
+        "③ money"
+      ],
+      "accept": [
+        "③ money",
+        "3"
+      ],
+      "sectionInstructionKo": "다음 문장에서 any가 들어갈 알맞은 위치에 동그라미 하세요. 알맞은 위치(①~③)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Do you know actors?",
+      "choices": [
+        "① Do",
+        "② you know",
+        "③ actors"
+      ],
+      "accept": [
+        "③ actors",
+        "3"
+      ],
+      "sectionInstructionKo": "다음 문장에서 any가 들어갈 알맞은 위치에 동그라미 하세요. 알맞은 위치(①~③)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "We don't need oil.",
+      "choices": [
+        "① don't",
+        "② need",
+        "③ oil"
+      ],
+      "accept": [
+        "③ oil",
+        "3"
+      ],
+      "sectionInstructionKo": "다음 문장에서 any가 들어갈 알맞은 위치에 동그라미 하세요. 알맞은 위치(①~③)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Alice doesn't eat fish.",
+      "choices": [
+        "① doesn't",
+        "② eat",
+        "③ fish"
+      ],
+      "accept": [
+        "③ fish",
+        "3"
+      ],
+      "sectionInstructionKo": "다음 문장에서 any가 들어갈 알맞은 위치에 동그라미 하세요. 알맞은 위치(①~③)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Do they have peanuts?",
+      "choices": [
+        "① Do",
+        "② have",
+        "③ peanuts"
+      ],
+      "accept": [
+        "③ peanuts",
+        "3"
+      ],
+      "sectionInstructionKo": "다음 문장에서 any가 들어갈 알맞은 위치에 동그라미 하세요. 알맞은 위치(①~③)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ]
+}
