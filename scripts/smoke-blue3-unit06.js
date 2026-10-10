@@ -84,5 +84,25 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
   }
   console.log(f.padEnd(24), (d.practiceId || "").padEnd(26), "items", d.items.length, "ok", ok, "timer", d.timerMinutes);
 }
+// Spot checks from book audit (Review 1, Jump A15, Fly A two-blank items)
+const review = JSON.parse(fs.readFileSync(path.join(DATA, "review-06.json"), "utf8"));
+const r01 = review.items.find((it) => it.id === "r01");
+if (E.gradeItem(r01, { value: "③ was" })) {
+  bad++;
+  console.log("SPOT", "review-06 r01 must reject was");
+}
+const jump = JSON.parse(fs.readFileSync(path.join(DATA, "lesson01-jump.json"), "utf8"));
+const a15 = jump.items.find((it) => it.id === "a15");
+if (E.gradeItem(a15, { parts: ["wasn't"], value: "wasn't" })) {
+  bad++;
+  console.log("SPOT", "lesson01-jump a15 must reject wasn't alone");
+}
+const fly = JSON.parse(fs.readFileSync(path.join(DATA, "lesson01-fly.json"), "utf8"));
+const flyA10 = fly.items.find((it) => it.id === "a10");
+if ((flyA10.blanks || 1) < 2) {
+  bad++;
+  console.log("SPOT", "lesson01-fly a10 needs 2 blanks");
+}
+
 console.log(bad ? "FAILURES: " + bad : "ALL " + total + " ITEMS GRADE CORRECTLY (right=pass, wrong=fail)");
 process.exit(bad ? 1 : 0);

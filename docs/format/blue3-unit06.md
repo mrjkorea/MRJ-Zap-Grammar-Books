@@ -55,6 +55,7 @@ Blue 3 Unit 06 matches **Green-style lesson flow**: two lessons, each with **Wal
 
 ## Adaptation notes
 
+- **Jump B (PDF 148 / printed 147):** book misprints items 13–15 as “3 / 4 / 5”; data keeps **B13–B15** labels and correct sentence order (computer → comic books → Paul and Judy).
 - **Dual circle/underline tasks:** two blanks per item, `unordered: true` (subject + be / wh + verb).
 - **Match-the-line:** choices `a.`–`e.` in book order; MC `choice`.
 - **Section B not-position (walk2 L1):** student picks ①–④.

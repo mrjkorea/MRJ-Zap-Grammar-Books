@@ -78,9 +78,10 @@
       "label": "A1",
       "type": "fill",
       "promptEn": "You <u>was</u> at the bus stop.",
+      "promptKo": "너는 버스 정류장에 있었다.",
       "accept": [
         "were",
-        "were"
+        "Were"
       ],
       "example": true,
       "displayOnly": true,
@@ -96,9 +97,10 @@
       "label": "A2",
       "type": "fill",
       "promptEn": "I <u>were</u> a young boy then.",
+      "promptKo": "나는 그때 어린 남자아이였다.",
       "accept": [
         "was",
-        "was"
+        "Was"
       ]
     },
     {
@@ -111,9 +113,10 @@
       "label": "A3",
       "type": "fill",
       "promptEn": "The man <u>were</u> a famous singer.",
+      "promptKo": "그 남자는 유명한 가수였다.",
       "accept": [
         "was",
-        "was"
+        "Was"
       ]
     },
     {
@@ -126,9 +129,10 @@
       "label": "A4",
       "type": "fill",
       "promptEn": "Tom and Jerry <u>was</u> friends.",
+      "promptKo": "톰과 제리는 친구였다.",
       "accept": [
         "were",
-        "were"
+        "Were"
       ]
     },
     {
@@ -141,9 +145,10 @@
       "label": "A5",
       "type": "fill",
       "promptEn": "The dog <u>were</u> very big.",
+      "promptKo": "그 개는 무척 컸다.",
       "accept": [
         "was",
-        "was"
+        "Was"
       ]
     },
     {
@@ -156,9 +161,10 @@
       "label": "A6",
       "type": "fill",
       "promptEn": "They <u>was</u> in the pool.",
+      "promptKo": "그들은 수영장에 있었다.",
       "accept": [
         "were",
-        "were"
+        "Were"
       ]
     },
     {
@@ -171,9 +177,10 @@
       "label": "A7",
       "type": "fill",
       "promptEn": "We <u>are</u> at home yesterday.",
+      "promptKo": "우리는 어제 집에 있었다.",
       "accept": [
         "were",
-        "were"
+        "Were"
       ]
     },
     {
@@ -186,9 +193,10 @@
       "label": "A8",
       "type": "fill",
       "promptEn": "Kelly <u>were</u> not an elementary school student.",
+      "promptKo": "켈리는 초등학생이 아니었다.",
       "accept": [
-        "wasn't",
-        "was not"
+        "was",
+        "Was"
       ]
     },
     {
@@ -201,9 +209,10 @@
       "label": "A9",
       "type": "fill",
       "promptEn": "It <u>were</u> not so cold last winter.",
+      "promptKo": "지난 겨울은 그렇게 춥지 않았다.",
       "accept": [
-        "wasn't",
-        "was not"
+        "was",
+        "Was"
       ]
     },
     {
@@ -215,11 +224,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A10",
       "type": "fill",
-      "promptEn": "I <u>not was</u> in Seoul last month.",
+      "promptEn": "I ______ | ______ in Seoul last month.",
+      "promptKo": "나는 지난달에 서울에 있지 않았다.",
       "accept": [
+        "was|not",
         "wasn't",
         "was not"
-      ]
+      ],
+      "blanks": 2
     },
     {
       "id": "a11",
@@ -230,11 +242,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A11",
       "type": "fill",
-      "promptEn": "Her gimbap <u>were</u> not delicious.",
+      "promptEn": "Her gimbap ______ | ______ delicious.",
+      "promptKo": "그녀의 김밥은 맛있지 않았다.",
       "accept": [
+        "was|not",
         "wasn't",
         "was not"
-      ]
+      ],
+      "blanks": 2
     },
     {
       "id": "a12",
@@ -245,11 +260,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A12",
       "type": "fill",
-      "promptEn": "The women <u>not were</u> teachers.",
+      "promptEn": "The women ______ | ______ teachers.",
+      "promptKo": "그 여자들은 선생님이 아니었다.",
       "accept": [
+        "were|not",
         "weren't",
         "were not"
-      ]
+      ],
+      "blanks": 2
     },
     {
       "id": "a13",
@@ -261,9 +279,10 @@
       "label": "A13",
       "type": "fill",
       "promptEn": "Andrew <u>is</u> not a good cook last year.",
+      "promptKo": "앤드류는 지난해에 훌륭한 요리사가 아니었다.",
       "accept": [
-        "wasn't",
-        "was not"
+        "was",
+        "Was"
       ]
     },
     {
@@ -276,9 +295,10 @@
       "label": "A14",
       "type": "fill",
       "promptEn": "His fingers <u>was</u> very long.",
+      "promptKo": "그의 손가락들은 무척 길었다.",
       "accept": [
         "were",
-        "were"
+        "Were"
       ]
     },
     {
@@ -290,11 +310,14 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A15",
       "type": "fill",
-      "promptEn": "The movie <u>not was</u> sad.",
+      "promptEn": "The movie ______ | ______ sad.",
+      "promptKo": "그 영화는 슬프지 않았다.",
       "accept": [
+        "was|not",
         "wasn't",
         "was not"
-      ]
+      ],
+      "blanks": 2
     },
     {
       "id": "b01",
