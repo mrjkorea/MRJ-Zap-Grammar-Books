@@ -63,6 +63,37 @@
     return t ? t : EMPTY_ANSWER_KO;
   }
 
+  function unorderedBlankMarks(parts, acceptList, blanks, N) {
+    var pool = null;
+    for (var a = 0; a < acceptList.length; a++) {
+      var pattern = String(acceptList[a]);
+      if (pattern.indexOf("|") < 0) continue;
+      var exp = pattern.split("|");
+      if (exp.length === blanks) {
+        pool = exp;
+        break;
+      }
+    }
+    if (!pool) return null;
+    var used = [];
+    for (var u = 0; u < pool.length; u++) used.push(false);
+    var marks = [];
+    for (var b = 0; b < blanks; b++) {
+      var part = parts[b] || "";
+      var ok = false;
+      for (var j = 0; j < pool.length; j++) {
+        if (used[j]) continue;
+        if (N.matchAccept(part, [pool[j]])) {
+          ok = true;
+          used[j] = true;
+          break;
+        }
+      }
+      marks.push(ok);
+    }
+    return marks;
+  }
+
   /** Per-blank correctness when item is wrong; uses accept internally — never expose return to DOM as strings. */
   function perBlankMarks(item, response) {
     var blanks = item.blanks || 1;
@@ -78,6 +109,10 @@
     var parts = response.parts || [];
     while (parts.length < blanks) parts.push("");
     var acceptList = item.accept || [];
+    if (item.unordered) {
+      var uMarks = unorderedBlankMarks(parts, acceptList, blanks, N);
+      if (uMarks) return uMarks;
+    }
     var marks = [];
     for (var b = 0; b < blanks; b++) {
       var ok = false;
