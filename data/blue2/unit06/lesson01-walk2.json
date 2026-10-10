@@ -1,0 +1,336 @@
+{
+  "practiceId": "b2:u06:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 부사",
+  "subtitle": "형용사와 부사 (p. 144)",
+  "pages": "144",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 부사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 5문항(연결·고르기), Section B 9문항(부사 쓰기). B1 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 형용사에 알맞은 부사를 찾아 선으로 연결하세요. 알맞은 부사(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 형용사에 알맞은 부사를 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 부사(a~e)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 찾아 선으로 연결하세요. 알맞은 부사(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "1. fast",
+      "choices": [
+        "a. easily",
+        "b. early",
+        "c. fast",
+        "d. quietly",
+        "e. happily"
+      ],
+      "accept": [
+        "c. fast",
+        "3"
+      ],
+      "promptKo": "빠른 → 빨리"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 찾아 선으로 연결하세요. 알맞은 부사(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "2. quiet",
+      "choices": [
+        "a. easily",
+        "b. early",
+        "c. fast",
+        "d. quietly",
+        "e. happily"
+      ],
+      "accept": [
+        "d. quietly",
+        "4"
+      ],
+      "promptKo": "조용한 → 조용히"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 찾아 선으로 연결하세요. 알맞은 부사(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "3. easy",
+      "choices": [
+        "a. easily",
+        "b. early",
+        "c. fast",
+        "d. quietly",
+        "e. happily"
+      ],
+      "accept": [
+        "a. easily",
+        "1"
+      ],
+      "promptKo": "쉬운 → 쉽게"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 찾아 선으로 연결하세요. 알맞은 부사(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "4. happy",
+      "choices": [
+        "a. easily",
+        "b. early",
+        "c. fast",
+        "d. quietly",
+        "e. happily"
+      ],
+      "accept": [
+        "e. happily",
+        "5"
+      ],
+      "promptKo": "행복한 → 행복하게"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 찾아 선으로 연결하세요. 알맞은 부사(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "5. early",
+      "choices": [
+        "a. easily",
+        "b. early",
+        "c. fast",
+        "d. quietly",
+        "e. happily"
+      ],
+      "accept": [
+        "b. early",
+        "2"
+      ],
+      "promptKo": "이른 → 일찍"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "1. kind",
+      "accept": [
+        "kindly",
+        "Kindly"
+      ],
+      "promptKo": "친절한 → 친절하게",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "kindly"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "2. careful",
+      "accept": [
+        "carefully",
+        "Carefully"
+      ],
+      "promptKo": "조심하는 → 조심스럽게"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "3. busy",
+      "accept": [
+        "busily",
+        "Busily"
+      ],
+      "promptKo": "바쁜 → 바쁘게"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "4. high",
+      "accept": [
+        "high",
+        "High"
+      ],
+      "promptKo": "높은 → 높이"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "5. late",
+      "accept": [
+        "late",
+        "Late"
+      ],
+      "promptKo": "늦은 → 늦게"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "6. quick",
+      "accept": [
+        "quickly",
+        "Quickly"
+      ],
+      "promptKo": "빠른 → 빨리"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "7. lucky",
+      "accept": [
+        "luckily",
+        "Luckily"
+      ],
+      "promptKo": "운 좋은 → 운 좋게"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "8. bad",
+      "accept": [
+        "badly",
+        "Badly"
+      ],
+      "promptKo": "나쁜 → 나쁘게"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "9. good",
+      "accept": [
+        "well",
+        "Well"
+      ],
+      "promptKo": "좋은 → 잘"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 형용사에 알맞은 부사를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "10. slow",
+      "accept": [
+        "slowly",
+        "Slowly"
+      ],
+      "promptKo": "느린 → 천천히"
+    }
+  ]
+}
