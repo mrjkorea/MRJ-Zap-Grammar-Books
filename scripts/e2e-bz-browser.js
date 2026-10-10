@@ -110,10 +110,9 @@ async function runPractice(context, bookId, unitId, ex, mode) {
     }
     return it.accept[0];
   }
-  const failAllWrong = mode === "wrong" && graded.length <= 6;
   const answers = graded.map((it) => {
     let acc = pickAccept(it);
-    if (mode === "wrong" && (failAllWrong || it.id === graded[0].id)) {
+    if (mode === "wrong") {
       if (it.type === "mc") {
         const pick = respParts(it, acc);
         const ri = it.choices.indexOf(pick.value);
