@@ -1,0 +1,237 @@
+{
+  "practiceId": "b2:u02:lesson01-walk",
+  "title": "Lesson 01 Walk — 부정문",
+  "subtitle": "do not 위치 · don't (p. 37)",
+  "pages": "37",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
+  "sectionsVersion": 2,
+  "introKo": "Section A 4문항(동사), Section B 4문항(don't). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요.",
+      "ruleKo": "동그라미 친 동사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 줄임말을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I read books at night.",
+      "accept": [
+        "read"
+      ],
+      "promptKo": "나는 밤에 책을 읽는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "read"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "We eat snacks at 3 p.m.",
+      "accept": [
+        "eat",
+        "eat"
+      ],
+      "promptKo": "우리는 오후 3시에 간식을 먹는다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "They listen to the radio in the evening.",
+      "accept": [
+        "listen",
+        "listen"
+      ],
+      "promptKo": "그들은 저녁에 라디오를 듣는다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Terry and Cindy drink milk in the morning.",
+      "accept": [
+        "drink",
+        "drink"
+      ],
+      "promptKo": "테리와 신디는 아침에 우유를 마신다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 do not이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 동그라미 친 말(동사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Those children learn history at school.",
+      "accept": [
+        "learn",
+        "learn"
+      ],
+      "promptKo": "저 아이들은 학교에서 역사를 배운다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I <u>do not</u> play soccer.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "나는 축구를 하지 않는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "don't"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "We <u>do not</u> eat carrots.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "우리는 당근을 먹지 않는다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "These boys <u>do not</u> like cucumbers.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "이 남자아이들은 오이를 좋아하지 않는다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "They <u>do not</u> know her name.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "그들은 그녀의 이름을 모른다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Mina and Jiho <u>do not</u> live in a city.",
+      "accept": [
+        "don't",
+        "dont",
+        "Don't",
+        "Dont",
+        "do not",
+        "Do not"
+      ],
+      "promptKo": "미나와 지호는 도시에 살지 않는다."
+    }
+  ]
+}

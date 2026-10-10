@@ -1,0 +1,678 @@
+{
+  "practiceId": "b2:u02:lesson02-run",
+  "title": "Lesson 02 Run — 의문문",
+  "subtitle": "Do/Does · short answer (pp. 50–51)",
+  "pages": "50–51",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 15문항(고르기). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "directionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "( Do / Does ) you have a sister?",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Do",
+        "1"
+      ],
+      "promptKo": "너는 여동생이 있니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Do"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "( Do / Does ) Jake go to school?",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Do",
+        "1"
+      ],
+      "promptKo": "제이크는 학교에 가니?"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "Does she ( hate / hates ) frogs?",
+      "choices": [
+        "hate",
+        "hates"
+      ],
+      "accept": [
+        "hate",
+        "1"
+      ],
+      "promptKo": "그녀는 개구리를 싫어하니?"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Do they ( learn / learns ) science?",
+      "choices": [
+        "learn",
+        "learns"
+      ],
+      "accept": [
+        "learn",
+        "1"
+      ],
+      "promptKo": "그들은 과학을 배우니?"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "( Do / Does ) your brother ride a bike?",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Do",
+        "1"
+      ],
+      "promptKo": "너의 오빠는 자전거를 타니?"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Does Tom ( live / lives ) in Seoul?",
+      "choices": [
+        "live",
+        "lives"
+      ],
+      "accept": [
+        "live",
+        "1"
+      ],
+      "promptKo": "톰은 서울에 사니?"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "( Do / Does ) those girls play tennis?",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Do",
+        "1"
+      ],
+      "promptKo": "저 여자아이들은 테니스를 치니?"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "( Do / Does ) Phil know the firefighter?",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Do",
+        "1"
+      ],
+      "promptKo": "필은 그 소방관을 아니?"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Do they ( watch / watches ) television?",
+      "choices": [
+        "watch",
+        "watches"
+      ],
+      "accept": [
+        "watch",
+        "1"
+      ],
+      "promptKo": "그들은 텔레비전을 보니?"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "Does he ( make / makes ) spaghetti?",
+      "choices": [
+        "make",
+        "makes"
+      ],
+      "accept": [
+        "make",
+        "1"
+      ],
+      "promptKo": "그는 스파게티를 만들니?"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "( Do / Does ) her sister drink milk?",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Does",
+        "2"
+      ],
+      "promptKo": "그녀의 여동생은 우유를 마시니?"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "( Do / Does ) bears like honey?",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Do",
+        "1"
+      ],
+      "promptKo": "곰은 꿀을 좋아하니?"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "Does Park Jisung ( speak / speaks ) English well?",
+      "choices": [
+        "speak",
+        "speaks"
+      ],
+      "accept": [
+        "speak",
+        "1"
+      ],
+      "promptKo": "박지성은 영어를 잘 말하니?"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "( Do / Does ) they go on a picnic today?",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Do",
+        "1"
+      ],
+      "promptKo": "그들은 오늘 소풍을 가니?"
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "( Do / Does ) your mother read comic books?",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Does",
+        "2"
+      ],
+      "promptKo": "너의 어머니는 만화책을 읽니?"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Do you want some water?",
+      "choices": [
+        "Yes, you do.",
+        "Yes, I do."
+      ],
+      "accept": [
+        "Yes, I do.",
+        "2"
+      ],
+      "promptKo": "너는 물을 좀 원하니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Yes, I do."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Do the students have balls?",
+      "choices": [
+        "No, they don't.",
+        "No, they do."
+      ],
+      "accept": [
+        "No, they don't.",
+        "1"
+      ],
+      "promptKo": "학생들은 공을 가지고 있니?"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Does Jessica go shopping?",
+      "choices": [
+        "Yes, she is.",
+        "Yes, she does."
+      ],
+      "accept": [
+        "Yes, she does.",
+        "2"
+      ],
+      "promptKo": "제시카는 쇼핑하러 가니?"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Do they play golf?",
+      "choices": [
+        "No, they do.",
+        "No, they don't."
+      ],
+      "accept": [
+        "No, they don't.",
+        "2"
+      ],
+      "promptKo": "그들은 골프를 치니?"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Does a monkey like bananas?",
+      "choices": [
+        "Yes, it does.",
+        "Yes, they does."
+      ],
+      "accept": [
+        "Yes, it does.",
+        "1"
+      ],
+      "promptKo": "원숭이는 바나나를 좋아하니?"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "Do the ladies drink tea?",
+      "choices": [
+        "Yes, they do.",
+        "No, they do."
+      ],
+      "accept": [
+        "Yes, they do.",
+        "1"
+      ],
+      "promptKo": "그 여성들은 차를 마시니?"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "Does Jenny speak Korean?",
+      "choices": [
+        "No, she isn't.",
+        "Yes, she does."
+      ],
+      "accept": [
+        "Yes, she does.",
+        "2"
+      ],
+      "promptKo": "제니는 한국어를 말하니?"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Do these children play the piano?",
+      "choices": [
+        "Yes, they are.",
+        "Yes, they do."
+      ],
+      "accept": [
+        "Yes, they do.",
+        "2"
+      ],
+      "promptKo": "이 아이들은 피아노를 치니?"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "Does your sister clean her room?",
+      "choices": [
+        "Yes, she does.",
+        "Yes, she is."
+      ],
+      "accept": [
+        "Yes, she does.",
+        "1"
+      ],
+      "promptKo": "너의 여동생은 방을 청소하니?"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "Do they study math?",
+      "choices": [
+        "No, they aren't.",
+        "No, they don't."
+      ],
+      "accept": [
+        "No, they don't.",
+        "2"
+      ],
+      "promptKo": "그들은 수학을 공부하니?"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Does John use that computer?",
+      "choices": [
+        "Yes, he does.",
+        "No, he isn't."
+      ],
+      "accept": [
+        "Yes, he does.",
+        "1"
+      ],
+      "promptKo": "존은 그 컴퓨터를 사용하니?"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "Do you help your brother?",
+      "choices": [
+        "Yes, you do.",
+        "No, I don't."
+      ],
+      "accept": [
+        "No, I don't.",
+        "2"
+      ],
+      "promptKo": "너는 동생을 돕니?"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "Do the nurses know your mom?",
+      "choices": [
+        "Yes, they do.",
+        "Yes, they are."
+      ],
+      "accept": [
+        "Yes, they do.",
+        "1"
+      ],
+      "promptKo": "그 간호사들은 너의 엄마를 아니?"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "Does Mr. Park drive a car?",
+      "choices": [
+        "Yes, he is.",
+        "No, he doesn't."
+      ],
+      "accept": [
+        "No, he doesn't.",
+        "2"
+      ],
+      "promptKo": "박 선생님은 자동차를 운전하니?"
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "Does the bus stop here?",
+      "choices": [
+        "Yes, it does.",
+        "No, it isn't."
+      ],
+      "accept": [
+        "Yes, it does.",
+        "1"
+      ],
+      "promptKo": "그 버스는 여기에 멈추니?"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "practiceId": "b2:u02:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — 의문문",
+  "subtitle": "Does · 대답 연결 (p. 49)",
+  "pages": "49",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
+  "sectionsVersion": 2,
+  "introKo": "Section A 4문항(Does), Section B 4문항(고르기). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요.",
+      "directionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 대답(a~e)을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "John knows the writer.\n→ ______ John know the writer?",
+      "accept": [
+        "Does"
+      ],
+      "promptKo": "존은 그 작가를 안다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Does"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Do we have dinner here?",
+      "choices": [
+        "a. Yes, I do.",
+        "b. Yes, she does.",
+        "c. Yes, he does.",
+        "d. Yes, we do.",
+        "e. Yes, they do."
+      ],
+      "accept": [
+        "d. Yes, we do.",
+        "d"
+      ],
+      "promptKo": "우리는 여기서 저녁을 먹니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "d. Yes, we do."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "She cleans the house.\n→ ______ she clean the house?",
+      "accept": [
+        "Does"
+      ],
+      "promptKo": "그녀는 집을 청소한다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Kate washes the dishes.\n→ ______ Kate wash the dishes?",
+      "accept": [
+        "Does"
+      ],
+      "promptKo": "케이트는 설거지를 한다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Bill wants hot chocolate.\n→ ______ Bill want hot chocolate?",
+      "accept": [
+        "Does"
+      ],
+      "promptKo": "빌은 핫초코를 원한다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The boy swims after school.\n→ ______ the boy swim after school?",
+      "accept": [
+        "Does"
+      ],
+      "promptKo": "그 남자아이는 방과 후에 수영한다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Do they play soccer?",
+      "choices": [
+        "a. Yes, I do.",
+        "b. Yes, she does.",
+        "c. Yes, he does.",
+        "d. Yes, we do.",
+        "e. Yes, they do."
+      ],
+      "accept": [
+        "e. Yes, they do.",
+        "e"
+      ],
+      "promptKo": "그들은 축구를 하니?"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Do you like strawberries?",
+      "choices": [
+        "a. Yes, I do.",
+        "b. Yes, she does.",
+        "c. Yes, he does.",
+        "d. Yes, we do.",
+        "e. Yes, they do."
+      ],
+      "accept": [
+        "a. Yes, I do.",
+        "a"
+      ],
+      "promptKo": "너는 딸기를 좋아하니?"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Does your uncle speak French?",
+      "choices": [
+        "a. Yes, I do.",
+        "b. Yes, she does.",
+        "c. Yes, he does.",
+        "d. Yes, we do.",
+        "e. Yes, they do."
+      ],
+      "accept": [
+        "c. Yes, he does.",
+        "c"
+      ],
+      "promptKo": "너의 삼촌은 프랑스어를 말하니?"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Does Alice remember his face?",
+      "choices": [
+        "a. Yes, I do.",
+        "b. Yes, she does.",
+        "c. Yes, he does.",
+        "d. Yes, we do.",
+        "e. Yes, they do."
+      ],
+      "accept": [
+        "b. Yes, she does.",
+        "b"
+      ],
+      "promptKo": "앨리스는 그의 얼굴을 기억하니?"
+    }
+  ]
+}
