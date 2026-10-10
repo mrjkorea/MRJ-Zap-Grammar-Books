@@ -1,0 +1,541 @@
+{
+  "practiceId": "b4:u08:lesson01-jump",
+  "title": "Lesson 01 Jump — 수여동사와 감각동사",
+  "subtitle": "pp. 200–201",
+  "pages": "200–201",
+  "timerMinutes": 25,
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 여러 가지 동사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 15문항(한국어), Section B 7문항(전치사), Section C 5문항(감각동사).",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 전치사를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 전치사를 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "주어진 말과 알맞은 감각동사를 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말과 알맞은 감각동사를 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "I <u>gave Kelly the pencil</u>.\n→ _____",
+      "accept": [
+        "켈리에게 그 연필을 주었다",
+        "켈리에게 연필을 주었다"
+      ],
+      "blanks": 1,
+      "unordered": false,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "켈리에게 그 연필을 주었다"
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Dad <u>made us a treehouse</u>.\n→ _____",
+      "accept": [
+        "우리에게 나무 위의 오두막을 만들어 주었다",
+        "우리에게 나무위의 오두막을 만들어 주었다",
+        "우리에게 나무 위 오두막을 만들어 주었다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "The baby <u>looks sleepy</u>.\n→ _____",
+      "accept": [
+        "졸려 보인다",
+        "졸린 것 같다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "He <u>showed us his new backpack</u>.\n→ _____",
+      "accept": [
+        "우리에게 자기 새 배낭을 보여 주었다",
+        "우리에게 그의 새 배낭을 보여 주었다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Tim's aunt <u>bought him a robot</u>.\n→ _____",
+      "accept": [
+        "그에게 로봇을 하나 사 주었다",
+        "팀에게 로봇을 하나 사 주었다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a06",
+      "label": "A6",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "This pillow <u>feels soft</u>.\n→ _____",
+      "accept": [
+        "푹신하다",
+        "푹신한 느낌이 든다",
+        "부드럽다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a07",
+      "label": "A7",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "We <u>asked the boy his name</u>.\n→ _____",
+      "accept": [
+        "그 소년에게 그의 이름을 물어보았다",
+        "그 아이에게 그의 이름을 물어보았다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a08",
+      "label": "A8",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "My brother <u>brought me my cap</u>.\n→ _____",
+      "accept": [
+        "나에게 내 모자를 가져다주었다",
+        "나에게 내 모자를 가져다 주었다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a09",
+      "label": "A9",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "The shirt <u>smells bad</u>.\n→ _____",
+      "accept": [
+        "냄새가 나쁘다",
+        "냄새가 안 좋다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "I <u>passed Mike the ball</u>.\n→ _____",
+      "accept": [
+        "마이크에게 공을 건네주었다",
+        "마이크에게 공을 건네 줬다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Jisung often <u>lends me his books</u>.\n→ _____",
+      "accept": [
+        "나에게 자기 책을 빌려 준다",
+        "나에게 그의 책을 빌려 준다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Your voice <u>sounds good</u>.\n→ _____",
+      "accept": [
+        "좋게 들린다",
+        "듣기 좋다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a13",
+      "label": "A13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "They <u>sent me e-mail</u>.\n→ _____",
+      "accept": [
+        "나에게 이메일을 보냈다",
+        "나에게 e-mail을 보냈다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a14",
+      "label": "A14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "She <u>reads her baby a fairy tale</u>.\n→ _____",
+      "accept": [
+        "아기에게 동화를 읽어 주었다",
+        "그녀의 아기에게 동화를 읽어 주었다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "a15",
+      "label": "A15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "This cake <u>tastes sweet</u>.\n→ _____",
+      "accept": [
+        "달다",
+        "단 맛이 난다",
+        "맛이 달다"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 전치사를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Mandy gave some bananas _____ the monkey.",
+      "accept": [
+        "to"
+      ],
+      "blanks": 1,
+      "unordered": false,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "to"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 전치사를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Ted showed the magazine _____ us.",
+      "accept": [
+        "to"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 전치사를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "We asked the way _____ a girl.",
+      "accept": [
+        "of"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 전치사를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "I often buy some roses _____ my mother.",
+      "accept": [
+        "for"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 전치사를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "Jimmy told the news _____ them.",
+      "accept": [
+        "to"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "b06",
+      "label": "B6",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 전치사를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "My sister made a sandwich _____ me.",
+      "accept": [
+        "for"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "b07",
+      "label": "B7",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 전치사를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "They sent a postcard _____ her yesterday.",
+      "accept": [
+        "to"
+      ],
+      "blanks": 1,
+      "unordered": false
+    },
+    {
+      "id": "c01",
+      "label": "C1",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 말과 알맞은 감각동사를 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "The shirt _____ _____. (tight)",
+      "accept": [
+        "looks|tight"
+      ],
+      "blanks": 2,
+      "unordered": false,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "looks tight"
+    },
+    {
+      "id": "c02",
+      "label": "C2",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 말과 알맞은 감각동사를 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "This shampoo _____ _____. (good)",
+      "accept": [
+        "smells|good"
+      ],
+      "blanks": 2,
+      "unordered": false
+    },
+    {
+      "id": "c03",
+      "label": "C3",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 말과 알맞은 감각동사를 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "This apple _____ _____. (sour)",
+      "accept": [
+        "tastes|sour"
+      ],
+      "blanks": 2,
+      "unordered": false
+    },
+    {
+      "id": "c04",
+      "label": "C4",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 말과 알맞은 감각동사를 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "They _____ _____. (tired)",
+      "accept": [
+        "feel|tired"
+      ],
+      "blanks": 2,
+      "unordered": false
+    },
+    {
+      "id": "c05",
+      "label": "C5",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 말과 알맞은 감각동사를 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "type": "fill",
+      "promptEn": "His voice _____ _____. (strange)",
+      "accept": [
+        "sounded|strange",
+        "sounds|strange"
+      ],
+      "blanks": 2,
+      "unordered": false
+    }
+  ]
+}
