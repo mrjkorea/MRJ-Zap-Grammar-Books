@@ -470,11 +470,10 @@
       "label": "15",
       "id": "q15",
       "type": "fill",
-      "promptEn": "이 기차는 저 기차보다 천천히 달린다.\nThis train runs ______ ______ that train. (slowly)",
-      "blanks": 2,
+      "promptEn": "이 기차는 저 기차보다 천천히 달린다.\nThis train runs ______ ______ ______ that train. (slowly)",
+      "blanks": 3,
       "accept": [
-        "more|slowly",
-        "more slowly|than"
+        "more|slowly|than"
       ],
       "promptKo": "이 기차는 저 기차보다 천천히 달린다."
     },

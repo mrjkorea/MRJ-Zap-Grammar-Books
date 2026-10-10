@@ -59,8 +59,4 @@ Page map uses **PDF page** (image `pNNNN.png`). **Printed page ≈ PDF − 1** u
 | `review-04.json` | 20 |
 | **Total** | **238** |
 
-## Build
-
-Source: `/tmp/blue4-pages/blue4/pages/` OCR + page images. Regenerate JSON:
-
-```bash
+Smoke: `node scripts/smoke-blue4-unit04.js`
