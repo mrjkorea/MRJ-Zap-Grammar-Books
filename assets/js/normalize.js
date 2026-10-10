@@ -133,26 +133,8 @@
     return false;
   }
 
-  function permMatches(users, exp) {
-    if (users.length !== exp.length) return false;
-    if (!users.length) return true;
-    var used = {};
-    function go(i) {
-      if (i >= users.length) return true;
-      for (var e = 0; e < exp.length; e++) {
-        if (used[e]) continue;
-        if (!matchOne(users[i], exp[e])) continue;
-        used[e] = true;
-        if (go(i + 1)) return true;
-        used[e] = false;
-      }
-      return false;
-    }
-    return go(0);
-  }
-
   /** Multi-blank: users[] and accept entry like "are|no" or full phrase */
-  function matchBlanks(users, acceptList, unordered) {
+  function matchBlanks(users, acceptList) {
     users = users || [];
     if (!acceptList || !acceptList.length) return false;
     for (var i = 0; i < acceptList.length; i++) {
@@ -160,7 +142,6 @@
       if (pattern.indexOf("|") >= 0 && users.length > 1) {
         var exp = pattern.split("|");
         if (exp.length === users.length) {
-          if (unordered && permMatches(users, exp)) return true;
           var ok = true;
           for (var b = 0; b < exp.length; b++) {
             if (!matchOne(users[b], exp[b])) ok = false;
@@ -170,6 +151,55 @@
       }
       if (users.length === 1 && matchAccept(users[0], acceptList[i])) return true;
       if (users.length > 1 && matchAccept(users.join(" "), acceptList[i])) return true;
+    }
+    return false;
+  }
+
+  function permuteIndices(n) {
+    var arr = [];
+    for (var i = 0; i < n; i++) arr.push(i);
+    var out = [];
+    function perm(a, k) {
+      if (k === 1) {
+        out.push(a.slice());
+        return;
+      }
+      for (var j = 0; j < k; j++) {
+        perm(a, k - 1);
+        var swap = k % 2 ? 0 : j;
+        var t = a[swap];
+        a[swap] = a[k - 1];
+        a[k - 1] = t;
+      }
+    }
+    perm(arr, n);
+    return out;
+  }
+
+  function matchBlankTuple(users, exp) {
+    if (users.length !== exp.length) return false;
+    for (var b = 0; b < exp.length; b++) {
+      if (!matchOne(users[b], exp[b])) return false;
+    }
+    return true;
+  }
+
+  /** Multi-blank, any order: some permutation of users matches a pipe-separated accept tuple */
+  function matchBlanksUnordered(users, acceptList) {
+    users = users || [];
+    if (!acceptList || !acceptList.length || !users.length) return false;
+    for (var i = 0; i < acceptList.length; i++) {
+      var pattern = String(acceptList[i]);
+      if (pattern.indexOf("|") < 0) continue;
+      var exp = pattern.split("|");
+      if (exp.length !== users.length) continue;
+      var perms = permuteIndices(exp.length);
+      for (var p = 0; p < perms.length; p++) {
+        var perm = perms[p];
+        var ordered = [];
+        for (var u = 0; u < users.length; u++) ordered.push(users[perm[u]]);
+        if (matchBlankTuple(ordered, exp)) return true;
+      }
     }
     return false;
   }
@@ -197,6 +227,7 @@
     normalizePhrase: normalizePhrase,
     matchAccept: matchAccept,
     matchBlanks: matchBlanks,
+    matchBlanksUnordered: matchBlanksUnordered,
     matchMc: matchMc,
   };
 })(window);
