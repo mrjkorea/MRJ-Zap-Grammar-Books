@@ -117,10 +117,11 @@
       "type": "fill",
       "promptEn": "<u>Which</u> season <u>does</u> you like?",
       "accept": [
-        "do",
-        "do"
+        "What|do",
+        "what|do"
       ],
       "promptKo": "어느 계절을 좋아하니?",
+      "blanks": 2,
       "example": false,
       "displayOnly": false,
       "exampleAnswer": null

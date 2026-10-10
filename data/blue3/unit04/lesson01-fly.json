@@ -113,9 +113,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "<u>Who rulers</u> are these?",
+      "promptEn": "<u>Who</u> <u>rulers</u> are these?",
       "accept": [
-        "Whose rulers"
+        "Whose rulers",
+        "whose rulers",
+        "Whose",
+        "whose"
       ],
       "promptKo": "이것들은 누구의 자니?",
       "example": false,
