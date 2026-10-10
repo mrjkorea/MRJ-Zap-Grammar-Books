@@ -82,8 +82,10 @@
       "promptEn": "It is cloudy today.",
       "promptKo": "오늘은 _____다.",
       "accept": [
+        "흐리다",
         "흐리",
         "흐려",
+        "구름이 많다",
         "구름이 많"
       ],
       "example": true,
@@ -237,7 +239,8 @@
       "accept": [
         "춥다",
         "추워",
-        "춥"
+        "춥",
+        "추운"
       ]
     },
     {
@@ -354,11 +357,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "____ is ____ . ( twelve, o'clock )",
+      "promptEn": "____ is ____ ____ . ( twelve, o'clock )",
       "promptKo": "정각 12시다.",
-      "blanks": 4,
+      "blanks": 3,
       "accept": [
-        "It|is|twelve|o'clock"
+        "It|twelve|o'clock"
       ]
     },
     {
@@ -372,9 +375,9 @@
       "type": "fill",
       "promptEn": "____ is ____ in spring. ( warm )",
       "promptKo": "봄에는 날씨가 따뜻하다.",
-      "blanks": 3,
+      "blanks": 2,
       "accept": [
-        "It|is|warm"
+        "It|warm"
       ]
     },
     {
@@ -386,11 +389,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "____ is the ____ of September. ( twelfth )",
+      "promptEn": "____ is ____ the ____ . ( twelfth, September )",
       "promptKo": "9월 12일이다.",
       "blanks": 3,
       "accept": [
-        "It|is|twelfth"
+        "It|twelfth|September"
       ]
     },
     {
@@ -404,9 +407,9 @@
       "type": "fill",
       "promptEn": "____ is ____ a break. ( for, time )",
       "promptKo": "쉬는 시간이다.",
-      "blanks": 4,
+      "blanks": 2,
       "accept": [
-        "It|is|time|for"
+        "It|time"
       ]
     },
     {
@@ -418,11 +421,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B6",
       "type": "fill",
-      "promptEn": "____ is time ____ e-mail. ( send, to )",
+      "promptEn": "____ is time ____ ____ e-mail. ( send, to )",
       "promptKo": "이메일을 보내야 할 시간이다.",
-      "blanks": 4,
+      "blanks": 3,
       "accept": [
-        "It|is|to|send"
+        "It|to|send"
       ]
     },
     {
@@ -452,9 +455,9 @@
       "type": "fill",
       "promptEn": "____ is ____ today. ( sunny )",
       "promptKo": "오늘은 화창하다.",
-      "blanks": 3,
+      "blanks": 2,
       "accept": [
-        "It|is|sunny"
+        "It|sunny"
       ]
     },
     {
@@ -468,9 +471,9 @@
       "type": "fill",
       "promptEn": "____ is the ____ of ____ . ( November, seventh )",
       "promptKo": "11월 7일이다.",
-      "blanks": 6,
+      "blanks": 3,
       "accept": [
-        "It|is|the|seventh|of|November"
+        "It|seventh|November"
       ]
     },
     {
@@ -484,9 +487,9 @@
       "type": "fill",
       "promptEn": "____ is ____ . ( seventeen, ten )",
       "promptKo": "10시 17분이다.",
-      "blanks": 4,
+      "blanks": 2,
       "accept": [
-        "It|is|ten|seventeen"
+        "It|ten seventeen"
       ]
     },
     {
@@ -498,11 +501,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B11",
       "type": "fill",
-      "promptEn": "____ is time ____ new sneakers. ( buy, to )",
+      "promptEn": "____ is time ____ ____ new sneakers. ( buy, to )",
       "promptKo": "새 운동화를 살 때이다.",
-      "blanks": 5,
+      "blanks": 3,
       "accept": [
-        "It|is|time|to|buy"
+        "It|to|buy"
       ]
     },
     {
@@ -514,11 +517,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B12",
       "type": "fill",
-      "promptEn": "____ is ____ today? ( day, what )",
+      "promptEn": "____ ____ is ____ today? ( day, what )",
       "promptKo": "오늘은 무슨 요일이니?",
-      "blanks": 4,
+      "blanks": 3,
       "accept": [
-        "What|day|is|it"
+        "What|day|it"
       ]
     },
     {
@@ -532,9 +535,9 @@
       "type": "fill",
       "promptEn": "____ is ____ outside. ( raining )",
       "promptKo": "밖에 비가 온다.",
-      "blanks": 3,
+      "blanks": 2,
       "accept": [
-        "It|is|raining"
+        "It|raining"
       ]
     },
     {
@@ -546,11 +549,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B14",
       "type": "fill",
-      "promptEn": "____ is time for his birthday party.",
+      "promptEn": "____ is time for his ____ ____ . ( birthday party )",
       "promptKo": "그의 생일 파티를 할 시간이다.",
       "blanks": 3,
       "accept": [
-        "It|is|time"
+        "It|birthday|party"
       ]
     },
     {
@@ -564,9 +567,9 @@
       "type": "fill",
       "promptEn": "____ is ____ today. ( Thursday )",
       "promptKo": "오늘은 목요일이다.",
-      "blanks": 3,
+      "blanks": 2,
       "accept": [
-        "It|is|Thursday"
+        "It|Thursday"
       ]
     }
   ]
