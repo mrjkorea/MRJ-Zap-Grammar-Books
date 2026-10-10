@@ -38,13 +38,13 @@ PDF pages **185–211** (printed **184–210**). Unit 02+ layout: **two lessons*
 
 | Practice | Pages (printed) | Graded items | Sections | Modes |
 |----------|-----------------|-------------|----------|-------|
-| lesson01-walk | 187–188 | 10 | A×5, B×5 | words (2-blank unordered), choice |
-| lesson01-walk2 | 189 | 10 | A×5, B×5 | words (2-blank unordered), choice |
+| lesson01-walk | 187–188 | 10 | A×5, B×5 | words (2-blank 주어→be동사), choice |
+| lesson01-walk2 | 189 | 10 | A×5, B×5 | words (2-blank 주어→be동사), choice |
 | lesson01-run | 190–191 | 28 | A×14, B×14 | choice |
 | lesson01-jump | 192–193 | 28 | A×14, B×14 | words |
 | lesson01-fly | 194–195 | 28 | A×14, B×14 | sentence, words (2-blank) |
-| lesson02-walk | 197–198 | 10 | A×5, B×5 | words (2-blank unordered), choice |
-| lesson02-walk2 | 199 | 10 | A×5, B×5 | words (2-blank unordered), choice |
+| lesson02-walk | 197–198 | 10 | A×5, B×5 | words (2-blank 주어→be동사), choice |
+| lesson02-walk2 | 199 | 10 | A×5, B×5 | words (2-blank 주어→be동사), choice |
 | lesson02-run | 200–201 | 28 | A×14, B×14 | choice |
 | lesson02-jump | 202–203 | 28 | A×14, B×14 | words |
 | lesson02-fly | 204–205 | 28 | A×14, B×14 | words, words (2-blank) |
@@ -54,4 +54,4 @@ Timers: Walk 10m, Run 19m, Jump 23m, Fly 26m, Review 30m.
 
 ## Engine note
 
-Walk Section A uses `blanks: 2`, `unordered: true` (subject + be-verb). Supported in `normalize.js` / `engine.js` on this branch.
+Walk Section A uses `blanks: 2`, ordered `accept` (`주어|be동사`), optional `blankPartLabels: ["주어","be동사"]`. `unordered: true` is for same-role multi-answers only (e.g. circle every noun), not subject vs be-verb.

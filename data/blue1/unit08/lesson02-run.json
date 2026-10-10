@@ -367,16 +367,16 @@
       "type": "mc",
       "promptEn": "Is Alice a student?",
       "choices": [
-        "Yes, she is.",
-        "Yes, it is."
+        "Yes, it is.",
+        "Yes, she is."
       ],
       "accept": [
-        "Yes, it is.",
+        "Yes, she is.",
         "2"
       ],
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "Yes, it is."
+      "exampleAnswer": "Yes, she is."
     },
     {
       "id": "b02",
@@ -427,11 +427,11 @@
       "type": "mc",
       "promptEn": "Is your father tall?",
       "choices": [
-        "No, he isn't.",
-        "No, they aren't."
+        "No, they aren't.",
+        "No, he isn't."
       ],
       "accept": [
-        "No, they aren't.",
+        "No, he isn't.",
         "2"
       ]
     },
@@ -503,11 +503,11 @@
       "type": "mc",
       "promptEn": "Are Minho and I diligent?",
       "choices": [
-        "Yes, you are.",
-        "Yes, we are."
+        "Yes, we are.",
+        "Yes, you are."
       ],
       "accept": [
-        "Yes, we are.",
+        "Yes, you are.",
         "2"
       ]
     },
@@ -522,11 +522,11 @@
       "type": "mc",
       "promptEn": "Are you and Paul brothers?",
       "choices": [
-        "No, we aren't.",
-        "No, you aren't."
+        "No, you aren't.",
+        "No, we aren't."
       ],
       "accept": [
-        "No, you aren't.",
+        "No, we aren't.",
         "2"
       ]
     },
@@ -560,11 +560,11 @@
       "type": "mc",
       "promptEn": "Are you and Emma friends?",
       "choices": [
-        "Yes, we are.",
-        "Yes, you are."
+        "Yes, you are.",
+        "Yes, we are."
       ],
       "accept": [
-        "Yes, you are.",
+        "Yes, we are.",
         "2"
       ]
     },
@@ -617,12 +617,12 @@
       "type": "mc",
       "promptEn": "Are you and Nick in the room?",
       "choices": [
-        "No, we aren't.",
-        "No, you aren't."
+        "No, you aren't.",
+        "No, we aren't."
       ],
       "accept": [
         "No, we aren't.",
-        "1"
+        "2"
       ]
     },
     {
@@ -636,11 +636,11 @@
       "type": "mc",
       "promptEn": "Are Ann and Tom 10 years old?",
       "choices": [
-        "Yes, they are.",
-        "Yes, we are."
+        "Yes, we are.",
+        "Yes, they are."
       ],
       "accept": [
-        "Yes, we are.",
+        "Yes, they are.",
         "2"
       ]
     }

@@ -367,16 +367,16 @@
       "type": "mc",
       "promptEn": "Are you a student?",
       "choices": [
-        "Yes, I am.",
-        "Yes, you are."
+        "Yes, you are.",
+        "Yes, I am."
       ],
       "accept": [
-        "Yes, you are.",
+        "Yes, I am.",
         "2"
       ],
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "Yes, you are."
+      "exampleAnswer": "Yes, I am."
     },
     {
       "id": "b02",
@@ -408,11 +408,11 @@
       "type": "mc",
       "promptEn": "Am I late?",
       "choices": [
-        "Yes, you are.",
-        "Yes, I am."
+        "Yes, I am.",
+        "Yes, you are."
       ],
       "accept": [
-        "Yes, I am.",
+        "Yes, you are.",
         "2"
       ]
     },
@@ -427,12 +427,12 @@
       "type": "mc",
       "promptEn": "Is it your bed?",
       "choices": [
-        "No, it isn't.",
-        "No, isn't it."
+        "No, isn't it.",
+        "No, it isn't."
       ],
       "accept": [
         "No, it isn't.",
-        "1"
+        "2"
       ]
     },
     {
@@ -465,11 +465,11 @@
       "type": "mc",
       "promptEn": "Are we short?",
       "choices": [
-        "No, we aren't.",
-        "No, you aren't."
+        "No, you aren't.",
+        "No, we are."
       ],
       "accept": [
-        "No, we aren't.",
+        "No, you aren't.",
         "1"
       ]
     },
@@ -484,11 +484,11 @@
       "type": "mc",
       "promptEn": "Are we handsome?",
       "choices": [
-        "Yes, you are.",
-        "Yes, they are."
+        "Yes, they are.",
+        "Yes, you are."
       ],
       "accept": [
-        "Yes, they are.",
+        "Yes, you are.",
         "2"
       ]
     },
@@ -503,11 +503,11 @@
       "type": "mc",
       "promptEn": "Are they his parents?",
       "choices": [
-        "Yes, they are.",
-        "Yes, they aren't."
+        "Yes, they aren't.",
+        "Yes, they are."
       ],
       "accept": [
-        "Yes, they aren't.",
+        "Yes, they are.",
         "2"
       ]
     },
@@ -541,11 +541,11 @@
       "type": "mc",
       "promptEn": "Are these your socks?",
       "choices": [
-        "Yes, they are.",
-        "Yes, it is."
+        "Yes, it is.",
+        "Yes, they are."
       ],
       "accept": [
-        "Yes, it is.",
+        "Yes, they are.",
         "2"
       ]
     },
@@ -579,12 +579,12 @@
       "type": "mc",
       "promptEn": "Are you sick?",
       "choices": [
-        "No, I'm not.",
-        "No, you aren't."
+        "No, you aren't.",
+        "No, I'm not."
       ],
       "accept": [
         "No, I'm not.",
-        "1"
+        "2"
       ]
     },
     {
@@ -598,12 +598,12 @@
       "type": "mc",
       "promptEn": "Are they their dogs?",
       "choices": [
-        "No, they aren't.",
-        "Yes, they aren't."
+        "Yes, they aren't.",
+        "No, they aren't."
       ],
       "accept": [
         "No, they aren't.",
-        "1"
+        "2"
       ]
     },
     {
