@@ -68,3 +68,7 @@ Same pipeline as Green: `program=greenzap`, `source=greenzap`, `app_name` = book
 ## Excluded from repo
 
 Page images, OCR text, and answer keys are **not** committed (public repo).
+
+## Blue 4+ (Walk / Run / Jump / Fly)
+
+Later Blue books (e.g. **Blue 4 Unit 07 — 부가 의문문**) follow a **Green-like** lesson flow: two lessons per unit, each with **Walk** (often two pages → `lessonNN-walk1`, `lessonNN-walk2`), **Run**, **Jump**, **Fly**, then **Review NN**. See `docs/format/zap-blue-4-unit07.md` for the Unit 07 page map.
