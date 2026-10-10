@@ -231,18 +231,18 @@
       "type": "fill",
       "promptEn": "A: Where is Jim going to run this morning?\nB: He is going <u>runs</u> in the park.",
       "accept": [
-        "to|run"
+        "going|to|run"
       ],
+      "blanks": 3,
       "example": false,
       "displayOnly": false,
-      "exampleAnswer": "to run",
+      "exampleAnswer": "going / to / run",
       "section": "A",
       "sectionTitle": "Section A",
       "sectionInstructionKo": "Section A 다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "promptKo": "밑줄 친 부분을 고쳐 쓰세요.",
-      "blanks": 2
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
     },
     {
       "id": "a11",
