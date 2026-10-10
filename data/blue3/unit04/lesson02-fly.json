@@ -1,0 +1,601 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 의문사 (1)",
+  "practiceId": "b3:u04:lesson02-fly",
+  "title": "Lesson 02 Fly — what, which",
+  "subtitle": "Grammar Fly (pp. 106–107)",
+  "pages": "106–107",
+  "timerMinutes": 28,
+  "sectionsVersion": 2,
+  "introKo": "Section A는 밑줄 고친 말만, Section B는 대화 빈칸(여러 칸 가능). 1번 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "What <u>are</u> this?",
+      "accept": [
+        "is",
+        "is"
+      ],
+      "promptKo": "이것은 무엇이니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "<u>Which</u> does she do after dinner?",
+      "accept": [
+        "What",
+        "what"
+      ],
+      "promptKo": "저녁 식사 후에 무엇을 하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "<u>Which</u> season <u>does</u> you like?",
+      "accept": [
+        "What|do",
+        "what|do"
+      ],
+      "promptKo": "어느 계절을 좋아하니?",
+      "blanks": 2,
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "<u>What</u> do you like, ham or cheese?",
+      "accept": [
+        "Which",
+        "which"
+      ],
+      "promptKo": "햄과 치즈 중 어느 것을 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "<u>Which</u> time is it now?",
+      "accept": [
+        "What time",
+        "what time"
+      ],
+      "promptKo": "지금 몇 시니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "What <u>are</u> the girl's name?",
+      "accept": [
+        "is",
+        "is"
+      ],
+      "promptKo": "그 여자아이의 이름이 무엇이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "<u>What</u> is your paintbrush?",
+      "accept": [
+        "Which",
+        "which"
+      ],
+      "promptKo": "어느 것이 네 붓이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "What <u>do</u> he cook for dinner?",
+      "accept": [
+        "does",
+        "does"
+      ],
+      "promptKo": "저녁으로 무엇을 요리하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "<u>Which</u> is the date today?",
+      "accept": [
+        "What",
+        "what"
+      ],
+      "promptKo": "오늘은 며칠이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "<u>What</u> cat is Tabby?",
+      "accept": [
+        "Which",
+        "which"
+      ],
+      "promptKo": "어느 고양이가 태비니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "<u>What</u> does Jenny want, this or that?",
+      "accept": [
+        "Which",
+        "which"
+      ],
+      "promptKo": "이것과 저것 중 어느 것을 원하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "<u>What</u> box is heavy?",
+      "accept": [
+        "Which",
+        "which"
+      ],
+      "promptKo": "어느 상자가 무겁니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "What <u>does</u> they usually wear?",
+      "accept": [
+        "do",
+        "do"
+      ],
+      "promptKo": "그들은 보통 무엇을 입니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "<u>Which</u> does Mr. Simson sell?",
+      "accept": [
+        "What",
+        "what"
+      ],
+      "promptKo": "심슨 씨는 무엇을 파니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "What <u>is</u> those?",
+      "accept": [
+        "are",
+        "are"
+      ],
+      "promptKo": "저것들은 무엇이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "A: What is this?\nB: It's soap.",
+      "accept": [
+        "What|is"
+      ],
+      "promptKo": "이것은 무엇이니?",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "A: _____ _____ Jim's bag?\nB: The black one is Jim's.",
+      "accept": [
+        "Which|is"
+      ],
+      "promptKo": "어느 것이 짐의 가방이니?",
+      "blanks": 2
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "A: _____ is that?\nB: It's a parrot.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "저것은 무엇이니?",
+      "blanks": 1
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A: _____ is your brother's name?\nB: It's Minsu.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "네 남동생의 이름이 무엇이니?",
+      "blanks": 1
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "A: _____ does Cathy do on Saturday?\nB: She reads books.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "토요일에 무엇을 하니?",
+      "blanks": 1
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A: _____ are those flowers?\nB: They are roses.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "저 꽃들은 무엇이니?",
+      "blanks": 1
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A: _____ do you eat for breakfast?\nB: I eat some toast and milk.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "아침으로 무엇을 먹니?",
+      "blanks": 1
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "A: _____ do you like, juice or cola?\nB: I like cola.",
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "주스와 콜라 중 어느 것을 좋아하니?",
+      "blanks": 1
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "A: _____ do they fix?\nB: They fix computers.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "그들은 무엇을 수리하니?",
+      "blanks": 1
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "A: _____ sport does he enjoy?\nB: He enjoys basketball.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "무슨 운동을 즐기니?",
+      "blanks": 1
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "A: _____ subject does Ms. Kim teach?\nB: She teaches history.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "김 선생님은 무슨 과목을 가르치시니?",
+      "blanks": 1
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "A: _____ color is your skirt?\nB: It's red.",
+      "accept": [
+        "What"
+      ],
+      "promptKo": "네 치마는 무슨 색이니?",
+      "blanks": 1
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "A: _____ dress is pretty?\nB: The yellow one is pretty.",
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "어느 드레스가 예쁘니?",
+      "blanks": 1
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "A: _____ shoes are yours?\nB: The blue ones are mine.",
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "어느 신발이 네 것이니?",
+      "blanks": 1
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "A: _____ car is his?\nB: That white one is his.",
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "어느 차가 그의 것이니?",
+      "blanks": 1
+    }
+  ]
+}

@@ -74,7 +74,6 @@
           return false;
         }
         if (N.matchBlanks(response.parts, item.accept)) return true;
-        if (N.matchAccept(response.parts.join(" "), item.accept)) return true;
         return false;
       }
       return N.matchAccept(response.value, item.accept);

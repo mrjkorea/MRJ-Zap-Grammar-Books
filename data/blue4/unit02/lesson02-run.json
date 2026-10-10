@@ -1,0 +1,671 @@
+{
+  "practiceId": "b4:u02:lesson02-run",
+  "title": "Lesson 02 Run — 미래 시제 will",
+  "subtitle": "의문문 어순 · 대답 고르기 (pp. 50–51)",
+  "pages": "50–51",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 미래 시제 will",
+  "sectionsVersion": 2,
+  "introKo": "Section A 15문항, Section B 14문항(고르기).",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "Will you ( feed / feeds ) your puppy?",
+      "choices": [
+        "feed",
+        "feeds"
+      ],
+      "accept": [
+        "1",
+        "feed"
+      ],
+      "promptKo": "너는 강아지에게 먹이를 줄 거니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "feed"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "Will ( learn she / she learn ) yoga next month?",
+      "choices": [
+        "learn she",
+        "she learn"
+      ],
+      "accept": [
+        "1",
+        "she learn",
+        "2"
+      ],
+      "promptKo": "그녀는 다음 달에 요가를 배울 거니?"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "Will ( go your dad / your dad go ) fishing this weekend?",
+      "choices": [
+        "go your dad",
+        "your dad go"
+      ],
+      "accept": [
+        "1",
+        "your dad go",
+        "2"
+      ],
+      "promptKo": "너희 아빠는 이번 주말에 낚시하러 갈 거니?"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Will ( they arrive / arrive they ) at five p.m.?",
+      "choices": [
+        "they arrive",
+        "arrive they"
+      ],
+      "accept": [
+        "1",
+        "they arrive"
+      ],
+      "promptKo": "그들은 오후 5시에 도착할 거니?"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "( Check will he / Will he check ) his e-mail tonight?",
+      "choices": [
+        "Check will he",
+        "Will he check"
+      ],
+      "accept": [
+        "1",
+        "Will he check",
+        "2"
+      ],
+      "promptKo": "그는 오늘 밤 이메일을 확인할 거니?"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "( What will / Will what ) you draw?",
+      "choices": [
+        "What will",
+        "Will what"
+      ],
+      "accept": [
+        "1",
+        "What will"
+      ],
+      "promptKo": "너는 무엇을 그릴 거니?"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "( Will who / Who will ) you meet this Saturday?",
+      "choices": [
+        "Will who",
+        "Who will"
+      ],
+      "accept": [
+        "1",
+        "Who will",
+        "2"
+      ],
+      "promptKo": "너는 이번 토요일에 누구를 만날 거니?"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "When ( the concert will / will the concert ) begin?",
+      "choices": [
+        "the concert will",
+        "will the concert"
+      ],
+      "accept": [
+        "1",
+        "will the concert",
+        "2"
+      ],
+      "promptKo": "그 콘서트는 언제 시작될 거니?"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Where ( will they / they will ) go next Sunday?",
+      "choices": [
+        "will they",
+        "they will"
+      ],
+      "accept": [
+        "1",
+        "will they"
+      ],
+      "promptKo": "그들은 다음 일요일에 어디에 갈 거니?"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "Who ( will be / be will ) our English teacher this year?",
+      "choices": [
+        "will be",
+        "be will"
+      ],
+      "accept": [
+        "1",
+        "will be"
+      ],
+      "promptKo": "올해 우리 영어 선생님은 누가 될 거니?"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "( Will how long / How long will ) you stay in New York?",
+      "choices": [
+        "Will how long",
+        "How long will"
+      ],
+      "accept": [
+        "1",
+        "How long will",
+        "2"
+      ],
+      "promptKo": "너는 뉴욕에 얼마나 머무를 거니?"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "( How will you / How you will ) come here?",
+      "choices": [
+        "How will you",
+        "How you will"
+      ],
+      "accept": [
+        "1",
+        "How will you"
+      ],
+      "promptKo": "너는 어떻게 여기에 올 거니?"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "( Who does will kick / Who will kick ) the ball?",
+      "choices": [
+        "Who does will kick",
+        "Who will kick"
+      ],
+      "accept": [
+        "1",
+        "Who will kick",
+        "2"
+      ],
+      "promptKo": "누가 그 공을 찰 거니?"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "When ( will Tom write / will write Tom ) a postcard?",
+      "choices": [
+        "will Tom write",
+        "will write Tom"
+      ],
+      "accept": [
+        "1",
+        "will Tom write"
+      ],
+      "promptKo": "톰은 언제 엽서를 쓸 거니?"
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "What ( will do you / will you do ) after school?",
+      "choices": [
+        "will do you",
+        "will you do"
+      ],
+      "accept": [
+        "1",
+        "will you do",
+        "2"
+      ],
+      "promptKo": "너는 방과 후에 무엇을 할 거니?"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Will you get on the boat?",
+      "choices": [
+        "Yes, I will.",
+        "Yes, you will."
+      ],
+      "accept": [
+        "1",
+        "Yes, I will."
+      ],
+      "promptKo": "너는 배에 탈 거니?"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Will Jane draw a map?",
+      "choices": [
+        "No, she will.",
+        "No, she won't."
+      ],
+      "accept": [
+        "1",
+        "No, she won't.",
+        "2"
+      ],
+      "promptKo": "제인은 지도를 그릴 거니?"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Will it snow this evening?",
+      "choices": [
+        "It will snow.",
+        "Yes, it will."
+      ],
+      "accept": [
+        "1",
+        "Yes, it will.",
+        "2"
+      ],
+      "promptKo": "오늘 저녁 눈이 올 거니?"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Will he wait for Julie at the bus stop?",
+      "choices": [
+        "Yes, he will.",
+        "Yes, he does."
+      ],
+      "accept": [
+        "1",
+        "Yes, he will."
+      ],
+      "promptKo": "그는 버스 정류장에서 줄리를 기다릴 거니?"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Will they eat salad for lunch?",
+      "choices": [
+        "No, they don't.",
+        "No, they won't."
+      ],
+      "accept": [
+        "1",
+        "No, they won't.",
+        "2"
+      ],
+      "promptKo": "그들은 점심으로 샐러드를 먹을 거니?"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "Will the girls go skating?",
+      "choices": [
+        "Yes, she will.",
+        "Yes, they will."
+      ],
+      "accept": [
+        "1",
+        "Yes, they will.",
+        "2"
+      ],
+      "promptKo": "그 여자아이들은 스케이트를 탈 거니?"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "Will the game end before seven?",
+      "choices": [
+        "Yes, it will.",
+        "Yes, it does."
+      ],
+      "accept": [
+        "1",
+        "Yes, it will."
+      ],
+      "promptKo": "그 경기는 7시 전에 끝날 거니?"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Who will carry the flower pot?",
+      "choices": [
+        "Yes, I will.",
+        "My mom will carry it."
+      ],
+      "accept": [
+        "1",
+        "My mom will carry it.",
+        "2"
+      ],
+      "promptKo": "누가 화분을 옮길 거니?"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "What will Annie do this weekend?",
+      "choices": [
+        "She will go hiking.",
+        "No, she won't."
+      ],
+      "accept": [
+        "1",
+        "She will go hiking."
+      ],
+      "promptKo": "애니는 이번 주말에 무엇을 할 거니?"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "What time will he leave?",
+      "choices": [
+        "He will leave at three.",
+        "He will go there on foot."
+      ],
+      "accept": [
+        "1",
+        "He will leave at three."
+      ],
+      "promptKo": "그는 몇 시에 떠날 거니?"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Where will you and Ted run?",
+      "choices": [
+        "Yes, we will.",
+        "We will run at the park."
+      ],
+      "accept": [
+        "1",
+        "We will run at the park.",
+        "2"
+      ],
+      "promptKo": "너와 테드는 어디에서 달릴 거니?"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "How will you go to Jeju?",
+      "choices": [
+        "We will go there by ship.",
+        "We will go there next month."
+      ],
+      "accept": [
+        "1",
+        "We will go there by ship."
+      ],
+      "promptKo": "너는 어떻게 제주에 갈 거니?"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "Who will drive the bus?",
+      "choices": [
+        "No, I won't.",
+        "Bill will drive it."
+      ],
+      "accept": [
+        "1",
+        "Bill will drive it.",
+        "2"
+      ],
+      "promptKo": "누가 그 버스를 운전할 거니?"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "Where will they study math today?",
+      "choices": [
+        "They will study at night.",
+        "They will study at his house."
+      ],
+      "accept": [
+        "1",
+        "They will study at his house.",
+        "2"
+      ],
+      "promptKo": "그들은 오늘 어디에서 수학을 공부할 거니?"
+    }
+  ]
+}

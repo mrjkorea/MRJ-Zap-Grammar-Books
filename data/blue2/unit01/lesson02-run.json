@@ -1,0 +1,663 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 일반동사의 현재 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u01:lesson02-run",
+  "title": "Lesson 02 Run — 일반동사의 현재 시제 (2)",
+  "subtitle": "-es / -ies / has (pp. 24–25)",
+  "pages": "24–25",
+  "timerMinutes": 20,
+  "introKo": "Section A·B 모두 괄호 또는 빈칸에서 맞는 3인칭 단수형을 고릅니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "l02r_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "Ms. Song ( teachs / teaches ) math.",
+      "choices": [
+        "teachs",
+        "teaches"
+      ],
+      "accept": [
+        "1",
+        "teaches"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "teaches"
+    },
+    {
+      "id": "l02r_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "Their baby ( crys / cries ) at night.",
+      "choices": [
+        "crys",
+        "cries"
+      ],
+      "accept": [
+        "1",
+        "cries"
+      ]
+    },
+    {
+      "id": "l02r_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "Kevin ( haves / has ) a sister and a brother.",
+      "choices": [
+        "haves",
+        "has"
+      ],
+      "accept": [
+        "1",
+        "has"
+      ]
+    },
+    {
+      "id": "l02r_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Sikyung ( plays / plaies ) basketball every day.",
+      "choices": [
+        "plays",
+        "plaies"
+      ],
+      "accept": [
+        "1",
+        "plays"
+      ]
+    },
+    {
+      "id": "l02r_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Sumin ( studys / studies ) English.",
+      "choices": [
+        "studys",
+        "studies"
+      ],
+      "accept": [
+        "1",
+        "studies"
+      ]
+    },
+    {
+      "id": "l02r_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "My father ( fixs / fixes ) cars.",
+      "choices": [
+        "fixs",
+        "fixes"
+      ],
+      "accept": [
+        "1",
+        "fixes"
+      ]
+    },
+    {
+      "id": "l02r_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "He ( washs / washes ) his clothes.",
+      "choices": [
+        "washs",
+        "washes"
+      ],
+      "accept": [
+        "1",
+        "washes"
+      ]
+    },
+    {
+      "id": "l02r_a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Mr. Jobs ( enjoys / enjoies ) computer games.",
+      "choices": [
+        "enjoys",
+        "enjoies"
+      ],
+      "accept": [
+        "1",
+        "enjoys"
+      ]
+    },
+    {
+      "id": "l02r_a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "The child ( gos / goes ) to school.",
+      "choices": [
+        "gos",
+        "goes"
+      ],
+      "accept": [
+        "1",
+        "goes"
+      ]
+    },
+    {
+      "id": "l02r_a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "An airplane ( flys / flies ) in the sky.",
+      "choices": [
+        "flys",
+        "flies"
+      ],
+      "accept": [
+        "1",
+        "flies"
+      ]
+    },
+    {
+      "id": "l02r_a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "My sister ( buys / buies ) books on the Internet.",
+      "choices": [
+        "buys",
+        "buies"
+      ],
+      "accept": [
+        "1",
+        "buys"
+      ]
+    },
+    {
+      "id": "l02r_a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "She ( do / does ) her homework after dinner.",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "1",
+        "does"
+      ]
+    },
+    {
+      "id": "l02r_a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "This bear ( catch / catches ) fish well.",
+      "choices": [
+        "catch",
+        "catches"
+      ],
+      "accept": [
+        "1",
+        "catches"
+      ]
+    },
+    {
+      "id": "l02r_a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "That boy ( trys / tries ) hard.",
+      "choices": [
+        "trys",
+        "tries"
+      ],
+      "accept": [
+        "1",
+        "tries"
+      ]
+    },
+    {
+      "id": "l02r_a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "Emily ( kisses / kissis ) her mother every morning.",
+      "choices": [
+        "kisses",
+        "kissis"
+      ],
+      "accept": [
+        "1",
+        "kisses"
+      ]
+    },
+    {
+      "id": "l02r_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Sam ______ tennis after school.",
+      "choices": [
+        "plays",
+        "plaies"
+      ],
+      "accept": [
+        "1",
+        "plays"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "plays"
+    },
+    {
+      "id": "l02r_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Minsu ______ five cousins.",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "1",
+        "has"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "She ______ her hair every morning.",
+      "choices": [
+        "brushs",
+        "brushes"
+      ],
+      "accept": [
+        "1",
+        "brushes"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "A dragonfly ______ fast.",
+      "choices": [
+        "flys",
+        "flies"
+      ],
+      "accept": [
+        "1",
+        "flies"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Taejun ______ comic books.",
+      "choices": [
+        "enjoys",
+        "enjoies"
+      ],
+      "accept": [
+        "1",
+        "enjoys"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "Joe ______ milk and tea.",
+      "choices": [
+        "mixes",
+        "mixies"
+      ],
+      "accept": [
+        "1",
+        "mixes"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "Alice ______ at the library.",
+      "choices": [
+        "studys",
+        "studies"
+      ],
+      "accept": [
+        "1",
+        "studies"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Paul ______ his hands before lunch.",
+      "choices": [
+        "washes",
+        "washs"
+      ],
+      "accept": [
+        "1",
+        "washes"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "Johnny ______ the singer.",
+      "choices": [
+        "copys",
+        "copies"
+      ],
+      "accept": [
+        "1",
+        "copies"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "She ______ her homework with Tom.",
+      "choices": [
+        "does",
+        "dos"
+      ],
+      "accept": [
+        "1",
+        "does"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "The truck ______ food.",
+      "choices": [
+        "carrys",
+        "carries"
+      ],
+      "accept": [
+        "1",
+        "carries"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "He ______ home with Emily.",
+      "choices": [
+        "gos",
+        "goes"
+      ],
+      "accept": [
+        "1",
+        "goes"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "The kitten ______ every night.",
+      "choices": [
+        "crys",
+        "cries"
+      ],
+      "accept": [
+        "1",
+        "cries"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "A bee ______ six legs.",
+      "choices": [
+        "has",
+        "haves"
+      ],
+      "accept": [
+        "1",
+        "has"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    },
+    {
+      "id": "l02r_b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "She ______ kung fu at school.",
+      "choices": [
+        "teachs",
+        "teaches"
+      ],
+      "accept": [
+        "1",
+        "teaches"
+      ],
+      "promptKo": "빈칸에 들어갈 동사 형태를 고르세요."
+    }
+  ]
+}

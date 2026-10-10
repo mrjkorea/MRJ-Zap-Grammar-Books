@@ -1,0 +1,281 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 의문사 (1)",
+  "practiceId": "b3:u04:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — 의문사 which",
+  "subtitle": "which (p. 101)",
+  "pages": "101",
+  "timerMinutes": 10,
+  "sectionsVersion": 2,
+  "introKo": "Section A 5문항, Section B 5문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "A: Which desk is his?\nB: The dirty one is his.",
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "어느 책상이 그의 것이니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Which"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "A: Which is Peter's cap?\nB: The blue one is his.",
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "어느 것이 피터의 모자니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "A: Which do you like, this one or that one?\nB: I like this one.",
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "이것과 저것 중 어느 것을 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "A: Which is sugar?\nB: The right one is sugar.",
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "어느 것이 설탕이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "A: Which does she want?\nB: She wants these pencils.",
+      "accept": [
+        "Which"
+      ],
+      "promptKo": "그녀는 어느 것을 원하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "<u>Which sketchbook</u> is yours?",
+      "choices": [
+        "a. 어느 계절",
+        "b. 어느 가방",
+        "c. 어느 스케치북",
+        "d. 어느 버스",
+        "e. 어느 블라우스"
+      ],
+      "accept": [
+        "1",
+        "c. 어느 스케치북",
+        "c",
+        "3"
+      ],
+      "promptKo": "어느 스케치북이 네 것이니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "c. 어느 스케치북"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "<u>Which blouse</u> do you want?",
+      "choices": [
+        "a. 어느 계절",
+        "b. 어느 가방",
+        "c. 어느 스케치북",
+        "d. 어느 버스",
+        "e. 어느 블라우스"
+      ],
+      "accept": [
+        "1",
+        "e. 어느 블라우스",
+        "e",
+        "5"
+      ],
+      "promptKo": "어느 블라우스를 원하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "<u>Which season</u> do you like?",
+      "choices": [
+        "a. 어느 계절",
+        "b. 어느 가방",
+        "c. 어느 스케치북",
+        "d. 어느 버스",
+        "e. 어느 블라우스"
+      ],
+      "accept": [
+        "1",
+        "a. 어느 계절",
+        "a"
+      ],
+      "promptKo": "어느 계절을 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "<u>Which bag</u> is yours?",
+      "choices": [
+        "a. 어느 계절",
+        "b. 어느 가방",
+        "c. 어느 스케치북",
+        "d. 어느 버스",
+        "e. 어느 블라우스"
+      ],
+      "accept": [
+        "1",
+        "b. 어느 가방",
+        "b",
+        "2"
+      ],
+      "promptKo": "어느 가방이 네 것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 밑줄 친 부분의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "<u>Which bus</u> do you take?",
+      "choices": [
+        "a. 어느 계절",
+        "b. 어느 가방",
+        "c. 어느 스케치북",
+        "d. 어느 버스",
+        "e. 어느 블라우스"
+      ],
+      "accept": [
+        "1",
+        "d. 어느 버스",
+        "d",
+        "4"
+      ],
+      "promptKo": "어느 버스를 타니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    }
+  ]
+}

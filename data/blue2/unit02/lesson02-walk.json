@@ -1,0 +1,263 @@
+{
+  "practiceId": "b2:u02:lesson02-walk",
+  "title": "Lesson 02 Walk — 의문문",
+  "subtitle": "N/Q · short answer (p. 47)",
+  "pages": "47",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
+  "sectionsVersion": 2,
+  "introKo": "Section A 5문항(N/Q), Section B 4문항(고르기). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장이 부정문이면 N, 의문문이면 Q에 동그라미 하세요. 빈칸에 N 또는 Q만 쓰세요.",
+      "directionKo": "다음 문장이 부정문이면 N, 의문문이면 Q에 동그라미 하세요.",
+      "ruleKo": "N 또는 Q만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "directionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 부정문이면 N, 의문문이면 Q에 동그라미 하세요. 빈칸에 N 또는 Q만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "You don't like bread.",
+      "accept": [
+        "N",
+        "n",
+        "부정문"
+      ],
+      "promptKo": "너는 빵을 좋아하지 않는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "N"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "A: Do you like melons?\nB: Yes, I ( do / don't ).",
+      "choices": [
+        "do",
+        "don't"
+      ],
+      "accept": [
+        "1",
+        "do"
+      ],
+      "promptKo": "너는 멜론을 좋아하니? — 응, 그래.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "do"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 부정문이면 N, 의문문이면 Q에 동그라미 하세요. 빈칸에 N 또는 Q만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Do you have a camera?",
+      "accept": [
+        "Q",
+        "q",
+        "의문문"
+      ],
+      "promptKo": "너는 카메라를 가지고 있니?"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 부정문이면 N, 의문문이면 Q에 동그라미 하세요. 빈칸에 N 또는 Q만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "I don't play computer games.",
+      "accept": [
+        "N",
+        "n",
+        "부정문"
+      ],
+      "promptKo": "나는 컴퓨터 게임을 하지 않는다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 부정문이면 N, 의문문이면 Q에 동그라미 하세요. 빈칸에 N 또는 Q만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Do they work on Saturday?",
+      "accept": [
+        "Q",
+        "q",
+        "의문문"
+      ],
+      "promptKo": "그들은 토요일에 일하니?"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 부정문이면 N, 의문문이면 Q에 동그라미 하세요. 빈칸에 N 또는 Q만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Do the children walk to school?",
+      "accept": [
+        "Q",
+        "q",
+        "의문문"
+      ],
+      "promptKo": "그 아이들은 걸어서 학교에 가니?"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 부정문이면 N, 의문문이면 Q에 동그라미 하세요. 빈칸에 N 또는 Q만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Do the birds catch worms?",
+      "accept": [
+        "Q",
+        "q",
+        "의문문"
+      ],
+      "promptKo": "그 새들은 벌레를 잡니?"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "A: Do we look pretty?\nB: No, you ( do / don't ).",
+      "choices": [
+        "do",
+        "don't"
+      ],
+      "accept": [
+        "1",
+        "don't",
+        "2"
+      ],
+      "promptKo": "우리가 예뻐 보이니? — 아니, 그렇지 않아."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "A: Do they watch movies?\nB: Yes, they ( do / don't ).",
+      "choices": [
+        "do",
+        "don't"
+      ],
+      "accept": [
+        "1",
+        "do"
+      ],
+      "promptKo": "그들은 영화를 보니? — 응, 그래."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "A: Do the girls jump rope?\nB: No, they ( do / don't ).",
+      "choices": [
+        "do",
+        "don't"
+      ],
+      "accept": [
+        "1",
+        "don't",
+        "2"
+      ],
+      "promptKo": "그 여자아이들은 줄넘기를 하니? — 아니, 그렇지 않아."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "A: Do Bill and Melinda enjoy sports?\nB: Yes, they ( do / don't ).",
+      "choices": [
+        "do",
+        "don't"
+      ],
+      "accept": [
+        "1",
+        "do"
+      ],
+      "promptKo": "빌과 멜린다는 스포츠를 즐기니? — 응, 그래."
+    }
+  ]
+}

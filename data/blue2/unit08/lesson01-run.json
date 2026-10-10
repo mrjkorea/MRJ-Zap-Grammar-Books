@@ -1,0 +1,674 @@
+{
+  "practiceId": "b2:u08:lesson01-run",
+  "title": "Lesson 01 Run — 전치사",
+  "subtitle": "장소·방향 전치사 (pp. 196–197)",
+  "pages": "196–197",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 전치사",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 15문항, 모두 고르기입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "l01run_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "Billy is ( on / in ) his room.",
+      "promptKo": "빌리는 자기 방 안에 있다.",
+      "choices": [
+        "on",
+        "in"
+      ],
+      "accept": [
+        "1",
+        "in"
+      ]
+    },
+    {
+      "id": "l01run_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "The man is standing ( on / behind ) the door.",
+      "promptKo": "그 남자는 그 문 뒤에 서 있다.",
+      "choices": [
+        "on",
+        "behind"
+      ],
+      "accept": [
+        "1",
+        "behind"
+      ]
+    },
+    {
+      "id": "l01run_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "A sofa is ( behind / next to ) the desk.",
+      "promptKo": "소파 하나가 그 책상 옆에 있다.",
+      "choices": [
+        "behind",
+        "next to"
+      ],
+      "accept": [
+        "1",
+        "next to"
+      ]
+    },
+    {
+      "id": "l01run_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "A magazine is ( on / in ) the table.",
+      "promptKo": "잡지 한 권이 탁자 위에 있다.",
+      "choices": [
+        "on",
+        "in"
+      ],
+      "accept": [
+        "1",
+        "on"
+      ]
+    },
+    {
+      "id": "l01run_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "A box is ( behind / under ) the desk.",
+      "promptKo": "상자 하나가 책상 아래에 있다.",
+      "choices": [
+        "behind",
+        "under"
+      ],
+      "accept": [
+        "1",
+        "under"
+      ]
+    },
+    {
+      "id": "l01run_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "A big tree is ( in front of / next to ) the house.",
+      "promptKo": "큰 나무 한 그루가 그 집 앞에 있다.",
+      "choices": [
+        "in front of",
+        "next to"
+      ],
+      "accept": [
+        "1",
+        "in front of"
+      ]
+    },
+    {
+      "id": "l01run_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "It is ( behind / between ) the bank and the pet shop.",
+      "promptKo": "그것은 은행과 애완동물 용품점 사이에 있다.",
+      "choices": [
+        "behind",
+        "between"
+      ],
+      "accept": [
+        "1",
+        "between"
+      ]
+    },
+    {
+      "id": "l01run_a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "I go ( in / to ) Jeju every summer.",
+      "promptKo": "나는 여름마다 제주도에 간다.",
+      "choices": [
+        "in",
+        "to"
+      ],
+      "accept": [
+        "1",
+        "to"
+      ]
+    },
+    {
+      "id": "l01run_a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "A squirrel is going ( up / down ) the tree.",
+      "promptKo": "다람쥐 한 마리가 나무를 올라가고 있다.",
+      "choices": [
+        "up",
+        "down"
+      ],
+      "accept": [
+        "1",
+        "up"
+      ]
+    },
+    {
+      "id": "l01run_a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "Harry lives ( in / into ) New York.",
+      "promptKo": "해리는 뉴욕에 산다.",
+      "choices": [
+        "in",
+        "into"
+      ],
+      "accept": [
+        "1",
+        "in"
+      ]
+    },
+    {
+      "id": "l01run_a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "A few trucks are running ( to / along ) the road.",
+      "promptKo": "트럭 몇 대가 도로를 따라 달리고 있다.",
+      "choices": [
+        "to",
+        "along"
+      ],
+      "accept": [
+        "1",
+        "along"
+      ]
+    },
+    {
+      "id": "l01run_a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "A mouse is coming ( out of / into ) the closet.",
+      "promptKo": "쥐 한 마리가 벽장에서 나오고 있다.",
+      "choices": [
+        "out of",
+        "into"
+      ],
+      "accept": [
+        "1",
+        "out of"
+      ]
+    },
+    {
+      "id": "l01run_a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "We are going ( up / down ) the hill.",
+      "promptKo": "우리는 언덕을 내려가고 있다.",
+      "choices": [
+        "up",
+        "down"
+      ],
+      "accept": [
+        "1",
+        "down"
+      ]
+    },
+    {
+      "id": "l01run_a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "She is going ( into / out of ) the bathroom.",
+      "promptKo": "그녀가 욕실에 들어가고 있다.",
+      "choices": [
+        "into",
+        "out of"
+      ],
+      "accept": [
+        "1",
+        "into"
+      ]
+    },
+    {
+      "id": "l01run_a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "They are walking ( along / across ) the field.",
+      "promptKo": "그들이 들판을 가로질러 걷고 있다.",
+      "choices": [
+        "along",
+        "across"
+      ],
+      "accept": [
+        "1",
+        "across"
+      ]
+    },
+    {
+      "id": "l01run_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "A basket is _____ the desk.",
+      "promptKo": "바구니 하나가 책상 아래에 있다.",
+      "choices": [
+        "on",
+        "under"
+      ],
+      "accept": [
+        "1",
+        "under"
+      ]
+    },
+    {
+      "id": "l01run_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Tom is _____ the bedroom.",
+      "promptKo": "톰은 침실에 있다.",
+      "choices": [
+        "to",
+        "in"
+      ],
+      "accept": [
+        "1",
+        "in"
+      ]
+    },
+    {
+      "id": "l01run_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Some dishes are _____ the table.",
+      "promptKo": "접시 몇 개가 탁자 위에 있다.",
+      "choices": [
+        "on",
+        "in"
+      ],
+      "accept": [
+        "1",
+        "on"
+      ]
+    },
+    {
+      "id": "l01run_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "They are _____ the truck.",
+      "promptKo": "그들은 트럭 뒤에 있다.",
+      "choices": [
+        "under",
+        "behind"
+      ],
+      "accept": [
+        "1",
+        "behind"
+      ]
+    },
+    {
+      "id": "l01run_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "A tall lamp is _____ the desk.",
+      "promptKo": "키가 큰 램프 하나가 책상 바로 옆에 있다.",
+      "choices": [
+        "next to",
+        "behind"
+      ],
+      "accept": [
+        "1",
+        "next to"
+      ]
+    },
+    {
+      "id": "l01run_b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "The bus stop is _____ the store.",
+      "promptKo": "그 버스 정류장은 그 상점 앞에 있다.",
+      "choices": [
+        "behind",
+        "in front of"
+      ],
+      "accept": [
+        "1",
+        "in front of"
+      ]
+    },
+    {
+      "id": "l01run_b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "She is _____ Mike and John.",
+      "promptKo": "그녀는 마이크와 존 사이에 있다.",
+      "choices": [
+        "between",
+        "behind"
+      ],
+      "accept": [
+        "1",
+        "between"
+      ]
+    },
+    {
+      "id": "l01run_b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "He goes _____ the market every day.",
+      "promptKo": "그는 매일 시장에 간다.",
+      "choices": [
+        "in",
+        "to"
+      ],
+      "accept": [
+        "1",
+        "to"
+      ]
+    },
+    {
+      "id": "l01run_b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "Judy is going _____ the ladder.",
+      "promptKo": "주디는 사다리를 내려오고 있다.",
+      "choices": [
+        "down",
+        "up"
+      ],
+      "accept": [
+        "1",
+        "down"
+      ]
+    },
+    {
+      "id": "l01run_b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "Tim is coming _____ the classroom.",
+      "promptKo": "팀은 교실로 들어오고 있다.",
+      "choices": [
+        "into",
+        "out of"
+      ],
+      "accept": [
+        "1",
+        "into"
+      ]
+    },
+    {
+      "id": "l01run_b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "They are going _____ the mountain.",
+      "promptKo": "그들은 산을 올라가고 있다.",
+      "choices": [
+        "down",
+        "up"
+      ],
+      "accept": [
+        "1",
+        "up"
+      ]
+    },
+    {
+      "id": "l01run_b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "She is coming _____ the building.",
+      "promptKo": "그녀는 그 건물에서 나오고 있다.",
+      "choices": [
+        "into",
+        "out of"
+      ],
+      "accept": [
+        "1",
+        "out of"
+      ]
+    },
+    {
+      "id": "l01run_b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "A cat is running _____ the road.",
+      "promptKo": "고양이 한 마리가 도로를 가로질러 달리고 있다.",
+      "choices": [
+        "along",
+        "across"
+      ],
+      "accept": [
+        "1",
+        "across"
+      ]
+    },
+    {
+      "id": "l01run_b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "They are walking _____ the beach.",
+      "promptKo": "그들은 해변을 따라 걷고 있다.",
+      "choices": [
+        "along",
+        "across"
+      ],
+      "accept": [
+        "1",
+        "along"
+      ]
+    },
+    {
+      "id": "l01run_b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "Camels live _____ the desert.",
+      "promptKo": "낙타는 사막에서 산다.",
+      "choices": [
+        "into",
+        "in"
+      ],
+      "accept": [
+        "1",
+        "in"
+      ]
+    }
+  ]
+}

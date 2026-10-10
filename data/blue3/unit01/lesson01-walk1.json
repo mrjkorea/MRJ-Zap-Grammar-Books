@@ -1,0 +1,228 @@
+{
+  "practiceId": "b3:u01:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 조동사 can",
+  "subtitle": "can + 동사원형 · 부정문 (p. 12)",
+  "pages": "12",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 조동사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 4문항(can+동사원형), Section B 4문항(부정). 예시(A1·B1)는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 조동사 can을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 칸에는 can, 2번 칸에는 동사원형을 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 조동사 can과 동사원형을 찾으세요.",
+      "ruleKo": "1번 칸: can, 2번 칸: 동사원형.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 부정 조동사만 쓰세요. (can't / cannot / can not) (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "can't / cannot / can not 중 하나만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 조동사 can을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 칸에는 can, 2번 칸에는 동사원형을 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Tom can <u>fly</u> a kite.",
+      "accept": [
+        "can|fly"
+      ],
+      "promptKo": "톰은 연을 날릴 수 있다.",
+      "noteKo": "1번 칸: can · 2번 칸: 동사원형 (순서대로).",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "can / fly"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 조동사 can을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 칸에는 can, 2번 칸에는 동사원형을 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "My sister can <u>play</u> the cello.",
+      "accept": [
+        "can|play"
+      ],
+      "promptKo": "내 여동생은 첼로를 연주할 수 있다.",
+      "noteKo": "1번 칸: can · 2번 칸: 동사원형 (순서대로).",
+      "blanks": 2
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 조동사 can을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 칸에는 can, 2번 칸에는 동사원형을 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Horses can <u>swim</u> in the river.",
+      "accept": [
+        "can|swim"
+      ],
+      "promptKo": "말은 강에서 수영할 수 있다.",
+      "noteKo": "1번 칸: can · 2번 칸: 동사원형 (순서대로).",
+      "blanks": 2
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 조동사 can을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 칸에는 can, 2번 칸에는 동사원형을 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Jimmy can <u>play</u> baseball.",
+      "accept": [
+        "can|play"
+      ],
+      "promptKo": "지미는 야구를 할 수 있다.",
+      "noteKo": "1번 칸: can · 2번 칸: 동사원형 (순서대로).",
+      "blanks": 2
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 조동사 can을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 칸에는 can, 2번 칸에는 동사원형을 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They can <u>dance</u> well.",
+      "accept": [
+        "can|dance"
+      ],
+      "promptKo": "그들은 춤을 잘 출 수 있다.",
+      "noteKo": "1번 칸: can · 2번 칸: 동사원형 (순서대로).",
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 부정 조동사만 쓰세요. (can't / cannot / can not) (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I can speak Chinese.\n→ I ______ speak Chinese.",
+      "accept": [
+        "can't",
+        "cannot",
+        "can not"
+      ],
+      "promptKo": "나는 중국어를 말할 수 있다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "can't"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 부정 조동사만 쓰세요. (can't / cannot / can not) (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "The player can throw a ball high.\n→ The player ______ throw a ball high.",
+      "accept": [
+        "can't",
+        "cannot",
+        "can not"
+      ],
+      "promptKo": "그 선수는 공을 높이 던질 수 있다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 부정 조동사만 쓰세요. (can't / cannot / can not) (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Annie can climb the mountain.\n→ Annie ______ climb the mountain.",
+      "accept": [
+        "can't",
+        "cannot",
+        "can not"
+      ],
+      "promptKo": "애니는 그 산을 오를 수 있다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 부정 조동사만 쓰세요. (can't / cannot / can not) (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "We can run fast.\n→ We ______ run fast.",
+      "accept": [
+        "can't",
+        "cannot",
+        "can not"
+      ],
+      "promptKo": "우리는 빨리 달릴 수 있다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 부정 조동사만 쓰세요. (can't / cannot / can not) (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "The bird can fly in the sky.\n→ The bird ______ fly in the sky.",
+      "accept": [
+        "can't",
+        "cannot",
+        "can not"
+      ],
+      "promptKo": "그 새는 하늘에서 날 수 있다."
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "practiceId": "b2:u03:lesson01-run",
+  "title": "Grammar Run — Lesson 01",
+  "subtitle": "형용사+명사·기수/서수 (pp. 66–67)",
+  "pages": "66–67",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 형용사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(형용사+명사), Section B 14문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 안내에 따라 고르기·빈칸·문장 전체를 구분하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "형용사와 꾸며 주는 명사를 찾으세요.",
+      "ruleKo": "첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Sumin is a cute girl.",
+      "accept": [
+        "cute|girl"
+      ],
+      "promptKo": "수민은 귀여운 여자아이다.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "cute / girl"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I have a green ball.",
+      "accept": [
+        "green|ball"
+      ],
+      "promptKo": "나는 초록 공을 가지고 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The baby doesn't like the dark room.",
+      "accept": [
+        "dark|room"
+      ],
+      "promptKo": "그 아기는 어두운 방을 좋아하지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "We have a new computer.",
+      "accept": [
+        "new|computer"
+      ],
+      "promptKo": "우리는 새 컴퓨터를 가지고 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Tommy is a smart boy.",
+      "accept": [
+        "smart|boy"
+      ],
+      "promptKo": "토미는 똑똑한 남자아이다.",
+      "blanks": 2
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Kate has beautiful eyes.",
+      "accept": [
+        "beautiful|eyes"
+      ],
+      "promptKo": "케이트는 아름다운 눈을 가지고 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "This is a difficult question.",
+      "accept": [
+        "difficult|question"
+      ],
+      "promptKo": "이것은 어려운 문제이다.",
+      "blanks": 2
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Cheetahs are fast runners.",
+      "accept": [
+        "fast|runners"
+      ],
+      "promptKo": "치타는 빠른 달리기 선수이다.",
+      "blanks": 2
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "She likes windy days.",
+      "accept": [
+        "windy|days"
+      ],
+      "promptKo": "그녀는 바람이 많이 부는 날을 좋아한다.",
+      "blanks": 2
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "It is an expensive bicycle.",
+      "accept": [
+        "expensive|bicycle"
+      ],
+      "promptKo": "이것은 비싼 자전거이다.",
+      "blanks": 2
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "My father has big feet.",
+      "accept": [
+        "big|feet"
+      ],
+      "promptKo": "우리 아버지는 큰 발을 가지고 계신다.",
+      "blanks": 2
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "I want a warm sweater.",
+      "accept": [
+        "warm|sweater"
+      ],
+      "promptKo": "나는 따뜻한 스웨터를 원한다.",
+      "blanks": 2
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "My dog has brown hair.",
+      "accept": [
+        "brown|hair"
+      ],
+      "promptKo": "우리 개는 갈색 털을 가지고 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "It is an old building.",
+      "accept": [
+        "old|building"
+      ],
+      "promptKo": "이것은 낡은 건물이다.",
+      "blanks": 2
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "That is an empty bag.",
+      "accept": [
+        "empty|bag"
+      ],
+      "promptKo": "저것은 빈 가방이다.",
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Roy has ______ sisters.",
+      "choices": [
+        "1. two",
+        "2. second"
+      ],
+      "accept": [
+        "1",
+        "1. two",
+        "①"
+      ],
+      "promptKo": "로이는 여자 형제가 두 명 있다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "1. two"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Sujin is a ______ grader.",
+      "choices": [
+        "1. four",
+        "2. fourth"
+      ],
+      "accept": [
+        "1",
+        "2. fourth",
+        "2",
+        "②"
+      ],
+      "promptKo": "수진은 4학년생이다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Jack eats ______ potatoes every day.",
+      "choices": [
+        "1. third",
+        "2. three"
+      ],
+      "accept": [
+        "1",
+        "2. three",
+        "2",
+        "②"
+      ],
+      "promptKo": "잭은 매일 감자 세 개를 먹는다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "This house has ______ rooms.",
+      "choices": [
+        "1. seven",
+        "2. seventh"
+      ],
+      "accept": [
+        "1",
+        "1. seven",
+        "①"
+      ],
+      "promptKo": "이 집에는 방이 일곱 개 있다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "They are in the ______ grade.",
+      "choices": [
+        "1. three",
+        "2. third"
+      ],
+      "accept": [
+        "1",
+        "2. third",
+        "2",
+        "②"
+      ],
+      "promptKo": "그들은 3학년이다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "A pet shop is on the ______ floor.",
+      "choices": [
+        "1. six",
+        "2. sixth"
+      ],
+      "accept": [
+        "1",
+        "2. sixth",
+        "2",
+        "②"
+      ],
+      "promptKo": "애완동물 가게는 6층에 있다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "The cook needs ______ tomatoes.",
+      "choices": [
+        "1. eleven",
+        "2. eleventh"
+      ],
+      "accept": [
+        "1",
+        "1. eleven",
+        "①"
+      ],
+      "promptKo": "요리사는 토마토 열한 개가 필요하다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Jia has ______ brother.",
+      "choices": [
+        "1. one",
+        "2. first"
+      ],
+      "accept": [
+        "1",
+        "1. one",
+        "①"
+      ],
+      "promptKo": "지아는 남동생이 한 명 있다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "They have ______ geese.",
+      "choices": [
+        "1. fourteen",
+        "2. fourteenth"
+      ],
+      "accept": [
+        "1",
+        "1. fourteen",
+        "①"
+      ],
+      "promptKo": "그들은 거위 열마리를 가지고 있다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "The art room is on the ______ floor.",
+      "choices": [
+        "1. threeth",
+        "2. third"
+      ],
+      "accept": [
+        "1",
+        "2. third",
+        "2",
+        "②"
+      ],
+      "promptKo": "미술실은 3층에 있다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "My sister is in the ______ grade.",
+      "choices": [
+        "1. nineth",
+        "2. ninth"
+      ],
+      "accept": [
+        "1",
+        "2. ninth",
+        "2",
+        "②"
+      ],
+      "promptKo": "내 여동생은 9학년이다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "Today is my ______ birthday.",
+      "choices": [
+        "1. twelveth",
+        "2. twelfth"
+      ],
+      "accept": [
+        "1",
+        "2. twelfth",
+        "2",
+        "②"
+      ],
+      "promptKo": "오늘은 내 열두 번째 생일이다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "Tony is a ______ grader.",
+      "choices": [
+        "1. fiveth",
+        "2. fifth"
+      ],
+      "accept": [
+        "1",
+        "2. fifth",
+        "2",
+        "②"
+      ],
+      "promptKo": "토니는 5학년생이다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "We have ______ cups.",
+      "choices": [
+        "1. twenty",
+        "2. twentieth"
+      ],
+      "accept": [
+        "1",
+        "1. twenty",
+        "①"
+      ],
+      "promptKo": "우리는 컵이 스무 개 있다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "A shoe store is on the ______ floor.",
+      "choices": [
+        "1. eight",
+        "2. eighth"
+      ],
+      "accept": [
+        "1",
+        "2. eighth",
+        "2",
+        "②"
+      ],
+      "promptKo": "신발 가게는 8층에 있다."
+    }
+  ]
+}

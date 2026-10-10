@@ -214,9 +214,14 @@
         inp.setAttribute("aria-label", "Answer for " + itemDisplayLabel(item, idx));
         row.appendChild(inp);
       } else {
+        var partLabels = item.blankPartLabels;
         for (var b = 0; b < blanks; b++) {
           var slot = $("label", "blank-slot");
-          slot.appendChild($("span", "blank-num", String(b + 1)));
+          var lbl =
+            partLabels && partLabels[b] != null && String(partLabels[b]).length
+              ? String(partLabels[b])
+              : String(b + 1);
+          slot.appendChild($("span", "blank-num", lbl));
           var inp2 = document.createElement("input");
           inp2.type = "text";
           inp2.name = item.id + "_" + b;

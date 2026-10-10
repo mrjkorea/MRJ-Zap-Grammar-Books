@@ -1,0 +1,648 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — some과 any, every와 all",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u04:lesson02-run",
+  "title": "Lesson 02 Run — every와 all",
+  "subtitle": "Grammar Run (pp. 102–103)",
+  "pages": "102–103",
+  "timerMinutes": 20,
+  "introKo": "every와 all, 단수·복수, 동사 일치를 고르는 연습입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "My teacher loves ( every / all ) student in my class.",
+      "choices": [
+        "every",
+        "all"
+      ],
+      "accept": [
+        "1",
+        "every"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "every",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "( Every / All ) the girls are diligent.",
+      "choices": [
+        "Every",
+        "All"
+      ],
+      "accept": [
+        "1",
+        "All"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "My puppy sleeps ( every / all ) day long.",
+      "choices": [
+        "every",
+        "all"
+      ],
+      "accept": [
+        "1",
+        "all"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Every boy ( have / has ) his desk.",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "1",
+        "has"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "I like ( every / all ) animals.",
+      "choices": [
+        "every",
+        "all"
+      ],
+      "accept": [
+        "1",
+        "all"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "All the girls ( like / likes ) ice cream.",
+      "choices": [
+        "like",
+        "likes"
+      ],
+      "accept": [
+        "1",
+        "like"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Every city ( has / have ) a hospital.",
+      "choices": [
+        "has",
+        "have"
+      ],
+      "accept": [
+        "1",
+        "has"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "They come here ( every / all ) Wednesday.",
+      "choices": [
+        "every",
+        "all"
+      ],
+      "accept": [
+        "1",
+        "every"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Every player ( wear / wears ) a uniform.",
+      "choices": [
+        "wear",
+        "wears"
+      ],
+      "accept": [
+        "1",
+        "wears"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "My sister reads books all ( day / days ) long.",
+      "choices": [
+        "day",
+        "days"
+      ],
+      "accept": [
+        "1",
+        "day"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "All children ( like / likes ) Christmas.",
+      "choices": [
+        "like",
+        "likes"
+      ],
+      "accept": [
+        "1",
+        "like"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "They go hiking every ( Saturday / Saturdays ).",
+      "choices": [
+        "Saturday",
+        "Saturdays"
+      ],
+      "accept": [
+        "1",
+        "Saturday"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "Every animal ( have / has ) its name.",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "1",
+        "has"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "All ( firefighter / firefighters ) are brave.",
+      "choices": [
+        "firefighter",
+        "firefighters"
+      ],
+      "accept": [
+        "1",
+        "firefighters"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "All the books ( is / are ) interesting.",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "are"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "________ the teeth are sharp.",
+      "choices": [
+        "Every",
+        "All"
+      ],
+      "accept": [
+        "1",
+        "All"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "All",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "She knows ______ man there.",
+      "choices": [
+        "every",
+        "all"
+      ],
+      "accept": [
+        "1",
+        "every"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "All these ______ are wild.",
+      "choices": [
+        "dog",
+        "dogs"
+      ],
+      "accept": [
+        "1",
+        "dogs"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "I go to the park every ______.",
+      "choices": [
+        "week",
+        "weeks"
+      ],
+      "accept": [
+        "1",
+        "week"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Heidi likes ______ animals.",
+      "choices": [
+        "every",
+        "all"
+      ],
+      "accept": [
+        "1",
+        "all"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "They clean every ______ in the house.",
+      "choices": [
+        "room",
+        "rooms"
+      ],
+      "accept": [
+        "1",
+        "room"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "________ concert is interesting.",
+      "choices": [
+        "Every",
+        "All"
+      ],
+      "accept": [
+        "1",
+        "Every"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "My mother likes all ______.",
+      "choices": [
+        "flower",
+        "flowers"
+      ],
+      "accept": [
+        "1",
+        "flowers"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "He knows ______ the teachers.",
+      "choices": [
+        "every",
+        "all"
+      ],
+      "accept": [
+        "1",
+        "all"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "________ kangaroo has a long tail.",
+      "choices": [
+        "Every",
+        "All"
+      ],
+      "accept": [
+        "1",
+        "Every"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Jack smiles all ______.",
+      "choices": [
+        "day",
+        "days"
+      ],
+      "accept": [
+        "1",
+        "day"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "We go to the beach every ______.",
+      "choices": [
+        "summer",
+        "summers"
+      ],
+      "accept": [
+        "1",
+        "summer"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "He bakes ______ the cookies.",
+      "choices": [
+        "every",
+        "all"
+      ],
+      "accept": [
+        "1",
+        "all"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "________ the girls wear hats.",
+      "choices": [
+        "Every",
+        "All"
+      ],
+      "accept": [
+        "1",
+        "All"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "We see her every ______.",
+      "choices": [
+        "Monday",
+        "Mondays"
+      ],
+      "accept": [
+        "1",
+        "Monday"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ]
+}

@@ -64,13 +64,24 @@
     return s;
   }
 
+  function koreanNoSpaces(s) {
+    return String(s || "").replace(/\s+/g, "");
+  }
+
   function koreanEquivalent(user, expected) {
     var u = normalizeKoreanPhrase(user);
     var e = normalizeKoreanPhrase(expected);
     if (u === e) return true;
+    if (hasHangul(u) || hasHangul(e)) {
+      if (koreanNoSpaces(u) === koreanNoSpaces(e)) return true;
+    }
     var uBare = u.replace(/^~/, "").trim();
     var eBare = e.replace(/^~/, "").trim();
-    return uBare === eBare;
+    if (uBare === eBare) return true;
+    if (hasHangul(uBare) || hasHangul(eBare)) {
+      return koreanNoSpaces(uBare) === koreanNoSpaces(eBare);
+    }
+    return false;
   }
 
   function normalizePhrase(s) {
@@ -139,18 +150,19 @@
     if (!acceptList || !acceptList.length) return false;
     for (var i = 0; i < acceptList.length; i++) {
       var pattern = String(acceptList[i]);
-      if (pattern.indexOf("|") >= 0 && users.length > 1) {
+      if (pattern.indexOf("|") >= 0) {
         var exp = pattern.split("|");
-        if (exp.length === users.length) {
+        if (users.length === exp.length && users.length > 1) {
           var ok = true;
           for (var b = 0; b < exp.length; b++) {
             if (!matchOne(users[b], exp[b])) ok = false;
           }
           if (ok) return true;
+          continue;
         }
+        if (users.length === 1 && exp.length > 1) continue;
       }
       if (users.length === 1 && matchAccept(users[0], acceptList[i])) return true;
-      if (users.length > 1 && matchAccept(users.join(" "), acceptList[i])) return true;
     }
     return false;
   }

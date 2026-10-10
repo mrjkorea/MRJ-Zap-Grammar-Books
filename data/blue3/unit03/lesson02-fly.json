@@ -1,0 +1,360 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — there, it",
+  "sectionsVersion": 2,
+  "practiceId": "b3:u03:lesson02-fly",
+  "title": "Grammar Fly — Lesson 02",
+  "subtitle": "Write with impersonal it (pp. 80–81)",
+  "pages": "80–81",
+  "timerMinutes": 26,
+  "introKo": "Section A 10문항, Section B 10문항(문장 전체). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "directionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "directionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A1",
+      "type": "sentence",
+      "promptKo": "10시 30분이다. ( it / ten / thirty / is )",
+      "accept": [
+        "It is ten thirty.",
+        "It is ten thirty?"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "It is ten thirty."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A2",
+      "type": "sentence",
+      "promptKo": "오늘은 수요일이다. ( Wednesday / is / it / today )",
+      "accept": [
+        "It is Wednesday today.",
+        "It is Wednesday today?"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A3",
+      "type": "sentence",
+      "promptKo": "몇 시니? ( time / it / is / what / now )",
+      "accept": [
+        "What time is it now?",
+        "What time is it now?"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A4",
+      "type": "sentence",
+      "promptKo": "여름에는 덥고 습하다. ( is / hot and humid / it / in summer )",
+      "accept": [
+        "It is hot and humid in summer.",
+        "It is hot and humid in summer?"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A5",
+      "type": "sentence",
+      "promptKo": "2월 6일이다. ( February / it / sixth / is )",
+      "accept": [
+        "It is February sixth.",
+        "It is February sixth?"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A6",
+      "type": "sentence",
+      "promptKo": "무슨 요일이니? ( it / is / day / what )",
+      "accept": [
+        "What day is it?",
+        "What day is it?"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A7",
+      "type": "sentence",
+      "promptKo": "학교에 갈 시간이다. ( it / time / for / is / school )",
+      "accept": [
+        "It is time for school.",
+        "It is time for school?"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A8",
+      "type": "sentence",
+      "promptKo": "날씨가 어떠니? ( the weather / how / is )",
+      "accept": [
+        "How is the weather?",
+        "How is the weather?"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A9",
+      "type": "sentence",
+      "promptKo": "정각 7시다. ( seven / is / o'clock / it )",
+      "accept": [
+        "It is seven o'clock.",
+        "It is seven o'clock?"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "A10",
+      "type": "sentence",
+      "promptKo": "자야 할 시간이다. ( is / it / to / time / go to bed )",
+      "accept": [
+        "It is time to go to bed.",
+        "It is time to go to bed?"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptKo": "오늘은 날씨가 따뜻하다. ( warm )",
+      "accept": [
+        "It is warm today."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "It is warm today."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptKo": "5시 20분이다. ( five, twenty )",
+      "accept": [
+        "It is five twenty."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptKo": "토요일이다. ( Saturday )",
+      "accept": [
+        "It is Saturday."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptKo": "3월 8일이다. ( March, eighth )",
+      "accept": [
+        "It is March eighth."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptKo": "6시 정각이다. ( six, o'clock )",
+      "accept": [
+        "It is six o'clock."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptKo": "점심 식사를 할 시간이다. ( for, lunch )",
+      "accept": [
+        "It is time for lunch."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptKo": "밖에 눈이 오고 있다. ( snowing, outside )",
+      "accept": [
+        "It is snowing outside."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptKo": "집에 돌아갈 시간이다. ( get back home )",
+      "accept": [
+        "It is time to get back home."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptKo": "9시 45분이다. ( nine, forty-five )",
+      "accept": [
+        "It is nine forty-five."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 괄호 안에 주어진 말을 사용하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptKo": "10월 3일이다. ( October, third )",
+      "accept": [
+        "It is October third."
+      ]
+    }
+  ]
+}

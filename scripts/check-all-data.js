@@ -5,7 +5,7 @@ const vm = require("vm");
 
 const REPO = path.join(__dirname, "..");
 const JS = path.join(REPO, "assets/js");
-const BOOKS = ["green1", "green2", "green3", "green4", "blue1"];
+const BOOKS = ["green1", "green2", "green3", "green4", "blue1", "blue2", "blue3", "blue4"];
 const MODES = new Set(["choice", "words", "sentence"]);
 
 const win = {};
@@ -69,6 +69,14 @@ function respFor(it, acc) {
   return { value: acc };
 }
 
+function normalizeLeakText(s) {
+  return String(s || "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
 const globalPracticeIds = new Map();
 
 const OCR_PAT = /from OCR - needs check|ocrNeedsCheck|auditNote/;
@@ -94,11 +102,55 @@ for (const book of BOOKS) {
       if (!MODES.has(it.answerMode)) fail(rel, it.id, "bad answerMode");
       if (ids.has(it.id)) fail(rel, "dup item id", it.id);
       ids.add(it.id);
-      if (it.displayOnly) continue;
+      const isBlue = /^data\/blue/.test(rel);
+      if (isBlue && it.example && !it.displayOnly) fail(rel, it.id, "example must be displayOnly");
+      if (it.displayOnly) {
+        if (isBlue && it.example !== true) fail(rel, it.id, "displayOnly should set example:true");
+        continue;
+      }
       if (it.type === "mc") {
         for (const a of it.accept) {
           if (!mcAcceptOk(it, a)) fail(rel, it.id, "MC accept not mapped to a choice", a);
         }
+      }
+      for (const a of it.accept) {
+        if (String(a).includes("||") || /\|\s*$/.test(String(a)) || /^\s*\|/.test(String(a))) {
+          fail(rel, it.id, "empty pipe segment in accept", a);
+        }
+        if (isBlue && String(a).includes("|")) {
+          const segs = String(a).split("|");
+          const blanks = it.blanks || 1;
+          if (segs.some((s) => !String(s).trim())) fail(rel, it.id, "empty pipe segment in accept", a);
+          if (segs.length !== blanks) {
+            /* alternate spellings must be separate accept[] entries */
+            continue;
+          }
+        }
+      }
+      if (isBlue && it.promptKo) {
+        const arrow = it.promptKo.match(/→\s*([^\n]+)/);
+        if (arrow) {
+          const tail = normalizeLeakText(arrow[1]);
+          for (const a of it.accept) {
+            const accWord = normalizeLeakText(String(a).split("|")[0]);
+            const accFull = normalizeLeakText(String(a));
+            if (
+              (accWord.length > 1 && tail.includes(accWord)) ||
+              (accFull.length > 3 && tail.includes(accFull))
+            ) {
+              fail(rel, it.id, "promptKo reveals answer after arrow");
+            }
+          }
+        }
+      }
+      if (isBlue && (it.blanks || 1) > 1) {
+        const blanks = it.blanks || 1;
+        const viable = (it.accept || []).some((a) => {
+          const s = String(a);
+          if (!s.includes("|")) return true;
+          return s.split("|").length === blanks && s.split("|").every((p) => String(p).trim());
+        });
+        if (!viable) fail(rel, it.id, "no accept variant matches blanks count", blanks);
       }
       const right = respFor(it, it.accept[0]);
       if (!right) fail(rel, it.id, "accept[0] unusable");

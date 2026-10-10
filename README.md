@@ -1,6 +1,6 @@
 # MRJ Zap Grammar Books
 
-Student typing practices for ZAP grammar books (**GreenZap 1**, **GreenZap 2**, **GreenZap 3**, and future titles).
+Student typing practices for ZAP grammar books (**GreenZap 1–4**, **BlueZap 1–4**, and future titles).
 
 Separate from [`mrj-grammar-app`](https://github.com/mrjkorea/mrj-grammar-app) (gold extract only — do not mix).
 
@@ -160,7 +160,12 @@ node scripts/smoke-green3-unit01.js
 node scripts/smoke-app-sections.js
 node scripts/smoke-review.js
 node scripts/smoke-unordered.js   # unordered multi-blank grading
+node scripts/smoke-blue1-all.js
+node scripts/smoke-blue2-all.js
+node scripts/smoke-blue3-all.js
+node scripts/smoke-blue4-all.js
 node scripts/smoke-blue1-unit01.js
+node scripts/e2e-bz-browser.js
 node scripts/e2e-bz1-browser.js
 node scripts/e2e-gz1-browser.js     # headless browser (needs: npm install playwright)
 node scripts/e2e-gz2-browser.js

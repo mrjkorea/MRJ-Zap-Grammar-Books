@@ -1,0 +1,528 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — some과 any, every와 all",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u04:lesson01-fly",
+  "title": "Lesson 01 Fly — some과 any",
+  "subtitle": "Grammar Fly (pp. 96–97)",
+  "pages": "96–97",
+  "timerMinutes": 26,
+  "introKo": "Section A는 밑줄 친 부분을 고쳐 두 칸에 쓰기, Section B는 some/any와 명사를 완성합니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Paul has <u>any</u> keys.",
+      "accept": [
+        "some|keys"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "some / keys",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "We don't have <u>some</u> butter.",
+      "accept": [
+        "any|butter"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "They have <u>some flours</u>.",
+      "accept": [
+        "some|flour"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Do you have <u>some questions</u>?",
+      "accept": [
+        "any|questions"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Would you like <u>some breads</u>?",
+      "accept": [
+        "some|bread"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Carrie drinks <u>any juice</u> every day.",
+      "accept": [
+        "some|juice"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Can I read <u>any books</u>?",
+      "accept": [
+        "some|books"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "They don't have <u>any tree</u>.",
+      "accept": [
+        "any|trees"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "I don't read <u>some magazines</u>.",
+      "accept": [
+        "any|magazines"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Do they have <u>any ruler</u>?",
+      "accept": [
+        "any|rulers"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Tommy doesn't like <u>any singer</u>.",
+      "accept": [
+        "any|singers"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Would you like <u>any tea</u>?",
+      "accept": [
+        "some|tea"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Can I eat <u>some apple</u>?",
+      "accept": [
+        "some|apples"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Yura wants <u>any paper</u>.",
+      "accept": [
+        "some|paper"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Would you like <u>any grapes</u>?",
+      "accept": [
+        "some|grapes"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I don't have any backpacks. ( backpack )",
+      "accept": [
+        "any|backpacks"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "any / backpacks",
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "We have ______ ______. ( bread )",
+      "accept": [
+        "some|bread"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Would you like ______ ______? ( milk )",
+      "accept": [
+        "some|milk"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Do they need ______ ______? ( towel )",
+      "accept": [
+        "any|towels"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "John wants ______ ______. ( water )",
+      "accept": [
+        "some|water"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Can I have ______ ______? ( soup )",
+      "accept": [
+        "some|soup"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "We don't have ______ ______. ( salt )",
+      "accept": [
+        "any|salt"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Would you like ______ ______? ( peach )",
+      "accept": [
+        "some|peaches"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "Do you have ______ ______? ( eraser )",
+      "accept": [
+        "any|erasers"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "I don't write ______ ______. ( letter )",
+      "accept": [
+        "any|letters"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "Can I have ______ ______? ( strawberry )",
+      "accept": [
+        "some|strawberries"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "Does Mike have ______ ______? ( cousin )",
+      "accept": [
+        "any|cousins"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "We don't watch ______ ______. ( movie )",
+      "accept": [
+        "any|movies"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "Minho has ______ ______. ( jacket )",
+      "accept": [
+        "some|jackets"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "I don't play ______ ______. ( game )",
+      "accept": [
+        "any|games"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "주어진 말을 사용하여 some 또는 any와 함께 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    }
+  ]
+}

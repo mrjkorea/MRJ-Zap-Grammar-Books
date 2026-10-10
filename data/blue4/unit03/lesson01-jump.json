@@ -1,0 +1,588 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 미래 시제 be going to",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u03:lesson01-jump",
+  "title": "Lesson 01 Jump — be going to 긍정문·부정문",
+  "subtitle": "Grammar Jump · pp. 68–69",
+  "pages": "68–69",
+  "timerMinutes": 24,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 13,
+      "exampleCount": 2,
+      "labels": [
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I <u>am going to call</u> my aunt this morning.",
+      "accept": [
+        "전화할 것이다",
+        "전화하실 것이다",
+        "전화드릴 것이다"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "전화할 것이다",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "He <u>is going to cook</u> lunch for us this weekend.",
+      "accept": [
+        "점심을 요리할 것이다",
+        "점심을 만들 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "She <u>is going to finish</u> her homework before dinner.",
+      "accept": [
+        "숙제를 끝낼 것이다",
+        "숙제를 마칠 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Jack <u>is going to help</u> his friends tomorrow.",
+      "accept": [
+        "친구들을 도울 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They <u>are going to listen</u> to the radio together.",
+      "accept": [
+        "라디오를 들을 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a06",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "We <u>are going to play</u> computer games after dinner.",
+      "accept": [
+        "컴퓨터 게임을 할 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a07",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "My father <u>is going to visit</u> Tokyo next week.",
+      "accept": [
+        "도쿄를 방문할 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a08",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "The concert <u>is going to start</u> soon.",
+      "accept": [
+        "곧 시작할 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a09",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "Clara <u>isn't going to stay</u> here this week.",
+      "accept": [
+        "여기에 머무르지 않을 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "It <u>isn't going to rain</u> this afternoon.",
+      "accept": [
+        "비가 오지 않을 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "They <u>aren't going to walk</u> to the lake.",
+      "accept": [
+        "호수까지 걸어가지 않을 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "My mother <u>isn't going to wash</u> her car this week.",
+      "accept": [
+        "차를 씻지 않을 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a13",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "We <u>aren't going to go</u> shopping today.",
+      "accept": [
+        "쇼핑하러 가지 않을 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a14",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Ms. Woods <u>isn't going to take</u> a taxi.",
+      "accept": [
+        "택시를 타지 않을 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a15",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "We <u>aren't going to watch</u> TV tonight.",
+      "accept": [
+        "TV를 보지 않을 것이다"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I ___ ___ ___ ___ the storybook tonight. ( read )",
+      "accept": [
+        "am|going|to|read"
+      ],
+      "blanks": 4,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am / going / to / read",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Ann ___ ___ ___ ___ you this week. ( not, call )",
+      "accept": [
+        "isn't|going|to|call"
+      ],
+      "blanks": 4,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "isn't / going / to / call",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Brad ___ ___ ___ ___ in the sea. ( swim )",
+      "accept": [
+        "is|going|to|swim"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "They ___ ___ ___ ___ the flowers. ( water )",
+      "accept": [
+        "are|going|to|water"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "I ___ ___ ___ ___ Emily to the party. ( invite )",
+      "accept": [
+        "am|going|to|invite"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b06",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "We ___ ___ ___ ___ the kites this afternoon. ( fly )",
+      "accept": [
+        "are|going|to|fly"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b07",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "He ___ ___ ___ ___ a new camera tomorrow. ( buy )",
+      "accept": [
+        "is|going|to|buy"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b08",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "She ___ ___ ___ ___ home early today. ( come )",
+      "accept": [
+        "is|going|to|come"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b09",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "My uncle ___ ___ ___ ___ next Tuesday. ( arrive )",
+      "accept": [
+        "is|going|to|arrive"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b10",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "His sister ___ ___ ___ ___ trees. ( not, plant )",
+      "accept": [
+        "isn't|going|to|plant"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b11",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "I ___ ___ ___ ___ this morning. ( not, jog )",
+      "accept": [
+        "am|not|going|to|jog"
+      ],
+      "blanks": 5,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b12",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "They ___ ___ ___ ___ steak for dinner. ( not, eat )",
+      "accept": [
+        "aren't|going|to|eat"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b13",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "He ___ ___ ___ ___ a letter today. ( not, send )",
+      "accept": [
+        "isn't|going|to|send"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b14",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "She ___ ___ ___ ___ the bus. ( not, take )",
+      "accept": [
+        "isn't|going|to|take"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b15",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "We ___ ___ ___ ___ to Jeju this fall. ( not, go )",
+      "accept": [
+        "aren't|going|to|go"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    }
+  ],
+  "introKo": "Grammar Jump (pp. 68–69): 밑줄 뜻 쓰기와 be going to 문장 완성."
+}

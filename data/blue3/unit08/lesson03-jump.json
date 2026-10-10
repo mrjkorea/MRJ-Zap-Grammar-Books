@@ -1,0 +1,543 @@
+{
+  "practiceId": "b3:u08:lesson03-jump",
+  "title": "Grammar Jump — 감탄문",
+  "subtitle": "pp. 212–213",
+  "pages": "212–213",
+  "timerMinutes": 24,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 명령문과 감탄문",
+  "sectionsVersion": 2,
+  "introKo": "What/How 완성, 평서문→감탄문 빈칸.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "directionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. 10~15번은 How와 형용사만 쓰고 명사는 쓰지 마세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "______ a ______ girl she is! (kind)",
+      "promptKo": "예시",
+      "accept": [
+        "What|kind"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What kind"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "______ ______ this ice cream is! (sweet)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How|sweet"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "______ an ______ building this is! (old)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What|old"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "______ ______ this game is! (exciting)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How|exciting"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "______ a ______ man he is! (brave)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What|brave"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "______ an ______ story it is! (amazing)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What|amazing"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "______ ______ she is! (diligent)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How|diligent"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "______ a ______ boy he is! (tall)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What|tall"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "______ ______ I am! (tired)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How|tired"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "______ a ______ man he is! (big)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What|big"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "______ ______ this classroom is! (quiet)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How|quiet"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "______ a ______ boy he is! (lazy)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What|lazy"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "______ ______ this rose is! (beautiful)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How|beautiful"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "______ a ______ girl she is! (cute)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What|cute"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "what 또는 how와 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "______ ______ her room is! (clean)",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How|clean"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "It is a very hot day. → ______ it is!",
+      "promptKo": "예시",
+      "accept": [
+        "What a hot day"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What a hot day"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "It is a very fast car. → ______ it is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What a fast car"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "It is a very beautiful rose. → ______ it is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What a beautiful rose"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "This is a very dirty room. → ______ this is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What a dirty room"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "It is a very big plane. → ______ it is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What a big plane"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "This is a very fat cat. → ______ this is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What a fat cat"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "It is a very small island. → ______ it is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What a small island"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "They are very pretty babies. → ______ they are!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What pretty babies"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "It is a very long train. → ______ it is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "What a long train"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "That tower is very tall. → ______ that tower is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How tall"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "This box is very heavy. → ______ this box is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How heavy"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "The watch is very old. → ______ the watch is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How old"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "The dog is very ugly. → ______ the dog is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How ugly"
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "This pen is very cheap. → ______ this pen is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How cheap"
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 감탄문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 1~9번은 What 감탄의 앞부분만, 10~15번은 How+형용사만 쓰세요. (뒤의 주어·동사는 이미 적혀 있음.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "His class is very interesting. → ______ his class is!",
+      "promptKo": "책 지시에 따라 답하세요.",
+      "accept": [
+        "How interesting"
+      ]
+    }
+  ]
+}

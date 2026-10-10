@@ -1,0 +1,264 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 의문사 (1)",
+  "practiceId": "b3:u04:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 의문사 who",
+  "subtitle": "who (p. 89)",
+  "pages": "89",
+  "timerMinutes": 10,
+  "sectionsVersion": 2,
+  "introKo": "Section A 5문항(의문사 찾기), Section B 5문항(Who 뜻 연결). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 문장에서 밑줄 친 Who의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 Who의 알맞은 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "A: Who are those boys?\nB: They are my friends.",
+      "accept": [
+        "Who"
+      ],
+      "promptKo": "저 남자아이들은 누구니? / 그들은 내 친구들이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Who"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "A: Who cooks dinner in your home?\nB: My mom cooks dinner.",
+      "accept": [
+        "Who"
+      ],
+      "promptKo": "누가 저녁을 요리하니? / 우리 엄마가 저녁을 요리한다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "A: Who do you know?\nB: I know Eddie.",
+      "accept": [
+        "Who"
+      ],
+      "promptKo": "너는 누구를 알니? / 나는 에디를 안다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "A: Who does he help?\nB: He helps his mother.",
+      "accept": [
+        "Who"
+      ],
+      "promptKo": "그는 누구를 돕니? / 그는 어머니를 돕는다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "A: Who is your science teacher?\nB: Mr. Edison is my science teacher.",
+      "accept": [
+        "Who"
+      ],
+      "promptKo": "네 과학 선생님은 누구니? / 에디슨 씨가 내 과학 선생님이다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Who의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "<u>Who</u> is your sister?",
+      "choices": [
+        "a. 누구/누가",
+        "b. 누구를"
+      ],
+      "accept": [
+        "1",
+        "a. 누구/누가",
+        "a"
+      ],
+      "promptKo": "네 여동생은 누구니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a. 누구/누가"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Who의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "<u>Who</u> gets up early?",
+      "choices": [
+        "a. 누구/누가",
+        "b. 누구를"
+      ],
+      "accept": [
+        "1",
+        "a. 누구/누가",
+        "a"
+      ],
+      "promptKo": "누가 일찍 일어나니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Who의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "<u>Who</u> does Paul meet on Saturdays?",
+      "choices": [
+        "a. 누구/누가",
+        "b. 누구를"
+      ],
+      "accept": [
+        "1",
+        "b. 누구를",
+        "b",
+        "2"
+      ],
+      "promptKo": "폴은 토요일에 누구를 만나니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Who의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "<u>Who</u> are those ladies?",
+      "choices": [
+        "a. 누구/누가",
+        "b. 누구를"
+      ],
+      "accept": [
+        "1",
+        "a. 누구/누가",
+        "a"
+      ],
+      "promptKo": "저 숙녀들은 누구니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Who의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "<u>Who</u> do they like?",
+      "choices": [
+        "a. 누구/누가",
+        "b. 누구를"
+      ],
+      "accept": [
+        "1",
+        "b. 누구를",
+        "b",
+        "2"
+      ],
+      "promptKo": "그들은 누구를 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    }
+  ]
+}

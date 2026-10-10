@@ -1,0 +1,502 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 미래 시제 be going to",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u03:lesson01-fly",
+  "title": "Lesson 01 Fly — be going to 긍정문·부정문",
+  "subtitle": "Grammar Fly · pp. 70–71",
+  "pages": "70–71",
+  "timerMinutes": 26,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "directionKo": "주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Ann is going to <u>dancing</u> well tomorrow.",
+      "accept": [
+        "dance",
+        "dance"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "dance",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I'm <u>go</u> to take my sunglasses today.",
+      "accept": [
+        "going"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "going",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We're going to <u>arrives</u> in Seoul at eight.",
+      "accept": [
+        "arrive"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "arrive",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Julia and I <u>am</u> going to ride bikes this afternoon.",
+      "accept": [
+        "are"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "are",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Mark is <u>goes</u> to bring some cookies to the party.",
+      "accept": [
+        "going"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "going",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a06",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "It's going to <u>is</u> cold tomorrow.",
+      "accept": [
+        "be"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "be",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a07",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Amy <u>doesn't</u> going to leave for Paris next weekend.",
+      "accept": [
+        "isn't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "isn't",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a08",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "They <u>don't</u> going to buy a sweater for their mom.",
+      "accept": [
+        "aren't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "aren't",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a09",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "He and Jun <u>isn't</u> going to learn yoga this spring.",
+      "accept": [
+        "aren't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "aren't",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a10",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "She <u>does</u> not going to go surfing tomorrow morning.",
+      "accept": [
+        "is"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "is",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a11",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "<u>He not</u> going to go to the concert tomorrow.",
+      "accept": [
+        "He is not",
+        "He's not",
+        "He isn't",
+        "is not"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "He is not",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a12",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "I <u>won't</u> going to make a salad tomorrow.",
+      "accept": [
+        "am not"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "am not",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a13",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "They are going <u>playing</u> chess tonight.",
+      "accept": [
+        "to play"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "to play",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a14",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "She's going <u>sings</u> the song at the contest.",
+      "accept": [
+        "to sing"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "to sing",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "a15",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "We're <u>going not</u> to ride a seesaw.",
+      "accept": [
+        "not going"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "not going",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "밑줄 친 부분을 고쳐 쓰세요."
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "제인은 쿠키를 조금 구울 것이다. ( Jane / bake some cookies )",
+      "accept": [
+        "Jane is going to bake some cookies."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Jane is going to bake some cookies.",
+      "promptKo": "제인은 쿠키를 조금 구울 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "그들은 내일 차고를 청소할 것이다. ( they / clean the garage / tomorrow )",
+      "accept": [
+        "They are going to clean the garage tomorrow.",
+        "They're going to clean the garage tomorrow."
+      ],
+      "promptKo": "그들은 내일 차고를 청소할 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "내일은 날씨가 화창할 것이다. ( it / be sunny / tomorrow )",
+      "accept": [
+        "It is going to be sunny tomorrow.",
+        "It's going to be sunny tomorrow."
+      ],
+      "promptKo": "내일은 날씨가 화창할 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "그는 오늘 책 몇 권을 빌릴 것이다. ( he / borrow some books / today )",
+      "accept": [
+        "He is going to borrow some books today.",
+        "He's going to borrow some books today."
+      ],
+      "promptKo": "그는 오늘 책 몇 권을 빌릴 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "나는 이번 겨울에 스케이트 타러 가지 않을 것이다. ( I / not / go skating / this winter )",
+      "accept": [
+        "I am not going to go skating this winter.",
+        "I'm not going to go skating this winter."
+      ],
+      "promptKo": "나는 이번 겨울에 스케이트 타러 가지 않을 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b06",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "에릭은 오늘 여기를 떠나지 않을 것이다. ( Eric / not / leave here / today )",
+      "accept": [
+        "Eric is not going to leave here today.",
+        "Eric isn't going to leave here today."
+      ],
+      "promptKo": "에릭은 오늘 여기를 떠나지 않을 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b07",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "그녀는 연필깎이를 사지 않을 것이다. ( she / not / buy a sharpener )",
+      "accept": [
+        "She is not going to buy a sharpener.",
+        "She isn't going to buy a sharpener."
+      ],
+      "promptKo": "그녀는 연필깎이를 사지 않을 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b08",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "그는 일찍 잠자리에 들지 않을 것이다. ( he / not / go to bed / early )",
+      "accept": [
+        "He is not going to go to bed early.",
+        "He isn't going to go to bed early."
+      ],
+      "promptKo": "그는 일찍 잠자리에 들지 않을 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b09",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "그들은 밖에서 놀지 않을 것이다. ( they / not / play outside )",
+      "accept": [
+        "They are not going to play outside.",
+        "They aren't going to play outside."
+      ],
+      "promptKo": "그들은 밖에서 놀지 않을 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    },
+    {
+      "id": "b10",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "우리 어머니는 그곳에 주차하지 않으실 것이다. ( my mother / not / park there )",
+      "accept": [
+        "My mother is not going to park there.",
+        "My mother isn't going to park there."
+      ],
+      "promptKo": "우리 어머니는 그곳에 주차하지 않으실 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 주어진 말과 be going to를 사용하여 미래 시제의 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체"
+    }
+  ],
+  "introKo": "Grammar Fly (pp. 70–71): 오류 고치기와 한국어→영어 문장."
+}

@@ -1,0 +1,243 @@
+{
+  "practiceId": "b2:u02:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 부정문",
+  "subtitle": "P/N · doesn't (p. 39)",
+  "pages": "39",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
+  "sectionsVersion": 2,
+  "introKo": "Section A 4문항(P/N), Section B 4문항(doesn't). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장이 긍정문이면 P, 부정문이면 N에 동그라미 하세요. 빈칸에 P 또는 N만 쓰세요.",
+      "directionKo": "다음 문장이 긍정문이면 P, 부정문이면 N에 동그라미 하세요.",
+      "ruleKo": "P 또는 N만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 밑줄 친 부분의 줄임말을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 긍정문이면 P, 부정문이면 N에 동그라미 하세요. 빈칸에 P 또는 N만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I do not live here.",
+      "accept": [
+        "N",
+        "n",
+        "부정문"
+      ],
+      "promptKo": "나는 여기에 살지 않는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "N"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 긍정문이면 P, 부정문이면 N에 동그라미 하세요. 빈칸에 P 또는 N만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Michael likes K-pop.",
+      "accept": [
+        "P",
+        "p",
+        "긍정문"
+      ],
+      "promptKo": "마이클은 K-pop을 좋아한다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 긍정문이면 P, 부정문이면 N에 동그라미 하세요. 빈칸에 P 또는 N만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Sumin does not look happy.",
+      "accept": [
+        "N",
+        "n",
+        "부정문"
+      ],
+      "promptKo": "수민은 행복해 보이지 않는다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 긍정문이면 P, 부정문이면 N에 동그라미 하세요. 빈칸에 P 또는 N만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "They have black hair.",
+      "accept": [
+        "P",
+        "p",
+        "긍정문"
+      ],
+      "promptKo": "그들은 검은 머리를 가지고 있다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 긍정문이면 P, 부정문이면 N에 동그라미 하세요. 빈칸에 P 또는 N만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The man doesn't cook noodles.",
+      "accept": [
+        "N",
+        "n",
+        "부정문"
+      ],
+      "promptKo": "그 남자는 국수를 요리하지 않는다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "She <u>does not</u> remember him.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "그녀는 그를 기억하지 않는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "doesn't"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "My brother <u>does not</u> clean his room.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "우리 오빠는 자신의 방을 청소하지 않는다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Carrie <u>does not</u> play computer games.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "캐리는 컴퓨터 게임을 하지 않는다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "He <u>does not</u> wear blue jeans.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "그는 청바지를 입지 않는다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분의 줄임말을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "The girl <u>does not</u> sleep in the living room.",
+      "accept": [
+        "doesn't",
+        "doesnt",
+        "Doesn't",
+        "Doesnt",
+        "does not",
+        "Does not"
+      ],
+      "promptKo": "그 여자아이는 거실에서 자지 않는다."
+    }
+  ]
+}

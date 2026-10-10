@@ -1,0 +1,298 @@
+{
+  "practiceId": "b1:u08:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — be동사의 의문문 (2)",
+  "subtitle": "and 주어 · p. 199",
+  "pages": "199",
+  "timerMinutes": 10,
+  "introKo": "Section A 주어·be동사, Section B we/you/they 고르기.",
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — be동사의 현재 시제 (2)",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 첫 칸: 주어, 둘째 칸: be동사.",
+      "directionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요.",
+      "ruleKo": "첫 칸에 주어, 둘째 칸에 be동사를 각각 한 단어(또는 주어구)씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 빈칸 두 개 — 첫 칸: 주어, 둘째 칸: be동사.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Are Tom and I diligent?",
+      "promptKo": "톰과 나는 부지런하니?",
+      "blanks": 2,
+      "accept": [
+        "Tom and I|Are"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Tom and I / Are",
+      "blankPartLabels": [
+        "주어",
+        "be동사"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 빈칸 두 개 — 첫 칸: 주어, 둘째 칸: be동사.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Are you and Julia from Canada?",
+      "promptKo": "너와 줄리아는 캐나다 출신이니?",
+      "blanks": 2,
+      "accept": [
+        "you and Julia|Are"
+      ],
+      "blankPartLabels": [
+        "주어",
+        "be동사"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 빈칸 두 개 — 첫 칸: 주어, 둘째 칸: be동사.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Are Mina and Sumin your classmates?",
+      "promptKo": "미나와 수민은 네 반 친구니?",
+      "blanks": 2,
+      "accept": [
+        "Mina and Sumin|Are"
+      ],
+      "blankPartLabels": [
+        "주어",
+        "be동사"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 빈칸 두 개 — 첫 칸: 주어, 둘째 칸: be동사.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Are you and Jimmy ten years old?",
+      "promptKo": "너와 지미는 열 살이니?",
+      "blanks": 2,
+      "accept": [
+        "you and Jimmy|Are"
+      ],
+      "blankPartLabels": [
+        "주어",
+        "be동사"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 빈칸 두 개 — 첫 칸: 주어, 둘째 칸: be동사.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Are John and his brother at home?",
+      "promptKo": "존과 그의 형은 집에 있니?",
+      "blanks": 2,
+      "accept": [
+        "John and his brother|Are"
+      ],
+      "blankPartLabels": [
+        "주어",
+        "be동사"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 빈칸 두 개 — 첫 칸: 주어, 둘째 칸: be동사.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Are he and Jenny busy?",
+      "promptKo": "그와 제니는 바쁘니?",
+      "blanks": 2,
+      "accept": [
+        "he and Jenny|Are"
+      ],
+      "blankPartLabels": [
+        "주어",
+        "be동사"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "A: Are you and David tall?  B: Yes, ( you / we ) are.",
+      "choices": [
+        "you",
+        "we"
+      ],
+      "accept": [
+        "1",
+        "we",
+        "2"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "we"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "A: Are Emily and I tall?  B: Yes, ( you / they ) are.",
+      "choices": [
+        "you",
+        "they"
+      ],
+      "accept": [
+        "1",
+        "you"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "A: Are James and Tom tall?  B: Yes, ( we / they ) are.",
+      "choices": [
+        "we",
+        "they"
+      ],
+      "accept": [
+        "1",
+        "they",
+        "2"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "A: Are Tim and his family tall?  B: Yes, ( they / you ) are.",
+      "choices": [
+        "they",
+        "you"
+      ],
+      "accept": [
+        "1",
+        "they"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "A: Are John and Annie tall?  B: Yes, ( we / they ) are.",
+      "choices": [
+        "we",
+        "they"
+      ],
+      "accept": [
+        "1",
+        "they",
+        "2"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "A: Are Tiffany and your sister friends?  B: Yes, ( you / they ) are.",
+      "choices": [
+        "you",
+        "they"
+      ],
+      "accept": [
+        "1",
+        "they",
+        "2"
+      ]
+    }
+  ]
+}

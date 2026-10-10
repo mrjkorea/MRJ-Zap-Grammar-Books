@@ -1,0 +1,680 @@
+{
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — be동사의 현재 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "b1:u07:lesson03-run",
+  "title": "Lesson 03 Run — be동사의 부정문",
+  "subtitle": "부정 고르기 (pp. 174–175)",
+  "pages": "174–175",
+  "timerMinutes": 20,
+  "introKo": "Section A·B 각각 15문항(예시 제외 시 14문항씩). 괄호·빈칸 보기는 책 순서입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "Mina ( not / is not ) a student.",
+      "accept": [
+        "1",
+        "is not"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is not",
+      "choices": [
+        "not",
+        "is not"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "I ( am not / not am ) a teacher.",
+      "choices": [
+        "am not",
+        "not am"
+      ],
+      "accept": [
+        "1",
+        "am not"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "You ( is not / are not ) my friend.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "are not",
+        "2"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "She ( are not / is not ) tall.",
+      "choices": [
+        "are not",
+        "is not"
+      ],
+      "accept": [
+        "1",
+        "is not",
+        "2"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "It ( is not / are not ) my book.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "is not"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "The books ( is not / are not ) mine.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "are not",
+        "2"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "We ( is not / are not ) brothers.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "are not",
+        "2"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "This ( is not / are not ) my pen.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "is not"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Jay and Mike ( is not / are not ) soccer players.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "are not",
+        "2"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "They ( are not / is not ) my relatives.",
+      "choices": [
+        "are not",
+        "is not"
+      ],
+      "accept": [
+        "1",
+        "are not"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "These ( is not / are not ) my jeans.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "are not",
+        "2"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "He ( is not / are not ) an actor.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "is not"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "That ( is not / are not ) my desk.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "is not"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "Ms. Brown ( are not / is not ) my English teacher.",
+      "choices": [
+        "are not",
+        "is not"
+      ],
+      "accept": [
+        "1",
+        "is not",
+        "2"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "Those ( is not / are not ) your gloves.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1",
+        "are not",
+        "2"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "You ______ a baby. ( isn't / aren't )",
+      "accept": [
+        "1",
+        "aren't"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "aren't",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "promptKo": "너는 아기가 아니다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "We ______ children. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "aren't",
+        "2"
+      ],
+      "promptKo": "우리는 아이들이 아니다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "This ______ an answer. ( isn't / isn'ot )",
+      "choices": [
+        "isn't",
+        "isn'ot"
+      ],
+      "accept": [
+        "1",
+        "isn't"
+      ],
+      "promptKo": "이것은 대답이 아니다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "It ______ a notebook. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "isn't"
+      ],
+      "promptKo": "그것은 공책이 아니다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "They ______ my brothers. ( aren'ot / aren't )",
+      "choices": [
+        "aren'ot",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "aren't",
+        "2"
+      ],
+      "promptKo": "그들은 내 형제들이 아니다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "She ______ Chinese. ( aren't / isn't )",
+      "choices": [
+        "aren't",
+        "isn't"
+      ],
+      "accept": [
+        "1",
+        "isn't",
+        "2"
+      ],
+      "promptKo": "그녀는 중국인이 아니다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "That ______ her bag. ( isn't / aren' )",
+      "choices": [
+        "isn't",
+        "aren'"
+      ],
+      "accept": [
+        "1",
+        "isn't"
+      ],
+      "promptKo": "저것은 그녀의 가방이 아니다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "These ______ his shoes. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "aren't",
+        "2"
+      ],
+      "promptKo": "이것들은 그의 신발이 아니다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "He ______ my father. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "isn't"
+      ],
+      "promptKo": "그는 내 아버지가 아니다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "Those ______ your pants. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "aren't",
+        "2"
+      ],
+      "promptKo": "저것들은 네 바지가 아니다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Mr. Kim ______ my teacher. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "isn't"
+      ],
+      "promptKo": "김 선생님은 내 선생님이 아니다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "The window ______ dirty. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "isn't"
+      ],
+      "promptKo": "그 창문은 더럽지 않다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "You ______ lazy. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "aren't",
+        "2"
+      ],
+      "promptKo": "너는 게으르지 않다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "The girls ______ my friends. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "aren't",
+        "2"
+      ],
+      "promptKo": "그 여자아이들은 내 친구들이 아니다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "The room ______ clean. ( isn't / aren't )",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "isn't"
+      ],
+      "promptKo": "그 방은 깨끗하지 않다."
+    }
+  ]
+}

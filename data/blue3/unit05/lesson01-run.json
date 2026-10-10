@@ -1,0 +1,554 @@
+{
+  "practiceId": "b3:u05:lesson01-run",
+  "title": "Grammar Run",
+  "subtitle": "의문사 when, where, how, why (pp. 119–120)",
+  "pages": "119–120",
+  "timerMinutes": 18,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 의문사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(Choose), Section B 11문항(Choose)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptKo": "언제 학교에 가니?",
+      "promptEn": "A: ( When / Where ) do you go to school?\nB: I go to school at eight thirty.",
+      "choices": [
+        "When",
+        "Where"
+      ],
+      "accept": [
+        "1",
+        "When"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "When"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptKo": "집에 어떻게 가니?",
+      "promptEn": "A: ( How / Why ) do you go home?\nB: I go home by bicycle.",
+      "choices": [
+        "How",
+        "Why"
+      ],
+      "accept": [
+        "1",
+        "How"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptKo": "David는 어디에 있니?",
+      "promptEn": "A: ( How / Where ) is David?\nB: He is in the classroom.",
+      "choices": [
+        "How",
+        "Where"
+      ],
+      "accept": [
+        "1",
+        "Where"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptKo": "왜 겨울을 좋아하니?",
+      "promptEn": "A: ( When / Why ) do you like winter?\nB: Because I can skate.",
+      "choices": [
+        "When",
+        "Why"
+      ],
+      "accept": [
+        "1",
+        "Why"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptKo": "크리스마스는 언제니?",
+      "promptEn": "A: ( When / How ) is Christmas?\nB: It's on December the 25th.",
+      "choices": [
+        "When",
+        "How"
+      ],
+      "accept": [
+        "1",
+        "When"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptKo": "그들은 어디에서 춤을 추고 있니?",
+      "promptEn": "A: ( Why / Where ) are they dancing?\nB: They are dancing behind the building.",
+      "choices": [
+        "Why",
+        "Where"
+      ],
+      "accept": [
+        "1",
+        "Where"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptKo": "동물원에 어떻게 가니?",
+      "promptEn": "A: ( Where / How ) do you go to the zoo?\nB: I go there by subway.",
+      "choices": [
+        "Where",
+        "How"
+      ],
+      "accept": [
+        "1",
+        "How"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptKo": "왜 울고 있니?",
+      "promptEn": "A: ( Why / How ) are you crying?\nB: Because I miss my puppy.",
+      "choices": [
+        "Why",
+        "How"
+      ],
+      "accept": [
+        "1",
+        "Why"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptKo": "영화는 언제 시작하니?",
+      "promptEn": "A: ( Where / When ) does the movie begin?\nB: It begins at three p.m.",
+      "choices": [
+        "Where",
+        "When"
+      ],
+      "accept": [
+        "1",
+        "When"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptKo": "내 배낭은 어디에 있니?",
+      "promptEn": "A: ( Where / How ) is my backpack?\nB: It's on the chair.",
+      "choices": [
+        "Where",
+        "How"
+      ],
+      "accept": [
+        "1",
+        "Where"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptKo": "이 스웨터는 어때?",
+      "promptEn": "A: ( Why / How ) is this sweater?\nB: It's pretty.",
+      "choices": [
+        "Why",
+        "How"
+      ],
+      "accept": [
+        "1",
+        "How"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptKo": "왜 콩을 싫어하니?",
+      "promptEn": "A: ( Where / Why ) do you hate beans?\nB: Because they aren't delicious.",
+      "choices": [
+        "Where",
+        "Why"
+      ],
+      "accept": [
+        "1",
+        "Why"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptKo": "조부모를 언제 방문하니?",
+      "promptEn": "When do you visit your grandparents?",
+      "choices": [
+        "I visit them every Sunday.",
+        "I visit them by bus."
+      ],
+      "accept": [
+        "1",
+        "I visit them every Sunday."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I visit them every Sunday."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptKo": "런던은 어디에 있니?",
+      "promptEn": "Where is London?",
+      "choices": [
+        "It is in spring.",
+        "It is in the U.K."
+      ],
+      "accept": [
+        "1",
+        "It is in the U.K."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptKo": "Merlin은 부산에 어떻게 가니?",
+      "promptEn": "How does Merlin go to Busan?",
+      "choices": [
+        "He works there.",
+        "He goes there by train."
+      ],
+      "accept": [
+        "1",
+        "He goes there by train."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptKo": "Max는 왜 도서관에서 공부하니?",
+      "promptEn": "Why does Max study in the library?",
+      "choices": [
+        "Because it's quiet.",
+        "Yes, he does."
+      ],
+      "accept": [
+        "1",
+        "Because it's quiet."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptKo": "가게는 언제 닫니?",
+      "promptEn": "When does the store close?",
+      "choices": [
+        "No, it doesn't.",
+        "It closes at ten p.m."
+      ],
+      "accept": [
+        "1",
+        "It closes at ten p.m."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptKo": "그들은 어디에서 축구를 하니?",
+      "promptEn": "Where do they play soccer?",
+      "choices": [
+        "It is exciting.",
+        "They play soccer in the park."
+      ],
+      "accept": [
+        "1",
+        "They play soccer in the park."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptKo": "그들의 새 노래는 어때?",
+      "promptEn": "How is their new song?",
+      "choices": [
+        "It's under the table.",
+        "It's very good."
+      ],
+      "accept": [
+        "1",
+        "It's very good."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptKo": "네 개는 왜 짖고 있니?",
+      "promptEn": "Why is your dog barking?",
+      "choices": [
+        "Because he's hungry.",
+        "He sleeps at night."
+      ],
+      "accept": [
+        "1",
+        "Because he's hungry."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptKo": "봄은 언제 시작하니?",
+      "promptEn": "When does spring begin?",
+      "choices": [
+        "Because it's warm.",
+        "It begins in March."
+      ],
+      "accept": [
+        "1",
+        "It begins in March."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptKo": "낙타는 어디에 살니?",
+      "promptEn": "Where do camels live?",
+      "choices": [
+        "They live in the desert.",
+        "They are ten years old."
+      ],
+      "accept": [
+        "1",
+        "They live in the desert."
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptKo": "Wendy는 병원에 어떻게 가니?",
+      "promptEn": "How does Wendy go to the hospital?",
+      "choices": [
+        "She goes there on Sunday.",
+        "She goes there on foot."
+      ],
+      "accept": [
+        "1",
+        "She goes there on foot."
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptKo": "왜 민수를 좋아하니?",
+      "promptEn": "Why do you like Minsu?",
+      "choices": [
+        "Because he is nice.",
+        "He is her brother."
+      ],
+      "accept": [
+        "1",
+        "Because he is nice."
+      ]
+    }
+  ]
+}

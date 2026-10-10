@@ -1,0 +1,722 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 비교 — 비교급",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u04:lesson01-run",
+  "title": "Lesson 01 Run — Grammar Run",
+  "subtitle": "비교급 고르기 (pp. 92–93)",
+  "pages": "92–93",
+  "timerMinutes": 18,
+  "introKo": "Section A 14문항 + 예시 1, Section B 15문항(고르기)입니다. A는 괄호 안에서, B는 빈칸에 알맞은 비교급을 고릅니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "id": "a01",
+      "type": "mc",
+      "promptEn": "The blouse is warm. The sweater is ( warmer / warmier ).",
+      "choices": [
+        "warmer",
+        "warmier"
+      ],
+      "accept": [
+        "1",
+        "warmer",
+        "①"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "warmer"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "id": "a02",
+      "type": "mc",
+      "promptEn": "The train is slow. The bike is ( slowier / slower ).",
+      "choices": [
+        "slowier",
+        "slower"
+      ],
+      "accept": [
+        "1",
+        "slower",
+        "2",
+        "②"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "id": "a03",
+      "type": "mc",
+      "promptEn": "Jenny studies math hard. Ted studies it ( harder / hardder ).",
+      "choices": [
+        "harder",
+        "hardder"
+      ],
+      "accept": [
+        "1",
+        "harder",
+        "①"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "id": "a04",
+      "type": "mc",
+      "promptEn": "The mug is heavy. The jar is ( heavyer / heavier ).",
+      "choices": [
+        "heavyer",
+        "heavier"
+      ],
+      "accept": [
+        "1",
+        "heavier",
+        "2",
+        "②"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "id": "a05",
+      "type": "mc",
+      "promptEn": "Canada is big. Russia is ( biger / bigger ).",
+      "choices": [
+        "biger",
+        "bigger"
+      ],
+      "accept": [
+        "1",
+        "bigger",
+        "2",
+        "②"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "id": "a06",
+      "type": "mc",
+      "promptEn": "This fence is high. That wall is ( higher / highlier ).",
+      "choices": [
+        "higher",
+        "highlier"
+      ],
+      "accept": [
+        "1",
+        "higher",
+        "①"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "id": "a07",
+      "type": "mc",
+      "promptEn": "My mom is busy. My dad is ( busyer / busier ).",
+      "choices": [
+        "busyer",
+        "busier"
+      ],
+      "accept": [
+        "1",
+        "busier",
+        "2",
+        "②"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "id": "a08",
+      "type": "mc",
+      "promptEn": "A watermelon is sweet. Chocolate is ( sweeter / sweetter ).",
+      "choices": [
+        "sweeter",
+        "sweetter"
+      ],
+      "accept": [
+        "1",
+        "sweeter",
+        "①"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "id": "a09",
+      "type": "mc",
+      "promptEn": "Your dog gets up early. My dog gets up ( earlyer / earlier ).",
+      "choices": [
+        "earlyer",
+        "earlier"
+      ],
+      "accept": [
+        "1",
+        "earlier",
+        "2",
+        "②"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "id": "a10",
+      "type": "mc",
+      "promptEn": "The lake is deep. The sea is ( deeper / deepper ).",
+      "choices": [
+        "deeper",
+        "deepper"
+      ],
+      "accept": [
+        "1",
+        "deeper",
+        "①"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "id": "a11",
+      "type": "mc",
+      "promptEn": "This shirt is dirty. Those socks are ( dirtyer / dirtier ).",
+      "choices": [
+        "dirtyer",
+        "dirtier"
+      ],
+      "accept": [
+        "1",
+        "dirtier",
+        "2",
+        "②"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "id": "a12",
+      "type": "mc",
+      "promptEn": "This pig is fat. That pig is ( fater / fatter ).",
+      "choices": [
+        "fater",
+        "fatter"
+      ],
+      "accept": [
+        "1",
+        "fatter",
+        "2",
+        "②"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "id": "a13",
+      "type": "mc",
+      "promptEn": "My mother is happy. I am ( happier / happyer ).",
+      "choices": [
+        "happier",
+        "happyer"
+      ],
+      "accept": [
+        "1",
+        "happier",
+        "①"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "id": "a14",
+      "type": "mc",
+      "promptEn": "Sumi gets up late. Her brother gets up ( later / latter ).",
+      "choices": [
+        "later",
+        "latter"
+      ],
+      "accept": [
+        "1",
+        "later",
+        "①"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "id": "a15",
+      "type": "mc",
+      "promptEn": "The movie is funny. The cartoon is ( funnyer / funnier ).",
+      "choices": [
+        "funnyer",
+        "funnier"
+      ],
+      "accept": [
+        "1",
+        "funnier",
+        "2",
+        "②"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "id": "b01",
+      "type": "mc",
+      "promptEn": "Jane's hair is short. Adam's hair is ______.",
+      "choices": [
+        "shortly",
+        "shorter"
+      ],
+      "accept": [
+        "1",
+        "shorter",
+        "2",
+        "②"
+      ],
+      "promptKo": "제인의 머리는 짧다. 아담의 머리는 더 짧다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "id": "b02",
+      "type": "mc",
+      "promptEn": "The room is ______. The bathroom is darker.",
+      "choices": [
+        "dark",
+        "darke"
+      ],
+      "accept": [
+        "1",
+        "dark",
+        "①"
+      ],
+      "promptKo": "그 방은 어둡다. 그 욕실은 더 어둡다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "id": "b03",
+      "type": "mc",
+      "promptEn": "The pancake is large. The pizza is ______.",
+      "choices": [
+        "largeer",
+        "larger"
+      ],
+      "accept": [
+        "1",
+        "larger",
+        "2",
+        "②"
+      ],
+      "promptKo": "그 팬케이크는 크다. 그 피자는 더 크다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "id": "b04",
+      "type": "mc",
+      "promptEn": "Minsu is smart. Minho is ______.",
+      "choices": [
+        "smatter",
+        "smarter"
+      ],
+      "accept": [
+        "1",
+        "smarter",
+        "2",
+        "②"
+      ],
+      "promptKo": "민수는 똑똑하다. 민호는 더 똑똑하다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "id": "b05",
+      "type": "mc",
+      "promptEn": "My tea is hot. The kettle is ______.",
+      "choices": [
+        "hoter",
+        "hotter"
+      ],
+      "accept": [
+        "1",
+        "hotter",
+        "2",
+        "②"
+      ],
+      "promptKo": "내 차는 뜨겁다. 그 주전자는 더 뜨겁다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "id": "b06",
+      "type": "mc",
+      "promptEn": "Dad is ______. Superman is stronger.",
+      "choices": [
+        "strong",
+        "stongly"
+      ],
+      "accept": [
+        "1",
+        "strong",
+        "①"
+      ],
+      "promptKo": "아빠는 힘이 세다. 슈퍼맨은 더 힘이 세다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "id": "b07",
+      "type": "mc",
+      "promptEn": "Judy is fat. Sam is ______.",
+      "choices": [
+        "fatter",
+        "fater"
+      ],
+      "accept": [
+        "1",
+        "fatter",
+        "①"
+      ],
+      "promptKo": "주디는 뚱뚱하다. 샘은 더 뚱뚱하다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "id": "b08",
+      "type": "mc",
+      "promptEn": "The cushion is soft. The pillow is ______.",
+      "choices": [
+        "softer",
+        "softier"
+      ],
+      "accept": [
+        "1",
+        "softer",
+        "①"
+      ],
+      "promptKo": "그 쿠션은 푹신하다. 그 베개는 더 푹신하다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "id": "b09",
+      "type": "mc",
+      "promptEn": "A mouse is small. An ant is ______.",
+      "choices": [
+        "smallier",
+        "smaller"
+      ],
+      "accept": [
+        "1",
+        "smaller",
+        "2",
+        "②"
+      ],
+      "promptKo": "쥐는 작다. 개미는 더 작다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "id": "b10",
+      "type": "mc",
+      "promptEn": "You are pretty. That actress is ______.",
+      "choices": [
+        "prettier",
+        "prettyer"
+      ],
+      "accept": [
+        "1",
+        "prettier",
+        "①"
+      ],
+      "promptKo": "너는 예쁘다. 저 여배우는 더 예쁘다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "id": "b11",
+      "type": "mc",
+      "promptEn": "The red cap is cheap. The pink cap is ______.",
+      "choices": [
+        "cheapper",
+        "cheaper"
+      ],
+      "accept": [
+        "1",
+        "cheaper",
+        "2",
+        "②"
+      ],
+      "promptKo": "그 빨간 모자는 싸다. 그 분홍색 모자는 더 싸다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "id": "b12",
+      "type": "mc",
+      "promptEn": "The worm is ______. A snake is longer.",
+      "choices": [
+        "long",
+        "longe"
+      ],
+      "accept": [
+        "1",
+        "long",
+        "①"
+      ],
+      "promptKo": "그 벌레는 길다. 뱀은 더 길다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "id": "b13",
+      "type": "mc",
+      "promptEn": "Math is easy. Science is ______.",
+      "choices": [
+        "easyier",
+        "easier"
+      ],
+      "accept": [
+        "1",
+        "easier",
+        "2",
+        "②"
+      ],
+      "promptKo": "수학은 쉽다. 과학은 더 쉽다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "id": "b14",
+      "type": "mc",
+      "promptEn": "The kite flies ______. An airplane is faster.",
+      "choices": [
+        "fastier",
+        "fast"
+      ],
+      "accept": [
+        "1",
+        "fast",
+        "2",
+        "②"
+      ],
+      "promptKo": "그 연은 빠르게 난다. 비행기는 더 빨리 난다."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "id": "b15",
+      "type": "mc",
+      "promptEn": "Dianne is thin. Anne is ______.",
+      "choices": [
+        "thiner",
+        "thinner"
+      ],
+      "accept": [
+        "1",
+        "thinner",
+        "2",
+        "②"
+      ],
+      "promptKo": "다이앤은 말랐다. 앤은 더 말랐다."
+    }
+  ]
+}

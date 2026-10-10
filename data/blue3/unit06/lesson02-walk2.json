@@ -1,0 +1,260 @@
+{
+  "practiceId": "b3:u06:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — be동사 과거형",
+  "subtitle": "의문사 있는 의문문 (p. 153)",
+  "pages": "153",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 과거 시제 - be동사",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 의문사와 was/were. Section B는 대답 연결 고르기.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 의문사를 찾아 동그라미 하고 동사를 찾아 밑줄을 치세요. 의문사와 동사를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 의문사를 찾아 동그라미 하고 동사를 찾아 밑줄을 치세요.",
+      "ruleKo": "의문사와 동사를 각각 한 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 대답(a~e)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하고 동사를 찾아 밑줄을 치세요. 의문사와 동사를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Who was the lady?",
+      "accept": [
+        "Who|was",
+        "was|Who"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Who / was"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하고 동사를 찾아 밑줄을 치세요. 의문사와 동사를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "What was in the basket?",
+      "accept": [
+        "What|was",
+        "was|What"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하고 동사를 찾아 밑줄을 치세요. 의문사와 동사를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Where were you last night?",
+      "accept": [
+        "Where|were",
+        "were|Where"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하고 동사를 찾아 밑줄을 치세요. 의문사와 동사를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "How was the musical?",
+      "accept": [
+        "How|was",
+        "was|How"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하고 동사를 찾아 밑줄을 치세요. 의문사와 동사를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Why were you sad?",
+      "accept": [
+        "Why|were",
+        "were|Why"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Who was in the kitchen?",
+      "choices": [
+        "a. It was scary.",
+        "b. Because it was rainy.",
+        "c. My mother was there.",
+        "d. I was in my room.",
+        "e. It was a gift for my mom."
+      ],
+      "accept": [
+        "1",
+        "3",
+        "③",
+        "c. My mother was there."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "What was it?",
+      "choices": [
+        "a. It was scary.",
+        "b. Because it was rainy.",
+        "c. My mother was there.",
+        "d. I was in my room.",
+        "e. It was a gift for my mom."
+      ],
+      "accept": [
+        "1",
+        "5",
+        "⑤",
+        "e. It was a gift for my mom."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Where were you yesterday?",
+      "choices": [
+        "a. It was scary.",
+        "b. Because it was rainy.",
+        "c. My mother was there.",
+        "d. I was in my room.",
+        "e. It was a gift for my mom."
+      ],
+      "accept": [
+        "1",
+        "4",
+        "④",
+        "d. I was in my room."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "How was the movie?",
+      "choices": [
+        "a. It was scary.",
+        "b. Because it was rainy.",
+        "c. My mother was there.",
+        "d. I was in my room.",
+        "e. It was a gift for my mom."
+      ],
+      "accept": [
+        "1",
+        "①",
+        "a. It was scary."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Why were they late?",
+      "choices": [
+        "a. It was scary.",
+        "b. Because it was rainy.",
+        "c. My mother was there.",
+        "d. I was in my room.",
+        "e. It was a gift for my mom."
+      ],
+      "accept": [
+        "1",
+        "2",
+        "②",
+        "b. Because it was rainy."
+      ]
+    }
+  ]
+}

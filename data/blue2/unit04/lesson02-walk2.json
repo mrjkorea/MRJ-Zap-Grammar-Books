@@ -1,0 +1,248 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — some과 any, every와 all",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u04:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — every와 all",
+  "subtitle": "all (p. 101)",
+  "pages": "101",
+  "timerMinutes": 10,
+  "introKo": "all 연결하기와 문장에서 all·꾸밈 말 찾기입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 all을 찾아 동그라미 하고 all이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "directionKo": "다음 문장에서 all을 찾아 동그라미 하고 all이 꾸며 주는 말을 찾아 밑줄을 치세요.",
+      "ruleKo": "동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "all students",
+      "choices": [
+        "a. 모든 채소들",
+        "b. 온종일",
+        "c. 일주일 내내",
+        "d. 모든 학생들",
+        "e. 밤새"
+      ],
+      "accept": [
+        "1",
+        "d. 모든 학생들",
+        "d"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "d",
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "all vegetables",
+      "choices": [
+        "a. 모든 채소들",
+        "b. 온종일",
+        "c. 일주일 내내",
+        "d. 모든 학생들",
+        "e. 밤새"
+      ],
+      "accept": [
+        "1",
+        "a. 모든 채소들",
+        "a"
+      ],
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "all day",
+      "choices": [
+        "a. 모든 채소들",
+        "b. 온종일",
+        "c. 일주일 내내",
+        "d. 모든 학생들",
+        "e. 밤새"
+      ],
+      "accept": [
+        "1",
+        "b. 온종일",
+        "b"
+      ],
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "all night",
+      "choices": [
+        "a. 모든 채소들",
+        "b. 온종일",
+        "c. 일주일 내내",
+        "d. 모든 학생들",
+        "e. 밤새"
+      ],
+      "accept": [
+        "1",
+        "e. 밤새",
+        "e"
+      ],
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "all week",
+      "choices": [
+        "a. 모든 채소들",
+        "b. 온종일",
+        "c. 일주일 내내",
+        "d. 모든 학생들",
+        "e. 밤새"
+      ],
+      "accept": [
+        "1",
+        "c. 일주일 내내",
+        "c"
+      ],
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "My brother likes all cookies.",
+      "accept": [
+        "all|cookies"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "all / cookies",
+      "sectionInstructionKo": "다음 문장에서 all을 찾아 동그라미 하고 all이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "All babies are cute.",
+      "accept": [
+        "All|babies"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장에서 all을 찾아 동그라미 하고 all이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "All cats have four legs.",
+      "accept": [
+        "All|cats"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장에서 all을 찾아 동그라미 하고 all이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "All bread is good for you.",
+      "accept": [
+        "All|bread"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장에서 all을 찾아 동그라미 하고 all이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "All doctors are kind.",
+      "accept": [
+        "All|doctors"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장에서 all을 찾아 동그라미 하고 all이 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    }
+  ]
+}

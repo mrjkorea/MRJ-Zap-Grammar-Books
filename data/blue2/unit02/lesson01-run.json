@@ -1,0 +1,689 @@
+{
+  "practiceId": "b2:u02:lesson01-run",
+  "title": "Lesson 01 Run — 부정문",
+  "subtitle": "don't/doesn't · 빈칸 고르기 (pp. 40–41)",
+  "pages": "40–41",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 일반동사의 부정문과 의문문",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 15문항(고르기). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I ( don't / doesn't ) like chicken.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "don't"
+      ],
+      "promptKo": "나는 닭고기를 좋아하지 않는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "don't"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "Paul ( don't / doesn't ) play basketball.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "doesn't",
+        "2"
+      ],
+      "promptKo": "폴은 농구를 하지 않는다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "We don't ( live / lives ) in a city.",
+      "choices": [
+        "live",
+        "lives"
+      ],
+      "accept": [
+        "1",
+        "live"
+      ],
+      "promptKo": "우리는 도시에 살지 않는다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Yunji doesn't ( have / has ) a camera.",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "1",
+        "have"
+      ],
+      "promptKo": "윤지는 카메라를 가지고 있지 않다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "You ( don't / doesn't ) know her e-mail address.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "don't"
+      ],
+      "promptKo": "너는 그녀의 이메일 주소를 모른다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "My mother ( don't / doesn't ) cook dinner on Saturday.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "doesn't",
+        "2"
+      ],
+      "promptKo": "우리 어머니는 토요일에 저녁을 요리하지 않는다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "They don't ( go / goes ) on a picnic.",
+      "choices": [
+        "go",
+        "goes"
+      ],
+      "accept": [
+        "1",
+        "go"
+      ],
+      "promptKo": "그들은 소풍을 가지 않는다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "He doesn't ( learn / learns ) Japanese.",
+      "choices": [
+        "learn",
+        "learns"
+      ],
+      "accept": [
+        "1",
+        "learn"
+      ],
+      "promptKo": "그는 일본어를 배우지 않는다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "The boys ( don't / doesn't ) eat hamburgers.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "don't"
+      ],
+      "promptKo": "그 남자아이들은 햄버거를 먹지 않는다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "Johnny ( don't / doesn't ) remember her.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "doesn't",
+        "2"
+      ],
+      "promptKo": "조니는 그녀를 기억하지 않는다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "My parents ( don't / doesn't ) watch television.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "don't"
+      ],
+      "promptKo": "우리 부모님은 텔레비전을 보지 않는다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "His sister doesn't ( listen / listens ) to hip-hop music.",
+      "choices": [
+        "listen",
+        "listens"
+      ],
+      "accept": [
+        "1",
+        "listen"
+      ],
+      "promptKo": "그의 여동생은 힙합 음악을 듣지 않는다."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "They ( don't / doesn't ) clean the windows.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "don't"
+      ],
+      "promptKo": "그들은 창문을 청소하지 않는다."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "My uncle doesn't ( work / works ) every Thursday.",
+      "choices": [
+        "work",
+        "works"
+      ],
+      "accept": [
+        "1",
+        "work"
+      ],
+      "promptKo": "우리 삼촌은 매주 목요일에 일하지 않는다."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "Miho ( don't / doesn't ) walk to school.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "doesn't",
+        "2"
+      ],
+      "promptKo": "미호는 걸어서 학교에 가지 않는다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I ______ know his name.",
+      "choices": [
+        "do not",
+        "am not"
+      ],
+      "accept": [
+        "1",
+        "do not"
+      ],
+      "promptKo": "나는 그의 이름을 모른다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "do not"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "They ______ drink coffee.",
+      "choices": [
+        "not",
+        "do not"
+      ],
+      "accept": [
+        "1",
+        "do not",
+        "2"
+      ],
+      "promptKo": "그들은 커피를 마시지 않는다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Subin ______ like apples.",
+      "choices": [
+        "do not",
+        "does not"
+      ],
+      "accept": [
+        "1",
+        "does not",
+        "2"
+      ],
+      "promptKo": "수빈은 사과를 좋아하지 않는다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "You ______ have a diary.",
+      "choices": [
+        "do not",
+        "does not"
+      ],
+      "accept": [
+        "1",
+        "do not"
+      ],
+      "promptKo": "너는 일기장을 가지고 있지 않다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Tom ______ study hard.",
+      "choices": [
+        "isn't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "doesn't",
+        "2"
+      ],
+      "promptKo": "톰은 열심히 공부하지 않는다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "We don't ______ at night.",
+      "choices": [
+        "swim",
+        "swims"
+      ],
+      "accept": [
+        "1",
+        "swim"
+      ],
+      "promptKo": "우리는 밤에 수영하지 않는다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "Jessica ______ play the piano.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "doesn't",
+        "2"
+      ],
+      "promptKo": "제시카는 피아노를 치지 않는다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "They ______ eat fish.",
+      "choices": [
+        "don't",
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "don't"
+      ],
+      "promptKo": "그들은 생선을 먹지 않는다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "Mike doesn't ______ comic books.",
+      "choices": [
+        "read",
+        "reads"
+      ],
+      "accept": [
+        "1",
+        "read"
+      ],
+      "promptKo": "마이크는 만화책을 읽지 않는다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "I ______ want a lemon.",
+      "choices": [
+        "am not",
+        "do not"
+      ],
+      "accept": [
+        "1",
+        "do not",
+        "2"
+      ],
+      "promptKo": "나는 레몬을 원하지 않는다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Kelly ______ get up early.",
+      "choices": [
+        "isn't",
+        "doesn't"
+      ],
+      "accept": [
+        "1",
+        "doesn't",
+        "2"
+      ],
+      "promptKo": "켈리는 일찍 일어나지 않는다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "Ms. Parker ______ teach music.",
+      "choices": [
+        "doesn't",
+        "don't"
+      ],
+      "accept": [
+        "1",
+        "doesn't"
+      ],
+      "promptKo": "파커 선생님은 음악을 가르치지 않는다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "Jimin doesn't ______ me.",
+      "choices": [
+        "help",
+        "helps"
+      ],
+      "accept": [
+        "1",
+        "help"
+      ],
+      "promptKo": "지민은 나를 돕지 않는다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "They ______ sleep here.",
+      "choices": [
+        "are not",
+        "do not"
+      ],
+      "accept": [
+        "1",
+        "do not",
+        "2"
+      ],
+      "promptKo": "그들은 여기서 자지 않는다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "Snakes ______ have ears.",
+      "choices": [
+        "do not",
+        "does not"
+      ],
+      "accept": [
+        "1",
+        "do not"
+      ],
+      "promptKo": "뱀은 귀가 없다."
+    }
+  ]
+}

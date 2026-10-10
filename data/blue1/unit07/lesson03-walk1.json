@@ -1,0 +1,247 @@
+{
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — be동사의 현재 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "b1:u07:lesson03-walk1",
+  "title": "Lesson 03 Walk 1 — be동사의 부정문",
+  "subtitle": "부정형·not 위치 (p. 171)",
+  "pages": "171",
+  "timerMinutes": 10,
+  "introKo": "Section A는 부정형 찾기, Section B는 not 위치(번호) 고르기입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 be동사의 부정형을 찾아 동그라미 하세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 문장에서 be동사의 부정형을 찾아 동그라미 하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 부정문으로 만들 때 not이 들어갈 위치를 고르세요. 알맞은 말을 골라 쓰세요.",
+      "directionKo": "다음 문장을 부정문으로 만들 때 not이 들어갈 위치로 알맞은 곳에 동그라미 하세요.",
+      "ruleKo": "알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 부정형을 찾아 동그라미 하세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Andy <u>is not</u> a student.",
+      "accept": [
+        "is not",
+        "isn't"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is not"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 부정형을 찾아 동그라미 하세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I am not in the room.",
+      "accept": [
+        "am not"
+      ],
+      "promptKo": "나는 방에 없다.",
+      "blanks": 1
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 부정형을 찾아 동그라미 하세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "He is not Korean.",
+      "accept": [
+        "is not",
+        "isn't"
+      ],
+      "promptKo": "그는 한국인이 아니다.",
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 부정형을 찾아 동그라미 하세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The cats are not black.",
+      "accept": [
+        "are not",
+        "aren't"
+      ],
+      "promptKo": "그 고양이들은 검지 않다.",
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 부정형을 찾아 동그라미 하세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "We are not singers.",
+      "accept": [
+        "are not",
+        "aren't"
+      ],
+      "promptKo": "우리는 가수가 아니다.",
+      "blanks": 1
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 만들 때 not이 들어갈 위치를 고르세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I ① am ② a ③ girl ④",
+      "accept": [
+        "1",
+        "2"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "2",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "promptKo": "not은 am 뒤"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 만들 때 not이 들어갈 위치를 고르세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "You ① are ② a ③ boy ④",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "accept": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 만들 때 not이 들어갈 위치를 고르세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "She ① is ② ten ③ years old ④",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "accept": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 만들 때 not이 들어갈 위치를 고르세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Mr. Brown ① is ② American ③",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "accept": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 만들 때 not이 들어갈 위치를 고르세요. 알맞은 말을 골라 쓰세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Mike and ① Jimmy ② are ③ fast ④",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "accept": [
+        "1",
+        "3"
+      ]
+    }
+  ]
+}

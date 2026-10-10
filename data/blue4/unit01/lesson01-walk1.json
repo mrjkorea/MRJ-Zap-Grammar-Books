@@ -1,0 +1,268 @@
+{
+  "practiceId": "b4:u01:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 과거 진행 시제",
+  "subtitle": "긍정문 형태 (p. 11)",
+  "pages": "11",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 과거 진행 시제",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 과거 진행 시제 형태( be + -ing )를, Section B는 과거 시제와 과거 진행 시제를 구별합니다. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 과거 진행 시제의 형태를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (be동사와 -ing를 각각 한 칸에 쓰세요.)",
+      "directionKo": "다음 문장에서 과거 진행 시제의 형태를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 말만 쓰세요. (be동사와 -ing를 각각 한 칸에 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 알맞은 시제를 찾아 선으로 연결하세요. 알맞은 보기(a~b)를 하나 골라 누르세요.",
+      "directionKo": "다음 문장의 알맞은 시제를 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 보기를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 과거 진행 시제의 형태를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (be동사와 -ing를 각각 한 칸에 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I was drinking some milk.",
+      "accept": [
+        "was|drinking"
+      ],
+      "promptKo": "나는 우유를 마시고 있었다.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "was drinking"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 과거 진행 시제의 형태를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (be동사와 -ing를 각각 한 칸에 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "We were watching TV.",
+      "accept": [
+        "were|watching"
+      ],
+      "promptKo": "우리는 TV를 보고 있었다.",
+      "blanks": 2
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 과거 진행 시제의 형태를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (be동사와 -ing를 각각 한 칸에 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Cindy was writing a letter.",
+      "accept": [
+        "was|writing"
+      ],
+      "promptKo": "신디는 편지를 쓰고 있었다.",
+      "blanks": 2
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 과거 진행 시제의 형태를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (be동사와 -ing를 각각 한 칸에 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The dog was barking loudly.",
+      "accept": [
+        "was|barking"
+      ],
+      "promptKo": "그 개는 크게 짖고 있었다.",
+      "blanks": 2
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 과거 진행 시제의 형태를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (be동사와 -ing를 각각 한 칸에 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They were watering the plants.",
+      "accept": [
+        "were|watering"
+      ],
+      "promptKo": "그들은 식물에 물을 주고 있었다.",
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 알맞은 시제를 찾아 선으로 연결하세요. 알맞은 보기(a~b)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Mark was eating a sandwich.",
+      "choices": [
+        "a. 과거 시제",
+        "b. 과거 진행 시제"
+      ],
+      "accept": [
+        "1",
+        "b. 과거 진행 시제",
+        "2",
+        "②"
+      ],
+      "promptKo": "마크는 샌드위치를 먹고 있었다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "b. 과거 진행 시제"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 알맞은 시제를 찾아 선으로 연결하세요. 알맞은 보기(a~b)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Jane ate a sandwich.",
+      "choices": [
+        "a. 과거 시제",
+        "b. 과거 진행 시제"
+      ],
+      "accept": [
+        "1",
+        "a. 과거 시제",
+        "①"
+      ],
+      "promptKo": "제인은 샌드위치를 먹었다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 알맞은 시제를 찾아 선으로 연결하세요. 알맞은 보기(a~b)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "I cleaned the room.",
+      "choices": [
+        "a. 과거 시제",
+        "b. 과거 진행 시제"
+      ],
+      "accept": [
+        "1",
+        "a. 과거 시제",
+        "①"
+      ],
+      "promptKo": "나는 방을 청소했다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 알맞은 시제를 찾아 선으로 연결하세요. 알맞은 보기(a~b)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "They were cleaning the room.",
+      "choices": [
+        "a. 과거 시제",
+        "b. 과거 진행 시제"
+      ],
+      "accept": [
+        "1",
+        "b. 과거 진행 시제",
+        "2",
+        "②"
+      ],
+      "promptKo": "그들은 방을 청소하고 있었다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 알맞은 시제를 찾아 선으로 연결하세요. 알맞은 보기(a~b)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "The boys were skating on the ice.",
+      "choices": [
+        "a. 과거 시제",
+        "b. 과거 진행 시제"
+      ],
+      "accept": [
+        "1",
+        "b. 과거 진행 시제",
+        "2",
+        "②"
+      ],
+      "promptKo": "그 남자아이들은 얼음 위에서 스케이트를 타고 있었다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 알맞은 시제를 찾아 선으로 연결하세요. 알맞은 보기(a~b)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "We skated on the ice.",
+      "choices": [
+        "a. 과거 시제",
+        "b. 과거 진행 시제"
+      ],
+      "accept": [
+        "1",
+        "a. 과거 시제",
+        "①"
+      ],
+      "promptKo": "우리는 얼음 위에서 스케이트를 탔다."
+    }
+  ]
+}

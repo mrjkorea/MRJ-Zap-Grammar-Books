@@ -1,0 +1,258 @@
+{
+  "practiceId": "b3:u01:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 조동사 can",
+  "subtitle": "의문문 · 대답 연결 (p. 14)",
+  "pages": "14",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 조동사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 4문항(의문문), Section B 4문항(대답 고르기). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 순서대로 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 보기 a~e. 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 알맞은 대답을 찾아 연결하세요.",
+      "ruleKo": "a~e. 중 하나를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 순서대로 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "She can drive a car.\n→ ______ ______ drive a car?",
+      "accept": [
+        "Can|she"
+      ],
+      "promptKo": "그녀는 자동차를 운전할 수 있다.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Can / she"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 순서대로 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "They can ride bicycles.\n→ ______ ______ ride bicycles?",
+      "accept": [
+        "Can|they"
+      ],
+      "promptKo": "그들은 자전거를 탈 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 순서대로 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Bill can take pictures.\n→ ______ Bill ______ pictures?",
+      "accept": [
+        "Can|take"
+      ],
+      "promptKo": "빌은 사진을 찍을 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 순서대로 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Mr. Brown can fix roofs.\n→ ______ Mr. Brown ______ roofs?",
+      "accept": [
+        "Can|fix"
+      ],
+      "promptKo": "브라운 씨는 지붕을 고칠 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 순서대로 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The girls can dance well.\n→ ______ the girls ______ well?",
+      "accept": [
+        "Can|dance"
+      ],
+      "promptKo": "그 여자아이들은 춤을 잘 출 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 보기 a~e. 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Can they swim?",
+      "choices": [
+        "a. Yes, they can.",
+        "b. No, we can't.",
+        "c. Yes, he can.",
+        "d. Yes, it can.",
+        "e. No, she can't."
+      ],
+      "accept": [
+        "1",
+        "a. Yes, they can.",
+        "a"
+      ],
+      "promptKo": "그들은 수영을 할 수 있니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a. Yes, they can."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 보기 a~e. 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Can Melanie read Korean?",
+      "choices": [
+        "a. Yes, they can.",
+        "b. No, we can't.",
+        "c. Yes, he can.",
+        "d. Yes, it can.",
+        "e. No, she can't."
+      ],
+      "accept": [
+        "1",
+        "e. No, she can't.",
+        "e"
+      ],
+      "promptKo": "멜라니는 한국어를 읽을 수 있니?"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 보기 a~e. 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Can the cat catch mice?",
+      "choices": [
+        "a. Yes, they can.",
+        "b. No, we can't.",
+        "c. Yes, he can.",
+        "d. Yes, it can.",
+        "e. No, she can't."
+      ],
+      "accept": [
+        "1",
+        "d. Yes, it can.",
+        "d"
+      ],
+      "promptKo": "그 고양이는 쥐를 잡을 수 있니?"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 보기 a~e. 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Can you sing English songs?",
+      "choices": [
+        "a. Yes, they can.",
+        "b. No, we can't.",
+        "c. Yes, he can.",
+        "d. Yes, it can.",
+        "e. No, she can't."
+      ],
+      "accept": [
+        "1",
+        "b. No, we can't.",
+        "b"
+      ],
+      "promptKo": "너희는 영어 노래를 부를 수 있니?"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 보기 a~e. 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Can he play the piano?",
+      "choices": [
+        "a. Yes, they can.",
+        "b. No, we can't.",
+        "c. Yes, he can.",
+        "d. Yes, it can.",
+        "e. No, she can't."
+      ],
+      "accept": [
+        "1",
+        "c. Yes, he can.",
+        "c"
+      ],
+      "promptKo": "그는 피아노를 칠 수 있니?"
+    }
+  ]
+}

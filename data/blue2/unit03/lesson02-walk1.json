@@ -1,0 +1,276 @@
+{
+  "practiceId": "b2:u03:lesson02-walk1",
+  "title": "Lesson 02 Walk 1 — 형용사",
+  "subtitle": "형용사 위치·뜻 연결 (p. 73)",
+  "pages": "73",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 형용사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 4문항(형용사), Section B 6문항(연결·고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 안내에 따라 고르기·빈칸·문장 전체를 구분하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 주어진 말이 들어갈 알맞은 위치에 동그라미 하세요. 동그라미 친 말(주어진 형용사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말이 들어갈 위치를 동그라미 하세요.",
+      "ruleKo": "동그라미 친 형용사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 알맞은 위치에 동그라미 하세요. 동그라미 친 말(주어진 형용사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "He is a boy. ( quiet )",
+      "accept": [
+        "quiet"
+      ],
+      "promptKo": "그는 조용한 남자아이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "quiet"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 알맞은 위치에 동그라미 하세요. 동그라미 친 말(주어진 형용사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "It is a building. ( tall )",
+      "accept": [
+        "tall"
+      ],
+      "promptKo": "그것은 키가 큰 건물이다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 알맞은 위치에 동그라미 하세요. 동그라미 친 말(주어진 형용사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Mabel is a cat. ( small )",
+      "accept": [
+        "small"
+      ],
+      "promptKo": "메이블은 작은 고양이이다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 알맞은 위치에 동그라미 하세요. 동그라미 친 말(주어진 형용사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Hallasan is a mountain. ( beautiful )",
+      "accept": [
+        "beautiful"
+      ],
+      "promptKo": "한라산은 아름다운 산이다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 알맞은 위치에 동그라미 하세요. 동그라미 친 말(주어진 형용사)만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "This is a movie. ( sad )",
+      "accept": [
+        "sad"
+      ],
+      "promptKo": "이것은 슬픈 영화이다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "my new desk",
+      "choices": [
+        "a. 커다란 곰 인형",
+        "b. 그의 친절한 선생님",
+        "c. 내 새 책상",
+        "d. 이 파란 셔츠",
+        "e. 아름다운 여자",
+        "f. 이 더러운 양말들"
+      ],
+      "accept": [
+        "1",
+        "c. 내 새 책상",
+        "c"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "this blue shirt",
+      "choices": [
+        "a. 커다란 곰 인형",
+        "b. 그의 친절한 선생님",
+        "c. 내 새 책상",
+        "d. 이 파란 셔츠",
+        "e. 아름다운 여자",
+        "f. 이 더러운 양말들"
+      ],
+      "accept": [
+        "1",
+        "d. 이 파란 셔츠",
+        "d"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "a beautiful woman",
+      "choices": [
+        "a. 커다란 곰 인형",
+        "b. 그의 친절한 선생님",
+        "c. 내 새 책상",
+        "d. 이 파란 셔츠",
+        "e. 아름다운 여자",
+        "f. 이 더러운 양말들"
+      ],
+      "accept": [
+        "1",
+        "e. 아름다운 여자",
+        "e"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "his kind teacher",
+      "choices": [
+        "a. 커다란 곰 인형",
+        "b. 그의 친절한 선생님",
+        "c. 내 새 책상",
+        "d. 이 파란 셔츠",
+        "e. 아름다운 여자",
+        "f. 이 더러운 양말들"
+      ],
+      "accept": [
+        "1",
+        "b. 그의 친절한 선생님",
+        "b"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "a big teddy bear",
+      "choices": [
+        "a. 커다란 곰 인형",
+        "b. 그의 친절한 선생님",
+        "c. 내 새 책상",
+        "d. 이 파란 셔츠",
+        "e. 아름다운 여자",
+        "f. 이 더러운 양말들"
+      ],
+      "accept": [
+        "1",
+        "a. 커다란 곰 인형",
+        "a"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "these dirty socks",
+      "choices": [
+        "a. 커다란 곰 인형",
+        "b. 그의 친절한 선생님",
+        "c. 내 새 책상",
+        "d. 이 파란 셔츠",
+        "e. 아름다운 여자",
+        "f. 이 더러운 양말들"
+      ],
+      "accept": [
+        "1",
+        "f. 이 더러운 양말들",
+        "f"
+      ]
+    }
+  ]
+}

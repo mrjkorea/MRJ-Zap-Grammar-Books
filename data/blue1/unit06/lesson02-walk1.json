@@ -1,0 +1,213 @@
+{
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 대명사 (2)",
+  "practiceId": "b1:u06:lesson02-walk1",
+  "title": "Lesson 02 Walk 1 — 지시대명사",
+  "subtitle": "p. 145",
+  "pages": "145",
+  "timerMinutes": 10,
+  "sectionsVersion": 2,
+  "introKo": "지시대명사/지시형용사 찾기·P/A 구분.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "B 다음 문장의 밑줄 친 말이 지시대명사이면 P, 지시형용사이면 A를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 말이 지시대명사이면 P, 지시형용사이면 A를 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "This is a penguin.",
+      "accept": [
+        "This",
+        "this"
+      ],
+      "promptKo": "이것은 펭귄이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "This"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "That is a horse.",
+      "accept": [
+        "That",
+        "that"
+      ],
+      "promptKo": "저것은 말이다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "This cat is quiet.",
+      "accept": [
+        "This",
+        "this"
+      ],
+      "promptKo": "이 고양이는 조용하다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "I like this girl.",
+      "accept": [
+        "this",
+        "this"
+      ],
+      "promptKo": "나는 이 여자아이를 좋아한다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "A 다음 문장에서 지시대명사 또는 지시형용사를 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "I know that lady.",
+      "accept": [
+        "that",
+        "that"
+      ],
+      "promptKo": "나는 저 숙녀를 안다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 말이 지시대명사이면 P, 지시형용사이면 A를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "<u>This</u> is a notebook.",
+      "accept": [
+        "P",
+        "p"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "P"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 말이 지시대명사이면 P, 지시형용사이면 A를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "<u>This</u> book is interesting.",
+      "accept": [
+        "A",
+        "a"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 말이 지시대명사이면 P, 지시형용사이면 A를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "<u>That</u> is my computer.",
+      "accept": [
+        "P",
+        "p"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 말이 지시대명사이면 P, 지시형용사이면 A를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "<u>That</u> man is gentle.",
+      "accept": [
+        "A",
+        "a"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "B 다음 문장의 밑줄 친 말이 지시대명사이면 P, 지시형용사이면 A를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "<u>This</u> is my grandfather.",
+      "accept": [
+        "P",
+        "p"
+      ]
+    }
+  ]
+}

@@ -71,6 +71,26 @@ const orderedItem = {
 };
 assertGrade(orderedItem, { parts: ["Does", "Do"], value: "Does Do" }, false, "ordered rejects swap");
 assertGrade(orderedItem, { parts: ["Do", "Does"], value: "Do Does" }, true, "ordered accepts tuple");
+assertGrade(
+  orderedItem,
+  { parts: ["Do Does"], value: "Do Does" },
+  false,
+  "ordered rejects merged single box"
+);
+assertGrade(
+  orderedItem,
+  { parts: ["Do", "Does"], value: "Do Does" },
+  true,
+  "ordered no join-fallback still tuple"
+);
+const joinOnly = {
+  id: "j01",
+  type: "fill",
+  blanks: 2,
+  accept: ["a|b"],
+};
+assertGrade(joinOnly, { parts: ["a", "b"], value: "a b" }, true, "tuple match");
+assertGrade(joinOnly, { parts: ["a b"], value: "a b" }, false, "join string one part fails");
 
 const marks = R.perBlankMarks(tomItem, { parts: ["student", "nope"], value: "student nope" });
 if (!marks || marks[0] !== true || marks[1] !== false) fail("unordered per-blank marks", marks);
@@ -80,6 +100,15 @@ const blueTom = JSON.parse(
 ).items.find((it) => it.id === "a05");
 assertGrade(blueTom, { parts: ["Tom", "student"], value: "" }, true, "live blue a05");
 assertGrade(blueTom, { parts: ["student"], value: "" }, false, "live blue a05 partial");
+
+const koItem = {
+  id: "k01",
+  type: "fill",
+  blanks: 1,
+  accept: ["나무 위", "나무위"],
+};
+assertGrade(koItem, { value: "나무위" }, true, "korean ignores spaces");
+assertGrade(koItem, { value: "나무 위" }, true, "korean spaces ok");
 
 console.log(bad ? "FAILURES: " + bad : "ALL UNORDERED TESTS OK");
 process.exit(bad ? 1 : 0);

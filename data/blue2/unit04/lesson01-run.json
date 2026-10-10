@@ -1,0 +1,648 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — some과 any, every와 all",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u04:lesson01-run",
+  "title": "Lesson 01 Run — some과 any",
+  "subtitle": "Grammar Run (pp. 92–93)",
+  "pages": "92–93",
+  "timerMinutes": 20,
+  "introKo": "Section A는 괄호에서, Section B는 빈칸에서 고르기입니다. 1번 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I have ( some / any ) stamps.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "some",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "They don't have ( some / any ) calendars.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "any"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "Does she have ( some / any ) money?",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "any"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Would you like ( some / any ) biscuits?",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Can we have ( some / any ) bread?",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Mom buys ( some / any ) eggs every day.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "We need some ( table / tables ).",
+      "choices": [
+        "table",
+        "tables"
+      ],
+      "accept": [
+        "1",
+        "tables"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Does he read ( some / any ) magazines?",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "any"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Can I eat some ( meat / meats )?",
+      "choices": [
+        "meat",
+        "meats"
+      ],
+      "accept": [
+        "1",
+        "meat"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "The farmer has ( some / any ) pigs.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "He doesn't know ( some / any ) swimmers.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "any"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "Ally doesn't need any ( carrot / carrots ).",
+      "choices": [
+        "carrot",
+        "carrots"
+      ],
+      "accept": [
+        "1",
+        "carrots"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "Do you want ( some / any ) sandwiches?",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "any"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "Can we drink some ( milk / milks )?",
+      "choices": [
+        "milk",
+        "milks"
+      ],
+      "accept": [
+        "1",
+        "milk"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "They don't eat ( some / any ) pork.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "any"
+      ],
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "She has ______ music CDs.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "some",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "We don't have ______ candles.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "any"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Do you have ______ sisters?",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "any"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Can I have ______ yogurt?",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Jack doesn't need any ______.",
+      "choices": [
+        "rices",
+        "rice"
+      ],
+      "accept": [
+        "1",
+        "rice"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "Would you like ______ water?",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "______ students play soccer.",
+      "choices": [
+        "Some",
+        "Any"
+      ],
+      "accept": [
+        "1",
+        "Some"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Do they have any ______?",
+      "choices": [
+        "egg",
+        "eggs"
+      ],
+      "accept": [
+        "1",
+        "eggs"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "John wants ______ orange juice.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "They don't have any ______.",
+      "choices": [
+        "money",
+        "moneys"
+      ],
+      "accept": [
+        "1",
+        "money"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Would you like ______ cookies?",
+      "choices": [
+        "any",
+        "some"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "Can I eat ______ toast?",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "some"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "I don't need ______ new shoes.",
+      "choices": [
+        "some",
+        "any"
+      ],
+      "accept": [
+        "1",
+        "any"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "Do you want some ______?",
+      "choices": [
+        "potato",
+        "potatoes"
+      ],
+      "accept": [
+        "1",
+        "potatoes"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "Can I read some ______?",
+      "choices": [
+        "book",
+        "books"
+      ],
+      "accept": [
+        "1",
+        "books"
+      ],
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ]
+}

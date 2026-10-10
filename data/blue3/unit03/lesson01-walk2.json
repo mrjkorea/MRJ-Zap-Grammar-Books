@@ -1,0 +1,240 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — there, it",
+  "sectionsVersion": 2,
+  "practiceId": "b3:u03:lesson01-walk2",
+  "title": "Grammar Walk — Lesson 01 (2)",
+  "subtitle": "Is/Are there (p. 65)",
+  "pages": "65",
+  "timerMinutes": 10,
+  "introKo": "Section A 5문항(be+there), Section B 5문항(대답 연결·고르기). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장에서 「be동사+there」를 찾아 동그라미 하세요. 동그라미 친 be동사+there만 쓰세요.",
+      "directionKo": "다음 문장에서 「be동사+there」를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 be동사+there만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~b)을 하나 골라 누르세요.",
+      "directionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 대답(a~b)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「be동사+there」를 찾아 동그라미 하세요. 동그라미 친 be동사+there만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "<u>Is there</u> a ladybug on the window?",
+      "promptKo": "창문에 무당벌레가 있니?",
+      "accept": [
+        "Is there"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Is there"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「be동사+there」를 찾아 동그라미 하세요. 동그라미 친 be동사+there만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "<u>Are there</u> two turtles in the pond?",
+      "promptKo": "연못에 거북이 두 마리가 있니?",
+      "accept": [
+        "Are there"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「be동사+there」를 찾아 동그라미 하세요. 동그라미 친 be동사+there만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "<u>Is there</u> a bat next to the bench?",
+      "promptKo": "벤치 옆에 박쥐가 있니?",
+      "accept": [
+        "Is there"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「be동사+there」를 찾아 동그라미 하세요. 동그라미 친 be동사+there만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "<u>Are there</u> chopsticks on the napkin?",
+      "promptKo": "냅킨 위에 젓가락이 있니?",
+      "accept": [
+        "Are there"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「be동사+there」를 찾아 동그라미 하세요. 동그라미 친 be동사+there만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "<u>Is there</u> a dog under the slide?",
+      "promptKo": "미끄럼틀 밑에 개가 있니?",
+      "accept": [
+        "Is there"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Is there a knife on the tray?",
+      "promptKo": "쟁반 위에 칼이 있니?",
+      "choices": [
+        "a. Yes, there is.",
+        "b. Yes, there are."
+      ],
+      "accept": [
+        "1",
+        "a. Yes, there is.",
+        "a"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a. Yes, there is."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Are there three tomatoes in the basket?",
+      "promptKo": "바구니에 토마토 세 개가 있니?",
+      "choices": [
+        "a. Yes, there is.",
+        "b. Yes, there are."
+      ],
+      "accept": [
+        "1",
+        "b. Yes, there are.",
+        "b"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Is there a pumpkin next to the cabbage?",
+      "promptKo": "양배추 옆에 호박이 있니?",
+      "choices": [
+        "a. Yes, there is.",
+        "b. Yes, there are."
+      ],
+      "accept": [
+        "1",
+        "a. Yes, there is.",
+        "a"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Are there two bananas in the basket?",
+      "promptKo": "바구니에 바나나 두 개가 있니?",
+      "choices": [
+        "a. Yes, there is.",
+        "b. Yes, there are."
+      ],
+      "accept": [
+        "1",
+        "b. Yes, there are.",
+        "b"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Is there a waste basket under the table?",
+      "promptKo": "식탁 밑에 쓰레기통이 있니?",
+      "choices": [
+        "a. Yes, there is.",
+        "b. Yes, there are."
+      ],
+      "accept": [
+        "1",
+        "a. Yes, there is.",
+        "a"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 의문사 (1)",
+  "practiceId": "b3:u04:lesson01-run",
+  "title": "Lesson 01 Run — who, whose",
+  "subtitle": "Grammar Run (pp. 92–93)",
+  "pages": "92–93",
+  "timerMinutes": 20,
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 15문항. 괄호/보기에서 골라 누르세요. 1번 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) is the tall boy?\nB: He's my brother.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "키가 큰 남자아이는 누구니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Who"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) are they?\nB: They are my parents.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "그들은 누구니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) pillow is this?\nB: It's my sister's.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Whose",
+        "2"
+      ],
+      "promptKo": "이것은 누구의 베개니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) is David?\nB: He's my friend.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "데이비드는 누구니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) is this blouse?\nB: It's my mother's.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Whose",
+        "2"
+      ],
+      "promptKo": "이 블라우스는 누구의 것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) does your sister like?\nB: She likes Michael.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "네 여동생은 누구를 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) pencils are those?\nB: They're his pencils.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Whose",
+        "2"
+      ],
+      "promptKo": "저것들은 누구의 연필이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) is that little girl?\nB: She is Betty.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "저 어린 여자아이는 누구니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) do you meet today?\nB: I meet my grandma.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "오늘 누구를 만나니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) are these notebooks?\nB: They are yours.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Whose",
+        "2"
+      ],
+      "promptKo": "이 공책들은 누구의 것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) knows her phone number?\nB: I know it.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "누가 그녀의 전화번호를 알니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) are those women?\nB: They are Jim's aunts.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "저 여자들은 누구니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) is in the living room?\nB: Bill is there.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "누가 거실에 있니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) dictionary is that?\nB: It's hers.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Whose",
+        "2"
+      ],
+      "promptKo": "저것은 누구의 사전이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "A: ( Who / Whose ) is your teacher?\nB: Ms. Swan is my teacher.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ],
+      "promptKo": "네 선생님은 누구니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Who _____ your grandfather?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "is"
+      ],
+      "promptKo": "누가 네 할아버지니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Who _____ you?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "are"
+      ],
+      "promptKo": "너는 누구니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Who _____ you help?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "1",
+        "do"
+      ],
+      "promptKo": "너는 누구를 돕니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Who _____ to bed late?",
+      "choices": [
+        "go",
+        "goes"
+      ],
+      "accept": [
+        "1",
+        "goes"
+      ],
+      "promptKo": "누가 늦게 잠자리에 드니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Whose orange _____ this?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "is"
+      ],
+      "promptKo": "누구의 오렌지가 이것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "Whose pants _____ these?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "are"
+      ],
+      "promptKo": "누구의 바지가 이것들이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "Whose _____ those sneakers?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "are"
+      ],
+      "promptKo": "누구의 운동화가 저것들이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Whose _____ that boat?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "is"
+      ],
+      "promptKo": "누구의 보트가 저것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "Who _____ flying a kite?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "is"
+      ],
+      "promptKo": "누가 연을 날리고 있니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "Who _____ he like?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "1",
+        "does"
+      ],
+      "promptKo": "그는 누구를 좋아하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Who _____ math?",
+      "choices": [
+        "teach",
+        "teaches"
+      ],
+      "accept": [
+        "1",
+        "teaches"
+      ],
+      "promptKo": "누가 수학을 가르치니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "Whose beans _____ these?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "are"
+      ],
+      "promptKo": "누구의 콩이 이것들이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "Who _____ they visit every month?",
+      "choices": [
+        "do",
+        "does"
+      ],
+      "accept": [
+        "1",
+        "do"
+      ],
+      "promptKo": "그들은 매달 누구를 방문하니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "Whose _____ this ticket?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "is"
+      ],
+      "promptKo": "누구의 표가 이것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "Whose bread _____ this?",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "is"
+      ],
+      "promptKo": "누구의 빵이 이것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    }
+  ]
+}

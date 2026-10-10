@@ -1,0 +1,283 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 의문사 (1)",
+  "practiceId": "b3:u04:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 의문사 whose",
+  "subtitle": "whose (p. 91)",
+  "pages": "91",
+  "timerMinutes": 10,
+  "sectionsVersion": 2,
+  "introKo": "Section A 6문항, Section B 5문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화에서 의문사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 문장에서 밑줄 친 Whose의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 Whose의 알맞은 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "A: Whose pet is this?\nB: It's mine.",
+      "accept": [
+        "Whose"
+      ],
+      "promptKo": "이것은 누구의 애완동물이니? / 내 것이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Whose"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "A: Whose is this cup?\nB: It's Kimberly's.",
+      "accept": [
+        "Whose"
+      ],
+      "promptKo": "이 컵은 누구의 것이니? / 킴벌리의 것이다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "A: Whose glasses are these?\nB: They are my dad's.",
+      "accept": [
+        "Whose"
+      ],
+      "promptKo": "이것들은 누구의 안경이니? / 아빠의 것이다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "A: Whose are these shirts?\nB: They are my mom's.",
+      "accept": [
+        "Whose"
+      ],
+      "promptKo": "이 셔츠들은 누구의 것이니? / 엄마의 것이다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "A: Whose toothbrush is that?\nB: It's David's.",
+      "accept": [
+        "Whose"
+      ],
+      "promptKo": "저것은 누구의 칫솔이니? / 데이비드의 것이다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 대화에서 의문사를 찾아 동그라미 하세요. 동그라미 친 의문사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "A: Whose bag is black?\nB: Linda's bag is black.",
+      "accept": [
+        "Whose"
+      ],
+      "promptKo": "누구의 가방이 검은색이니? / 린다의 가방이 검은색이다.",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Whose의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "<u>Whose</u> piggy bank is that?",
+      "choices": [
+        "a. 누구의",
+        "b. 누구의 것"
+      ],
+      "accept": [
+        "1",
+        "a. 누구의",
+        "a"
+      ],
+      "promptKo": "저것은 누구의 저금통이니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a. 누구의"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Whose의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "<u>Whose</u> is this kite?",
+      "choices": [
+        "a. 누구의",
+        "b. 누구의 것"
+      ],
+      "accept": [
+        "1",
+        "b. 누구의 것",
+        "b",
+        "2"
+      ],
+      "promptKo": "이 연은 누구의 것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Whose의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "<u>Whose</u> cameras are these?",
+      "choices": [
+        "a. 누구의",
+        "b. 누구의 것"
+      ],
+      "accept": [
+        "1",
+        "a. 누구의",
+        "a"
+      ],
+      "promptKo": "이것들은 누구의 카메라니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Whose의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "<u>Whose</u> are those crayons?",
+      "choices": [
+        "a. 누구의",
+        "b. 누구의 것"
+      ],
+      "accept": [
+        "1",
+        "b. 누구의 것",
+        "b",
+        "2"
+      ],
+      "promptKo": "저 크레용들은 누구의 것이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 문장에서 밑줄 친 Whose의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "<u>Whose</u> socks are red?",
+      "choices": [
+        "a. 누구의",
+        "b. 누구의 것"
+      ],
+      "accept": [
+        "1",
+        "a. 누구의",
+        "a"
+      ],
+      "promptKo": "누구의 양말이 빨간색이니?",
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": null
+    }
+  ]
+}

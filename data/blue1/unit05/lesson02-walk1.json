@@ -1,0 +1,338 @@
+{
+  "practiceId": "b1:u05:lesson02-walk1",
+  "title": "Lesson 02 Walk 1 — 소유격",
+  "subtitle": "소유격·소유대명사 · p. 119",
+  "pages": "119",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 대명사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "Section A 소유격 6문항, Section B 소유대명사 연결 5문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 인칭대명사의 소유격을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 인칭대명사의 소유격을 괄호 안에서 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 6,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 인칭대명사의 소유대명사를 찾아 선으로 연결하세요. 알맞은 소유대명사(a~f)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 인칭대명사의 소유대명사를 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 소유대명사(a~f)를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 소유격을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I ( me / my )",
+      "choices": [
+        "me",
+        "my"
+      ],
+      "accept": [
+        "1",
+        "my"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "my"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 소유격을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "you ( your / yours )",
+      "choices": [
+        "your",
+        "yours"
+      ],
+      "accept": [
+        "1",
+        "your"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 소유격을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "she ( she's / her )",
+      "choices": [
+        "she's",
+        "her"
+      ],
+      "accept": [
+        "1",
+        "her"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 소유격을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "he ( his / him )",
+      "choices": [
+        "his",
+        "him"
+      ],
+      "accept": [
+        "1",
+        "his"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 소유격을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "it ( it's / its )",
+      "choices": [
+        "it's",
+        "its"
+      ],
+      "accept": [
+        "1",
+        "its"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 소유격을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "we ( our / us )",
+      "choices": [
+        "our",
+        "us"
+      ],
+      "accept": [
+        "1",
+        "our"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 인칭대명사의 소유격을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "they ( their / them )",
+      "choices": [
+        "their",
+        "them"
+      ],
+      "accept": [
+        "1",
+        "their"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사의 소유대명사를 찾아 선으로 연결하세요. 알맞은 소유대명사(a~f)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I",
+      "choices": [
+        "a. mine",
+        "b. hers",
+        "c. ours",
+        "d. yours",
+        "e. theirs",
+        "f. his"
+      ],
+      "accept": [
+        "1",
+        "a. mine",
+        "a"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a. mine"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사의 소유대명사를 찾아 선으로 연결하세요. 알맞은 소유대명사(a~f)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "you",
+      "choices": [
+        "a. mine",
+        "b. hers",
+        "c. ours",
+        "d. yours",
+        "e. theirs",
+        "f. his"
+      ],
+      "accept": [
+        "1",
+        "d. yours",
+        "d"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사의 소유대명사를 찾아 선으로 연결하세요. 알맞은 소유대명사(a~f)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "she",
+      "choices": [
+        "a. mine",
+        "b. hers",
+        "c. ours",
+        "d. yours",
+        "e. theirs",
+        "f. his"
+      ],
+      "accept": [
+        "1",
+        "b. hers",
+        "b"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사의 소유대명사를 찾아 선으로 연결하세요. 알맞은 소유대명사(a~f)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "he",
+      "choices": [
+        "a. mine",
+        "b. hers",
+        "c. ours",
+        "d. yours",
+        "e. theirs",
+        "f. his"
+      ],
+      "accept": [
+        "1",
+        "f. his",
+        "f"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사의 소유대명사를 찾아 선으로 연결하세요. 알맞은 소유대명사(a~f)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "we",
+      "choices": [
+        "a. mine",
+        "b. hers",
+        "c. ours",
+        "d. yours",
+        "e. theirs",
+        "f. his"
+      ],
+      "accept": [
+        "1",
+        "c. ours",
+        "c"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사의 소유대명사를 찾아 선으로 연결하세요. 알맞은 소유대명사(a~f)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "they",
+      "choices": [
+        "a. mine",
+        "b. hers",
+        "c. ours",
+        "d. yours",
+        "e. theirs",
+        "f. his"
+      ],
+      "accept": [
+        "1",
+        "e. theirs",
+        "e"
+      ]
+    }
+  ]
+}

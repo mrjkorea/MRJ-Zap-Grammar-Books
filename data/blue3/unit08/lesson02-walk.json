@@ -1,0 +1,267 @@
+{
+  "practiceId": "b3:u08:lesson02-walk",
+  "title": "Lesson 02 Walk — 제안문",
+  "subtitle": "제안문 (p. 199)",
+  "pages": "199",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 명령문과 감탄문",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 Let's+동사 두 칸, Section B는 not 위치 고르기.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음을 제안하는 문장으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음을 제안하는 문장으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 ‘~하지 말자’라는 뜻으로 바꿔 쓸 때 not이 들어갈 알맞은 위치를 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "directionKo": "다음 문장을 ‘~하지 말자’라는 뜻으로 바꿔 쓸 때 not이 들어갈 알맞은 위치를 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 제안하는 문장으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "Take a walk. → ______ ______ a walk.",
+      "accept": [
+        "Let's|take",
+        "Lets|take"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Let's take",
+      "promptKo": "예시: Let's take"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 제안하는 문장으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "Go to the library. → ______ ______ to the library.",
+      "accept": [
+        "Let's|Go",
+        "Lets|Go",
+        "Let's|go",
+        "Lets|go"
+      ],
+      "promptKo": "도서관에 가자."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 제안하는 문장으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "Play tennis after school. → ______ ______ tennis after school.",
+      "accept": [
+        "Let's|Play",
+        "Lets|Play",
+        "Let's|play",
+        "Lets|play"
+      ],
+      "promptKo": "방과 후에 테니스를 치자."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 제안하는 문장으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "Sing the song. → ______ ______ the song.",
+      "accept": [
+        "Let's|Sing",
+        "Lets|Sing",
+        "Let's|sing",
+        "Lets|sing"
+      ],
+      "promptKo": "그 노래를 부르자."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음을 제안하는 문장으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "Have dinner. → ______ ______ dinner.",
+      "accept": [
+        "Let's|Have",
+        "Lets|Have",
+        "Let's|have",
+        "Lets|have"
+      ],
+      "promptKo": "저녁 식사를 하자."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 ‘~하지 말자’라는 뜻으로 바꿔 쓸 때 not이 들어갈 알맞은 위치를 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Let's ① go ② to ③ the ④ market. (not 위치)",
+      "promptKo": "시장에 가지 말자.",
+      "choices": [
+        "go",
+        "to",
+        "the",
+        "market"
+      ],
+      "accept": [
+        "1",
+        "go",
+        "①"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "go"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 ‘~하지 말자’라는 뜻으로 바꿔 쓸 때 not이 들어갈 알맞은 위치를 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "① Let's ② eat ③ the ④ sandwiches here.",
+      "promptKo": "여기서 샌드위치를 먹지 말자.",
+      "choices": [
+        "Let's",
+        "eat",
+        "the",
+        "sandwiches"
+      ],
+      "accept": [
+        "1",
+        "eat",
+        "2",
+        "②"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 ‘~하지 말자’라는 뜻으로 바꿔 쓸 때 not이 들어갈 알맞은 위치를 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Let's ① look ② for ③ a ④ bookstore.",
+      "promptKo": "서점을 찾지 말자.",
+      "choices": [
+        "look",
+        "for",
+        "a",
+        "bookstore"
+      ],
+      "accept": [
+        "1",
+        "look",
+        "①"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 ‘~하지 말자’라는 뜻으로 바꿔 쓸 때 not이 들어갈 알맞은 위치를 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "① Let's ② get up ③ early ④.",
+      "promptKo": "일찍 일어나지 말자.",
+      "choices": [
+        "Let's",
+        "get up",
+        "early",
+        "."
+      ],
+      "accept": [
+        "1",
+        "Let's",
+        "①"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 ‘~하지 말자’라는 뜻으로 바꿔 쓸 때 not이 들어갈 알맞은 위치를 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Let's ① play ② basketball ③ today ④.",
+      "promptKo": "오늘 농구하지 말자.",
+      "choices": [
+        "play",
+        "basketball",
+        "today",
+        "."
+      ],
+      "accept": [
+        "1",
+        "play",
+        "①"
+      ]
+    }
+  ]
+}
