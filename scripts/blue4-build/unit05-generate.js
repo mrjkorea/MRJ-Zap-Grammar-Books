@@ -271,7 +271,7 @@ function mcTwoCol(id, sec, label, en, ko, left, right, pickRight, instr) {
     ["She studied science the ______.", "그녀는 과학을 제일 열심히 공부했다.", "hardest", "harddest"],
   ];
   bData.forEach((row, i) => {
-    items.push(mcTwoCol("b" + String(i + 1).padStart(2, "0"), "B", "B" + (i + 1), row[0], row[1], row[2], row[3], true, instrB));
+    items.push(mcTwoCol("b" + String(i + 1).padStart(2, "0"), "B", "B" + (i + 1), row[0], row[1], row[2], row[3], false, instrB));
   });
   write("lesson01-run.json", {
     practiceId: "b4:u05:lesson01-run",
