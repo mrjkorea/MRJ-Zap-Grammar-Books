@@ -69,6 +69,18 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
     } else if ((it.blanks || 1) > 1) {
       const parts = it.accept[0].split("|");
       right = { parts, value: parts.join(" ") };
+      if (it.unordered && parts.length >= 2) {
+        const rev = parts.slice().reverse();
+        if (!E.gradeItem(it, { parts: rev, value: rev.join(" ") })) {
+          bad++;
+          console.log("UNORDERED-REV-FAIL", f, it.id);
+        }
+        const partial = { parts: [parts[0]], value: parts[0] };
+        if (E.gradeItem(it, partial)) {
+          bad++;
+          console.log("UNORDERED-PARTIAL-PASS", f, it.id);
+        }
+      }
       const wp = parts.slice();
       wp[0] = "xyz";
       wrong = { parts: wp, value: wp.join(" ") };
