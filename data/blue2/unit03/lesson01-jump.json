@@ -77,7 +77,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "Yuna is a tall girl.",
+      "promptEn": "Yuna is a <u>tall</u> girl.",
       "accept": [
         "키가 큰",
         "큰"
@@ -97,7 +97,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "I like the small cat.",
+      "promptEn": "I like the <u>small</u> cat.",
       "accept": [
         "작은"
       ],
@@ -113,7 +113,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "You have a red sweater.",
+      "promptEn": "You have a <u>red</u> sweater.",
       "accept": [
         "빨간",
         "빨간색의",
@@ -131,7 +131,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "That is an old purse.",
+      "promptEn": "That is an <u>old</u> purse.",
       "accept": [
         "낡은",
         "오래된"
@@ -148,10 +148,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "Olivia has black hair.",
+      "promptEn": "Olivia has <u>black</u> hair.",
       "accept": [
         "검은",
-        "검은색의"
+        "검은색의",
+        "까만"
       ],
       "promptKo": "올리비아는 ______ 머리카락을 가지고 있다.",
       "blanks": 1
@@ -165,9 +166,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptEn": "This is an expensive camera.",
+      "promptEn": "This is an <u>expensive</u> camera.",
       "accept": [
-        "비싼"
+        "비싼",
+        "값비싼"
       ],
       "promptKo": "이것은 ______ 사진기이다.",
       "blanks": 1
@@ -181,10 +183,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A7",
       "type": "fill",
-      "promptEn": "The music room is on the third floor.",
+      "promptEn": "The music room is on the <u>third</u> floor.",
       "accept": [
         "3층",
-        "세 번째 층"
+        "세 번째 층",
+        "3번째 층"
       ],
       "promptKo": "그 음악실은 ______ 에 있다.",
       "blanks": 1
@@ -198,9 +201,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A8",
       "type": "fill",
-      "promptEn": "Maru is a handsome boy.",
+      "promptEn": "Maru is a <u>handsome</u> boy.",
       "accept": [
-        "잘생긴"
+        "잘생긴",
+        "멋진"
       ],
       "promptKo": "마루는 ______ 남자아이다.",
       "blanks": 1
@@ -214,7 +218,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A9",
       "type": "fill",
-      "promptEn": "It is an interesting movie.",
+      "promptEn": "It is an <u>interesting</u> movie.",
       "accept": [
         "재미있는",
         "흥미로운"
@@ -231,10 +235,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A10",
       "type": "fill",
-      "promptEn": "Today is my eleventh birthday.",
+      "promptEn": "Today is my <u>eleventh</u> birthday.",
       "accept": [
         "열한 번째",
-        "11번째"
+        "11번째",
+        "열한번째"
       ],
       "promptKo": "오늘은 내 ______ 생일이다.",
       "blanks": 1
@@ -248,9 +253,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A11",
       "type": "fill",
-      "promptEn": "My dog likes sunny days.",
+      "promptEn": "My dog likes <u>sunny</u> days.",
       "accept": [
-        "화창한"
+        "화창한",
+        "맑은"
       ],
       "promptKo": "우리 개는 ______ 날을 좋아한다.",
       "blanks": 1
@@ -264,10 +270,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A12",
       "type": "fill",
-      "promptEn": "I want the pink shoes.",
+      "promptEn": "I want the <u>pink</u> shoes.",
       "accept": [
         "분홍색의",
-        "분홍"
+        "분홍",
+        "분홍빛의"
       ],
       "promptKo": "나는 그 ______ 신발을 원한다.",
       "blanks": 1
@@ -281,7 +288,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A13",
       "type": "fill",
-      "promptEn": "She likes the heavy jacket.",
+      "promptEn": "She likes the <u>heavy</u> jacket.",
       "accept": [
         "무거운"
       ],
@@ -297,7 +304,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A14",
       "type": "fill",
-      "promptEn": "They sell cheap vegetables.",
+      "promptEn": "They sell <u>cheap</u> vegetables.",
       "accept": [
         "싼",
         "값싼"
@@ -314,10 +321,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A15",
       "type": "fill",
-      "promptEn": "This is an empty box.",
+      "promptEn": "This is an <u>empty</u> box.",
       "accept": [
         "빈",
-        "비어 있는"
+        "비어 있는",
+        "텅 빈"
       ],
       "promptKo": "이것은 ______ 상자이다.",
       "blanks": 1

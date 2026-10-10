@@ -124,6 +124,14 @@ function intro(parts) {
   );
 }
 
+function ulWord(sentence, word) {
+  const esc = String(word).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return sentence.replace(new RegExp("\\b" + esc + "\\b"), "<u>" + word + "</u>");
+}
+
+const R_RUN_A =
+  "첫 번째 빈칸에 형용사, 두 번째 빈칸에 명사를 각각 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)";
+
 // —— Lesson 01 Walk 1 (p. 63) ——
 (function lesson01Walk1() {
   const instrA =
@@ -232,7 +240,7 @@ function intro(parts) {
 // —— Lesson 01 Run (pp. 66–67) ——
 (function lesson01Run() {
   const instrA =
-    "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요. 형용사와 명사를 각각 한 칸에 한 단어씩 쓰세요. (순서는 상관없어요.)";
+    "다음 문장에서 형용사를 찾아 동그라미 하고, 형용사가 꾸며 주는 명사를 찾아 밑줄을 치세요.";
   const instrB = "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. " + R_PICK;
   const pairs = [
     ["I have a green ball.", "green|ball", "나는 초록 공을 가지고 있다."],
@@ -253,10 +261,9 @@ function intro(parts) {
   const items = [
     ex(
       fill("a01", "A", "A1", "Sumin is a cute girl.", ["cute|girl"], {
-        sectionInstructionKo: instrA,
+        sectionInstructionKo: instrA + " " + R_RUN_A,
         promptKo: "수민은 귀여운 여자아이다.",
         blanks: 2,
-        unordered: true,
       }),
       "cute / girl"
     ),
@@ -264,10 +271,9 @@ function intro(parts) {
   pairs.forEach((row, i) => {
     items.push(
       fill("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), row[0], [row[1]], {
-        sectionInstructionKo: instrA,
+        sectionInstructionKo: instrA + " " + R_RUN_A,
         promptKo: row[2],
         blanks: 2,
-        unordered: true,
       })
     );
   });
@@ -308,7 +314,7 @@ function intro(parts) {
     sectionsVersion: 2,
     introKo: intro(["Section A 14문항(형용사+명사)", "Section B 14문항(고르기)"]),
     sections: [
-      sec("A", "Section A", instrA, "형용사와 꾸며 주는 명사를 찾으세요.", R_WORD2, "words", "Words · 빈칸 말만", 14, 1, [
+      sec("A", "Section A", instrA + " " + R_RUN_A, "형용사와 꾸며 주는 명사를 찾으세요.", R_RUN_A, "words", "Words · 빈칸 말만", 14, 1, [
         "A2",
         "A3",
         "A4",
@@ -350,37 +356,97 @@ function intro(parts) {
   const instrA = "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. " + R_KO;
   const instrB = "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. " + R_PICK;
   const koRows = [
-    ["Yuna is a tall girl.", "유나는 ______ 여자아이다.", ["키가 큰", "큰"], "유나는 키가 큰 여자아이다."],
-    ["I like the small cat.", "나는 그 ______ 고양이를 좋아한다.", ["작은"], "나는 그 작은 고양이를 좋아한다."],
-    ["You have a red sweater.", "너는 ______ 스웨터를 가지고 있다.", ["빨간", "빨간색의", "빨갛은"], "너는 빨간 스웨터를 가지고 있다."],
-    ["That is an old purse.", "저것은 ______ 지갑이다.", ["낡은", "오래된"], "저것은 낡은 지갑이다."],
-    ["Olivia has black hair.", "올리비아는 ______ 머리카락을 가지고 있다.", ["검은", "검은색의"], "올리비아는 검은 머리카락을 가지고 있다."],
-    ["This is an expensive camera.", "이것은 ______ 사진기이다.", ["비싼"], "이것은 비싼 사진기이다."],
-    ["The music room is on the third floor.", "그 음악실은 ______ 에 있다.", ["3층", "세 번째 층"], "그 음악실은 3층에 있다."],
-    ["Maru is a handsome boy.", "마루는 ______ 남자아이다.", ["잘생긴"], "마루는 잘생긴 남자아이다."],
-    ["It is an interesting movie.", "그것은 ______ 영화이다.", ["재미있는", "흥미로운"], "그것은 재미있는 영화이다."],
-    ["Today is my eleventh birthday.", "오늘은 내 ______ 생일이다.", ["열한 번째", "11번째"], "오늘은 내 열한 번째 생일이다."],
-    ["My dog likes sunny days.", "우리 개는 ______ 날을 좋아한다.", ["화창한"], "우리 개는 화창한 날을 좋아한다."],
-    ["I want the pink shoes.", "나는 그 ______ 신발을 원한다.", ["분홍색의", "분홍"], "나는 그 분홍색 신발을 원한다."],
-    ["She likes the heavy jacket.", "그녀는 그 ______ 재킷을 좋아한다.", ["무거운"], "그녀는 그 무거운 재킷을 좋아한다."],
-    ["They sell cheap vegetables.", "그들은 ______ 채소를 판다.", ["싼", "값싼"], "그들은 싼 채소를 판다."],
-    ["This is an empty box.", "이것은 ______ 상자이다.", ["빈", "비어 있는"], "이것은 빈 상자이다."],
+    ["Yuna is a tall girl.", "tall", "유나는 ______ 여자아이다.", ["키가 큰", "큰"], "유나는 키가 큰 여자아이다."],
+    ["I like the small cat.", "small", "나는 그 ______ 고양이를 좋아한다.", ["작은"], "나는 그 작은 고양이를 좋아한다."],
+    [
+      "You have a red sweater.",
+      "red",
+      "너는 ______ 스웨터를 가지고 있다.",
+      ["빨간", "빨간색의", "빨갛은"],
+      "너는 빨간 스웨터를 가지고 있다.",
+    ],
+    ["That is an old purse.", "old", "저것은 ______ 지갑이다.", ["낡은", "오래된"], "저것은 낡은 지갑이다."],
+    [
+      "Olivia has black hair.",
+      "black",
+      "올리비아는 ______ 머리카락을 가지고 있다.",
+      ["검은", "검은색의", "까만"],
+      "올리비아는 검은 머리카락을 가지고 있다.",
+    ],
+    [
+      "This is an expensive camera.",
+      "expensive",
+      "이것은 ______ 사진기이다.",
+      ["비싼", "값비싼"],
+      "이것은 비싼 사진기이다.",
+    ],
+    [
+      "The music room is on the third floor.",
+      "third",
+      "그 음악실은 ______ 에 있다.",
+      ["3층", "세 번째 층", "3번째 층"],
+      "그 음악실은 3층에 있다.",
+    ],
+    ["Maru is a handsome boy.", "handsome", "마루는 ______ 남자아이다.", ["잘생긴", "멋진"], "마루는 잘생긴 남자아이다."],
+    [
+      "It is an interesting movie.",
+      "interesting",
+      "그것은 ______ 영화이다.",
+      ["재미있는", "흥미로운"],
+      "그것은 재미있는 영화이다.",
+    ],
+    [
+      "Today is my eleventh birthday.",
+      "eleventh",
+      "오늘은 내 ______ 생일이다.",
+      ["열한 번째", "11번째", "열한번째"],
+      "오늘은 내 열한 번째 생일이다.",
+    ],
+    [
+      "My dog likes sunny days.",
+      "sunny",
+      "우리 개는 ______ 날을 좋아한다.",
+      ["화창한", "맑은"],
+      "우리 개는 화창한 날을 좋아한다.",
+    ],
+    [
+      "I want the pink shoes.",
+      "pink",
+      "나는 그 ______ 신발을 원한다.",
+      ["분홍색의", "분홍", "분홍빛의"],
+      "나는 그 분홍색 신발을 원한다.",
+    ],
+    [
+      "She likes the heavy jacket.",
+      "heavy",
+      "그녀는 그 ______ 재킷을 좋아한다.",
+      ["무거운"],
+      "그녀는 그 무거운 재킷을 좋아한다.",
+    ],
+    ["They sell cheap vegetables.", "cheap", "그들은 ______ 채소를 판다.", ["싼", "값싼"], "그들은 싼 채소를 판다."],
+    [
+      "This is an empty box.",
+      "empty",
+      "이것은 ______ 상자이다.",
+      ["빈", "비어 있는", "텅 빈"],
+      "이것은 빈 상자이다.",
+    ],
   ];
   const items = [
     ex(
-      fill("a01", "A", "A1", koRows[0][0], koRows[0][2], {
+      fill("a01", "A", "A1", ulWord(koRows[0][0], koRows[0][1]), koRows[0][3], {
         sectionInstructionKo: instrA,
-        promptKo: koRows[0][1],
+        promptKo: koRows[0][2],
         blanks: 1,
       }),
-      koRows[0][2][0]
+      koRows[0][3][0]
     ),
   ];
   koRows.slice(1).forEach((row, i) => {
     items.push(
-      fill("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), row[0], row[2], {
+      fill("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), ulWord(row[0], row[1]), row[3], {
         sectionInstructionKo: instrA,
-        promptKo: row[1],
+        promptKo: row[2],
         blanks: 1,
       })
     );
@@ -672,30 +738,33 @@ function intro(parts) {
 
 // —— Lesson 02 Run (pp. 76–77) ——
 (function lesson02Run() {
-  const instrA =
-    "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)";
+  const instrA = "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요.";
+  const ruleA = "동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)";
   const instrB = "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. " + R_PICK;
   const circ = [
-    ["Her room is clean.", "clean", "그녀의 방은 깨끗하다."],
-    ["They are quiet children.", "quiet", "그들은 조용한 아이들이다."],
-    ["The pilot is tall.", "tall", "그 조종사는 키가 크다."],
-    ["Ms. Gold is rich.", "rich", "골드 양은 부유하다."],
-    ["The boy is lazy.", "lazy", "그 남자아이는 게으르다."],
-    ["I like a light jacket.", "light", "나는 가벼운 재킷을 좋아한다."],
-    ["Their garden is large.", "large", "그들의 정원은 넓다."],
-    ["Jennifer has beautiful eyes.", "beautiful", "제니퍼는 아름다운 눈을 가지고 있다."],
-    ["The knife is sharp.", "sharp", "그 칼은 날카롭다."],
-    ["I want that cheap computer.", "cheap", "나는 저 값싼 컴퓨터를 원한다."],
-    ["Their classroom is bright.", "bright", "그들의 교실은 밝다."],
-    ["Do you like rainy days?", "rainy", "너는 비 오는 날을 좋아하니?"],
-    ["Joan is hungry.", "hungry", "조안은 배가 고프다."],
-    ["Look at the fat bear.", "fat", "그 뚱뚱한 곰을 보아라."],
-    ["These grapes are sweet.", "sweet", "이 포도들은 달다."],
+    ["Her room is clean.", "clean", ["Her room", "room"], "그녀의 방은 깨끗하다."],
+    ["They are quiet children.", "quiet", ["children"], "그들은 조용한 아이들이다."],
+    ["The pilot is tall.", "tall", ["The pilot", "pilot"], "그 조종사는 키가 크다."],
+    ["Ms. Gold is rich.", "rich", ["Ms. Gold"], "골드 양은 부유하다."],
+    ["The boy is lazy.", "lazy", ["The boy", "boy"], "그 남자아이는 게으르다."],
+    ["I like a light jacket.", "light", ["jacket"], "나는 가벼운 재킷을 좋아한다."],
+    ["Their garden is large.", "large", ["Their garden", "garden"], "그들의 정원은 넓다."],
+    ["Jennifer has beautiful eyes.", "beautiful", ["eyes"], "제니퍼는 아름다운 눈을 가지고 있다."],
+    ["The knife is sharp.", "sharp", ["The knife", "knife"], "그 칼은 날카롭다."],
+    ["I want that cheap computer.", "cheap", ["computer"], "나는 저 값싼 컴퓨터를 원한다."],
+    ["Their classroom is bright.", "bright", ["Their classroom", "classroom"], "그들의 교실은 밝다."],
+    ["Do you like rainy days?", "rainy", ["days"], "너는 비 오는 날을 좋아하니?"],
+    ["Joan is hungry.", "hungry", ["Joan"], "조안은 배가 고프다."],
+    ["Look at the fat bear.", "fat", ["bear"], "그 뚱뚱한 곰을 보아라."],
+    ["These grapes are sweet.", "sweet", ["grapes", "These grapes"], "이 포도들은 달다."],
   ];
   const items = circ.map((row, i) => {
     const label = "A" + (i + 1);
     const id = "a" + String(i + 1).padStart(2, "0");
-    return fill(id, "A", label, row[0], [row[1]], { sectionInstructionKo: instrA, promptKo: row[2] });
+    return fill(id, "A", label, ulWord(row[0], row[1]), row[2], {
+      sectionInstructionKo: instrA + " " + ruleA,
+      promptKo: row[3],
+    });
   });
   const runB = [
     ["Sue is ( a girl polite / a polite girl ).", "a girl polite", "a polite girl", 2, "수는 예의 바른 여자아이다."],
@@ -732,9 +801,9 @@ function intro(parts) {
     timerMinutes: 20,
     ...META,
     sectionsVersion: 2,
-    introKo: intro(["Section A 15문항(형용사)", "Section B 15문항(고르기)"]),
+    introKo: intro(["Section A 15문항(동그라미 친 말)", "Section B 15문항(고르기)"]),
     sections: [
-      sec("A", "Section A", instrA, "꾸며 주거나 설명하는 말을 동그라미 하세요.", "동그라미 친 말만 쓰세요.", "words", "Words · 빈칸 말만", 15, 0, [
+      sec("A", "Section A", instrA + " " + ruleA, "꾸며 주거나 설명하는 말을 동그라미 하세요.", ruleA, "words", "Words · 빈칸 말만", 15, 0, [
         "A1",
         "A2",
         "A3",
@@ -1026,86 +1095,101 @@ function intro(parts) {
       promptKo: ko || "",
     });
 
-  const s12 = "[1–2] 다음 중 형용사가 아닌 것을 고르거나, 의미가 반대인 형용사끼리 짝지어지지 않은 것을 고르세요. " + R_PICK;
+  const s1 = "다음 중 형용사가 아닌 것을 고르세요. " + R_PICK;
+  items.push(mc5("q01", "1", "1", "", ["kind", "love", "lazy", "hungry"], 2, s1));
+
+  const s23 = "[2–3] 다음 중 의미가 반대인 형용사끼리 짝지어지지 않은 것을 고르세요. " + R_PICK;
   items.push(
-    mc5("q01", "1-2", "1", "", ["kind", "love", "lazy", "hungry"], 2, s12),
-    mc5("q02", "1-2", "2", "", ["old – new", "long – small", "empty – full", "fast – slow"], 2, s12)
+    mc5("q02", "2-3", "2", "", ["old – new", "long – small", "empty – full", "fast – slow"], 2, s23),
+    mc5("q03", "2-3", "3", "", ["bright – dark", "high – low", "good – bad", "easy – diligent"], 4, s23)
   );
 
-  const s34 = "[3–4] 다음 중 의미가 반대인 형용사끼리 짝지어지지 않은 것, 또는 기수와 서수가 바르게 짝지어진 것을 고르세요. " + R_PICK;
+  const s45 = "[4–5] 다음 중 기수와 서수가 잘못 짝지어진 것을 고르세요. " + R_PICK;
   items.push(
-    mc5("q03", "3-4", "3", "", ["bright – dark", "high – low", "good – bad", "easy – diligent"], 4, s34),
-    mc5("q04", "3-4", "4", "", ["one – first", "six – sixth", "three – threeth", "ten – tenth"], 1, s34)
+    mc5("q04", "4-5", "4", "", ["one – first", "six – sixth", "three – threeth", "ten – tenth"], 3, s45),
+    mc5("q05", "4-5", "5", "", ["nine – nineth", "two – second", "eleven – eleventh", "eight – eighth"], 1, s45)
   );
 
-  const s56 = "[5–6] 다음 중 기수와 서수가 바르게 짝지어진 것을 고르세요. " + R_PICK;
+  const s68 = "[6–8] 다음 중 밑줄 친 부분을 바르게 고친 것을 고르세요. " + R_PICK;
   items.push(
-    mc5("q05", "5-6", "5", "", ["nine – nineth", "two – second", "eleven – eleventh", "eight – eighth"], 2, s56),
-    mc5("q06", "5-6", "6", "My classroom is on the five floor.", ["fiveth", "fifth", "fifty", "fifteen"], 2, s56)
+    mc5(
+      "q06",
+      "6-8",
+      "6",
+      "My classroom is on the <u>five</u> floor.",
+      ["fiveth", "fifth", "fifty", "fifteen"],
+      2,
+      s68
+    ),
+    mc5(
+      "q07",
+      "6-8",
+      "7",
+      "She has <u>twentieth</u> books.",
+      ["twentie", "a twelve", "twenty", "the twentieth"],
+      3,
+      s68
+    ),
+    mc5(
+      "q08",
+      "6-8",
+      "8",
+      "Today is my <u>twelveth</u> birthday.",
+      ["twelve", "twenty", "twoth", "twelfth"],
+      4,
+      s68
+    )
   );
 
-  const s78 = "[7–8] 다음 중 밑줄 친 부분을 바르게 고친 것을 고르세요. " + R_PICK;
+  const s912 =
+    "[9–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. " + R_PICK;
   items.push(
-    mc5("q07", "7-8", "7", "She has twentieth books.", ["twentie", "a twelve", "twenty", "the twentieth"], 3, s78),
-    mc5("q08", "7-8", "8", "Today is my twelveth birthday.", ["twelve", "twenty", "twoth", "twelfth"], 4, s78)
-  );
-
-  const s910 =
-    "[9–10] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. " + R_PICK;
-  items.push(
-    parMc("q09", "9-10", "9", "This is ( new my / my new ) bag.", "new my", "my new", 2, {
-      sectionInstructionKo: s910,
+    parMc("q09", "9-12", "9", "This is ( new my / my new ) bag.", "new my", "my new", 2, {
+      sectionInstructionKo: s912,
       promptKo: "이것은 내 새 가방이다.",
     }),
-    parMc("q10", "9-10", "10", "Look at ( that red / red that ) balloon.", "that red", "red that", 1, {
-      sectionInstructionKo: s910,
+    parMc("q10", "9-12", "10", "Look at ( that red / red that ) balloon.", "that red", "red that", 1, {
+      sectionInstructionKo: s912,
       promptKo: "저 빨간 풍선을 봐.",
-    })
-  );
-
-  const s1112 = "[11–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. " + R_PICK;
-  items.push(
-    parMc("q11", "11-12", "11", "He is ( good a / a good ) student.", "good a", "a good", 2, {
-      sectionInstructionKo: s1112,
+    }),
+    parMc("q11", "9-12", "11", "He is ( good a / a good ) student.", "good a", "a good", 2, {
+      sectionInstructionKo: s912,
       promptKo: "그는 훌륭한 학생이다.",
     }),
-    parMc("q12", "11-12", "12", "The bird ( is yellow / yellow is ).", "is yellow", "yellow is", 1, {
-      sectionInstructionKo: s1112,
+    parMc("q12", "9-12", "12", "The bird ( is yellow / yellow is ).", "is yellow", "yellow is", 1, {
+      sectionInstructionKo: s912,
       promptKo: "그 새는 노랗다.",
     })
   );
 
-  const s1314 =
-    "[13–14] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. " + R_WORD1;
+  const s1316 =
+    "[13–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. " + R_WORD1;
+  const s1316two = "[13–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. " + R_WORD2;
   items.push(
-    fill("q13", "13-14", "13", "She is a polite girl.\n= The girl is ______.", ["polite"], {
-      sectionInstructionKo: s1314,
+    fill("q13", "13-16", "13", "She is a polite girl.\n= The girl is ______.", ["polite"], {
+      sectionInstructionKo: s1316,
       promptKo: "그녀는 예의 바른 여자아이다.",
       blanks: 1,
     }),
-    fill("q14", "13-14", "14", "Those questions are difficult.\n= Those are ______ questions.", ["difficult"], {
-      sectionInstructionKo: s1314,
+    fill("q14", "13-16", "14", "Those questions are difficult.\n= Those are ______ questions.", ["difficult"], {
+      sectionInstructionKo: s1316,
       promptKo: "저 질문들은 어렵다.",
       blanks: 1,
-    })
-  );
-
-  const s1516 =
-    "[15–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. " + R_WORD2;
-  items.push(
-    fill("q15", "15-16", "15", "This lake is beautiful.\n= This is a ______ ______.", ["beautiful|lake"], {
-      sectionInstructionKo: s1516,
+    }),
+    fill("q15", "13-16", "15", "This lake is beautiful.\n= This is a ______ ______.", ["beautiful|lake"], {
+      sectionInstructionKo: s1316two,
       promptKo: "이 호수는 아름답다.",
       blanks: 2,
     }),
-    fill("q16", "15-16", "16", "That actress is famous.\n= That is a ______ ______.", ["famous|actress"], {
-      sectionInstructionKo: s1516,
+    fill("q16", "13-16", "16", "That actress is famous.\n= That is a ______ ______.", ["famous|actress"], {
+      sectionInstructionKo: s1316two,
       promptKo: "저 여배우는 유명하다.",
       blanks: 2,
     })
   );
 
   const s1718 = "[17–18] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. " + R_WORD1;
+  const s18two = "[17–18] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. " + R_WORD2;
   items.push(
     fill("q17", "17-18", "17", "I like ______ days.", ["sunny"], {
       sectionInstructionKo: s1718,
@@ -1113,7 +1197,7 @@ function intro(parts) {
       blanks: 1,
     }),
     fill("q18", "17-18", "18", "The baby ______ ______.", ["is|hungry"], {
-      sectionInstructionKo: s1718,
+      sectionInstructionKo: s18two,
       promptKo: "그 아기는 배가 고프다.",
       blanks: 2,
     })
@@ -1145,18 +1229,16 @@ function intro(parts) {
     pages: "82–84",
     timerMinutes: 30,
     ...META,
-    sectionsVersion: 2,
+    sectionsVersion: 3,
     introKo:
-      "Review 03은 [1–2]부터 [19–20]까지 20문항입니다. Check Check 점수표는 채점하지 않아요. 각 섹션 안내에 따라 고르기·빈칸·문장 전체를 구분하세요.",
+      "Review 03은 1번부터 [19–20]까지 20문항입니다. Check Check 점수표는 채점하지 않아요. 각 섹션 안내에 따라 고르기·빈칸·문장 전체를 구분하세요.",
     sections: [
-      sec("1-2", "[1–2]", s12, "형용사·반의어 고르기", R_PICK, "choice", "Choose · 고르기", 2, 0, ["1", "2"]),
-      sec("3-4", "[3–4]", s34, "반의어·기수/서수", R_PICK, "choice", "Choose · 고르기", 2, 0, ["3", "4"]),
-      sec("5-6", "[5–6]", s56, "기수/서수·고치기", R_PICK, "choice", "Choose · 고르기", 2, 0, ["5", "6"]),
-      sec("7-8", "[7–8]", s78, "밑줄 친 부분 고치기", R_PICK, "choice", "Choose · 고르기", 2, 0, ["7", "8"]),
-      sec("9-10", "[9–10]", s910, "괄호 안에서 고르기", R_PICK, "choice", "Choose · 고르기", 2, 0, ["9", "10"]),
-      sec("11-12", "[11–12]", s1112, "괄호 안에서 고르기", R_PICK, "choice", "Choose · 고르기", 2, 0, ["11", "12"]),
-      sec("13-14", "[13–14]", s1314, "문장 바꿔 쓰기", R_WORD1, "words", "Words · 빈칸 말만", 2, 0, ["13", "14"]),
-      sec("15-16", "[15–16]", s1516, "문장 바꿔 쓰기 (두 칸)", R_WORD2, "words", "Words · 빈칸 말만", 2, 0, ["15", "16"]),
+      sec("1", "1", s1, "형용사가 아닌 것 고르기", R_PICK, "choice", "Choose · 고르기", 1, 0, ["1"]),
+      sec("2-3", "[2–3]", s23, "반의어 짝 고르기", R_PICK, "choice", "Choose · 고르기", 2, 0, ["2", "3"]),
+      sec("4-5", "[4–5]", s45, "기수/서수 짝 고르기", R_PICK, "choice", "Choose · 고르기", 2, 0, ["4", "5"]),
+      sec("6-8", "[6–8]", s68, "밑줄 친 부분 고치기", R_PICK, "choice", "Choose · 고르기", 3, 0, ["6", "7", "8"]),
+      sec("9-12", "[9–12]", s912, "괄호 안에서 고르기", R_PICK, "choice", "Choose · 고르기", 4, 0, ["9", "10", "11", "12"]),
+      sec("13-16", "[13–16]", s1316, "문장 바꿔 쓰기", R_WORD1, "words", "Words · 빈칸 말만", 4, 0, ["13", "14", "15", "16"]),
       sec("17-18", "[17–18]", s1718, "우리말 뜻 완성", R_WORD1, "words", "Words · 빈칸 말만", 2, 0, ["17", "18"]),
       sec("19-20", "[19–20]", s1920, "문장에서 잘못된 부분을 고쳐 다시 쓰세요.", R_SENT, "sentence", "Sentence · 문장 전체", 2, 0, ["19", "20"]),
     ],

@@ -51,9 +51,19 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
       console.log("NO-PROMPT-KO", f, it.id);
     }
     if (f === "lesson01-run.json" && it.section === "A" && !it.displayOnly) {
-      if (!it.unordered || it.blanks !== 2) {
+      if (it.unordered || it.blanks !== 2) {
         bad++;
-        console.log("RUN-A-UNORDERED", f, it.id);
+        console.log("RUN-A-ORDERED", f, it.id);
+      }
+    }
+    if (f === "lesson01-jump.json" && it.section === "A" && !it.displayOnly && !/<u>/.test(it.promptEn || "")) {
+      bad++;
+      console.log("JUMP-A-UL", f, it.id);
+    }
+    if (f === "lesson02-run.json" && it.section === "A" && !it.displayOnly) {
+      if (!/<u>/.test(it.promptEn || "")) {
+        bad++;
+        console.log("RUN2-A-UL", f, it.id);
       }
     }
     total++;
@@ -75,6 +85,19 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
         if (!E.gradeItem(it, rev)) {
           bad++;
           console.log("UNORDERED-FAIL", f, it.id);
+        }
+      }
+      if (
+        f === "lesson01-run.json" &&
+        it.section === "A" &&
+        !it.displayOnly &&
+        parts.length === 2 &&
+        !it.unordered
+      ) {
+        const rev = { parts: [parts[1], parts[0]], value: parts[1] + " " + parts[0] };
+        if (E.gradeItem(it, rev)) {
+          bad++;
+          console.log("RUN-A-SWAP-PASS", f, it.id);
         }
       }
     } else {

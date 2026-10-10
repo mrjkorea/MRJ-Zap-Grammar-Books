@@ -9,125 +9,99 @@
   "appName": "BlueZap 2",
   "unitId": "unit-03",
   "unitTitle": "Unit 03 — 형용사",
-  "sectionsVersion": 2,
-  "introKo": "Review 03은 [1–2]부터 [19–20]까지 20문항입니다. Check Check 점수표는 채점하지 않아요. 각 섹션 안내에 따라 고르기·빈칸·문장 전체를 구분하세요.",
+  "sectionsVersion": 3,
+  "introKo": "Review 03은 1번부터 [19–20]까지 20문항입니다. Check Check 점수표는 채점하지 않아요. 각 섹션 안내에 따라 고르기·빈칸·문장 전체를 구분하세요.",
   "sections": [
     {
-      "id": "1-2",
-      "title": "[1–2]",
-      "instructionKo": "[1–2] 다음 중 형용사가 아닌 것을 고르거나, 의미가 반대인 형용사끼리 짝지어지지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "형용사·반의어 고르기",
+      "id": "1",
+      "title": "1",
+      "instructionKo": "다음 중 형용사가 아닌 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "형용사가 아닌 것 고르기",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "1"
+      ]
+    },
+    {
+      "id": "2-3",
+      "title": "[2–3]",
+      "instructionKo": "[2–3] 다음 중 의미가 반대인 형용사끼리 짝지어지지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "반의어 짝 고르기",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "itemCount": 2,
       "exampleCount": 0,
       "labels": [
-        "1",
-        "2"
+        "2",
+        "3"
       ]
     },
     {
-      "id": "3-4",
-      "title": "[3–4]",
-      "instructionKo": "[3–4] 다음 중 의미가 반대인 형용사끼리 짝지어지지 않은 것, 또는 기수와 서수가 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "반의어·기수/서수",
+      "id": "4-5",
+      "title": "[4–5]",
+      "instructionKo": "[4–5] 다음 중 기수와 서수가 잘못 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "기수/서수 짝 고르기",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "itemCount": 2,
       "exampleCount": 0,
       "labels": [
-        "3",
-        "4"
+        "4",
+        "5"
       ]
     },
     {
-      "id": "5-6",
-      "title": "[5–6]",
-      "instructionKo": "[5–6] 다음 중 기수와 서수가 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "기수/서수·고치기",
-      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "itemCount": 2,
-      "exampleCount": 0,
-      "labels": [
-        "5",
-        "6"
-      ]
-    },
-    {
-      "id": "7-8",
-      "title": "[7–8]",
-      "instructionKo": "[7–8] 다음 중 밑줄 친 부분을 바르게 고친 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "id": "6-8",
+      "title": "[6–8]",
+      "instructionKo": "[6–8] 다음 중 밑줄 친 부분을 바르게 고친 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "directionKo": "밑줄 친 부분 고치기",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 2,
+      "itemCount": 3,
       "exampleCount": 0,
       "labels": [
+        "6",
         "7",
         "8"
       ]
     },
     {
-      "id": "9-10",
-      "title": "[9–10]",
-      "instructionKo": "[9–10] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "id": "9-12",
+      "title": "[9–12]",
+      "instructionKo": "[9–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "directionKo": "괄호 안에서 고르기",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 2,
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "9",
-        "10"
-      ]
-    },
-    {
-      "id": "11-12",
-      "title": "[11–12]",
-      "instructionKo": "[11–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "괄호 안에서 고르기",
-      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "itemCount": 2,
-      "exampleCount": 0,
-      "labels": [
+        "10",
         "11",
         "12"
       ]
     },
     {
-      "id": "13-14",
-      "title": "[13–14]",
-      "instructionKo": "[13–14] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "id": "13-16",
+      "title": "[13–16]",
+      "instructionKo": "[13–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "directionKo": "문장 바꿔 쓰기",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "itemCount": 2,
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "13",
-        "14"
-      ]
-    },
-    {
-      "id": "15-16",
-      "title": "[15–16]",
-      "instructionKo": "[15–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "문장 바꿔 쓰기 (두 칸)",
-      "ruleKo": "빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words · 빈칸 말만",
-      "itemCount": 2,
-      "exampleCount": 0,
-      "labels": [
+        "14",
         "15",
         "16"
       ]
@@ -166,9 +140,9 @@
   "items": [
     {
       "id": "q01",
-      "section": "1-2",
-      "sectionTitle": "Section 1-2",
-      "sectionInstructionKo": "[1–2] 다음 중 형용사가 아닌 것을 고르거나, 의미가 반대인 형용사끼리 짝지어지지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "1",
+      "sectionTitle": "Section 1",
+      "sectionInstructionKo": "다음 중 형용사가 아닌 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "1",
@@ -188,9 +162,9 @@
     },
     {
       "id": "q02",
-      "section": "1-2",
-      "sectionTitle": "Section 1-2",
-      "sectionInstructionKo": "[1–2] 다음 중 형용사가 아닌 것을 고르거나, 의미가 반대인 형용사끼리 짝지어지지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "2-3",
+      "sectionTitle": "Section 2-3",
+      "sectionInstructionKo": "[2–3] 다음 중 의미가 반대인 형용사끼리 짝지어지지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "2",
@@ -210,9 +184,9 @@
     },
     {
       "id": "q03",
-      "section": "3-4",
-      "sectionTitle": "Section 3-4",
-      "sectionInstructionKo": "[3–4] 다음 중 의미가 반대인 형용사끼리 짝지어지지 않은 것, 또는 기수와 서수가 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "2-3",
+      "sectionTitle": "Section 2-3",
+      "sectionInstructionKo": "[2–3] 다음 중 의미가 반대인 형용사끼리 짝지어지지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "3",
@@ -232,9 +206,9 @@
     },
     {
       "id": "q04",
-      "section": "3-4",
-      "sectionTitle": "Section 3-4",
-      "sectionInstructionKo": "[3–4] 다음 중 의미가 반대인 형용사끼리 짝지어지지 않은 것, 또는 기수와 서수가 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "4-5",
+      "sectionTitle": "Section 4-5",
+      "sectionInstructionKo": "[4–5] 다음 중 기수와 서수가 잘못 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "4",
@@ -247,16 +221,16 @@
         "ten – tenth"
       ],
       "accept": [
-        "one – first",
-        "1",
-        "①"
+        "three – threeth",
+        "3",
+        "③"
       ]
     },
     {
       "id": "q05",
-      "section": "5-6",
-      "sectionTitle": "Section 5-6",
-      "sectionInstructionKo": "[5–6] 다음 중 기수와 서수가 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "4-5",
+      "sectionTitle": "Section 4-5",
+      "sectionInstructionKo": "[4–5] 다음 중 기수와 서수가 잘못 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "5",
@@ -269,21 +243,21 @@
         "eight – eighth"
       ],
       "accept": [
-        "two – second",
-        "2",
-        "②"
+        "nine – nineth",
+        "1",
+        "①"
       ]
     },
     {
       "id": "q06",
-      "section": "5-6",
-      "sectionTitle": "Section 5-6",
-      "sectionInstructionKo": "[5–6] 다음 중 기수와 서수가 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "6-8",
+      "sectionTitle": "Section 6-8",
+      "sectionInstructionKo": "[6–8] 다음 중 밑줄 친 부분을 바르게 고친 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "6",
       "type": "mc",
-      "promptEn": "My classroom is on the five floor.",
+      "promptEn": "My classroom is on the <u>five</u> floor.",
       "choices": [
         "fiveth",
         "fifth",
@@ -298,14 +272,14 @@
     },
     {
       "id": "q07",
-      "section": "7-8",
-      "sectionTitle": "Section 7-8",
-      "sectionInstructionKo": "[7–8] 다음 중 밑줄 친 부분을 바르게 고친 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "6-8",
+      "sectionTitle": "Section 6-8",
+      "sectionInstructionKo": "[6–8] 다음 중 밑줄 친 부분을 바르게 고친 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "7",
       "type": "mc",
-      "promptEn": "She has twentieth books.",
+      "promptEn": "She has <u>twentieth</u> books.",
       "choices": [
         "twentie",
         "a twelve",
@@ -320,14 +294,14 @@
     },
     {
       "id": "q08",
-      "section": "7-8",
-      "sectionTitle": "Section 7-8",
-      "sectionInstructionKo": "[7–8] 다음 중 밑줄 친 부분을 바르게 고친 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "6-8",
+      "sectionTitle": "Section 6-8",
+      "sectionInstructionKo": "[6–8] 다음 중 밑줄 친 부분을 바르게 고친 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "8",
       "type": "mc",
-      "promptEn": "Today is my twelveth birthday.",
+      "promptEn": "Today is my <u>twelveth</u> birthday.",
       "choices": [
         "twelve",
         "twenty",
@@ -342,9 +316,9 @@
     },
     {
       "id": "q09",
-      "section": "9-10",
-      "sectionTitle": "Section 9-10",
-      "sectionInstructionKo": "[9–10] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "9-12",
+      "sectionTitle": "Section 9-12",
+      "sectionInstructionKo": "[9–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "9",
@@ -362,9 +336,9 @@
     },
     {
       "id": "q10",
-      "section": "9-10",
-      "sectionTitle": "Section 9-10",
-      "sectionInstructionKo": "[9–10] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "9-12",
+      "sectionTitle": "Section 9-12",
+      "sectionInstructionKo": "[9–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "10",
@@ -382,9 +356,9 @@
     },
     {
       "id": "q11",
-      "section": "11-12",
-      "sectionTitle": "Section 11-12",
-      "sectionInstructionKo": "[11–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "9-12",
+      "sectionTitle": "Section 9-12",
+      "sectionInstructionKo": "[9–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "11",
@@ -402,9 +376,9 @@
     },
     {
       "id": "q12",
-      "section": "11-12",
-      "sectionTitle": "Section 11-12",
-      "sectionInstructionKo": "[11–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "9-12",
+      "sectionTitle": "Section 9-12",
+      "sectionInstructionKo": "[9–12] 다음 우리말 뜻과 같도록 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "12",
@@ -422,9 +396,9 @@
     },
     {
       "id": "q13",
-      "section": "13-14",
-      "sectionTitle": "Section 13-14",
-      "sectionInstructionKo": "[13–14] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "13-16",
+      "sectionTitle": "Section 13-16",
+      "sectionInstructionKo": "[13–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "13",
@@ -438,9 +412,9 @@
     },
     {
       "id": "q14",
-      "section": "13-14",
-      "sectionTitle": "Section 13-14",
-      "sectionInstructionKo": "[13–14] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "13-16",
+      "sectionTitle": "Section 13-16",
+      "sectionInstructionKo": "[13–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "14",
@@ -454,9 +428,9 @@
     },
     {
       "id": "q15",
-      "section": "15-16",
-      "sectionTitle": "Section 15-16",
-      "sectionInstructionKo": "[15–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "13-16",
+      "sectionTitle": "Section 13-16",
+      "sectionInstructionKo": "[13–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "15",
@@ -470,9 +444,9 @@
     },
     {
       "id": "q16",
-      "section": "15-16",
-      "sectionTitle": "Section 15-16",
-      "sectionInstructionKo": "[15–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "13-16",
+      "sectionTitle": "Section 13-16",
+      "sectionInstructionKo": "[13–16] 다음 문장을 아래와 같이 바꿔 쓸 때 빈칸에 알맞은 단어를 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "16",
@@ -504,7 +478,7 @@
       "id": "q18",
       "section": "17-18",
       "sectionTitle": "Section 17-18",
-      "sectionInstructionKo": "[17–18] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[17–18] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "18",

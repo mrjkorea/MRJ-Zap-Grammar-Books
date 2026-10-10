@@ -46,9 +46,9 @@ Printed book pages **61–86** (PDF `p0061`–`p0086`). Page **87** is Unit 04 p
 - **Circle tasks**: student types the circled word(s).
 - **Matching**: `type: "mc"` with choices `a.`–`h.` (or subset); accept letter + full choice text.
 - **Binary MC**: choices `1. word` / `2. word` (book order); accept text, digit, or ①/②.
-- **Run L01 A**: two blanks `adj|noun`, `unordered: true`.
-- **Review 18**: two blanks `is|hungry`.
-- **Review 15–16**: two blanks each (`beautiful|lake`, `famous|actress`).
+- **Run L01 A**: two ordered blanks — first 형용사, second 명사 (`adj|noun`; not `unordered`).
+- **Run L02 A**: underline the adjective; student types the word they would circle (noun/subject).
+- **Review**: banners `1`, `[2–3]`, `[4–5]`, `[6–8]`, `[9–12]`, `[13–16]`, `[17–18]`, `[19–20]`; items 15–16 and 18 use two blanks each (`beautiful|lake`, `famous|actress`, `is|hungry`).
 - **Review 19–20**: `type: "sentence"` full rewrite.
 
 Generate: `node scripts/blue2-build/unit03-generate.js` → `data/blue2/unit03/*.json`.
