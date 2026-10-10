@@ -133,10 +133,30 @@
     return false;
   }
 
+  function permuteWords(arr) {
+    if (arr.length <= 1) return [arr.slice()];
+    var out = [];
+    for (var i = 0; i < arr.length; i++) {
+      var head = arr[i];
+      var rest = arr.slice(0, i).concat(arr.slice(i + 1));
+      permuteWords(rest).forEach(function (tail) {
+        out.push([head].concat(tail));
+      });
+    }
+    return out;
+  }
+
   /** Multi-blank: users[] and accept entry like "are|no" or full phrase */
-  function matchBlanks(users, acceptList) {
+  function matchBlanks(users, acceptList, opts) {
     users = users || [];
     if (!acceptList || !acceptList.length) return false;
+    if (opts && opts.unordered && users.length > 1) {
+      var perms = permuteWords(users);
+      for (var pi = 0; pi < perms.length; pi++) {
+        if (matchBlanks(perms[pi], acceptList)) return true;
+      }
+      return false;
+    }
     for (var i = 0; i < acceptList.length; i++) {
       var pattern = String(acceptList[i]);
       if (pattern.indexOf("|") >= 0 && users.length > 1) {

@@ -1,0 +1,243 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — some과 any, every와 all",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u04:lesson02-walk",
+  "title": "Lesson 02 Walk — every와 all",
+  "subtitle": "every (p. 99)",
+  "pages": "99",
+  "timerMinutes": 10,
+  "introKo": "every 연결하기와 문장에서 every·꾸밈 말 찾기입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 every를 찾아 동그라미 하고 every가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "directionKo": "다음 문장에서 every를 찾아 동그라미 하고 every가 꾸며 주는 말을 찾아 밑줄을 치세요.",
+      "ruleKo": "동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "every teacher",
+      "choices": [
+        "a. 모든 아이들",
+        "b. 매일 밤",
+        "c. 모든 선생님",
+        "d. 매년",
+        "e. 매주"
+      ],
+      "accept": [
+        "c. 모든 선생님",
+        "c"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "c",
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "every year",
+      "choices": [
+        "a. 모든 아이들",
+        "b. 매일 밤",
+        "c. 모든 선생님",
+        "d. 매년",
+        "e. 매주"
+      ],
+      "accept": [
+        "d. 매년",
+        "d"
+      ],
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "every night",
+      "choices": [
+        "a. 모든 아이들",
+        "b. 매일 밤",
+        "c. 모든 선생님",
+        "d. 매년",
+        "e. 매주"
+      ],
+      "accept": [
+        "b. 매일 밤",
+        "b"
+      ],
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "every week",
+      "choices": [
+        "a. 모든 아이들",
+        "b. 매일 밤",
+        "c. 모든 선생님",
+        "d. 매년",
+        "e. 매주"
+      ],
+      "accept": [
+        "e. 매주",
+        "e"
+      ],
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "every child",
+      "choices": [
+        "a. 모든 아이들",
+        "b. 매일 밤",
+        "c. 모든 선생님",
+        "d. 매년",
+        "e. 매주"
+      ],
+      "accept": [
+        "a. 모든 아이들",
+        "a"
+      ],
+      "sectionInstructionKo": "다음 말에 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "She likes every student in her school.",
+      "accept": [
+        "every|student"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "every / student",
+      "sectionInstructionKo": "다음 문장에서 every를 찾아 동그라미 하고 every가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "I know every doctor in the hospital.",
+      "accept": [
+        "every|doctor"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장에서 every를 찾아 동그라미 하고 every가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Every child is special.",
+      "accept": [
+        "Every|child"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장에서 every를 찾아 동그라미 하고 every가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Mike plays the piano every Sunday.",
+      "accept": [
+        "every|Sunday"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장에서 every를 찾아 동그라미 하고 every가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Harry cleans every room in the house.",
+      "accept": [
+        "every|room"
+      ],
+      "blanks": 2,
+      "sectionInstructionKo": "다음 문장에서 every를 찾아 동그라미 하고 every가 꾸며 주는 말을 찾아 밑줄을 치세요. 동그라미 친 말과 밑줄 친 말을 각각 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    }
+  ]
+}
