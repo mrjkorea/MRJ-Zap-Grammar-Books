@@ -33,7 +33,7 @@ Blue 4 Unit 07 uses **Walk / Run / Jump / Fly per lesson** (like Green), not Blu
 
 | Practice | Pages | Graded items | Sections | Modes |
 |----------|-------|--------------|----------|-------|
-| lesson01-walk1 | 167 | 10 | A5 B5 | words, choice |
+| lesson01-walk1 | 167 | 8 | A4+ex B4+ex | words, choice |
 | lesson01-walk2 | 169 | 10 | A5 B5 | words, choice |
 | lesson01-run | 170–171 | 30 | A15 B15 | choice |
 | lesson01-jump | 172–173 | 30 | A15 B15 | words |

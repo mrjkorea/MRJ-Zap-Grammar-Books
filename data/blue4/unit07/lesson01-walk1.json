@@ -10,7 +10,7 @@
   "subtitle": "be동사 · Grammar Walk (p. 167)",
   "pages": "167",
   "timerMinutes": 10,
-  "introKo": "Section A 5문항(부가 의문문 찾기), Section B 5문항(연결·고르기)입니다. 예시는 채점하지 않아요.",
+  "introKo": "Section A 4문항 + 예시 1(부가 의문문 찾기), Section B 5문항(연결·고르기)입니다. 예시는 채점하지 않아요.",
   "sections": [
     {
       "id": "A",
@@ -20,8 +20,8 @@
       "ruleKo": "동그라미 친 부가 의문문만 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "itemCount": 5,
-      "exampleCount": 0,
+      "itemCount": 4,
+      "exampleCount": 1,
       "labels": [
         "A1",
         "A2",
@@ -59,18 +59,15 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "This cake is very sweet,",
+      "promptEn": "This cake is very sweet, isn't it?",
       "accept": [
-        "없음",
-        "(없음)",
-        "-",
-        "—",
-        "none",
-        "X",
-        "x"
+        "isn't it?",
+        "isn't it"
       ],
       "blanks": 1,
-      "promptKo": "부가 의문문이 없는 문장입니다."
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "isn't it?"
     },
     {
       "id": "a02",

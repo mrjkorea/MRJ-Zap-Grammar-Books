@@ -297,10 +297,9 @@
       "type": "fill",
       "promptEn": "Let's open that box, <u>will you</u>?",
       "accept": [
-        "shall|we",
         "shall we"
       ],
-      "blanks": 2
+      "blanks": 1
     },
     {
       "id": "b01",
@@ -374,11 +373,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "Dave won't go swimming this afternoon, ______ ______?",
+      "promptEn": "Dave won't go swimming this afternoon, ______?",
       "accept": [
-        "will|he"
+        "will he"
       ],
-      "blanks": 2
+      "blanks": 1
     },
     {
       "id": "b06",
@@ -434,11 +433,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B9",
       "type": "fill",
-      "promptEn": "He will brush his teeth before bed, ______ ______?",
+      "promptEn": "He will brush his teeth before bed, ______?",
       "accept": [
-        "won't|he"
+        "won't he"
       ],
-      "blanks": 2
+      "blanks": 1
     },
     {
       "id": "b10",
@@ -524,11 +523,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B15",
       "type": "fill",
-      "promptEn": "She won't answer the question, ______ ______?",
+      "promptEn": "She won't answer the question, ______?",
       "accept": [
-        "won't|she"
+        "will she"
       ],
-      "blanks": 2
+      "blanks": 1
     }
   ]
 }
