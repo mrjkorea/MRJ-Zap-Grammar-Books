@@ -1,0 +1,261 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — there, it",
+  "sectionsVersion": 2,
+  "practiceId": "b3:u03:lesson02-walk1",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "Impersonal it (p. 73)",
+  "pages": "73",
+  "timerMinutes": 10,
+  "introKo": "Section A 7문항(it), Section B 4문항(대답 연결). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장에서 비인칭 주어 it을 찾아 동그라미 하세요. 동그라미 친 it만 쓰세요.",
+      "directionKo": "다음 문장에서 비인칭 주어 it을 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 it만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요.",
+      "directionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 대답(a~d)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 비인칭 주어 it을 찾아 동그라미 하세요. 동그라미 친 it만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "It is nine o'clock.",
+      "promptKo": "9시이다.",
+      "accept": [
+        "It",
+        "it"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "It"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 비인칭 주어 it을 찾아 동그라미 하세요. 동그라미 친 it만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "It is four twenty.",
+      "promptKo": "4시 20분이다.",
+      "accept": [
+        "It",
+        "it"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 비인칭 주어 it을 찾아 동그라미 하세요. 동그라미 친 it만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "It is raining.",
+      "promptKo": "비가 온다.",
+      "accept": [
+        "It",
+        "it"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 비인칭 주어 it을 찾아 동그라미 하세요. 동그라미 친 it만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "It is Tuesday.",
+      "promptKo": "화요일이다.",
+      "accept": [
+        "It",
+        "it"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 비인칭 주어 it을 찾아 동그라미 하세요. 동그라미 친 it만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "It is July 10th.",
+      "promptKo": "7월 10일이다.",
+      "accept": [
+        "It",
+        "it"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 비인칭 주어 it을 찾아 동그라미 하세요. 동그라미 친 it만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "What time is it?",
+      "promptKo": "몇 시니?",
+      "accept": [
+        "It",
+        "it"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 비인칭 주어 it을 찾아 동그라미 하세요. 동그라미 친 it만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "What day is it?",
+      "promptKo": "무슨 요일이니?",
+      "accept": [
+        "It",
+        "it"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "How is the weather today?",
+      "promptKo": "오늘 날씨가 어떠니?",
+      "choices": [
+        "a. It is Thursday.",
+        "b. It is six ten.",
+        "c. It is snowing.",
+        "d. It is the second of March."
+      ],
+      "accept": [
+        "c. It is snowing.",
+        "c"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "c. It is snowing."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "What day is it?",
+      "promptKo": "무슨 요일이니?",
+      "choices": [
+        "a. It is Thursday.",
+        "b. It is six ten.",
+        "c. It is snowing.",
+        "d. It is the second of March."
+      ],
+      "accept": [
+        "a. It is Thursday.",
+        "a"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "What's the date today?",
+      "promptKo": "오늘이 며칠이니?",
+      "choices": [
+        "a. It is Thursday.",
+        "b. It is six ten.",
+        "c. It is snowing.",
+        "d. It is the second of March."
+      ],
+      "accept": [
+        "d. It is the second of March.",
+        "d"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "What time is it?",
+      "promptKo": "몇 시니?",
+      "choices": [
+        "a. It is Thursday.",
+        "b. It is six ten.",
+        "c. It is snowing.",
+        "d. It is the second of March."
+      ],
+      "accept": [
+        "b. It is six ten.",
+        "b"
+      ]
+    }
+  ]
+}

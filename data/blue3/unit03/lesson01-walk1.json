@@ -1,0 +1,213 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — there, it",
+  "sectionsVersion": 2,
+  "practiceId": "b3:u03:lesson01-walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "there+be (p. 63)",
+  "pages": "63",
+  "timerMinutes": 10,
+  "introKo": "Section A 5문항(there+be), Section B 5문항(장소·위치). 회색 '예시'는 채점하지 않아요. 동그라미 친 말만 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 쓰세요.",
+      "directionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 there+be만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 문장에서 장소나 위치를 나타내는 말을 찾아 동그라미 하세요. 동그라미 친 장소·위치 표현만 쓰세요.",
+      "directionKo": "다음 문장에서 장소나 위치를 나타내는 말을 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 장소·위치 표현만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "There is a <u>cat</u> under the sofa.",
+      "promptKo": "소파 밑에 고양이 한 마리가 있다.",
+      "accept": [
+        "There is",
+        "There's"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "There is"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "There are <u>two chairs</u> in the room.",
+      "promptKo": "방에 의자 두 개가 있다.",
+      "accept": [
+        "There are"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "There is a <u>bee</u> on the flower.",
+      "promptKo": "꽃 위에 벌 한 마리가 있다.",
+      "accept": [
+        "There is",
+        "There's"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "There are <u>green tomatoes</u> in the basket.",
+      "promptKo": "바구니에 토마토가 몇 개 있다.",
+      "accept": [
+        "There are"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「there+be동사」를 찾아 동그라미 하세요. 동그라미 친 there+be만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "There is a <u>big cabbage</u> on the table.",
+      "promptKo": "식탁 위에 큰 양배추가 하나 있다.",
+      "accept": [
+        "There is",
+        "There's"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 장소나 위치를 나타내는 말을 찾아 동그라미 하세요. 동그라미 친 장소·위치 표현만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "There is a cup in the cupboard.",
+      "promptKo": "찬장 안에 컵이 하나 있다.",
+      "accept": [
+        "in the cupboard"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "in the cupboard"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 장소나 위치를 나타내는 말을 찾아 동그라미 하세요. 동그라미 친 장소·위치 표현만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "There are four tables in the room.",
+      "promptKo": "방에 탁자 네 개가 있다.",
+      "accept": [
+        "in the room"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 장소나 위치를 나타내는 말을 찾아 동그라미 하세요. 동그라미 친 장소·위치 표현만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "There is a kettle behind the basket.",
+      "promptKo": "바구니 뒤에 주전자가 있다.",
+      "accept": [
+        "behind the basket"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 장소나 위치를 나타내는 말을 찾아 동그라미 하세요. 동그라미 친 장소·위치 표현만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "There are some books in his bag.",
+      "promptKo": "그의 가방 안에 책이 몇 권 있다.",
+      "accept": [
+        "in his bag"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 장소나 위치를 나타내는 말을 찾아 동그라미 하세요. 동그라미 친 장소·위치 표현만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "There is a doghouse in the garden.",
+      "promptKo": "정원에 개집이 있다.",
+      "accept": [
+        "in the garden"
+      ]
+    }
+  ]
+}

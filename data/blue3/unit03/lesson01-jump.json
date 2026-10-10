@@ -1,0 +1,475 @@
+{
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — there, it",
+  "sectionsVersion": 2,
+  "practiceId": "b3:u03:lesson01-jump",
+  "title": "Grammar Jump — Lesson 01",
+  "subtitle": "There is/are practice (pp. 68–69)",
+  "pages": "68–69",
+  "timerMinutes": 22,
+  "introKo": "Section A 15문항(빈칸 말만), Section B 10문항(문장 전체). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "directionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "There is an apple in the refrigerator.",
+      "promptKo": "냉장고에 사과가 하나 있다.",
+      "blanks": 2,
+      "accept": [
+        "There|is"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "There is"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "____ ____ a bed next to the desk.",
+      "promptKo": "책상 옆에 침대가 하나 있다.",
+      "blanks": 2,
+      "accept": [
+        "There|is"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "____ ____ two pictures on the wall.",
+      "promptKo": "벽에 그림 두 장이 있다.",
+      "blanks": 2,
+      "accept": [
+        "There|are"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "____ ____ lots of cars on the road.",
+      "promptKo": "길에 차가 많이 있다.",
+      "blanks": 2,
+      "accept": [
+        "There|are"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "____ ____ a nest in the tree.",
+      "promptKo": "나무에 둥지가 하나 있다.",
+      "blanks": 2,
+      "accept": [
+        "There|is"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "____ ____ a frog on the rock.",
+      "promptKo": "바위 위에 개구리가 한 마리 있다.",
+      "blanks": 2,
+      "accept": [
+        "There|is"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "____ ____ three ants under the flower.",
+      "promptKo": "꽃 밑에 개미 세 마리가 있다.",
+      "blanks": 2,
+      "accept": [
+        "There|are"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "____ ____ a boy in the classroom? / Yes, there ____.",
+      "promptKo": "교실에 남학생이 한 명 있니? / 응, 있어.",
+      "blanks": 3,
+      "accept": [
+        "Are|there|is"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "____ ____ many flowers in the store? / No, there ____.",
+      "promptKo": "가게에 꽃이 많이 있니? / 아니, 없어.",
+      "blanks": 3,
+      "accept": [
+        "Are|there|aren't"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "____ ____ two cats under the table? / Yes, there ____.",
+      "promptKo": "식탁 밑에 고양이 두 마리가 있니? / 응, 있어.",
+      "blanks": 3,
+      "accept": [
+        "Are|there|are"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "____ ____ any beans on the dish? / Yes, ____ ____.",
+      "promptKo": "접시에 콩이 있니? / 응, 있어.",
+      "blanks": 4,
+      "accept": [
+        "Are|there|there|are"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "____ ____ a dog under the bed? / No, ____ ____.",
+      "promptKo": "침대 밑에 개가 있니? / 아니, 없어.",
+      "blanks": 4,
+      "accept": [
+        "Is|there|there|isn't"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "____ ____ a bird on the roof? / Yes, ____ ____.",
+      "promptKo": "지붕 위에 새가 있니? / 응, 있어.",
+      "blanks": 4,
+      "accept": [
+        "Is|there|there|is"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "____ ____ a dictionary on the chair? / No, ____ ____.",
+      "promptKo": "의자 위에 사전이 있니? / 아니, 없어.",
+      "blanks": 4,
+      "accept": [
+        "Is|there|there|isn't"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "there와 be동사를 사용하여 다음 문장 또는 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "____ ____ any flour in the bowl? / No, ____ ____.",
+      "promptKo": "그릇에 밀가루가 있니? / 아니, 없어.",
+      "blanks": 4,
+      "accept": [
+        "Is|there|there|isn't"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "There is a river near the farm.\n→",
+      "promptKo": "농장 근처에 강이 있다.",
+      "accept": [
+        "Is there a river near the farm?",
+        "Is there a river near the farm."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Is there a river near the farm?"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "There are two trees next to the river.\n→",
+      "promptKo": "강 옆에 나무 두 그루가 있다.",
+      "accept": [
+        "Are there two trees next to the river?",
+        "Are there two trees next to the river."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "There are five chicks in the nest.\n→",
+      "promptKo": "둥지에 병아리 다섯 마리가 있다.",
+      "accept": [
+        "Are there five chicks in the nest?",
+        "Are there five chicks in the nest."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "There are two rocks next to the tree.\n→",
+      "promptKo": "나무 옆에 바위 두 개가 있다.",
+      "accept": [
+        "Are there two rocks next to the tree?",
+        "Are there two rocks next to the tree."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "There is a snake between the rocks.\n→",
+      "promptKo": "바위 사이에 뱀이 한 마리 있다.",
+      "accept": [
+        "Is there a snake between the rocks?",
+        "Is there a snake between the rocks."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "There is an ant on the rock.\n→",
+      "promptKo": "바위 위에 개미 한 마리가 있다.",
+      "accept": [
+        "Is there an ant on the rock?",
+        "Is there an ant on the rock."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "Is there a pencil case on the desk?\n→",
+      "promptKo": "책상 위에 필통이 있니?",
+      "accept": [
+        "There is a pencil case on the desk.",
+        "There is a pencil case on the desk."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "Is there a waste basket under the desk?\n→",
+      "promptKo": "책상 밑에 쓰레기통이 있니?",
+      "accept": [
+        "There is a waste basket under the desk.",
+        "There is a waste basket under the desk."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "Are there two lamps next to the bed?\n→",
+      "promptKo": "침대 옆에 램프 두 개가 있니?",
+      "accept": [
+        "There are two lamps next to the bed.",
+        "There are two lamps next to the bed."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 평서문은 의문문으로, 의문문은 평서문으로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "Are there two buttons in the bottle?\n→",
+      "promptKo": "병 안에 단추 두 개가 있니?",
+      "accept": [
+        "There are two buttons in the bottle.",
+        "There are two buttons in the bottle."
+      ]
+    }
+  ]
+}
