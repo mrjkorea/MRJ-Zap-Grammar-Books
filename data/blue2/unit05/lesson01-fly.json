@@ -134,10 +134,8 @@
       "promptEn": "<u>A lots of</u> boys play baseball.",
       "blanks": 3,
       "accept": [
-        "A lot|of",
-        "a lot|of",
-        "Lots|of",
-        "lots|of"
+        "a|lot|of",
+        "A|lot|of"
       ],
       "promptKo": "많은 남자아이들이 야구를 한다.",
       "unordered": true
@@ -172,7 +170,7 @@
       "blanks": 3,
       "accept": [
         "a|lot|of",
-        "lots|of"
+        "A|lot|of"
       ],
       "promptKo": "우리는 밀가루를 많이 쓴다.",
       "unordered": true
@@ -292,7 +290,7 @@
       "blanks": 3,
       "accept": [
         "a|lot|of",
-        "lots|of"
+        "A|lot|of"
       ],
       "promptKo": "우리 아버지는 매달 많은 도시를 방문한다.",
       "unordered": true
@@ -327,7 +325,7 @@
       "blanks": 3,
       "accept": [
         "a|lot|of",
-        "lots|of"
+        "A|lot|of"
       ],
       "promptKo": "그는 매년 그림을 많이 그린다.",
       "unordered": true
@@ -410,11 +408,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "Do you need ______ ______? (colored paper)",
-      "promptKo": "",
-      "blanks": 2,
+      "promptEn": "Do you need ______ ______ ______? (colored paper)",
+      "promptKo": "너는 색종이가 많이 필요하니?",
+      "blanks": 3,
       "accept": [
-        "much|colored paper",
         "much|colored|paper"
       ]
     },
@@ -575,7 +572,6 @@
       "promptKo": "",
       "blanks": 3,
       "accept": [
-        "many|TV programs",
         "many|TV|programs"
       ]
     }

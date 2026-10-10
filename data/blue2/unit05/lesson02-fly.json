@@ -196,8 +196,7 @@
       "promptEn": "Sally eats <u>a little ice cream</u>.",
       "blanks": 2,
       "accept": [
-        "little|ice cream",
-        "little|ice|cream"
+        "little|ice cream"
       ],
       "promptKo": "샐리는 아이스크림을 거의 먹지 않는다."
     },
@@ -323,17 +322,17 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "______ ______ are in the yard. (dog)",
-      "promptKo": "",
-      "blanks": 2,
+      "promptEn": "______ ______ ______ are in the yard. (dog)",
+      "promptKo": "개 몇 마리가 마당에 있다.",
+      "blanks": 3,
       "accept": [
-        "A few|dogs",
-        "a few|dogs"
+        "A|few|dogs",
+        "a|few|dogs"
       ],
       "ex": true,
       "example": true,
       "displayOnly": true,
-      "exampleAnswer": "A few"
+      "exampleAnswer": "A few dogs"
     },
     {
       "id": "b17",
@@ -344,11 +343,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "I need ______ ______. (help)",
-      "promptKo": "",
-      "blanks": 2,
+      "promptEn": "I need ______ ______ ______. (help)",
+      "promptKo": "나는 도움이 조금 필요하다.",
+      "blanks": 3,
       "accept": [
-        "a little|help"
+        "a|little|help"
       ]
     },
     {
@@ -361,7 +360,7 @@
       "label": "B3",
       "type": "fill",
       "promptEn": "My sister reads ______ ______. (book)",
-      "promptKo": "",
+      "promptKo": "내 여동생은 책을 거의 읽지 않는다.",
       "blanks": 2,
       "accept": [
         "few|books"
@@ -377,7 +376,7 @@
       "label": "B4",
       "type": "fill",
       "promptEn": "Frogs drink ______ ______. (water)",
-      "promptKo": "",
+      "promptKo": "개구리는 거의 물을 마시지 않는다.",
       "blanks": 2,
       "accept": [
         "little|water"
@@ -392,12 +391,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "______ ______ play badminton after school. (child)",
-      "promptKo": "",
-      "blanks": 2,
+      "promptEn": "______ ______ ______ play badminton after school. (child)",
+      "promptKo": "아이들 몇 명이 방과 후에 배드민턴을 친다.",
+      "blanks": 3,
       "accept": [
-        "A few|children",
-        "a few|children"
+        "A|few|children",
+        "a|few|children"
       ]
     },
     {
@@ -410,7 +409,7 @@
       "label": "B6",
       "type": "fill",
       "promptEn": "The house has ______ ______. (window)",
-      "promptKo": "",
+      "promptKo": "그 집에는 창문이 거의 없다.",
       "blanks": 2,
       "accept": [
         "few|windows"
@@ -425,11 +424,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B7",
       "type": "fill",
-      "promptEn": "His uncle fixes ______ ______ every day. (bike)",
-      "promptKo": "",
-      "blanks": 2,
+      "promptEn": "His uncle fixes ______ ______ ______ every day. (bike)",
+      "promptKo": "그의 삼촌은 매일 자전거 몇 대를 고치신다.",
+      "blanks": 3,
       "accept": [
-        "a few|bikes"
+        "a|few|bikes"
       ]
     },
     {
@@ -442,7 +441,7 @@
       "label": "B8",
       "type": "fill",
       "promptEn": "My mother puts ______ ______ in her soup. (cheese)",
-      "promptKo": "",
+      "promptKo": "우리 어머니는 자신의 수프에 치즈를 거의 넣지 않으신다.",
       "blanks": 2,
       "accept": [
         "little|cheese"
@@ -457,12 +456,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B9",
       "type": "fill",
-      "promptEn": "______ ______ are tall. (farmer)",
-      "promptKo": "",
-      "blanks": 2,
+      "promptEn": "______ ______ ______ are tall. (farmer)",
+      "promptKo": "농부 몇 명은 키가 크다.",
+      "blanks": 3,
       "accept": [
-        "A few|farmers",
-        "a few|farmers"
+        "A|few|farmers",
+        "a|few|farmers"
       ]
     },
     {
@@ -474,11 +473,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B10",
       "type": "fill",
-      "promptEn": "Jake buys ______ ______ at the store. (beef)",
-      "promptKo": "",
-      "blanks": 2,
+      "promptEn": "Jake buys ______ ______ ______ at the store. (beef)",
+      "promptKo": "제이크는 그 상점에서 쇠고기를 조금 산다.",
+      "blanks": 3,
       "accept": [
-        "a little|beef"
+        "a|little|beef"
       ]
     },
     {
@@ -491,7 +490,7 @@
       "label": "B11",
       "type": "fill",
       "promptEn": "The garden has ______ ______. (tree)",
-      "promptKo": "",
+      "promptKo": "그 정원에 나무가 거의 없다.",
       "blanks": 2,
       "accept": [
         "few|trees"
@@ -506,11 +505,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B12",
       "type": "fill",
-      "promptEn": "John and I eat ______ ______ every day. (apple)",
-      "promptKo": "",
-      "blanks": 2,
+      "promptEn": "John and I eat ______ ______ ______ every day. (apple)",
+      "promptKo": "존과 나는 매일 사과를 몇 개 먹는다.",
+      "blanks": 3,
       "accept": [
-        "a few|apples"
+        "a|few|apples"
       ]
     },
     {
@@ -523,7 +522,7 @@
       "label": "B13",
       "type": "fill",
       "promptEn": "The jacket has ______ ______. (button)",
-      "promptKo": "",
+      "promptKo": "그 재킷에는 단추가 거의 없다.",
       "blanks": 2,
       "accept": [
         "few|buttons"
@@ -539,7 +538,7 @@
       "label": "B14",
       "type": "fill",
       "promptEn": "They speak ______ ______. (English)",
-      "promptKo": "",
+      "promptKo": "그들은 영어를 거의 말하지 않는다.",
       "blanks": 2,
       "accept": [
         "little|English"
@@ -554,11 +553,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B15",
       "type": "fill",
-      "promptEn": "They make ______ ______ every week. (chair)",
-      "promptKo": "",
-      "blanks": 2,
+      "promptEn": "They make ______ ______ ______ every week. (chair)",
+      "promptKo": "그들은 매주 의자 몇 개를 만든다.",
+      "blanks": 3,
       "accept": [
-        "a few|chairs"
+        "a|few|chairs"
       ]
     }
   ]

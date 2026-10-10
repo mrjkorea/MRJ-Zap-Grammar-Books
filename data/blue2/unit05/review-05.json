@@ -387,13 +387,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "13",
       "type": "fill",
-      "promptEn": "______ children like computer games.",
+      "promptEn": "______ ______ ______ children like computer games.",
       "promptKo": "많은 아이들이 컴퓨터 게임을 좋아한다.",
-      "blanks": 1,
+      "blanks": 3,
       "accept": [
-        "Many",
-        "A lot of",
-        "Lots of"
+        "a|lot|of",
+        "A|lot|of"
       ]
     },
     {
