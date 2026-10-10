@@ -1,0 +1,530 @@
+{
+  "practiceId": "b3:u05:lesson02-run",
+  "title": "Grammar Run",
+  "subtitle": "how many/much, how + 형용사/부사 (pp. 129–130)",
+  "pages": "129–130",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 의문사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(Choose), Section B 11문항(Choose)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고 따라 하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptKo": "식당에 테이블이 몇 개 있니?",
+      "promptEn": "A: How ( many / much ) tables are there in the restaurant?\nB: There are ten tables.",
+      "choices": [
+        "many",
+        "much"
+      ],
+      "accept": [
+        "many"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "many"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptKo": "하루에 물을 얼마나 마시니?",
+      "promptEn": "A: How ( many / much ) water do you drink a day?\nB: One liter a day.",
+      "choices": [
+        "many",
+        "much"
+      ],
+      "accept": [
+        "much"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptKo": "Emily는 몇 살이니?",
+      "promptEn": "A: How ( old / tall ) is Emily?\nB: She is eleven years old.",
+      "choices": [
+        "old",
+        "tall"
+      ],
+      "accept": [
+        "old"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptKo": "배드민턴을 얼마나 오래 치니?",
+      "promptEn": "A: How ( long / often ) do you play badminton?\nB: I play badminton for one hour.",
+      "choices": [
+        "long",
+        "often"
+      ],
+      "accept": [
+        "long"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptKo": "부산은 여기서 얼마나 멀니?",
+      "promptEn": "A: How ( often / far ) is Busan from here?\nB: It's 100 kilometers to Busan.",
+      "choices": [
+        "often",
+        "far"
+      ],
+      "accept": [
+        "far"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptKo": "하루에 식사를 몇 번 하니?",
+      "promptEn": "A: How ( much / many ) meals do you have a day?\nB: I have three meals a day.",
+      "choices": [
+        "much",
+        "many"
+      ],
+      "accept": [
+        "many"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptKo": "머리를 얼마나 자주 감니?",
+      "promptEn": "A: How ( many / often ) do you wash your hair?\nB: I wash my hair every day.",
+      "choices": [
+        "many",
+        "often"
+      ],
+      "accept": [
+        "often"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptKo": "펜을 몇 자루 가지고 있니?",
+      "promptEn": "A: How many ( pens / money ) do you have?\nB: I have five.",
+      "choices": [
+        "pens",
+        "money"
+      ],
+      "accept": [
+        "pens"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptKo": "탑은 높이가 얼마나 되니?",
+      "promptEn": "A: How ( old / tall ) is the tower?\nB: It's 30 meters tall.",
+      "choices": [
+        "old",
+        "tall"
+      ],
+      "accept": [
+        "tall"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptKo": "동생은 키가 얼마나 크니?",
+      "promptEn": "A: How ( tall / far ) is your brother?\nB: He is 120 centimeters tall.",
+      "choices": [
+        "tall",
+        "far"
+      ],
+      "accept": [
+        "tall"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptKo": "자 길이는 얼마나 되니?",
+      "promptEn": "A: How ( old / long ) is the ruler?\nB: It's 30 centimeters long.",
+      "choices": [
+        "old",
+        "long"
+      ],
+      "accept": [
+        "long"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptKo": "그들은 시간이 얼마나 필요하니?",
+      "promptEn": "A: How much ( clocks / time ) do they need?\nB: They need two hours.",
+      "choices": [
+        "clocks",
+        "time"
+      ],
+      "accept": [
+        "time"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptKo": "농장에 소가 몇 마리 있니?",
+      "promptEn": "How many cows are there on the farm?",
+      "choices": [
+        "There are twelve cows.",
+        "We have many cows."
+      ],
+      "accept": [
+        "There are twelve cows."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "There are twelve cows."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptKo": "셔츠 가격이 얼마니?",
+      "promptEn": "How much is the shirt?",
+      "choices": [
+        "I have two shirts.",
+        "It is twenty dollars."
+      ],
+      "accept": [
+        "It is twenty dollars."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptKo": "네 개는 몇 살이니?",
+      "promptEn": "How old is your dog?",
+      "choices": [
+        "He's one meter long.",
+        "He's eight years old."
+      ],
+      "accept": [
+        "He's eight years old."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptKo": "그는 얼마나 자주 차를 씻니?",
+      "promptEn": "How often does he wash his car?",
+      "choices": [
+        "He washes his car once a month.",
+        "There are two cars."
+      ],
+      "accept": [
+        "He washes his car once a month."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptKo": "버터가 얼마나 필요하니?",
+      "promptEn": "How much butter do you need?",
+      "choices": [
+        "I like butter.",
+        "I need fifty grams."
+      ],
+      "accept": [
+        "I need fifty grams."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptKo": "누나(여동생)는 키가 얼마나 크니?",
+      "promptEn": "How tall is your sister?",
+      "choices": [
+        "She's eighty centimeters tall.",
+        "She's one year old."
+      ],
+      "accept": [
+        "She's eighty centimeters tall."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptKo": "가방을 몇 개 가지고 있니?",
+      "promptEn": "How many bags do you have?",
+      "choices": [
+        "It's thirty dollars.",
+        "I have three."
+      ],
+      "accept": [
+        "I have three."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptKo": "경찰서는 여기서 얼마나 멀니?",
+      "promptEn": "How far is the police station from here?",
+      "choices": [
+        "It's five hundred meters from here.",
+        "They have two."
+      ],
+      "accept": [
+        "It's five hundred meters from here."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptKo": "다리 길이는 얼마나 되니?",
+      "promptEn": "How long is the bridge?",
+      "choices": [
+        "It's in Seoul.",
+        "It's two hundred meters long."
+      ],
+      "accept": [
+        "It's two hundred meters long."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptKo": "그들은 얼마나 자주 태권도를 연습하니?",
+      "promptEn": "How often do they practice taekwondo?",
+      "choices": [
+        "They practice it twice a week.",
+        "They practice it very hard."
+      ],
+      "accept": [
+        "They practice it twice a week."
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptKo": "하루에 수학을 얼마나 오래 공부하니?",
+      "promptEn": "How long do you study math a day?",
+      "choices": [
+        "I study math in the evening.",
+        "I study math for two hours a day."
+      ],
+      "accept": [
+        "I study math for two hours a day."
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 대한 대답으로 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptKo": "공원은 여기서 얼마나 멀니?",
+      "promptEn": "How far is the park from here?",
+      "choices": [
+        "It's four kilometers from here.",
+        "It is next to the school."
+      ],
+      "accept": [
+        "It's four kilometers from here."
+      ]
+    }
+  ]
+}
