@@ -1,0 +1,106 @@
+/* Smoke-grade every BlueZap 2 Unit 06 item (normalize.js + engine.js). */
+const fs = require("fs");
+const path = require("path");
+const vm = require("vm");
+
+const REPO = path.join(__dirname, "..");
+const DATA = path.join(REPO, "data/blue2/unit06");
+const win = {};
+const ctx = vm.createContext({ window: win, Date, Math, JSON, String, Array, Object, RegExp, Promise });
+for (const f of ["assets/js/normalize.js", "assets/js/engine.js"]) {
+  vm.runInContext(fs.readFileSync(path.join(REPO, f), "utf8"), ctx);
+}
+const E = win.MRJ_ENGINE;
+let total = 0;
+let bad = 0;
+for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
+  const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
+  const ids = d.items.map((it) => it.id);
+  const dup = ids.filter((id, i) => ids.indexOf(id) !== i);
+  if (dup.length) {
+    bad++;
+    console.log("DUP-ID", f, dup.join(","));
+  }
+  if (d.sections) {
+    for (const s of d.sections) {
+      const graded = d.items.filter((it) => !it.displayOnly && it.section === s.id);
+      if (graded.length !== s.itemCount) {
+        bad++;
+        console.log("SECTION-COUNT", f, s.id, "expected", s.itemCount, "got", graded.length);
+      }
+    }
+  }
+  for (const it of d.items) {
+    if (it.displayOnly) continue;
+    if (
+      it.type !== "mc" &&
+      it.promptEn &&
+      /[A-Za-z]/.test(it.promptEn) &&
+      !it.promptKo
+    ) {
+      bad++;
+      console.log("NO-PROMPT-KO", f, it.id);
+    }
+    total++;
+    let right;
+    let wrong;
+    if (it.type === "mc") {
+      const a = it.accept[0];
+      const idx = /^\d$/.test(a) ? Number(a) - 1 : it.choices.indexOf(a);
+      right = { value: it.choices[idx >= 0 ? idx : 0] };
+      wrong = { value: it.choices[(idx + 1) % it.choices.length] };
+    } else if ((it.blanks || 1) > 1) {
+      const parts = it.accept[0].split("|");
+      right = { parts, value: parts.join(" ") };
+      if (it.unordered && parts.length >= 2) {
+        const rev = parts.slice().reverse();
+        if (!E.gradeItem(it, { parts: rev, value: rev.join(" ") })) {
+          bad++;
+          console.log("UNORDERED-REV-FAIL", f, it.id);
+        }
+      }
+      const wp = parts.slice();
+      wp[0] = "xyz";
+      wrong = { parts: wp, value: wp.join(" ") };
+    } else {
+      right = { value: "  " + it.accept[0].toUpperCase() + "  " };
+      wrong = { value: "nope" };
+    }
+    const r = E.gradeItem(it, right);
+    const w = E.gradeItem(it, wrong);
+    if (r && !w) {
+      /* ok */
+    } else {
+      bad++;
+      console.log("FAIL", f, it.id, JSON.stringify(right), r, w);
+    }
+    if ((it.blanks || 1) > 1 && !it.unordered && it.accept[0] && it.accept[0].includes("|")) {
+      const parts = it.accept[0].split("|");
+      if (parts.length >= 2) {
+        const rev = parts.slice().reverse();
+        if (E.gradeItem(it, { parts: rev, value: rev.join(" ") })) {
+          bad++;
+          console.log("ORDERED-REV-PASS", f, it.id);
+        }
+      }
+    }
+    for (const acc of it.accept.slice(0, 3)) {
+      let resp;
+      if (it.type === "mc") {
+        const idx = /^\d$/.test(acc) ? Number(acc) - 1 : it.choices.indexOf(acc);
+        resp = { value: it.choices[idx >= 0 ? idx : 0] };
+      } else if ((it.blanks || 1) > 1 && acc.includes("|")) {
+        const parts = acc.split("|");
+        resp = { parts, value: parts.join(" ") };
+      } else {
+        resp = { value: acc };
+      }
+      if (!E.gradeItem(it, resp)) {
+        bad++;
+        console.log("ACCEPT-FAIL", f, it.id, acc);
+      }
+    }
+  }
+}
+console.log("graded", total, "issues", bad);
+process.exit(bad ? 1 : 0);
