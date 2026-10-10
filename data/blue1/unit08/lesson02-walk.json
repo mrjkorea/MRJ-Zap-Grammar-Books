@@ -1,0 +1,286 @@
+{
+  "practiceId": "b1:u08:lesson02-walk",
+  "title": "Lesson 02 Walk — be동사의 의문문 (2)",
+  "subtitle": "명사 주어 · pp. 197–198",
+  "pages": "197–198",
+  "timerMinutes": 10,
+  "introKo": "Section A 주어+be동사, Section B 대명사 고르기(6문항).",
+  "bookId": "zap-blue-1",
+  "bookTitle": "ZAP Blue 1",
+  "appName": "BlueZap 1",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — be동사의 현재 시제 (2)",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요.",
+      "ruleKo": "주어와 be동사 각 1칸 (순서 무관)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어와 be동사 두 칸 — 순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Is John from the U.S.?",
+      "promptKo": "존은 미국 출신이니?",
+      "blanks": 2,
+      "unordered": true,
+      "accept": [
+        "John|Is",
+        "Is|John"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "John / Is"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어와 be동사 두 칸 — 순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Are the boys your friends?",
+      "promptKo": "그 남자아이들은 네 친구니?",
+      "blanks": 2,
+      "unordered": true,
+      "accept": [
+        "boys|Are",
+        "Are|boys"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어와 be동사 두 칸 — 순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Is the woman your teacher?",
+      "promptKo": "그 여자는 네 선생님이니?",
+      "blanks": 2,
+      "unordered": true,
+      "accept": [
+        "woman|Is",
+        "Is|woman"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어와 be동사 두 칸 — 순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Are the bags Emily's?",
+      "promptKo": "그 가방들은 에밀리의 것이니?",
+      "blanks": 2,
+      "unordered": true,
+      "accept": [
+        "bags|Are",
+        "Are|bags"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어와 be동사 두 칸 — 순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Are those balloons colorful?",
+      "promptKo": "저 풍선들은 색이 화려하니?",
+      "blanks": 2,
+      "unordered": true,
+      "accept": [
+        "balloons|Are",
+        "Are|balloons",
+        "those balloons|Are",
+        "Are|those balloons"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, be동사를 찾아 밑줄을 치세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어와 be동사 두 칸 — 순서는 상관없습니다.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Is your cat sick?",
+      "promptKo": "네 고양이는 아프니?",
+      "blanks": 2,
+      "unordered": true,
+      "accept": [
+        "cat|Is",
+        "Is|cat",
+        "your cat|Is",
+        "Is|your cat"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "A: Is that bag heavy?  B: Yes, ( it / she ) is.",
+      "choices": [
+        "it",
+        "she"
+      ],
+      "accept": [
+        "it",
+        "1"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "it"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "A: Are the girls pretty?  B: Yes, ( they / these ) are.",
+      "choices": [
+        "they",
+        "these"
+      ],
+      "accept": [
+        "they",
+        "1"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "A: Is the wallet yellow?  B: Yes, ( he / it ) is.",
+      "choices": [
+        "he",
+        "it"
+      ],
+      "accept": [
+        "it",
+        "2"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "A: Are your sisters tall?  B: Yes, ( it / they ) are.",
+      "choices": [
+        "it",
+        "they"
+      ],
+      "accept": [
+        "they",
+        "2"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "A: Is Jane sick?  B: Yes, ( she / it ) is.",
+      "choices": [
+        "she",
+        "it"
+      ],
+      "accept": [
+        "she",
+        "1"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 괄호 안에서 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "A: Is your father a firefighter?  B: Yes, ( he / she ) is.",
+      "choices": [
+        "he",
+        "she"
+      ],
+      "accept": [
+        "he",
+        "1"
+      ]
+    }
+  ]
+}

@@ -155,6 +155,31 @@
     return false;
   }
 
+  function permute(arr) {
+    if (arr.length <= 1) return [arr.slice()];
+    var out = [];
+    for (var i = 0; i < arr.length; i++) {
+      var rest = arr.slice(0, i).concat(arr.slice(i + 1));
+      var sub = permute(rest);
+      for (var j = 0; j < sub.length; j++) {
+        out.push([arr[i]].concat(sub[j]));
+      }
+    }
+    return out;
+  }
+
+  /** Multi-blank when blank order does not matter (e.g. subject + be-verb). */
+  function matchBlanksUnordered(users, acceptList) {
+    users = users || [];
+    if (!users.length || !acceptList || !acceptList.length) return false;
+    if (matchBlanks(users, acceptList)) return true;
+    var perms = permute(users);
+    for (var p = 0; p < perms.length; p++) {
+      if (matchBlanks(perms[p], acceptList)) return true;
+    }
+    return false;
+  }
+
   function matchMc(choiceValue, accept) {
     var list = Array.isArray(accept) ? accept : [accept];
     for (var i = 0; i < list.length; i++) {
@@ -178,6 +203,7 @@
     normalizePhrase: normalizePhrase,
     matchAccept: matchAccept,
     matchBlanks: matchBlanks,
+    matchBlanksUnordered: matchBlanksUnordered,
     matchMc: matchMc,
   };
 })(window);
