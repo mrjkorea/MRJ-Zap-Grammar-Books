@@ -1,0 +1,473 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 비교 — 비교급",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u04:lesson02-fly",
+  "title": "Lesson 02 Fly — Grammar Fly",
+  "subtitle": "오류 고치기·배열 (pp. 106–107)",
+  "pages": "106–107",
+  "timerMinutes": 24,
+  "introKo": "Section A 15문항(밑줄만 고치기), Section B 10문항(문장 배열)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "She drinks <u>mucher</u> milk than her sister.",
+      "blanks": 1,
+      "accept": [
+        "more"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "more"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "This doll is prettier <u>for</u> that doll.",
+      "blanks": 1,
+      "accept": [
+        "than"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "I eat <u>slowlier</u> than my brother.",
+      "blanks": 2,
+      "accept": [
+        "more|slowly"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "This is a <u>more good</u> idea.",
+      "blanks": 1,
+      "accept": [
+        "better"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "Yuna is <u>famous more</u> than the skater.",
+      "blanks": 2,
+      "accept": [
+        "more|famous"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "id": "a06",
+      "type": "fill",
+      "promptEn": "She sings <u>weller</u>.",
+      "blanks": 1,
+      "accept": [
+        "better"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "id": "a07",
+      "type": "fill",
+      "promptEn": "The pen is <u>expensiver</u> than the notebook.",
+      "blanks": 2,
+      "accept": [
+        "more|expensive"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "id": "a08",
+      "type": "fill",
+      "promptEn": "The puppy is lighter <u>to</u> the dog.",
+      "blanks": 1,
+      "accept": [
+        "than"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "id": "a09",
+      "type": "fill",
+      "promptEn": "The musical is <u>exciting</u> than the concert.",
+      "blanks": 2,
+      "accept": [
+        "more|exciting"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "id": "a10",
+      "type": "fill",
+      "promptEn": "Today is <u>more bad</u> than yesterday.",
+      "blanks": 1,
+      "accept": [
+        "worse"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "id": "a11",
+      "type": "fill",
+      "promptEn": "Worms are <u>slow</u> than turtles.",
+      "blanks": 1,
+      "accept": [
+        "slower"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "id": "a12",
+      "type": "fill",
+      "promptEn": "The cup is <u>more cheap</u> than the glass.",
+      "blanks": 1,
+      "accept": [
+        "cheaper"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "id": "a13",
+      "type": "fill",
+      "promptEn": "The tower is taller <u>from</u> the building.",
+      "blanks": 1,
+      "accept": [
+        "than"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "id": "a14",
+      "type": "fill",
+      "promptEn": "Peaches are <u>delicious</u> than apples.",
+      "blanks": 2,
+      "accept": [
+        "more|delicious"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 밑줄 친 부분만 고쳐 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "id": "a15",
+      "type": "fill",
+      "promptEn": "I practice the piano <u>more hard</u> than the violin.",
+      "blanks": 1,
+      "accept": [
+        "harder"
+      ],
+      "promptKo": "밑줄 친 부분만 바르게 고쳐 쓰세요."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "id": "b01",
+      "type": "sentence",
+      "promptEn": "캐나다는 프랑스보다 더 크다.\n( Canada / France / is bigger than / . )",
+      "promptKo": "캐나다는 프랑스보다 더 크다.",
+      "accept": [
+        "Canada is bigger than France.",
+        "Canada is bigger than France"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Canada is bigger than France."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "id": "b02",
+      "type": "sentence",
+      "promptEn": "여름은 가을보다 덥다.\n( summer / fall / is hotter than / . )",
+      "promptKo": "여름은 가을보다 덥다.",
+      "accept": [
+        "Summer is hotter than fall.",
+        "Summer is hotter than fall"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "id": "b03",
+      "type": "sentence",
+      "promptEn": "비행기는 자동차보다 빠르다.\n( airplanes / cars / are faster than / . )",
+      "promptKo": "비행기는 자동차보다 빠르다.",
+      "accept": [
+        "Airplanes are faster than cars.",
+        "Airplanes are faster than cars"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "id": "b04",
+      "type": "sentence",
+      "promptEn": "미끄럼틀이 시소보다 신난다.\n( slides / seesaws / are more exciting than / . )",
+      "promptKo": "미끄럼틀이 시소보다 신난다.",
+      "accept": [
+        "Slides are more exciting than seesaws.",
+        "Slides are more exciting than seesaws"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "id": "b05",
+      "type": "sentence",
+      "promptEn": "오늘은 어제보다 춥다.\n( today / yesterday / is colder than / . )",
+      "promptKo": "오늘은 어제보다 춥다.",
+      "accept": [
+        "Today is colder than yesterday.",
+        "Today is colder than yesterday"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "id": "b06",
+      "type": "sentence",
+      "promptEn": "그 공주가 그 여왕보다 예쁘다.\n( the queen / the princess / is prettier than / . )",
+      "promptKo": "그 공주가 그 여왕보다 예쁘다.",
+      "accept": [
+        "The princess is prettier than the queen.",
+        "The princess is prettier than the queen"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "id": "b07",
+      "type": "sentence",
+      "promptEn": "테드가 닉보다 노래를 잘한다.\n( Ted / Nick / sings better than / . )",
+      "promptKo": "테드가 닉보다 노래를 잘한다.",
+      "accept": [
+        "Ted sings better than Nick.",
+        "Ted sings better than Nick"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "id": "b08",
+      "type": "sentence",
+      "promptEn": "이 책이 저 일기장보다 두껍다.\n( This book / that diary / is thicker than / . )",
+      "promptKo": "이 책이 저 일기장보다 두껍다.",
+      "accept": [
+        "This book is thicker than that diary.",
+        "This book is thicker than that diary"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "id": "b09",
+      "type": "sentence",
+      "promptEn": "수빈이는 소라보다 부지런하다.\n( Subin / Sora / is more diligent than / . )",
+      "promptKo": "수빈이는 소라보다 부지런하다.",
+      "accept": [
+        "Subin is more diligent than Sora.",
+        "Subin is more diligent than Sora"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "id": "b10",
+      "type": "sentence",
+      "promptEn": "그 역은 은행보다 멀다.\n( the bank / the station / is farther than / . )",
+      "promptKo": "그 역은 은행보다 멀다.",
+      "accept": [
+        "The station is farther than the bank.",
+        "The station is farther than the bank",
+        "The station is further than the bank."
+      ]
+    }
+  ]
+}

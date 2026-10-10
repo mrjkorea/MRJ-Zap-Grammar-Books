@@ -1,0 +1,251 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 비교 — 비교급",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u04:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — than",
+  "subtitle": "비교급 + than (p. 101)",
+  "pages": "101",
+  "timerMinutes": 10,
+  "introKo": "Section A 5문항(비교급·than 쓰기), Section B 5문항(than 위치 고르기)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 형용사나 부사의 비교급을 찾아 밑줄을 치고 than에 동그라미 하세요. 비교급과 than을 순서대로 쓰세요. (한 칸에 한 단어씩, 2칸.)",
+      "directionKo": "다음 문장에서 형용사나 부사의 비교급을 찾아 밑줄을 치고 than에 동그라미 하세요.",
+      "ruleKo": "비교급과 than을 순서대로 쓰세요. (한 칸에 한 단어씩, 2칸.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 than이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 than이 들어갈 위치로 알맞은 곳에 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 비교급을 찾아 밑줄을 치고 than에 동그라미 하세요. 비교급과 than을 순서대로 쓰세요. (한 칸에 한 단어씩, 2칸.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "The cat is <u>bigger</u> <u>than</u> the mouse.",
+      "blanks": 2,
+      "accept": [
+        "bigger|than"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "bigger / than"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 비교급을 찾아 밑줄을 치고 than에 동그라미 하세요. 비교급과 than을 순서대로 쓰세요. (한 칸에 한 단어씩, 2칸.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "Today is ______ ______ yesterday.",
+      "blanks": 2,
+      "accept": [
+        "hotter|than"
+      ],
+      "promptKo": "빈칸에 알맞은 말을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 비교급을 찾아 밑줄을 치고 than에 동그라미 하세요. 비교급과 than을 순서대로 쓰세요. (한 칸에 한 단어씩, 2칸.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "The game is ______ ______ ______ the concert.",
+      "blanks": 3,
+      "accept": [
+        "more|exciting|than"
+      ],
+      "promptKo": "빈칸에 알맞은 말을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 비교급을 찾아 밑줄을 치고 than에 동그라미 하세요. 비교급과 than을 순서대로 쓰세요. (한 칸에 한 단어씩, 2칸.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "Bees are ______ ______ ants.",
+      "blanks": 2,
+      "accept": [
+        "busier|than"
+      ],
+      "promptKo": "빈칸에 알맞은 말을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 비교급을 찾아 밑줄을 치고 than에 동그라미 하세요. 비교급과 than을 순서대로 쓰세요. (한 칸에 한 단어씩, 2칸.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "The dog swims ______ ______ the bear.",
+      "blanks": 2,
+      "accept": [
+        "better|than"
+      ],
+      "promptKo": "빈칸에 알맞은 말을 쓰세요."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 than이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "id": "b01",
+      "type": "mc",
+      "promptEn": "Nolbu ① is ② richer ③ Heungbu ④.",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "accept": [
+        "3",
+        "3",
+        "③"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "3"
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 than이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "id": "b02",
+      "type": "mc",
+      "promptEn": "① George ② sleeps ③ longer ④ Tim.",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "accept": [
+        "4",
+        "4",
+        "④"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 than이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "id": "b03",
+      "type": "mc",
+      "promptEn": "The red dress ① is ② more ③ beautiful ④ the white dress.",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "accept": [
+        "4",
+        "4",
+        "④"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 than이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "id": "b04",
+      "type": "mc",
+      "promptEn": "This ① book ② is ③ thicker ④ the dictionary.",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "accept": [
+        "4",
+        "4",
+        "④"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 than이 들어갈 위치로 알맞은 곳에 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "id": "b05",
+      "type": "mc",
+      "promptEn": "Those ① sneakers ② are better ③ these ④ slippers.",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "accept": [
+        "3",
+        "3",
+        "③"
+      ],
+      "promptKo": "알맞은 보기를 고르세요."
+    }
+  ]
+}
