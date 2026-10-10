@@ -115,10 +115,8 @@
       "promptEn": "<u>Is singing she</u> loudly?",
       "blanks": 2,
       "accept": [
-        "Is she|singing",
-        "Is|she singing"
-      ],
-      "promptKo": "→ Is she / singing"
+        "she|singing"
+      ]
     },
     {
       "section": "A",
@@ -130,11 +128,11 @@
       "id": "a03",
       "type": "fill",
       "promptEn": "Paul <u>does not</u> practicing tennis.",
-      "blanks": 2,
+      "blanks": 1,
       "accept": [
-        "is|not"
-      ],
-      "promptKo": "→ is / not"
+        "is not",
+        "isn't"
+      ]
     },
     {
       "section": "A",
@@ -149,8 +147,7 @@
       "blanks": 1,
       "accept": [
         "buying"
-      ],
-      "promptKo": "→ buying"
+      ]
     },
     {
       "section": "A",
@@ -162,11 +159,11 @@
       "id": "a05",
       "type": "fill",
       "promptEn": "Julia <u>not is</u> going home.",
-      "blanks": 2,
+      "blanks": 1,
       "accept": [
-        "is|not"
-      ],
-      "promptKo": "→ is / not"
+        "is not",
+        "isn't"
+      ]
     },
     {
       "section": "A",
@@ -181,8 +178,7 @@
       "blanks": 1,
       "accept": [
         "Is"
-      ],
-      "promptKo": "→ Is"
+      ]
     },
     {
       "section": "A",
@@ -198,8 +194,7 @@
       "accept": [
         "isn't",
         "is not"
-      ],
-      "promptKo": "→ isn't"
+      ]
     },
     {
       "section": "A",
@@ -214,8 +209,7 @@
       "blanks": 1,
       "accept": [
         "Are"
-      ],
-      "promptKo": "→ Are"
+      ]
     },
     {
       "section": "A",
@@ -230,8 +224,7 @@
       "blanks": 1,
       "accept": [
         "answering"
-      ],
-      "promptKo": "→ answering"
+      ]
     },
     {
       "section": "A",
@@ -246,8 +239,7 @@
       "blanks": 1,
       "accept": [
         "Are"
-      ],
-      "promptKo": "→ Are"
+      ]
     },
     {
       "section": "A",
@@ -262,8 +254,7 @@
       "blanks": 1,
       "accept": [
         "are"
-      ],
-      "promptKo": "→ are"
+      ]
     },
     {
       "section": "A",
@@ -277,9 +268,8 @@
       "promptEn": "<u>Are wearing they</u> school uniforms?",
       "blanks": 2,
       "accept": [
-        "Are they|wearing"
-      ],
-      "promptKo": "→ Are they / wearing"
+        "they|wearing"
+      ]
     },
     {
       "section": "A",
@@ -295,8 +285,7 @@
       "accept": [
         "isn't",
         "is not"
-      ],
-      "promptKo": "→ isn't"
+      ]
     },
     {
       "section": "A",
@@ -311,8 +300,7 @@
       "blanks": 1,
       "accept": [
         "solving"
-      ],
-      "promptKo": "→ solving"
+      ]
     },
     {
       "section": "A",
@@ -327,8 +315,7 @@
       "blanks": 1,
       "accept": [
         "playing"
-      ],
-      "promptKo": "→ playing"
+      ]
     },
     {
       "section": "B",

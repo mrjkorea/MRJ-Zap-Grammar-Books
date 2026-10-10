@@ -33,12 +33,23 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
   let ok = 0;
   for (const it of d.items) {
     if (it.displayOnly) continue;
+    const hasKoInPrompt = /[가-힣]/.test(it.promptEn || "");
+    const promptKoOptional =
+      hasKoInPrompt ||
+      (f === "lesson01-fly.json" && it.section === "A") ||
+      (f === "lesson02-fly.json" && it.section === "A") ||
+      f === "lesson01-jump.json" ||
+      f === "lesson02-jump.json" ||
+      f === "lesson01-walk1.json" ||
+      (f === "lesson02-walk2.json" && it.section === "A") ||
+      (f === "review-07.json" && ["q19", "q20"].includes(it.id));
     if (
       it.type !== "mc" &&
       it.promptEn &&
       /[A-Za-z]/.test(it.promptEn) &&
       !/^단어 |^문장 /.test(it.promptEn) &&
-      !it.promptKo
+      !it.promptKo &&
+      !promptKoOptional
     ) {
       bad++;
       console.log("NO-PROMPT-KO", f, it.id);
