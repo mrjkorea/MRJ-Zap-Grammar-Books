@@ -161,8 +161,7 @@
       "type": "fill",
       "promptEn": "John can't use the washing machine.\n→ John ______ ______ able to use the washing machine.",
       "accept": [
-        "is|not",
-        "isn't"
+        "is|not"
       ],
       "promptKo": "존은 세탁기를 사용하지 못한다.",
       "blanks": 2
@@ -176,12 +175,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "The puppies can climb the stairs.\n→ The puppies ______ able to climb the stairs.",
+      "promptEn": "The puppies can climb the stairs.\n→ The puppies ______ ______ able to climb the stairs.",
       "accept": [
-        "are"
+        "are|"
       ],
       "promptKo": "강아지들은 계단을 오를 수 있다.",
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b04",
@@ -194,8 +193,7 @@
       "type": "fill",
       "promptEn": "She can't make pancakes.\n→ She ______ ______ able to make pancakes.",
       "accept": [
-        "is|not",
-        "isn't"
+        "is|not"
       ],
       "promptKo": "그녀는 팬케이크를 만들지 못한다.",
       "blanks": 2
@@ -209,12 +207,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "We can play soccer.\n→ We ______ able to play soccer.",
+      "promptEn": "We can play soccer.\n→ We ______ ______ able to play soccer.",
       "accept": [
-        "are"
+        "are|"
       ],
       "promptKo": "우리는 축구를 할 수 있다.",
-      "blanks": 1
+      "blanks": 2
     }
   ]
 }

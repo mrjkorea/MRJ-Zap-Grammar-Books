@@ -277,13 +277,13 @@
       "type": "mc",
       "promptEn": "• They ______ reading books.\n• ______ you able to move the chair?",
       "choices": [
-        "① is [Is]",
-        "② are [Are]",
-        "③ can [Can]",
-        "④ do [Do]"
+        "① is[Is]",
+        "② are[Are]",
+        "③ can[Can]",
+        "④ do[Do]"
       ],
       "accept": [
-        "② are [Are]",
+        "② are[Are]",
         "2"
       ]
     },
@@ -512,9 +512,10 @@
       "type": "fill",
       "promptEn": "My brother ______ ______ write his name.",
       "accept": [
-        "can't|write",
-        "cannot|write",
-        "can not|write"
+        "can|not",
+        "can't|",
+        "cannot|",
+        "can not|"
       ],
       "promptKo": "내 남동생은 자기 이름을 못 쓴다.",
       "blanks": 2

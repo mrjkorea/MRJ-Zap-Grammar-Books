@@ -105,7 +105,8 @@ function write(name, data) {
 // —— Lesson 01 Walk 1 (p. 12) ——
 (function lesson01Walk1() {
   const instrA =
-    "다음 문장에서 조동사 can을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 빈칸마다 조동사 can과 동사원형을 각각 한 칸에 쓰세요. (순서는 상관없어요.) (문장 전체를 쓰지 마세요.)";
+    "다음 문장에서 조동사 can을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 칸에는 can, 2번 칸에는 동사원형을 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)";
+  const noteWalk1A = "1번 칸: can · 2번 칸: 동사원형 (순서대로).";
   const instrB =
     "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 부정 조동사만 쓰세요. (can't / cannot / can not) (문장 전체를 쓰지 마세요.)";
   const rowsA = [
@@ -125,7 +126,7 @@ function write(name, data) {
       fillItem("a01", "A", "A1", ul("Tom can fly a kite.", "fly"), ["can|fly"], {
         sectionInstructionKo: instrA,
         blanks: 2,
-        unordered: true,
+        noteKo: noteWalk1A,
         promptKo: "톰은 연을 날릴 수 있다.",
       }),
       "can / fly"
@@ -136,7 +137,7 @@ function write(name, data) {
       fillItem("a" + String(i + 2).padStart(2, "0"), "A", "A" + (i + 2), ul(r.en, r.v), ["can|" + r.v], {
         sectionInstructionKo: instrA,
         blanks: 2,
-        unordered: true,
+        noteKo: noteWalk1A,
         promptKo: r.ko,
       })
     );
@@ -174,7 +175,7 @@ function write(name, data) {
     sectionsVersion: 2,
     introKo: "Section A 4문항(can+동사원형), Section B 4문항(부정). 예시(A1·B1)는 채점하지 않아요.",
     sections: [
-      sec("A", "Section A", instrA, "다음 문장에서 조동사 can과 동사원형을 찾으세요.", "빈칸 두 칸에 can과 동사원형을 쓰세요.", "words", "Words · 빈칸 말만", 4, 1, ["A2", "A3", "A4", "A5"]),
+      sec("A", "Section A", instrA, "다음 문장에서 조동사 can과 동사원형을 찾으세요.", "1번 칸: can, 2번 칸: 동사원형.", "words", "Words · 빈칸 말만", 4, 1, ["A2", "A3", "A4", "A5"]),
       sec("B", "Section B", instrB, "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.", "can't / cannot / can not 중 하나만 쓰세요.", "words", "Words · 빈칸 말만", 4, 1, ["B2", "B3", "B4", "B5"]),
     ],
     items,
@@ -352,21 +353,21 @@ function write(name, data) {
   const instrB =
     "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)";
   const koA = [
-    { en: "I can fix the door.", partial: "나는 그 문을 ______.", ans: ["고칠 수 있다"] },
-    { en: "Spiders cannot fly.", partial: "거미는 ______.", ans: ["날 수 없다", "날지 못한다"] },
-    { en: "Can you write English stories?", partial: "너는 영어 이야기를 ______?", ans: ["쓸 수 있니", "쓸 수 있나요"] },
-    { en: "My father can dive into the sea.", partial: "우리 아버지는 바다로 ______.", ans: ["뛰어들 수 있다", "다이빙할 수 있다"] },
-    { en: "Amy cannot get up early.", partial: "에이미는 일찍 ______.", ans: ["일어나지 못한다", "일어날 수 없다"] },
-    { en: "Can Billy jump over the chair?", partial: "빌리는 그 의자를 ______?", ans: ["뛰어넘을 수 있니", "뛰어넘을 수 있나요"] },
-    { en: "They can play basketball well.", partial: "그들은 농구를 잘 ______.", ans: ["할 수 있다", "칠 수 있다"] },
-    { en: "We cannot open this bottle.", partial: "우리는 이 병을 ______.", ans: ["열 수 없다", "열지 못한다"] },
-    { en: "Can you answer the question?", partial: "너는 그 질문에 ______?", ans: ["대답할 수 있니", "대답할 수 있나요"] },
-    { en: "She can tie her shoelace.", partial: "그녀는 자기 신발끈을 ______.", ans: ["묶을 수 있다", "매을 수 있다"] },
-    { en: "I cannot swim well.", partial: "나는 수영을 잘 ______.", ans: ["하지 못한다", "못한다", "할 수 없다"] },
-    { en: "Can a bird speak?", partial: "새는 ______?", ans: ["말할 수 있니", "말할 수 있나요"] },
-    { en: "Laura cannot touch a cat.", partial: "로라는 고양이를 ______.", ans: ["만지지 못한다", "만질 수 없다"] },
-    { en: "Jimmy can wash the dishes.", partial: "지미는 ______.", ans: ["설거지를 할 수 있다", "할 수 있다"] },
-    { en: "Can you walk on a rope?", partial: "너는 로프 위를 ______?", ans: ["걸을 수 있니", "걸을 수 있나요"] },
+    { en: "I can fix the door.", partial: "나는 그 문을 ______.", ans: ["고칠 수 있다", "고칠수 있다"] },
+    { en: "Spiders cannot fly.", partial: "거미는 ______.", ans: ["날 수 없다", "날지 못한다", "날 수 없어", "날지 못해"] },
+    { en: "Can you write English stories?", partial: "너는 영어 이야기를 ______?", ans: ["쓸 수 있니", "쓸 수 있나요", "쓸수 있니", "쓸수 있나요"] },
+    { en: "My father can dive into the sea.", partial: "우리 아버지는 바다로 ______.", ans: ["뛰어들 수 있다", "다이빙할 수 있다", "뛰어들수 있다", "다이빙할수 있다"] },
+    { en: "Amy cannot get up early.", partial: "에이미는 일찍 ______.", ans: ["일어나지 못한다", "일어날 수 없다", "일어나지 못해", "일어날 수 없어"] },
+    { en: "Can Billy jump over the chair?", partial: "빌리는 그 의자를 ______?", ans: ["뛰어넘을 수 있니", "뛰어넘을 수 있나요", "뛰어넘을수 있니", "뛰어넘을수 있나요"] },
+    { en: "They can play basketball well.", partial: "그들은 농구를 잘 ______.", ans: ["할 수 있다", "칠 수 있다", "할수 있다", "칠수 있다"] },
+    { en: "We cannot open this bottle.", partial: "우리는 이 병을 ______.", ans: ["열 수 없다", "열지 못한다", "열 수 없어", "열지 못해"] },
+    { en: "Can you answer the question?", partial: "너는 그 질문에 ______?", ans: ["대답할 수 있니", "대답할 수 있나요", "답할 수 있니", "답할 수 있나요"] },
+    { en: "She can tie her shoelace.", partial: "그녀는 자기 신발끈을 ______.", ans: ["묶을 수 있다", "매을 수 있다", "묶을수 있다", "매을수 있다"] },
+    { en: "I cannot swim well.", partial: "나는 수영을 잘 ______.", ans: ["하지 못한다", "못한다", "할 수 없다", "하지 못해", "못해", "할 수 없어"] },
+    { en: "Can a bird speak?", partial: "새는 ______?", ans: ["말할 수 있니", "말할 수 있나요", "말할수 있니", "말할수 있나요"] },
+    { en: "Laura cannot touch a cat.", partial: "로라는 고양이를 ______.", ans: ["만지지 못한다", "만질 수 없다", "만지지 못해", "만질 수 없어"] },
+    { en: "Jimmy can wash the dishes.", partial: "지미는 ______.", ans: ["설거지를 할 수 있다", "설거지할 수 있다", "할 수 있다", "설거지를 할수 있다"] },
+    { en: "Can you walk on a rope?", partial: "너는 로프 위를 ______?", ans: ["걸을 수 있니", "걸을 수 있나요", "걸을수 있니", "걸을수 있나요"] },
   ];
   const items = [
     exItem(
@@ -445,20 +446,20 @@ function write(name, data) {
     "can과 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)";
   const fixA = [
     { p: ul("They can speaks English well.", "speaks"), a: ["speak"], b: 1, ko: "그들은 영어를 잘 말할 수 있다." },
-    { p: ul("The police officer cans run very fast.", "cans run"), a: ["can|run"], b: 2, ko: "그 경찰관은 매우 빨리 달릴 수 있다." },
+    { p: ul("The police officer cans run very fast.", "cans run"), a: ["can run"], b: 1, ko: "그 경찰관은 매우 빨리 달릴 수 있다." },
     { p: ul("Do can you swim across the river?", "Do can you"), a: ["Can you"], b: 1, ko: "너는 그 강을 가로질러 수영할 수 있니?" },
     { p: ul("He not can lift the rock.", "not can"), a: ["cannot", "can't", "can not"], b: 1, ko: "그는 그 바위를 들어 올리지 못한다." },
     { p: ul("Dad doesn't can cook chicken soup.", "doesn't can"), a: ["can't", "cannot", "can not"], b: 1, ko: "아빠는 닭고기 수프를 요리하지 못하신다." },
     { p: ul("We cannot seeing wind.", "seeing"), a: ["see"], b: 1, ko: "우리는 바람을 볼 수 없다." },
     { p: ul("Snakes don't can hear.", "don't can"), a: ["can't", "cannot", "can not"], b: 1, ko: "뱀은 듣지 못한다." },
     { p: ul("She make can a kite.", "make can"), a: ["can|make"], b: 2, ko: "그녀는 연을 만들 수 있다." },
-    { p: ul("The little girl can feeds the cow.", "feeds"), a: ["feed"], b: 1, ko: "그 어린 여자아이는 그 소에게 먹이를 줄 수 있다." },
-    { p: ul("Are you can read a map?", "Are you can"), a: ["Can you"], b: 1, ko: "너는 지도를 읽을 수 있니?" },
-    { p: ul("My brother can go not to school alone.", "go not"), a: ["cannot go", "can't go", "can not go"], b: 1, ko: "내 남동생은 학교에 혼자 다니지 못한다." },
-    { p: ul("Koalas can live not in the jungle.", "live not"), a: ["cannot live", "can't live", "can not live"], b: 1, ko: "코알라는 정글에서 살지 못한다." },
-    { p: "Can Tom ride a bike? / No, Tom can.", a: ["can't", "cannot", "can not"], b: 1, ko: "톰은 자전거를 탈 수 있니? / 아니, 못해." },
-    { p: "Can Ms. Sawyer use chopsticks? / Yes, she do.", a: ["can"], b: 1, ko: "소여 씨는 젓가락을 사용할 수 있니? / 응, 할 수 있어." },
-    { p: "Can you fix the bell? / Yes, I am.", a: ["can"], b: 1, ko: "너는 그 종을 고칠 수 있니? / 응, 할 수 있어." },
+    { p: ul("The little girl can feeds the cow.", "feeds"), a: ["can|feed"], b: 2, ko: "그 어린 여자아이는 그 소에게 먹이를 줄 수 있다." },
+    { p: ul("Are you can read a map?", "Are you can"), a: ["Can|you"], b: 2, ko: "너는 지도를 읽을 수 있니?" },
+    { p: ul("My brother can go not to school alone.", "go not"), a: ["can't|go", "cannot|go", "can not|go"], b: 2, ko: "내 남동생은 학교에 혼자 다니지 못한다." },
+    { p: ul("Koalas can live not in the jungle.", "live not"), a: ["can't|live", "cannot|live", "can not|live"], b: 2, ko: "코알라는 정글에서 살지 못한다." },
+    { p: "Can Tom ride a bike?\nNo, ______ ______.", a: ["he|can't", "he|cannot", "he|can not", "Tom|can't", "Tom|cannot", "Tom|can not"], b: 2, ko: "톰은 자전거를 탈 수 있니? / 아니, 못해." },
+    { p: "Can Ms. Sawyer use chopsticks?\nYes, ______ ______.", a: ["she|can"], b: 2, ko: "소여 씨는 젓가락을 사용할 수 있니? / 응, 할 수 있어." },
+    { p: "Can you fix the bell?\nYes, ______ ______.", a: ["I|can"], b: 2, ko: "너는 그 종을 고칠 수 있니? / 응, 할 수 있어." },
   ];
   const items = [
     exItem(
@@ -565,10 +566,10 @@ function write(name, data) {
   });
   const rowsB = [
     { stem: "I can read Chinese.", line: "I ______ able to read Chinese.", a: ["am"], b: 1, ko: "나는 중국어를 읽을 수 있다." },
-    { stem: "John can't use the washing machine.", line: "John ______ ______ able to use the washing machine.", a: ["is|not", "isn't"], b: 2, ko: "존은 세탁기를 사용하지 못한다." },
-    { stem: "The puppies can climb the stairs.", line: "The puppies ______ able to climb the stairs.", a: ["are"], b: 1, ko: "강아지들은 계단을 오를 수 있다." },
-    { stem: "She can't make pancakes.", line: "She ______ ______ able to make pancakes.", a: ["is|not", "isn't"], b: 2, ko: "그녀는 팬케이크를 만들지 못한다." },
-    { stem: "We can play soccer.", line: "We ______ able to play soccer.", a: ["are"], b: 1, ko: "우리는 축구를 할 수 있다." },
+    { stem: "John can't use the washing machine.", line: "John ______ ______ able to use the washing machine.", a: ["is|not"], b: 2, ko: "존은 세탁기를 사용하지 못한다." },
+    { stem: "The puppies can climb the stairs.", line: "The puppies ______ ______ able to climb the stairs.", a: ["are|"], b: 2, ko: "강아지들은 계단을 오를 수 있다." },
+    { stem: "She can't make pancakes.", line: "She ______ ______ able to make pancakes.", a: ["is|not"], b: 2, ko: "그녀는 팬케이크를 만들지 못한다." },
+    { stem: "We can play soccer.", line: "We ______ ______ able to play soccer.", a: ["are|"], b: 2, ko: "우리는 축구를 할 수 있다." },
   ];
   items.push(
     exItem(
@@ -973,7 +974,7 @@ function write(name, data) {
   );
 
   const s4 = "[4] 다음 문장의 빈칸에 공통으로 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)";
-  const ch4 = numberedChoices(["is [Is]", "are [Are]", "can [Can]", "do [Do]"]);
+  const ch4 = numberedChoices(["is[Is]", "are[Are]", "can[Can]", "do[Do]"]);
   items.push(
     mcItem(
       "q04",
@@ -1056,7 +1057,7 @@ function write(name, data) {
 
   const s1617 = "[16–17] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 순서대로 쓰세요. (문장 전체를 쓰지 마세요.)";
   items.push(
-    fillItem("q16", "16-17", "16", "My brother ______ ______ write his name.", ["can't|write", "cannot|write", "can not|write"], {
+    fillItem("q16", "16-17", "16", "My brother ______ ______ write his name.", ["can|not", "can't|", "cannot|", "can not|"], {
       sectionInstructionKo: s1617,
       blanks: 2,
       promptKo: "내 남동생은 자기 이름을 못 쓴다.",

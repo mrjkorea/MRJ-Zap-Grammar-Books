@@ -98,10 +98,10 @@
       "type": "fill",
       "promptEn": "The police officer <u>cans run</u> very fast.",
       "accept": [
-        "can|run"
+        "can run"
       ],
       "promptKo": "그 경찰관은 매우 빨리 달릴 수 있다.",
-      "blanks": 2
+      "blanks": 1
     },
     {
       "id": "a03",
@@ -216,10 +216,10 @@
       "type": "fill",
       "promptEn": "The little girl can <u>feeds</u> the cow.",
       "accept": [
-        "feed"
+        "can|feed"
       ],
       "promptKo": "그 어린 여자아이는 그 소에게 먹이를 줄 수 있다.",
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "a10",
@@ -232,10 +232,10 @@
       "type": "fill",
       "promptEn": "<u>Are you can</u> read a map?",
       "accept": [
-        "Can you"
+        "Can|you"
       ],
       "promptKo": "너는 지도를 읽을 수 있니?",
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "a11",
@@ -248,12 +248,12 @@
       "type": "fill",
       "promptEn": "My brother can <u>go not</u> to school alone.",
       "accept": [
-        "cannot go",
-        "can't go",
-        "can not go"
+        "can't|go",
+        "cannot|go",
+        "can not|go"
       ],
       "promptKo": "내 남동생은 학교에 혼자 다니지 못한다.",
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "a12",
@@ -266,12 +266,12 @@
       "type": "fill",
       "promptEn": "Koalas can <u>live not</u> in the jungle.",
       "accept": [
-        "cannot live",
-        "can't live",
-        "can not live"
+        "can't|live",
+        "cannot|live",
+        "can not|live"
       ],
       "promptKo": "코알라는 정글에서 살지 못한다.",
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "a13",
@@ -282,14 +282,17 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A13",
       "type": "fill",
-      "promptEn": "Can Tom ride a bike? / No, Tom can.",
+      "promptEn": "Can Tom ride a bike?\nNo, ______ ______.",
       "accept": [
-        "can't",
-        "cannot",
-        "can not"
+        "he|can't",
+        "he|cannot",
+        "he|can not",
+        "Tom|can't",
+        "Tom|cannot",
+        "Tom|can not"
       ],
       "promptKo": "톰은 자전거를 탈 수 있니? / 아니, 못해.",
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "a14",
@@ -300,12 +303,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A14",
       "type": "fill",
-      "promptEn": "Can Ms. Sawyer use chopsticks? / Yes, she do.",
+      "promptEn": "Can Ms. Sawyer use chopsticks?\nYes, ______ ______.",
       "accept": [
-        "can"
+        "she|can"
       ],
       "promptKo": "소여 씨는 젓가락을 사용할 수 있니? / 응, 할 수 있어.",
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "a15",
@@ -316,12 +319,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A15",
       "type": "fill",
-      "promptEn": "Can you fix the bell? / Yes, I am.",
+      "promptEn": "Can you fix the bell?\nYes, ______ ______.",
       "accept": [
-        "can"
+        "I|can"
       ],
       "promptKo": "너는 그 종을 고칠 수 있니? / 응, 할 수 있어.",
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b01",

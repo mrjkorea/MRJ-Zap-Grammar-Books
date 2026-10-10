@@ -74,22 +74,6 @@
           return false;
         }
         if (N.matchBlanks(response.parts, item.accept)) return true;
-        if (item.unordered && response.parts.length === blanks) {
-          var pts = response.parts.slice();
-          var used = new Array(blanks);
-          function tryPerm(i) {
-            if (i >= blanks) return N.matchBlanks(used, item.accept);
-            for (var j = 0; j < blanks; j++) {
-              var taken = false;
-              for (var k = 0; k < i; k++) if (used[k] === pts[j]) taken = true;
-              if (taken) continue;
-              used[i] = pts[j];
-              if (tryPerm(i + 1)) return true;
-            }
-            return false;
-          }
-          if (tryPerm(0)) return true;
-        }
         if (N.matchAccept(response.parts.join(" "), item.accept)) return true;
         return false;
       }

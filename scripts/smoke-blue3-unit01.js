@@ -91,13 +91,13 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
         console.log("ACCEPT-FAIL", f, it.id, acc);
       }
     }
-    if (it.unordered && (it.blanks || 1) > 1 && it.accept[0]) {
+    if (f === "lesson01-walk1.json" && it.section === "A" && !it.displayOnly && (it.blanks || 1) > 1 && it.accept[0]) {
       const p = it.accept[0].split("|");
       if (p.length > 1) {
         const rev = { parts: p.slice().reverse(), value: p.slice().reverse().join(" ") };
-        if (!E.gradeItem(it, rev)) {
+        if (E.gradeItem(it, rev)) {
           bad++;
-          console.log("UNORDERED-FAIL", f, it.id);
+          console.log("WALK1-A-ORDER", f, it.id, "reversed must fail");
         }
       }
     }
