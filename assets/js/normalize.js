@@ -155,27 +155,51 @@
     return false;
   }
 
-  function permute(arr) {
-    if (arr.length <= 1) return [arr.slice()];
+  function permuteIndices(n) {
+    var arr = [];
+    for (var i = 0; i < n; i++) arr.push(i);
     var out = [];
-    for (var i = 0; i < arr.length; i++) {
-      var rest = arr.slice(0, i).concat(arr.slice(i + 1));
-      var sub = permute(rest);
-      for (var j = 0; j < sub.length; j++) {
-        out.push([arr[i]].concat(sub[j]));
+    function perm(a, k) {
+      if (k === 1) {
+        out.push(a.slice());
+        return;
+      }
+      for (var j = 0; j < k; j++) {
+        perm(a, k - 1);
+        var swap = k % 2 ? 0 : j;
+        var t = a[swap];
+        a[swap] = a[k - 1];
+        a[k - 1] = t;
       }
     }
+    perm(arr, n);
     return out;
   }
 
-  /** Multi-blank when blank order does not matter (e.g. subject + be-verb). */
+  function matchBlankTuple(users, exp) {
+    if (users.length !== exp.length) return false;
+    for (var b = 0; b < exp.length; b++) {
+      if (!matchOne(users[b], exp[b])) return false;
+    }
+    return true;
+  }
+
+  /** Multi-blank, any order: some permutation of users matches a pipe-separated accept tuple */
   function matchBlanksUnordered(users, acceptList) {
     users = users || [];
-    if (!users.length || !acceptList || !acceptList.length) return false;
-    if (matchBlanks(users, acceptList)) return true;
-    var perms = permute(users);
-    for (var p = 0; p < perms.length; p++) {
-      if (matchBlanks(perms[p], acceptList)) return true;
+    if (!acceptList || !acceptList.length || !users.length) return false;
+    for (var i = 0; i < acceptList.length; i++) {
+      var pattern = String(acceptList[i]);
+      if (pattern.indexOf("|") < 0) continue;
+      var exp = pattern.split("|");
+      if (exp.length !== users.length) continue;
+      var perms = permuteIndices(exp.length);
+      for (var p = 0; p < perms.length; p++) {
+        var perm = perms[p];
+        var ordered = [];
+        for (var u = 0; u < users.length; u++) ordered.push(users[perm[u]]);
+        if (matchBlankTuple(ordered, exp)) return true;
+      }
     }
     return false;
   }
