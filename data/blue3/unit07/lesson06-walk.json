@@ -32,9 +32,9 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 쓰세요. 순서는 상관없어요.",
+      "instructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 두 칸에 쓰세요.",
       "directionKo": "Who 주어와 동사를 찾으세요.",
-      "ruleKo": "Who|동사 (순서 무관)",
+      "ruleKo": "Who|동사",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "itemCount": 4,
@@ -126,19 +126,17 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 쓰세요. 순서는 상관없어요.",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 두 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B1",
       "type": "fill",
       "promptEn": "Who planted this tree?",
       "accept": [
-        "Who|planted",
-        "planted|Who"
+        "Who|planted"
       ],
       "promptKo": "누가 이 나무를 심었니?",
       "blanks": 2,
-      "unordered": true,
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "Who|planted"
@@ -147,69 +145,61 @@
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 쓰세요. 순서는 상관없어요.",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 두 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B2",
       "type": "fill",
       "promptEn": "Who made this snowman?",
       "accept": [
-        "Who|made",
-        "made|Who"
+        "Who|made"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 쓰세요. 순서는 상관없어요.",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 두 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B3",
       "type": "fill",
       "promptEn": "Who sang last night?",
       "accept": [
-        "Who|sang",
-        "sang|Who"
+        "Who|sang"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 쓰세요. 순서는 상관없어요.",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 두 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B4",
       "type": "fill",
       "promptEn": "Who went to the supermarket with you?",
       "accept": [
-        "Who|went",
-        "went|Who"
+        "Who|went"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     },
     {
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 쓰세요. 순서는 상관없어요.",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 동사를 찾아 밑줄을 치세요. Who와 동사를 | 로 구분해 두 칸에 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B5",
       "type": "fill",
       "promptEn": "Who visited you last Sunday?",
       "accept": [
-        "Who|visited",
-        "visited|Who"
+        "Who|visited"
       ],
-      "blanks": 2,
-      "unordered": true
+      "blanks": 2
     }
   ]
 }

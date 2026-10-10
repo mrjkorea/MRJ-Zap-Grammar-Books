@@ -181,7 +181,7 @@
       "type": "mc",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "promptEn": "Choose the incorrectly paired base and past form.",
+      "promptEn": "",
       "choices": [
         "need – needed",
         "dry – dried",
@@ -265,7 +265,7 @@
       "type": "mc",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "promptEn": "Choose the incorrect sentence.",
+      "promptEn": "",
       "choices": [
         "I came home at five.",
         "She wore a yellow skirt today.",
@@ -370,7 +370,7 @@
       "type": "mc",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "promptEn": "Choose the unnatural dialogue pair.",
+      "promptEn": "",
       "choices": [
         "A: Did you dry your hair? / B: Yes, I did.",
         "A: Did your sister cry last night? / B: No, she doesn't.",
@@ -490,6 +490,7 @@
       "promptEn": "A: Did your sister ride a bike?\nB: Yes, ______.",
       "accept": [
         "she did",
+        "She did",
         "she|did"
       ],
       "blanks": 2,
