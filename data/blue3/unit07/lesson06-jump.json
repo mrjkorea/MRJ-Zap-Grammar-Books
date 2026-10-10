@@ -1,0 +1,487 @@
+{
+  "practiceId": "b3:u07:lesson06-jump",
+  "title": "Grammar Jump",
+  "subtitle": "과거 변환·대화 (pp. 187–188)",
+  "pages": "187–188",
+  "timerMinutes": 23,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 과거 시제 - 일반동사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 11문항(두 칸 변환), Section B 14문항(대화).",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "directionKo": "과거 시제로 바꾸세요.",
+      "ruleKo": "did|동사원형 또는 didn't|동사원형",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "대화를 완성하세요.",
+      "ruleKo": "빈칸 말만.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "You don't clean your room.\n→ You ______ your room yesterday.",
+      "accept": [
+        "didn't|clean"
+      ],
+      "promptKo": "너는 어제 방을 청소하지 않았다.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "didn't|clean"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I don't want those shoes.\n→ I ______ those shoes then.",
+      "accept": [
+        "didn't|want"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "He doesn't use the computer.\n→ He ______ the computer today.",
+      "accept": [
+        "didn't|use"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "We don't live in the country.\n→ We ______ in the country last year.",
+      "accept": [
+        "didn't|live"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "My dad doesn't ride a bike.\n→ My dad ______ a bike last Sunday.",
+      "accept": [
+        "didn't|ride"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "I don't fly the kite on the hill.\n→ I ______ the kite on the hill yesterday.",
+      "accept": [
+        "didn't|fly"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Do you play the piano after school?\n→ ______ you ______ the piano after school?",
+      "accept": [
+        "Did|play"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Does the bus stop here?\n→ ______ the bus ______ here then?",
+      "accept": [
+        "Did|stop"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "Do the farmers have any cows?\n→ ______ the farmers ______ any cows last month?",
+      "accept": [
+        "Did|have"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "When does the concert begin?\n→ When ______ the concert ______ last Saturday?",
+      "accept": [
+        "did|begin"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Why does the girl like Tom?\n→ Why ______ the girl ______ Tom?",
+      "accept": [
+        "did|like"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 과거 시제로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 | 로 구분해 두 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "What time do you get up?\n→ What time ______ you ______ up this morning?",
+      "accept": [
+        "did|get"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "Did you come home late today? / No, ______.",
+      "accept": [
+        "I|didn't",
+        "didn't|I"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I|didn't"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Did your dad go fishing last weekend? / Yes, ______.",
+      "accept": [
+        "he|did",
+        "did|he"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Did your sister have the backpack then? / No, ______.",
+      "accept": [
+        "she|didn't",
+        "didn't|she"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Did she bake the birthday cake? / Yes, ______.",
+      "accept": [
+        "she|did",
+        "did|she"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Did they send e-mail to him? / No, ______.",
+      "accept": [
+        "they|didn't",
+        "didn't|they"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Did the wolf bark loudly last night? / Yes, ______.",
+      "accept": [
+        "it|did",
+        "did|it"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "Who did Diana visit last Saturday? / She ______ her uncle.",
+      "accept": [
+        "visited"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "visited"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Where did he study yesterday? / He ______ in the library.",
+      "accept": [
+        "studied"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "When did you arrive in Seoul? / I ______ at noon.",
+      "accept": [
+        "arrived"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "What did Ms. James drop this morning? / She ______ her favorite mug.",
+      "accept": [
+        "dropped"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "When did she meet Robert? / She ______ him this morning.",
+      "accept": [
+        "met"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "How did they go to the museum? / They ______ there by subway.",
+      "accept": [
+        "went"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "What did you make last week? / I ______ a robot.",
+      "accept": [
+        "made"
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "When did she read the magazine? / She ______ it yesterday.",
+      "accept": [
+        "read"
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 | 로 구분해 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "What did Chris buy at the store? / He ______ some cucumbers there.",
+      "accept": [
+        "bought"
+      ]
+    }
+  ]
+}

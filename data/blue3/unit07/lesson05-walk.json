@@ -1,0 +1,241 @@
+{
+  "practiceId": "b3:u07:lesson05-walk",
+  "title": "Grammar Walk — Lesson 05",
+  "subtitle": "Did 의문문 (p. 182)",
+  "pages": "182",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 과거 시제 - 일반동사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 4문항(Did/동사원형), Section B 5문항(대답 연결).",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "의문문으로 바꾸세요.",
+      "ruleKo": "빈칸 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 응답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "대답을 연결하세요.",
+      "ruleKo": "a~e 중 하나.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Tommy made a robot yesterday.\n→ ______ Tommy make a robot yesterday?",
+      "accept": [
+        "Did"
+      ],
+      "promptKo": "토미는 어제 로봇을 만들었다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Did"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You dried your cat in the bathroom.\n→ ______ you dry your cat in the bathroom?",
+      "accept": [
+        "Did"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "They played tennis after school.\n→ Did they ______ tennis after school?",
+      "accept": [
+        "play"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "He drank a glass of milk.\n→ Did he ______ a glass of milk?",
+      "accept": [
+        "drink"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 의문문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "She danced well yesterday.\n→ ______ she ______ well yesterday?",
+      "accept": [
+        "Did|dance"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 응답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Did I call you last night?",
+      "choices": [
+        "a. No, I didn't.",
+        "b. Yes, he did.",
+        "c. Yes, you did.",
+        "d. No, she didn't.",
+        "e. Yes, they did."
+      ],
+      "accept": [
+        "c. Yes, you did.",
+        "c"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "c. Yes, you did."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 응답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Did you get up late?",
+      "choices": [
+        "a. No, I didn't.",
+        "b. Yes, he did.",
+        "c. Yes, you did.",
+        "d. No, she didn't.",
+        "e. Yes, they did."
+      ],
+      "accept": [
+        "a. No, I didn't.",
+        "a"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 응답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Did she buy an umbrella?",
+      "choices": [
+        "a. No, I didn't.",
+        "b. Yes, he did.",
+        "c. Yes, you did.",
+        "d. No, she didn't.",
+        "e. Yes, they did."
+      ],
+      "accept": [
+        "d. No, she didn't.",
+        "d"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 응답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Did they go to school by bus?",
+      "choices": [
+        "a. No, I didn't.",
+        "b. Yes, he did.",
+        "c. Yes, you did.",
+        "d. No, she didn't.",
+        "e. Yes, they did."
+      ],
+      "accept": [
+        "e. Yes, they did.",
+        "e"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 응답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Did your brother play with the toy?",
+      "choices": [
+        "a. No, I didn't.",
+        "b. Yes, he did.",
+        "c. Yes, you did.",
+        "d. No, she didn't.",
+        "e. Yes, they did."
+      ],
+      "accept": [
+        "b. Yes, he did.",
+        "b"
+      ]
+    }
+  ]
+}
