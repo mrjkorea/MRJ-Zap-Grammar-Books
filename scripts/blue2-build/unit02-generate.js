@@ -1022,7 +1022,12 @@ function sectionPair(secA, secB, countA, countB) {
     "A: Do they play badminton? B: No, they don't.",
     "A: Does Fred like fish? B: Yes, he does.",
   ];
-  items.push(mcItem("q10", "10", "10", "", c10, mcAcc(c10, 1), { sectionInstructionKo: s10 }));
+  items.push(
+    mcItem("q10", "10", "10", "", c10, mcAcc(c10, 1), {
+      sectionInstructionKo: s10,
+      promptKo: "다음 중 짝지어진 대화가 어색한 것을 고르세요.",
+    })
+  );
 
   const s1112 = "[11–12] 다음 의문문에 대한 대답으로 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.";
   items.push(
