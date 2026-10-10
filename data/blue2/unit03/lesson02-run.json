@@ -1,0 +1,606 @@
+{
+  "practiceId": "b2:u03:lesson02-run",
+  "title": "Grammar Run — Lesson 02",
+  "subtitle": "형용사 찾기·어순 (pp. 76–77)",
+  "pages": "76–77",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 형용사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 15문항(동그라미 친 말), Section B 15문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 안내에 따라 고르기·빈칸·문장 전체를 구분하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "꾸며 주거나 설명하는 말을 동그라미 하세요.",
+      "ruleKo": "동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Her room is <u>clean</u>.",
+      "accept": [
+        "Her room",
+        "room"
+      ],
+      "promptKo": "그녀의 방은 깨끗하다."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "They are <u>quiet</u> children.",
+      "accept": [
+        "children"
+      ],
+      "promptKo": "그들은 조용한 아이들이다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The pilot is <u>tall</u>.",
+      "accept": [
+        "The pilot",
+        "pilot"
+      ],
+      "promptKo": "그 조종사는 키가 크다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Ms. Gold is <u>rich</u>.",
+      "accept": [
+        "Ms. Gold"
+      ],
+      "promptKo": "골드 양은 부유하다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The boy is <u>lazy</u>.",
+      "accept": [
+        "The boy",
+        "boy"
+      ],
+      "promptKo": "그 남자아이는 게으르다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "I like a <u>light</u> jacket.",
+      "accept": [
+        "jacket"
+      ],
+      "promptKo": "나는 가벼운 재킷을 좋아한다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Their garden is <u>large</u>.",
+      "accept": [
+        "Their garden",
+        "garden"
+      ],
+      "promptKo": "그들의 정원은 넓다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Jennifer has <u>beautiful</u> eyes.",
+      "accept": [
+        "eyes"
+      ],
+      "promptKo": "제니퍼는 아름다운 눈을 가지고 있다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The knife is <u>sharp</u>.",
+      "accept": [
+        "The knife",
+        "knife"
+      ],
+      "promptKo": "그 칼은 날카롭다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "I want that <u>cheap</u> computer.",
+      "accept": [
+        "computer"
+      ],
+      "promptKo": "나는 저 값싼 컴퓨터를 원한다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Their classroom is <u>bright</u>.",
+      "accept": [
+        "Their classroom",
+        "classroom"
+      ],
+      "promptKo": "그들의 교실은 밝다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Do you like <u>rainy</u> days?",
+      "accept": [
+        "days"
+      ],
+      "promptKo": "너는 비 오는 날을 좋아하니?"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Joan is <u>hungry</u>.",
+      "accept": [
+        "Joan"
+      ],
+      "promptKo": "조안은 배가 고프다."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Look at the <u>fat</u> bear.",
+      "accept": [
+        "bear"
+      ],
+      "promptKo": "그 뚱뚱한 곰을 보아라."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분이 꾸며 주거나 설명해 주는 말을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "These grapes are <u>sweet</u>.",
+      "accept": [
+        "grapes",
+        "These grapes"
+      ],
+      "promptKo": "이 포도들은 달다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Sue is ( a girl polite / a polite girl ).",
+      "choices": [
+        "a girl polite",
+        "a polite girl"
+      ],
+      "accept": [
+        "a polite girl",
+        "2"
+      ],
+      "promptKo": "수는 예의 바른 여자아이다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Those airplanes ( fast are / are fast ).",
+      "choices": [
+        "fast are",
+        "are fast"
+      ],
+      "accept": [
+        "are fast",
+        "2"
+      ],
+      "promptKo": "저 비행기들은 빠르다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "The man is ( kind a dentist / a kind dentist ).",
+      "choices": [
+        "kind a dentist",
+        "a kind dentist"
+      ],
+      "accept": [
+        "a kind dentist",
+        "2"
+      ],
+      "promptKo": "그 남자는 친절한 치과의사이다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Their teeth ( are sharp / sharp are ).",
+      "choices": [
+        "are sharp",
+        "sharp are"
+      ],
+      "accept": [
+        "are sharp",
+        "1"
+      ],
+      "promptKo": "그들의 이는 날카롭다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Give me ( that blue / blue that ) notebook.",
+      "choices": [
+        "that blue",
+        "blue that"
+      ],
+      "accept": [
+        "that blue",
+        "1"
+      ],
+      "promptKo": "저 파란 공책을 내게 주어라."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "The sun ( is bright / bright is ).",
+      "choices": [
+        "is bright",
+        "bright is"
+      ],
+      "accept": [
+        "is bright",
+        "1"
+      ],
+      "promptKo": "태양은 밝다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "This is ( new your / your new ) room.",
+      "choices": [
+        "new your",
+        "your new"
+      ],
+      "accept": [
+        "your new",
+        "2"
+      ],
+      "promptKo": "이것은 네 새 방이다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Do you know ( the tall / tall the ) man?",
+      "choices": [
+        "the tall",
+        "tall the"
+      ],
+      "accept": [
+        "the tall",
+        "1"
+      ],
+      "promptKo": "저 키가 큰 남자를 알고 있니?"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "The table ( dirty is / is dirty ).",
+      "choices": [
+        "dirty is",
+        "is dirty"
+      ],
+      "accept": [
+        "is dirty",
+        "2"
+      ],
+      "promptKo": "그 탁자는 더럽다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "They are ( my old / old my ) classmates.",
+      "choices": [
+        "my old",
+        "old my"
+      ],
+      "accept": [
+        "my old",
+        "1"
+      ],
+      "promptKo": "그들은 내 오랜 급우들이다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Tony likes ( pretty that / that pretty ) girl.",
+      "choices": [
+        "pretty that",
+        "that pretty"
+      ],
+      "accept": [
+        "that pretty",
+        "2"
+      ],
+      "promptKo": "토니는 저 예쁜 여자아이를 좋아한다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "The closet ( is empty / empty is ).",
+      "choices": [
+        "is empty",
+        "empty is"
+      ],
+      "accept": [
+        "is empty",
+        "1"
+      ],
+      "promptKo": "그 벽장은 비어 있다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "This is ( an easy question / easy a question ).",
+      "choices": [
+        "an easy question",
+        "easy a question"
+      ],
+      "accept": [
+        "an easy question",
+        "1"
+      ],
+      "promptKo": "이것은 쉬운 문제이다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "The painting ( is beautiful / beautiful is ).",
+      "choices": [
+        "is beautiful",
+        "beautiful is"
+      ],
+      "accept": [
+        "is beautiful",
+        "1"
+      ],
+      "promptKo": "그 그림은 아름답다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "( That grey dog / Grey that dog ) barks every night.",
+      "choices": [
+        "That grey dog",
+        "Grey that dog"
+      ],
+      "accept": [
+        "That grey dog",
+        "1"
+      ],
+      "promptKo": "저 회색 개는 매일 밤 짖는다."
+    }
+  ]
+}
