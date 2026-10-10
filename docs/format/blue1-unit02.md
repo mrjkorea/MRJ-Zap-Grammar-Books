@@ -47,6 +47,10 @@ Unit 02 uses the **Walk → Run → Jump → Fly** ladder per lesson (unlike Uni
 | Grammar Fly | 26–28 |
 | Review 02 | 30 |
 
+## Walk Section B / Walk2 Section A (sg/pl tables)
+
+When the direction says to find singular and plural forms and write them **in order** (순서대로), each **row** is **not** a semantic singular–plural pair. Fill the **단수형** column with singulars from the word bank in bank order, and the **복수형** column with plurals in bank order (example row 1 may show unrelated words, e.g. girl / dogs or ox / teeth).
+
 ## Graded item total
 
-**222** items across 11 practices (smoke: `node scripts/smoke-blue1-unit02.js`).
+**221** items across 11 practices (smoke: `node scripts/smoke-blue1-unit02.js`).

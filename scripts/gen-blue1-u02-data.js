@@ -405,8 +405,7 @@ function lesson01Fly() {
   );
   const dirA = "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.";
   const ruleA = "밑줄 친 부분을 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)";
-  const sA = sec("A", "Section A", dirA, ruleA, "words", "Words · 빈칸 말만", 14, 0, [
-    "A1",
+  const sA = sec("A", "Section A", dirA, ruleA, "words", "Words · 빈칸 말만", 14, 1, [
     "A2",
     "A3",
     "A4",
@@ -422,8 +421,6 @@ function lesson01Fly() {
     "A14",
     "A15",
   ]);
-  sA.itemCount = 15;
-  sA.exampleCount = 0;
   const dirB = "주어진 말을 사용하여 다음 문장을 완성하세요.";
   const ruleB = "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.";
   const sB = sec("B", "Section B", dirB, ruleB, "words", "Words · 빈칸 말만", 14, 1, [
@@ -477,7 +474,15 @@ function lesson01Fly() {
     ["They need ten ______. (glass)", "glasses"],
   ];
   p.items = [
-    ...flyA.map((row, i) => fillItem(`a${String(i + 1).padStart(2, "0")}`, "A", sA, `A${i + 1}`, row[0], [row[1]])),
+    fillItem("a01", "A", sA, "A1", flyA[0][0], [flyA[0][1]], {
+      example: true,
+      displayOnly: true,
+      exampleAnswer: flyA[0][1],
+      promptKo: "밑줄 친 부분을 바르게 고치세요.",
+    }),
+    ...flyA.slice(1).map((row, i) =>
+      fillItem(`a${String(i + 2).padStart(2, "0")}`, "A", sA, `A${i + 2}`, row[0], [row[1]])
+    ),
     fillItem("b01", "B", sB, "B1", "We have two ______. (cat)", ["cats"], {
       example: true,
       displayOnly: true,
@@ -564,9 +569,9 @@ function lesson02Walk2() {
       exampleAnswer: "ox / teeth",
       blanks: 2,
     }),
-    fillItem("a02", "A", sA, "A2", "단수형 2 / 복수형 2", ["woman|oxen"], { blanks: 2 }),
-    fillItem("a03", "A", sA, "A3", "단수형 3 / 복수형 3", ["goose|geese"], { blanks: 2 }),
-    fillItem("a04", "A", sA, "A4", "단수형 4 / 복수형 4", ["tooth|women"], { blanks: 2 }),
+    fillItem("a02", "A", sA, "A2", "단수형 2 / 복수형 2", ["goose|women"], { blanks: 2, promptKo: "거위 / (성인) 여자들" }),
+    fillItem("a03", "A", sA, "A3", "단수형 3 / 복수형 3", ["tooth|oxen"], { blanks: 2, promptKo: "이, 치아 / 황소들" }),
+    fillItem("a04", "A", sA, "A4", "단수형 4 / 복수형 4", ["woman|geese"], { blanks: 2, promptKo: "(성인) 여자 / 거위들" }),
     mcItem("b01", "B", sB, "B1", "deer", ["a. feet", "b. deer", "c. sheep", "d. children", "e. men"], ["b. deer", "b"], {
       example: true,
       displayOnly: true,
@@ -884,7 +889,7 @@ function review02() {
       "foot – feets",
       "fish – fish",
     ], ["foot – feets", "3"]),
-    ch("6-8", "6", "q06", "I need two <u>tomatos</u>.", ["tomato", "tomatoes", "tomatoen", "tomatoses"], ["tomatoes", "2"]),
+    ch("6-8", "6", "q06", "I need two <u>tomatos</u>.", ["tomato", "tomatoes", "tomatoen", "tomatozes"], ["tomatoes", "2"]),
     ch("6-8", "7", "q07", "We have five <u>puppy</u>.", ["puppys", "puppyes", "puppies", "puppyees"], ["puppies", "3"]),
     ch("6-8", "8", "q08", "They have ten <u>gooses</u>.", ["goose", "goosen", "geeses", "geese"], ["geese", "4"]),
     mcItem("q09", "9-10", p.sections[4], "9", "They have two ( childs / children ).", ["childs", "children"], ["children"]),
