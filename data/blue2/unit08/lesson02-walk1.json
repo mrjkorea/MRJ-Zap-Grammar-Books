@@ -1,0 +1,315 @@
+{
+  "practiceId": "b2:u08:lesson02-walk1",
+  "title": "Lesson 02 Walk 1 — 전치사",
+  "subtitle": "시간을 나타내는 전치사 (p. 203)",
+  "pages": "203",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 전치사",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 예시 1개씩은 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 「전치사+명사」의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 「전치사+명사」의 알맞은 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~g)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 6,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "l02w1_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "My birthday is <u>in</u> July.",
+      "accept": [
+        "in"
+      ],
+      "promptKo": "내 생일은 7월이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "in"
+    },
+    {
+      "id": "l02w1_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Tony comes home <u>at</u> five p.m.",
+      "accept": [
+        "at"
+      ],
+      "promptKo": "토니는 오후 5시에 집에 온다."
+    },
+    {
+      "id": "l02w1_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "I have a violin lesson <u>on</u> Friday.",
+      "accept": [
+        "on"
+      ],
+      "promptKo": "나는 금요일에 바이올린 수업이 있다."
+    },
+    {
+      "id": "l02w1_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "We often play badminton <u>after</u> school.",
+      "accept": [
+        "after"
+      ],
+      "promptKo": "우리는 방과 후에 자주 배드민턴을 한다."
+    },
+    {
+      "id": "l02w1_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They go shopping <u>before</u> dinner.",
+      "accept": [
+        "before"
+      ],
+      "promptKo": "그들은 저녁 식사 전에 쇼핑을 한다."
+    },
+    {
+      "id": "l02w1_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "in December",
+      "promptKo": "12월에",
+      "choices": [
+        "a.",
+        "b.",
+        "c.",
+        "d.",
+        "e.",
+        "f.",
+        "g."
+      ],
+      "accept": [
+        "f"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "f."
+    },
+    {
+      "id": "l02w1_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "at noon",
+      "promptKo": "정오에",
+      "choices": [
+        "a. 수업 전에",
+        "b. 4월 20일에",
+        "c. 자정에",
+        "d. 저녁에",
+        "e. 정오에",
+        "f. 12월에",
+        "g. 아침 식사 후에"
+      ],
+      "accept": [
+        "e. 정오에",
+        "e",
+        "정오에"
+      ]
+    },
+    {
+      "id": "l02w1_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "after breakfast",
+      "promptKo": "아침 식사 후에",
+      "choices": [
+        "a. 수업 전에",
+        "b. 4월 20일에",
+        "c. 자정에",
+        "d. 저녁에",
+        "e. 정오에",
+        "f. 12월에",
+        "g. 아침 식사 후에"
+      ],
+      "accept": [
+        "g. 아침 식사 후에",
+        "g",
+        "아침 식사 후에"
+      ]
+    },
+    {
+      "id": "l02w1_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "before class",
+      "promptKo": "수업 전에",
+      "choices": [
+        "a. 수업 전에",
+        "b. 4월 20일에",
+        "c. 자정에",
+        "d. 저녁에",
+        "e. 정오에",
+        "f. 12월에",
+        "g. 아침 식사 후에"
+      ],
+      "accept": [
+        "a. 수업 전에",
+        "a",
+        "수업 전에"
+      ]
+    },
+    {
+      "id": "l02w1_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "on the 20th of April",
+      "promptKo": "4월 20일에",
+      "choices": [
+        "a. 수업 전에",
+        "b. 4월 20일에",
+        "c. 자정에",
+        "d. 저녁에",
+        "e. 정오에",
+        "f. 12월에",
+        "g. 아침 식사 후에"
+      ],
+      "accept": [
+        "b. 4월 20일에",
+        "b",
+        "4월 20일에"
+      ]
+    },
+    {
+      "id": "l02w1_b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "at midnight",
+      "promptKo": "자정에",
+      "choices": [
+        "a. 수업 전에",
+        "b. 4월 20일에",
+        "c. 자정에",
+        "d. 저녁에",
+        "e. 정오에",
+        "f. 12월에",
+        "g. 아침 식사 후에"
+      ],
+      "accept": [
+        "c. 자정에",
+        "c",
+        "자정에"
+      ]
+    },
+    {
+      "id": "l02w1_b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 알맞은 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "in the evening",
+      "promptKo": "저녁에",
+      "choices": [
+        "a. 수업 전에",
+        "b. 4월 20일에",
+        "c. 자정에",
+        "d. 저녁에",
+        "e. 정오에",
+        "f. 12월에",
+        "g. 아침 식사 후에"
+      ],
+      "accept": [
+        "d. 저녁에",
+        "d",
+        "저녁에"
+      ]
+    }
+  ]
+}

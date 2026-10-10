@@ -1,0 +1,347 @@
+{
+  "practiceId": "b2:u08:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 전치사",
+  "subtitle": "방향을 나타내는 전치사 (p. 195)",
+  "pages": "195",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 전치사",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 모두 예시 1개씩은 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 방향을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 방향을 나타내는 전치사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 「전치사+명사」의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 「전치사+명사」의 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~g)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 6,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "l01w2_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 방향을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I go <u>to</u> London now.",
+      "accept": [
+        "to"
+      ],
+      "promptKo": "나는 지금 런던에 간다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "to"
+    },
+    {
+      "id": "l01w2_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 방향을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "People throw coins <u>into</u> the pond.",
+      "accept": [
+        "into"
+      ],
+      "promptKo": "사람들이 연못 안으로 동전을 던진다."
+    },
+    {
+      "id": "l01w2_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 방향을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "They always run <u>up</u> the stairs.",
+      "accept": [
+        "up"
+      ],
+      "promptKo": "그들은 항상 계단을 올라간다."
+    },
+    {
+      "id": "l01w2_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 방향을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Amanda is walking <u>across</u> the street.",
+      "accept": [
+        "across"
+      ],
+      "promptKo": "아만다는 거리를 건너 걷고 있다."
+    },
+    {
+      "id": "l01w2_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 방향을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Mike runs <u>along</u> the river.",
+      "accept": [
+        "along"
+      ],
+      "promptKo": "마이크는 강을 따라 달린다."
+    },
+    {
+      "id": "l01w2_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 방향을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "We are going <u>down</u> the hill.",
+      "accept": [
+        "down"
+      ],
+      "promptKo": "우리는 언덕을 내려가고 있다."
+    },
+    {
+      "id": "l01w2_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 방향을 나타내는 전치사를 찾아 동그라미 하세요. 동그라미 친 전치사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "A boy is coming <u>out of</u> the supermarket.",
+      "accept": [
+        "out of"
+      ],
+      "promptKo": "남자아이 한 명이 슈퍼마켓 밖으로 나오고 있다."
+    },
+    {
+      "id": "l01w2_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "to Hong Kong",
+      "promptKo": "홍콩으로",
+      "choices": [
+        "a.",
+        "b.",
+        "c.",
+        "d.",
+        "e.",
+        "f.",
+        "g."
+      ],
+      "accept": [
+        "d"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "d."
+    },
+    {
+      "id": "l01w2_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "out of the house",
+      "promptKo": "집 밖으로",
+      "choices": [
+        "a. 언덕 위로",
+        "b. 도로를 따라",
+        "c. 거리를 건너",
+        "d. 홍콩으로",
+        "e. 집 밖으로",
+        "f. 침실 안으로",
+        "g. 계단 아래로"
+      ],
+      "accept": [
+        "e. 집 밖으로",
+        "e",
+        "집 밖으로"
+      ]
+    },
+    {
+      "id": "l01w2_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "down the stairs",
+      "promptKo": "계단 아래로",
+      "choices": [
+        "a. 언덕 위로",
+        "b. 도로를 따라",
+        "c. 거리를 건너",
+        "d. 홍콩으로",
+        "e. 집 밖으로",
+        "f. 침실 안으로",
+        "g. 계단 아래로"
+      ],
+      "accept": [
+        "g. 계단 아래로",
+        "g",
+        "계단 아래로"
+      ]
+    },
+    {
+      "id": "l01w2_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "into the bedroom",
+      "promptKo": "침실 안으로",
+      "choices": [
+        "a. 언덕 위로",
+        "b. 도로를 따라",
+        "c. 거리를 건너",
+        "d. 홍콩으로",
+        "e. 집 밖으로",
+        "f. 침실 안으로",
+        "g. 계단 아래로"
+      ],
+      "accept": [
+        "f. 침실 안으로",
+        "f",
+        "침실 안으로"
+      ]
+    },
+    {
+      "id": "l01w2_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "along the road",
+      "promptKo": "도로를 따라",
+      "choices": [
+        "a. 언덕 위로",
+        "b. 도로를 따라",
+        "c. 거리를 건너",
+        "d. 홍콩으로",
+        "e. 집 밖으로",
+        "f. 침실 안으로",
+        "g. 계단 아래로"
+      ],
+      "accept": [
+        "b. 도로를 따라",
+        "b",
+        "도로를 따라"
+      ]
+    },
+    {
+      "id": "l01w2_b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "up the hill",
+      "promptKo": "언덕 위로",
+      "choices": [
+        "a. 언덕 위로",
+        "b. 도로를 따라",
+        "c. 거리를 건너",
+        "d. 홍콩으로",
+        "e. 집 밖으로",
+        "f. 침실 안으로",
+        "g. 계단 아래로"
+      ],
+      "accept": [
+        "a. 언덕 위로",
+        "a",
+        "언덕 위로"
+      ]
+    },
+    {
+      "id": "l01w2_b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 「전치사+명사」의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~g)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "across the street",
+      "promptKo": "거리를 건너",
+      "choices": [
+        "a. 언덕 위로",
+        "b. 도로를 따라",
+        "c. 거리를 건너",
+        "d. 홍콩으로",
+        "e. 집 밖으로",
+        "f. 침실 안으로",
+        "g. 계단 아래로"
+      ],
+      "accept": [
+        "c. 거리를 건너",
+        "c",
+        "거리를 건너"
+      ]
+    }
+  ]
+}
