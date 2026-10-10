@@ -7,7 +7,7 @@
     { id: "zap-red-2", title: "ZAP Red 2", enabled: false },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: false },
-    { id: "zap-blue-3", title: "ZAP Blue 3", enabled: false },
+    { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
     { id: "zap-blue-4", title: "ZAP Blue 4", enabled: false },
     { id: "zap-green-1", title: "ZAP Green 1", enabled: true, appName: "GreenZap 1", bookTitle: "ZAP Green 1" },
     { id: "zap-green-2", title: "ZAP Green 2", enabled: true, appName: "GreenZap 2", bookTitle: "ZAP Green 2" },
@@ -52,6 +52,9 @@
     "zap-blue-1": [
       { id: "unit-01", title: "Unit 01 — 문장의 구성", enabled: true },
     ],
+    "zap-blue-3": [
+      { id: "unit-06", title: "Unit 06 — 과거 시제 - be동사", enabled: true },
+    ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
       { id: "unit-02", title: "Unit 02 — 형용사와 부사", enabled: true },
@@ -66,6 +69,85 @@
   };
 
   var EXERCISES = {
+    "zap-blue-3:unit-06": [
+      {
+        slug: "lesson01-walk1",
+        title: "Lesson 01 Walk 1 — be동사 과거형",
+        hint: "긍정문 · p. 141",
+        data: "data/blue3/unit06/lesson01-walk1.json",
+        practiceId: "b3:u06:lesson01-walk1",
+      },
+      {
+        slug: "lesson01-walk2",
+        title: "Lesson 01 Walk 2 — be동사 과거형",
+        hint: "부정문 · p. 143",
+        data: "data/blue3/unit06/lesson01-walk2.json",
+        practiceId: "b3:u06:lesson01-walk2",
+      },
+      {
+        slug: "lesson01-run",
+        title: "Lesson 01 Run — be동사 과거형",
+        hint: "pp. 144–145",
+        data: "data/blue3/unit06/lesson01-run.json",
+        practiceId: "b3:u06:lesson01-run",
+      },
+      {
+        slug: "lesson01-jump",
+        title: "Lesson 01 Jump — be동사 과거형",
+        hint: "pp. 146–147",
+        data: "data/blue3/unit06/lesson01-jump.json",
+        practiceId: "b3:u06:lesson01-jump",
+      },
+      {
+        slug: "lesson01-fly",
+        title: "Lesson 01 Fly — be동사 과거형",
+        hint: "pp. 148–149",
+        data: "data/blue3/unit06/lesson01-fly.json",
+        practiceId: "b3:u06:lesson01-fly",
+      },
+      {
+        slug: "lesson02-walk1",
+        title: "Lesson 02 Walk 1 — be동사 과거형",
+        hint: "의문사 없는 의문문 · p. 151",
+        data: "data/blue3/unit06/lesson02-walk1.json",
+        practiceId: "b3:u06:lesson02-walk1",
+      },
+      {
+        slug: "lesson02-walk2",
+        title: "Lesson 02 Walk 2 — be동사 과거형",
+        hint: "의문사 있는 의문문 · p. 153",
+        data: "data/blue3/unit06/lesson02-walk2.json",
+        practiceId: "b3:u06:lesson02-walk2",
+      },
+      {
+        slug: "lesson02-run",
+        title: "Lesson 02 Run — be동사 과거형",
+        hint: "pp. 154–155",
+        data: "data/blue3/unit06/lesson02-run.json",
+        practiceId: "b3:u06:lesson02-run",
+      },
+      {
+        slug: "lesson02-jump",
+        title: "Lesson 02 Jump — be동사 과거형",
+        hint: "pp. 156–157",
+        data: "data/blue3/unit06/lesson02-jump.json",
+        practiceId: "b3:u06:lesson02-jump",
+      },
+      {
+        slug: "lesson02-fly",
+        title: "Lesson 02 Fly — be동사 과거형",
+        hint: "pp. 158–159",
+        data: "data/blue3/unit06/lesson02-fly.json",
+        practiceId: "b3:u06:lesson02-fly",
+      },
+      {
+        slug: "review06",
+        title: "Review 06",
+        hint: "pp. 160–162",
+        data: "data/blue3/unit06/review-06.json",
+        practiceId: "b3:u06:review06",
+      },
+    ],
     "zap-blue-1:unit-01": [
       {
         slug: "lesson01-walk1",

@@ -68,3 +68,7 @@ Same pipeline as Green: `program=greenzap`, `source=greenzap`, `app_name` = book
 ## Excluded from repo
 
 Page images, OCR text, and answer keys are **not** committed (public repo).
+
+## Blue 3+ units (Walk / Run / Jump / Fly)
+
+Later Blue books (e.g. **Blue 3 Unit 06**) use a **Green-like** two-lesson sequence per unit: Walk → Run → Jump → Fly, then Review. See per-unit maps under `docs/format/` (e.g. `docs/format/blue3-unit06.md`).
