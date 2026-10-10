@@ -1,0 +1,580 @@
+{
+  "practiceId": "b2:u05:lesson02-jump",
+  "title": "Lesson 02 Jump — a few / few / a little / little",
+  "subtitle": "Grammar Jump (pp. 130–131)",
+  "pages": "130–131",
+  "timerMinutes": 23,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 수량을 나타내는 말",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B·C — 보기·우리말·양사 선택.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "directionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 말의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "directionKo": "다음 말의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요.",
+      "directionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "j2a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "만화책 몇 권 → ______ ______ comic books",
+      "blanks": 2,
+      "accept": [
+        "a|few"
+      ],
+      "promptKo": "",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a few"
+    },
+    {
+      "id": "j2a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "밀가루 조금 → ______ ______ flour",
+      "blanks": 2,
+      "accept": [
+        "a|little"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "쿠션 몇 개 → ______ ______ cushions",
+      "blanks": 2,
+      "accept": [
+        "a|few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "돈 조금 → ______ ______ money",
+      "blanks": 2,
+      "accept": [
+        "a|little"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "동전이 거의 없는 → ______ coins",
+      "blanks": 1,
+      "accept": [
+        "few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "물이 거의 없는 → ______ water",
+      "blanks": 1,
+      "accept": [
+        "little"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "외국인이 거의 없는 → ______ foreigners",
+      "blanks": 1,
+      "accept": [
+        "few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "a few windows",
+      "blanks": 1,
+      "accept": [
+        "창문 몇 개"
+      ],
+      "promptKo": "창문 몇 개",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "창문 몇 개"
+    },
+    {
+      "id": "j2b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "a little rice",
+      "blanks": 1,
+      "accept": [
+        "밥 조금",
+        "쌀 조금"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "a few children",
+      "blanks": 1,
+      "accept": [
+        "아이 몇 명",
+        "아이들 몇 명"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "a little hope",
+      "blanks": 1,
+      "accept": [
+        "희망 조금"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "a few magazines",
+      "blanks": 1,
+      "accept": [
+        "잡지 몇 권",
+        "잡지 몇 개"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "few classes",
+      "blanks": 1,
+      "accept": [
+        "수업이 거의 없다",
+        "수업 거의 없음",
+        "수업이 거의 없음",
+        "수업 거의 없다"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "little sugar",
+      "blanks": 1,
+      "accept": [
+        "설탕이 거의 없다",
+        "설탕 거의 없음",
+        "설탕이 거의 없음",
+        "설탕 거의 없다"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c15",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "I have ______ ______ pencils.",
+      "blanks": 2,
+      "accept": [
+        "a|few",
+        "a|few"
+      ],
+      "promptKo": "",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a few"
+    },
+    {
+      "id": "j2c16",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "The man needs ______ ______ sand.",
+      "blanks": 2,
+      "accept": [
+        "a|little",
+        "a|little"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c17",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "The street has ______ ______ stores.",
+      "blanks": 1,
+      "accept": [
+        "few",
+        "few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c18",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "The firefighters have ______ ______ time.",
+      "blanks": 1,
+      "accept": [
+        "little",
+        "little"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c19",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "Paul drinks ______ ______ milk.",
+      "blanks": 1,
+      "accept": [
+        "little",
+        "little"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c20",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "I eat ______ ______ bananas every day.",
+      "blanks": 2,
+      "accept": [
+        "a|few",
+        "a|few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c21",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C7",
+      "type": "fill",
+      "promptEn": "We have ______ ______ dollars.",
+      "blanks": 2,
+      "accept": [
+        "a|few",
+        "a|few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c22",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C8",
+      "type": "fill",
+      "promptEn": "He asks ______ ______ questions.",
+      "blanks": 1,
+      "accept": [
+        "few",
+        "few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c23",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C9",
+      "type": "fill",
+      "promptEn": "______ ______ boys are in the computer room.",
+      "blanks": 2,
+      "accept": [
+        "A|few",
+        "A few|few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c24",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C10",
+      "type": "fill",
+      "promptEn": "She knows ______ ______ teachers.",
+      "blanks": 1,
+      "accept": [
+        "few",
+        "few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c25",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C11",
+      "type": "fill",
+      "promptEn": "The singer visits ______ ______ countries every year.",
+      "blanks": 2,
+      "accept": [
+        "a|few",
+        "a|few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c26",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C12",
+      "type": "fill",
+      "promptEn": "Tim eats ______ ______ pork.",
+      "blanks": 1,
+      "accept": [
+        "little",
+        "little"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c27",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C13",
+      "type": "fill",
+      "promptEn": "Mr. Park teaches ______ ______ subjects.",
+      "blanks": 2,
+      "accept": [
+        "a|few",
+        "a|few"
+      ],
+      "promptKo": ""
+    },
+    {
+      "id": "j2c28",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C14",
+      "type": "fill",
+      "promptEn": "______ ______ flower pots are on the table.",
+      "blanks": 2,
+      "accept": [
+        "A|few",
+        "a|few"
+      ],
+      "promptKo": "화분 몇 개가 탁자 위에 있다."
+    },
+    {
+      "id": "j2c29",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요. 빈칸마다 한 단어씩 쓰세요. (a few / few / a little / little)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C15",
+      "type": "fill",
+      "promptEn": "I put ______ ______ cheese on the bread.",
+      "blanks": 2,
+      "accept": [
+        "a|little",
+        "a|little"
+      ],
+      "promptKo": ""
+    }
+  ]
+}

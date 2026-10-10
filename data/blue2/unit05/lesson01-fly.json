@@ -1,0 +1,579 @@
+{
+  "practiceId": "b2:u05:lesson01-fly",
+  "title": "Lesson 01 Fly — many / much / a lot of",
+  "subtitle": "Grammar Fly (pp. 122–123)",
+  "pages": "122–123",
+  "timerMinutes": 25,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 수량을 나타내는 말",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 밑줄 부분만 고쳐 쓰기. Section B는 many/much + 괄호 단어로 빈칸을 채우세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "fa01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "My brother has <u>much</u> toys.",
+      "blanks": 2,
+      "accept": [
+        "lots|of"
+      ],
+      "promptKo": "내 남동생은 장난감이 많다.",
+      "unordered": false,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "lots of"
+    },
+    {
+      "id": "fa02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I don't need <u>many</u> money.",
+      "blanks": 1,
+      "accept": [
+        "much"
+      ],
+      "promptKo": "나는 많은 돈이 필요하지 않다.",
+      "unordered": false
+    },
+    {
+      "id": "fa03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Do you know <u>many song</u>?",
+      "blanks": 2,
+      "accept": [
+        "many|songs"
+      ],
+      "promptKo": "너는 노래를 많이 알고 있니?",
+      "unordered": false
+    },
+    {
+      "id": "fa04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "<u>A lots of</u> boys play baseball.",
+      "blanks": 3,
+      "accept": [
+        "a|lot|of",
+        "A|lot|of"
+      ],
+      "promptKo": "많은 남자아이들이 야구를 한다.",
+      "unordered": true
+    },
+    {
+      "id": "fa05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Does she eat <u>many</u> meat?",
+      "blanks": 1,
+      "accept": [
+        "much"
+      ],
+      "promptKo": "그녀는 고기를 많이 먹니?",
+      "unordered": false
+    },
+    {
+      "id": "fa06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "We use <u>lot of</u> flour.",
+      "blanks": 3,
+      "accept": [
+        "a|lot|of",
+        "A|lot|of"
+      ],
+      "promptKo": "우리는 밀가루를 많이 쓴다.",
+      "unordered": true
+    },
+    {
+      "id": "fa07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Do they send <u>many card</u> every Christmas?",
+      "blanks": 2,
+      "accept": [
+        "many|cards"
+      ],
+      "promptKo": "그들은 매년 크리스마스에 카드를 많이 보내니?",
+      "unordered": false
+    },
+    {
+      "id": "fa08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Yura doesn't read <u>much</u> books.",
+      "blanks": 2,
+      "accept": [
+        "many|books"
+      ],
+      "promptKo": "유라는 책을 많이 읽지 않는다.",
+      "unordered": false
+    },
+    {
+      "id": "fa09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "They don't drink <u>much coffees</u>.",
+      "blanks": 2,
+      "accept": [
+        "much|coffee"
+      ],
+      "promptKo": "그들은 커피를 많이 마시지 않는다.",
+      "unordered": false
+    },
+    {
+      "id": "fa10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Does he buy <u>many flower</u>?",
+      "blanks": 2,
+      "accept": [
+        "many|flowers"
+      ],
+      "promptKo": "그는 꽃을 많이 사니?",
+      "unordered": false
+    },
+    {
+      "id": "fa11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "I don't take <u>much</u> photos.",
+      "blanks": 2,
+      "accept": [
+        "many|photos"
+      ],
+      "promptKo": "나는 사진을 많이 찍지 않는다.",
+      "unordered": false
+    },
+    {
+      "id": "fa12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "John makes a lot of <u>robot</u>.",
+      "blanks": 1,
+      "accept": [
+        "robots"
+      ],
+      "promptKo": "존은 로봇을 많이 만든다.",
+      "unordered": false
+    },
+    {
+      "id": "fa13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "My father visits <u>a lot</u> cities every month.",
+      "blanks": 3,
+      "accept": [
+        "a|lot|of",
+        "A|lot|of"
+      ],
+      "promptKo": "우리 아버지는 매달 많은 도시를 방문한다.",
+      "unordered": true
+    },
+    {
+      "id": "fa14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Does Kate watch <u>much</u> cartoons?",
+      "blanks": 2,
+      "accept": [
+        "many|cartoons"
+      ],
+      "promptKo": "케이트는 만화를 많이 보니?",
+      "unordered": false
+    },
+    {
+      "id": "fa15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "He draws <u>of lot</u> pictures every year.",
+      "blanks": 3,
+      "accept": [
+        "a|lot|of",
+        "A|lot|of"
+      ],
+      "promptKo": "그는 매년 그림을 많이 그린다.",
+      "unordered": true
+    },
+    {
+      "id": "b16",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "A frog doesn't drink ______ ______. (water)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "much|water"
+      ],
+      "ex": true,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "much"
+    },
+    {
+      "id": "b17",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Do you read ______ ______? (storybook)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "many|storybooks"
+      ]
+    },
+    {
+      "id": "b18",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "We don't have ______ ______. (oil)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "much|oil"
+      ]
+    },
+    {
+      "id": "b19",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "The boy doesn't eat ______ ______. (vegetable)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "much|vegetables",
+        "many|vegetables"
+      ]
+    },
+    {
+      "id": "b20",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Do you need ______ ______ ______? (colored paper)",
+      "promptKo": "",
+      "blanks": 3,
+      "accept": [
+        "much|colored|paper"
+      ]
+    },
+    {
+      "id": "b21",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Johnny doesn't write ______ ______. (letter)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "many|letters"
+      ]
+    },
+    {
+      "id": "b22",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "Do ______ ______ love polar bears? (kid)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "many|kids"
+      ]
+    },
+    {
+      "id": "b23",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Do ______ ______ play soccer? (girl)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "many|girls"
+      ]
+    },
+    {
+      "id": "b24",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "They don't need ______ ______. (gold)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "much|gold"
+      ]
+    },
+    {
+      "id": "b25",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "Jackie doesn't take ______ ______. (photo)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "many|photos"
+      ]
+    },
+    {
+      "id": "b26",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "Do you make ______ ______? (soup)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "much|soup"
+      ]
+    },
+    {
+      "id": "b27",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "The store doesn't sell ______ ______. (cheese)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "much|cheese"
+      ]
+    },
+    {
+      "id": "b28",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "Mike doesn't visit ______ ______. (city)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "many|cities"
+      ]
+    },
+    {
+      "id": "b29",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "They don't buy ______ ______. (bread)",
+      "promptKo": "",
+      "blanks": 2,
+      "accept": [
+        "much|bread"
+      ]
+    },
+    {
+      "id": "b30",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "many 또는 much와 함께 주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸마다 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "Alice doesn't watch ______ ______ ______. (TV program)",
+      "promptKo": "",
+      "blanks": 3,
+      "accept": [
+        "many|TV|programs"
+      ]
+    }
+  ]
+}
