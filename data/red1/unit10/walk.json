@@ -1,0 +1,204 @@
+{
+  "practiceId": "r1:u10:walk",
+  "title": "Grammar Walk",
+  "subtitle": "부정문 · 의문문 따라쓰기 (p. 154–155)",
+  "pages": "154–155",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(한국어 뜻↔영어 문장 10쌍), B 2문항(대화 짝 맞추기 10쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "이것은 달걀이 아니다.",
+          "right": "This is not an egg."
+        },
+        {
+          "left": "저것은 새가 아니다.",
+          "right": "That is not a bird."
+        },
+        {
+          "left": "이것들은 호랑이가 아니다.",
+          "right": "These are not tigers."
+        },
+        {
+          "left": "저것들은 토끼가 아니다.",
+          "right": "Those are not rabbits."
+        },
+        {
+          "left": "이것은 지우개가 아니다.",
+          "right": "This isn't an eraser."
+        },
+        {
+          "left": "저것은 감자가 아니다.",
+          "right": "That isn't a potato."
+        },
+        {
+          "left": "이것들은 토마토가 아니다.",
+          "right": "These aren't tomatoes."
+        }
+      ],
+      "accept": [
+        "이것은 달걀이 아니다.|This is not an egg.",
+        "저것은 새가 아니다.|That is not a bird.",
+        "이것들은 호랑이가 아니다.|These are not tigers.",
+        "저것들은 토끼가 아니다.|Those are not rabbits.",
+        "이것은 지우개가 아니다.|This isn't an eraser.",
+        "저것은 감자가 아니다.|That isn't a potato.",
+        "이것들은 토마토가 아니다.|These aren't tomatoes."
+      ],
+      "promptKo": "부정문 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "저것들은 양파가 아니다.",
+          "right": "Those aren't onions."
+        },
+        {
+          "left": "이것은 내 코트가 아니다.",
+          "right": "This is not my coat."
+        },
+        {
+          "left": "저것들은 내 스웨터가 아니다.",
+          "right": "Those are not my sweaters."
+        }
+      ],
+      "accept": [
+        "저것들은 양파가 아니다.|Those aren't onions.",
+        "이것은 내 코트가 아니다.|This is not my coat.",
+        "저것들은 내 스웨터가 아니다.|Those are not my sweaters."
+      ],
+      "promptKo": "부정문 8–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Is this an orange?",
+          "right": "Yes, it is."
+        },
+        {
+          "left": "Is that an iguana?",
+          "right": "No, it isn't."
+        },
+        {
+          "left": "Are these kangaroos?",
+          "right": "Yes, they are."
+        },
+        {
+          "left": "Are those crayons?",
+          "right": "No, they aren't."
+        },
+        {
+          "left": "Is this your ink?",
+          "right": "No, it isn't."
+        },
+        {
+          "left": "Is that your scarf?",
+          "right": "Yes, it is."
+        },
+        {
+          "left": "Are these your shoes?",
+          "right": "No, they aren't."
+        }
+      ],
+      "accept": [
+        "Is this an orange?|Yes, it is.",
+        "Is that an iguana?|No, it isn't.",
+        "Are these kangaroos?|Yes, they are.",
+        "Are those crayons?|No, they aren't.",
+        "Is this your ink?|No, it isn't.",
+        "Is that your scarf?|Yes, it is.",
+        "Are these your shoes?|No, they aren't."
+      ],
+      "promptKo": "대화 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Are those your socks?",
+          "right": "Yes, they are."
+        },
+        {
+          "left": "Is that your skirt?",
+          "right": "No, it isn't."
+        },
+        {
+          "left": "Are those your pants?",
+          "right": "No, they aren't."
+        }
+      ],
+      "accept": [
+        "Are those your socks?|Yes, they are.",
+        "Is that your skirt?|No, it isn't.",
+        "Are those your pants?|No, they aren't."
+      ],
+      "promptKo": "대화 8–10"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-10",
+  "unitTitle": "Unit 10 — be동사의 부정문과 의문문 (2)",
+  "sectionsVersion": 2
+}
