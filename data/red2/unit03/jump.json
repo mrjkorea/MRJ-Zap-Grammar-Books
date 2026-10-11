@@ -1,0 +1,419 @@
+{
+  "practiceId": "r2:u03:jump",
+  "title": "Grammar Jump",
+  "subtitle": "형용사 고르기 · 순서 (p. 48–49)",
+  "pages": "48–49",
+  "timerMinutes": 15,
+  "introKo": "Section A·B 각 9문항(고르기, 예시 1개)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "It is ( hot / cold ).",
+      "choices": [
+        "hot",
+        "cold"
+      ],
+      "accept": [
+        "2"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "cold",
+      "promptKo": "날씨가 춥다."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "The rope is ( long / short ).",
+      "choices": [
+        "long",
+        "short"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "The ship is ( big / small ).",
+      "choices": [
+        "big",
+        "small"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Jack is ( weak / strong ).",
+      "choices": [
+        "weak",
+        "strong"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Turtles are ( fast / slow ).",
+      "choices": [
+        "fast",
+        "slow"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "My socks are ( blue / yellow ).",
+      "choices": [
+        "blue",
+        "yellow"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "His parents are ( tall / short ).",
+      "choices": [
+        "tall",
+        "short"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "I have a ( white / black ) cat.",
+      "choices": [
+        "white",
+        "black"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Tiffany loves her ( old / new ) jeans.",
+      "choices": [
+        "old",
+        "new"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "The doctor likes ( hot / windy ) weather.",
+      "choices": [
+        "hot",
+        "windy"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "She is ( a happy girl / happy a girl ).",
+      "choices": [
+        "a happy girl",
+        "happy a girl"
+      ],
+      "accept": [
+        "1"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a happy girl"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "It has ( a long neck / long a neck ).",
+      "choices": [
+        "a long neck",
+        "long a neck"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Look at ( old the house / the old house ).",
+      "choices": [
+        "old the house",
+        "the old house"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "We want ( that blue ball / blue that ball ).",
+      "choices": [
+        "that blue ball",
+        "blue that ball"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "I like ( handsome your brother / your handsome brother ).",
+      "choices": [
+        "handsome your brother",
+        "your handsome brother"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "She loves ( her pretty sister / pretty her sister ).",
+      "choices": [
+        "her pretty sister",
+        "pretty her sister"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "It ( is cold / cold is ).",
+      "choices": [
+        "is cold",
+        "cold is"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "My bag ( is black / black is ).",
+      "choices": [
+        "is black",
+        "black is"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "His bed ( new is / is new ).",
+      "choices": [
+        "new is",
+        "is new"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "My brother ( is strong / strong is ).",
+      "choices": [
+        "is strong",
+        "strong is"
+      ],
+      "accept": [
+        "1"
+      ]
+    }
+  ]
+}
