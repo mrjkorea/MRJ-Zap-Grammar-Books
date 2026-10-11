@@ -44,7 +44,7 @@ Printed pages **150–163** (PDF **151–164**). **Excluded:** PDF p.165+ (Revie
 
 ## Uncertain / judgment calls
 
-- **Walk A/B:** Korean glosses for match left column are textbook-aligned paraphrases (not printed on the trace lines).
+- **Walk A/B:** Korean glosses for match left column are textbook-aligned paraphrases (not printed on the trace lines). Walk A9 left: **일어나세요** (Stand up, please.).
 - **Run B/C:** Circled span approximated as one blank (`Don't move`, `Let's go`, etc.); item 5 in B and 5 in C share the same surface answer as another item where the book repeats the pattern.
 - **QUIZ 1 blank 2:** Form cell expects Korean **동사원형** (table label), not an English word.
 - **QUIZ 2 blank 3:** Accepts **Sure** / **Yes** / **OK** (book shows “Sure.” in the table).
