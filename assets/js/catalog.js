@@ -4,7 +4,7 @@
 
   var BOOKS = [
     { id: "zap-red-1", title: "ZAP Red 1", enabled: true, appName: "RedZap 1", bookTitle: "ZAP Red 1" },
-    { id: "zap-red-2", title: "ZAP Red 2", enabled: false, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
+    { id: "zap-red-2", title: "ZAP Red 2", enabled: true, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
@@ -94,6 +94,7 @@
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
+      { id: "unit-05", title: "Unit 05 — 의문사 (1)", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4904,6 +4905,50 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-2:unit-05": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "의문사 · 의문문 따라쓰기 · p. 76–77",
+        data: "data/red2/unit05/walk.json",
+        practiceId: "r2:u05:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "의문사 찾기 · 우리말 뜻 · p. 78–79",
+        data: "data/red2/unit05/run.json",
+        practiceId: "r2:u05:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "are/is · do/does · who/what · p. 80–81",
+        data: "data/red2/unit05/jump.json",
+        practiceId: "r2:u05:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "be/do/does · who/what · p. 82–83",
+        data: "data/red2/unit05/fly.json",
+        practiceId: "r2:u05:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 의문사 종류",
+        hint: "표 빈칸 · p. 84",
+        data: "data/red2/unit05/quiz2.json",
+        practiceId: "r2:u05:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 의문문 형식",
+        hint: "표 빈칸 · p. 85",
+        data: "data/red2/unit05/quiz4.json",
+        practiceId: "r2:u05:quiz4",
       },
     ],
   };
