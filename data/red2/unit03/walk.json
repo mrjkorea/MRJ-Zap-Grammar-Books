@@ -22,7 +22,7 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장과 알맞은 형용사를 짝지어 연결하세요.",
+      "instructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장 뜻(우리말)과 알맞은 영어 형용사를 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "itemCount": 2,
@@ -118,49 +118,49 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장과 알맞은 형용사를 짝지어 연결하세요.",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장 뜻(우리말)과 알맞은 영어 형용사를 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "B1",
       "type": "match",
       "pairs": [
         {
-          "left": "You have a ___ pencil.",
+          "left": "긴 연필을 가지고 있다.",
           "right": "long"
         },
         {
-          "left": "You have a ___ crayon.",
+          "left": "빨간 크레용을 가지고 있다.",
           "right": "red"
         },
         {
-          "left": "She likes her ___ bike.",
+          "left": "그녀는 낡은 자전거를 좋아한다.",
           "right": "old"
         },
         {
-          "left": "He likes his ___ bike.",
+          "left": "그는 새 자전거를 좋아한다.",
           "right": "new"
         },
         {
-          "left": "My mom is ___.",
+          "left": "우리 엄마는 키가 크다.",
           "right": "tall"
         },
         {
-          "left": "My dad is ___.",
+          "left": "우리 아빠는 키가 작다.",
           "right": "short"
         },
         {
-          "left": "It is ___. (비가 많이 오는)",
+          "left": "비가 많이 온다.",
           "right": "rainy"
         }
       ],
       "accept": [
-        "You have a ___ pencil.|long",
-        "You have a ___ crayon.|red",
-        "She likes her ___ bike.|old",
-        "He likes his ___ bike.|new",
-        "My mom is ___.|tall",
-        "My dad is ___.|short",
-        "It is ___. (비가 많이 오는)|rainy"
+        "긴 연필을 가지고 있다.|long",
+        "빨간 크레용을 가지고 있다.|red",
+        "그녀는 낡은 자전거를 좋아한다.|old",
+        "그는 새 자전거를 좋아한다.|new",
+        "우리 엄마는 키가 크다.|tall",
+        "우리 아빠는 키가 작다.|short",
+        "비가 많이 온다.|rainy"
       ],
       "promptKo": "문장 1–7"
     },
@@ -168,29 +168,29 @@
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장과 알맞은 형용사를 짝지어 연결하세요.",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장 뜻(우리말)과 알맞은 영어 형용사를 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "B2",
       "type": "match",
       "pairs": [
         {
-          "left": "It is ___. (바람이 많이 부는)",
+          "left": "바람이 많이 분다.",
           "right": "windy"
         },
         {
-          "left": "Your cat is ___. (뚱뚱한)",
+          "left": "네 고양이는 뚱뚱하다.",
           "right": "fat"
         },
         {
-          "left": "Your cat is ___. (못생긴)",
+          "left": "네 고양이는 못생겼다.",
           "right": "ugly"
         }
       ],
       "accept": [
-        "It is ___. (바람이 많이 부는)|windy",
-        "Your cat is ___. (뚱뚱한)|fat",
-        "Your cat is ___. (못생긴)|ugly"
+        "바람이 많이 분다.|windy",
+        "네 고양이는 뚱뚱하다.|fat",
+        "네 고양이는 못생겼다.|ugly"
       ],
       "promptKo": "문장 8–10"
     }

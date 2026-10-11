@@ -250,13 +250,14 @@
       "type": "mc",
       "promptEn": "I like the tall tree.",
       "choices": [
+        "I",
         "like",
+        "the",
         "tall",
-        "tree",
-        "the"
+        "tree"
       ],
       "accept": [
-        "2"
+        "4"
       ],
       "example": true,
       "displayOnly": true,
@@ -273,13 +274,14 @@
       "type": "mc",
       "promptEn": "I like the old tree.",
       "choices": [
+        "I",
         "like",
+        "the",
         "old",
-        "tree",
-        "the"
+        "tree"
       ],
       "accept": [
-        "2"
+        "4"
       ]
     },
     {
@@ -295,11 +297,12 @@
       "choices": [
         "They",
         "love",
+        "their",
         "cute",
         "puppy"
       ],
       "accept": [
-        "3"
+        "4"
       ]
     },
     {
@@ -315,11 +318,12 @@
       "choices": [
         "They",
         "love",
+        "their",
         "small",
         "puppy"
       ],
       "accept": [
-        "3"
+        "4"
       ]
     },
     {
@@ -375,8 +379,7 @@
       "choices": [
         "It",
         "is",
-        "snowy",
-        "."
+        "snowy"
       ],
       "accept": [
         "3"
@@ -395,8 +398,7 @@
       "choices": [
         "It",
         "is",
-        "cool",
-        "."
+        "cool"
       ],
       "accept": [
         "3"
@@ -413,13 +415,14 @@
       "type": "mc",
       "promptEn": "I want the yellow shirt.",
       "choices": [
+        "I",
         "want",
+        "the",
         "yellow",
-        "shirt",
-        "the"
+        "shirt"
       ],
       "accept": [
-        "2"
+        "4"
       ]
     },
     {
@@ -433,13 +436,14 @@
       "type": "mc",
       "promptEn": "I want the green pants.",
       "choices": [
+        "I",
         "want",
+        "the",
         "green",
-        "pants",
-        "the"
+        "pants"
       ],
       "accept": [
-        "2"
+        "4"
       ]
     }
   ]

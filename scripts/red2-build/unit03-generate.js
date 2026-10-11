@@ -63,7 +63,7 @@ const walkSecB = {
   id: "B",
   title: "Section B",
   instructionKo:
-    "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장과 알맞은 형용사를 짝지어 연결하세요.",
+    "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장 뜻(우리말)과 알맞은 영어 형용사를 짝지어 연결하세요.",
   answerMode: "match",
   answerModeTag: "Match · 짝 맞추기",
   itemCount: 2,
@@ -87,18 +87,18 @@ const walkA2Pairs = [
 ];
 
 const walkB1Pairs = [
-  { left: "You have a ___ pencil.", right: "long" },
-  { left: "You have a ___ crayon.", right: "red" },
-  { left: "She likes her ___ bike.", right: "old" },
-  { left: "He likes his ___ bike.", right: "new" },
-  { left: "My mom is ___.", right: "tall" },
-  { left: "My dad is ___.", right: "short" },
-  { left: "It is ___. (비가 많이 오는)", right: "rainy" },
+  { left: "긴 연필을 가지고 있다.", right: "long" },
+  { left: "빨간 크레용을 가지고 있다.", right: "red" },
+  { left: "그녀는 낡은 자전거를 좋아한다.", right: "old" },
+  { left: "그는 새 자전거를 좋아한다.", right: "new" },
+  { left: "우리 엄마는 키가 크다.", right: "tall" },
+  { left: "우리 아빠는 키가 작다.", right: "short" },
+  { left: "비가 많이 온다.", right: "rainy" },
 ];
 const walkB2Pairs = [
-  { left: "It is ___. (바람이 많이 부는)", right: "windy" },
-  { left: "Your cat is ___. (뚱뚱한)", right: "fat" },
-  { left: "Your cat is ___. (못생긴)", right: "ugly" },
+  { left: "바람이 많이 분다.", right: "windy" },
+  { left: "네 고양이는 뚱뚱하다.", right: "fat" },
+  { left: "네 고양이는 못생겼다.", right: "ugly" },
 ];
 
 const walkBaseA = {
@@ -169,17 +169,26 @@ const runAData = [
 ];
 const runAAnswers = [1, 1, 2, 2, 1, 2, 2, 1, 2, 1];
 
-const runBData = [
-  { en: "I like the old tree.", choices: ["like", "old", "tree", "the"], ans: 2 },
-  { en: "They love their cute puppy.", choices: ["They", "love", "cute", "puppy"], ans: 3 },
-  { en: "They love their small puppy.", choices: ["They", "love", "small", "puppy"], ans: 3 },
-  { en: "His computer is new.", choices: ["His", "computer", "is", "new"], ans: 4 },
-  { en: "His computer is big.", choices: ["His", "computer", "is", "big"], ans: 4 },
-  { en: "It is snowy.", choices: ["It", "is", "snowy", "."], ans: 3 },
-  { en: "It is cool.", choices: ["It", "is", "cool", "."], ans: 3 },
-  { en: "I want the yellow shirt.", choices: ["want", "yellow", "shirt", "the"], ans: 2 },
-  { en: "I want the green pants.", choices: ["want", "green", "pants", "the"], ans: 2 },
+/** Run B: MC choices = every word in the sentence, in sentence order (p. 47). */
+function runBCircle(sentence, adjective) {
+  const words = sentence.replace(/\.\s*$/, "").split(/\s+/);
+  const idx = words.indexOf(adjective);
+  if (idx < 0) throw new Error(`runB: ${adjective} not in ${sentence}`);
+  return { en: sentence, choices: words, ans: idx + 1 };
+}
+
+const runBGraded = [
+  runBCircle("I like the old tree.", "old"),
+  runBCircle("They love their cute puppy.", "cute"),
+  runBCircle("They love their small puppy.", "small"),
+  runBCircle("His computer is new.", "new"),
+  runBCircle("His computer is big.", "big"),
+  runBCircle("It is snowy.", "snowy"),
+  runBCircle("It is cool.", "cool"),
+  runBCircle("I want the yellow shirt.", "yellow"),
+  runBCircle("I want the green pants.", "green"),
 ];
+const runBExample = runBCircle("I like the tall tree.", "tall");
 
 const runBaseA = {
   section: "A",
@@ -209,13 +218,13 @@ runAData.forEach((ch, i) => {
 
 runItems.push({
   id: "b01",
-  ...mcItem(runBaseB, "B1", "I like the tall tree.", ["like", "tall", "tree", "the"], 2, {
+  ...mcItem(runBaseB, "B1", runBExample.en, runBExample.choices, runBExample.ans, {
     example: true,
     displayOnly: true,
     exampleAnswer: "tall",
   }),
 });
-runBData.forEach((row, i) => {
+runBGraded.forEach((row, i) => {
   const n = i + 2;
   runItems.push({
     id: `b${String(n).padStart(2, "0")}`,

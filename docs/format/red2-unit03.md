@@ -45,7 +45,8 @@ Printed pages **44–53** (PDF **45–54**). **Excluded:** comic pp. 41–42, co
 
 - **QUIZ 4** blanks ask for the grammar slot label (형용사 / 명사); accepts Korean or English (`adjective` / `noun`).
 - **QUIZ 2** items 4–5 and 9 use **Korean** glosses in the English column of the table (빠른, 느린, 비가 오는).
-- **Run B** uses four words from each sentence as MC choices (gradable “circle one word”).
+- **Run B** MC choices are every word in the sentence, in **sentence order** (matches underlined tap targets on p. 47).
+- **Walk B** match is **Korean sentence meaning ↔ English adjective** (book prints no Korean for items 1–6; standard glosses used).
 
 ## Generator
 
