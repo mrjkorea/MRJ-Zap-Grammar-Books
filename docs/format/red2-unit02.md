@@ -19,7 +19,7 @@ Printed pages **22–35** (PDF **23–36**). **Boundary:** PDF p.37 (Review 01) 
 
 | Slug | practiceId | Graded items | Sections | Modes |
 |------|------------|--------------|----------|-------|
-| walk | `r2:u02:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (긍정↔부정 10 pairs; 질문↔대답 10 pairs; ≤7 pairs per card) |
+| walk | `r2:u02:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (한국어↔영어 부정문 10 pairs; 한국어↔영어 대화 10 pairs; ≤7 pairs per card) |
 | run | `r2:u02:run` | 18 | A×9 MC, B×9 MC | Circle don't/doesn't; Yes/No replies |
 | jump | `r2:u02:jump` | 18 | A×9 MC, B×9 MC | don't/doesn't + base verb; Do/Does + short answers |
 | fly | `r2:u02:fly` | 17 | A×8 words, B×9 words | Negation blanks (2–3); Do/Does + short answer blanks |
@@ -44,6 +44,6 @@ Printed pages **22–35** (PDF **23–36**). **Boundary:** PDF p.37 (Review 01) 
 
 ## Notes / uncertainty
 
-- Walk A pairs use inferred affirmative lines (e.g. **He sings.**) where the book only shows the traced negative; negatives follow the book (contractions on items 8–10).
+- Walk A pairs: Korean negative meanings (not printed per line; standard textbook phrasing) ↔ English negatives as traced on p.26 (full **do/does not** on 1–7, contractions on 8–10). Walk B: Korean Q/A (book-style **~하니?** / **응, 그래.** / **아니, 그렇지 않아.**) ↔ English dialogues on p.27.
 - Fly A item 6 is a **2-blank** contraction example (`doesn't` + base verb); other negatives use three blanks (`do|not|verb` / `does|not|verb`).
 - Quiz table blanks accept common contractions where the book shows them (`don't`, `doesn't`) or full forms (`do not`, `does not`) on overlapping cells.

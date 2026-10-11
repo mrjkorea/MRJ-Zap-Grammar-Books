@@ -75,41 +75,41 @@ function writePractice(filename, practice) {
 
 function writeWalk() {
   const instrA =
-    "다음 문장의 뜻을 생각하며 일반동사의 부정문을 따라 써 보세요. 긍정문과 부정문을 짝지어 연결하세요.";
+    "다음 문장의 뜻을 생각하며 일반동사의 부정문을 따라 써 보세요. 한국어 뜻과 영어 부정문을 짝지어 연결하세요.";
   const instrB =
-    "다음 대화의 뜻을 생각하며 일반동사의 의문문과 대답을 따라 써 보세요. 질문과 대답을 짝지어 연결하세요.";
+    "다음 대화의 뜻을 생각하며 일반동사의 의문문과 대답을 따라 써 보세요. 한국어 대화와 영어 대화를 짝지어 연결하세요.";
 
   const negPairs = [
-    { left: "I dance.", right: "I do not dance." },
-    { left: "You dance.", right: "You do not dance." },
-    { left: "He sings.", right: "He does not sing." },
-    { left: "She sings.", right: "She does not sing." },
-    { left: "It flies.", right: "It does not fly." },
-    { left: "They fly.", right: "They do not fly." },
-    { left: "We play the flute.", right: "We do not play the flute." },
-    { left: "David plays the flute.", right: "David doesn't play the flute." },
-    { left: "Lucy and I know them.", right: "Lucy and I don't know them." },
-    { left: "The women know them.", right: "The women don't know them." },
+    { left: "나는 춤을 추지 않는다.", right: "I do not dance." },
+    { left: "너는 춤을 추지 않는다.", right: "You do not dance." },
+    { left: "그는 노래하지 않는다.", right: "He does not sing." },
+    { left: "그녀는 노래하지 않는다.", right: "She does not sing." },
+    { left: "그것은 날지 않는다.", right: "It does not fly." },
+    { left: "그들은 날지 않는다.", right: "They do not fly." },
+    { left: "우리는 플루트를 연주하지 않는다.", right: "We do not play the flute." },
+    { left: "데이비드는 플루트를 연주하지 않는다.", right: "David doesn't play the flute." },
+    { left: "루시와 나는 그들을 모른다.", right: "Lucy and I don't know them." },
+    { left: "그 여자들은 그들을 모른다.", right: "The women don't know them." },
   ];
 
   const qaPairs = [
-    { left: "Do you like carrots?", right: "Yes, I do." },
-    { left: "Does he like carrots?", right: "Yes, he does." },
-    { left: "Does she play golf?", right: "No, she doesn't." },
-    { left: "Do they play golf?", right: "Yes, they do." },
-    { left: "Does it run fast?", right: "Yes, it does." },
-    { left: "Do they run fast?", right: "No, they don't." },
-    { left: "Do you have a pencil?", right: "No, I don't." },
-    { left: "Do you have pencils?", right: "Yes, we do." },
-    { left: "Do we look pretty?", right: "No, you don't." },
-    { left: "Do I look pretty?", right: "Yes, you do." },
+    { left: "너는 당근을 좋아하니? / 응, 그래.", right: "Do you like carrots? Yes, I do." },
+    { left: "그는 당근을 좋아하니? / 응, 그래.", right: "Does he like carrots? Yes, he does." },
+    { left: "그녀는 골프를 치니? / 아니, 그렇지 않아.", right: "Does she play golf? No, she doesn't." },
+    { left: "그들은 골프를 치니? / 응, 그래.", right: "Do they play golf? Yes, they do." },
+    { left: "그것은 빨리 달리니? / 응, 그래.", right: "Does it run fast? Yes, it does." },
+    { left: "그들은 빨리 달리니? / 아니, 그렇지 않아.", right: "Do they run fast? No, they don't." },
+    { left: "너는 연필이 있니? / 아니, 그렇지 않아.", right: "Do you have a pencil? No, I don't." },
+    { left: "너희는 연필들이 있니? / 응, 그래.", right: "Do you have pencils? Yes, we do." },
+    { left: "우리는 예쁘게 보이니? / 아니, 그렇지 않아.", right: "Do we look pretty? No, you don't." },
+    { left: "나는 예쁘게 보이니? / 응, 그래.", right: "Do I look pretty? Yes, you do." },
   ];
 
   const items = [];
   const negChunks = chunk(negPairs, 7);
   negChunks.forEach((g, i) => {
     items.push(
-      matchItem(`a${String(i + 1).padStart(2, "0")}`, "A", `A${i + 1}`, g, instrA, `긍정·부정 ${i * 7 + 1}–${i * 7 + g.length}`)
+      matchItem(`a${String(i + 1).padStart(2, "0")}`, "A", `A${i + 1}`, g, instrA, `부정문 ${i * 7 + 1}–${i * 7 + g.length}`)
     );
   });
   const qaChunks = chunk(qaPairs, 7);
@@ -125,7 +125,7 @@ function writeWalk() {
     subtitle: "부정문 · 의문문 따라쓰기 (p. 26–27)",
     pages: "26–27",
     timerMinutes: 20,
-    introKo: "Section A 2문항(긍정·부정 짝 맞추기), B 2문항(질문·대답 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+    introKo: "Section A 2문항(한국어↔영어 부정문 짝 맞추기), B 2문항(한국어↔영어 대화 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
     sections: [
       {
         id: "A",
