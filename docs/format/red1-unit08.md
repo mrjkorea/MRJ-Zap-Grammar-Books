@@ -20,7 +20,7 @@ Printed pages **118–131** (PDF 119–132). **Boundary:** PDF p133 = Review 04 
 
 | Slug | practiceId | Graded items | Sections | Modes |
 |------|------------|--------------|----------|-------|
-| walk | `r1:u08:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (10 subject↔be + 10 full↔contraction pairs) |
+| walk | `r1:u08:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (Korean sentence ↔ English subject+be / contraction; 20 pairs) |
 | run | `r1:u08:run` | 18 | A×9, B×9 | Circle be / contraction → **words** |
 | jump | `r1:u08:jump` | 18 | A×9, B×9 | Parentheses MC → **choice** |
 | fly | `r1:u08:fly` | 18 | A×9, B×9 | Blank be / contraction → **words** |

@@ -84,34 +84,35 @@ function writeJson(name, practice) {
 
 function writeWalk() {
   const instrA =
-    "다음 문장의 뜻을 생각하며 주어와 be동사를 따라 써 보세요. 주어와 짝이 되는 be동사를 연결하세요.";
+    "다음 문장의 뜻을 생각하며 주어와 be동사를 따라 써 보세요. 한국어 문장과 영어 주어+be동사를 연결하세요.";
   const instrB =
-    "다음 문장의 뜻을 생각하며 주어와 be동사의 줄임말을 따라 써 보세요. 주어+be동사와 줄임말을 연결하세요.";
+    "다음 문장의 뜻을 생각하며 주어와 be동사의 줄임말을 따라 써 보세요. 한국어 문장과 영어 줄임말을 연결하세요.";
 
+  // Korean meanings are standard glosses (book has no printed Korean for full sentences).
   const subjPairs = [
-    { left: "I", right: "am" },
-    { left: "It", right: "is" },
-    { left: "She", right: "is" },
-    { left: "You", right: "are" },
-    { left: "They", right: "are" },
-    { left: "That", right: "is" },
-    { left: "Those", right: "are" },
-    { left: "These", right: "are" },
-    { left: "The kites", right: "are" },
-    { left: "The robots", right: "are" },
+    { left: "나는 행복해.", right: "I am" },
+    { left: "그것은 내 인형이야.", right: "It is" },
+    { left: "그녀는 아파.", right: "She is" },
+    { left: "너는 귀여워.", right: "You are" },
+    { left: "그들은 배고파.", right: "They are" },
+    { left: "저것은 그녀의 접착제야.", right: "That is" },
+    { left: "저것들은 네 연필이야.", right: "Those are" },
+    { left: "이것들은 그의 연필이야.", right: "These are" },
+    { left: "연들은 그녀의 것이야.", right: "The kites are" },
+    { left: "로봇들은 그의 것이야.", right: "The robots are" },
   ];
 
   const contraPairs = [
-    { left: "I am", right: "I'm" },
-    { left: "You are · a farmer", right: "You're" },
-    { left: "He is", right: "He's" },
-    { left: "She is", right: "She's" },
-    { left: "We are", right: "We're" },
-    { left: "You are · teachers", right: "You're" },
-    { left: "They are · doctors", right: "They're" },
-    { left: "It is", right: "It's" },
-    { left: "They are · onions", right: "They're" },
-    { left: "That is", right: "That's" },
+    { left: "나는 학생이야.", right: "I'm" },
+    { left: "너는 농부야.", right: "You're" },
+    { left: "그는 우리 삼촌이야.", right: "He's" },
+    { left: "그녀는 우리 고모야.", right: "She's" },
+    { left: "우리는 친구야.", right: "We're" },
+    { left: "너희는 선생님이야.", right: "You're" },
+    { left: "그들은 의사야.", right: "They're" },
+    { left: "그것은 양파야.", right: "It's" },
+    { left: "그것들은 양파들이야.", right: "They're" },
+    { left: "저것은 비행기야.", right: "That's" },
   ];
 
   const items = [];
@@ -139,7 +140,7 @@ function writeWalk() {
     pages: "122–123",
     timerMinutes: 20,
     introKo:
-      "Section A 2문항(주어↔be동사 짝 맞추기), Section B 2문항(주어+be동사↔줄임말 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+      "Section A 2문항(한국어↔주어+be동사), Section B 2문항(한국어↔줄임말)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
     sections: [
       {
         id: "A",
