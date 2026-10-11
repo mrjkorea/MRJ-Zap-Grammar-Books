@@ -43,6 +43,6 @@ Printed pages **8–21** (PDF **9–22**). **Excluded:** PDF 23 (Unit 02 opener)
 
 ## Uncertain / notes
 
-- Walk items 9–10 share the same sentence in the book; item 10 left label is disambiguated with “(10)”.
-- Run MC uses four verbs from the unit pool (correct always listed first in data; UI may shuffle).
+- Walk items 9–10 are duplicate sentences in the book (“The boys have tomatoes.”); match left keys disambiguate item 10 with “(10)”.
+- Run MC choices are each sentence’s own words in sentence order (tap the verb in the sentence), not a distractor pool.
 - QUIZ section 1 & 3 comics are not graded (per Red format).

@@ -71,12 +71,14 @@ function fillItem(id, section, label, prompt, accept, extra = {}) {
   };
 }
 
-function mcChoices(correct, pool) {
-  const distractors = pool.filter((v) => v !== correct).slice(0, 3);
-  while (distractors.length < 3) distractors.push("—");
-  const choices = [correct, ...distractors.slice(0, 3)];
-  const idx = choices.indexOf(correct) + 1;
-  return { choices, accept: String(idx) };
+/** Circle-the-verb Run: choices are the sentence's own words, in sentence order. */
+function sentenceWordChoices(prompt, answer) {
+  const text = String(prompt).replace(/\(([^)]+)\)/g, "$1").trim();
+  const words = text.split(/\s+/).map((w) => w.replace(/^[("'"]+|[.,;:!?)'"]+$/g, ""));
+  const norm = (w) => w.replace(/[.,;:!?]+$/g, "").toLowerCase();
+  const ai = words.findIndex((w) => norm(w) === norm(answer));
+  if (ai < 0) throw new Error(`answer "${answer}" not in sentence: ${prompt}`);
+  return { choices: words, accept: String(ai + 1) };
 }
 
 function writeWalk() {
@@ -202,8 +204,6 @@ function writeRun() {
     ["Judy and I have dogs.", "have"],
     ["My brothers love dogs.", "love"],
   ];
-  const runAPool = runA.map((r) => r[1]);
-
   const runB = [
     ["He runs fast.", "runs"],
     ["She jumps high.", "jumps"],
@@ -216,11 +216,9 @@ function writeRun() {
     ["A farmer has five ducks.", "has"],
     ["The farmer hates foxes.", "hates"],
   ];
-  const runBPool = runB.map((r) => r[1]);
-
   const items = [];
   const [exA, ...restA] = runA;
-  const mcA = mcChoices(exA[1], runAPool);
+  const mcA = sentenceWordChoices(exA[0], exA[1]);
   items.push(
     mcItem("a01", "A", "A1", exA[0], mcA.choices, mcA.accept, {
       sectionInstructionKo: instrA,
@@ -230,7 +228,7 @@ function writeRun() {
     })
   );
   restA.forEach((row, i) => {
-    const mc = mcChoices(row[1], runAPool);
+    const mc = sentenceWordChoices(row[0], row[1]);
     items.push(
       mcItem(`a${String(i + 2).padStart(2, "0")}`, "A", `A${i + 2}`, row[0], mc.choices, mc.accept, {
         sectionInstructionKo: instrA,
@@ -239,7 +237,7 @@ function writeRun() {
   });
 
   const [exB, ...restB] = runB;
-  const mcB = mcChoices(exB[1], runBPool);
+  const mcB = sentenceWordChoices(exB[0], exB[1]);
   items.push(
     mcItem("b01", "B", "B1", exB[0], mcB.choices, mcB.accept, {
       sectionInstructionKo: instrB,
@@ -249,7 +247,7 @@ function writeRun() {
     })
   );
   restB.forEach((row, i) => {
-    const mc = mcChoices(row[1], runBPool);
+    const mc = sentenceWordChoices(row[0], row[1]);
     items.push(
       mcItem(`b${String(i + 2).padStart(2, "0")}`, "B", `B${i + 2}`, row[0], mc.choices, mc.accept, {
         sectionInstructionKo: instrB,
