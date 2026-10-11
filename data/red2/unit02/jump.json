@@ -1,0 +1,472 @@
+{
+  "practiceId": "r2:u02:jump",
+  "title": "Grammar Jump",
+  "subtitle": "don't/doesn't · Do/Does (p. 30–31)",
+  "pages": "30–31",
+  "timerMinutes": 20,
+  "introKo": "Section A 9문항(괄호 고르기), B 10문항(괄호 고르기)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I ( don't / doesn't ) have sisters.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "don't"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "don't"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "He ( don't / doesn't ) help his mom.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "doesn't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "doesn't"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "She ( don't / doesn't ) go to school today.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "doesn't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "doesn't"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "We ( don't / doesn't ) have chickens.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "don't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "don't"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "It ( don't / doesn't ) sing.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "doesn't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "doesn't"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "You ( don't / doesn't ) play baseball.",
+      "choices": [
+        "don't",
+        "doesn't"
+      ],
+      "accept": [
+        "don't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "don't"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "They don't ( write / writes ) letters.",
+      "choices": [
+        "write",
+        "writes"
+      ],
+      "accept": [
+        "write"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "write"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Hodong doesn't ( read / reads ) a newspaper.",
+      "choices": [
+        "read",
+        "reads"
+      ],
+      "accept": [
+        "read"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "read"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "My sisters don't ( learns / learn ) English.",
+      "choices": [
+        "learns",
+        "learn"
+      ],
+      "accept": [
+        "learn"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "learn"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "My brother doesn't ( clean / cleans ) his room.",
+      "choices": [
+        "clean",
+        "cleans"
+      ],
+      "accept": [
+        "clean"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "clean"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "A: ( Do / Does ) you like pizza? B: Yes, I do.",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Do"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Do"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "A: ( Do / Does ) she know him? B: No, she doesn't.",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Does"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Does"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "A: ( Do / Does ) Mozart play the piano? B: Yes, he does.",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Does"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Does"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "A: ( Do / Does ) it drink water? B: No, it doesn't.",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Does"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Does"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "A: ( Do / Does ) they watch television? B: Yes, they do.",
+      "choices": [
+        "Do",
+        "Does"
+      ],
+      "accept": [
+        "Do"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Do"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "A: Does he wash the dishes? B: No, ( he doesn't / he does ).",
+      "choices": [
+        "he doesn't",
+        "he does"
+      ],
+      "accept": [
+        "he doesn't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "he doesn't"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "A: Do your cousins live here? B: Yes, ( they do / we do ).",
+      "choices": [
+        "they do",
+        "we do"
+      ],
+      "accept": [
+        "they do"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "they do"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "A: Does Taewhan swim here? B: Yes, ( it does / he does ).",
+      "choices": [
+        "it does",
+        "he does"
+      ],
+      "accept": [
+        "he does"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "he does"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "A: Does a chicken eat worms? B: Yes, ( they do / it does ).",
+      "choices": [
+        "they do",
+        "it does"
+      ],
+      "accept": [
+        "it does"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "it does"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 괄호 안에서 알맞은 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "A: Do bees have five legs? B: No, ( you don't / they don't ).",
+      "choices": [
+        "you don't",
+        "they don't"
+      ],
+      "accept": [
+        "they don't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "they don't"
+    }
+  ]
+}

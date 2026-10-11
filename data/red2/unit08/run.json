@@ -1,0 +1,399 @@
+{
+  "practiceId": "r2:u08:run",
+  "title": "Grammar Run",
+  "subtitle": "부정형 찾기 · 대답 고르기 (p. 124–125)",
+  "pages": "124–125",
+  "timerMinutes": 20,
+  "introKo": "Section A 10문항(부정형 쓰기), Section B 10문항(고르기)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "I am not reading a comic book.",
+      "blanks": 1,
+      "accept": [
+        "am not reading"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am not reading"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "You are not counting.",
+      "blanks": 1,
+      "accept": [
+        "are not counting"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "He is not playing basketball.",
+      "blanks": 1,
+      "accept": [
+        "is not playing"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "She is not sleeping on the bed.",
+      "blanks": 1,
+      "accept": [
+        "is not sleeping"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "We are not dancing.",
+      "blanks": 1,
+      "accept": [
+        "are not dancing"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "6",
+      "type": "fill",
+      "promptEn": "He isn't skating.",
+      "blanks": 1,
+      "accept": [
+        "isn't skating",
+        "is not skating"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "7",
+      "type": "fill",
+      "promptEn": "They aren't making pizza.",
+      "blanks": 1,
+      "accept": [
+        "aren't making",
+        "are not making"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "8",
+      "type": "fill",
+      "promptEn": "It isn't hopping.",
+      "blanks": 1,
+      "accept": [
+        "isn't hopping",
+        "is not hopping"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "9",
+      "type": "fill",
+      "promptEn": "They aren't riding a bike.",
+      "blanks": 1,
+      "accept": [
+        "aren't riding",
+        "are not riding"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형의 부정형을 찾아 동그라미 하세요. 동그라미 칠 부분(부정 현재진행)만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "10",
+      "type": "fill",
+      "promptEn": "She isn't cutting the watermelon.",
+      "blanks": 1,
+      "accept": [
+        "isn't cutting",
+        "is not cutting"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "A: Are you eating pie?\nB: ( Yes / No ), I'm not.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "2"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "No"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "A: Is she playing the game?\nB: ( Yes / No ), she is.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "A: Is he cutting the onion?\nB: ( Yes / No ), he isn't.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "A: Is it jumping?\nB: ( Yes / No ), it is.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "A: Are they making sandwiches?\nB: ( Yes / No ), they aren't.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "A: Are they flying?\nB: Yes, ( you / they ) are.",
+      "choices": [
+        "you",
+        "they"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "A: Are you going to the pool?\nB: Yes, ( we / you ) are.",
+      "choices": [
+        "we",
+        "you"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "A: Is he lying?\nB: No, ( she / he ) isn't.",
+      "choices": [
+        "she",
+        "he"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "A: Is she catching the ball?\nB: Yes, ( she / they ) is.",
+      "choices": [
+        "she",
+        "they"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "A: Is Jane drawing a frog?\nB: No, ( she / it ) isn't.",
+      "choices": [
+        "she",
+        "it"
+      ],
+      "accept": [
+        "1"
+      ]
+    }
+  ],
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 현재 진행형의 부정문과 의문문",
+  "sectionsVersion": 2
+}

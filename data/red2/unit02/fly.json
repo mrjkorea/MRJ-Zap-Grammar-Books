@@ -1,0 +1,411 @@
+{
+  "practiceId": "r2:u02:fly",
+  "title": "Grammar Fly",
+  "subtitle": "부정문 · 의문문 빈칸 (p. 32–33)",
+  "pages": "32–33",
+  "timerMinutes": 20,
+  "introKo": "Section A 8문항(부정문 빈칸), B 9문항(의문문·대답 빈칸)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 8,
+      "exampleCount": 2,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I run fast. → I ___ ___ ___ fast.",
+      "blanks": 3,
+      "accept": [
+        "do|not|run"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "do, not, run"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You have a ruler. → You ___ ___ ___ a ruler.",
+      "blanks": 3,
+      "accept": [
+        "do|not|have"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "do, not, have"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "She has a brother. → She ___ ___ ___ a brother.",
+      "blanks": 3,
+      "accept": [
+        "does|not|have"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "does, not, have"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "He goes to the pool. → He ___ ___ ___ to the pool.",
+      "blanks": 3,
+      "accept": [
+        "does|not|go"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "does, not, go"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "We hate worms. → We ___ ___ ___ worms.",
+      "blanks": 3,
+      "accept": [
+        "do|not|hate"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "do, not, hate"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "It flies fast. → It ___ ___ fast.",
+      "blanks": 2,
+      "accept": [
+        "doesn't|fly"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "doesn't, fly"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They like bananas. → They ___ ___ ___ bananas.",
+      "blanks": 3,
+      "accept": [
+        "do|not|like"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "do, not, like"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Jessica meets him. → Jessica ___ ___ ___ him.",
+      "blanks": 3,
+      "accept": [
+        "does|not|meet"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "does, not, meet"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "My mom loves watermelons. → My mom ___ ___ ___ watermelons.",
+      "blanks": 3,
+      "accept": [
+        "does|not|love"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "does, not, love"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "The actors drink orange juice. → The actors ___ ___ ___ orange juice.",
+      "blanks": 3,
+      "accept": [
+        "do|not|drink"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "do, not, drink"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "A: ___ you like chocolate? B: Yes, I do.",
+      "blanks": 1,
+      "accept": [
+        "Do"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Do"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "A: ___ he play the drum? B: No, he doesn't.",
+      "blanks": 1,
+      "accept": [
+        "Does"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Does"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "A: ___ she have breakfast? B: Yes, she does.",
+      "blanks": 1,
+      "accept": [
+        "Does"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Does"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A: ___ they look sad? B: No, they don't.",
+      "blanks": 1,
+      "accept": [
+        "Do"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Do"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "A: ___ it have two eyes? B: Yes, it does.",
+      "blanks": 1,
+      "accept": [
+        "Does"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "Does"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A: Do you help your dad? B: Yes, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "I|do"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "I, do"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A: Does she live here? B: No, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "she|doesn't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "she, doesn't"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "A: Does Jack go to the park? B: Yes, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "he|does"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "he, does"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "A: Does the dog bite? B: No, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "it|doesn't"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "it, doesn't"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 알맞은 말만 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "A: Do birds fly? B: Yes, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "they|do"
+      ],
+      "example": false,
+      "displayOnly": false,
+      "exampleAnswer": "they, do"
+    }
+  ]
+}

@@ -99,6 +99,31 @@
     parent.appendChild($("span", "mode-chip", tag));
   }
 
+  function sectionWordBank(practice, sectionId) {
+    var sections = practice.sections || [];
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i].id === sectionId && sections[i].wordBank && sections[i].wordBank.length) {
+        return sections[i].wordBank;
+      }
+    }
+    return null;
+  }
+
+  function practiceUsesSectionWordBanks(practice) {
+    return (practice.sections || []).some(function (s) {
+      return s.wordBank && s.wordBank.length;
+    });
+  }
+
+  function appendWordBankEl(parent, words) {
+    if (!words || !words.length) return;
+    var bank = $("div", "word-bank");
+    words.forEach(function (w) {
+      bank.appendChild($("span", null, w));
+    });
+    parent.appendChild(bank);
+  }
+
   function appendSectionBanner(form, item, practice, lastSection) {
     if (!item.section || item.section === lastSection) return lastSection;
     var banner = $("div", "section-banner");
@@ -108,6 +133,7 @@
     banner.appendChild(head);
     var instr = sectionBannerInstruction(item, practice);
     if (instr) banner.appendChild($("div", "section-banner-instr", instr));
+    appendWordBankEl(banner, sectionWordBank(practice, item.section));
     form.appendChild(banner);
     return item.section;
   }
@@ -651,12 +677,8 @@
 
     var form = $("form");
     var matchStore = {};
-    if (practice.wordBank && practice.wordBank.length) {
-      var bank = $("div", "word-bank");
-      practice.wordBank.forEach(function (w) {
-        bank.appendChild($("span", null, w));
-      });
-      form.appendChild(bank);
+    if (practice.wordBank && practice.wordBank.length && !practiceUsesSectionWordBanks(practice)) {
+      appendWordBankEl(form, practice.wordBank);
     }
 
     var items = practice.items.filter(function (it) {

@@ -1,0 +1,198 @@
+{
+  "practiceId": "r2:u03:walk",
+  "title": "Grammar Walk",
+  "subtitle": "형용사 따라쓰기 (p. 44–45)",
+  "pages": "44–45",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(형용사·뜻 짝 맞추기), Section B 2문항(문장·형용사 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 형용사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 형용사와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장 뜻(우리말)과 알맞은 영어 형용사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 형용사와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "big",
+          "right": "큰"
+        },
+        {
+          "left": "small",
+          "right": "작은"
+        },
+        {
+          "left": "fast",
+          "right": "빠른"
+        },
+        {
+          "left": "slow",
+          "right": "느린"
+        },
+        {
+          "left": "black",
+          "right": "검은, 검은색의"
+        },
+        {
+          "left": "white",
+          "right": "흰, 흰색의"
+        },
+        {
+          "left": "cool",
+          "right": "시원한"
+        }
+      ],
+      "accept": [
+        "big|큰",
+        "small|작은",
+        "fast|빠른",
+        "slow|느린",
+        "black|검은, 검은색의",
+        "white|흰, 흰색의",
+        "cool|시원한"
+      ],
+      "promptKo": "형용사 A–G"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 형용사와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "warm",
+          "right": "따뜻한"
+        },
+        {
+          "left": "happy",
+          "right": "행복한"
+        },
+        {
+          "left": "sad",
+          "right": "슬픈"
+        }
+      ],
+      "accept": [
+        "warm|따뜻한",
+        "happy|행복한",
+        "sad|슬픈"
+      ],
+      "promptKo": "형용사 H–J"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장 뜻(우리말)과 알맞은 영어 형용사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "긴 연필을 가지고 있다.",
+          "right": "long"
+        },
+        {
+          "left": "빨간 크레용을 가지고 있다.",
+          "right": "red"
+        },
+        {
+          "left": "그녀는 낡은 자전거를 좋아한다.",
+          "right": "old"
+        },
+        {
+          "left": "그는 새 자전거를 좋아한다.",
+          "right": "new"
+        },
+        {
+          "left": "우리 엄마는 키가 크다.",
+          "right": "tall"
+        },
+        {
+          "left": "우리 아빠는 키가 작다.",
+          "right": "short"
+        },
+        {
+          "left": "비가 많이 온다.",
+          "right": "rainy"
+        }
+      ],
+      "accept": [
+        "긴 연필을 가지고 있다.|long",
+        "빨간 크레용을 가지고 있다.|red",
+        "그녀는 낡은 자전거를 좋아한다.|old",
+        "그는 새 자전거를 좋아한다.|new",
+        "우리 엄마는 키가 크다.|tall",
+        "우리 아빠는 키가 작다.|short",
+        "비가 많이 온다.|rainy"
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장 뜻(우리말)과 알맞은 영어 형용사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "바람이 많이 분다.",
+          "right": "windy"
+        },
+        {
+          "left": "네 고양이는 뚱뚱하다.",
+          "right": "fat"
+        },
+        {
+          "left": "네 고양이는 못생겼다.",
+          "right": "ugly"
+        }
+      ],
+      "accept": [
+        "바람이 많이 분다.|windy",
+        "네 고양이는 뚱뚱하다.|fat",
+        "네 고양이는 못생겼다.|ugly"
+      ],
+      "promptKo": "문장 8–10"
+    }
+  ]
+}

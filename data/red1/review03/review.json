@@ -1,0 +1,475 @@
+{
+  "practiceId": "r1:rv03:review",
+  "title": "Review 03",
+  "subtitle": "Units 05–06 · pp. 100–103",
+  "pages": "100–103",
+  "timerMinutes": 25,
+  "introKo": "Review 03은 [1]부터 [20]까지 20문항입니다.",
+  "sections": [
+    {
+      "id": "1-2",
+      "title": "[1–2]",
+      "instructionKo": "[1–2] 다음 그림에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "3-5",
+      "title": "[3–5]",
+      "instructionKo": "[3–5] 다음 그림에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "6-8",
+      "title": "[6–8]",
+      "instructionKo": "[6–8] 다음 중 대명사의 단수형과 복수형이 바르게 짝지어진 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "9-10",
+      "title": "[9–10]",
+      "instructionKo": "[9–10] 다음 중 인칭대명사의 주격과 목적격이 바르게 짝지어진 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "11-15",
+      "title": "[11–15]",
+      "instructionKo": "[11–15] 다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "id": "16-20",
+      "title": "[16–20]",
+      "instructionKo": "[16–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "1-2",
+      "sectionTitle": "Section 1-2",
+      "sectionInstructionKo": "[1–2] 다음 그림에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "( he / you / they )",
+      "choices": [
+        "he",
+        "you",
+        "they"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/review03/q01.png",
+      "promptKo": "말풍선: 너"
+    },
+    {
+      "id": "q02",
+      "section": "1-2",
+      "sectionTitle": "Section 1-2",
+      "sectionInstructionKo": "[1–2] 다음 그림에 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "( we / they / he )",
+      "choices": [
+        "we",
+        "they",
+        "he"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/review03/q02.png",
+      "promptKo": "말풍선: 우리"
+    },
+    {
+      "id": "q03",
+      "section": "3-5",
+      "sectionTitle": "Section 3-5",
+      "sectionInstructionKo": "[3–5] 다음 그림에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "this",
+        "that",
+        "them"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/review03/q03.png"
+    },
+    {
+      "id": "q04",
+      "section": "3-5",
+      "sectionTitle": "Section 3-5",
+      "sectionInstructionKo": "[3–5] 다음 그림에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "this",
+        "these",
+        "that"
+      ],
+      "accept": [
+        "3"
+      ],
+      "image": "assets/img/red1/review03/q04.png"
+    },
+    {
+      "id": "q05",
+      "section": "3-5",
+      "sectionTitle": "Section 3-5",
+      "sectionInstructionKo": "[3–5] 다음 그림에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "those",
+        "he",
+        "that"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/review03/q05.png"
+    },
+    {
+      "id": "q06",
+      "section": "6-8",
+      "sectionTitle": "Section 6-8",
+      "sectionInstructionKo": "[6–8] 다음 중 대명사의 단수형과 복수형이 바르게 짝지어진 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "I — they",
+        "you — you",
+        "you — we"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "6-8",
+      "sectionTitle": "Section 6-8",
+      "sectionInstructionKo": "[6–8] 다음 중 대명사의 단수형과 복수형이 바르게 짝지어진 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "she — they",
+        "he — we",
+        "you — they"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "6-8",
+      "sectionTitle": "Section 6-8",
+      "sectionInstructionKo": "[6–8] 다음 중 대명사의 단수형과 복수형이 바르게 짝지어진 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "this — those",
+        "that — those",
+        "these — those"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "9-10",
+      "sectionTitle": "Section 9-10",
+      "sectionInstructionKo": "[9–10] 다음 중 인칭대명사의 주격과 목적격이 바르게 짝지어진 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "she — her",
+        "he — his",
+        "you — me"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "9-10",
+      "sectionTitle": "Section 9-10",
+      "sectionInstructionKo": "[9–10] 다음 중 인칭대명사의 주격과 목적격이 바르게 짝지어진 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "we — our",
+        "they — them",
+        "she — him"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "11-15",
+      "sectionTitle": "Section 11-15",
+      "sectionInstructionKo": "[11–15] 다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "______ am weak.",
+      "choices": [
+        "I",
+        "Me",
+        "She"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "나는 몸이 약하다."
+    },
+    {
+      "id": "q12",
+      "section": "11-15",
+      "sectionTitle": "Section 11-15",
+      "sectionInstructionKo": "[11–15] 다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "______ is a giraffe.",
+      "choices": [
+        "They",
+        "We",
+        "It"
+      ],
+      "accept": [
+        "3"
+      ],
+      "promptKo": "그것은 기린이다."
+    },
+    {
+      "id": "q13",
+      "section": "11-15",
+      "sectionTitle": "Section 11-15",
+      "sectionInstructionKo": "[11–15] 다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "13",
+      "type": "mc",
+      "promptEn": "______ have lunch every day.",
+      "choices": [
+        "Them",
+        "They",
+        "We"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "그들은 매일 점심 식사를 한다."
+    },
+    {
+      "id": "q14",
+      "section": "11-15",
+      "sectionTitle": "Section 11-15",
+      "sectionInstructionKo": "[11–15] 다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "I meet ______ every week.",
+      "choices": [
+        "she",
+        "him",
+        "her"
+      ],
+      "accept": [
+        "3"
+      ],
+      "promptKo": "나는 그녀를 매주 만난다."
+    },
+    {
+      "id": "q15",
+      "section": "11-15",
+      "sectionTitle": "Section 11-15",
+      "sectionInstructionKo": "[11–15] 다음 문장의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "They know ______.",
+      "choices": [
+        "us",
+        "we",
+        "you"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "그들은 우리를 안다."
+    },
+    {
+      "id": "q16",
+      "section": "16-20",
+      "sectionTitle": "Section 16-20",
+      "sectionInstructionKo": "[16–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "16",
+      "type": "fill",
+      "promptEn": "______ are smart.",
+      "blanks": 1,
+      "accept": [
+        "You"
+      ],
+      "promptKo": "너희는 영리하다."
+    },
+    {
+      "id": "q17",
+      "section": "16-20",
+      "sectionTitle": "Section 16-20",
+      "sectionInstructionKo": "[16–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "17",
+      "type": "fill",
+      "promptEn": "______ is sad.",
+      "blanks": 1,
+      "accept": [
+        "She"
+      ],
+      "promptKo": "그녀는 슬프다."
+    },
+    {
+      "id": "q18",
+      "section": "16-20",
+      "sectionTitle": "Section 16-20",
+      "sectionInstructionKo": "[16–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "18",
+      "type": "fill",
+      "promptEn": "We like ______.",
+      "blanks": 1,
+      "accept": [
+        "him"
+      ],
+      "promptKo": "우리는 그를 좋아한다."
+    },
+    {
+      "id": "q19",
+      "section": "16-20",
+      "sectionTitle": "Section 16-20",
+      "sectionInstructionKo": "[16–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "19",
+      "type": "fill",
+      "promptEn": "______ is a zebra.",
+      "blanks": 1,
+      "accept": [
+        "That"
+      ],
+      "promptKo": "저것은 얼룩말이다."
+    },
+    {
+      "id": "q20",
+      "section": "16-20",
+      "sectionTitle": "Section 16-20",
+      "sectionInstructionKo": "[16–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "20",
+      "type": "fill",
+      "promptEn": "______ are ants.",
+      "blanks": 1,
+      "accept": [
+        "These"
+      ],
+      "promptKo": "이것들은 개미이다."
+    }
+  ]
+}

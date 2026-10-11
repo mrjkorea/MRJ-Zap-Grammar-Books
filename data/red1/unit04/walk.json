@@ -1,0 +1,204 @@
+{
+  "practiceId": "r1:u04:walk",
+  "title": "Grammar Walk",
+  "subtitle": "a/an · the 따라쓰기 (p. 58–59)",
+  "pages": "58–59",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(단어·a/an 문장 짝 맞추기), Section B 2문항(단어·the 문장 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A — a/an",
+      "instructionKo": "다음 단어의 뜻을 생각하며 부정관사 a와 an을 따라 써 보세요. 단어(뜻)와 알맞은 a/an 표현을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B — the",
+      "instructionKo": "다음 문장의 뜻을 생각하며 정관사 the를 따라 써 보세요. 우리말 뜻(단어)과 완성된 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 단어의 뜻을 생각하며 부정관사 a와 an을 따라 써 보세요. 단어(뜻)와 알맞은 a/an 표현을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "책",
+          "right": "a book"
+        },
+        {
+          "left": "연필",
+          "right": "a pencil"
+        },
+        {
+          "left": "컵",
+          "right": "a cup"
+        },
+        {
+          "left": "토끼",
+          "right": "a rabbit"
+        },
+        {
+          "left": "개",
+          "right": "a dog"
+        }
+      ],
+      "accept": [
+        "책|a book",
+        "연필|a pencil",
+        "컵|a cup",
+        "토끼|a rabbit",
+        "개|a dog"
+      ],
+      "promptKo": "book, pencil, cup, 토끼, dog"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 단어의 뜻을 생각하며 부정관사 a와 an을 따라 써 보세요. 단어(뜻)와 알맞은 a/an 표현을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "사과",
+          "right": "an apple"
+        },
+        {
+          "left": "달걀",
+          "right": "an egg"
+        },
+        {
+          "left": "이구아나",
+          "right": "an iguana"
+        },
+        {
+          "left": "오렌지",
+          "right": "an orange"
+        },
+        {
+          "left": "우산",
+          "right": "an umbrella"
+        }
+      ],
+      "accept": [
+        "사과|an apple",
+        "달걀|an egg",
+        "이구아나|an iguana",
+        "오렌지|an orange",
+        "우산|an umbrella"
+      ],
+      "promptKo": "사과, egg, 이구아나, 오렌지, 우산"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 정관사 the를 따라 써 보세요. 우리말 뜻(단어)과 완성된 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "여자아이",
+          "right": "Look at the girl."
+        },
+        {
+          "left": "남자",
+          "right": "Look at the man."
+        },
+        {
+          "left": "태양",
+          "right": "Look at the sun."
+        },
+        {
+          "left": "달",
+          "right": "Look at the moon."
+        },
+        {
+          "left": "개",
+          "right": "The dog is cute."
+        },
+        {
+          "left": "고양이",
+          "right": "The cat is cute."
+        },
+        {
+          "left": "토끼",
+          "right": "The rabbit is cute."
+        }
+      ],
+      "accept": [
+        "여자아이|Look at the girl.",
+        "남자|Look at the man.",
+        "태양|Look at the sun.",
+        "달|Look at the moon.",
+        "개|The dog is cute.",
+        "고양이|The cat is cute.",
+        "토끼|The rabbit is cute."
+      ],
+      "promptKo": "여자아이, 남자, 태양, 달, 개, 고양이, 토끼"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 정관사 the를 따라 써 보세요. 우리말 뜻(단어)과 완성된 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "피아노",
+          "right": "I play the piano."
+        },
+        {
+          "left": "바이올린",
+          "right": "I play the violin."
+        },
+        {
+          "left": "북",
+          "right": "I play the drum."
+        }
+      ],
+      "accept": [
+        "피아노|I play the piano.",
+        "바이올린|I play the violin.",
+        "북|I play the drum."
+      ],
+      "promptKo": "피아노, 바이올린, 북"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 관사",
+  "sectionsVersion": 1
+}

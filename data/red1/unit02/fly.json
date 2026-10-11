@@ -1,0 +1,774 @@
+{
+  "practiceId": "r1:u02:fly",
+  "title": "Grammar Fly",
+  "subtitle": "명사 종류 · C/U 분류 (p. 32–33)",
+  "pages": "32–33",
+  "timerMinutes": 18,
+  "introKo": "Section A 19문항(종류별 단어, girl 예시), B 17문항(셀 수 있는 9·없는 8, bag 예시)입니다.",
+  "wordBank": [
+    "bag",
+    "love",
+    "girl",
+    "idea",
+    "book",
+    "Tom",
+    "peace",
+    "boy",
+    "park",
+    "city",
+    "man",
+    "house",
+    "flower",
+    "pencil",
+    "rabbit",
+    "cup",
+    "tiger",
+    "tree",
+    "room",
+    "time"
+  ],
+  "wordBankB": [
+    "bag",
+    "water",
+    "dog",
+    "book",
+    "tiger",
+    "time",
+    "pencil",
+    "sand",
+    "girl",
+    "cup",
+    "cat",
+    "love",
+    "woman",
+    "milk",
+    "paper",
+    "tree",
+    "peace",
+    "snow"
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 19,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19",
+        "A20"
+      ],
+      "wordBank": [
+        "bag",
+        "love",
+        "girl",
+        "idea",
+        "book",
+        "Tom",
+        "peace",
+        "boy",
+        "park",
+        "city",
+        "man",
+        "house",
+        "flower",
+        "pencil",
+        "rabbit",
+        "cup",
+        "tiger",
+        "tree",
+        "room",
+        "time"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는/없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 17,
+      "exampleCount": 1,
+      "labels": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6",
+        "U7",
+        "U8"
+      ],
+      "wordBank": [
+        "bag",
+        "water",
+        "dog",
+        "book",
+        "tiger",
+        "time",
+        "pencil",
+        "sand",
+        "girl",
+        "cup",
+        "cat",
+        "love",
+        "woman",
+        "milk",
+        "paper",
+        "tree",
+        "peace",
+        "snow"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "girl"
+      ],
+      "promptKo": "사람",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "girl"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "boy"
+      ],
+      "promptKo": "사람"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "man"
+      ],
+      "promptKo": "사람"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "Tom"
+      ],
+      "promptKo": "사람"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "park"
+      ],
+      "promptKo": "장소"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "city"
+      ],
+      "promptKo": "장소"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "house"
+      ],
+      "promptKo": "장소"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "room"
+      ],
+      "promptKo": "장소"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "bag"
+      ],
+      "promptKo": "사물"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "book"
+      ],
+      "promptKo": "사물"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "pencil"
+      ],
+      "promptKo": "사물"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "cup"
+      ],
+      "promptKo": "사물"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "flower"
+      ],
+      "promptKo": "동물·식물"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "rabbit"
+      ],
+      "promptKo": "동물·식물"
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "tiger"
+      ],
+      "promptKo": "동물·식물"
+    },
+    {
+      "id": "a16",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A16",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "tree"
+      ],
+      "promptKo": "동물·식물"
+    },
+    {
+      "id": "a17",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A17",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "love"
+      ],
+      "promptKo": "안 보이는 것"
+    },
+    {
+      "id": "a18",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A18",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "peace"
+      ],
+      "promptKo": "안 보이는 것"
+    },
+    {
+      "id": "a19",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A19",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "time"
+      ],
+      "promptKo": "안 보이는 것"
+    },
+    {
+      "id": "a20",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 한 칸에 한 단어(영어)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A20",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "idea"
+      ],
+      "promptKo": "안 보이는 것"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "bag",
+      "blanks": 1,
+      "accept": [
+        "bag"
+      ],
+      "promptKo": "셀 수 있는 명사 — 예시",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "bag"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "dog"
+      ],
+      "promptKo": "셀 수 있는 명사 — 2"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "book"
+      ],
+      "promptKo": "셀 수 있는 명사 — 3"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "tiger"
+      ],
+      "promptKo": "셀 수 있는 명사 — 4"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "pencil"
+      ],
+      "promptKo": "셀 수 있는 명사 — 5"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "girl"
+      ],
+      "promptKo": "셀 수 있는 명사 — 6"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C7",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "woman"
+      ],
+      "promptKo": "셀 수 있는 명사 — 7"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C8",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "tree"
+      ],
+      "promptKo": "셀 수 있는 명사 — 8"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C9",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "cup"
+      ],
+      "promptKo": "셀 수 있는 명사 — 9"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C10",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "cat"
+      ],
+      "promptKo": "셀 수 있는 명사 — 10"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "U1",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "water"
+      ],
+      "promptKo": "셀 수 없는 명사 — 1"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "U2",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "sand"
+      ],
+      "promptKo": "셀 수 없는 명사 — 2"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "U3",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "milk"
+      ],
+      "promptKo": "셀 수 없는 명사 — 3"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "U4",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "paper"
+      ],
+      "promptKo": "셀 수 없는 명사 — 4"
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "U5",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "time"
+      ],
+      "promptKo": "셀 수 없는 명사 — 5"
+    },
+    {
+      "id": "b16",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "U6",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "love"
+      ],
+      "promptKo": "셀 수 없는 명사 — 6"
+    },
+    {
+      "id": "b17",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "U7",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "peace"
+      ],
+      "promptKo": "셀 수 없는 명사 — 7"
+    },
+    {
+      "id": "b18",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "U8",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "snow"
+      ],
+      "promptKo": "셀 수 없는 명사 — 8"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 명사 (1)",
+  "sectionsVersion": 1
+}

@@ -1,0 +1,345 @@
+{
+  "practiceId": "r1:u02:run",
+  "title": "Grammar Run",
+  "subtitle": "명사 종류 · C/U (p. 28–29)",
+  "pages": "28–29",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(종류 짝 맞추기 8쌍), B 10문항(C/U 고르기, 예시 1개)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 명사들을 알맞게 연결하세요. 명사와 종류(사람·장소·사물·동물·식물·안 보이는 것)를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 10,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사들을 알맞게 연결하세요. 명사와 종류(사람·장소·사물·동물·식물·안 보이는 것)를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "연필",
+          "right": "pencil"
+        },
+        {
+          "left": "가방",
+          "right": "bag"
+        },
+        {
+          "left": "개",
+          "right": "dog"
+        },
+        {
+          "left": "꽃",
+          "right": "flower"
+        }
+      ],
+      "accept": [
+        "연필|pencil",
+        "가방|bag",
+        "개|dog",
+        "꽃|flower"
+      ],
+      "promptKo": "연필, 가방, 개, 꽃"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사들을 알맞게 연결하세요. 명사와 종류(사람·장소·사물·동물·식물·안 보이는 것)를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "평화",
+          "right": "peace"
+        },
+        {
+          "left": "사랑",
+          "right": "love"
+        },
+        {
+          "left": "집",
+          "right": "house"
+        },
+        {
+          "left": "방",
+          "right": "room"
+        }
+      ],
+      "accept": [
+        "평화|peace",
+        "사랑|love",
+        "집|house",
+        "방|room"
+      ],
+      "promptKo": "평화, 사랑, 집, 방"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "bag",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit02/run-b01.png",
+      "promptKo": "bag",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "C"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "flower",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit02/run-b02.png",
+      "promptKo": "flower"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "milk",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit02/run-b03.png",
+      "promptKo": "milk"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "cup",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit02/run-b04.png",
+      "promptKo": "cup"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "apple",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit02/run-b05.png",
+      "promptKo": "apple"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "time",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit02/run-b06.png",
+      "promptKo": "time"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "pencil",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit02/run-b07.png",
+      "promptKo": "pencil"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "peace",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit02/run-b08.png",
+      "promptKo": "peace"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "sand",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit02/run-b09.png",
+      "promptKo": "sand"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "tea",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit02/run-b10.png",
+      "promptKo": "tea"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 C, 셀 수 없는 명사이면 U에 체크표 하세요. C 또는 U를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "paper",
+      "choices": [
+        "C",
+        "U"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit02/run-b11.png",
+      "promptKo": "paper"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 명사 (1)",
+  "sectionsVersion": 1
+}
