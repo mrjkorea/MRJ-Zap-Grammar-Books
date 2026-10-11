@@ -4,7 +4,7 @@
 
   var BOOKS = [
     { id: "zap-red-1", title: "ZAP Red 1", enabled: true, appName: "RedZap 1", bookTitle: "ZAP Red 1" },
-    { id: "zap-red-2", title: "ZAP Red 2", enabled: false, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
+    { id: "zap-red-2", title: "ZAP Red 2", enabled: true, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
@@ -93,7 +93,11 @@
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
     ],
     "zap-red-2": [
-      { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
+      { id: "review-01", title: "Review 01", enabled: true },
+      { id: "review-02", title: "Review 02", enabled: true },
+      { id: "review-03", title: "Review 03", enabled: true },
+      { id: "review-04", title: "Review 04", enabled: true },
+      { id: "review-05", title: "Review 05", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4860,6 +4864,51 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green2/unit01/checkup.json",
         practiceId: "g2:u01:checkup",
+      },
+    ],
+    "zap-red-2:review-01": [
+      {
+        slug: "review",
+        title: "Review 01",
+        hint: "Unit 01–02 · pp. 36–39",
+        data: "data/red2/review01/review.json",
+        practiceId: "r2:rv01:review",
+      },
+    ],
+    "zap-red-2:review-02": [
+      {
+        slug: "review",
+        title: "Review 02",
+        hint: "Unit 03–04 · pp. 68–71",
+        data: "data/red2/review02/review.json",
+        practiceId: "r2:rv02:review",
+      },
+    ],
+    "zap-red-2:review-03": [
+      {
+        slug: "review",
+        title: "Review 03",
+        hint: "Unit 05–06 · pp. 100–103",
+        data: "data/red2/review03/review.json",
+        practiceId: "r2:rv03:review",
+      },
+    ],
+    "zap-red-2:review-04": [
+      {
+        slug: "review",
+        title: "Review 04",
+        hint: "Unit 07–08 · pp. 132–135",
+        data: "data/red2/review04/review.json",
+        practiceId: "r2:rv04:review",
+      },
+    ],
+    "zap-red-2:review-05": [
+      {
+        slug: "review",
+        title: "Review 05",
+        hint: "Unit 09–10 · pp. 164–167",
+        data: "data/red2/review05/review.json",
+        practiceId: "r2:rv05:review",
       },
     ],
     "zap-red-1:unit-01": [
