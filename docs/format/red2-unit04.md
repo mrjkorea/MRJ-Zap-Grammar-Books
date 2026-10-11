@@ -45,7 +45,8 @@ Printed pages **54–67** (PDF **55–68**). **Excluded:** PDF p.69 / printed p.
 
 ## Uncertain / notes
 
-- **Walk A2** traces `very` in “You sing very well” (not `well`, which is printed solid).
+- **Walk A2** traces `very` in “You sing very well” (not `well`, which is printed solid); items 8–10 are `fast` / `hard` / `kindly`.
+- **Walk B2** item 8 left phrase is `the bridge` (traced preposition is `under`, same layout as items 1–7).
 - **Run A4–5** grade intensifiers `very` / `so` (adverbs modifying adjectives), consistent with “find the adverb” instruction.
 - **Fly B9** uses two blanks for `next to` (`accept`: `next|to`).
 - Concept **Check Up** on p.57 (Korean↔preposition lines) is skipped per Red rules.

@@ -96,7 +96,7 @@ const walkBPairs = [
   { left: "2013", right: "in" },
   { left: "the car", right: "in" },
   { left: "the piano", right: "on" },
-  { left: "under the bridge", right: "under" },
+  { left: "the bridge", right: "under" },
   { left: "the hospital", right: "behind" },
   { left: "the park", right: "next to" },
 ];

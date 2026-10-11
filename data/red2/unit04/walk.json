@@ -172,7 +172,7 @@
       "type": "match",
       "pairs": [
         {
-          "left": "under the bridge",
+          "left": "the bridge",
           "right": "under"
         },
         {
@@ -185,7 +185,7 @@
         }
       ],
       "accept": [
-        "under the bridge|under",
+        "the bridge|under",
         "the hospital|behind",
         "the park|next to"
       ]
