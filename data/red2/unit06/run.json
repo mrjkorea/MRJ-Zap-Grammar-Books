@@ -4,7 +4,7 @@
   "subtitle": "what+명사 · how+형용사 찾기 (p. 92–93)",
   "pages": "92–93",
   "timerMinutes": 15,
-  "introKo": "Section A 9문항(고르기), B 10문항(고르기)입니다.",
+  "introKo": "Section A 9문항(고르기), B 9문항(고르기)입니다.",
   "sections": [
     {
       "id": "A",
@@ -32,10 +32,9 @@
       "instructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 10,
-      "exampleCount": 0,
+      "itemCount": 9,
+      "exampleCount": 1,
       "labels": [
-        "B1",
         "B2",
         "B3",
         "B4",
@@ -58,14 +57,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A1",
       "type": "mc",
-      "promptEn": "A: What day is it today?",
+      "promptEn": "A: What day is it today?\nB: It's Wednesday.",
       "choices": [
-        "What time",
-        "What color",
-        "What day"
+        "What day",
+        "day is",
+        "is it",
+        "it today?"
       ],
       "accept": [
-        "3"
+        "1"
       ],
       "example": true,
       "displayOnly": true,
@@ -80,11 +80,11 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A2",
       "type": "mc",
-      "promptEn": "A: What time is it?",
+      "promptEn": "A: What time is it?\nB: It's ten o'clock.",
       "choices": [
         "What time",
-        "What color",
-        "What day"
+        "time is",
+        "is it?"
       ],
       "accept": [
         "1"
@@ -99,14 +99,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A3",
       "type": "mc",
-      "promptEn": "A: What color is the sky?",
+      "promptEn": "A: What color is the sky?\nB: It's blue.",
       "choices": [
-        "What time",
         "What color",
-        "What day"
+        "color is",
+        "is the",
+        "the sky?"
       ],
       "accept": [
-        "2"
+        "1"
       ]
     },
     {
@@ -118,11 +119,12 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A4",
       "type": "mc",
-      "promptEn": "A: What time is it now?",
+      "promptEn": "A: What time is it now?\nB: It's four o'clock.",
       "choices": [
         "What time",
-        "What color",
-        "What day"
+        "time is",
+        "is it",
+        "it now?"
       ],
       "accept": [
         "1"
@@ -137,14 +139,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A5",
       "type": "mc",
-      "promptEn": "A: What day is it today?",
+      "promptEn": "A: What day is it today?\nB: It's Saturday.",
       "choices": [
-        "What time",
-        "What color",
-        "What day"
+        "What day",
+        "day is",
+        "is it",
+        "it today?"
       ],
       "accept": [
-        "3"
+        "1"
       ]
     },
     {
@@ -156,14 +159,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A6",
       "type": "mc",
-      "promptEn": "A: What color is the apple?",
+      "promptEn": "A: What color is the apple?\nB: It's red.",
       "choices": [
-        "What time",
         "What color",
-        "What day"
+        "color is",
+        "is the",
+        "the apple?"
       ],
       "accept": [
-        "2"
+        "1"
       ]
     },
     {
@@ -175,14 +179,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A7",
       "type": "mc",
-      "promptEn": "A: What day is it today?",
+      "promptEn": "A: What day is it today?\nB: It's Thursday.",
       "choices": [
-        "What time",
-        "What color",
-        "What day"
+        "What day",
+        "day is",
+        "is it",
+        "it today?"
       ],
       "accept": [
-        "3"
+        "1"
       ]
     },
     {
@@ -194,14 +199,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A8",
       "type": "mc",
-      "promptEn": "A: What color is the rabbit?",
+      "promptEn": "A: What color is the rabbit?\nB: It's white.",
       "choices": [
-        "What time",
         "What color",
-        "What day"
+        "color is",
+        "is the",
+        "the rabbit?"
       ],
       "accept": [
-        "2"
+        "1"
       ]
     },
     {
@@ -213,11 +219,12 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A9",
       "type": "mc",
-      "promptEn": "A: What time is it now?",
+      "promptEn": "A: What time is it now?\nB: It's twelve o'clock.",
       "choices": [
         "What time",
-        "What color",
-        "What day"
+        "time is",
+        "is it",
+        "it now?"
       ],
       "accept": [
         "1"
@@ -232,14 +239,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "A10",
       "type": "mc",
-      "promptEn": "A: What color are the dishes?",
+      "promptEn": "A: What color are the dishes?\nB: They're yellow.",
       "choices": [
-        "What time",
         "What color",
-        "What day"
+        "color are",
+        "are the",
+        "the dishes?"
       ],
       "accept": [
-        "2"
+        "1"
       ]
     },
     {
@@ -251,15 +259,18 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B1",
       "type": "mc",
-      "promptEn": "A: How old is he?",
+      "promptEn": "A: How old is he?\nB: Thirteen years old.",
       "choices": [
         "How old",
-        "How much",
-        "How many"
+        "old is",
+        "is he?"
       ],
       "accept": [
         "1"
-      ]
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "How old"
     },
     {
       "id": "b02",
@@ -270,14 +281,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B2",
       "type": "mc",
-      "promptEn": "A: How much is the cup?",
+      "promptEn": "A: How much is the cup?\nB: Two thousand won.",
       "choices": [
-        "How old",
         "How much",
-        "How many"
+        "much is",
+        "is the",
+        "the cup?"
       ],
       "accept": [
-        "2"
+        "1"
       ]
     },
     {
@@ -289,14 +301,16 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B3",
       "type": "mc",
-      "promptEn": "A: How many notebooks do you want?",
+      "promptEn": "A: How many notebooks do you want?\nB: Seven.",
       "choices": [
-        "How old",
-        "How much",
-        "How many"
+        "How many",
+        "many notebooks",
+        "notebooks do",
+        "do you",
+        "you want?"
       ],
       "accept": [
-        "3"
+        "1"
       ]
     },
     {
@@ -308,11 +322,12 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B4",
       "type": "mc",
-      "promptEn": "A: How old is your uncle?",
+      "promptEn": "A: How old is your uncle?\nB: Twenty years old.",
       "choices": [
         "How old",
-        "How much",
-        "How many"
+        "old is",
+        "is your",
+        "your uncle?"
       ],
       "accept": [
         "1"
@@ -327,14 +342,17 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B5",
       "type": "mc",
-      "promptEn": "A: How many legs does the bee have?",
+      "promptEn": "A: How many legs does the bee have?\nB: Six.",
       "choices": [
-        "How old",
-        "How much",
-        "How many"
+        "How many",
+        "many legs",
+        "legs does",
+        "does the",
+        "the bee",
+        "bee have?"
       ],
       "accept": [
-        "3"
+        "1"
       ]
     },
     {
@@ -346,14 +364,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B6",
       "type": "mc",
-      "promptEn": "A: How much are these carrots?",
+      "promptEn": "A: How much are these carrots?\nB: Four thousand won.",
       "choices": [
-        "How old",
         "How much",
-        "How many"
+        "much are",
+        "are these",
+        "these carrots?"
       ],
       "accept": [
-        "2"
+        "1"
       ]
     },
     {
@@ -365,14 +384,16 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B7",
       "type": "mc",
-      "promptEn": "A: How many pigs do they have?",
+      "promptEn": "A: How many pigs do they have?\nB: Sixteen.",
       "choices": [
-        "How old",
-        "How much",
-        "How many"
+        "How many",
+        "many pigs",
+        "pigs do",
+        "do they",
+        "they have?"
       ],
       "accept": [
-        "3"
+        "1"
       ]
     },
     {
@@ -384,11 +405,11 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B8",
       "type": "mc",
-      "promptEn": "A: How old is Joanne?",
+      "promptEn": "A: How old is Joanne?\nB: Six years old.",
       "choices": [
         "How old",
-        "How much",
-        "How many"
+        "old is",
+        "is Joanne?"
       ],
       "accept": [
         "1"
@@ -403,14 +424,15 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B9",
       "type": "mc",
-      "promptEn": "A: How much are the grapes?",
+      "promptEn": "A: How much are the grapes?\nB: Three thousand won.",
       "choices": [
-        "How old",
         "How much",
-        "How many"
+        "much are",
+        "are the",
+        "the grapes?"
       ],
       "accept": [
-        "2"
+        "1"
       ]
     },
     {
@@ -422,11 +444,11 @@
       "answerModeTag": "Choose · 고르기",
       "label": "B10",
       "type": "mc",
-      "promptEn": "A: How old are they?",
+      "promptEn": "A: How old are they?\nB: Seventeen years old.",
       "choices": [
         "How old",
-        "How much",
-        "How many"
+        "old are",
+        "are they?"
       ],
       "accept": [
         "1"

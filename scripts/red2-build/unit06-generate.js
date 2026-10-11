@@ -59,43 +59,42 @@ function fillItem(id, section, label, instructionKo, promptEn, accept, blanks = 
   };
 }
 
-function numberedPairs(rows) {
+function numberedKoEn(rows) {
   return rows.map((p, i) => ({
-    left: `${i + 1}. ${p.left}`,
-    right: p.right,
+    left: `${i + 1}. ${p.ko}`,
+    right: p.en,
   }));
 }
 
-const walkPairsA = numberedPairs([
-  { left: "A: What time is it now?", right: "B: It's one o'clock." },
-  { left: "A: What time is it now?", right: "B: It's nine o'clock." },
-  { left: "A: What time is it?", right: "B: It's three o'clock." },
-  { left: "A: What day is it today?", right: "B: It's Tuesday." },
-  { left: "A: What day is it today?", right: "B: It's Thursday." },
-  { left: "A: What day is it today?", right: "B: It's Friday." },
-  { left: "A: What color is this?", right: "B: It's black." },
-  { left: "A: What color is the cap?", right: "B: It's yellow." },
-  { left: "A: What color are your boots?", right: "B: They're blue." },
-  { left: "A: What color is it?", right: "B: It's pink." },
+const walkPairsA = numberedKoEn([
+  { ko: "A: 지금 몇 시니? B: 1시다.", en: "A: What time is it now? B: It's one o'clock." },
+  { ko: "A: 지금 몇 시니? B: 9시다.", en: "A: What time is it now? B: It's nine o'clock." },
+  { ko: "A: 몇 시니? B: 3시다.", en: "A: What time is it? B: It's three o'clock." },
+  { ko: "A: 오늘 무슨 요일이니? B: 화요일이다.", en: "A: What day is it today? B: It's Tuesday." },
+  { ko: "A: 오늘 무슨 요일이니? B: 목요일이다.", en: "A: What day is it today? B: It's Thursday." },
+  { ko: "A: 오늘 무슨 요일이니? B: 금요일이다.", en: "A: What day is it today? B: It's Friday." },
+  { ko: "A: 이것은 무슨 색이니? B: 검은색이다.", en: "A: What color is this? B: It's black." },
+  { ko: "A: 그 모자는 무슨 색이니? B: 노란색이다.", en: "A: What color is the cap? B: It's yellow." },
+  { ko: "A: 네 부츠는 무슨 색이니? B: 파란색이다.", en: "A: What color are your boots? B: They're blue." },
+  { ko: "A: 그것은 무슨 색이니? B: 분홍색이다.", en: "A: What color is it? B: It's pink." },
 ]);
 
-const walkPairsB = numberedPairs([
-  { left: "A: How old is he?", right: "B: Eight years old." },
-  { left: "A: How old are they?", right: "B: Four years old." },
-  { left: "A: How old is your sister?", right: "B: Ten years old." },
-  { left: "A: How much is the pen?", right: "B: Six hundred won." },
-  { left: "A: How much is it?", right: "B: One hundred won." },
-  { left: "A: How much are they?", right: "B: Two thousand won." },
-  { left: "A: How many dogs do you have?", right: "B: Two." },
-  { left: "A: How many flowers does Bill have?", right: "B: Four." },
-  { left: "A: How many balls does he have?", right: "B: Three." },
-  { left: "A: How many eggs do I have?", right: "B: Twenty." },
+const walkPairsB = numberedKoEn([
+  { ko: "A: 그는 몇 살이니? B: 8살이다.", en: "A: How old is he? B: Eight years old." },
+  { ko: "A: 그들은 몇 살이니? B: 4살이다.", en: "A: How old are they? B: Four years old." },
+  { ko: "A: 네 여동생은 몇 살이니? B: 10살이다.", en: "A: How old is your sister? B: Ten years old." },
+  { ko: "A: 그 펜은 얼마니? B: 600원이다.", en: "A: How much is the pen? B: Six hundred won." },
+  { ko: "A: 그것은 얼마니? B: 100원이다.", en: "A: How much is it? B: One hundred won." },
+  { ko: "A: 그것들은 얼마니? B: 2000원이다.", en: "A: How much are they? B: Two thousand won." },
+  { ko: "A: 개를 몇 마리 가지고 있니? B: 2마리.", en: "A: How many dogs do you have? B: Two." },
+  { ko: "A: Bill은 꽃을 몇 개 가지고 있니? B: 4개.", en: "A: How many flowers does Bill have? B: Four." },
+  { ko: "A: 그는 공을 몇 개 가지고 있니? B: 3개.", en: "A: How many balls does he have? B: Three." },
+  { ko: "A: 나는 달걀을 몇 개 가지고 있니? B: 20개.", en: "A: How many eggs do I have? B: Twenty." },
 ]);
 
 const walkInstrA =
-  "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.";
-const walkInstrB =
-  "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.";
+  "다음 대화의 뜻을 생각하며 따라 써 보세요. 우리말 뜻과 영어 대화를 짝지어 연결하세요.";
+const walkInstrB = walkInstrA;
 
 write("walk.json", {
   practiceId: "r2:u06:walk",
@@ -138,43 +137,53 @@ write("walk.json", {
 
 const runInstrA = "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.";
 const runInstrB = "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.";
-const whatChoices = ["What time", "What color", "What day"];
-const howChoices = ["How old", "How much", "How many"];
+
+/** Consecutive two-word phrases from the A line, in sentence order (book-faithful MC). */
+function circlePhraseChoices(prompt) {
+  const aLine = prompt.split("\n")[0].replace(/^A:\s*/, "");
+  const words = aLine.replace(/\?$/u, "?").split(/\s+/);
+  const choices = [];
+  for (let i = 0; i < words.length - 1; i++) {
+    choices.push(`${words[i]} ${words[i + 1]}`);
+  }
+  return { choices, ans: 1 };
+}
 
 const runA = [
-  { ex: true, prompt: "A: What day is it today?", ans: 3, label: "1" },
-  { prompt: "A: What time is it?", ans: 1 },
-  { prompt: "A: What color is the sky?", ans: 2 },
-  { prompt: "A: What time is it now?", ans: 1 },
-  { prompt: "A: What day is it today?", ans: 3 },
-  { prompt: "A: What color is the apple?", ans: 2 },
-  { prompt: "A: What day is it today?", ans: 3 },
-  { prompt: "A: What color is the rabbit?", ans: 2 },
-  { prompt: "A: What time is it now?", ans: 1 },
-  { prompt: "A: What color are the dishes?", ans: 2 },
+  { ex: true, prompt: "A: What day is it today?\nB: It's Wednesday." },
+  { prompt: "A: What time is it?\nB: It's ten o'clock." },
+  { prompt: "A: What color is the sky?\nB: It's blue." },
+  { prompt: "A: What time is it now?\nB: It's four o'clock." },
+  { prompt: "A: What day is it today?\nB: It's Saturday." },
+  { prompt: "A: What color is the apple?\nB: It's red." },
+  { prompt: "A: What day is it today?\nB: It's Thursday." },
+  { prompt: "A: What color is the rabbit?\nB: It's white." },
+  { prompt: "A: What time is it now?\nB: It's twelve o'clock." },
+  { prompt: "A: What color are the dishes?\nB: They're yellow." },
 ];
 
 const runB = [
-  { prompt: "A: How old is he?", ans: 1 },
-  { prompt: "A: How much is the cup?", ans: 2 },
-  { prompt: "A: How many notebooks do you want?", ans: 3 },
-  { prompt: "A: How old is your uncle?", ans: 1 },
-  { prompt: "A: How many legs does the bee have?", ans: 3 },
-  { prompt: "A: How much are these carrots?", ans: 2 },
-  { prompt: "A: How many pigs do they have?", ans: 3 },
-  { prompt: "A: How old is Joanne?", ans: 1 },
-  { prompt: "A: How much are the grapes?", ans: 2 },
-  { prompt: "A: How old are they?", ans: 1 },
+  { ex: true, prompt: "A: How old is he?\nB: Thirteen years old." },
+  { prompt: "A: How much is the cup?\nB: Two thousand won." },
+  { prompt: "A: How many notebooks do you want?\nB: Seven." },
+  { prompt: "A: How old is your uncle?\nB: Twenty years old." },
+  { prompt: "A: How many legs does the bee have?\nB: Six." },
+  { prompt: "A: How much are these carrots?\nB: Four thousand won." },
+  { prompt: "A: How many pigs do they have?\nB: Sixteen." },
+  { prompt: "A: How old is Joanne?\nB: Six years old." },
+  { prompt: "A: How much are the grapes?\nB: Three thousand won." },
+  { prompt: "A: How old are they?\nB: Seventeen years old." },
 ];
 
-function runItems(section, instr, rows, choices) {
+function runItems(section, instr, rows) {
   const items = [];
   let n = 0;
   for (let i = 0; i < rows.length; i++) {
     const r = rows[i];
     const label = section + (i + 1);
+    const { choices, ans } = circlePhraseChoices(r.prompt);
     const extra = r.ex
-      ? { example: true, displayOnly: true, exampleAnswer: choices[r.ans - 1] }
+      ? { example: true, displayOnly: true, exampleAnswer: choices[ans - 1] }
       : {};
     if (!r.ex) n++;
     items.push(
@@ -185,7 +194,7 @@ function runItems(section, instr, rows, choices) {
         instr,
         r.prompt,
         choices,
-        r.ans,
+        ans,
         extra
       )
     );
@@ -193,8 +202,8 @@ function runItems(section, instr, rows, choices) {
   return { items, graded: n };
 }
 
-const runAData = runItems("A", runInstrA, runA, whatChoices);
-const runBData = runItems("B", runInstrB, runB, howChoices);
+const runAData = runItems("A", runInstrA, runA);
+const runBData = runItems("B", runInstrB, runB);
 
 write("run.json", {
   practiceId: "r2:u06:run",
@@ -221,8 +230,8 @@ write("run.json", {
       answerMode: "choice",
       answerModeTag: "Choose · 고르기",
       itemCount: runBData.graded,
-      exampleCount: 0,
-      labels: runB.map((_, i) => `B${i + 1}`),
+      exampleCount: 1,
+      labels: runB.slice(1).map((_, i) => `B${i + 2}`),
     },
   ],
   items: [...runAData.items, ...runBData.items],

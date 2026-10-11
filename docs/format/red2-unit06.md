@@ -24,15 +24,15 @@ Printed pages **90–99** (PDF 87–100). Excluded: comics (p.87–88), concept 
 
 | Slug | practiceId | Graded items | Sections | Modes |
 |------|------------|--------------|----------|-------|
-| walk | `r2:u06:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (A↔B dialogue pairs; ≤7 pairs/card) |
-| run | `r2:u06:run` | 19 | A×9 MC, B×10 MC | Circle what/how phrase → **choice** |
+| walk | `r2:u06:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (Korean meaning ↔ English dialogue; ≤7 pairs/card) |
+| run | `r2:u06:run` | 18 | A×9 MC, B×9 MC | Circle what/how phrase → **choice** (2-word phrases from each A-line, in order) |
 | jump | `r2:u06:jump` | 18 | A×9 MC, B×9 MC | Parentheses → **choice** |
 | fly | `r2:u06:fly` | 18 | A×9 fill, B×9 fill | **words** / **sentence** (2-blank items) |
 | quiz2 | `r2:u06:quiz2` | 2 | A×2 | Table blanks day, color |
 | quiz3 | `r2:u06:quiz3` | 7 | A×7 | Korean glosses for days (Mon = display-only) |
 | quiz5 | `r2:u06:quiz5` | 3 | A×3 | Table blanks old, much, many |
 
-**71 graded items**; Walk match contributes **20 pair-level** score points per walk card (40 pairs total).
+**70 graded items**; Walk match contributes **20 pair-level** score points (40 pairs total).
 
 ## Deep links
 
@@ -50,6 +50,6 @@ Printed pages **90–99** (PDF 87–100). Excluded: comics (p.87–88), concept 
 
 ## Uncertainties
 
-- Walk: book is handwriting trace; app uses **question↔answer match** (same English lines as the book) per Red Walk tracing → match rule.
-- Run: “circle” mapped to **choose** among the three what/how phrases (book order).
+- Walk: book is handwriting trace; app uses **Korean meaning ↔ English dialogue** match (standard classroom glosses; not printed line-by-line on the Walk pages).
+- Run: “circle” mapped to **choose** among consecutive two-word phrases from each item’s **A** line (sentence order).
 - QUIZ §1 and §4 comics are not graded.
