@@ -7,7 +7,7 @@ Printed pages **12–21** (PDF 13–22). Skipped: comics (p.8–9), concept Chec
 | Slug | practiceId | Graded items | Sections | Notes |
 |------|------------|--------------|----------|-------|
 | walk | `r1:u01:walk` | 7 | A×4 match, B×3 match | Walk trace → **match** (≤7 pairs each); 26 letter pairs + 20 numeral↔word pairs |
-| run | `r1:u01:run` | 35 | A×9 MC, B×7 vowels, C×19 words | Run A trace step dropped; vowels = distinct a,e,i,o,u in order |
+| run | `r1:u01:run` | 35 | A×9 MC, B×7 vowels, C×19 words | Run A trace step dropped; vowels = each circled occurrence (gorilla ex.), `unordered` |
 | jump | `r1:u01:jump` | 30 | A×19 MC, B×11 MC | B1–B6 use cropped pencil images |
 | fly | `r1:u01:fly` | 20 | A×10 words, B×10 words | B uses ant images; no gray trace answers shown |
 | quiz2 | `r1:u01:quiz2` | 25 | A×25 letters | 1 display-only example |
@@ -34,7 +34,7 @@ Printed pages **12–21** (PDF 13–22). Skipped: comics (p.8–9), concept Chec
 | 5 | 9 | nine |
 | 6 | 11 | eleven |
 
-Items 7–12 use printed numerals 12–20 in the image.
+Items 7–12 use stylized numeral art (cropped; no bare `promptEn` numeral).
 
 ## Generator
 
