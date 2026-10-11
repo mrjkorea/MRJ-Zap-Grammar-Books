@@ -1,0 +1,215 @@
+{
+  "practiceId": "r1:u02:walk",
+  "title": "Grammar Walk",
+  "subtitle": "명사 따라쓰기 · 뜻 짝 맞추기 (p. 26–27)",
+  "pages": "26–27",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(명사 뜻 짝 맞추기 10쌍), B·C 각 1문항(셀 수 있는/없는 명사 5쌍)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 명사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 단어와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 셀 수 있는 명사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 단어와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "B1"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "다음 셀 수 없는 명사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 단어와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "C1"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 단어와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "boy",
+          "right": "남자아이"
+        },
+        {
+          "left": "woman",
+          "right": "여자"
+        },
+        {
+          "left": "room",
+          "right": "방"
+        },
+        {
+          "left": "house",
+          "right": "집"
+        },
+        {
+          "left": "apple",
+          "right": "사과"
+        }
+      ],
+      "accept": [
+        "boy|남자아이",
+        "woman|여자",
+        "room|방",
+        "house|집",
+        "apple|사과"
+      ],
+      "promptKo": "명사 boy–apple"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 단어와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "dog",
+          "right": "개"
+        },
+        {
+          "left": "pencil",
+          "right": "연필"
+        },
+        {
+          "left": "book",
+          "right": "책"
+        },
+        {
+          "left": "love",
+          "right": "사랑"
+        },
+        {
+          "left": "idea",
+          "right": "생각"
+        }
+      ],
+      "accept": [
+        "dog|개",
+        "pencil|연필",
+        "book|책",
+        "love|사랑",
+        "idea|생각"
+      ],
+      "promptKo": "명사 dog–idea"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 셀 수 있는 명사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 단어와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "girl",
+          "right": "여자아이"
+        },
+        {
+          "left": "boy",
+          "right": "남자아이"
+        },
+        {
+          "left": "cup",
+          "right": "컵"
+        },
+        {
+          "left": "pencil",
+          "right": "연필"
+        },
+        {
+          "left": "bag",
+          "right": "가방"
+        }
+      ],
+      "accept": [
+        "girl|여자아이",
+        "boy|남자아이",
+        "cup|컵",
+        "pencil|연필",
+        "bag|가방"
+      ],
+      "promptKo": "셀 수 있는 명사"
+    },
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 셀 수 없는 명사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 단어와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "C1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "sand",
+          "right": "모래"
+        },
+        {
+          "left": "paper",
+          "right": "종이"
+        },
+        {
+          "left": "water",
+          "right": "물"
+        },
+        {
+          "left": "love",
+          "right": "사랑"
+        },
+        {
+          "left": "snow",
+          "right": "눈"
+        }
+      ],
+      "accept": [
+        "sand|모래",
+        "paper|종이",
+        "water|물",
+        "love|사랑",
+        "snow|눈"
+      ],
+      "promptKo": "셀 수 없는 명사"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 명사 (1)",
+  "sectionsVersion": 1
+}
