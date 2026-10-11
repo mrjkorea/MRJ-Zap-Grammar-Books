@@ -19,7 +19,7 @@ Printed pages **118–131** (PDF 119–132). **Excluded:** PDF p.133 (Review 04,
 
 | Slug | practiceId | Graded items | Sections | Modes |
 |------|------------|--------------|----------|-------|
-| walk | `r2:u08:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (5 pairs each) |
+| walk | `r2:u08:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (우리말↔영어, 5 pairs each) |
 | run | `r2:u08:run` | 19 | A×10 words, B×9 MC | A1/B1 display-only examples |
 | jump | `r2:u08:jump` | 18 | A×9 MC, B×9 MC | A1/B1 display-only |
 | fly | `r2:u08:fly` | 17 | A×8 words, B×9 words | A1/A6/B1 display-only |
@@ -43,5 +43,5 @@ Printed pages **118–131** (PDF 119–132). **Excluded:** PDF p.133 (Review 04,
 
 ## Uncertain
 
-- **QUIZ 4 blank 1** (Am I row, verb-ing column): accepts sample verbs (`doing`, `going`, …); answer key not in repo.
-- **Walk A** left prompts use `…` for traced spans (gray answers not shown).
+- **QUIZ 4 blank 1**: numbered blank in the shared **동사원형-ing** column (not in the “Yes, you are.” answer line). Grading accepts any plausible **-ing** verb; no answer key in repo.
+- **Walk A/B Korean** (left column): standard Korean meanings; not printed verbatim on the trace pages (vocabulary glosses only).

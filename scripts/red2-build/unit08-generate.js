@@ -72,34 +72,34 @@ function matchItem(base, label, pairs, promptKo) {
 
 // —— Walk ——
 const walkAInst =
-  "다음 문장의 뜻을 생각하며 따라 써 보세요. 검은 글씨 문장과 회색으로 따라 쓰는 부정 현재진행 부분을 짝지어 연결하세요.";
+  "다음 문장의 뜻을 생각하며 따라 써 보세요. 우리말 뜻과 영어 문장을 짝지어 연결하세요.";
 const walkBInst =
-  "다음 대화의 뜻을 생각하며 따라 써 보세요. A의 질문과 B의 대답을 짝지어 연결하세요.";
+  "다음 대화의 뜻을 생각하며 따라 써 보세요. 우리말 뜻과 영어 대화를 짝지어 연결하세요.";
 
 const walkAPairs = [
-  { left: "I … swimming.", right: "am not" },
-  { left: "You … rope.", right: "are not jumping" },
-  { left: "You … hard.", right: "are not studying" },
-  { left: "We … to music.", right: "are not listening" },
-  { left: "They … the piano.", right: "are not playing" },
-  { left: "She … a book.", right: "isn't reading" },
-  { left: "He …", right: "isn't dancing" },
-  { left: "It …", right: "isn't sleeping" },
-  { left: "Dad … the box.", right: "isn't opening" },
-  { left: "Lucy and Paul … a cake.", right: "aren't baking" },
+  { left: "나는 수영하고 있지 않다.", right: "I am not swimming." },
+  { left: "너는 줄넘기를 하고 있지 않다.", right: "You are not jumping rope." },
+  { left: "너는 열심히 공부하고 있지 않다.", right: "You are not studying hard." },
+  { left: "우리는 음악을 듣고 있지 않다.", right: "We are not listening to music." },
+  { left: "그들은 피아노를 치고 있지 않다.", right: "They are not playing the piano." },
+  { left: "그녀는 책을 읽고 있지 않다.", right: "She isn't reading a book." },
+  { left: "그는 춤추고 있지 않다.", right: "He isn't dancing." },
+  { left: "그것은 자고 있지 않다.", right: "It isn't sleeping." },
+  { left: "아빠는 상자를 열고 있지 않다.", right: "Dad isn't opening the box." },
+  { left: "루시와 폴은 케이크를 굽고 있지 않다.", right: "Lucy and Paul aren't baking a cake." },
 ];
 
 const walkBPairs = [
-  { left: "Are you sleeping?", right: "No, I'm not." },
-  { left: "Is she jumping?", right: "Yes, she is." },
-  { left: "Is he going?", right: "No, he isn't." },
-  { left: "Are you eating?", right: "No, we aren't." },
-  { left: "Are they flying?", right: "Yes, they are." },
-  { left: "Are you coming?", right: "Yes, I am." },
-  { left: "Is she lying?", right: "No, she isn't." },
-  { left: "Are you crying?", right: "Yes, we are." },
-  { left: "Are the boys reading?", right: "No, they aren't." },
-  { left: "Is Tim smiling?", right: "Yes, he is." },
+  { left: "너 잠자고 있니? / 아니, 안 자고 있어.", right: "Are you sleeping? / No, I'm not." },
+  { left: "그녀는 뛰고 있니? / 응, 뛰고 있어.", right: "Is she jumping? / Yes, she is." },
+  { left: "그는 가고 있니? / 아니, 가고 있지 않아.", right: "Is he going? / No, he isn't." },
+  { left: "너 먹고 있니? / 아니, 안 먹고 있어.", right: "Are you eating? / No, we aren't." },
+  { left: "그들은 날고 있니? / 응, 날고 있어.", right: "Are they flying? / Yes, they are." },
+  { left: "너 오고 있니? / 응, 오고 있어.", right: "Are you coming? / Yes, I am." },
+  { left: "그녀가 거짓말하고 있니? / 아니.", right: "Is she lying? / No, she isn't." },
+  { left: "너 울고 있니? / 응, 울고 있어.", right: "Are you crying? / Yes, we are." },
+  { left: "그 소년들은 읽고 있니? / 아니.", right: "Are the boys reading? / No, they aren't." },
+  { left: "팀은 미소 짓고 있니? / 응.", right: "Is Tim smiling? / Yes, he is." },
 ];
 
 const walkBaseA = { section: "A", sectionTitle: "Section A", sectionInstructionKo: walkAInst };
@@ -112,7 +112,7 @@ write("walk.json", {
   pages: "122–123",
   timerMinutes: 20,
   introKo:
-    "Section A 2문항(부정문 짝 맞추기), Section B 2문항(대화 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+    "Section A 2문항(우리말↔영어 짝 맞추기), Section B 2문항(대화 우리말↔영어)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
   sections: [
     {
       id: "A",
@@ -151,14 +151,14 @@ const runBInst = "다음 괄호 안에서 알맞은 말을 골라 동그라미 �
 const runANeg = [
   ["I am not reading a comic book.", "am not reading", ["am not reading"]],
   ["You are not counting.", "are not counting", ["are not counting"]],
-  ["He is not playing basketball.", "is not playing basketball", ["is not playing basketball"]],
-  ["She is not sleeping on the bed.", "is not sleeping on the bed", ["is not sleeping on the bed"]],
+  ["He is not playing basketball.", "is not playing", ["is not playing"]],
+  ["She is not sleeping on the bed.", "is not sleeping", ["is not sleeping"]],
   ["We are not dancing.", "are not dancing", ["are not dancing"]],
   ["He isn't skating.", "isn't skating", ["isn't skating", "is not skating"]],
-  ["They aren't making pizza.", "aren't making pizza", ["aren't making pizza", "are not making pizza"]],
+  ["They aren't making pizza.", "aren't making", ["aren't making", "are not making"]],
   ["It isn't hopping.", "isn't hopping", ["isn't hopping", "is not hopping"]],
-  ["They aren't riding a bike.", "aren't riding a bike", ["aren't riding a bike", "are not riding a bike"]],
-  ["She isn't cutting the watermelon.", "isn't cutting the watermelon", ["isn't cutting the watermelon", "is not cutting the watermelon"]],
+  ["They aren't riding a bike.", "aren't riding", ["aren't riding", "are not riding"]],
+  ["She isn't cutting the watermelon.", "isn't cutting", ["isn't cutting", "is not cutting"]],
 ];
 
 const runBaseA = { section: "A", sectionTitle: "Section A", sectionInstructionKo: runAInst };
@@ -468,7 +468,11 @@ const quiz2Rows = [
 ];
 
 const quiz4Rows = [
-  { label: "1", prompt: "Am I …? — 동사원형-ing 칸 (1번)", accept: ["doing", "going", "playing", "working"] },
+  {
+    label: "1",
+    prompt: "Am I …? — 표 왼쪽 공통 동사원형-ing 칸 (1번)",
+    accept: ["doing", "going", "playing", "working", "swimming", "reading", "eating", "sleeping"],
+  },
   { label: "2", prompt: "… you …? — be동사 (2번)", accept: ["Are"] },
   { label: "3", prompt: "Yes, … am. (3번)", accept: ["I"] },
   { label: "4", prompt: "… he/she/it …? — be동사 (4번)", accept: ["Is"] },
