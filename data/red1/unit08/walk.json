@@ -1,0 +1,204 @@
+{
+  "practiceId": "r1:u08:walk",
+  "title": "Grammar Walk",
+  "subtitle": "주어·be동사 따라쓰기 (p. 122–123)",
+  "pages": "122–123",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(한국어↔주어+be동사), Section B 2문항(한국어↔줄임말)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 뜻을 생각하며 주어와 be동사를 따라 써 보세요. 한국어 문장과 영어 주어+be동사를 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 뜻을 생각하며 주어와 be동사의 줄임말을 따라 써 보세요. 한국어 문장과 영어 줄임말을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 주어와 be동사를 따라 써 보세요. 한국어 문장과 영어 주어+be동사를 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "나는 행복해.",
+          "right": "I am"
+        },
+        {
+          "left": "그것은 내 인형이야.",
+          "right": "It is"
+        },
+        {
+          "left": "그녀는 아파.",
+          "right": "She is"
+        },
+        {
+          "left": "너는 귀여워.",
+          "right": "You are"
+        },
+        {
+          "left": "그들은 배고파.",
+          "right": "They are"
+        },
+        {
+          "left": "저것은 그녀의 접착제야.",
+          "right": "That is"
+        },
+        {
+          "left": "저것들은 네 연필이야.",
+          "right": "Those are"
+        }
+      ],
+      "accept": [
+        "나는 행복해.|I am",
+        "그것은 내 인형이야.|It is",
+        "그녀는 아파.|She is",
+        "너는 귀여워.|You are",
+        "그들은 배고파.|They are",
+        "저것은 그녀의 접착제야.|That is",
+        "저것들은 네 연필이야.|Those are"
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 주어와 be동사를 따라 써 보세요. 한국어 문장과 영어 주어+be동사를 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "이것들은 그의 연필이야.",
+          "right": "These are"
+        },
+        {
+          "left": "연들은 그녀의 것이야.",
+          "right": "The kites are"
+        },
+        {
+          "left": "로봇들은 그의 것이야.",
+          "right": "The robots are"
+        }
+      ],
+      "accept": [
+        "이것들은 그의 연필이야.|These are",
+        "연들은 그녀의 것이야.|The kites are",
+        "로봇들은 그의 것이야.|The robots are"
+      ],
+      "promptKo": "문장 8–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 주어와 be동사의 줄임말을 따라 써 보세요. 한국어 문장과 영어 줄임말을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "나는 학생이야.",
+          "right": "I'm"
+        },
+        {
+          "left": "너는 농부야.",
+          "right": "You're"
+        },
+        {
+          "left": "그는 우리 삼촌이야.",
+          "right": "He's"
+        },
+        {
+          "left": "그녀는 우리 고모야.",
+          "right": "She's"
+        },
+        {
+          "left": "우리는 친구야.",
+          "right": "We're"
+        },
+        {
+          "left": "너희는 선생님이야.",
+          "right": "You're"
+        },
+        {
+          "left": "그들은 의사야.",
+          "right": "They're"
+        }
+      ],
+      "accept": [
+        "나는 학생이야.|I'm",
+        "너는 농부야.|You're",
+        "그는 우리 삼촌이야.|He's",
+        "그녀는 우리 고모야.|She's",
+        "우리는 친구야.|We're",
+        "너희는 선생님이야.|You're",
+        "그들은 의사야.|They're"
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 주어와 be동사의 줄임말을 따라 써 보세요. 한국어 문장과 영어 줄임말을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "그것은 양파야.",
+          "right": "It's"
+        },
+        {
+          "left": "그것들은 양파들이야.",
+          "right": "They're"
+        },
+        {
+          "left": "저것은 비행기야.",
+          "right": "That's"
+        }
+      ],
+      "accept": [
+        "그것은 양파야.|It's",
+        "그것들은 양파들이야.|They're",
+        "저것은 비행기야.|That's"
+      ],
+      "promptKo": "문장 8–10"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — be동사 am, are, is",
+  "sectionsVersion": 1
+}
