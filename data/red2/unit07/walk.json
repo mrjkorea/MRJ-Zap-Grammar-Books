@@ -125,42 +125,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "sleep",
+          "left": "자다",
           "right": "sleeping"
         },
         {
-          "left": "eat",
+          "left": "먹다",
           "right": "eating"
         },
         {
-          "left": "make",
+          "left": "만들다",
           "right": "making"
         },
         {
-          "left": "ride",
+          "left": "타다",
           "right": "riding"
         },
         {
-          "left": "swim",
+          "left": "수영하다",
           "right": "swimming"
         },
         {
-          "left": "cut",
+          "left": "자르다",
           "right": "cutting"
         },
         {
-          "left": "listen",
+          "left": "듣다",
           "right": "listening"
         }
       ],
       "accept": [
-        "sleep|sleeping",
-        "eat|eating",
-        "make|making",
-        "ride|riding",
-        "swim|swimming",
-        "cut|cutting",
-        "listen|listening"
+        "자다|sleeping",
+        "먹다|eating",
+        "만들다|making",
+        "타다|riding",
+        "수영하다|swimming",
+        "자르다|cutting",
+        "듣다|listening"
       ],
       "promptKo": "동사 1–7"
     },
@@ -175,22 +175,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "open",
+          "left": "열다",
           "right": "opening"
         },
         {
-          "left": "tie",
+          "left": "묶다",
           "right": "tying"
         },
         {
-          "left": "die",
+          "left": "죽다",
           "right": "dying"
         }
       ],
       "accept": [
-        "open|opening",
-        "tie|tying",
-        "die|dying"
+        "열다|opening",
+        "묶다|tying",
+        "죽다|dying"
       ],
       "promptKo": "동사 8–10"
     }

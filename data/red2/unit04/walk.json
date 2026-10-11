@@ -45,42 +45,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "I dance ___",
-          "right": "well"
+          "left": "나는 잘 춤춘다.",
+          "right": "I dance well."
         },
         {
-          "left": "You sing ___ well",
-          "right": "very"
+          "left": "너는 아주 잘 노래한다.",
+          "right": "You sing very well."
         },
         {
-          "left": "He is ___ diligent",
-          "right": "so"
+          "left": "그는 아주 부지런하다.",
+          "right": "He is so diligent."
         },
         {
-          "left": "She lives ___",
-          "right": "happily"
+          "left": "그녀는 행복하게 산다.",
+          "right": "She lives happily."
         },
         {
-          "left": "We think ___",
-          "right": "carefully"
+          "left": "우리는 신중하게 생각한다.",
+          "right": "We think carefully."
         },
         {
-          "left": "Susie speaks ___",
-          "right": "slowly"
+          "left": "수지는 천천히 말한다.",
+          "right": "Susie speaks slowly."
         },
         {
-          "left": "Susie gets up ___",
-          "right": "early"
+          "left": "수지는 일찍 일어난다.",
+          "right": "Susie gets up early."
         }
       ],
       "accept": [
-        "I dance ___|well",
-        "You sing ___ well|very",
-        "He is ___ diligent|so",
-        "She lives ___|happily",
-        "We think ___|carefully",
-        "Susie speaks ___|slowly",
-        "Susie gets up ___|early"
+        "나는 잘 춤춘다.|I dance well.",
+        "너는 아주 잘 노래한다.|You sing very well.",
+        "그는 아주 부지런하다.|He is so diligent.",
+        "그녀는 행복하게 산다.|She lives happily.",
+        "우리는 신중하게 생각한다.|We think carefully.",
+        "수지는 천천히 말한다.|Susie speaks slowly.",
+        "수지는 일찍 일어난다.|Susie gets up early."
       ]
     },
     {
@@ -94,22 +94,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "Haha runs ___",
-          "right": "fast"
+          "left": "하하는 빠르게 달린다.",
+          "right": "Haha runs fast."
         },
         {
-          "left": "The nurses study ___",
-          "right": "hard"
+          "left": "간호사들은 열심히 공부한다.",
+          "right": "The nurses study hard."
         },
         {
-          "left": "The nurses help him ___",
-          "right": "kindly"
+          "left": "간호사들은 친절하게 그를 돕는다.",
+          "right": "The nurses help him kindly."
         }
       ],
       "accept": [
-        "Haha runs ___|fast",
-        "The nurses study ___|hard",
-        "The nurses help him ___|kindly"
+        "하하는 빠르게 달린다.|Haha runs fast.",
+        "간호사들은 열심히 공부한다.|The nurses study hard.",
+        "간호사들은 친절하게 그를 돕는다.|The nurses help him kindly."
       ]
     },
     {
@@ -123,42 +123,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "six o'clock",
-          "right": "at"
+          "left": "6시에",
+          "right": "at six o'clock"
         },
         {
-          "left": "Sunday",
-          "right": "on"
+          "left": "일요일에",
+          "right": "on Sunday"
         },
         {
-          "left": "Christmas Day",
-          "right": "on"
+          "left": "크리스마스에",
+          "right": "on Christmas Day"
         },
         {
-          "left": "October",
-          "right": "in"
+          "left": "10월에",
+          "right": "in October"
         },
         {
-          "left": "2013",
-          "right": "in"
+          "left": "2013년에",
+          "right": "in 2013"
         },
         {
-          "left": "the car",
-          "right": "in"
+          "left": "자동차 안에",
+          "right": "in the car"
         },
         {
-          "left": "the piano",
-          "right": "on"
+          "left": "피아노 위에",
+          "right": "on the piano"
         }
       ],
       "accept": [
-        "six o'clock|at",
-        "Sunday|on",
-        "Christmas Day|on",
-        "October|in",
-        "2013|in",
-        "the car|in",
-        "the piano|on"
+        "6시에|at six o'clock",
+        "일요일에|on Sunday",
+        "크리스마스에|on Christmas Day",
+        "10월에|in October",
+        "2013년에|in 2013",
+        "자동차 안에|in the car",
+        "피아노 위에|on the piano"
       ]
     },
     {
@@ -172,22 +172,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "the bridge",
-          "right": "under"
+          "left": "다리 아래에",
+          "right": "under the bridge"
         },
         {
-          "left": "the hospital",
-          "right": "behind"
+          "left": "병원 뒤에",
+          "right": "behind the hospital"
         },
         {
-          "left": "the park",
-          "right": "next to"
+          "left": "공원 옆에",
+          "right": "next to the park"
         }
       ],
       "accept": [
-        "the bridge|under",
-        "the hospital|behind",
-        "the park|next to"
+        "다리 아래에|under the bridge",
+        "병원 뒤에|behind the hospital",
+        "공원 옆에|next to the park"
       ]
     }
   ]

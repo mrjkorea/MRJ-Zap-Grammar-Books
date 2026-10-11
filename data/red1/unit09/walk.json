@@ -123,42 +123,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "Are you a pilot?",
-          "right": "No, I am not."
+          "left": "당신은 조종사입니까?",
+          "right": "A: Are you a pilot? B: No, I am not."
         },
         {
-          "left": "Is he hungry?",
-          "right": "Yes, he is."
+          "left": "그는 배고프니?",
+          "right": "A: Is he hungry? B: Yes, he is."
         },
         {
-          "left": "Is she thirsty?",
-          "right": "No, she isn't."
+          "left": "그녀는 목마르니?",
+          "right": "A: Is she thirsty? B: No, she isn't."
         },
         {
-          "left": "Are you students?",
-          "right": "No, we aren't."
+          "left": "당신들은 학생입니까?",
+          "right": "A: Are you students? B: No, we aren't."
         },
         {
-          "left": "Are they doctors?",
-          "right": "Yes, they are."
+          "left": "그들은 의사입니까?",
+          "right": "A: Are they doctors? B: Yes, they are."
         },
         {
-          "left": "Is it old?",
-          "right": "Yes, it is."
+          "left": "그것은 오래되었니?",
+          "right": "A: Is it old? B: Yes, it is."
         },
         {
-          "left": "Are they new?",
-          "right": "No, they aren't."
+          "left": "그것들은 새것이니?",
+          "right": "A: Are they new? B: No, they aren't."
         }
       ],
       "accept": [
-        "Are you a pilot?|No, I am not.",
-        "Is he hungry?|Yes, he is.",
-        "Is she thirsty?|No, she isn't.",
-        "Are you students?|No, we aren't.",
-        "Are they doctors?|Yes, they are.",
-        "Is it old?|Yes, it is.",
-        "Are they new?|No, they aren't."
+        "당신은 조종사입니까?|A: Are you a pilot? B: No, I am not.",
+        "그는 배고프니?|A: Is he hungry? B: Yes, he is.",
+        "그녀는 목마르니?|A: Is she thirsty? B: No, she isn't.",
+        "당신들은 학생입니까?|A: Are you students? B: No, we aren't.",
+        "그들은 의사입니까?|A: Are they doctors? B: Yes, they are.",
+        "그것은 오래되었니?|A: Is it old? B: Yes, it is.",
+        "그것들은 새것이니?|A: Are they new? B: No, they aren't."
       ]
     },
     {
@@ -172,22 +172,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "Are you Jane?",
-          "right": "Yes, I am."
+          "left": "당신은 Jane입니까?",
+          "right": "A: Are you Jane? B: Yes, I am."
         },
         {
-          "left": "Are you nurses?",
-          "right": "Yes, we are."
+          "left": "당신들은 간호사입니까?",
+          "right": "A: Are you nurses? B: Yes, we are."
         },
         {
-          "left": "Is he handsome?",
-          "right": "No, he isn't."
+          "left": "그는 잘생겼니?",
+          "right": "A: Is he handsome? B: No, he isn't."
         }
       ],
       "accept": [
-        "Are you Jane?|Yes, I am.",
-        "Are you nurses?|Yes, we are.",
-        "Is he handsome?|No, he isn't."
+        "당신은 Jane입니까?|A: Are you Jane? B: Yes, I am.",
+        "당신들은 간호사입니까?|A: Are you nurses? B: Yes, we are.",
+        "그는 잘생겼니?|A: Is he handsome? B: No, he isn't."
       ]
     }
   ],

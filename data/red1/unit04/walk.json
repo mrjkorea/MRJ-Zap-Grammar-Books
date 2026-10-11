@@ -45,15 +45,15 @@
       "type": "match",
       "pairs": [
         {
-          "left": "book",
+          "left": "책",
           "right": "a book"
         },
         {
-          "left": "pencil",
+          "left": "연필",
           "right": "a pencil"
         },
         {
-          "left": "cup",
+          "left": "컵",
           "right": "a cup"
         },
         {
@@ -61,16 +61,16 @@
           "right": "a rabbit"
         },
         {
-          "left": "dog",
+          "left": "개",
           "right": "a dog"
         }
       ],
       "accept": [
-        "book|a book",
-        "pencil|a pencil",
-        "cup|a cup",
+        "책|a book",
+        "연필|a pencil",
+        "컵|a cup",
         "토끼|a rabbit",
-        "dog|a dog"
+        "개|a dog"
       ],
       "promptKo": "book, pencil, cup, 토끼, dog"
     },
@@ -89,7 +89,7 @@
           "right": "an apple"
         },
         {
-          "left": "egg",
+          "left": "달걀",
           "right": "an egg"
         },
         {
@@ -107,7 +107,7 @@
       ],
       "accept": [
         "사과|an apple",
-        "egg|an egg",
+        "달걀|an egg",
         "이구아나|an iguana",
         "오렌지|an orange",
         "우산|an umbrella"

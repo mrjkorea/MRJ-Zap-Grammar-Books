@@ -131,42 +131,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "Can you play golf?",
-          "right": "Yes, I can."
+          "left": "골프를 칠 수 있니?",
+          "right": "A: Can you play golf? B: Yes, I can."
         },
         {
-          "left": "Can she drive a car?",
-          "right": "No, she can't."
+          "left": "그녀는 운전할 수 있니?",
+          "right": "A: Can she drive a car? B: No, she can't."
         },
         {
-          "left": "Can he kick the ball?",
-          "right": "Yes, he can."
+          "left": "그는 공을 찰 수 있니?",
+          "right": "A: Can he kick the ball? B: Yes, he can."
         },
         {
-          "left": "Can they jump?",
-          "right": "No, they can't."
+          "left": "그들은 뛸 수 있니?",
+          "right": "A: Can they jump? B: No, they can't."
         },
         {
-          "left": "Can it climb the tree?",
-          "right": "Yes, it can."
+          "left": "그것은 나무를 올라갈 수 있니?",
+          "right": "A: Can it climb the tree? B: Yes, it can."
         },
         {
-          "left": "Can he count?",
-          "right": "No, he can't."
+          "left": "그는 셀 수 있니?",
+          "right": "A: Can he count? B: No, he can't."
         },
         {
-          "left": "Can they write?",
-          "right": "Yes, they can."
+          "left": "그들은 쓸 수 있니?",
+          "right": "A: Can they write? B: Yes, they can."
         }
       ],
       "accept": [
-        "Can you play golf?|Yes, I can.",
-        "Can she drive a car?|No, she can't.",
-        "Can he kick the ball?|Yes, he can.",
-        "Can they jump?|No, they can't.",
-        "Can it climb the tree?|Yes, it can.",
-        "Can he count?|No, he can't.",
-        "Can they write?|Yes, they can."
+        "골프를 칠 수 있니?|A: Can you play golf? B: Yes, I can.",
+        "그녀는 운전할 수 있니?|A: Can she drive a car? B: No, she can't.",
+        "그는 공을 찰 수 있니?|A: Can he kick the ball? B: Yes, he can.",
+        "그들은 뛸 수 있니?|A: Can they jump? B: No, they can't.",
+        "그것은 나무를 올라갈 수 있니?|A: Can it climb the tree? B: Yes, it can.",
+        "그는 셀 수 있니?|A: Can he count? B: No, he can't.",
+        "그들은 쓸 수 있니?|A: Can they write? B: Yes, they can."
       ],
       "promptKo": "대화 1–7"
     },
@@ -181,22 +181,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "Can Tom make gimbap?",
-          "right": "Yes, he can."
+          "left": "톰은 김밥을 만들 수 있니?",
+          "right": "A: Can Tom make gimbap? B: Yes, he can."
         },
         {
-          "left": "Can your sister dive?",
-          "right": "No, she can't."
+          "left": "네 여동생은 다이빙할 수 있니?",
+          "right": "A: Can your sister dive? B: No, she can't."
         },
         {
-          "left": "Can the kids play chess?",
-          "right": "No, they can't."
+          "left": "아이들은 체스를 할 수 있니?",
+          "right": "A: Can the kids play chess? B: No, they can't."
         }
       ],
       "accept": [
-        "Can Tom make gimbap?|Yes, he can.",
-        "Can your sister dive?|No, she can't.",
-        "Can the kids play chess?|No, they can't."
+        "톰은 김밥을 만들 수 있니?|A: Can Tom make gimbap? B: Yes, he can.",
+        "네 여동생은 다이빙할 수 있니?|A: Can your sister dive? B: No, she can't.",
+        "아이들은 체스를 할 수 있니?|A: Can the kids play chess? B: No, they can't."
       ],
       "promptKo": "대화 8–10"
     }

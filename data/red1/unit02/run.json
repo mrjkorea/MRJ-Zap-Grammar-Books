@@ -53,29 +53,29 @@
       "type": "match",
       "pairs": [
         {
-          "left": "pencil",
-          "right": "사물"
+          "left": "연필",
+          "right": "pencil"
         },
         {
-          "left": "bag",
-          "right": "사물"
+          "left": "가방",
+          "right": "bag"
         },
         {
-          "left": "dog",
-          "right": "동물·식물"
+          "left": "개",
+          "right": "dog"
         },
         {
-          "left": "flower",
-          "right": "동물·식물"
+          "left": "꽃",
+          "right": "flower"
         }
       ],
       "accept": [
-        "pencil|사물",
-        "bag|사물",
-        "dog|동물·식물",
-        "flower|동물·식물"
+        "연필|pencil",
+        "가방|bag",
+        "개|dog",
+        "꽃|flower"
       ],
-      "promptKo": "pencil, bag, dog, flower"
+      "promptKo": "연필, 가방, 개, 꽃"
     },
     {
       "id": "a02",
@@ -88,29 +88,29 @@
       "type": "match",
       "pairs": [
         {
-          "left": "peace",
-          "right": "안 보이는 것"
+          "left": "평화",
+          "right": "peace"
         },
         {
-          "left": "love",
-          "right": "안 보이는 것"
+          "left": "사랑",
+          "right": "love"
         },
         {
-          "left": "house",
-          "right": "장소"
+          "left": "집",
+          "right": "house"
         },
         {
-          "left": "room",
-          "right": "장소"
+          "left": "방",
+          "right": "room"
         }
       ],
       "accept": [
-        "peace|안 보이는 것",
-        "love|안 보이는 것",
-        "house|장소",
-        "room|장소"
+        "평화|peace",
+        "사랑|love",
+        "집|house",
+        "방|room"
       ],
-      "promptKo": "peace, love, house, room"
+      "promptKo": "평화, 사랑, 집, 방"
     },
     {
       "id": "b01",

@@ -45,42 +45,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "1. 나는 행복하다.",
-          "right": "1. I am happy."
+          "left": "나는 행복하다.",
+          "right": "I am happy."
         },
         {
-          "left": "2. 너는 행복하다.",
-          "right": "2. You are happy."
+          "left": "너는 행복하다.",
+          "right": "You are happy."
         },
         {
-          "left": "3. 그는 슬프다.",
-          "right": "3. He is sad."
+          "left": "그는 슬프다.",
+          "right": "He is sad."
         },
         {
-          "left": "4. 그녀는 슬프다.",
-          "right": "4. She is sad."
+          "left": "그녀는 슬프다.",
+          "right": "She is sad."
         },
         {
-          "left": "5. 그것은 마르다.",
-          "right": "5. It is thin."
+          "left": "그것은 마르다.",
+          "right": "It is thin."
         },
         {
-          "left": "6. 우리는 마르다.",
-          "right": "6. We are thin."
+          "left": "우리는 마르다.",
+          "right": "We are thin."
         },
         {
-          "left": "7. 그들은 게으르다.",
-          "right": "7. They are lazy."
+          "left": "그들은 게으르다.",
+          "right": "They are lazy."
         }
       ],
       "accept": [
-        "1. 나는 행복하다.|1. I am happy.",
-        "2. 너는 행복하다.|2. You are happy.",
-        "3. 그는 슬프다.|3. He is sad.",
-        "4. 그녀는 슬프다.|4. She is sad.",
-        "5. 그것은 마르다.|5. It is thin.",
-        "6. 우리는 마르다.|6. We are thin.",
-        "7. 그들은 게으르다.|7. They are lazy."
+        "나는 행복하다.|I am happy.",
+        "너는 행복하다.|You are happy.",
+        "그는 슬프다.|He is sad.",
+        "그녀는 슬프다.|She is sad.",
+        "그것은 마르다.|It is thin.",
+        "우리는 마르다.|We are thin.",
+        "그들은 게으르다.|They are lazy."
       ],
       "promptKo": "문장 1–7"
     },
@@ -95,22 +95,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "8. 너는 게으르다.",
-          "right": "8. You are lazy."
+          "left": "너는 게으르다.",
+          "right": "You are lazy."
         },
         {
-          "left": "9. 그녀는 부지런하다.",
-          "right": "9. She is diligent."
+          "left": "그녀는 부지런하다.",
+          "right": "She is diligent."
         },
         {
-          "left": "10. 그는 부지런하다.",
-          "right": "10. He is diligent."
+          "left": "그는 부지런하다.",
+          "right": "He is diligent."
         }
       ],
       "accept": [
-        "8. 너는 게으르다.|8. You are lazy.",
-        "9. 그녀는 부지런하다.|9. She is diligent.",
-        "10. 그는 부지런하다.|10. He is diligent."
+        "너는 게으르다.|You are lazy.",
+        "그녀는 부지런하다.|She is diligent.",
+        "그는 부지런하다.|He is diligent."
       ],
       "promptKo": "문장 8–10"
     },
@@ -125,42 +125,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "1. 나는 너를 좋아한다.",
-          "right": "1. I like you."
+          "left": "나는 너를 좋아한다.",
+          "right": "I like you."
         },
         {
-          "left": "2. 나는 그를 좋아한다.",
-          "right": "2. I like him."
+          "left": "나는 그를 좋아한다.",
+          "right": "I like him."
         },
         {
-          "left": "3. 너는 그녀를 좋아한다.",
-          "right": "3. You like her."
+          "left": "너는 그녀를 좋아한다.",
+          "right": "You like her."
         },
         {
-          "left": "4. 너는 나를 좋아한다.",
-          "right": "4. You like me."
+          "left": "너는 나를 좋아한다.",
+          "right": "You like me."
         },
         {
-          "left": "5. 그들은 그것을 사랑한다.",
-          "right": "5. They love it."
+          "left": "그들은 그것을 사랑한다.",
+          "right": "They love it."
         },
         {
-          "left": "6. 그들은 우리를 사랑한다.",
-          "right": "6. They love us."
+          "left": "그들은 우리를 사랑한다.",
+          "right": "They love us."
         },
         {
-          "left": "7. 우리는 너를 사랑한다.",
-          "right": "7. We love you."
+          "left": "우리는 너를 사랑한다.",
+          "right": "We love you."
         }
       ],
       "accept": [
-        "1. 나는 너를 좋아한다.|1. I like you.",
-        "2. 나는 그를 좋아한다.|2. I like him.",
-        "3. 너는 그녀를 좋아한다.|3. You like her.",
-        "4. 너는 나를 좋아한다.|4. You like me.",
-        "5. 그들은 그것을 사랑한다.|5. They love it.",
-        "6. 그들은 우리를 사랑한다.|6. They love us.",
-        "7. 우리는 너를 사랑한다.|7. We love you."
+        "나는 너를 좋아한다.|I like you.",
+        "나는 그를 좋아한다.|I like him.",
+        "너는 그녀를 좋아한다.|You like her.",
+        "너는 나를 좋아한다.|You like me.",
+        "그들은 그것을 사랑한다.|They love it.",
+        "그들은 우리를 사랑한다.|They love us.",
+        "우리는 너를 사랑한다.|We love you."
       ],
       "promptKo": "문장 1–7"
     },
@@ -175,22 +175,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "8. 우리는 그들을 매일 방문한다.",
-          "right": "8. We visit them every day."
+          "left": "우리는 그들을 매일 방문한다.",
+          "right": "We visit them every day."
         },
         {
-          "left": "9. 학생들은 그를 매일 방문한다.",
-          "right": "9. The students visit him every day."
+          "left": "학생들은 그를 매일 방문한다.",
+          "right": "The students visit him every day."
         },
         {
-          "left": "10. 학생들은 그녀를 매일 방문한다.",
-          "right": "10. The students visit her every day."
+          "left": "학생들은 그녀를 매일 방문한다.",
+          "right": "The students visit her every day."
         }
       ],
       "accept": [
-        "8. 우리는 그들을 매일 방문한다.|8. We visit them every day.",
-        "9. 학생들은 그를 매일 방문한다.|9. The students visit him every day.",
-        "10. 학생들은 그녀를 매일 방문한다.|10. The students visit her every day."
+        "우리는 그들을 매일 방문한다.|We visit them every day.",
+        "학생들은 그를 매일 방문한다.|The students visit him every day.",
+        "학생들은 그녀를 매일 방문한다.|The students visit her every day."
       ],
       "promptKo": "문장 8–10"
     }

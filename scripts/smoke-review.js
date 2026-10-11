@@ -69,9 +69,17 @@ const fail = (...a) => {
   console.log("FAIL", ...a);
 };
 
-function listUnitDirs(book) {
+function listJsonDirs(book) {
   const base = path.join(DATA, book);
+  if (!fs.existsSync(base)) return [];
   if (book === "green3") return [path.join(base, "unit01")];
+  if (book === "red1" || book === "red2") {
+    return fs
+      .readdirSync(base)
+      .filter((d) => fs.statSync(path.join(base, d)).isDirectory())
+      .sort()
+      .map((d) => path.join(base, d));
+  }
   return fs
     .readdirSync(base)
     .filter((d) => /^unit\d{2}$/.test(d))
@@ -79,8 +87,8 @@ function listUnitDirs(book) {
     .map((d) => path.join(base, d));
 }
 
-for (const book of ["green1", "green3"]) {
-  for (const dir of listUnitDirs(book)) {
+for (const book of ["green1", "green3", "red1", "red2"]) {
+  for (const dir of listJsonDirs(book)) {
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json")).sort()) {
     const where = path.relative(path.join(DATA, book), dir) + "/" + f;
     const practice = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
@@ -97,6 +105,7 @@ for (const book of ["green1", "green3"]) {
       fail(where, "missing student answer label");
     }
     graded.forEach((it) => {
+      if (it.type === "match") return;
       if (it.sectionInstructionKo && !text.includes(it.sectionInstructionKo)) {
         fail(where, it.id, "missing sectionInstructionKo");
       }
@@ -134,9 +143,13 @@ for (const book of ["green1", "green3"]) {
       }
     });
 
+    const expectedRows = graded.reduce((n, it) => {
+      if (it.type === "match") return n + (it.pairs || []).length;
+      return n + 1;
+    }, 0);
     const rows = R.collectWrongRows(practice, responses, results);
-    if (rows.length !== graded.length) {
-      fail(where, "row count", rows.length, "!=", graded.length);
+    if (rows.length !== expectedRows) {
+      fail(where, "row count", rows.length, "!=", expectedRows);
     }
   }
   }
@@ -146,4 +159,4 @@ if (bad) {
   console.log("FAILURES: " + bad);
   process.exit(1);
 }
-console.log("smoke-review OK — wrong review text has answers + instructions, no accept leaks (green1 + green3)");
+console.log("smoke-review OK — wrong review text has answers + instructions, no accept leaks (green1, green3, red1, red2)");

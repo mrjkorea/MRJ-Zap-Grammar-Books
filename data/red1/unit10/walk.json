@@ -125,42 +125,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "Is this an orange?",
-          "right": "Yes, it is."
+          "left": "이것은 오렌지입니까?",
+          "right": "A: Is this an orange? B: Yes, it is."
         },
         {
-          "left": "Is that an iguana?",
-          "right": "No, it isn't."
+          "left": "저것은 이구아나입니까?",
+          "right": "A: Is that an iguana? B: No, it isn't."
         },
         {
-          "left": "Are these kangaroos?",
-          "right": "Yes, they are."
+          "left": "이것들은 캥거루입니까?",
+          "right": "A: Are these kangaroos? B: Yes, they are."
         },
         {
-          "left": "Are those crayons?",
-          "right": "No, they aren't."
+          "left": "저것들은 크레용입니까?",
+          "right": "A: Are those crayons? B: No, they aren't."
         },
         {
-          "left": "Is this your ink?",
-          "right": "No, it isn't."
+          "left": "이것은 네 잉크입니까?",
+          "right": "A: Is this your ink? B: No, it isn't."
         },
         {
-          "left": "Is that your scarf?",
-          "right": "Yes, it is."
+          "left": "저것은 네 스카프입니까?",
+          "right": "A: Is that your scarf? B: Yes, it is."
         },
         {
-          "left": "Are these your shoes?",
-          "right": "No, they aren't."
+          "left": "이것들은 네 신발입니까?",
+          "right": "A: Are these your shoes? B: No, they aren't."
         }
       ],
       "accept": [
-        "Is this an orange?|Yes, it is.",
-        "Is that an iguana?|No, it isn't.",
-        "Are these kangaroos?|Yes, they are.",
-        "Are those crayons?|No, they aren't.",
-        "Is this your ink?|No, it isn't.",
-        "Is that your scarf?|Yes, it is.",
-        "Are these your shoes?|No, they aren't."
+        "이것은 오렌지입니까?|A: Is this an orange? B: Yes, it is.",
+        "저것은 이구아나입니까?|A: Is that an iguana? B: No, it isn't.",
+        "이것들은 캥거루입니까?|A: Are these kangaroos? B: Yes, they are.",
+        "저것들은 크레용입니까?|A: Are those crayons? B: No, they aren't.",
+        "이것은 네 잉크입니까?|A: Is this your ink? B: No, it isn't.",
+        "저것은 네 스카프입니까?|A: Is that your scarf? B: Yes, it is.",
+        "이것들은 네 신발입니까?|A: Are these your shoes? B: No, they aren't."
       ],
       "promptKo": "대화 1–7"
     },
@@ -175,22 +175,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "Are those your socks?",
-          "right": "Yes, they are."
+          "left": "저것들은 네 양말입니까?",
+          "right": "A: Are those your socks? B: Yes, they are."
         },
         {
-          "left": "Is that your skirt?",
-          "right": "No, it isn't."
+          "left": "저것은 네 치마입니까?",
+          "right": "A: Is that your skirt? B: No, it isn't."
         },
         {
-          "left": "Are those your pants?",
-          "right": "No, they aren't."
+          "left": "저것들은 네 바지입니까?",
+          "right": "A: Are those your pants? B: No, they aren't."
         }
       ],
       "accept": [
-        "Are those your socks?|Yes, they are.",
-        "Is that your skirt?|No, it isn't.",
-        "Are those your pants?|No, they aren't."
+        "저것들은 네 양말입니까?|A: Are those your socks? B: Yes, they are.",
+        "저것은 네 치마입니까?|A: Is that your skirt? B: No, it isn't.",
+        "저것들은 네 바지입니까?|A: Are those your pants? B: No, they aren't."
       ],
       "promptKo": "대화 8–10"
     }

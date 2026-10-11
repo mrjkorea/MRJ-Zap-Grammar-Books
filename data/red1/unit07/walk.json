@@ -45,42 +45,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "1. 내 다리는 길다.",
-          "right": "My"
+          "left": "내 다리는 길다.",
+          "right": "My legs are long."
         },
         {
-          "left": "2. 네 다리는 길다.",
-          "right": "Your"
+          "left": "네 다리는 길다.",
+          "right": "Your legs are long."
         },
         {
-          "left": "3. 그것의 다리는 짧다.",
-          "right": "Its"
+          "left": "그것의 다리는 짧다.",
+          "right": "Its legs are short."
         },
         {
-          "left": "4. 그들의 다리는 짧다.",
-          "right": "Their"
+          "left": "그들의 다리는 짧다.",
+          "right": "Their legs are short."
         },
         {
-          "left": "5. 그의 고양이는 귀엽다.",
-          "right": "His"
+          "left": "그의 고양이는 귀엽다.",
+          "right": "His cat is cute."
         },
         {
-          "left": "6. 그녀의 고양이는 귀엽다.",
-          "right": "Her"
+          "left": "그녀의 고양이는 귀엽다.",
+          "right": "Her cat is cute."
         },
         {
-          "left": "7. 그는 우리의 오빠이다.",
-          "right": "our"
+          "left": "그는 우리의 오빠이다.",
+          "right": "He is our brother."
         }
       ],
       "accept": [
-        "1. 내 다리는 길다.|My",
-        "2. 네 다리는 길다.|Your",
-        "3. 그것의 다리는 짧다.|Its",
-        "4. 그들의 다리는 짧다.|Their",
-        "5. 그의 고양이는 귀엽다.|His",
-        "6. 그녀의 고양이는 귀엽다.|Her",
-        "7. 그는 우리의 오빠이다.|our"
+        "내 다리는 길다.|My legs are long.",
+        "네 다리는 길다.|Your legs are long.",
+        "그것의 다리는 짧다.|Its legs are short.",
+        "그들의 다리는 짧다.|Their legs are short.",
+        "그의 고양이는 귀엽다.|His cat is cute.",
+        "그녀의 고양이는 귀엽다.|Her cat is cute.",
+        "그는 우리의 오빠이다.|He is our brother."
       ],
       "promptKo": "문장 1–7"
     },
@@ -95,22 +95,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "8. 그녀는 그들의 언니이다.",
-          "right": "their"
+          "left": "그녀는 그들의 언니이다.",
+          "right": "She is their sister."
         },
         {
-          "left": "9. 그들은 네 형제이다.",
-          "right": "your"
+          "left": "그들은 네 형제이다.",
+          "right": "They are your brothers."
         },
         {
-          "left": "10. 그들은 그녀의 자매이다.",
-          "right": "her"
+          "left": "그들은 그녀의 자매이다.",
+          "right": "They are her sisters."
         }
       ],
       "accept": [
-        "8. 그녀는 그들의 언니이다.|their",
-        "9. 그들은 네 형제이다.|your",
-        "10. 그들은 그녀의 자매이다.|her"
+        "그녀는 그들의 언니이다.|She is their sister.",
+        "그들은 네 형제이다.|They are your brothers.",
+        "그들은 그녀의 자매이다.|They are her sisters."
       ],
       "promptKo": "문장 8–10"
     },
@@ -125,42 +125,42 @@
       "type": "match",
       "pairs": [
         {
-          "left": "1. 이것은 네 것이다.",
-          "right": "yours"
+          "left": "이것은 네 것이다.",
+          "right": "This is yours."
         },
         {
-          "left": "2. 저것은 내 것이다.",
-          "right": "mine"
+          "left": "저것은 내 것이다.",
+          "right": "That is mine."
         },
         {
-          "left": "3. 그 연은 그녀의 것이다.",
-          "right": "hers"
+          "left": "그 연은 그녀의 것이다.",
+          "right": "That kite is hers."
         },
         {
-          "left": "4. 그 연은 그의 것이다.",
-          "right": "his"
+          "left": "그 연은 그의 것이다.",
+          "right": "That kite is his."
         },
         {
-          "left": "5. 이 공은 우리의 것이다.",
-          "right": "ours"
+          "left": "이 공은 우리의 것이다.",
+          "right": "This ball is ours."
         },
         {
-          "left": "6. 저 공은 그들의 것이다.",
-          "right": "theirs"
+          "left": "저 공은 그들의 것이다.",
+          "right": "That ball is theirs."
         },
         {
-          "left": "7. 이 북들은 우리의 것이다.",
-          "right": "ours"
+          "left": "이 북들은 우리의 것이다.",
+          "right": "These drums are ours."
         }
       ],
       "accept": [
-        "1. 이것은 네 것이다.|yours",
-        "2. 저것은 내 것이다.|mine",
-        "3. 그 연은 그녀의 것이다.|hers",
-        "4. 그 연은 그의 것이다.|his",
-        "5. 이 공은 우리의 것이다.|ours",
-        "6. 저 공은 그들의 것이다.|theirs",
-        "7. 이 북들은 우리의 것이다.|ours"
+        "이것은 네 것이다.|This is yours.",
+        "저것은 내 것이다.|That is mine.",
+        "그 연은 그녀의 것이다.|That kite is hers.",
+        "그 연은 그의 것이다.|That kite is his.",
+        "이 공은 우리의 것이다.|This ball is ours.",
+        "저 공은 그들의 것이다.|That ball is theirs.",
+        "이 북들은 우리의 것이다.|These drums are ours."
       ],
       "promptKo": "문장 1–7"
     },
@@ -175,22 +175,22 @@
       "type": "match",
       "pairs": [
         {
-          "left": "8. 저 북들은 너희의 것이다.",
-          "right": "yours"
+          "left": "저 북들은 너희의 것이다.",
+          "right": "Those drums are yours."
         },
         {
-          "left": "9. 이 로봇들은 내 것이다.",
-          "right": "mine"
+          "left": "이 로봇들은 내 것이다.",
+          "right": "These robots are mine."
         },
         {
-          "left": "10. 저 로봇들은 그녀의 것이다.",
-          "right": "hers"
+          "left": "저 로봇들은 그녀의 것이다.",
+          "right": "Those robots are hers."
         }
       ],
       "accept": [
-        "8. 저 북들은 너희의 것이다.|yours",
-        "9. 이 로봇들은 내 것이다.|mine",
-        "10. 저 로봇들은 그녀의 것이다.|hers"
+        "저 북들은 너희의 것이다.|Those drums are yours.",
+        "이 로봇들은 내 것이다.|These robots are mine.",
+        "저 로봇들은 그녀의 것이다.|Those robots are hers."
       ],
       "promptKo": "문장 8–10"
     }

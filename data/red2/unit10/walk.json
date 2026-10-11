@@ -173,32 +173,32 @@
       "type": "match",
       "pairs": [
         {
-          "left": "Let's go swimming.",
-          "right": "OK!"
+          "left": "수영하러 가자.",
+          "right": "A: Let's go swimming. B: OK!"
         },
         {
-          "left": "Let's make sandwiches.",
-          "right": "Yes!"
+          "left": "샌드위치를 만들자.",
+          "right": "A: Let's make sandwiches. B: Yes!"
         },
         {
-          "left": "Let's play chess.",
-          "right": "Sure."
+          "left": "체스를 두자.",
+          "right": "A: Let's play chess. B: Sure."
         },
         {
-          "left": "Let's jump rope.",
-          "right": "All right."
+          "left": "줄넘기를 하자.",
+          "right": "A: Let's jump rope. B: All right."
         },
         {
-          "left": "Let's sing together.",
-          "right": "Sure."
+          "left": "함께 노래하자.",
+          "right": "A: Let's sing together. B: Sure. (sing)"
         }
       ],
       "accept": [
-        "Let's go swimming.|OK!",
-        "Let's make sandwiches.|Yes!",
-        "Let's play chess.|Sure.",
-        "Let's jump rope.|All right.",
-        "Let's sing together.|Sure."
+        "수영하러 가자.|A: Let's go swimming. B: OK!",
+        "샌드위치를 만들자.|A: Let's make sandwiches. B: Yes!",
+        "체스를 두자.|A: Let's play chess. B: Sure.",
+        "줄넘기를 하자.|A: Let's jump rope. B: All right.",
+        "함께 노래하자.|A: Let's sing together. B: Sure. (sing)"
       ]
     }
   ],

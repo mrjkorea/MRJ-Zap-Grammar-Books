@@ -115,11 +115,23 @@ Deep link example: `#/p/zap-green-4/unit-01/walk1`
 
 **ZAP Green 1–4** full books are active in the index (build `20261009-gz34-full`).
 
-### RedZap 1 — Unit 01 (알파벳과 수 세기)
+### RedZap 1 & 2 (full books)
 
-**RedZap 1** catalog id **`zap-red-1`**, build **`20261011-red1-u01`**. Unit 01: **6 practices**, **127 graded items** (Walk uses **46 match pairs** for scoring). See `docs/format/red1-unit01.md`.
+**RedZap 1** (`zap-red-1`) and **RedZap 2** (`zap-red-2`) are enabled in the catalog. Build **`20261011-red-full`**.
 
-Deep link: `#/p/zap-red-1/unit-01/walk`
+| Book | Practices | Graded items | Walk match pairs |
+|------|-----------|--------------|------------------|
+| ZAP Red 1 | 66 | 841 | 237 |
+| ZAP Red 2 | 66 | 812 | 210 |
+
+See **`PROOF-RZ.md`** for per-unit tables, PR list, and test results. Format notes: `docs/format/FORMAT-RED.md`.
+
+Deep links: `#/p/zap-red-1/unit-01/walk`, `#/p/zap-red-2/unit-01/walk`
+
+```bash
+node scripts/check-red-rules.js
+node scripts/e2e-red-full-browser.js   # all Red practices (Playwright)
+```
 
 ## Student rules
 

@@ -1,4 +1,4 @@
 (function (root) {
   "use strict";
-  root.MRJ_ZAP_BUILD = "20261011-red1-u01";
+  root.MRJ_ZAP_BUILD = "20261011-red-full";
 })(typeof window !== "undefined" ? window : globalThis);
