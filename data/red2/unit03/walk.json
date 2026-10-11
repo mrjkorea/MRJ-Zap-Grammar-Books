@@ -1,0 +1,198 @@
+{
+  "practiceId": "r2:u03:walk",
+  "title": "Grammar Walk",
+  "subtitle": "형용사 따라쓰기 (p. 44–45)",
+  "pages": "44–45",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(형용사·뜻 짝 맞추기), Section B 2문항(문장·형용사 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 형용사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 형용사와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장과 알맞은 형용사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 형용사와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "big",
+          "right": "큰"
+        },
+        {
+          "left": "small",
+          "right": "작은"
+        },
+        {
+          "left": "fast",
+          "right": "빠른"
+        },
+        {
+          "left": "slow",
+          "right": "느린"
+        },
+        {
+          "left": "black",
+          "right": "검은, 검은색의"
+        },
+        {
+          "left": "white",
+          "right": "흰, 흰색의"
+        },
+        {
+          "left": "cool",
+          "right": "시원한"
+        }
+      ],
+      "accept": [
+        "big|큰",
+        "small|작은",
+        "fast|빠른",
+        "slow|느린",
+        "black|검은, 검은색의",
+        "white|흰, 흰색의",
+        "cool|시원한"
+      ],
+      "promptKo": "형용사 A–G"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사의 뜻을 생각하며 단어를 따라 써 보세요. 영어 형용사와 우리말 뜻을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "warm",
+          "right": "따뜻한"
+        },
+        {
+          "left": "happy",
+          "right": "행복한"
+        },
+        {
+          "left": "sad",
+          "right": "슬픈"
+        }
+      ],
+      "accept": [
+        "warm|따뜻한",
+        "happy|행복한",
+        "sad|슬픈"
+      ],
+      "promptKo": "형용사 H–J"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장과 알맞은 형용사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "You have a ___ pencil.",
+          "right": "long"
+        },
+        {
+          "left": "You have a ___ crayon.",
+          "right": "red"
+        },
+        {
+          "left": "She likes her ___ bike.",
+          "right": "old"
+        },
+        {
+          "left": "He likes his ___ bike.",
+          "right": "new"
+        },
+        {
+          "left": "My mom is ___.",
+          "right": "tall"
+        },
+        {
+          "left": "My dad is ___.",
+          "right": "short"
+        },
+        {
+          "left": "It is ___. (비가 많이 오는)",
+          "right": "rainy"
+        }
+      ],
+      "accept": [
+        "You have a ___ pencil.|long",
+        "You have a ___ crayon.|red",
+        "She likes her ___ bike.|old",
+        "He likes his ___ bike.|new",
+        "My mom is ___.|tall",
+        "My dad is ___.|short",
+        "It is ___. (비가 많이 오는)|rainy"
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 형용사를 따라 써 보세요. 문장과 알맞은 형용사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "It is ___. (바람이 많이 부는)",
+          "right": "windy"
+        },
+        {
+          "left": "Your cat is ___. (뚱뚱한)",
+          "right": "fat"
+        },
+        {
+          "left": "Your cat is ___. (못생긴)",
+          "right": "ugly"
+        }
+      ],
+      "accept": [
+        "It is ___. (바람이 많이 부는)|windy",
+        "Your cat is ___. (뚱뚱한)|fat",
+        "Your cat is ___. (못생긴)|ugly"
+      ],
+      "promptKo": "문장 8–10"
+    }
+  ]
+}

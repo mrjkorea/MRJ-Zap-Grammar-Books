@@ -1,0 +1,74 @@
+{
+  "practiceId": "r2:u03:quiz4",
+  "title": "QUIZ 4 — 형용사 위치",
+  "subtitle": "문장 안 위치 (p. 53)",
+  "pages": "53",
+  "timerMinutes": 10,
+  "introKo": "만화는 채점하지 않습니다. 표 빈칸 3문항입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "QUIZ 4",
+      "instructionKo": "다음 표의 빈칸에 알맞은 말을 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "A",
+      "sectionTitle": "QUIZ 4",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 말을 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "a/an/the + ___ + 명사 (무엇이 들어가나요?)",
+      "blanks": 1,
+      "accept": [
+        "형용사",
+        "adjective"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "A",
+      "sectionTitle": "QUIZ 4",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 말을 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "소유격/지시형용사 + 형용사 + ___",
+      "blanks": 1,
+      "accept": [
+        "명사",
+        "noun"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "A",
+      "sectionTitle": "QUIZ 4",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 말을 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "주어 + be동사 + ___",
+      "blanks": 1,
+      "accept": [
+        "형용사",
+        "adjective"
+      ]
+    }
+  ]
+}
