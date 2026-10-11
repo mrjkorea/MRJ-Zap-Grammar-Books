@@ -1,0 +1,367 @@
+{
+  "practiceId": "r2:u05:run",
+  "title": "Grammar Run",
+  "subtitle": "의문사 찾기 · 우리말 뜻 (p. 78–79)",
+  "pages": "78–79",
+  "timerMinutes": 15,
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 의문사 (1)",
+  "introKo": "Section A 9문항(예시 1개), Section B 10문항(우리말 뜻)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 10,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Who is that woman?",
+      "blanks": 1,
+      "accept": [
+        "who"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Who"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Where is his car?",
+      "blanks": 1,
+      "accept": [
+        "where"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "How is your mother?",
+      "blanks": 1,
+      "accept": [
+        "how"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Why are you so tired?",
+      "blanks": 1,
+      "accept": [
+        "why"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "How do you go to school?",
+      "blanks": 1,
+      "accept": [
+        "how"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "When do you go to bed?",
+      "blanks": 1,
+      "accept": [
+        "when"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "What do you do after school?",
+      "blanks": 1,
+      "accept": [
+        "what"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Where does your puppy sleep?",
+      "blanks": 1,
+      "accept": [
+        "where"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "What does Yumi do on Sunday?",
+      "blanks": 1,
+      "accept": [
+        "what"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 의문사를 찾아 동그라미 하세요. 문장 맨 앞 의문사 한 단어만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Why do you like Park Jisung?",
+      "blanks": 1,
+      "accept": [
+        "why"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "Who is Sam?",
+      "blanks": 1,
+      "accept": [
+        "누구"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "When is the picnic?",
+      "blanks": 1,
+      "accept": [
+        "언제"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Where are my pants?",
+      "blanks": 1,
+      "accept": [
+        "어디",
+        "어디에",
+        "어디서"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "How are your parents?",
+      "blanks": 1,
+      "accept": [
+        "어떻게"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "What are these?",
+      "blanks": 1,
+      "accept": [
+        "무엇",
+        "뭐"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Why are you late?",
+      "blanks": 1,
+      "accept": [
+        "왜"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "When do you go to the pool?",
+      "blanks": 1,
+      "accept": [
+        "언제"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Why do you like me?",
+      "blanks": 1,
+      "accept": [
+        "왜"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "What does she eat for lunch?",
+      "blanks": 1,
+      "accept": [
+        "무엇",
+        "뭐"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 의문사의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "Where does Judy play tennis?",
+      "blanks": 1,
+      "accept": [
+        "어디",
+        "어디에",
+        "어디서"
+      ]
+    }
+  ]
+}

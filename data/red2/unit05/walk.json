@@ -1,0 +1,203 @@
+{
+  "practiceId": "r2:u05:walk",
+  "title": "Grammar Walk",
+  "subtitle": "의문사 · 의문문 따라쓰기 (p. 76–77)",
+  "pages": "76–77",
+  "timerMinutes": 15,
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 의문사 (1)",
+  "introKo": "Section A 2문항(7+3쌍), Section B 2문항(7+3쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 뜻을 생각하며 의문사를 따라 써 보세요. 우리말 문장과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 우리말 문장과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 의문사를 따라 써 보세요. 우리말 문장과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "저 소년은 누구니?",
+          "right": "Who is the boy?"
+        },
+        {
+          "left": "샘은 왜 그렇게 슬프니?",
+          "right": "Why is Sam so sad?"
+        },
+        {
+          "left": "네 생일은 언제니?",
+          "right": "When is your birthday?"
+        },
+        {
+          "left": "네 집은 어디에 있니?",
+          "right": "Where is your house?"
+        },
+        {
+          "left": "네 조부모님은 어떻게 지내니?",
+          "right": "How are your grandparents?"
+        },
+        {
+          "left": "그녀는 어디에 살니?",
+          "right": "Where does she live?"
+        },
+        {
+          "left": "너는 무엇을 가지고 있니?",
+          "right": "What do you have?"
+        }
+      ],
+      "accept": [
+        "저 소년은 누구니?|Who is the boy?",
+        "샘은 왜 그렇게 슬프니?|Why is Sam so sad?",
+        "네 생일은 언제니?|When is your birthday?",
+        "네 집은 어디에 있니?|Where is your house?",
+        "네 조부모님은 어떻게 지내니?|How are your grandparents?",
+        "그녀는 어디에 살니?|Where does she live?",
+        "너는 무엇을 가지고 있니?|What do you have?"
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 의문사를 따라 써 보세요. 우리말 문장과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "그들은 언제 일어나니?",
+          "right": "When do they get up?"
+        },
+        {
+          "left": "앨리스는 어떻게 학교에 가니?",
+          "right": "How does Alice go to school?"
+        },
+        {
+          "left": "산다라는 왜 그에게 전화하니?",
+          "right": "Why does Sandara call him?"
+        }
+      ],
+      "accept": [
+        "그들은 언제 일어나니?|When do they get up?",
+        "앨리스는 어떻게 학교에 가니?|How does Alice go to school?",
+        "산다라는 왜 그에게 전화하니?|Why does Sandara call him?"
+      ],
+      "promptKo": "문장 8–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 우리말 문장과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "그녀는 누구니?",
+          "right": "Who is she?"
+        },
+        {
+          "left": "저것은 무엇이니?",
+          "right": "What is that?"
+        },
+        {
+          "left": "시험은 언제니?",
+          "right": "When is the test?"
+        },
+        {
+          "left": "어떻게 지내니?",
+          "right": "How are you?"
+        },
+        {
+          "left": "그들은 왜 화가 났니?",
+          "right": "Why are they angry?"
+        },
+        {
+          "left": "그들의 크레용은 어디에 있니?",
+          "right": "Where are their crayons?"
+        },
+        {
+          "left": "판다는 어디에 살니?",
+          "right": "Where do pandas live?"
+        }
+      ],
+      "accept": [
+        "그녀는 누구니?|Who is she?",
+        "저것은 무엇이니?|What is that?",
+        "시험은 언제니?|When is the test?",
+        "어떻게 지내니?|How are you?",
+        "그들은 왜 화가 났니?|Why are they angry?",
+        "그들의 크레용은 어디에 있니?|Where are their crayons?",
+        "판다는 어디에 살니?|Where do pandas live?"
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 우리말 문장과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "원숭이는 무엇을 먹니?",
+          "right": "What does the monkey eat?"
+        },
+        {
+          "left": "그녀는 누구를 좋아하니?",
+          "right": "Who does she like?"
+        },
+        {
+          "left": "콘서트는 언제 시작하니?",
+          "right": "When does the concert begin?"
+        }
+      ],
+      "accept": [
+        "원숭이는 무엇을 먹니?|What does the monkey eat?",
+        "그녀는 누구를 좋아하니?|Who does she like?",
+        "콘서트는 언제 시작하니?|When does the concert begin?"
+      ],
+      "promptKo": "문장 8–10"
+    }
+  ]
+}
