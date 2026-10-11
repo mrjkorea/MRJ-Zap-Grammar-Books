@@ -370,11 +370,12 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "I am listening to music. ( listen )",
+      "promptEn": "I ______ ______ to music. ( listen )",
       "blanks": 2,
       "accept": [
         "am|listening"
       ],
+      "promptKo": "나는 음악을 듣고 있다.",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "am|listening"
@@ -392,7 +393,8 @@
       "blanks": 2,
       "accept": [
         "are|opening"
-      ]
+      ],
+      "promptKo": "너는 그 상자를 열고 있다."
     },
     {
       "id": "b03",
@@ -407,7 +409,8 @@
       "blanks": 2,
       "accept": [
         "is|doing"
-      ]
+      ],
+      "promptKo": "그녀는 숙제를 하고 있다."
     },
     {
       "id": "b04",
@@ -422,7 +425,8 @@
       "blanks": 2,
       "accept": [
         "are|making"
-      ]
+      ],
+      "promptKo": "그들은 눈사람을 만들고 있다."
     },
     {
       "id": "b05",
@@ -437,7 +441,8 @@
       "blanks": 2,
       "accept": [
         "are|sitting"
-      ]
+      ],
+      "promptKo": "우리는 소파 위에 앉아 있다."
     },
     {
       "id": "b06",
@@ -452,7 +457,8 @@
       "blanks": 2,
       "accept": [
         "is|riding"
-      ]
+      ],
+      "promptKo": "그는 말을 타고 있다."
     },
     {
       "id": "b07",
@@ -467,7 +473,8 @@
       "blanks": 2,
       "accept": [
         "is|lying"
-      ]
+      ],
+      "promptKo": "주디는 거짓말을 하고 있다."
     },
     {
       "id": "b08",
@@ -482,7 +489,8 @@
       "blanks": 2,
       "accept": [
         "is|tying"
-      ]
+      ],
+      "promptKo": "우리 삼촌은 넥타이를 매고 있다."
     },
     {
       "id": "b09",
@@ -497,7 +505,8 @@
       "blanks": 2,
       "accept": [
         "are|swimming"
-      ]
+      ],
+      "promptKo": "그의 여동생들은 수영장에서 수영을 하고 있다."
     },
     {
       "id": "b10",
@@ -512,7 +521,8 @@
       "blanks": 2,
       "accept": [
         "are|eating"
-      ]
+      ],
+      "promptKo": "그 요리사들은 케이크를 먹고 있다."
     }
   ]
 }

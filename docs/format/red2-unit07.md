@@ -23,7 +23,7 @@ Printed pages **104–117** (PDF **105–118**). **Excluded:** PDF 119 / `p0119`
 | run | `r2:u07:run` | 11 | A×9 words, B×2 match | words, match |
 | jump | `r2:u07:jump` | 19 | A×10 MC, B×9 MC | choice |
 | fly | `r2:u07:fly` | 28 | A×19 words, B×9 words (2 blanks) | words |
-| quiz1 | `r2:u07:quiz1` | 5 | A×5 | words |
+| quiz1 | `r2:u07:quiz1` | 5 (+1 example) | A×5 | words |
 | quiz2 | `r2:u07:quiz2` | 6 | A×6 | words |
 
 **73 graded items**; Walk/Run match sections contribute **30 pair-level** score points.

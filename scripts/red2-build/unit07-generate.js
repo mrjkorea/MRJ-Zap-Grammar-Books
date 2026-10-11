@@ -333,16 +333,21 @@ const flyVerbs = [
 ];
 
 const flyB = [
-  ["I am listening to music. ( listen )", "am|listening", true],
-  ["You ______ ______ the box. ( open )", "are|opening"],
-  ["She ______ ______ her homework. ( do )", "is|doing"],
-  ["They ______ ______ a snowman. ( make )", "are|making"],
-  ["We ______ ______ on the sofa. ( sit )", "are|sitting"],
-  ["He ______ ______ a horse. ( ride )", "is|riding"],
-  ["Judy ______ ______ . ( lie )", "is|lying"],
-  ["My uncle ______ ______ a necktie. ( tie )", "is|tying"],
-  ["His sisters ______ ______ in the pool. ( swim )", "are|swimming"],
-  ["The cooks ______ ______ the cake. ( eat )", "are|eating"],
+  ["I ______ ______ to music. ( listen )", "am|listening", true, "나는 음악을 듣고 있다."],
+  ["You ______ ______ the box. ( open )", "are|opening", false, "너는 그 상자를 열고 있다."],
+  ["She ______ ______ her homework. ( do )", "is|doing", false, "그녀는 숙제를 하고 있다."],
+  ["They ______ ______ a snowman. ( make )", "are|making", false, "그들은 눈사람을 만들고 있다."],
+  ["We ______ ______ on the sofa. ( sit )", "are|sitting", false, "우리는 소파 위에 앉아 있다."],
+  ["He ______ ______ a horse. ( ride )", "is|riding", false, "그는 말을 타고 있다."],
+  ["Judy ______ ______ . ( lie )", "is|lying", false, "주디는 거짓말을 하고 있다."],
+  ["My uncle ______ ______ a necktie. ( tie )", "is|tying", false, "우리 삼촌은 넥타이를 매고 있다."],
+  [
+    "His sisters ______ ______ in the pool. ( swim )",
+    "are|swimming",
+    false,
+    "그의 여동생들은 수영장에서 수영을 하고 있다.",
+  ],
+  ["The cooks ______ ______ the cake. ( eat )", "are|eating", false, "그 요리사들은 케이크를 먹고 있다."],
 ];
 
 write("fly.json", {
@@ -391,14 +396,15 @@ write("fly.json", {
       }
       return item;
     }),
-    ...flyB.map(([prompt, acc, ex], i) => {
+    ...flyB.map(([prompt, acc, ex, promptKo], i) => {
       const item = fill(
         `b${String(i + 1).padStart(2, "0")}`,
         "B",
         `B${i + 1}`,
         flyBInstr,
         prompt,
-        [acc]
+        [acc],
+        promptKo ? { promptKo } : {}
       );
       if (ex) {
         item.example = true;
@@ -412,6 +418,7 @@ write("fly.json", {
 
 const quiz1Instr = "다음 표의 빈칸에 알맞은 말을 쓰세요. be동사만 쓰세요.";
 const quiz1Rows = [
+  ["I", "am", true],
   ["You", "are"],
   ["He / She / It / 단수명사", "is"],
   ["We", "are"],
@@ -434,19 +441,25 @@ write("quiz1.json", {
       answerMode: "words",
       answerModeTag: "Words · 빈칸 말만",
       itemCount: 5,
-      exampleCount: 0,
+      exampleCount: 1,
       labels: ["2", "3", "4", "5", "6"],
     },
   ],
-  items: quiz1Rows.map(([subj, ans], i) =>
-    fill(`q${String(i + 1).padStart(2, "0")}`, "A", String(i + 2), quiz1Instr, `주어: ${subj}`, [ans], {
-      promptKo: `표 빈칸 ${i + 2}`,
-    })
-  ),
+  items: quiz1Rows.map(([subj, ans, ex], i) => {
+    const label = String(i + 1);
+    const item = fill(`q${String(i + 1).padStart(2, "0")}`, "A", label, quiz1Instr, `주어: ${subj}`, [ans], {
+      promptKo: `표 빈칸 ${label}`,
+    });
+    if (ex) {
+      item.example = true;
+      item.displayOnly = true;
+      item.exampleAnswer = ans;
+    }
+    return item;
+  }),
 });
 
-const quiz2Instr =
-  "다음 표의 빈칸에 알맞은 「동사원형-ing」형을 쓰세요. 예시 동사만 보고 -ing 형을 쓰세요.";
+const quiz2Instr = "다음 표의 빈칸에 알맞은 「동사원형-ing」형을 쓰세요.";
 const quiz2Rows = [
   ["sleep →", "sleeping", true],
   ["stop →", "stopping"],
