@@ -1,0 +1,459 @@
+{
+  "practiceId": "r2:u06:run",
+  "title": "Grammar Run",
+  "subtitle": "what+명사 · how+형용사 찾기 (p. 92–93)",
+  "pages": "92–93",
+  "timerMinutes": 15,
+  "introKo": "Section A 9문항(고르기), B 9문항(고르기)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "A: What day is it today?\nB: It's Wednesday.",
+      "choices": [
+        "What day",
+        "day is",
+        "is it",
+        "it today?"
+      ],
+      "accept": [
+        "1"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What day"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "A: What time is it?\nB: It's ten o'clock.",
+      "choices": [
+        "What time",
+        "time is",
+        "is it?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "A: What color is the sky?\nB: It's blue.",
+      "choices": [
+        "What color",
+        "color is",
+        "is the",
+        "the sky?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "A: What time is it now?\nB: It's four o'clock.",
+      "choices": [
+        "What time",
+        "time is",
+        "is it",
+        "it now?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "A: What day is it today?\nB: It's Saturday.",
+      "choices": [
+        "What day",
+        "day is",
+        "is it",
+        "it today?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "A: What color is the apple?\nB: It's red.",
+      "choices": [
+        "What color",
+        "color is",
+        "is the",
+        "the apple?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "A: What day is it today?\nB: It's Thursday.",
+      "choices": [
+        "What day",
+        "day is",
+        "is it",
+        "it today?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "A: What color is the rabbit?\nB: It's white.",
+      "choices": [
+        "What color",
+        "color is",
+        "is the",
+        "the rabbit?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "A: What time is it now?\nB: It's twelve o'clock.",
+      "choices": [
+        "What time",
+        "time is",
+        "is it",
+        "it now?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화에서 「what+명사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "A: What color are the dishes?\nB: They're yellow.",
+      "choices": [
+        "What color",
+        "color are",
+        "are the",
+        "the dishes?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "A: How old is he?\nB: Thirteen years old.",
+      "choices": [
+        "How old",
+        "old is",
+        "is he?"
+      ],
+      "accept": [
+        "1"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "How old"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "A: How much is the cup?\nB: Two thousand won.",
+      "choices": [
+        "How much",
+        "much is",
+        "is the",
+        "the cup?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "A: How many notebooks do you want?\nB: Seven.",
+      "choices": [
+        "How many",
+        "many notebooks",
+        "notebooks do",
+        "do you",
+        "you want?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "A: How old is your uncle?\nB: Twenty years old.",
+      "choices": [
+        "How old",
+        "old is",
+        "is your",
+        "your uncle?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "A: How many legs does the bee have?\nB: Six.",
+      "choices": [
+        "How many",
+        "many legs",
+        "legs does",
+        "does the",
+        "the bee",
+        "bee have?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "A: How much are these carrots?\nB: Four thousand won.",
+      "choices": [
+        "How much",
+        "much are",
+        "are these",
+        "these carrots?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "A: How many pigs do they have?\nB: Sixteen.",
+      "choices": [
+        "How many",
+        "many pigs",
+        "pigs do",
+        "do they",
+        "they have?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "A: How old is Joanne?\nB: Six years old.",
+      "choices": [
+        "How old",
+        "old is",
+        "is Joanne?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "A: How much are the grapes?\nB: Three thousand won.",
+      "choices": [
+        "How much",
+        "much are",
+        "are the",
+        "the grapes?"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화에서 「how+형용사」를 찾아 동그라미 하세요. 동그라미 할 말을 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "A: How old are they?\nB: Seventeen years old.",
+      "choices": [
+        "How old",
+        "old are",
+        "are they?"
+      ],
+      "accept": [
+        "1"
+      ]
+    }
+  ],
+  "sectionsVersion": 1
+}

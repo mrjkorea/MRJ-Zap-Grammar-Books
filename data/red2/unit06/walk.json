@@ -1,0 +1,199 @@
+{
+  "practiceId": "r2:u06:walk",
+  "title": "Grammar Walk",
+  "subtitle": "what+명사 · how+형용사 대화 (p. 90–91)",
+  "pages": "90–91",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(대화 짝 맞추기 7+3쌍), Section B 2문항(대화 짝 맞추기 7+3쌍)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 우리말 뜻과 영어 대화를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 우리말 뜻과 영어 대화를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 우리말 뜻과 영어 대화를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1. A: 지금 몇 시니? B: 1시다.",
+          "right": "A: What time is it now? B: It's one o'clock."
+        },
+        {
+          "left": "2. A: 지금 몇 시니? B: 9시다.",
+          "right": "A: What time is it now? B: It's nine o'clock."
+        },
+        {
+          "left": "3. A: 몇 시니? B: 3시다.",
+          "right": "A: What time is it? B: It's three o'clock."
+        },
+        {
+          "left": "4. A: 오늘 무슨 요일이니? B: 화요일이다.",
+          "right": "A: What day is it today? B: It's Tuesday."
+        },
+        {
+          "left": "5. A: 오늘 무슨 요일이니? B: 목요일이다.",
+          "right": "A: What day is it today? B: It's Thursday."
+        },
+        {
+          "left": "6. A: 오늘 무슨 요일이니? B: 금요일이다.",
+          "right": "A: What day is it today? B: It's Friday."
+        },
+        {
+          "left": "7. A: 이것은 무슨 색이니? B: 검은색이다.",
+          "right": "A: What color is this? B: It's black."
+        }
+      ],
+      "accept": [
+        "1. A: 지금 몇 시니? B: 1시다.|A: What time is it now? B: It's one o'clock.",
+        "2. A: 지금 몇 시니? B: 9시다.|A: What time is it now? B: It's nine o'clock.",
+        "3. A: 몇 시니? B: 3시다.|A: What time is it? B: It's three o'clock.",
+        "4. A: 오늘 무슨 요일이니? B: 화요일이다.|A: What day is it today? B: It's Tuesday.",
+        "5. A: 오늘 무슨 요일이니? B: 목요일이다.|A: What day is it today? B: It's Thursday.",
+        "6. A: 오늘 무슨 요일이니? B: 금요일이다.|A: What day is it today? B: It's Friday.",
+        "7. A: 이것은 무슨 색이니? B: 검은색이다.|A: What color is this? B: It's black."
+      ],
+      "promptKo": "대화 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 우리말 뜻과 영어 대화를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8. A: 그 모자는 무슨 색이니? B: 노란색이다.",
+          "right": "A: What color is the cap? B: It's yellow."
+        },
+        {
+          "left": "9. A: 네 부츠는 무슨 색이니? B: 파란색이다.",
+          "right": "A: What color are your boots? B: They're blue."
+        },
+        {
+          "left": "10. A: 그것은 무슨 색이니? B: 분홍색이다.",
+          "right": "A: What color is it? B: It's pink."
+        }
+      ],
+      "accept": [
+        "8. A: 그 모자는 무슨 색이니? B: 노란색이다.|A: What color is the cap? B: It's yellow.",
+        "9. A: 네 부츠는 무슨 색이니? B: 파란색이다.|A: What color are your boots? B: They're blue.",
+        "10. A: 그것은 무슨 색이니? B: 분홍색이다.|A: What color is it? B: It's pink."
+      ],
+      "promptKo": "대화 8–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 우리말 뜻과 영어 대화를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1. A: 그는 몇 살이니? B: 8살이다.",
+          "right": "A: How old is he? B: Eight years old."
+        },
+        {
+          "left": "2. A: 그들은 몇 살이니? B: 4살이다.",
+          "right": "A: How old are they? B: Four years old."
+        },
+        {
+          "left": "3. A: 네 여동생은 몇 살이니? B: 10살이다.",
+          "right": "A: How old is your sister? B: Ten years old."
+        },
+        {
+          "left": "4. A: 그 펜은 얼마니? B: 600원이다.",
+          "right": "A: How much is the pen? B: Six hundred won."
+        },
+        {
+          "left": "5. A: 그것은 얼마니? B: 100원이다.",
+          "right": "A: How much is it? B: One hundred won."
+        },
+        {
+          "left": "6. A: 그것들은 얼마니? B: 2000원이다.",
+          "right": "A: How much are they? B: Two thousand won."
+        },
+        {
+          "left": "7. A: 개를 몇 마리 가지고 있니? B: 2마리.",
+          "right": "A: How many dogs do you have? B: Two."
+        }
+      ],
+      "accept": [
+        "1. A: 그는 몇 살이니? B: 8살이다.|A: How old is he? B: Eight years old.",
+        "2. A: 그들은 몇 살이니? B: 4살이다.|A: How old are they? B: Four years old.",
+        "3. A: 네 여동생은 몇 살이니? B: 10살이다.|A: How old is your sister? B: Ten years old.",
+        "4. A: 그 펜은 얼마니? B: 600원이다.|A: How much is the pen? B: Six hundred won.",
+        "5. A: 그것은 얼마니? B: 100원이다.|A: How much is it? B: One hundred won.",
+        "6. A: 그것들은 얼마니? B: 2000원이다.|A: How much are they? B: Two thousand won.",
+        "7. A: 개를 몇 마리 가지고 있니? B: 2마리.|A: How many dogs do you have? B: Two."
+      ],
+      "promptKo": "대화 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 우리말 뜻과 영어 대화를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8. A: Bill은 꽃을 몇 개 가지고 있니? B: 4개.",
+          "right": "A: How many flowers does Bill have? B: Four."
+        },
+        {
+          "left": "9. A: 그는 공을 몇 개 가지고 있니? B: 3개.",
+          "right": "A: How many balls does he have? B: Three."
+        },
+        {
+          "left": "10. A: 나는 달걀을 몇 개 가지고 있니? B: 20개.",
+          "right": "A: How many eggs do I have? B: Twenty."
+        }
+      ],
+      "accept": [
+        "8. A: Bill은 꽃을 몇 개 가지고 있니? B: 4개.|A: How many flowers does Bill have? B: Four.",
+        "9. A: 그는 공을 몇 개 가지고 있니? B: 3개.|A: How many balls does he have? B: Three.",
+        "10. A: 나는 달걀을 몇 개 가지고 있니? B: 20개.|A: How many eggs do I have? B: Twenty."
+      ],
+      "promptKo": "대화 8–10"
+    }
+  ],
+  "sectionsVersion": 1
+}
