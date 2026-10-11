@@ -1,0 +1,198 @@
+{
+  "practiceId": "r2:u02:walk",
+  "title": "Grammar Walk",
+  "subtitle": "부정문 · 의문문 따라쓰기 (p. 26–27)",
+  "pages": "26–27",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(긍정·부정 짝 맞추기), B 2문항(질문·대답 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A — 부정문",
+      "instructionKo": "다음 문장의 뜻을 생각하며 일반동사의 부정문을 따라 써 보세요. 긍정문과 부정문을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B — 의문문과 대답",
+      "instructionKo": "다음 대화의 뜻을 생각하며 일반동사의 의문문과 대답을 따라 써 보세요. 질문과 대답을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 일반동사의 부정문을 따라 써 보세요. 긍정문과 부정문을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "I dance.",
+          "right": "I do not dance."
+        },
+        {
+          "left": "You dance.",
+          "right": "You do not dance."
+        },
+        {
+          "left": "He sings.",
+          "right": "He does not sing."
+        },
+        {
+          "left": "She sings.",
+          "right": "She does not sing."
+        },
+        {
+          "left": "It flies.",
+          "right": "It does not fly."
+        },
+        {
+          "left": "They fly.",
+          "right": "They do not fly."
+        },
+        {
+          "left": "We play the flute.",
+          "right": "We do not play the flute."
+        }
+      ],
+      "accept": [
+        "I dance.|I do not dance.",
+        "You dance.|You do not dance.",
+        "He sings.|He does not sing.",
+        "She sings.|She does not sing.",
+        "It flies.|It does not fly.",
+        "They fly.|They do not fly.",
+        "We play the flute.|We do not play the flute."
+      ],
+      "promptKo": "긍정·부정 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 일반동사의 부정문을 따라 써 보세요. 긍정문과 부정문을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "David plays the flute.",
+          "right": "David doesn't play the flute."
+        },
+        {
+          "left": "Lucy and I know them.",
+          "right": "Lucy and I don't know them."
+        },
+        {
+          "left": "The women know them.",
+          "right": "The women don't know them."
+        }
+      ],
+      "accept": [
+        "David plays the flute.|David doesn't play the flute.",
+        "Lucy and I know them.|Lucy and I don't know them.",
+        "The women know them.|The women don't know them."
+      ],
+      "promptKo": "긍정·부정 8–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 일반동사의 의문문과 대답을 따라 써 보세요. 질문과 대답을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Do you like carrots?",
+          "right": "Yes, I do."
+        },
+        {
+          "left": "Does he like carrots?",
+          "right": "Yes, he does."
+        },
+        {
+          "left": "Does she play golf?",
+          "right": "No, she doesn't."
+        },
+        {
+          "left": "Do they play golf?",
+          "right": "Yes, they do."
+        },
+        {
+          "left": "Does it run fast?",
+          "right": "Yes, it does."
+        },
+        {
+          "left": "Do they run fast?",
+          "right": "No, they don't."
+        },
+        {
+          "left": "Do you have a pencil?",
+          "right": "No, I don't."
+        }
+      ],
+      "accept": [
+        "Do you like carrots?|Yes, I do.",
+        "Does he like carrots?|Yes, he does.",
+        "Does she play golf?|No, she doesn't.",
+        "Do they play golf?|Yes, they do.",
+        "Does it run fast?|Yes, it does.",
+        "Do they run fast?|No, they don't.",
+        "Do you have a pencil?|No, I don't."
+      ],
+      "promptKo": "대화 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 일반동사의 의문문과 대답을 따라 써 보세요. 질문과 대답을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Do you have pencils?",
+          "right": "Yes, we do."
+        },
+        {
+          "left": "Do we look pretty?",
+          "right": "No, you don't."
+        },
+        {
+          "left": "Do I look pretty?",
+          "right": "Yes, you do."
+        }
+      ],
+      "accept": [
+        "Do you have pencils?|Yes, we do.",
+        "Do we look pretty?|No, you don't.",
+        "Do I look pretty?|Yes, you do."
+      ],
+      "promptKo": "대화 8–10"
+    }
+  ]
+}

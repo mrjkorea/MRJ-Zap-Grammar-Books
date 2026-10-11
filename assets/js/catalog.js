@@ -4,7 +4,7 @@
 
   var BOOKS = [
     { id: "zap-red-1", title: "ZAP Red 1", enabled: true, appName: "RedZap 1", bookTitle: "ZAP Red 1" },
-    { id: "zap-red-2", title: "ZAP Red 2", enabled: false, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
+    { id: "zap-red-2", title: "ZAP Red 2", enabled: true, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
@@ -93,7 +93,8 @@
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
     ],
     "zap-red-2": [
-      { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
+      { id: "unit-01", title: "Unit 01 — 일반동사 (coming soon)", enabled: false },
+      { id: "unit-02", title: "Unit 02 — 일반동사의 부정문과 의문문", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4860,6 +4861,50 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green2/unit01/checkup.json",
         practiceId: "g2:u01:checkup",
+      },
+    ],
+    "zap-red-2:unit-02": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "부정문 · 의문문 따라쓰기 · p. 26–27",
+        data: "data/red2/unit02/walk.json",
+        practiceId: "r2:u02:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "don't/doesn't · Yes/No · p. 28–29",
+        data: "data/red2/unit02/run.json",
+        practiceId: "r2:u02:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "don't/doesn't · Do/Does · p. 30–31",
+        data: "data/red2/unit02/jump.json",
+        practiceId: "r2:u02:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "부정문 · 의문문 빈칸 · p. 32–33",
+        data: "data/red2/unit02/fly.json",
+        practiceId: "r2:u02:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 부정문 표",
+        hint: "부정문 표 · p. 34",
+        data: "data/red2/unit02/quiz2.json",
+        practiceId: "r2:u02:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 의문문 표",
+        hint: "의문문 표 · p. 35",
+        data: "data/red2/unit02/quiz4.json",
+        practiceId: "r2:u02:quiz4",
       },
     ],
     "zap-red-1:unit-01": [
