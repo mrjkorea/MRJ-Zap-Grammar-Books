@@ -77,11 +77,41 @@ function chunk(arr, size) {
   return out;
 }
 
+/** p.58–59 footer Korean where printed; else English keyword (Walk A) or standard 뜻 (Walk B). */
+const WALK_A_KO = {
+  rabbit: "토끼",
+  apple: "사과",
+  iguana: "이구아나",
+  orange: "오렌지",
+  umbrella: "우산",
+};
+
+const WALK_B_KO = {
+  girl: "여자아이",
+  man: "남자",
+  sun: "태양",
+  moon: "달",
+  dog: "개",
+  cat: "고양이",
+  rabbit: "토끼",
+  piano: "피아노",
+  violin: "바이올린",
+  drum: "북",
+};
+
+function walkLeftA(english) {
+  return WALK_A_KO[english] || english;
+}
+
+function walkLeftB(english) {
+  return WALK_B_KO[english] || english;
+}
+
 function writeWalk() {
   const instrA =
-    "다음 단어의 뜻을 생각하며 부정관사 a와 an을 따라 써 보세요. 단어와 알맞은 a/an 문장을 짝지어 연결하세요.";
+    "다음 단어의 뜻을 생각하며 부정관사 a와 an을 따라 써 보세요. 단어(뜻)와 알맞은 a/an 표현을 짝지어 연결하세요.";
   const instrB =
-    "다음 문장의 뜻을 생각하며 정관사 the를 따라 써 보세요. 단어와 완성된 영어 문장을 짝지어 연결하세요.";
+    "다음 문장의 뜻을 생각하며 정관사 the를 따라 써 보세요. 우리말 뜻(단어)과 완성된 영어 문장을 짝지어 연결하세요.";
 
   const aNouns = [
     ["book", "a book"],
@@ -112,22 +142,22 @@ function writeWalk() {
   const items = [];
   let n = 1;
   for (const group of chunk(aNouns, 5)) {
-    const pairs = group.map(([left, right]) => ({ left, right }));
+    const pairs = group.map(([en, right]) => ({ left: walkLeftA(en), right }));
     items.push(
       matchItem(`a${String(n).padStart(2, "0")}`, "A", `A${n}`, pairs, {
         sectionInstructionKo: instrA,
-        promptKo: group.map((g) => g[0]).join(", "),
+        promptKo: group.map((g) => walkLeftA(g[0])).join(", "),
       })
     );
     n++;
   }
   let m = 1;
   for (const group of chunk(bPairs, 7)) {
-    const pairs = group.map(([left, right]) => ({ left, right }));
+    const pairs = group.map(([en, right]) => ({ left: walkLeftB(en), right }));
     items.push(
       matchItem(`b${String(m).padStart(2, "0")}`, "B", `B${m}`, pairs, {
         sectionInstructionKo: instrB,
-        promptKo: group.map((g) => g[0]).join(", "),
+        promptKo: group.map((g) => walkLeftB(g[0])).join(", "),
       })
     );
     m++;
@@ -378,11 +408,11 @@ function writeFly() {
     ["Look at ___ dog.", "the"],
     ["Look at ___ sun.", "the"],
     ["Look at ___ moon.", "the"],
-    ["I play ___ tennis.", ["X", "x"]],
-    ["I have ___ breakfast.", ["X", "x"]],
+    ["I play ___ tennis.", ["X", "x", "×"]],
+    ["I have ___ breakfast.", ["X", "x", "×"]],
     ["You play ___ piano.", "the"],
-    ["You play ___ soccer.", ["X", "x"]],
-    ["You have ___ lunch.", ["X", "x"]],
+    ["You play ___ soccer.", ["X", "x", "×"]],
+    ["You have ___ lunch.", ["X", "x", "×"]],
   ];
 
   const items = [];

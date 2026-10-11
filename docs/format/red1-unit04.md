@@ -20,7 +20,7 @@ Printed pages **54–67** (PDF 55–68). Skipped: comics (p.54–55), concept + 
 
 | Slug | practiceId | Graded items | Sections | Modes |
 |------|------------|--------------|----------|-------|
-| walk | `r1:u04:walk` | 4 | A×2 match, B×2 match | Trace → **match** (noun ↔ `a/an` phrase; keyword ↔ full sentence) |
+| walk | `r1:u04:walk` | 4 | A×2 match, B×2 match | Trace → **match** (뜻/단어 ↔ `a/an` phrase; 우리말 뜻 ↔ full sentence) |
 | run | `r1:u04:run` | 18 | A×9, B×9 | Circle article → type `a`/`an`/`the` |
 | jump | `r1:u04:jump` | 18 | A×9, B×9 | Parentheses → **choice** |
 | fly | `r1:u04:fly` | 18 | A×9, B×9 | Blanks → `a`/`an`; `the` or **X** |
