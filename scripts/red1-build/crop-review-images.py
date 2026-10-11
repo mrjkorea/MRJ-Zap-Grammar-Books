@@ -7,72 +7,72 @@ REPO = Path(__file__).resolve().parents[2]
 
 # (src_page, box, out_rel)
 CROPS = [
-    # Review 01 p38 — Q8–10
+    # Review 01 p38 — Q8–10 (printed p37)
     (
         "/tmp/red1-rv01/pages/p0038.png",
-        (52, 128, 252, 248),
+        (40, 585, 270, 725),
         "assets/img/red1/review01/q08.png",
     ),
     (
         "/tmp/red1-rv01/pages/p0038.png",
-        (52, 318, 252, 438),
+        (40, 775, 270, 915),
         "assets/img/red1/review01/q09.png",
     ),
     (
         "/tmp/red1-rv01/pages/p0038.png",
-        (52, 508, 252, 628),
+        (40, 940, 270, 1080),
         "assets/img/red1/review01/q10.png",
     ),
-    # Review 02 p70 — Q6–10
+    # Review 02 p70 — Q6–10 (printed p69)
     (
         "/tmp/red1-rv02/pages/p0070.png",
-        (52, 128, 252, 248),
+        (55, 195, 265, 320),
         "assets/img/red1/review02/q06.png",
     ),
     (
         "/tmp/red1-rv02/pages/p0070.png",
-        (52, 318, 252, 438),
+        (55, 360, 265, 490),
         "assets/img/red1/review02/q07.png",
     ),
     (
         "/tmp/red1-rv02/pages/p0070.png",
-        (52, 468, 252, 588),
+        (120, 655, 270, 785),
         "assets/img/red1/review02/q08.png",
     ),
     (
         "/tmp/red1-rv02/pages/p0070.png",
-        (52, 658, 252, 778),
+        (55, 800, 265, 940),
         "assets/img/red1/review02/q09.png",
     ),
     (
         "/tmp/red1-rv02/pages/p0070.png",
-        (52, 848, 252, 968),
+        (55, 980, 265, 1120),
         "assets/img/red1/review02/q10.png",
     ),
-    # Review 03 p101 — Q1–5 (two columns on page)
+    # Review 03 p101 — Q1–5 (printed p100)
     (
         "/tmp/red1-rv03/pages/p0101.png",
-        (52, 168, 252, 288),
+        (60, 190, 310, 365),
         "assets/img/red1/review03/q01.png",
     ),
     (
         "/tmp/red1-rv03/pages/p0101.png",
-        (458, 168, 658, 288),
+        (470, 190, 720, 365),
         "assets/img/red1/review03/q02.png",
     ),
     (
         "/tmp/red1-rv03/pages/p0101.png",
-        (52, 398, 252, 518),
+        (50, 545, 275, 665),
         "assets/img/red1/review03/q03.png",
     ),
     (
         "/tmp/red1-rv03/pages/p0101.png",
-        (458, 398, 658, 518),
+        (285, 548, 540, 648),
         "assets/img/red1/review03/q04.png",
     ),
     (
         "/tmp/red1-rv03/pages/p0101.png",
-        (52, 628, 252, 748),
+        (50, 880, 275, 1020),
         "assets/img/red1/review03/q05.png",
     ),
 ]
