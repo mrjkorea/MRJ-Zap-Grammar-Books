@@ -280,7 +280,7 @@ function writeJump() {
     ["don't", "doesn't"],
     ["write", "writes"],
     ["read", "reads"],
-    ["learn", "learns"],
+    ["learns", "learn"],
     ["clean", "cleans"],
   ];
 
