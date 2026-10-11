@@ -10,7 +10,7 @@ const META = {
   appName: "RedZap 1",
   unitId: "unit-01",
   unitTitle: "Unit 01 — 알파벳과 수 세기",
-  sectionsVersion: 1,
+  sectionsVersion: 2,
 };
 
 const NUM_WORDS = [
@@ -102,13 +102,9 @@ function fillItem(id, section, label, prompt, accept, extra = {}) {
   };
 }
 
-function vowelsDistinct(word) {
+function vowelsEachOccurrence(word) {
   const V = "aeiou";
-  const out = [];
-  for (const ch of word.toLowerCase()) {
-    if (V.includes(ch) && !out.includes(ch)) out.push(ch);
-  }
-  return out;
+  return [...word.toLowerCase()].filter((ch) => V.includes(ch));
 }
 
 function writeWalk() {
@@ -248,7 +244,7 @@ function writeRun() {
     );
   });
   items.push(
-    fillItem("b01", "B", "B1", "gorilla", vowelsDistinct("gorilla").join("|"), {
+    fillItem("b01", "B", "B1", "gorilla", vowelsEachOccurrence("gorilla").join("|"), {
       sectionInstructionKo: instrB,
       blanks: 3,
       unordered: true,
@@ -258,7 +254,7 @@ function writeRun() {
     })
   );
   runBWords.slice(1).forEach((w, i) => {
-    const vs = vowelsDistinct(w);
+    const vs = vowelsEachOccurrence(w);
     items.push(
       fillItem(`b${String(i + 2).padStart(2, "0")}`, "B", `B${i + 2}`, w, vs.join("|"), {
         sectionInstructionKo: instrB,
@@ -359,12 +355,12 @@ function writeJump() {
     { img: "jump-b04.png", choices: ["eight", "ten"], accept: "1" },
     { img: "jump-b05.png", choices: ["nine", "one"], accept: "1" },
     { img: "jump-b06.png", choices: ["fourteen", "eleven"], accept: "2" },
-    { prompt: "12", choices: ["two", "twelve"], accept: "2" },
-    { prompt: "13", choices: ["thirteen", "three"], accept: "1" },
-    { prompt: "15", choices: ["five", "fifteen"], accept: "2" },
-    { prompt: "17", choices: ["seven", "seventeen"], accept: "2" },
-    { prompt: "18", choices: ["eighteen", "nineteen"], accept: "1" },
-    { prompt: "20", choices: ["twenty", "twelve"], accept: "1" },
+    { img: "jump-b07.png", choices: ["two", "twelve"], accept: "2" },
+    { img: "jump-b08.png", choices: ["thirteen", "three"], accept: "1" },
+    { img: "jump-b09.png", choices: ["five", "fifteen"], accept: "2" },
+    { img: "jump-b10.png", choices: ["seven", "seventeen"], accept: "2" },
+    { img: "jump-b11.png", choices: ["eighteen", "nineteen"], accept: "1" },
+    { img: "jump-b12.png", choices: ["twenty", "twelve"], accept: "1" },
   ];
   const items = [];
   items.push(
