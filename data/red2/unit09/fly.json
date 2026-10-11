@@ -1,0 +1,446 @@
+{
+  "practiceId": "r2:u09:fly",
+  "title": "Grammar Fly",
+  "subtitle": "can 문장 완성 · 부정·의문문 (pp. 146–147)",
+  "pages": "146–147",
+  "timerMinutes": 22,
+  "introKo": "Section A 10문항(두 칸), Section B 10문항(부정 5·의문 5)입니다.",
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-09",
+  "unitTitle": "Unit 09 — 조동사 can",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 8,
+      "exampleCount": 2,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "I ______ ______ a letter. ( write )",
+      "blanks": 2,
+      "accept": [
+        "can|write",
+        "can write"
+      ],
+      "promptKo": "나는 편지를 쓸 수 있다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "can write"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "You ______ ______ computer games well. ( play )",
+      "blanks": 2,
+      "accept": [
+        "can|play",
+        "can play"
+      ],
+      "promptKo": "너는 컴퓨터 게임을 잘할 수 있다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "She ______ ______ the box. ( carry )",
+      "blanks": 2,
+      "accept": [
+        "can|carry",
+        "can carry"
+      ],
+      "promptKo": "그녀는 그 상자를 나를 수 있다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "He ______ ______ the books. ( read )",
+      "blanks": 2,
+      "accept": [
+        "can|read",
+        "can read"
+      ],
+      "promptKo": "그는 그 책들을 읽을 수 있다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "We ______ ______ the balls. ( catch )",
+      "blanks": 2,
+      "accept": [
+        "can|catch",
+        "can catch"
+      ],
+      "promptKo": "우리는 그 공들을 잡을 수 있다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "6",
+      "type": "fill",
+      "promptEn": "It ______ ______ high. ( jump )",
+      "blanks": 2,
+      "accept": [
+        "can't|jump",
+        "can't jump",
+        "cant|jump",
+        "cant jump",
+        "cannot|jump",
+        "cannot jump"
+      ],
+      "promptKo": "그것은 높이 점프하지 못한다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "7",
+      "type": "fill",
+      "promptEn": "They ______ ______ fast. ( run )",
+      "blanks": 2,
+      "accept": [
+        "can't|run",
+        "can't run",
+        "cant|run",
+        "cant run",
+        "cannot|run",
+        "cannot run"
+      ],
+      "promptKo": "그들은 빨리 달리지 못한다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "8",
+      "type": "fill",
+      "promptEn": "Yeonjae ______ ______ spaghetti. ( make )",
+      "blanks": 2,
+      "accept": [
+        "can't|make",
+        "can't make",
+        "cant|make",
+        "cant make",
+        "cannot|make",
+        "cannot make"
+      ],
+      "promptKo": "연재는 스파게티를 만들지 못한다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "9",
+      "type": "fill",
+      "promptEn": "An iguana ______ ______ . ( fly )",
+      "blanks": 2,
+      "accept": [
+        "can't|fly",
+        "can't fly",
+        "cant|fly",
+        "cant fly",
+        "cannot|fly",
+        "cannot fly"
+      ],
+      "promptKo": "이구아나는 날지 못한다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 주어진 말을 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "10",
+      "type": "fill",
+      "promptEn": "Kangaroos ______ ______ . ( swim )",
+      "blanks": 2,
+      "accept": [
+        "can't|swim",
+        "can't swim",
+        "cant|swim",
+        "cant swim",
+        "cannot|swim",
+        "cannot swim"
+      ],
+      "promptKo": "캥거루는 헤엄치지 못한다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "You can draw a goat.\nYou ______ ______ a goat.",
+      "blanks": 2,
+      "accept": [
+        "cannot|draw",
+        "cannot draw",
+        "can't|draw",
+        "can't draw",
+        "cant|draw",
+        "cant draw"
+      ],
+      "promptKo": "부정문으로 바꾸세요.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "cannot draw"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "She can answer the question.\nShe ______ ______ the question.",
+      "blanks": 2,
+      "accept": [
+        "cannot|answer",
+        "cannot answer",
+        "can't|answer",
+        "can't answer",
+        "cant|answer",
+        "cant answer"
+      ],
+      "promptKo": "부정문으로 바꾸세요."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "He can play the cello.\nHe ______ ______ the cello.",
+      "blanks": 2,
+      "accept": [
+        "cannot|play",
+        "cannot play",
+        "can't|play",
+        "can't play",
+        "cant|play",
+        "cant play"
+      ],
+      "promptKo": "부정문으로 바꾸세요."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "They can swim well.\nThey ______ ______ well.",
+      "blanks": 2,
+      "accept": [
+        "cannot|swim",
+        "cannot swim",
+        "can't|swim",
+        "can't swim",
+        "cant|swim",
+        "cant swim"
+      ],
+      "promptKo": "부정문으로 바꾸세요."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "It can run fast.\nIt ______ ______ fast.",
+      "blanks": 2,
+      "accept": [
+        "cannot|run",
+        "cannot run",
+        "can't|run",
+        "can't run",
+        "cant|run",
+        "cant run"
+      ],
+      "promptKo": "부정문으로 바꾸세요."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "6",
+      "type": "fill",
+      "promptEn": "You can play volleyball.\n______ ______ ______ volleyball?",
+      "blanks": 3,
+      "accept": [
+        "Can|you|play",
+        "Can you play"
+      ],
+      "promptKo": "의문문으로 바꾸세요.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Can you play"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "7",
+      "type": "fill",
+      "promptEn": "Rebecca can drive a fire engine.\n______ ______ ______ a fire engine?",
+      "blanks": 3,
+      "accept": [
+        "Can|Rebecca|drive",
+        "Can Rebecca drive"
+      ],
+      "promptKo": "의문문으로 바꾸세요."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "8",
+      "type": "fill",
+      "promptEn": "Your brother can lift the box.\n______ ______ ______ the box?",
+      "blanks": 3,
+      "accept": [
+        "Can|your brother|lift",
+        "Can your brother lift"
+      ],
+      "promptKo": "의문문으로 바꾸세요."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "9",
+      "type": "fill",
+      "promptEn": "The zebras can fly.\n______ ______ ______?",
+      "blanks": 3,
+      "accept": [
+        "Can|the zebras|fly",
+        "Can the zebras fly"
+      ],
+      "promptKo": "의문문으로 바꾸세요."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문과 의문문으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "10",
+      "type": "fill",
+      "promptEn": "They can make gimchi.\n______ ______ ______ gimchi?",
+      "blanks": 3,
+      "accept": [
+        "Can|they|make",
+        "Can they make"
+      ],
+      "promptKo": "의문문으로 바꾸세요."
+    }
+  ]
+}

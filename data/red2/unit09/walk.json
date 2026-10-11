@@ -1,0 +1,204 @@
+{
+  "practiceId": "r2:u09:walk",
+  "title": "Grammar Walk",
+  "subtitle": "can 문장 · 대화 따라쓰기 (pp. 140–141)",
+  "pages": "140–141",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(문장 짝 맞추기), Section B 2문항(대화 짝 맞추기)입니다.",
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-09",
+  "unitTitle": "Unit 09 — 조동사 can",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 문장에서 따라 쓸 can/cannot/can't와 동사원형 구를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 물음과 대답을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 문장에서 따라 쓸 can/cannot/can't와 동사원형 구를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1. I … the piano.",
+          "right": "can play"
+        },
+        {
+          "left": "2. You … very fast.",
+          "right": "can walk"
+        },
+        {
+          "left": "3. He … the car.",
+          "right": "can fix"
+        },
+        {
+          "left": "4. It … fast.",
+          "right": "can run"
+        },
+        {
+          "left": "5. We … well.",
+          "right": "can skate"
+        },
+        {
+          "left": "6. A duck …",
+          "right": "cannot fly"
+        },
+        {
+          "left": "7. We … English.",
+          "right": "cannot read"
+        }
+      ],
+      "accept": [
+        "1. I … the piano.|can play",
+        "2. You … very fast.|can walk",
+        "3. He … the car.|can fix",
+        "4. It … fast.|can run",
+        "5. We … well.|can skate",
+        "6. A duck …|cannot fly",
+        "7. We … English.|cannot read"
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 문장에서 따라 쓸 can/cannot/can't와 동사원형 구를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8. Britney …",
+          "right": "cannot ski"
+        },
+        {
+          "left": "9. Jack … rope.",
+          "right": "can't jump"
+        },
+        {
+          "left": "10. My friends … the mountain.",
+          "right": "can't climb"
+        }
+      ],
+      "accept": [
+        "8. Britney …|cannot ski",
+        "9. Jack … rope.|can't jump",
+        "10. My friends … the mountain.|can't climb"
+      ],
+      "promptKo": "문장 8–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 물음과 대답을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Can you play golf?",
+          "right": "Yes, I can."
+        },
+        {
+          "left": "Can she drive a car?",
+          "right": "No, she can't."
+        },
+        {
+          "left": "Can he kick the ball?",
+          "right": "Yes, he can."
+        },
+        {
+          "left": "Can they jump?",
+          "right": "No, they can't."
+        },
+        {
+          "left": "Can it climb the tree?",
+          "right": "Yes, it can."
+        },
+        {
+          "left": "Can he count?",
+          "right": "No, he can't."
+        },
+        {
+          "left": "Can they write?",
+          "right": "Yes, they can."
+        }
+      ],
+      "accept": [
+        "Can you play golf?|Yes, I can.",
+        "Can she drive a car?|No, she can't.",
+        "Can he kick the ball?|Yes, he can.",
+        "Can they jump?|No, they can't.",
+        "Can it climb the tree?|Yes, it can.",
+        "Can he count?|No, he can't.",
+        "Can they write?|Yes, they can."
+      ],
+      "promptKo": "대화 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 물음과 대답을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Can Tom make gimbap?",
+          "right": "Yes, he can."
+        },
+        {
+          "left": "Can your sister dive?",
+          "right": "No, she can't."
+        },
+        {
+          "left": "Can the kids play chess?",
+          "right": "No, they can't."
+        }
+      ],
+      "accept": [
+        "Can Tom make gimbap?|Yes, he can.",
+        "Can your sister dive?|No, she can't.",
+        "Can the kids play chess?|No, they can't."
+      ],
+      "promptKo": "대화 8–10"
+    }
+  ]
+}
