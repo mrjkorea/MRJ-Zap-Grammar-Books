@@ -3,6 +3,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const { chromium } = require("playwright");
+const { setupE2eContext } = require("./e2e-scores-mock");
 
 const REPO = path.join(__dirname, "..");
 const PORT = 8772;
@@ -129,26 +130,7 @@ async function main() {
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
   await context.route(/mrj-signin/, (route) => route.abort());
-  await context.addInitScript(() => {
-    try {
-      localStorage.clear();
-    } catch (e) {}
-    window.MRJ_AUTH = {
-      student: () => "e2e@test.local",
-      noteScore: () => Promise.resolve(),
-      loadPack: () => Promise.resolve({ ok: true, json: null }),
-      savePack: () => Promise.resolve({ ok: true }),
-      packReady: () => true,
-    };
-    window.MRJ_SCORES = { post: () => Promise.resolve({ status: "stub" }) };
-    const fire = () => {
-      document.dispatchEvent(new Event("mrj-auth-ready"));
-      const gate = document.getElementById("mrj-auth-gate");
-      if (gate) gate.remove();
-    };
-    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => setTimeout(fire, 50));
-    else setTimeout(fire, 50);
-  });
+  await setupE2eContext(context);
 
   let failed = 0;
   for (const { bookId, unitId, ex } of practices) {

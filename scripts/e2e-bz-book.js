@@ -5,6 +5,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const { chromium } = require("playwright");
+const { setupE2eContext } = require("./e2e-scores-mock");
 
 const REPO = path.join(__dirname, "..");
 const BOOK_N = Number(process.argv[2]);
@@ -59,35 +60,6 @@ function loadCatalog() {
   const ctx = vm.createContext({ window: win });
   vm.runInContext(fs.readFileSync(path.join(REPO, "assets/js/catalog.js"), "utf8"), ctx);
   return win.MRJ_CATALOG;
-}
-
-function initScript() {
-  return () => {
-    try {
-      localStorage.clear();
-    } catch (e) {}
-    window.MRJ_AUTH = {
-      student: () => "e2e@test.local",
-      noteScore: () => Promise.resolve(),
-      loadPack: () => Promise.resolve({ ok: true, json: null }),
-      savePack: () => Promise.resolve({ ok: true }),
-      packReady: () => true,
-    };
-    window.__e2ePosts = [];
-    window.MRJ_SCORES = {
-      post: (p) => {
-        window.__e2ePosts.push(p);
-        return Promise.resolve({ status: "stub" });
-      },
-    };
-    const fire = () => {
-      document.dispatchEvent(new Event("mrj-auth-ready"));
-      const gate = document.getElementById("mrj-auth-gate");
-      if (gate) gate.remove();
-    };
-    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => setTimeout(fire, 50));
-    else setTimeout(fire, 50);
-  };
 }
 
 let e2eNav = 0;
@@ -290,7 +262,7 @@ async function withRetry(label, fn) {
   const browser = await chromium.launch({ headless: true });
   let context = await browser.newContext();
   await context.route(/mrj-signin/, (route) => route.abort());
-  await context.addInitScript(initScript());
+  await setupE2eContext(context);
 
   let practicesSinceCtx = 0;
   let passed = 0;
@@ -302,7 +274,7 @@ async function withRetry(label, fn) {
     await context.close();
     context = await browser.newContext();
     await context.route(/mrj-signin/, (route) => route.abort());
-    await context.addInitScript(initScript());
+    await setupE2eContext(context);
     practicesSinceCtx = 0;
   }
 
