@@ -4,7 +4,7 @@
 
   var BOOKS = [
     { id: "zap-red-1", title: "ZAP Red 1", enabled: true, appName: "RedZap 1", bookTitle: "ZAP Red 1" },
-    { id: "zap-red-2", title: "ZAP Red 2", enabled: false, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
+    { id: "zap-red-2", title: "ZAP Red 2", enabled: true, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
@@ -93,7 +93,7 @@
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
     ],
     "zap-red-2": [
-      { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
+      { id: "unit-01", title: "Unit 01 — 일반동사", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4860,6 +4860,50 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green2/unit01/checkup.json",
         practiceId: "g2:u01:checkup",
+      },
+    ],
+    "zap-red-2:unit-01": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "일반동사 현재형 · p. 12–13",
+        data: "data/red2/unit01/walk.json",
+        practiceId: "r2:u01:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "일반동사 찾기 · p. 14–15",
+        data: "data/red2/unit01/run.json",
+        practiceId: "r2:u01:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "괄호 고르기 · p. 16–17",
+        data: "data/red2/unit01/jump.json",
+        practiceId: "r2:u01:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "3인칭 단수 · p. 18–19",
+        data: "data/red2/unit01/fly.json",
+        practiceId: "r2:u01:fly",
+      },
+      {
+        slug: "quiz1",
+        title: "QUIZ — 일반동사 표",
+        hint: "단어·뜻 · p. 20",
+        data: "data/red2/unit01/quiz1.json",
+        practiceId: "r2:u01:quiz1",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ — 3인칭 단수 규칙",
+        hint: "p. 21",
+        data: "data/red2/unit01/quiz2.json",
+        practiceId: "r2:u01:quiz2",
       },
     ],
     "zap-red-1:unit-01": [
