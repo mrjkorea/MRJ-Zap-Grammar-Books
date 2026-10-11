@@ -91,6 +91,7 @@
     ],
     "zap-red-1": [
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
+      { id: "unit-03", title: "Unit 03 — 명사 (2)", enabled: true },
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
@@ -4904,6 +4905,50 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-1:unit-03": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "단수·복수 따라쓰기 · p. 44–45",
+        data: "data/red1/unit03/walk.json",
+        practiceId: "r1:u03:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "복수형 규칙·불규칙 · p. 46–47",
+        data: "data/red1/unit03/run.json",
+        practiceId: "r1:u03:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "복수형 고르기 · p. 48–49",
+        data: "data/red1/unit03/jump.json",
+        practiceId: "r1:u03:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "복수형 쓰기 · p. 50–51",
+        data: "data/red1/unit03/fly.json",
+        practiceId: "r1:u03:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 규칙 복수",
+        hint: "뜻·복수형 표 · p. 52",
+        data: "data/red1/unit03/quiz2.json",
+        practiceId: "r1:u03:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 불규칙 복수",
+        hint: "뜻·복수형 표 · p. 53",
+        data: "data/red1/unit03/quiz4.json",
+        practiceId: "r1:u03:quiz4",
       },
     ],
   };

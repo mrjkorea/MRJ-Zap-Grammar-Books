@@ -1,0 +1,374 @@
+{
+  "practiceId": "r1:u03:fly",
+  "title": "Grammar Fly",
+  "subtitle": "복수형 쓰기 (p. 50–51)",
+  "pages": "50–51",
+  "timerMinutes": 18,
+  "introKo": "Section A·B 각 10문항(예시 1개). A는 복수형만, B는 수량+복수형 문장을 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "books"
+      ],
+      "promptEn": "one book → two",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "books"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "girls"
+      ],
+      "promptEn": "one girl → three"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "buses"
+      ],
+      "promptEn": "one bus → two"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "boxes"
+      ],
+      "promptEn": "one box → four"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "benches"
+      ],
+      "promptEn": "one bench → five"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "6",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "dishes"
+      ],
+      "promptEn": "one dish → six"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "7",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "tomatoes"
+      ],
+      "promptEn": "one tomato → seven"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "8",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "ladies"
+      ],
+      "promptEn": "one lady → eight"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "9",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "boys"
+      ],
+      "promptEn": "one boy → nine"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. 복수형 명사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "10",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "monkeys"
+      ],
+      "promptEn": "one monkey → ten"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "1",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "two wolves"
+      ],
+      "promptEn": "two ______ (wolf)",
+      "image": "assets/img/red1/unit03/fly-b01.png",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "two wolves"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "2",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "three leaves"
+      ],
+      "promptEn": "three ______ (leaf)",
+      "image": "assets/img/red1/unit03/fly-b02.png"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "3",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "two men"
+      ],
+      "promptEn": "two ______ (man)",
+      "image": "assets/img/red1/unit03/fly-b03.png"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "4",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "four mice"
+      ],
+      "promptEn": "four ______ (mouse)",
+      "image": "assets/img/red1/unit03/fly-b04.png"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "5",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "three children"
+      ],
+      "promptEn": "three ______ (child)",
+      "image": "assets/img/red1/unit03/fly-b05.png"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "6",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "five sheep"
+      ],
+      "promptEn": "five ______ (sheep)",
+      "image": "assets/img/red1/unit03/fly-b06.png"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "7",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "four teeth"
+      ],
+      "promptEn": "four ______ (tooth)",
+      "image": "assets/img/red1/unit03/fly-b07.png"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "8",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "two oxen"
+      ],
+      "promptEn": "two ______ (ox)",
+      "image": "assets/img/red1/unit03/fly-b08.png"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "9",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "two women"
+      ],
+      "promptEn": "two ______ (woman)",
+      "image": "assets/img/red1/unit03/fly-b09.png"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 그림을 보고 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. 수량과 복수형을 함께 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "10",
+      "type": "fill",
+      "blanks": 1,
+      "accept": [
+        "three geese"
+      ],
+      "promptEn": "three ______ (goose)",
+      "image": "assets/img/red1/unit03/fly-b10.png"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 명사 (2)",
+  "sectionsVersion": 1
+}
