@@ -26,11 +26,11 @@ Printed pages **22–35** (PDF **23–36**). Boundary: **p0037** (REVIEW 01) is 
 | walk | `r1:u02:walk` | 4 | A×2, B×1, C×1 | Walk trace → **match** (EN↔KO or EN↔category); 20 pair-level points |
 | run | `r1:u02:run` | 12 | A×2 match, B×10 choice | Run A: noun→종류 (girl/man examples omitted); B: C/U |
 | jump | `r1:u02:jump` | 18 | A×9, B×9 | MC + cropped images |
-| fly | `r1:u02:fly` | 35 | A×19, B×17 | Word bank → one word per blank (girl/bag examples) |
+| fly | `r1:u02:fly` | 36 | A×19, B×17 | Word bank → one word per blank (girl/bag examples); `wordBank` / `wordBankB` |
 | quiz2 | `r1:u02:quiz2` | 7 | A×7 | 2 blanks per row (뜻, 구분) |
 | quiz4 | `r1:u02:quiz4` | 7 | A×7 | 2 blanks per row (뜻, C/U) |
 
-**83 graded items**; Walk+Run match contributes **28 pair-level** score points.
+**84 graded items**; Walk+Run match contributes **28 pair-level** score points.
 
 ## Deep links
 

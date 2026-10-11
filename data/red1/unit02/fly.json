@@ -4,7 +4,49 @@
   "subtitle": "명사 종류 · C/U 분류 (p. 32–33)",
   "pages": "32–33",
   "timerMinutes": 18,
-  "introKo": "Section A 19문항(종류별 단어, girl 예시), B 16문항(셀 수 있는 9·없는 8, bag 예시)입니다.",
+  "introKo": "Section A 19문항(종류별 단어, girl 예시), B 17문항(셀 수 있는 9·없는 8, bag 예시)입니다.",
+  "wordBank": [
+    "bag",
+    "love",
+    "girl",
+    "idea",
+    "book",
+    "Tom",
+    "peace",
+    "boy",
+    "park",
+    "city",
+    "man",
+    "house",
+    "flower",
+    "pencil",
+    "rabbit",
+    "cup",
+    "tiger",
+    "tree",
+    "room",
+    "time"
+  ],
+  "wordBankB": [
+    "bag",
+    "water",
+    "dog",
+    "book",
+    "tiger",
+    "time",
+    "pencil",
+    "sand",
+    "girl",
+    "cup",
+    "cat",
+    "love",
+    "woman",
+    "milk",
+    "paper",
+    "tree",
+    "peace",
+    "snow"
+  ],
   "sections": [
     {
       "id": "A",
@@ -34,6 +76,28 @@
         "A18",
         "A19",
         "A20"
+      ],
+      "wordBank": [
+        "bag",
+        "love",
+        "girl",
+        "idea",
+        "book",
+        "Tom",
+        "peace",
+        "boy",
+        "park",
+        "city",
+        "man",
+        "house",
+        "flower",
+        "pencil",
+        "rabbit",
+        "cup",
+        "tiger",
+        "tree",
+        "room",
+        "time"
       ]
     },
     {
@@ -42,25 +106,46 @@
       "instructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는/없는 명사 칸에 영어 단어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "itemCount": 16,
+      "itemCount": 17,
       "exampleCount": 1,
       "labels": [
-        "B2",
-        "B3",
-        "B4",
-        "B5",
-        "B6",
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B11",
-        "B12",
-        "B13",
-        "B14",
-        "B15",
-        "B16",
-        "B17"
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6",
+        "U7",
+        "U8"
+      ],
+      "wordBank": [
+        "bag",
+        "water",
+        "dog",
+        "book",
+        "tiger",
+        "time",
+        "pencil",
+        "sand",
+        "girl",
+        "cup",
+        "cat",
+        "love",
+        "woman",
+        "milk",
+        "paper",
+        "tree",
+        "peace",
+        "snow"
       ]
     }
   ],
@@ -74,7 +159,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "girl",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "girl"
@@ -93,7 +178,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "boy",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "boy"
@@ -109,7 +194,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "man",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "man"
@@ -125,7 +210,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "Tom",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "Tom"
@@ -141,7 +226,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "park",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "park"
@@ -157,7 +242,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptEn": "city",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "city"
@@ -173,7 +258,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A7",
       "type": "fill",
-      "promptEn": "house",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "house"
@@ -189,7 +274,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A8",
       "type": "fill",
-      "promptEn": "room",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "room"
@@ -205,7 +290,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A9",
       "type": "fill",
-      "promptEn": "bag",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "bag"
@@ -221,7 +306,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A10",
       "type": "fill",
-      "promptEn": "book",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "book"
@@ -237,7 +322,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A11",
       "type": "fill",
-      "promptEn": "pencil",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "pencil"
@@ -253,7 +338,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A12",
       "type": "fill",
-      "promptEn": "cup",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "cup"
@@ -269,7 +354,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A13",
       "type": "fill",
-      "promptEn": "flower",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "flower"
@@ -285,7 +370,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A14",
       "type": "fill",
-      "promptEn": "rabbit",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "rabbit"
@@ -301,7 +386,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A15",
       "type": "fill",
-      "promptEn": "tiger",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "tiger"
@@ -317,7 +402,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A16",
       "type": "fill",
-      "promptEn": "tree",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "tree"
@@ -333,7 +418,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A17",
       "type": "fill",
-      "promptEn": "love",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "love"
@@ -349,7 +434,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A18",
       "type": "fill",
-      "promptEn": "peace",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "peace"
@@ -365,7 +450,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A19",
       "type": "fill",
-      "promptEn": "time",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "time"
@@ -381,7 +466,7 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A20",
       "type": "fill",
-      "promptEn": "idea",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "idea"
@@ -400,9 +485,9 @@
       "promptEn": "bag",
       "blanks": 1,
       "accept": [
-        "dog"
+        "bag"
       ],
-      "promptKo": "셀 수 있는 명사 — 1",
+      "promptKo": "셀 수 있는 명사 — 예시",
       "example": true,
       "displayOnly": true,
       "exampleAnswer": "bag"
@@ -416,10 +501,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "C2",
       "type": "fill",
-      "promptEn": "book",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "book"
+        "dog"
       ],
       "promptKo": "셀 수 있는 명사 — 2"
     },
@@ -432,10 +517,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "C3",
       "type": "fill",
-      "promptEn": "tiger",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "tiger"
+        "book"
       ],
       "promptKo": "셀 수 있는 명사 — 3"
     },
@@ -448,10 +533,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "C4",
       "type": "fill",
-      "promptEn": "pencil",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "pencil"
+        "tiger"
       ],
       "promptKo": "셀 수 있는 명사 — 4"
     },
@@ -464,10 +549,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "C5",
       "type": "fill",
-      "promptEn": "girl",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "girl"
+        "pencil"
       ],
       "promptKo": "셀 수 있는 명사 — 5"
     },
@@ -480,10 +565,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "C6",
       "type": "fill",
-      "promptEn": "cup",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "cup"
+        "girl"
       ],
       "promptKo": "셀 수 있는 명사 — 6"
     },
@@ -496,10 +581,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "C7",
       "type": "fill",
-      "promptEn": "cat",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "cat"
+        "woman"
       ],
       "promptKo": "셀 수 있는 명사 — 7"
     },
@@ -512,10 +597,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "C8",
       "type": "fill",
-      "promptEn": "woman",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "woman"
+        "tree"
       ],
       "promptKo": "셀 수 있는 명사 — 8"
     },
@@ -528,10 +613,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "C9",
       "type": "fill",
-      "promptEn": "tree",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "tree"
+        "cup"
       ],
       "promptKo": "셀 수 있는 명사 — 9"
     },
@@ -539,17 +624,17 @@
       "id": "b10",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "U1",
+      "label": "C10",
       "type": "fill",
-      "promptEn": "water",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "water"
+        "cat"
       ],
-      "promptKo": "셀 수 없는 명사 — 1"
+      "promptKo": "셀 수 있는 명사 — 10"
     },
     {
       "id": "b11",
@@ -558,14 +643,14 @@
       "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "U2",
+      "label": "U1",
       "type": "fill",
-      "promptEn": "time",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "time"
+        "water"
       ],
-      "promptKo": "셀 수 없는 명사 — 2"
+      "promptKo": "셀 수 없는 명사 — 1"
     },
     {
       "id": "b12",
@@ -574,14 +659,14 @@
       "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "U3",
+      "label": "U2",
       "type": "fill",
-      "promptEn": "sand",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "sand"
       ],
-      "promptKo": "셀 수 없는 명사 — 3"
+      "promptKo": "셀 수 없는 명사 — 2"
     },
     {
       "id": "b13",
@@ -590,14 +675,14 @@
       "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "U4",
+      "label": "U3",
       "type": "fill",
-      "promptEn": "love",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "love"
+        "milk"
       ],
-      "promptKo": "셀 수 없는 명사 — 4"
+      "promptKo": "셀 수 없는 명사 — 3"
     },
     {
       "id": "b14",
@@ -606,14 +691,14 @@
       "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "U5",
+      "label": "U4",
       "type": "fill",
-      "promptEn": "milk",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "milk"
+        "paper"
       ],
-      "promptKo": "셀 수 없는 명사 — 5"
+      "promptKo": "셀 수 없는 명사 — 4"
     },
     {
       "id": "b15",
@@ -622,14 +707,14 @@
       "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "U6",
+      "label": "U5",
       "type": "fill",
-      "promptEn": "paper",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "paper"
+        "time"
       ],
-      "promptKo": "셀 수 없는 명사 — 6"
+      "promptKo": "셀 수 없는 명사 — 5"
     },
     {
       "id": "b16",
@@ -638,14 +723,14 @@
       "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
-      "label": "U7",
+      "label": "U6",
       "type": "fill",
-      "promptEn": "peace",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
-        "peace"
+        "love"
       ],
-      "promptKo": "셀 수 없는 명사 — 7"
+      "promptKo": "셀 수 없는 명사 — 6"
     },
     {
       "id": "b17",
@@ -654,9 +739,25 @@
       "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
       "answerMode": "words",
       "answerModeTag": "Words · 빈칸 말만",
+      "label": "U7",
+      "type": "fill",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "peace"
+      ],
+      "promptKo": "셀 수 없는 명사 — 7"
+    },
+    {
+      "id": "b18",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
       "label": "U8",
       "type": "fill",
-      "promptEn": "snow",
+      "promptEn": "",
       "blanks": 1,
       "accept": [
         "snow"

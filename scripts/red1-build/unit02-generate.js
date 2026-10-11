@@ -107,9 +107,9 @@ function writeWalk() {
   ];
   const walkB = [
     ["girl", "여자아이"],
-    ["boy", "남자아이"],
-    ["cup", "컵"],
     ["pencil", "연필"],
+    ["cup", "컵"],
+    ["boy", "남자아이"],
     ["bag", "가방"],
   ];
   const walkC = [
@@ -409,8 +409,51 @@ function writeFly() {
     { cat: "안 보이는 것", words: ["love", "peace", "time", "idea"] },
   ];
 
-  const flyBCount = ["dog", "book", "tiger", "pencil", "girl", "cup", "cat", "woman", "tree"];
-  const flyBUncount = ["water", "time", "sand", "love", "milk", "paper", "peace", "snow"];
+  const FLY_A_WORD_BANK = [
+    "bag",
+    "love",
+    "girl",
+    "idea",
+    "book",
+    "Tom",
+    "peace",
+    "boy",
+    "park",
+    "city",
+    "man",
+    "house",
+    "flower",
+    "pencil",
+    "rabbit",
+    "cup",
+    "tiger",
+    "tree",
+    "room",
+    "time",
+  ];
+  const FLY_B_WORD_BANK = [
+    "bag",
+    "water",
+    "dog",
+    "book",
+    "tiger",
+    "time",
+    "pencil",
+    "sand",
+    "girl",
+    "cup",
+    "cat",
+    "love",
+    "woman",
+    "milk",
+    "paper",
+    "tree",
+    "peace",
+    "snow",
+  ];
+  // Answer key (p.33): 2×5 countable grid (bag example) then 2×4 uncountable columns.
+  const flyBCount = ["dog", "book", "tiger", "pencil", "girl", "woman", "tree", "cup", "cat"];
+  const flyBUncount = ["water", "sand", "milk", "paper", "time", "love", "peace", "snow"];
 
   const items = [];
   let ai = 1;
@@ -418,7 +461,7 @@ function writeFly() {
     for (const entry of block.words) {
       const w = typeof entry === "string" ? entry : entry.w;
       const id = `a${String(ai).padStart(2, "0")}`;
-      const base = fillItem(id, "A", `A${ai}`, w, w, {
+      const base = fillItem(id, "A", `A${ai}`, "", w, {
         sectionInstructionKo: instrA,
         promptKo: `${block.cat}`,
       });
@@ -433,26 +476,32 @@ function writeFly() {
   }
 
   let bi = 1;
-  flyBCount.forEach((w, wi) => {
-    const id = `b${String(bi).padStart(2, "0")}`;
-    const base = fillItem(id, "B", `C${wi + 1}`, w, w, {
+  items.push(
+    fillItem("b01", "B", "C1", "bag", ["bag"], {
       sectionInstructionKo:
         "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
-      promptKo: `셀 수 있는 명사 — ${wi + 1}`,
-    });
-    if (wi === 0) {
-      base.example = true;
-      base.displayOnly = true;
-      base.exampleAnswer = "bag";
-      base.promptEn = "bag";
-    }
-    items.push(base);
+      promptKo: "셀 수 있는 명사 — 예시",
+      example: true,
+      displayOnly: true,
+      exampleAnswer: "bag",
+    })
+  );
+  bi = 2;
+  flyBCount.forEach((w, wi) => {
+    const id = `b${String(bi).padStart(2, "0")}`;
+    items.push(
+      fillItem(id, "B", `C${wi + 2}`, "", w, {
+        sectionInstructionKo:
+          "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는 명사 칸에 영어 단어를 쓰세요.",
+        promptKo: `셀 수 있는 명사 — ${wi + 2}`,
+      })
+    );
     bi++;
   });
   flyBUncount.forEach((w, wi) => {
     const id = `b${String(bi).padStart(2, "0")}`;
     items.push(
-      fillItem(id, "B", `U${wi + 1}`, w, w, {
+      fillItem(id, "B", `U${wi + 1}`, "", w, {
         sectionInstructionKo:
           "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 없는 명사 칸에 영어 단어를 쓰세요.",
         promptKo: `셀 수 없는 명사 — ${wi + 1}`,
@@ -468,7 +517,9 @@ function writeFly() {
     pages: "32–33",
     timerMinutes: 18,
     introKo:
-      "Section A 19문항(종류별 단어, girl 예시), B 16문항(셀 수 있는 9·없는 8, bag 예시)입니다.",
+      "Section A 19문항(종류별 단어, girl 예시), B 17문항(셀 수 있는 9·없는 8, bag 예시)입니다.",
+    wordBank: FLY_A_WORD_BANK,
+    wordBankB: FLY_B_WORD_BANK,
     sections: [
       {
         id: "A",
@@ -479,6 +530,7 @@ function writeFly() {
         itemCount: 19,
         exampleCount: 1,
         labels: Array.from({ length: 19 }, (_, i) => `A${i + 2}`).slice(0, 19),
+        wordBank: FLY_A_WORD_BANK,
       },
       {
         id: "B",
@@ -487,9 +539,28 @@ function writeFly() {
           "다음 주어진 명사들의 뜻을 생각하며 알맞은 말을 골라 빈칸에 순서대로 쓰세요. 셀 수 있는/없는 명사 칸에 영어 단어를 쓰세요.",
         answerMode: "words",
         answerModeTag: "Words · 빈칸 말만",
-        itemCount: 16,
+        itemCount: 17,
         exampleCount: 1,
-        labels: Array.from({ length: 16 }, (_, i) => `B${i + 2}`),
+        labels: [
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8",
+          "C9",
+          "C10",
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5",
+          "U6",
+          "U7",
+          "U8",
+        ],
+        wordBank: FLY_B_WORD_BANK,
       },
     ],
     items,
