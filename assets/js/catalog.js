@@ -4,7 +4,7 @@
 
   var BOOKS = [
     { id: "zap-red-1", title: "ZAP Red 1", enabled: true, appName: "RedZap 1", bookTitle: "ZAP Red 1" },
-    { id: "zap-red-2", title: "ZAP Red 2", enabled: false, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
+    { id: "zap-red-2", title: "ZAP Red 2", enabled: true, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
@@ -93,7 +93,14 @@
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
     ],
     "zap-red-2": [
-      { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
+      { id: "unit-01", title: "Unit 01 — 일반동사 (coming soon)", enabled: false },
+      { id: "unit-02", title: "Unit 02 — 일반동사의 부정문과 의문문 (coming soon)", enabled: false },
+      { id: "unit-03", title: "Unit 03 — 형용사 (coming soon)", enabled: false },
+      { id: "unit-04", title: "Unit 04 — 부사와 전치사 (coming soon)", enabled: false },
+      { id: "unit-05", title: "Unit 05 — 의문사 (1) (coming soon)", enabled: false },
+      { id: "unit-06", title: "Unit 06 — 의문사 (2) (coming soon)", enabled: false },
+      { id: "unit-07", title: "Unit 07 — 현재 진행형 (coming soon)", enabled: false },
+      { id: "unit-08", title: "Unit 08 — 현재 진행형의 부정문과 의문문", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4860,6 +4867,50 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green2/unit01/checkup.json",
         practiceId: "g2:u01:checkup",
+      },
+    ],
+    "zap-red-2:unit-08": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "부정문 · 의문문 따라쓰기 · p. 122–123",
+        data: "data/red2/unit08/walk.json",
+        practiceId: "r2:u08:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "부정형 찾기 · 대답 고르기 · p. 124–125",
+        data: "data/red2/unit08/run.json",
+        practiceId: "r2:u08:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "부정문 · 의문문 고르기 · p. 126–127",
+        data: "data/red2/unit08/jump.json",
+        practiceId: "r2:u08:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "부정문 · 의문문 바꾸기 · p. 128–129",
+        data: "data/red2/unit08/fly.json",
+        practiceId: "r2:u08:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 부정문 표",
+        hint: "표 빈칸 · p. 130",
+        data: "data/red2/unit08/quiz2.json",
+        practiceId: "r2:u08:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 의문문 표",
+        hint: "표 빈칸 · p. 131",
+        data: "data/red2/unit08/quiz4.json",
+        practiceId: "r2:u08:quiz4",
       },
     ],
     "zap-red-1:unit-01": [
