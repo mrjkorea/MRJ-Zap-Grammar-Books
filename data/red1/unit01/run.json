@@ -308,9 +308,9 @@
       "label": "B2",
       "type": "fill",
       "promptEn": "orangutan",
-      "blanks": 3,
+      "blanks": 4,
       "accept": [
-        "o|a|u"
+        "o|a|u|a"
       ],
       "unordered": true
     },
@@ -324,9 +324,9 @@
       "label": "B3",
       "type": "fill",
       "promptEn": "iguana",
-      "blanks": 3,
+      "blanks": 4,
       "accept": [
-        "i|u|a"
+        "i|u|a|a"
       ],
       "unordered": true
     },
@@ -340,9 +340,9 @@
       "label": "B4",
       "type": "fill",
       "promptEn": "koala",
-      "blanks": 2,
+      "blanks": 3,
       "accept": [
-        "o|a"
+        "o|a|a"
       ],
       "unordered": true
     },
@@ -404,9 +404,9 @@
       "label": "B8",
       "type": "fill",
       "promptEn": "supermarket",
-      "blanks": 3,
+      "blanks": 4,
       "accept": [
-        "u|e|a"
+        "u|e|a|e"
       ],
       "unordered": true
     },
@@ -719,5 +719,5 @@
   "appName": "RedZap 1",
   "unitId": "unit-01",
   "unitTitle": "Unit 01 — 알파벳과 수 세기",
-  "sectionsVersion": 1
+  "sectionsVersion": 2
 }
