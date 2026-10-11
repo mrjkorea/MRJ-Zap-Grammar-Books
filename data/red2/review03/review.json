@@ -1,0 +1,490 @@
+{
+  "practiceId": "r2:rv03:review",
+  "title": "Review 03",
+  "subtitle": "Unit 05–06 (pp. 100–103)",
+  "pages": "100–103",
+  "timerMinutes": 30,
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "review-03",
+  "unitTitle": "Review 03 — Unit 05 의문사 (1) · Unit 06 의문사 (2)",
+  "sectionsVersion": 2,
+  "introKo": "Review 03은 20문항입니다.",
+  "sections": [
+    {
+      "id": "1",
+      "title": "[1]",
+      "instructionKo": "[1] 다음 밑줄 친 말과 우리말 뜻이 잘못 짝지어진 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "1"
+      ]
+    },
+    {
+      "id": "2-5",
+      "title": "[2–5]",
+      "instructionKo": "[2–5] 다음 대화의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "6-8",
+      "title": "[6–8]",
+      "instructionKo": "[6–8] 다음 괄호 안에서 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "9-10",
+      "title": "[9–10]",
+      "instructionKo": "[9–10] 다음 중 짝지어진 대화가 어색한 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "11-12",
+      "title": "[11–12]",
+      "instructionKo": "[11–12] 다음 질문에 대한 알맞은 대답을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "13-15",
+      "title": "[13–15]",
+      "instructionKo": "[13–15] 다음 괄호 안에서 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "id": "16-20",
+      "title": "[16–20]",
+      "instructionKo": "[16–20] 다음 대화의 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "rv01",
+      "section": "1",
+      "sectionTitle": "[1]",
+      "sectionInstructionKo": "[1] 다음 밑줄 친 말과 우리말 뜻이 잘못 짝지어진 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "밑줄 친 말 – 우리말",
+      "choices": [
+        "How are you? – 어떻게",
+        "Why are you so happy? – 누가",
+        "Where is it? – 어디에"
+      ],
+      "accept": [
+        "2",
+        "Why are you so happy? – 누가"
+      ]
+    },
+    {
+      "id": "rv02",
+      "section": "2-5",
+      "sectionTitle": "[2–5]",
+      "sectionInstructionKo": "[2–5] 다음 대화의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "A: ______ are they?\nB: They are my friends.",
+      "choices": [
+        "Who",
+        "What",
+        "Where"
+      ],
+      "accept": [
+        "1",
+        "Who"
+      ]
+    },
+    {
+      "id": "rv03",
+      "section": "2-5",
+      "sectionTitle": "[2–5]",
+      "sectionInstructionKo": "[2–5] 다음 대화의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "A: ______ does Hongcheol have?\nB: He has a red hat.",
+      "choices": [
+        "Who",
+        "What",
+        "Where"
+      ],
+      "accept": [
+        "2",
+        "What"
+      ]
+    },
+    {
+      "id": "rv04",
+      "section": "2-5",
+      "sectionTitle": "[2–5]",
+      "sectionInstructionKo": "[2–5] 다음 대화의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "A: ______ is that?\nB: It's white.",
+      "choices": [
+        "What time",
+        "What day",
+        "What color"
+      ],
+      "accept": [
+        "3",
+        "What color"
+      ]
+    },
+    {
+      "id": "rv05",
+      "section": "2-5",
+      "sectionTitle": "[2–5]",
+      "sectionInstructionKo": "[2–5] 다음 대화의 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "A: ______ umbrellas does Jessica have?\nB: Two.",
+      "choices": [
+        "How old",
+        "How much",
+        "How many"
+      ],
+      "accept": [
+        "3",
+        "How many"
+      ]
+    },
+    {
+      "id": "rv06",
+      "section": "6-8",
+      "sectionTitle": "[6–8]",
+      "sectionInstructionKo": "[6–8] 다음 괄호 안에서 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "Who ( am / are / is ) they?",
+      "choices": [
+        "am",
+        "are",
+        "is"
+      ],
+      "accept": [
+        "2",
+        "are"
+      ]
+    },
+    {
+      "id": "rv07",
+      "section": "6-8",
+      "sectionTitle": "[6–8]",
+      "sectionInstructionKo": "[6–8] 다음 괄호 안에서 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "What ( am / are / is ) this?",
+      "choices": [
+        "am",
+        "are",
+        "is"
+      ],
+      "accept": [
+        "3",
+        "is"
+      ]
+    },
+    {
+      "id": "rv08",
+      "section": "6-8",
+      "sectionTitle": "[6–8]",
+      "sectionInstructionKo": "[6–8] 다음 괄호 안에서 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "What ( do / does / is ) his sister have?",
+      "choices": [
+        "do",
+        "does",
+        "is"
+      ],
+      "accept": [
+        "2",
+        "does"
+      ]
+    },
+    {
+      "id": "rv09",
+      "section": "9-10",
+      "sectionTitle": "[9–10]",
+      "sectionInstructionKo": "[9–10] 다음 중 짝지어진 대화가 어색한 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "어색한 대화",
+      "choices": [
+        "A: Who is she? B: She is Jason's mom.",
+        "A: What do you like? B: I like monkeys.",
+        "A: What day is it today? B: It's cold."
+      ],
+      "accept": [
+        "3",
+        "A: What day is it today? B: It's cold."
+      ]
+    },
+    {
+      "id": "rv10",
+      "section": "9-10",
+      "sectionTitle": "[9–10]",
+      "sectionInstructionKo": "[9–10] 다음 중 짝지어진 대화가 어색한 것을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "어색한 대화",
+      "choices": [
+        "A: How many pencils does she have? B: Thirteen.",
+        "A: How old is your grandma? B: Two hundred won.",
+        "A: What time is it? B: It's eleven o'clock."
+      ],
+      "accept": [
+        "2",
+        "A: How old is your grandma? B: Two hundred won."
+      ]
+    },
+    {
+      "id": "rv11",
+      "section": "11-12",
+      "sectionTitle": "[11–12]",
+      "sectionInstructionKo": "[11–12] 다음 질문에 대한 알맞은 대답을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "What color is that?",
+      "choices": [
+        "It's white.",
+        "It's Friday.",
+        "It's seven o'clock."
+      ],
+      "accept": [
+        "1",
+        "It's white."
+      ]
+    },
+    {
+      "id": "rv12",
+      "section": "11-12",
+      "sectionTitle": "[11–12]",
+      "sectionInstructionKo": "[11–12] 다음 질문에 대한 알맞은 대답을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "How much is this pencil case?",
+      "choices": [
+        "Two thousand won",
+        "Two years old.",
+        "Three."
+      ],
+      "accept": [
+        "1",
+        "Two thousand won"
+      ]
+    },
+    {
+      "id": "rv13",
+      "section": "13-15",
+      "sectionTitle": "[13–15]",
+      "sectionInstructionKo": "[13–15] 다음 괄호 안에서 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "13",
+      "type": "mc",
+      "promptEn": "A: How ( old / much / many ) are you?\nB: Ten years old.",
+      "choices": [
+        "old",
+        "much",
+        "many"
+      ],
+      "accept": [
+        "1",
+        "old"
+      ]
+    },
+    {
+      "id": "rv14",
+      "section": "13-15",
+      "sectionTitle": "[13–15]",
+      "sectionInstructionKo": "[13–15] 다음 괄호 안에서 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "A: How ( old / much / many ) are those onions?\nB: Two thousand won.",
+      "choices": [
+        "old",
+        "much",
+        "many"
+      ],
+      "accept": [
+        "2",
+        "much"
+      ]
+    },
+    {
+      "id": "rv15",
+      "section": "13-15",
+      "sectionTitle": "[13–15]",
+      "sectionInstructionKo": "[13–15] 다음 괄호 안에서 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "A: How ( old / much / many ) pens do you have?\nB: Nine.",
+      "choices": [
+        "old",
+        "much",
+        "many"
+      ],
+      "accept": [
+        "3",
+        "many"
+      ]
+    },
+    {
+      "id": "rv16",
+      "section": "16-20",
+      "sectionTitle": "[16–20]",
+      "sectionInstructionKo": "[16–20] 다음 대화의 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "16",
+      "type": "fill",
+      "promptEn": "A: ______ is he?\nB: He's my uncle.",
+      "blanks": 1,
+      "accept": [
+        "Who"
+      ]
+    },
+    {
+      "id": "rv17",
+      "section": "16-20",
+      "sectionTitle": "[16–20]",
+      "sectionInstructionKo": "[16–20] 다음 대화의 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "17",
+      "type": "fill",
+      "promptEn": "A: ______ is this?\nB: It's an eraser.",
+      "blanks": 1,
+      "accept": [
+        "What"
+      ]
+    },
+    {
+      "id": "rv18",
+      "section": "16-20",
+      "sectionTitle": "[16–20]",
+      "sectionInstructionKo": "[16–20] 다음 대화의 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "18",
+      "type": "fill",
+      "promptEn": "A: What ______ is it today?\nB: It's Saturday.",
+      "blanks": 1,
+      "accept": [
+        "day"
+      ]
+    },
+    {
+      "id": "rv19",
+      "section": "16-20",
+      "sectionTitle": "[16–20]",
+      "sectionInstructionKo": "[16–20] 다음 대화의 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "19",
+      "type": "fill",
+      "promptEn": "A: How ______ is this notebook?\nB: Two dollars.",
+      "blanks": 1,
+      "accept": [
+        "much"
+      ]
+    },
+    {
+      "id": "rv20",
+      "section": "16-20",
+      "sectionTitle": "[16–20]",
+      "sectionInstructionKo": "[16–20] 다음 대화의 빈칸에 알맞은 단어를 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "20",
+      "type": "fill",
+      "promptEn": "A: How ______ is she?\nB: Eleven years old.",
+      "blanks": 1,
+      "accept": [
+        "old"
+      ]
+    }
+  ]
+}

@@ -93,7 +93,11 @@
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
     ],
     "zap-red-2": [
-      { id: "unit-10", title: "Unit 10 — 명령문", enabled: true },
+      { id: "review-01", title: "Review 01", enabled: true },
+      { id: "review-02", title: "Review 02", enabled: true },
+      { id: "review-03", title: "Review 03", enabled: true },
+      { id: "review-04", title: "Review 04", enabled: true },
+      { id: "review-05", title: "Review 05", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4862,6 +4866,51 @@
         practiceId: "g2:u01:checkup",
       },
     ],
+    "zap-red-2:review-01": [
+      {
+        slug: "review",
+        title: "Review 01",
+        hint: "Unit 01–02 · pp. 36–39",
+        data: "data/red2/review01/review.json",
+        practiceId: "r2:rv01:review",
+      },
+    ],
+    "zap-red-2:review-02": [
+      {
+        slug: "review",
+        title: "Review 02",
+        hint: "Unit 03–04 · pp. 68–71",
+        data: "data/red2/review02/review.json",
+        practiceId: "r2:rv02:review",
+      },
+    ],
+    "zap-red-2:review-03": [
+      {
+        slug: "review",
+        title: "Review 03",
+        hint: "Unit 05–06 · pp. 100–103",
+        data: "data/red2/review03/review.json",
+        practiceId: "r2:rv03:review",
+      },
+    ],
+    "zap-red-2:review-04": [
+      {
+        slug: "review",
+        title: "Review 04",
+        hint: "Unit 07–08 · pp. 132–135",
+        data: "data/red2/review04/review.json",
+        practiceId: "r2:rv04:review",
+      },
+    ],
+    "zap-red-2:review-05": [
+      {
+        slug: "review",
+        title: "Review 05",
+        hint: "Unit 09–10 · pp. 164–167",
+        data: "data/red2/review05/review.json",
+        practiceId: "r2:rv05:review",
+      },
+    ],
     "zap-red-1:unit-01": [
       {
         slug: "walk",
@@ -4904,50 +4953,6 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
-      },
-    ],
-    "zap-red-2:unit-10": [
-      {
-        slug: "walk",
-        title: "Grammar Walk",
-        hint: "명령문 따라쓰기 · p. 154–155",
-        data: "data/red2/unit10/walk.json",
-        practiceId: "r2:u10:walk",
-      },
-      {
-        slug: "run",
-        title: "Grammar Run",
-        hint: "동사원형 · Don't · Let's · p. 156–157",
-        data: "data/red2/unit10/run.json",
-        practiceId: "r2:u10:run",
-      },
-      {
-        slug: "jump",
-        title: "Grammar Jump",
-        hint: "명령문 고르기 · p. 158–159",
-        data: "data/red2/unit10/jump.json",
-        practiceId: "r2:u10:jump",
-      },
-      {
-        slug: "fly",
-        title: "Grammar Fly",
-        hint: "명령문 완성 · p. 160–161",
-        data: "data/red2/unit10/fly.json",
-        practiceId: "r2:u10:fly",
-      },
-      {
-        slug: "quiz1",
-        title: "QUIZ 1 — 명령문",
-        hint: "표 빈칸 · p. 162",
-        data: "data/red2/unit10/quiz1.json",
-        practiceId: "r2:u10:quiz1",
-      },
-      {
-        slug: "quiz2",
-        title: "QUIZ 2 — 부정 명령문 · Let's",
-        hint: "표 빈칸 · p. 163",
-        data: "data/red2/unit10/quiz2.json",
-        practiceId: "r2:u10:quiz2",
       },
     ],
   };
