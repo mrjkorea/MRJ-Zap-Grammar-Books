@@ -1,0 +1,184 @@
+{
+  "practiceId": "r1:u03:walk",
+  "title": "Grammar Walk",
+  "subtitle": "단수·복수 따라쓰기 (p. 44–45)",
+  "pages": "44–45",
+  "timerMinutes": 18,
+  "introKo": "Section A·B 각 2문항(한글 뜻↔영어 복수형 짝 맞추기, 4쌍씩)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A — 규칙 복수",
+      "instructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B — 불규칙·동형",
+      "instructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "펜",
+          "right": "pens"
+        },
+        {
+          "left": "상자",
+          "right": "boxes"
+        },
+        {
+          "left": "버스",
+          "right": "buses"
+        },
+        {
+          "left": "벤치",
+          "right": "benches"
+        }
+      ],
+      "accept": [
+        "펜|pens",
+        "상자|boxes",
+        "버스|buses",
+        "벤치|benches"
+      ],
+      "promptKo": "펜, 상자, 버스, 벤치"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "접시",
+          "right": "dishes"
+        },
+        {
+          "left": "토마토",
+          "right": "tomatoes"
+        },
+        {
+          "left": "아기",
+          "right": "babies"
+        },
+        {
+          "left": "남자아이",
+          "right": "boys"
+        }
+      ],
+      "accept": [
+        "접시|dishes",
+        "토마토|tomatoes",
+        "아기|babies",
+        "남자아이|boys"
+      ],
+      "promptKo": "접시, 토마토, 아기, 남자아이"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "나뭇잎",
+          "right": "leaves"
+        },
+        {
+          "left": "칼",
+          "right": "knives"
+        },
+        {
+          "left": "남자",
+          "right": "men"
+        },
+        {
+          "left": "여자",
+          "right": "women"
+        }
+      ],
+      "accept": [
+        "나뭇잎|leaves",
+        "칼|knives",
+        "남자|men",
+        "여자|women"
+      ],
+      "promptKo": "나뭇잎, 칼, 남자, 여자"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "어린이",
+          "right": "children"
+        },
+        {
+          "left": "쥐",
+          "right": "mice"
+        },
+        {
+          "left": "발",
+          "right": "feet"
+        },
+        {
+          "left": "양",
+          "right": "sheep"
+        }
+      ],
+      "accept": [
+        "어린이|children",
+        "쥐|mice",
+        "발|feet",
+        "양|sheep"
+      ],
+      "promptKo": "어린이, 쥐, 발, 양"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 명사 (2)",
+  "sectionsVersion": 1
+}
