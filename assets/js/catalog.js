@@ -93,8 +93,7 @@
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
     ],
     "zap-red-2": [
-      { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
-      { id: "unit-09", title: "Unit 09 — 조동사 can", enabled: true },
+      { id: "unit-10", title: "Unit 10 — 명령문", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4863,50 +4862,6 @@
         practiceId: "g2:u01:checkup",
       },
     ],
-    "zap-red-2:unit-09": [
-      {
-        slug: "walk",
-        title: "Grammar Walk",
-        hint: "can 문장 · 대화 · pp. 140–141",
-        data: "data/red2/unit09/walk.json",
-        practiceId: "r2:u09:walk",
-      },
-      {
-        slug: "run",
-        title: "Grammar Run",
-        hint: "can 찾기 · 대답 · pp. 142–143",
-        data: "data/red2/unit09/run.json",
-        practiceId: "r2:u09:run",
-      },
-      {
-        slug: "jump",
-        title: "Grammar Jump",
-        hint: "동사원형 · Can 의문문 · pp. 144–145",
-        data: "data/red2/unit09/jump.json",
-        practiceId: "r2:u09:jump",
-      },
-      {
-        slug: "fly",
-        title: "Grammar Fly",
-        hint: "문장 완성 · 부정·의문 · pp. 146–147",
-        data: "data/red2/unit09/fly.json",
-        practiceId: "r2:u09:fly",
-      },
-      {
-        slug: "quiz2",
-        title: "QUIZ 2 — can 표",
-        hint: "긍·부정 표 · p. 148",
-        data: "data/red2/unit09/quiz2.json",
-        practiceId: "r2:u09:quiz2",
-      },
-      {
-        slug: "quiz4",
-        title: "QUIZ 4 — 의문문 대답 표",
-        hint: "대답 표 · p. 149",
-        data: "data/red2/unit09/quiz4.json",
-        practiceId: "r2:u09:quiz4",
-      },
-    ],
     "zap-red-1:unit-01": [
       {
         slug: "walk",
@@ -4949,6 +4904,50 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-2:unit-10": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "명령문 따라쓰기 · p. 154–155",
+        data: "data/red2/unit10/walk.json",
+        practiceId: "r2:u10:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "동사원형 · Don't · Let's · p. 156–157",
+        data: "data/red2/unit10/run.json",
+        practiceId: "r2:u10:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "명령문 고르기 · p. 158–159",
+        data: "data/red2/unit10/jump.json",
+        practiceId: "r2:u10:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "명령문 완성 · p. 160–161",
+        data: "data/red2/unit10/fly.json",
+        practiceId: "r2:u10:fly",
+      },
+      {
+        slug: "quiz1",
+        title: "QUIZ 1 — 명령문",
+        hint: "표 빈칸 · p. 162",
+        data: "data/red2/unit10/quiz1.json",
+        practiceId: "r2:u10:quiz1",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 부정 명령문 · Let's",
+        hint: "표 빈칸 · p. 163",
+        data: "data/red2/unit10/quiz2.json",
+        practiceId: "r2:u10:quiz2",
       },
     ],
   };
