@@ -425,12 +425,11 @@
       "label": "16",
       "type": "fill",
       "promptEn": "Please ______ down.",
-      "blanks": {
-        "promptKo": "자리에 앉으세요."
-      },
+      "blanks": 1,
       "accept": [
         "sit"
-      ]
+      ],
+      "promptKo": "자리에 앉으세요."
     },
     {
       "id": "rv17",
@@ -459,12 +458,11 @@
       "label": "18",
       "type": "fill",
       "promptEn": "______ up early.",
-      "blanks": {
-        "promptKo": "일찍 일어나라."
-      },
+      "blanks": 1,
       "accept": [
         "Get"
-      ]
+      ],
+      "promptKo": "일찍 일어나라."
     },
     {
       "id": "rv19",

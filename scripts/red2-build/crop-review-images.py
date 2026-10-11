@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
 """Crop Review picture items for RedZap 2; compress <60KB."""
 from pathlib import Path
+import os
 from PIL import Image
 
 REPO = Path(__file__).resolve().parents[2]
 OUT = REPO / "assets" / "img" / "red2"
 OUT.mkdir(parents=True, exist_ok=True)
+
+PAGES = Path(
+    os.environ.get(
+        "RED2_REVIEW_PAGES",
+        "/tmp/red2-audit/pages",
+    )
+)
 
 
 def save_compressed(im: Image.Image, path: Path, max_kb: int = 58) -> None:
@@ -28,17 +36,22 @@ def crop(page: Path, box, rel: str) -> None:
     print(out.relative_to(REPO), f"{out.stat().st_size / 1024:.1f} KB")
 
 
-# Review 02 p0071 — dog on car, ball under table
-rv02 = Path("/tmp/red2-rv02_994d/pages/p0071.png")
-crop(rv02, (55, 318, 248, 458), "review02/rv14.png")
-crop(rv02, (55, 488, 248, 628), "review02/rv15.png")
+def main() -> None:
+    if not PAGES.is_dir():
+        raise SystemExit(f"Page PNG folder not found: {PAGES}")
 
-# Review 05 p0165 — swim / jump
-rv05a = Path("/tmp/red2-rv05_ca3a/pages/p0165.png")
-crop(rv05a, (55, 118, 248, 268), "review05/rv01.png")
-crop(rv05a, (55, 288, 248, 438), "review05/rv02.png")
+    rv02 = PAGES / "p0071.png"
+    crop(rv02, (45, 748, 255, 898), "review02/rv14.png")
+    crop(rv02, (45, 958, 255, 1108), "review02/rv15.png")
 
-# Review 05 p0167 — don't sit / don't swim
-rv05b = Path("/tmp/red2-rv05_ca3a/pages/p0167.png")
-crop(rv05b, (55, 118, 248, 268), "review05/rv11.png")
-crop(rv05b, (55, 318, 248, 468), "review05/rv12.png")
+    rv05a = PAGES / "p0165.png"
+    crop(rv05a, (125, 190, 305, 350), "review05/rv01.png")
+    crop(rv05a, (555, 195, 672, 348), "review05/rv02.png")
+
+    rv05b = PAGES / "p0167.png"
+    crop(rv05b, (90, 175, 305, 340), "review05/rv11.png")
+    crop(rv05b, (90, 340, 305, 505), "review05/rv12.png")
+
+
+if __name__ == "__main__":
+    main()
