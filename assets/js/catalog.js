@@ -91,6 +91,7 @@
     ],
     "zap-red-1": [
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
+      { id: "unit-06", title: "Unit 06 — 인칭대명사의 주격과 목적격", enabled: true },
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
@@ -4904,6 +4905,50 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-1:unit-06": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "주격·목적격 따라쓰기 · p. 90–91",
+        data: "data/red1/unit06/walk.json",
+        practiceId: "r1:u06:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "주격·목적격 찾기 · p. 92–93",
+        data: "data/red1/unit06/run.json",
+        practiceId: "r1:u06:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "주격·목적격 고르기 · p. 94–95",
+        data: "data/red1/unit06/jump.json",
+        practiceId: "r1:u06:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "주격·목적격 쓰기 · p. 96–97",
+        data: "data/red1/unit06/fly.json",
+        practiceId: "r1:u06:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 주격 표",
+        hint: "주격 표 · p. 98",
+        data: "data/red1/unit06/quiz2.json",
+        practiceId: "r1:u06:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 목적격 표",
+        hint: "목적격 표 · p. 99",
+        data: "data/red1/unit06/quiz4.json",
+        practiceId: "r1:u06:quiz4",
       },
     ],
   };

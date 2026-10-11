@@ -1,0 +1,204 @@
+{
+  "practiceId": "r1:u06:walk",
+  "title": "Grammar Walk",
+  "subtitle": "주격·목적격 따라쓰기 (p. 90–91)",
+  "pages": "90–91",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(주격 짝 맞추기 10쌍), Section B 2문항(목적격 짝 맞추기 10쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A — 주격",
+      "instructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 주격을 따라 써 보세요. 문장과 알맞은 주격을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B — 목적격",
+      "instructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 목적격을 따라 써 보세요. 문장과 알맞은 목적격을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 주격을 따라 써 보세요. 문장과 알맞은 주격을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1. _____ am happy.",
+          "right": "I"
+        },
+        {
+          "left": "2. _____ are happy.",
+          "right": "You"
+        },
+        {
+          "left": "3. _____ is sad.",
+          "right": "He"
+        },
+        {
+          "left": "4. _____ is sad.",
+          "right": "She"
+        },
+        {
+          "left": "5. _____ is thin.",
+          "right": "It"
+        },
+        {
+          "left": "6. _____ are thin.",
+          "right": "We"
+        },
+        {
+          "left": "7. _____ are lazy.",
+          "right": "They"
+        }
+      ],
+      "accept": [
+        "1. _____ am happy.|I",
+        "2. _____ are happy.|You",
+        "3. _____ is sad.|He",
+        "4. _____ is sad.|She",
+        "5. _____ is thin.|It",
+        "6. _____ are thin.|We",
+        "7. _____ are lazy.|They"
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 주격을 따라 써 보세요. 문장과 알맞은 주격을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8. _____ are lazy.",
+          "right": "You"
+        },
+        {
+          "left": "9. _____ is diligent.",
+          "right": "She"
+        },
+        {
+          "left": "10. _____ is diligent.",
+          "right": "He"
+        }
+      ],
+      "accept": [
+        "8. _____ are lazy.|You",
+        "9. _____ is diligent.|She",
+        "10. _____ is diligent.|He"
+      ],
+      "promptKo": "문장 8–1"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 목적격을 따라 써 보세요. 문장과 알맞은 목적격을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1. I like _____.",
+          "right": "you"
+        },
+        {
+          "left": "2. I like _____.",
+          "right": "him"
+        },
+        {
+          "left": "3. You like _____.",
+          "right": "her"
+        },
+        {
+          "left": "4. You like _____.",
+          "right": "me"
+        },
+        {
+          "left": "5. They love _____.",
+          "right": "it"
+        },
+        {
+          "left": "6. They love _____.",
+          "right": "us"
+        },
+        {
+          "left": "7. We love _____.",
+          "right": "you"
+        }
+      ],
+      "accept": [
+        "1. I like _____.|you",
+        "2. I like _____.|him",
+        "3. You like _____.|her",
+        "4. You like _____.|me",
+        "5. They love _____.|it",
+        "6. They love _____.|us",
+        "7. We love _____.|you"
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 목적격을 따라 써 보세요. 문장과 알맞은 목적격을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8. We visit _____ every day.",
+          "right": "them"
+        },
+        {
+          "left": "9. The students visit _____ every day.",
+          "right": "him"
+        },
+        {
+          "left": "10. The students visit _____ every day.",
+          "right": "her"
+        }
+      ],
+      "accept": [
+        "8. We visit _____ every day.|them",
+        "9. The students visit _____ every day.|him",
+        "10. The students visit _____ every day.|her"
+      ],
+      "promptKo": "문장 8–10"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 인칭대명사의 주격과 목적격",
+  "sectionsVersion": 1
+}
