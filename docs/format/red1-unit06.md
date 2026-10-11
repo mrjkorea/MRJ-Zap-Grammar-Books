@@ -27,7 +27,7 @@ Printed pages **86–99** (PDF 87–100). Skipped: comics (p.86–87), concept +
 | Slug | practiceId | Graded items | Sections | Modes |
 |------|------------|--------------|----------|-------|
 | walk | `r1:u06:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (10+10 pairs; A numbered 1–10, B numbered 1–10) |
-| run | `r1:u06:run` | 18 | A×9 MC, B×9 MC | Circle pronoun → tap correct form (2 examples display-only) |
+| run | `r1:u06:run` | 18 | A×9 MC, B×9 MC | Circle pronoun → tap word from sentence (book order; 2 examples display-only) |
 | jump | `r1:u06:jump` | 18 | A×9 MC, B×9 MC | Parentheses order; 2 examples display-only |
 | fly | `r1:u06:fly` | 18 | A×9 words, B×9 words | One pronoun per blank; 2 examples display-only |
 | quiz2 | `r1:u06:quiz2` | 3 | A×3 words | Table blanks (1)→you, (2)→he, (3)→they |
@@ -46,7 +46,6 @@ Printed pages **86–99** (PDF 87–100). Skipped: comics (p.86–87), concept +
 
 ## Uncertain / notes
 
-- **Run** “동그라미” → three-way MC (correct + subjective/objective pair + possessive distractor); not every distractor appears in the book.
 - **Walk A** items 3–4 share the same English frame (`_____ is sad.`); disambiguated by book item numbers on the left column only.
 - **Walk B** items 1–2 and 9–10 share sentence frames; numbered on the left.
 

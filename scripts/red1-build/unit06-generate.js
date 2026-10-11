@@ -77,29 +77,21 @@ function fillItem(id, section, label, prompt, accept, extra = {}) {
   };
 }
 
-function subjObjChoices(correct) {
-  const map = {
-    I: ["I", "me", "my"],
-    me: ["me", "I", "my"],
-    You: ["You", "you", "your"],
-    you: ["you", "You", "your"],
-    He: ["He", "he", "him"],
-    he: ["he", "He", "him"],
-    him: ["him", "he", "his"],
-    She: ["She", "she", "her"],
-    she: ["she", "She", "her"],
-    her: ["her", "she", "hers"],
-    It: ["It", "it", "its"],
-    it: ["it", "It", "its"],
-    We: ["We", "we", "us"],
-    we: ["we", "We", "us"],
-    us: ["us", "we", "our"],
-    They: ["They", "they", "them"],
-    they: ["they", "They", "them"],
-    them: ["them", "they", "their"],
-  };
-  const key = correct;
-  return map[key] || [correct, "I", "me"];
+/** Circle-in-sentence MC: options are the sentence's own words, in book order. */
+function sentenceWordChoices(sentence, correct) {
+  const choices = sentence.trim().split(/\s+/);
+  const idx = choices.findIndex(
+    (w) => w === correct || w.replace(/[.,!?;:]$/, "") === correct
+  );
+  if (idx < 0) {
+    throw new Error(`Answer "${correct}" not in sentence: ${sentence}`);
+  }
+  return { choices, accept: String(idx + 1) };
+}
+
+function walkItemNum(left) {
+  const m = String(left).match(/^(\d+)\./);
+  return m ? m[1] : String(left);
 }
 
 function writeWalk() {
@@ -140,7 +132,7 @@ function writeWalk() {
     items.push(
       matchItem(`a${String(gi + 1).padStart(2, "0")}`, "A", `A${gi + 1}`, pairs, {
         sectionInstructionKo: instrA,
-        promptKo: `문장 ${g[0][0].charAt(0)}–${g[g.length - 1][0].charAt(0)}`,
+        promptKo: `문장 ${walkItemNum(g[0][0])}–${walkItemNum(g[g.length - 1][0])}`,
       })
     );
   });
@@ -231,8 +223,7 @@ function writeRun() {
     const n = i + 1;
     const label = `A${n}`;
     const id = `a${String(n).padStart(2, "0")}`;
-    const choices = subjObjChoices(row[1]);
-    const accept = String(choices.indexOf(row[1]) + 1);
+    const { choices, accept } = sentenceWordChoices(row[0], row[1]);
     const extra = { sectionInstructionKo: instrA };
     if (n === 1) {
       items.push({
@@ -250,8 +241,7 @@ function writeRun() {
     const n = i + 1;
     const label = `B${n}`;
     const id = `b${String(n).padStart(2, "0")}`;
-    const choices = subjObjChoices(row[1]);
-    const accept = String(choices.indexOf(row[1]) + 1);
+    const { choices, accept } = sentenceWordChoices(row[0], row[1]);
     const extra = { sectionInstructionKo: instrB };
     if (n === 1) {
       items.push({
