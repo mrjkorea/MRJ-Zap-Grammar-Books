@@ -539,19 +539,30 @@ writeReview(
   )
 );
 
-// Review 05 (printed 166–167; book items 11–20 only on these pages)
+// Review 05 (printed 164–167; PDF pp. 165–168)
 writeReview(
   "review05",
   pack(
     {
       practiceId: "r1:rv05:review",
       title: "Review 05",
-      subtitle: "Units 09–10 · pp. 166–167",
-      pages: "166–167",
-      introKo:
-        "Review 05는 책 [11]부터 [20]까지 10문항입니다. (앞쪽 [1–10]은 Unit 10 마지막 페이지에 있습니다.)",
+      subtitle: "Units 09–10 · pp. 164–167",
+      pages: "164–167",
+      introKo: "Review 05는 [1]부터 [20]까지 20문항입니다. 고르기와 빈칸 쓰기로 풀어요.",
     },
     [
+      sec(
+        "1-5",
+        "[1–5] 다음 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+        "choice",
+        [1, 2, 3, 4, 5]
+      ),
+      sec(
+        "6-10",
+        "[6–10] 다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+        "choice",
+        [6, 7, 8, 9, 10]
+      ),
       sec(
         "11-12",
         "[11–12] 다음 중 밑줄 친 부분이 바르게 쓰인 문장을 고르세요. 보기 중 하나를 골라 누르세요.",
@@ -578,12 +589,62 @@ writeReview(
       ),
     ],
     (() => {
+      const I0 =
+        "[1–5] 다음 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.";
+      const I0b =
+        "[6–10] 다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.";
       const I1 =
         "[11–12] 다음 중 밑줄 친 부분이 바르게 쓰인 문장을 고르세요. 보기 중 하나를 골라 누르세요.";
       const I2 = "[13–15] 다음 의문문에 알맞은 대답을 고르세요. 보기 중 하나를 골라 누르세요.";
       const I3 = "[16–17] 다음 밑줄 친 부분의 줄임말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.";
       const I4 = "[18–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.";
+      const neg = ["is not", "am not", "are not"];
       return [
+        mc("1-5", 1, I0, "She ______ my mother.", neg, 1),
+        mc("1-5", 2, I0, "They ______ my puppies.", neg, 3),
+        mc("1-5", 3, I0, "I ______ a dancer.", neg, 2),
+        mc("1-5", 4, I0, "That ______ my cap.", neg, 1),
+        mc("1-5", 5, I0, "These ______ his pencils.", neg, 3),
+        mc(
+          "6-10",
+          6,
+          I0b,
+          "A: ( Are you / Am I / Is she ) Tommy?\nB: Yes, I am.",
+          ["Are you", "Am I", "Is she"],
+          1
+        ),
+        mc(
+          "6-10",
+          7,
+          I0b,
+          "A: ( Is he / Is it / Is she ) your grandpa?\nB: Yes, he is.",
+          ["Is he", "Is it", "Is she"],
+          1
+        ),
+        mc(
+          "6-10",
+          8,
+          I0b,
+          "A: Are they police officers?\nB: No, ( that aren't / they are / they aren't ).",
+          ["that aren't", "they are", "they aren't"],
+          3
+        ),
+        mc(
+          "6-10",
+          9,
+          I0b,
+          "A: Is this a tiger?\nB: Yes, ( it is / they are ).",
+          ["it is", "they are"],
+          1
+        ),
+        mc(
+          "6-10",
+          10,
+          I0b,
+          "A: Are these your backpacks?\nB: No, ( it isn't / they aren't ).",
+          ["it isn't", "they aren't"],
+          2
+        ),
         mc("11-12", 11, I1, "", ["You <u>aren't</u> short.", "He <u>aren't</u> handsome.", "I <u>amn't</u> pretty."], 1),
         mc(
           "11-12",
@@ -598,7 +659,10 @@ writeReview(
         mc("13-15", 15, I2, "Is she pretty?", ["No, he isn't.", "No, she isn't.", "No, it isn't."], 2),
         fill("16-17", 16, I3, "They <u>are not</u> delicious.", ["aren't", "arent"], { promptKo: "are not → 줄임말" }),
         fill("16-17", 17, I3, "She <u>is not</u> my aunt.", ["isn't", "isnt"], { promptKo: "is not → 줄임말" }),
-        fill("18-20", 18, I4, "It ______ his violin.", ["isn't", "is not"], { promptKo: "그것은 그의 바이올린이 아니다." }),
+        fill("18-20", 18, I4, "It ______ ______ his violin.", ["is|not"], {
+          blanks: 2,
+          promptKo: "그것은 그의 바이올린이 아니다.",
+        }),
         fill("18-20", 19, I4, "______ ______ farmers?", ["Are|they"], {
           blanks: 2,
           promptKo: "그들은 농부이니?",

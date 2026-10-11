@@ -1,11 +1,43 @@
 {
   "practiceId": "r1:rv05:review",
   "title": "Review 05",
-  "subtitle": "Units 09–10 · pp. 166–167",
-  "pages": "166–167",
+  "subtitle": "Units 09–10 · pp. 164–167",
+  "pages": "164–167",
   "timerMinutes": 25,
-  "introKo": "Review 05는 책 [11]부터 [20]까지 10문항입니다. (앞쪽 [1–10]은 Unit 10 마지막 페이지에 있습니다.)",
+  "introKo": "Review 05는 [1]부터 [20]까지 20문항입니다. 고르기와 빈칸 쓰기로 풀어요.",
   "sections": [
+    {
+      "id": "1-5",
+      "title": "[1–5]",
+      "instructionKo": "[1–5] 다음 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "6-10",
+      "title": "[6–10]",
+      "instructionKo": "[6–10] 다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
     {
       "id": "11-12",
       "title": "[11–12]",
@@ -62,6 +94,194 @@
     }
   ],
   "items": [
+    {
+      "id": "q01",
+      "section": "1-5",
+      "sectionTitle": "Section 1-5",
+      "sectionInstructionKo": "[1–5] 다음 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "She ______ my mother.",
+      "choices": [
+        "is not",
+        "am not",
+        "are not"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "1-5",
+      "sectionTitle": "Section 1-5",
+      "sectionInstructionKo": "[1–5] 다음 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "They ______ my puppies.",
+      "choices": [
+        "is not",
+        "am not",
+        "are not"
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "1-5",
+      "sectionTitle": "Section 1-5",
+      "sectionInstructionKo": "[1–5] 다음 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "I ______ a dancer.",
+      "choices": [
+        "is not",
+        "am not",
+        "are not"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "1-5",
+      "sectionTitle": "Section 1-5",
+      "sectionInstructionKo": "[1–5] 다음 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "That ______ my cap.",
+      "choices": [
+        "is not",
+        "am not",
+        "are not"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "1-5",
+      "sectionTitle": "Section 1-5",
+      "sectionInstructionKo": "[1–5] 다음 빈칸에 알맞은 말을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "These ______ his pencils.",
+      "choices": [
+        "is not",
+        "am not",
+        "are not"
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "6-10",
+      "sectionTitle": "Section 6-10",
+      "sectionInstructionKo": "[6–10] 다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "A: ( Are you / Am I / Is she ) Tommy?\nB: Yes, I am.",
+      "choices": [
+        "Are you",
+        "Am I",
+        "Is she"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "6-10",
+      "sectionTitle": "Section 6-10",
+      "sectionInstructionKo": "[6–10] 다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "A: ( Is he / Is it / Is she ) your grandpa?\nB: Yes, he is.",
+      "choices": [
+        "Is he",
+        "Is it",
+        "Is she"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "6-10",
+      "sectionTitle": "Section 6-10",
+      "sectionInstructionKo": "[6–10] 다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "A: Are they police officers?\nB: No, ( that aren't / they are / they aren't ).",
+      "choices": [
+        "that aren't",
+        "they are",
+        "they aren't"
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "6-10",
+      "sectionTitle": "Section 6-10",
+      "sectionInstructionKo": "[6–10] 다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "A: Is this a tiger?\nB: Yes, ( it is / they are ).",
+      "choices": [
+        "it is",
+        "they are"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "6-10",
+      "sectionTitle": "Section 6-10",
+      "sectionInstructionKo": "[6–10] 다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "A: Are these your backpacks?\nB: No, ( it isn't / they aren't ).",
+      "choices": [
+        "it isn't",
+        "they aren't"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
     {
       "id": "q11",
       "section": "11-12",
@@ -200,11 +420,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "18",
       "type": "fill",
-      "promptEn": "It ______ his violin.",
-      "blanks": 1,
+      "promptEn": "It ______ ______ his violin.",
+      "blanks": 2,
       "accept": [
-        "isn't",
-        "is not"
+        "is|not"
       ],
       "promptKo": "그것은 그의 바이올린이 아니다."
     },

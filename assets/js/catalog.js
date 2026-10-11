@@ -4916,7 +4916,7 @@
       {
         slug: "review",
         title: "Review 05",
-        hint: "Units 09–10 · pp. 166–167 ([11–20])",
+        hint: "Units 09–10 · pp. 164–167",
         data: "data/red1/review05/review.json",
         practiceId: "r1:rv05:review",
       },
