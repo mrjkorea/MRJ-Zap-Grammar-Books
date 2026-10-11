@@ -1,0 +1,389 @@
+{
+  "practiceId": "r1:u09:fly",
+  "title": "Grammar Fly",
+  "subtitle": "부정문 · 의문문 쓰기 (p. 146–147)",
+  "pages": "146–147",
+  "timerMinutes": 20,
+  "introKo": "Section A 8문항(부정문 바꾸기), Section B 8문항(대화 빈칸)입니다. 각 섹션 1번·6번은 책 예시(표시만).",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 8,
+      "exampleCount": 2,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 8,
+      "exampleCount": 2,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I am cold. → I ___ ___ cold.",
+      "blanks": 2,
+      "accept": [
+        "am|not",
+        "am not"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am not"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You are smart. → You ___ ___ smart.",
+      "blanks": 2,
+      "accept": [
+        "are|not",
+        "are not"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "She is pretty. → She ___ ___ pretty.",
+      "blanks": 2,
+      "accept": [
+        "is|not",
+        "is not"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "He is handsome. → He ___ ___ handsome.",
+      "blanks": 2,
+      "accept": [
+        "is|not",
+        "is not"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They are kind. → They ___ ___ kind.",
+      "blanks": 2,
+      "accept": [
+        "are|not",
+        "are not"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "It is delicious. → It ___ delicious.",
+      "blanks": 1,
+      "accept": [
+        "isn't",
+        "is not"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "isn't"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They are sour. → They ___ ___ sour.",
+      "blanks": 2,
+      "accept": [
+        "are|not",
+        "aren't",
+        "are not"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "He is my father. → He ___ ___ my father.",
+      "blanks": 2,
+      "accept": [
+        "is|not",
+        "isn't",
+        "is not"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "They are my crayons. → They ___ ___ my crayons.",
+      "blanks": 2,
+      "accept": [
+        "are|not",
+        "aren't",
+        "are not"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때, 빈칸에 알맞은 말을 쓰세요. be동사와 not을 각각 쓰거나 isn't, aren't 같은 줄임말을 쓸 수 있습니다.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "We are hungry. → We ___ ___ hungry.",
+      "blanks": 2,
+      "accept": [
+        "are|not",
+        "aren't",
+        "are not"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "A: ___ you his sister?  B: Yes, I am.",
+      "blanks": 1,
+      "accept": [
+        "Are"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Are"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "A: ___ he your grandpa?  B: No, he isn't.",
+      "blanks": 1,
+      "accept": [
+        "Is"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "A: ___ she a farmer?  B: Yes, she is.",
+      "blanks": 1,
+      "accept": [
+        "Is"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A: ___ they your teachers?  B: No, they aren't.",
+      "blanks": 1,
+      "accept": [
+        "Are"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "A: ___ it her backpack?  B: Yes, it is.",
+      "blanks": 1,
+      "accept": [
+        "Is"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A: Are you students?  B: Yes, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "we|are",
+        "we are"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "we are"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A: Is she your aunt?  B: No, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "she|isn't",
+        "she isn't",
+        "she is not"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "A: Is he your uncle?  B: Yes, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "he|is",
+        "he is"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "A: Is it your ticket?  B: No, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "it|isn't",
+        "it isn't",
+        "it is not"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "A: Are they your shoes?  B: Yes, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "they|are",
+        "they are"
+      ]
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-09",
+  "unitTitle": "Unit 09 — be동사의 부정문과 의문문 (1)",
+  "sectionsVersion": 1
+}
