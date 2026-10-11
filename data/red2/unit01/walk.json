@@ -1,0 +1,204 @@
+{
+  "practiceId": "r2:u01:walk",
+  "title": "Grammar Walk",
+  "subtitle": "일반동사 현재형 따라쓰기 (p. 12–13)",
+  "pages": "12–13",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(현재형 10쌍), Section B 2문항(3인칭 단수 10쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 뜻을 생각하며 일반동사의 현재형을 따라 써 보세요. 빈칸 문장과 알맞은 동사 원형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 뜻을 생각하며 일반동사의 3인칭 단수 현재형을 따라 써 보세요. 빈칸 문장과 알맞은 동사 형태를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 일반동사의 현재형을 따라 써 보세요. 빈칸 문장과 알맞은 동사 원형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "I _____ well.",
+          "right": "sing"
+        },
+        {
+          "left": "The birds _____ well.",
+          "right": "sing"
+        },
+        {
+          "left": "You _____ well.",
+          "right": "dance"
+        },
+        {
+          "left": "The monkeys _____ well.",
+          "right": "dance"
+        },
+        {
+          "left": "We _____ well.",
+          "right": "swim"
+        }
+      ],
+      "accept": [
+        "I _____ well.|sing",
+        "The birds _____ well.|sing",
+        "You _____ well.|dance",
+        "The monkeys _____ well.|dance",
+        "We _____ well.|swim"
+      ],
+      "promptKo": "1–5"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 일반동사의 현재형을 따라 써 보세요. 빈칸 문장과 알맞은 동사 원형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "The wolves _____ well.",
+          "right": "swim"
+        },
+        {
+          "left": "I _____ math.",
+          "right": "like"
+        },
+        {
+          "left": "They _____ math.",
+          "right": "like"
+        },
+        {
+          "left": "The boys _____ tomatoes.",
+          "right": "have"
+        },
+        {
+          "left": "The boys _____ tomatoes. (10)",
+          "right": "have"
+        }
+      ],
+      "accept": [
+        "The wolves _____ well.|swim",
+        "I _____ math.|like",
+        "They _____ math.|like",
+        "The boys _____ tomatoes.|have",
+        "The boys _____ tomatoes. (10)|have"
+      ],
+      "promptKo": "6–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 일반동사의 3인칭 단수 현재형을 따라 써 보세요. 빈칸 문장과 알맞은 동사 형태를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "He _____ well.",
+          "right": "dances"
+        },
+        {
+          "left": "She _____ fast.",
+          "right": "swims"
+        },
+        {
+          "left": "Oscar _____ to school.",
+          "right": "goes"
+        },
+        {
+          "left": "His dad _____ math.",
+          "right": "teaches"
+        },
+        {
+          "left": "His mom _____ cars.",
+          "right": "fixes"
+        }
+      ],
+      "accept": [
+        "He _____ well.|dances",
+        "She _____ fast.|swims",
+        "Oscar _____ to school.|goes",
+        "His dad _____ math.|teaches",
+        "His mom _____ cars.|fixes"
+      ],
+      "promptKo": "1–5"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 일반동사의 3인칭 단수 현재형을 따라 써 보세요. 빈칸 문장과 알맞은 동사 형태를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "This bird _____ fast.",
+          "right": "flies"
+        },
+        {
+          "left": "That bird _____ well.",
+          "right": "sings"
+        },
+        {
+          "left": "A girl _____ a cat.",
+          "right": "has"
+        },
+        {
+          "left": "The cat _____ its face.",
+          "right": "washes"
+        },
+        {
+          "left": "It _____ fish.",
+          "right": "likes"
+        }
+      ],
+      "accept": [
+        "This bird _____ fast.|flies",
+        "That bird _____ well.|sings",
+        "A girl _____ a cat.|has",
+        "The cat _____ its face.|washes",
+        "It _____ fish.|likes"
+      ],
+      "promptKo": "6–10"
+    }
+  ],
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 일반동사",
+  "sectionsVersion": 1
+}
