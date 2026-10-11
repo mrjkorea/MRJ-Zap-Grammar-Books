@@ -1,0 +1,204 @@
+{
+  "practiceId": "r1:u04:walk",
+  "title": "Grammar Walk",
+  "subtitle": "a/an · the 따라쓰기 (p. 58–59)",
+  "pages": "58–59",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(단어·a/an 문장 짝 맞추기), Section B 2문항(단어·the 문장 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A — a/an",
+      "instructionKo": "다음 단어의 뜻을 생각하며 부정관사 a와 an을 따라 써 보세요. 단어와 알맞은 a/an 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B — the",
+      "instructionKo": "다음 문장의 뜻을 생각하며 정관사 the를 따라 써 보세요. 단어와 완성된 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 단어의 뜻을 생각하며 부정관사 a와 an을 따라 써 보세요. 단어와 알맞은 a/an 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "book",
+          "right": "a book"
+        },
+        {
+          "left": "pencil",
+          "right": "a pencil"
+        },
+        {
+          "left": "cup",
+          "right": "a cup"
+        },
+        {
+          "left": "rabbit",
+          "right": "a rabbit"
+        },
+        {
+          "left": "dog",
+          "right": "a dog"
+        }
+      ],
+      "accept": [
+        "book|a book",
+        "pencil|a pencil",
+        "cup|a cup",
+        "rabbit|a rabbit",
+        "dog|a dog"
+      ],
+      "promptKo": "book, pencil, cup, rabbit, dog"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 단어의 뜻을 생각하며 부정관사 a와 an을 따라 써 보세요. 단어와 알맞은 a/an 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "apple",
+          "right": "an apple"
+        },
+        {
+          "left": "egg",
+          "right": "an egg"
+        },
+        {
+          "left": "iguana",
+          "right": "an iguana"
+        },
+        {
+          "left": "orange",
+          "right": "an orange"
+        },
+        {
+          "left": "umbrella",
+          "right": "an umbrella"
+        }
+      ],
+      "accept": [
+        "apple|an apple",
+        "egg|an egg",
+        "iguana|an iguana",
+        "orange|an orange",
+        "umbrella|an umbrella"
+      ],
+      "promptKo": "apple, egg, iguana, orange, umbrella"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 정관사 the를 따라 써 보세요. 단어와 완성된 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "girl",
+          "right": "Look at the girl."
+        },
+        {
+          "left": "man",
+          "right": "Look at the man."
+        },
+        {
+          "left": "sun",
+          "right": "Look at the sun."
+        },
+        {
+          "left": "moon",
+          "right": "Look at the moon."
+        },
+        {
+          "left": "dog",
+          "right": "The dog is cute."
+        },
+        {
+          "left": "cat",
+          "right": "The cat is cute."
+        },
+        {
+          "left": "rabbit",
+          "right": "The rabbit is cute."
+        }
+      ],
+      "accept": [
+        "girl|Look at the girl.",
+        "man|Look at the man.",
+        "sun|Look at the sun.",
+        "moon|Look at the moon.",
+        "dog|The dog is cute.",
+        "cat|The cat is cute.",
+        "rabbit|The rabbit is cute."
+      ],
+      "promptKo": "girl, man, sun, moon, dog, cat, rabbit"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 정관사 the를 따라 써 보세요. 단어와 완성된 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "piano",
+          "right": "I play the piano."
+        },
+        {
+          "left": "violin",
+          "right": "I play the violin."
+        },
+        {
+          "left": "drum",
+          "right": "I play the drum."
+        }
+      ],
+      "accept": [
+        "piano|I play the piano.",
+        "violin|I play the violin.",
+        "drum|I play the drum."
+      ],
+      "promptKo": "piano, violin, drum"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 관사",
+  "sectionsVersion": 1
+}

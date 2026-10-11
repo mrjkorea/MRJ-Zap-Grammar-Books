@@ -91,6 +91,7 @@
     ],
     "zap-red-1": [
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
+      { id: "unit-04", title: "Unit 04 — 관사", enabled: true },
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
@@ -4904,6 +4905,50 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-1:unit-04": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "a/an · the 따라쓰기 · p. 58–59",
+        data: "data/red1/unit04/walk.json",
+        practiceId: "r1:u04:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "a/an · the 찾기 · p. 60–61",
+        data: "data/red1/unit04/run.json",
+        practiceId: "r1:u04:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "a/an · the 고르기 · p. 62–63",
+        data: "data/red1/unit04/jump.json",
+        practiceId: "r1:u04:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "a/an · the/X · p. 64–65",
+        data: "data/red1/unit04/fly.json",
+        practiceId: "r1:u04:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — a/an",
+        hint: "체크 · p. 66",
+        data: "data/red1/unit04/quiz2.json",
+        practiceId: "r1:u04:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — the",
+        hint: "체크 · p. 67",
+        data: "data/red1/unit04/quiz4.json",
+        practiceId: "r1:u04:quiz4",
       },
     ],
   };

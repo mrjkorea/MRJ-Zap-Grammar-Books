@@ -1,0 +1,364 @@
+{
+  "practiceId": "r1:u04:run",
+  "title": "Grammar Run",
+  "subtitle": "a/an · the 찾기 (p. 60–61)",
+  "pages": "60–61",
+  "timerMinutes": 20,
+  "introKo": "Section A 9문항(a/an 쓰기), Section B 9문항(the 쓰기)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I am a boy.",
+      "blanks": 1,
+      "accept": [
+        "a"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I am a girl.",
+      "blanks": 1,
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "I am a woman.",
+      "blanks": 1,
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "You are a teacher.",
+      "blanks": 1,
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "You are a singer.",
+      "blanks": 1,
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "You are an actor.",
+      "blanks": 1,
+      "accept": [
+        "an"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "It is an apple.",
+      "blanks": 1,
+      "accept": [
+        "an"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "It is an orange.",
+      "blanks": 1,
+      "accept": [
+        "an"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "It is an umbrella.",
+      "blanks": 1,
+      "accept": [
+        "an"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정관사 a, an을 찾아 동그라미 하세요. 동그라미 친 관사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "It is an egg.",
+      "blanks": 1,
+      "accept": [
+        "an"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "Look at the sun.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "the"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Look at the moon.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "The boy is happy.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "The girl is happy.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "The man is happy.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "I like the book.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "I like the city.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "I like the monkey.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "They play the piano.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 정관사 the를 찾아 동그라미 하세요. 동그라미 친 the만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "They play the drum.",
+      "blanks": 1,
+      "accept": [
+        "the"
+      ]
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 관사",
+  "sectionsVersion": 1
+}
