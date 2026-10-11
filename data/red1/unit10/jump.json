@@ -1,0 +1,418 @@
+{
+  "practiceId": "r1:u10:jump",
+  "title": "Grammar Jump",
+  "subtitle": "부정형 · 의문·대답 고르기 (p. 158–159)",
+  "pages": "158–159",
+  "timerMinutes": 18,
+  "introKo": "Section A 10문항(고르기), B 10문항(고르기)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "That ( is not / are not ) a mouse.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is not"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "This ( is not / are not ) a snake.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "Those ( is not / are not ) lions.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "These ( is not / are not ) sheep.",
+      "choices": [
+        "is not",
+        "are not"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "That ( isn't / aren't ) a cow.",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "This ( isn't / aren't ) a train.",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Those ( isn't / aren't ) candies.",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "These ( isn't / aren't ) forks.",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "That ( isn't / aren't ) my watch.",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "Those ( isn't / aren't ) my gloves.",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "A: ( Are / Is ) this his camera?  B: Yes, it is.",
+      "choices": [
+        "Are",
+        "Is"
+      ],
+      "accept": [
+        "2"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Is"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "A: ( Are / Is ) that her hairpin?  B: No, it isn't.",
+      "choices": [
+        "Are",
+        "Is"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "A: ( Are / Is ) these my notebooks?  B: Yes, they are.",
+      "choices": [
+        "Are",
+        "Is"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "A: ( Are / Is ) those your rulers?  B: No, they aren't.",
+      "choices": [
+        "Are",
+        "Is"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "A: ( Are / Is ) these their bags?  B: Yes, they are.",
+      "choices": [
+        "Are",
+        "Is"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "A: Is this your room?  B: Yes, ( it is / they are ).",
+      "choices": [
+        "it is",
+        "they are"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "A: Is that your pet?  B: No, ( it isn't / they aren't ).",
+      "choices": [
+        "it isn't",
+        "they aren't"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "A: Are these your flowers?  B: Yes, ( it is / they are ).",
+      "choices": [
+        "it is",
+        "they are"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "A: Are those our books?  B: No, ( it isn't / they aren't ).",
+      "choices": [
+        "it isn't",
+        "they aren't"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "A: Is that your cup?  B: Yes, ( it is / it isn't ).",
+      "choices": [
+        "it is",
+        "it isn't"
+      ],
+      "accept": [
+        "1"
+      ]
+    }
+  ]
+}

@@ -91,6 +91,7 @@
     ],
     "zap-red-1": [
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
+      { id: "unit-10", title: "Unit 10 — be동사의 부정문과 의문문 (2)", enabled: true },
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
@@ -4904,6 +4905,50 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-1:unit-10": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "부정문 · 대화 따라쓰기 · p. 154–155",
+        data: "data/red1/unit10/walk.json",
+        practiceId: "r1:u10:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "be+not · it/they · p. 156–157",
+        data: "data/red1/unit10/run.json",
+        practiceId: "r1:u10:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "부정형 · 의문·대답 · p. 158–159",
+        data: "data/red1/unit10/jump.json",
+        practiceId: "r1:u10:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "부정문 · 대화 빈칸 · p. 160–161",
+        data: "data/red1/unit10/fly.json",
+        practiceId: "r1:u10:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 부정문 표",
+        hint: "지시대명사 부정 · p. 163",
+        data: "data/red1/unit10/quiz2.json",
+        practiceId: "r1:u10:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 의문문 표",
+        hint: "지시대명사 의문 · p. 164",
+        data: "data/red1/unit10/quiz4.json",
+        practiceId: "r1:u10:quiz4",
       },
     ],
   };

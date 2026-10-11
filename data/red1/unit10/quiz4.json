@@ -1,0 +1,88 @@
+{
+  "practiceId": "r1:u10:quiz4",
+  "title": "QUIZ 4 — 의문문 표",
+  "subtitle": "지시대명사 의문문 · p. 164",
+  "pages": "164",
+  "timerMinutes": 12,
+  "introKo": "4문항. 의문문·대답 표 빈칸을 채웁니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "QUIZ 4",
+      "instructionKo": "다음 표의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "Is ___ ~? (저것이 ~이니?)",
+      "blanks": 1,
+      "accept": [
+        "that"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "No, ___ isn't.",
+      "blanks": 1,
+      "accept": [
+        "it"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "___ these ~?",
+      "blanks": 1,
+      "accept": [
+        "Are"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "No, ___ ___.",
+      "blanks": 2,
+      "accept": [
+        "they|aren't",
+        "they aren't"
+      ]
+    }
+  ]
+}

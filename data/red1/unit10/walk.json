@@ -1,0 +1,198 @@
+{
+  "practiceId": "r1:u10:walk",
+  "title": "Grammar Walk",
+  "subtitle": "부정문 · 의문문 따라쓰기 (p. 154–155)",
+  "pages": "154–155",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(부정문 짝 맞추기 10쌍), B 2문항(대화 짝 맞추기 10쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 회색 따라쓰기 부분과 나머지 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 회색 따라쓰기 부분과 나머지 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "an egg.",
+          "right": "This is not"
+        },
+        {
+          "left": "a bird.",
+          "right": "That is not"
+        },
+        {
+          "left": "tigers.",
+          "right": "These are not"
+        },
+        {
+          "left": "rabbits.",
+          "right": "Those are not"
+        },
+        {
+          "left": "an eraser.",
+          "right": "This isn't"
+        },
+        {
+          "left": "a potato.",
+          "right": "That isn't"
+        },
+        {
+          "left": "tomatoes.",
+          "right": "These aren't"
+        }
+      ],
+      "accept": [
+        "an egg.|This is not",
+        "a bird.|That is not",
+        "tigers.|These are not",
+        "rabbits.|Those are not",
+        "an eraser.|This isn't",
+        "a potato.|That isn't",
+        "tomatoes.|These aren't"
+      ],
+      "promptKo": "부정문 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 회색 따라쓰기 부분과 나머지 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "onions.",
+          "right": "Those aren't"
+        },
+        {
+          "left": "my coat.",
+          "right": "This is not"
+        },
+        {
+          "left": "my sweaters.",
+          "right": "Those are not"
+        }
+      ],
+      "accept": [
+        "onions.|Those aren't",
+        "my coat.|This is not",
+        "my sweaters.|Those are not"
+      ],
+      "promptKo": "부정문 8–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Is this an orange?",
+          "right": "Yes, it is."
+        },
+        {
+          "left": "Is that an iguana?",
+          "right": "No, it isn't."
+        },
+        {
+          "left": "Are these kangaroos?",
+          "right": "Yes, they are."
+        },
+        {
+          "left": "Are those crayons?",
+          "right": "No, they aren't."
+        },
+        {
+          "left": "Is this your ink?",
+          "right": "No, it isn't."
+        },
+        {
+          "left": "Is that your scarf?",
+          "right": "Yes, it is."
+        },
+        {
+          "left": "Are these your shoes?",
+          "right": "No, they aren't."
+        }
+      ],
+      "accept": [
+        "Is this an orange?|Yes, it is.",
+        "Is that an iguana?|No, it isn't.",
+        "Are these kangaroos?|Yes, they are.",
+        "Are those crayons?|No, they aren't.",
+        "Is this your ink?|No, it isn't.",
+        "Is that your scarf?|Yes, it is.",
+        "Are these your shoes?|No, they aren't."
+      ],
+      "promptKo": "대화 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Are those your socks?",
+          "right": "Yes, they are."
+        },
+        {
+          "left": "Is that your skirt?",
+          "right": "No, it isn't."
+        },
+        {
+          "left": "Are those your pants?",
+          "right": "No, they aren't."
+        }
+      ],
+      "accept": [
+        "Are those your socks?|Yes, they are.",
+        "Is that your skirt?|No, it isn't.",
+        "Are those your pants?|No, they aren't."
+      ],
+      "promptKo": "대화 8–10"
+    }
+  ]
+}
