@@ -1,0 +1,441 @@
+{
+  "practiceId": "r1:u05:jump",
+  "title": "Grammar Jump",
+  "subtitle": "인칭·지시대명사 고르기 (p. 80–81)",
+  "pages": "80–81",
+  "timerMinutes": 15,
+  "introKo": "Section A 8문항(한·영 고르기), B 9문항(그림·문장 고르기)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 8,
+      "exampleCount": 2,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "나",
+      "choices": [
+        "I",
+        "you"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "나",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "그녀",
+      "choices": [
+        "she",
+        "he"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "그녀"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "그들",
+      "choices": [
+        "it",
+        "they"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "그들"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "그것",
+      "choices": [
+        "we",
+        "it"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "그것"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "너희",
+      "choices": [
+        "you",
+        "they"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "너희"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "we",
+      "choices": [
+        "너희",
+        "우리"
+      ],
+      "accept": [
+        "2"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "우리"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "he",
+      "choices": [
+        "그",
+        "그녀"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "it",
+      "choices": [
+        "그녀",
+        "그것"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "you",
+      "choices": [
+        "나",
+        "너"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "they",
+      "choices": [
+        "그들",
+        "우리"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "____ is a lion.",
+      "choices": [
+        "This",
+        "That"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit05/jump-b01.png",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "This"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "____ is a zebra.",
+      "choices": [
+        "This",
+        "That"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit05/jump-b01.png"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "____ is a taxi.",
+      "choices": [
+        "This",
+        "That"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit05/jump-b02.png"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "____ is a bus.",
+      "choices": [
+        "This",
+        "That"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit05/jump-b02.png"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "____ are potatoes.",
+      "choices": [
+        "These",
+        "Those"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit05/jump-b03.png"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "____ are tomatoes.",
+      "choices": [
+        "These",
+        "Those"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit05/jump-b03.png"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "____ boy is tall.",
+      "choices": [
+        "This",
+        "That"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit05/jump-b04.png"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "____ girl is cute.",
+      "choices": [
+        "This",
+        "That"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit05/jump-b04.png"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "____ pants are blue.",
+      "choices": [
+        "These",
+        "Those"
+      ],
+      "accept": [
+        "1"
+      ],
+      "image": "assets/img/red1/unit05/jump-b05.png"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "____ skirts are green.",
+      "choices": [
+        "These",
+        "Those"
+      ],
+      "accept": [
+        "2"
+      ],
+      "image": "assets/img/red1/unit05/jump-b05.png"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 인칭대명사와 지시대명사",
+  "sectionsVersion": 1
+}
