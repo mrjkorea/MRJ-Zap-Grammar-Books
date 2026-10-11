@@ -4,7 +4,7 @@
 
   var BOOKS = [
     { id: "zap-red-1", title: "ZAP Red 1", enabled: true, appName: "RedZap 1", bookTitle: "ZAP Red 1" },
-    { id: "zap-red-2", title: "ZAP Red 2", enabled: false, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
+    { id: "zap-red-2", title: "ZAP Red 2", enabled: true, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
@@ -94,6 +94,7 @@
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
+      { id: "unit-04", title: "Unit 04 — 부사와 전치사", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4860,6 +4861,50 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green2/unit01/checkup.json",
         practiceId: "g2:u01:checkup",
+      },
+    ],
+    "zap-red-2:unit-04": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "부사 · 전치사 따라쓰기 · p. 58–59",
+        data: "data/red2/unit04/walk.json",
+        practiceId: "r2:u04:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "부사 · 전치사 찾기 · p. 60–61",
+        data: "data/red2/unit04/run.json",
+        practiceId: "r2:u04:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "부사 · 전치사 고르기 · p. 62–63",
+        data: "data/red2/unit04/jump.json",
+        practiceId: "r2:u04:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "보기에서 쓰기 · p. 64–65",
+        data: "data/red2/unit04/fly.json",
+        practiceId: "r2:u04:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 부사 표",
+        hint: "부사 만들기 · p. 66",
+        data: "data/red2/unit04/quiz2.json",
+        practiceId: "r2:u04:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 전치사 표",
+        hint: "전치사 표 · p. 67",
+        data: "data/red2/unit04/quiz4.json",
+        practiceId: "r2:u04:quiz4",
       },
     ],
     "zap-red-1:unit-01": [

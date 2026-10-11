@@ -1,0 +1,396 @@
+{
+  "practiceId": "r2:u04:fly",
+  "title": "Grammar Fly",
+  "subtitle": "보기에서 부사 · 전치사 (p. 64–65)",
+  "pages": "64–65",
+  "timerMinutes": 15,
+  "wordBank": [
+    "early",
+    "happily",
+    "well",
+    "carefully",
+    "high",
+    "fast",
+    "very",
+    "late",
+    "sadly",
+    "easily",
+    "at",
+    "on",
+    "in",
+    "under",
+    "behind",
+    "next to"
+  ],
+  "introKo": "Section A 10문항(부사), B 10문항(전치사)입니다. 보기 단어를 사용해 빈칸에 쓰세요. 예시 2개는 채점하지 않습니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I walk ___",
+      "blanks": 1,
+      "accept": [
+        "fast"
+      ],
+      "promptKo": "나는 빨리 걷는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "fast"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You swim ___",
+      "blanks": 1,
+      "accept": [
+        "well"
+      ],
+      "promptKo": "너는 수영을 잘한다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "He works ___ hard",
+      "blanks": 1,
+      "accept": [
+        "very"
+      ],
+      "promptKo": "그는 매우 열심히 일한다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "She comes home ___",
+      "blanks": 1,
+      "accept": [
+        "late"
+      ],
+      "promptKo": "그녀는 집에 늦게 온다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "We go to bed ___",
+      "blanks": 1,
+      "accept": [
+        "early"
+      ],
+      "promptKo": "우리는 일찍 잔다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "They smile ___",
+      "blanks": 1,
+      "accept": [
+        "happily"
+      ],
+      "promptKo": "그들은 행복하게 미소 짓는다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "My dad drives ___",
+      "blanks": 1,
+      "accept": [
+        "carefully"
+      ],
+      "promptKo": "우리 아빠는 조심스럽게 운전하신다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "The singer sings ___",
+      "blanks": 1,
+      "accept": [
+        "sadly"
+      ],
+      "promptKo": "그 가수는 슬프게 노래를 부른다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The kangaroo jumps ___",
+      "blanks": 1,
+      "accept": [
+        "high"
+      ],
+      "promptKo": "그 캥거루는 높이 점프한다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "The girls learn English ___",
+      "blanks": 1,
+      "accept": [
+        "easily"
+      ],
+      "promptKo": "그 여자아이들은 영어를 쉽게 배운다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I get up ___ five o'clock.",
+      "blanks": 1,
+      "accept": [
+        "at"
+      ],
+      "promptKo": "나는 5시에 일어난다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "at"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "His birthday is ___ March.",
+      "blanks": 1,
+      "accept": [
+        "in"
+      ],
+      "promptKo": "그의 생일은 3월이다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "We have dinner ___ eight o'clock.",
+      "blanks": 1,
+      "accept": [
+        "at"
+      ],
+      "promptKo": "우리는 8시에 저녁 식사를 한다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "They go to Daejeon ___ October.",
+      "blanks": 1,
+      "accept": [
+        "in"
+      ],
+      "promptKo": "그들은 10월에 대전에 간다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "My friends play soccer ___ Sunday.",
+      "blanks": 1,
+      "accept": [
+        "on"
+      ],
+      "promptKo": "내 친구들은 일요일에 축구를 한다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A camera is ___ the bed.",
+      "blanks": 1,
+      "accept": [
+        "under"
+      ],
+      "promptKo": "사진기 한 대가 침대 밑에 있다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A clock is ___ the wall.",
+      "blanks": 1,
+      "accept": [
+        "on"
+      ],
+      "promptKo": "시계 하나가 벽에 있다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Some oranges are ___ the basket.",
+      "blanks": 1,
+      "accept": [
+        "in"
+      ],
+      "promptKo": "오렌지 몇 개가 바구니 안에 있다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "My bike is ___ ___ the bench.",
+      "blanks": 2,
+      "accept": [
+        "next|to"
+      ],
+      "promptKo": "내 자전거는 벤치 옆에 있다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 보기에서 알맞은 말을 찾아 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "The taxi is ___ the bus.",
+      "blanks": 1,
+      "accept": [
+        "behind"
+      ],
+      "promptKo": "그 택시는 버스 뒤에 있다."
+    }
+  ]
+}
