@@ -1,0 +1,451 @@
+{
+  "practiceId": "r2:u09:run",
+  "title": "Grammar Run",
+  "subtitle": "can 찾기 · 대답 고르기 (pp. 142–143)",
+  "pages": "142–143",
+  "timerMinutes": 18,
+  "introKo": "Section A 10문항(조동사 고르기), Section B 10문항(괄호 고르기)입니다.",
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-09",
+  "unitTitle": "Unit 09 — 조동사 can",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "I can skate well.",
+      "choices": [
+        "I",
+        "can",
+        "skate",
+        "well"
+      ],
+      "accept": [
+        "can"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "can"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "You can throw a ball.",
+      "choices": [
+        "You",
+        "can",
+        "throw",
+        "a",
+        "ball"
+      ],
+      "accept": [
+        "can"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "He can make pizza.",
+      "choices": [
+        "He",
+        "can",
+        "make",
+        "pizza"
+      ],
+      "accept": [
+        "can"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "She can fly the kite.",
+      "choices": [
+        "She",
+        "can",
+        "fly",
+        "the",
+        "kite"
+      ],
+      "accept": [
+        "can"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "We can answer the questions.",
+      "choices": [
+        "We",
+        "can",
+        "answer",
+        "the",
+        "questions"
+      ],
+      "accept": [
+        "can"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "My mom cannot drive a truck.",
+      "choices": [
+        "My",
+        "mom",
+        "cannot",
+        "drive",
+        "a",
+        "truck"
+      ],
+      "accept": [
+        "cannot"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "Snakes cannot hear.",
+      "choices": [
+        "Snakes",
+        "cannot",
+        "hear"
+      ],
+      "accept": [
+        "cannot"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "They cannot play baseball.",
+      "choices": [
+        "They",
+        "cannot",
+        "play",
+        "baseball"
+      ],
+      "accept": [
+        "cannot"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "My brother can't do taekwondo.",
+      "choices": [
+        "My",
+        "brother",
+        "can't",
+        "do",
+        "taekwondo"
+      ],
+      "accept": [
+        "can't"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "Chris and Brian can't sing well.",
+      "choices": [
+        "Chris",
+        "and",
+        "Brian",
+        "can't",
+        "sing",
+        "well"
+      ],
+      "accept": [
+        "can't"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "A: Can you make a snowman? B: ( Yes / No ), I can't.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "No"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "No"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "A: Can she play the cello? B: ( Yes / No ), she can.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "Yes"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "A: Can he speak Japanese? B: ( Yes / No ), he can't.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "No"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "A: Can it fly? B: ( Yes / No ), it can.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "Yes"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "A: Can they ride a horse? B: ( Yes / No ), they can't.",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "accept": [
+        "No"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "A: Can they swim? B: Yes, they ( can / can't ).",
+      "choices": [
+        "can",
+        "can't"
+      ],
+      "accept": [
+        "can"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "A: Can you ski? B: No, we ( can / can't ).",
+      "choices": [
+        "can",
+        "can't"
+      ],
+      "accept": [
+        "can't"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "A: Can Bob ride a bike? B: No, he ( can / can't ).",
+      "choices": [
+        "can",
+        "can't"
+      ],
+      "accept": [
+        "can't"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "A: Can your mom sing well? B: Yes, she ( can / can't ).",
+      "choices": [
+        "can",
+        "can't"
+      ],
+      "accept": [
+        "can"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "A: Can the farmers dance well? B: Yes, they ( can / can't ).",
+      "choices": [
+        "can",
+        "can't"
+      ],
+      "accept": [
+        "can"
+      ]
+    }
+  ]
+}
