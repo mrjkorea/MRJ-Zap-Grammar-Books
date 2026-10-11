@@ -45,5 +45,6 @@ Printed pages **40–53** (PDF 41–54). **Excluded:** p0055 (PDF 55) = Unit 04 
 ## Uncertain / notes
 
 - **Run A** book step links each singular to **-s / -es / -ies** then traces the plural; web grades **plural spelling only** (trace + rule lines omitted).
-- **Quiz** Korean plural 뜻 uses textbook-style **~들** forms; alternate synonyms (e.g. 계란) not in accept unless added later.
+- **Walk** trace pages → **한글 뜻 ↔ 영어 복수형** match (book Korean where printed; standard gloss otherwise). Run B stays **단수↔복수** English match per the book.
+- **Quiz** Korean accepts common synonyms (e.g. **계란/달걀**, **접시/그릇**, **쥐/생쥐**) with matching **~들** plural glosses.
 - **Fly B** item 10 crop retuned after first pass (row spacing).

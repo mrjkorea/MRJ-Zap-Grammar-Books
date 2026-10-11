@@ -74,9 +74,29 @@ function writeJson(name, practice) {
 
 function writeWalk() {
   const instrA =
-    "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 단수형과 복수형을 짝지어 연결하세요.";
+    "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.";
   const instrB =
-    "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 단수형과 복수형을 짝지어 연결하세요.";
+    "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.";
+  const walkAKo = {
+    pen: "펜",
+    box: "상자",
+    bus: "버스",
+    bench: "벤치",
+    dish: "접시",
+    tomato: "토마토",
+    baby: "아기",
+    boy: "남자아이",
+  };
+  const walkBKo = {
+    leaf: "나뭇잎",
+    knife: "칼",
+    man: "남자",
+    woman: "여자",
+    child: "어린이",
+    mouse: "쥐",
+    foot: "발",
+    sheep: "양",
+  };
   const walkA = [
     ["pen", "pens"],
     ["box", "boxes"],
@@ -99,20 +119,20 @@ function writeWalk() {
   ];
   const items = [];
   chunk(walkA, 4).forEach((g, i) => {
-    const pairs = g.map(([l, r]) => ({ left: l, right: r }));
+    const pairs = g.map(([sing, pl]) => ({ left: walkAKo[sing], right: pl }));
     items.push(
       matchItem(`a${String(i + 1).padStart(2, "0")}`, "A", `A${i + 1}`, pairs, {
         sectionInstructionKo: instrA,
-        promptKo: g.map((x) => x[0]).join(", "),
+        promptKo: g.map((x) => walkAKo[x[0]]).join(", "),
       })
     );
   });
   chunk(walkB, 4).forEach((g, i) => {
-    const pairs = g.map(([l, r]) => ({ left: l, right: r }));
+    const pairs = g.map(([sing, pl]) => ({ left: walkBKo[sing], right: pl }));
     items.push(
       matchItem(`b${String(i + 1).padStart(2, "0")}`, "B", `B${i + 1}`, pairs, {
         sectionInstructionKo: instrB,
-        promptKo: g.map((x) => x[0]).join(", "),
+        promptKo: g.map((x) => walkBKo[x[0]]).join(", "),
       })
     );
   });
@@ -122,7 +142,7 @@ function writeWalk() {
     subtitle: "단수·복수 따라쓰기 (p. 44–45)",
     pages: "44–45",
     timerMinutes: 18,
-    introKo: "Section A·B 각 2문항(단수↔복수 짝 맞추기, 4쌍씩)입니다.",
+    introKo: "Section A·B 각 2문항(한글 뜻↔영어 복수형 짝 맞추기, 4쌍씩)입니다.",
     sections: [
       {
         id: "A",
@@ -333,7 +353,7 @@ function writeFly() {
   ];
   const flyB = [
     { word: "wolf", count: "two", accept: "two wolves", ex: true },
-    { word: "leaf", count: "three", accept: "three leaves" },
+    { word: "leaf", count: "four", accept: "four leaves" },
     { word: "man", count: "two", accept: "two men" },
     { word: "mouse", count: "four", accept: "four mice" },
     { word: "child", count: "three", accept: "three children" },
@@ -393,8 +413,9 @@ function writeFly() {
   });
 }
 
-function quizRow(id, section, label, word, ko, plural, koPl, instr) {
-  return fillItem(id, section, label, [`${ko}|${plural}|${koPl}`], {
+function quizRow(id, section, label, word, acceptRows, instr) {
+  const accept = acceptRows.map(([ko, plural, koPl]) => `${ko}|${plural}|${koPl}`);
+  return fillItem(id, section, label, accept, {
     sectionInstructionKo: instr,
     promptEn: word,
     promptKo: `${word} — 뜻 · 복수형 · 복수 뜻`,
@@ -407,16 +428,22 @@ function writeQuiz2() {
   const instr =
     "다음 단어의 뜻과 복수형을 빈칸에 쓰세요. 한글 뜻, 영어 복수형, 한글 복수 뜻 순으로 쓰세요.";
   const rows = [
-    ["egg", "달걀", "eggs", "달걀들"],
-    ["bus", "버스", "buses", "버스들"],
-    ["box", "상자", "boxes", "상자들"],
-    ["bench", "벤치", "benches", "벤치들"],
-    ["dish", "접시", "dishes", "접시들"],
-    ["tomato", "토마토", "tomatoes", "토마토들"],
-    ["baby", "아기", "babies", "아기들"],
+    {
+      w: "egg",
+      accept: [["달걀", "eggs", "달걀들"], ["계란", "eggs", "계란들"]],
+    },
+    { w: "bus", accept: [["버스", "buses", "버스들"]] },
+    { w: "box", accept: [["상자", "boxes", "상자들"]] },
+    { w: "bench", accept: [["벤치", "benches", "벤치들"]] },
+    {
+      w: "dish",
+      accept: [["접시", "dishes", "접시들"], ["그릇", "dishes", "그릇들"]],
+    },
+    { w: "tomato", accept: [["토마토", "tomatoes", "토마토들"]] },
+    { w: "baby", accept: [["아기", "babies", "아기들"]] },
   ];
-  const items = rows.map(([w, ko, pl, kopl], i) =>
-    quizRow(`q${String(i + 2).padStart(2, "0")}`, "A", String(i + 2), w, ko, pl, kopl, instr)
+  const items = rows.map((row, i) =>
+    quizRow(`q${String(i + 2).padStart(2, "0")}`, "A", String(i + 2), row.w, row.accept, instr)
   );
   writeJson("quiz2.json", {
     practiceId: "r1:u03:quiz2",
@@ -445,16 +472,19 @@ function writeQuiz4() {
   const instr =
     "다음 단어의 뜻과 복수형을 빈칸에 쓰세요. 한글 뜻, 영어 복수형, 한글 복수 뜻 순으로 쓰세요.";
   const rows = [
-    ["knife", "칼", "knives", "칼들"],
-    ["wolf", "늑대", "wolves", "늑대들"],
-    ["ox", "황소", "oxen", "황소들"],
-    ["child", "어린이", "children", "어린이들"],
-    ["foot", "발", "feet", "발들"],
-    ["mouse", "쥐", "mice", "쥐들"],
-    ["sheep", "양", "sheep", "양들"],
+    { w: "knife", accept: [["칼", "knives", "칼들"]] },
+    { w: "wolf", accept: [["늑대", "wolves", "늑대들"]] },
+    { w: "ox", accept: [["황소", "oxen", "황소들"]] },
+    { w: "child", accept: [["어린이", "children", "어린이들"]] },
+    { w: "foot", accept: [["발", "feet", "발들"]] },
+    {
+      w: "mouse",
+      accept: [["쥐", "mice", "쥐들"], ["생쥐", "mice", "생쥐들"]],
+    },
+    { w: "sheep", accept: [["양", "sheep", "양들"]] },
   ];
-  const items = rows.map(([w, ko, pl, kopl], i) =>
-    quizRow(`q${String(i + 2).padStart(2, "0")}`, "A", String(i + 2), w, ko, pl, kopl, instr)
+  const items = rows.map((row, i) =>
+    quizRow(`q${String(i + 2).padStart(2, "0")}`, "A", String(i + 2), row.w, row.accept, instr)
   );
   writeJson("quiz4.json", {
     practiceId: "r1:u03:quiz4",

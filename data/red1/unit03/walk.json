@@ -4,12 +4,12 @@
   "subtitle": "단수·복수 따라쓰기 (p. 44–45)",
   "pages": "44–45",
   "timerMinutes": 18,
-  "introKo": "Section A·B 각 2문항(단수↔복수 짝 맞추기, 4쌍씩)입니다.",
+  "introKo": "Section A·B 각 2문항(한글 뜻↔영어 복수형 짝 맞추기, 4쌍씩)입니다.",
   "sections": [
     {
       "id": "A",
       "title": "Section A — 규칙 복수",
-      "instructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 단수형과 복수형을 짝지어 연결하세요.",
+      "instructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "itemCount": 2,
@@ -22,7 +22,7 @@
     {
       "id": "B",
       "title": "Section B — 불규칙·동형",
-      "instructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 단수형과 복수형을 짝지어 연결하세요.",
+      "instructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "itemCount": 2,
@@ -38,141 +38,141 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 단수형과 복수형을 짝지어 연결하세요.",
+      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "A1",
       "type": "match",
       "pairs": [
         {
-          "left": "pen",
+          "left": "펜",
           "right": "pens"
         },
         {
-          "left": "box",
+          "left": "상자",
           "right": "boxes"
         },
         {
-          "left": "bus",
+          "left": "버스",
           "right": "buses"
         },
         {
-          "left": "bench",
+          "left": "벤치",
           "right": "benches"
         }
       ],
       "accept": [
-        "pen|pens",
-        "box|boxes",
-        "bus|buses",
-        "bench|benches"
+        "펜|pens",
+        "상자|boxes",
+        "버스|buses",
+        "벤치|benches"
       ],
-      "promptKo": "pen, box, bus, bench"
+      "promptKo": "펜, 상자, 버스, 벤치"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 단수형과 복수형을 짝지어 연결하세요.",
+      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "A2",
       "type": "match",
       "pairs": [
         {
-          "left": "dish",
+          "left": "접시",
           "right": "dishes"
         },
         {
-          "left": "tomato",
+          "left": "토마토",
           "right": "tomatoes"
         },
         {
-          "left": "baby",
+          "left": "아기",
           "right": "babies"
         },
         {
-          "left": "boy",
+          "left": "남자아이",
           "right": "boys"
         }
       ],
       "accept": [
-        "dish|dishes",
-        "tomato|tomatoes",
-        "baby|babies",
-        "boy|boys"
+        "접시|dishes",
+        "토마토|tomatoes",
+        "아기|babies",
+        "남자아이|boys"
       ],
-      "promptKo": "dish, tomato, baby, boy"
+      "promptKo": "접시, 토마토, 아기, 남자아이"
     },
     {
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 단수형과 복수형을 짝지어 연결하세요.",
+      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "B1",
       "type": "match",
       "pairs": [
         {
-          "left": "leaf",
+          "left": "나뭇잎",
           "right": "leaves"
         },
         {
-          "left": "knife",
+          "left": "칼",
           "right": "knives"
         },
         {
-          "left": "man",
+          "left": "남자",
           "right": "men"
         },
         {
-          "left": "woman",
+          "left": "여자",
           "right": "women"
         }
       ],
       "accept": [
-        "leaf|leaves",
-        "knife|knives",
-        "man|men",
-        "woman|women"
+        "나뭇잎|leaves",
+        "칼|knives",
+        "남자|men",
+        "여자|women"
       ],
-      "promptKo": "leaf, knife, man, woman"
+      "promptKo": "나뭇잎, 칼, 남자, 여자"
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 단수형과 복수형을 짝지어 연결하세요.",
+      "sectionInstructionKo": "그림을 보면서 다음 명사의 단수형과 복수형을 따라 써 보세요. 한글 뜻과 영어 복수형을 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "B2",
       "type": "match",
       "pairs": [
         {
-          "left": "child",
+          "left": "어린이",
           "right": "children"
         },
         {
-          "left": "mouse",
+          "left": "쥐",
           "right": "mice"
         },
         {
-          "left": "foot",
+          "left": "발",
           "right": "feet"
         },
         {
-          "left": "sheep",
+          "left": "양",
           "right": "sheep"
         }
       ],
       "accept": [
-        "child|children",
-        "mouse|mice",
-        "foot|feet",
-        "sheep|sheep"
+        "어린이|children",
+        "쥐|mice",
+        "발|feet",
+        "양|sheep"
       ],
-      "promptKo": "child, mouse, foot, sheep"
+      "promptKo": "어린이, 쥐, 발, 양"
     }
   ],
   "bookId": "zap-red-1",

@@ -68,6 +68,31 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
     const wrong = wrongResp(it, right);
     const r = E.gradeItem(it, right);
     const w = E.gradeItem(it, wrong);
+    if ((it.blanks || 1) > 1 && right.parts) {
+      const parts = right.parts;
+      if (it.unordered && parts.length >= 2) {
+        const rev = parts.slice().reverse();
+        if (!E.gradeItem(it, { parts: rev, value: rev.join(" ") })) {
+          bad++;
+          console.log("UNORDERED-REV-FAIL", f, it.id);
+        }
+      } else if (!it.unordered) {
+        const rev = parts.slice().reverse();
+        if (E.gradeItem(it, { parts: rev, value: rev.join(" ") })) {
+          bad++;
+          console.log("ORDERED-REV-PASS", f, it.id);
+        }
+      }
+    }
+    if ((it.blanks || 1) > 1 && it.accept && it.accept.length > 1) {
+      for (let ai = 1; ai < it.accept.length; ai++) {
+        const alt = it.accept[ai].split("|");
+        if (!E.gradeItem(it, { parts: alt, value: alt.join(" ") })) {
+          bad++;
+          console.log("ALT-ACCEPT-FAIL", f, it.id, it.accept[ai]);
+        }
+      }
+    }
     if (it.type === "match") pairTotal += (it.pairs || []).length;
     if (r && !w) ok++;
     else {
