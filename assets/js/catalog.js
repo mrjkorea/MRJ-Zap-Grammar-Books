@@ -94,7 +94,7 @@
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
-      { id: "unit-06", title: "Unit 06 — 의문사 (2)", enabled: true },
+      { id: "unit-07", title: "Unit 07 — 현재 진행형", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4863,6 +4863,50 @@
         practiceId: "g2:u01:checkup",
       },
     ],
+    "zap-red-2:unit-07": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "문장 · -ing 따라쓰기 · p. 108–109",
+        data: "data/red2/unit07/walk.json",
+        practiceId: "r2:u07:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "현재 진행형 찾기 · p. 110–111",
+        data: "data/red2/unit07/run.json",
+        practiceId: "r2:u07:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "그림 · -ing 고르기 · p. 112–113",
+        data: "data/red2/unit07/jump.json",
+        practiceId: "r2:u07:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "-ing 쓰기 · 문장 완성 · p. 114–115",
+        data: "data/red2/unit07/fly.json",
+        practiceId: "r2:u07:fly",
+      },
+      {
+        slug: "quiz1",
+        title: "QUIZ 1 — be동사",
+        hint: "표 빈칸 · p. 116",
+        data: "data/red2/unit07/quiz1.json",
+        practiceId: "r2:u07:quiz1",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — -ing 만들기",
+        hint: "표 빈칸 · p. 117",
+        data: "data/red2/unit07/quiz2.json",
+        practiceId: "r2:u07:quiz2",
+      },
+    ],
     "zap-red-1:unit-01": [
       {
         slug: "walk",
@@ -4905,57 +4949,6 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
-      },
-    ],
-    "zap-red-2:unit-06": [
-      {
-        slug: "walk",
-        title: "Grammar Walk",
-        hint: "what+명사 · how+형용사 대화 · p. 90–91",
-        data: "data/red2/unit06/walk.json",
-        practiceId: "r2:u06:walk",
-      },
-      {
-        slug: "run",
-        title: "Grammar Run",
-        hint: "what/how 찾기 · p. 92–93",
-        data: "data/red2/unit06/run.json",
-        practiceId: "r2:u06:run",
-      },
-      {
-        slug: "jump",
-        title: "Grammar Jump",
-        hint: "괄호 고르기 · p. 94–95",
-        data: "data/red2/unit06/jump.json",
-        practiceId: "r2:u06:jump",
-      },
-      {
-        slug: "fly",
-        title: "Grammar Fly",
-        hint: "대화 빈칸 · p. 96–97",
-        data: "data/red2/unit06/fly.json",
-        practiceId: "r2:u06:fly",
-      },
-      {
-        slug: "quiz2",
-        title: "QUIZ 2 — what+명사 표",
-        hint: "표 빈칸 · p. 98",
-        data: "data/red2/unit06/quiz2.json",
-        practiceId: "r2:u06:quiz2",
-      },
-      {
-        slug: "quiz3",
-        title: "QUIZ 3 — 요일 어휘",
-        hint: "요일 뜻 · p. 98",
-        data: "data/red2/unit06/quiz3.json",
-        practiceId: "r2:u06:quiz3",
-      },
-      {
-        slug: "quiz5",
-        title: "QUIZ 5 — how+형용사 표",
-        hint: "표 빈칸 · p. 99",
-        data: "data/red2/unit06/quiz5.json",
-        practiceId: "r2:u06:quiz5",
       },
     ],
   };
