@@ -91,6 +91,20 @@
     ],
     "zap-red-1": [
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
+      { id: "unit-02", title: "Unit 02 — 명사 (1)", enabled: false },
+      { id: "review-01", title: "Review 01", enabled: true },
+      { id: "unit-03", title: "Unit 03 — 명사 (2)", enabled: false },
+      { id: "unit-04", title: "Unit 04 — 관사", enabled: false },
+      { id: "review-02", title: "Review 02", enabled: true },
+      { id: "unit-05", title: "Unit 05 — 인칭대명사와 지시대명사", enabled: false },
+      { id: "unit-06", title: "Unit 06 — 인칭대명사의 주격과 목적격", enabled: false },
+      { id: "review-03", title: "Review 03", enabled: true },
+      { id: "unit-07", title: "Unit 07 — 인칭대명사의 소유격", enabled: false },
+      { id: "unit-08", title: "Unit 08 — be동사 am, are, is", enabled: false },
+      { id: "review-04", title: "Review 04", enabled: true },
+      { id: "unit-09", title: "Unit 09 — be동사의 부정문과 의문문 (1)", enabled: false },
+      { id: "unit-10", title: "Unit 10 — be동사의 부정문과 의문문 (2)", enabled: false },
+      { id: "review-05", title: "Review 05", enabled: true },
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
@@ -4860,6 +4874,51 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green2/unit01/checkup.json",
         practiceId: "g2:u01:checkup",
+      },
+    ],
+    "zap-red-1:review-01": [
+      {
+        slug: "review",
+        title: "Review 01",
+        hint: "Units 01–02 · pp. 36–39",
+        data: "data/red1/review01/review.json",
+        practiceId: "r1:rv01:review",
+      },
+    ],
+    "zap-red-1:review-02": [
+      {
+        slug: "review",
+        title: "Review 02",
+        hint: "Units 03–04 · pp. 68–71",
+        data: "data/red1/review02/review.json",
+        practiceId: "r1:rv02:review",
+      },
+    ],
+    "zap-red-1:review-03": [
+      {
+        slug: "review",
+        title: "Review 03",
+        hint: "Units 05–06 · pp. 100–103",
+        data: "data/red1/review03/review.json",
+        practiceId: "r1:rv03:review",
+      },
+    ],
+    "zap-red-1:review-04": [
+      {
+        slug: "review",
+        title: "Review 04",
+        hint: "Units 07–08 · pp. 132–135",
+        data: "data/red1/review04/review.json",
+        practiceId: "r1:rv04:review",
+      },
+    ],
+    "zap-red-1:review-05": [
+      {
+        slug: "review",
+        title: "Review 05",
+        hint: "Units 09–10 · pp. 166–167 ([11–20])",
+        data: "data/red1/review05/review.json",
+        practiceId: "r1:rv05:review",
       },
     ],
     "zap-red-1:unit-01": [

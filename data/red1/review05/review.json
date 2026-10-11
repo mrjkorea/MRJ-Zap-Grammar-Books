@@ -1,0 +1,244 @@
+{
+  "practiceId": "r1:rv05:review",
+  "title": "Review 05",
+  "subtitle": "Units 09–10 · pp. 166–167",
+  "pages": "166–167",
+  "timerMinutes": 25,
+  "introKo": "Review 05는 책 [11]부터 [20]까지 10문항입니다. (앞쪽 [1–10]은 Unit 10 마지막 페이지에 있습니다.)",
+  "sections": [
+    {
+      "id": "11-12",
+      "title": "[11–12]",
+      "instructionKo": "[11–12] 다음 중 밑줄 친 부분이 바르게 쓰인 문장을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "13-15",
+      "title": "[13–15]",
+      "instructionKo": "[13–15] 다음 의문문에 알맞은 대답을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "id": "16-17",
+      "title": "[16–17]",
+      "instructionKo": "[16–17] 다음 밑줄 친 부분의 줄임말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "16",
+        "17"
+      ]
+    },
+    {
+      "id": "18-20",
+      "title": "[18–20]",
+      "instructionKo": "[18–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "18",
+        "19",
+        "20"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q11",
+      "section": "11-12",
+      "sectionTitle": "Section 11-12",
+      "sectionInstructionKo": "[11–12] 다음 중 밑줄 친 부분이 바르게 쓰인 문장을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "You <u>aren't</u> short.",
+        "He <u>aren't</u> handsome.",
+        "I <u>amn't</u> pretty."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "11-12",
+      "sectionTitle": "Section 11-12",
+      "sectionInstructionKo": "[11–12] 다음 중 밑줄 친 부분이 바르게 쓰인 문장을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "It <u>aren't</u> my ball.",
+        "That <u>aren't</u> your book.",
+        "They <u>aren't</u> kind."
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "13-15",
+      "sectionTitle": "Section 13-15",
+      "sectionInstructionKo": "[13–15] 다음 의문문에 알맞은 대답을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "13",
+      "type": "mc",
+      "promptEn": "Are you strong?",
+      "choices": [
+        "Yes, you are.",
+        "Yes, I am.",
+        "Yes, he is."
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "13-15",
+      "sectionTitle": "Section 13-15",
+      "sectionInstructionKo": "[13–15] 다음 의문문에 알맞은 대답을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "Are you doctors?",
+      "choices": [
+        "No, they aren't.",
+        "No, you aren't.",
+        "No, we aren't."
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "13-15",
+      "sectionTitle": "Section 13-15",
+      "sectionInstructionKo": "[13–15] 다음 의문문에 알맞은 대답을 고르세요. 보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "Is she pretty?",
+      "choices": [
+        "No, he isn't.",
+        "No, she isn't.",
+        "No, it isn't."
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "16-17",
+      "sectionTitle": "Section 16-17",
+      "sectionInstructionKo": "[16–17] 다음 밑줄 친 부분의 줄임말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "16",
+      "type": "fill",
+      "promptEn": "They <u>are not</u> delicious.",
+      "blanks": 1,
+      "accept": [
+        "aren't",
+        "arent"
+      ],
+      "promptKo": "are not → 줄임말"
+    },
+    {
+      "id": "q17",
+      "section": "16-17",
+      "sectionTitle": "Section 16-17",
+      "sectionInstructionKo": "[16–17] 다음 밑줄 친 부분의 줄임말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "17",
+      "type": "fill",
+      "promptEn": "She <u>is not</u> my aunt.",
+      "blanks": 1,
+      "accept": [
+        "isn't",
+        "isnt"
+      ],
+      "promptKo": "is not → 줄임말"
+    },
+    {
+      "id": "q18",
+      "section": "18-20",
+      "sectionTitle": "Section 18-20",
+      "sectionInstructionKo": "[18–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "18",
+      "type": "fill",
+      "promptEn": "It ______ his violin.",
+      "blanks": 1,
+      "accept": [
+        "isn't",
+        "is not"
+      ],
+      "promptKo": "그것은 그의 바이올린이 아니다."
+    },
+    {
+      "id": "q19",
+      "section": "18-20",
+      "sectionTitle": "Section 18-20",
+      "sectionInstructionKo": "[18–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "19",
+      "type": "fill",
+      "promptEn": "______ ______ farmers?",
+      "blanks": 2,
+      "accept": [
+        "Are|they"
+      ],
+      "promptKo": "그들은 농부이니?"
+    },
+    {
+      "id": "q20",
+      "section": "18-20",
+      "sectionTitle": "Section 18-20",
+      "sectionInstructionKo": "[18–20] 다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "20",
+      "type": "fill",
+      "promptEn": "Yes, ______ ______.",
+      "blanks": 2,
+      "accept": [
+        "they|are"
+      ],
+      "promptKo": "A: Are these your gloves? B: 응, 그래."
+    }
+  ]
+}
