@@ -1,0 +1,204 @@
+{
+  "practiceId": "r1:u06:walk",
+  "title": "Grammar Walk",
+  "subtitle": "주격·목적격 따라쓰기 (p. 90–91)",
+  "pages": "90–91",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(주격 짝 맞추기 10쌍), Section B 2문항(목적격 짝 맞추기 10쌍)입니다. 왼쪽 한국어 뜻과 오른쪽 영어 문장을 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A — 주격",
+      "instructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 주격을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B — 목적격",
+      "instructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 목적격을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 주격을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1. 나는 행복하다.",
+          "right": "1. I am happy."
+        },
+        {
+          "left": "2. 너는 행복하다.",
+          "right": "2. You are happy."
+        },
+        {
+          "left": "3. 그는 슬프다.",
+          "right": "3. He is sad."
+        },
+        {
+          "left": "4. 그녀는 슬프다.",
+          "right": "4. She is sad."
+        },
+        {
+          "left": "5. 그것은 마르다.",
+          "right": "5. It is thin."
+        },
+        {
+          "left": "6. 우리는 마르다.",
+          "right": "6. We are thin."
+        },
+        {
+          "left": "7. 그들은 게으르다.",
+          "right": "7. They are lazy."
+        }
+      ],
+      "accept": [
+        "1. 나는 행복하다.|1. I am happy.",
+        "2. 너는 행복하다.|2. You are happy.",
+        "3. 그는 슬프다.|3. He is sad.",
+        "4. 그녀는 슬프다.|4. She is sad.",
+        "5. 그것은 마르다.|5. It is thin.",
+        "6. 우리는 마르다.|6. We are thin.",
+        "7. 그들은 게으르다.|7. They are lazy."
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 주격을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8. 너는 게으르다.",
+          "right": "8. You are lazy."
+        },
+        {
+          "left": "9. 그녀는 부지런하다.",
+          "right": "9. She is diligent."
+        },
+        {
+          "left": "10. 그는 부지런하다.",
+          "right": "10. He is diligent."
+        }
+      ],
+      "accept": [
+        "8. 너는 게으르다.|8. You are lazy.",
+        "9. 그녀는 부지런하다.|9. She is diligent.",
+        "10. 그는 부지런하다.|10. He is diligent."
+      ],
+      "promptKo": "문장 8–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 목적격을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1. 나는 너를 좋아한다.",
+          "right": "1. I like you."
+        },
+        {
+          "left": "2. 나는 그를 좋아한다.",
+          "right": "2. I like him."
+        },
+        {
+          "left": "3. 너는 그녀를 좋아한다.",
+          "right": "3. You like her."
+        },
+        {
+          "left": "4. 너는 나를 좋아한다.",
+          "right": "4. You like me."
+        },
+        {
+          "left": "5. 그들은 그것을 사랑한다.",
+          "right": "5. They love it."
+        },
+        {
+          "left": "6. 그들은 우리를 사랑한다.",
+          "right": "6. They love us."
+        },
+        {
+          "left": "7. 우리는 너를 사랑한다.",
+          "right": "7. We love you."
+        }
+      ],
+      "accept": [
+        "1. 나는 너를 좋아한다.|1. I like you.",
+        "2. 나는 그를 좋아한다.|2. I like him.",
+        "3. 너는 그녀를 좋아한다.|3. You like her.",
+        "4. 너는 나를 좋아한다.|4. You like me.",
+        "5. 그들은 그것을 사랑한다.|5. They love it.",
+        "6. 그들은 우리를 사랑한다.|6. They love us.",
+        "7. 우리는 너를 사랑한다.|7. We love you."
+      ],
+      "promptKo": "문장 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 목적격을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8. 우리는 그들을 매일 방문한다.",
+          "right": "8. We visit them every day."
+        },
+        {
+          "left": "9. 학생들은 그를 매일 방문한다.",
+          "right": "9. The students visit him every day."
+        },
+        {
+          "left": "10. 학생들은 그녀를 매일 방문한다.",
+          "right": "10. The students visit her every day."
+        }
+      ],
+      "accept": [
+        "8. 우리는 그들을 매일 방문한다.|8. We visit them every day.",
+        "9. 학생들은 그를 매일 방문한다.|9. The students visit him every day.",
+        "10. 학생들은 그녀를 매일 방문한다.|10. The students visit her every day."
+      ],
+      "promptKo": "문장 8–10"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 인칭대명사의 주격과 목적격",
+  "sectionsVersion": 1
+}

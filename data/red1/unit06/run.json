@@ -1,0 +1,460 @@
+{
+  "practiceId": "r1:u06:run",
+  "title": "Grammar Run",
+  "subtitle": "주격·목적격 찾기 (p. 92–93)",
+  "pages": "92–93",
+  "timerMinutes": 20,
+  "introKo": "Section A 10문항(주격 고르기), B 10문항(목적격 고르기)입니다. 예시 2개는 채점하지 않습니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I am a doctor.",
+      "choices": [
+        "I",
+        "am",
+        "a",
+        "doctor."
+      ],
+      "accept": [
+        "1"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "You are a doctor.",
+      "choices": [
+        "You",
+        "are",
+        "a",
+        "doctor."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "She is a singer.",
+      "choices": [
+        "She",
+        "is",
+        "a",
+        "singer."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "He is a singer.",
+      "choices": [
+        "He",
+        "is",
+        "a",
+        "singer."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "We are farmers.",
+      "choices": [
+        "We",
+        "are",
+        "farmers."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "They are farmers.",
+      "choices": [
+        "They",
+        "are",
+        "farmers."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "It is a pig.",
+      "choices": [
+        "It",
+        "is",
+        "a",
+        "pig."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "They are pigs.",
+      "choices": [
+        "They",
+        "are",
+        "pigs."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "She is a teacher.",
+      "choices": [
+        "She",
+        "is",
+        "a",
+        "teacher."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 주격을 찾아 동그라미 하세요. 주격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "You are teachers.",
+      "choices": [
+        "You",
+        "are",
+        "teachers."
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I meet her every day.",
+      "choices": [
+        "I",
+        "meet",
+        "her",
+        "every",
+        "day."
+      ],
+      "accept": [
+        "3"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "her"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "I meet them every day.",
+      "choices": [
+        "I",
+        "meet",
+        "them",
+        "every",
+        "day."
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "They know you.",
+      "choices": [
+        "They",
+        "know",
+        "you."
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "They know me.",
+      "choices": [
+        "They",
+        "know",
+        "me."
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "You like it.",
+      "choices": [
+        "You",
+        "like",
+        "it."
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "You like us.",
+      "choices": [
+        "You",
+        "like",
+        "us."
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "We love them.",
+      "choices": [
+        "We",
+        "love",
+        "them."
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "We love him.",
+      "choices": [
+        "We",
+        "love",
+        "him."
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "The nurses visit me every day.",
+      "choices": [
+        "The",
+        "nurses",
+        "visit",
+        "me",
+        "every",
+        "day."
+      ],
+      "accept": [
+        "4"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 인칭대명사의 목적격을 찾아 동그라미 하세요. 목적격인 말을 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "The nurses visit her every day.",
+      "choices": [
+        "The",
+        "nurses",
+        "visit",
+        "her",
+        "every",
+        "day."
+      ],
+      "accept": [
+        "4"
+      ]
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 인칭대명사의 주격과 목적격",
+  "sectionsVersion": 1
+}
