@@ -19,16 +19,16 @@ Printed pages **72–85** (PDF **73–86**). **Excluded:** PDF p.87+ (Unit 06 �
 
 | Slug | practiceId | Graded items | Modes | Sections |
 |------|------------|--------------|-------|----------|
-| walk | `r2:u05:walk` | 20 | words×10, sentence×10 | A trace → single 의문사; B trace → full question |
+| walk | `r2:u05:walk` | 4 | match (7+3 pairs ×2 sections) | A/B tracing → Korean sentence ↔ English sentence |
 | run | `r2:u05:run` | 19 | words | A9 (1 example); B10 Korean 뜻 |
 | jump | `r2:u05:jump` | 18 | choice | A9 + B9 (1 example each) |
 | fly | `r2:u05:fly` | 18 | words | A9 + B9 (1 example each) |
 | quiz2 | `r2:u05:quiz2` | 6 | words | QUIZ table 의문사 |
 | quiz4 | `r2:u05:quiz4` | 6 | words | 형식 칸 + Who/What |
 
-**87 graded items** total.
+**71 graded items** total (20 tracing lines → 4 match screens, 20 sentence pairs).
 
-Walk tracing is **not** line-match on this unit (students write words/sentences, not Korean↔English pairs).
+Walk tracing follows the Red rule: **match** items (≤7 pairs each), Korean sentence ↔ English sentence implied by the book.
 
 ## Deep links
 
@@ -45,5 +45,6 @@ Walk tracing is **not** line-match on this unit (students write words/sentences,
 
 ## Uncertain / notes
 
-- **QUIZ §4 blanks 1–4:** Accepted as Korean grammar labels `be동사`, `주어`, `주어`, `동사원형` (table summary on p.85); not verified against a printed answer key in-repo.
-- **Run B / quiz Korean:** Single standard gloss per 의문사 (e.g. `어디` for where); no extra synonyms in `accept` yet.
+- **Walk Korean lines:** Not printed verbatim on p.76–77; pairs use standard glosses aligned with concept-page examples (p.74–75).
+- **QUIZ §4 blanks 1–4:** Labels `be동사` / `be 동사`, `주어`, `동사원형` / `동사 원형` per p.85 table.
+- **Run B Korean glosses:** `어디`/`어디에`/`어디서`, `무엇`/`뭐` accepted where natural.

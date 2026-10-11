@@ -46,94 +46,78 @@ function sec(id, title, instructionKo, answerMode, tag, itemCount, exampleCount,
   };
 }
 
-// —— walk ——
+function matchPairs(rows) {
+  const pairs = rows.map(([left, right]) => ({ left, right }));
+  const accept = rows.map(([left, right]) => `${left}|${right}`);
+  return { pairs, accept };
+}
+
+function pushMatchItem(walk, sectionKey, secIdx, id, label, rows, promptKo) {
+  const section = walk.sections[secIdx];
+  const { pairs, accept } = matchPairs(rows);
+  walk.items.push({
+    id,
+    section: sectionKey,
+    sectionTitle: section.title,
+    sectionInstructionKo: section.instructionKo,
+    answerMode: "match",
+    answerModeTag: "Match · 짝 맞추기",
+    label,
+    type: "match",
+    pairs,
+    accept,
+    promptKo,
+  });
+}
+
+// —— walk (tracing → match: Korean sentence ↔ English sentence) ——
+const walkAInstruction =
+  "다음 문장의 뜻을 생각하며 의문사를 따라 써 보세요. 우리말 문장과 영어 문장을 짝지어 연결하세요.";
+const walkBInstruction =
+  "다음 문장의 뜻을 생각하며 따라 써 보세요. 우리말 문장과 영어 문장을 짝지어 연결하세요.";
+
 const walk = base(
   "r2:u05:walk",
   "Grammar Walk",
   "의문사 · 의문문 따라쓰기 (p. 76–77)",
   "76–77",
-  "Section A 10문항(의문사 한 단어), Section B 10문항(문장 전체)입니다.",
+  "Section A 2문항(7+3쌍), Section B 2문항(7+3쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
   [
-    sec(
-      "A",
-      "Section A",
-      "다음 문장의 뜻을 생각하며 의문사를 따라 써 보세요. 빈칸에 들어갈 의문사 한 단어만 쓰세요.",
-      "words",
-      "Words · 빈칸 말만",
-      10,
-      0,
-      ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"]
-    ),
-    sec(
-      "B",
-      "Section B",
-      "다음 문장의 뜻을 생각하며 따라 써 보세요. 문장 전체를 쓰세요.",
-      "sentence",
-      "Full sentence · 문장 전체",
-      10,
-      0,
-      ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10"]
-    ),
+    sec("A", "Section A", walkAInstruction, "match", "Match · 짝 맞추기", 2, 0, ["A1", "A2"]),
+    sec("B", "Section B", walkBInstruction, "match", "Match · 짝 맞추기", 2, 0, ["B1", "B2"]),
   ]
 );
 
-const walkA = [
-  ["Who is the boy?", "who"],
-  ["Why is Sam so sad?", "why"],
-  ["When is your birthday?", "when"],
-  ["Where is your house?", "where"],
-  ["How are your grandparents?", "how"],
-  ["Where does she live?", "where"],
-  ["What do you have?", "what"],
-  ["When do they get up?", "when"],
-  ["How does Alice go to school?", "how"],
-  ["Why does Sandara call him?", "why"],
+const walkAKoEn = [
+  ["저 소년은 누구니?", "Who is the boy?"],
+  ["샘은 왜 그렇게 슬프니?", "Why is Sam so sad?"],
+  ["네 생일은 언제니?", "When is your birthday?"],
+  ["네 집은 어디에 있니?", "Where is your house?"],
+  ["네 조부모님은 어떻게 지내니?", "How are your grandparents?"],
+  ["그녀는 어디에 살니?", "Where does she live?"],
+  ["너는 무엇을 가지고 있니?", "What do you have?"],
+  ["그들은 언제 일어나니?", "When do they get up?"],
+  ["앨리스는 어떻게 학교에 가니?", "How does Alice go to school?"],
+  ["산다라는 왜 그에게 전화하니?", "Why does Sandara call him?"],
 ];
 
-walkA.forEach(([sent, ans], i) => {
-  walk.items.push({
-    id: `a${String(i + 1).padStart(2, "0")}`,
-    section: "A",
-    sectionTitle: "Section A",
-    sectionInstructionKo: walk.sections[0].instructionKo,
-    answerMode: "words",
-    answerModeTag: "Words · 빈칸 말만",
-    label: `A${i + 1}`,
-    type: "fill",
-    promptEn: sent.replace(/^\w+/, "______"),
-    blanks: 1,
-    accept: [ans],
-  });
-});
-
-const walkB = [
-  "Who is she?",
-  "What is that?",
-  "When is the test?",
-  "How are you?",
-  "Why are they angry?",
-  "Where are their crayons?",
-  "Where do pandas live?",
-  "What does the monkey eat?",
-  "Who does she like?",
-  "When does the concert begin?",
+const walkBKoEn = [
+  ["그녀는 누구니?", "Who is she?"],
+  ["저것은 무엇이니?", "What is that?"],
+  ["시험은 언제니?", "When is the test?"],
+  ["어떻게 지내니?", "How are you?"],
+  ["그들은 왜 화가 났니?", "Why are they angry?"],
+  ["그들의 크레용은 어디에 있니?", "Where are their crayons?"],
+  ["판다는 어디에 살니?", "Where do pandas live?"],
+  ["원숭이는 무엇을 먹니?", "What does the monkey eat?"],
+  ["그녀는 누구를 좋아하니?", "Who does she like?"],
+  ["콘서트는 언제 시작하니?", "When does the concert begin?"],
 ];
 
-walkB.forEach((sent, i) => {
-  const lower = sent.charAt(0).toLowerCase() + sent.slice(1);
-  walk.items.push({
-    id: `b${String(i + 1).padStart(2, "0")}`,
-    section: "B",
-    sectionTitle: "Section B",
-    sectionInstructionKo: walk.sections[1].instructionKo,
-    answerMode: "sentence",
-    answerModeTag: "Full sentence · 문장 전체",
-    label: `B${i + 1}`,
-    type: "sentence",
-    promptEn: sent.replace(/^\w+/, "______"),
-    accept: [sent, lower],
-  });
-});
+pushMatchItem(walk, "A", 0, "a01", "A1", walkAKoEn.slice(0, 7), "문장 1–7");
+pushMatchItem(walk, "A", 0, "a02", "A2", walkAKoEn.slice(7), "문장 8–10");
+pushMatchItem(walk, "B", 1, "b01", "B1", walkBKoEn.slice(0, 7), "문장 1–7");
+pushMatchItem(walk, "B", 1, "b02", "B2", walkBKoEn.slice(7), "문장 8–10");
 
 write("walk.json", walk);
 
@@ -204,19 +188,19 @@ runA.forEach(([sent, ans], i) => {
 });
 
 const runBKo = [
-  ["Who is Sam?", "누구"],
-  ["When is the picnic?", "언제"],
-  ["Where are my pants?", "어디"],
-  ["How are your parents?", "어떻게"],
-  ["What are these?", "무엇"],
-  ["Why are you late?", "왜"],
-  ["When do you go to the pool?", "언제"],
-  ["Why do you like me?", "왜"],
-  ["What does she eat for lunch?", "무엇"],
-  ["Where does Judy play tennis?", "어디"],
+  ["Who is Sam?", ["누구"]],
+  ["When is the picnic?", ["언제"]],
+  ["Where are my pants?", ["어디", "어디에", "어디서"]],
+  ["How are your parents?", ["어떻게"]],
+  ["What are these?", ["무엇", "뭐"]],
+  ["Why are you late?", ["왜"]],
+  ["When do you go to the pool?", ["언제"]],
+  ["Why do you like me?", ["왜"]],
+  ["What does she eat for lunch?", ["무엇", "뭐"]],
+  ["Where does Judy play tennis?", ["어디", "어디에", "어디서"]],
 ];
 
-runBKo.forEach(([sent, ko], i) => {
+runBKo.forEach(([sent, accept], i) => {
   run.items.push({
     id: `b${String(i + 1).padStart(2, "0")}`,
     section: "B",
@@ -228,7 +212,7 @@ runBKo.forEach(([sent, ko], i) => {
     type: "fill",
     promptEn: sent,
     blanks: 1,
-    accept: [ko],
+    accept,
   });
 });
 
@@ -514,7 +498,7 @@ const quiz4Items = [
   {
     promptKo: "의문사와 be동사가 있는 의문문 형식: 의문사 + [1] + [2] ?",
     blanks: 1,
-    accept: ["be동사"],
+    accept: ["be동사", "be 동사"],
     label: "1",
   },
   {
@@ -532,19 +516,19 @@ const quiz4Items = [
   {
     promptKo: "의문사와 일반동사가 있는 의문문: 의문사 + do/does + [3] + [4] ? (네 번째 칸)",
     blanks: 1,
-    accept: ["동사원형"],
+    accept: ["동사원형", "동사 원형"],
     label: "4",
   },
   {
     promptKo: "사람의 이름이나 신분을 물어볼 때 — 의문문: [5] is she?",
     blanks: 1,
-    accept: ["who"],
+    accept: ["who", "Who"],
     label: "5",
   },
   {
     promptKo: "사물의 이름, 종류를 물어볼 때 — 의문문: [6] is this?",
     blanks: 1,
-    accept: ["what"],
+    accept: ["what", "What"],
     label: "6",
   },
 ];

@@ -54,6 +54,7 @@ function wrongResp(it, right) {
 
 let total = 0;
 let bad = 0;
+let pairTotal = 0;
 
 for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) {
   const d = JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8"));
@@ -67,6 +68,7 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
     const wrong = wrongResp(it, right);
     const r = E.gradeItem(it, right);
     const w = E.gradeItem(it, wrong);
+    if (it.type === "match") pairTotal += (it.pairs || []).length;
     if (r && !w) ok++;
     else {
       bad++;
@@ -75,5 +77,9 @@ for (const f of fs.readdirSync(DATA).filter((x) => x.endsWith(".json")).sort()) 
   }
   console.log(f.padEnd(14), (d.practiceId || "").padEnd(16), "graded", graded, "ok", ok);
 }
-console.log(bad ? "FAILURES: " + bad : "ALL " + total + " Red U05 items grade OK");
+console.log(
+  bad
+    ? "FAILURES: " + bad
+    : "ALL " + total + " Red U05 items grade OK (" + pairTotal + " match pairs in walk)"
+);
 process.exit(bad ? 1 : 0);
