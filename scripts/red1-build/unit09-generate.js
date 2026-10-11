@@ -157,6 +157,12 @@ function writeWalk() {
   fs.writeFileSync(path.join(OUT, "walk.json"), JSON.stringify(practice, null, 2) + "\n");
 }
 
+function runBeNotAccept(ans) {
+  if (ans === "is not") return ["is not", "isn't"];
+  if (ans === "are not") return ["are not", "aren't"];
+  return [ans];
+}
+
 function writeRun() {
   const instrA =
     "다음 문장에서 「be동사 + not」을 찾아 동그라미 하세요. 빈칸에 be동사와 not을 함께 쓰세요. (줄임말은 isn't, aren't도 가능)";
@@ -193,7 +199,7 @@ function writeRun() {
   runA.forEach(([prompt, ans], i) => {
     const ex = i === 0;
     items.push(
-      fillItem(`a${String(i + 1).padStart(2, "0")}`, "A", `A${i + 1}`, prompt, [ans], {
+      fillItem(`a${String(i + 1).padStart(2, "0")}`, "A", `A${i + 1}`, prompt, runBeNotAccept(ans), {
         sectionInstructionKo: instrA,
         ...(ex
           ? { example: true, displayOnly: true, exampleAnswer: ans }
@@ -395,7 +401,7 @@ function writeFly() {
     pages: "146–147",
     timerMinutes: 20,
     introKo:
-      "Section A 8문항(부정문 바꾸기), Section B 8문항(대화 빈칸)입니다. 각 섹션 예시 1개.",
+      "Section A 8문항(부정문 바꾸기), Section B 8문항(대화 빈칸)입니다. 각 섹션 1번·6번은 책 예시(표시만).",
     sections: [
       {
         id: "A",
@@ -404,7 +410,7 @@ function writeFly() {
         answerMode: "words",
         answerModeTag: "Words · 빈칸 말만",
         itemCount: 8,
-        exampleCount: 1,
+        exampleCount: 2,
         labels: ["A2", "A3", "A4", "A5", "A7", "A8", "A9", "A10"],
       },
       {
@@ -414,7 +420,7 @@ function writeFly() {
         answerMode: "words",
         answerModeTag: "Words · 빈칸 말만",
         itemCount: 8,
-        exampleCount: 1,
+        exampleCount: 2,
         labels: ["B2", "B3", "B4", "B5", "B7", "B8", "B9", "B10"],
       },
     ],

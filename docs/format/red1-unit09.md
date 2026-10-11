@@ -27,7 +27,7 @@ Printed pages **136–149** (PDF 137–150). **Excluded:** PDF p151 (Unit 10 ope
 | walk | `r1:u09:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (KO↔EN neg.; Q↔short answer) |
 | run | `r1:u09:run` | 18 | A×9 words, B×9 choice | Circle「be+not」→ type phrase; Yes/No MC |
 | jump | `r1:u09:jump` | 18 | A×9 choice, B×9 choice | Parenthesis MC |
-| fly | `r1:u09:fly` | 16 | A×8 words, B×8 words | Neg. rewrite blanks; dialogue blanks |
+| fly | `r1:u09:fly` | 16 | A×8 words, B×8 words | Neg. rewrite blanks; dialogue blanks (book examples 1 & 6 per section, displayOnly) |
 | quiz2 | `r1:u09:quiz2` | 4 | A×4 words | QUIZ §2 table (1 display example) |
 | quiz4 | `r1:u09:quiz4` | 7 | A×7 words | QUIZ §4 table (1 display example) |
 
