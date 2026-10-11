@@ -89,63 +89,63 @@ function sentenceWordChoices(sentence, correct) {
   return { choices, accept: String(idx + 1) };
 }
 
-function walkItemNum(left) {
-  const m = String(left).match(/^(\d+)\./);
-  return m ? m[1] : String(left);
-}
-
 function writeWalk() {
   const instrA =
-    "다음 문장의 뜻을 생각하며 인칭대명사의 주격을 따라 써 보세요. 문장과 알맞은 주격을 짝지어 연결하세요.";
+    "다음 문장의 뜻을 생각하며 인칭대명사의 주격을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.";
   const instrB =
-    "다음 문장의 뜻을 생각하며 인칭대명사의 목적격을 따라 써 보세요. 문장과 알맞은 목적격을 짝지어 연결하세요.";
+    "다음 문장의 뜻을 생각하며 인칭대명사의 목적격을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.";
 
+  /** [book #, standard Korean meaning, full English sentence as printed] */
   const walkA = [
-    ["1. _____ am happy.", "I"],
-    ["2. _____ are happy.", "You"],
-    ["3. _____ is sad.", "He"],
-    ["4. _____ is sad.", "She"],
-    ["5. _____ is thin.", "It"],
-    ["6. _____ are thin.", "We"],
-    ["7. _____ are lazy.", "They"],
-    ["8. _____ are lazy.", "You"],
-    ["9. _____ is diligent.", "She"],
-    ["10. _____ is diligent.", "He"],
+    [1, "나는 행복하다.", "I am happy."],
+    [2, "너는 행복하다.", "You are happy."],
+    [3, "그는 슬프다.", "He is sad."],
+    [4, "그녀는 슬프다.", "She is sad."],
+    [5, "그것은 마르다.", "It is thin."],
+    [6, "우리는 마르다.", "We are thin."],
+    [7, "그들은 게으르다.", "They are lazy."],
+    [8, "너는 게으르다.", "You are lazy."],
+    [9, "그녀는 부지런하다.", "She is diligent."],
+    [10, "그는 부지런하다.", "He is diligent."],
   ];
 
   const walkB = [
-    ["I like _____.", "you"],
-    ["I like _____.", "him"],
-    ["You like _____.", "her"],
-    ["You like _____.", "me"],
-    ["They love _____.", "it"],
-    ["They love _____.", "us"],
-    ["We love _____.", "you"],
-    ["We visit _____ every day.", "them"],
-    ["The students visit _____ every day.", "him"],
-    ["The students visit _____ every day.", "her"],
+    [1, "나는 너를 좋아한다.", "I like you."],
+    [2, "나는 그를 좋아한다.", "I like him."],
+    [3, "너는 그녀를 좋아한다.", "You like her."],
+    [4, "너는 나를 좋아한다.", "You like me."],
+    [5, "그들은 그것을 사랑한다.", "They love it."],
+    [6, "그들은 우리를 사랑한다.", "They love us."],
+    [7, "우리는 너를 사랑한다.", "We love you."],
+    [8, "우리는 그들을 매일 방문한다.", "We visit them every day."],
+    [9, "학생들은 그를 매일 방문한다.", "The students visit him every day."],
+    [10, "학생들은 그녀를 매일 방문한다.", "The students visit her every day."],
   ];
+
+  function koEnPairs(rows) {
+    return rows.map(([n, ko, en]) => ({
+      left: `${n}. ${ko}`,
+      right: `${n}. ${en}`,
+    }));
+  }
 
   const items = [];
   chunk(walkA, 7).forEach((g, gi) => {
-    const pairs = g.map(([left, right]) => ({ left, right }));
+    const pairs = koEnPairs(g);
     items.push(
       matchItem(`a${String(gi + 1).padStart(2, "0")}`, "A", `A${gi + 1}`, pairs, {
         sectionInstructionKo: instrA,
-        promptKo: `문장 ${walkItemNum(g[0][0])}–${walkItemNum(g[g.length - 1][0])}`,
+        promptKo: `문장 ${g[0][0]}–${g[g.length - 1][0]}`,
       })
     );
   });
 
   chunk(walkB, 7).forEach((g, gi) => {
-    const pairs = g.map(([left, right], idx) => ({
-      left: `${gi * 7 + idx + 1}. ${left}`,
-      right,
-    }));
+    const pairs = koEnPairs(g);
     items.push(
       matchItem(`b${String(gi + 1).padStart(2, "0")}`, "B", `B${gi + 1}`, pairs, {
         sectionInstructionKo: instrB,
-        promptKo: `문장 ${gi * 7 + 1}–${gi * 7 + g.length}`,
+        promptKo: `문장 ${g[0][0]}–${g[g.length - 1][0]}`,
       })
     );
   });
@@ -157,7 +157,7 @@ function writeWalk() {
     pages: "90–91",
     timerMinutes: 20,
     introKo:
-      "Section A 2문항(주격 짝 맞추기 10쌍), Section B 2문항(목적격 짝 맞추기 10쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+      "Section A 2문항(주격 짝 맞추기 10쌍), Section B 2문항(목적격 짝 맞추기 10쌍)입니다. 왼쪽 한국어 뜻과 오른쪽 영어 문장을 연결하세요.",
     sections: [
       {
         id: "A",

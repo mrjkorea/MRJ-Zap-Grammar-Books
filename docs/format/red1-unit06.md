@@ -26,7 +26,7 @@ Printed pages **86–99** (PDF 87–100). Skipped: comics (p.86–87), concept +
 
 | Slug | practiceId | Graded items | Sections | Modes |
 |------|------------|--------------|----------|-------|
-| walk | `r1:u06:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** (10+10 pairs; A numbered 1–10, B numbered 1–10) |
+| walk | `r1:u06:walk` | 4 | A×2 match, B×2 match | Walk trace → **match** Korean meaning ↔ full English sentence (10+10 pairs; book # 1–10) |
 | run | `r1:u06:run` | 18 | A×9 MC, B×9 MC | Circle pronoun → tap word from sentence (book order; 2 examples display-only) |
 | jump | `r1:u06:jump` | 18 | A×9 MC, B×9 MC | Parentheses order; 2 examples display-only |
 | fly | `r1:u06:fly` | 18 | A×9 words, B×9 words | One pronoun per blank; 2 examples display-only |
@@ -46,8 +46,7 @@ Printed pages **86–99** (PDF 87–100). Skipped: comics (p.86–87), concept +
 
 ## Uncertain / notes
 
-- **Walk A** items 3–4 share the same English frame (`_____ is sad.`); disambiguated by book item numbers on the left column only.
-- **Walk B** items 1–2 and 9–10 share sentence frames; numbered on the left.
+- **Walk** pages do not print Korean sentence glosses; match left column uses plain standard Korean meanings (vocab on p.90–91). Right column = full English sentences from the book (pronoun included, not blanked).
 
 ## Generator
 
