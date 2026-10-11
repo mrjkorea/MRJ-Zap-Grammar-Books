@@ -91,6 +91,7 @@
     ],
     "zap-red-1": [
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
+      { id: "unit-07", title: "Unit 07 — 인칭대명사의 소유격", enabled: true },
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
@@ -4904,6 +4905,50 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-1:unit-07": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "소유격 · 소유대명사 따라쓰기 · p. 108–109",
+        data: "data/red1/unit07/walk.json",
+        practiceId: "r1:u07:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "소유격 · 소유대명사 찾기 · p. 110–111",
+        data: "data/red1/unit07/run.json",
+        practiceId: "r1:u07:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "소유격 vs 소유대명사 · p. 112–113",
+        data: "data/red1/unit07/jump.json",
+        practiceId: "r1:u07:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "소유격 · 소유대명사 바꾸기 · p. 114–115",
+        data: "data/red1/unit07/fly.json",
+        practiceId: "r1:u07:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 소유격 표",
+        hint: "표 빈칸 · p. 116",
+        data: "data/red1/unit07/quiz2.json",
+        practiceId: "r1:u07:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 소유대명사 표",
+        hint: "표 빈칸 · p. 117",
+        data: "data/red1/unit07/quiz4.json",
+        practiceId: "r1:u07:quiz4",
       },
     ],
   };
