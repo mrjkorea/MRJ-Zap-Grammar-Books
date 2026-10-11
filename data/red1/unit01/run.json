@@ -1,0 +1,723 @@
+{
+  "practiceId": "r1:u01:run",
+  "title": "Grammar Run",
+  "subtitle": "알파벳 · 모음 · 숫자 단어 (p. 14–15)",
+  "pages": "14–15",
+  "timerMinutes": 20,
+  "introKo": "Section A 9문항(고르기), B 7문항(모음 쓰기), C 19문항(숫자 단어)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음에서 모음에 해당하는 알파벳을 찾아 동그라미 하세요. 모음 글자만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 19,
+      "exampleCount": 1,
+      "labels": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "C",
+      "choices": [
+        "Z",
+        "W",
+        "C",
+        "H"
+      ],
+      "accept": [
+        "3"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "C"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "F",
+      "choices": [
+        "B",
+        "F",
+        "K",
+        "G"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "L",
+      "choices": [
+        "Y",
+        "L",
+        "I",
+        "N"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "J",
+      "choices": [
+        "J",
+        "M",
+        "X",
+        "Q"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "P",
+      "choices": [
+        "B",
+        "K",
+        "A",
+        "P"
+      ],
+      "accept": [
+        "4"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "b",
+      "choices": [
+        "b",
+        "d",
+        "p",
+        "q"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "d",
+      "choices": [
+        "c",
+        "d",
+        "p",
+        "b"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "r",
+      "choices": [
+        "o",
+        "v",
+        "r",
+        "t"
+      ],
+      "accept": [
+        "3"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "n",
+      "choices": [
+        "m",
+        "n",
+        "w",
+        "z"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 따라 쓴 후, 같은 알파벳을 찾아 동그라미 하세요. 보기와 같이 같은 글자를 고르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "g",
+      "choices": [
+        "g",
+        "q",
+        "b",
+        "d"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음에서 모음에 해당하는 알파벳을 찾아 동그라미 하세요. 모음 글자만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "gorilla",
+      "blanks": 3,
+      "accept": [
+        "o|i|a"
+      ],
+      "unordered": true,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "o, i, a"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음에서 모음에 해당하는 알파벳을 찾아 동그라미 하세요. 모음 글자만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "orangutan",
+      "blanks": 3,
+      "accept": [
+        "o|a|u"
+      ],
+      "unordered": true
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음에서 모음에 해당하는 알파벳을 찾아 동그라미 하세요. 모음 글자만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "iguana",
+      "blanks": 3,
+      "accept": [
+        "i|u|a"
+      ],
+      "unordered": true
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음에서 모음에 해당하는 알파벳을 찾아 동그라미 하세요. 모음 글자만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "koala",
+      "blanks": 2,
+      "accept": [
+        "o|a"
+      ],
+      "unordered": true
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음에서 모음에 해당하는 알파벳을 찾아 동그라미 하세요. 모음 글자만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "dinosaur",
+      "blanks": 4,
+      "accept": [
+        "i|o|a|u"
+      ],
+      "unordered": true
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음에서 모음에 해당하는 알파벳을 찾아 동그라미 하세요. 모음 글자만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "umbrella",
+      "blanks": 3,
+      "accept": [
+        "u|e|a"
+      ],
+      "unordered": true
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음에서 모음에 해당하는 알파벳을 찾아 동그라미 하세요. 모음 글자만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "trousers",
+      "blanks": 3,
+      "accept": [
+        "o|u|e"
+      ],
+      "unordered": true
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음에서 모음에 해당하는 알파벳을 찾아 동그라미 하세요. 모음 글자만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "supermarket",
+      "blanks": 3,
+      "accept": [
+        "u|e|a"
+      ],
+      "unordered": true
+    },
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "oneatreegg",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "one"
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "networedog",
+      "blanks": 1,
+      "accept": [
+        "two"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "obeanthree",
+      "blanks": 1,
+      "accept": [
+        "three"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "fouroomeet",
+      "blanks": 1,
+      "accept": [
+        "four"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "earoofiveye",
+      "blanks": 1,
+      "accept": [
+        "five"
+      ]
+    },
+    {
+      "id": "c06",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "meetubusix",
+      "blanks": 1,
+      "accept": [
+        "six"
+      ]
+    },
+    {
+      "id": "c07",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C7",
+      "type": "fill",
+      "promptEn": "sevenutray",
+      "blanks": 1,
+      "accept": [
+        "seven"
+      ]
+    },
+    {
+      "id": "c08",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C8",
+      "type": "fill",
+      "promptEn": "treeightie",
+      "blanks": 1,
+      "accept": [
+        "eight"
+      ]
+    },
+    {
+      "id": "c09",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C9",
+      "type": "fill",
+      "promptEn": "nidleanine",
+      "blanks": 1,
+      "accept": [
+        "nine"
+      ]
+    },
+    {
+      "id": "c10",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C10",
+      "type": "fill",
+      "promptEn": "catenoodle",
+      "blanks": 1,
+      "accept": [
+        "ten"
+      ]
+    },
+    {
+      "id": "c11",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C11",
+      "type": "fill",
+      "promptEn": "eelevenear",
+      "blanks": 1,
+      "accept": [
+        "eleven"
+      ]
+    },
+    {
+      "id": "c12",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C12",
+      "type": "fill",
+      "promptEn": "twelvetuck",
+      "blanks": 1,
+      "accept": [
+        "twelve"
+      ]
+    },
+    {
+      "id": "c13",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C13",
+      "type": "fill",
+      "promptEn": "foothirteen",
+      "blanks": 1,
+      "accept": [
+        "thirteen"
+      ]
+    },
+    {
+      "id": "c14",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C14",
+      "type": "fill",
+      "promptEn": "fourteenod",
+      "blanks": 1,
+      "accept": [
+        "fourteen"
+      ]
+    },
+    {
+      "id": "c15",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C15",
+      "type": "fill",
+      "promptEn": "stuffifteen",
+      "blanks": 1,
+      "accept": [
+        "fifteen"
+      ]
+    },
+    {
+      "id": "c16",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C16",
+      "type": "fill",
+      "promptEn": "sixteenurse",
+      "blanks": 1,
+      "accept": [
+        "sixteen"
+      ]
+    },
+    {
+      "id": "c17",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C17",
+      "type": "fill",
+      "promptEn": "eraseventeen",
+      "blanks": 1,
+      "accept": [
+        "seventeen"
+      ]
+    },
+    {
+      "id": "c18",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C18",
+      "type": "fill",
+      "promptEn": "eighteenod",
+      "blanks": 1,
+      "accept": [
+        "eighteen"
+      ]
+    },
+    {
+      "id": "c19",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C19",
+      "type": "fill",
+      "promptEn": "vanineteen",
+      "blanks": 1,
+      "accept": [
+        "nineteen"
+      ]
+    },
+    {
+      "id": "c20",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 숫자를 나타내는 단어를 찾아 동그라미 하세요. 숨은 영어 숫자 단어를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C20",
+      "type": "fill",
+      "promptEn": "beltwentyell",
+      "blanks": 1,
+      "accept": [
+        "twenty"
+      ]
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 알파벳과 수 세기",
+  "sectionsVersion": 1
+}

@@ -5,8 +5,8 @@ const vm = require("vm");
 
 const REPO = path.join(__dirname, "..");
 const JS = path.join(REPO, "assets/js");
-const BOOKS = ["green1", "green2", "green3", "green4", "blue1", "blue2", "blue3", "blue4"];
-const MODES = new Set(["choice", "words", "sentence"]);
+const BOOKS = ["green1", "green2", "green3", "green4", "blue1", "blue2", "blue3", "blue4", "red1", "red2"];
+const MODES = new Set(["choice", "words", "sentence", "match"]);
 
 const win = {};
 const ctx = vm.createContext({ window: win, Date, Math, JSON, String, Array, Object, RegExp, Promise });
@@ -56,6 +56,11 @@ function mcAcceptOk(it, a) {
 }
 
 function respFor(it, acc) {
+  if (it.type === "match") {
+    const links = {};
+    for (const p of it.pairs || []) links[p.left] = p.right;
+    return { links };
+  }
   if (it.type === "mc") {
     const i = mcIndex(acc);
     if (i >= 0 && i < it.choices.length) return { value: it.choices[i] };
@@ -103,9 +108,16 @@ for (const book of BOOKS) {
       if (ids.has(it.id)) fail(rel, "dup item id", it.id);
       ids.add(it.id);
       const isBlue = /^data\/blue/.test(rel);
-      if (isBlue && it.example && !it.displayOnly) fail(rel, it.id, "example must be displayOnly");
+      const isRed = /^data\/red/.test(rel);
+      if ((isBlue || isRed) && it.example && !it.displayOnly) fail(rel, it.id, "example must be displayOnly");
+      if (it.type === "match") {
+        if (!Array.isArray(it.pairs) || !it.pairs.length) fail(rel, it.id, "match missing pairs");
+        for (const p of it.pairs) {
+          if (!p || p.left == null || p.right == null) fail(rel, it.id, "bad pair");
+        }
+      }
       if (it.displayOnly) {
-        if (isBlue && it.example !== true) fail(rel, it.id, "displayOnly should set example:true");
+        if ((isBlue || isRed) && it.example !== true) fail(rel, it.id, "displayOnly should set example:true");
         continue;
       }
       if (it.type === "mc") {

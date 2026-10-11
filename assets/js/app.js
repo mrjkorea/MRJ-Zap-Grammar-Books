@@ -113,9 +113,42 @@
   }
 
   function inputPlaceholder(item) {
+    if (item.answerMode === "match") return "";
     if (item.answerMode === "words") return "빈칸 말만";
     if (item.answerMode === "sentence") return "문장 전체를 쓰세요";
     return "";
+  }
+
+  function hashSeed(str) {
+    var h = 2166136261;
+    for (var i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return h >>> 0;
+  }
+
+  function seededShuffle(list, seed) {
+    var arr = list.slice();
+    var state = seed >>> 0;
+    function rnd() {
+      state = (Math.imul(1664525, state) + 1013904223) >>> 0;
+      return state / 4294967296;
+    }
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(rnd() * (i + 1));
+      var tmp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = tmp;
+    }
+    return arr;
+  }
+
+  function matchRightOrder(item, practiceId) {
+    var rights = (item.pairs || []).map(function (p) {
+      return p.right;
+    });
+    return seededShuffle(rights, hashSeed(practiceId + ":" + item.id + ":right"));
   }
 
   function draftStorageKey(practice) {
@@ -151,6 +184,14 @@
   }
 
   function appendPromptLines(card, item) {
+    if (item.image) {
+      var img = document.createElement("img");
+      img.className = "q-image";
+      img.src = item.image;
+      img.alt = "";
+      img.loading = "lazy";
+      card.appendChild(img);
+    }
     if (item.promptKo) {
       var ko = $("div", "q-ko");
       ko.style.whiteSpace = "pre-line";
@@ -178,13 +219,120 @@
     return card;
   }
 
-  function renderQuestionCard(item, idx) {
+  function renderMatchWidget(card, item, practiceId, matchStore) {
+    var stateKey = item.id;
+    if (!matchStore[stateKey]) {
+      matchStore[stateKey] = { selectedLeft: null, links: {} };
+    }
+    var st = matchStore[stateKey];
+    var rights = matchRightOrder(item, practiceId);
+    var lefts = (item.pairs || []).map(function (p) {
+      return p.left;
+    });
+    var wrap = $("div", "match-wrap");
+    wrap.setAttribute("data-match-id", item.id);
+    var cols = $("div", "match-cols");
+    var colL = $("div", "match-col match-col-left");
+    var colR = $("div", "match-col match-col-right");
+    colL.appendChild($("div", "match-col-title", "왼쪽"));
+    colR.appendChild($("div", "match-col-title", "오른쪽"));
+
+    function pairIndexForLeft(leftVal) {
+      if (!st.links[leftVal]) return 0;
+      for (var i = 0; i < lefts.length; i++) {
+        if (lefts[i] === leftVal) return i + 1;
+      }
+      return 0;
+    }
+
+    function refreshButtons() {
+      colL.querySelectorAll(".match-btn-left").forEach(function (btn) {
+        var lv = btn.getAttribute("data-value");
+        var badge = btn.querySelector(".match-badge");
+        var idx = pairIndexForLeft(lv);
+        btn.classList.toggle("match-selected", st.selectedLeft === lv);
+        btn.classList.toggle("match-linked", !!st.links[lv]);
+        if (badge) {
+          badge.textContent = idx ? String(idx) : "";
+          badge.style.display = idx ? "" : "none";
+        }
+      });
+      colR.querySelectorAll(".match-btn-right").forEach(function (btn) {
+        var rv = btn.getAttribute("data-value");
+        var used = false;
+        var badgeNum = 0;
+        Object.keys(st.links).forEach(function (lk) {
+          if (st.links[lk] === rv) {
+            used = true;
+            badgeNum = pairIndexForLeft(lk);
+          }
+        });
+        btn.classList.toggle("match-linked", used);
+        var badge = btn.querySelector(".match-badge");
+        if (badge) {
+          badge.textContent = badgeNum ? String(badgeNum) : "";
+          badge.style.display = badgeNum ? "" : "none";
+        }
+      });
+    }
+
+    lefts.forEach(function (lv) {
+      var btn = $("button", "match-btn match-btn-left");
+      btn.type = "button";
+      btn.setAttribute("data-value", lv);
+      btn.appendChild($("span", "match-badge", ""));
+      btn.appendChild($("span", "match-label", lv));
+      btn.onclick = function () {
+        if (st.links[lv]) {
+          delete st.links[lv];
+          st.selectedLeft = lv;
+        } else {
+          st.selectedLeft = lv;
+        }
+        refreshButtons();
+      };
+      colL.appendChild(btn);
+    });
+
+    rights.forEach(function (rv) {
+      var btn = $("button", "match-btn match-btn-right");
+      btn.type = "button";
+      btn.setAttribute("data-value", rv);
+      btn.appendChild($("span", "match-badge", ""));
+      btn.appendChild($("span", "match-label", rv));
+      btn.onclick = function () {
+        if (!st.selectedLeft) return;
+        var sl = st.selectedLeft;
+        Object.keys(st.links).forEach(function (lk) {
+          if (st.links[lk] === rv) delete st.links[lk];
+        });
+        st.links[sl] = rv;
+        st.selectedLeft = null;
+        refreshButtons();
+      };
+      colR.appendChild(btn);
+    });
+
+    cols.appendChild(colL);
+    cols.appendChild(colR);
+    wrap.appendChild(cols);
+    wrap.appendChild($("p", "match-hint", "왼쪽을 누른 다음 오른쪽을 눌러 연결하세요. 연결을 바꾸려면 왼쪽을 다시 누르세요."));
+    card.appendChild(wrap);
+    refreshButtons();
+  }
+
+  function renderQuestionCard(item, idx, practiceId, matchStore) {
     var card = $("div", "q-card");
     var head = $("div", "q-head");
     head.appendChild($("span", "q-num", itemDisplayLabel(item, idx)));
     appendModeChip(head, item.answerModeTag);
     card.appendChild(head);
     appendPromptLines(card, item);
+
+    if (item.type === "match") {
+      renderMatchWidget(card, item, practiceId || "", matchStore || {});
+      return card;
+    }
 
     if (item.type === "mc") {
       var opts = $("div", "mc-options");
@@ -502,6 +650,7 @@
     app.appendChild(timerEl);
 
     var form = $("form");
+    var matchStore = {};
     if (practice.wordBank && practice.wordBank.length) {
       var bank = $("div", "word-bank");
       practice.wordBank.forEach(function (w) {
@@ -521,7 +670,7 @@
         form.appendChild(renderExampleCard(item));
         return;
       }
-      form.appendChild(renderQuestionCard(item, idx));
+      form.appendChild(renderQuestionCard(item, idx, practiceId, matchStore));
     });
 
     var actions = $("div", "actions");
@@ -534,7 +683,7 @@
     function lockForm() {
       locked = true;
       submitBtn.disabled = true;
-      form.querySelectorAll("input, select, button").forEach(function (el) {
+      form.querySelectorAll("input, select, button, .match-btn").forEach(function (el) {
         el.disabled = true;
       });
       timerEl.classList.add("low");
@@ -544,7 +693,10 @@
     function collectResponses() {
       var responses = {};
       items.forEach(function (item) {
-        if (item.type === "mc") {
+        if (item.type === "match") {
+          var st = matchStore[item.id] || { links: {} };
+          responses[item.id] = { links: Object.assign({}, st.links) };
+        } else if (item.type === "mc") {
           var picked = form.querySelector('input[name="' + item.id + '"]:checked');
           responses[item.id] = { value: picked ? picked.value : "" };
         } else {
@@ -623,8 +775,24 @@
       }
     }
 
+    function matchComplete() {
+      for (var i = 0; i < items.length; i++) {
+        var it = items[i];
+        if (it.type !== "match") continue;
+        var st = matchStore[it.id] || { links: {} };
+        var need = (it.pairs || []).length;
+        var have = Object.keys(st.links).length;
+        if (have < need) return false;
+      }
+      return true;
+    }
+
     function doSubmit() {
       if (locked && form.dataset.submitted) return;
+      if (!matchComplete()) {
+        alert("짝 맞추기 문제에서 모든 왼쪽 항목을 연결해 주세요.");
+        return;
+      }
       form.dataset.submitted = "1";
       var responses = collectResponses();
       var outcome = engine.scorePractice(practice, responses, startedAt);
@@ -633,6 +801,10 @@
 
     form.onsubmit = function (e) {
       e.preventDefault();
+      if (!matchComplete()) {
+        alert("짝 맞추기 문제에서 모든 왼쪽 항목을 연결해 주세요.");
+        return;
+      }
       if (!locked) lockForm();
       doSubmit();
     };

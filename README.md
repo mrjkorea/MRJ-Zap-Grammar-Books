@@ -1,6 +1,6 @@
 # MRJ Zap Grammar Books
 
-Student typing practices for ZAP grammar books (**GreenZap 1–4**, **BlueZap 1–4**, and future titles).
+Student typing practices for ZAP grammar books (**GreenZap 1–4**, **BlueZap 1–4**, **RedZap 1–2**).
 
 Separate from [`mrj-grammar-app`](https://github.com/mrjkorea/mrj-grammar-app) (gold extract only — do not mix).
 
@@ -23,7 +23,9 @@ Static files are served from the **repository root** (`index.html`, `assets/`, `
 **GreenZap 1 Units 02–05** live under `data/green1/unit02/` … `unit05/`. Regenerate from `scripts/green1-build/u02.py` … `u05.py` (`python3 u0N.py` in that folder writes `data/green1/unit0N/`).
 
 - `sectionsVersion: 2` — bump when section layout or item ids change (clears mismatched in-progress drafts).
-- `sections[]` — per-section summary: `id`, `title`, `instructionKo`, `answerMode` (`choice` | `words` | `sentence`), `answerModeTag`, `itemCount`, `exampleCount`, `labels`, optional `mixedModes`.
+- `sections[]` — per-section summary: `id`, `title`, `instructionKo`, `answerMode` (`choice` | `words` | `sentence` | `match`), `answerModeTag`, `itemCount`, `exampleCount`, `labels`, optional `mixedModes`.
+- **`answerMode: "match"`** — `type: "match"`, `pairs: [{left, right}, …]`, `accept` as `left|right` strings. Right column is shuffled in the UI; each **pair** is one score point and one ClassroomMetrics row (`item_id` … `#1`, `#2`, …). See `docs/format/FORMAT-RED.md`.
+- **`image`** — optional `assets/img/...` path shown above the prompt (Red picture items).
 - `introKo` — one-line Korean summary on the practice start screen.
 - Every item: `section`, `sectionTitle`, `sectionInstructionKo`, `answerMode`, `answerModeTag`, `label` (book numbering: A1, B3, 18, 1-4, …), optional `noteKo`.
 - Book examples (answer printed in the book): `example: true`, `displayOnly: true`, `exampleAnswer` — shown as grey cards, **not graded**.
@@ -113,6 +115,12 @@ Deep link example: `#/p/zap-green-4/unit-01/walk1`
 
 **ZAP Green 1–4** full books are active in the index (build `20261009-gz34-full`).
 
+### RedZap 1 — Unit 01 (알파벳과 수 세기)
+
+**RedZap 1** catalog id **`zap-red-1`**, build **`20261011-red1-u01`**. Unit 01: **6 practices**, **127 graded items** (Walk uses **46 match pairs** for scoring). See `docs/format/red1-unit01.md`.
+
+Deep link: `#/p/zap-red-1/unit-01/walk`
+
 ## Student rules
 
 - Sign-in via shared [mrj-signin](https://github.com/mrjkorea/mrj-signin) (`data-mrj-app="mrj-zap-grammar-books"`).
@@ -171,6 +179,9 @@ node scripts/e2e-gz1-browser.js     # headless browser (needs: npm install playw
 node scripts/e2e-gz2-browser.js
 node scripts/e2e-gz3-browser.js
 node scripts/e2e-gz4-browser.js
+node scripts/smoke-match.js
+node scripts/smoke-red1-unit01.js
+node scripts/e2e-red1-u01-browser.js
 ```
 
 ## Results

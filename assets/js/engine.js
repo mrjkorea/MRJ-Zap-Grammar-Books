@@ -53,8 +53,35 @@
     return false;
   }
 
+  function matchPairsOf(item) {
+    if (item.pairs && item.pairs.length) return item.pairs;
+    return [];
+  }
+
+  function gradeMatchPair(item, response, pairIndex) {
+    var pairs = matchPairsOf(item);
+    if (pairIndex < 0 || pairIndex >= pairs.length) return false;
+    var expected = pairs[pairIndex];
+    var links = (response && response.links) || {};
+    var chosen = links[expected.left];
+    if (chosen == null || chosen === "") return false;
+    return N.matchAccept(chosen, [expected.right]);
+  }
+
+  function gradeMatchItem(item, response) {
+    var pairs = matchPairsOf(item);
+    if (!pairs.length) return false;
+    for (var i = 0; i < pairs.length; i++) {
+      if (!gradeMatchPair(item, response, i)) return false;
+    }
+    return true;
+  }
+
   function gradeItem(item, response) {
     var type = item.type;
+    if (type === "match") {
+      return gradeMatchItem(item, response);
+    }
     if (type === "mc") {
       var val = response.value;
       if (item.choices && item.choices.length) {
@@ -120,7 +147,53 @@
     var ids = validItemIds(practice);
     if (!questionRows || !questionRows.length) return [];
     return questionRows.filter(function (row) {
-      return row && ids[row.id];
+      if (!row || !row.id) return false;
+      if (ids[row.id]) return true;
+      var hash = String(row.id).indexOf("#");
+      if (hash > 0) {
+        var base = String(row.id).slice(0, hash);
+        return ids[base];
+      }
+      return false;
+    });
+  }
+
+  function scoringUnitsForItem(item, resp) {
+    if (item.type === "match") {
+      var pairs = matchPairsOf(item);
+      var units = [];
+      for (var pi = 0; pi < pairs.length; pi++) {
+        units.push({
+          id: item.id,
+          pairIndex: pi,
+          subId: item.id + "#" + (pi + 1),
+          correct: gradeMatchPair(item, resp, pi),
+        });
+      }
+      return units;
+    }
+    return [{ id: item.id, subId: item.id, correct: gradeItem(item, resp) }];
+  }
+
+  function postQuestionMetric(practice, metricItemId, correct, durationSeconds) {
+    if (!root.MRJ_SCORES) return;
+    var pid = practiceIdOf(practice);
+    var ctx = metricsContext(practice);
+    root.MRJ_SCORES.post({
+      program: PROGRAM,
+      source: SOURCE,
+      appName: ctx.appName,
+      bookTitle: ctx.bookTitle,
+      unitTitle: ctx.unitTitle,
+      itemId: itemMetricId(pid, metricItemId),
+      itemType: "question",
+      scoreValue: correct ? 1 : 0,
+      scoreMax: 1,
+      scorePct: correct ? 100 : 0,
+      correctness: correct ? "correct" : "incorrect",
+      completed: true,
+      durationSeconds: durationSeconds,
+      metadata: { exercise: pid, question: metricItemId },
     });
   }
 
@@ -128,26 +201,31 @@
     var pid = practiceIdOf(practice);
     var items = gradedItems(practice);
     var results = [];
+    var questionRows = [];
     var correct = 0;
+    var max = 0;
+    var duration = startedAt ? Math.round((Date.now() - startedAt) / 1000) : "";
     items.forEach(function (item) {
       var resp = responses[item.id] || {};
-      var ok = gradeItem(item, resp);
-      if (ok) correct++;
-      results.push({ id: item.id, correct: ok });
+      var units = scoringUnitsForItem(item, resp);
+      var itemOk = true;
+      units.forEach(function (u) {
+        max++;
+        if (u.correct) correct++;
+        else itemOk = false;
+        questionRows.push({
+          id: u.subId,
+          metricId: itemMetricId(pid, u.subId),
+          correct: u.correct,
+        });
+        if (item.type === "match") {
+          postQuestionMetric(practice, u.subId, u.correct, duration);
+        }
+      });
+      results.push({ id: item.id, correct: itemOk });
     });
-    var max = items.length;
     var pct = max ? Math.round((correct / max) * 100) : 0;
-    var duration = startedAt ? Math.round((Date.now() - startedAt) / 1000) : "";
-    var questionRows = filterQuestionRows(
-      practice,
-      results.map(function (r) {
-        return {
-          id: r.id,
-          metricId: itemMetricId(pid, r.id),
-          correct: r.correct,
-        };
-      })
-    );
+    questionRows = filterQuestionRows(practice, questionRows);
     var pack = packApi();
     if (pack && typeof pack.onPracticeScored === "function") {
       pack.onPracticeScored(
@@ -167,6 +245,9 @@
     PASS_PCT: PASS_PCT,
     RETRY_PCT: RETRY_PCT,
     gradeItem: gradeItem,
+    gradeMatchPair: gradeMatchPair,
+    gradeMatchItem: gradeMatchItem,
+    matchPairsOf: matchPairsOf,
     gradedItems: gradedItems,
     filterQuestionRows: filterQuestionRows,
     scorePractice: scorePractice,

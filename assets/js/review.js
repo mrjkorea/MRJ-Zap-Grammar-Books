@@ -129,6 +129,9 @@
   }
 
   function studentAnswerLines(item, response) {
+    if (item.type === "match") {
+      return [{ num: null, text: displayText(""), blankWrong: true }];
+    }
     if (item.type === "mc") {
       return [{ num: null, text: displayText(response.value), blankWrong: true }];
     }
@@ -183,6 +186,28 @@
       var r = byId[item.id];
       if (!r || r.correct) return;
       var resp = (responses && responses[item.id]) || {};
+      if (item.type === "match" && E && E.gradeMatchPair) {
+        var pairs = E.matchPairsOf ? E.matchPairsOf(item) : item.pairs || [];
+        pairs.forEach(function (p, pi) {
+          if (E.gradeMatchPair(item, resp, pi)) return;
+          var chosen = (resp.links && resp.links[p.left]) || "";
+          var summary = p.left + " → " + displayText(chosen);
+          rows.push({
+            id: item.id + "#" + (pi + 1),
+            label: itemDisplayLabel(item, idx) + " · " + (pi + 1),
+            section: item.section || "",
+            sectionTitle: sectionTitle(item, practice),
+            sectionInstructionKo: sectionInstructionKo(item, practice),
+            answerModeTag: answerModeTag(item, practice),
+            promptKo: (item.promptKo || "") + (item.promptKo ? "\n" : "") + p.left,
+            promptEn: item.promptEn || "",
+            noteKo: item.noteKo || "",
+            studentLines: [{ num: null, text: summary, blankWrong: true }],
+            studentSummary: summary,
+          });
+        });
+        return;
+      }
       rows.push({
         id: item.id,
         label: itemDisplayLabel(item, idx),

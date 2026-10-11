@@ -3,8 +3,8 @@
   "use strict";
 
   var BOOKS = [
-    { id: "zap-red-1", title: "ZAP Red 1", enabled: false },
-    { id: "zap-red-2", title: "ZAP Red 2", enabled: false },
+    { id: "zap-red-1", title: "ZAP Red 1", enabled: true, appName: "RedZap 1", bookTitle: "ZAP Red 1" },
+    { id: "zap-red-2", title: "ZAP Red 2", enabled: false, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
@@ -88,6 +88,12 @@
       { id: "unit-06", title: "Unit 06 — 부사", enabled: true },
       { id: "unit-07", title: "Unit 07 — 현재 진행 시제", enabled: true },
       { id: "unit-08", title: "Unit 08 — 전치사", enabled: true },
+    ],
+    "zap-red-1": [
+      { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
+    ],
+    "zap-red-2": [
+      { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4854,6 +4860,50 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green2/unit01/checkup.json",
         practiceId: "g2:u01:checkup",
+      },
+    ],
+    "zap-red-1:unit-01": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "알파벳 · 숫자 따라쓰기 · p. 12–13",
+        data: "data/red1/unit01/walk.json",
+        practiceId: "r1:u01:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "알파벳 · 모음 · 숫자 · p. 14–15",
+        data: "data/red1/unit01/run.json",
+        practiceId: "r1:u01:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "짝 맞는 글자 · 그림 · p. 16–17",
+        data: "data/red1/unit01/jump.json",
+        practiceId: "r1:u01:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "대·소문자 · 숫자 단어 · p. 18–19",
+        data: "data/red1/unit01/fly.json",
+        practiceId: "r1:u01:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 알파벳",
+        hint: "대·소문자 · p. 20",
+        data: "data/red1/unit01/quiz2.json",
+        practiceId: "r1:u01:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 숫자 단어",
+        hint: "영어 숫자 · p. 21",
+        data: "data/red1/unit01/quiz4.json",
+        practiceId: "r1:u01:quiz4",
       },
     ],
   };

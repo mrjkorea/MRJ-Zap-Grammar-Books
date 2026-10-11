@@ -1,0 +1,382 @@
+{
+  "practiceId": "r1:u01:walk",
+  "title": "Grammar Walk",
+  "subtitle": "알파벳 · 숫자 따라쓰기 (p. 12–13)",
+  "pages": "12–13",
+  "timerMinutes": 20,
+  "introKo": "Section A 4문항(대·소문자 짝 맞추기), Section B 3문항(숫자·영어 단어 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A — 알파벳",
+      "instructionKo": "다음 알파벳을 읽으며 대문자와 소문자를 따라 써 보세요. 화면에서 대문자와 소문자를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B — 숫자 단어",
+      "instructionKo": "다음 단어의 뜻을 생각하며 단어를 따라 써 보세요. 숫자와 영어 숫자 단어를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 읽으며 대문자와 소문자를 따라 써 보세요. 화면에서 대문자와 소문자를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "A",
+          "right": "a"
+        },
+        {
+          "left": "B",
+          "right": "b"
+        },
+        {
+          "left": "C",
+          "right": "c"
+        },
+        {
+          "left": "D",
+          "right": "d"
+        },
+        {
+          "left": "E",
+          "right": "e"
+        },
+        {
+          "left": "F",
+          "right": "f"
+        },
+        {
+          "left": "G",
+          "right": "g"
+        }
+      ],
+      "accept": [
+        "A|a",
+        "B|b",
+        "C|c",
+        "D|d",
+        "E|e",
+        "F|f",
+        "G|g"
+      ],
+      "promptKo": "알파벳 A–G"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 읽으며 대문자와 소문자를 따라 써 보세요. 화면에서 대문자와 소문자를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "H",
+          "right": "h"
+        },
+        {
+          "left": "I",
+          "right": "i"
+        },
+        {
+          "left": "J",
+          "right": "j"
+        },
+        {
+          "left": "K",
+          "right": "k"
+        },
+        {
+          "left": "L",
+          "right": "l"
+        },
+        {
+          "left": "M",
+          "right": "m"
+        },
+        {
+          "left": "N",
+          "right": "n"
+        }
+      ],
+      "accept": [
+        "H|h",
+        "I|i",
+        "J|j",
+        "K|k",
+        "L|l",
+        "M|m",
+        "N|n"
+      ],
+      "promptKo": "알파벳 H–N"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 읽으며 대문자와 소문자를 따라 써 보세요. 화면에서 대문자와 소문자를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A3",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "O",
+          "right": "o"
+        },
+        {
+          "left": "P",
+          "right": "p"
+        },
+        {
+          "left": "Q",
+          "right": "q"
+        },
+        {
+          "left": "R",
+          "right": "r"
+        },
+        {
+          "left": "S",
+          "right": "s"
+        },
+        {
+          "left": "T",
+          "right": "t"
+        },
+        {
+          "left": "U",
+          "right": "u"
+        }
+      ],
+      "accept": [
+        "O|o",
+        "P|p",
+        "Q|q",
+        "R|r",
+        "S|s",
+        "T|t",
+        "U|u"
+      ],
+      "promptKo": "알파벳 O–U"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 알파벳을 읽으며 대문자와 소문자를 따라 써 보세요. 화면에서 대문자와 소문자를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A4",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "V",
+          "right": "v"
+        },
+        {
+          "left": "W",
+          "right": "w"
+        },
+        {
+          "left": "X",
+          "right": "x"
+        },
+        {
+          "left": "Y",
+          "right": "y"
+        },
+        {
+          "left": "Z",
+          "right": "z"
+        }
+      ],
+      "accept": [
+        "V|v",
+        "W|w",
+        "X|x",
+        "Y|y",
+        "Z|z"
+      ],
+      "promptKo": "알파벳 V–Z"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 단어의 뜻을 생각하며 단어를 따라 써 보세요. 숫자와 영어 숫자 단어를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1",
+          "right": "one"
+        },
+        {
+          "left": "2",
+          "right": "two"
+        },
+        {
+          "left": "3",
+          "right": "three"
+        },
+        {
+          "left": "4",
+          "right": "four"
+        },
+        {
+          "left": "5",
+          "right": "five"
+        },
+        {
+          "left": "6",
+          "right": "six"
+        },
+        {
+          "left": "7",
+          "right": "seven"
+        }
+      ],
+      "accept": [
+        "1|one",
+        "2|two",
+        "3|three",
+        "4|four",
+        "5|five",
+        "6|six",
+        "7|seven"
+      ],
+      "promptKo": "1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 단어의 뜻을 생각하며 단어를 따라 써 보세요. 숫자와 영어 숫자 단어를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8",
+          "right": "eight"
+        },
+        {
+          "left": "9",
+          "right": "nine"
+        },
+        {
+          "left": "10",
+          "right": "ten"
+        },
+        {
+          "left": "11",
+          "right": "eleven"
+        },
+        {
+          "left": "12",
+          "right": "twelve"
+        },
+        {
+          "left": "13",
+          "right": "thirteen"
+        },
+        {
+          "left": "14",
+          "right": "fourteen"
+        }
+      ],
+      "accept": [
+        "8|eight",
+        "9|nine",
+        "10|ten",
+        "11|eleven",
+        "12|twelve",
+        "13|thirteen",
+        "14|fourteen"
+      ],
+      "promptKo": "8–14"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 단어의 뜻을 생각하며 단어를 따라 써 보세요. 숫자와 영어 숫자 단어를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B3",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "15",
+          "right": "fifteen"
+        },
+        {
+          "left": "16",
+          "right": "sixteen"
+        },
+        {
+          "left": "17",
+          "right": "seventeen"
+        },
+        {
+          "left": "18",
+          "right": "eighteen"
+        },
+        {
+          "left": "19",
+          "right": "nineteen"
+        },
+        {
+          "left": "20",
+          "right": "twenty"
+        }
+      ],
+      "accept": [
+        "15|fifteen",
+        "16|sixteen",
+        "17|seventeen",
+        "18|eighteen",
+        "19|nineteen",
+        "20|twenty"
+      ],
+      "promptKo": "15–20"
+    }
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 알파벳과 수 세기",
+  "sectionsVersion": 1
+}
