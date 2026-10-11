@@ -4,7 +4,7 @@
 
   var BOOKS = [
     { id: "zap-red-1", title: "ZAP Red 1", enabled: true, appName: "RedZap 1", bookTitle: "ZAP Red 1" },
-    { id: "zap-red-2", title: "ZAP Red 2", enabled: false, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
+    { id: "zap-red-2", title: "ZAP Red 2", enabled: true, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
@@ -94,6 +94,7 @@
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
+      { id: "unit-06", title: "Unit 06 — 의문사 (2)", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4904,6 +4905,57 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-2:unit-06": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "what+명사 · how+형용사 대화 · p. 90–91",
+        data: "data/red2/unit06/walk.json",
+        practiceId: "r2:u06:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "what/how 찾기 · p. 92–93",
+        data: "data/red2/unit06/run.json",
+        practiceId: "r2:u06:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "괄호 고르기 · p. 94–95",
+        data: "data/red2/unit06/jump.json",
+        practiceId: "r2:u06:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "대화 빈칸 · p. 96–97",
+        data: "data/red2/unit06/fly.json",
+        practiceId: "r2:u06:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — what+명사 표",
+        hint: "표 빈칸 · p. 98",
+        data: "data/red2/unit06/quiz2.json",
+        practiceId: "r2:u06:quiz2",
+      },
+      {
+        slug: "quiz3",
+        title: "QUIZ 3 — 요일 어휘",
+        hint: "요일 뜻 · p. 98",
+        data: "data/red2/unit06/quiz3.json",
+        practiceId: "r2:u06:quiz3",
+      },
+      {
+        slug: "quiz5",
+        title: "QUIZ 5 — how+형용사 표",
+        hint: "표 빈칸 · p. 99",
+        data: "data/red2/unit06/quiz5.json",
+        practiceId: "r2:u06:quiz5",
       },
     ],
   };

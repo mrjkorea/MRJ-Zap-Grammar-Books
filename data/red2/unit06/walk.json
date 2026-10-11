@@ -1,0 +1,199 @@
+{
+  "practiceId": "r2:u06:walk",
+  "title": "Grammar Walk",
+  "subtitle": "what+명사 · how+형용사 대화 (p. 90–91)",
+  "pages": "90–91",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(대화 짝 맞추기 7+3쌍), Section B 2문항(대화 짝 맞추기 7+3쌍)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1. A: What time is it now?",
+          "right": "B: It's one o'clock."
+        },
+        {
+          "left": "2. A: What time is it now?",
+          "right": "B: It's nine o'clock."
+        },
+        {
+          "left": "3. A: What time is it?",
+          "right": "B: It's three o'clock."
+        },
+        {
+          "left": "4. A: What day is it today?",
+          "right": "B: It's Tuesday."
+        },
+        {
+          "left": "5. A: What day is it today?",
+          "right": "B: It's Thursday."
+        },
+        {
+          "left": "6. A: What day is it today?",
+          "right": "B: It's Friday."
+        },
+        {
+          "left": "7. A: What color is this?",
+          "right": "B: It's black."
+        }
+      ],
+      "accept": [
+        "1. A: What time is it now?|B: It's one o'clock.",
+        "2. A: What time is it now?|B: It's nine o'clock.",
+        "3. A: What time is it?|B: It's three o'clock.",
+        "4. A: What day is it today?|B: It's Tuesday.",
+        "5. A: What day is it today?|B: It's Thursday.",
+        "6. A: What day is it today?|B: It's Friday.",
+        "7. A: What color is this?|B: It's black."
+      ],
+      "promptKo": "대화 1–7"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8. A: What color is the cap?",
+          "right": "B: It's yellow."
+        },
+        {
+          "left": "9. A: What color are your boots?",
+          "right": "B: They're blue."
+        },
+        {
+          "left": "10. A: What color is it?",
+          "right": "B: It's pink."
+        }
+      ],
+      "accept": [
+        "8. A: What color is the cap?|B: It's yellow.",
+        "9. A: What color are your boots?|B: They're blue.",
+        "10. A: What color is it?|B: It's pink."
+      ],
+      "promptKo": "대화 8–10"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "1. A: How old is he?",
+          "right": "B: Eight years old."
+        },
+        {
+          "left": "2. A: How old are they?",
+          "right": "B: Four years old."
+        },
+        {
+          "left": "3. A: How old is your sister?",
+          "right": "B: Ten years old."
+        },
+        {
+          "left": "4. A: How much is the pen?",
+          "right": "B: Six hundred won."
+        },
+        {
+          "left": "5. A: How much is it?",
+          "right": "B: One hundred won."
+        },
+        {
+          "left": "6. A: How much are they?",
+          "right": "B: Two thousand won."
+        },
+        {
+          "left": "7. A: How many dogs do you have?",
+          "right": "B: Two."
+        }
+      ],
+      "accept": [
+        "1. A: How old is he?|B: Eight years old.",
+        "2. A: How old are they?|B: Four years old.",
+        "3. A: How old is your sister?|B: Ten years old.",
+        "4. A: How much is the pen?|B: Six hundred won.",
+        "5. A: How much is it?|B: One hundred won.",
+        "6. A: How much are they?|B: Two thousand won.",
+        "7. A: How many dogs do you have?|B: Two."
+      ],
+      "promptKo": "대화 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "8. A: How many flowers does Bill have?",
+          "right": "B: Four."
+        },
+        {
+          "left": "9. A: How many balls does he have?",
+          "right": "B: Three."
+        },
+        {
+          "left": "10. A: How many eggs do I have?",
+          "right": "B: Twenty."
+        }
+      ],
+      "accept": [
+        "8. A: How many flowers does Bill have?|B: Four.",
+        "9. A: How many balls does he have?|B: Three.",
+        "10. A: How many eggs do I have?|B: Twenty."
+      ],
+      "promptKo": "대화 8–10"
+    }
+  ],
+  "sectionsVersion": 1
+}
