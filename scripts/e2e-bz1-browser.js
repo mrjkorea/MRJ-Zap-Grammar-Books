@@ -3,6 +3,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const { chromium } = require("playwright");
+const { setupE2eContext } = require("./e2e-scores-mock");
 
 const REPO = path.join(__dirname, "..");
 const PORT = 8768;
@@ -204,32 +205,7 @@ async function runPractice(context, bookId, unitId, ex, mode) {
   const browser = await chromium.launch({ headless: true });
   let context = await browser.newContext();
   await context.route(/mrj-signin/, (route) => route.abort());
-  await context.addInitScript(() => {
-    try {
-      localStorage.clear();
-    } catch (e) {}
-    window.MRJ_AUTH = {
-      student: () => "e2e@test.local",
-      noteScore: () => Promise.resolve(),
-      loadPack: () => Promise.resolve({ ok: true, json: null }),
-      savePack: () => Promise.resolve({ ok: true }),
-      packReady: () => true,
-    };
-    window.__e2ePosts = [];
-    window.MRJ_SCORES = {
-      post: (p) => {
-        window.__e2ePosts.push(p);
-        return Promise.resolve({ status: "stub" });
-      },
-    };
-    const fire = () => {
-      document.dispatchEvent(new Event("mrj-auth-ready"));
-      const gate = document.getElementById("mrj-auth-gate");
-      if (gate) gate.remove();
-    };
-    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => setTimeout(fire, 50));
-    else setTimeout(fire, 50);
-  });
+  await setupE2eContext(context);
 
   async function withRetry(label, fn) {
     let lastErr;
@@ -251,32 +227,7 @@ async function runPractice(context, bookId, unitId, ex, mode) {
     await context.close();
     context = await browser.newContext();
     await context.route(/mrj-signin/, (route) => route.abort());
-    await context.addInitScript(() => {
-      try {
-        localStorage.clear();
-      } catch (e) {}
-      window.MRJ_AUTH = {
-        student: () => "e2e@test.local",
-        noteScore: () => Promise.resolve(),
-        loadPack: () => Promise.resolve({ ok: true, json: null }),
-        savePack: () => Promise.resolve({ ok: true }),
-        packReady: () => true,
-      };
-      window.__e2ePosts = [];
-      window.MRJ_SCORES = {
-        post: (p) => {
-          window.__e2ePosts.push(p);
-          return Promise.resolve({ status: "stub" });
-        },
-      };
-      const fire = () => {
-        document.dispatchEvent(new Event("mrj-auth-ready"));
-        const gate = document.getElementById("mrj-auth-gate");
-        if (gate) gate.remove();
-      };
-      if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => setTimeout(fire, 50));
-      else setTimeout(fire, 50);
-    });
+    await setupE2eContext(context);
     practicesSinceCtx = 0;
   }
   for (const unit of units) {

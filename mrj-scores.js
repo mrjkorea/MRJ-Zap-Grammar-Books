@@ -30,10 +30,15 @@
     );
   }
 
-  function signedInStudent() {
+  function idKey(s) {
+    return String(s == null ? "" : s).trim().toLowerCase().replace(/\s+/g, " ");
+  }
+
+  function signedIn() {
     try {
-      if (!root.MRJ_AUTH || typeof root.MRJ_AUTH.student !== "function") return "";
-      return String(root.MRJ_AUTH.student() || "").trim();
+      return root.MRJ_AUTH && root.MRJ_AUTH.student
+        ? String(root.MRJ_AUTH.student() || "").trim()
+        : "";
     } catch (e) {
       return "";
     }
@@ -42,7 +47,7 @@
   /* One finished item -> one row in ClassroomMetrics. */
   function post(opts) {
     opts = opts || {};
-    var student = signedInStudent();
+    var student = signedIn() || String(opts.student || "").trim();
     if (!student) return Promise.resolve({ status: "skipped", error: "no student" });
 
     var itemId = String(opts.itemId || uid("item"));
@@ -57,11 +62,12 @@
     var scoreMax = typeof opts.scoreMax === "number" ? opts.scoreMax : "";
     var program = opts.program || "unknown";
     var whenDate = localDate(when);
+    var key = idKey(student);
 
     var body = {
-      student_email: student.indexOf("@") > 0 ? student : "unknown",
+      student_email: student.indexOf("@") > 0 ? student : key,
       student_name: student,
-      session_id: [program, student || "anon", whenDate].join("-"),
+      session_id: [program, key, whenDate].join("-"),
       events: [
         {
           event_id: opts.eventId || uid(program),
@@ -80,6 +86,8 @@
           completed: opts.completed !== false,
           duration_seconds: opts.durationSeconds || "",
           local_date: whenDate,
+          identity_method: "mrj_signin",
+          identity_confidence: "high",
           metadata_json: JSON.stringify(opts.metadata || {}),
         },
       ],
@@ -106,7 +114,11 @@
         return { status: "queued", error: String(err && err.message) };
       });
 
-    if (root.MRJ_AUTH && typeof root.MRJ_AUTH.noteScore === "function") {
+    if (
+      opts.itemType !== "question" &&
+      root.MRJ_AUTH &&
+      typeof root.MRJ_AUTH.noteScore === "function"
+    ) {
       try {
         root.MRJ_AUTH.noteScore({
           program: program,
@@ -173,4 +185,4 @@
       flush();
     });
   }
-})(window);
+})(typeof window !== "undefined" ? window : globalThis);
