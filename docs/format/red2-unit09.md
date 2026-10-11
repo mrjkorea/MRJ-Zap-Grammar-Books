@@ -38,8 +38,9 @@ Printed pages **136–149** (PDF **137–150**). **Excluded:** PDF p.151 (Unit 1
 
 ## Uncertain / notes
 
-- QUIZ table blanks **2** and **5** expect the label **동사원형** (verb base form), per the printed table headers—not an example English verb.
-- Walk match uses English fragments (no Korean on the Walk pages); pairs follow the traced can/cannot chunks and Q/A lines in book order.
+- QUIZ 2 table blanks **2** and **5** expect the label **동사원형** (printed table cells on p.148), not an English example verb.
+- Walk Section A: **Korean meaning ↔ full English sentence** (standard Korean invented; not printed on pp.140–141). Walk Section B: English question ↔ English answer (book order).
+- Run Section A: MC choices are the sentence’s own words in order (no invented *could* distractor).
 
 ## Generator
 

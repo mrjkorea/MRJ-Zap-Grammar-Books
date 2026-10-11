@@ -79,20 +79,21 @@ function fillItem(id, section, label, prompt, accept, extra = {}) {
 
 function writeWalk() {
   const instrA =
-    "다음 문장의 뜻을 생각하며 따라 써 보세요. 문장에서 따라 쓸 can/cannot/can't와 동사원형 구를 짝지어 연결하세요.";
+    "다음 문장의 뜻을 생각하며 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.";
   const instrB =
     "다음 대화의 뜻을 생각하며 따라 써 보세요. 물음과 대답을 짝지어 연결하세요.";
+  // Korean meanings: plain standard Korean (not printed on Walk pages; paired with full English sentences).
   const walkA = [
-    ["1. I … the piano.", "can play"],
-    ["2. You … very fast.", "can walk"],
-    ["3. He … the car.", "can fix"],
-    ["4. It … fast.", "can run"],
-    ["5. We … well.", "can skate"],
-    ["6. A duck …", "cannot fly"],
-    ["7. We … English.", "cannot read"],
-    ["8. Britney …", "cannot ski"],
-    ["9. Jack … rope.", "can't jump"],
-    ["10. My friends … the mountain.", "can't climb"],
+    ["나는 피아노를 칠 수 있다.", "I can play the piano."],
+    ["너는 아주 빨리 걸을 수 있다.", "You can walk very fast."],
+    ["그는 차를 고칠 수 있다.", "He can fix the car."],
+    ["그것은 빨리 달릴 수 있다.", "It can run fast."],
+    ["우리는 스케이트를 잘 탈 수 있다.", "We can skate well."],
+    ["오리는 날 수 없다.", "A duck cannot fly."],
+    ["우리는 영어를 읽을 수 없다.", "We cannot read English."],
+    ["브리트니는 스키를 탈 수 없다.", "Britney cannot ski."],
+    ["잭은 줄넘기를 할 수 없다.", "Jack can't jump rope."],
+    ["내 친구들은 산에 올라갈 수 없다.", "My friends can't climb the mountain."],
   ];
   const walkB = [
     ["Can you play golf?", "Yes, I can."],
@@ -108,10 +109,12 @@ function writeWalk() {
   ];
   const items = [];
   chunk(walkA, 7).forEach((g, i) => {
+    const start = i * 7 + 1;
+    const end = start + g.length - 1;
     items.push(
       matchItem(`a${String(i + 1).padStart(2, "0")}`, "A", `A${i + 1}`, g.map(([l, r]) => ({ left: l, right: r })), {
         sectionInstructionKo: instrA,
-        promptKo: `문장 ${g[0][0].split(".")[0]}–${g[g.length - 1][0].split(".")[0]}`,
+        promptKo: `문장 ${start}–${end}`,
       })
     );
   });
@@ -163,11 +166,11 @@ function writeRun() {
     "다음 문장에서 can과 cannot 또는 can't를 찾아 동그라미 하세요. 동그라미 칠 말을 골라 누르세요.";
   const instrB =
     "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요.";
-  const choicesForModal = (a) => {
-    if (a === "cannot") return ["cannot", "can", "could"];
-    if (a === "can't") return ["can't", "can", "could"];
-    return ["can", "cannot", "could"];
-  };
+  const choicesFromSentence = (sentence) =>
+    sentence
+      .replace(/[.?!]/g, "")
+      .trim()
+      .split(/\s+/);
   const runA = [
     { n: 1, s: "I can skate well.", a: "can", ex: true },
     { n: 2, s: "You can throw a ball.", a: "can" },
@@ -195,7 +198,7 @@ function writeRun() {
   const items = [];
   runA.forEach((row, i) => {
     items.push(
-      mcItem(`a${String(i + 1).padStart(2, "0")}`, "A", String(row.n), row.s, choicesForModal(row.a), row.a, {
+      mcItem(`a${String(i + 1).padStart(2, "0")}`, "A", String(row.n), row.s, choicesFromSentence(row.s), row.a, {
         sectionInstructionKo: instrA,
         ...(row.ex ? { example: true, displayOnly: true, exampleAnswer: row.a } : {}),
       })
@@ -456,15 +459,15 @@ function writeQuiz2() {
     "다음 표의 빈칸에 알맞은 말을 쓰세요. 빈칸 번호에 맞는 말만 한 칸에 쓰세요.";
   const rows = [
     ["1", "can 긍정문 — 주어 I", "can"],
-    ["2", "can 긍정문 — 동사 칸(복수 주어)", "동사원형"],
+    ["2", "can 긍정문 — You/We/They 행(동사 칸)", ["동사원형", "동사 원형"]],
     ["3", "can 긍정문 — 주어 He/She/It", "can"],
     ["4", "can 부정문 — cannot (= ?)", "can't"],
-    ["5", "can 부정문 — 동사 칸(주어 I)", "동사원형"],
+    ["5", "can 부정문 — 주어 I 행(동사 칸)", ["동사원형", "동사 원형"]],
     ["6", "can 부정문 — You/We/They", "cannot"],
     ["7", "can 부정문 — cannot (= ?)", "can't"],
   ];
   const items = rows.map(([label, promptKo, ans], i) =>
-    fillItem(`q${String(i + 1).padStart(2, "0")}`, "A", label, `표 빈칸 ${label}`, [ans], {
+    fillItem(`q${String(i + 1).padStart(2, "0")}`, "A", label, `표 빈칸 ${label}`, Array.isArray(ans) ? ans : [ans], {
       sectionInstructionKo: instr,
       promptKo,
       blanks: 1,
