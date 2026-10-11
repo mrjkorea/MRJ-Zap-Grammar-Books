@@ -4911,7 +4911,7 @@
       {
         slug: "walk",
         title: "Grammar Walk",
-        hint: "부정문 · 대화 따라쓰기 · p. 154–155",
+        hint: "한국어 뜻↔영어 문장 · 대화 · p. 154–155",
         data: "data/red1/unit10/walk.json",
         practiceId: "r1:u10:walk",
       },

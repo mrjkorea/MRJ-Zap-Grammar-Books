@@ -92,11 +92,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "These are zebras. → These ___ zebras.",
-      "blanks": 1,
+      "promptEn": "These are zebras. → These ___ ___ zebras.",
+      "blanks": 2,
       "accept": [
-        "are not",
-        "aren't"
+        "are|not",
+        "are not"
       ],
       "promptKo": "These are zebras."
     },
@@ -109,11 +109,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "Those are monkeys. → Those ___ monkeys.",
-      "blanks": 1,
+      "promptEn": "Those are monkeys. → Those ___ ___ monkeys.",
+      "blanks": 2,
       "accept": [
-        "are not",
-        "aren't"
+        "are|not",
+        "are not"
       ],
       "promptKo": "Those are monkeys."
     },
@@ -197,10 +197,10 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A9",
       "type": "fill",
-      "promptEn": "This is her belt. → This ___ ___ her belt.",
-      "blanks": 2,
+      "promptEn": "This is her belt. → This ___ her belt.",
+      "blanks": 1,
       "accept": [
-        "is|not",
+        "isn't",
         "is not"
       ],
       "promptKo": "This is her belt."
@@ -383,5 +383,11 @@
         "they aren't"
       ]
     }
-  ]
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-10",
+  "unitTitle": "Unit 10 — be동사의 부정문과 의문문 (2)",
+  "sectionsVersion": 2
 }

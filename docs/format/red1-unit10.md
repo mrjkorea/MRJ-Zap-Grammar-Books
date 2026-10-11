@@ -24,7 +24,7 @@ Printed pages **150–163** (PDF **151–164**). Skipped: comics (p.150–151), 
 
 | Pages | Section | Book activity | App mode |
 |-------|---------|---------------|----------|
-| Walk A | trace negative sentences | **match** (trace chunk ↔ rest) |
+| Walk A | trace negative sentences | **match** (Korean meaning ↔ English sentence) |
 | Walk B | trace Q&A dialogues | **match** (A question ↔ B answer) |
 | Run A | circle be+not | **choice** (pick the circled phrase) |
 | Run B | it / they | **choice** |
@@ -59,7 +59,7 @@ Printed pages **150–163** (PDF **151–164**). Skipped: comics (p.150–151), 
 
 ## Uncertain / judgment calls
 
-- **Walk trace**: No Korean glosses on the page; match uses **gray trace portion ↔ black remainder** (A) and **question ↔ answer** (B), not invented Korean.
+- **Walk A**: No Korean glosses on the page; match uses **plain standard Korean meaning ↔ full English sentence** (author glosses; noted in audit). **Walk B**: **question ↔ answer** as in the book.
 - **Run A “circle”**: Implemented as **choose the be+not fragment** (same gradable target as circling).
 - **QUIZ 2**: First table row (This…) is complete in the book → not graded; three numbered blanks in the book map to items 1–3.
 - **Fly A item 6**: Book uses contraction **isn't**; **is not** also accepted.

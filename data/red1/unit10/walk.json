@@ -4,12 +4,12 @@
   "subtitle": "부정문 · 의문문 따라쓰기 (p. 154–155)",
   "pages": "154–155",
   "timerMinutes": 20,
-  "introKo": "Section A 2문항(부정문 짝 맞추기 10쌍), B 2문항(대화 짝 맞추기 10쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "introKo": "Section A 2문항(한국어 뜻↔영어 문장 10쌍), B 2문항(대화 짝 맞추기 10쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 회색 따라쓰기 부분과 나머지 문장을 짝지어 연결하세요.",
+      "instructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "itemCount": 2,
@@ -38,49 +38,49 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 회색 따라쓰기 부분과 나머지 문장을 짝지어 연결하세요.",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "A1",
       "type": "match",
       "pairs": [
         {
-          "left": "an egg.",
-          "right": "This is not"
+          "left": "이것은 달걀이 아니다.",
+          "right": "This is not an egg."
         },
         {
-          "left": "a bird.",
-          "right": "That is not"
+          "left": "저것은 새가 아니다.",
+          "right": "That is not a bird."
         },
         {
-          "left": "tigers.",
-          "right": "These are not"
+          "left": "이것들은 호랑이가 아니다.",
+          "right": "These are not tigers."
         },
         {
-          "left": "rabbits.",
-          "right": "Those are not"
+          "left": "저것들은 토끼가 아니다.",
+          "right": "Those are not rabbits."
         },
         {
-          "left": "an eraser.",
-          "right": "This isn't"
+          "left": "이것은 지우개가 아니다.",
+          "right": "This isn't an eraser."
         },
         {
-          "left": "a potato.",
-          "right": "That isn't"
+          "left": "저것은 감자가 아니다.",
+          "right": "That isn't a potato."
         },
         {
-          "left": "tomatoes.",
-          "right": "These aren't"
+          "left": "이것들은 토마토가 아니다.",
+          "right": "These aren't tomatoes."
         }
       ],
       "accept": [
-        "an egg.|This is not",
-        "a bird.|That is not",
-        "tigers.|These are not",
-        "rabbits.|Those are not",
-        "an eraser.|This isn't",
-        "a potato.|That isn't",
-        "tomatoes.|These aren't"
+        "이것은 달걀이 아니다.|This is not an egg.",
+        "저것은 새가 아니다.|That is not a bird.",
+        "이것들은 호랑이가 아니다.|These are not tigers.",
+        "저것들은 토끼가 아니다.|Those are not rabbits.",
+        "이것은 지우개가 아니다.|This isn't an eraser.",
+        "저것은 감자가 아니다.|That isn't a potato.",
+        "이것들은 토마토가 아니다.|These aren't tomatoes."
       ],
       "promptKo": "부정문 1–7"
     },
@@ -88,29 +88,29 @@
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 회색 따라쓰기 부분과 나머지 문장을 짝지어 연결하세요.",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "A2",
       "type": "match",
       "pairs": [
         {
-          "left": "onions.",
-          "right": "Those aren't"
+          "left": "저것들은 양파가 아니다.",
+          "right": "Those aren't onions."
         },
         {
-          "left": "my coat.",
-          "right": "This is not"
+          "left": "이것은 내 코트가 아니다.",
+          "right": "This is not my coat."
         },
         {
-          "left": "my sweaters.",
-          "right": "Those are not"
+          "left": "저것들은 내 스웨터가 아니다.",
+          "right": "Those are not my sweaters."
         }
       ],
       "accept": [
-        "onions.|Those aren't",
-        "my coat.|This is not",
-        "my sweaters.|Those are not"
+        "저것들은 양파가 아니다.|Those aren't onions.",
+        "이것은 내 코트가 아니다.|This is not my coat.",
+        "저것들은 내 스웨터가 아니다.|Those are not my sweaters."
       ],
       "promptKo": "부정문 8–10"
     },
@@ -194,5 +194,11 @@
       ],
       "promptKo": "대화 8–10"
     }
-  ]
+  ],
+  "bookId": "zap-red-1",
+  "bookTitle": "ZAP Red 1",
+  "appName": "RedZap 1",
+  "unitId": "unit-10",
+  "unitTitle": "Unit 10 — be동사의 부정문과 의문문 (2)",
+  "sectionsVersion": 2
 }

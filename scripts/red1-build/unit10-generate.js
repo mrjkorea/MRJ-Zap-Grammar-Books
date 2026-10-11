@@ -5,10 +5,19 @@ const path = require("path");
 
 const OUT = path.join(__dirname, "../../data/red1/unit10");
 
+const META = {
+  bookId: "zap-red-1",
+  bookTitle: "ZAP Red 1",
+  appName: "RedZap 1",
+  unitId: "unit-10",
+  unitTitle: "Unit 10 — be동사의 부정문과 의문문 (2)",
+  sectionsVersion: 2,
+};
+
 function write(name, data) {
   fs.mkdirSync(OUT, { recursive: true });
   const p = path.join(OUT, name);
-  fs.writeFileSync(p, JSON.stringify(data, null, 2) + "\n");
+  fs.writeFileSync(p, JSON.stringify({ ...data, ...META }, null, 2) + "\n");
   console.log("wrote", p);
 }
 
@@ -63,20 +72,20 @@ function matchItem(id, section, label, pairs, promptKo, sectionInstructionKo) {
   };
 }
 
-// —— walk ——
+// —— walk —— (Korean meaning ↔ full English sentence; Korean not printed on book — standard glosses)
 const walkA1 = [
-  ["an egg.", "This is not"],
-  ["a bird.", "That is not"],
-  ["tigers.", "These are not"],
-  ["rabbits.", "Those are not"],
-  ["an eraser.", "This isn't"],
-  ["a potato.", "That isn't"],
-  ["tomatoes.", "These aren't"],
+  ["이것은 달걀이 아니다.", "This is not an egg."],
+  ["저것은 새가 아니다.", "That is not a bird."],
+  ["이것들은 호랑이가 아니다.", "These are not tigers."],
+  ["저것들은 토끼가 아니다.", "Those are not rabbits."],
+  ["이것은 지우개가 아니다.", "This isn't an eraser."],
+  ["저것은 감자가 아니다.", "That isn't a potato."],
+  ["이것들은 토마토가 아니다.", "These aren't tomatoes."],
 ];
 const walkA2 = [
-  ["onions.", "Those aren't"],
-  ["my coat.", "This is not"],
-  ["my sweaters.", "Those are not"],
+  ["저것들은 양파가 아니다.", "Those aren't onions."],
+  ["이것은 내 코트가 아니다.", "This is not my coat."],
+  ["저것들은 내 스웨터가 아니다.", "Those are not my sweaters."],
 ];
 
 const walkB1 = [
@@ -95,7 +104,7 @@ const walkB2 = [
 ];
 
 const walkInstA =
-  "다음 문장의 뜻을 생각하며 따라 써 보세요. 회색 따라쓰기 부분과 나머지 문장을 짝지어 연결하세요.";
+  "다음 문장의 뜻을 생각하며 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.";
 const walkInstB =
   "다음 대화의 뜻을 생각하며 따라 써 보세요. 질문(A)과 대답(B)을 짝지어 연결하세요.";
 
@@ -106,7 +115,7 @@ write("walk.json", {
   pages: "154–155",
   timerMinutes: 20,
   introKo:
-    "Section A 2문항(부정문 짝 맞추기 10쌍), B 2문항(대화 짝 맞추기 10쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+    "Section A 2문항(한국어 뜻↔영어 문장 10쌍), B 2문항(대화 짝 맞추기 10쌍)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
   sections: [
     {
       id: "A",
@@ -171,17 +180,18 @@ const runInstA =
 const runInstB =
   "다음 대화의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.";
 
+// MC choices: phrases from the sentence only (book order), never invented be+not forms.
 const runAData = [
   { ex: true, s: "This is not a tomato.", ans: "is not", ch: ["This", "is not", "a tomato", "is"] },
-  { s: "That is not a watermelon.", ans: "is not", ch: ["That", "is not", "a watermelon", "are not"] },
-  { s: "These are not bananas.", ans: "are not", ch: ["These", "are not", "bananas", "is not"] },
-  { s: "Those are not potatoes.", ans: "are not", ch: ["Those", "are not", "potatoes", "isn't"] },
-  { s: "This isn't my backpack.", ans: "isn't", ch: ["This", "isn't", "my backpack", "aren't"] },
-  { s: "That isn't my piano.", ans: "isn't", ch: ["That", "isn't", "my piano", "is not"] },
-  { s: "These aren't my books.", ans: "aren't", ch: ["These", "aren't", "my books", "isn't"] },
-  { s: "Those aren't my bats.", ans: "aren't", ch: ["Those", "aren't", "my bats", "are not"] },
-  { s: "That isn't his bike.", ans: "isn't", ch: ["That", "isn't", "his bike", "aren't"] },
-  { s: "This isn't her car.", ans: "isn't", ch: ["This", "isn't", "her car", "is not"] },
+  { s: "That is not a watermelon.", ans: "is not", ch: ["That", "is not", "a watermelon", "is"] },
+  { s: "These are not bananas.", ans: "are not", ch: ["These", "are not", "bananas", "are"] },
+  { s: "Those are not potatoes.", ans: "are not", ch: ["Those", "are not", "potatoes", "are"] },
+  { s: "This isn't my backpack.", ans: "isn't", ch: ["This", "isn't", "my backpack", "is"] },
+  { s: "That isn't my piano.", ans: "isn't", ch: ["That", "isn't", "my piano", "is"] },
+  { s: "These aren't my books.", ans: "aren't", ch: ["These", "aren't", "my books", "are"] },
+  { s: "Those aren't my bats.", ans: "aren't", ch: ["Those", "aren't", "my bats", "are"] },
+  { s: "That isn't his bike.", ans: "isn't", ch: ["That", "isn't", "his bike", "is"] },
+  { s: "This isn't her car.", ans: "isn't", ch: ["This", "isn't", "her car", "is"] },
 ];
 
 const runBData = [
@@ -345,13 +355,13 @@ const flyInstB = "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸�
 const flyA = [
   { ex: true, from: "This is a clock.", blanks: 2, accept: ["is|not", "is not"], prompt: "This is a clock. → This ___ ___ a clock." },
   { from: "That is a piano.", blanks: 2, accept: ["is|not", "is not"], prompt: "That is a piano. → That ___ ___ a piano." },
-  { from: "These are zebras.", blanks: 1, accept: ["are not", "aren't"], prompt: "These are zebras. → These ___ zebras." },
-  { from: "Those are monkeys.", blanks: 1, accept: ["are not", "aren't"], prompt: "Those are monkeys. → Those ___ monkeys." },
+  { from: "These are zebras.", blanks: 2, accept: ["are|not", "are not"], prompt: "These are zebras. → These ___ ___ zebras." },
+  { from: "Those are monkeys.", blanks: 2, accept: ["are|not", "are not"], prompt: "Those are monkeys. → Those ___ ___ monkeys." },
   { from: "This is my shirt.", blanks: 2, accept: ["is|not", "is not"], prompt: "This is my shirt. → This ___ ___ my shirt." },
   { ex: true, from: "That is his boat.", blanks: 1, accept: ["isn't", "is not"], prompt: "That is his boat. → That ___ his boat." },
   { from: "These are your umbrellas.", blanks: 1, accept: ["aren't", "are not"], prompt: "These are your umbrellas. → These ___ your umbrellas." },
   { from: "Those are their drums.", blanks: 1, accept: ["aren't", "are not"], prompt: "Those are their drums. → Those ___ their drums." },
-  { from: "This is her belt.", blanks: 2, accept: ["is|not", "is not"], prompt: "This is her belt. → This ___ ___ her belt." },
+  { from: "This is her belt.", blanks: 1, accept: ["isn't", "is not"], prompt: "This is her belt. → This ___ her belt." },
   { from: "These are our bikes.", blanks: 1, accept: ["aren't", "are not"], prompt: "These are our bikes. → These ___ our bikes." },
 ];
 
