@@ -91,6 +91,7 @@
     ],
     "zap-red-1": [
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
+      { id: "unit-05", title: "Unit 05 — 인칭대명사와 지시대명사", enabled: true },
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
@@ -4904,6 +4905,50 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-1:unit-05": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "인칭·지시대명사 따라쓰기 · p. 76–77",
+        data: "data/red1/unit05/walk.json",
+        practiceId: "r1:u05:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "인칭·지시대명사 찾기 · p. 78–79",
+        data: "data/red1/unit05/run.json",
+        practiceId: "r1:u05:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "인칭·지시대명사 고르기 · p. 80–81",
+        data: "data/red1/unit05/jump.json",
+        practiceId: "r1:u05:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "인칭·지시대명사 쓰기 · p. 82–83",
+        data: "data/red1/unit05/fly.json",
+        practiceId: "r1:u05:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — 인칭대명사 표",
+        hint: "복수 인칭대명사 · p. 84",
+        data: "data/red1/unit05/quiz2.json",
+        practiceId: "r1:u05:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — 지시대명사 표",
+        hint: "지시대명사·형용사 표 · p. 85",
+        data: "data/red1/unit05/quiz4.json",
+        practiceId: "r1:u05:quiz4",
       },
     ],
   };
