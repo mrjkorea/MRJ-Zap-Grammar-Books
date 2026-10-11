@@ -91,6 +91,7 @@
     ],
     "zap-red-1": [
       { id: "unit-01", title: "Unit 01 — 알파벳과 수 세기", enabled: true },
+      { id: "unit-09", title: "Unit 09 — be동사의 부정문과 의문문 (1)", enabled: true },
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
@@ -4904,6 +4905,50 @@
         hint: "영어 숫자 · p. 21",
         data: "data/red1/unit01/quiz4.json",
         practiceId: "r1:u01:quiz4",
+      },
+    ],
+    "zap-red-1:unit-09": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "부정문 · 의문문 따라쓰기 · p. 140–141",
+        data: "data/red1/unit09/walk.json",
+        practiceId: "r1:u09:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "be + not · Yes/No · p. 142–143",
+        data: "data/red1/unit09/run.json",
+        practiceId: "r1:u09:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "부정문 · 의문문 고르기 · p. 144–145",
+        data: "data/red1/unit09/jump.json",
+        practiceId: "r1:u09:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "부정문 · 의문문 쓰기 · p. 146–147",
+        data: "data/red1/unit09/fly.json",
+        practiceId: "r1:u09:fly",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — be동사 부정문 표",
+        hint: "표 빈칸 · p. 148",
+        data: "data/red1/unit09/quiz2.json",
+        practiceId: "r1:u09:quiz2",
+      },
+      {
+        slug: "quiz4",
+        title: "QUIZ 4 — be동사 의문문 표",
+        hint: "표 빈칸 · p. 149",
+        data: "data/red1/unit09/quiz4.json",
+        practiceId: "r1:u09:quiz4",
       },
     ],
   };
