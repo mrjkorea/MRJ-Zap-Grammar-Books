@@ -4,7 +4,7 @@
 
   var BOOKS = [
     { id: "zap-red-1", title: "ZAP Red 1", enabled: true, appName: "RedZap 1", bookTitle: "ZAP Red 1" },
-    { id: "zap-red-2", title: "ZAP Red 2", enabled: false, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
+    { id: "zap-red-2", title: "ZAP Red 2", enabled: true, appName: "RedZap 2", bookTitle: "ZAP Red 2" },
     { id: "zap-blue-1", title: "ZAP Blue 1", enabled: true, appName: "BlueZap 1", bookTitle: "ZAP Blue 1" },
     { id: "zap-blue-2", title: "ZAP Blue 2", enabled: true, appName: "BlueZap 2", bookTitle: "ZAP Blue 2" },
     { id: "zap-blue-3", title: "ZAP Blue 3", enabled: true, appName: "BlueZap 3", bookTitle: "ZAP Blue 3" },
@@ -94,6 +94,7 @@
     ],
     "zap-red-2": [
       { id: "unit-01", title: "Unit 01 (coming soon)", enabled: false },
+      { id: "unit-07", title: "Unit 07 — 현재 진행형", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -4860,6 +4861,50 @@
         hint: "Comic dialogue · p. 27",
         data: "data/green2/unit01/checkup.json",
         practiceId: "g2:u01:checkup",
+      },
+    ],
+    "zap-red-2:unit-07": [
+      {
+        slug: "walk",
+        title: "Grammar Walk",
+        hint: "문장 · -ing 따라쓰기 · p. 108–109",
+        data: "data/red2/unit07/walk.json",
+        practiceId: "r2:u07:walk",
+      },
+      {
+        slug: "run",
+        title: "Grammar Run",
+        hint: "현재 진행형 찾기 · p. 110–111",
+        data: "data/red2/unit07/run.json",
+        practiceId: "r2:u07:run",
+      },
+      {
+        slug: "jump",
+        title: "Grammar Jump",
+        hint: "그림 · -ing 고르기 · p. 112–113",
+        data: "data/red2/unit07/jump.json",
+        practiceId: "r2:u07:jump",
+      },
+      {
+        slug: "fly",
+        title: "Grammar Fly",
+        hint: "-ing 쓰기 · 문장 완성 · p. 114–115",
+        data: "data/red2/unit07/fly.json",
+        practiceId: "r2:u07:fly",
+      },
+      {
+        slug: "quiz1",
+        title: "QUIZ 1 — be동사",
+        hint: "표 빈칸 · p. 116",
+        data: "data/red2/unit07/quiz1.json",
+        practiceId: "r2:u07:quiz1",
+      },
+      {
+        slug: "quiz2",
+        title: "QUIZ 2 — -ing 만들기",
+        hint: "표 빈칸 · p. 117",
+        data: "data/red2/unit07/quiz2.json",
+        practiceId: "r2:u07:quiz2",
       },
     ],
     "zap-red-1:unit-01": [

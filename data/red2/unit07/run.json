@@ -1,0 +1,279 @@
+{
+  "practiceId": "r2:u07:run",
+  "title": "Grammar Run",
+  "subtitle": "현재 진행형 찾기 · -ing (p. 110–111)",
+  "pages": "110–111",
+  "timerMinutes": 20,
+  "introKo": "Section A 9문항(현재 진행형 쓰기), Section B 2문항(동사↔-ing 짝 맞추기)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음을 알맞게 연결한 후, 「동사원형-ing」형을 따라 써 보세요. 동사 원형과 -ing 형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I am washing my hands.",
+      "blanks": 1,
+      "accept": [
+        "am washing",
+        "I'm washing"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am washing"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "We are jumping rope.",
+      "blanks": 1,
+      "accept": [
+        "are jumping"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "You are eating pizza.",
+      "blanks": 1,
+      "accept": [
+        "are eating"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "He is cooking now.",
+      "blanks": 1,
+      "accept": [
+        "is cooking"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "She is going to the park.",
+      "blanks": 1,
+      "accept": [
+        "is going"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Edison is tying his shoes.",
+      "blanks": 1,
+      "accept": [
+        "is tying"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "He is reading a comic book.",
+      "blanks": 1,
+      "accept": [
+        "is reading"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "My mom and I are making cookies.",
+      "blanks": 1,
+      "accept": [
+        "are making"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "They are listening to music.",
+      "blanks": 1,
+      "accept": [
+        "are listening"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 현재 진행형을 찾아 동그라미 하세요. be동사와 동사원형-ing 부분만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "My brothers are sitting on the bench.",
+      "blanks": 1,
+      "accept": [
+        "are sitting"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 알맞게 연결한 후, 「동사원형-ing」형을 따라 써 보세요. 동사 원형과 -ing 형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "do",
+          "right": "doing"
+        },
+        {
+          "left": "drive",
+          "right": "driving"
+        },
+        {
+          "left": "drink",
+          "right": "drinking"
+        },
+        {
+          "left": "make",
+          "right": "making"
+        },
+        {
+          "left": "open",
+          "right": "opening"
+        },
+        {
+          "left": "hop",
+          "right": "hopping"
+        },
+        {
+          "left": "lie",
+          "right": "lying"
+        }
+      ],
+      "accept": [
+        "do|doing",
+        "drive|driving",
+        "drink|drinking",
+        "make|making",
+        "open|opening",
+        "hop|hopping",
+        "lie|lying"
+      ],
+      "promptKo": "동사 1–7"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음을 알맞게 연결한 후, 「동사원형-ing」형을 따라 써 보세요. 동사 원형과 -ing 형을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "tie",
+          "right": "tying"
+        },
+        {
+          "left": "cut",
+          "right": "cutting"
+        },
+        {
+          "left": "sit",
+          "right": "sitting"
+        }
+      ],
+      "accept": [
+        "tie|tying",
+        "cut|cutting",
+        "sit|sitting"
+      ],
+      "promptKo": "동사 8–10"
+    }
+  ]
+}
