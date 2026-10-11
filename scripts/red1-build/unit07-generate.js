@@ -63,36 +63,37 @@ function fillItem(id, section, label, instructionKo, promptEn, accept, extra = {
   };
 }
 
+// Korean meanings from book answer key (해설); English = traced word on p. 108–109.
 const walkA = [
-  ["_____ legs are long.", "My"],
-  ["_____ legs are long.", "Your"],
-  ["_____ legs are short.", "Its"],
-  ["_____ legs are short.", "Their"],
-  ["_____ cat is cute.", "His"],
-  ["_____ cat is cute.", "Her"],
-  ["He is _____ brother.", "our"],
-  ["She is _____ sister.", "their"],
-  ["They are _____ brothers.", "your"],
-  ["They are _____ sisters.", "her"],
+  ["내 다리는 길다.", "My"],
+  ["네 다리는 길다.", "Your"],
+  ["그것의 다리는 짧다.", "Its"],
+  ["그들의 다리는 짧다.", "Their"],
+  ["그의 고양이는 귀엽다.", "His"],
+  ["그녀의 고양이는 귀엽다.", "Her"],
+  ["그는 우리의 오빠이다.", "our"],
+  ["그녀는 그들의 언니이다.", "their"],
+  ["그들은 네 형제이다.", "your"],
+  ["그들은 그녀의 자매이다.", "her"],
 ];
 
 const walkB = [
-  ["This is _____.", "yours"],
-  ["That is _____.", "mine"],
-  ["The kite is _____.", "hers"],
-  ["The kite is _____.", "his"],
-  ["This ball is _____.", "ours"],
-  ["That ball is _____.", "theirs"],
-  ["These drums are _____.", "ours"],
-  ["Those drums are _____.", "yours"],
-  ["These robots are _____.", "mine"],
-  ["Those robots are _____.", "hers"],
+  ["이것은 네 것이다.", "yours"],
+  ["저것은 내 것이다.", "mine"],
+  ["그 연은 그녀의 것이다.", "hers"],
+  ["그 연은 그의 것이다.", "his"],
+  ["이 공은 우리의 것이다.", "ours"],
+  ["저 공은 그들의 것이다.", "theirs"],
+  ["이 북들은 우리의 것이다.", "ours"],
+  ["저 북들은 너희의 것이다.", "yours"],
+  ["이 로봇들은 내 것이다.", "mine"],
+  ["저 로봇들은 그녀의 것이다.", "hers"],
 ];
 
 const walkInstrA =
-  "다음 문장의 뜻을 생각하며 인칭대명사의 소유격을 따라 써 보세요. 빈칸에 들어갈 소유격 단어와 문장을 짝지어 연결하세요.";
+  "다음 문장의 뜻을 생각하며 인칭대명사의 소유격을 따라 써 보세요. 한국어 뜻과 알맞은 영어 소유격 단어를 짝지어 연결하세요.";
 const walkInstrB =
-  "다음 문장의 뜻을 생각하며 소유대명사를 따라 써 보세요. 빈칸에 들어갈 소유대명사와 문장을 짝지어 연결하세요.";
+  "다음 문장의 뜻을 생각하며 소유대명사를 따라 써 보세요. 한국어 뜻과 알맞은 영어 소유대명사를 짝지어 연결하세요.";
 
 const walk = {
   practiceId: "r1:u07:walk",
@@ -101,7 +102,7 @@ const walk = {
   pages: "108–109",
   timerMinutes: 20,
   introKo:
-    "Section A 2문항(짝 맞추기 10쌍), Section B 2문항(짝 맞추기 10쌍)입니다. 왼쪽 문장과 오른쪽 단어를 연결하세요.",
+    "Section A 2문항(짝 맞추기 10쌍), Section B 2문항(짝 맞추기 10쌍)입니다. 왼쪽 한국어 뜻과 오른쪽 영어 단어를 연결하세요.",
   sections: [
     {
       id: "A",
@@ -224,16 +225,16 @@ const jumpA = [
 ];
 
 const jumpB = [
-  ["That is _____ .", ["her", "hers"], 2, true],
-  ["They are _____ .", ["yours", "your"], 1],
-  ["The pig is _____ .", ["hers", "my"], 1],
-  ["The monkey is _____ .", ["he", "his"], 2],
-  ["The umbrella is _____ .", ["my", "mine"], 2],
-  ["This cap is _____ .", ["her", "mine"], 2],
-  ["This pencil is _____ .", ["your", "yours"], 2],
-  ["That house is _____ .", ["theirs", "their"], 1],
-  ["These shoes are _____ .", ["his", "he"], 1],
-  ["Those candies are _____ .", ["ours", "our"], 1],
+  ["That is _____.", ["her", "hers"], 2, true],
+  ["They are _____.", ["yours", "your"], 1],
+  ["The pig is _____.", ["hers", "my"], 1],
+  ["The monkey is _____.", ["he", "his"], 2],
+  ["The umbrella is _____.", ["my", "mine"], 2],
+  ["This cap is _____.", ["her", "mine"], 2],
+  ["This pencil is _____.", ["your", "yours"], 2],
+  ["That house is _____.", ["theirs", "their"], 1],
+  ["These shoes are _____.", ["his", "he"], 1],
+  ["Those candies are _____.", ["ours", "our"], 1],
 ];
 
 function jumpItems(section, rows, instr) {

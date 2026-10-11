@@ -4,12 +4,12 @@
   "subtitle": "소유격 · 소유대명사 따라쓰기 (p. 108–109)",
   "pages": "108–109",
   "timerMinutes": 20,
-  "introKo": "Section A 2문항(짝 맞추기 10쌍), Section B 2문항(짝 맞추기 10쌍)입니다. 왼쪽 문장과 오른쪽 단어를 연결하세요.",
+  "introKo": "Section A 2문항(짝 맞추기 10쌍), Section B 2문항(짝 맞추기 10쌍)입니다. 왼쪽 한국어 뜻과 오른쪽 영어 단어를 연결하세요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A — 인칭대명사 소유격",
-      "instructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 소유격을 따라 써 보세요. 빈칸에 들어갈 소유격 단어와 문장을 짝지어 연결하세요.",
+      "instructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 소유격을 따라 써 보세요. 한국어 뜻과 알맞은 영어 소유격 단어를 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "itemCount": 2,
@@ -22,7 +22,7 @@
     {
       "id": "B",
       "title": "Section B — 소유대명사",
-      "instructionKo": "다음 문장의 뜻을 생각하며 소유대명사를 따라 써 보세요. 빈칸에 들어갈 소유대명사와 문장을 짝지어 연결하세요.",
+      "instructionKo": "다음 문장의 뜻을 생각하며 소유대명사를 따라 써 보세요. 한국어 뜻과 알맞은 영어 소유대명사를 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "itemCount": 2,
@@ -38,49 +38,49 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 소유격을 따라 써 보세요. 빈칸에 들어갈 소유격 단어와 문장을 짝지어 연결하세요.",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 소유격을 따라 써 보세요. 한국어 뜻과 알맞은 영어 소유격 단어를 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "A1",
       "type": "match",
       "pairs": [
         {
-          "left": "1. _____ legs are long.",
+          "left": "1. 내 다리는 길다.",
           "right": "My"
         },
         {
-          "left": "2. _____ legs are long.",
+          "left": "2. 네 다리는 길다.",
           "right": "Your"
         },
         {
-          "left": "3. _____ legs are short.",
+          "left": "3. 그것의 다리는 짧다.",
           "right": "Its"
         },
         {
-          "left": "4. _____ legs are short.",
+          "left": "4. 그들의 다리는 짧다.",
           "right": "Their"
         },
         {
-          "left": "5. _____ cat is cute.",
+          "left": "5. 그의 고양이는 귀엽다.",
           "right": "His"
         },
         {
-          "left": "6. _____ cat is cute.",
+          "left": "6. 그녀의 고양이는 귀엽다.",
           "right": "Her"
         },
         {
-          "left": "7. He is _____ brother.",
+          "left": "7. 그는 우리의 오빠이다.",
           "right": "our"
         }
       ],
       "accept": [
-        "1. _____ legs are long.|My",
-        "2. _____ legs are long.|Your",
-        "3. _____ legs are short.|Its",
-        "4. _____ legs are short.|Their",
-        "5. _____ cat is cute.|His",
-        "6. _____ cat is cute.|Her",
-        "7. He is _____ brother.|our"
+        "1. 내 다리는 길다.|My",
+        "2. 네 다리는 길다.|Your",
+        "3. 그것의 다리는 짧다.|Its",
+        "4. 그들의 다리는 짧다.|Their",
+        "5. 그의 고양이는 귀엽다.|His",
+        "6. 그녀의 고양이는 귀엽다.|Her",
+        "7. 그는 우리의 오빠이다.|our"
       ],
       "promptKo": "문장 1–7"
     },
@@ -88,29 +88,29 @@
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 소유격을 따라 써 보세요. 빈칸에 들어갈 소유격 단어와 문장을 짝지어 연결하세요.",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 인칭대명사의 소유격을 따라 써 보세요. 한국어 뜻과 알맞은 영어 소유격 단어를 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "A2",
       "type": "match",
       "pairs": [
         {
-          "left": "8. She is _____ sister.",
+          "left": "8. 그녀는 그들의 언니이다.",
           "right": "their"
         },
         {
-          "left": "9. They are _____ brothers.",
+          "left": "9. 그들은 네 형제이다.",
           "right": "your"
         },
         {
-          "left": "10. They are _____ sisters.",
+          "left": "10. 그들은 그녀의 자매이다.",
           "right": "her"
         }
       ],
       "accept": [
-        "8. She is _____ sister.|their",
-        "9. They are _____ brothers.|your",
-        "10. They are _____ sisters.|her"
+        "8. 그녀는 그들의 언니이다.|their",
+        "9. 그들은 네 형제이다.|your",
+        "10. 그들은 그녀의 자매이다.|her"
       ],
       "promptKo": "문장 8–10"
     },
@@ -118,49 +118,49 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 소유대명사를 따라 써 보세요. 빈칸에 들어갈 소유대명사와 문장을 짝지어 연결하세요.",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 소유대명사를 따라 써 보세요. 한국어 뜻과 알맞은 영어 소유대명사를 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "B1",
       "type": "match",
       "pairs": [
         {
-          "left": "1. This is _____.",
+          "left": "1. 이것은 네 것이다.",
           "right": "yours"
         },
         {
-          "left": "2. That is _____.",
+          "left": "2. 저것은 내 것이다.",
           "right": "mine"
         },
         {
-          "left": "3. The kite is _____.",
+          "left": "3. 그 연은 그녀의 것이다.",
           "right": "hers"
         },
         {
-          "left": "4. The kite is _____.",
+          "left": "4. 그 연은 그의 것이다.",
           "right": "his"
         },
         {
-          "left": "5. This ball is _____.",
+          "left": "5. 이 공은 우리의 것이다.",
           "right": "ours"
         },
         {
-          "left": "6. That ball is _____.",
+          "left": "6. 저 공은 그들의 것이다.",
           "right": "theirs"
         },
         {
-          "left": "7. These drums are _____.",
+          "left": "7. 이 북들은 우리의 것이다.",
           "right": "ours"
         }
       ],
       "accept": [
-        "1. This is _____.|yours",
-        "2. That is _____.|mine",
-        "3. The kite is _____.|hers",
-        "4. The kite is _____.|his",
-        "5. This ball is _____.|ours",
-        "6. That ball is _____.|theirs",
-        "7. These drums are _____.|ours"
+        "1. 이것은 네 것이다.|yours",
+        "2. 저것은 내 것이다.|mine",
+        "3. 그 연은 그녀의 것이다.|hers",
+        "4. 그 연은 그의 것이다.|his",
+        "5. 이 공은 우리의 것이다.|ours",
+        "6. 저 공은 그들의 것이다.|theirs",
+        "7. 이 북들은 우리의 것이다.|ours"
       ],
       "promptKo": "문장 1–7"
     },
@@ -168,29 +168,29 @@
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 소유대명사를 따라 써 보세요. 빈칸에 들어갈 소유대명사와 문장을 짝지어 연결하세요.",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 소유대명사를 따라 써 보세요. 한국어 뜻과 알맞은 영어 소유대명사를 짝지어 연결하세요.",
       "answerMode": "match",
       "answerModeTag": "Match · 짝 맞추기",
       "label": "B2",
       "type": "match",
       "pairs": [
         {
-          "left": "8. Those drums are _____.",
+          "left": "8. 저 북들은 너희의 것이다.",
           "right": "yours"
         },
         {
-          "left": "9. These robots are _____.",
+          "left": "9. 이 로봇들은 내 것이다.",
           "right": "mine"
         },
         {
-          "left": "10. Those robots are _____.",
+          "left": "10. 저 로봇들은 그녀의 것이다.",
           "right": "hers"
         }
       ],
       "accept": [
-        "8. Those drums are _____.|yours",
-        "9. These robots are _____.|mine",
-        "10. Those robots are _____.|hers"
+        "8. 저 북들은 너희의 것이다.|yours",
+        "9. 이 로봇들은 내 것이다.|mine",
+        "10. 저 로봇들은 그녀의 것이다.|hers"
       ],
       "promptKo": "문장 8–10"
     }

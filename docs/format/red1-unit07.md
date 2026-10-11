@@ -20,7 +20,7 @@ Printed pages **108–117** (PDF 109–118). **Boundary:** p0105–p0108 are com
 
 | Slug | practiceId | Graded items | Sections | Mode |
 |------|------------|--------------|----------|------|
-| walk | `r1:u07:walk` | 4 (20 pairs) | A×2 match, B×2 match | Walk trace → **match** (sentence ↔ word; ≤7 pairs/item) |
+| walk | `r1:u07:walk` | 4 (20 pairs) | A×2 match, B×2 match | Walk trace → **match** (Korean meaning ↔ English word; ≤7 pairs/item) |
 | run | `r1:u07:run` | 18 | A×9 words, B×9 words | Circle → type circled word only |
 | jump | `r1:u07:jump` | 18 | A×9 MC, B×9 MC | Parentheses order as printed |
 | fly | `r1:u07:fly` | 18 | A×9 words, B×9 words | Blank = possessive / possessive pronoun |
@@ -45,6 +45,6 @@ Printed pages **108–117** (PDF 109–118). **Boundary:** p0105–p0108 are com
 
 ## Notes / uncertainties
 
-- Walk match uses numbered English sentence stubs (book has no per-line Korean); same traced word as the book.
+- Walk match: Korean meanings from the book answer key (해설); English side = traced word on p. 108–109 (capitalization as printed).
 - Run/Fly accept sentence-initial capitals where the book prints them (e.g. `My`, `Your`) and lowercase mid-sentence forms.
 - QUIZ table cells (1) are faded answers in the book → `displayOnly` examples, not graded.
