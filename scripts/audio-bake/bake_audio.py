@@ -2,7 +2,8 @@
 """
 Resumable Fish Audio bake for MRJ-Zap-Grammar-Books.
 Voices: Maya (instructions), KITT (questions). Model s2.1-pro-free.
-One TTS request at a time. Cache by text hash. Skip existing outputs.
+Concurrent TTS via --workers (default 4). Cache by text hash. Skip existing outputs.
+Git commits stay single-threaded per book.
 """
 from __future__ import annotations
 
@@ -13,10 +14,12 @@ import os
 import re
 import subprocess
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
@@ -49,13 +52,75 @@ PAREN_CHOICE_RE = re.compile(r"\(\s*([^)]+?/[^=)]*?)\s*\)")
 TAG_RE = re.compile(r"\[(?:그림|사진|밑줄|광고)[^\]]*\]")
 ARROW_RE = re.compile(r"^\s*(?:→|->)")
 
+_log_lock = threading.Lock()
+_cache_locks_guard = threading.Lock()
+_cache_locks: dict[str, threading.Lock] = {}
+_tts_limiter = None  # set in cmd_bake
+
+
+class AdaptiveTTSLimiter:
+    """Cap concurrent TTS HTTP calls; shrink on repeated 429s."""
+
+    def __init__(self, workers: int) -> None:
+        self._cond = threading.Condition()
+        self.n = max(1, int(workers))
+        self._active = 0
+        self._consecutive_429 = 0
+        self._total_429 = 0
+
+    def acquire(self) -> None:
+        with self._cond:
+            while self._active >= self.n:
+                self._cond.wait()
+            self._active += 1
+
+    def release(self) -> None:
+        with self._cond:
+            self._active -= 1
+            self._cond.notify_all()
+
+    def on_429(self) -> None:
+        with self._cond:
+            self._consecutive_429 += 1
+            self._total_429 += 1
+            if self._consecutive_429 >= 2 and self.n > 1:
+                self.n -= 1
+                self._consecutive_429 = 0
+                # notify waiters so they re-check the lower cap
+                self._cond.notify_all()
+                # log outside lock to avoid nested lock with _log_lock ordering issues
+                reduced_to = self.n
+            else:
+                reduced_to = None
+        if reduced_to is not None:
+            log(f"TTS workers auto-reduced to {reduced_to} after repeated HTTP 429")
+
+    def on_success(self) -> None:
+        with self._cond:
+            self._consecutive_429 = 0
+
+    @property
+    def current(self) -> int:
+        with self._cond:
+            return self.n
+
+
+def _hash_lock(h: str) -> threading.Lock:
+    with _cache_locks_guard:
+        lock = _cache_locks.get(h)
+        if lock is None:
+            lock = threading.Lock()
+            _cache_locks[h] = lock
+        return lock
+
 
 def log(msg: str) -> None:
     line = time.strftime("%Y-%m-%d %H:%M:%S") + " " + msg
-    print(line, flush=True)
-    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with LOG_PATH.open("a", encoding="utf-8") as f:
-        f.write(line + "\n")
+    with _log_lock:
+        print(line, flush=True)
+        LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with LOG_PATH.open("a", encoding="utf-8") as f:
+            f.write(line + "\n")
 
 
 def load_key() -> str:
@@ -189,42 +254,50 @@ def tts_raw(text: str, voice: str, out_raw: Path, retries: int = 8) -> None:
     delay = 2.0
     last_err = None
     for attempt in range(1, retries + 1):
+        limiter = _tts_limiter
+        if limiter is not None:
+            limiter.acquire()
         try:
-            req = urllib.request.Request(
-                API,
-                data=body,
-                method="POST",
-                headers={
-                    "Authorization": f"Bearer {key}",
-                    "Content-Type": "application/json",
-                    "model": MODEL,
-                },
-            )
-            with urllib.request.urlopen(req, timeout=120) as resp:
-                data = resp.read()
-            if len(data) < 200:
-                raise RuntimeError(f"tiny response {len(data)} bytes")
-            out_raw.parent.mkdir(parents=True, exist_ok=True)
-            out_raw.write_bytes(data)
-            return
-        except Exception as e:
-            last_err = e
-            code = getattr(getattr(e, "code", None), "real", None) or getattr(e, "code", None)
-            # rate limit / transient
-            sleep_for = delay
-            if isinstance(e, urllib.error.HTTPError):
-                code = e.code
-                if code == 429:
-                    sleep_for = max(delay, 15.0)
-                elif code in (500, 502, 503, 504):
-                    sleep_for = delay
-                else:
-                    # non-retryable?
-                    if code in (400, 401, 403):
-                        raise
-            log(f"TTS retry {attempt}/{retries} voice={voice[:8]} err={e!r} sleep={sleep_for:.1f}s")
-            time.sleep(sleep_for)
-            delay = min(delay * 1.7, 90.0)
+            try:
+                req = urllib.request.Request(
+                    API,
+                    data=body,
+                    method="POST",
+                    headers={
+                        "Authorization": f"Bearer {key}",
+                        "Content-Type": "application/json",
+                        "model": MODEL,
+                    },
+                )
+                with urllib.request.urlopen(req, timeout=120) as resp:
+                    data = resp.read()
+                if len(data) < 200:
+                    raise RuntimeError(f"tiny response {len(data)} bytes")
+                out_raw.parent.mkdir(parents=True, exist_ok=True)
+                out_raw.write_bytes(data)
+                if limiter is not None:
+                    limiter.on_success()
+                return
+            except Exception as e:
+                last_err = e
+                sleep_for = delay
+                if isinstance(e, urllib.error.HTTPError):
+                    code = e.code
+                    if code == 429:
+                        sleep_for = max(delay, 15.0)
+                        if limiter is not None:
+                            limiter.on_429()
+                    elif code in (500, 502, 503, 504):
+                        sleep_for = delay
+                    else:
+                        if code in (400, 401, 403):
+                            raise
+                log(f"TTS retry {attempt}/{retries} voice={voice[:8]} err={e!r} sleep={sleep_for:.1f}s")
+                time.sleep(sleep_for)
+                delay = min(delay * 1.7, 90.0)
+        finally:
+            if limiter is not None:
+                limiter.release()
     raise RuntimeError(f"TTS failed after retries: {last_err}")
 
 
@@ -234,15 +307,18 @@ def cached_tts(text: str, voice: str) -> Path:
     final = CACHE_DIR / f"{h}.mp3"
     if final.exists() and final.stat().st_size > 200:
         return final
-    raw = CACHE_DIR / f"{h}.raw.mp3"
-    if not (raw.exists() and raw.stat().st_size > 200):
-        tts_raw(text, voice, raw)
-    ffmpeg_norm_mp3(raw, final)
-    try:
-        raw.unlink()
-    except OSError:
-        pass
-    return final
+    with _hash_lock(h):
+        if final.exists() and final.stat().st_size > 200:
+            return final
+        raw = CACHE_DIR / f"{h}.raw.mp3"
+        if not (raw.exists() and raw.stat().st_size > 200):
+            tts_raw(text, voice, raw)
+        ffmpeg_norm_mp3(raw, final)
+        try:
+            raw.unlink()
+        except OSError:
+            pass
+        return final
 
 
 def strip_tags(s: str) -> str:
@@ -712,11 +788,15 @@ def cmd_count(args):
 
 
 def cmd_bake(args):
+    global _tts_limiter
     ensure_beep()
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     prog = load_progress()
     books = [args.book] if args.book else BOOKS
     all_jobs_for_manifest = []
+    workers = max(1, int(getattr(args, "workers", 4) or 4))
+    _tts_limiter = AdaptiveTTSLimiter(workers)
+    log(f"bake workers={workers} (TTS concurrency; commits remain single-threaded)")
 
     t0 = time.time()
     total_made = total_exists = total_fail = total_skip = 0
@@ -729,35 +809,44 @@ def cmd_bake(args):
         skip_jobs = [j for j in jobs if j["kind"] == "skip"]
         total_skip += len(skip_jobs)
         book_made = book_exists = book_fail = 0
-        for i, job in enumerate(make_jobs, 1):
-            status = process_job(job)
-            if status == "made":
-                book_made += 1
-                total_made += 1
-            elif status == "exists":
-                book_exists += 1
-                total_exists += 1
-            else:
-                book_fail += 1
-                total_fail += 1
-                prog.setdefault("failures", []).append(
-                    {"out": job.get("out"), "book": book, "t": time.time()}
-                )
-            if i % 25 == 0 or i == len(make_jobs):
-                log(
-                    f"{book} progress {i}/{len(make_jobs)} made={book_made} exists={book_exists} fail={book_fail}"
-                )
-                prog["counts"][book] = {
-                    "made": book_made,
-                    "exists": book_exists,
-                    "fail": book_fail,
-                    "skip": len(skip_jobs),
-                    "target": len(make_jobs),
-                }
-                save_progress(prog)
-            # gentle pacing beyond retries
-            if status == "made":
-                time.sleep(0.35)
+        # Job pool size matches TTS workers; limiter caps actual HTTP concurrency.
+        pool_n = workers
+        done_i = 0
+        with ThreadPoolExecutor(max_workers=pool_n) as ex:
+            futures = {ex.submit(process_job, job): job for job in make_jobs}
+            for fut in as_completed(futures):
+                job = futures[fut]
+                status = fut.result()
+                done_i += 1
+                if status == "made":
+                    book_made += 1
+                    total_made += 1
+                elif status == "exists":
+                    book_exists += 1
+                    total_exists += 1
+                else:
+                    book_fail += 1
+                    total_fail += 1
+                    prog.setdefault("failures", []).append(
+                        {"out": job.get("out"), "book": book, "t": time.time()}
+                    )
+                if done_i % 25 == 0 or done_i == len(make_jobs):
+                    cur_w = _tts_limiter.current if _tts_limiter else workers
+                    log(
+                        f"{book} progress {done_i}/{len(make_jobs)} "
+                        f"made={book_made} exists={book_exists} fail={book_fail} workers={cur_w}"
+                    )
+                    prog["counts"][book] = {
+                        "made": book_made,
+                        "exists": book_exists,
+                        "fail": book_fail,
+                        "skip": len(skip_jobs),
+                        "target": len(make_jobs),
+                    }
+                    save_progress(prog)
+                # Single-thread pacing only; concurrent mode relies on limiter + 429 backoff
+                if status == "made" and workers == 1:
+                    time.sleep(0.35)
 
         log(f"=== BOOK DONE {book} made={book_made} exists={book_exists} fail={book_fail} skip={len(skip_jobs)} ===")
         prog.setdefault("done_books", [])
@@ -765,6 +854,7 @@ def cmd_bake(args):
             prog["done_books"].append(book)
         save_progress(prog)
 
+        # Commits are always single-threaded, after the book finishes.
         if args.commit:
             commit_book(book)
 
@@ -793,7 +883,14 @@ def commit_book(book: str) -> None:
         subprocess.run(["git", "checkout", "-b", "audio-bake"], cwd=REPO, check=True)
     else:
         subprocess.run(["git", "checkout", "audio-bake"], cwd=REPO, capture_output=True)
-        # Prefer linear history on audio-bake
+        # Stash local dirty files so pull --rebase can run; restore after.
+        st = subprocess.run(
+            ["git", "stash", "push", "-u", "-m", f"audio-bake-pre-pull-{book}"],
+            cwd=REPO,
+            capture_output=True,
+            text=True,
+        )
+        stashed = st.returncode == 0 and "No local changes" not in (st.stdout or "")
         rb = subprocess.run(
             ["git", "pull", "--rebase", "origin", "audio-bake"],
             cwd=REPO,
@@ -802,7 +899,15 @@ def commit_book(book: str) -> None:
         )
         if rb.returncode != 0:
             log(f"pull --rebase warn {book}: {rb.stderr[-300:]}")
-            # if rebase fails due to untracked, continue; files stay on disk
+        if stashed:
+            pop = subprocess.run(
+                ["git", "stash", "pop"],
+                cwd=REPO,
+                capture_output=True,
+                text=True,
+            )
+            if pop.returncode != 0:
+                log(f"stash pop warn {book}: {(pop.stderr or pop.stdout)[-300:]}")
 
     add_paths = [
         f"audio/{book}",
@@ -812,7 +917,22 @@ def commit_book(book: str) -> None:
         "audio/COUNT_ESTIMATE.txt",
         "scripts/audio-bake/",
     ]
-    subprocess.run(["git", "add", "--"] + add_paths, cwd=REPO, capture_output=True)
+    # Retry add briefly if another git process holds the index lock
+    for attempt in range(5):
+        add = subprocess.run(
+            ["git", "add", "--"] + add_paths,
+            cwd=REPO,
+            capture_output=True,
+            text=True,
+        )
+        if add.returncode == 0:
+            break
+        err = (add.stderr or "") + (add.stdout or "")
+        if "index.lock" in err or "unable to lock" in err.lower():
+            time.sleep(1.5 * (attempt + 1))
+            continue
+        log(f"git add warn {book}: {err[-300:]}")
+        break
     st = subprocess.run(
         ["git", "diff", "--cached", "--name-only"],
         cwd=REPO,
@@ -898,6 +1018,12 @@ def main():
     b = sp.add_parser("bake")
     b.add_argument("--book", default=None)
     b.add_argument("--commit", action="store_true")
+    b.add_argument(
+        "--workers",
+        type=int,
+        default=4,
+        help="Concurrent Fish TTS HTTP requests (default 4). Commits stay single-threaded.",
+    )
     b.set_defaults(func=cmd_bake)
     s = sp.add_parser("spotcheck")
     s.add_argument("--book", default=None)

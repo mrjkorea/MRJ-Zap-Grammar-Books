@@ -1,29 +1,37 @@
 {
   "done_books": [
     "green1",
-    "green2"
+    "green2",
+    "green3"
   ],
   "counts": {
     "green1": {
-      "made": 1257,
-      "exists": 0,
+      "made": 0,
+      "exists": 1257,
       "fail": 0,
       "skip": 348,
       "target": 1257
     },
     "green2": {
-      "made": 1375,
-      "exists": 0,
+      "made": 0,
+      "exists": 1375,
       "fail": 0,
       "skip": 329,
       "target": 1375
     },
     "green3": {
-      "made": 1350,
-      "exists": 0,
+      "made": 11,
+      "exists": 1365,
       "fail": 0,
       "skip": 267,
       "target": 1376
+    },
+    "green4": {
+      "made": 350,
+      "exists": 0,
+      "fail": 0,
+      "skip": 327,
+      "target": 1284
     }
   },
   "skips": {},
