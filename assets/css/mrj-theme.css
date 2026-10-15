@@ -115,22 +115,23 @@ input[type="text"]::placeholder { font-size: .9em; color: #8a9b8d; }
   .actions .btn { width: 100%; }
 }
 
+html.mrj-auth-locked body { background: radial-gradient(circle at 20% 0%, #dff4e6, transparent 55%), var(--bg); }
 /* ---- Shared sign-in screen (override only; shared live file untouched) ---- */
-#mrj-auth-gate { background: radial-gradient(circle at 20% 0%, #e2f6e9, transparent 55%), var(--bg); }
-#mrj-auth-gate .mrj-auth {
+html .mrj-auth {
+  top: 50%; bottom: auto; transform: translateY(-50%); max-height: calc(100dvh - 2rem); width: calc(100% - 2rem);
   --mrj-ink: var(--ink); --mrj-plaster: #fff; --mrj-paper: #fff; --mrj-have: var(--accent); --mrj-have-press: var(--accent-dark);
   --mrj-new: #2b6fe0; --mrj-new-press: #1f54b5; --mrj-line: var(--border);
   background: #fff; border: 1.5px solid var(--border); border-radius: 24px; box-shadow: 0 18px 40px rgba(20,36,24,.10);
   padding: 1.5rem 1.25rem; font-family: var(--font-ui);
 }
-#mrj-auth-gate .mrj-auth button.mrj-auth-door, #mrj-auth-gate .mrj-auth button.mrj-auth-submit, #mrj-auth-gate .mrj-auth button.mrj-auth-signout,
-#mrj-auth-gate .mrj-auth-status, #mrj-auth-gate .mrj-auth-signed { font-family: var(--font-ui); }
-#mrj-auth-gate .mrj-auth-door, #mrj-auth-gate .mrj-auth-submit { min-height: 64px; border: 0; border-radius: 16px; font-size: 1.3rem; font-weight: 800; }
-#mrj-auth-gate .mrj-auth-door-login, #mrj-auth-gate .mrj-auth-submit { background: linear-gradient(180deg, var(--accent), var(--accent-dark)); box-shadow: 0 4px 0 rgba(0,0,0,.14); }
-#mrj-auth-gate .mrj-auth-door-new { background: linear-gradient(180deg, #2b6fe0, #1f54b5); box-shadow: 0 4px 0 rgba(0,0,0,.14); }
-#mrj-auth-gate .mrj-auth button.mrj-auth-back, #mrj-auth-gate .mrj-auth button.mrj-auth-signout { font-family: var(--font-ui); border: 2px solid var(--border); border-radius: 16px; min-height: var(--tap); color: var(--accent-dark); }
-#mrj-auth-gate .mrj-auth input.mrj-auth-input { min-height: 56px; border: 2px solid var(--border); border-radius: 14px; font-size: 20px; font-family: var(--font-en); }
-#mrj-auth-gate .mrj-auth input.mrj-auth-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--focus) 45%, transparent); }
-#mrj-auth-gate .mrj-auth button:focus-visible { outline: none; box-shadow: var(--ring); }
-#mrj-auth-gate .mrj-auth .mrj-auth-error { border: 0; border-left: 6px solid var(--bad); border-radius: 0 14px 14px 0; background: #fff5f4; color: #9b1c13; font-size: 1.1rem; }
-#mrj-auth-gate .mrj-auth-progress li, #mrj-auth-gate .mrj-auth-empty { border: 1.5px solid var(--border); border-radius: 14px; }
+html .mrj-auth button.mrj-auth-door, html .mrj-auth button.mrj-auth-submit, html .mrj-auth button.mrj-auth-signout,
+html .mrj-auth-status, html .mrj-auth-signed { font-family: var(--font-ui); }
+html .mrj-auth-door, html .mrj-auth-submit { min-height: 64px; border: 0; border-radius: 16px; font-size: 1.3rem; font-weight: 800; }
+html .mrj-auth-door-login, html .mrj-auth-submit { background: linear-gradient(180deg, var(--accent), var(--accent-dark)); box-shadow: 0 4px 0 rgba(0,0,0,.14); }
+html .mrj-auth-door-new { background: linear-gradient(180deg, #2b6fe0, #1f54b5); box-shadow: 0 4px 0 rgba(0,0,0,.14); }
+html .mrj-auth button.mrj-auth-back, html .mrj-auth button.mrj-auth-signout { font-family: var(--font-ui); border: 2px solid var(--border); border-radius: 16px; min-height: var(--tap); color: var(--accent-dark); }
+html .mrj-auth input.mrj-auth-input { min-height: 56px; border: 2px solid var(--border); border-radius: 14px; font-size: 20px; font-family: var(--font-en); }
+html .mrj-auth input.mrj-auth-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--focus) 45%, transparent); }
+html .mrj-auth button:focus-visible { outline: none; box-shadow: var(--ring); }
+html .mrj-auth .mrj-auth-error { border: 0; border-left: 6px solid var(--bad); border-radius: 0 14px 14px 0; background: #fff5f4; color: #9b1c13; font-size: 1.1rem; }
+html .mrj-auth-progress li, html .mrj-auth-empty { border: 1.5px solid var(--border); border-radius: 14px; }
