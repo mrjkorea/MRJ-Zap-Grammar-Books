@@ -117,12 +117,15 @@ input[type="text"]::placeholder { font-size: .9em; color: #8a9b8d; }
 
 html.mrj-auth-locked body { background: radial-gradient(circle at 20% 0%, #dff4e6, transparent 55%), var(--bg); }
 /* ---- Shared sign-in screen (override only; shared live file untouched) ---- */
-html .mrj-auth {
-  top: 50%; bottom: auto; transform: translateY(-50%); max-height: calc(100dvh - 2rem); width: calc(100% - 2rem);
+#mrj-auth-gate.mrj-auth, html .mrj-auth {
   --mrj-ink: var(--ink); --mrj-plaster: #fff; --mrj-paper: #fff; --mrj-have: var(--accent); --mrj-have-press: var(--accent-dark);
   --mrj-new: #2b6fe0; --mrj-new-press: #1f54b5; --mrj-line: var(--border);
-  background: #fff; border: 1.5px solid var(--border); border-radius: 24px; box-shadow: 0 18px 40px rgba(20,36,24,.10);
-  padding: 1.5rem 1.25rem; font-family: var(--font-ui);
+  max-width: none; border: 0; border-radius: 0; box-shadow: none; font-family: var(--font-ui);
+  background: radial-gradient(circle at 20% 0%, #dff4e6, transparent 55%), var(--bg);
+}
+#mrj-auth-gate > * {
+  width: 100%; max-width: 26rem; padding: 1.5rem 1.25rem; background: #fff;
+  border: 1.5px solid var(--border); border-radius: 24px; box-shadow: 0 18px 40px rgba(20,36,24,.10);
 }
 html .mrj-auth button.mrj-auth-door, html .mrj-auth button.mrj-auth-submit, html .mrj-auth button.mrj-auth-signout,
 html .mrj-auth-status, html .mrj-auth-signed { font-family: var(--font-ui); }
