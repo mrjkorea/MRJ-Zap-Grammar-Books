@@ -782,9 +782,8 @@ def cmd_bake(args):
 
 
 def commit_book(book: str) -> None:
-    """Commit audio for one book + manifest/progress to audio-bake branch."""
-    subprocess.run(["git", "checkout", "audio-bake"], cwd=REPO, check=False)
-    # ensure branch exists
+    """Commit audio for one book + progress/manifest to audio-bake branch."""
+    subprocess.run(["git", "fetch", "origin", "audio-bake"], cwd=REPO, capture_output=True)
     r = subprocess.run(
         ["git", "rev-parse", "--verify", "audio-bake"],
         cwd=REPO,
@@ -792,18 +791,61 @@ def commit_book(book: str) -> None:
     )
     if r.returncode != 0:
         subprocess.run(["git", "checkout", "-b", "audio-bake"], cwd=REPO, check=True)
+    else:
+        subprocess.run(["git", "checkout", "audio-bake"], cwd=REPO, capture_output=True)
+        # Prefer linear history on audio-bake
+        rb = subprocess.run(
+            ["git", "pull", "--rebase", "origin", "audio-bake"],
+            cwd=REPO,
+            capture_output=True,
+            text=True,
+        )
+        if rb.returncode != 0:
+            log(f"pull --rebase warn {book}: {rb.stderr[-300:]}")
+            # if rebase fails due to untracked, continue; files stay on disk
 
-    subprocess.run(["git", "add", f"audio/{book}", "audio/manifest.json", "audio/_progress.json", "audio/bake.log", "audio/_beep.wav", "scripts/audio-bake/"], cwd=REPO)
-    # don't add cache (large, regenerable) — put in gitignore via assume
-    # Still allow cache? User said commit audio. Cache is under audio/_cache — exclude.
-    st = subprocess.run(["git", "status", "--porcelain"], cwd=REPO, capture_output=True, text=True)
+    add_paths = [
+        f"audio/{book}",
+        "audio/manifest.json",
+        "audio/_progress.json",
+        "audio/bake.log",
+        "audio/COUNT_ESTIMATE.txt",
+        "scripts/audio-bake/",
+    ]
+    subprocess.run(["git", "add", "--"] + add_paths, cwd=REPO, capture_output=True)
+    st = subprocess.run(
+        ["git", "diff", "--cached", "--name-only"],
+        cwd=REPO,
+        capture_output=True,
+        text=True,
+    )
     if not st.stdout.strip():
-        log(f"commit skip {book}: nothing to commit")
+        log(f"commit skip {book}: nothing staged")
         return
-    msg = f"audio-bake: {book} practice audio + manifest"
-    subprocess.run(["git", "commit", "-m", msg], cwd=REPO, check=False)
-    push = subprocess.run(["git", "push", "-u", "origin", "audio-bake"], cwd=REPO, capture_output=True, text=True)
-    log(f"push {book}: rc={push.returncode} {push.stderr[-200:] if push.stderr else push.stdout[-200:]}")
+    msg = f"audio-bake: {book} practice audio"
+    c = subprocess.run(["git", "commit", "-m", msg], cwd=REPO, capture_output=True, text=True)
+    if c.returncode != 0:
+        log(f"commit fail {book}: {c.stderr[-300:] or c.stdout[-300:]}")
+        return
+    push = subprocess.run(
+        ["git", "push", "-u", "origin", "audio-bake"],
+        cwd=REPO,
+        capture_output=True,
+        text=True,
+    )
+    if push.returncode != 0:
+        # one more rebase+push attempt
+        subprocess.run(["git", "pull", "--rebase", "origin", "audio-bake"], cwd=REPO, capture_output=True)
+        push = subprocess.run(
+            ["git", "push", "-u", "origin", "audio-bake"],
+            cwd=REPO,
+            capture_output=True,
+            text=True,
+        )
+    log(
+        f"push {book}: rc={push.returncode} "
+        f"{(push.stderr or push.stdout)[-240:]}"
+    )
 
 
 def cmd_spotcheck(args):
