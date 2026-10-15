@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Zap Grammar — Audio Sample Test</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --ok: #22c55e;
+      --bad: #f87171;
+      --btn: #334155;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+      padding: 16px;
+      padding-bottom: 48px;
+      max-width: 640px;
+      margin-inline: auto;
+    }
+    h1 { font-size: 1.35rem; margin: 0 0 4px; }
+    .sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 16px; }
+    .banner {
+      display: none;
+      position: sticky;
+      top: 8px;
+      z-index: 10;
+      background: #0369a1;
+      color: white;
+      border-radius: 14px;
+      padding: 18px 16px;
+      text-align: center;
+      font-size: 1.15rem;
+      font-weight: 700;
+      box-shadow: 0 8px 24px rgba(0,0,0,.35);
+      margin-bottom: 16px;
+      border: 0;
+      width: 100%;
+      cursor: pointer;
+    }
+    .banner.show { display: block; }
+    .section {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 18px;
+    }
+    .section h2 {
+      margin: 0 0 8px;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .tag {
+      font-size: 0.7rem;
+      background: #0ea5e9;
+      color: #082f49;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .instr {
+      color: #e2e8f0;
+      font-size: 0.95rem;
+      margin: 8px 0 12px;
+      padding: 10px 12px;
+      background: #0f172a;
+      border-radius: 10px;
+    }
+    .q {
+      border-top: 1px solid #334155;
+      padding-top: 14px;
+      margin-top: 14px;
+    }
+    .q:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+    .prompt {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin: 0 0 10px;
+    }
+    .meta { color: var(--muted); font-size: 0.8rem; margin-bottom: 10px; }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+    button.play, button.choice, button.check, button.next {
+      appearance: none;
+      border: 0;
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      min-height: 48px;
+      color: var(--text);
+      background: var(--btn);
+    }
+    button.play {
+      background: #1d4ed8;
+      min-width: 52px;
+      font-size: 1.25rem;
+    }
+    button.play.playing { background: #0369a1; outline: 2px solid var(--accent); }
+    button.choice { flex: 1 1 40%; background: #475569; }
+    button.choice.selected { outline: 2px solid var(--accent); }
+    button.choice.correct { background: #166534; }
+    button.choice.wrong { background: #7f1d1d; }
+    button.check, button.next {
+      background: #0ea5e9;
+      color: #082f49;
+      width: 100%;
+      margin-top: 4px;
+    }
+    button:disabled { opacity: 0.45; cursor: not-allowed; }
+    input[type="text"] {
+      flex: 1 1 180px;
+      min-height: 48px;
+      border-radius: 12px;
+      border: 2px solid #475569;
+      background: #0f172a;
+      color: var(--text);
+      font-size: 1.1rem;
+      padding: 10px 12px;
+      width: 100%;
+    }
+    input[type="text"]:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+    .feedback { min-height: 1.3em; font-size: 0.95rem; margin-top: 6px; }
+    .feedback.ok { color: var(--ok); }
+    .feedback.bad { color: var(--bad); }
+    .beep-note { font-size: 0.8rem; color: var(--muted); margin: 4px 0 8px; }
+    .locked { opacity: 0.55; pointer-events: none; }
+    footer { color: var(--muted); font-size: 0.75rem; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <button type="button" id="tapStart" class="banner show" aria-label="Tap to start audio">
+    🔊 Tap to start — Section 1 instruction
+  </button>
+
+  <h1>Zap Grammar — Audio Sample</h1>
+  <p class="sub">Beep / pause / “blank” comparison · GreenZap Unit 01 real items · answers never spoken</p>
+
+  <!-- SECTION 1 -->
+  <section class="section" id="section1">
+    <h2>Section 1 <span class="tag">Words only · 빈칸 말만</span></h2>
+    <p class="instr" id="instr1Text">주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 알맞은 형태로 바꿔 쓰세요.</p>
+    <div class="row">
+      <button type="button" class="play" data-src="audio/instr1.mp3" title="Play instruction">🔊 Instruction</button>
+    </div>
+
+    <!-- Q1 fill + beep A/B/C -->
+    <div class="q" data-q="1">
+      <p class="meta">Q1 · fill-in · Green1 Run A2 · beep test</p>
+      <p class="prompt">She ________ my classmate. <span style="color:var(--muted)">( be )</span></p>
+      <p class="beep-note">Compare blank styles (same sentence):</p>
+      <div class="row">
+        <button type="button" class="play" data-src="audio/q1_a.mp3">🔊 A beep</button>
+        <button type="button" class="play" data-src="audio/q1_b.mp3">🔊 B pause</button>
+        <button type="button" class="play" data-src="audio/q1_c.mp3">🔊 C “blank”</button>
+      </div>
+      <div class="row">
+        <input type="text" id="ans1" autocomplete="off" autocapitalize="none" placeholder="Type the word" />
+      </div>
+      <button type="button" class="check" data-check="1">Check</button>
+      <div class="feedback" id="fb1"></div>
+    </div>
+
+    <!-- Q2 fill + beep A/B/C -->
+    <div class="q" data-q="2">
+      <p class="meta">Q2 · fill-in · Green1 Run A3 · beep test</p>
+      <p class="prompt">I ________ busy today. <span style="color:var(--muted)">( be )</span></p>
+      <p class="beep-note">Compare blank styles:</p>
+      <div class="row">
+        <button type="button" class="play" data-src="audio/q2_a.mp3">🔊 A beep</button>
+        <button type="button" class="play" data-src="audio/q2_b.mp3">🔊 B pause</button>
+        <button type="button" class="play" data-src="audio/q2_c.mp3">🔊 C “blank”</button>
+      </div>
+      <div class="row">
+        <input type="text" id="ans2" autocomplete="off" autocapitalize="none" placeholder="Type the word" />
+      </div>
+      <button type="button" class="check" data-check="2">Check</button>
+      <div class="feedback" id="fb2"></div>
+    </div>
+
+    <!-- Q3 two sentences — audio is first only -->
+    <div class="q" data-q="3">
+      <p class="meta">Q3 · two sentences · Green1 Jump A2 · audio = first sentence only</p>
+      <p class="prompt">He is hungry now. <span style="color:var(--muted)">( I )</span><br>→ ______ ______ hungry now.</p>
+      <div class="row">
+        <button type="button" class="play" data-src="audio/q3.mp3">🔊 Play cue</button>
+      </div>
+      <div class="row">
+        <input type="text" id="ans3" autocomplete="off" autocapitalize="none" placeholder="e.g. I am" />
+      </div>
+      <button type="button" class="check" data-check="3">Check</button>
+      <div class="feedback" id="fb3"></div>
+    </div>
+
+    <!-- Q4 MC -->
+    <div class="q" data-q="4">
+      <p class="meta">Q4 · multiple choice · Green1 Walk1 A2 · audio says “blank”, not options</p>
+      <p class="prompt">He ( am / is ) a police officer.</p>
+      <div class="row">
+        <button type="button" class="play" data-src="audio/q4.mp3">🔊 Play</button>
+      </div>
+      <div class="row" id="mc4">
+        <button type="button" class="choice" data-v="am">am</button>
+        <button type="button" class="choice" data-v="is">is</button>
+      </div>
+      <button type="button" class="check" data-check="4">Check</button>
+      <div class="feedback" id="fb4"></div>
+    </div>
+  </section>
+
+  <!-- SECTION 2 -->
+  <section class="section locked" id="section2">
+    <h2>Section 2 <span class="tag">Full sentence · 문장 전체</span></h2>
+    <p class="instr">다음 문장을 괄호 안의 지시대로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)</p>
+    <div class="row">
+      <button type="button" class="play" data-src="audio/instr2.mp3" id="instr2Btn">🔊 Instruction</button>
+    </div>
+
+    <div class="q" data-q="5">
+      <p class="meta">Q5 · full sentence · Green1 Fly A2</p>
+      <p class="prompt">We are in the yard. <span style="color:var(--muted)">( 부정문 )</span></p>
+      <div class="row">
+        <button type="button" class="play" data-src="audio/q5.mp3">🔊 Play</button>
+      </div>
+      <div class="row">
+        <input type="text" id="ans5" autocomplete="off" autocapitalize="none" placeholder="Write the full sentence" />
+      </div>
+      <button type="button" class="check" data-check="5">Check</button>
+      <div class="feedback" id="fb5"></div>
+    </div>
+  </section>
+
+  <footer>
+    Sources: data/green1/unit01/{run,jump,walk1,fly}.json · Voices: instruction Miss Harper · questions KITT · Fish s2.1-pro-free · sample only
+  </footer>
+
+  <script>
+    (function () {
+      const done = { 1: false, 2: false, 3: false, 4: false };
+      let section2Started = false;
+      let currentAudio = null;
+
+      function norm(s) {
+        return String(s || "")
+          .trim()
+          .toLowerCase()
+          .replace(/[’‘]/g, "'")
+          .replace(/\s+/g, " ")
+          .replace(/[.,!?]+$/g, "");
+      }
+
+      const accept = {
+        1: ["is"],
+        2: ["am"],
+        3: ["i am"],
+        4: ["is"],
+        5: [
+          "we aren't in the yard",
+          "we are not in the yard",
+          "we're not in the yard"
+        ]
+      };
+
+      function playSrc(src, btn) {
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio = null;
+        }
+        document.querySelectorAll("button.play.playing").forEach((b) => b.classList.remove("playing"));
+        const a = new Audio(src);
+        currentAudio = a;
+        if (btn) btn.classList.add("playing");
+        a.addEventListener("ended", () => {
+          if (btn) btn.classList.remove("playing");
+          if (currentAudio === a) currentAudio = null;
+        });
+        return a.play();
+      }
+
+      document.querySelectorAll("button.play").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          playSrc(btn.getAttribute("data-src"), btn).catch(() => {});
+        });
+      });
+
+      // MC select
+      let mc4 = null;
+      document.querySelectorAll("#mc4 .choice").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll("#mc4 .choice").forEach((b) => b.classList.remove("selected"));
+          btn.classList.add("selected");
+          mc4 = btn.getAttribute("data-v");
+        });
+      });
+
+      function maybeUnlockSection2() {
+        if (section2Started) return;
+        if (done[1] && done[2] && done[3] && done[4]) {
+          section2Started = true;
+          const sec2 = document.getElementById("section2");
+          sec2.classList.remove("locked");
+          sec2.scrollIntoView({ behavior: "smooth", block: "start" });
+          const btn = document.getElementById("instr2Btn");
+          playSrc("audio/instr2.mp3", btn).catch(() => {
+            const tap = document.getElementById("tapStart");
+            tap.textContent = "🔊 Tap to play Section 2 instruction";
+            tap.classList.add("show");
+            tap.onclick = () => {
+              tap.classList.remove("show");
+              playSrc("audio/instr2.mp3", btn).catch(() => {});
+            };
+          });
+        }
+      }
+
+      function mark(q, ok, msg) {
+        const fb = document.getElementById("fb" + q);
+        fb.className = "feedback " + (ok ? "ok" : "bad");
+        fb.textContent = msg;
+        if (ok && q <= 4) {
+          done[q] = true;
+          maybeUnlockSection2();
+        }
+      }
+
+      document.querySelectorAll("button.check").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const q = Number(btn.getAttribute("data-check"));
+          let val = "";
+          if (q === 4) val = mc4 || "";
+          else val = document.getElementById("ans" + q).value;
+          const n = norm(val);
+          const okList = accept[q];
+          const ok = okList.some((a) => n === a);
+          if (!n) {
+            mark(q, false, "Type or choose an answer first.");
+            return;
+          }
+          mark(q, ok, ok ? "Correct!" : "Not yet — try again.");
+          if (q === 4) {
+            document.querySelectorAll("#mc4 .choice").forEach((b) => {
+              b.classList.remove("correct", "wrong");
+              if (b.getAttribute("data-v") === "is") b.classList.add("correct");
+              if (b.getAttribute("data-v") === mc4 && mc4 !== "is") b.classList.add("wrong");
+            });
+          }
+        });
+      });
+
+      // Enter key submits
+      ["ans1", "ans2", "ans3", "ans5"].forEach((id) => {
+        const el = document.getElementById(id);
+        el.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            const q = id.replace("ans", "");
+            document.querySelector('button.check[data-check="' + q + '"]').click();
+          }
+        });
+      });
+
+      // Autoplay instr1 with tap fallback
+      const tap = document.getElementById("tapStart");
+      function tryAutoplay() {
+        playSrc("audio/instr1.mp3", null)
+          .then(() => { tap.classList.remove("show"); })
+          .catch(() => { tap.classList.add("show"); });
+      }
+      tap.addEventListener("click", () => {
+        tap.classList.remove("show");
+        playSrc("audio/instr1.mp3", null).catch(() => {});
+      });
+      if (document.readyState === "complete") tryAutoplay();
+      else window.addEventListener("load", tryAutoplay);
+    })();
+  </script>
+</body>
+</html>
