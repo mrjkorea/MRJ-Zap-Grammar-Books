@@ -3,3 +3,10 @@ node_modules/
 package-lock.json
 package.json
 audit-pages/
+
+# Fish TTS bake cache (regenerable)
+audio/_cache/
+audio/_beep.wav
+audio/_silence.wav
+audio/**/.join-*/
+audio/**/.edge*
