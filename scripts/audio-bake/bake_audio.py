@@ -883,14 +883,9 @@ def commit_book(book: str) -> None:
         subprocess.run(["git", "checkout", "-b", "audio-bake"], cwd=REPO, check=True)
     else:
         subprocess.run(["git", "checkout", "audio-bake"], cwd=REPO, capture_output=True)
-        # Stash local dirty files so pull --rebase can run; restore after.
-        st = subprocess.run(
-            ["git", "stash", "push", "-u", "-m", f"audio-bake-pre-pull-{book}"],
-            cwd=REPO,
-            capture_output=True,
-            text=True,
-        )
-        stashed = st.returncode == 0 and "No local changes" not in (st.stdout or "")
+        # Try to stay linear; if the tree is dirty (in-progress bake files), skip
+        # pull here and rely on pull --rebase after a rejected push below.
+        # Do NOT stash -u: that would yank other books' untracked audio mid-bake.
         rb = subprocess.run(
             ["git", "pull", "--rebase", "origin", "audio-bake"],
             cwd=REPO,
@@ -899,15 +894,6 @@ def commit_book(book: str) -> None:
         )
         if rb.returncode != 0:
             log(f"pull --rebase warn {book}: {rb.stderr[-300:]}")
-        if stashed:
-            pop = subprocess.run(
-                ["git", "stash", "pop"],
-                cwd=REPO,
-                capture_output=True,
-                text=True,
-            )
-            if pop.returncode != 0:
-                log(f"stash pop warn {book}: {(pop.stderr or pop.stdout)[-300:]}")
 
     candidates = [
         f"audio/{book}",

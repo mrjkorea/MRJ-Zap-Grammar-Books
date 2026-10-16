@@ -10,3 +10,8 @@ audio/_beep.wav
 audio/_silence.wav
 audio/**/.join-*/
 audio/**/.edge*
+
+# ffmpeg bake temps
+audio/**/*.pre.mp3
+audio/**/*.tmp.mp3
+audio/**/*.raw.mp3
