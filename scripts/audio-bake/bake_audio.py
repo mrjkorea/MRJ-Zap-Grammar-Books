@@ -909,7 +909,7 @@ def commit_book(book: str) -> None:
             if pop.returncode != 0:
                 log(f"stash pop warn {book}: {(pop.stderr or pop.stdout)[-300:]}")
 
-    add_paths = [
+    candidates = [
         f"audio/{book}",
         "audio/manifest.json",
         "audio/_progress.json",
@@ -917,6 +917,8 @@ def commit_book(book: str) -> None:
         "audio/COUNT_ESTIMATE.txt",
         "scripts/audio-bake/",
     ]
+    # Only add paths that exist — a missing pathspec aborts the whole git add.
+    add_paths = [p for p in candidates if (REPO / p).exists()]
     # Retry add briefly if another git process holds the index lock
     for attempt in range(5):
         add = subprocess.run(

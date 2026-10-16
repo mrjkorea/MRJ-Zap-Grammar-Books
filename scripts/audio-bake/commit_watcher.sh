@@ -30,7 +30,10 @@ commit_book() {
   fi
   local n
   n=$(find "audio/${book}" -name '*.mp3' | wc -l)
-  git add -- "audio/${book}" audio/_progress.json audio/bake.log audio/COUNT_ESTIMATE.txt scripts/audio-bake/ 2>/dev/null || true
+  to_add=("audio/${book}" audio/_progress.json audio/bake.log scripts/audio-bake/)
+  [[ -f audio/COUNT_ESTIMATE.txt ]] && to_add+=(audio/COUNT_ESTIMATE.txt)
+  [[ -f audio/manifest.json ]] && to_add+=(audio/manifest.json)
+  git add -- "${to_add[@]}" 2>/dev/null || true
   if git diff --cached --quiet; then
     echo "$(date -Iseconds) skip $book nothing staged (n=$n)" | tee -a "$LOG"
     return 0
