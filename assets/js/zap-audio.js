@@ -3,7 +3,7 @@
 (function () {
   "use strict";
 
-  var VER = "20261016-audio";
+  var VER = "20261016-audio2";
   var MANIFEST_URL = "audio/manifest.json?v=" + VER;
   var app = document.getElementById("mrj-app-root");
   if (!app) return;
@@ -13,6 +13,7 @@
   var loadPromise = null;
   var current = null; // { audio, btn }
   var autoplayKey = null;
+  var autoplayFailed = false;
   var queued = false;
 
   function bust(path) {
@@ -143,11 +144,19 @@
     audio.addEventListener("error", clear);
     var p = audio.play();
     if (p && p.then) {
-      return p.catch(function (err) {
-        clear();
-        throw err;
-      });
+      return p
+        .then(function () {
+          // Any successful play dismisses the unlock prompt.
+          autoplayFailed = false;
+          hideUnlock();
+        })
+        .catch(function (err) {
+          clear();
+          throw err;
+        });
     }
+    autoplayFailed = false;
+    hideUnlock();
     return Promise.resolve();
   }
 
@@ -164,6 +173,11 @@
     if (el) el.classList.add("is-hidden");
   }
 
+  function unlockVisible() {
+    var el = document.querySelector(".q-sound-unlock");
+    return !!(el && !el.classList.contains("is-hidden"));
+  }
+
   function showUnlock(playFn) {
     var el = document.querySelector(".q-sound-unlock");
     if (!el) {
@@ -176,6 +190,7 @@
     el.onclick = function () {
       playFn()
         .then(function () {
+          autoplayFailed = false;
           el.classList.add("is-hidden");
         })
         .catch(function () {
@@ -185,21 +200,42 @@
     el.classList.remove("is-hidden");
   }
 
-  function tryAutoplayFirst(instrBtn, url, key) {
-    if (!instrBtn || !url) return;
-    if (autoplayKey === key) return;
-    autoplayKey = key;
-    playUrl(instrBtn, url).then(hideUnlock).catch(function () {
-      showUnlock(function () {
-        return playUrl(instrBtn, url);
-      });
+  function bindUnlock(instrBtn, url) {
+    showUnlock(function () {
+      return playUrl(instrBtn, url);
     });
+  }
+
+  function resetAutoplayState() {
+    autoplayKey = null;
+    autoplayFailed = false;
+  }
+
+  function tryAutoplayFirst(instrBtn, url, key) {
+    if (!instrBtn || !url || !key) return;
+    if (autoplayKey === key) {
+      // Same practice re-decorate: keep failed unlock bound to the current button.
+      if (autoplayFailed) bindUnlock(instrBtn, url);
+      return;
+    }
+    autoplayKey = key;
+    autoplayFailed = false;
+    playUrl(instrBtn, url)
+      .then(function () {
+        autoplayFailed = false;
+        hideUnlock();
+      })
+      .catch(function () {
+        autoplayFailed = true;
+        bindUnlock(instrBtn, url);
+      });
   }
 
   function decorate(practice, route) {
     var form = app.querySelector("form");
     if (!form || !practice) return;
 
+    var key = practiceKey(practice, route);
     var firstInstr = null;
     var banners = form.querySelectorAll(".section-banner");
     for (var bi = 0; bi < banners.length; bi++) {
@@ -252,9 +288,17 @@
     }
 
     if (firstInstr) {
-      tryAutoplayFirst(firstInstr.btn, firstInstr.url, practiceKey(practice, route));
-    } else {
-      hideUnlock();
+      tryAutoplayFirst(firstInstr.btn, firstInstr.url, key);
+      return;
+    }
+
+    // Re-decorate (banners already marked): never hide unlock here.
+    // If autoplay previously failed for this practice, keep/rebind the prompt.
+    if (autoplayFailed && autoplayKey === key) {
+      var existing = form.querySelector(".q-speak--instr");
+      if (existing) {
+        bindUnlock(existing, existing.getAttribute("data-zap-src"));
+      }
     }
   }
 
@@ -264,7 +308,7 @@
     if (!route) {
       stopCurrent();
       hideUnlock();
-      autoplayKey = null;
+      resetAutoplayState();
       return;
     }
     ensureManifest().then(function () {
@@ -282,8 +326,8 @@
 
   window.addEventListener("hashchange", function () {
     stopCurrent();
-    autoplayKey = null;
     hideUnlock();
+    resetAutoplayState();
     queue();
   });
 
