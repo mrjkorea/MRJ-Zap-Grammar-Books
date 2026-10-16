@@ -2,7 +2,8 @@
   "done_books": [
     "green1",
     "green2",
-    "green3"
+    "green3",
+    "green4"
   ],
   "counts": {
     "green1": {
@@ -20,18 +21,25 @@
       "target": 1375
     },
     "green3": {
-      "made": 11,
-      "exists": 1365,
+      "made": 0,
+      "exists": 1376,
       "fail": 0,
       "skip": 267,
       "target": 1376
     },
     "green4": {
-      "made": 350,
-      "exists": 0,
+      "made": 13,
+      "exists": 1271,
       "fail": 0,
       "skip": 327,
       "target": 1284
+    },
+    "blue1": {
+      "made": 75,
+      "exists": 0,
+      "fail": 0,
+      "skip": 246,
+      "target": 1789
     }
   },
   "skips": {},
