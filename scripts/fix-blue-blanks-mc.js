@@ -22,11 +22,8 @@ function reorderMcAccept(it) {
     if (circ) good.push(circ);
     good.push(c);
   }
-  const pick = good.find((a) => {
-    const i = /^\d+$/.test(a) ? Number(a) - 1 : circled.indexOf(a);
-    if (i >= 0 && i < it.choices.length) return true;
-    return it.choices.includes(a);
-  });
+  // Only promote an accept entry the item already has (never invent "1").
+  const pick = good.find((a) => it.accept.includes(a));
   if (!pick || it.accept[0] === pick) return false;
   const rest = it.accept.filter((x) => x !== pick);
   it.accept = [pick, ...rest];

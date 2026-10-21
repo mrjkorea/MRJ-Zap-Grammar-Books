@@ -105,7 +105,15 @@ async function runPractice(context, bookId, unitId, ex, mode) {
         const wi = ri >= 0 ? (ri + 1) % it.choices.length : 0;
         return { id: it.id, type: "mc", choiceIndex: wi };
       }
-      return { id: it.id, type: "fill", value: "WRONG_ANSWER_XYZ" };
+      // Multi-blank fills render one input per blank (name="<id>_<n>"); fill every box
+      // so the form is complete, with a wrong last part, or submit is blocked.
+      const bn = it.blanks || 1;
+      if (bn > 1) {
+        const parts = Array.from({ length: bn }, () => "WRONG");
+        parts[bn - 1] = "WRONG_ANSWER_XYZ";
+        return { id: it.id, type: "multi", parts, blanks: bn };
+      }
+      return { id: it.id, type: "single", value: "WRONG_ANSWER_XYZ" };
     }
     if (it.type === "mc") {
       const pick = respParts(it, acc);
