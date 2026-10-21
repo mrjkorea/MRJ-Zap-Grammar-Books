@@ -196,10 +196,10 @@
       "label": "A9",
       "id": "a09",
       "type": "fill",
-      "promptEn": "You ______ ______ the light. ( turn off / must )",
-      "blanks": 2,
+      "promptEn": "You ______ ______ ______ the light. ( turn off / must )",
+      "blanks": 3,
       "accept": [
-        "must|turn off"
+        "must|turn|off"
       ]
     },
     {
@@ -226,10 +226,10 @@
       "label": "A11",
       "id": "a11",
       "type": "fill",
-      "promptEn": "Mary ______ ______ her mom now. ( help / has to )",
-      "blanks": 2,
+      "promptEn": "Mary ______ ______ ______ her mom now. ( help / has to )",
+      "blanks": 3,
       "accept": [
-        "has to|help"
+        "has|to|help"
       ]
     },
     {
@@ -241,11 +241,11 @@
       "label": "A12",
       "id": "a12",
       "type": "fill",
-      "promptEn": "You ______ ______ ______ your hat. ( don't / bring / have to )",
-      "blanks": 3,
+      "promptEn": "You ______ ______ ______ ______ your hat. ( don't / bring / have to )",
+      "blanks": 4,
       "accept": [
-        "don't|have to|bring",
-        "do not|have to|bring"
+        "don't|have|to|bring",
+        "do not|have|to|bring"
       ]
     },
     {

@@ -15,7 +15,19 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Blank = box check (fails on any mismatch)
+        run: node scripts/check-blank-count.js
+      - name: Data integrity
+        run: node scripts/check-all-data.js
   deploy:
+    needs: check
     runs-on: ubuntu-latest
     environment:
       name: github-pages

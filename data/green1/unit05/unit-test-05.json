@@ -599,7 +599,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "18",
       "type": "fill",
-      "promptEn": "A: Can the girl read a map?\nB: Yes, ______.",
+      "promptEn": "A: Can the girl read a map?\nB: Yes, ______ ______.",
       "blanks": 2,
       "accept": [
         "she|can"
@@ -615,12 +615,12 @@
       "label": "19",
       "type": "fill",
       "promptEn": "A: Brian, are you able to do taekwondo?\nB: No, ______.",
-      "blanks": 2,
+      "blanks": 1,
       "accept": [
-        "I'm|not",
-        "I|am|not",
-        "I am|not"
-      ]
+        "I'm not",
+        "I am not"
+      ],
+      "phraseBlanks": true
     },
     {
       "id": "q20",

@@ -72,7 +72,8 @@
       "accept": [
         "how many",
         "How many"
-      ]
+      ],
+      "phraseBlanks": true
     },
     {
       "id": "wrap-w2_2",
@@ -88,7 +89,8 @@
       "accept": [
         "how much",
         "How much"
-      ]
+      ],
+      "phraseBlanks": true
     },
     {
       "id": "wrap-w2_3",
@@ -138,13 +140,11 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "2-[5·6]",
       "type": "fill",
-      "promptKo": "⑤ 표 칸([5][6], ‘얼마나 자주’)에 들어갈 말을 쓴다. → [5] _____ [6]",
+      "promptKo": "⑤ 표 칸([5][6], ‘얼마나 자주’)에 들어갈 말을 쓴다. → [5] ______ ______ [6]",
       "blanks": 2,
       "accept": [
         "how|often",
-        "How|often",
-        "how often",
-        "How often"
+        "How|often"
       ]
     }
   ],

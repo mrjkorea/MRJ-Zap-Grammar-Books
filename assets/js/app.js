@@ -231,6 +231,9 @@
       card.appendChild(en);
     }
     if (item.noteKo) card.appendChild($("div", "q-note", item.noteKo));
+    // Blank = box rule notes (see README): never reveal the answer, only how to type it
+    if (item.sharedAnswer) card.appendChild($("div", "q-note", "※ 두 빈칸에 공통으로 들어갈 한 단어를 한 번만 쓰세요."));
+    if (item.phraseBlanks) card.appendChild($("div", "q-note", "※ 이 문항은 한 칸에 두 단어 이상을 쓸 수 있어요."));
   }
 
   function renderExampleCard(item) {

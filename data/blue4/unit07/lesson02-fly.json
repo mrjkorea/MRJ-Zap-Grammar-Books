@@ -373,11 +373,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "Dave won't go swimming this afternoon, ______?",
+      "promptEn": "Dave won't go swimming this afternoon, ______ ______?",
       "accept": [
-        "will he"
+        "will|he"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b06",
@@ -433,11 +433,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B9",
       "type": "fill",
-      "promptEn": "He will brush his teeth before bed, ______?",
+      "promptEn": "He will brush his teeth before bed, ______ ______?",
       "accept": [
-        "won't he"
+        "won't|he"
       ],
-      "blanks": 1
+      "blanks": 2
     },
     {
       "id": "b10",
@@ -523,11 +523,11 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "B15",
       "type": "fill",
-      "promptEn": "She won't answer the question, ______?",
+      "promptEn": "She won't answer the question, ______ ______?",
       "accept": [
-        "will she"
+        "will|she"
       ],
-      "blanks": 1
+      "blanks": 2
     }
   ]
 }

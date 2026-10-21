@@ -670,10 +670,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "25",
       "type": "fill",
-      "promptEn": "그 학교 앞에 버스 정류장이 하나 있다. ( the school )\nThere is a bus stop _____ _____ _____ _____.",
-      "blanks": 4,
+      "promptEn": "그 학교 앞에 버스 정류장이 하나 있다. ( the school )\nThere is a bus stop ______ ______ ______ ______ ______.",
+      "blanks": 5,
       "accept": [
-        "in|front|of|the school"
+        "in|front|of|the|school"
       ]
     }
   ]

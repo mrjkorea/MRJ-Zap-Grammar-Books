@@ -72,11 +72,11 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "( doesn't have legs )\nA: A snake ________ ________?\nB: No, it doesn't.",
-      "blanks": 2,
+      "promptEn": "( doesn't have legs )\nA: A snake ______ ______ ______ ______ ______?\nB: No, it doesn't.",
+      "blanks": 5,
       "accept": [
-        "doesn't have legs|does it",
-        "does not have legs|does it"
+        "doesn't|have|legs|does|it",
+        "does not|have|legs|does|it"
       ]
     },
     {
@@ -88,11 +88,11 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "( is tall )\nA: A giraffe ________ ________?\nB: Yes, it is.",
-      "blanks": 2,
+      "promptEn": "( is tall )\nA: A giraffe ______ ______ ______ ______?\nB: Yes, it is.",
+      "blanks": 4,
       "accept": [
-        "is tall|isn't it",
-        "is tall|is not it"
+        "is|tall|isn't|it",
+        "is|tall|is not|it"
       ]
     },
     {
@@ -104,12 +104,12 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "( can carry heavy things )\nA: Elephants ________ ________?\nB: Yes, they can.",
-      "blanks": 2,
+      "promptEn": "( can carry heavy things )\nA: Elephants ______ ______ ______ ______ ______ ______?\nB: Yes, they can.",
+      "blanks": 6,
       "accept": [
-        "can carry heavy things|can't they",
-        "can carry heavy things|can not they",
-        "can carry heavy things|cannot they"
+        "can|carry|heavy|things|can't|they",
+        "can|carry|heavy|things|can not|they",
+        "can|carry|heavy|things|cannot|they"
       ]
     },
     {
@@ -121,12 +121,12 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "( can't fly )\nA: Ostriches ________ ________?\nB: No, they can't.",
-      "blanks": 2,
+      "promptEn": "( can't fly )\nA: Ostriches ______ ______ ______ ______?\nB: No, they can't.",
+      "blanks": 4,
       "accept": [
-        "can't fly|can they",
-        "can not fly|can they",
-        "cannot fly|can they"
+        "can't|fly|can|they",
+        "can not|fly|can|they",
+        "cannot|fly|can|they"
       ]
     },
     {

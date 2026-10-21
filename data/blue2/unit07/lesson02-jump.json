@@ -196,10 +196,10 @@
       "label": "A9",
       "id": "a09",
       "type": "fill",
-      "promptEn": "Your mother is boiling eggs. (의문문)\n→ ______ ______ ______ eggs?",
-      "blanks": 3,
+      "promptEn": "Your mother is boiling eggs. (의문문)\n→ ______ ______ ______ ______ eggs?",
+      "blanks": 4,
       "accept": [
-        "Is|your mother|boiling"
+        "Is|your|mother|boiling"
       ]
     },
     {
@@ -214,7 +214,7 @@
       "promptEn": "The boys are jumping rope. (부정문)\n→ ______ ______ ______ ______ rope.",
       "blanks": 4,
       "accept": [
-        "The boys|are|not|jumping"
+        "The|boys|are not|jumping"
       ]
     },
     {

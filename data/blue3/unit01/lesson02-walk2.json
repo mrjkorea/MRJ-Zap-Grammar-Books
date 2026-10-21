@@ -124,12 +124,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "That girl is able to catch my ball.\n→ ______ ______ able to catch my ball?",
+      "promptEn": "That girl is able to catch my ball.\n→ ______ ______ ______ able to catch my ball?",
       "accept": [
-        "Is|that girl"
+        "Is|that|girl"
       ],
       "promptKo": "저 여자아이는 내 공을 받을 수 있다.",
-      "blanks": 2
+      "blanks": 3
     },
     {
       "id": "b01",

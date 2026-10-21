@@ -195,6 +195,18 @@ for (const book of catalog.books.filter((b) => b.enabled)) {
   }
 }
 
+// Blank = box rule (scripts/check-blank-count.js): visible blanks must equal input boxes.
+{
+  const BC = require("./lib/blank-count");
+  for (const f of BC.practiceFiles(REPO)) {
+    const d = JSON.parse(fs.readFileSync(f, "utf8"));
+    for (const it of d.items || []) {
+      const r = BC.checkItem(it, d);
+      if (r && !r.ok) fail(path.relative(REPO, f), it.id, "blank/box:", r.problems.join(","), "shown", r.visible, "boxes", r.boxes);
+    }
+  }
+}
+
 if (bad) {
   console.log("check-all-data: FAILURES", bad);
   process.exit(1);

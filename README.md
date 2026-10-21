@@ -141,6 +141,7 @@ node scripts/e2e-red-full-browser.js   # all Red practices (Playwright)
 - After submit: ✓/✗ by book **label**, grouped by section, plus a **wrong-answer review** (your answer, question, section instructions — still **no correct answers**). Under **50%**, the same review appears when you open **Try again**.
 - **Pass** tracking at **80%+**; score **under 50%** forces a **retry** (same exercise, still no answers).
 - **Timer** on every practice. Remaining time is shown; at **0:00** the form **auto-submits** and locks.
+- **Blank = box rule.** In every typed item the student sees exactly as many printed blanks (`____`) as input boxes. If the book prints one blank line for a multi-word answer, the prompt shows one blank segment per word (`Ben ______ ______ ______ the guitar`) so each box is one word, matching "한 칸에 한 단어". Words already printed in the sentence are never part of the answer. Exceptions, each explicit in the data: `phraseBlanks: true` (one box per printed blank may take a phrase, e.g. *isn't able to* / *is not able to*, noun phrases, *the other*; the app shows "※ 이 문항은 한 칸에 두 단어 이상을 쓸 수 있어요." under the item), `sharedAnswer: true` (one word fills two blanks; the app shows "※ 두 빈칸에 공통으로 들어갈 한 단어를 한 번만 쓰세요."), and sentence-mode items with one box (write the whole sentence). Display-only examples never show boxes and their `exampleAnswer` has one part per blank. Every multi-box item needs at least one `accept` variant with exactly one part per box. Enforced by `node scripts/check-blank-count.js` (also run inside `check-all-data.js` and by the Pages workflow before deploy); `--local` / `--live URL` re-check a headless render of every practice.
 - Answers accept contractions and full forms, case-insensitive, trimmed/collapsed spaces. Curly apostrophes from mobile keyboards are normalized.
 
 ## Metrics
@@ -165,7 +166,8 @@ python3 -m http.server 8080
 ```bash
 node scripts/pack-unit-test.js
 node scripts/smoke-sections.js    # GreenZap 1 units 01–08 + GreenZap 3 unit 01
-node scripts/check-all-data.js      # all green1–green4 JSON integrity
+node scripts/check-all-data.js      # all 10 books JSON integrity (includes blank = box rule)
+node scripts/check-blank-count.js   # blank = box rule; --warn lists rewrite items without printed blanks; --local/--live URL for headless render
 node scripts/smoke-gz1-all.js       # catalog-driven: all 78 GreenZap 1 data files
 node scripts/smoke-gz2-all.js       # all 78 GreenZap 2 practices + per-unit smokes
 node scripts/smoke-gz3-all.js

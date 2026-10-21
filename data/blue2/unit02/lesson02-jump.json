@@ -148,13 +148,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "______ ______ ______ the newspaper? ( your father, read )",
+      "promptEn": "______ ______ ______ ______ the newspaper? ( your father, read )",
       "accept": [
-        "Does|your father|read",
-        "Does|your father|read"
+        "Does|your|father|read"
       ],
       "promptKo": "너희 아버지는 신문을 읽으시니?",
-      "blanks": 3
+      "blanks": 4
     },
     {
       "id": "a05",
@@ -325,13 +324,12 @@
       "answerModeTag": "Words · 빈칸 말만",
       "label": "A15",
       "type": "fill",
-      "promptEn": "______ ______ ______ bananas? ( the monkey, eat )",
+      "promptEn": "______ ______ ______ ______ bananas? ( the monkey, eat )",
       "accept": [
-        "Does|the monkey|eat",
-        "Does|the monkey|eat"
+        "Does|the|monkey|eat"
       ],
       "promptKo": "그 원숭이는 바나나를 먹니?",
-      "blanks": 3
+      "blanks": 4
     },
     {
       "id": "b02",

@@ -347,10 +347,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "( hot, as, yesterday )\nToday is ______.",
-      "blanks": 1,
+      "promptEn": "( hot, as, yesterday )\nToday is ______ ______ ______ ______.",
+      "blanks": 4,
       "accept": [
-        "as hot as yesterday"
+        "as|hot|as|yesterday"
       ]
     },
     {
@@ -362,10 +362,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "( pretty, as, her sister )\nLinda was ______.",
-      "blanks": 1,
+      "promptEn": "( pretty, as, her sister )\nLinda was ______ ______ ______ ______ ______.",
+      "blanks": 5,
       "accept": [
-        "as pretty as her sister"
+        "as|pretty|as|her|sister"
       ]
     },
     {
@@ -377,10 +377,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "( early, as, her mom )\nShe didn't get up ______.",
-      "blanks": 1,
+      "promptEn": "( early, as, her mom )\nShe didn't get up ______ ______ ______ ______ ______.",
+      "blanks": 5,
       "accept": [
-        "as early as her mom"
+        "as|early|as|her|mom"
       ]
     },
     {
@@ -392,10 +392,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "( not, young, as, Ms. Kim )\nMs. Park is ______.",
-      "blanks": 1,
+      "promptEn": "( not, young, as, Ms. Kim )\nMs. Park is ______ ______ ______ ______ ______ ______.",
+      "blanks": 6,
       "accept": [
-        "not as young as Ms. Kim"
+        "not|as|young|as|Ms.|Kim"
       ]
     },
     {
@@ -407,10 +407,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B6",
       "type": "fill",
-      "promptEn": "( fast, and )\nThe truck ran ______.",
-      "blanks": 1,
+      "promptEn": "( fast, and )\nThe truck ran ______ ______ ______.",
+      "blanks": 3,
       "accept": [
-        "faster and faster"
+        "faster|and|faster"
       ]
     },
     {
@@ -422,10 +422,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B7",
       "type": "fill",
-      "promptEn": "( fat, and )\nThe pigs grew ______.",
-      "blanks": 1,
+      "promptEn": "( fat, and )\nThe pigs grew ______ ______ ______.",
+      "blanks": 3,
       "accept": [
-        "fatter and fatter"
+        "fatter|and|fatter"
       ]
     },
     {
@@ -437,10 +437,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B8",
       "type": "fill",
-      "promptEn": "( expensive, and )\nRoses are getting ______.",
-      "blanks": 1,
+      "promptEn": "( expensive, and )\nRoses are getting ______ ______ ______ ______.",
+      "blanks": 4,
       "accept": [
-        "more and more expensive"
+        "more|and|more|expensive"
       ]
     },
     {
@@ -452,10 +452,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B9",
       "type": "fill",
-      "promptEn": "( much, small )\nThe star is ______ than the sun.",
-      "blanks": 1,
+      "promptEn": "( much, small )\nThe star is ______ ______ than the sun.",
+      "blanks": 2,
       "accept": [
-        "much smaller"
+        "much|smaller"
       ]
     },
     {
@@ -467,10 +467,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B10",
       "type": "fill",
-      "promptEn": "( a lot, comfortable )\nThis sofa looks ______ than that chair.",
-      "blanks": 1,
+      "promptEn": "( a lot, comfortable )\nThis sofa looks ______ ______ ______ ______ than that chair.",
+      "blanks": 4,
       "accept": [
-        "a lot more comfortable"
+        "a|lot|more|comfortable"
       ]
     },
     {
@@ -482,10 +482,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B11",
       "type": "fill",
-      "promptEn": "( even, long )\nJenny's pencil is ______ than Tim's.",
-      "blanks": 1,
+      "promptEn": "( even, long )\nJenny's pencil is ______ ______ than Tim's.",
+      "blanks": 2,
       "accept": [
-        "even longer"
+        "even|longer"
       ]
     },
     {
@@ -497,11 +497,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B12",
       "type": "fill",
-      "promptEn": "( quicky, as, could )\nSue finished her homework ______ she ______.",
-      "blanks": 2,
+      "promptEn": "( quicky, as, could )\nSue finished her homework ______ ______ ______ she ______.",
+      "blanks": 4,
       "accept": [
-        "as quickly as|she could",
-        "as quickly as she could"
+        "as|quickly|as|could"
       ]
     },
     {
@@ -513,11 +512,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B13",
       "type": "fill",
-      "promptEn": "( far, as, could )\nI threw the ball ______ I ______.",
-      "blanks": 2,
+      "promptEn": "( far, as, could )\nI threw the ball ______ ______ ______ I ______.",
+      "blanks": 4,
       "accept": [
-        "as far as|I could",
-        "as far as I could"
+        "as|far|as|could"
       ]
     },
     {
@@ -529,10 +527,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B14",
       "type": "fill",
-      "promptEn": "( famous, park )\nHyde Park is one of ______ in the world.",
-      "blanks": 1,
+      "promptEn": "( famous, park )\nHyde Park is one of ______ ______ ______ ______ in the world.",
+      "blanks": 4,
       "accept": [
-        "the most famous parks"
+        "the|most|famous|parks"
       ]
     },
     {
@@ -544,10 +542,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B15",
       "type": "fill",
-      "promptEn": "( kind, doctor )\nHe is one of ______ in the hospital.",
-      "blanks": 1,
+      "promptEn": "( kind, doctor )\nHe is one of ______ ______ ______ in the hospital.",
+      "blanks": 3,
       "accept": [
-        "the kindest doctors"
+        "the|kindest|doctors"
       ]
     }
   ]
