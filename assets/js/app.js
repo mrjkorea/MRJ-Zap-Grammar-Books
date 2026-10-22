@@ -35,6 +35,15 @@
     return "";
   }
 
+  function mrjTeacher() {
+    try {
+      var api = window.MRJSignin || window.MRJ_AUTH;
+      return !!(api && typeof api.isTeacher === "function" && api.isTeacher());
+    } catch (e) {
+      return false;
+    }
+  }
+
   function brandForBook(bookId) {
     var book = catalog.findBook(bookId) || catalog.findBook("zap-green-1");
     var name = (book && book.appName) || engine.APP_NAME;
@@ -706,6 +715,7 @@
     app.appendChild(form);
 
     function lockForm() {
+      if (mrjTeacher()) return;
       locked = true;
       submitBtn.disabled = true;
       form.querySelectorAll("input, select, button, .match-btn").forEach(function (el) {
@@ -835,6 +845,7 @@
     };
 
     var tick = setInterval(function () {
+      if (mrjTeacher()) return;
       if (locked) return;
       remain--;
       timerText.textContent = "Time left: " + fmt(remain);
@@ -862,6 +873,7 @@
 
   if (!app) return;
 
+  document.addEventListener("mrj-teacher", route);
   window.addEventListener("hashchange", route);
   document.addEventListener("mrj-auth-ready", route);
   if (document.readyState !== "loading") route();
