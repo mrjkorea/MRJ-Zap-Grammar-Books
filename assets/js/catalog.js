@@ -13,6 +13,13 @@
     { id: "zap-green-2", title: "ZAP Green 2", enabled: true, appName: "GreenZap 2", bookTitle: "ZAP Green 2" },
     { id: "zap-green-3", title: "ZAP Green 3", enabled: true, appName: "GreenZap 3", bookTitle: "ZAP Green 3" },
     { id: "zap-green-4", title: "ZAP Green 4", enabled: true, appName: "GreenZap 4", bookTitle: "ZAP Green 4" },
+    {
+      id: "chunilmun-grammar-1",
+      title: "천일문 Grammar 1",
+      enabled: true,
+      appName: "천일문 Grammar 1",
+      bookTitle: "천일문 GRAMMAR LEVEL 1",
+    },
   ];
 
   var UNITS = {
@@ -122,6 +129,9 @@
       { id: "unit-09", title: "Unit 09 — 조동사 can", enabled: true },
       { id: "unit-10", title: "Unit 10 — 명령문", enabled: true },
       { id: "review-05", title: "Review 05", enabled: true },
+    ],
+    "chunilmun-grammar-1": [
+      { id: "chapter-01", title: "Chapter 01 — be동사", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -5872,6 +5882,57 @@
         hint: "Unit 09–10 · pp. 164–167",
         data: "data/red2/review05/review.json",
         practiceId: "r2:rv05:review",
+      },
+    ],
+    "chunilmun-grammar-1:chapter-01": [
+      {
+        slug: "c01-u1-A",
+        title: "Unit 1 Exercise A",
+        hint: "긍정문 · correct be-verb · p. 12",
+        data: "data/chunilmun1/chapter01/c01-u1-A.json",
+        practiceId: "cm1:c01:u1-A",
+      },
+      {
+        slug: "c01-u1-B",
+        title: "Unit 1 Exercise B",
+        hint: "긍정문 · fill be-verb · p. 12",
+        data: "data/chunilmun1/chapter01/c01-u1-B.json",
+        practiceId: "cm1:c01:u1-B",
+      },
+      {
+        slug: "c01-u1-C",
+        title: "Unit 1 Exercise C",
+        hint: "긍정문 · be-verb + 해석 · p. 12",
+        data: "data/chunilmun1/chapter01/c01-u1-C.json",
+        practiceId: "cm1:c01:u1-C",
+      },
+      {
+        slug: "c01-u2-A",
+        title: "Unit 2 Exercise A",
+        hint: "부정문 · match Korean · p. 15",
+        data: "data/chunilmun1/chapter01/c01-u2-A.json",
+        practiceId: "cm1:c01:u2-A",
+      },
+      {
+        slug: "c01-u2-B",
+        title: "Unit 2 Exercise B",
+        hint: "의문문 · short answers · p. 15",
+        data: "data/chunilmun1/chapter01/c01-u2-B.json",
+        practiceId: "cm1:c01:u2-B",
+      },
+      {
+        slug: "c01-u2-C",
+        title: "Unit 2 Exercise C",
+        hint: "의문문 · complete questions · p. 15",
+        data: "data/chunilmun1/chapter01/c01-u2-C.json",
+        practiceId: "cm1:c01:u2-C",
+      },
+      {
+        slug: "c01-test",
+        title: "Chapter Test",
+        hint: "pp. 16–17",
+        data: "data/chunilmun1/chapter01/c01-test.json",
+        practiceId: "cm1:c01:test",
       },
     ],
 
