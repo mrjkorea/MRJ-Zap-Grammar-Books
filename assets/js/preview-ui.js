@@ -5,7 +5,7 @@
   "use strict";
   var app = document.getElementById("mrj-app-root");
   if (!app) return;
-  var ICON = { green: "🌿", blue: "💎", red: "🍎" };
+  var ICON = { green: "🌿", blue: "💎", red: "🍎", chunilmun: "📖" };
   var MODE = {
     fill: ["words", "✏️", "단어"], sentence: ["sentence", "📝", "문장"],
     mc: ["choice", "🔘", "고르기"], match: ["match", "🔗", "짝 맞추기"]
@@ -19,14 +19,24 @@
     if (text != null) e.textContent = text;
     return e;
   }
-  function family(id) { return /red/.test(id) ? "red" : /blue/.test(id) ? "blue" : "green"; }
+  function isChunilmun(id) {
+    return id === "chunilmun-grammar-1" || /chunilmun/.test(id || "");
+  }
+  function family(id) {
+    if (isChunilmun(id)) return "chunilmun";
+    return /red/.test(id) ? "red" : /blue/.test(id) ? "blue" : "green";
+  }
+  function themeBookAttr(id) {
+    if (isChunilmun(id)) return "chunilmun-grammar-1";
+    return family(id);
+  }
   function sess(k, f) { try { return sessionStorage.getItem(k) || f; } catch (e) { return f; } }
   function currentBook() {
     var m = location.hash.match(/^#\/p\/([^/]+)\/[^/]+\//);
     return m ? m[1] : sess("gz.book", "zap-green-1");
   }
   function setTheme(id) {
-    document.documentElement.setAttribute("data-book", family(id || currentBook()));
+    document.documentElement.setAttribute("data-book", themeBookAttr(id || currentBook()));
     document.documentElement.setAttribute("data-view", /^#\/p\//.test(location.hash) ? "practice" : "index");
   }
   function fire(sel, value) {

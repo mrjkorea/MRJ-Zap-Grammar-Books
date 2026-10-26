@@ -1,0 +1,274 @@
+/* 천일문 Grammar 1 — adult book palette (chunilmun-grammar-1 only). Loaded after mrj-theme.css. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+
+html[data-book="chunilmun-grammar-1"] {
+  --bg: #f3f1ec;
+  --card: #faf9f6;
+  --ink: #1c2430;
+  --muted: #5c6570;
+  --accent: #2c3e56;
+  --accent-dark: #1a2636;
+  --accent-soft: #e4e8ee;
+  --accent-2: #4a6278;
+  --border: #cfc9be;
+  --focus: #4a6278;
+  --banner: #ebe8e1;
+  --ok: #2d6a4f;
+  --bad: #b5473a;
+  --warn: #b8860b;
+  --match-selected: #e2e8ef;
+  --match-linked: #e6ebe6;
+  --match-wrong: #f3e4e2;
+  --radius: 10px;
+  --tap: 52px;
+  --shadow: 0 2px 10px rgba(26, 38, 54, 0.06);
+  --ring: 0 0 0 2px #faf9f6, 0 0 0 4px color-mix(in srgb, var(--focus) 55%, transparent);
+  --font-en: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --chunk: 0 2px 0 rgba(0, 0, 0, 0.06), 0 6px 16px rgba(26, 38, 54, 0.08);
+}
+
+html[data-book="chunilmun-grammar-1"] body {
+  background: var(--bg);
+  background-image: none;
+}
+
+html[data-book="chunilmun-grammar-1"] .topbar {
+  background: var(--accent-dark);
+  color: #f5f6f8;
+  border-radius: 0 0 12px 12px;
+  margin: -1rem -1rem 1.2rem;
+  padding: 0.75rem 1.1rem;
+  box-shadow: var(--shadow);
+}
+
+html[data-book="chunilmun-grammar-1"] .topbar .brand::before {
+  content: none !important;
+}
+
+html[data-book="chunilmun-grammar-1"] .topbar .brand,
+html[data-book="chunilmun-grammar-1"] .topbar .back-link {
+  color: #f5f6f8;
+}
+
+html[data-book="chunilmun-grammar-1"] .topbar .back-link {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+}
+
+html[data-book="chunilmun-grammar-1"] .student-pill {
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--accent-dark);
+}
+
+html[data-book="chunilmun-grammar-1"] h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+html[data-book="chunilmun-grammar-1"] .btn {
+  border-radius: 10px;
+  min-height: var(--tap);
+  box-shadow: none;
+}
+
+html[data-book="chunilmun-grammar-1"] .btn-primary {
+  background: var(--accent-dark);
+  border: 1px solid #141c28;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+html[data-book="chunilmun-grammar-1"] .btn-primary:hover {
+  filter: brightness(1.08);
+}
+
+html[data-book="chunilmun-grammar-1"] .btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+html[data-book="chunilmun-grammar-1"] .btn-secondary {
+  border-radius: 10px;
+  border-color: var(--border);
+  color: var(--accent-dark);
+}
+
+html[data-book="chunilmun-grammar-1"] .exercise-btn {
+  min-height: 56px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+html[data-book="chunilmun-grammar-1"] .exercise-btn:hover {
+  border-color: var(--accent);
+  transform: none;
+}
+
+html[data-book="chunilmun-grammar-1"] .panel,
+html[data-book="chunilmun-grammar-1"] .q-card,
+html[data-book="chunilmun-grammar-1"] .result-panel {
+  border-radius: var(--radius);
+  border-width: 1px;
+  box-shadow: var(--shadow);
+}
+
+html[data-book="chunilmun-grammar-1"] .q-num {
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+html[data-book="chunilmun-grammar-1"] input[type="text"],
+html[data-book="chunilmun-grammar-1"] select {
+  border-radius: 8px;
+  border-width: 1px;
+  min-height: 52px;
+  box-shadow: none;
+}
+
+html[data-book="chunilmun-grammar-1"] .mc-options label {
+  border-radius: 10px;
+  box-shadow: none;
+  border-width: 1px;
+  font-weight: 500;
+}
+
+html[data-book="chunilmun-grammar-1"] .mc-options label:has(input:checked) {
+  box-shadow: none;
+  transform: none;
+}
+
+html[data-book="chunilmun-grammar-1"] .mc-options input[type="radio"] {
+  accent-color: var(--accent-dark);
+}
+
+html[data-book="chunilmun-grammar-1"] .section-banner {
+  background: var(--banner);
+  color: var(--ink);
+  border: 0;
+  border-left: 4px solid var(--accent-dark);
+  border-radius: 0 10px 10px 0;
+  box-shadow: none;
+  padding: 0.95rem 1.1rem;
+}
+
+html[data-book="chunilmun-grammar-1"] .section-banner-title {
+  color: var(--accent-dark);
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+html[data-book="chunilmun-grammar-1"] .section-banner-title::before {
+  content: none !important;
+}
+
+html[data-book="chunilmun-grammar-1"] .section-banner-instr {
+  color: var(--muted);
+}
+
+html[data-book="chunilmun-grammar-1"] .section-banner .mode-chip {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--accent-dark);
+}
+
+html[data-book="chunilmun-grammar-1"] .q-card {
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+html[data-book="chunilmun-grammar-1"] .q-card .q-num {
+  min-width: auto;
+  height: auto;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  font-family: var(--font-ui);
+  font-weight: 800;
+  color: var(--accent-dark);
+}
+
+html[data-book="chunilmun-grammar-1"] .q-card.pv-done .q-num {
+  background: transparent;
+  color: var(--ok);
+}
+
+html[data-book="chunilmun-grammar-1"] .q-card.pv-done .q-num::after {
+  content: " ✓";
+}
+
+html[data-book="chunilmun-grammar-1"] .timer-bar {
+  border-radius: 8px;
+  border-width: 1px;
+  font-weight: 700;
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-book.pv-chunilmun {
+  --c1: #4a5568;
+  --c2: #1a2636;
+  border-radius: 12px;
+  min-height: 120px;
+  box-shadow: 0 2px 8px rgba(26, 38, 54, 0.15);
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-book.pv-chunilmun::after {
+  opacity: 0.08;
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-book.pv-chunilmun:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 4px rgba(26, 38, 54, 0.12);
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-book.pv-chunilmun.is-on {
+  outline: 2px solid var(--accent-dark);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-unit {
+  border-radius: 10px;
+  box-shadow: none;
+  border-width: 1px;
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-unit.is-on {
+  box-shadow: none;
+  background: var(--accent-soft);
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-badge {
+  border-radius: 8px;
+  background: var(--accent-dark);
+  box-shadow: none;
+  font-family: var(--font-ui);
+}
+
+html[data-book="chunilmun-grammar-1"][data-view="index"] .exercise-btn {
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-progress-fill {
+  background: var(--accent-dark);
+  box-shadow: none;
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-hero-msg {
+  color: var(--accent-dark);
+  font-size: 1.35rem;
+}
+
+html[data-book="chunilmun-grammar-1"] .pv-howto {
+  border-radius: 8px;
+  box-shadow: none;
+  border-width: 1px;
+}
+
+html[data-book="chunilmun-grammar-1"] .wrong-review-reminder {
+  border-left-color: var(--accent-dark);
+}
+
+@media (max-width: 600px) {
+  html[data-book="chunilmun-grammar-1"] .topbar {
+    border-radius: 0 0 10px 10px;
+  }
+}
