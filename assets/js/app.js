@@ -54,6 +54,23 @@
     return "#/p/" + bookId + "/" + unitId + "/" + slug;
   }
 
+  function applyBookTheme(bookId) {
+    var id = bookId || getSel(SEL_BOOK, "zap-green-1");
+    var attr =
+      id === "chunilmun-grammar-1" || /chunilmun/.test(id)
+        ? "chunilmun-grammar-1"
+        : /red/.test(id)
+          ? "red"
+          : /blue/.test(id)
+            ? "blue"
+            : "green";
+    document.documentElement.setAttribute("data-book", attr);
+    document.documentElement.setAttribute(
+      "data-view",
+      /^#\/p\//.test(location.hash) ? "practice" : "index"
+    );
+  }
+
   function itemDisplayLabel(item, idx) {
     if (item && item.label) return String(item.label);
     return "Q" + (idx + 1);
@@ -483,6 +500,7 @@
   function renderIndex() {
     app.innerHTML = "";
     var bookId = getSel(SEL_BOOK, "zap-green-1");
+    applyBookTheme(bookId);
     app.appendChild(topbar(null, brandForBook(bookId)));
     app.appendChild($("h1", null, "Practice index"));
     app.appendChild(
@@ -560,6 +578,7 @@
     bookSel.onchange = function () {
       bookId = bookSel.value;
       setSel(SEL_BOOK, bookId);
+      applyBookTheme(bookId);
       units = catalog.units[bookId] || [];
       unitSel.innerHTML = "";
       units.forEach(function (u) {
@@ -624,6 +643,7 @@
 
   function renderPractice(routeInfo) {
     var bookId = routeInfo.bookId || getSel(SEL_BOOK, "zap-green-1");
+    applyBookTheme(bookId);
     app.innerHTML = "";
     app.appendChild(topbar("#/", brandForBook(bookId)));
     app.appendChild($("p", "lead", "Loading…"));
@@ -640,6 +660,7 @@
 
   function startPracticeUI(practice, routeInfo) {
     var bookId = (practice._meta && practice._meta.bookId) || getSel(SEL_BOOK, "zap-green-1");
+    applyBookTheme(bookId);
     var unitId = (practice._meta && practice._meta.unitId) || getSel(SEL_UNIT, "unit-01");
     var slug = routeInfo.slug || (practice._meta && practice._meta.slug);
     var practiceId = engine.practiceIdOf(practice);
