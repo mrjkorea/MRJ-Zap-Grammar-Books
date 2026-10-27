@@ -54,8 +54,17 @@ def _adj_pair(sec, label: str, iid: str, sentence: str, adj: str, head: str) -> 
     )
 
 
+def _mask_word(sentence: str, word: str) -> str:
+    import re
+
+    pat = re.compile(rf"\b{re.escape(word)}\b", re.IGNORECASE)
+    if not pat.search(sentence):
+        return sentence
+    return pat.sub("________", sentence, count=1)
+
+
 def _adv_head(sec, label: str, iid: str, sentence: str, head: str) -> dict:
-    return fill_item(iid=iid, sec=sec, label=label, prompt_en=sentence, accept=[head])
+    return fill_item(iid=iid, sec=sec, label=label, prompt_en=_mask_word(sentence, head), accept=[head])
 
 
 def _write_docs(data: dict[str, dict], *, chapter: int | None, review_dir: str | None = None) -> None:
