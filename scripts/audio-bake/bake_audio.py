@@ -1251,7 +1251,7 @@ def cmd_verify(args):
     for j in items:
         if j.get("spoken_blank") and j.get("mode") != "beep":
             spoken_not_beep.append(j["out"])
-        elif j.get("mode") == "beep" and (j.get("markup_blank") or mp3_missing_beep(j)):
+        elif j.get("mode") == "beep" and mp3_missing_beep(j):
             stale_beep.append(j["out"])
     print("BOOK", args.book or "ALL")
     print("REQUIRED", len(make))
