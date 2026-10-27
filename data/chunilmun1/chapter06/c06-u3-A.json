@@ -4,9 +4,9 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c06:u3-A",
   "title": "Unit 3 Unit Exercise — Section A",
-  "subtitle": "one, some, any · POINT 6 (p. 73)",
-  "pages": "73",
-  "timerMinutes": 20,
+  "subtitle": "one, some, any · POINT 7 (p. 75)",
+  "pages": "75",
+  "timerMinutes": 18,
   "unitId": "chapter-06",
   "unitTitle": "Chapter 06 — 대명사",
   "sectionsVersion": 2,
@@ -15,8 +15,8 @@
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "one/ones/it을 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "one/ones/it을 쓰세요. POINT 6.",
+      "instructionKo": "빈칸에 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "빈칸에 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 7.",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -29,6 +29,11 @@
         "A4",
         "A5",
         "A6"
+      ],
+      "wordBank": [
+        "one",
+        "ones",
+        "it"
       ]
     }
   ],
@@ -37,57 +42,57 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "one/ones/it을 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "I need ________.",
-      "blanks": 1,
-      "accept": [
-        "a pencil"
-      ]
-    },
-    {
-      "id": "a02",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "one/ones/it을 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A2",
-      "type": "fill",
-      "promptEn": "These ________ are too long.",
-      "blanks": 1,
-      "accept": [
-        "pants"
-      ]
-    },
-    {
-      "id": "a03",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "one/ones/it을 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A3",
-      "type": "fill",
-      "promptEn": "Do you have ________?",
+      "promptEn": "The T-shirt is too small. Do you have a big ________?",
       "blanks": 1,
       "accept": [
         "one"
       ]
     },
     {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "빈칸에 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Where are the cookies? I want the chocolate ________.",
+      "blanks": 1,
+      "accept": [
+        "ones"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "빈칸에 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "I found my necklace. ________ was in the living room.",
+      "blanks": 1,
+      "accept": [
+        "It"
+      ]
+    },
+    {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "one/ones/it을 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "I want new ________.",
+      "promptEn": "They have old chairs. Now they need new ________.",
       "blanks": 1,
       "accept": [
         "ones"
@@ -97,30 +102,30 @@
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "one/ones/it을 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "Where is my phone? I can't find ________.",
+      "promptEn": "A: Do you have a brother? B: Yes, I have ________.",
       "blanks": 1,
       "accept": [
-        "it"
+        "one"
       ]
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "one/ones/it을 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptEn": "The red shoes are nice. I'll buy ________.",
+      "promptEn": "My mother bought a new fan this summer. I use ________ every day.",
       "blanks": 1,
       "accept": [
-        "ones"
+        "it"
       ]
     }
   ]

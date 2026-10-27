@@ -4,22 +4,22 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c06:u2-C",
   "title": "Unit 2 Unit Exercise — Section C",
-  "subtitle": "지시대명사와 it · POINT 5 (p. 70)",
-  "pages": "70",
-  "timerMinutes": 20,
+  "subtitle": "지시대명사와 it · POINT 6 (p. 72)",
+  "pages": "72",
+  "timerMinutes": 18,
   "unitId": "chapter-06",
   "unitTitle": "Chapter 06 — 대명사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section C 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section C 4문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "It is[It's]로 답하세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "It is[It's]로 답하세요. POINT 5.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "주어진 단어를 사용하여 질문에 대한 답을 쓰세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 단어를 사용하여 질문에 대한 답을 쓰세요. POINT 6.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "itemCount": 4,
       "exampleCount": 0,
       "labels": [
@@ -35,62 +35,64 @@
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "It is[It's]로 답하세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "주어진 단어를 사용하여 질문에 대한 답을 쓰세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C1",
-      "type": "fill",
-      "promptEn": "What day is it? → It is[It's] ________.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "A: What day is it today?\nB: ________. (Monday)",
       "accept": [
-        "Monday"
+        "It's Monday.",
+        "It is Monday."
       ]
     },
     {
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "It is[It's]로 답하세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "주어진 단어를 사용하여 질문에 대한 답을 쓰세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C2",
-      "type": "fill",
-      "promptEn": "What time is it? → It is[It's] ________.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "A: What time is it now?\nB: ________. (11 o'clock)",
       "accept": [
-        "11 o'clock",
-        "eleven o'clock"
+        "It's 11 o'clock.",
+        "It is 11 o'clock."
       ]
     },
     {
       "id": "c03",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "It is[It's]로 답하세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "주어진 단어를 사용하여 질문에 대한 답을 쓰세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C3",
-      "type": "fill",
-      "promptEn": "How is the weather? → It is[It's] ________.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "A: What is the weather like tonight?\nB: ________. (snowy)",
       "accept": [
-        "sunny"
+        "It's snowy.",
+        "It is snowy.",
+        "It's snowy tonight.",
+        "It is snowy tonight."
       ]
     },
     {
       "id": "c04",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "It is[It's]로 답하세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "주어진 단어를 사용하여 질문에 대한 답을 쓰세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C4",
-      "type": "fill",
-      "promptEn": "How far is it? → It is[It's] ________.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "A: How far is it to the airport from here?\nB: ________. (8 kilometers)",
       "accept": [
-        "8 kilometers",
-        "8 km"
+        "It's 8 kilometers.",
+        "It is 8 kilometers.",
+        "It's eight kilometers.",
+        "It is eight kilometers."
       ]
     }
   ]

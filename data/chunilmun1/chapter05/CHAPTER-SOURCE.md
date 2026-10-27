@@ -1,7 +1,13 @@
-# Chapter 05 — source pages (partial)
+# Chapter 05 — source pages
 
-**Workbook** rebuilt from `uploads/ch02-05-wb.pdf` (original PDF pp. 185–192, printed WB pp. 32–39).
+**Student book** rebuilt from `uploads/ch05-06-sb.pdf` (original PDF pp. 46–60, printed SB pp. 46–63).
 
-**Student book** (SB pp. 46–60) not included in this PDF slice — SB JSON still needs the next scan batch.
+| Content | Printed SB page | PDF (full book) |
+|--------|-----------------|-----------------|
+| U1 Exercise A–C | 57 | ~52 |
+| U2 Exercise A–C (articles + There is/are) | 59, 61 | ~54, 56 |
+| Chapter Test | 62–63 | ~57–58 |
 
-Generator: `scripts/chunilmun/_extracted_ch04_ch05wb.py` → `build_ch05_wb()`.
+**Workbook** (earlier batch): `uploads/ch02-05-wb.pdf` pp. 185–192.
+
+Generator: `scripts/chunilmun/_extracted_ch05_ch06_sb.py` → `build_ch05_sb()`; WB via `_extracted_ch04_ch05wb.py`.

@@ -13,7 +13,7 @@ for (const f of ["normalize.js", "engine.js"]) {
   vm.runInContext(fs.readFileSync(path.join(JS, f), "utf8"), ctx);
 }
 const E = win.MRJ_ENGINE;
-const MODES = new Set(["choice", "words", "sentence"]);
+const MODES = new Set(["choice", "words", "sentence", "match"]);
 let bad = 0;
 const fail = (...a) => {
   bad++;
@@ -21,6 +21,17 @@ const fail = (...a) => {
 };
 
 function respFor(it, acc) {
+  if (it.type === "match") {
+    const links = {};
+    for (const line of (it.accept || []).length ? it.accept : [acc]) {
+      const [left, right] = String(line).split("|");
+      if (left != null && right != null) links[left.trim()] = right.trim();
+    }
+    if (!Object.keys(links).length && (it.pairs || []).length) {
+      for (const p of it.pairs) links[p.left] = p.right;
+    }
+    return { links };
+  }
   if (it.type === "mc") {
     const circled = "①②③④⑤";
     let i = circled.indexOf(String(acc).trim());
@@ -36,6 +47,14 @@ function respFor(it, acc) {
 }
 
 function wrongFor(it) {
+  if (it.type === "match") {
+    const links = {};
+    for (const p of it.pairs || []) {
+      const alt = p.right === "2형식" ? "5형식" : "2형식";
+      links[p.left] = alt;
+    }
+    return { links };
+  }
   if (it.type === "mc") {
     for (const ch of it.choices || []) {
       if (!E.gradeItem(it, { value: ch })) return { value: ch };
@@ -94,8 +113,13 @@ function smokeDir(relDir) {
         fail(rel, it.id, "accept[0] not usable");
         continue;
       }
-      if (!E.gradeItem(it, right)) fail(rel, it.id, "first accept should pass", JSON.stringify(it.accept[0]));
-      if (E.gradeItem(it, wrongFor(it))) fail(rel, it.id, "wrong answer should fail");
+      if (it.type === "match") {
+        if (!E.gradeMatchItem(it, right)) fail(rel, it.id, "match pairs should pass");
+        if (E.gradeMatchItem(it, wrongFor(it))) fail(rel, it.id, "wrong match should fail");
+      } else {
+        if (!E.gradeItem(it, right)) fail(rel, it.id, "first accept should pass", JSON.stringify(it.accept[0]));
+        if (E.gradeItem(it, wrongFor(it))) fail(rel, it.id, "wrong answer should fail");
+      }
     }
     for (const s of d.sections) {
       const its = d.items.filter((i) => i.section === s.id && !i.displayOnly);
@@ -113,12 +137,13 @@ for (const ch of ["chapter05", "chapter06", "chapter07", "chapter08"]) {
   total += smokeDir(`data/chunilmun1/${ch}`);
 }
 total += smokeDir("data/chunilmun1/review-01");
+total += smokeDir("data/chunilmun1/review-02");
 
-const expected = 20 + 23 + 23 + 23 + 1; // ch05: 3 WB units; ch06–08: 3 units; review
+const expected = 20 + 23 + 23 + 23 + 1 + 1; // ch05: 3 WB units; ch06–08: 3 units; reviews
 if (total !== expected) fail("file count", total, "expected", expected);
 
 if (bad) {
   console.log("FAILURES:", bad);
   process.exit(1);
 }
-console.log(`천일문 Grammar 1 Ch05–08 + review-01 smoke: ALL OK — ${total} practices`);
+console.log(`천일문 Grammar 1 Ch05–08 + review-01/02 smoke: ALL OK — ${total} practices`);
