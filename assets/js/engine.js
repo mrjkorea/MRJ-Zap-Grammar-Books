@@ -45,7 +45,20 @@
     return root.MRJ_GREENZAP_PACK;
   }
 
+  function teacherSkipLocks() {
+    try {
+      if (root.MRJ_ZAP_TEACHER && typeof root.MRJ_ZAP_TEACHER.isActive === "function") {
+        if (root.MRJ_ZAP_TEACHER.isActive()) return true;
+      }
+      var api = root.MRJSignin || root.MRJ_AUTH;
+      return !!(api && typeof api.isTeacher === "function" && api.isTeacher());
+    } catch (e) {
+      return false;
+    }
+  }
+
   function mustRetry(practiceId) {
+    if (teacherSkipLocks()) return false;
     var pack = packApi();
     if (pack && typeof pack.mustRetryPractice === "function") {
       return pack.mustRetryPractice(practiceId);

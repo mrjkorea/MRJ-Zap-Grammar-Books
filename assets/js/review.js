@@ -14,6 +14,7 @@
   var EMPTY_ANSWER_KO = "(빈칸 — 답을 쓰지 않았어요)";
   var WRONG_ANSWER_LABEL = "내가 쓴 답 (틀림):";
   var WRONG_ANSWER_HINT = "이 답은 틀렸어요. 같은 답을 다시 쓰지 마세요.";
+  var TEACHER_ANSWER_LABEL = "정답 (Teacher):";
 
   function engine() {
     return root.MRJ_ENGINE;
@@ -275,10 +276,59 @@
     }
   }
 
+  function itemForRow(practice, row) {
+    var base = String(row.id || "").split("#")[0];
+    var items = practice.items || [];
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].id === base) return items[i];
+    }
+    return null;
+  }
+
+  function matchPairIndex(row) {
+    var parts = String(row.id || "").split("#");
+    if (parts.length < 2) return 0;
+    var n = parseInt(parts[1], 10);
+    return isNaN(n) ? 0 : Math.max(0, n - 1);
+  }
+
+  function teacherCorrectText(item, row) {
+    if (!item) return "";
+    if (item.type === "match") {
+      var pairs = (root.MRJ_ENGINE && root.MRJ_ENGINE.matchPairsOf
+        ? root.MRJ_ENGINE.matchPairsOf(item)
+        : item.pairs) || [];
+      var pi = matchPairIndex(row);
+      var p = pairs[pi];
+      return p ? p.left + " → " + p.right : "";
+    }
+    if (item.type === "mc") {
+      var choices = item.choices || [];
+      var acc = item.accept || [];
+      for (var a = 0; a < acc.length; a++) {
+        var tok = String(acc[a]);
+        if (/^\d+$/.test(tok)) {
+          var idx = Number(tok) - 1;
+          if (idx >= 0 && idx < choices.length) return choices[idx];
+        }
+        if (choices.indexOf(tok) >= 0) return tok;
+      }
+      return acc.length ? String(acc[0]) : "";
+    }
+    var blanks = item.blanks || 1;
+    var acc0 = item.accept && item.accept.length ? String(item.accept[0]) : "";
+    if (blanks > 1 && acc0.indexOf("|") >= 0) {
+      return acc0.split("|").join(" / ");
+    }
+    if (acc0) return acc0;
+    return (item.accept || []).map(String).join(" or ");
+  }
+
   function renderWrongReviewPanel(doc, practice, responses, results, opts) {
     opts = opts || {};
     var rows = collectWrongRows(practice, responses, results);
     if (!rows.length) return null;
+    var showCorrect = !!opts.showCorrectAnswers;
 
     var wrap = createEl(doc, "div", "wrong-review-wrap");
     if (opts.heading) {
@@ -330,8 +380,21 @@
         });
         ansBlock.appendChild(list);
       }
-      ansBlock.appendChild(createEl(doc, "p", "wrong-review-warn", WRONG_ANSWER_HINT));
+      if (!showCorrect) {
+        ansBlock.appendChild(createEl(doc, "p", "wrong-review-warn", WRONG_ANSWER_HINT));
+      }
       card.appendChild(ansBlock);
+
+      if (showCorrect) {
+        var item = itemForRow(practice, row);
+        var correctText = teacherCorrectText(item, row);
+        if (correctText) {
+          var teachBlock = createEl(doc, "div", "wrong-review-teacher-answer");
+          teachBlock.appendChild(createEl(doc, "div", "wrong-review-teacher-label", TEACHER_ANSWER_LABEL));
+          teachBlock.appendChild(createEl(doc, "div", "wrong-review-teacher-text", correctText));
+          card.appendChild(teachBlock);
+        }
+      }
 
       if (row.sectionInstructionKo) {
         var again = createEl(doc, "div", "wrong-review-reminder");
