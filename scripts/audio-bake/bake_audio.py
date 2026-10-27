@@ -257,7 +257,8 @@ def mp3_missing_beep(job: dict) -> bool:
     if beep_n == 0:
         return False
     beep_unit = ffprobe_duration(BEEP_WAV) or 0.35
-    expected = sum(speech_durs) + beep_n * beep_unit * 0.55
+    # Joined mp3 is shorter than naive sum (loudnorm / crossfade); use a loose floor.
+    expected = sum(speech_durs) + beep_n * beep_unit * 0.35
     return dur < expected
 
 
@@ -404,6 +405,11 @@ def cached_tts(text: str, voice: str) -> Path:
 def strip_tags(s: str) -> str:
     s = TAG_RE.sub("", s)
     s = re.sub(r"\[밑줄:[^\]]*\]", "", s)
+
+    def _tag_or_keep(m: re.Match) -> str:
+        return "" if is_non_blank_bracket(m.group(1)) else m.group(0)
+
+    s = BRACKET_BLANK_RE.sub(_tag_or_keep, s)
     return s
 
 
@@ -414,6 +420,12 @@ def is_non_blank_bracket(inner: str) -> bool:
     if re.match(r"(?:그림|사진|밑줄|광고)", inner):
         return True
     if inner.startswith("밑줄:"):
+        return True
+    if re.search(r"주어진\s*말", inner):
+        return True
+    if re.search(r"[\uAC00-\uD7A3]", inner) and not re.fullmatch(
+        r"[A-Za-z0-9'’\-\s]+", inner.strip()
+    ):
         return True
     return False
 
@@ -468,6 +480,20 @@ def normalize_speak_text(s: str) -> str:
     return s
 
 
+def word_banks_from_prompt(pe: str) -> list[str]:
+    banks: list[str] = []
+    for ln in (pe or "").split("\n"):
+        ln = ln.strip()
+        if not looks_like_word_bank(ln):
+            continue
+        m = re.match(r"^\(([^)]+)\)$", ln)
+        if m and re.search(r"[A-Za-z]", m.group(1)):
+            banks.append(
+                re.sub(r"\s+", " ", m.group(1).replace("/", " ").replace("|", " ")).strip()
+            )
+    return banks
+
+
 def looks_like_word_bank(line: str) -> bool:
     m = re.match(r"^\(([^)]+)\)$", line.strip())
     if not m:
@@ -481,6 +507,8 @@ def looks_like_word_bank(line: str) -> bool:
 
 
 def strip_trailing_hints(ln: str) -> str:
+    if has_blank(ln):
+        return ln
     while True:
         m = re.search(r"\s*\(([^)]*)\)\s*$", ln)
         if not m:
@@ -640,16 +668,17 @@ def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
             blank_lines = [ln for ln in lines if has_blank(ln)]
             speak_lines = [blank_lines[0]] if blank_lines else [first]
 
-    if strict and scramble_fallback:
-        blank_only = not speak_lines or all(
-            has_blank(ln) and not visible_after_blanks(ln)
-            for ln in speak_lines
-        )
-        if blank_only:
-            text = scramble_fallback[0]
+    blank_only = not speak_lines or all(
+        has_blank(ln) and not visible_after_blanks(ln) for ln in speak_lines
+    )
+    if blank_only:
+        banks = scramble_fallback if strict else word_banks_from_prompt(pe)
+        if banks:
+            text = banks[0]
+            text = normalize_speak_text(text)
             marked = replace_blanks(text)
             if "⟦BLANK⟧" in marked:
-                parts = [p.strip() for p in marked.split("⟦BLANK⟧")]
+                parts = [p.strip() for p in marked.split(BLANK_MARK)]
                 return "beep", parts
             return "plain", text
 
@@ -683,7 +712,9 @@ def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
                     return "skip", "spoken_equals_answer"
 
     if "⟦BLANK⟧" in marked:
-        parts = [p.strip() for p in marked.split("⟦BLANK⟧")]
+        parts = [p.strip() for p in marked.split(BLANK_MARK)]
+        if not any(p for p in parts):
+            return "skip", "blank_only_stem"
         if strict and scramble_fallback and not any(p for p in parts):
             return "plain", scramble_fallback[0]
         return "beep", parts
