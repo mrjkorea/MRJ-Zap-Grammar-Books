@@ -4,22 +4,22 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c02:u2-A",
   "title": "Unit 2 Unit Exercise — Section A",
-  "subtitle": "일반동사의 과거형 · POINT 3 (p. 25)",
+  "subtitle": "일반동사의 과거형 · POINT 3·4 (p. 25)",
   "pages": "25",
   "timerMinutes": 18,
   "unitId": "chapter-02",
   "unitTitle": "Chapter 02 — 일반동사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 6문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 빈칸에 들어갈 일반동사의 과거형을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "다음 빈칸에 들어갈 일반동사의 과거형을 쓰세요. POINT 3.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "itemCount": 6,
       "exampleCount": 0,
       "labels": [
@@ -37,91 +37,121 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 일반동사의 과거형을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "He ________ a hamburger for lunch.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "He [comed / came] home on his bike.",
+      "choices": [
+        "comed",
+        "came"
+      ],
       "accept": [
-        "ate"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 일반동사의 과거형을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
-      "type": "fill",
-      "promptEn": "I ________ my phone at school yesterday.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "Yesterday I [lose / lost] my cell phone at school.",
+      "choices": [
+        "lose",
         "lost"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 일반동사의 과거형을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
-      "type": "fill",
-      "promptEn": "Jenny and I ________ a movie yesterday.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "Jenny and I [seed / saw] a rainbow yesterday.",
+      "choices": [
+        "seed",
         "saw"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 일반동사의 과거형을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
-      "type": "fill",
-      "promptEn": "I ________ some snacks.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "I [bought / buyed] some snacks at the store.",
+      "choices": [
+        "bought",
+        "buyed"
+      ],
       "accept": [
-        "bought"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 일반동사의 과거형을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
-      "type": "fill",
-      "promptEn": "My family ________ to the museum last weekend.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "My family [goed / went] to the museum last weekend.",
+      "choices": [
+        "goed",
         "went"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 일반동사의 과거형을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A6",
-      "type": "fill",
-      "promptEn": "It ________ heavily this morning.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "The birds [entered / enterred] the cage.",
+      "choices": [
+        "entered",
+        "enterred"
+      ],
       "accept": [
-        "poured"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     }
   ]
 }

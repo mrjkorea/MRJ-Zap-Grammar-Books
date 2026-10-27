@@ -4,7 +4,7 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c03:u1-A",
   "title": "Unit 1 Unit Exercise — Section A",
-  "subtitle": "현재진행형 · POINT 1·2 (p. 36)",
+  "subtitle": "현재진행형 · POINT 1·2·3 (p. 36)",
   "pages": "36",
   "timerMinutes": 22,
   "unitId": "chapter-03",
@@ -15,8 +15,8 @@
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 문장을 긍정·부정·의문문으로 바꾸세요. POINT 1·2. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "다음 문장을 긍정·부정·의문문으로 바꾸세요. POINT 1·2.",
+      "instructionKo": "주어진 동사를 사용하여 다음 문장을 괄호 안의 지시대로 쓰세요. POINT 1·2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 동사를 사용하여 다음 문장을 괄호 안의 지시대로 쓰세요. POINT 1·2·3.",
       "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -34,45 +34,48 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장을 긍정·부정·의문문으로 바꾸세요. POINT 1·2. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 괄호 안의 지시대로 쓰세요. POINT 1·2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "Minsu is washing his dog now.\n(1) 긍정 (2) 부정 (3) 의문 — 각 칸에 한 단어씩",
-      "blanks": 3,
+      "promptEn": "(wash)\nMinsu ________ his dog now. (현재진행)\nMinsu ________ his dog now. (현재진행 부정문)\n________ Minsu ________ his dog now? (현재진행 의문문)",
+      "blanks": 6,
       "accept": [
-        "is|washing|is|not|washing|Is|washing"
+        "is|washing|isn't|washing|Is|washing",
+        "is|washing|is not|washing|Is|washing"
       ]
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장을 긍정·부정·의문문으로 바꾸세요. POINT 1·2. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 괄호 안의 지시대로 쓰세요. POINT 1·2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "Anna is making a shopping list.\n(1) 긍정 (2) 부정 (3) 의문 — 각 칸에 한 단어씩",
-      "blanks": 3,
+      "promptEn": "(make)\nAnna ________ a shopping list. (현재진행)\nAnna ________ a shopping list. (현재진행 부정문)\n________ Anna ________ a shopping list? (현재진행 의문문)",
+      "blanks": 6,
       "accept": [
-        "is|making|is|not|making|Is|making"
+        "is|making|isn't|making|Is|making",
+        "is|making|is not|making|Is|making"
       ]
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 문장을 긍정·부정·의문문으로 바꾸세요. POINT 1·2. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 괄호 안의 지시대로 쓰세요. POINT 1·2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "They are eating lunch together.\n(1) 긍정 (2) 부정 (3) 의문 — 각 칸에 한 단어씩",
-      "blanks": 3,
+      "promptEn": "(put)\nThey ________ puzzle pieces together. (현재진행)\nThey ________ puzzle pieces together. (현재진행 부정문)\n________ they ________ puzzle pieces together? (현재진행 의문문)",
+      "blanks": 6,
       "accept": [
-        "are|eating|are|not|eating|Are|eating"
+        "are|putting|aren't|putting|Are|putting",
+        "are|putting|are not|putting|Are|putting"
       ]
     }
   ]

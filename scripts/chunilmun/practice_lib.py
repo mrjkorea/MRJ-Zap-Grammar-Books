@@ -19,6 +19,28 @@ MODE_TAG = {
     "match": "Match · 짝 맞추기",
 }
 
+WR = "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)"
+WR2 = "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)"
+SENT = "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)"
+MC = "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)"
+CORR = "고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)"
+OX = "맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)"
+OX_MARK = "맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)"
+
+
+def sb(ch: int, title: str) -> dict:
+    return {
+        "unit_id": f"chapter-{ch:02d}",
+        "unit_title": f"Chapter {ch:02d} — {title}",
+    }
+
+
+def wb(ch: int, title: str) -> dict:
+    return {
+        "unit_id": f"wb-chapter-{ch:02d}",
+        "unit_title": f"Ch {ch:02d} WB — {title}",
+    }
+
 
 def _intro(sections: list[dict]) -> str:
     parts = []

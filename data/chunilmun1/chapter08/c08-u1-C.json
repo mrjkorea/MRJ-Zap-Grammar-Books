@@ -4,29 +4,30 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c08:u1-C",
   "title": "Unit 1 Unit Exercise — Section C",
-  "subtitle": "문장 종류 · POINT 3 (p. 88)",
-  "pages": "88",
+  "subtitle": "명령문·제안문·감탄문 · POINT 1·2·3 (p. 96)",
+  "pages": "96",
   "timerMinutes": 20,
   "unitId": "chapter-08",
   "unitTitle": "Chapter 08 — 여러 가지 문장 종류",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section C 4문항(문장 전체 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section C 5문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "명령문을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "directionKo": "명령문을 완성하세요. POINT 3.",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·3.",
       "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
-      "itemCount": 4,
+      "itemCount": 5,
       "exampleCount": 0,
       "labels": [
         "C1",
         "C2",
         "C3",
-        "C4"
+        "C4",
+        "C5"
       ]
     }
   ],
@@ -35,60 +36,75 @@
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "명령문을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C1",
       "type": "sentence",
-      "promptEn": "(조용히 하세요)",
+      "promptEn": "식사 전에 손을 씻어라. (your hands, wash)\n→ ________ before meals.",
       "accept": [
-        "Be quiet.",
-        "Please be quiet."
+        "Wash your hands",
+        "Wash your hands before meals."
       ]
     },
     {
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "명령문을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C2",
       "type": "sentence",
-      "promptEn": "(문을 닫아라)",
+      "promptEn": "거실을 어지르지 마라. (a mess, make)\n→ ________ in the living room.",
       "accept": [
-        "Close the door.",
-        "Please close the door."
+        "Don't make a mess",
+        "Do not make a mess"
       ]
     },
     {
       "id": "c03",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "명령문을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C3",
       "type": "sentence",
-      "promptEn": "(앉으세요)",
+      "promptEn": "네 행동에 신중해라. (careful, be)\n→ ________ with your actions.",
       "accept": [
-        "Sit down.",
-        "Please sit down."
+        "Be careful",
+        "Be careful with your actions."
       ]
     },
     {
       "id": "c04",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "명령문을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C4",
       "type": "sentence",
-      "promptEn": "(가지 마)",
+      "promptEn": "내일 점심을 같이 먹자. (lunch, have)\n→ ________ together tomorrow.",
       "accept": [
-        "Don't go.",
-        "Do not go."
+        "Let's have lunch",
+        "Let's have lunch together tomorrow."
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C5",
+      "type": "sentence",
+      "promptEn": "학교에 지각하지 마라. (late, be)\n→ ________ for school.",
+      "accept": [
+        "Don't be late",
+        "Do not be late for school."
       ]
     }
   ]

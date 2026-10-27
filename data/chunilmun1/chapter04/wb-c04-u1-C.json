@@ -4,9 +4,9 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c04:u1-C",
   "title": "Workbook Unit 1 — Section C",
-  "subtitle": "조동사 can/may · POINT 1·6 (WB p. 22)",
-  "pages": "22",
-  "timerMinutes": 22,
+  "subtitle": "조동사 can/may · POINT 3·4·5·6 (WB p. 23)",
+  "pages": "23",
+  "timerMinutes": 20,
   "unitId": "wb-chapter-04",
   "unitTitle": "Ch 04 WB — 조동사",
   "sectionsVersion": 2,
@@ -15,8 +15,8 @@
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "빈칸에 can/may/could 등을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "빈칸에 can/may/could 등을 쓰세요. POINT 3.",
+      "instructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. POINT 3·4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. POINT 3·4·5·6.",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -29,6 +29,12 @@
         "C4",
         "C5",
         "C6"
+      ],
+      "wordBank": [
+        "can",
+        "can't",
+        "may",
+        "may not"
       ]
     }
   ],
@@ -37,12 +43,12 @@
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 can/may/could 등을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. POINT 3·4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C1",
       "type": "fill",
-      "promptEn": "Linda can make pizza very well.",
+      "promptEn": "She ________ solve the puzzle.",
       "blanks": 1,
       "accept": [
         "can't",
@@ -53,12 +59,12 @@
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 can/may/could 등을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. POINT 3·4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C2",
       "type": "fill",
-      "promptEn": "You may eat this cookie now.",
+      "promptEn": "The girl ________ be Peter's little sister.",
       "blanks": 1,
       "accept": [
         "may"
@@ -68,27 +74,28 @@
       "id": "c03",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 can/may/could 등을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. POINT 3·4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C3",
       "type": "fill",
-      "promptEn": "She may not like it.",
+      "promptEn": "________ you show me the map?",
       "blanks": 1,
       "accept": [
-        "may not"
+        "Can",
+        "Could"
       ]
     },
     {
       "id": "c04",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 can/may/could 등을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. POINT 3·4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C4",
       "type": "fill",
-      "promptEn": "________ Mickey play the violin?",
+      "promptEn": "________ Andy make Korean food?",
       "blanks": 1,
       "accept": [
         "Can"
@@ -98,31 +105,30 @@
       "id": "c05",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 can/may/could 등을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. POINT 3·4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C5",
       "type": "fill",
-      "promptEn": "________ you tell me the way to the airport?",
+      "promptEn": "Judy ________ know you.",
       "blanks": 1,
       "accept": [
-        "Could",
-        "Can"
+        "may"
       ]
     },
     {
       "id": "c06",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 can/may/could 등을 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. POINT 3·4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C6",
       "type": "fill",
-      "promptEn": "She may be over 80.",
+      "promptEn": "Lisa ________ come to school today.",
       "blanks": 1,
       "accept": [
-        "may"
+        "may not"
       ]
     }
   ]

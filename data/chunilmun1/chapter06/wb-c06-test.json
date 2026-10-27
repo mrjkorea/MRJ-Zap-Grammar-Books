@@ -4,85 +4,141 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c06:test",
   "title": "WB Chapter Test",
-  "subtitle": "Chapter 06 (WB p. 44)",
-  "pages": "44",
+  "subtitle": "Chapter 06 (WB p. 46–47)",
+  "pages": "46–47",
   "timerMinutes": 28,
   "unitId": "wb-chapter-06",
   "unitTitle": "Ch 06 WB — 대명사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–5] 5문항(고르기), [6–10] 5문항(빈칸 말만 쓰기), [11–15] 5문항(고르기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3] 1문항(고르기), [4] 3문항(빈칸 말만 쓰기), [5–7] 3문항(고르기), [8–10] 3문항(고르기), [11–14] 4문항(고르기), [15] 2문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
-      "id": "1-5",
-      "title": "[1–5]",
-      "instructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[1–5] MC",
+      "id": "1-2",
+      "title": "[1–2]",
+      "instructionKo": "[1–2] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[1–2] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 5,
+      "itemCount": 2,
       "exampleCount": 0,
       "labels": [
         "1",
-        "2",
-        "3",
-        "4",
-        "5"
+        "2"
       ]
     },
     {
-      "id": "6-10",
-      "title": "[6–10]",
-      "instructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "[6–10] fill",
+      "id": "3",
+      "title": "[3]",
+      "instructionKo": "[3] 다음 중 밑줄 친 부분이 어법상 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[3] 다음 중 밑줄 친 부분이 어법상 알맞은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "3"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "[4]",
+      "instructionKo": "[4] <보기>와 같이 밑줄 친 단어가 가리키는 것이 무엇인지 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[4] <보기>와 같이 밑줄 친 단어가 가리키는 것이 무엇인지 쓰세요.",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 5,
+      "itemCount": 3,
       "exampleCount": 0,
       "labels": [
+        "4-1",
+        "4-2",
+        "4-3"
+      ]
+    },
+    {
+      "id": "5-7",
+      "title": "[5–7]",
+      "instructionKo": "[5–7] 다음 중 (A), (B), (C)에 어법상 알맞은 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[5–7] 다음 중 (A), (B), (C)에 어법상 알맞은 말이 바르게 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "5",
         "6",
-        "7",
+        "7"
+      ]
+    },
+    {
+      "id": "8-10",
+      "title": "[8–10]",
+      "instructionKo": "[8–10] 다음 중 빈칸·밑줄 친 부분을 고르거나 고치세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[8–10] 다음 중 빈칸·밑줄 친 부분을 고르거나 고치세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
         "8",
         "9",
         "10"
       ]
     },
     {
-      "id": "11-15",
-      "title": "[11–15]",
-      "instructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[11–15] MC/fill",
+      "id": "11-14",
+      "title": "[11–14]",
+      "instructionKo": "[11–14] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[11–14] 다음 중 알맞은 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 5,
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "11",
         "12",
         "13",
-        "14",
-        "15"
+        "14"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "[15]",
+      "instructionKo": "[15] 우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[15] 우리말과 일치하도록 주어진 단어를 올바르게 배열하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "15-1",
+        "15-2"
       ]
     }
   ],
   "items": [
     {
       "id": "q01",
-      "section": "1-5",
-      "sectionTitle": "[1–5]",
-      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "1-2",
+      "sectionTitle": "[1–2]",
+      "sectionInstructionKo": "[1–2] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "1",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Bob is ________ friend.",
       "choices": [
+        "my",
+        "your",
         "him",
-        "he",
-        "his",
-        "he's"
+        "her",
+        "Tom's"
       ],
       "accept": [
         "3",
@@ -92,63 +148,43 @@
     },
     {
       "id": "q02",
-      "section": "1-5",
-      "sectionTitle": "[1–5]",
-      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "1-2",
+      "sectionTitle": "[1–2]",
+      "sectionInstructionKo": "[1–2] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "2",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Carl saw ________ downtown yesterday.",
       "choices": [
-        "their",
+        "me",
+        "you",
         "them",
-        "they",
-        "theirs"
+        "her",
+        "our"
       ],
       "accept": [
-        "2",
-        "②"
+        "5",
+        "⑤"
       ],
-      "answer": "2"
+      "answer": "5"
     },
     {
       "id": "q03",
-      "section": "1-5",
-      "sectionTitle": "[1–5]",
-      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "3",
+      "sectionTitle": "[3]",
+      "sectionInstructionKo": "[3] 다음 중 밑줄 친 부분이 어법상 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "3",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "she",
-        "her",
-        "hers",
-        "she's"
-      ],
-      "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
-    },
-    {
-      "id": "q04",
-      "section": "1-5",
-      "sectionTitle": "[1–5]",
-      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "4",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "my",
-        "mine",
-        "me",
-        "I"
+        "This is my dog. <u>It</u> is so cute.",
+        "Susan is in the kitchen. <u>Her</u> is hungry.",
+        "James is my neighbor. <u>His</u> from England.",
+        "Dan and I are twins. <u>They</u> are very similar.",
+        "John and Tony are Amy's brothers. I know <u>they</u>."
       ],
       "accept": [
         "1",
@@ -157,20 +193,66 @@
       "answer": "1"
     },
     {
+      "id": "q04a",
+      "section": "4",
+      "sectionTitle": "[4]",
+      "sectionInstructionKo": "[4] <보기>와 같이 밑줄 친 단어가 가리키는 것이 무엇인지 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "4-1",
+      "type": "fill",
+      "promptEn": "It's his problem, not <u>hers</u>. →",
+      "blanks": 1,
+      "accept": [
+        "her problem"
+      ]
+    },
+    {
+      "id": "q04b",
+      "section": "4",
+      "sectionTitle": "[4]",
+      "sectionInstructionKo": "[4] <보기>와 같이 밑줄 친 단어가 가리키는 것이 무엇인지 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "4-2",
+      "type": "fill",
+      "promptEn": "Their apartment is next to <u>ours</u>. →",
+      "blanks": 1,
+      "accept": [
+        "our apartment"
+      ]
+    },
+    {
+      "id": "q04c",
+      "section": "4",
+      "sectionTitle": "[4]",
+      "sectionInstructionKo": "[4] <보기>와 같이 밑줄 친 단어가 가리키는 것이 무엇인지 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "4-3",
+      "type": "fill",
+      "promptEn": "These books are not ours. They are <u>theirs</u>. →",
+      "blanks": 1,
+      "accept": [
+        "their books"
+      ]
+    },
+    {
       "id": "q05",
-      "section": "1-5",
-      "sectionTitle": "[1–5]",
-      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "5-7",
+      "sectionTitle": "[5–7]",
+      "sectionInstructionKo": "[5–7] 다음 중 (A), (B), (C)에 어법상 알맞은 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "5",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "David is (A) friend. (B) are in the same class. Everybody likes (C).",
       "choices": [
-        "This",
-        "It",
-        "That",
-        "These"
+        "me — We — him",
+        "me — Us — his",
+        "my — Us — his",
+        "my — We — him",
+        "my — We — his"
       ],
       "accept": [
         "4",
@@ -180,50 +262,66 @@
     },
     {
       "id": "q06",
-      "section": "6-10",
-      "sectionTitle": "[6–10]",
-      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "section": "5-7",
+      "sectionTitle": "[5–7]",
+      "sectionInstructionKo": "[5–7] 다음 중 (A), (B), (C)에 어법상 알맞은 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "6",
-      "type": "fill",
-      "promptEn": "This, It",
-      "blanks": 2,
+      "type": "mc",
+      "promptEn": "Nobody (A) rude people. / famous for (B) night view. / picture of (C).",
+      "choices": [
+        "like — it's — us",
+        "likes — its — ourselves",
+        "likes — its — us",
+        "like — it's — ourselves",
+        "like — its — us"
+      ],
       "accept": [
-        "This|It"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "q07",
-      "section": "6-10",
-      "sectionTitle": "[6–10]",
-      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "section": "5-7",
+      "sectionTitle": "[5–7]",
+      "sectionInstructionKo": "[5–7] 다음 중 (A), (B), (C)에 어법상 알맞은 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "7",
-      "type": "fill",
-      "promptEn": "feel / feels",
-      "blanks": 2,
+      "type": "mc",
+      "promptEn": "________ are not my socks. / ________ scissors are Evan's.",
+      "choices": [
+        "It",
+        "This",
+        "That",
+        "These",
+        "They"
+      ],
       "accept": [
-        "feel|feels"
-      ]
+        "4",
+        "④"
+      ],
+      "answer": "4"
     },
     {
       "id": "q08",
-      "section": "6-10",
-      "sectionTitle": "[6–10]",
-      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "8-10",
+      "sectionTitle": "[8–10]",
+      "sectionInstructionKo": "[8–10] 다음 중 빈칸·밑줄 친 부분을 고르거나 고치세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "8",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Different usage of It:",
       "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
+        "It is snowing in Busan.",
+        "It is my favorite song.",
+        "It's already dark outside.",
+        "Hurry up! It is 8 o'clock.",
+        "It is 2 kilometers to the station."
       ],
       "accept": [
         "2",
@@ -233,89 +331,73 @@
     },
     {
       "id": "q09",
-      "section": "6-10",
-      "sectionTitle": "[6–10]",
-      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "8-10",
+      "sectionTitle": "[8–10]",
+      "sectionInstructionKo": "[8–10] 다음 중 빈칸·밑줄 친 부분을 고르거나 고치세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "9",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
-      ],
+      "type": "fill",
+      "promptEn": "The store has only short pants. I need long <u>one</u>.",
+      "blanks": 1,
       "accept": [
-        "3",
-        "③"
-      ],
-      "answer": "3"
+        "ones"
+      ]
     },
     {
       "id": "q10",
-      "section": "6-10",
-      "sectionTitle": "[6–10]",
-      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "8-10",
+      "sectionTitle": "[8–10]",
+      "sectionInstructionKo": "[8–10] 다음 중 빈칸·밑줄 친 부분을 고르거나 고치세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "10",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
-      ],
+      "type": "fill",
+      "promptEn": "Everyone <u>feel</u> lonely sometimes.",
+      "blanks": 1,
       "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
+        "feels"
+      ]
     },
     {
       "id": "q11",
-      "section": "11-15",
-      "sectionTitle": "[11–15]",
-      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "11-14",
+      "sectionTitle": "[11–14]",
+      "sectionInstructionKo": "[11–14] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "11",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Group It by usage (a–f):",
       "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
+        "ⓐ, ⓔ, ⓕ",
+        "ⓐ, ⓑ, ⓓ",
+        "ⓐ, ⓒ, ⓓ",
+        "ⓑ, ⓓ, ⓕ",
+        "ⓒ, ⓓ, ⓔ"
       ],
       "accept": [
-        "2",
-        "②"
+        "5",
+        "⑤"
       ],
-      "answer": "2"
+      "answer": "5"
     },
     {
       "id": "q12",
-      "section": "11-15",
-      "sectionTitle": "[11–15]",
-      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "11-14",
+      "sectionTitle": "[11–14]",
+      "sectionInstructionKo": "[11–14] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "12",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "We don't have (A) money. / I want (B) ice cream for dessert.",
       "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
+        "any — any",
+        "some — any",
+        "any — some",
+        "some — some",
+        "many — some"
       ],
       "accept": [
         "3",
@@ -325,20 +407,20 @@
     },
     {
       "id": "q13",
-      "section": "11-15",
-      "sectionTitle": "[11–15]",
-      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "11-14",
+      "sectionTitle": "[11–14]",
+      "sectionInstructionKo": "[11–14] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "13",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Look at (A) photos on the desk. / Nothing (B) wrong with my keyboard.",
       "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
+        "this — is",
+        "this — are",
+        "these — is",
+        "these — are",
+        "these — were"
       ],
       "accept": [
         "3",
@@ -348,40 +430,53 @@
     },
     {
       "id": "q14",
-      "section": "11-15",
-      "sectionTitle": "[11–15]",
-      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "11-14",
+      "sectionTitle": "[11–14]",
+      "sectionInstructionKo": "[11–14] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "14",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
+        "We don't do nothing today.",
+        "Is there anybody in this room?",
+        "Would you like some more coffee?",
+        "Jack visited the place and took some pictures.",
+        "Mom bought some bread, but she didn't buy any apples."
       ],
       "accept": [
-        "4",
-        "④"
+        "1",
+        "①"
       ],
-      "answer": "4"
+      "answer": "1"
     },
     {
-      "id": "q15",
-      "section": "11-15",
-      "sectionTitle": "[11–15]",
-      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "15",
-      "type": "fill",
-      "promptEn": "(1) Everyone has... (2) Nobody likes...",
-      "blanks": 2,
+      "id": "q15a",
+      "section": "15",
+      "sectionTitle": "[15]",
+      "sectionInstructionKo": "[15] 우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "15-1",
+      "type": "sentence",
+      "promptEn": "모든 사람은 서로 다른 성격을 가지고 있다. (different / everyone / a / personality / have)",
       "accept": [
-        "Everyone has a different personality|Nobody likes rude people"
+        "Everyone has a different personality."
+      ]
+    },
+    {
+      "id": "q15b",
+      "section": "15",
+      "sectionTitle": "[15]",
+      "sectionInstructionKo": "[15] 우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "15-2",
+      "type": "sentence",
+      "promptEn": "나는 나 자신에 대한 에세이를 쓴다. (an essay / about / I / write / me)",
+      "accept": [
+        "I write an essay about myself."
       ]
     }
   ],

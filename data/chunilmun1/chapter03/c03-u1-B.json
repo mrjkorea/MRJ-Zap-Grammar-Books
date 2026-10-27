@@ -15,8 +15,8 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "다음 빈칸에 알맞은 말을 쓰세요. POINT 2·3.",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 2·3.",
       "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -35,27 +35,28 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "They are not ________ in the pool.",
-      "blanks": 1,
+      "promptEn": "우리는 지금 경기에 이기고 있지 않다.\n(win)\n→ We ________ ________ ________ the game right now.",
+      "blanks": 3,
       "accept": [
-        "swimming"
+        "aren't|winning",
+        "are not|winning"
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "________ the baby ________ on the bed?",
+      "promptEn": "그가 지금 우리에게 거짓말하고 있니?\n(lie)\n→ ________ he ________ to us now?",
       "blanks": 2,
       "accept": [
         "Is|lying"
@@ -65,27 +66,28 @@
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "The puppies ________ ________ .",
-      "blanks": 2,
+      "promptEn": "그 아기들은 이제 울고 있지 않다.\n(cry)\n→ The babies ________ ________ ________ now.",
+      "blanks": 3,
       "accept": [
-        "aren't|crying"
+        "aren't|crying",
+        "are not|crying"
       ]
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "________ the boys ________ the hill?",
+      "promptEn": "그들이 그 나무에 올라가고 있니?\n(climb)\n→ ________ they ________ the tree?",
       "blanks": 2,
       "accept": [
         "Are|climbing"

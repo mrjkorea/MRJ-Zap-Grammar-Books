@@ -4,23 +4,23 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c05:u1-A",
   "title": "Workbook Unit 1 — Section A",
-  "subtitle": "명사/관사 · POINT 1·3 (WB p. 32)",
+  "subtitle": "셀 수 있는/없는 명사 · POINT 1 (WB p. 32)",
   "pages": "32",
-  "timerMinutes": 22,
+  "timerMinutes": 20,
   "unitId": "wb-chapter-05",
   "unitTitle": "Ch 05 WB — 명사와 관사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 20문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "directionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1.",
+      "ruleKo": "맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 10,
+      "itemCount": 20,
       "exampleCount": 0,
       "labels": [
         "A1",
@@ -32,7 +32,17 @@
         "A7",
         "A8",
         "A9",
-        "A10"
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19",
+        "A20"
       ]
     }
   ],
@@ -41,150 +51,320 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "You can find some ________ on the table.",
+      "promptEn": "hand",
       "blanks": 1,
       "accept": [
-        "sugar"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "Jinsu saw a girl. She wore a red skirt. → Use a/an/the: ________",
+      "promptEn": "salt",
       "blanks": 1,
       "accept": [
-        "a"
+        "X",
+        "x"
       ]
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "The tree has many ________.",
+      "promptEn": "coin",
       "blanks": 1,
       "accept": [
-        "leaves"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "The woman is cooking ________.",
+      "promptEn": "advice",
       "blanks": 1,
       "accept": [
-        "rice"
+        "X",
+        "x"
       ]
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "James and I broke some ________.",
+      "promptEn": "friend",
       "blanks": 1,
       "accept": [
-        "cups"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptEn": "The ________ are eating lunch.",
+      "promptEn": "sofa",
       "blanks": 1,
       "accept": [
-        "men"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a07",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A7",
       "type": "fill",
-      "promptEn": "Mr. Park doesn't waste ________ at the mall.",
+      "promptEn": "money",
       "blanks": 1,
       "accept": [
-        "money"
+        "X",
+        "x"
       ]
     },
     {
       "id": "a08",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A8",
       "type": "fill",
-      "promptEn": "Father told us interesting ________.",
+      "promptEn": "water",
       "blanks": 1,
       "accept": [
-        "stories"
+        "X",
+        "x"
       ]
     },
     {
       "id": "a09",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A9",
       "type": "fill",
-      "promptEn": "The ________ in that movie are cute.",
+      "promptEn": "milk",
       "blanks": 1,
       "accept": [
-        "mice"
+        "X",
+        "x"
       ]
     },
     {
       "id": "a10",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 빈칸에 들어갈 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A10",
       "type": "fill",
-      "promptEn": "Helen bought a banana. ________ banana was sweet.",
+      "promptEn": "desk",
       "blanks": 1,
       "accept": [
-        "The"
+        "O",
+        "o"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "child",
+      "blanks": 1,
+      "accept": [
+        "O",
+        "o"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "river",
+      "blanks": 1,
+      "accept": [
+        "O",
+        "o"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "air",
+      "blanks": 1,
+      "accept": [
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "furniture",
+      "blanks": 1,
+      "accept": [
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "cup",
+      "blanks": 1,
+      "accept": [
+        "O",
+        "o"
+      ]
+    },
+    {
+      "id": "a16",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A16",
+      "type": "fill",
+      "promptEn": "information",
+      "blanks": 1,
+      "accept": [
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "a17",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A17",
+      "type": "fill",
+      "promptEn": "flower",
+      "blanks": 1,
+      "accept": [
+        "O",
+        "o"
+      ]
+    },
+    {
+      "id": "a18",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A18",
+      "type": "fill",
+      "promptEn": "health",
+      "blanks": 1,
+      "accept": [
+        "X",
+        "x"
+      ]
+    },
+    {
+      "id": "a19",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A19",
+      "type": "fill",
+      "promptEn": "ring",
+      "blanks": 1,
+      "accept": [
+        "O",
+        "o"
+      ]
+    },
+    {
+      "id": "a20",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요. POINT 1. 맞으면 O, 틀리면 X를 쓰세요. (O 또는 X.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A20",
+      "type": "fill",
+      "promptEn": "meat",
+      "blanks": 1,
+      "accept": [
+        "X",
+        "x"
       ]
     }
   ]

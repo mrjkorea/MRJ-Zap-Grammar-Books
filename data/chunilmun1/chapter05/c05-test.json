@@ -4,135 +4,168 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c05:test",
   "title": "Chapter Test",
-  "subtitle": "Chapter 05 명사와 관사 (p. 60)",
-  "pages": "60",
+  "subtitle": "Chapter 05 명사와 관사 (p. 62–63)",
+  "pages": "62–63",
   "timerMinutes": 28,
   "unitId": "chapter-05",
   "unitTitle": "Chapter 05 — 명사와 관사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–6] 6문항(고르기), [7] 1문항(빈칸 말만 쓰기), [8–10] 3문항(고르기), [11] 1문항(빈칸 말만 쓰기), [12–15] 4문항(고르기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4–5] 2문항(고르기), [6–7] 2문항(고르기), [8] 2문항(빈칸 말만 쓰기), [9–12] 4문항(고르기), [13] 3문항(문장 전체 쓰기), [14] 1문항(고르기), [15] 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
-      "id": "1-6",
-      "title": "[1–6]",
-      "instructionKo": "[1–6] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[1–6] 다음 중 알맞은 것을 고르세요.",
+      "id": "1",
+      "title": "[1]",
+      "instructionKo": "[1] 다음 중 명사의 단수형과 복수형이 바르게 연결된 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[1] 다음 중 명사의 단수형과 복수형이 바르게 연결된 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 6,
-      "exampleCount": 0,
-      "labels": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6"
-      ]
-    },
-    {
-      "id": "7",
-      "title": "[7]",
-      "instructionKo": "[7] 단위명사 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "[7] 단위명사",
-      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
+        "1"
+      ]
+    },
+    {
+      "id": "2-3",
+      "title": "[2–3]",
+      "instructionKo": "[2–3] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[2–3] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "4-5",
+      "title": "[4–5]",
+      "instructionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "6-7",
+      "title": "[6–7]",
+      "instructionKo": "[6–7] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[6–7] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "6",
         "7"
       ]
     },
     {
-      "id": "8-10",
-      "title": "[8–10]",
-      "instructionKo": "[8–10] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[8–10] MC",
-      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "itemCount": 3,
-      "exampleCount": 0,
-      "labels": [
-        "8",
-        "9",
-        "10"
-      ]
-    },
-    {
-      "id": "11",
-      "title": "[11]",
-      "instructionKo": "[11] There is/are 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "[11] There is/are",
+      "id": "8",
+      "title": "[8]",
+      "instructionKo": "[8] 주어진 단어를 올바르게 배열하여 다음 대화를 완성하세요. (필요시 단어의 형태를 바꿀 것) 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[8] 주어진 단어를 올바르게 배열하여 다음 대화를 완성하세요. (필요시 단어의 형태를 바꿀 것)",
       "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 1,
+      "itemCount": 2,
       "exampleCount": 0,
       "labels": [
-        "11"
+        "8-1",
+        "8-2"
       ]
     },
     {
-      "id": "12-15",
-      "title": "[12–15]",
-      "instructionKo": "[12–15] MC / fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[12–15] MC / fill",
+      "id": "9-12",
+      "title": "[9–12]",
+      "instructionKo": "[9–12] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[9–12] 다음 중 알맞은 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "itemCount": 4,
       "exampleCount": 0,
       "labels": [
-        "12",
-        "13",
-        "14",
-        "15"
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "[13]",
+      "instructionKo": "[13] 다음 그림을 보고 주어진 단어를 사용하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[13] 다음 그림을 보고 주어진 단어를 사용하여 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "13-1",
+        "13-2",
+        "13-3"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "[14]",
+      "instructionKo": "[14] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[14] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "14"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "[15]",
+      "instructionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "15-1",
+        "15-2"
       ]
     }
   ],
   "items": [
     {
       "id": "q01",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "[1–6] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "1",
+      "sectionTitle": "[1]",
+      "sectionInstructionKo": "[1] 다음 중 명사의 단수형과 복수형이 바르게 연결된 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "1",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "There is",
-        "There are",
-        "Is there",
-        "Are there",
-        "There was"
-      ],
-      "accept": [
-        "4",
-        "④"
-      ],
-      "answer": "4"
-    },
-    {
-      "id": "q02",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "[1–6] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "2",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "a glass of",
-        "a piece of",
-        "a bottle of",
-        "a bowl of",
-        "a cup of"
+        "knife — knifs",
+        "foot — foots",
+        "class — classes",
+        "potato — potatos",
+        "dictionary — dictionaryes"
       ],
       "accept": [
         "3",
@@ -141,44 +174,67 @@
       "answer": "3"
     },
     {
+      "id": "q02",
+      "section": "2-3",
+      "sectionTitle": "[2–3]",
+      "sectionInstructionKo": "[2–3] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "There are ________ on the hill.",
+      "choices": [
+        "sheep",
+        "trees",
+        "children",
+        "fox",
+        "deer"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
       "id": "q03",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "[1–6] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "2-3",
+      "sectionTitle": "[2–3]",
+      "sectionInstructionKo": "[2–3] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "3",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Linda needs a piece of ________.",
       "choices": [
-        "child",
-        "children",
-        "childs",
-        "childrens",
-        "childes"
+        "cake",
+        "paper",
+        "water",
+        "pizza",
+        "cheese"
       ],
       "accept": [
-        "2",
-        "②"
+        "3",
+        "③"
       ],
-      "answer": "2"
+      "answer": "3"
     },
     {
       "id": "q04",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "[1–6] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "4-5",
+      "sectionTitle": "[4–5]",
+      "sectionInstructionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "4",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "three glass of",
-        "three glasses of",
-        "three glass",
-        "three glasses",
-        "three of glass"
+        "My brother has many friends.",
+        "Mrs. Brown has five childs.",
+        "I know many interesting stories.",
+        "Look at the benches over there.",
+        "Tony brushes his teeth every morning."
       ],
       "accept": [
         "2",
@@ -188,20 +244,20 @@
     },
     {
       "id": "q05",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "[1–6] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "4-5",
+      "sectionTitle": "[4–5]",
+      "sectionInstructionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "5",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "a",
-        "an",
-        "the",
-        "some",
-        "any"
+        "I ate three pieces of chocolate cake.",
+        "John will have a bowl of salad.",
+        "Can I have two slices of mango juice?",
+        "Helen bought two bottles of milk at the grocery.",
+        "Mom always drinks a cup of coffee after a meal."
       ],
       "accept": [
         "3",
@@ -211,104 +267,20 @@
     },
     {
       "id": "q06",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "[1–6] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "6-7",
+      "sectionTitle": "[6–7]",
+      "sectionInstructionKo": "[6–7] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "6",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "I had a dog. (A) dog was very smart.\nWill you buy (B) new watch? It's too old.",
       "choices": [
-        "There is",
-        "There are",
-        "Is there",
-        "Are there",
-        "There were"
-      ],
-      "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
-    },
-    {
-      "id": "q07",
-      "section": "7",
-      "sectionTitle": "[7]",
-      "sectionInstructionKo": "[7] 단위명사 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "7",
-      "type": "fill",
-      "promptEn": "(1) three slices of pizza (2) two glasses of orange juice",
-      "blanks": 2,
-      "accept": [
-        "three slices of pizza|two glasses of orange juice"
-      ]
-    },
-    {
-      "id": "q08",
-      "section": "8-10",
-      "sectionTitle": "[8–10]",
-      "sectionInstructionKo": "[8–10] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "8",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "was",
-        "were",
-        "is",
-        "are",
-        "be"
-      ],
-      "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
-    },
-    {
-      "id": "q09",
-      "section": "8-10",
-      "sectionTitle": "[8–10]",
-      "sectionInstructionKo": "[8–10] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "9",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "is",
-        "are",
-        "was",
-        "were",
-        "be"
-      ],
-      "accept": [
-        "3",
-        "③"
-      ],
-      "answer": "3"
-    },
-    {
-      "id": "q10",
-      "section": "8-10",
-      "sectionTitle": "[8–10]",
-      "sectionInstructionKo": "[8–10] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "10",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "Are there",
-        "Is there",
-        "There are",
-        "There is",
-        "Were there"
+        "A — an",
+        "A — the",
+        "The — the",
+        "The — an",
+        "The — a"
       ],
       "accept": [
         "5",
@@ -317,96 +289,246 @@
       "answer": "5"
     },
     {
-      "id": "q11",
-      "section": "11",
-      "sectionTitle": "[11]",
-      "sectionInstructionKo": "[11] There is/are 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "id": "q07",
+      "section": "6-7",
+      "sectionTitle": "[6–7]",
+      "sectionInstructionKo": "[6–7] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "There (A) many deer in the forest.\n(B) there any juice in the fridge?",
+      "choices": [
+        "was — Is",
+        "was — Are",
+        "were — Are",
+        "were — Is",
+        "were — Were"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q08a",
+      "section": "8",
+      "sectionTitle": "[8]",
+      "sectionInstructionKo": "[8] 주어진 단어를 올바르게 배열하여 다음 대화를 완성하세요. (필요시 단어의 형태를 바꿀 것) 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "label": "11",
+      "label": "8-1",
       "type": "fill",
-      "promptEn": "(1) three tables (2) two plates (3) a vase",
-      "blanks": 3,
+      "promptEn": "A: Can I help you?\nB: Yes. Could you bring me (1) ________ ? (pizza / three / slice / of)",
+      "blanks": 1,
       "accept": [
-        "are three tables|are two plates|is a vase"
+        "three slices of pizza"
       ]
     },
     {
+      "id": "q08b",
+      "section": "8",
+      "sectionTitle": "[8]",
+      "sectionInstructionKo": "[8] 주어진 단어를 올바르게 배열하여 다음 대화를 완성하세요. (필요시 단어의 형태를 바꿀 것) 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "8-2",
+      "type": "fill",
+      "promptEn": "A: Sure. Anything else?\nB: (2) ________, please. (orange juice / two / glass / of)",
+      "blanks": 1,
+      "accept": [
+        "Two glasses of orange juice",
+        "two glasses of orange juice"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "9-12",
+      "sectionTitle": "[9–12]",
+      "sectionInstructionKo": "[9–12] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "There was some flowers in the vase.",
+        "There are not any clouds in the sky.",
+        "There is a movie theater over there.",
+        "There was an accident on the road.",
+        "There are many cars in the city."
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q10",
+      "section": "9-12",
+      "sectionTitle": "[9–12]",
+      "sectionInstructionKo": "[9–12] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "다음 중 빈칸에 들어갈 단어가 나머지와 다른 하나를 고르세요.",
+      "choices": [
+        "There ________ 24 hours in a day.",
+        "There ________ an old tree in my town.",
+        "There ________ lots of milk in the bottle.",
+        "________ there a bus stop on the corner?",
+        "There ________ some jewelry in my mom's drawer."
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q11",
+      "section": "9-12",
+      "sectionTitle": "[9–12]",
+      "sectionInstructionKo": "[9–12] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "그 축제에는 많은 사람들이 있니?",
+      "choices": [
+        "Is there many person at the festival?",
+        "Is there many people at the festival?",
+        "Is there many persons at the festival?",
+        "Are there many person at the festival?",
+        "Are there many people at the festival?"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
       "id": "q12",
-      "section": "12-15",
-      "sectionTitle": "[12–15]",
-      "sectionInstructionKo": "[12–15] MC / fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "9-12",
+      "sectionTitle": "[9–12]",
+      "sectionInstructionKo": "[9–12] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "12",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "leaf",
-        "leaves",
-        "leafs",
-        "leaved",
-        "leaveses"
+        "She eats a bread for lunch.",
+        "I walked on the fallen leafs.",
+        "There is oranges in the basket.",
+        "There are many buses on the street.",
+        "The man caught many fishes in the sea."
       ],
       "accept": [
-        "2",
-        "②"
+        "4",
+        "④"
       ],
-      "answer": "2"
+      "answer": "4"
     },
     {
-      "id": "q13",
-      "section": "12-15",
-      "sectionTitle": "[12–15]",
-      "sectionInstructionKo": "[12–15] MC / fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "13",
-      "type": "fill",
-      "promptEn": "(1) a bear (2) two birds",
-      "blanks": 2,
+      "id": "q13a",
+      "section": "13",
+      "sectionTitle": "[13]",
+      "sectionInstructionKo": "[13] 다음 그림을 보고 주어진 단어를 사용하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "13-1",
+      "type": "sentence",
+      "promptEn": "(1) There ________________ in the restaurant. (table)",
       "accept": [
-        "is a bear|are two birds",
-        "is a[one] bear|are two birds"
+        "There are three tables in the restaurant."
+      ]
+    },
+    {
+      "id": "q13b",
+      "section": "13",
+      "sectionTitle": "[13]",
+      "sectionInstructionKo": "[13] 다음 그림을 보고 주어진 단어를 사용하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "13-2",
+      "type": "sentence",
+      "promptEn": "(2) There ________________ on the table. (plate)",
+      "accept": [
+        "There are two plates on the table."
+      ]
+    },
+    {
+      "id": "q13c",
+      "section": "13",
+      "sectionTitle": "[13]",
+      "sectionInstructionKo": "[13] 다음 그림을 보고 주어진 단어를 사용하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "13-3",
+      "type": "sentence",
+      "promptEn": "(3) There ________________ between the plates. (vase)",
+      "accept": [
+        "There is a vase between the plates."
       ]
     },
     {
       "id": "q14",
-      "section": "12-15",
-      "sectionTitle": "[12–15]",
-      "sectionInstructionKo": "[12–15] MC / fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "section": "14",
+      "sectionTitle": "[14]",
+      "sectionInstructionKo": "[14] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "14",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
+      "type": "fill",
+      "promptEn": "① The boxes are very heavy.\n② The black cat caught two mouses.\n③ There is four people in my family.\n④ I need three tomatoes for spaghetti.\n⑤ There are some kids in the playground.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "보기",
+        "보기"
       ],
+      "unordered": true,
       "accept": [
-        "3",
-        "③"
-      ],
-      "answer": "3"
+        "2|3",
+        "3|2",
+        "3|2",
+        "2|3"
+      ]
     },
     {
-      "id": "q15",
-      "section": "12-15",
-      "sectionTitle": "[12–15]",
-      "sectionInstructionKo": "[12–15] MC / fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "15",
+      "id": "q15a",
+      "section": "15",
+      "sectionTitle": "[15]",
+      "sectionInstructionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "15-1",
       "type": "fill",
-      "promptEn": "Zoo: many animals / koala / sixteen hours",
+      "promptEn": "There ⓐ is many interesting ⓑ animals in the zoo. … sixteen ⓔ hour a day.\n(1) ________ → ________",
       "blanks": 2,
       "accept": [
-        "are|hours",
-        "are|hour"
+        "a|are",
+        "ⓐ|are"
+      ]
+    },
+    {
+      "id": "q15b",
+      "section": "15",
+      "sectionTitle": "[15]",
+      "sectionInstructionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "15-2",
+      "type": "fill",
+      "promptEn": "(2) ________ → ________",
+      "blanks": 2,
+      "accept": [
+        "e|hours",
+        "ⓔ|hours"
       ]
     }
   ],

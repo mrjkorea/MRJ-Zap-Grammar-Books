@@ -10,16 +10,16 @@
   "unitId": "chapter-02",
   "unitTitle": "Chapter 02 — 일반동사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 6문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2.",
-      "ruleKo": "[ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "itemCount": 6,
       "exampleCount": 0,
       "labels": [
@@ -37,91 +37,121 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "We [wants] some fresh air.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "We [want / wants] some balloons for the party.",
+      "choices": [
+        "want",
+        "wants"
+      ],
       "accept": [
-        "want"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
-      "type": "fill",
-      "promptEn": "She [have] short hair.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "She [have / has] very short hair.",
+      "choices": [
+        "have",
         "has"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
-      "type": "fill",
-      "promptEn": "Emily [love] her new shoes.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "Emily [love / loves] her new shoes.",
+      "choices": [
+        "love",
         "loves"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
-      "type": "fill",
-      "promptEn": "My brother and I [learns] Chinese together.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "My brother and I [learn / learns] Chinese together.",
+      "choices": [
+        "learn",
+        "learns"
+      ],
       "accept": [
-        "learn"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
-      "type": "fill",
-      "promptEn": "Ben [like] singing and dancing.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "Ben [like / likes] singing and dancing.",
+      "choices": [
+        "like",
         "likes"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A6",
-      "type": "fill",
-      "promptEn": "Kevin and Nancy [watchs] movies every Saturday.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Kevin and Nancy [watch / watches] movies on Saturdays.",
+      "choices": [
+        "watch",
+        "watches"
+      ],
       "accept": [
-        "watch"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     }
   ]
 }

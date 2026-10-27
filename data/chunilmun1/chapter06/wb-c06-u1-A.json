@@ -4,22 +4,22 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c06:u1-A",
   "title": "Workbook Unit 1 — Section A",
-  "subtitle": "인칭대명사 · POINT 1·2 (WB p. 38)",
-  "pages": "38",
+  "subtitle": "인칭·소유대명사 · POINT 1·2 (WB p. 40)",
+  "pages": "40",
   "timerMinutes": 22,
   "unitId": "wb-chapter-06",
   "unitTitle": "Ch 06 WB — 대명사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 10문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "itemCount": 10,
       "exampleCount": 0,
       "labels": [
@@ -41,151 +41,201 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "Don't believe ________. He always lies.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "He always tells a lie. Don't believe [his / him].",
+      "choices": [
+        "his",
         "him"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
-      "type": "fill",
-      "promptEn": "The dog wagged ________ tail.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "A flower has [its / it's] own smell.",
+      "choices": [
+        "its",
+        "it's"
+      ],
       "accept": [
-        "its"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
-      "type": "fill",
-      "promptEn": "Is this ________ pencil?",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "Is he [you / your] history teacher?",
+      "choices": [
+        "you",
         "your"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
-      "type": "fill",
-      "promptEn": "Call ________ tonight.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "Please give [my / me] a sheet of paper.",
+      "choices": [
+        "my",
         "me"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
-      "type": "fill",
-      "promptEn": "They started ________ trip.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Gary and Tony began [their / them] trip last week.",
+      "choices": [
+        "their",
+        "them"
+      ],
       "accept": [
-        "their"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A6",
-      "type": "fill",
-      "promptEn": "This classroom is ________.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "We talked about [our / us] summer camp.",
+      "choices": [
+        "our",
+        "us"
+      ],
       "accept": [
-        "ours"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a07",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A7",
-      "type": "fill",
-      "promptEn": "________ are in the same class.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Nancy didn't bring her textbook. She borrowed [my / mine].",
+      "choices": [
+        "my",
+        "mine"
+      ],
       "accept": [
-        "They"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a08",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A8",
-      "type": "fill",
-      "promptEn": "________ live near the river.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "I miss my grandparents. [Their / They] live in Canada.",
+      "choices": [
+        "Their",
+        "They"
+      ],
       "accept": [
-        "We"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a09",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A9",
-      "type": "fill",
-      "promptEn": "________ brother is tall.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Kate and I live together. [They / We] are roommates.",
+      "choices": [
+        "They",
+        "We"
+      ],
       "accept": [
-        "His"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a10",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 대명사를 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A10",
-      "type": "fill",
-      "promptEn": "Give the book to ________.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "My birthday is in April. [He / His] is in May.",
+      "choices": [
+        "He",
+        "His"
+      ],
       "accept": [
-        "her"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     }
   ]
 }

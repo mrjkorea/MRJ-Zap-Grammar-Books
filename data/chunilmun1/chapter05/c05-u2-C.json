@@ -4,19 +4,62 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c05:u2-C",
   "title": "Unit 2 Unit Exercise — Section C",
-  "subtitle": "There is/are · POINT 5 (p. 59)",
-  "pages": "59",
-  "timerMinutes": 22,
+  "subtitle": "There is/are · POINT 6 (p. 61)",
+  "pages": "61",
+  "timerMinutes": 24,
   "unitId": "chapter-05",
   "unitTitle": "Chapter 05 — 명사와 관사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section C 5문항(문장 전체 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 7문항(고르기), Section B 4문항(빈칸 말만 쓰기), Section C 5문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 7,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 6.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "wordBank": [
+        "There is",
+        "There are",
+        "There was",
+        "There were"
+      ]
+    },
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "문장을 완성하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "directionKo": "문장을 완성하세요. POINT 5.",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6.",
       "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
@@ -33,76 +76,275 @@
   ],
   "items": [
     {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "There [is / are] an umbrella in the locker.",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "There [is / are] some textbooks in my backpack.",
+      "choices": [
+        "is",
+        "are"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "[Was / Were] there tall trees in the park last year?",
+      "choices": [
+        "Was",
+        "Were"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "There is [a student / students] in the school bus.",
+      "choices": [
+        "a student",
+        "students"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "There are special [rule / rules] in my school.",
+      "choices": [
+        "rule",
+        "rules"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "There [wasn't / weren't] furniture in the new house.",
+      "choices": [
+        "wasn't",
+        "weren't"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "There [was / were] Tom and Sam in the yard.",
+      "choices": [
+        "was",
+        "were"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "________ three rooms in my house.",
+      "blanks": 1,
+      "accept": [
+        "There are"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "________ a football stadium in the city before.",
+      "blanks": 1,
+      "accept": [
+        "There was"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "________ many children in the park yesterday.",
+      "blanks": 1,
+      "accept": [
+        "There were"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "________ a swimming pool in this hotel.",
+      "blanks": 1,
+      "accept": [
+        "There is"
+      ]
+    },
+    {
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C1",
       "type": "sentence",
-      "promptEn": "There is some money in my wallet.",
+      "promptEn": "내 바지 주머니에 약간의 돈이 있다.\n(there, some money)\n→ ________ ________ ________ in my pants pocket.",
       "accept": [
-        "There is some money in my wallet.",
-        "There's some money in my wallet."
+        "There is some money in my pants pocket.",
+        "There's some money in my pants pocket."
       ]
     },
     {
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C2",
       "type": "sentence",
-      "promptEn": "There was a soccer match yesterday.",
+      "promptEn": "어제 생일 파티가 있었다.\n(a birthday party, there)\n→ ________ ________ ________ ________ yesterday.",
       "accept": [
-        "There was a soccer match yesterday."
+        "There was a birthday party yesterday."
       ]
     },
     {
       "id": "c03",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C3",
       "type": "sentence",
-      "promptEn": "There aren't sugar and eggs in the kitchen.",
+      "promptEn": "그 건물에는 세 개의 회사가 있다.\n(there, companies)\n→ ________ ________ ________ ________ in the building.",
       "accept": [
-        "There aren't sugar and eggs in the kitchen.",
-        "There are not sugar and eggs in the kitchen."
+        "There are three companies in the building."
       ]
     },
     {
       "id": "c04",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C4",
       "type": "sentence",
-      "promptEn": "Are there any trains at night?",
+      "promptEn": "여기서 부산까지 가는 기차가 있나요?\n(any trains, there)\n→ ________ ________ ________ ________ to Busan from here?",
       "accept": [
-        "Are there any trains at night?"
+        "Are there any trains to Busan from here?"
       ]
     },
     {
       "id": "c05",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C5",
       "type": "sentence",
-      "promptEn": "There weren't candles on the table.",
+      "promptEn": "그 케이크 위에는 초가 없었다.\n(there, candles)\n→ ________ ________ ________ ________ on the cake.",
       "accept": [
-        "There weren't candles on the table.",
-        "There were not candles on the table."
+        "There weren't candles on the cake.",
+        "There were not candles on the cake."
       ]
     }
   ]

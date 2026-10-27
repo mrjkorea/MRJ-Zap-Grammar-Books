@@ -4,35 +4,30 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c08:u2-A",
   "title": "Workbook Unit 2 — Section A",
-  "subtitle": "문장 종류 · WB Unit 2 (WB p. 56)",
-  "pages": "56",
-  "timerMinutes": 22,
+  "subtitle": "의문사 · POINT 6·7 (WB p. 58)",
+  "pages": "58",
+  "timerMinutes": 18,
   "unitId": "wb-chapter-08",
   "unitTitle": "Ch 08 WB — 여러 가지 문장 종류",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 5문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "문장을 완성하거나 고르세요. POINT 2.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 10,
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
       "exampleCount": 0,
       "labels": [
         "A1",
         "A2",
         "A3",
         "A4",
-        "A5",
-        "A6",
-        "A7",
-        "A8",
-        "A9",
-        "A10"
+        "A5"
       ]
     }
   ],
@@ -41,151 +36,101 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "WB8-U2-A1 ________.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "[Who / Whose] necklace is that? / It's Nancy's.",
+      "choices": [
+        "Who",
+        "Whose"
+      ],
       "accept": [
-        "answer"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
-      "type": "fill",
-      "promptEn": "WB8-U2-A2 ________.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "[Who / When] likes the chocolate cookies?",
+      "choices": [
+        "Who",
+        "When"
+      ],
       "accept": [
-        "answer"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
-      "type": "fill",
-      "promptEn": "WB8-U2-A3 ________.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "[Where / What] countries did you visit last year?",
+      "choices": [
+        "Where",
+        "What"
+      ],
       "accept": [
-        "answer"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
-      "type": "fill",
-      "promptEn": "WB8-U2-A4 ________.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "[Whose / Which] do you prefer, oranges or bananas?",
+      "choices": [
+        "Whose",
+        "Which"
+      ],
       "accept": [
-        "answer"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
-      "type": "fill",
-      "promptEn": "WB8-U2-A5 ________.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "[What / Who] will you buy for your parents?",
+      "choices": [
+        "What",
+        "Who"
+      ],
       "accept": [
-        "answer"
-      ]
-    },
-    {
-      "id": "a06",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A6",
-      "type": "fill",
-      "promptEn": "WB8-U2-A6 ________.",
-      "blanks": 1,
-      "accept": [
-        "answer"
-      ]
-    },
-    {
-      "id": "a07",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A7",
-      "type": "fill",
-      "promptEn": "WB8-U2-A7 ________.",
-      "blanks": 1,
-      "accept": [
-        "answer"
-      ]
-    },
-    {
-      "id": "a08",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A8",
-      "type": "fill",
-      "promptEn": "WB8-U2-A8 ________.",
-      "blanks": 1,
-      "accept": [
-        "answer"
-      ]
-    },
-    {
-      "id": "a09",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A9",
-      "type": "fill",
-      "promptEn": "WB8-U2-A9 ________.",
-      "blanks": 1,
-      "accept": [
-        "answer"
-      ]
-    },
-    {
-      "id": "a10",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "문장을 완성하거나 고르세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A10",
-      "type": "fill",
-      "promptEn": "WB8-U2-A10 ________.",
-      "blanks": 1,
-      "accept": [
-        "answer"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     }
   ]
 }

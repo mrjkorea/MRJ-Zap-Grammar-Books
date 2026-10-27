@@ -4,9 +4,9 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c04:u2-B",
   "title": "Workbook Unit 2 — Section B",
-  "subtitle": "must/have to/should · POINT 7·8 (WB p. 24)",
+  "subtitle": "must/have to/should · POINT 8 (WB p. 24)",
   "pages": "24",
-  "timerMinutes": 22,
+  "timerMinutes": 20,
   "unitId": "wb-chapter-04",
   "unitTitle": "Ch 04 WB — 조동사",
   "sectionsVersion": 2,
@@ -15,9 +15,9 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "should / shouldn't POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "should / shouldn't POINT 8.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 6,
@@ -29,6 +29,14 @@
         "B4",
         "B5",
         "B6"
+      ],
+      "wordBank": [
+        "waste",
+        "help",
+        "listen",
+        "brush",
+        "tell",
+        "eat"
       ]
     }
   ],
@@ -37,90 +45,93 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should / shouldn't POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "You ________ to your parents.",
-      "blanks": 1,
+      "promptEn": "We ________ ________ ________ to other people.",
+      "blanks": 3,
       "accept": [
-        "should listen"
+        "should|listen"
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should / shouldn't POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "You ________ water.",
-      "blanks": 1,
+      "promptEn": "You ________ ________ ________ your time.",
+      "blanks": 3,
       "accept": [
-        "should not waste"
+        "should|not|waste",
+        "shouldn't|waste"
       ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should / shouldn't POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "We ________ him.",
-      "blanks": 1,
+      "promptEn": "We ________ ________ ________ old and weak people.",
+      "blanks": 3,
       "accept": [
-        "should help"
+        "should|help"
       ]
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should / shouldn't POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "You ________ lies.",
-      "blanks": 1,
+      "promptEn": "You ________ ________ ________ a lie.",
+      "blanks": 3,
       "accept": [
-        "should not tell"
+        "should|not|tell",
+        "shouldn't|tell"
       ]
     },
     {
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should / shouldn't POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "You ________ too much candy.",
-      "blanks": 1,
+      "promptEn": "We ________ ________ ________ snacks now.",
+      "blanks": 3,
       "accept": [
-        "should not eat"
+        "should|not|eat",
+        "shouldn't|eat"
       ]
     },
     {
       "id": "b06",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should / shouldn't POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B6",
       "type": "fill",
-      "promptEn": "You ________ your teeth.",
-      "blanks": 1,
+      "promptEn": "Judy ________ ________ ________ her teeth.",
+      "blanks": 3,
       "accept": [
-        "should brush"
+        "should|brush"
       ]
     }
   ]

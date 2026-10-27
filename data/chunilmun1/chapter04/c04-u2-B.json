@@ -15,8 +15,8 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "should/shouldn't로 빈칸을 채우세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "should/shouldn't로 빈칸을 채우세요. POINT 8.",
+      "instructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8.",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -28,6 +28,13 @@
         "B3",
         "B4",
         "B5"
+      ],
+      "wordBank": [
+        "be",
+        "call",
+        "run",
+        "have",
+        "drive"
       ]
     }
   ],
@@ -36,15 +43,14 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should/shouldn't로 빈칸을 채우세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "You ________ more vegetables.",
+      "promptEn": "You ________ breakfast every day.",
       "blanks": 1,
       "accept": [
-        "should have",
         "should have"
       ]
     },
@@ -52,7 +58,7 @@
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should/shouldn't로 빈칸을 채우세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
@@ -68,15 +74,14 @@
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should/shouldn't로 빈칸을 채우세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "We ________ him soon.",
+      "promptEn": "Tommy ________ Yuri tonight.",
       "blanks": 1,
       "accept": [
-        "should call",
         "should call"
       ]
     },
@@ -84,12 +89,12 @@
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should/shouldn't로 빈칸을 채우세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "You ________ rude.",
+      "promptEn": "You ________ late for school.",
       "blanks": 1,
       "accept": [
         "should not be",
@@ -100,12 +105,12 @@
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "should/shouldn't로 빈칸을 채우세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "<보기>의 단어와 should 또는 should not을 사용하여 다음 문장을 완성하세요. POINT 8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "You ________ in the hallway.",
+      "promptEn": "We ________ on the stairs.",
       "blanks": 1,
       "accept": [
         "should not run",
