@@ -15,9 +15,9 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 문장을 부정문으로 바꾸세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "다음 문장을 부정문으로 바꾸세요. POINT 5.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 7,
@@ -38,15 +38,16 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꾸세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "He was happy.",
-      "blanks": 1,
+      "promptKo": "Emily는 어제 과학 실험실에 있지 않았다.",
+      "promptEn": "Emily ________ ________ in the science lab yesterday.",
+      "blanks": 2,
       "accept": [
-        "was not",
+        "was|not",
         "wasn't"
       ]
     },
@@ -54,15 +55,16 @@
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꾸세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "They are students.",
-      "blanks": 1,
+      "promptKo": "그 과일들은 신선하지 않다.",
+      "promptEn": "The fruits ________ ________ fresh.",
+      "blanks": 2,
       "accept": [
-        "are not",
+        "are|not",
         "aren't"
       ]
     },
@@ -70,15 +72,16 @@
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꾸세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "You are late.",
-      "blanks": 1,
+      "promptKo": "우리는 지금 박물관에 있지 않다.",
+      "promptEn": "We ________ ________ in the museum now.",
+      "blanks": 2,
       "accept": [
-        "are not",
+        "are|not",
         "aren't"
       ]
     },
@@ -86,15 +89,16 @@
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꾸세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "She is tired.",
-      "blanks": 1,
+      "promptKo": "진수는 대학생이 아니다.",
+      "promptEn": "Jinsu ________ ________ a university student.",
+      "blanks": 2,
       "accept": [
-        "is not",
+        "is|not",
         "isn't"
       ]
     },
@@ -102,15 +106,16 @@
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꾸세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "We were friends.",
-      "blanks": 1,
+      "promptKo": "Bob과 나는 오늘 아침에 교실에 있지 않았다.",
+      "promptEn": "Bob and I ________ ________ in the classroom this morning.",
+      "blanks": 2,
       "accept": [
-        "were not",
+        "were|not",
         "weren't"
       ]
     },
@@ -118,15 +123,16 @@
       "id": "b06",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꾸세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B6",
       "type": "fill",
-      "promptEn": "I was sick.",
-      "blanks": 1,
+      "promptKo": "어제는 내 생일이 아니었다.",
+      "promptEn": "It ________ ________ my birthday yesterday.",
+      "blanks": 2,
       "accept": [
-        "was not",
+        "was|not",
         "wasn't"
       ]
     },
@@ -134,16 +140,17 @@
       "id": "b07",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 문장을 부정문으로 바꾸세요. POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B7",
       "type": "fill",
-      "promptEn": "Tom and I are cousins.",
-      "blanks": 1,
+      "promptKo": "지하철역은 여기서 멀지 않다.",
+      "promptEn": "The subway station ________ ________ far from here.",
+      "blanks": 2,
       "accept": [
-        "are not",
-        "aren't"
+        "is|not",
+        "isn't"
       ]
     }
   ]

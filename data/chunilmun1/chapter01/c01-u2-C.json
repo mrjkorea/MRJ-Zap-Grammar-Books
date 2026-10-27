@@ -22,7 +22,12 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 4,
       "exampleCount": 0,
-      "labels": ["C1", "C2", "C3", "C4"]
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
     }
   ],
   "items": [
@@ -37,7 +42,9 @@
       "type": "fill",
       "promptEn": "A: ________ ________ ________ now? (you)\nB: No, I'm not. I'm not sleepy.",
       "blanks": 3,
-      "accept": ["Are|you|sleepy"]
+      "accept": [
+        "Are|you|sleepy"
+      ]
     },
     {
       "id": "c02",
@@ -50,7 +57,9 @@
       "type": "fill",
       "promptEn": "A: ________ ________ ________ ________ ? (the key)\nB: Yes, it is. It's on the table.",
       "blanks": 4,
-      "accept": ["Is|the|key|on the table"]
+      "accept": [
+        "Is|the|key|on the table"
+      ]
     },
     {
       "id": "c03",
@@ -63,7 +72,9 @@
       "type": "fill",
       "promptEn": "A: ________ ________ ________ ________ ________ ? (you and Minji)\nB: Yes, we were. We were teammates.",
       "blanks": 5,
-      "accept": ["Were|you|and|Minji|teammates"]
+      "accept": [
+        "Were|you|and|Minji|teammates"
+      ]
     },
     {
       "id": "c04",
@@ -76,7 +87,9 @@
       "type": "fill",
       "promptEn": "A: ________ ________ ________ ________ ? (the subway)\nB: No, it wasn't. It wasn't crowded.",
       "blanks": 4,
-      "accept": ["Was|the|subway|crowded"]
+      "accept": [
+        "Was|the|subway|crowded"
+      ]
     }
   ]
 }

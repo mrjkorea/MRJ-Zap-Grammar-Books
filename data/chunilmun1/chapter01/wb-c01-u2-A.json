@@ -4,22 +4,22 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c01:u2-A",
   "title": "Workbook Unit 2 — Section A",
-  "subtitle": "be동사의 부정문과 의문문 · POINT 5 (WB p. 4)",
+  "subtitle": "be동사의 부정문과 의문문 · POINT 5·6 (WB p. 4)",
   "pages": "4",
   "timerMinutes": 22,
   "unitId": "wb-chapter-01",
   "unitTitle": "Ch 01 WB — be동사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 10문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5.",
-      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "itemCount": 10,
       "exampleCount": 0,
       "labels": [
@@ -41,156 +41,201 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "It ________ very expensive.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "It [isn't / aren't] very expensive.",
+      "choices": [
         "isn't",
-        "is not"
-      ]
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
-      "type": "fill",
-      "promptEn": "________ you a swimmer?",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "[Is / Are] she with you?",
+      "choices": [
+        "Is",
         "Are"
-      ]
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
-      "type": "fill",
-      "promptEn": "I ________ here last week.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "I [am not / wasn't] here last week.",
+      "choices": [
+        "am not",
+        "wasn't"
+      ],
       "accept": [
-        "wasn't",
-        "was not"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
-      "type": "fill",
-      "promptEn": "________ she with you?",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "[Is / Are] your parents proud of you?",
+      "choices": [
+        "Is",
+        "Are"
+      ],
       "accept": [
-        "Is"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
-      "type": "fill",
-      "promptEn": "________ they busy yesterday?",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "[Were / Are] they busy yesterday?",
+      "choices": [
+        "Were",
+        "Are"
+      ],
       "accept": [
-        "Were"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A6",
-      "type": "fill",
-      "promptEn": "Daniel ________ interested in soccer.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "Daniel [isn't / aren't] interested in soccer.",
+      "choices": [
         "isn't",
-        "is not"
-      ]
+        "aren't"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a07",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A7",
-      "type": "fill",
-      "promptEn": "________ Lisa in the first grade last year?",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "[Was / Were] Lisa in the first grade last year?",
+      "choices": [
+        "Was",
+        "Were"
+      ],
       "accept": [
-        "Was"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a08",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A8",
-      "type": "fill",
-      "promptEn": "My mother and I ________ at the mall.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "My mother and I [am not / aren't] at the shopping mall.",
+      "choices": [
+        "am not",
+        "aren't"
+      ],
       "accept": [
-        "aren't",
-        "are not"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a09",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A9",
-      "type": "fill",
-      "promptEn": "We ________ at school two hours ago.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "We [wasn't / weren't] at school two hours ago.",
+      "choices": [
+        "wasn't",
+        "weren't"
+      ],
       "accept": [
-        "weren't",
-        "were not"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a10",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A10",
-      "type": "fill",
-      "promptEn": "________ Robert and Kelly on vacation?",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "[Is / Are] Robert and Kelly on vacation?",
+      "choices": [
+        "Is",
         "Are"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     }
   ]
 }

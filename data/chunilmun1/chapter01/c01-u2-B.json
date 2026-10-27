@@ -22,7 +22,12 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 4,
       "exampleCount": 0,
-      "labels": ["B1", "B2", "B3", "B4"]
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
     }
   ],
   "items": [
@@ -37,7 +42,9 @@
       "type": "fill",
       "promptEn": "A: Is Yuri a good dancer?\nB: ________ , ________ ________ . She is a good dancer.",
       "blanks": 3,
-      "accept": ["Yes|she|is"]
+      "accept": [
+        "Yes|she|is"
+      ]
     },
     {
       "id": "b02",
@@ -50,7 +57,10 @@
       "type": "fill",
       "promptEn": "A: Were you at the cafe yesterday?\nB: ________ , ________ ________ . I was at home.",
       "blanks": 3,
-      "accept": ["No|I|wasn't", "No|I|was not"]
+      "accept": [
+        "No|I|wasn't",
+        "No|I|was not"
+      ]
     },
     {
       "id": "b03",
@@ -63,7 +73,9 @@
       "type": "fill",
       "promptEn": "A: Are they famous baseball players?\nB: ________ , ________ ________ . They're famous baseball players.",
       "blanks": 3,
-      "accept": ["Yes|they|are"]
+      "accept": [
+        "Yes|they|are"
+      ]
     },
     {
       "id": "b04",
@@ -76,7 +88,10 @@
       "type": "fill",
       "promptEn": "A: Was Peter sick last night?\nB: ________ , ________ ________ . He was fine.",
       "blanks": 3,
-      "accept": ["No|he|wasn't", "No|he|was not"]
+      "accept": [
+        "No|he|wasn't",
+        "No|he|was not"
+      ]
     }
   ]
 }

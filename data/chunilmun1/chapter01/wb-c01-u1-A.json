@@ -22,7 +22,18 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 10,
       "exampleCount": 0,
-      "labels": ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"]
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
     }
   ],
   "items": [
@@ -37,7 +48,10 @@
       "type": "fill",
       "promptEn": "[We are] from England.",
       "blanks": 1,
-      "accept": ["We're", "We are"]
+      "accept": [
+        "We're",
+        "We are"
+      ]
     },
     {
       "id": "a02",
@@ -50,7 +64,10 @@
       "type": "fill",
       "promptEn": "[I am] a good cook.",
       "blanks": 1,
-      "accept": ["I'm", "I am"]
+      "accept": [
+        "I'm",
+        "I am"
+      ]
     },
     {
       "id": "a03",
@@ -63,7 +80,10 @@
       "type": "fill",
       "promptEn": "[It is] cloudy today.",
       "blanks": 1,
-      "accept": ["It's", "It is"]
+      "accept": [
+        "It's",
+        "It is"
+      ]
     },
     {
       "id": "a04",
@@ -76,7 +96,10 @@
       "type": "fill",
       "promptEn": "[She is] my cousin.",
       "blanks": 1,
-      "accept": ["She's", "She is"]
+      "accept": [
+        "She's",
+        "She is"
+      ]
     },
     {
       "id": "a05",
@@ -89,7 +112,10 @@
       "type": "fill",
       "promptEn": "[You are] so pretty.",
       "blanks": 1,
-      "accept": ["You're", "You are"]
+      "accept": [
+        "You're",
+        "You are"
+      ]
     },
     {
       "id": "a06",
@@ -102,7 +128,10 @@
       "type": "fill",
       "promptEn": "[They are] in the playground.",
       "blanks": 1,
-      "accept": ["They're", "They are"]
+      "accept": [
+        "They're",
+        "They are"
+      ]
     },
     {
       "id": "a07",
@@ -115,7 +144,10 @@
       "type": "fill",
       "promptEn": "[He is] very clever.",
       "blanks": 1,
-      "accept": ["He's", "He is"]
+      "accept": [
+        "He's",
+        "He is"
+      ]
     },
     {
       "id": "a08",
@@ -128,7 +160,10 @@
       "type": "fill",
       "promptEn": "[You are] a good student.",
       "blanks": 1,
-      "accept": ["You're", "You are"]
+      "accept": [
+        "You're",
+        "You are"
+      ]
     },
     {
       "id": "a09",
@@ -141,7 +176,10 @@
       "type": "fill",
       "promptEn": "[I am] in the flower shop.",
       "blanks": 1,
-      "accept": ["I'm", "I am"]
+      "accept": [
+        "I'm",
+        "I am"
+      ]
     },
     {
       "id": "a10",
@@ -154,7 +192,10 @@
       "type": "fill",
       "promptEn": "[It is] delicious and sweet.",
       "blanks": 1,
-      "accept": ["It's", "It is"]
+      "accept": [
+        "It's",
+        "It is"
+      ]
     }
   ]
 }

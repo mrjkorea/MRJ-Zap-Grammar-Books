@@ -22,7 +22,14 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 6,
       "exampleCount": 0,
-      "labels": ["A1", "A2", "A3", "A4", "A5", "A6"]
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
     }
   ],
   "items": [
@@ -37,7 +44,9 @@
       "type": "fill",
       "promptEn": "You [is] always very nice.",
       "blanks": 1,
-      "accept": ["are"]
+      "accept": [
+        "are"
+      ]
     },
     {
       "id": "a02",
@@ -50,7 +59,9 @@
       "type": "fill",
       "promptEn": "She [are] always a good teacher.",
       "blanks": 1,
-      "accept": ["is"]
+      "accept": [
+        "is"
+      ]
     },
     {
       "id": "a03",
@@ -63,7 +74,10 @@
       "type": "fill",
       "promptEn": "[It're] sunny and clear today.",
       "blanks": 1,
-      "accept": ["It's", "It is"]
+      "accept": [
+        "It's",
+        "It is"
+      ]
     },
     {
       "id": "a04",
@@ -76,7 +90,9 @@
       "type": "fill",
       "promptEn": "I [are] very tired today.",
       "blanks": 1,
-      "accept": ["am"]
+      "accept": [
+        "am"
+      ]
     },
     {
       "id": "a05",
@@ -89,7 +105,10 @@
       "type": "fill",
       "promptEn": "[We'are] in the first grade this year.",
       "blanks": 1,
-      "accept": ["We're", "We are"]
+      "accept": [
+        "We're",
+        "We are"
+      ]
     },
     {
       "id": "a06",
@@ -102,7 +121,9 @@
       "type": "fill",
       "promptEn": "My parents and I [am] so close together.",
       "blanks": 1,
-      "accept": ["are"]
+      "accept": [
+        "are"
+      ]
     }
   ]
 }

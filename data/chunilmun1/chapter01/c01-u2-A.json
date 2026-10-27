@@ -22,7 +22,13 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 5,
       "exampleCount": 0,
-      "labels": ["A1", "A2", "A3", "A4", "A5"]
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
     }
   ],
   "items": [
@@ -38,7 +44,9 @@
       "promptKo": "Ellie는 내 반 친구가 아니다.",
       "promptEn": "Ellie ________ ________ my classmate.",
       "blanks": 2,
-      "accept": ["is|not"]
+      "accept": [
+        "is|not"
+      ]
     },
     {
       "id": "a02",
@@ -52,7 +60,9 @@
       "promptKo": "나는 작년에 아주 마르지 않았었다.",
       "promptEn": "I ________ ________ very thin last year.",
       "blanks": 2,
-      "accept": ["was|not"]
+      "accept": [
+        "was|not"
+      ]
     },
     {
       "id": "a03",
@@ -66,7 +76,9 @@
       "promptKo": "그 TV 쇼는 재미있지 않다.",
       "promptEn": "The TV shows ________ ________ interesting.",
       "blanks": 2,
-      "accept": ["are|not"]
+      "accept": [
+        "are|not"
+      ]
     },
     {
       "id": "a04",
@@ -80,7 +92,9 @@
       "promptKo": "나는 거짓말쟁이가 아니다.",
       "promptEn": "I ________ ________ a liar.",
       "blanks": 2,
-      "accept": ["am|not"]
+      "accept": [
+        "am|not"
+      ]
     },
     {
       "id": "a05",
@@ -94,7 +108,9 @@
       "promptKo": "그들은 지난 토요일에 놀이공원에 있지 않았다.",
       "promptEn": "They ________ ________ at the amusement park last Saturday.",
       "blanks": 2,
-      "accept": ["were|not"]
+      "accept": [
+        "were|not"
+      ]
     }
   ]
 }
