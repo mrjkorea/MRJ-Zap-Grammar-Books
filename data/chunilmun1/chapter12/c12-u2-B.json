@@ -4,22 +4,22 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c12:u2-B",
   "title": "Unit 2 Unit Exercise — Section B",
-  "subtitle": "접속사 · POINT 3·4 (p. 122)",
-  "pages": "122",
-  "timerMinutes": 20,
+  "subtitle": "접속사 · POINT 4 (p. 154)",
+  "pages": "154",
+  "timerMinutes": 22,
   "unitId": "chapter-12",
   "unitTitle": "Chapter 12 — 접속사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section B 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section B 4문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "접속사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 접속사를 쓰세요.",
-      "directionKo": "접속사를 넣어 문장을 완성하세요. POINT 3·4.",
-      "ruleKo": "상자에서 알맞은 접속사를 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "that을 사용하여 <보기>와 같이 주어진 두 문장을 한 문장으로 쓰세요. POINT 4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "that을 사용하여 <보기>와 같이 주어진 두 문장을 한 문장으로 쓰세요. POINT 4.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "itemCount": 4,
       "exampleCount": 0,
       "labels": [
@@ -27,16 +27,6 @@
         "B2",
         "B3",
         "B4"
-      ],
-      "wordBank": [
-        "because",
-        "but",
-        "so",
-        "when",
-        "if",
-        "and",
-        "or",
-        "although"
       ]
     }
   ],
@@ -45,61 +35,56 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "접속사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 접속사를 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "that을 사용하여 <보기>와 같이 주어진 두 문장을 한 문장으로 쓰세요. POINT 4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B1",
-      "type": "fill",
-      "promptEn": "I stayed home ________ it was snowing.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "<보기> It was not my fault. + I said it.\n→ I said that it was not my fault.\n\nMinsu loves music. + I know it.\n→ I know ________________________________.",
       "accept": [
-        "because"
+        "I know that Minsu loves music."
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "접속사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 접속사를 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "that을 사용하여 <보기>와 같이 주어진 두 문장을 한 문장으로 쓰세요. POINT 4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B2",
-      "type": "fill",
-      "promptEn": "She is small ________ strong.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "My brother will be a good doctor. + I think it.\n→ I think ________________________________.",
       "accept": [
-        "but"
+        "I think that my brother will be a good doctor."
       ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "접속사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 접속사를 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "that을 사용하여 <보기>와 같이 주어진 두 문장을 한 문장으로 쓰세요. POINT 4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B3",
-      "type": "fill",
-      "promptEn": "________ you finish, tell me.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "I can win the game next time. + I hope it.\n→ I hope ________________________________.",
       "accept": [
-        "When",
-        "If"
+        "I hope that I can win the game next time."
       ]
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "접속사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 접속사를 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "that을 사용하여 <보기>와 같이 주어진 두 문장을 한 문장으로 쓰세요. POINT 4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B4",
-      "type": "fill",
-      "promptEn": "He was late, ________ he missed the bus.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "He is honest. + I believe it.\n→ I believe ________________________________.",
       "accept": [
-        "so"
+        "I believe that he is honest."
       ]
     }
   ]

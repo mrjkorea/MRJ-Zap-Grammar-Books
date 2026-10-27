@@ -4,28 +4,30 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c12:u2-C",
   "title": "Unit 2 Unit Exercise — Section C",
-  "subtitle": "접속사 · POINT 4 (p. 122)",
-  "pages": "122",
-  "timerMinutes": 20,
+  "subtitle": "접속사 · POINT 3-4 (p. 154)",
+  "pages": "154",
+  "timerMinutes": 24,
   "unitId": "chapter-12",
   "unitTitle": "Chapter 12 — 접속사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section C 3문항(고르기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section C 5문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "고르세요. POINT 4.",
-      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "itemCount": 3,
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 5,
       "exampleCount": 0,
       "labels": [
         "C1",
         "C2",
-        "C3"
+        "C3",
+        "C4",
+        "C5"
       ]
     }
   ],
@@ -34,70 +36,76 @@
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C1",
-      "type": "mc",
-      "promptEn": "coordinating vs subordinating",
-      "choices": [
-        "and",
-        "but",
-        "because",
-        "or",
-        "so"
-      ],
+      "type": "sentence",
+      "promptEn": "만약 지금 이것을 사시면, 공짜로 하나를 더 얻을 수 있습니다. (this, buy)\n→ ________________________________ now, you can get one more for free.",
       "accept": [
-        "3",
-        "③"
-      ],
-      "answer": "3"
+        "If you buy this",
+        "If you buy this now, you can get one more for free."
+      ]
     },
     {
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C2",
-      "type": "mc",
-      "promptEn": "Choose correct.",
-      "choices": [
-        "Although it was cold, we went out.",
-        "Because it was cold, but we went out.",
-        "So it was cold, we went out.",
-        "When it was cold, but we went out.",
-        "If it was cold, and we went out."
-      ],
+      "type": "sentence",
+      "promptEn": "내가 열 살이었을 때, 나는 새로운 도시로 이사 갔다. (ten, was)\n→ ________________________________, I moved to a new city.",
       "accept": [
-        "1",
-        "①"
-      ],
-      "answer": "1"
+        "When I was ten",
+        "When I was ten years old"
+      ]
     },
     {
       "id": "c03",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C3",
-      "type": "mc",
-      "promptEn": "Choose correct.",
-      "choices": [
-        "I will wait until you come.",
-        "I will wait because you come.",
-        "I will wait but you come.",
-        "I will wait and you come.",
-        "I will wait or you come."
-      ],
+      "type": "sentence",
+      "promptEn": "네가 집에 돌아오기 전에 나는 숙제를 끝낼 거야. (home, come back)\n→ I'll finish my homework ________________________________.",
       "accept": [
-        "1",
-        "①"
-      ],
-      "answer": "1"
+        "before you come back home",
+        "before you come home"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C4",
+      "type": "sentence",
+      "promptEn": "Michael은 매우 친절하기 때문에 인기가 있다. (kind, is, so)\n→ ________________________________, he is popular.",
+      "accept": [
+        "Because Michael is so kind",
+        "Because he is so kind"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C5",
+      "type": "sentence",
+      "promptEn": "사람들은 웃음이 최고의 약이라고 말한다. (the best, laughter, medicine, is)\n→ People say ________________________________.",
+      "accept": [
+        "People say that laughter is the best medicine.",
+        "that laughter is the best medicine"
+      ]
     }
   ]
 }

@@ -4,37 +4,29 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c09:u2-B",
   "title": "Unit 2 Unit Exercise — Section B",
-  "subtitle": "문장의 여러 형식 · POINT 3·4 (p. 98)",
-  "pages": "98",
+  "subtitle": "SVOO · POINT 3·4 (p. 114)",
+  "pages": "114",
   "timerMinutes": 22,
   "unitId": "chapter-09",
   "unitTitle": "Chapter 09 — 문장의 여러 형식",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section B 3문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section B 4문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "주어진 말을 순서대로 넣어 문장을 완성하세요. POINT 3·4. 상자 안의 말을 순서대로 각 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "주어진 말을 순서대로 넣어 문장을 완성하세요. POINT 3·4.",
-      "ruleKo": "상자 안의 말을 순서대로 각 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 3,
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 3·4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 3·4.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "B1",
         "B2",
-        "B3"
-      ],
-      "wordBank": [
-        "is",
-        "gave",
-        "made",
-        "runs",
-        "sent",
-        "are",
-        "feel"
+        "B3",
+        "B4"
       ]
     }
   ],
@@ -43,47 +35,58 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "주어진 말을 순서대로 넣어 문장을 완성하세요. POINT 3·4. 상자 안의 말을 순서대로 각 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 3·4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B1",
-      "type": "fill",
-      "promptEn": "She ________ ________ a present.",
-      "blanks": 2,
+      "type": "sentence",
+      "promptEn": "나에게 역으로 가는 길을 알려 주겠니?\n(the way / me / show)\n→ Can you __________________________ to the station?",
       "accept": [
-        "gave|me",
-        "gave|us"
+        "Can you show me the way to the station?"
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "주어진 말을 순서대로 넣어 문장을 완성하세요. POINT 3·4. 상자 안의 말을 순서대로 각 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 3·4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B2",
-      "type": "fill",
-      "promptEn": "They ________ ________ happy.",
-      "blanks": 2,
+      "type": "sentence",
+      "promptEn": "Jones 씨는 우리에게 저녁 식사를 요리해 주셨다.\n(cooked / us / for / dinner)\n→ Mr. Jones __________________________.",
       "accept": [
-        "are|very",
-        "are|so"
+        "Mr. Jones cooked us dinner.",
+        "Mr. Jones cooked dinner for us."
       ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "주어진 말을 순서대로 넣어 문장을 완성하세요. POINT 3·4. 상자 안의 말을 순서대로 각 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 3·4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B3",
-      "type": "fill",
-      "promptEn": "He ________ ________ fast.",
-      "blanks": 2,
+      "type": "sentence",
+      "promptEn": "그는 생일에 그녀에게 꽃을 가져다주었다.\n(her / some flowers / brought)\n→ He __________________________ on her birthday.",
       "accept": [
-        "runs|very"
+        "He brought her some flowers on her birthday."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 3·4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "우리 할머니는 항상 아이들에게 재미있는 이야기를 들려주신다.\n(children / tells / interesting stories / to)\n→ My grandma always __________________________.",
+      "accept": [
+        "My grandma always tells interesting stories to children.",
+        "My grandma always tells children interesting stories."
       ]
     }
   ]

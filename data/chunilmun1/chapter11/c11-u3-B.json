@@ -4,28 +4,35 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c11:u3-B",
   "title": "Unit 3 Unit Exercise — Section B",
-  "subtitle": "전치사 · POINT 5·6 (p. 116)",
-  "pages": "116",
+  "subtitle": "전치사 · POINT 5 (p. 145)",
+  "pages": "145",
   "timerMinutes": 20,
   "unitId": "chapter-11",
   "unitTitle": "Chapter 11 — 전치사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section B 3문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section B 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "전치사를 쓰세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "전치사를 쓰세요. POINT 5·6.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "빈칸에 공통으로 들어갈 전치사를 <보기>에서 골라 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "빈칸에 공통으로 들어갈 전치사를 <보기>에서 골라 쓰세요. POINT 5.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 3,
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "B1",
         "B2",
-        "B3"
+        "B3",
+        "B4"
+      ],
+      "wordBank": [
+        "with",
+        "against",
+        "to",
+        "through"
       ]
     }
   ],
@@ -34,45 +41,64 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "전치사를 쓰세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 공통으로 들어갈 전치사를 <보기>에서 골라 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "Walk ________ the bridge.",
-      "blanks": 1,
+      "promptEn": "Would you tell me the way ________ the station?\nI sent a letter ________ my aunt.",
+      "blanks": 2,
       "accept": [
-        "across"
+        "to",
+        "to"
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "전치사를 쓰세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 공통으로 들어갈 전치사를 <보기>에서 골라 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "The ball went ________ the window.",
-      "blanks": 1,
+      "promptEn": "Our team won the game ________ a strong team.\nThe cat fell asleep ________ my legs.",
+      "blanks": 2,
       "accept": [
-        "through"
+        "against",
+        "with"
       ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "전치사를 쓰세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 공통으로 들어갈 전치사를 <보기>에서 골라 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "She sat ________ me.",
-      "blanks": 1,
+      "promptEn": "He walked ________ the garden.\nShe learned French ________ online courses.",
+      "blanks": 2,
       "accept": [
-        "beside"
+        "through",
+        "through"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 공통으로 들어갈 전치사를 <보기>에서 골라 쓰세요. POINT 5. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "He cleaned the windows ________ a sponge.\nCan I stay in your hotel ________ my dog?",
+      "blanks": 2,
+      "accept": [
+        "with",
+        "with"
       ]
     }
   ]

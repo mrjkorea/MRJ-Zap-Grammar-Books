@@ -4,23 +4,23 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c09:u3-D",
   "title": "Workbook Unit 3 — Section D",
-  "subtitle": "문장의 여러 형식 · WB Unit 3 (WB p. 66)",
-  "pages": "66",
+  "subtitle": "SVOC · POINT 5·6 (WB p. 73)",
+  "pages": "73",
   "timerMinutes": 22,
   "unitId": "wb-chapter-09",
   "unitTitle": "Ch 09 WB — 문장의 여러 형식",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section D 6문항(문장 전체 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section D 8문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "D",
       "title": "Section D",
-      "instructionKo": "문장을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "directionKo": "문장을 완성하세요. POINT 3.",
-      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
-      "itemCount": 6,
+      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "directionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6.",
+      "ruleKo": "맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 8,
       "exampleCount": 0,
       "labels": [
         "D1",
@@ -28,7 +28,9 @@
         "D3",
         "D4",
         "D5",
-        "D6"
+        "D6",
+        "D7",
+        "D8"
       ]
     }
   ],
@@ -37,84 +39,132 @@
       "id": "d01",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D1",
-      "type": "sentence",
-      "promptEn": "Write a 문장의 여러 형식 sentence 1.",
+      "type": "fill",
+      "promptEn": "Don't make <u>me madly</u>, please.",
+      "blanks": 1,
       "accept": [
-        "This is a complete sentence."
+        "me mad",
+        "X me mad",
+        "X, me mad"
       ]
     },
     {
       "id": "d02",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D2",
-      "type": "sentence",
-      "promptEn": "Write a 문장의 여러 형식 sentence 2.",
+      "type": "fill",
+      "promptEn": "Neil named <u>Leo his cat</u>.",
+      "blanks": 1,
       "accept": [
-        "This is a complete sentence."
+        "his cat Leo",
+        "X his cat Leo",
+        "X, his cat Leo"
       ]
     },
     {
       "id": "d03",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D3",
-      "type": "sentence",
-      "promptEn": "Write a 문장의 여러 형식 sentence 3.",
+      "type": "fill",
+      "promptEn": "Please don't leave <u>your room dirty</u>.",
+      "blanks": 1,
       "accept": [
-        "This is a complete sentence."
+        "O",
+        "o"
       ]
     },
     {
       "id": "d04",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D4",
-      "type": "sentence",
-      "promptEn": "Write a 문장의 여러 형식 sentence 4.",
+      "type": "fill",
+      "promptEn": "They found <u>the girl lovely</u>.",
+      "blanks": 1,
       "accept": [
-        "This is a complete sentence."
+        "O",
+        "o"
       ]
     },
     {
       "id": "d05",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D5",
-      "type": "sentence",
-      "promptEn": "Write a 문장의 여러 형식 sentence 5.",
+      "type": "fill",
+      "promptEn": "Good food will make <u>you health</u>.",
+      "blanks": 1,
       "accept": [
-        "This is a complete sentence."
+        "you healthy",
+        "X you healthy",
+        "X, you healthy"
       ]
     },
     {
       "id": "d06",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장을 완성하세요. POINT 3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D6",
-      "type": "sentence",
-      "promptEn": "Write a 문장의 여러 형식 sentence 6.",
+      "type": "fill",
+      "promptEn": "The song made <u>him a rich man</u>.",
+      "blanks": 1,
       "accept": [
-        "This is a complete sentence."
+        "O",
+        "o"
+      ]
+    },
+    {
+      "id": "d07",
+      "section": "D",
+      "sectionTitle": "Section D",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "D7",
+      "type": "fill",
+      "promptEn": "Keep <u>your hands clean</u>.",
+      "blanks": 1,
+      "accept": [
+        "O",
+        "o"
+      ]
+    },
+    {
+      "id": "d08",
+      "section": "D",
+      "sectionTitle": "Section D",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "D8",
+      "type": "fill",
+      "promptEn": "My friends <u>call to me Messi</u>.",
+      "blanks": 1,
+      "accept": [
+        "call me Messi",
+        "X call me Messi",
+        "X, call me Messi"
       ]
     }
   ]

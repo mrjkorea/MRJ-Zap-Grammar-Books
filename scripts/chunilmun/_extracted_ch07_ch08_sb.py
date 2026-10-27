@@ -26,6 +26,24 @@ def _bracket(sec: dict, label: str, iid: str, prompt: str, choices: list[str], a
     return mc_item(iid=iid, sec=sec, label=label, prompt_en=prompt, choices=choices, answer_index=ans)
 
 
+def _mask_word(sentence: str, word: str) -> str:
+    """Hide a single answer token for type-in (underline-style SB items)."""
+    import re
+
+    pat = re.compile(rf"\b{re.escape(word)}\b", re.IGNORECASE)
+    if not pat.search(sentence):
+        return sentence
+    return pat.sub("________", sentence, count=1)
+
+
+def _adj_prompt(sentence: str, adj: str) -> str:
+    return _mask_word(sentence, adj)
+
+
+def _adv_head_prompt(sentence: str, head: str) -> str:
+    return _mask_word(sentence, head)
+
+
 def _ox(sec: dict, label: str, iid: str, prompt: str, ok: bool, fix: str = "") -> dict:
     acc = ["O", "o"] if ok else [fix]
     if not ok and fix:
@@ -60,7 +78,7 @@ def build_ch07_sb() -> dict[str, dict]:
         ("The music is loud.", ["loud"]),
     ]
     items = [
-        fill_item(iid=f"a{i:02d}", sec=sec, label=f"A{i}", prompt_en=p, accept=a)
+        fill_item(iid=f"a{i:02d}", sec=sec, label=f"A{i}", prompt_en=_adj_prompt(p, a[0]), accept=a)
         for i, (p, a) in enumerate(u1a, 1)
     ]
     out["c07-u1-A.json"] = build_practice(
@@ -165,7 +183,10 @@ def build_ch07_sb() -> dict[str, dict]:
         ("This apple pie is **too** sweet.", ["sweet"]),
         ("**Suddenly**, my father's car stopped on the road.", ["stopped", "my father's car stopped on the road"]),
     ]
-    items = [fill_item(iid=f"a{i:02d}", sec=sec, label=f"A{i}", prompt_en=p, accept=a) for i, (p, a) in enumerate(u2a, 1)]
+    items = [
+        fill_item(iid=f"a{i:02d}", sec=sec, label=f"A{i}", prompt_en=_adv_head_prompt(p, a[0]), accept=a)
+        for i, (p, a) in enumerate(u2a, 1)
+    ]
     out["c07-u2-A.json"] = build_practice(
         practice_id="cm1:c07:u2-A",
         title="Unit 2 Unit Exercise — Section A",

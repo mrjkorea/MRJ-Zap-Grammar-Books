@@ -137,6 +137,7 @@ def fill_item(
     prompt_ko: str = "",
     blanks: int = 1,
     blank_labels: list[str] | None = None,
+    unordered: bool = False,
 ) -> dict:
     it: dict[str, Any] = {
         "id": iid,
@@ -155,6 +156,8 @@ def fill_item(
         it["promptKo"] = prompt_ko
     if blank_labels:
         it["blankPartLabels"] = blank_labels
+    if unordered:
+        it["unordered"] = True
     return it
 
 

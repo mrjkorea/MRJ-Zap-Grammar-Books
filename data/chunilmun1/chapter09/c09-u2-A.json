@@ -4,9 +4,9 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c09:u2-A",
   "title": "Unit 2 Unit Exercise — Section A",
-  "subtitle": "문장의 여러 형식 · POINT 3 (p. 98)",
-  "pages": "98",
-  "timerMinutes": 20,
+  "subtitle": "SVOO · POINT 3·4 (p. 114)",
+  "pages": "114",
+  "timerMinutes": 18,
   "unitId": "chapter-09",
   "unitTitle": "Chapter 09 — 문장의 여러 형식",
   "sectionsVersion": 2,
@@ -15,9 +15,9 @@
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "빈칸에 알맞은 동사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "빈칸에 알맞은 동사를 쓰세요. POINT 3.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "directionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 3·4.",
+      "ruleKo": "맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 5,
@@ -36,75 +36,84 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 동사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "The boy ________ the ball.",
+      "promptEn": "We gave <u>some food the cat</u>.",
       "blanks": 1,
       "accept": [
-        "kicked"
+        "the cat some food",
+        "X the cat some food",
+        "X, the cat some food"
       ]
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 동사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "She ________ us the truth.",
+      "promptEn": "Amy showed <u>his some magic tricks</u>.",
       "blanks": 1,
       "accept": [
-        "told"
+        "him some magic tricks",
+        "X him some magic tricks",
+        "X, him some magic tricks"
       ]
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 동사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "It ________ cold today.",
+      "promptEn": "My father will buy <u>for me a bike</u>.",
       "blanks": 1,
       "accept": [
-        "is"
+        "me a bike",
+        "X me a bike",
+        "X, me a bike"
       ]
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 동사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "We ________ him captain.",
+      "promptEn": "Please tell <u>the truth to us</u>.",
       "blanks": 1,
       "accept": [
-        "made"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 동사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "He ________ me a ride.",
+      "promptEn": "When will you send a letter <u>of her</u>?",
       "blanks": 1,
       "accept": [
-        "gave"
+        "to her",
+        "X to her",
+        "X, to her"
       ]
     }
   ]

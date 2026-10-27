@@ -4,23 +4,23 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c09:u1-C",
   "title": "Workbook Unit 1 — Section C",
-  "subtitle": "문장의 여러 형식 · WB Unit 1 (WB p. 62)",
-  "pages": "62",
-  "timerMinutes": 22,
+  "subtitle": "SVC · POINT 1·2 (WB p. 69)",
+  "pages": "69",
+  "timerMinutes": 20,
   "unitId": "wb-chapter-09",
   "unitTitle": "Ch 09 WB — 문장의 여러 형식",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section C 8문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section C 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1.",
+      "instructionKo": "우리말과 일치하도록 빈칸에 알맞은 단어를 <보기>에서 골라 문장을 완성하세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 빈칸에 알맞은 단어를 <보기>에서 골라 문장을 완성하세요. POINT 1·2.",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 8,
+      "itemCount": 6,
       "exampleCount": 0,
       "labels": [
         "C1",
@@ -28,9 +28,15 @@
         "C3",
         "C4",
         "C5",
-        "C6",
-        "C7",
-        "C8"
+        "C6"
+      ],
+      "wordBank": [
+        "strange",
+        "fresh",
+        "rich",
+        "cheap",
+        "salty",
+        "sleepy"
       ]
     }
   ],
@@ -39,120 +45,90 @@
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 단어를 <보기>에서 골라 문장을 완성하세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C1",
       "type": "fill",
-      "promptEn": "WB9-U1-C ________.",
-      "blanks": 1,
+      "promptEn": "His story ________ ________.\n(그의 이야기는 이상하게 들린다.)",
+      "blanks": 2,
       "accept": [
-        "answer"
+        "sounds|strange"
       ]
     },
     {
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 단어를 <보기>에서 골라 문장을 완성하세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C2",
       "type": "fill",
-      "promptEn": "WB9-U1-C ________.",
-      "blanks": 1,
+      "promptEn": "At last, Helen ________ ________.\n(마침내, Helen은 부유해졌다.)",
+      "blanks": 2,
       "accept": [
-        "answer"
+        "became|rich"
       ]
     },
     {
       "id": "c03",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 단어를 <보기>에서 골라 문장을 완성하세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C3",
       "type": "fill",
-      "promptEn": "WB9-U1-C ________.",
-      "blanks": 1,
+      "promptEn": "The corn soup ________ ________.\n(그 옥수수 수프는 짠맛이 난다.)",
+      "blanks": 2,
       "accept": [
-        "answer"
+        "tastes|salty"
       ]
     },
     {
       "id": "c04",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 단어를 <보기>에서 골라 문장을 완성하세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C4",
       "type": "fill",
-      "promptEn": "WB9-U1-C ________.",
-      "blanks": 1,
+      "promptEn": "These days strawberries ________ ________.\n(요즘 딸기는 저렴하다.)",
+      "blanks": 2,
       "accept": [
-        "answer"
+        "are|cheap"
       ]
     },
     {
       "id": "c05",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 단어를 <보기>에서 골라 문장을 완성하세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C5",
       "type": "fill",
-      "promptEn": "WB9-U1-C ________.",
-      "blanks": 1,
+      "promptEn": "We ________ ________ easily in spring.\n(우리는 봄에 쉽게 졸음을 느낀다.)",
+      "blanks": 2,
       "accept": [
-        "answer"
+        "feel|sleepy"
       ]
     },
     {
       "id": "c06",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 알맞은 단어를 <보기>에서 골라 문장을 완성하세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "C6",
       "type": "fill",
-      "promptEn": "WB9-U1-C ________.",
-      "blanks": 1,
+      "promptEn": "The fruits ________ ________.\n(그 과일은 신선한 냄새가 난다.)",
+      "blanks": 2,
       "accept": [
-        "answer"
-      ]
-    },
-    {
-      "id": "c07",
-      "section": "C",
-      "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "C7",
-      "type": "fill",
-      "promptEn": "WB9-U1-C ________.",
-      "blanks": 1,
-      "accept": [
-        "answer"
-      ]
-    },
-    {
-      "id": "c08",
-      "section": "C",
-      "sectionTitle": "Section C",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "C8",
-      "type": "fill",
-      "promptEn": "WB9-U1-C ________.",
-      "blanks": 1,
-      "accept": [
-        "answer"
+        "smell|fresh"
       ]
     }
   ]

@@ -3,8 +3,7 @@
  * Fail if chunilmun1 practice JSON contains placeholder / answer-key-only stems.
  * Practices must be built from student-book or workbook page scans.
  *
- * Scope: Ch01–08 + review-01/02 (see docs/SOURCE-PAGES-REQUIRED.md).
- * Ch09+ is intentionally out of scope until PDF rebuild lands.
+ * Scope: Ch01–12 + review-01/02/03 (see docs/SOURCE-PAGES-REQUIRED.md).
  */
 const fs = require("fs");
 const path = require("path");
@@ -14,9 +13,9 @@ const ROOT = path.join(REPO, "data/chunilmun1");
 
 /** Practices rebuilt from page scans in this effort (expand when more PDFs land). */
 const VERIFIED_PATH =
-  /data\/chunilmun1\/(chapter0[1-8]|review-0[12])\//;
+  /data\/chunilmun1\/(chapter0[1-9]|chapter10|chapter11|chapter12|review-0[12])\//;
 
-const CHAPTER_SOURCE_REQUIRED = [2, 3, 4, 5, 6, 7, 8];
+const CHAPTER_SOURCE_REQUIRED = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 const WB_PLACEHOLDER = /WB\d+-U\d*-?[A-D]\d*\s+_+/;
 const ONLY_BLANK_STEM = /^[\s_]+(\.|$)/;
@@ -30,6 +29,28 @@ function walkJsonFiles(dir, out = []) {
     else if (ent.name.endsWith(".json")) out.push(p);
   }
   return out;
+}
+
+function stripHtml(s) {
+  return String(s || "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\*\*/g, "");
+}
+
+function checkTypeInLeak(rel, it, problems) {
+  if (it.type !== "fill" || it.displayOnly) return;
+  if (it.answerMode !== "words") return;
+  const pe = stripHtml(it.promptEn || "");
+  if (/<u>/i.test(it.promptEn || "")) return;
+  if (!pe || pe.includes("________")) return;
+  const acc = (it.accept || [])[0];
+  if (!acc || String(acc).includes("|")) return;
+  const word = String(acc).trim();
+  if (!word || word.includes(" ") || word.length < 3 || /^[Oox]$/i.test(word)) return;
+  const re = new RegExp(`\\b${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
+  if (re.test(pe)) {
+    problems.push(`${rel} ${it.id}: type-in prompt shows accept token "${word}"`);
+  }
 }
 
 function checkItem(rel, it, problems) {
@@ -60,6 +81,7 @@ function checkItem(rel, it, problems) {
       problems.push(`${rel} ${it.id}: MC has only ①–⑤ with no prompt`);
     }
   }
+  checkTypeInLeak(rel, it, problems);
 }
 
 function checkChapterSources(problems) {
@@ -100,7 +122,7 @@ function main() {
     for (const p of problems) console.error(" -", p);
     process.exit(1);
   }
-  console.log(`check-no-guessed-stems: OK (${scanned} practice files, Ch01–08 + reviews)`);
+  console.log(`check-no-guessed-stems: OK (${scanned} practice files, Ch01–12 + reviews)`);
 }
 
 main();

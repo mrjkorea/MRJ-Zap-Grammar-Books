@@ -4,28 +4,32 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c10:u3-B",
   "title": "Unit 3 Unit Exercise — Section B",
-  "subtitle": "to부정사와 동명사 · POINT 6·7 (p. 108)",
-  "pages": "108",
+  "subtitle": "동명사 · POINT 6·7·8·10 (p. 132)",
+  "pages": "132",
   "timerMinutes": 20,
   "unitId": "chapter-10",
   "unitTitle": "Chapter 10 — to부정사와 동명사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section B 3문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section B 7문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "빈칸을 채우세요. POINT 6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "빈칸을 채우세요. POINT 6·7.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 3,
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7·8·10. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7·8·10.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 7,
       "exampleCount": 0,
       "labels": [
         "B1",
         "B2",
-        "B3"
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
       ]
     }
   ],
@@ -34,49 +38,141 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸을 채우세요. POINT 6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7·8·10. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B1",
-      "type": "fill",
-      "promptEn": "It is dangerous ________ here.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Nick finished [to do / doing] the dishes.",
+      "choices": [
+        "to do",
+        "doing"
+      ],
       "accept": [
-        "to play",
-        "playing"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸을 채우세요. POINT 6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7·8·10. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B2",
-      "type": "fill",
-      "promptEn": "I don't mind ________ you.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Helping others [make / makes] me happy.",
+      "choices": [
+        "make",
+        "makes"
+      ],
       "accept": [
-        "helping",
-        "to help"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸을 채우세요. POINT 6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7·8·10. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B3",
-      "type": "fill",
-      "promptEn": "She taught me ________ the guitar.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "My grandfather will never give up [to smoke / smoking].",
+      "choices": [
+        "to smoke",
+        "smoking"
+      ],
       "accept": [
-        "to play",
-        "how to play"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7·8·10. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Her problem is [waking / to waking] up too late.",
+      "choices": [
+        "waking",
+        "to waking"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7·8·10. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "My father and I enjoy [to ski / skiing] every winter.",
+      "choices": [
+        "to ski",
+        "skiing"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7·8·10. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "My mom and I are good at [sing / singing] songs.",
+      "choices": [
+        "sing",
+        "singing"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 6·7·8·10. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "Do you mind [waiting / to wait] here for a minute?",
+      "choices": [
+        "waiting",
+        "to wait"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
     }
   ]
 }

@@ -4,28 +4,30 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c11:u2-C",
   "title": "Unit 2 Unit Exercise — Section C",
-  "subtitle": "전치사 · POINT 4 (p. 114)",
-  "pages": "114",
-  "timerMinutes": 20,
+  "subtitle": "전치사 · POINT 3-4 (p. 143)",
+  "pages": "143",
+  "timerMinutes": 22,
   "unitId": "chapter-11",
   "unitTitle": "Chapter 11 — 전치사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section C 3문항(문장 전체 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section C 5문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "문장을 쓰세요. POINT 4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "directionKo": "문장을 쓰세요. POINT 4.",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4.",
       "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
-      "itemCount": 3,
+      "itemCount": 5,
       "exampleCount": 0,
       "labels": [
         "C1",
         "C2",
-        "C3"
+        "C3",
+        "C4",
+        "C5"
       ]
     }
   ],
@@ -34,44 +36,75 @@
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "문장을 쓰세요. POINT 4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C1",
       "type": "sentence",
-      "promptEn": "live / I / in / Seoul → sentence",
+      "promptEn": "밤에 피아노를 치지 마라. (night)\n→ Don't play the piano ________.",
       "accept": [
-        "I live in Seoul."
+        "Don't play the piano at night.",
+        "at night"
       ]
     },
     {
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "문장을 쓰세요. POINT 4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C2",
       "type": "sentence",
-      "promptEn": "arrive / they / at / school / 8 → sentence",
+      "promptEn": "우리는 올해 5월에 축제를 열 것이다. (May)\n→ We will hold the festival ________ this year.",
       "accept": [
-        "They arrive at school at 8.",
-        "They arrive at school at eight o'clock."
+        "We will hold the festival in May this year.",
+        "in May"
       ]
     },
     {
       "id": "c03",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "문장을 쓰세요. POINT 4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "C3",
       "type": "sentence",
-      "promptEn": "thank / you / for / gift → sentence",
+      "promptEn": "내 친구와 나는 자정까지 전화로 수다를 떨었다. (midnight)\n→ My friend and I chatted on the phone ________.",
       "accept": [
-        "Thank you for the gift.",
-        "Thanks for the gift."
+        "My friend and I chatted on the phone until midnight.",
+        "until midnight"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C4",
+      "type": "sentence",
+      "promptEn": "누군가의 휴대전화가 시험 중에 울렸다. (the test)\n→ Somebody's cell phone rang ________.",
+      "accept": [
+        "Somebody's cell phone rang during the test.",
+        "during the test"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 3-4. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C5",
+      "type": "sentence",
+      "promptEn": "그는 한 달 동안 유럽을 여행하고 있다. (a month)\n→ He's traveling in Europe ________.",
+      "accept": [
+        "He's traveling in Europe for a month.",
+        "for a month"
       ]
     }
   ]
