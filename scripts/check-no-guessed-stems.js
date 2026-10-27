@@ -13,9 +13,10 @@ const ROOT = path.join(REPO, "data/chunilmun1");
 
 /** Practices rebuilt from page scans in this effort (expand when more PDFs land). */
 const VERIFIED_PATH =
-  /data\/chunilmun1\/(chapter0[1-9]|chapter10|chapter11|chapter12|review-0[12])\//;
+  /data\/chunilmun1\/(chapter0[1-9]|chapter10|chapter11|chapter12|review-0[123])\//;
 
 const CHAPTER_SOURCE_REQUIRED = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+const REVIEW_SOURCE_REQUIRED = ["review-01", "review-02", "review-03"];
 
 const WB_PLACEHOLDER = /WB\d+-U\d*-?[A-D]\d*\s+_+/;
 const ONLY_BLANK_STEM = /^[\s_]+(\.|$)/;
@@ -91,6 +92,12 @@ function checkChapterSources(problems) {
       problems.push(`missing CHAPTER-SOURCE.md for chapter ${String(ch).padStart(2, "0")}`);
     }
   }
+  for (const rid of REVIEW_SOURCE_REQUIRED) {
+    const md = path.join(ROOT, rid, "CHAPTER-SOURCE.md");
+    if (!fs.existsSync(md)) {
+      problems.push(`missing CHAPTER-SOURCE.md for ${rid}`);
+    }
+  }
 }
 
 function main() {
@@ -122,7 +129,7 @@ function main() {
     for (const p of problems) console.error(" -", p);
     process.exit(1);
   }
-  console.log(`check-no-guessed-stems: OK (${scanned} practice files, Ch01–12 + reviews)`);
+  console.log(`check-no-guessed-stems: OK (${scanned} practice files, Ch01–12 + review-01/02/03)`);
 }
 
 main();

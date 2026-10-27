@@ -1101,8 +1101,22 @@ def _build_review_01() -> dict[str, dict]:
             ],
             answer_index=1,
         ),
-        fill_item(iid="q05", sec=secs[3], label="5", prompt_en="Does students →", accept=["Does|Do", "Does students|Do students"], blanks=2),
-        fill_item(iid="q06", sec=secs[3], label="6", prompt_en="wasn't →", accept=["wasn't|weren't", "wasn't|were not"], blanks=2),
+        fill_item(
+            iid="q05",
+            sec=secs[3],
+            label="5",
+            prompt_en="Does students have to wear school uniforms today?",
+            accept=["Does|Do", "Does students|Do students"],
+            blanks=2,
+        ),
+        fill_item(
+            iid="q06",
+            sec=secs[3],
+            label="6",
+            prompt_en="Tracy and her friend wasn't in Italy during the last vacation.",
+            accept=["wasn't|weren't", "wasn't|were not"],
+            blanks=2,
+        ),
         mc_item(iid="q07", sec=secs[4], label="7", choices=["He don't need help.", "Is Emma your cousin?", "Emily ate chocolate last night.", "I was in the hospital yesterday.", "Does your dad work at a bank?"], answer_index=1),
         mc_item(iid="q08", sec=secs[4], label="8", choices=["He isn't a taxi driver.", "We were in the bakery now.", "Paul is not reading a magazine.", "They weren't honest at that time.", "My mom and I are watching a movie."], answer_index=2),
         mc_item(iid="q09", sec=secs[5], label="9", choices=["make — maked", "read — read", "stop — stopped", "love — loved", "study — studied"], answer_index=1),
@@ -1113,8 +1127,22 @@ def _build_review_01() -> dict[str, dict]:
         sent_item(iid="q14", sec=secs[8], label="14", prompt_en="그녀는 오늘 Mark를 만날 수 없다. (she / to / Mark / be / meet / able / not)", accept=["She is not able to meet Mark today.", "She isn't able to meet Mark today."]),
         sent_item(iid="q15", sec=secs[8], label="15", prompt_en="나는 언젠가 파리에서 살 것이다. (live / will / I / in Paris)", accept=["I will live in Paris someday.", "I'll live in Paris someday."]),
         mc_item(iid="q16", sec=secs[9], label="16", choices=["ⓐ, ⓑ, ⓒ", "ⓒ, ⓔ, ⓕ", "ⓐ, ⓒ, ⓕ", "ⓑ, ⓓ, ⓕ", "ⓐ, ⓓ, ⓕ"], answer_index=5),
-        mc_item(iid="q17", sec=secs[10], label="17", prompt_en="Is your mother in Busan now? / A boy crying on the street.", choices=["Am", "Is", "Are", "Was", "Were"], answer_index=2),
-        mc_item(iid="q18", sec=secs[10], label="18", prompt_en="Drivers follow traffic signs. / You be careful with a knife.", choices=["can", "are able to", "shouldn't", "don't have to", "must"], answer_index=5),
+        mc_item(
+            iid="q17",
+            sec=secs[10],
+            label="17",
+            prompt_en="________ your mother in Busan now? / A boy ________ crying on the street.",
+            choices=["Am", "Is", "Are", "Was", "Were"],
+            answer_index=2,
+        ),
+        mc_item(
+            iid="q18",
+            sec=secs[10],
+            label="18",
+            prompt_en="Drivers ________ follow the traffic signs. / You ________ be careful with a knife.",
+            choices=["can", "are able to", "shouldn't", "don't have to", "must"],
+            answer_index=5,
+        ),
         mc_item(iid="q19", sec=secs[11], label="19", choices=["Bora is going to the theater.", "He is going to dance with her.", "I'm going to visit Seoul next week.", "They are going to play badminton.", "The kids are going to swim tomorrow."], answer_index=1),
         sent_item(iid="q20", sec=secs[12], label="20", prompt_en="We are worried about you. (과거형으로)", accept=["We were worried about you."]),
         sent_item(iid="q21", sec=secs[12], label="21", prompt_en="She is going to the bus stop. (의문문으로)", accept=["Is she going to the bus stop?"]),
@@ -1127,8 +1155,28 @@ def _build_review_01() -> dict[str, dict]:
         mc_item(iid="q28", sec=secs[15], label="28", choices=["Is your brother play baseball?", "Joe and Ted needs some water.", "Do you go shopping last Friday?", "A child must not go outside alone at night.", "Do you have to prepared a lunch box today?"], answer_index=4),
         mc_item(iid="q29", sec=secs[16], label="29", prompt_en="Will your parents sell the sofa?", choices=["No, they will.", "Yes, they are.", "Yes, they won't.", "No, they won't.", "No, they aren't."], answer_index=4),
         mc_item(iid="q30", sec=secs[16], label="30", prompt_en="Should I take off my shoes here?", choices=["Yes, I should.", "Yes, you do.", "No, you should.", "No, I shouldn't.", "Yes, you should."], answer_index=5),
-        fill_item(iid="q31", sec=secs[17], label="31", prompt_en="I weren't → / I have →", accept=["weren't|wasn't|had", "I weren't|I wasn't|I had"], blanks=3),
-        fill_item(iid="q32", sec=secs[17], label="32", prompt_en="going practice → / will asks →", accept=["to practice|going to practice|ask|asks", "practice|to practice|asks|ask"], blanks=4),
+        fill_item(
+            iid="q31",
+            sec=secs[17],
+            label="31",
+            prompt_en=(
+                "A: You didn't come to school yesterday. Were you sick?\n"
+                "B: No, I weren't. I have an English speech contest."
+            ),
+            accept=["weren't|wasn't|had", "I weren't|I wasn't|I had"],
+            blanks=3,
+        ),
+        fill_item(
+            iid="q32",
+            sec=secs[17],
+            label="32",
+            prompt_en=(
+                "A: Are you going practice the drums with Nancy tonight?\n"
+                "B: I don't know. She has a lot of homework today. I will asks her again."
+            ),
+            accept=["to practice|going to practice|ask|asks", "practice|to practice|asks|ask"],
+            blanks=4,
+        ),
     ]
     return {
         "review-01.json": build_practice(

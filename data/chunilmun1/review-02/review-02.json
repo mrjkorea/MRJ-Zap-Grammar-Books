@@ -540,7 +540,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "12",
       "type": "mc",
-      "promptEn": "Jane won't buy the pants. (A) / blame (B) for your mistake.",
+      "promptEn": "Jane won't buy the pants. (A) are too short. / You don't have to blame (B) for your mistake.",
       "choices": [
         "It — you",
         "They — yourself",
@@ -799,7 +799,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "24",
       "type": "mc",
-      "promptEn": "I lost ________ pen today. / ________ most expensive in the store.",
+      "promptEn": "My dad gave a pen to me. I lost ________ pen today. / The strawberry cake is ________ most expensive in the store.",
       "choices": [
         "the",
         "a",
@@ -822,7 +822,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "25",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① How beautiful the dress is!\n② What will you bring for lunch?\n③ The last English test was so easily.\n④ Be not angry with your little sister.\n⑤ They don't know his name, did they?",
       "choices": [
         "②, ③",
         "②, ④",
@@ -845,7 +845,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "26",
       "type": "mc",
-      "promptEn": "Tag question dialogue (underlined options ①–⑤)",
+      "promptEn": "A: You will go to the museum today, ① don't you?\nB: ② No, I won't. It closes today because ③ that is a holiday.\nA: What is your plan today?\nB: I don't have ④ some plans today.\n⑤ Let's watches a movie together.",
       "choices": [
         "① don't you",
         "② No, I won't",
@@ -935,12 +935,13 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "31",
       "type": "fill",
-      "promptEn": "Dialogue errors ⓐ–ⓔ: find two and correct.",
+      "promptEn": "A: Something ⓐ is wrong with my computer.\nB: ⓑ Didn't you buy it yesterday?\nA: ⓒ No, I did. It's a new ⓓ one.\nB: ⓔ Calls the store and ask about it, then.",
       "blanks": 3,
       "accept": [
         "e|Call",
         "ⓔ|Call",
-        "e|Call|Calls"
+        "e|Call|Calls",
+        "Calls|Call"
       ]
     }
   ]
