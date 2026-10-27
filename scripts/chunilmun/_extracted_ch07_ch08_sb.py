@@ -642,7 +642,7 @@ def _build_ch07_test(m: dict) -> dict:
                 "Bill is the tallest of the three.",
                 "Kate is the youngest of the three.",
             ],
-            answer_index=3,
+            answer_index=5,
         ),
         fill_item(
             iid="q15a",
@@ -655,7 +655,7 @@ def _build_ch07_test(m: dict) -> dict:
                 "B: It is more light than my old one.\n"
                 "(1) ________ → ________"
             ),
-            accept=["a little days|a few days", "a little|a few"],
+            accept=["a little|a few", "a little days|a few days"],
             blanks=2,
         ),
         fill_item(
@@ -663,7 +663,7 @@ def _build_ch07_test(m: dict) -> dict:
             sec=secs[11],
             label="15-2",
             prompt_en="(2) ________ → ________",
-            accept=["more light|lighter", "light|lighter"],
+            accept=["more light|lighter"],
             blanks=2,
         ),
         mc_item(
@@ -711,10 +711,10 @@ def build_ch08_sb() -> dict[str, dict]:
         ("<u>Honest</u> to your family.", False, "Be honest"),
         ("<u>Let's met</u> at four.", False, "Let's meet"),
         ("<u>Take</u> the medicine three times a day.", True, ""),
-        ("<u>Not be</u> rude to others.", False, "Don't be rude"),
-        ("<u>Let's play not</u> baseball today.", False, "Let's not play"),
-        ("<u>Don't angry</u> with him.", False, "Don't be angry"),
-        ("<u>Not go</u> near the water.", False, "Don't go"),
+        ("<u>Not be</u> rude to others.", False, "Don't be rude to others"),
+        ("<u>Let's play not</u> baseball today.", False, "Let's not play baseball"),
+        ("<u>Don't angry</u> with him.", False, "Don't be angry with him"),
+        ("<u>Not go</u> near the water.", False, "Don't go near the water"),
     ]
     items = [_ox(sec, f"A{i}", f"a{i:02d}", p, ok, fix) for i, (p, ok, fix) in enumerate(u1a, 1)]
     out["c08-u1-A.json"] = build_practice(
@@ -898,8 +898,13 @@ def build_ch08_sb() -> dict[str, dict]:
         ),
         (
             "Frank는 지금 누구와 통화 중이니? (talk)\n→ ________ ________ ________ ________ ________ with on the phone now?",
-            ["Who is Frank talking", "Who|is|Frank|talking"],
-            4,
+            [
+                "Who is Frank talking with",
+                "Who is Frank talking to",
+                "Who|is|Frank|talking|with",
+                "Who|is|Frank|talking|to",
+            ],
+            5,
         ),
         (
             "너는 왜 화가 나 있니? (upset)\n→ ________ ________ ________ ________?",
@@ -1228,7 +1233,12 @@ def _build_ch08_test(m: dict) -> dict:
             sec=secs[4],
             label="7-1",
             prompt_en="(No pets sign) ________ ________ ________ ________ to the restaurant. (pets, bring)",
-            accept=["Don't bring pets", "Do not bring pets", "Don't|bring|pets"],
+            accept=[
+                "Do not bring pets",
+                "Don't bring pets",
+                "Do|not|bring|pets",
+                "Don't|bring|pets",
+            ],
             blanks=4,
         ),
         fill_item(
@@ -1236,7 +1246,7 @@ def _build_ch08_test(m: dict) -> dict:
             sec=secs[4],
             label="7-2",
             prompt_en="(No running sign) ________ ________ ________ ________ in the library. (run)",
-            accept=["Don't run", "Do not run", "Don't|run"],
+            accept=["Do not run", "Don't run", "Do|not|run", "Don't|run"],
             blanks=4,
         ),
         mc_item(
@@ -1291,7 +1301,7 @@ def _build_ch08_test(m: dict) -> dict:
                 "________ a tall building this is!",
                 "________ hard questions they are!",
             ],
-            answer_index=5,
+            answer_index=2,
         ),
         mc_item(
             iid="q13",

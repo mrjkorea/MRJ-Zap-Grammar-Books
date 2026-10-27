@@ -334,8 +334,9 @@
       "promptEn": "(No pets sign) ________ ________ ________ ________ to the restaurant. (pets, bring)",
       "blanks": 4,
       "accept": [
-        "Don't bring pets",
         "Do not bring pets",
+        "Don't bring pets",
+        "Do|not|bring|pets",
         "Don't|bring|pets"
       ]
     },
@@ -351,8 +352,9 @@
       "promptEn": "(No running sign) ________ ________ ________ ________ in the library. (run)",
       "blanks": 4,
       "accept": [
-        "Don't run",
         "Do not run",
+        "Don't run",
+        "Do|not|run",
         "Don't|run"
       ]
     },
@@ -466,10 +468,10 @@
         "________ hard questions they are!"
       ],
       "accept": [
-        "5",
-        "⑤"
+        "2",
+        "②"
       ],
-      "answer": "5"
+      "answer": "2"
     },
     {
       "id": "q13",

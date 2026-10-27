@@ -58,10 +58,12 @@
       "label": "C2",
       "type": "fill",
       "promptEn": "Frank는 지금 누구와 통화 중이니? (talk)\n→ ________ ________ ________ ________ ________ with on the phone now?",
-      "blanks": 4,
+      "blanks": 5,
       "accept": [
-        "Who is Frank talking",
-        "Who|is|Frank|talking"
+        "Who is Frank talking with",
+        "Who is Frank talking to",
+        "Who|is|Frank|talking|with",
+        "Who|is|Frank|talking|to"
       ]
     },
     {

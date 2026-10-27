@@ -500,10 +500,10 @@
         "Kate is the youngest of the three."
       ],
       "accept": [
-        "3",
-        "③"
+        "5",
+        "⑤"
       ],
-      "answer": "3"
+      "answer": "5"
     },
     {
       "id": "q15a",
@@ -517,8 +517,8 @@
       "promptEn": "A: Did you get a new bag? It is nice!\nB: Thank you. I bought it a little days ago.\nA: It is a big bag. Isn't it heavy?\nB: It is more light than my old one.\n(1) ________ → ________",
       "blanks": 2,
       "accept": [
-        "a little days|a few days",
-        "a little|a few"
+        "a little|a few",
+        "a little days|a few days"
       ]
     },
     {
@@ -533,8 +533,7 @@
       "promptEn": "(2) ________ → ________",
       "blanks": 2,
       "accept": [
-        "more light|lighter",
-        "light|lighter"
+        "more light|lighter"
       ]
     },
     {

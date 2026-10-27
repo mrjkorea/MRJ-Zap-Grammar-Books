@@ -9,4 +9,4 @@ Generators:
 - SB: `scripts/chunilmun/_extracted_ch07_ch08_sb.py` → `build_ch08_sb()`
 - WB: `scripts/chunilmun/_extracted_ch06_08_wb.py` → `build_ch08_wb()`
 
-Answer keys: SB Unit Exercises keyed on booklet pp. 20–21 (not in uploaded `keys-part1` slice); chapter test pp. 104–105 keyed on booklet p. 21.
+Answer keys: `keys-part2` (PDF 272–287, booklet **pp. 20–21** for SB unit exercises p. 96–103 and chapter test p. 104–105).
