@@ -15,8 +15,8 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. POINT 6.",
+      "instructionKo": "주어진 단어를 사용하여 다음 의문문을 완성하세요. (단, 현재형으로 쓸 것) POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 단어를 사용하여 다음 의문문을 완성하세요. (단, 현재형으로 쓸 것) POINT 6.",
       "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -36,75 +36,77 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "주어진 단어를 사용하여 다음 의문문을 완성하세요. (단, 현재형으로 쓸 것) POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "A: ________ you ________ my sister?\nB: No, ________ .",
-      "blanks": 3,
+      "promptEn": "A: ________ you ________ my sister? (know)\nB: No, ________ ________ .",
+      "blanks": 4,
       "accept": [
-        "Do|know|I don't"
+        "Do|know|I|don't",
+        "Do|know|I|do not"
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "주어진 단어를 사용하여 다음 의문문을 완성하세요. (단, 현재형으로 쓸 것) POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "A: ________ Peter ________ a girlfriend?\nB: Yes, ________ .",
-      "blanks": 3,
+      "promptEn": "A: ________ Kevin ________ a girlfriend? (have)\nB: Yes, ________ ________ .",
+      "blanks": 4,
       "accept": [
-        "Does|have|he does"
+        "Does|have|he|does"
       ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "주어진 단어를 사용하여 다음 의문문을 완성하세요. (단, 현재형으로 쓸 것) POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "A: ________ Jane ________ in London?\nB: No, ________ .",
-      "blanks": 3,
+      "promptEn": "A: ________ Jane ________ in London? (live)\nB: No, ________ ________ .",
+      "blanks": 4,
       "accept": [
-        "Does|live|she doesn't"
+        "Does|live|she|doesn't",
+        "Does|live|she|does not"
       ]
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "주어진 단어를 사용하여 다음 의문문을 완성하세요. (단, 현재형으로 쓸 것) POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "A: ________ they ________ a lot of rice?\nB: Yes, ________ .",
-      "blanks": 3,
+      "promptEn": "A: ________ your classmates ________ with your idea? (agree)\nB: Yes, ________ ________ .",
+      "blanks": 4,
       "accept": [
-        "Do|eat|they do"
+        "Do|agree|they|do"
       ]
     },
     {
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "주어진 단어를 사용하여 다음 의문문을 완성하세요. (단, 현재형으로 쓸 것) POINT 6. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "A: ________ their school ________ a swimming pool?\nB: Yes, ________ .",
-      "blanks": 3,
+      "promptEn": "A: ________ the park ________ a lake? (have)\nB: Yes, ________ ________ .",
+      "blanks": 4,
       "accept": [
-        "Does|have|it does"
+        "Does|have|it|does"
       ]
     }
   ]

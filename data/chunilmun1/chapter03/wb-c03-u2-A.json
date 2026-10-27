@@ -10,16 +10,16 @@
   "unitId": "wb-chapter-03",
   "unitTitle": "Ch 03 WB — 현재진행형과 미래 표현",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 8문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 8문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "will / be going to로 빈칸을 채우세요. POINT 4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "will / be going to로 빈칸을 채우세요. POINT 4.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "itemCount": 8,
       "exampleCount": 0,
       "labels": [
@@ -39,121 +39,161 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "will / be going to로 빈칸을 채우세요. POINT 4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "I ________ forget you.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "I [am not / won't] forget you.",
+      "choices": [
+        "am not",
         "won't"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "will / be going to로 빈칸을 채우세요. POINT 4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
-      "type": "fill",
-      "promptEn": "He ________ 15 next year.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "He will [is / be] 15 years old next year.",
+      "choices": [
+        "is",
+        "be"
+      ],
       "accept": [
-        "will be"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "will / be going to로 빈칸을 채우세요. POINT 4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
-      "type": "fill",
-      "promptEn": "Mike ________ magic at the party.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Mike [is going to do / are going to do] magic at the party.",
+      "choices": [
+        "is going to do",
+        "are going to do"
+      ],
       "accept": [
-        "is going to do"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "will / be going to로 빈칸을 채우세요. POINT 4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
-      "type": "fill",
-      "promptEn": "I ________ make a sandwich.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "I [will going to / am going to] make some sandwiches.",
+      "choices": [
+        "will going to",
         "am going to"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "will / be going to로 빈칸을 채우세요. POINT 4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
-      "type": "fill",
-      "promptEn": "Vicky ________ buy a new computer.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Vicky [isn't going to / doesn't going to] buy a new computer.",
+      "choices": [
+        "isn't going to",
+        "doesn't going to"
+      ],
       "accept": [
-        "isn't going to"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "will / be going to로 빈칸을 채우세요. POINT 4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A6",
-      "type": "fill",
-      "promptEn": "________ the train arrive at the station?",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "[Will arrive the train / Will the train arrive] at the station soon?",
+      "choices": [
+        "Will arrive the train",
         "Will the train arrive"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a07",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "will / be going to로 빈칸을 채우세요. POINT 4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A7",
-      "type": "fill",
-      "promptEn": "Are you ________ learn English from Mr. Smith?",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Are you [going to learn / going to learning] English from Mr. Smith?",
+      "choices": [
+        "going to learn",
+        "going to learning"
+      ],
       "accept": [
-        "going to learn"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a08",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "will / be going to로 빈칸을 채우세요. POINT 4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4·5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A8",
-      "type": "fill",
-      "promptEn": "Is Jim ________ go with you?",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Is Jim [going to go / go to going] with you?",
+      "choices": [
+        "going to go",
+        "go to going"
+      ],
       "accept": [
-        "going to go"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     }
   ]
 }
