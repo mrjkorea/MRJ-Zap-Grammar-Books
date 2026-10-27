@@ -23,13 +23,12 @@ Generators:
 - SB: `scripts/chunilmun/_extracted_ch11_ch12_sb.py` → `build_ch11_sb()`
 - WB: `scripts/chunilmun/_extracted_ch11_ch12_wb.py` → `build_ch11_wb()`
 
-Answer keys: **`uploads/keys-part4_a100.pdf`** (WB booklet pp. 59–61); SB unit/test keys booklet **p. 29–30** (not in keys-part4 slice).
+Answer keys:
 
-## UNCERTAIN (SB tests — no keys in keys-part4)
-
-- **c11-test q10**: stem asks for two grammatically correct sentences; provisional accept `2|5` — only ② clearly correct on scan.
-- **c11-test q14**: fence preposition for backyard (provisional `along`; alt `around`).
-- **c11-test q15**: pairing of ⓐ–ⓓ prepositions (provisional option 4: ⓐ, ⓓ).
+- **WB** — `uploads/keys-part4_a100.pdf` (booklet pp. 59–61).
+- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 28–30**; PDF `artifacts/keys-sb-ch09-12/page-08.png`–`page-10.png`).
+  - Unit exercises: booklet pp. 29–30 (SB pp. 140, 143, 145).
+  - **c11-test** (SB pp. 146–147): booklet **p. 30** (`page-10.png`); verified Oct 2026 (q10→①②, q14→`between|in|along`, q15→③).
 
 ## Verified from keys-part4 (WB)
 
