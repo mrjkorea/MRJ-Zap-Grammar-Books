@@ -1,0 +1,72 @@
+{
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "practiceId": "cm1:c09:u1-C",
+  "title": "Unit 1 Unit Exercise — Section C",
+  "subtitle": "문장의 여러 형식 · POINT 2 (p. 96)",
+  "pages": "96",
+  "timerMinutes": 22,
+  "unitId": "chapter-09",
+  "unitTitle": "Chapter 09 — 문장의 여러 형식",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 1문항(짝 맞추기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "문장과 형식을 짝지어 연결하세요. POINT 2. 왼쪽 문장과 오른쪽 형식을 연결하세요.",
+      "directionKo": "문장과 형식을 짝지어 연결하세요. POINT 2.",
+      "ruleKo": "왼쪽 문장과 오른쪽 형식을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "C1"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "문장과 형식을 짝지어 연결하세요. POINT 2. 왼쪽 문장과 오른쪽 형식을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "C1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "She runs fast.",
+          "right": "3형식"
+        },
+        {
+          "left": "He is tall.",
+          "right": "2형식"
+        },
+        {
+          "left": "I feel tired.",
+          "right": "2형식"
+        },
+        {
+          "left": "They call me Tom.",
+          "right": "4형식"
+        },
+        {
+          "left": "Mom gave me a gift.",
+          "right": "5형식"
+        }
+      ],
+      "accept": [
+        "She runs fast.|3형식",
+        "He is tall.|2형식",
+        "I feel tired.|2형식",
+        "They call me Tom.|4형식",
+        "Mom gave me a gift.|5형식"
+      ],
+      "promptKo": "문장 A–E"
+    }
+  ]
+}

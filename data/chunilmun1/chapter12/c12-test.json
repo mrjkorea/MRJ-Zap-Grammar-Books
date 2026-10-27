@@ -1,0 +1,376 @@
+{
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "practiceId": "cm1:c12:test",
+  "title": "Chapter Test",
+  "subtitle": "Chapter 12 접속사 (p. 124)",
+  "pages": "124",
+  "timerMinutes": 28,
+  "unitId": "chapter-12",
+  "unitTitle": "Chapter 12 — 접속사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 [1–6] 6문항(고르기), [7–8] 2문항(문장 전체 쓰기), [9] 1문항(짝 맞추기), [10] 1문항(빈칸 말만 쓰기), [11–12] 2문항(고르기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "1-6",
+      "title": "[1–6]",
+      "instructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "MC",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "7-8",
+      "title": "[7–8]",
+      "instructionKo": "sentence 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "sentence",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "[9]",
+      "instructionKo": "[9] 짝 맞추기 왼쪽과 오른쪽을 연결하세요.",
+      "directionKo": "[9] 짝 맞추기",
+      "ruleKo": "왼쪽과 오른쪽을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "9"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "[10]",
+      "instructionKo": "[10] 알맞은 보기 두 개 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "directionKo": "[10] 알맞은 보기 두 개",
+      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "10"
+      ]
+    },
+    {
+      "id": "11-12",
+      "title": "[11–12]",
+      "instructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "MC",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "11",
+        "12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "and",
+        "but",
+        "because",
+        "so",
+        "when"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q02",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "and",
+        "but",
+        "because",
+        "so",
+        "when"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q03",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "and",
+        "but",
+        "because",
+        "so",
+        "when"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q04",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "and",
+        "but",
+        "because",
+        "so",
+        "when"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q05",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "and",
+        "but",
+        "because",
+        "so",
+        "when"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q06",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "and",
+        "but",
+        "because",
+        "so",
+        "when"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q07",
+      "section": "7-8",
+      "sectionTitle": "[7–8]",
+      "sectionInstructionKo": "sentence 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "7",
+      "type": "sentence",
+      "promptEn": "It was late / I went to bed → sentence",
+      "accept": [
+        "It was late, so I went to bed.",
+        "Because it was late, I went to bed."
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "7-8",
+      "sectionTitle": "[7–8]",
+      "sectionInstructionKo": "sentence 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "8",
+      "type": "sentence",
+      "promptEn": "She was sick / she didn't come → sentence",
+      "accept": [
+        "She was sick, so she didn't come.",
+        "Because she was sick, she didn't come."
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "9",
+      "sectionTitle": "[9]",
+      "sectionInstructionKo": "[9] 짝 맞추기 왼쪽과 오른쪽을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "9",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "and",
+          "right": "addition"
+        },
+        {
+          "left": "but",
+          "right": "contrast"
+        },
+        {
+          "left": "because",
+          "right": "reason"
+        },
+        {
+          "left": "so",
+          "right": "result"
+        }
+      ],
+      "accept": [
+        "and|addition",
+        "but|contrast",
+        "because|reason",
+        "so|result"
+      ],
+      "promptKo": "접속사 A–D"
+    },
+    {
+      "id": "q10",
+      "section": "10",
+      "sectionTitle": "[10]",
+      "sectionInstructionKo": "[10] 알맞은 보기 두 개 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "10",
+      "type": "fill",
+      "promptEn": "① I like math and science.\n② He is tired but happy.\n③ She was late because the bus.\n④ If it rains, we will stay home.\n⑤ Although he tried, he failed.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "보기",
+        "보기"
+      ],
+      "unordered": true,
+      "accept": [
+        "1|2",
+        "2|1",
+        "2|1",
+        "1|2",
+        "4|5",
+        "5|4",
+        "5|4",
+        "4|5"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "11-12",
+      "sectionTitle": "[11–12]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q12",
+      "section": "11-12",
+      "sectionTitle": "[11–12]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    }
+  ],
+  "testId": "c12-test",
+  "testTitle": "Chapter Test",
+  "passPct": 80,
+  "retryBelowPct": 50,
+  "showAnswersToStudent": false
+}

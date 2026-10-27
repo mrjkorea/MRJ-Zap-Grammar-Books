@@ -1,0 +1,442 @@
+{
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "practiceId": "cm1:c10:test",
+  "title": "Chapter Test",
+  "subtitle": "Chapter 10 to부정사와 동명사 (p. 110)",
+  "pages": "110",
+  "timerMinutes": 28,
+  "unitId": "chapter-10",
+  "unitTitle": "Chapter 10 — to부정사와 동명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 [1–6] 6문항(고르기), [7–9] 3문항(빈칸 말만 쓰기), [10] 1문항(짝 맞추기), [11] 1문항(빈칸 말만 쓰기), [12–15] 4문항(고르기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "1-6",
+      "title": "[1–6]",
+      "instructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "MC",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "7-9",
+      "title": "[7–9]",
+      "instructionKo": "fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "fill",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "[10]",
+      "instructionKo": "[10] 짝 맞추기 왼쪽과 오른쪽을 연결하세요.",
+      "directionKo": "[10] 짝 맞추기",
+      "ruleKo": "왼쪽과 오른쪽을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "10"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "[11]",
+      "instructionKo": "[11] 알맞은 보기 두 개 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "directionKo": "[11] 알맞은 보기 두 개",
+      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "11"
+      ]
+    },
+    {
+      "id": "12-15",
+      "title": "[12–15]",
+      "instructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "MC",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "to go",
+        "going",
+        "go",
+        "went",
+        "goes"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q02",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "to go",
+        "going",
+        "go",
+        "went",
+        "goes"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q03",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "to go",
+        "going",
+        "go",
+        "went",
+        "goes"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q04",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "to go",
+        "going",
+        "go",
+        "went",
+        "goes"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q05",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "to go",
+        "going",
+        "go",
+        "went",
+        "goes"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q06",
+      "section": "1-6",
+      "sectionTitle": "[1–6]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "6",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "to go",
+        "going",
+        "go",
+        "went",
+        "goes"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q07",
+      "section": "7-9",
+      "sectionTitle": "[7–9]",
+      "sectionInstructionKo": "fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "7",
+      "type": "fill",
+      "promptEn": "She enjoys ________ novels.",
+      "blanks": 1,
+      "accept": [
+        "reading"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "7-9",
+      "sectionTitle": "[7–9]",
+      "sectionInstructionKo": "fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "8",
+      "type": "fill",
+      "promptEn": "He decided ________ abroad.",
+      "blanks": 1,
+      "accept": [
+        "to go",
+        "to study"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "7-9",
+      "sectionTitle": "[7–9]",
+      "sectionInstructionKo": "fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "9",
+      "type": "fill",
+      "promptEn": "It is hard ________ up early.",
+      "blanks": 1,
+      "accept": [
+        "to get",
+        "getting"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "10",
+      "sectionTitle": "[10]",
+      "sectionInstructionKo": "[10] 짝 맞추기 왼쪽과 오른쪽을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "10",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "want",
+          "right": "to + V"
+        },
+        {
+          "left": "enjoy",
+          "right": "V-ing"
+        },
+        {
+          "left": "finish",
+          "right": "V-ing"
+        },
+        {
+          "left": "decide",
+          "right": "to + V"
+        }
+      ],
+      "accept": [
+        "want|to + V",
+        "enjoy|V-ing",
+        "finish|V-ing",
+        "decide|to + V"
+      ],
+      "promptKo": "동사 A–D"
+    },
+    {
+      "id": "q11",
+      "section": "11",
+      "sectionTitle": "[11]",
+      "sectionInstructionKo": "[11] 알맞은 보기 두 개 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "11",
+      "type": "fill",
+      "promptEn": "① I enjoy to dance.\n② She wants to leave.\n③ He finished to eat.\n④ They like swimming.\n⑤ We plan to travel.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "보기",
+        "보기"
+      ],
+      "unordered": true,
+      "accept": [
+        "2|4",
+        "4|2",
+        "4|2",
+        "2|4",
+        "2|5",
+        "5|2",
+        "5|2",
+        "2|5"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "12-15",
+      "sectionTitle": "[12–15]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q13",
+      "section": "12-15",
+      "sectionTitle": "[12–15]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "13",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q14",
+      "section": "12-15",
+      "sectionTitle": "[12–15]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q15",
+      "section": "12-15",
+      "sectionTitle": "[12–15]",
+      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    }
+  ],
+  "testId": "c10-test",
+  "testTitle": "Chapter Test",
+  "passPct": 80,
+  "retryBelowPct": 50,
+  "showAnswersToStudent": false
+}

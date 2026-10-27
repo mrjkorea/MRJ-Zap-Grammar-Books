@@ -1,0 +1,133 @@
+{
+  "bookId": "chunilmun-grammar-1",
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "num": 1,
+      "title": "be동사",
+      "units": 2,
+      "sbSectionsPerUnit": [3, 3],
+      "wbSectionsPerUnit": [4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true
+    },
+    {
+      "id": "chapter-02",
+      "num": 2,
+      "title": "일반동사",
+      "units": 3,
+      "sbSectionsPerUnit": [3, 3, 3],
+      "wbSectionsPerUnit": [4, 4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true
+    },
+    {
+      "id": "chapter-03",
+      "num": 3,
+      "title": "현재진행형과 미래 표현",
+      "units": 2,
+      "sbSectionsPerUnit": [3, 3],
+      "wbSectionsPerUnit": [4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true
+    },
+    {
+      "id": "chapter-04",
+      "num": 4,
+      "title": "조동사",
+      "units": 2,
+      "sbSectionsPerUnit": [3, 3],
+      "wbSectionsPerUnit": [4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true,
+      "reviewAfter": "review-01"
+    },
+    {
+      "id": "chapter-05",
+      "num": 5,
+      "title": "명사와 관사",
+      "units": 2,
+      "sbSectionsPerUnit": [3, 3],
+      "wbSectionsPerUnit": [4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true
+    },
+    {
+      "id": "chapter-06",
+      "num": 6,
+      "title": "대명사",
+      "units": 3,
+      "sbSectionsPerUnit": [3, 3, 3],
+      "wbSectionsPerUnit": [4, 4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true
+    },
+    {
+      "id": "chapter-07",
+      "num": 7,
+      "title": "형용사, 부사, 비교",
+      "units": 3,
+      "sbSectionsPerUnit": [3, 3, 3],
+      "wbSectionsPerUnit": [4, 4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true
+    },
+    {
+      "id": "chapter-08",
+      "num": 8,
+      "title": "여러 가지 문장 종류",
+      "units": 3,
+      "sbSectionsPerUnit": [3, 3, 3],
+      "wbSectionsPerUnit": [4, 4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true,
+      "reviewAfter": "review-02"
+    },
+    {
+      "id": "chapter-09",
+      "num": 9,
+      "title": "문장의 여러 형식",
+      "units": 3,
+      "sbSectionsPerUnit": [3, 3, 3],
+      "wbSectionsPerUnit": [4, 4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true
+    },
+    {
+      "id": "chapter-10",
+      "num": 10,
+      "title": "to부정사와 동명사",
+      "units": 3,
+      "sbSectionsPerUnit": [3, 3, 3],
+      "wbSectionsPerUnit": [4, 4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true
+    },
+    {
+      "id": "chapter-11",
+      "num": 11,
+      "title": "전치사",
+      "units": 3,
+      "sbSectionsPerUnit": [3, 3, 3],
+      "wbSectionsPerUnit": [4, 4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true
+    },
+    {
+      "id": "chapter-12",
+      "num": 12,
+      "title": "접속사",
+      "units": 2,
+      "sbSectionsPerUnit": [3, 3],
+      "wbSectionsPerUnit": [4, 4],
+      "hasSbTest": true,
+      "hasWbTest": true,
+      "reviewAfter": "review-03"
+    }
+  ],
+  "reviews": [
+    { "id": "review-01", "title": "총괄평가 1회 (Ch01–04)", "afterChapter": 4 },
+    { "id": "review-02", "title": "총괄평가 2회 (Ch05–08)", "afterChapter": 8 },
+    { "id": "review-03", "title": "총괄평가 3회 (Ch09–12)", "afterChapter": 12 }
+  ]
+}
