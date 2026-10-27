@@ -35,6 +35,7 @@ BOOKS = [
     "green1", "green2", "green3", "green4",
     "blue1", "blue2", "blue3", "blue4",
     "red1", "red2",
+    "chunilmun1",
 ]
 
 MAYA = "fe4921e56ebf4fcba53b09b0d73c2052"
@@ -712,10 +713,16 @@ def process_job(job: dict) -> str:
         return "fail"
 
 
-def write_manifest(jobs: list) -> None:
+def write_manifest(jobs: list, book_filter: str | None = None) -> None:
     """Map practices → items/sections audio paths."""
     # structure: { "books": { book: { practiceKey: { "file": reljson, "sections": {sid: {instrAudio}}, "items": {id: {audio, skip?}} } } } }
     root: dict = {"version": 1, "voices": {"instruction": MAYA, "question": KITT, "model": MODEL}, "books": {}}
+    old: dict | None = None
+    if MANIFEST_PATH.exists():
+        try:
+            old = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            old = None
     for job in jobs:
         book = job.get("book")
         if not book:
@@ -755,6 +762,12 @@ def write_manifest(jobs: list) -> None:
                     "reason": job.get("reason"),
                 }
             )
+    if book_filter and old:
+        for bk, data in (old.get("books") or {}).items():
+            if bk != book_filter:
+                root["books"][bk] = data
+        old_skips = [s for s in (old.get("skips") or []) if s.get("book") != book_filter]
+        skips = old_skips + skips
     root["skips"] = skips
     root["skipCounts"] = dict(Counter(s["reason"] for s in skips))
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -861,9 +874,9 @@ def cmd_bake(args):
     # Full manifest across requested books (rebuild all for consistency if no filter)
     if not args.book:
         jobs_all, _ = build_jobs(None)
-        write_manifest(jobs_all)
+        write_manifest(jobs_all, book_filter=None)
     else:
-        write_manifest(all_jobs_for_manifest)
+        write_manifest(all_jobs_for_manifest, book_filter=args.book)
 
     elapsed = time.time() - t0
     log(

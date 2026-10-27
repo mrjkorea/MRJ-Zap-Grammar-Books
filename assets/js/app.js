@@ -315,6 +315,30 @@
     app.appendChild(row);
   }
 
+  function escapeHtmlText(s) {
+    return String(s || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  /** Book stems: [wrong] → underline; preserve <u> from scan-backed JSON. */
+  function promptEnToHtml(raw) {
+    var s = String(raw || "");
+    var under = [];
+    s = s.replace(/<u>([\s\S]*?)<\/u>/gi, function (_, inner) {
+      var tok = "\x00U" + under.length + "\x00";
+      under.push(escapeHtmlText(inner));
+      return tok;
+    });
+    s = escapeHtmlText(s);
+    s = s.replace(/\[([^\[\]]+)\]/g, '<span class="q-mark">$1</span>');
+    for (var i = 0; i < under.length; i++) {
+      s = s.split("\x00U" + i + "\x00").join('<span class="q-mark">' + under[i] + "</span>");
+    }
+    return s.replace(/\n/g, "<br>");
+  }
+
   function appendPromptLines(card, item) {
     if (item.image) {
       var img = document.createElement("img");
@@ -332,8 +356,7 @@
     }
     if (item.promptEn) {
       var en = $("div", "q-en");
-      en.style.whiteSpace = "pre-line";
-      en.textContent = item.promptEn;
+      en.innerHTML = promptEnToHtml(item.promptEn);
       card.appendChild(en);
     }
     if (item.noteKo) card.appendChild($("div", "q-note", item.noteKo));

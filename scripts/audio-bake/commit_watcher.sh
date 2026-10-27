@@ -9,7 +9,7 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config user.email "$GIT_AUTHOR_EMAIL"
 git config user.name "$GIT_AUTHOR_NAME"
 
-BOOKS=(green1 green2 green3 green4 blue1 blue2 blue3 blue4 red1 red2)
+BOOKS=(green1 green2 green3 green4 blue1 blue2 blue3 blue4 red1 red2 chunilmun1)
 LOG=audio/commit_watcher.log
 mkdir -p audio
 echo "WATCHER START $(date -Iseconds)" | tee -a "$LOG"
