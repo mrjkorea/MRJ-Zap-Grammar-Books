@@ -69,9 +69,16 @@
   /* ---------- Index: book cards + unit tiles + exercise tiles ---------- */
   function shortBook(t) { return String(t).replace(/^ZAP\s*/i, ""); }
   function unitParts(t) {
-    var m = String(t).match(/^Unit\s*0*(\d+)\s*[—-]\s*(.*)$/);
+    var s = String(t);
+    var m = s.match(/^Unit\s*0*(\d+)\s*[—-]\s*(.*)$/);
     if (m) return { n: m[1], t: m[2] };
-    return { n: "★", t: String(t).replace(/\s*\(coming soon\)/, "") };
+    m = s.match(/^Chapter\s*0*(\d+)\s*(?:SB\s*)?[—-]\s*(.*)$/i);
+    if (m) return { n: m[1], t: m[2] };
+    m = s.match(/^Ch\s*0*(\d+)\s*WB\s*[—-]\s*(.*)$/i);
+    if (m) return { n: m[1] + "W", t: m[2] };
+    m = s.match(/^총괄평가\s*(\d+)/);
+    if (m) return { n: "R" + m[1], t: "총괄평가 " + m[1] };
+    return { n: "★", t: s.replace(/\s*\(coming soon\)/, "") };
   }
   function buildIndex() {
     var grid = app.querySelector(".grid-2");

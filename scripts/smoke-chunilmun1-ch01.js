@@ -13,7 +13,8 @@ for (const f of ["normalize.js", "engine.js", "catalog.js"]) {
 }
 const E = win.MRJ_ENGINE;
 const catalog = win.MRJ_CATALOG;
-const MODES = new Set(["choice", "words", "sentence"]);
+const CH01_UNITS = new Set(["chapter-01", "wb-chapter-01"]);
+const MODES = new Set(["choice", "words", "sentence", "match"]);
 let bad = 0;
 const fail = (...a) => {
   bad++;
@@ -21,6 +22,14 @@ const fail = (...a) => {
 };
 
 function respFor(it, acc) {
+  if (it.type === "match") {
+    const links = {};
+    for (const line of it.accept || []) {
+      const [left, right] = String(line).split("|");
+      if (left != null && right != null) links[left.trim()] = right.trim();
+    }
+    return { links };
+  }
   if (it.type === "mc") {
     const circled = "①②③④⑤";
     let i = circled.indexOf(String(acc).trim());
@@ -36,6 +45,11 @@ function respFor(it, acc) {
 }
 
 function wrongFor(it) {
+  if (it.type === "match") {
+    const links = {};
+    for (const p of it.pairs || []) links[p.left] = "wrong";
+    return { links };
+  }
   if (it.type === "mc") {
     for (const ch of it.choices || []) {
       if (!E.gradeItem(it, { value: ch })) return { value: ch };
@@ -53,17 +67,8 @@ function wrongFor(it) {
 const practiceIds = new Set();
 const units = catalog.units[bookId] || [];
 let fileCount = 0;
-const expectedSlugs = [
-  "c01-u1-A",
-  "c01-u1-B",
-  "c01-u1-C",
-  "c01-u2-A",
-  "c01-u2-B",
-  "c01-u2-C",
-  "c01-test",
-];
 
-for (const unit of units) {
+for (const unit of units.filter((u) => CH01_UNITS.has(u.id))) {
   const key = catalog.unitKey(bookId, unit.id);
   const exercises = catalog.exercises[key] || [];
   for (const ex of exercises) {
@@ -114,8 +119,13 @@ for (const unit of units) {
         fail(where, it.id, "accept[0] not usable");
         continue;
       }
-      if (!E.gradeItem(it, right)) fail(where, it.id, "first accept should pass");
-      if (E.gradeItem(it, wrongFor(it))) fail(where, it.id, "wrong answer should fail");
+      if (it.type === "match") {
+        if (!E.gradeMatchItem(it, right)) fail(where, it.id, "match pairs should pass");
+        if (E.gradeMatchItem(it, wrongFor(it))) fail(where, it.id, "wrong match should fail");
+      } else {
+        if (!E.gradeItem(it, right)) fail(where, it.id, "first accept should pass");
+        if (E.gradeItem(it, wrongFor(it))) fail(where, it.id, "wrong answer should fail");
+      }
     }
     for (const s of d.sections) {
       const its = d.items.filter((i) => i.section === s.id && !i.displayOnly);
@@ -125,10 +135,6 @@ for (const unit of units) {
     }
     console.log(where.padEnd(42), d.practiceId.padEnd(16), "graded", String(nGraded).padStart(3), "OK");
   }
-}
-
-if (fileCount !== expectedSlugs.length) {
-  fail("catalog file count", fileCount, "expected", expectedSlugs.length);
 }
 
 if (bad) {

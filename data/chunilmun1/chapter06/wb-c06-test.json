@@ -1,0 +1,393 @@
+{
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "practiceId": "cm1:wb-c06:test",
+  "title": "WB Chapter Test",
+  "subtitle": "Chapter 06 (WB p. 44)",
+  "pages": "44",
+  "timerMinutes": 28,
+  "unitId": "wb-chapter-06",
+  "unitTitle": "Ch 06 WB — 대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 [1–5] 5문항(고르기), [6–10] 5문항(빈칸 말만 쓰기), [11–15] 5문항(고르기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "1-5",
+      "title": "[1–5]",
+      "instructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[1–5] MC",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "6-10",
+      "title": "[6–10]",
+      "instructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[6–10] fill",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": "11-15",
+      "title": "[11–15]",
+      "instructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[11–15] MC/fill",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "1-5",
+      "sectionTitle": "[1–5]",
+      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "him",
+        "he",
+        "his",
+        "he's"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q02",
+      "section": "1-5",
+      "sectionTitle": "[1–5]",
+      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "their",
+        "them",
+        "they",
+        "theirs"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q03",
+      "section": "1-5",
+      "sectionTitle": "[1–5]",
+      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "she",
+        "her",
+        "hers",
+        "she's"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q04",
+      "section": "1-5",
+      "sectionTitle": "[1–5]",
+      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "my",
+        "mine",
+        "me",
+        "I"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "q05",
+      "section": "1-5",
+      "sectionTitle": "[1–5]",
+      "sectionInstructionKo": "[1–5] MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "5",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "This",
+        "It",
+        "That",
+        "These"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q06",
+      "section": "6-10",
+      "sectionTitle": "[6–10]",
+      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "6",
+      "type": "fill",
+      "promptEn": "This, It",
+      "blanks": 2,
+      "accept": [
+        "This|It"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "6-10",
+      "sectionTitle": "[6–10]",
+      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "7",
+      "type": "fill",
+      "promptEn": "feel / feels",
+      "blanks": 2,
+      "accept": [
+        "feel|feels"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "6-10",
+      "sectionTitle": "[6–10]",
+      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q09",
+      "section": "6-10",
+      "sectionTitle": "[6–10]",
+      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "9",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q10",
+      "section": "6-10",
+      "sectionTitle": "[6–10]",
+      "sectionInstructionKo": "[6–10] fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q11",
+      "section": "11-15",
+      "sectionTitle": "[11–15]",
+      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "11",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q12",
+      "section": "11-15",
+      "sectionTitle": "[11–15]",
+      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q13",
+      "section": "11-15",
+      "sectionTitle": "[11–15]",
+      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "13",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q14",
+      "section": "11-15",
+      "sectionTitle": "[11–15]",
+      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q15",
+      "section": "11-15",
+      "sectionTitle": "[11–15]",
+      "sectionInstructionKo": "[11–15] MC/fill 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "fill",
+      "promptEn": "(1) Everyone has... (2) Nobody likes...",
+      "blanks": 2,
+      "accept": [
+        "Everyone has a different personality|Nobody likes rude people"
+      ]
+    }
+  ],
+  "testId": "wb-c06-test",
+  "testTitle": "Chapter Test",
+  "passPct": 80,
+  "retryBelowPct": 50,
+  "showAnswersToStudent": false
+}
