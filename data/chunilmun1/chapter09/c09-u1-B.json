@@ -4,9 +4,9 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c09:u1-B",
   "title": "Unit 1 Unit Exercise — Section B",
-  "subtitle": "문장의 여러 형식 · POINT 1·2 (p. 96)",
-  "pages": "96",
-  "timerMinutes": 20,
+  "subtitle": "SVC · POINT 2 (p. 111)",
+  "pages": "111",
+  "timerMinutes": 18,
   "unitId": "chapter-09",
   "unitTitle": "Chapter 09 — 문장의 여러 형식",
   "sectionsVersion": 2,
@@ -15,8 +15,8 @@
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1·2.",
+      "instructionKo": "빈칸에 알맞은 동사를 <보기>에서 골라 현재형으로 쓰세요. (단, 한 번씩만 쓸 것) POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "빈칸에 알맞은 동사를 <보기>에서 골라 현재형으로 쓰세요. (단, 한 번씩만 쓸 것) POINT 2.",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -28,6 +28,13 @@
         "B3",
         "B4",
         "B5"
+      ],
+      "wordBank": [
+        "feel",
+        "look",
+        "sound",
+        "smell",
+        "taste"
       ]
     }
   ],
@@ -36,75 +43,76 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 알맞은 동사를 <보기>에서 골라 현재형으로 쓰세요. (단, 한 번씩만 쓸 것) POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "My brother ________ soccer well.",
+      "promptEn": "Your voice ________ strange.",
       "blanks": 1,
       "accept": [
-        "plays"
+        "sound",
+        "sounds"
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 알맞은 동사를 <보기>에서 골라 현재형으로 쓰세요. (단, 한 번씩만 쓸 것) POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "The soup ________ delicious.",
+      "promptEn": "I ________ so sick today.",
       "blanks": 1,
       "accept": [
-        "smells"
+        "feel"
       ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 알맞은 동사를 <보기>에서 골라 현재형으로 쓰세요. (단, 한 번씩만 쓸 것) POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "We ________ them winners.",
+      "promptEn": "This coffee ________ bitter.",
       "blanks": 1,
       "accept": [
-        "made"
+        "tastes"
       ]
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 알맞은 동사를 <보기>에서 골라 현재형으로 쓰세요. (단, 한 번씩만 쓸 것) POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "He ________ me a letter.",
+      "promptEn": "The flowers ________ sweet.",
       "blanks": 1,
       "accept": [
-        "sent"
+        "smell"
       ]
     },
     {
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "빈칸에 알맞은 동사를 <보기>에서 골라 현재형으로 쓰세요. (단, 한 번씩만 쓸 것) POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "They ________ happy.",
+      "promptEn": "The clouds ________ like cotton candy.",
       "blanks": 1,
       "accept": [
-        "are"
+        "look"
       ]
     }
   ]

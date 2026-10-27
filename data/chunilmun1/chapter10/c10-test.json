@@ -4,158 +4,309 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c10:test",
   "title": "Chapter Test",
-  "subtitle": "Chapter 10 to부정사와 동명사 (p. 110)",
-  "pages": "110",
-  "timerMinutes": 28,
+  "subtitle": "Chapter 10 to부정사와 동명사 (p. 133–135)",
+  "pages": "133–135",
+  "timerMinutes": 32,
   "unitId": "chapter-10",
   "unitTitle": "Chapter 10 — to부정사와 동명사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–6] 6문항(고르기), [7–9] 3문항(빈칸 말만 쓰기), [10] 1문항(짝 맞추기), [11] 1문항(빈칸 말만 쓰기), [12–15] 4문항(고르기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(고르기), [3] 1문항(문장 전체 쓰기), [4] 1문항(고르기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(고르기), [8] 1문항(빈칸 말만 쓰기), [9] 1문항(고르기), [10–11] 2문항(문장 전체 쓰기), [12] 1문항(고르기), [13] 1문항(빈칸 말만 쓰기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(빈칸 말만 쓰기), [16] 1문항(고르기), [17] 1문항(고르기), [18] 1문항(고르기), [19–20] 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
-      "id": "1-6",
-      "title": "[1–6]",
-      "instructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "MC",
+      "id": "1",
+      "title": "[1]",
+      "instructionKo": "[1] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[1] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 6,
+      "itemCount": 1,
       "exampleCount": 0,
       "labels": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
+        "1"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "[2]",
+      "instructionKo": "[2] 다음 중 밑줄 친 부분의 쓰임이 다른 하나를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[2] 다음 중 밑줄 친 부분의 쓰임이 다른 하나를 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "2"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "[3]",
+      "instructionKo": "[3] <보기>와 같이 주어진 두 문장을 to부정사를 이용하여 한 문장으로 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[3] <보기>와 같이 주어진 두 문장을 to부정사를 이용하여 한 문장으로 다시 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "3"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "[4]",
+      "instructionKo": "[4] 다음 중 밑줄 친 부분과 바꿔 쓸 수 있는 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[4] 다음 중 밑줄 친 부분과 바꿔 쓸 수 있는 말을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "4"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "[5]",
+      "instructionKo": "[5] 다음 중 주어진 우리말을 영작할 때 세 번째 빈칸에 오는 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[5] 다음 중 주어진 우리말을 영작할 때 세 번째 빈칸에 오는 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "5"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "[6]",
+      "instructionKo": "[6] 다음 밑줄 친 동명사의 쓰임을 잘못 설명한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[6] 다음 밑줄 친 동명사의 쓰임을 잘못 설명한 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
         "6"
       ]
     },
     {
-      "id": "7-9",
-      "title": "[7–9]",
-      "instructionKo": "fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "fill",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 3,
+      "id": "7",
+      "title": "[7]",
+      "instructionKo": "[7] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[7] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
       "exampleCount": 0,
       "labels": [
-        "7",
-        "8",
+        "7"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "[8]",
+      "instructionKo": "[8] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[8] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
+      "ruleKo": "고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "8"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "[9]",
+      "instructionKo": "[9] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[9] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
         "9"
       ]
     },
     {
-      "id": "10",
-      "title": "[10]",
-      "instructionKo": "[10] 짝 맞추기 왼쪽과 오른쪽을 연결하세요.",
-      "directionKo": "[10] 짝 맞추기",
-      "ruleKo": "왼쪽과 오른쪽을 연결하세요.",
-      "answerMode": "match",
-      "answerModeTag": "Match · 짝 맞추기",
-      "itemCount": 1,
+      "id": "10-11",
+      "title": "[10–11]",
+      "instructionKo": "[10–11] 우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[10–11] 우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 2,
       "exampleCount": 0,
       "labels": [
-        "10"
+        "10",
+        "11"
       ]
     },
     {
-      "id": "11",
-      "title": "[11]",
-      "instructionKo": "[11] 알맞은 보기 두 개 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "directionKo": "[11] 알맞은 보기 두 개",
-      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "id": "12",
+      "title": "[12]",
+      "instructionKo": "[12] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[12] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "12"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "[13]",
+      "instructionKo": "[13] 다음 그림을 보고 민호의 질문에 알맞은 Anne의 대답을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[13] 다음 그림을 보고 민호의 질문에 알맞은 Anne의 대답을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
-        "11"
+        "13"
       ]
     },
     {
-      "id": "12-15",
-      "title": "[12–15]",
-      "instructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "MC",
+      "id": "14",
+      "title": "[14]",
+      "instructionKo": "[14] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "directionKo": "[14] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요.",
+      "ruleKo": "알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "14"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "[15]",
+      "instructionKo": "[15] 다음 우리말을 영작할 때 빈칸에 들어갈 말로 알맞은 것을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "directionKo": "[15] 다음 우리말을 영작할 때 빈칸에 들어갈 말로 알맞은 것을 모두 고르세요.",
+      "ruleKo": "알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "15"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "[16]",
+      "instructionKo": "[16] 다음 중 밑줄 친 부분의 우리말 해석이 바르지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[16] 다음 중 밑줄 친 부분의 우리말 해석이 바르지 않은 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 4,
+      "itemCount": 1,
       "exampleCount": 0,
       "labels": [
-        "12",
-        "13",
-        "14",
-        "15"
+        "16"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "[17]",
+      "instructionKo": "[17] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[17] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "17"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "[18]",
+      "instructionKo": "[18] 다음 중 어법상 알맞지 않은 문장의 개수를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[18] 다음 중 어법상 알맞지 않은 문장의 개수를 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "18"
+      ]
+    },
+    {
+      "id": "19-20",
+      "title": "[19–20]",
+      "instructionKo": "[19–20] 표를 보고 주어진 단어를 사용하여 질문에 대한 답을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[19–20] 표를 보고 주어진 단어를 사용하여 질문에 대한 답을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "19",
+        "20"
       ]
     }
   ],
   "items": [
     {
       "id": "q01",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "1",
+      "sectionTitle": "[1]",
+      "sectionInstructionKo": "[1] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "1",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "<보기> You need <u>to wash</u> your hands first.",
       "choices": [
-        "to go",
-        "going",
-        "go",
-        "went",
-        "goes"
+        "He likes <u>to play</u> drums.",
+        "My goal is <u>to learn</u> Chinese.",
+        "<u>To speak</u> in public is difficult.",
+        "His dream is <u>to drive</u> a sports car.",
+        "<u>To drink</u> milk is good for your health."
       ],
       "accept": [
-        "1",
-        "①"
+        "3",
+        "③"
       ],
-      "answer": "1"
+      "answer": "3"
     },
     {
       "id": "q02",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "2",
+      "sectionTitle": "[2]",
+      "sectionInstructionKo": "[2] 다음 중 밑줄 친 부분의 쓰임이 다른 하나를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "2",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "to go",
-        "going",
-        "go",
-        "went",
-        "goes"
-      ],
-      "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
-    },
-    {
-      "id": "q03",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "3",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "to go",
-        "going",
-        "go",
-        "went",
-        "goes"
+        "She called me <u>to say</u> hello.",
+        "I have something <u>to do</u> now.",
+        "I don't have time <u>to watch</u> TV.",
+        "Tom gave her some food <u>to eat</u>.",
+        "There's no one <u>to cook</u> dinner tonight."
       ],
       "accept": [
         "1",
@@ -164,21 +315,35 @@
       "answer": "1"
     },
     {
+      "id": "q03",
+      "section": "3",
+      "sectionTitle": "[3]",
+      "sectionInstructionKo": "[3] <보기>와 같이 주어진 두 문장을 to부정사를 이용하여 한 문장으로 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "3",
+      "type": "sentence",
+      "promptEn": "She sold her house. She wanted to move to the country.\n→ ________________________________",
+      "accept": [
+        "She sold her house to move to the country."
+      ]
+    },
+    {
       "id": "q04",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "4",
+      "sectionTitle": "[4]",
+      "sectionInstructionKo": "[4] 다음 중 밑줄 친 부분과 바꿔 쓸 수 있는 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "4",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "He began <u>to climb</u> up the mountain.",
       "choices": [
-        "to go",
-        "going",
-        "go",
-        "went",
-        "goes"
+        "climb",
+        "climbing",
+        "climbs",
+        "to climbing",
+        "climbed"
       ],
       "accept": [
         "2",
@@ -188,142 +353,191 @@
     },
     {
       "id": "q05",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "5",
+      "sectionTitle": "[5]",
+      "sectionInstructionKo": "[5] 다음 중 주어진 우리말을 영작할 때 세 번째 빈칸에 오는 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "5",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "대부분의 식물은 자라기 위해 물이 필요하다.\nMost ________ ________ ________ ________ ________.",
       "choices": [
-        "to go",
-        "going",
-        "go",
-        "went",
-        "goes"
+        "plants",
+        "water",
+        "to",
+        "need",
+        "grow"
       ],
       "accept": [
-        "1",
-        "①"
+        "3",
+        "③"
       ],
-      "answer": "1"
+      "answer": "3"
     },
     {
       "id": "q06",
-      "section": "1-6",
-      "sectionTitle": "[1–6]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "6",
+      "sectionTitle": "[6]",
+      "sectionInstructionKo": "[6] 다음 밑줄 친 동명사의 쓰임을 잘못 설명한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "6",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "to go",
-        "going",
-        "go",
-        "went",
-        "goes"
+        "<u>Studying</u> math is exciting. (주어)",
+        "She enjoys <u>taking</u> a walk. (목적어)",
+        "Tim avoided <u>taking</u> medicine. (보어)",
+        "<u>Drinking</u> coffee makes me awake. (주어)",
+        "My hobby is <u>playing</u> computer games. (보어)"
       ],
       "accept": [
-        "2",
-        "②"
+        "3",
+        "③"
       ],
-      "answer": "2"
+      "answer": "3"
     },
     {
       "id": "q07",
-      "section": "7-9",
-      "sectionTitle": "[7–9]",
-      "sectionInstructionKo": "fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "section": "7",
+      "sectionTitle": "[7]",
+      "sectionInstructionKo": "[7] 다음 중 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "7",
-      "type": "fill",
-      "promptEn": "She enjoys ________ novels.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Did you ________ to write the essay about your childhood?",
+      "choices": [
+        "start",
+        "hate",
+        "finish",
+        "want",
+        "love"
+      ],
       "accept": [
-        "reading"
-      ]
+        "3",
+        "③"
+      ],
+      "answer": "3"
     },
     {
       "id": "q08",
-      "section": "7-9",
-      "sectionTitle": "[7–9]",
-      "sectionInstructionKo": "fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "8",
+      "sectionTitle": "[8]",
+      "sectionInstructionKo": "[8] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "8",
       "type": "fill",
-      "promptEn": "He decided ________ abroad.",
+      "promptEn": "Eric gave up to get up early in the morning.",
       "blanks": 1,
       "accept": [
-        "to go",
-        "to study"
+        "gave up getting up",
+        "getting up"
       ]
     },
     {
       "id": "q09",
-      "section": "7-9",
-      "sectionTitle": "[7–9]",
-      "sectionInstructionKo": "fill 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "section": "9",
+      "sectionTitle": "[9]",
+      "sectionInstructionKo": "[9] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "9",
-      "type": "fill",
-      "promptEn": "It is hard ________ up early.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "<보기> Jessica's goal is <u>becoming</u> a chef.",
+      "choices": [
+        "We are <u>cleaning</u> the kitchen.",
+        "She is <u>borrowing</u> some books.",
+        "They are <u>talking</u> about the party.",
+        "The baby is <u>sleeping</u> on the bed.",
+        "Her job is <u>baking</u> bread and cakes."
+      ],
       "accept": [
-        "to get",
-        "getting"
-      ]
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
     },
     {
       "id": "q10",
-      "section": "10",
-      "sectionTitle": "[10]",
-      "sectionInstructionKo": "[10] 짝 맞추기 왼쪽과 오른쪽을 연결하세요.",
-      "answerMode": "match",
-      "answerModeTag": "Match · 짝 맞추기",
+      "section": "10-11",
+      "sectionTitle": "[10–11]",
+      "sectionInstructionKo": "[10–11] 우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "10",
-      "type": "match",
-      "pairs": [
-        {
-          "left": "want",
-          "right": "to + V"
-        },
-        {
-          "left": "enjoy",
-          "right": "V-ing"
-        },
-        {
-          "left": "finish",
-          "right": "V-ing"
-        },
-        {
-          "left": "decide",
-          "right": "to + V"
-        }
-      ],
+      "type": "sentence",
+      "promptEn": "(mind, knock)\n→ Do you ____________________ on the door?",
       "accept": [
-        "want|to + V",
-        "enjoy|V-ing",
-        "finish|V-ing",
-        "decide|to + V"
-      ],
-      "promptKo": "동사 A–D"
+        "Do you mind knocking on the door?",
+        "mind knocking"
+      ]
     },
     {
       "id": "q11",
-      "section": "11",
-      "sectionTitle": "[11]",
-      "sectionInstructionKo": "[11] 알맞은 보기 두 개 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "section": "10-11",
+      "sectionTitle": "[10–11]",
+      "sectionInstructionKo": "[10–11] 우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "11",
+      "type": "sentence",
+      "promptEn": "(expect, win)\n→ I didn't ____________________ the contest.",
+      "accept": [
+        "I didn't expect to win the contest.",
+        "expect to win"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "12",
+      "sectionTitle": "[12]",
+      "sectionInstructionKo": "[12] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "12",
+      "type": "mc",
+      "promptEn": "She kept (A) no to me. / The novel is about (B) happiness.",
+      "choices": [
+        "say — find",
+        "saying — find",
+        "to say — finding",
+        "to say — to find",
+        "saying — finding"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q13",
+      "section": "13",
+      "sectionTitle": "[13]",
+      "sectionInstructionKo": "[13] 다음 그림을 보고 민호의 질문에 알맞은 Anne의 대답을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "label": "11",
+      "label": "13",
       "type": "fill",
-      "promptEn": "① I enjoy to dance.\n② She wants to leave.\n③ He finished to eat.\n④ They like swimming.\n⑤ We plan to travel.",
+      "promptEn": "Minho: What are you good at, Anne?\nAnne: I ____________________ the piano.",
+      "blanks": 3,
+      "accept": [
+        "am good at playing",
+        "I am good at playing the piano"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "14",
+      "sectionTitle": "[14]",
+      "sectionInstructionKo": "[14] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "14",
+      "type": "fill",
+      "promptEn": "① They decided to go there.\n② He was glad to get a good score.\n③ I wish having a nice vacation.\n④ She avoids to drive in the rain.\n⑤ I will practice singing pop songs.",
       "blanks": 2,
       "blankPartLabels": [
         "보기",
@@ -331,107 +545,133 @@
       ],
       "unordered": true,
       "accept": [
-        "2|4",
-        "4|2",
-        "4|2",
-        "2|4",
-        "2|5",
-        "5|2",
-        "5|2",
-        "2|5"
+        "3|4",
+        "4|3"
       ]
     },
     {
-      "id": "q12",
-      "section": "12-15",
-      "sectionTitle": "[12–15]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "12",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
-      ],
-      "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
-    },
-    {
-      "id": "q13",
-      "section": "12-15",
-      "sectionTitle": "[12–15]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "13",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
-      ],
-      "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
-    },
-    {
-      "id": "q14",
-      "section": "12-15",
-      "sectionTitle": "[12–15]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "14",
-      "type": "mc",
-      "promptEn": "",
-      "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
-      ],
-      "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
-    },
-    {
       "id": "q15",
-      "section": "12-15",
-      "sectionTitle": "[12–15]",
-      "sectionInstructionKo": "MC 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "15",
+      "sectionTitle": "[15]",
+      "sectionInstructionKo": "[15] 다음 우리말을 영작할 때 빈칸에 들어갈 말로 알맞은 것을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "15",
+      "type": "fill",
+      "promptEn": "자신만의 꿈을 가지는 것은 중요하다.\n________ your own dream is important.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "보기",
+        "보기"
+      ],
+      "unordered": true,
+      "accept": [
+        "2|3",
+        "3|2",
+        "3|2",
+        "2|3"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "16",
+      "sectionTitle": "[16]",
+      "sectionInstructionKo": "[16] 다음 중 밑줄 친 부분의 우리말 해석이 바르지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "label": "15",
+      "label": "16",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "①",
-        "②",
-        "③",
-        "④",
-        "⑤"
+        "<u>To stay up</u> late is not good. (깨어 있는 것은)",
+        "I like <u>to see</u> the stars in the sky. (보는 것을)",
+        "I went into a building <u>to avoid</u> the rain. (피하기 위해)",
+        "He hopes <u>to become</u> a soccer player someday. (되기 위해)",
+        "They were happy <u>to meet</u> their old friends again. (만나서)"
       ],
       "accept": [
-        "2",
-        "②"
+        "4",
+        "④"
       ],
-      "answer": "2"
+      "answer": "4"
+    },
+    {
+      "id": "q17",
+      "section": "17",
+      "sectionTitle": "[17]",
+      "sectionInstructionKo": "[17] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "17",
+      "type": "mc",
+      "promptEn": "너의 이야기를 공유해줘서 고마워.",
+      "choices": [
+        "Thank you of share your story.",
+        "Thank you of sharing your story.",
+        "Thank you for share your story.",
+        "Thank you for sharing your story.",
+        "Thank you sharing your story."
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q18",
+      "section": "18",
+      "sectionTitle": "[18]",
+      "sectionInstructionKo": "[18] 다음 중 어법상 알맞지 않은 문장의 개수를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "18",
+      "type": "mc",
+      "promptEn": "ⓐ Watch scary movies is exciting.\nⓑ Do you wish to know her name?\nⓒ She stopped reading her magazine.\nⓓ I plan playing soccer with my friends.\nⓔ Henry is afraid of go out at night.\nⓕ Eating a lot of chocolate are bad for your teeth.",
+      "choices": [
+        "1개",
+        "2개",
+        "3개",
+        "4개",
+        "5개"
+      ],
+      "accept": [
+        "4",
+        "④"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q19",
+      "section": "19-20",
+      "sectionTitle": "[19–20]",
+      "sectionInstructionKo": "[19–20] 표를 보고 주어진 단어를 사용하여 질문에 대한 답을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "19",
+      "type": "fill",
+      "promptEn": "Q: What does Tyler do after school?\nA: He enjoys ____________________ after school. (play)",
+      "blanks": 1,
+      "accept": [
+        "playing tennis",
+        "playing"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "19-20",
+      "sectionTitle": "[19–20]",
+      "sectionInstructionKo": "[19–20] 표를 보고 주어진 단어를 사용하여 질문에 대한 답을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "20",
+      "type": "fill",
+      "promptEn": "Q: What does Kate like to do after school?\nA: She loves ____________________ after school. (draw)",
+      "blanks": 1,
+      "accept": [
+        "drawing pictures",
+        "drawing"
+      ]
     }
   ],
   "testId": "c10-test",

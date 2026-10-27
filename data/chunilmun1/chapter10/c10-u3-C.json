@@ -4,27 +4,29 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c10:u3-C",
   "title": "Unit 3 Unit Exercise — Section C",
-  "subtitle": "to부정사와 동명사 · POINT 7 (p. 108)",
-  "pages": "108",
-  "timerMinutes": 20,
+  "subtitle": "동명사 · POINT 8·9·10 (p. 132)",
+  "pages": "132",
+  "timerMinutes": 22,
   "unitId": "chapter-10",
   "unitTitle": "Chapter 10 — to부정사와 동명사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section C 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section C 4문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "대화를 완성하세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "대화를 완성하세요. POINT 7.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 2,
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 8·9·10. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 8·9·10.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "C1",
-        "C2"
+        "C2",
+        "C3",
+        "C4"
       ]
     }
   ],
@@ -33,31 +35,57 @@
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "대화를 완성하세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 8·9·10. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C1",
-      "type": "fill",
-      "promptEn": "A: What do you enjoy ________? B: Swimming.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "(keep, think about)\n→ Daniel __________________________ his future.",
       "accept": [
-        "doing"
+        "Daniel kept thinking about his future.",
+        "kept thinking about"
       ]
     },
     {
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "대화를 완성하세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 8·9·10. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C2",
-      "type": "fill",
-      "promptEn": "A: Do you want ________ pizza? B: Yes.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "(be, good, at, express)\n→ I __________________________ my feelings.",
       "accept": [
-        "to eat",
-        "to have"
+        "I am good at expressing my feelings."
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 8·9·10. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C3",
+      "type": "sentence",
+      "promptEn": "(avoid, drink, coffee)\n→ My grandma __________________________ in the evening.",
+      "accept": [
+        "My grandma avoids drinking coffee in the evening."
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 8·9·10. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C4",
+      "type": "sentence",
+      "promptEn": "(by, cook, at home)\n→ He saved money __________________________.",
+      "accept": [
+        "He saved money by cooking at home."
       ]
     }
   ]

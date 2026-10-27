@@ -4,8 +4,8 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c09:u1-A",
   "title": "Workbook Unit 1 — Section A",
-  "subtitle": "문장의 여러 형식 · WB Unit 1 (WB p. 62)",
-  "pages": "62",
+  "subtitle": "SVC · POINT 1·2 (WB p. 68)",
+  "pages": "68",
   "timerMinutes": 22,
   "unitId": "wb-chapter-09",
   "unitTitle": "Ch 09 WB — 문장의 여러 형식",
@@ -15,9 +15,9 @@
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "directionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2.",
+      "ruleKo": "맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 10,
@@ -41,150 +41,165 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "The sandwich <u>smells badly</u>.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "smells bad",
+        "X smells bad",
+        "X, smells bad"
       ]
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "My favorite season <u>is summer</u>.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "Everyone <u>became silently</u> after his speech.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "became silent",
+        "X became silent",
+        "X, became silent"
       ]
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "Judy <u>is my best friendly</u>.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "is my best friend",
+        "X is my best friend",
+        "X, is my best friend"
       ]
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "Leaves <u>turn red and yellow</u> in autumn.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A6",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "Those green apples <u>taste sour</u>.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a07",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A7",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "The doll <u>looks a real girl</u>.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "looks like a real girl",
+        "X looks like a real girl",
+        "X, looks like a real girl"
       ]
     },
     {
       "id": "a08",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A8",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "These days I <u>get anger</u> very easily.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "get angry",
+        "X get angry",
+        "X, get angry"
       ]
     },
     {
       "id": "a09",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A9",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "The blanket <u>feels like</u> a cloud.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a10",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 1. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·2. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A10",
       "type": "fill",
-      "promptEn": "WB9-U1-A ________.",
+      "promptEn": "The good medicine <u>tastes bitter</u>.",
       "blanks": 1,
       "accept": [
-        "answer"
+        "O",
+        "o"
       ]
     }
   ]

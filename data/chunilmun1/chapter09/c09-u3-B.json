@@ -4,29 +4,28 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c09:u3-B",
   "title": "Unit 3 Unit Exercise — Section B",
-  "subtitle": "문장의 여러 형식 · POINT 5·6 (p. 100)",
-  "pages": "100",
-  "timerMinutes": 20,
+  "subtitle": "SVOC · POINT 5 (p. 116)",
+  "pages": "116",
+  "timerMinutes": 18,
   "unitId": "chapter-09",
   "unitTitle": "Chapter 09 — 문장의 여러 형식",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section B 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section B 3문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "빈칸에 알맞은 말을 쓰세요. POINT 5·6.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 4,
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 5.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 3,
       "exampleCount": 0,
       "labels": [
         "B1",
         "B2",
-        "B3",
-        "B4"
+        "B3"
       ]
     }
   ],
@@ -35,60 +34,42 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B1",
-      "type": "fill",
-      "promptEn": "The news ________ surprising.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "(a baseball player / made / her son)\n→ She __________________________.",
       "accept": [
-        "is"
+        "She made her son a baseball player."
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B2",
-      "type": "fill",
-      "promptEn": "My parents ________ me a bike.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "(Jerry / named / my hamster)\n→ I __________________________.",
       "accept": [
-        "bought"
+        "I named my hamster Jerry."
       ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B3",
-      "type": "fill",
-      "promptEn": "You ________ me happy.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "(their pet / call / a friend)\n→ People __________________________.",
       "accept": [
-        "make"
-      ]
-    },
-    {
-      "id": "b04",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "빈칸에 알맞은 말을 쓰세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "B4",
-      "type": "fill",
-      "promptEn": "She ________ a good teacher.",
-      "blanks": 1,
-      "accept": [
-        "is"
+        "People call their pet a friend."
       ]
     }
   ]
