@@ -486,6 +486,19 @@ def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
             blank_lines = [ln for ln in lines if has_blank(ln)]
             speak_lines = [blank_lines[0]] if blank_lines else [first]
 
+    if strict and scramble_fallback:
+        blank_only = not speak_lines or all(
+            has_blank(ln) and not re.sub(BLANK_RE, "", ln).replace("_", "").strip()
+            for ln in speak_lines
+        )
+        if blank_only:
+            text = scramble_fallback[0]
+            marked = replace_blanks(text)
+            if "⟦BLANK⟧" in marked:
+                parts = [p.strip() for p in marked.split("⟦BLANK⟧")]
+                return "beep", parts
+            return "plain", text
+
     text = re.sub(r"\s+", " ", " ".join(speak_lines)).strip()
     marked = replace_blanks(text)
     if not text or (
@@ -516,6 +529,8 @@ def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
 
     if "⟦BLANK⟧" in marked:
         parts = [p.strip() for p in marked.split("⟦BLANK⟧")]
+        if strict and scramble_fallback and not any(p for p in parts):
+            return "plain", scramble_fallback[0]
         return "beep", parts
     return "plain", text
 
