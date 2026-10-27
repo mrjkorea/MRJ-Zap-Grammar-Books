@@ -90,4 +90,6 @@ It fails on placeholder patterns, including:
 
 Also flags single-word **type-in leaks** (accept token visible in `promptEn` without blanks), excluding OX `<u>` items.
 
+**TTS blanks:** Graded stems with blank markers (`____`, `[wrong-form]`, `<u>…</u>` when it marks the error, etc.) are baked with a beep at each blank — never the answer. See `scripts/audio-bake/README.md`.
+
 Wired into `smoke-chunilmun1-ch02-04.js`, `smoke-chunilmun1-ch05-08.js`, `smoke-chunilmun1-ch09-12.js`, and `smoke-chunilmun1-all.js`.

@@ -44,6 +44,7 @@ MODEL = "s2.1-pro-free"
 API = "https://api.fish.audio/v1/tts"
 
 KEY_FILE = Path("/workspace/conv-youtube/fish-pack/API_KEY.txt")
+UPLOAD_KEY = Path("/home/ubuntu/.cursor/projects/workspace/uploads/API_KEY_1d33.txt")
 ENV_PATH = Path(
     "/home/box/agent-data/agents/1340bdf8-d95a-4b40-bcba-5df7ceff912f/private/fish-audio.env"
 )
@@ -51,7 +52,10 @@ ENV_PATH = Path(
 BLANK_RE = re.compile(r"_{2,}|…+")
 PAREN_CHOICE_RE = re.compile(r"\(\s*([^)]+?/[^=)]*?)\s*\)")
 TAG_RE = re.compile(r"\[(?:그림|사진|밑줄|광고)[^\]]*\]")
+BRACKET_BLANK_RE = re.compile(r"\[([^\]]+)\]")
+UNDERLINE_RE = re.compile(r"<u>([^<]*)</u>", re.IGNORECASE)
 ARROW_RE = re.compile(r"^\s*(?:→|->)")
+BLANK_MARK = "⟦BLANK⟧"
 
 _log_lock = threading.Lock()
 _cache_locks_guard = threading.Lock()
@@ -129,8 +133,18 @@ def load_key() -> str:
         for line in ENV_PATH.read_text().splitlines():
             if line.startswith("FISH_API_KEY="):
                 return line.split("=", 1)[1].strip().strip('"').strip("'")
+    if UPLOAD_KEY.is_file():
+        for line in UPLOAD_KEY.read_text().splitlines():
+            if line.startswith("FISH_API_KEY="):
+                return line.split("=", 1)[1].strip().strip('"').strip("'")
+            line = line.strip()
+            if line and not line.startswith("#"):
+                return line
     if KEY_FILE.is_file():
-        return KEY_FILE.read_text().strip()
+        raw = KEY_FILE.read_text().strip()
+        if raw.startswith("FISH_API_KEY="):
+            return raw.split("=", 1)[1].strip().strip('"').strip("'")
+        return raw
     k = os.environ.get("FISH_API_KEY", "").strip()
     if k:
         return k
@@ -180,6 +194,72 @@ def ffmpeg_norm_mp3(src: Path, dest: Path) -> None:
         capture_output=True,
     )
     tmp.replace(dest)
+
+
+def ffprobe_duration(path: Path) -> float | None:
+    r = subprocess.run(
+        [
+            "ffprobe", "-v", "error",
+            "-show_entries", "format=duration",
+            "-of", "csv=p=0",
+            str(path),
+        ],
+        capture_output=True,
+        text=True,
+    )
+    try:
+        return float(r.stdout.strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def planned_beep_count(parts: list) -> int:
+    if not parts:
+        return 0
+    leading = not str(parts[0]).strip()
+    trailing = not str(parts[-1]).strip()
+    speech_n = sum(1 for p in parts if p and str(p).strip())
+    n = max(0, speech_n - 1)
+    if leading:
+        n += 1
+    if trailing:
+        n += 1
+    return n
+
+
+def mp3_missing_beep(job: dict) -> bool:
+    """True when a beep-join clip is missing the expected tone gap(s)."""
+    if job.get("kind") != "item" or job.get("mode") != "beep":
+        return False
+    path = AUDIO_ROOT / job["out"]
+    if not path.exists() or path.stat().st_size < 200:
+        return True
+    dur = ffprobe_duration(path)
+    if dur is None:
+        return True
+    parts = job.get("parts") or []
+    voice = job.get("voice", KITT)
+    speech_durs: list[float] = []
+    for p in parts:
+        if not p or not str(p).strip():
+            continue
+        cp = CACHE_DIR / f"{text_hash(voice, str(p))}.mp3"
+        if not cp.exists():
+            # Without cache, compare against full-line plain read if present
+            return False
+        sd = ffprobe_duration(cp)
+        if sd is None:
+            return False
+        speech_durs.append(sd)
+    if not speech_durs:
+        return False
+    beep_n = planned_beep_count(parts)
+    if beep_n == 0:
+        return False
+    beep_unit = ffprobe_duration(BEEP_WAV) or 0.35
+    # Joined mp3 is shorter than naive sum (loudnorm / crossfade); use a loose floor.
+    expected = sum(speech_durs) + beep_n * beep_unit * 0.35
+    return dur < expected
 
 
 def ffmpeg_join_beep(parts: list[Path], dest: Path) -> None:
@@ -325,7 +405,93 @@ def cached_tts(text: str, voice: str) -> Path:
 def strip_tags(s: str) -> str:
     s = TAG_RE.sub("", s)
     s = re.sub(r"\[밑줄:[^\]]*\]", "", s)
+
+    def _tag_or_keep(m: re.Match) -> str:
+        return "" if is_non_blank_bracket(m.group(1)) else m.group(0)
+
+    s = BRACKET_BLANK_RE.sub(_tag_or_keep, s)
     return s
+
+
+def is_non_blank_bracket(inner: str) -> bool:
+    """Brackets stripped as layout tags, not TTS blanks."""
+    if not inner:
+        return True
+    if re.match(r"(?:그림|사진|밑줄|광고)", inner):
+        return True
+    if inner.startswith("밑줄:"):
+        return True
+    if re.search(r"주어진\s*말", inner):
+        return True
+    if re.search(r"[\uAC00-\uD7A3]", inner) and not re.fullmatch(
+        r"[A-Za-z0-9'’\-\s]+", inner.strip()
+    ):
+        return True
+    return False
+
+
+def has_underscore_style_blank(s: str) -> bool:
+    return bool(
+        BLANK_RE.search(s)
+        or PAREN_CHOICE_RE.search(s)
+        or re.search(r"\(\s*\)", s)
+    )
+
+
+def has_bracket_blank(s: str) -> bool:
+    for m in BRACKET_BLANK_RE.finditer(s):
+        if not is_non_blank_bracket(m.group(1)):
+            return True
+    return False
+
+
+def has_underline_blank(s: str) -> bool:
+    if not UNDERLINE_RE.search(s):
+        return False
+    # Contraction drills: speak <u>You are</u>, beep on ___ — not on the underline.
+    if has_underscore_style_blank(s):
+        return False
+    return True
+
+
+def has_blank(s: str) -> bool:
+    return has_underscore_style_blank(s) or has_bracket_blank(s) or has_underline_blank(s)
+
+
+def replace_bracket_blanks(s: str) -> str:
+    def repl(m: re.Match) -> str:
+        if is_non_blank_bracket(m.group(1)):
+            return m.group(0)
+        return BLANK_MARK
+
+    return BRACKET_BLANK_RE.sub(repl, s)
+
+
+def replace_underline_blanks(s: str) -> str:
+    if has_underscore_style_blank(s):
+        return s
+    return UNDERLINE_RE.sub(BLANK_MARK, s)
+
+
+def normalize_speak_text(s: str) -> str:
+    """When underscores mark the blank, <u>…</u> is a spoken cue — keep words, drop tags."""
+    if has_underscore_style_blank(s):
+        return UNDERLINE_RE.sub(r"\1", s)
+    return s
+
+
+def word_banks_from_prompt(pe: str) -> list[str]:
+    banks: list[str] = []
+    for ln in (pe or "").split("\n"):
+        ln = ln.strip()
+        if not looks_like_word_bank(ln):
+            continue
+        m = re.match(r"^\(([^)]+)\)$", ln)
+        if m and re.search(r"[A-Za-z]", m.group(1)):
+            banks.append(
+                re.sub(r"\s+", " ", m.group(1).replace("/", " ").replace("|", " ")).strip()
+            )
+    return banks
 
 
 def looks_like_word_bank(line: str) -> bool:
@@ -341,6 +507,8 @@ def looks_like_word_bank(line: str) -> bool:
 
 
 def strip_trailing_hints(ln: str) -> str:
+    if has_blank(ln):
+        return ln
     while True:
         m = re.search(r"\s*\(([^)]*)\)\s*$", ln)
         if not m:
@@ -352,10 +520,6 @@ def strip_trailing_hints(ln: str) -> str:
     return ln
 
 
-def has_blank(s: str) -> bool:
-    return bool(BLANK_RE.search(s) or PAREN_CHOICE_RE.search(s))
-
-
 def is_complete_english(line: str) -> bool:
     if not line or has_blank(line) or looks_like_word_bank(line):
         return False
@@ -363,11 +527,29 @@ def is_complete_english(line: str) -> bool:
 
 
 def replace_blanks(s: str) -> str:
-    s = PAREN_CHOICE_RE.sub("⟦BLANK⟧", s)
-    s = BLANK_RE.sub("⟦BLANK⟧", s)
-    # empty parens
-    s = re.sub(r"\(\s*\)", "⟦BLANK⟧", s)
+    s = PAREN_CHOICE_RE.sub(BLANK_MARK, s)
+    s = BLANK_RE.sub(BLANK_MARK, s)
+    s = re.sub(r"\(\s*\)", BLANK_MARK, s)
+    s = replace_bracket_blanks(s)
+    s = replace_underline_blanks(s)
     return s
+
+
+def visible_after_blanks(s: str) -> str:
+    """Text left if every blank marker were removed (for blank-only line detection)."""
+    out = replace_blanks(s)
+    out = re.sub(BLANK_MARK, "", out)
+    out = re.sub(r"[_\s…]+", " ", out)
+    return out.strip()
+
+
+def prompt_requires_beep(it: dict) -> bool:
+    pe = strip_tags(it.get("promptEn") or "")
+    if not pe.strip():
+        return False
+    if it.get("example") or it.get("displayOnly"):
+        return False
+    return has_blank(pe)
 
 
 def has_hangul(s: str) -> bool:
@@ -486,20 +668,22 @@ def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
             blank_lines = [ln for ln in lines if has_blank(ln)]
             speak_lines = [blank_lines[0]] if blank_lines else [first]
 
-    if strict and scramble_fallback:
-        blank_only = not speak_lines or all(
-            has_blank(ln) and not re.sub(BLANK_RE, "", ln).replace("_", "").strip()
-            for ln in speak_lines
-        )
-        if blank_only:
-            text = scramble_fallback[0]
+    blank_only = not speak_lines or all(
+        has_blank(ln) and not visible_after_blanks(ln) for ln in speak_lines
+    )
+    if blank_only:
+        banks = scramble_fallback if strict else word_banks_from_prompt(pe)
+        if banks:
+            text = banks[0]
+            text = normalize_speak_text(text)
             marked = replace_blanks(text)
             if "⟦BLANK⟧" in marked:
-                parts = [p.strip() for p in marked.split("⟦BLANK⟧")]
+                parts = [p.strip() for p in marked.split(BLANK_MARK)]
                 return "beep", parts
             return "plain", text
 
     text = re.sub(r"\s+", " ", " ".join(speak_lines)).strip()
+    text = normalize_speak_text(text)
     marked = replace_blanks(text)
     if not text or (
         not re.search(r"[A-Za-z]", text)
@@ -528,7 +712,9 @@ def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
                     return "skip", "spoken_equals_answer"
 
     if "⟦BLANK⟧" in marked:
-        parts = [p.strip() for p in marked.split("⟦BLANK⟧")]
+        parts = [p.strip() for p in marked.split(BLANK_MARK)]
+        if not any(p for p in parts):
+            return "skip", "blank_only_stem"
         if strict and scramble_fallback and not any(p for p in parts):
             return "plain", scramble_fallback[0]
         return "beep", parts
@@ -616,6 +802,8 @@ def build_jobs(book_filter: str | None = None):
             for it in d.get("items") or []:
                 qid = sanitize(str(it.get("id") or it.get("label") or "q"))
                 sid = sanitize(str(it.get("section") or "X"))
+                pe_raw = strip_tags(it.get("promptEn") or "")
+                markup_blank = has_bracket_blank(pe_raw) or has_underline_blank(pe_raw)
                 kind, payload = extract_item_audio(it, book_id)
                 if kind == "skip":
                     skip_counter[str(payload)] += 1
@@ -630,6 +818,11 @@ def build_jobs(book_filter: str | None = None):
                     )
                     continue
                 out = base / f"{sid}-{qid}.mp3"
+                spoken_blank = kind == "beep" or (
+                    kind == "plain"
+                    and isinstance(payload, str)
+                    and has_blank(payload)
+                )
                 # Build source text for leak check
                 if kind == "plain":
                     source = payload
@@ -677,18 +870,31 @@ def build_jobs(book_filter: str | None = None):
                         "voice": KITT,
                         "accept": it.get("accept"),
                         "rel_json": str(path.relative_to(REPO)),
+                        "requires_beep": kind == "beep",
+                        "markup_blank": markup_blank,
+                        "spoken_blank": spoken_blank,
                     }
                 )
     return jobs, skip_counter
 
 
-def process_job(job: dict) -> str:
+def process_job(job: dict, rebake_beep: bool = False) -> str:
     """Return 'made'|'exists'|'fail'."""
     if job["kind"] == "skip":
         return "skip"
     out = AUDIO_ROOT / job["out"]
     if out.exists() and out.stat().st_size > 200:
-        return "exists"
+        if rebake_beep and (
+            (job.get("spoken_blank") and job.get("mode") != "beep")
+            or job.get("markup_blank")
+            or mp3_missing_beep(job)
+        ):
+            try:
+                out.unlink()
+            except OSError:
+                pass
+        else:
+            return "exists"
     try:
         if job["kind"] == "instr":
             cached = cached_tts(job["text"], MAYA)
@@ -913,8 +1119,11 @@ def cmd_bake(args):
         # Job pool size matches TTS workers; limiter caps actual HTTP concurrency.
         pool_n = workers
         done_i = 0
+        rebake_beep = bool(getattr(args, "rebake_beep", False))
         with ThreadPoolExecutor(max_workers=pool_n) as ex:
-            futures = {ex.submit(process_job, job): job for job in make_jobs}
+            futures = {
+                ex.submit(process_job, job, rebake_beep): job for job in make_jobs
+            }
             for fut in as_completed(futures):
                 job = futures[fut]
                 status = fut.result()
@@ -1058,15 +1267,23 @@ def commit_book(book: str) -> None:
 
 
 def cmd_verify(args):
-    """Exit 1 if any required item/instr mp3 is missing for the book."""
+    """Exit 1 if any required item/instr mp3 is missing or blank items lack beep join."""
     jobs, _ = build_jobs(args.book)
     make = [j for j in jobs if j["kind"] in ("instr", "item")]
+    items = [j for j in jobs if j["kind"] == "item"]
     skip = [j for j in jobs if j["kind"] == "skip"]
     missing = []
+    stale_beep = []
+    spoken_not_beep = []
     for j in make:
         p = AUDIO_ROOT / j["out"]
         if not p.exists() or p.stat().st_size < 200:
             missing.append(j["out"])
+    for j in items:
+        if j.get("spoken_blank") and j.get("mode") != "beep":
+            spoken_not_beep.append(j["out"])
+        elif j.get("mode") == "beep" and mp3_missing_beep(j):
+            stale_beep.append(j["out"])
     print("BOOK", args.book or "ALL")
     print("REQUIRED", len(make))
     print("SKIP_RECORDS", len(skip))
@@ -1077,7 +1294,13 @@ def cmd_verify(args):
     print("MISSING_MP3", len(missing))
     for m in missing[:30]:
         print(" MISSING", m)
-    if missing:
+    print("SPOKEN_BLANK_NOT_BEEP", len(spoken_not_beep))
+    for m in spoken_not_beep[:20]:
+        print(" SPOKEN", m)
+    print("STALE_OR_MARKUP_BEEP", len(stale_beep))
+    for m in stale_beep[:20]:
+        print(" STALE", m)
+    if missing or stale_beep or spoken_not_beep:
         raise SystemExit(1)
     print("VERIFY_OK")
 
@@ -1137,6 +1360,11 @@ def main():
         type=int,
         default=4,
         help="Concurrent Fish TTS HTTP requests (default 4). Commits stay single-threaded.",
+    )
+    b.add_argument(
+        "--rebake-beep",
+        action="store_true",
+        help="Re-bake items whose stems use [ ]/<u> blanks or fail beep duration check.",
     )
     b.set_defaults(func=cmd_bake)
     s = sp.add_parser("spotcheck")
