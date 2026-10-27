@@ -161,6 +161,12 @@ def fill_item(
     return it
 
 
+def numbered_options_stem(choices: list[str]) -> str:
+    """Printed WB layout: ①–⑤ option lines (used when there is no separate English stem)."""
+    circled = ["①", "②", "③", "④", "⑤"]
+    return "\n".join(f"{circled[i]} {choices[i]}" for i in range(min(len(choices), 5)))
+
+
 def mc_item(
     *,
     iid: str,
@@ -169,10 +175,14 @@ def mc_item(
     choices: list[str],
     answer_index: int,
     prompt_en: str = "",
+    stem_from_choices_if_empty: bool = True,
 ) -> dict:
     circled = ["①", "②", "③", "④", "⑤"]
     ans = str(answer_index)
     ans_circ = circled[answer_index - 1]
+    pe = (prompt_en or "").strip()
+    if not pe and stem_from_choices_if_empty and choices:
+        pe = numbered_options_stem(choices)
     return {
         "id": iid,
         "section": sec["id"],
@@ -182,7 +192,7 @@ def mc_item(
         "answerModeTag": MODE_TAG["choice"],
         "label": label,
         "type": "mc",
-        "promptEn": prompt_en,
+        "promptEn": pe,
         "choices": choices,
         "accept": [ans, ans_circ],
         "answer": ans,

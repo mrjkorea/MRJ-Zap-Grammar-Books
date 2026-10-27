@@ -358,7 +358,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "4",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① ______ the girl have a cat?\n② ______ your sister an actress?\n③ My friend ______ from Russia.\n④ ______ he working at the office?\n⑤ A man ______ drinking milk now.",
       "choices": [
         "______ the girl have a cat?",
         "______ your sister an actress?",
@@ -381,7 +381,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "5",
       "type": "fill",
-      "promptEn": "Does students →",
+      "promptEn": "Does students have to wear school uniforms today?",
       "blanks": 2,
       "accept": [
         "Does|Do",
@@ -397,7 +397,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "6",
       "type": "fill",
-      "promptEn": "wasn't →",
+      "promptEn": "Tracy and her friend wasn't in Italy during the last vacation.",
       "blanks": 2,
       "accept": [
         "wasn't|weren't",
@@ -413,7 +413,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "7",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① He don't need help.\n② Is Emma your cousin?\n③ Emily ate chocolate last night.\n④ I was in the hospital yesterday.\n⑤ Does your dad work at a bank?",
       "choices": [
         "He don't need help.",
         "Is Emma your cousin?",
@@ -436,7 +436,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "8",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① He isn't a taxi driver.\n② We were in the bakery now.\n③ Paul is not reading a magazine.\n④ They weren't honest at that time.\n⑤ My mom and I are watching a movie.",
       "choices": [
         "He isn't a taxi driver.",
         "We were in the bakery now.",
@@ -459,7 +459,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "9",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① make — maked\n② read — read\n③ stop — stopped\n④ love — loved\n⑤ study — studied",
       "choices": [
         "make — maked",
         "read — read",
@@ -596,7 +596,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "16",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "ⓐ May I borrow your lotion?\nⓑ She isn't go to skip a meal.\nⓒ I amn't 12 years old this year.\nⓓ Nick washes his socks every day.\nⓔ The kids won't playing with a ball.\nⓕ My uncle has to go to the concert tonight.",
       "choices": [
         "ⓐ, ⓑ, ⓒ",
         "ⓒ, ⓔ, ⓕ",
@@ -619,7 +619,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "17",
       "type": "mc",
-      "promptEn": "Is your mother in Busan now? / A boy crying on the street.",
+      "promptEn": "________ your mother in Busan now? / A boy ________ crying on the street.",
       "choices": [
         "Am",
         "Is",
@@ -642,7 +642,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "18",
       "type": "mc",
-      "promptEn": "Drivers follow traffic signs. / You be careful with a knife.",
+      "promptEn": "Drivers ________ follow the traffic signs. / You ________ be careful with a knife.",
       "choices": [
         "can",
         "are able to",
@@ -665,13 +665,13 @@
       "answerModeTag": "Choose · 고르기",
       "label": "19",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① Bora is <u>going</u> to the theater.\n② He is <u>going</u> to dance with her.\n③ I'm <u>going</u> to visit Seoul next week.\n④ They are <u>going</u> to play badminton.\n⑤ The kids are <u>going</u> to swim tomorrow.",
       "choices": [
-        "Bora is going to the theater.",
-        "He is going to dance with her.",
-        "I'm going to visit Seoul next week.",
-        "They are going to play badminton.",
-        "The kids are going to swim tomorrow."
+        "Bora is <u>going</u> to the theater.",
+        "He is <u>going</u> to dance with her.",
+        "I'm <u>going</u> to visit Seoul next week.",
+        "They are <u>going</u> to play badminton.",
+        "The kids are <u>going</u> to swim tomorrow."
       ],
       "accept": [
         "1",
@@ -777,13 +777,13 @@
       "answerModeTag": "Choose · 고르기",
       "label": "25",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① <u>Can</u> I borrow your jacket?\n② The rabbit <u>can</u> jump very high.\n③ She <u>can</u> finish her work before 7.\n④ We <u>can</u> solve the problem.\n⑤ Tommy <u>can</u> speak French.",
       "choices": [
-        "Can I borrow your jacket?",
-        "The rabbit can jump very high.",
-        "She can finish her work before 7.",
-        "We can solve the problem.",
-        "Tommy can speak French."
+        "<u>Can</u> I borrow your jacket?",
+        "The rabbit <u>can</u> jump very high.",
+        "She <u>can</u> finish her work before 7.",
+        "We <u>can</u> solve the problem.",
+        "Tommy <u>can</u> speak French."
       ],
       "accept": [
         "1",
@@ -800,13 +800,13 @@
       "answerModeTag": "Choose · 고르기",
       "label": "26",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① It <u>may</u> be rainy today.\n② Laura <u>may</u> be very wise.\n③ She <u>may</u> know your father.\n④ Students <u>may</u> have questions.\n⑤ You <u>may</u> use my chair any time.",
       "choices": [
-        "It may be rainy today.",
-        "Laura may be very wise.",
-        "She may know your father.",
-        "Students may have questions.",
-        "You may use my chair any time."
+        "It <u>may</u> be rainy today.",
+        "Laura <u>may</u> be very wise.",
+        "She <u>may</u> know your father.",
+        "Students <u>may</u> have questions.",
+        "You <u>may</u> use my chair any time."
       ],
       "accept": [
         "5",
@@ -823,13 +823,13 @@
       "answerModeTag": "Choose · 고르기",
       "label": "27",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① My teacher <u>call</u> me yesterday.\n② Sera isn't <u>takeing</u> a science class.\n③ <u>Was</u> you and Mary in LA last month?\n④ <u>Does</u> James get up early on Sundays?\n⑤ They are <u>going not</u> to buy a new car.",
       "choices": [
-        "My teacher call me yesterday.",
-        "Sera isn't takeing a science class.",
-        "Was you and Mary in LA last month?",
-        "Does James get up early on Sundays?",
-        "They are going not to buy a new car."
+        "My teacher <u>call</u> me yesterday.",
+        "Sera isn't <u>takeing</u> a science class.",
+        "<u>Was</u> you and Mary in LA last month?",
+        "<u>Does</u> James get up early on Sundays?",
+        "They are <u>going not</u> to buy a new car."
       ],
       "accept": [
         "4",
@@ -846,13 +846,13 @@
       "answerModeTag": "Choose · 고르기",
       "label": "28",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "① Is your brother <u>play</u> baseball?\n② Joe and Ted <u>needs</u> some water.\n③ <u>Do</u> you go shopping last Friday?\n④ A child <u>must not go</u> outside alone at night.\n⑤ Do you have to <u>prepared</u> a lunch box today?",
       "choices": [
-        "Is your brother play baseball?",
-        "Joe and Ted needs some water.",
-        "Do you go shopping last Friday?",
-        "A child must not go outside alone at night.",
-        "Do you have to prepared a lunch box today?"
+        "Is your brother <u>play</u> baseball?",
+        "Joe and Ted <u>needs</u> some water.",
+        "<u>Do</u> you go shopping last Friday?",
+        "A child <u>must not go</u> outside alone at night.",
+        "Do you have to <u>prepared</u> a lunch box today?"
       ],
       "accept": [
         "4",
@@ -915,7 +915,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "31",
       "type": "fill",
-      "promptEn": "I weren't → / I have →",
+      "promptEn": "A: You didn't come to school yesterday. Were you sick?\nB: No, I weren't. I have an English speech contest.",
       "blanks": 3,
       "accept": [
         "weren't|wasn't|had",
@@ -931,7 +931,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "32",
       "type": "fill",
-      "promptEn": "going practice → / will asks →",
+      "promptEn": "A: Are you going practice the drums with Nancy tonight?\nB: I don't know. She has a lot of homework today. I will asks her again.",
       "blanks": 4,
       "accept": [
         "to practice|going to practice|ask|asks",

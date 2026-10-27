@@ -1995,11 +1995,11 @@ def build_review_02() -> dict[str, dict]:
             sec=secs[2],
             label="4",
             choices=[
-                "My brother cut a loaf of bread in half.",
-                "We will buy a few strawberries for dessert.",
-                "There was little paper in the copy machine.",
-                "Jake doesn't have many furniture in his room.",
-                "I prepared two cups of coffee for my parents.",
+                "My brother cut <u>a loaf of bread</u> in half.",
+                "We will buy <u>a few</u> strawberries for dessert.",
+                "There was <u>little</u> paper in the copy machine.",
+                "Jake doesn't have <u>many</u> furniture in his room.",
+                "I prepared <u>two cups of coffee</u> for my parents.",
             ],
             answer_index=4,
         ),
@@ -2008,11 +2008,11 @@ def build_review_02() -> dict[str, dict]:
             sec=secs[2],
             label="5",
             choices=[
-                "Cindy has more pets than Jinho.",
-                "She is the most smart in my class.",
-                "You don't know my teacher, do you?",
-                "Juice is more popular than tea in the cafe.",
-                "He should take care of his sister today, shouldn't he?",
+                "Cindy has <u>more pets than</u> Jinho.",
+                "She is <u>the most smart</u> in my class.",
+                "You don't know my teacher, <u>do you</u>?",
+                "Juice is <u>more popular than</u> tea in the cafe.",
+                "He should take care of his sister today, <u>shouldn't he</u>?",
             ],
             answer_index=2,
         ),
@@ -2089,7 +2089,7 @@ def build_review_02() -> dict[str, dict]:
             iid="q12",
             sec=secs[7],
             label="12",
-            prompt_en="Jane won't buy the pants. (A) / blame (B) for your mistake.",
+            prompt_en="Jane won't buy the pants. (A) are too short. / You don't have to blame (B) for your mistake.",
             choices=["It — you", "They — yourself", "It — yourself", "They — you", "Them — yourself"],
             answer_index=2,
         ),
@@ -2222,7 +2222,7 @@ def build_review_02() -> dict[str, dict]:
             iid="q24",
             sec=secs[13],
             label="24",
-            prompt_en="I lost ________ pen today. / ________ most expensive in the store.",
+            prompt_en="My dad gave a pen to me. I lost ________ pen today. / The strawberry cake is ________ most expensive in the store.",
             choices=["the", "a", "it", "an", "very"],
             answer_index=1,
         ),
@@ -2230,6 +2230,13 @@ def build_review_02() -> dict[str, dict]:
             iid="q25",
             sec=secs[14],
             label="25",
+            prompt_en=(
+                "① How beautiful the dress is!\n"
+                "② What will you bring for lunch?\n"
+                "③ The last English test was so easily.\n"
+                "④ Be not angry with your little sister.\n"
+                "⑤ They don't know his name, did they?"
+            ),
             choices=["②, ③", "②, ④", "③, ④", "③, ⑤", "②, ③, ⑤"],
             answer_index=5,
         ),
@@ -2237,7 +2244,13 @@ def build_review_02() -> dict[str, dict]:
             iid="q26",
             sec=secs[15],
             label="26",
-            prompt_en="Tag question dialogue (underlined options ①–⑤)",
+            prompt_en=(
+                "A: You will go to the museum today, ① don't you?\n"
+                "B: ② No, I won't. It closes today because ③ that is a holiday.\n"
+                "A: What is your plan today?\n"
+                "B: I don't have ④ some plans today.\n"
+                "⑤ Let's watches a movie together."
+            ),
             choices=["① don't you", "② No, I won't", "③ that is a holiday", "④ some plans", "⑤ Let's watches"],
             answer_index=2,
         ),
@@ -2280,8 +2293,13 @@ def build_review_02() -> dict[str, dict]:
             iid="q31",
             sec=secs[18],
             label="31",
-            prompt_en="Dialogue errors ⓐ–ⓔ: find two and correct.",
-            accept=["e|Call", "ⓔ|Call", "e|Call|Calls"],
+            prompt_en=(
+                "A: Something ⓐ is wrong with my computer.\n"
+                "B: ⓑ Didn't you buy it yesterday?\n"
+                "A: ⓒ No, I did. It's a new ⓓ one.\n"
+                "B: ⓔ Calls the store and ask about it, then."
+            ),
+            accept=["e|Call", "ⓔ|Call", "e|Call|Calls", "Calls|Call"],
             blanks=3,
         ),
     ]

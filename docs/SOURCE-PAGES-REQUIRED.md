@@ -8,6 +8,7 @@ Practice JSON under `data/chunilmun1/` must be built from **student book (SB)** 
 2. **Answer keys** — Use official keys only to set `accept` / `answer` values after the stem is verified on the exercise page.
 3. **Missing or illegible pages** — Stop. Do not ship guessed English. Document the gap in the chapter `CHAPTER-SOURCE.md` until the scan is available.
 4. **Ch11–12** — Stems from `ch11-12-sb` / `ch11-12-wb` scans; WB accepts aligned with `keys-part4`; SB chapter tests still UNCERTAIN where keys-part4 has no SB slice.
+5. **총괄평가 reviews** — Stems from `review-01-pages` … `review-03-pages` (workbook 총괄평가); see each `data/chunilmun1/review-0N/CHAPTER-SOURCE.md`.
 
 ## Scan PDFs (content)
 
@@ -24,6 +25,9 @@ Practice JSON under `data/chunilmun1/` must be built from **student book (SB)** 
 | `ch09-10-wb` | WB 68–90 (slice) | Ch09–10 WB |
 | `ch11-12-sb` | SB 137–157 (slice) | Ch11–12 SB |
 | `ch11-12-wb` | WB 84–97 (slice) | Ch11–12 WB |
+| `review-01-pages` | PDF 181–184 | 총괄평가 1회 (WB 28–31) |
+| `review-02-pages` | PDF 217–220 | 총괄평가 2회 (WB 64–67) |
+| `review-03-pages` | PDF 251–254 | 총괄평가 3회 (WB 98–101) |
 
 ## Answer-key PDFs (accepts only)
 
@@ -64,14 +68,16 @@ Or stepwise modules in `scripts/chunilmun/`:
 | Ch07–08 SB | `python3 _extracted_ch07_ch08_sb.py all` |
 | Catalog | `node scripts/chunilmun/apply-catalog.mjs` |
 
-Per-chapter scan notes: `data/chunilmun1/chapterNN/CHAPTER-SOURCE.md` (Ch01–10; Ch11–12 when rebuilt).
+Per-chapter scan notes: `data/chunilmun1/chapterNN/CHAPTER-SOURCE.md` (Ch01–12).
+
+Per-review scan notes: `data/chunilmun1/review-0N/CHAPTER-SOURCE.md` (review-01–03).
 
 ## CI guard
 
 `node scripts/check-no-guessed-stems.js` scans **only** verified paths:
 
 - `data/chunilmun1/chapter01` … `chapter12`
-- `data/chunilmun1/review-01`, `review-02`
+- `data/chunilmun1/review-01`, `review-02`, `review-03`
 
 It fails on placeholder patterns, including:
 
@@ -79,6 +85,7 @@ It fails on placeholder patterns, including:
 - `choices: ["a","b","c","d"]` only
 - `accept: ["answer"]`
 - English stems that are only blanks
+- multiple-choice items with empty `promptEn`
 - the word `placeholder` in a stem
 
 Also flags single-word **type-in leaks** (accept token visible in `promptEn` without blanks), excluding OX `<u>` items.
