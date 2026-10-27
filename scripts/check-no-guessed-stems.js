@@ -10,7 +10,7 @@ const REPO = path.join(__dirname, "..");
 const ROOT = path.join(REPO, "data/chunilmun1");
 
 /** Chapters rebuilt from page scans in this effort (expand as more PDFs land). */
-const VERIFIED_PATH = /data\/chunilmun1\/(chapter0[1-5]|review-01)\//;
+const VERIFIED_PATH = /data\/chunilmun1\/(chapter0[1-8]|review-0[12])\//;
 
 const WB_PLACEHOLDER = /WB\d+-U\d*-[A-D]\d*\s+_+/;
 const ONLY_BLANK_STEM = /^[\s_]+(\.|$)/;

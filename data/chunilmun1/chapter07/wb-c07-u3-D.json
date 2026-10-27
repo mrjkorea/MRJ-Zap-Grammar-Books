@@ -4,23 +4,23 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c07:u3-D",
   "title": "Workbook Unit 3 — Section D",
-  "subtitle": "비교 · POINT 7·8 (WB p. 50)",
-  "pages": "50",
+  "subtitle": "비교급/최상급 · POINT 11·12 (WB p. 53)",
+  "pages": "53",
   "timerMinutes": 22,
   "unitId": "wb-chapter-07",
   "unitTitle": "Ch 07 WB — 형용사, 부사, 비교",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section D 6문항(문장 전체 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section D 8문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "D",
       "title": "Section D",
-      "instructionKo": "문장 POINT 7·8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "directionKo": "문장 POINT 7·8.",
-      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
-      "itemCount": 6,
+      "instructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 8,
       "exampleCount": 0,
       "labels": [
         "D1",
@@ -28,7 +28,19 @@
         "D3",
         "D4",
         "D5",
-        "D6"
+        "D6",
+        "D7",
+        "D8"
+      ],
+      "wordBank": [
+        "fast",
+        "lucky",
+        "exciting",
+        "much",
+        "heavy",
+        "quickly",
+        "good",
+        "bad"
       ]
     }
   ],
@@ -37,84 +49,120 @@
       "id": "d01",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장 POINT 7·8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D1",
-      "type": "sentence",
-      "promptEn": "Write comparison 1.",
+      "type": "fill",
+      "promptEn": "Motorcycles are ________ than bikes.",
+      "blanks": 1,
       "accept": [
-        "Tom is taller than Jim."
+        "faster"
       ]
     },
     {
       "id": "d02",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장 POINT 7·8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D2",
-      "type": "sentence",
-      "promptEn": "Write comparison 2.",
+      "type": "fill",
+      "promptEn": "She has ________ money among them.",
+      "blanks": 1,
       "accept": [
-        "Tom is taller than Jim."
+        "the most"
       ]
     },
     {
       "id": "d03",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장 POINT 7·8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D3",
-      "type": "sentence",
-      "promptEn": "Write comparison 3.",
+      "type": "fill",
+      "promptEn": "To me, baseball is ________ than soccer.",
+      "blanks": 1,
       "accept": [
-        "Tom is taller than Jim."
+        "more exciting"
       ]
     },
     {
       "id": "d04",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장 POINT 7·8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D4",
-      "type": "sentence",
-      "promptEn": "Write comparison 4.",
+      "type": "fill",
+      "promptEn": "Today was ________ day of my life.",
+      "blanks": 1,
       "accept": [
-        "Tom is taller than Jim."
+        "the luckiest"
       ]
     },
     {
       "id": "d05",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장 POINT 7·8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D5",
-      "type": "sentence",
-      "promptEn": "Write comparison 5.",
+      "type": "fill",
+      "promptEn": "What is ________ animal on land?",
+      "blanks": 1,
       "accept": [
-        "Tom is taller than Jim."
+        "the heaviest"
       ]
     },
     {
       "id": "d06",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "문장 POINT 7·8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "D6",
-      "type": "sentence",
-      "promptEn": "Write comparison 6.",
+      "type": "fill",
+      "promptEn": "Chocolate ice cream is ________ than vanilla.",
+      "blanks": 1,
       "accept": [
-        "Tom is taller than Jim."
+        "better"
+      ]
+    },
+    {
+      "id": "d07",
+      "section": "D",
+      "sectionTitle": "Section D",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "D7",
+      "type": "fill",
+      "promptEn": "The drought was ________ in 100 years.",
+      "blanks": 1,
+      "accept": [
+        "the worst"
+      ]
+    },
+    {
+      "id": "d08",
+      "section": "D",
+      "sectionTitle": "Section D",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 쓰세요. (단, 한 번씩만 쓸 것) POINT 11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "D8",
+      "type": "fill",
+      "promptEn": "He solved the puzzle ________ than me.",
+      "blanks": 1,
+      "accept": [
+        "more quickly"
       ]
     }
   ]
