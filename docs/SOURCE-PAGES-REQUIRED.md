@@ -85,6 +85,7 @@ It fails on placeholder patterns, including:
 - `choices: ["a","b","c","d"]` only
 - `accept: ["answer"]`
 - English stems that are only blanks
+- multiple-choice items with empty `promptEn`
 - the word `placeholder` in a stem
 
 Also flags single-word **type-in leaks** (accept token visible in `promptEn` without blanks), excluding OX `<u>` items.

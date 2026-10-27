@@ -69,6 +69,11 @@ function checkItem(rel, it, problems) {
   if (Array.isArray(acc) && acc.length === 1 && String(acc[0]).toLowerCase() === "answer") {
     problems.push(`${rel} ${it.id}: accept is only "answer"`);
   }
+  if (it.type === "mc") {
+    if (!String(pe).trim()) {
+      problems.push(`${rel} ${it.id}: MC has empty promptEn`);
+    }
+  }
   if (it.type === "mc" && Array.isArray(it.choices)) {
     const badChoices =
       it.choices.length >= 2 && it.choices.every((c) => GENERIC_MC.test(String(c).trim()));

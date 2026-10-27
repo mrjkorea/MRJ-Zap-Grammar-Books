@@ -1126,7 +1126,22 @@ def _build_review_01() -> dict[str, dict]:
         sent_item(iid="q13", sec=secs[8], label="13", prompt_en="Jason은 자기 밴드에서 기타를 연주하니? (the guitar / in his band / do / play / Jason)", accept=["Does Jason play the guitar in his band?", "Does Jason play guitar in his band?"]),
         sent_item(iid="q14", sec=secs[8], label="14", prompt_en="그녀는 오늘 Mark를 만날 수 없다. (she / to / Mark / be / meet / able / not)", accept=["She is not able to meet Mark today.", "She isn't able to meet Mark today."]),
         sent_item(iid="q15", sec=secs[8], label="15", prompt_en="나는 언젠가 파리에서 살 것이다. (live / will / I / in Paris)", accept=["I will live in Paris someday.", "I'll live in Paris someday."]),
-        mc_item(iid="q16", sec=secs[9], label="16", choices=["ⓐ, ⓑ, ⓒ", "ⓒ, ⓔ, ⓕ", "ⓐ, ⓒ, ⓕ", "ⓑ, ⓓ, ⓕ", "ⓐ, ⓓ, ⓕ"], answer_index=5),
+        mc_item(
+            iid="q16",
+            sec=secs[9],
+            label="16",
+            prompt_en=(
+                "ⓐ May I borrow your lotion?\n"
+                "ⓑ She isn't go to skip a meal.\n"
+                "ⓒ I amn't 12 years old this year.\n"
+                "ⓓ Nick washes his socks every day.\n"
+                "ⓔ The kids won't playing with a ball.\n"
+                "ⓕ My uncle has to go to the concert tonight."
+            ),
+            stem_from_choices_if_empty=False,
+            choices=["ⓐ, ⓑ, ⓒ", "ⓒ, ⓔ, ⓕ", "ⓐ, ⓒ, ⓕ", "ⓑ, ⓓ, ⓕ", "ⓐ, ⓓ, ⓕ"],
+            answer_index=5,
+        ),
         mc_item(
             iid="q17",
             sec=secs[10],
@@ -1143,16 +1158,76 @@ def _build_review_01() -> dict[str, dict]:
             choices=["can", "are able to", "shouldn't", "don't have to", "must"],
             answer_index=5,
         ),
-        mc_item(iid="q19", sec=secs[11], label="19", choices=["Bora is going to the theater.", "He is going to dance with her.", "I'm going to visit Seoul next week.", "They are going to play badminton.", "The kids are going to swim tomorrow."], answer_index=1),
+        mc_item(
+            iid="q19",
+            sec=secs[11],
+            label="19",
+            choices=[
+                "Bora is <u>going</u> to the theater.",
+                "He is <u>going</u> to dance with her.",
+                "I'm <u>going</u> to visit Seoul next week.",
+                "They are <u>going</u> to play badminton.",
+                "The kids are <u>going</u> to swim tomorrow.",
+            ],
+            answer_index=1,
+        ),
         sent_item(iid="q20", sec=secs[12], label="20", prompt_en="We are worried about you. (과거형으로)", accept=["We were worried about you."]),
         sent_item(iid="q21", sec=secs[12], label="21", prompt_en="She is going to the bus stop. (의문문으로)", accept=["Is she going to the bus stop?"]),
         sent_item(iid="q22", sec=secs[12], label="22", prompt_en="Visitors may eat snacks here. (부정문으로)", accept=["Visitors may not eat snacks here.", "Visitors cannot eat snacks here."]),
         mc_item(iid="q23", sec=secs[13], label="23", prompt_en="They (A) their house 4 years ago. / My mom is going to (B) a new table tomorrow.", choices=["build — buys", "builds — buy", "built — buys", "builded — buy", "built — buy"], answer_index=5),
         mc_item(iid="q24", sec=secs[13], label="24", prompt_en="Mr. Wilson (A) to see a doctor. / Jane and I are (B) for the bus.", choices=["has — wait", "has — waiting", "have — waits", "may not — waits", "may not — waiting"], answer_index=2),
-        mc_item(iid="q25", sec=secs[14], label="25", choices=["Can I borrow your jacket?", "The rabbit can jump very high.", "She can finish her work before 7.", "We can solve the problem.", "Tommy can speak French."], answer_index=1),
-        mc_item(iid="q26", sec=secs[14], label="26", choices=["It may be rainy today.", "Laura may be very wise.", "She may know your father.", "Students may have questions.", "You may use my chair any time."], answer_index=5),
-        mc_item(iid="q27", sec=secs[15], label="27", choices=["My teacher call me yesterday.", "Sera isn't takeing a science class.", "Was you and Mary in LA last month?", "Does James get up early on Sundays?", "They are going not to buy a new car."], answer_index=4),
-        mc_item(iid="q28", sec=secs[15], label="28", choices=["Is your brother play baseball?", "Joe and Ted needs some water.", "Do you go shopping last Friday?", "A child must not go outside alone at night.", "Do you have to prepared a lunch box today?"], answer_index=4),
+        mc_item(
+            iid="q25",
+            sec=secs[14],
+            label="25",
+            choices=[
+                "<u>Can</u> I borrow your jacket?",
+                "The rabbit <u>can</u> jump very high.",
+                "She <u>can</u> finish her work before 7.",
+                "We <u>can</u> solve the problem.",
+                "Tommy <u>can</u> speak French.",
+            ],
+            answer_index=1,
+        ),
+        mc_item(
+            iid="q26",
+            sec=secs[14],
+            label="26",
+            choices=[
+                "It <u>may</u> be rainy today.",
+                "Laura <u>may</u> be very wise.",
+                "She <u>may</u> know your father.",
+                "Students <u>may</u> have questions.",
+                "You <u>may</u> use my chair any time.",
+            ],
+            answer_index=5,
+        ),
+        mc_item(
+            iid="q27",
+            sec=secs[15],
+            label="27",
+            choices=[
+                "My teacher <u>call</u> me yesterday.",
+                "Sera isn't <u>takeing</u> a science class.",
+                "<u>Was</u> you and Mary in LA last month?",
+                "<u>Does</u> James get up early on Sundays?",
+                "They are <u>going not</u> to buy a new car.",
+            ],
+            answer_index=4,
+        ),
+        mc_item(
+            iid="q28",
+            sec=secs[15],
+            label="28",
+            choices=[
+                "Is your brother <u>play</u> baseball?",
+                "Joe and Ted <u>needs</u> some water.",
+                "<u>Do</u> you go shopping last Friday?",
+                "A child <u>must not go</u> outside alone at night.",
+                "Do you have to <u>prepared</u> a lunch box today?",
+            ],
+            answer_index=4,
+        ),
         mc_item(iid="q29", sec=secs[16], label="29", prompt_en="Will your parents sell the sofa?", choices=["No, they will.", "Yes, they are.", "Yes, they won't.", "No, they won't.", "No, they aren't."], answer_index=4),
         mc_item(iid="q30", sec=secs[16], label="30", prompt_en="Should I take off my shoes here?", choices=["Yes, I should.", "Yes, you do.", "No, you should.", "No, I shouldn't.", "Yes, you should."], answer_index=5),
         fill_item(
