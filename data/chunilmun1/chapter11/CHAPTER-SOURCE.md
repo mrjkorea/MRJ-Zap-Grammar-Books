@@ -26,9 +26,9 @@ Generators:
 Answer keys:
 
 - **WB** — `uploads/keys-part4_a100.pdf` (booklet pp. 59–61).
-- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 28–30**; PDF `artifacts/keys-sb-ch09-12/page-08.png`–`page-10.png`).
-  - Unit exercises: booklet pp. 29–30 (SB pp. 140, 143, 145).
-  - **c11-test** (SB pp. 146–147): booklet **p. 30** (`page-10.png`); verified Oct 2026 (q10→①②, q14→`between|in|along`, q15→③).
+- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 28–30**); rendered keys `chunilmun/redo/attach/keys-sb-slice/p-28.png`–`p-30.png`.
+  - Unit exercises: booklet **pp. 29–30** (`p-29.png`–`p-30.png`; SB pp. 140, 143, 145).
+  - **c11-test** (SB pp. 146–147): booklet **p. 30** (`p-30.png`); verified Oct 2026 (q10→①②, q14→`between|in|along`, q15→③).
 
 ## Verified from keys-part4 (WB)
 

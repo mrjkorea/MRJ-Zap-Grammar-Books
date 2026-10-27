@@ -23,9 +23,9 @@ Generators:
 Answer keys:
 
 - **WB** — `uploads/keys-part4_a100.pdf` (booklet pp. 62–63).
-- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 31–32**; PDF `artifacts/keys-sb-ch09-12/page-11.png`–`page-12.png`).
-  - Unit exercises: booklet pp. 31–32 (SB pp. 151, 154).
-  - **c12-test** (SB pp. 155–157): booklet **p. 32** (`page-12.png`); all 19 items verified Oct 2026.
+- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 31–32**); rendered keys `chunilmun/redo/attach/keys-sb-slice/p-31.png`–`p-32.png`.
+  - Unit exercises: booklet **pp. 31–32** (`p-31.png`; SB pp. 151, 154).
+  - **c12-test** (SB pp. 155–157): booklet **p. 32** (`p-32.png`); all 19 items verified Oct 2026.
 
 Note: WB PDF images **page-15–18** are 총괄평가 3회 (Ch09–12 review), not chapter-12 unit JSON.
 

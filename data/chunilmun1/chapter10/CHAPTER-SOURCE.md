@@ -26,6 +26,6 @@ Generators:
 Answer keys:
 
 - **WB** — `uploads/keys-part4_a100.pdf` (booklet pp. 57–58).
-- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 25–27**; PDF `artifacts/keys-sb-ch09-12/page-05.png`–`page-07.png`).
-  - Unit exercises: booklet pp. 26–27 (SB pp. 125, 128, 132).
-  - **c10-test** (SB pp. 133–135): booklet **p. 27** (`page-07.png`); verified Oct 2026 (fixes: q1→①, q5→②, q8→`getting up`, q20→`to draw`/`drawing` pictures).
+- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 25–27**); rendered keys `chunilmun/redo/attach/keys-sb-slice/p-25.png`–`p-27.png`.
+  - Unit exercises: booklet **pp. 26–27** (`p-26.png`–`p-27.png`; SB pp. 125, 128, 131).
+  - **c10-test** (SB p. 133): booklet **p. 27** (`p-27.png`); verified Oct 2026 (q1→①, q5→②, q8→`getting up`, q20→`to draw`/`drawing` pictures).

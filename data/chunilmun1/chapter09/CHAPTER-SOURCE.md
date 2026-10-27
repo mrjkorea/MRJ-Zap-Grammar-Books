@@ -26,6 +26,6 @@ Generators:
 Answer keys:
 
 - **WB** — `uploads/keys-part4_a100.pdf` (booklet pp. 55–56); chapter test MC verified (e.g. q8→⑤, q11→②).
-- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 22–25**; PDF images `artifacts/keys-sb-ch09-12/page-03.png`–`page-05.png`).
-  - Unit exercises: booklet pp. 23–24 (SB pp. 111, 114, 116).
-  - **c09-test** (SB pp. 117–119): booklet **p. 24** (`page-04.png`); all 25 items verified Oct 2026.
+- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 22–25**); rendered keys `chunilmun/redo/attach/keys-sb-slice/p-23.png`–`p-25.png` (booklet page = filename).
+  - Unit exercises: booklet **pp. 23–24** (`p-23.png`–`p-24.png`; SB pp. 111, 114, 116).
+  - **c09-test** (SB pp. 117–119): booklet **p. 24** (`p-24.png`); all 25 items verified Oct 2026.
