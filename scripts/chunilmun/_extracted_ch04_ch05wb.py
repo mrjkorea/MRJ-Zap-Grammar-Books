@@ -336,12 +336,12 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         section("8", "[8]", "[8] 다음 중 어법상 알맞은 문장을 고르세요.", MC, "choice", ["8"]),
         section("9", "[9]", "[9] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요.", MC, "choice", ["9"]),
         section("10", "[10]", "[10] should를 사용하여 다음 문장과 같은 뜻이 되도록 빈칸을 완성하세요.", SENT, "sentence", ["10"]),
-        section("11", "[11]", "[11] 표지판을 보고 must와 주어진 단어를 사용하여 나타내는 것을 쓰세요.", WR2, "words", labels_num(2, 1)),
-        section("12", "[12]", "[12] 다음 대화에서 어법상 알맞지 않은 부분 두 군데를 찾아 바르게 고쳐 쓰세요.", WR2, "words", labels_num(2, 1)),
+        section("11", "[11]", "[11] 표지판을 보고 must와 주어진 단어를 사용하여 나타내는 것을 쓰세요.", WR2, "words", ["11-1", "11-2"]),
+        section("12", "[12]", "[12] 다음 대화에서 어법상 알맞지 않은 부분 두 군데를 찾아 바르게 고쳐 쓰세요.", WR2, "words", ["12-1", "12-2"]),
         section("13", "[13]", "[13] 다음 중 어색한 대화를 고르세요.", MC, "choice", ["13"]),
-        section("14", "[14]", "[14] 주어진 상황에 맞게 have to와 주어진 단어를 사용하여 문장을 완성하세요.", WR2, "words", labels_num(2, 1)),
+        section("14", "[14]", "[14] 주어진 상황에 맞게 have to와 주어진 단어를 사용하여 문장을 완성하세요.", WR2, "words", ["14-1", "14-2"]),
         section("15", "[15]", "[15] 다음 중 어법상 알맞은 문장만을 포함하고 있는 것을 고르세요.", MC, "choice", ["15"]),
-        section("16", "[16]", "[16] 표를 보고 (1), (2) Susan이 할 수 있는 것, (3) Andy가 할 수 없는 것을 can을 사용하여 쓰세요.", WR2, "words", labels_num(3, 1)),
+        section("16", "[16]", "[16] 표를 보고 (1), (2) Susan이 할 수 있는 것, (3) Andy가 할 수 없는 것을 can을 사용하여 쓰세요.", WR2, "words", ["16-1", "16-2", "16-3"]),
     ]
     items = [
         mc_item(
@@ -457,7 +457,7 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         fill_item(
             iid="q11a",
             sec=secs[8],
-            label="1",
+            label="11-1",
             prompt_en="(1) You ______ on the street. (trash, throw)",
             accept=["must not throw trash", "mustn't throw trash"],
             blanks=1,
@@ -465,7 +465,7 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         fill_item(
             iid="q11b",
             sec=secs[8],
-            label="2",
+            label="11-2",
             prompt_en="(2) You ______ here. (a bike, ride)",
             accept=["must not ride a bike", "mustn't ride a bike"],
             blanks=1,
@@ -473,7 +473,7 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         fill_item(
             iid="q12a",
             sec=secs[9],
-            label="1",
+            label="12-1",
             prompt_en="ⓒ Can Mandy bakes cookies? →",
             accept=["c|Can Mandy bake cookies", "ⓒ|Can Mandy bake cookies"],
             blanks=2,
@@ -481,7 +481,7 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         fill_item(
             iid="q12b",
             sec=secs[9],
-            label="2",
+            label="12-2",
             prompt_en="ⓓ No, she can. →",
             accept=["d|No, she can't", "d|No, she cannot", "ⓓ|No, she can't"],
             blanks=2,
@@ -502,7 +502,7 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         fill_item(
             iid="q14a",
             sec=secs[11],
-            label="1",
+            label="14-1",
             prompt_en="He ______ it right now. (clean)",
             accept=["has to clean"],
             blanks=1,
@@ -510,7 +510,7 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         fill_item(
             iid="q14b",
             sec=secs[11],
-            label="2",
+            label="14-2",
             prompt_en="I ______ my school uniform on weekends. (wear)",
             accept=["don't have to wear", "do not have to wear"],
             blanks=1,
@@ -525,7 +525,7 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         fill_item(
             iid="q16a",
             sec=secs[13],
-            label="1",
+            label="16-1",
             prompt_en="Susan can play the piano.",
             accept=["can play the piano"],
             blanks=1,
@@ -533,7 +533,7 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         fill_item(
             iid="q16b",
             sec=secs[13],
-            label="2",
+            label="16-2",
             prompt_en="Susan can speak Chinese.",
             accept=["can speak Chinese"],
             blanks=1,
@@ -541,7 +541,7 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
         fill_item(
             iid="q16c",
             sec=secs[13],
-            label="3",
+            label="16-3",
             prompt_en="Andy cannot speak Chinese.",
             accept=["can't speak Chinese", "cannot speak Chinese"],
             blanks=1,
@@ -852,9 +852,9 @@ def _build_c04_wb_test(wm: dict) -> dict[str, dict]:
         section("10", "[10]", "[10] 우리말과 일치하도록 빈칸에 알맞은 말을 쓰세요.", WR, "words", ["10"]),
         section("11", "[11]", "[11] 다음 중 어법상 알맞지 않은 문장을 두 개 고르세요.", MC, "choice", ["11"]),
         section("12", "[12]", "[12] 밑줄 친 부분을 문맥에 맞게 고치세요.", CORR, "words", ["12"]),
-        section("13", "[13]", "[13] should/shouldn't와 <보기>의 단어를 사용하여 문장을 완성하세요.", WR2, "words", labels_num(2, 1)),
-        section("14", "[14]", "[14] <보기>의 문장과 어울리는 것을 <보기>에서 골라 기호를 쓰세요.", MC, "choice", labels_num(3, 1)),
-        section("15", "[15]", "[15] should't와 주어진 단어를 사용하여 영화관 에티켓을 쓰세요.", SENT, "sentence", labels_num(2, 1)),
+        section("13", "[13]", "[13] should/shouldn't와 <보기>의 단어를 사용하여 문장을 완성하세요.", WR2, "words", ["13-1", "13-2"]),
+        section("14", "[14]", "[14] <보기>의 문장과 어울리는 것을 <보기>에서 골라 기호를 쓰세요.", MC, "choice", ["14-1", "14-2", "14-3"]),
+        section("15", "[15]", "[15] should't와 주어진 단어를 사용하여 영화관 에티켓을 쓰세요.", SENT, "sentence", ["15-1", "15-2"]),
         section("16", "[16]", "[16] 다음 중 우리말을 바르게 영작한 것을 고르세요.", MC, "choice", ["16"]),
     ]
     items = [
@@ -970,7 +970,7 @@ def _build_c04_wb_test(wm: dict) -> dict[str, dict]:
         fill_item(
             iid="q13a",
             sec=secs[9],
-            label="1",
+            label="13-1",
             prompt_en="We use only one side of the paper. (use / both sides)",
             accept=["should use both sides", "should use"],
             blanks=1,
@@ -978,7 +978,7 @@ def _build_c04_wb_test(wm: dict) -> dict[str, dict]:
         fill_item(
             iid="q13b",
             sec=secs[9],
-            label="2",
+            label="13-2",
             prompt_en="We leave too much food waste. (leave food waste)",
             accept=["shouldn't leave food waste", "should not leave food waste"],
             blanks=1,
@@ -986,7 +986,7 @@ def _build_c04_wb_test(wm: dict) -> dict[str, dict]:
         mc_item(
             iid="q14a",
             sec=secs[10],
-            label="1",
+            label="14-1",
             prompt_en="The train is leaving.",
             choices=MATCH_MUST_LINES,
             answer_index=1,
@@ -994,7 +994,7 @@ def _build_c04_wb_test(wm: dict) -> dict[str, dict]:
         mc_item(
             iid="q14b",
             sec=secs[10],
-            label="2",
+            label="14-2",
             prompt_en="I have a guest today.",
             choices=MATCH_MUST_LINES,
             answer_index=3,
@@ -1002,7 +1002,7 @@ def _build_c04_wb_test(wm: dict) -> dict[str, dict]:
         mc_item(
             iid="q14c",
             sec=secs[10],
-            label="3",
+            label="14-3",
             prompt_en="The oven is too hot.",
             choices=MATCH_MUST_LINES,
             answer_index=2,
@@ -1010,14 +1010,14 @@ def _build_c04_wb_test(wm: dict) -> dict[str, dict]:
         sent_item(
             iid="q15a",
             sec=secs[11],
-            label="1",
+            label="15-1",
             prompt_en="You ______ (noise, make)",
             accept=["You shouldn't make noise.", "You should not make noise."],
         ),
         sent_item(
             iid="q15b",
             sec=secs[11],
-            label="2",
+            label="15-2",
             prompt_en="You ______ in front of you. (the seat, kick)",
             accept=["You shouldn't kick the seat in front of you.", "You should not kick the seat in front of you."],
         ),
@@ -1155,7 +1155,7 @@ def build_ch05_wb() -> dict[str, dict]:
         "다음 명사가 셀 수 있는 명사이면 O, 셀 수 없는 명사이면 X를 쓰세요.",
         OX_MARK,
         "words",
-        labels_num(20),
+        labels_az("A", 20),
         "POINT 1",
     )
     nouns = [
@@ -1180,7 +1180,7 @@ def build_ch05_wb() -> dict[str, dict]:
         ("ring", True),
         ("meat", False),
     ]
-    items = [_count_noun(sec, str(i), f"a{i:02d}", w, c) for i, (w, c) in enumerate(nouns, 1)]
+    items = [_count_noun(sec, f"A{i}", f"a{i:02d}", w, c) for i, (w, c) in enumerate(nouns, 1)]
     out["wb-c05-u1-A.json"] = build_practice(
         practice_id="cm1:wb-c05:u1-A",
         title="Workbook Unit 1 — Section A",
@@ -1198,7 +1198,7 @@ def build_ch05_wb() -> dict[str, dict]:
         "주어진 명사를 빈칸에 알맞은 형태로 쓰세요.",
         WR,
         "words",
-        labels_num(10),
+        labels_az("B", 10),
         "POINT 2",
     )
     plurals = [
@@ -1214,7 +1214,7 @@ def build_ch05_wb() -> dict[str, dict]:
         ("I hung up some family ________ on the wall. (photo)", ["photos"]),
     ]
     items = [
-        fill_item(iid=f"b{i:02d}", sec=sec, label=str(i), prompt_en=p, accept=a)
+        fill_item(iid=f"b{i:02d}", sec=sec, label=f"B{i}", prompt_en=p, accept=a)
         for i, (p, a) in enumerate(plurals, 1)
     ]
     out["wb-c05-u1-B.json"] = build_practice(
@@ -1234,7 +1234,7 @@ def build_ch05_wb() -> dict[str, dict]:
         "다음 그림과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요.",
         WR,
         "words",
-        labels_num(4),
+        labels_az("C", 4),
         "POINT 3",
     )
     unit_c = [
@@ -1244,7 +1244,7 @@ def build_ch05_wb() -> dict[str, dict]:
         ("I ate ________ cereal for breakfast. (bowl)", ["a bowl of"]),
     ]
     items = [
-        fill_item(iid=f"c{i:02d}", sec=sec, label=str(i), prompt_en=p, accept=a)
+        fill_item(iid=f"c{i:02d}", sec=sec, label=f"C{i}", prompt_en=p, accept=a)
         for i, (p, a) in enumerate(unit_c, 1)
     ]
     out["wb-c05-u1-C.json"] = build_practice(
@@ -1264,7 +1264,7 @@ def build_ch05_wb() -> dict[str, dict]:
         "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요.",
         WR,
         "words",
-        labels_num(6),
+        labels_az("D", 6),
         "POINT 2·3",
     )
     unit_d = [
@@ -1276,7 +1276,7 @@ def build_ch05_wb() -> dict[str, dict]:
         ("The ________ and cats in the movie are very cute. (mouse)", ["mice"]),
     ]
     items = [
-        fill_item(iid=f"d{i:02d}", sec=sec, label=str(i), prompt_en=p, accept=a)
+        fill_item(iid=f"d{i:02d}", sec=sec, label=f"D{i}", prompt_en=p, accept=a)
         for i, (p, a) in enumerate(unit_d, 1)
     ]
     out["wb-c05-u1-D.json"] = build_practice(
@@ -1296,7 +1296,7 @@ def build_ch05_wb() -> dict[str, dict]:
         "다음 중 어법상 알맞은 것을 고르세요.",
         MC,
         "choice",
-        labels_num(10),
+        labels_az("A", 10),
         "POINT 4",
     )
     art_a = [
@@ -1312,7 +1312,7 @@ def build_ch05_wb() -> dict[str, dict]:
         ("I heard [news / a news] about the accident.", ["news", "a news"], 1),
     ]
     items = [
-        _bracket_mc(sec, str(i), f"a{i:02d}", p, ch, ans)
+        _bracket_mc(sec, f"A{i}", f"a{i:02d}", p, ch, ans)
         for i, (p, ch, ans) in enumerate(art_a, 1)
     ]
     out["wb-c05-u2-A.json"] = build_practice(
@@ -1332,7 +1332,7 @@ def build_ch05_wb() -> dict[str, dict]:
         "밑줄 친 a(an)의 의미와 같은 것을 <보기>에서 골라 기호를 쓰세요.",
         MC,
         "choice",
-        labels_num(9),
+        labels_az("B", 9),
         "POINT 4",
     )
     art_b = [
@@ -1350,7 +1350,7 @@ def build_ch05_wb() -> dict[str, dict]:
         mc_item(
             iid=f"b{i:02d}",
             sec=sec,
-            label=str(i),
+            label=f"B{i}",
             prompt_en=p,
             choices=ARTICLE_A_MEANING,
             answer_index=a,
@@ -1374,7 +1374,7 @@ def build_ch05_wb() -> dict[str, dict]:
         "빈칸에 알맞은 관사를 <보기>에서 골라 쓰세요.",
         WR,
         "words",
-        labels_num(10),
+        labels_az("C", 10),
         "POINT 4",
         word_bank=["a", "an", "the"],
     )
@@ -1391,7 +1391,7 @@ def build_ch05_wb() -> dict[str, dict]:
         ("Please open ________ door. It's too hot.", ["the"]),
     ]
     items = [
-        fill_item(iid=f"c{i:02d}", sec=sec, label=str(i), prompt_en=p, accept=a)
+        fill_item(iid=f"c{i:02d}", sec=sec, label=f"C{i}", prompt_en=p, accept=a)
         for i, (p, a) in enumerate(art_c, 1)
     ]
     out["wb-c05-u2-C.json"] = build_practice(
@@ -1411,7 +1411,7 @@ def build_ch05_wb() -> dict[str, dict]:
         "다음 중 어법상 알맞은 관사를 고르세요. (필요하지 않으면 x를 고르세요.)",
         MC,
         "choice",
-        labels_num(10),
+        labels_az("D", 10),
         "POINT 4·5",
     )
     art_d = [
@@ -1427,7 +1427,7 @@ def build_ch05_wb() -> dict[str, dict]:
         ("I'm so sleepy. I'll go to [a / the / x] bed early.", ["a", "the", "x"], 3),
     ]
     items = [
-        _bracket_mc(sec, str(i), f"d{i:02d}", p, ch, ans)
+        _bracket_mc(sec, f"D{i}", f"d{i:02d}", p, ch, ans)
         for i, (p, ch, ans) in enumerate(art_d, 1)
     ]
     out["wb-c05-u2-D.json"] = build_practice(
@@ -1453,7 +1453,7 @@ def _build_ch05_wb_u3(m: dict) -> dict[str, dict]:
         "다음 중 어법상 알맞은 것을 고르세요.",
         MC,
         "choice",
-        labels_num(9),
+        labels_az("A", 9),
         "POINT 6",
     )
     there_a = [
@@ -1468,7 +1468,7 @@ def _build_ch05_wb_u3(m: dict) -> dict[str, dict]:
         ("[Is / Are] there milk in the refrigerator?", ["Is", "Are"], 1),
     ]
     items = [
-        _bracket_mc(sec, str(i), f"a{i:02d}", p, ch, ans)
+        _bracket_mc(sec, f"A{i}", f"a{i:02d}", p, ch, ans)
         for i, (p, ch, ans) in enumerate(there_a, 1)
     ]
     u3a = build_practice(
@@ -1488,7 +1488,7 @@ def _build_ch05_wb_u3(m: dict) -> dict[str, dict]:
         "다음 빈칸에 There is 또는 There are를 넣어 문장을 완성하세요.",
         WR,
         "words",
-        labels_num(10),
+        labels_az("B", 10),
         "POINT 6",
     )
     there_b = [
@@ -1516,7 +1516,7 @@ def _build_ch05_wb_u3(m: dict) -> dict[str, dict]:
         ["There are"],
     ]
     items = [
-        fill_item(iid=f"b{i:02d}", sec=sec, label=str(i), prompt_en=p, accept=a)
+        fill_item(iid=f"b{i:02d}", sec=sec, label=f"B{i}", prompt_en=p, accept=a)
         for i, (p, a) in enumerate(zip(there_b, there_b_ans), 1)
     ]
     u3b = build_practice(
@@ -1548,12 +1548,12 @@ def _build_ch05_wb_u3(m: dict) -> dict[str, dict]:
         "빈칸에 알맞은 말을 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것)",
         WR,
         "words",
-        labels_num(8),
+        labels_az("C", 8),
         "POINT 6",
         word_bank=bank1 + bank2,
     )
     items = [
-        fill_item(iid=f"c{i:02d}", sec=sec, label=str(i), prompt_en=p, accept=a)
+        fill_item(iid=f"c{i:02d}", sec=sec, label=f"C{i}", prompt_en=p, accept=a)
         for i, (p, a) in enumerate(there_c, 1)
     ]
     u3c = build_practice(
@@ -1573,7 +1573,7 @@ def _build_ch05_wb_u3(m: dict) -> dict[str, dict]:
         "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요.",
         SENT,
         "sentence",
-        labels_num(7),
+        labels_az("D", 7),
         "POINT 6",
     )
     there_d = [
@@ -1586,7 +1586,7 @@ def _build_ch05_wb_u3(m: dict) -> dict[str, dict]:
         ("There wasn't a jacket in my room. (a jacket)", ["There wasn't a jacket in my room.", "There was not a jacket in my room."]),
     ]
     items = [
-        sent_item(iid=f"d{i:02d}", sec=sec, label=str(i), prompt_en=p, accept=a)
+        sent_item(iid=f"d{i:02d}", sec=sec, label=f"D{i}", prompt_en=p, accept=a)
         for i, (p, a) in enumerate(there_d, 1)
     ]
     u3d = build_practice(
@@ -1681,15 +1681,39 @@ def _build_ch05_wb_test(m: dict) -> dict[str, dict]:
     }
 
 
-if __name__ == "__main__":
+def _write_docs(data: dict[str, dict], *, chapter: int | None, review_dir: str | None = None) -> None:
     import json
+    import os
+
+    root = os.path.join(os.path.dirname(__file__), "..", "..", "data", "chunilmun1")
+    for name, doc in data.items():
+        if review_dir and name.startswith("review-"):
+            path = os.path.join(root, review_dir, name)
+        elif chapter is not None:
+            path = os.path.join(root, f"chapter{chapter:02d}", name)
+        else:
+            raise ValueError(f"cannot place {name}: set chapter or review_dir")
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(doc, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+
+
+if __name__ == "__main__":
     import sys
 
-    fn = sys.argv[1] if len(sys.argv) > 1 else "ch04"
+    fn = sys.argv[1] if len(sys.argv) > 1 else "all"
     if fn == "ch04":
         data = build_ch04()
+        _write_docs(data, chapter=4, review_dir="review-01")
+        print(f"chapter 04 + review-01: wrote {len(data)} files")
     elif fn == "ch05wb":
         data = build_ch05_wb()
+        _write_docs(data, chapter=5)
+        print(f"chapter 05 wb: wrote {len(data)} files")
     else:
-        data = {**build_ch04(), **build_ch05_wb()}
-    print(json.dumps(list(data.keys()), ensure_ascii=False, indent=2))
+        d4 = build_ch04()
+        _write_docs(d4, chapter=4, review_dir="review-01")
+        d5 = build_ch05_wb()
+        _write_docs(d5, chapter=5)
+        print(f"wrote ch04 ({len(d4)}) + ch05 wb ({len(d5)}) files")

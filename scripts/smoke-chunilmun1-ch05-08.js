@@ -4,6 +4,8 @@ const path = require("path");
 const vm = require("vm");
 
 const REPO = path.join(__dirname, "..");
+const { execSync } = require("child_process");
+execSync("node scripts/check-no-guessed-stems.js", { cwd: REPO, stdio: "inherit" });
 const JS = path.join(REPO, "assets/js");
 const win = {};
 const ctx = vm.createContext({ window: win, Date, Math, JSON, String, Array, Object, RegExp, Promise });
@@ -112,7 +114,7 @@ for (const ch of ["chapter05", "chapter06", "chapter07", "chapter08"]) {
 }
 total += smokeDir("data/chunilmun1/review-01");
 
-const expected = 16 + 23 + 23 + 23 + 1; // ch05: 2 units; ch06–08: 3 units; review
+const expected = 20 + 23 + 23 + 23 + 1; // ch05: 3 WB units; ch06–08: 3 units; review
 if (total !== expected) fail("file count", total, "expected", expected);
 
 if (bad) {

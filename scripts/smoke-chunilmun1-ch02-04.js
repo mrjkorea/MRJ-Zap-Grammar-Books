@@ -4,6 +4,8 @@ const path = require("path");
 const vm = require("vm");
 
 const REPO = path.join(__dirname, "..");
+const { execSync } = require("child_process");
+execSync("node scripts/check-no-guessed-stems.js", { cwd: REPO, stdio: "inherit" });
 const JS = path.join(REPO, "assets/js");
 const win = {};
 const ctx = vm.createContext({ window: win, Date, Math, JSON, String, Array, Object, RegExp, Promise });

@@ -4,23 +4,23 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c05:u2-A",
   "title": "Workbook Unit 2 — Section A",
-  "subtitle": "There is/are · POINT 5 (WB p. 34)",
+  "subtitle": "관사 · POINT 4 (WB p. 34)",
   "pages": "34",
   "timerMinutes": 22,
   "unitId": "wb-chapter-05",
   "unitTitle": "Ch 05 WB — 명사와 관사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 9문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 10문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "There is/are / be동사 POINT 5.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 9,
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 10,
       "exampleCount": 0,
       "labels": [
         "A1",
@@ -31,7 +31,8 @@
         "A6",
         "A7",
         "A8",
-        "A9"
+        "A9",
+        "A10"
       ]
     }
   ],
@@ -40,136 +41,201 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "There ________ a bus beside the market.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Time is [gold / a gold].",
+      "choices": [
+        "gold",
+        "a gold"
+      ],
       "accept": [
-        "is"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A2",
-      "type": "fill",
-      "promptEn": "Carl and Emily ________ at the café.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "You can find [sugar / a sugar] on the table.",
+      "choices": [
+        "sugar",
+        "a sugar"
+      ],
       "accept": [
-        "are"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A3",
-      "type": "fill",
-      "promptEn": "________ two children in the park yesterday?",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "I have [problem / a problem].",
+      "choices": [
+        "problem",
+        "a problem"
+      ],
       "accept": [
-        "Were"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A4",
-      "type": "fill",
-      "promptEn": "There is some ________ on my plate.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "It was [a / an] wonderful day.",
+      "choices": [
+        "a",
+        "an"
+      ],
       "accept": [
-        "bread"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A5",
-      "type": "fill",
-      "promptEn": "There were no ________ in the classroom.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "The woman is cooking [rice / a rice].",
+      "choices": [
+        "rice",
+        "a rice"
+      ],
       "accept": [
-        "students"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a06",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A6",
-      "type": "fill",
-      "promptEn": "There ________ an honest person between us.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "James is [a / an] honest boy.",
+      "choices": [
+        "a",
+        "an"
+      ],
       "accept": [
-        "was"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "a07",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A7",
-      "type": "fill",
-      "promptEn": "________ any deer at the zoo?",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "We'll meet in the club once [a / an] week.",
+      "choices": [
+        "a",
+        "an"
+      ],
       "accept": [
-        "Are"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a08",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A8",
-      "type": "fill",
-      "promptEn": "There ________ friendship between them.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "Thank you for your [advice / advices].",
+      "choices": [
+        "advice",
+        "advices"
+      ],
       "accept": [
-        "wasn't"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "a09",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "There is/are / be동사 POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "A9",
-      "type": "fill",
-      "promptEn": "________ butter and milk in the fridge?",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "My grandma gave me [a / an] old watch.",
+      "choices": [
+        "a",
+        "an"
+      ],
       "accept": [
-        "Are"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "I heard [news / a news] about the accident.",
+      "choices": [
+        "news",
+        "a news"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
     }
   ]
 }

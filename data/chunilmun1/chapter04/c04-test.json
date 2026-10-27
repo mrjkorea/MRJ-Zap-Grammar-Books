@@ -4,137 +4,235 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c04:test",
   "title": "Chapter Test",
-  "subtitle": "Chapter 04 조동사 (p. 50)",
-  "pages": "50",
+  "subtitle": "Chapter 04 조동사 (p. 50–51)",
+  "pages": "50–51",
   "timerMinutes": 28,
   "unitId": "chapter-04",
   "unitTitle": "Chapter 04 — 조동사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–4] 4문항(고르기), [5–6] 2문항(문장 전체 쓰기), [7–9] 3문항(고르기), [10–11] 2문항(문장 전체 쓰기), [12–13] 2문항(빈칸 말만 쓰기), [14] 1문항(빈칸 말만 쓰기), [15–16] 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(고르기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(고르기), [8] 1문항(고르기), [9] 1문항(고르기), [10] 1문항(문장 전체 쓰기), [11] 2문항(빈칸 말만 쓰기), [12] 2문항(빈칸 말만 쓰기), [13] 1문항(고르기), [14] 2문항(빈칸 말만 쓰기), [15] 1문항(고르기), [16] 3문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
-      "id": "1-4",
-      "title": "[1–4]",
-      "instructionKo": "[1–4] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[1–4] 다음 중 알맞은 것을 고르세요.",
+      "id": "1-2",
+      "title": "[1–2]",
+      "instructionKo": "[1–2] 우리말과 일치하도록 빈칸에 들어갈 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[1–2] 우리말과 일치하도록 빈칸에 들어갈 알맞은 말을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 4,
+      "itemCount": 2,
       "exampleCount": 0,
       "labels": [
         "1",
-        "2",
+        "2"
+      ]
+    },
+    {
+      "id": "3-4",
+      "title": "[3–4]",
+      "instructionKo": "[3–4] 다음 중 밑줄 친 부분의 의미가 다른 하나를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[3–4] 다음 중 밑줄 친 부분의 의미가 다른 하나를 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
         "3",
         "4"
       ]
     },
     {
-      "id": "5-6",
-      "title": "[5–6]",
-      "instructionKo": "[5–6] 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "directionKo": "[5–6] 문장을 완성하세요.",
-      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
-      "itemCount": 2,
+      "id": "5",
+      "title": "[5]",
+      "instructionKo": "[5] 다음 중 대화의 빈칸에 들어갈 말로 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[5] 다음 중 대화의 빈칸에 들어갈 말로 알맞은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
       "exampleCount": 0,
       "labels": [
-        "5",
+        "5"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "[6]",
+      "instructionKo": "[6] 다음 대화의 밑줄 친 부분과 의미가 같은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[6] 다음 대화의 밑줄 친 부분과 의미가 같은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
         "6"
       ]
     },
     {
-      "id": "7-9",
-      "title": "[7–9]",
-      "instructionKo": "[7–9] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[7–9] 다음 중 알맞은 것을 고르세요.",
+      "id": "7",
+      "title": "[7]",
+      "instructionKo": "[7] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[7] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 3,
+      "itemCount": 1,
       "exampleCount": 0,
       "labels": [
-        "7",
-        "8",
+        "7"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "[8]",
+      "instructionKo": "[8] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[8] 다음 중 어법상 알맞은 문장을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "8"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "[9]",
+      "instructionKo": "[9] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[9] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
         "9"
       ]
     },
     {
-      "id": "10-11",
-      "title": "[10–11]",
-      "instructionKo": "[10–11] 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "directionKo": "[10–11] 문장을 완성하세요.",
+      "id": "10",
+      "title": "[10]",
+      "instructionKo": "[10] should를 사용하여 다음 문장과 같은 뜻이 되도록 빈칸을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[10] should를 사용하여 다음 문장과 같은 뜻이 되도록 빈칸을 완성하세요.",
       "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
-      "itemCount": 2,
+      "itemCount": 1,
       "exampleCount": 0,
       "labels": [
-        "10",
-        "11"
+        "10"
       ]
     },
     {
-      "id": "12-13",
-      "title": "[12–13]",
-      "instructionKo": "[12–13] 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "[12–13] 대화를 완성하세요.",
+      "id": "11",
+      "title": "[11]",
+      "instructionKo": "[11] 표지판을 보고 must와 주어진 단어를 사용하여 나타내는 것을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[11] 표지판을 보고 must와 주어진 단어를 사용하여 나타내는 것을 쓰세요.",
       "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 2,
       "exampleCount": 0,
       "labels": [
-        "12",
+        "11-1",
+        "11-2"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "[12]",
+      "instructionKo": "[12] 다음 대화에서 어법상 알맞지 않은 부분 두 군데를 찾아 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[12] 다음 대화에서 어법상 알맞지 않은 부분 두 군데를 찾아 바르게 고쳐 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "12-1",
+        "12-2"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "[13]",
+      "instructionKo": "[13] 다음 중 어색한 대화를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[13] 다음 중 어색한 대화를 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
         "13"
       ]
     },
     {
       "id": "14",
       "title": "[14]",
-      "instructionKo": "[14] have to/don't have to로 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "[14] have to/don't have to로 완성하세요.",
-      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 1,
-      "exampleCount": 0,
-      "labels": [
-        "14"
-      ]
-    },
-    {
-      "id": "15-16",
-      "title": "[15–16]",
-      "instructionKo": "[15–16] can/can't으로 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "[15–16] can/can't으로 완성하세요.",
+      "instructionKo": "[14] 주어진 상황에 맞게 have to와 주어진 단어를 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[14] 주어진 상황에 맞게 have to와 주어진 단어를 사용하여 문장을 완성하세요.",
       "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 2,
       "exampleCount": 0,
       "labels": [
-        "15",
-        "16"
+        "14-1",
+        "14-2"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "[15]",
+      "instructionKo": "[15] 다음 중 어법상 알맞은 문장만을 포함하고 있는 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[15] 다음 중 어법상 알맞은 문장만을 포함하고 있는 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "15"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "[16]",
+      "instructionKo": "[16] 표를 보고 (1), (2) Susan이 할 수 있는 것, (3) Andy가 할 수 없는 것을 can을 사용하여 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[16] 표를 보고 (1), (2) Susan이 할 수 있는 것, (3) Andy가 할 수 없는 것을 can을 사용하여 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "16-1",
+        "16-2",
+        "16-3"
       ]
     }
   ],
   "items": [
     {
       "id": "q01",
-      "section": "1-4",
-      "sectionTitle": "[1–4]",
-      "sectionInstructionKo": "[1–4] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "1-2",
+      "sectionTitle": "[1–2]",
+      "sectionInstructionKo": "[1–2] 우리말과 일치하도록 빈칸에 들어갈 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "1",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Nick can use chopsticks well.",
       "choices": [
-        "can speak",
-        "speaks",
-        "speaking"
+        "can",
+        "cans",
+        "may",
+        "mays",
+        "must"
       ],
       "accept": [
         "1",
@@ -144,39 +242,43 @@
     },
     {
       "id": "q02",
-      "section": "1-4",
-      "sectionTitle": "[1–4]",
-      "sectionInstructionKo": "[1–4] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "1-2",
+      "sectionTitle": "[1–2]",
+      "sectionInstructionKo": "[1–2] 우리말과 일치하도록 빈칸에 들어갈 알맞은 말을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "2",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Sora must do some exercise.",
       "choices": [
-        "must",
         "can",
-        "may"
+        "may",
+        "must",
+        "can't",
+        "may not"
       ],
       "accept": [
-        "1",
-        "①"
+        "3",
+        "③"
       ],
-      "answer": "1"
+      "answer": "3"
     },
     {
       "id": "q03",
-      "section": "1-4",
-      "sectionTitle": "[1–4]",
-      "sectionInstructionKo": "[1–4] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "3-4",
+      "sectionTitle": "[3–4]",
+      "sectionInstructionKo": "[3–4] 다음 중 밑줄 친 부분의 의미가 다른 하나를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "3",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Different meaning of May:",
       "choices": [
-        "May I go",
-        "Must I go",
-        "Can I go on a picnic"
+        "May I borrow this book?",
+        "You may use my dictionary.",
+        "He may know the answer.",
+        "You may go out and play.",
+        "You may eat these snacks."
       ],
       "accept": [
         "3",
@@ -186,69 +288,66 @@
     },
     {
       "id": "q04",
-      "section": "1-4",
-      "sectionTitle": "[1–4]",
-      "sectionInstructionKo": "[1–4] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "3-4",
+      "sectionTitle": "[3–4]",
+      "sectionInstructionKo": "[3–4] 다음 중 밑줄 친 부분의 의미가 다른 하나를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "4",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "Different meaning of can:",
       "choices": [
-        "can play",
-        "can ride",
-        "can speak Chinese"
+        "I can ride a horse.",
+        "Can I watch TV now?",
+        "Bill can play the guitar.",
+        "Can you solve this problem?",
+        "She cannot swim fast like you."
       ],
       "accept": [
-        "3",
-        "③"
+        "4",
+        "④"
       ],
-      "answer": "3"
+      "answer": "4"
     },
     {
       "id": "q05",
-      "section": "5-6",
-      "sectionTitle": "[5–6]",
-      "sectionInstructionKo": "[5–6] 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "section": "5",
+      "sectionTitle": "[5]",
+      "sectionInstructionKo": "[5] 다음 중 대화의 빈칸에 들어갈 말로 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "5",
-      "type": "sentence",
-      "promptEn": "You take the books home. (shouldn't)",
+      "type": "mc",
+      "promptEn": "A: Can you stay here with us tonight?\nB: I am sorry. I really ______ go home now.",
+      "choices": [
+        "must to",
+        "can",
+        "cannot",
+        "may",
+        "have to"
+      ],
       "accept": [
-        "You should not take the books home.",
-        "You shouldn't take the books home."
-      ]
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
     },
     {
       "id": "q06",
-      "section": "5-6",
-      "sectionTitle": "[5–6]",
-      "sectionInstructionKo": "[5–6] 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
-      "label": "6",
-      "type": "sentence",
-      "promptEn": "Complete: must not throw trash / must not ride a bike",
-      "accept": [
-        "You must not throw trash.",
-        "You must not ride a bike."
-      ]
-    },
-    {
-      "id": "q07",
-      "section": "7-9",
-      "sectionTitle": "[7–9]",
-      "sectionInstructionKo": "[7–9] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "6",
+      "sectionTitle": "[6]",
+      "sectionInstructionKo": "[6] 다음 대화의 밑줄 친 부분과 의미가 같은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "label": "7",
+      "label": "6",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "A: May I use your computer?\nB: Of course. Go ahead.",
       "choices": [
-        "Can I understand",
-        "I can understand",
-        "Do I understand"
+        "Must",
+        "Can",
+        "Should",
+        "Do",
+        "Does"
       ],
       "accept": [
         "2",
@@ -257,19 +356,21 @@
       "answer": "2"
     },
     {
-      "id": "q08",
-      "section": "7-9",
-      "sectionTitle": "[7–9]",
-      "sectionInstructionKo": "[7–9] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "id": "q07",
+      "section": "7",
+      "sectionTitle": "[7]",
+      "sectionInstructionKo": "[7] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "label": "8",
+      "label": "7",
       "type": "mc",
-      "promptEn": "",
+      "promptEn": "(A) I have some water? I'm thirsty.\n(B) Be quiet. You make a noise in the library.",
       "choices": [
-        "May I use",
-        "Must I use",
-        "Can I use the restroom"
+        "Do — cannot",
+        "Can — don't have to",
+        "May — should not",
+        "Should — may not",
+        "Must — do not"
       ],
       "accept": [
         "3",
@@ -278,19 +379,44 @@
       "answer": "3"
     },
     {
+      "id": "q08",
+      "section": "8",
+      "sectionTitle": "[8]",
+      "sectionInstructionKo": "[8] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "8",
+      "type": "mc",
+      "promptEn": "",
+      "choices": [
+        "She can makes a cake.",
+        "You must park not here.",
+        "You must to stop at the red light.",
+        "I cannot finding my umbrella.",
+        "Anna can't dance well."
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
       "id": "q09",
-      "section": "7-9",
-      "sectionTitle": "[7–9]",
-      "sectionInstructionKo": "[7–9] 다음 중 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "9",
+      "sectionTitle": "[9]",
+      "sectionInstructionKo": "[9] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "9",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "can make",
-        "must make",
-        "may make and can make"
+        "①, ②",
+        "①, ③",
+        "②, ③",
+        "②, ④",
+        "③, ⑤"
       ],
       "accept": [
         "3",
@@ -300,63 +426,100 @@
     },
     {
       "id": "q10",
-      "section": "10-11",
-      "sectionTitle": "[10–11]",
-      "sectionInstructionKo": "[10–11] 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "section": "10",
+      "sectionTitle": "[10]",
+      "sectionInstructionKo": "[10] should를 사용하여 다음 문장과 같은 뜻이 되도록 빈칸을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "10",
       "type": "sentence",
-      "promptEn": "Sign: Don't take books home (shouldn't)",
+      "promptEn": "Don't take the books home. → You ______",
       "accept": [
         "You should not take the books home.",
         "You shouldn't take the books home."
       ]
     },
     {
-      "id": "q11",
-      "section": "10-11",
-      "sectionTitle": "[10–11]",
-      "sectionInstructionKo": "[10–11] 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
-      "label": "11",
+      "id": "q11a",
+      "section": "11",
+      "sectionTitle": "[11]",
+      "sectionInstructionKo": "[11] 표지판을 보고 must와 주어진 단어를 사용하여 나타내는 것을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "11-1",
       "type": "fill",
-      "promptEn": "Rule 1: don't throw trash. Rule 2: don't ride bikes.",
-      "blanks": 2,
+      "promptEn": "(1) You ______ on the street. (trash, throw)",
+      "blanks": 1,
       "accept": [
-        "must not throw trash|must not ride a bike"
+        "must not throw trash",
+        "mustn't throw trash"
       ]
     },
     {
-      "id": "q12",
-      "section": "12-13",
-      "sectionTitle": "[12–13]",
-      "sectionInstructionKo": "[12–13] 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "id": "q11b",
+      "section": "11",
+      "sectionTitle": "[11]",
+      "sectionInstructionKo": "[11] 표지판을 보고 must와 주어진 단어를 사용하여 나타내는 것을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "label": "12",
+      "label": "11-2",
       "type": "fill",
-      "promptEn": "B: I can understand English. / C: Can Mandy bake?",
+      "promptEn": "(2) You ______ here. (a bike, ride)",
+      "blanks": 1,
+      "accept": [
+        "must not ride a bike",
+        "mustn't ride a bike"
+      ]
+    },
+    {
+      "id": "q12a",
+      "section": "12",
+      "sectionTitle": "[12]",
+      "sectionInstructionKo": "[12] 다음 대화에서 어법상 알맞지 않은 부분 두 군데를 찾아 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "12-1",
+      "type": "fill",
+      "promptEn": "ⓒ Can Mandy bakes cookies? →",
       "blanks": 2,
       "accept": [
-        "I can understand English|Can Mandy bake"
+        "c|Can Mandy bake cookies",
+        "ⓒ|Can Mandy bake cookies"
+      ]
+    },
+    {
+      "id": "q12b",
+      "section": "12",
+      "sectionTitle": "[12]",
+      "sectionInstructionKo": "[12] 다음 대화에서 어법상 알맞지 않은 부분 두 군데를 찾아 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "12-2",
+      "type": "fill",
+      "promptEn": "ⓓ No, she can. →",
+      "blanks": 2,
+      "accept": [
+        "d|No, she can't",
+        "d|No, she cannot",
+        "ⓓ|No, she can't"
       ]
     },
     {
       "id": "q13",
-      "section": "12-13",
-      "sectionTitle": "[12–13]",
-      "sectionInstructionKo": "[12–13] 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "13",
+      "sectionTitle": "[13]",
+      "sectionInstructionKo": "[13] 다음 중 어색한 대화를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "13",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "Yes, you can't",
-        "No, you can't",
-        "Yes, you can"
+        "A: Can I help you? B: No, thanks.",
+        "A: Can I take a picture? B: No, you can't.",
+        "A: Can I read the letter? B: Yes, you can't.",
+        "A: May I enter the room? B: Yes, you may.",
+        "A: Could you lend me your pen? B: Of course."
       ],
       "accept": [
         "3",
@@ -365,57 +528,104 @@
       "answer": "3"
     },
     {
-      "id": "q14",
+      "id": "q14a",
       "section": "14",
       "sectionTitle": "[14]",
-      "sectionInstructionKo": "[14] have to/don't have to로 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[14] 주어진 상황에 맞게 have to와 주어진 단어를 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "label": "14",
+      "label": "14-1",
       "type": "fill",
-      "promptEn": "Hojin must clean / weekend no uniform",
-      "blanks": 2,
+      "promptEn": "He ______ it right now. (clean)",
+      "blanks": 1,
       "accept": [
-        "has to clean|don't have to wear",
-        "has to clean|do not have to wear"
+        "has to clean"
+      ]
+    },
+    {
+      "id": "q14b",
+      "section": "14",
+      "sectionTitle": "[14]",
+      "sectionInstructionKo": "[14] 주어진 상황에 맞게 have to와 주어진 단어를 사용하여 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "14-2",
+      "type": "fill",
+      "promptEn": "I ______ my school uniform on weekends. (wear)",
+      "blanks": 1,
+      "accept": [
+        "don't have to wear",
+        "do not have to wear"
       ]
     },
     {
       "id": "q15",
-      "section": "15-16",
-      "sectionTitle": "[15–16]",
-      "sectionInstructionKo": "[15–16] can/can't으로 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "15",
-      "type": "fill",
-      "promptEn": "Susan: piano yes, Chinese yes. Andy: Chinese no.",
-      "blanks": 3,
-      "accept": [
-        "can play the piano|can speak Chinese|can't speak Chinese",
-        "can play the piano|can speak Chinese|cannot speak Chinese"
-      ]
-    },
-    {
-      "id": "q16",
-      "section": "15-16",
-      "sectionTitle": "[15–16]",
-      "sectionInstructionKo": "[15–16] can/can't으로 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "section": "15",
+      "sectionTitle": "[15]",
+      "sectionInstructionKo": "[15] 다음 중 어법상 알맞은 문장만을 포함하고 있는 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "label": "16",
+      "label": "15",
       "type": "mc",
       "promptEn": "",
       "choices": [
-        "May I use",
-        "Must I use",
-        "Should I use"
+        "ⓐ, ⓑ, ⓕ",
+        "ⓐ, ⓒ, ⓓ, ⓔ",
+        "ⓑ, ⓒ, ⓔ",
+        "ⓒ, ⓓ, ⓕ, ⓖ",
+        "ⓒ, ⓔ, ⓖ"
       ],
       "accept": [
-        "1",
-        "①"
+        "2",
+        "②"
       ],
-      "answer": "1"
+      "answer": "2"
+    },
+    {
+      "id": "q16a",
+      "section": "16",
+      "sectionTitle": "[16]",
+      "sectionInstructionKo": "[16] 표를 보고 (1), (2) Susan이 할 수 있는 것, (3) Andy가 할 수 없는 것을 can을 사용하여 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "16-1",
+      "type": "fill",
+      "promptEn": "Susan can play the piano.",
+      "blanks": 1,
+      "accept": [
+        "can play the piano"
+      ]
+    },
+    {
+      "id": "q16b",
+      "section": "16",
+      "sectionTitle": "[16]",
+      "sectionInstructionKo": "[16] 표를 보고 (1), (2) Susan이 할 수 있는 것, (3) Andy가 할 수 없는 것을 can을 사용하여 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "16-2",
+      "type": "fill",
+      "promptEn": "Susan can speak Chinese.",
+      "blanks": 1,
+      "accept": [
+        "can speak Chinese"
+      ]
+    },
+    {
+      "id": "q16c",
+      "section": "16",
+      "sectionTitle": "[16]",
+      "sectionInstructionKo": "[16] 표를 보고 (1), (2) Susan이 할 수 있는 것, (3) Andy가 할 수 없는 것을 can을 사용하여 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "16-3",
+      "type": "fill",
+      "promptEn": "Andy cannot speak Chinese.",
+      "blanks": 1,
+      "accept": [
+        "can't speak Chinese",
+        "cannot speak Chinese"
+      ]
     }
   ],
   "testId": "c04-test",
