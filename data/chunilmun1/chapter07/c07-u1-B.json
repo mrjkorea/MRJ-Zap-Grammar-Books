@@ -4,22 +4,22 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c07:u1-B",
   "title": "Unit 1 Unit Exercise — Section B",
-  "subtitle": "형용사 · POINT 3·4 (p. 80)",
-  "pages": "80",
+  "subtitle": "형용사 · POINT 3·4 (p. 82)",
+  "pages": "82",
   "timerMinutes": 20,
   "unitId": "chapter-07",
   "unitTitle": "Chapter 07 — 형용사, 부사, 비교",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section B 7문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section B 7문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "many/much, a few, a little 등을 쓰세요. POINT 3·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "many/much, a few, a little 등을 쓰세요. POINT 3·4.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "itemCount": 7,
       "exampleCount": 0,
       "labels": [
@@ -38,106 +38,141 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "many/much, a few, a little 등을 쓰세요. POINT 3·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B1",
-      "type": "fill",
-      "promptEn": "How ________ sugar do you need?",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "We didn't get [much / many] rain this summer.",
+      "choices": [
+        "much",
+        "many"
+      ],
       "accept": [
-        "much"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "many/much, a few, a little 등을 쓰세요. POINT 3·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B2",
-      "type": "fill",
-      "promptEn": "There are ________ people here.",
-      "blanks": 1,
-      "accept": [
+      "type": "mc",
+      "promptEn": "There are [much / lots of] flowers in the garden.",
+      "choices": [
+        "much",
         "lots of"
-      ]
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "many/much, a few, a little 등을 쓰세요. POINT 3·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B3",
-      "type": "fill",
-      "promptEn": "________ students passed the test.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "She spent [a little / a few] time alone.",
+      "choices": [
+        "a little",
+        "a few"
+      ],
       "accept": [
-        "many"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "many/much, a few, a little 등을 쓰세요. POINT 3·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B4",
-      "type": "fill",
-      "promptEn": "I have ________ close friends.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "There are [much / many] cars on the road.",
+      "choices": [
+        "much",
+        "many"
+      ],
       "accept": [
-        "a few"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "many/much, a few, a little 등을 쓰세요. POINT 3·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B5",
-      "type": "fill",
-      "promptEn": "Add ________ salt, please.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "I took [a lot of / much] pictures with him.",
+      "choices": [
+        "a lot of",
+        "much"
+      ],
       "accept": [
-        "a little"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "b06",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "many/much, a few, a little 등을 쓰세요. POINT 3·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B6",
-      "type": "fill",
-      "promptEn": "She spends ________ time online.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "[Few / Little] students know about the writer.",
+      "choices": [
+        "Few",
+        "Little"
+      ],
       "accept": [
-        "a lot of"
-      ]
+        "1",
+        "①"
+      ],
+      "answer": "1"
     },
     {
       "id": "b07",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "many/much, a few, a little 등을 쓰세요. POINT 3·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 3·4. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "B7",
-      "type": "fill",
-      "promptEn": "________ people know the truth.",
-      "blanks": 1,
+      "type": "mc",
+      "promptEn": "There were [a little / a few] children on the playground.",
+      "choices": [
+        "a little",
+        "a few"
+      ],
       "accept": [
-        "Few"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     }
   ]
 }

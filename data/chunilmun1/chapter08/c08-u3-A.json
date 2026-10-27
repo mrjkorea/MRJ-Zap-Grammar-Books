@@ -4,29 +4,32 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c08:u3-A",
   "title": "Unit 3 Unit Exercise — Section A",
-  "subtitle": "감탄문 · POINT 6 (p. 92)",
-  "pages": "92",
+  "subtitle": "부가·부정 의문문 · POINT 10 (p. 103)",
+  "pages": "103",
   "timerMinutes": 20,
   "unitId": "chapter-08",
   "unitTitle": "Chapter 08 — 여러 가지 문장 종류",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 4문항(문장 전체 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 7문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "감탄문을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "directionKo": "감탄문을 완성하세요. POINT 6.",
-      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
-      "itemCount": 4,
+      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 10. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "directionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 10.",
+      "ruleKo": "맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 7,
       "exampleCount": 0,
       "labels": [
         "A1",
         "A2",
         "A3",
-        "A4"
+        "A4",
+        "A5",
+        "A6",
+        "A7"
       ]
     }
   ],
@@ -35,60 +38,117 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "감탄문을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 10. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
-      "type": "sentence",
-      "promptEn": "(정말 예쁜 꽃이다!)",
+      "type": "fill",
+      "promptEn": "The actor is very famous, <u>doesn't he</u>?",
+      "blanks": 1,
       "accept": [
-        "What a beautiful flower!",
-        "What beautiful flowers!"
+        "isn't he",
+        "X isn't he",
+        "X, isn't he"
       ]
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "감탄문을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 10. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
-      "type": "sentence",
-      "promptEn": "(너무 덥다!)",
+      "type": "fill",
+      "promptEn": "We are not going to leave now, <u>aren't we</u>?",
+      "blanks": 1,
       "accept": [
-        "How hot it is!",
-        "It's so hot!"
+        "are we",
+        "X are we",
+        "X, are we"
       ]
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "감탄문을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 10. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
-      "type": "sentence",
-      "promptEn": "(맛있다!)",
+      "type": "fill",
+      "promptEn": "My teacher looks upset now, <u>doesn't she</u>?",
+      "blanks": 1,
       "accept": [
-        "How delicious!",
-        "It's delicious!"
+        "O",
+        "o"
       ]
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "감탄문을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 10. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
-      "type": "sentence",
-      "promptEn": "(큰 집이다!)",
+      "type": "fill",
+      "promptEn": "Tell me about your last vacation, <u>shall you</u>?",
+      "blanks": 1,
       "accept": [
-        "What a big house!",
-        "What a large house!"
+        "will you",
+        "X will you",
+        "X, will you"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 10. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Jack can play the trumpet, <u>can't he</u>?",
+      "blanks": 1,
+      "accept": [
+        "O",
+        "o"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 10. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Nick and Betty don't know your address, <u>do you</u>?",
+      "blanks": 1,
+      "accept": [
+        "don't they",
+        "X don't they",
+        "X, don't they"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 10. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "You have a pet dog, <u>aren't you</u>?",
+      "blanks": 1,
+      "accept": [
+        "don't you",
+        "X don't you",
+        "X, don't you"
       ]
     }
   ]
