@@ -4,22 +4,22 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c11:u3-A",
   "title": "Unit 3 Unit Exercise — Section A",
-  "subtitle": "전치사 · POINT 5 (p. 116)",
-  "pages": "116",
-  "timerMinutes": 20,
+  "subtitle": "전치사 · POINT 5 (p. 145)",
+  "pages": "145",
+  "timerMinutes": 18,
   "unitId": "chapter-11",
   "unitTitle": "Chapter 11 — 전치사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 5문항(고르기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 5문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "고르세요. POINT 5.",
-      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "instructionKo": "빈칸에 알맞은 전치사를 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "빈칸에 알맞은 전치사를 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 5.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 5,
       "exampleCount": 0,
       "labels": [
@@ -28,6 +28,13 @@
         "A3",
         "A4",
         "A5"
+      ],
+      "wordBank": [
+        "to",
+        "with",
+        "by",
+        "like",
+        "about"
       ]
     }
   ],
@@ -36,116 +43,76 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "빈칸에 알맞은 전치사를 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
-      "type": "mc",
-      "promptEn": "between / among",
-      "choices": [
-        "between the two boys",
-        "among the two boys",
-        "between three friends",
-        "among the corner",
-        "between Monday"
-      ],
+      "type": "fill",
+      "promptEn": "The child sang a song ________ a bird.",
+      "blanks": 1,
       "accept": [
-        "1",
-        "①"
-      ],
-      "answer": "1"
+        "like"
+      ]
     },
     {
       "id": "a02",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "빈칸에 알맞은 전치사를 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
-      "type": "mc",
-      "promptEn": "in front of",
-      "choices": [
-        "in front the car",
-        "in front of the car",
-        "in the front car",
-        "on front of the car",
-        "at front of the car"
-      ],
+      "type": "fill",
+      "promptEn": "I went to visit my grandparents ________ train.",
+      "blanks": 1,
       "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
+        "by"
+      ]
     },
     {
       "id": "a03",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "빈칸에 알맞은 전치사를 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
-      "type": "mc",
-      "promptEn": "by / until",
-      "choices": [
-        "by Friday",
-        "until Friday",
-        "by 5 pm",
-        "until 5 pm",
-        "all correct"
-      ],
+      "type": "fill",
+      "promptEn": "My close friend moved ________ another city.",
+      "blanks": 1,
       "accept": [
-        "5",
-        "⑤"
-      ],
-      "answer": "5"
+        "to"
+      ]
     },
     {
       "id": "a04",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "빈칸에 알맞은 전치사를 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
-      "type": "mc",
-      "promptEn": "with / without",
-      "choices": [
-        "with me",
-        "without me",
-        "with care",
-        "without care",
-        "all correct"
-      ],
+      "type": "fill",
+      "promptEn": "She will give a speech ________ world peace.",
+      "blanks": 1,
       "accept": [
-        "5",
-        "⑤"
-      ],
-      "answer": "5"
+        "about"
+      ]
     },
     {
       "id": "a05",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "빈칸에 알맞은 전치사를 <보기>에서 골라 쓰세요. (단, 한 번씩만 쓸 것) POINT 5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
-      "type": "mc",
-      "promptEn": "Find error.",
-      "choices": [
-        "on the table",
-        "in the box",
-        "at home",
-        "in the night",
-        "at school"
-      ],
+      "type": "fill",
+      "promptEn": "I went to the market ________ my mom.",
+      "blanks": 1,
       "accept": [
-        "4",
-        "④"
-      ],
-      "answer": "4"
+        "with"
+      ]
     }
   ]
 }

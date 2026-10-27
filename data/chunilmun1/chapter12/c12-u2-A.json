@@ -4,30 +4,26 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c12:u2-A",
   "title": "Unit 2 Unit Exercise — Section A",
-  "subtitle": "접속사 · POINT 3 (p. 122)",
-  "pages": "122",
-  "timerMinutes": 20,
+  "subtitle": "접속사 · POINT 3 (p. 154)",
+  "pages": "154",
+  "timerMinutes": 18,
   "unitId": "chapter-12",
   "unitTitle": "Chapter 12 — 접속사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 5문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 1문항(짝 맞추기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "접속사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "접속사를 쓰세요. POINT 3.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 5,
+      "instructionKo": "문맥상 자연스러운 문장이 되도록 알맞은 것을 골라 연결하세요. POINT 3. 왼쪽과 오른쪽을 연결하세요.",
+      "directionKo": "문맥상 자연스러운 문장이 되도록 알맞은 것을 골라 연결하세요. POINT 3.",
+      "ruleKo": "왼쪽과 오른쪽을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 1,
       "exampleCount": 0,
       "labels": [
-        "A1",
-        "A2",
-        "A3",
-        "A4",
-        "A5"
+        "A1"
       ]
     }
   ],
@@ -36,76 +32,41 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "문맥상 자연스러운 문장이 되도록 알맞은 것을 골라 연결하세요. POINT 3. 왼쪽과 오른쪽을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "________ you are ready, let's start.",
-      "blanks": 1,
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Turn off the light",
+          "right": "when you leave the room."
+        },
+        {
+          "left": "I don't like lemons",
+          "right": "because they're sour."
+        },
+        {
+          "left": "After I finished exercising,",
+          "right": "I was very thirsty."
+        },
+        {
+          "left": "He packed his school bag",
+          "right": "before he went to school."
+        },
+        {
+          "left": "If you study hard,",
+          "right": "you can learn English quickly."
+        }
+      ],
       "accept": [
-        "When"
-      ]
-    },
-    {
-      "id": "a02",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A2",
-      "type": "fill",
-      "promptEn": "I won't go out ________ it stops raining.",
-      "blanks": 1,
-      "accept": [
-        "until"
-      ]
-    },
-    {
-      "id": "a03",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A3",
-      "type": "fill",
-      "promptEn": "________ he was tired, he kept working.",
-      "blanks": 1,
-      "accept": [
-        "Although"
-      ]
-    },
-    {
-      "id": "a04",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A4",
-      "type": "fill",
-      "promptEn": "Call me ________ you need help.",
-      "blanks": 1,
-      "accept": [
-        "if"
-      ]
-    },
-    {
-      "id": "a05",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A5",
-      "type": "fill",
-      "promptEn": "She was reading ________ I was cooking.",
-      "blanks": 1,
-      "accept": [
-        "while"
-      ]
+        "Turn off the light|when you leave the room.",
+        "I don't like lemons|because they're sour.",
+        "After I finished exercising,|I was very thirsty.",
+        "He packed his school bag|before he went to school.",
+        "If you study hard,|you can learn English quickly."
+      ],
+      "promptKo": "1–5와 ⓐ–ⓔ 연결"
     }
   ]
 }

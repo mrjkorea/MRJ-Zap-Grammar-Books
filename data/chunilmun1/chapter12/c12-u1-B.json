@@ -4,30 +4,29 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c12:u1-B",
   "title": "Unit 1 Unit Exercise — Section B",
-  "subtitle": "접속사 · POINT 1·2 (p. 120)",
-  "pages": "120",
+  "subtitle": "접속사 · POINT 1 (p. 151)",
+  "pages": "151",
   "timerMinutes": 20,
   "unitId": "chapter-12",
   "unitTitle": "Chapter 12 — 접속사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section B 5문항(고르기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section B 4문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "고르세요. POINT 1·2.",
-      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "itemCount": 5,
+      "instructionKo": "빈칸에 알맞은 것을 <보기>에서 골라 문장을 완성하세요. POINT 1. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "빈칸에 알맞은 것을 <보기>에서 골라 문장을 완성하세요. POINT 1.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "B1",
         "B2",
         "B3",
-        "B4",
-        "B5"
+        "B4"
       ]
     }
   ],
@@ -36,116 +35,61 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "빈칸에 알맞은 것을 <보기>에서 골라 문장을 완성하세요. POINT 1. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B1",
-      "type": "mc",
-      "promptEn": "Choose conjunction.",
-      "choices": [
-        "because",
-        "but",
-        "and",
-        "so",
-        "when"
-      ],
+      "type": "sentence",
+      "promptEn": "The movie was long, ________.\n<보기> ① and tastes delicious  ② but he put it back  ③ or an apple  ④ but it was interesting",
       "accept": [
-        "3",
-        "③"
-      ],
-      "answer": "3"
+        "The movie was long, but it was interesting.",
+        "but it was interesting"
+      ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "빈칸에 알맞은 것을 <보기>에서 골라 문장을 완성하세요. POINT 1. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B2",
-      "type": "mc",
-      "promptEn": "Choose conjunction.",
-      "choices": [
-        "if",
-        "because",
-        "but",
-        "and",
-        "or"
-      ],
+      "type": "sentence",
+      "promptEn": "Street food looks good ________.\n<보기> ① and tastes delicious  ② but he put it back  ③ or an apple  ④ but it was interesting",
       "accept": [
-        "2",
-        "②"
-      ],
-      "answer": "2"
+        "Street food looks good and tastes delicious.",
+        "and tastes delicious"
+      ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "빈칸에 알맞은 것을 <보기>에서 골라 문장을 완성하세요. POINT 1. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B3",
-      "type": "mc",
-      "promptEn": "Find error.",
-      "choices": [
-        "I like tea and coffee.",
-        "He is kind but shy.",
-        "She was sick because she ate too much.",
-        "I will go if it rains.",
-        "We stayed home so it was cold."
-      ],
+      "type": "sentence",
+      "promptEn": "My father caught a big fish, ________.\n<보기> ① and tastes delicious  ② but he put it back  ③ or an apple  ④ but it was interesting",
       "accept": [
-        "5",
-        "⑤"
-      ],
-      "answer": "5"
+        "My father caught a big fish, but he put it back.",
+        "but he put it back"
+      ]
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "sectionInstructionKo": "빈칸에 알맞은 것을 <보기>에서 골라 문장을 완성하세요. POINT 1. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "B4",
-      "type": "mc",
-      "promptEn": "Choose conjunction.",
-      "choices": [
-        "before",
-        "after",
-        "when",
-        "while",
-        "until"
-      ],
+      "type": "sentence",
+      "promptEn": "You can have an orange ________. Choose one.\n<보기> ① and tastes delicious  ② but he put it back  ③ or an apple  ④ but it was interesting",
       "accept": [
-        "3",
-        "③"
-      ],
-      "answer": "3"
-    },
-    {
-      "id": "b05",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "고르세요. POINT 1·2. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
-      "label": "B5",
-      "type": "mc",
-      "promptEn": "Choose conjunction.",
-      "choices": [
-        "although",
-        "because",
-        "and",
-        "or",
-        "so"
-      ],
-      "accept": [
-        "1",
-        "①"
-      ],
-      "answer": "1"
+        "You can have an orange or an apple.",
+        "or an apple"
+      ]
     }
   ]
 }

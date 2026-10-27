@@ -3,8 +3,7 @@
  * Fail if chunilmun1 practice JSON contains placeholder / answer-key-only stems.
  * Practices must be built from student-book or workbook page scans.
  *
- * Scope: Ch01–10 + review-01/02 (see docs/SOURCE-PAGES-REQUIRED.md).
- * Ch11–12 join the guard after scan rebuild lands.
+ * Scope: Ch01–12 + review-01/02/03 (see docs/SOURCE-PAGES-REQUIRED.md).
  */
 const fs = require("fs");
 const path = require("path");
@@ -14,9 +13,9 @@ const ROOT = path.join(REPO, "data/chunilmun1");
 
 /** Practices rebuilt from page scans in this effort (expand when more PDFs land). */
 const VERIFIED_PATH =
-  /data\/chunilmun1\/(chapter0[1-9]|chapter10|review-0[12])\//;
+  /data\/chunilmun1\/(chapter0[1-9]|chapter10|chapter11|chapter12|review-0[12])\//;
 
-const CHAPTER_SOURCE_REQUIRED = [2, 3, 4, 5, 6, 7, 8, 9, 10];
+const CHAPTER_SOURCE_REQUIRED = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 const WB_PLACEHOLDER = /WB\d+-U\d*-?[A-D]\d*\s+_+/;
 const ONLY_BLANK_STEM = /^[\s_]+(\.|$)/;
@@ -123,7 +122,7 @@ function main() {
     for (const p of problems) console.error(" -", p);
     process.exit(1);
   }
-  console.log(`check-no-guessed-stems: OK (${scanned} practice files, Ch01–10 + reviews)`);
+  console.log(`check-no-guessed-stems: OK (${scanned} practice files, Ch01–12 + reviews)`);
 }
 
 main();

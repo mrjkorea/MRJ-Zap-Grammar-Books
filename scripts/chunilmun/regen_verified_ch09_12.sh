@@ -10,9 +10,11 @@ python3 _extracted_ch09_ch10_sb.py
 echo "== Ch09–10 WB =="
 python3 _extracted_ch09_ch10_wb.py
 
-echo "== Ch11–12 SB + WB (placeholder) =="
-# python3 _extracted_ch11_ch12_sb.py
-# python3 _extracted_ch11_ch12_wb.py
+echo "== Ch11–12 SB =="
+python3 _extracted_ch11_ch12_sb.py
+
+echo "== Ch11–12 WB =="
+python3 _extracted_ch11_ch12_wb.py
 
 echo "== catalog =="
 node apply-catalog.mjs

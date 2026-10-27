@@ -4,27 +4,29 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c11:u3-C",
   "title": "Unit 3 Unit Exercise — Section C",
-  "subtitle": "전치사 · POINT 6 (p. 116)",
-  "pages": "116",
-  "timerMinutes": 20,
+  "subtitle": "전치사 · POINT 6 (p. 145)",
+  "pages": "145",
+  "timerMinutes": 22,
   "unitId": "chapter-11",
   "unitTitle": "Chapter 11 — 전치사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section C 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section C 4문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "대화를 완성하세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "대화를 완성하세요. POINT 6.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 2,
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
       "exampleCount": 0,
       "labels": [
         "C1",
-        "C2"
+        "C2",
+        "C3",
+        "C4"
       ]
     }
   ],
@@ -33,30 +35,57 @@
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "대화를 완성하세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C1",
-      "type": "fill",
-      "promptEn": "A: Where is Tom? B: He is ________ the garden.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "Serena는 과학을 잘한다. (science, good)\n→ Serena ________________________________.",
       "accept": [
-        "in"
+        "Serena is good at science."
       ]
     },
     {
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "대화를 완성하세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
       "label": "C2",
-      "type": "fill",
-      "promptEn": "A: When is the test? B: It is ________ Friday.",
-      "blanks": 1,
+      "type": "sentence",
+      "promptEn": "내 남동생은 자동차에 흥미가 있다. (cars, interested)\n→ My brother ________________________________.",
       "accept": [
-        "on"
+        "My brother is interested in cars."
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C3",
+      "type": "sentence",
+      "promptEn": "양동이는 물고기로 가득 차 있다. (fish, full)\n→ The bucket ________________________________.",
+      "accept": [
+        "The bucket is full of fish."
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C4",
+      "type": "sentence",
+      "promptEn": "나는 버스터미널에서 집까지 걸어갔다. (the bus terminal)\n→ I walked ________________________________ my home.",
+      "accept": [
+        "I walked from the bus terminal to my home.",
+        "from the bus terminal to"
       ]
     }
   ]

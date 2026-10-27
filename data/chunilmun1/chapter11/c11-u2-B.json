@@ -4,39 +4,28 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:c11:u2-B",
   "title": "Unit 2 Unit Exercise — Section B",
-  "subtitle": "전치사 · POINT 3·4 (p. 114)",
-  "pages": "114",
-  "timerMinutes": 20,
+  "subtitle": "전치사 · POINT 4 (p. 143)",
+  "pages": "143",
+  "timerMinutes": 18,
   "unitId": "chapter-11",
   "unitTitle": "Chapter 11 — 전치사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section B 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section B 3문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "전치사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 전치사를 순서대로 쓰세요.",
-      "directionKo": "전치사를 넣어 문장을 완성하세요. POINT 3·4.",
-      "ruleKo": "상자에서 알맞은 전치사를 순서대로 쓰세요.",
+      "instructionKo": "주어진 단어 중 알맞은 것을 골라 빈칸에 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 단어 중 알맞은 것을 골라 빈칸에 쓰세요. POINT 4.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 4,
+      "itemCount": 3,
       "exampleCount": 0,
       "labels": [
         "B1",
         "B2",
-        "B3",
-        "B4"
-      ],
-      "wordBank": [
-        "to",
-        "for",
-        "of",
-        "at",
-        "in",
-        "on",
-        "with",
-        "from"
+        "B3"
       ]
     }
   ],
@@ -45,61 +34,48 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "전치사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 전치사를 순서대로 쓰세요.",
+      "sectionInstructionKo": "주어진 단어 중 알맞은 것을 골라 빈칸에 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "She is good ________ English.",
-      "blanks": 1,
+      "promptEn": "(before, after)\nI was really tired ________ the trip.\nPlease check the user guide ________ use.",
+      "blanks": 2,
       "accept": [
-        "at"
+        "after",
+        "before"
       ]
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "전치사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 전치사를 순서대로 쓰세요.",
+      "sectionInstructionKo": "주어진 단어 중 알맞은 것을 골라 빈칸에 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "I'm looking ________ my keys.",
-      "blanks": 1,
+      "promptEn": "(for, during)\nI waited for a bus ________ 20 minutes.\nPay attention to your teacher's words ________ class.",
+      "blanks": 2,
       "accept": [
-        "for"
+        "for",
+        "during"
       ]
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "전치사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 전치사를 순서대로 쓰세요.",
+      "sectionInstructionKo": "주어진 단어 중 알맞은 것을 골라 빈칸에 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "He came ________ Busan.",
-      "blanks": 1,
+      "promptEn": "(by, until)\nJoin our club ________ the end of this month.\nThe library is open ________ 9 o'clock tonight.",
+      "blanks": 2,
       "accept": [
-        "from"
-      ]
-    },
-    {
-      "id": "b04",
-      "section": "B",
-      "sectionTitle": "Section B",
-      "sectionInstructionKo": "전치사를 넣어 문장을 완성하세요. POINT 3·4. 상자에서 알맞은 전치사를 순서대로 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "B4",
-      "type": "fill",
-      "promptEn": "Talk ________ me later.",
-      "blanks": 1,
-      "accept": [
-        "to",
-        "with"
+        "by",
+        "until"
       ]
     }
   ]

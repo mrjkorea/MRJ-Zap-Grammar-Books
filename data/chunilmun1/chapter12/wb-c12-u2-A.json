@@ -4,35 +4,26 @@
   "appName": "천일문 Grammar 1",
   "practiceId": "cm1:wb-c12:u2-A",
   "title": "Workbook Unit 2 — Section A",
-  "subtitle": "접속사 · WB Unit 2 (WB p. 88)",
-  "pages": "88",
-  "timerMinutes": 22,
+  "subtitle": "접속사 · POINT 3 (WB p. 94)",
+  "pages": "94",
+  "timerMinutes": 20,
   "unitId": "wb-chapter-12",
   "unitTitle": "Ch 12 WB — 접속사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 Section A 1문항(짝 맞추기)으로 되어 있어요.",
   "sections": [
     {
       "id": "A",
       "title": "Section A",
-      "instructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "접속사를 쓰세요. POINT 2.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 10,
+      "instructionKo": "문맥상 자연스러운 문장이 되도록 알맞은 것을 골라 연결하세요. POINT 3. 왼쪽과 오른쪽을 연결하세요.",
+      "directionKo": "문맥상 자연스러운 문장이 되도록 알맞은 것을 골라 연결하세요. POINT 3.",
+      "ruleKo": "왼쪽과 오른쪽을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 1,
       "exampleCount": 0,
       "labels": [
-        "A1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6",
-        "A7",
-        "A8",
-        "A9",
-        "A10"
+        "A1"
       ]
     }
   ],
@@ -41,151 +32,56 @@
       "id": "a01",
       "section": "A",
       "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "문맥상 자연스러운 문장이 되도록 알맞은 것을 골라 연결하세요. POINT 3. 왼쪽과 오른쪽을 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
       "label": "A1",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Vicky was only 5 years old",
+          "right": "when she first wrote a song."
+        },
+        {
+          "left": "I didn't bring my umbrella,",
+          "right": "so I'm all wet now."
+        },
+        {
+          "left": "The meeting will start",
+          "right": "after everyone arrives."
+        },
+        {
+          "left": "The girl was absent",
+          "right": "because she was ill."
+        },
+        {
+          "left": "Take this medicine",
+          "right": "when you have a headache."
+        },
+        {
+          "left": "They didn't eat the soup",
+          "right": "because it was too salty."
+        },
+        {
+          "left": "Turn on the power",
+          "right": "before you use the machine."
+        },
+        {
+          "left": "The alarm will ring",
+          "right": "if there's a fire."
+        }
+      ],
       "accept": [
-        "and"
-      ]
-    },
-    {
-      "id": "a02",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A2",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
-      "accept": [
-        "and"
-      ]
-    },
-    {
-      "id": "a03",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A3",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
-      "accept": [
-        "and"
-      ]
-    },
-    {
-      "id": "a04",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A4",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
-      "accept": [
-        "and"
-      ]
-    },
-    {
-      "id": "a05",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A5",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
-      "accept": [
-        "and"
-      ]
-    },
-    {
-      "id": "a06",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A6",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
-      "accept": [
-        "and"
-      ]
-    },
-    {
-      "id": "a07",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A7",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
-      "accept": [
-        "and"
-      ]
-    },
-    {
-      "id": "a08",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A8",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
-      "accept": [
-        "and"
-      ]
-    },
-    {
-      "id": "a09",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A9",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
-      "accept": [
-        "and"
-      ]
-    },
-    {
-      "id": "a10",
-      "section": "A",
-      "sectionTitle": "Section A",
-      "sectionInstructionKo": "접속사를 쓰세요. POINT 2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "A10",
-      "type": "fill",
-      "promptEn": "WB12-U2-A ________.",
-      "blanks": 1,
-      "accept": [
-        "and"
-      ]
+        "Vicky was only 5 years old|when she first wrote a song.",
+        "I didn't bring my umbrella,|so I'm all wet now.",
+        "The meeting will start|after everyone arrives.",
+        "The girl was absent|because she was ill.",
+        "Take this medicine|when you have a headache.",
+        "They didn't eat the soup|because it was too salty.",
+        "Turn on the power|before you use the machine.",
+        "The alarm will ring|if there's a fire."
+      ],
+      "promptKo": "1–8와 ⓐ–ⓗ 연결"
     }
   ]
 }
