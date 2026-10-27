@@ -23,4 +23,9 @@ Generators:
 - SB: `scripts/chunilmun/_extracted_ch09_ch10_sb.py` → `build_ch10_sb()`
 - WB: `scripts/chunilmun/_extracted_ch09_ch10_wb.py` → `build_ch10_wb()`
 
-Answer keys: booklet **p. 57–58** (WB); SB unit/test keys booklet **p. 26–27**.
+Answer keys:
+
+- **WB** — `uploads/keys-part4_a100.pdf` (booklet pp. 57–58).
+- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 25–27**); rendered keys `chunilmun/redo/attach/keys-sb-slice/p-25.png`–`p-27.png`.
+  - Unit exercises: booklet **pp. 26–27** (`p-26.png`–`p-27.png`; SB pp. 125, 128, 131).
+  - **c10-test** (SB p. 133): booklet **p. 27** (`p-27.png`); verified Oct 2026 (q1→①, q5→②, q8→`getting up`, q20→`to draw`/`drawing` pictures).

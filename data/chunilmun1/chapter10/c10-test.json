@@ -286,10 +286,10 @@
         "<u>To drink</u> milk is good for your health."
       ],
       "accept": [
-        "3",
-        "③"
+        "1",
+        "①"
       ],
-      "answer": "3"
+      "answer": "1"
     },
     {
       "id": "q02",
@@ -369,10 +369,10 @@
         "grow"
       ],
       "accept": [
-        "3",
-        "③"
+        "2",
+        "②"
       ],
-      "answer": "3"
+      "answer": "2"
     },
     {
       "id": "q06",
@@ -432,7 +432,6 @@
       "promptEn": "Eric gave up to get up early in the morning.",
       "blanks": 1,
       "accept": [
-        "gave up getting up",
         "getting up"
       ]
     },
@@ -669,6 +668,7 @@
       "promptEn": "Q: What does Kate like to do after school?\nA: She loves ____________________ after school. (draw)",
       "blanks": 1,
       "accept": [
+        "to draw pictures",
         "drawing pictures",
         "drawing"
       ]

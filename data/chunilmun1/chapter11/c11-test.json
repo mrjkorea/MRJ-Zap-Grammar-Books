@@ -410,8 +410,8 @@
       ],
       "unordered": true,
       "accept": [
-        "2|5",
-        "5|2"
+        "1|2",
+        "2|1"
       ]
     },
     {
@@ -487,8 +487,7 @@
       "promptEn": "<보기> along, in, above, between\n1. A table is ________ two chairs.\n2. There is a blue car ________ the garage.\n3. There is a fence ________ the backyard.",
       "blanks": 3,
       "accept": [
-        "between|in|along",
-        "between|in|around"
+        "between|in|along"
       ]
     },
     {
@@ -509,10 +508,10 @@
         "ⓑ, ⓓ"
       ],
       "accept": [
-        "4",
-        "④"
+        "3",
+        "③"
       ],
-      "answer": "4"
+      "answer": "3"
     }
   ],
   "testId": "c11-test",

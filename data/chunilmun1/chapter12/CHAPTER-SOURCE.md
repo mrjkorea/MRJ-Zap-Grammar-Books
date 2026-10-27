@@ -20,16 +20,14 @@ Generators:
 - SB: `scripts/chunilmun/_extracted_ch11_ch12_sb.py` → `build_ch12_sb()`
 - WB: `scripts/chunilmun/_extracted_ch11_ch12_wb.py` → `build_ch12_wb()`
 
-Answer keys: **`uploads/keys-part4_a100.pdf`** (WB booklet pp. 62–63); SB unit/test keys booklet **p. 31–32** (not in keys-part4 slice).
+Answer keys:
+
+- **WB** — `uploads/keys-part4_a100.pdf` (booklet pp. 62–63).
+- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 31–32**); rendered keys `chunilmun/redo/attach/keys-sb-slice/p-31.png`–`p-32.png`.
+  - Unit exercises: booklet **pp. 31–32** (`p-31.png`; SB pp. 151, 154).
+  - **c12-test** (SB pp. 155–157): booklet **p. 32** (`p-32.png`); all 19 items verified Oct 2026.
 
 Note: WB PDF images **page-15–18** are 총괄평가 3회 (Ch09–12 review), not chapter-12 unit JSON.
-
-## UNCERTAIN (SB tests — no keys in keys-part4)
-
-- **c12-test q7**: Ann/Sam `when` sentence wording (provisional forms).
-- **c12-test q10**: Ted/bus `because` clause wording.
-- **c12-test q16**: second error may include “interestingly” → “in an interesting way” (provisional ⓐ/ⓔ only).
-- **c12-test q18**: awkward sentences — provisional `3|5`.
 
 ## Verified from keys-part4 (WB)
 

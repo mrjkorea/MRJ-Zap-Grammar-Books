@@ -23,6 +23,9 @@ Generators:
 - SB: `scripts/chunilmun/_extracted_ch09_ch10_sb.py` → `build_ch09_sb()`
 - WB: `scripts/chunilmun/_extracted_ch09_ch10_wb.py` → `build_ch09_wb()`
 
-Answer keys: **`uploads/keys-part4_a100.pdf`** (WB booklet pp. 55–56); SB test/unit keys booklet **p. 23–24** (not in keys-part4 slice).
+Answer keys:
 
-WB chapter test MC indices verified from keys-part4 (e.g. q8→⑤, q11→②).
+- **WB** — `uploads/keys-part4_a100.pdf` (booklet pp. 55–56); chapter test MC verified (e.g. q8→⑤, q11→②).
+- **SB units + chapter test** — `uploads/keys-sb-ch09-12.pdf` (booklet **pp. 22–25**); rendered keys `chunilmun/redo/attach/keys-sb-slice/p-23.png`–`p-25.png` (booklet page = filename).
+  - Unit exercises: booklet **pp. 23–24** (`p-23.png`–`p-24.png`; SB pp. 111, 114, 116).
+  - **c09-test** (SB pp. 117–119): booklet **p. 24** (`p-24.png`); all 25 items verified Oct 2026.
