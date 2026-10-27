@@ -3,7 +3,7 @@
 (function () {
   "use strict";
 
-  var VER = "20261016-audio2";
+  var VER = "20261028-chunilmun1";
   var MANIFEST_URL = "audio/manifest.json?v=" + VER;
   var app = document.getElementById("mrj-app-root");
   if (!app) return;
