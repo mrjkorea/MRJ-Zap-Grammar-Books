@@ -20,15 +20,18 @@ Generators:
 - SB: `scripts/chunilmun/_extracted_ch11_ch12_sb.py` → `build_ch12_sb()`
 - WB: `scripts/chunilmun/_extracted_ch11_ch12_wb.py` → `build_ch12_wb()`
 
-Answer keys: booklet **p. 62–63** (WB); SB unit/test keys booklet **p. 31–32**.
+Answer keys: **`uploads/keys-part4_a100.pdf`** (WB booklet pp. 62–63); SB unit/test keys booklet **p. 31–32** (not in keys-part4 slice).
 
 Note: WB PDF images **page-15–18** are 총괄평가 3회 (Ch09–12 review), not chapter-12 unit JSON.
 
-## UNCERTAIN (no keys PDF yet)
+## UNCERTAIN (SB tests — no keys in keys-part4)
 
 - **c12-test q7**: Ann/Sam `when` sentence wording (provisional forms).
 - **c12-test q10**: Ted/bus `because` clause wording.
 - **c12-test q16**: second error may include “interestingly” → “in an interesting way” (provisional ⓐ/ⓔ only).
 - **c12-test q18**: awkward sentences — provisional `3|5`.
-- **wb-c12-test q7**: choose-all among five sentences — provisional `2|4` and `2|5`.
-- **wb-c12-test q14**: Suji morning routine `before`/`after` phrasing.
+
+## Verified from keys-part4 (WB)
+
+- **wb-c12-test q7**: ②④⑤ (three blanks, any order).
+- **wb-c12-test q14**: `(1) before she has breakfast` / `(2) after she brushes her teeth`.

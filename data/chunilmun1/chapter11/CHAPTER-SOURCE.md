@@ -23,13 +23,15 @@ Generators:
 - SB: `scripts/chunilmun/_extracted_ch11_ch12_sb.py` → `build_ch11_sb()`
 - WB: `scripts/chunilmun/_extracted_ch11_ch12_wb.py` → `build_ch11_wb()`
 
-Answer keys: booklet **p. 59–61** (WB); SB unit/test keys booklet **p. 29–30**.
+Answer keys: **`uploads/keys-part4_a100.pdf`** (WB booklet pp. 59–61); SB unit/test keys booklet **p. 29–30** (not in keys-part4 slice).
 
-## UNCERTAIN (no keys PDF yet)
+## UNCERTAIN (SB tests — no keys in keys-part4)
 
 - **c11-test q10**: stem asks for two grammatically correct sentences; provisional accept `2|5` — only ② clearly correct on scan.
 - **c11-test q14**: fence preposition for backyard (provisional `along`; alt `around`).
 - **c11-test q15**: pairing of ⓐ–ⓓ prepositions (provisional option 4: ⓐ, ⓓ).
-- **wb-c11-test q4**: lamp on table vs. above table (provisional `on`).
-- **wb-c11-test q5**: “between” as the inappropriate option for tree/house (provisional).
-- **wb-c11-u1-D item 3**: `crosses over` vs `crosses across` a river.
+
+## Verified from keys-part4 (WB)
+
+- **wb-c11-test q14**: ⑤ (`with — to`).
+- **wb-c11-u1-D #3**: `over a river` (keys p. 60).

@@ -317,20 +317,16 @@
       "label": "7",
       "type": "fill",
       "promptEn": "① Mira likes singing and dance.\n② The street was clean and quiet.\n③ He was fast or couldn't catch the ball.\n④ She painted the house red and yellow.\n⑤ Do you want to play soccer or read a novel?",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "blanks": 3,
       "accept": [
-        "2|4",
-        "4|2",
-        "2|5",
-        "5|2",
-        "4|5",
-        "5|4"
-      ]
+        "2|4|5",
+        "2|5|4",
+        "4|2|5",
+        "4|5|2",
+        "5|2|4",
+        "5|4|2"
+      ],
+      "unordered": true
     },
     {
       "id": "q08",

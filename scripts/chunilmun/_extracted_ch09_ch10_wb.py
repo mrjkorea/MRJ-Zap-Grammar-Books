@@ -549,7 +549,7 @@ def _build_ch09_wb_test(m: dict) -> dict[str, dict]:
                 "I lent a comfortable chair ________ him.",
                 "Mom made a beautiful dress ________ me.",
             ],
-            answer_index=3,
+            answer_index=5,
         ),
         mc_item(
             iid="q09",
@@ -578,7 +578,7 @@ def _build_ch09_wb_test(m: dict) -> dict[str, dict]:
             label="11",
             prompt_en="우리는 그가 모두에게 친절하다는 것을 알게 되었다.",
             choices=["found", "him", "kind", "everyone", "we"],
-            answer_index=3,
+            answer_index=2,
         ),
         sent_item(
             iid="q12",

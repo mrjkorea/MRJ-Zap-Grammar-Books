@@ -2,6 +2,7 @@
 """Scan-extracted workbook data for Ch11–Ch12 — 천일문 Grammar 1 (uploads/ch11-12-wb.pdf)."""
 from __future__ import annotations
 
+import itertools
 import json
 import os
 import sys
@@ -166,7 +167,7 @@ def build_ch11_wb() -> dict[str, dict]:
         ),
         (
             "그 다리는 강 위를 가로지른다. (a river)\n→ The bridge crosses ________________________________.",
-            ["The bridge crosses over a river.", "over a river", "across a river"],
+            ["The bridge crosses over a river.", "over a river"],
         ),
         (
             "교회가 언덕 위에 있다. (the hill)\n→ There is a church ________________________________.",
@@ -641,7 +642,7 @@ def _build_ch11_wb_test(m: dict) -> dict[str, dict]:
             label="14",
             prompt_en="Will you go to the mall (A) me?\nThanks (B) the Internet, we can learn more about the world.",
             choices=["with — about", "to — for", "with — for", "to — to", "with — to"],
-            answer_index=3,
+            answer_index=5,
         ),
         mc_item(
             iid="q15",
@@ -1104,7 +1105,7 @@ def _build_ch12_wb_test(m: dict) -> dict[str, dict]:
             prompt_en="The train left and then we got to the station.\n= We got to the station ________ the train left.",
             accept=["after"],
         ),
-        choose_all_item(
+        fill_item(
             iid="q07",
             sec=secs[4],
             label="7",
@@ -1115,7 +1116,9 @@ def _build_ch12_wb_test(m: dict) -> dict[str, dict]:
                 "④ She painted the house red and yellow.\n"
                 "⑤ Do you want to play soccer or read a novel?"
             ),
-            accept_pairs=[("2", "4"), ("2", "5"), ("4", "5")],
+            accept=["|".join(p) for p in itertools.permutations(["2", "4", "5"], 3)],
+            blanks=3,
+            unordered=True,
         ),
         mc_item(
             iid="q08",

@@ -23,4 +23,6 @@ Generators:
 - SB: `scripts/chunilmun/_extracted_ch09_ch10_sb.py` → `build_ch09_sb()`
 - WB: `scripts/chunilmun/_extracted_ch09_ch10_wb.py` → `build_ch09_wb()`
 
-Answer keys: booklet **p. 55–56** (WB); SB test/unit keys booklet **p. 23–24**.
+Answer keys: **`uploads/keys-part4_a100.pdf`** (WB booklet pp. 55–56); SB test/unit keys booklet **p. 23–24** (not in keys-part4 slice).
+
+WB chapter test MC indices verified from keys-part4 (e.g. q8→⑤, q11→②).

@@ -7,7 +7,7 @@ Practice JSON under `data/chunilmun1/` must be built from **student book (SB)** 
 1. **Stems and options** — Every `promptEn`, dialogue line, and multiple-choice `choices` entry must match the printed book (spelling, punctuation, blank count).
 2. **Answer keys** — Use official keys only to set `accept` / `answer` values after the stem is verified on the exercise page.
 3. **Missing or illegible pages** — Stop. Do not ship guessed English. Document the gap in the chapter `CHAPTER-SOURCE.md` until the scan is available.
-4. **Ch11–12** — Rebuild pending `ch11-12-sb` / `ch11-12-wb` scan uploads (Ch09–10 verified).
+4. **Ch11–12** — Stems from `ch11-12-sb` / `ch11-12-wb` scans; WB accepts aligned with `keys-part4`; SB chapter tests still UNCERTAIN where keys-part4 has no SB slice.
 
 ## Scan PDFs (content)
 
@@ -22,8 +22,8 @@ Practice JSON under `data/chunilmun1/` must be built from **student book (SB)** 
 | `ch07-08-sb` | SB 72–99 | Ch07–08 SB |
 | `ch09-10-sb` | SB 100–135 (slice) | Ch09–10 SB |
 | `ch09-10-wb` | WB 68–90 (slice) | Ch09–10 WB |
-| `ch11-12-sb` | (pending upload) | Ch11–12 SB |
-| `ch11-12-wb` | (pending upload) | Ch11–12 WB |
+| `ch11-12-sb` | SB 137–157 (slice) | Ch11–12 SB |
+| `ch11-12-wb` | WB 84–97 (slice) | Ch11–12 WB |
 
 ## Answer-key PDFs (accepts only)
 
@@ -50,7 +50,7 @@ bash scripts/chunilmun/regen_verified_ch01_08.sh
 bash scripts/chunilmun/regen_verified_ch09_12.sh
 ```
 
-(Ch11–12 modules activate when `_extracted_ch11_ch12_*.py` land.)
+Includes `_extracted_ch11_ch12_sb.py` and `_extracted_ch11_ch12_wb.py`.
 
 Or stepwise modules in `scripts/chunilmun/`:
 
@@ -70,7 +70,7 @@ Per-chapter scan notes: `data/chunilmun1/chapterNN/CHAPTER-SOURCE.md` (Ch01–10
 
 `node scripts/check-no-guessed-stems.js` scans **only** verified paths:
 
-- `data/chunilmun1/chapter01` … `chapter10`
+- `data/chunilmun1/chapter01` … `chapter12`
 - `data/chunilmun1/review-01`, `review-02`
 
 It fails on placeholder patterns, including:
