@@ -36,6 +36,10 @@
     return m ? m[1] : sess("gz.book", "zap-green-1");
   }
   function setTheme(id) {
+    if (document.documentElement.getAttribute("data-view") === "hub") {
+      document.documentElement.setAttribute("data-book", "hub");
+      return;
+    }
     document.documentElement.setAttribute("data-book", themeBookAttr(id || currentBook()));
     document.documentElement.setAttribute("data-view", /^#\/p\//.test(location.hash) ? "practice" : "index");
   }
@@ -81,6 +85,7 @@
     return { n: "★", t: s.replace(/\s*\(coming soon\)/, "") };
   }
   function buildIndex() {
+    if (document.documentElement.getAttribute("data-view") === "hub") return;
     var grid = app.querySelector(".grid-2");
     if (!grid) return;
     var sels = grid.querySelectorAll("select");
@@ -99,7 +104,7 @@
     host.appendChild(el("h2", "pv-step", "1 · 책 고르기"));
     var books = el("div", "pv-books");
     Array.prototype.forEach.call(bookSel.options, function (o) {
-      if (o.disabled) return;
+      if (o.disabled || isChunilmun(o.value)) return;
       var fam = family(o.value);
       var card = el("button", "pv-book pv-" + fam + (o.value === bookSel.value ? " is-on" : ""));
       card.type = "button";
@@ -265,6 +270,7 @@
   function refresh() {
     queued = false;
     setTheme();
+    if (document.documentElement.getAttribute("data-view") === "hub") return;
     if (document.documentElement.getAttribute("data-view") === "index") {
       if (!app.querySelector(".pv-pickers") || !app.querySelector(".pv-books")) buildIndex();
       else {

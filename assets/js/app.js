@@ -7,6 +7,9 @@
   var review = window.MRJ_REVIEW;
   var SEL_BOOK = "gz.book";
   var SEL_UNIT = "gz.unit";
+  var CHUNILMUN_BOOK = "chunilmun-grammar-1";
+  var HUB_TITLE = "MRJ Grammar Practice Hub — ZAP & 천일문";
+  var ZAP_HUB_TITLE = "MRJ Zap Grammar Books";
 
   function $(tag, cls, text) {
     var el = document.createElement(tag);
@@ -47,10 +50,80 @@
     }
   }
 
+  function isChunilmunBook(bookId) {
+    return bookId === CHUNILMUN_BOOK || /chunilmun/.test(bookId || "");
+  }
+
+  function isZapBook(bookId) {
+    return !isChunilmunBook(bookId);
+  }
+
+  function setDocumentTitle(title) {
+    document.title = title;
+  }
+
+  function chunilmunUnitRoute(unitId) {
+    if (!unitId) return "#/chunilmun";
+    if (/^wb-chapter-(\d+)$/.test(unitId)) {
+      return "#/chunilmun/chapter-" + unitId.match(/^wb-chapter-(\d+)$/)[1] + "/wb";
+    }
+    if (/^chapter-(\d+)$/.test(unitId)) {
+      return "#/chunilmun/chapter-" + unitId.match(/^chapter-(\d+)$/)[1] + "/sb";
+    }
+    if (/^review-/.test(unitId)) return "#/chunilmun/" + unitId;
+    return "#/chunilmun";
+  }
+
+  function chunilmunUnitFromRoute(parts) {
+    if (!parts || !parts[1]) return null;
+    if (/^review-\d+$/.test(parts[1])) return parts[1];
+    var m = parts[1].match(/^chapter-(\d+)$/i);
+    if (!m) return null;
+    var kind = (parts[2] || "sb").toLowerCase();
+    return kind === "wb" ? "wb-chapter-" + m[1] : "chapter-" + m[1];
+  }
+
+  function chunilmunCatalog() {
+    var units = catalog.units[CHUNILMUN_BOOK] || [];
+    var chapters = [];
+    var reviews = [];
+    units.forEach(function (u) {
+      if (/^review-/.test(u.id)) {
+        reviews.push(u);
+        return;
+      }
+      var m = u.id.match(/^chapter-(\d+)$/);
+      if (!m) return;
+      chapters.push({
+        n: +m[1],
+        title: u.title.replace(/^Ch\s*\d+\s*SB\s*—\s*/i, ""),
+        sbId: u.id,
+        wbId: "wb-chapter-" + m[1],
+        sbLabel: u.title,
+        wbLabel: (units.filter(function (x) {
+          return x.id === "wb-chapter-" + m[1];
+        })[0] || { title: "Ch " + m[1] + " WB" }).title,
+      });
+    });
+    chapters.sort(function (a, b) {
+      return a.n - b.n;
+    });
+    return { chapters: chapters, reviews: reviews };
+  }
+
   function brandForBook(bookId) {
+    if (isChunilmunBook(bookId)) {
+      var cm = catalog.findBook(CHUNILMUN_BOOK);
+      return (cm && cm.appName) || "천일문 Grammar 1";
+    }
     var book = catalog.findBook(bookId) || catalog.findBook("zap-green-1");
     var name = (book && book.appName) || engine.APP_NAME;
-    return name + " · MRJ Zap Grammar Books";
+    return name + " · " + ZAP_HUB_TITLE;
+  }
+
+  function indexBackHref(bookId) {
+    if (isChunilmunBook(bookId)) return chunilmunUnitRoute(getSel(SEL_UNIT, "chapter-01"));
+    return "#/zap";
   }
 
   function practiceHref(bookId, unitId, slug) {
@@ -59,19 +132,23 @@
 
   function applyBookTheme(bookId) {
     var id = bookId || getSel(SEL_BOOK, "zap-green-1");
-    var attr =
-      id === "chunilmun-grammar-1" || /chunilmun/.test(id)
-        ? "chunilmun-grammar-1"
-        : /red/.test(id)
-          ? "red"
-          : /blue/.test(id)
-            ? "blue"
-            : "green";
+    var attr = isChunilmunBook(id)
+      ? "chunilmun-grammar-1"
+      : /red/.test(id)
+        ? "red"
+        : /blue/.test(id)
+          ? "blue"
+          : "green";
     document.documentElement.setAttribute("data-book", attr);
     document.documentElement.setAttribute(
       "data-view",
       /^#\/p\//.test(location.hash) ? "practice" : "index"
     );
+  }
+
+  function applyHubTheme() {
+    document.documentElement.setAttribute("data-book", "hub");
+    document.documentElement.setAttribute("data-view", "hub");
   }
 
   function itemDisplayLabel(item, idx) {
@@ -484,13 +561,33 @@
       renderPractice(pr);
       return;
     }
-    renderIndex();
+    if (parts[0] === "zap") {
+      renderZapIndex();
+      return;
+    }
+    if (parts[0] === "chunilmun") {
+      var unitId = chunilmunUnitFromRoute(parts);
+      if (unitId) {
+        renderChunilmunUnit(unitId);
+      } else {
+        renderChunilmunIndex();
+      }
+      return;
+    }
+    renderHomeHub();
   }
 
-  function topbar(backHref, brandText) {
+  function topbar(backHref, brandText, backLabel) {
     var bar = $("div", "topbar");
     if (backHref) {
-      var a = $("a", "back-link", "← Index");
+      var label = backLabel;
+      if (!label) {
+        if (backHref === "#/") label = "← Home";
+        else if (backHref === "#/chunilmun") label = "← Chapters";
+        else if (backHref === "#/zap") label = "← ZAP books";
+        else label = "← Back";
+      }
+      var a = $("a", "back-link", label);
       a.href = backHref;
       bar.appendChild(a);
     }
@@ -500,25 +597,183 @@
     return bar;
   }
 
-  function renderIndex() {
+  function renderHomeHub() {
     app.innerHTML = "";
-    var bookId = getSel(SEL_BOOK, "zap-green-1");
-    applyBookTheme(bookId);
-    app.appendChild(topbar(null, brandForBook(bookId)));
-    app.appendChild($("h1", null, "Practice index"));
+    applyHubTheme();
+    setDocumentTitle(HUB_TITLE);
+    app.appendChild(topbar(null, "MRJ Grammar Practice Hub"));
+    app.appendChild($("h1", null, "Choose your book series"));
     app.appendChild(
-      $("p", "lead", "Choose your book and unit, then start a timed practice. Use your paper book too.")
+      $("p", "lead", "Two products live here: MRJ ZAP Grammar (Red · Blue · Green) and 천일문 Grammar from 쎄듀 CEDU. Pick one to continue.")
     );
+
+    var stack = $("div", "hub-stack");
+
+    var zapBlock = $("section", "hub-block hub-block-zap");
+    zapBlock.appendChild($("h2", "hub-block-title", "ZAP Grammar Books"));
+    zapBlock.appendChild(
+      $("p", "hub-block-lead", "MRJ’s Red, Blue, and Green ZAP series — timed practice with your student book.")
+    );
+    var zapGo = document.createElement("a");
+    zapGo.className = "hub-entry hub-entry-zap";
+    zapGo.href = "#/zap";
+    zapGo.appendChild($("span", "hub-entry-kicker", "MRJ · Kids & teens"));
+    zapGo.appendChild($("span", "hub-entry-title", "ZAP Red · Blue · Green"));
+    zapGo.appendChild($("span", "hub-entry-sub", "10 books · Walk / Run / Jump / Fly"));
+    zapBlock.appendChild(zapGo);
+    stack.appendChild(zapBlock);
+
+    stack.appendChild($("div", "hub-divider", "Different publisher — not part of ZAP"));
+
+    var cmBlock = $("section", "hub-block hub-block-chunilmun");
+    cmBlock.appendChild($("h2", "hub-block-title", "천일문 Grammar 1"));
+    cmBlock.appendChild($("p", "hub-block-lead", "쎄듀 CEDU · Student Book & Workbook · Chapters 01–12 + 총괄평가"));
+    var cmGo = document.createElement("a");
+    cmGo.className = "hub-entry hub-entry-chunilmun";
+    cmGo.href = "#/chunilmun";
+    cmGo.appendChild($("span", "hub-entry-kicker", "CEDU · Adult slate theme"));
+    cmGo.appendChild($("span", "hub-entry-title", "천일문 Grammar 1"));
+    cmGo.appendChild($("span", "hub-entry-sub", "Tap to open chapter list (SB / WB)"));
+    cmBlock.appendChild(cmGo);
+    stack.appendChild(cmBlock);
+
+    app.appendChild(stack);
+    app.appendChild(
+      $("p", "note", "Timer: when time runs out, your answers are submitted automatically (you cannot change them after that).")
+    );
+  }
+
+  function renderChunilmunIndex() {
+    app.innerHTML = "";
+    setSel(SEL_BOOK, CHUNILMUN_BOOK);
+    applyBookTheme(CHUNILMUN_BOOK);
+    setDocumentTitle("천일문 Grammar 1 · CEDU · MRJ Practice Hub");
+    var bar = topbar("#/", "천일문 Grammar 1 · CEDU");
+    app.appendChild(bar);
+    app.appendChild($("h1", null, "천일문 Grammar 1"));
+    app.appendChild(
+      $("p", "lead", "Pick a chapter, then Student Book (SB) or Workbook (WB). Each opens that chapter’s practice list.")
+    );
+
+    var meta = chunilmunCatalog();
+    var list = $("div", "cm-chapter-list");
+    meta.chapters.forEach(function (ch) {
+      var row = $("div", "cm-chapter-row");
+      row.appendChild($("span", "cm-chapter-num", String(ch.n).padStart(2, "0")));
+      var info = $("div", "cm-chapter-info");
+      info.appendChild($("span", "cm-chapter-label", "Chapter " + ch.n));
+      info.appendChild($("span", "cm-chapter-topic", ch.title));
+      row.appendChild(info);
+      var actions = $("div", "cm-chapter-actions");
+      var sb = document.createElement("a");
+      sb.className = "cm-pick cm-pick-sb";
+      sb.href = "#/chunilmun/chapter-" + String(ch.n).padStart(2, "0") + "/sb";
+      sb.textContent = "Student Book";
+      var wb = document.createElement("a");
+      wb.className = "cm-pick cm-pick-wb";
+      wb.href = "#/chunilmun/chapter-" + String(ch.n).padStart(2, "0") + "/wb";
+      wb.textContent = "Workbook";
+      actions.appendChild(sb);
+      actions.appendChild(wb);
+      row.appendChild(actions);
+      list.appendChild(row);
+    });
+    app.appendChild(list);
+
+    if (meta.reviews.length) {
+      app.appendChild($("h2", "cm-reviews-title", "총괄평가"));
+      var revWrap = $("div", "cm-review-list");
+      meta.reviews.forEach(function (r) {
+        var a = document.createElement("a");
+        a.className = "cm-review-btn";
+        a.href = "#/chunilmun/" + r.id;
+        a.textContent = r.title.replace(/^Ch\s*\d+\s*/, "");
+        revWrap.appendChild(a);
+      });
+      app.appendChild(revWrap);
+    }
+
+    app.appendChild(
+      $("p", "note", "Not a ZAP book — 천일문 is published by 쎄듀 (CEDU). Use the SB/WB buttons so you always know which book you are in.")
+    );
+  }
+
+  function renderChunilmunUnit(unitId) {
+    setSel(SEL_BOOK, CHUNILMUN_BOOK);
+    setSel(SEL_UNIT, unitId);
+    var units = catalog.units[CHUNILMUN_BOOK] || [];
+    var unitMeta = units.filter(function (u) {
+      return u.id === unitId;
+    })[0];
+    var heading = unitMeta ? unitMeta.title : "천일문 · Practice";
+    renderBookIndex({
+      bookId: CHUNILMUN_BOOK,
+      unitId: unitId,
+      fixedUnitId: unitId,
+      backHref: "#/chunilmun",
+      pageTitle: "천일문 Grammar 1 · " + heading,
+      heading: heading,
+      lead: "3 · 연습 고르기 — tap a set below to start (timed).",
+      bookFilter: function (b) {
+        return b.id === CHUNILMUN_BOOK;
+      },
+      hideBookPicker: true,
+      hideUnitPicker: true,
+      chunilmunUnitBanner: true,
+    });
+  }
+
+  function renderZapIndex() {
+    var bookId = getSel(SEL_BOOK, "zap-green-1");
+    if (isChunilmunBook(bookId)) {
+      bookId = "zap-green-1";
+      setSel(SEL_BOOK, bookId);
+    }
+    renderBookIndex({
+      bookId: bookId,
+      backHref: "#/",
+      pageTitle: ZAP_HUB_TITLE,
+      heading: "ZAP practice index",
+      lead: "Choose your ZAP book and unit, then start a timed practice. Use your paper book too.",
+      bookFilter: function (b) {
+        return isZapBook(b.id);
+      },
+    });
+  }
+
+  function renderBookIndex(opts) {
+    opts = opts || {};
+    app.innerHTML = "";
+    var bookId = opts.bookId || getSel(SEL_BOOK, "zap-green-1");
+    if (isChunilmunBook(bookId)) setSel(SEL_BOOK, bookId);
+    applyBookTheme(bookId);
+    setDocumentTitle(opts.pageTitle || brandForBook(bookId));
+    app.appendChild(topbar(opts.backHref || null, brandForBook(bookId)));
+    app.appendChild($("h1", null, opts.heading || "Practice index"));
+    if (opts.lead) app.appendChild($("p", "lead", opts.lead));
+
+    var unitId = opts.unitId || getSel(SEL_UNIT, isChunilmunBook(bookId) ? "chapter-01" : "unit-01");
+
+    if (opts.chunilmunUnitBanner && unitId) {
+      var kind = /^wb-/.test(unitId) ? "Workbook (WB)" : /^review-/.test(unitId) ? "총괄평가" : "Student Book (SB)";
+      var banner = $("div", "cm-unit-banner");
+      banner.appendChild($("span", "cm-unit-kind", kind));
+      banner.appendChild(
+        $("span", "cm-unit-hint", /^review-/.test(unitId) ? "Comprehensive review" : "Chapter practices only — switch SB/WB from the chapter list.")
+      );
+      app.appendChild(banner);
+    }
 
     var panel = $("div", "panel");
     var grid = $("div", "grid-2");
 
-    var unitId = getSel(SEL_UNIT, "unit-01");
-
     var bookField = $("div");
-    bookField.appendChild($("label", "field-label", "Book"));
+    if (!opts.hideBookPicker) {
+      bookField.appendChild($("label", "field-label", "Book"));
+    }
     var bookSel = $("select");
     catalog.books.forEach(function (b) {
+      if (opts.bookFilter && !opts.bookFilter(b)) return;
       var opt = document.createElement("option");
       opt.value = b.id;
       opt.textContent = b.title + (b.enabled ? "" : " (coming soon)");
@@ -531,12 +786,21 @@
       bookId = "zap-green-1";
     }
     bookField.appendChild(bookSel);
-    grid.appendChild(bookField);
+    if (!opts.hideBookPicker) grid.appendChild(bookField);
+    else {
+      bookField.className = "pv-sr-only";
+      grid.appendChild(bookField);
+    }
 
     var unitField = $("div");
-    unitField.appendChild($("label", "field-label", "Unit"));
+    if (!opts.hideUnitPicker) unitField.appendChild($("label", "field-label", "Unit"));
     var unitSel = $("select");
     var units = catalog.units[bookId] || [];
+    if (opts.fixedUnitId) {
+      units = units.filter(function (u) {
+        return u.id === opts.fixedUnitId;
+      });
+    }
     units.forEach(function (u) {
       var opt = document.createElement("option");
       opt.value = u.id;
@@ -546,7 +810,11 @@
       unitSel.appendChild(opt);
     });
     unitField.appendChild(unitSel);
-    grid.appendChild(unitField);
+    if (!opts.hideUnitPicker) grid.appendChild(unitField);
+    else {
+      unitField.className = "pv-sr-only";
+      grid.appendChild(unitField);
+    }
 
     panel.appendChild(grid);
 
@@ -648,7 +916,7 @@
     var bookId = routeInfo.bookId || getSel(SEL_BOOK, "zap-green-1");
     applyBookTheme(bookId);
     app.innerHTML = "";
-    app.appendChild(topbar("#/", brandForBook(bookId)));
+    app.appendChild(topbar(indexBackHref(bookId), brandForBook(bookId)));
     app.appendChild($("p", "lead", "Loading…"));
     loadPractice(routeInfo)
       .then(function (practice) {
@@ -656,7 +924,7 @@
       })
       .catch(function () {
         app.innerHTML = "";
-        app.appendChild(topbar("#/", brandForBook(bookId)));
+        app.appendChild(topbar(indexBackHref(bookId), brandForBook(bookId)));
         app.appendChild($("p", "lead", "Could not load this practice."));
       });
   }
@@ -669,7 +937,7 @@
     var practiceId = engine.practiceIdOf(practice);
 
     app.innerHTML = "";
-    app.appendChild(topbar("#/", brandForBook(bookId)));
+    app.appendChild(topbar(indexBackHref(bookId), brandForBook(bookId)));
     app.appendChild($("h1", null, practice.title));
     if (practice.subtitle) app.appendChild($("p", "lead", practice.subtitle + (practice.pages ? " · p. " + practice.pages : "")));
 
@@ -830,8 +1098,8 @@
       }
       app.appendChild(panel);
 
-      var again = $("a", "btn btn-secondary", "Back to index");
-      again.href = "#/";
+      var again = $("a", "btn btn-secondary", isChunilmunBook(bookId) ? "Back to chapter list" : "Back to ZAP index");
+      again.href = indexBackHref(bookId);
       again.style.display = "inline-flex";
       again.style.alignItems = "center";
       app.appendChild(again);
