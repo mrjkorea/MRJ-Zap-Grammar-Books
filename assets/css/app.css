@@ -574,6 +574,159 @@ form > .section-banner:first-child {
   line-height: 1.45;
 }
 
+.wrong-review-teacher-answer {
+  margin-top: 0.65rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 12px;
+  background: #e8f6ee;
+  border: 2px solid #1e5c45;
+}
+
+.wrong-review-teacher-label {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #1e5c45;
+  margin-bottom: 0.25rem;
+}
+
+.wrong-review-teacher-text {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+#mrj-zap-teacher-bar {
+  position: fixed;
+  z-index: 2147482100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+  max-width: min(16rem, 52vw);
+  pointer-events: none;
+}
+
+#mrj-zap-teacher-bar[hidden] {
+  display: none !important;
+}
+
+.mrj-zap-teacher-btn {
+  pointer-events: auto;
+  border: 2px solid #241c16;
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem;
+  background: #fffaf3;
+  color: #241c16;
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 800;
+  line-height: 1.2;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(36, 28, 22, 0.12);
+  white-space: nowrap;
+}
+
+.mrj-zap-teacher-btn.is-unlocked {
+  background: #1e5c45;
+  color: #fffaf3;
+}
+
+.mrj-zap-teacher-btn:focus-visible {
+  outline: 3px solid #e2a122;
+  outline-offset: 2px;
+}
+
+.mrj-zap-teacher-panel {
+  pointer-events: auto;
+  width: min(16rem, 88vw);
+  padding: 0.75rem 0.85rem 0.9rem;
+  border: 3px solid #241c16;
+  border-radius: 1rem;
+  background: #f3eadc;
+  color: #241c16;
+  box-shadow: 0 18px 40px rgba(36, 28, 22, 0.2);
+  font-family: "Atkinson Hyperlegible", Palatino, Georgia, serif;
+}
+
+.mrj-zap-teacher-panel[hidden] {
+  display: none !important;
+}
+
+.mrj-zap-teacher-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mrj-zap-teacher-close {
+  border: 2px solid #241c16;
+  border-radius: 0.5rem;
+  background: #fffaf3;
+  min-width: 2rem;
+  min-height: 2rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.mrj-zap-teacher-student {
+  margin: 0 0 0.55rem;
+  font-size: 0.92rem;
+}
+
+.mrj-zap-teacher-hint {
+  margin: 0 0 0.65rem;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  opacity: 0.9;
+}
+
+.mrj-zap-teacher-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+}
+
+.mrj-zap-teacher-pin {
+  min-height: 2.75rem;
+  padding: 0.5rem 0.65rem;
+  border: 2px solid #241c16;
+  border-radius: 0.65rem;
+  font-size: 1.1rem;
+}
+
+.mrj-zap-teacher-err {
+  min-height: 1.2rem;
+  margin: 0 0 0.45rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #6d1814;
+}
+
+.mrj-zap-teacher-unlock,
+.mrj-zap-teacher-lock {
+  width: 100%;
+  min-height: 2.75rem;
+  border: 2px solid #241c16;
+  border-radius: 0.65rem;
+  background: #1e5c45;
+  color: #fffaf3;
+  font-weight: 800;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.mrj-zap-teacher-lock {
+  background: #fffaf3;
+  color: #241c16;
+}
+
 .note {
   font-size: 0.9rem;
   color: var(--muted);

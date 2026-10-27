@@ -37,6 +37,9 @@
 
   function mrjTeacher() {
     try {
+      if (window.MRJ_ZAP_TEACHER && typeof window.MRJ_ZAP_TEACHER.isActive === "function") {
+        if (window.MRJ_ZAP_TEACHER.isActive()) return true;
+      }
       var api = window.MRJSignin || window.MRJ_AUTH;
       return !!(api && typeof api.isTeacher === "function" && api.isTeacher());
     } catch (e) {
@@ -681,7 +684,10 @@
       if (prev && prev.results && prev.responses) {
         var prevPanel = review.renderWrongReviewPanel(document, practice, prev.responses, prev.results, {
           heading: "지난 시도에서 틀린 문제",
-          lead: "아래는 지난번에 쓴 답입니다. 정답은 화면에 나오지 않습니다. 다시 풀어 보세요.",
+          lead: mrjTeacher()
+            ? "아래는 지난번에 쓴 답입니다. Teacher mode: correct answers are shown."
+            : "아래는 지난번에 쓴 답입니다. 정답은 화면에 나오지 않습니다. 다시 풀어 보세요.",
+          showCorrectAnswers: mrjTeacher(),
         });
         if (prevPanel) app.appendChild(prevPanel);
       }
@@ -809,12 +815,19 @@
         review.saveLastReview(practice, responses, outcome.results);
         var reviewEl = review.renderWrongReviewPanel(document, practice, responses, outcome.results, {
           heading: "틀린 문제 다시 보기",
-          lead: "내가 쓴 답만 보입니다. 정답은 화면에 나오지 않습니다.",
+          lead: mrjTeacher()
+            ? "Teacher mode: your answer and the correct answer are shown below."
+            : "내가 쓴 답만 보입니다. 정답은 화면에 나오지 않습니다.",
+          showCorrectAnswers: mrjTeacher(),
         });
         if (reviewEl) panel.appendChild(reviewEl);
       }
 
-      panel.appendChild($("p", "note", "Correct answers are not shown on screen. Check your book or ask your teacher."));
+      if (!mrjTeacher()) {
+        panel.appendChild(
+          $("p", "note", "Correct answers are not shown on screen. Check your book or ask your teacher.")
+        );
+      }
       app.appendChild(panel);
 
       var again = $("a", "btn btn-secondary", "Back to index");

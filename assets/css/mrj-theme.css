@@ -92,6 +92,8 @@ input[type="text"]::placeholder { font-size: .9em; color: #8a9b8d; }
 .wrong-review-blanks li.blank-ok-part { color: var(--ok); }
 .wrong-review-reminder { background: var(--banner); border-left: 6px solid var(--accent); border-radius: 0 14px 14px 0; padding: .8rem 1rem; }
 .wrong-review-reminder-label { font-weight: 800; color: var(--accent-dark); }
+.wrong-review-teacher-text { font-family: var(--font-en); }
+html.mrj-zap-teacher-active .retry-tag { display: none !important; }
 
 /* Speaker + sound-unlock (Grammar app.js owns the markup/JS) */
 .q-speak,
