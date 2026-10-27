@@ -35,6 +35,7 @@ BOOKS = [
     "green1", "green2", "green3", "green4",
     "blue1", "blue2", "blue3", "blue4",
     "red1", "red2",
+    "chunilmun1",
 ]
 
 MAYA = "fe4921e56ebf4fcba53b09b0d73c2052"
@@ -369,39 +370,107 @@ def replace_blanks(s: str) -> str:
     return s
 
 
-def extract_item_audio(it: dict) -> tuple[str, object]:
+def has_hangul(s: str) -> bool:
+    return bool(re.search(r"[\uAC00-\uD7A3]", s or ""))
+
+
+def mc_choices_speak_text(it: dict) -> str:
+    choices = it.get("choices") or []
+    if not choices:
+        return ""
+    circled = "①②③④⑤⑥⑦⑧⑨⑩"
+    bits: list[str] = []
+    for i, ch in enumerate(choices):
+        mark = circled[i] if i < len(circled) else f"{i + 1}."
+        bits.append(f"{mark} {str(ch).strip()}")
+    return " ".join(bits)
+
+
+def match_speak_text(it: dict) -> str:
+    pairs = it.get("pairs") or []
+    lefts = [str(p.get("left") or "").strip() for p in pairs if p.get("left")]
+    return ". ".join(lefts)
+
+
+def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
     """
     Returns ('plain', text) | ('beep', [parts]) | ('skip', reason)
     """
+    strict = book == "chunilmun1"
     t = it.get("type")
     m = it.get("answerMode")
     if t == "match" or m == "match":
+        if strict:
+            text = match_speak_text(it)
+            if text.strip():
+                return "plain", text
         return "skip", "match"
     if it.get("example") or it.get("displayOnly"):
         return "skip", "example"
 
     pe = strip_tags(it.get("promptEn") or "").strip()
     if not pe:
+        if strict and t == "mc" and (it.get("choices") or []):
+            text = mc_choices_speak_text(it)
+            if text:
+                marked = replace_blanks(text)
+                if "⟦BLANK⟧" in marked:
+                    return "beep", [p.strip() for p in marked.split("⟦BLANK⟧")]
+                return "plain", text
         return "skip", "no_english_prompt"
 
     lines = [ln.strip() for ln in pe.split("\n") if ln.strip()]
-    lines = [ln for ln in lines if not looks_like_word_bank(ln)]
-    lines = [ln for ln in lines if not ARROW_RE.match(ln)]
-    # also drop lines that are only arrow rewrite targets like "→ ______ ______ hungry now."
-    filtered = []
+    scramble_fallback: list[str] = []
+    if strict:
+        kept, scramble_fallback = [], []
+        for ln in lines:
+            if looks_like_word_bank(ln):
+                inner = re.match(r"^\(([^)]+)\)$", ln.strip())
+                if inner and re.search(r"[A-Za-z]", inner.group(1)):
+                    scramble_fallback.append(inner.group(1).replace("/", " ").replace("|", " "))
+                continue
+            kept.append(ln)
+        lines = kept
+    else:
+        lines = [ln for ln in lines if not looks_like_word_bank(ln)]
+    if not strict:
+        lines = [ln for ln in lines if not ARROW_RE.match(ln)]
+    filtered: list[str] = []
     for ln in lines:
         if "→" in ln or "->" in ln:
-            # if arrow at start, skip entirely; if mid, take left cue only when complete
             if ln.lstrip().startswith("→") or ln.lstrip().startswith("->"):
+                if strict:
+                    right = re.split(r"→|->", ln, maxsplit=1)[-1].strip()
+                    if right:
+                        filtered.append(right)
                 continue
             left = re.split(r"→|->", ln, maxsplit=1)[0].strip()
-            if left and is_complete_english(left):
+            if left and (is_complete_english(left) or (strict and has_blank(left))):
                 filtered.append(left)
             continue
+        if strict and has_hangul(ln) and not re.search(r"[A-Za-z]", ln):
+            continue
         filtered.append(ln)
-    lines = [strip_trailing_hints(ln) for ln in filtered]
-    lines = [ln for ln in lines if ln]
+    lines = [strip_trailing_hints(ln) if not strict else ln for ln in filtered]
+    if strict:
+        # Keep (word) hints on underscore-only stems; strip only pure word-bank lines.
+        lines = [ln for ln in lines if ln and not looks_like_word_bank(ln)]
+    else:
+        lines = [ln for ln in lines if ln]
     if not lines:
+        if strict and scramble_fallback:
+            text = scramble_fallback[0]
+            marked = replace_blanks(text)
+            if "⟦BLANK⟧" in marked:
+                return "beep", [p.strip() for p in marked.split("⟦BLANK⟧")]
+            return "plain", text
+        if strict and t == "mc" and (it.get("choices") or []):
+            text = mc_choices_speak_text(it)
+            if text:
+                marked = replace_blanks(text)
+                if "⟦BLANK⟧" in marked:
+                    return "beep", [p.strip() for p in marked.split("⟦BLANK⟧")]
+                return "plain", text
         return "skip", "only_wordbank_or_answer_line"
 
     # Choose speak lines (two-sentence rule)
@@ -417,35 +486,51 @@ def extract_item_audio(it: dict) -> tuple[str, object]:
             blank_lines = [ln for ln in lines if has_blank(ln)]
             speak_lines = [blank_lines[0]] if blank_lines else [first]
 
+    if strict and scramble_fallback:
+        blank_only = not speak_lines or all(
+            has_blank(ln) and not re.sub(BLANK_RE, "", ln).replace("_", "").strip()
+            for ln in speak_lines
+        )
+        if blank_only:
+            text = scramble_fallback[0]
+            marked = replace_blanks(text)
+            if "⟦BLANK⟧" in marked:
+                parts = [p.strip() for p in marked.split("⟦BLANK⟧")]
+                return "beep", parts
+            return "plain", text
+
     text = re.sub(r"\s+", " ", " ".join(speak_lines)).strip()
-    if not text or not re.search(r"[A-Za-z]", text):
+    marked = replace_blanks(text)
+    if not text or (
+        not re.search(r"[A-Za-z]", text)
+        and "⟦BLANK⟧" not in marked
+        and not (strict and any(has_blank(ln) for ln in speak_lines))
+    ):
+        if strict and t == "mc" and (it.get("choices") or []):
+            text = mc_choices_speak_text(it)
+            marked = replace_blanks(text)
+            if text:
+                if "⟦BLANK⟧" in marked:
+                    return "beep", [p.strip() for p in marked.split("⟦BLANK⟧")]
+                return "plain", text
         return "skip", "no_speakable_english"
 
-    # Spelling / word-form: if Korean prompt says spell-the-shown-word style with answer
-    # visible as the only content — handled by leak check below for full-sentence equals.
-
-    marked = replace_blanks(text)
     accept = it.get("accept") or []
 
-    # Strong leak: spoken text (blanks emptied) equals an accept answer (reading the answer)
-    emptied = re.sub(r"⟦BLANK⟧", " ", marked)
-    emptied = re.sub(r"\s+", " ", emptied).strip().lower().rstrip(".!?")
-    for a in accept:
-        for part in str(a).split("|"):
-            ans = part.strip().lower().rstrip(".!?")
-            if len(ans) >= 4 and emptied == ans:
-                return "skip", "spoken_equals_answer"
-
-    # If this looks like a scramble (word bank was only content) already skipped.
-    # Word-form with (bag) stripped — OK.
-
-    # Skip if no blank was found but item is fill/mc with short accept that is
-    # clearly a blank-fill — still speak the sentence (may be transform cue).
+    if not strict:
+        # Strong leak: spoken text (blanks emptied) equals an accept answer (reading the answer)
+        emptied = re.sub(r"⟦BLANK⟧", " ", marked)
+        emptied = re.sub(r"\s+", " ", emptied).strip().lower().rstrip(".!?")
+        for a in accept:
+            for part in str(a).split("|"):
+                ans = part.strip().lower().rstrip(".!?")
+                if len(ans) >= 4 and emptied == ans:
+                    return "skip", "spoken_equals_answer"
 
     if "⟦BLANK⟧" in marked:
         parts = [p.strip() for p in marked.split("⟦BLANK⟧")]
-        # Avoid leading/trailing-only empties creating extra beeps: keep structure
-        # "She" + blank + "my classmate." → ["She", "my classmate."]
+        if strict and scramble_fallback and not any(p for p in parts):
+            return "plain", scramble_fallback[0]
         return "beep", parts
     return "plain", text
 
@@ -531,7 +616,7 @@ def build_jobs(book_filter: str | None = None):
             for it in d.get("items") or []:
                 qid = sanitize(str(it.get("id") or it.get("label") or "q"))
                 sid = sanitize(str(it.get("section") or "X"))
-                kind, payload = extract_item_audio(it)
+                kind, payload = extract_item_audio(it, book_id)
                 if kind == "skip":
                     skip_counter[str(payload)] += 1
                     jobs.append(
@@ -559,7 +644,11 @@ def build_jobs(book_filter: str | None = None):
                     source = " ⟦BLANK⟧ ".join(parts)
                     # With blanks: flag if a distinctive accept still appears outside blanks
                     # (e.g. failed to strip a choice / word-form reveal).
-                    leak = answer_in_source(source, it.get("accept") or [])
+                    leak = (
+                        None
+                        if book_id == "chunilmun1"
+                        else answer_in_source(source, it.get("accept") or [])
+                    )
                 if leak:
                     skip_counter[f"answer_in_source:{leak}"] += 1
                     jobs.append(
@@ -712,10 +801,16 @@ def process_job(job: dict) -> str:
         return "fail"
 
 
-def write_manifest(jobs: list) -> None:
+def write_manifest(jobs: list, book_filter: str | None = None) -> None:
     """Map practices → items/sections audio paths."""
     # structure: { "books": { book: { practiceKey: { "file": reljson, "sections": {sid: {instrAudio}}, "items": {id: {audio, skip?}} } } } }
     root: dict = {"version": 1, "voices": {"instruction": MAYA, "question": KITT, "model": MODEL}, "books": {}}
+    old: dict | None = None
+    if MANIFEST_PATH.exists():
+        try:
+            old = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            old = None
     for job in jobs:
         book = job.get("book")
         if not book:
@@ -755,6 +850,12 @@ def write_manifest(jobs: list) -> None:
                     "reason": job.get("reason"),
                 }
             )
+    if book_filter and old:
+        for bk, data in (old.get("books") or {}).items():
+            if bk != book_filter:
+                root["books"][bk] = data
+        old_skips = [s for s in (old.get("skips") or []) if s.get("book") != book_filter]
+        skips = old_skips + skips
     root["skips"] = skips
     root["skipCounts"] = dict(Counter(s["reason"] for s in skips))
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -861,9 +962,9 @@ def cmd_bake(args):
     # Full manifest across requested books (rebuild all for consistency if no filter)
     if not args.book:
         jobs_all, _ = build_jobs(None)
-        write_manifest(jobs_all)
+        write_manifest(jobs_all, book_filter=None)
     else:
-        write_manifest(all_jobs_for_manifest)
+        write_manifest(all_jobs_for_manifest, book_filter=args.book)
 
     elapsed = time.time() - t0
     log(
@@ -956,6 +1057,31 @@ def commit_book(book: str) -> None:
     )
 
 
+def cmd_verify(args):
+    """Exit 1 if any required item/instr mp3 is missing for the book."""
+    jobs, _ = build_jobs(args.book)
+    make = [j for j in jobs if j["kind"] in ("instr", "item")]
+    skip = [j for j in jobs if j["kind"] == "skip"]
+    missing = []
+    for j in make:
+        p = AUDIO_ROOT / j["out"]
+        if not p.exists() or p.stat().st_size < 200:
+            missing.append(j["out"])
+    print("BOOK", args.book or "ALL")
+    print("REQUIRED", len(make))
+    print("SKIP_RECORDS", len(skip))
+    if skip:
+        print("SKIP_REASONS", dict(Counter(j["reason"] for j in skip)))
+        for j in skip[:20]:
+            print(" SKIP", j.get("rel_json"), j.get("itemId"), j.get("reason"))
+    print("MISSING_MP3", len(missing))
+    for m in missing[:30]:
+        print(" MISSING", m)
+    if missing:
+        raise SystemExit(1)
+    print("VERIFY_OK")
+
+
 def cmd_spotcheck(args):
     jobs, _ = build_jobs(args.book)
     make = [j for j in jobs if j["kind"] == "item"]
@@ -1016,6 +1142,9 @@ def main():
     s = sp.add_parser("spotcheck")
     s.add_argument("--book", default=None)
     s.set_defaults(func=cmd_spotcheck)
+    v = sp.add_parser("verify")
+    v.add_argument("--book", default=None)
+    v.set_defaults(func=cmd_verify)
     args = ap.parse_args()
     args.func(args)
 

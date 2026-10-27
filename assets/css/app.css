@@ -326,8 +326,14 @@ form > .section-banner:first-child {
 
 .q-en {
   font-size: 1.05rem;
-  white-space: pre-line;
   margin-bottom: 0.65rem;
+  line-height: 1.5;
+}
+
+.q-en .q-mark {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+  font-weight: 600;
 }
 
 .mc-options {
