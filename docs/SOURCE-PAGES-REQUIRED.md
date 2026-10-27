@@ -13,6 +13,8 @@ Practice JSON under `data/chunilmun1/` must be built from **student book (SB)** 
 
 | Upload slice | Original PDF pages | Rebuilt content |
 |--------------|-------------------|-----------------|
+| `ch01-sb` | SB 12–17 | Ch01 SB (Unit 1–2 + chapter test) |
+| `ch01-wb` | WB 2–7 | Ch01 WB (units + chapter test) |
 | `ch02-04-sb` | SB 12–45 | Ch02–04 SB (+ Ch04 drives `review-01`) |
 | `ch02-05-wb` | WB 161–192 | Ch02–05 WB |
 | `ch05-06-sb` | SB 46–71 | Ch05–06 SB |
@@ -30,18 +32,19 @@ Full book answer-key PDF **pp. 256–319** (four uploads):
 | `keys-part3` | 288–303 | Ch01–Ch05 keys (earlier units) |
 | `keys-part4` | 304–319 | Ch07–08 **WB** tests/units, Ch09+ keys |
 
-## Regeneration (Ch02–08 verified)
+## Regeneration (Ch01–08 verified)
 
 From repo root:
 
 ```bash
-bash scripts/chunilmun/regen_verified_ch02_08.sh
+bash scripts/chunilmun/regen_verified_ch01_08.sh
 ```
 
 Or stepwise modules in `scripts/chunilmun/`:
 
 | Module | Command |
 |--------|---------|
+| Ch01 | `python3 _extracted_ch01.py` |
 | Ch02–03 | `python3 _extracted_ch02_ch03.py` |
 | Ch04 + review-01, Ch05 WB | `python3 _extracted_ch04_ch05wb.py all` |
 | Ch05–06 SB | `python3 _extracted_ch05_ch06_sb.py all` |
@@ -49,7 +52,7 @@ Or stepwise modules in `scripts/chunilmun/`:
 | Ch07–08 SB | `python3 _extracted_ch07_ch08_sb.py all` |
 | Catalog | `node scripts/chunilmun/apply-catalog.mjs` |
 
-Per-chapter scan notes: `data/chunilmun1/chapterNN/CHAPTER-SOURCE.md` (Ch02–08).
+Per-chapter scan notes: `data/chunilmun1/chapterNN/CHAPTER-SOURCE.md` (Ch01–08).
 
 ## CI guard
 

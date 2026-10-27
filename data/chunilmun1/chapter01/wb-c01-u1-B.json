@@ -22,7 +22,18 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 10,
       "exampleCount": 0,
-      "labels": ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10"]
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
     }
   ],
   "items": [
@@ -37,7 +48,9 @@
       "type": "fill",
       "promptEn": "She [is] a famous actress 10 years ago.",
       "blanks": 1,
-      "accept": ["was"]
+      "accept": [
+        "was"
+      ]
     },
     {
       "id": "b02",
@@ -50,7 +63,9 @@
       "type": "fill",
       "promptEn": "Tom and Paul [was] tired last night.",
       "blanks": 1,
-      "accept": ["were"]
+      "accept": [
+        "were"
+      ]
     },
     {
       "id": "b03",
@@ -63,7 +78,9 @@
       "type": "fill",
       "promptEn": "Sam [were] a middle school student now.",
       "blanks": 1,
-      "accept": ["is"]
+      "accept": [
+        "is"
+      ]
     },
     {
       "id": "b04",
@@ -76,7 +93,9 @@
       "type": "fill",
       "promptEn": "Tommy and I [am] lazy last year.",
       "blanks": 1,
-      "accept": ["were"]
+      "accept": [
+        "were"
+      ]
     },
     {
       "id": "b05",
@@ -89,7 +108,9 @@
       "type": "fill",
       "promptEn": "It [is] very cold yesterday.",
       "blanks": 1,
-      "accept": ["was"]
+      "accept": [
+        "was"
+      ]
     },
     {
       "id": "b06",
@@ -102,7 +123,9 @@
       "type": "fill",
       "promptEn": "Jane and Dave [is] my new neighbors now.",
       "blanks": 1,
-      "accept": ["are"]
+      "accept": [
+        "are"
+      ]
     },
     {
       "id": "b07",
@@ -115,7 +138,9 @@
       "type": "fill",
       "promptEn": "Ted and I [am] best friends now.",
       "blanks": 1,
-      "accept": ["are"]
+      "accept": [
+        "are"
+      ]
     },
     {
       "id": "b08",
@@ -128,7 +153,9 @@
       "type": "fill",
       "promptEn": "They [is] in China last month.",
       "blanks": 1,
-      "accept": ["were"]
+      "accept": [
+        "were"
+      ]
     },
     {
       "id": "b09",
@@ -141,7 +168,9 @@
       "type": "fill",
       "promptEn": "Your socks [is] under the desk now.",
       "blanks": 1,
-      "accept": ["are"]
+      "accept": [
+        "are"
+      ]
     },
     {
       "id": "b10",
@@ -154,7 +183,9 @@
       "type": "fill",
       "promptEn": "A cup [are] on the table now.",
       "blanks": 1,
-      "accept": ["is"]
+      "accept": [
+        "is"
+      ]
     }
   ]
 }

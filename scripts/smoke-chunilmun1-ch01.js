@@ -1,4 +1,4 @@
-/* Catalog-driven smoke for 천일문 Grammar 1 — Chapter 01 pilot (7 practices). */
+/* Catalog-driven smoke for 천일문 Grammar 1 — Chapter 01 (16 practices). */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");

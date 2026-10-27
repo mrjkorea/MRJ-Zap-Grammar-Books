@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
-# Regenerate scan-verified 천일문 Grammar 1 JSON for Ch02–08 + review-01/02.
+# Regenerate scan-verified 천일문 Grammar 1 JSON for Ch01–08 + review-01/02.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT"
+
+echo "== Ch01 SB + WB =="
+python3 _extracted_ch01.py
 
 echo "== Ch02–03 SB + WB =="
 python3 _extracted_ch02_ch03.py
@@ -25,8 +28,9 @@ node apply-catalog.mjs
 echo "== checks =="
 cd ../..
 node scripts/check-no-guessed-stems.js
+node scripts/smoke-chunilmun1-ch01.js
 node scripts/smoke-chunilmun1-ch02-04.js
 node scripts/smoke-chunilmun1-ch05-08.js
 node scripts/smoke-chunilmun1-all.js
 
-echo "regen_verified_ch02_08: OK"
+echo "regen_verified_ch01_08: OK"

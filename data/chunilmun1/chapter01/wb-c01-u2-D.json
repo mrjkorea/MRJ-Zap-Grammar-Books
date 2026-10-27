@@ -42,10 +42,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "D1",
       "type": "fill",
-      "promptEn": "________ ________ snowy yesterday? (it)",
-      "blanks": 2,
+      "promptEn": "________ ________ ________ ________ yesterday? (it)",
+      "blanks": 4,
       "accept": [
-        "Was|it"
+        "Was|it|snowy|yesterday"
       ]
     },
     {
@@ -57,7 +57,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "D2",
       "type": "fill",
-      "promptEn": "________ Alice at the concert? (is)",
+      "promptEn": "________ ________ ________ ________ ________? (Alice)",
       "blanks": 5,
       "accept": [
         "Is|Alice|at|the|concert"
@@ -72,7 +72,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "D3",
       "type": "fill",
-      "promptEn": "________ the test difficult? (was)",
+      "promptEn": "________ ________ ________ ________? (the test)",
       "blanks": 4,
       "accept": [
         "Was|the|test|difficult"
@@ -87,10 +87,10 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "D4",
       "type": "fill",
-      "promptEn": "________ you serious? (are)",
-      "blanks": 3,
+      "promptEn": "________ ________ ________ ________ now? (you)",
+      "blanks": 4,
       "accept": [
-        "Are|you|serious"
+        "Are|you|serious|now"
       ]
     },
     {
@@ -102,7 +102,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "D5",
       "type": "fill",
-      "promptEn": "________ the movie interesting? (is)",
+      "promptEn": "________ ________ ________ ________? (the movie)",
       "blanks": 4,
       "accept": [
         "Is|the|movie|interesting"
@@ -117,7 +117,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "D6",
       "type": "fill",
-      "promptEn": "________ Mary and Jason twins? (are)",
+      "promptEn": "________ ________ ________ ________ ________? (Mary and Jason)",
       "blanks": 5,
       "accept": [
         "Are|Mary|and|Jason|twins"

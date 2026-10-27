@@ -22,7 +22,14 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 6,
       "exampleCount": 0,
-      "labels": ["B1", "B2", "B3", "B4", "B5", "B6"]
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
     }
   ],
   "items": [
@@ -37,7 +44,9 @@
       "type": "fill",
       "promptEn": "Brad ________ in Canada last year.",
       "blanks": 1,
-      "accept": ["was"]
+      "accept": [
+        "was"
+      ]
     },
     {
       "id": "b02",
@@ -50,7 +59,9 @@
       "type": "fill",
       "promptEn": "I ________ in the restaurant now.",
       "blanks": 1,
-      "accept": ["am"]
+      "accept": [
+        "am"
+      ]
     },
     {
       "id": "b03",
@@ -63,7 +74,9 @@
       "type": "fill",
       "promptEn": "Jinho ________ a new captain now.",
       "blanks": 1,
-      "accept": ["is"]
+      "accept": [
+        "is"
+      ]
     },
     {
       "id": "b04",
@@ -76,7 +89,9 @@
       "type": "fill",
       "promptEn": "We ________ at the shopping mall yesterday.",
       "blanks": 1,
-      "accept": ["were"]
+      "accept": [
+        "were"
+      ]
     },
     {
       "id": "b05",
@@ -89,7 +104,9 @@
       "type": "fill",
       "promptEn": "Jina and I ________ sisters.",
       "blanks": 1,
-      "accept": ["are"]
+      "accept": [
+        "are"
+      ]
     },
     {
       "id": "b06",
@@ -102,7 +119,9 @@
       "type": "fill",
       "promptEn": "The wind ________ so strong last night.",
       "blanks": 1,
-      "accept": ["was"]
+      "accept": [
+        "was"
+      ]
     }
   ]
 }
