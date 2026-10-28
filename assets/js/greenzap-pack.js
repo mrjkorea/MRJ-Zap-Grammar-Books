@@ -75,7 +75,7 @@
   }
 
   function emptyPack() {
-    return { v: PACK_VERSION, practices: {} };
+    return { v: PACK_VERSION, practices: {}, startPoints: {} };
   }
 
   function parsePackJson(raw) {
@@ -89,6 +89,9 @@
       }
       if (!data.practices || typeof data.practices !== "object") {
         data.practices = {};
+      }
+      if (!data.startPoints || typeof data.startPoints !== "object") {
+        data.startPoints = {};
       }
       if (!data.v) data.v = PACK_VERSION;
       return { ok: true, data: data, unparseable: false };
@@ -200,6 +203,31 @@
     return out;
   }
 
+  function mergeStartPointEntry(a, b) {
+    if (!a) return b || null;
+    if (!b) return a || null;
+    return (a.setAt || 0) >= (b.setAt || 0) ? a : b;
+  }
+
+  function mergeStartPoints(localSp, remoteSp) {
+    var out = {};
+    var keys = {};
+    Object.keys(localSp || {}).forEach(function (k) {
+      keys[k] = true;
+    });
+    Object.keys(remoteSp || {}).forEach(function (k) {
+      keys[k] = true;
+    });
+    Object.keys(keys).forEach(function (bookId) {
+      var merged = mergeStartPointEntry(
+        localSp && localSp[bookId],
+        remoteSp && remoteSp[bookId]
+      );
+      if (merged) out[bookId] = merged;
+    });
+    return out;
+  }
+
   function mergePacks(localPack, remotePack) {
     var local = parsePackJson(localPack).data;
     var remote = parsePackJson(remotePack).data;
@@ -214,6 +242,7 @@
     Object.keys(ids).forEach(function (id) {
       out.practices[id] = mergePractice(local.practices[id], remote.practices[id]);
     });
+    out.startPoints = mergeStartPoints(local.startPoints, remote.startPoints);
     return out;
   }
 
@@ -537,6 +566,7 @@
         state.loadFinished = true;
         if (!res || !res.ok) {
           handleFailedLoad(loadIdKey, res && res.error ? String(res.error) : "");
+          notifyPackUpdated();
           return;
         }
         state.loadOk = true;
@@ -552,12 +582,14 @@
           state.dirty = true;
           scheduleSave();
         }
+        notifyPackUpdated();
       })
       .catch(function () {
         endLoadFlight(loadIdKey, loadGen);
         if (!contextMatches(loadIdKey, loadGen)) return;
         state.loadFinished = true;
         handleFailedLoad(loadIdKey, "network");
+        notifyPackUpdated();
       });
   }
 
@@ -640,6 +672,14 @@
     } else if (state.loadOk && state.loadFinished && authPackReady(PROGRAM)) {
       scheduleSave();
     }
+    notifyPackUpdated();
+  }
+
+  function notifyPackUpdated() {
+    if (typeof root.dispatchEvent !== "function") return;
+    try {
+      root.dispatchEvent(new root.CustomEvent("mrj-pack-updated"));
+    } catch (e) {}
   }
 
   function getPack() {
@@ -652,6 +692,51 @@
 
   function mustRetryPractice(practiceId) {
     return mustRetry(getPack(), practiceId);
+  }
+
+  function getStartPoint(bookId) {
+    var data = getPack();
+    if (!data || !data.startPoints) return null;
+    var sp = data.startPoints[bookId];
+    return sp && sp.unitId ? sp : null;
+  }
+
+  function applyStartPointMutation(mutator) {
+    var idKey = syncStudentContext();
+    if (!idKey) return { ok: false, error: "no_student" };
+    if (!state.pack) state.pack = readLocalPack(idKey);
+    state.idKey = idKey;
+    if (!state.pack.startPoints) state.pack.startPoints = {};
+    mutator(state.pack);
+    writeLocalPack(idKey, state.pack);
+    state.packChangeSeq = (state.packChangeSeq || 0) + 1;
+    state.dirty = true;
+    if (state.loadOk && state.loadFinished && authPackReady(PROGRAM)) {
+      return flushSave().then(function () {
+        notifyPackUpdated();
+        return { ok: true };
+      });
+    }
+    notifyPackUpdated();
+    return Promise.resolve({ ok: true, localOnly: true });
+  }
+
+  function setStartPoint(bookId, unitId, exerciseSlug, practiceId) {
+    return applyStartPointMutation(function (pack) {
+      pack.startPoints[bookId] = {
+        bookId: bookId,
+        unitId: unitId,
+        exerciseSlug: exerciseSlug,
+        practiceId: practiceId,
+        setAt: Date.now(),
+      };
+    });
+  }
+
+  function clearStartPoint(bookId) {
+    return applyStartPointMutation(function (pack) {
+      if (pack.startPoints) delete pack.startPoints[bookId];
+    });
   }
 
   function bindLifecycle() {
@@ -685,6 +770,7 @@
     emptyPack: emptyPack,
     parsePackJson: parsePackJson,
     mergePacks: mergePacks,
+    mergeStartPoints: mergeStartPoints,
     mergePractice: mergePractice,
     isRicherThan: isRicherThan,
     recordPracticeAttempt: recordPracticeAttempt,
@@ -696,6 +782,9 @@
     runLoad: runLoad,
     onPracticeScored: onPracticeScored,
     mustRetryPractice: mustRetryPractice,
+    getStartPoint: getStartPoint,
+    setStartPoint: setStartPoint,
+    clearStartPoint: clearStartPoint,
     getPack: getPack,
     flushSave: flushSave,
     canSave: canSave,

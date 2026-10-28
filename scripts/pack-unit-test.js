@@ -41,6 +41,27 @@ function mockStorage() {
   assert.ok(merged.practices["u01:walk1"].attempts.length >= 2);
 })();
 
+(function testMergeStartPointsNewestWins() {
+  const local = pack.emptyPack();
+  local.startPoints["zap-green-1"] = {
+    bookId: "zap-green-1",
+    unitId: "unit-02",
+    exerciseSlug: "walk1",
+    practiceId: "g1:u02:walk1",
+    setAt: 1000,
+  };
+  const remote = pack.emptyPack();
+  remote.startPoints["zap-green-1"] = {
+    bookId: "zap-green-1",
+    unitId: "unit-03",
+    exerciseSlug: "walk1",
+    practiceId: "g1:u03:walk1",
+    setAt: 2000,
+  };
+  const merged = pack.mergePacks(local, pack.serializePack(remote));
+  assert.strictEqual(merged.startPoints["zap-green-1"].unitId, "unit-03");
+})();
+
 (function testUnparseableServerTreatedAsEmpty() {
   const local = pack.emptyPack();
   pack.recordPracticeAttempt(local, "u01:quiz", { correct: 5, max: 10, pct: 50, durationSec: 10 }, []);

@@ -59,6 +59,10 @@
 
   function mustRetry(practiceId) {
     if (teacherSkipLocks()) return false;
+    var prog = root.MRJ_ZAP_PROGRESS;
+    if (prog && typeof prog.mustRetryPractice === "function") {
+      return prog.mustRetryPractice(practiceId);
+    }
     var pack = packApi();
     if (pack && typeof pack.mustRetryPractice === "function") {
       return pack.mustRetryPractice(practiceId);
@@ -257,6 +261,7 @@
     SOURCE: SOURCE,
     PASS_PCT: PASS_PCT,
     RETRY_PCT: RETRY_PCT,
+    teacherSkipLocks: teacherSkipLocks,
     gradeItem: gradeItem,
     gradeMatchPair: gradeMatchPair,
     gradeMatchItem: gradeMatchItem,
