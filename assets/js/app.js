@@ -156,7 +156,7 @@
       btn.appendChild($("span", "lock-tag", unitLocked ? " 🔒 Unit locked" : " 🔒 Locked"));
       return;
     }
-    if (progress.isPracticeDone(ex.practiceId)) {
+    if (progress.isPracticeDone(ex.practiceId, bookId)) {
       btn.classList.add("is-done");
       btn.appendChild($("span", "done-tag", " ✓ Done (≥50%)"));
     }
