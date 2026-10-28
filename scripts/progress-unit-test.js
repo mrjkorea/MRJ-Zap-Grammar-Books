@@ -1,0 +1,86 @@
+/* Progress gates: 50% bar, sequential exercises, unit unlock chain */
+"use strict";
+
+const assert = require("assert");
+const progress = require("../assets/js/zap-progress.js");
+const pack = require("../assets/js/greenzap-pack.js");
+
+globalThis.MRJ_GREENZAP_PACK = pack;
+globalThis.MRJ_ENGINE = { teacherSkipLocks: () => false };
+
+globalThis.MRJ_CATALOG = {
+  units: {
+    "zap-green-1": [
+      { id: "unit-01", enabled: true },
+      { id: "unit-02", enabled: true },
+    ],
+  },
+  unitKey: (bookId, unitId) => bookId + ":" + unitId,
+  exercises: {
+    "zap-green-1:unit-01": [
+      { slug: "walk1", practiceId: "g1:u01:walk1" },
+      { slug: "walk2", practiceId: "g1:u01:walk2" },
+    ],
+    "zap-green-1:unit-02": [{ slug: "walk1", practiceId: "g1:u02:walk1" }],
+  },
+};
+
+globalThis.MRJ_AUTH = {
+  student() {
+    return "Progress Test";
+  },
+};
+
+function applyPack(p) {
+  pack.resetInMemoryState();
+  const idKey = pack.idKeyFromStudent("Progress Test");
+  pack._state.idKey = idKey;
+  pack._state.activeStudentIdKey = idKey;
+  pack._state.pack = p;
+}
+
+function score(id, pct) {
+  var base = pack._state.pack ? JSON.parse(JSON.stringify(pack._state.pack)) : pack.emptyPack();
+  pack.recordPracticeAttempt(
+    base,
+    id,
+    { correct: pct, max: 100, pct: pct, durationSec: 1, at: Date.now() },
+    []
+  );
+  applyPack(base);
+  return base;
+}
+
+(function testSequentialExercises() {
+  score("g1:u01:walk1", 40);
+  assert.strictEqual(progress.isExerciseUnlocked("zap-green-1", "unit-01", 0), true);
+  assert.strictEqual(progress.isExerciseUnlocked("zap-green-1", "unit-01", 1), false);
+  assert.strictEqual(progress.canOpenExercise("zap-green-1", "unit-01", "walk2").ok, false);
+  score("g1:u01:walk1", 50);
+  assert.strictEqual(progress.isExerciseUnlocked("zap-green-1", "unit-01", 1), true);
+})();
+
+(function testUnitGate() {
+  score("g1:u01:walk1", 50);
+  assert.strictEqual(progress.isUnitIdUnlocked("zap-green-1", "unit-02"), false);
+  score("g1:u01:walk2", 50);
+  assert.strictEqual(progress.isUnitComplete("zap-green-1", "unit-01"), true);
+  assert.strictEqual(progress.isUnitIdUnlocked("zap-green-1", "unit-02"), true);
+})();
+
+(function testDoneUsesLatestNotBest() {
+  const p = pack.emptyPack();
+  pack.recordPracticeAttempt(p, "g1:u01:walk1", { correct: 90, max: 100, pct: 90, at: 1000 }, []);
+  pack.recordPracticeAttempt(p, "g1:u01:walk1", { correct: 30, max: 100, pct: 30, at: 2000 }, []);
+  applyPack(p);
+  assert.strictEqual(progress.isPracticeDone("g1:u01:walk1"), false);
+  assert.strictEqual(progress.mustRetryPractice("g1:u01:walk1"), true);
+})();
+
+(function testTeacherBypass() {
+  globalThis.MRJ_ENGINE.teacherSkipLocks = () => true;
+  assert.strictEqual(progress.canOpenExercise("zap-green-1", "unit-01", "walk2").ok, true);
+  globalThis.MRJ_ENGINE.teacherSkipLocks = () => false;
+})();
+
+console.log("progress-unit-test: ok");
