@@ -325,6 +325,9 @@ html[data-view="index"] .panel { background: transparent; border: 0; box-shadow:
 .pv-unit:hover { transform: translateY(-2px); border-color: var(--accent); }
 .pv-unit.is-on { border-color: var(--accent); background: var(--accent-soft); box-shadow: 0 4px 0 var(--accent); }
 .pv-unit:disabled { opacity: .45; cursor: default; }
+.pv-unit.locked { opacity: .42; cursor: not-allowed; filter: grayscale(.2); box-shadow: none; transform: none; }
+.pv-unit.is-done { border-color: color-mix(in srgb, var(--ok) 50%, var(--border)); background: #f3fbf5; }
+.pv-unit.needs-retry { border-color: color-mix(in srgb, var(--warn) 55%, var(--border)); }
 .pv-badge { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 14px; background: linear-gradient(150deg, var(--accent), var(--accent-dark)); color: #fff; font: 900 1.2rem var(--font-en); box-shadow: 0 3px 0 rgba(0,0,0,.15); }
 .pv-unit-title { line-height: 1.25; }
 
@@ -345,6 +348,10 @@ html[data-view="index"] .exercise-btn:active { transform: translateY(3px); box-s
 .pv-mode-sentence { background: #e3f4ff; color: #19669e; }
 .pv-score { position: absolute; top: .7rem; right: .7rem; font-weight: 900; font-size: .85rem; padding: .25rem .6rem; border-radius: 999px; background: #eef1ee; color: var(--muted); }
 .pv-score.is-pass { background: #fff1b8; color: #8a5a00; }
+.pv-score.is-done-score { background: #e8f7ec; color: #1a6b3a; }
+html[data-view="index"] .exercise-btn.pv-locked { opacity: .48; box-shadow: none; transform: none; pointer-events: auto; }
+html[data-view="index"] .exercise-btn.pv-locked:hover { border-color: var(--border); }
+.pv-lock-label { font-size: .82rem; font-weight: 800; color: #6b7280; align-self: flex-start; }
 .retry-tag { font-size: .8rem; font-weight: 800; color: #b42318; background: #ffe7e4; padding: .2rem .6rem; border-radius: 999px; align-self: flex-start; }
 
 /* Practice page */

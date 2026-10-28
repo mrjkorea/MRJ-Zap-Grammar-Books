@@ -49,6 +49,9 @@
   }
   function bestPct(pid) {
     try {
+      if (window.MRJ_ZAP_PROGRESS && typeof window.MRJ_ZAP_PROGRESS.latestPct === "function") {
+        return window.MRJ_ZAP_PROGRESS.latestPct(pid);
+      }
       var pack = window.MRJ_GREENZAP_PACK && window.MRJ_GREENZAP_PACK.getPack();
       var p = pack && pack.practices && pack.practices[pid];
       return p && p.best && typeof p.best.pct === "number" ? p.best.pct : null;
@@ -114,23 +117,45 @@
       card.appendChild(el("span", "pv-book-icon", ICON[fam]));
       card.appendChild(el("span", "pv-book-title", name.replace(/\s*\d+$/, "")));
       card.appendChild(el("span", "pv-book-level", (name.match(/\d+$/) || [""])[0]));
-      card.onclick = function () { fire(bookSel, o.value); buildIndex(); };
+      card.onclick = function () {
+        fire(bookSel, o.value);
+        try {
+          location.hash = "#/zap/" + o.value;
+        } catch (e) {}
+        buildIndex();
+      };
       books.appendChild(card);
     });
     host.appendChild(books);
 
     host.appendChild(el("h2", "pv-step", "2 · 유닛 고르기"));
     var units = el("div", "pv-units");
+    var prog = window.MRJ_ZAP_PROGRESS;
     Array.prototype.forEach.call(unitSel.options, function (o) {
       var p = unitParts(o.textContent);
       var t = el("button", "pv-unit" + (o.value === unitSel.value ? " is-on" : ""));
       t.type = "button";
       t.disabled = o.disabled;
       t.title = o.textContent;
+      if (prog && o.value && !prog.isUnitIdUnlocked(bookSel.value, o.value)) {
+        t.disabled = true;
+        t.classList.add("locked");
+        t.title = o.textContent + " · locked (finish previous unit at 50%+)";
+      } else if (prog) {
+        var st = prog.unitStatusLabel(bookSel.value, o.value);
+        if (st === "done") t.classList.add("is-done");
+        else if (st === "retry") t.classList.add("needs-retry");
+        var sum = prog.unitProgressSummary(bookSel.value, o.value);
+        if (sum.total) t.title = o.textContent + " · " + sum.done + "/" + sum.total + " done";
+      }
       t.setAttribute("aria-pressed", String(o.value === unitSel.value));
       t.appendChild(el("span", "pv-badge", p.n));
       t.appendChild(el("span", "pv-unit-title", p.t));
-      t.onclick = function () { fire(unitSel, o.value); buildIndex(); };
+      t.onclick = function () {
+        if (t.disabled || t.classList.contains("locked")) return;
+        fire(unitSel, o.value);
+        buildIndex();
+      };
       units.appendChild(t);
     });
     host.appendChild(units);
@@ -166,6 +191,7 @@
     Array.prototype.forEach.call(list.querySelectorAll(".exercise-btn"), function (a, i) {
       if (a.getAttribute("data-pv")) return;
       a.setAttribute("data-pv", "1");
+      if (a.classList.contains("locked")) a.classList.add("pv-locked");
       var slug = decodeURIComponent((a.getAttribute("href") || "").split("/").pop());
       var ex = exs.filter(function (e) { return e.slug === slug; })[0] || exs[i];
       var titleSpan = a.querySelector("span:not(.hint):not(.retry-tag)");
@@ -184,7 +210,16 @@
       a.appendChild(chips);
       var pct = ex ? bestPct(ex.practiceId) : null;
       if (pct != null) {
-        a.appendChild(el("span", "pv-score" + (pct >= 80 ? " is-pass" : ""), (pct >= 80 ? "⭐ " : "") + pct + "%"));
+        var scoreCls = "pv-score";
+        if (pct >= 80) scoreCls += " is-pass";
+        else if (pct >= 50) scoreCls += " is-done-score";
+        var prefix = pct >= 80 ? "⭐ " : pct >= 50 ? "✓ " : "";
+        a.appendChild(el("span", scoreCls, prefix + pct + "%"));
+      }
+      if (a.classList.contains("locked")) {
+        a.appendChild(el("span", "pv-lock-label", "🔒 Locked"));
+      } else if (ex && window.MRJ_ZAP_PROGRESS && window.MRJ_ZAP_PROGRESS.isPracticeDone(ex.practiceId)) {
+        a.classList.add("is-done");
       }
       modesFor(ex, function (ms) {
         ms.forEach(function (m) {
@@ -283,6 +318,7 @@
   function queue() { if (!queued) { queued = true; requestAnimationFrame(refresh); } }
   new MutationObserver(queue).observe(app, { childList: true, subtree: true });
   window.addEventListener("hashchange", queue);
+  document.addEventListener("mrj-pack-updated", queue);
   document.addEventListener("input", updateProgress, true);
   document.addEventListener("change", updateProgress, true);
   document.addEventListener("click", function () { setTimeout(updateProgress, 0); }, true);
