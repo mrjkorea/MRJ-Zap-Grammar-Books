@@ -83,4 +83,39 @@ function score(id, pct) {
   globalThis.MRJ_ENGINE.teacherSkipLocks = () => false;
 })();
 
+(function testStartPointBeforeDoneAtOpenAfterLocked() {
+  applyPack(pack.emptyPack());
+  pack._state.pack.startPoints = {
+    "zap-green-1": {
+      bookId: "zap-green-1",
+      unitId: "unit-01",
+      exerciseSlug: "walk2",
+      practiceId: "g1:u01:walk2",
+      setAt: 1000,
+    },
+  };
+  assert.strictEqual(progress.isPracticeDone("g1:u01:walk1", "zap-green-1"), true);
+  assert.strictEqual(progress.isPracticeDone("g1:u01:walk2", "zap-green-1"), false);
+  assert.strictEqual(progress.isExerciseUnlocked("zap-green-1", "unit-01", 0), true);
+  assert.strictEqual(progress.isExerciseUnlocked("zap-green-1", "unit-01", 1), true);
+  assert.strictEqual(progress.canOpenExercise("zap-green-1", "unit-01", "walk2").ok, true);
+  assert.strictEqual(progress.isUnitIdUnlocked("zap-green-1", "unit-02"), false);
+})();
+
+(function testStartPointMidBookUnlocksEarlierUnits() {
+  applyPack(pack.emptyPack());
+  pack._state.pack.startPoints = {
+    "zap-green-1": {
+      bookId: "zap-green-1",
+      unitId: "unit-02",
+      exerciseSlug: "walk1",
+      practiceId: "g1:u02:walk1",
+      setAt: 2000,
+    },
+  };
+  assert.strictEqual(progress.isUnitComplete("zap-green-1", "unit-01"), true);
+  assert.strictEqual(progress.isUnitIdUnlocked("zap-green-1", "unit-02"), true);
+  assert.strictEqual(progress.isExerciseUnlocked("zap-green-1", "unit-02", 0), true);
+})();
+
 console.log("progress-unit-test: ok");
