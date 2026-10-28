@@ -218,7 +218,7 @@
       }
       if (a.classList.contains("locked")) {
         a.appendChild(el("span", "pv-lock-label", "🔒 Locked"));
-      } else if (ex && window.MRJ_ZAP_PROGRESS && window.MRJ_ZAP_PROGRESS.isPracticeDone(ex.practiceId, bookId)) {
+      } else if (ex && window.MRJ_ZAP_PROGRESS && window.MRJ_ZAP_PROGRESS.isPracticeDone(ex.practiceId)) {
         a.classList.add("is-done");
       }
       modesFor(ex, function (ms) {

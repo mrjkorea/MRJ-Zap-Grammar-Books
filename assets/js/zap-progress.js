@@ -1,7 +1,6 @@
 /**
  * Sequential progress gates for ZAP + 천일문 (RETRY_PCT = 50%).
  * Required exercises per unit = all catalog entries in MRJ_CATALOG.exercises[book:unit].
- * Teacher start points (pack.startPoints[bookId]) mark earlier path steps done for locks.
  */
 (function (root, factory) {
   var api = factory(root);
@@ -64,97 +63,25 @@
     return att && typeof att.pct === "number" ? att.pct : null;
   }
 
-  function getStartPoint(bookId) {
+  function isPracticeDone(practiceId) {
+    var pct = latestPct(practiceId);
+    return pct !== null && pct >= RETRY_PCT;
+  }
+
+  function mustRetryPractice(practiceId) {
+    if (teacherSkipLocks()) return false;
     var pack = packApi();
-    if (pack && typeof pack.getStartPoint === "function") {
-      return pack.getStartPoint(bookId);
+    if (pack && typeof pack.mustRetryPractice === "function") {
+      return pack.mustRetryPractice(practiceId);
     }
-    var data = pack && pack.getPack ? pack.getPack() : null;
-    if (!data || !data.startPoints) return null;
-    var sp = data.startPoints[bookId];
-    return sp && sp.unitId ? sp : null;
+    var pct = latestPct(practiceId);
+    return pct !== null && pct < RETRY_PCT;
   }
 
   function exercisesForUnit(bookId, unitId) {
     var cat = catalogApi();
     if (!cat || typeof cat.unitKey !== "function") return [];
     return cat.exercises[cat.unitKey(bookId, unitId)] || [];
-  }
-
-  function enabledUnits(bookId) {
-    var cat = catalogApi();
-    var list = (cat && cat.units && cat.units[bookId]) || [];
-    return list.filter(function (u) {
-      return u.enabled;
-    });
-  }
-
-  function bookPath(bookId) {
-    var path = [];
-    var units = enabledUnits(bookId);
-    for (var ui = 0; ui < units.length; ui++) {
-      var u = units[ui];
-      var exs = exercisesForUnit(bookId, u.id);
-      for (var ei = 0; ei < exs.length; ei++) {
-        var ex = exs[ei];
-        path.push({
-          bookId: bookId,
-          unitId: u.id,
-          unitTitle: u.title || u.id,
-          slug: ex.slug,
-          practiceId: ex.practiceId,
-          exTitle: ex.title || ex.slug,
-          pathIndex: path.length,
-        });
-      }
-    }
-    return path;
-  }
-
-  function pathIndexFor(bookId, unitId, slug, practiceId) {
-    var path = bookPath(bookId);
-    for (var i = 0; i < path.length; i++) {
-      var row = path[i];
-      if (practiceId && row.practiceId === practiceId) return i;
-      if (row.unitId === unitId && row.slug === slug) return i;
-    }
-    return -1;
-  }
-
-  function startPathIndex(bookId) {
-    var sp = getStartPoint(bookId);
-    if (!sp) return -1;
-    if (sp.practiceId) {
-      var byId = pathIndexFor(bookId, sp.unitId, sp.exerciseSlug, sp.practiceId);
-      if (byId >= 0) return byId;
-    }
-    return pathIndexFor(bookId, sp.unitId, sp.exerciseSlug, null);
-  }
-
-  function isBeforeStartPoint(bookId, practiceId) {
-    if (!bookId || !practiceId) return false;
-    var startIdx = startPathIndex(bookId);
-    if (startIdx < 0) return false;
-    var idx = pathIndexFor(bookId, null, null, practiceId);
-    if (idx < 0) return false;
-    return idx < startIdx;
-  }
-
-  function isPracticeDone(practiceId, bookId) {
-    if (bookId && isBeforeStartPoint(bookId, practiceId)) return true;
-    var pct = latestPct(practiceId);
-    return pct !== null && pct >= RETRY_PCT;
-  }
-
-  function mustRetryPractice(practiceId, bookId) {
-    if (teacherSkipLocks()) return false;
-    if (bookId && isBeforeStartPoint(bookId, practiceId)) return false;
-    var pack = packApi();
-    if (pack && typeof pack.mustRetryPractice === "function" && !bookId) {
-      return pack.mustRetryPractice(practiceId);
-    }
-    var pct = latestPct(practiceId);
-    return pct !== null && pct < RETRY_PCT;
   }
 
   function requiredPracticeIds(bookId, unitId) {
@@ -167,9 +94,17 @@
     var ids = requiredPracticeIds(bookId, unitId);
     if (!ids.length) return true;
     for (var i = 0; i < ids.length; i++) {
-      if (!isPracticeDone(ids[i], bookId)) return false;
+      if (!isPracticeDone(ids[i])) return false;
     }
     return true;
+  }
+
+  function enabledUnits(bookId) {
+    var cat = catalogApi();
+    var list = (cat && cat.units && cat.units[bookId]) || [];
+    return list.filter(function (u) {
+      return u.enabled;
+    });
   }
 
   function unitIndexFor(bookId, unitId) {
@@ -194,9 +129,9 @@
     return isUnitUnlocked(bookId, idx);
   }
 
-  function firstIncompleteExerciseIndex(exercises, bookId) {
+  function firstIncompleteExerciseIndex(exercises) {
     for (var i = 0; i < exercises.length; i++) {
-      if (!isPracticeDone(exercises[i].practiceId, bookId)) return i;
+      if (!isPracticeDone(exercises[i].practiceId)) return i;
     }
     return -1;
   }
@@ -206,7 +141,7 @@
     if (!isUnitIdUnlocked(bookId, unitId)) return false;
     var exs = exercisesForUnit(bookId, unitId);
     if (exerciseIndex < 0 || exerciseIndex >= exs.length) return false;
-    var firstOpen = firstIncompleteExerciseIndex(exs, bookId);
+    var firstOpen = firstIncompleteExerciseIndex(exs);
     if (firstOpen < 0) return true;
     return exerciseIndex <= firstOpen;
   }
@@ -232,48 +167,6 @@
     return { ok: true };
   }
 
-  function studentNextPathIndex(bookId) {
-    var startIdx = startPathIndex(bookId);
-    if (startIdx >= 0) return startIdx;
-    var path = bookPath(bookId);
-    for (var i = 0; i < path.length; i++) {
-      if (!isPracticeDone(path[i].practiceId, bookId)) return i;
-    }
-    return -1;
-  }
-
-  function pathRowLabel(row) {
-    if (!row) return "";
-    var unitShort = row.unitTitle || row.unitId;
-    var exShort = row.exTitle || row.slug;
-    return unitShort + " · " + exShort;
-  }
-
-  function unitGroupsForBook(bookId) {
-    var units = enabledUnits(bookId);
-    var groups = [];
-    units.forEach(function (u) {
-      var rows = [];
-      var exs = exercisesForUnit(bookId, u.id);
-      exs.forEach(function (ex, ei) {
-        rows.push({
-          bookId: bookId,
-          unitId: u.id,
-          unitTitle: u.title || u.id,
-          slug: ex.slug,
-          practiceId: ex.practiceId,
-          exTitle: ex.title || ex.slug,
-          exerciseIndex: ei,
-          pathIndex: pathIndexFor(bookId, u.id, ex.slug, ex.practiceId),
-        });
-      });
-      if (rows.length) {
-        groups.push({ unitId: u.id, unitTitle: u.title || u.id, rows: rows });
-      }
-    });
-    return groups;
-  }
-
   function unitProgressSummary(bookId, unitId) {
     var ids = requiredPracticeIds(bookId, unitId);
     var done = 0;
@@ -282,8 +175,8 @@
     ids.forEach(function (id) {
       var pct = latestPct(id);
       if (pct !== null) started++;
-      if (isPracticeDone(id, bookId)) done++;
-      else if (mustRetryPractice(id, bookId)) retry++;
+      if (isPracticeDone(id)) done++;
+      else if (mustRetryPractice(id)) retry++;
     });
     return {
       total: ids.length,
@@ -304,13 +197,6 @@
     return "open";
   }
 
-  function enabledBooks() {
-    var cat = catalogApi();
-    return (cat && cat.books ? cat.books : []).filter(function (b) {
-      return b.enabled;
-    });
-  }
-
   return {
     RETRY_PCT: RETRY_PCT,
     teacherSkipLocks: teacherSkipLocks,
@@ -328,15 +214,6 @@
     unitStatusLabel: unitStatusLabel,
     unitIndexFor: unitIndexFor,
     enabledUnits: enabledUnits,
-    enabledBooks: enabledBooks,
     exerciseIndexFor: exerciseIndexFor,
-    getStartPoint: getStartPoint,
-    bookPath: bookPath,
-    pathIndexFor: pathIndexFor,
-    startPathIndex: startPathIndex,
-    isBeforeStartPoint: isBeforeStartPoint,
-    studentNextPathIndex: studentNextPathIndex,
-    pathRowLabel: pathRowLabel,
-    unitGroupsForBook: unitGroupsForBook,
   };
 });

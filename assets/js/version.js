@@ -1,4 +1,4 @@
 (function (root) {
   "use strict";
-  root.MRJ_ZAP_BUILD = "20261028-teacher-start-point";
+  root.MRJ_ZAP_BUILD = "20261028-progress-locks";
 })(typeof window !== "undefined" ? window : globalThis);
