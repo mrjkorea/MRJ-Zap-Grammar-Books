@@ -257,7 +257,6 @@
     SOURCE: SOURCE,
     PASS_PCT: PASS_PCT,
     RETRY_PCT: RETRY_PCT,
-    teacherSkipLocks: teacherSkipLocks,
     gradeItem: gradeItem,
     gradeMatchPair: gradeMatchPair,
     gradeMatchItem: gradeMatchItem,
