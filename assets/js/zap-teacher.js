@@ -6,7 +6,7 @@
   "use strict";
 
   var SESSION_KEY = "gz.teacherUnlock";
-  var BUILD = "20261028-safe-progress-2130";
+  var BUILD = "20261028-safe-progress-fix";
   var panelBookId = "";
 
   function auth() {
