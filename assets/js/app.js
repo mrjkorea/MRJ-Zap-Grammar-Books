@@ -4,7 +4,6 @@
   var app = document.getElementById("mrj-app-root");
   var catalog = window.MRJ_CATALOG;
   var engine = window.MRJ_ENGINE;
-  var progress = window.MRJ_ZAP_PROGRESS;
   var review = window.MRJ_REVIEW;
   var SEL_BOOK = "gz.book";
   var SEL_UNIT = "gz.unit";
@@ -124,45 +123,7 @@
 
   function indexBackHref(bookId) {
     if (isChunilmunBook(bookId)) return chunilmunUnitRoute(getSel(SEL_UNIT, "chapter-01"));
-    var id = bookId || getSel(SEL_BOOK, "zap-green-1");
-    return "#/zap/" + id;
-  }
-
-  function zapBookRoute(bookId) {
-    return "#/zap/" + (bookId || getSel(SEL_BOOK, "zap-green-1"));
-  }
-
-  function parseZapBookRoute(parts) {
-    if (parts[0] !== "zap" || !parts[1]) return null;
-    return parts[1];
-  }
-
-  function applyExerciseLock(btn, bookId, unitId, ex, index) {
-    if (!progress) return;
-    var unitLocked = !progress.isUnitIdUnlocked(bookId, unitId);
-    var exLocked = !progress.isExerciseUnlocked(bookId, unitId, index);
-    if (unitLocked || exLocked) {
-      btn.classList.add("locked");
-      btn.setAttribute("aria-disabled", "true");
-      btn.addEventListener("click", function (e) {
-        if (mrjTeacher()) return;
-        e.preventDefault();
-        if (unitLocked) {
-          alert("Finish the previous unit at 50% or higher on every exercise to unlock this unit.");
-        } else {
-          alert("Finish the previous exercise at 50% or higher before opening the next one.");
-        }
-      });
-      btn.appendChild($("span", "lock-tag", unitLocked ? " 🔒 Unit locked" : " 🔒 Locked"));
-      return;
-    }
-    if (progress.isPracticeDone(ex.practiceId)) {
-      btn.classList.add("is-done");
-      btn.appendChild($("span", "done-tag", " ✓ Done (≥50%)"));
-    }
-    if (engine.mustRetry(ex.practiceId)) {
-      btn.appendChild($("span", "retry-tag", " · Please try again (score was under 50%)"));
-    }
+    return "#/zap";
   }
 
   function practiceHref(bookId, unitId, slug) {
@@ -624,9 +585,7 @@
       return;
     }
     if (parts[0] === "zap") {
-      var zapBook = parseZapBookRoute(parts);
-      if (zapBook) renderZapBook(zapBook);
-      else renderZapIndex();
+      renderZapIndex();
       return;
     }
     if (parts[0] === "chunilmun") {
@@ -707,26 +666,6 @@
     );
   }
 
-  function decorateChunilmunPick(link, unitId) {
-    if (!progress || !unitId) return;
-    var st = progress.unitStatusLabel(CHUNILMUN_BOOK, unitId);
-    if (st === "locked") {
-      link.classList.add("locked");
-      link.addEventListener("click", function (e) {
-        if (mrjTeacher()) return;
-        e.preventDefault();
-        alert("Finish the previous 천일문 set at 50%+ on every exercise to unlock this one.");
-      });
-      return;
-    }
-    if (st === "done") link.classList.add("is-done");
-    else if (st === "retry") link.classList.add("needs-retry");
-    var sum = progress.unitProgressSummary(CHUNILMUN_BOOK, unitId);
-    if (sum.total) {
-      link.title = (link.title ? link.title + " · " : "") + sum.done + "/" + sum.total + " done (≥50%)";
-    }
-  }
-
   function renderChunilmunIndex() {
     app.innerHTML = "";
     setSel(SEL_BOOK, CHUNILMUN_BOOK);
@@ -757,10 +696,6 @@
       wb.className = "cm-pick cm-pick-wb";
       wb.href = "#/chunilmun/chapter-" + String(ch.n).padStart(2, "0") + "/wb";
       wb.textContent = "Workbook";
-      if (progress) {
-        decorateChunilmunPick(sb, ch.sbId);
-        decorateChunilmunPick(wb, ch.wbId);
-      }
       actions.appendChild(sb);
       actions.appendChild(wb);
       row.appendChild(actions);
@@ -776,7 +711,6 @@
         a.className = "cm-review-btn";
         a.href = "#/chunilmun/" + r.id;
         a.textContent = r.title.replace(/^Ch\s*\d+\s*/, "");
-        if (progress) decorateChunilmunPick(a, r.id);
         revWrap.appendChild(a);
       });
       app.appendChild(revWrap);
@@ -823,27 +757,10 @@
       backHref: "#/",
       pageTitle: ZAP_HUB_TITLE,
       heading: "ZAP practice index",
-      lead: "Choose your ZAP book, then a unit on the map. Exercises unlock in order at 50%+ (teacher can bypass).",
+      lead: "Choose your ZAP book and unit, then start a timed practice. Use your paper book too.",
       bookFilter: function (b) {
         return isZapBook(b.id);
       },
-    });
-  }
-
-  function renderZapBook(bookId) {
-    if (!bookId || isChunilmunBook(bookId)) bookId = "zap-green-1";
-    setSel(SEL_BOOK, bookId);
-    var book = catalog.findBook(bookId);
-    renderBookIndex({
-      bookId: bookId,
-      backHref: "#/zap",
-      pageTitle: (book && book.title) || "ZAP",
-      heading: (book && book.title) || "ZAP book",
-      lead: "Unit map — finish each unit at 50%+ on every exercise to unlock the next.",
-      bookFilter: function (b) {
-        return isZapBook(b.id);
-      },
-      hideBookPicker: true,
     });
   }
 
@@ -912,10 +829,6 @@
       opt.value = u.id;
       opt.textContent = u.title + (u.enabled ? "" : " (coming soon)");
       opt.disabled = !u.enabled;
-      if (progress && u.enabled && !progress.isUnitIdUnlocked(bookId, u.id)) {
-        opt.disabled = true;
-        opt.textContent = u.title + " (locked)";
-      }
       if (u.id === unitId && u.enabled) opt.selected = true;
       unitSel.appendChild(opt);
     });
@@ -938,24 +851,20 @@
       list.innerHTML = "";
       var key = catalog.unitKey(bookId, unitId);
       var exs = catalog.exercises[key] || [];
-      if (progress && !progress.isUnitIdUnlocked(bookId, unitId)) {
-        list.appendChild(
-          $("p", "note", "This unit is locked. Finish every exercise in the previous unit at 50% or higher to continue.")
-        );
-        return;
-      }
       if (!exs.length) {
         list.appendChild($("p", "note", "No exercises for this unit yet."));
         return;
       }
-      exs.forEach(function (ex, index) {
+      exs.forEach(function (ex) {
         var btn = document.createElement("a");
         btn.className = "exercise-btn";
         btn.href = practiceHref(bookId, unitId, ex.slug);
         var title = $("span", null, ex.title);
         btn.appendChild(title);
         btn.appendChild($("span", "hint", ex.hint));
-        applyExerciseLock(btn, bookId, unitId, ex, index);
+        if (engine.mustRetry(ex.practiceId)) {
+          btn.appendChild($("span", "retry-tag", " · Please try again (score was under 50%)"));
+        }
         list.appendChild(btn);
       });
     }
@@ -964,11 +873,6 @@
       bookId = bookSel.value;
       setSel(SEL_BOOK, bookId);
       applyBookTheme(bookId);
-      if (!opts.hideBookPicker && isZapBook(bookId)) {
-        try {
-          location.hash = "#/zap/" + bookId;
-        } catch (e) {}
-      }
       units = catalog.units[bookId] || [];
       unitSel.innerHTML = "";
       units.forEach(function (u) {
@@ -976,20 +880,9 @@
         opt.value = u.id;
         opt.textContent = u.title + (u.enabled ? "" : " (coming soon)");
         opt.disabled = !u.enabled;
-        if (progress && u.enabled && !progress.isUnitIdUnlocked(bookId, u.id)) {
-          opt.disabled = true;
-          opt.textContent = u.title + " (locked)";
-        }
         unitSel.appendChild(opt);
       });
-      unitId = unitSel.value;
-      if (!unitId || (progress && !progress.isUnitIdUnlocked(bookId, unitId))) {
-        var firstOpen = units.filter(function (u) {
-          return u.enabled && (!progress || progress.isUnitIdUnlocked(bookId, u.id));
-        })[0];
-        unitId = firstOpen ? firstOpen.id : units[0] && units[0].id;
-        if (unitId) unitSel.value = unitId;
-      }
+      unitId = unitSel.value || (units[0] && units[0].id);
       setSel(SEL_UNIT, unitId);
       fillExercises();
       var brandEl = app.querySelector(".brand");
@@ -1044,26 +937,6 @@
 
   function renderPractice(routeInfo) {
     var bookId = routeInfo.bookId || getSel(SEL_BOOK, "zap-green-1");
-    var unitId = routeInfo.unitId || getSel(SEL_UNIT, "unit-01");
-    var slug = routeInfo.slug;
-    if (progress && slug && !mrjTeacher()) {
-      var gate = progress.canOpenExercise(bookId, unitId, slug);
-      if (!gate.ok) {
-        applyBookTheme(bookId);
-        app.innerHTML = "";
-        app.appendChild(topbar(indexBackHref(bookId), brandForBook(bookId)));
-        app.appendChild($("h1", null, "Practice locked"));
-        app.appendChild(
-          $("p", "lead", gate.reason === "unit_locked"
-            ? "This unit is still locked. Finish the previous unit at 50%+ on every exercise first."
-            : "This exercise is locked. Finish the previous exercise at 50%+ before continuing.")
-        );
-        var back = $("a", "btn btn-primary", "Back to unit list");
-        back.href = indexBackHref(bookId);
-        app.appendChild(back);
-        return;
-      }
-    }
     applyBookTheme(bookId);
     app.innerHTML = "";
     app.appendChild(topbar(indexBackHref(bookId), brandForBook(bookId)));
@@ -1326,7 +1199,6 @@
   if (!app) return;
 
   document.addEventListener("mrj-teacher", route);
-  document.addEventListener("mrj-pack-updated", route);
   window.addEventListener("hashchange", route);
   document.addEventListener("mrj-auth-ready", route);
   if (document.readyState !== "loading") route();

@@ -640,14 +640,6 @@
     } else if (state.loadOk && state.loadFinished && authPackReady(PROGRAM)) {
       scheduleSave();
     }
-    notifyPackUpdated();
-  }
-
-  function notifyPackUpdated() {
-    if (typeof root.dispatchEvent !== "function") return;
-    try {
-      root.dispatchEvent(new root.CustomEvent("mrj-pack-updated"));
-    } catch (e) {}
   }
 
   function getPack() {
