@@ -69,6 +69,41 @@ function mockStorage() {
   assert.strictEqual(merged.practices["u01:quiz"].best.pct, 50);
 })();
 
+(function testPackFromScoreRowsHydratesPracticeSummaries() {
+  const rows = [
+    {
+      program: "greenzap",
+      item_id: "r1:u09:fly",
+      score_value: 18,
+      score_max: 22,
+      score_pct: 82,
+      updated_at: "2026-10-28T12:00:00.000Z",
+    },
+    {
+      program: "greenzap",
+      item_id: "r1:u09:fly:a01",
+      score_value: 1,
+      score_max: 1,
+      score_pct: 100,
+      updated_at: "2026-10-28T11:00:00.000Z",
+    },
+    {
+      program: "word-master",
+      item_id: "wm:u01:walk",
+      score_pct: 90,
+      updated_at: "2026-10-28T10:00:00.000Z",
+    },
+  ];
+  const fromScores = pack.packFromScoreRows(rows, "greenzap");
+  assert.strictEqual(pack.practiceIdFromScoreItemId("r1:u09:fly"), "r1:u09:fly");
+  assert.strictEqual(pack.practiceIdFromScoreItemId("r1:u09:fly:a01"), "r1:u09:fly");
+  assert.ok(fromScores.practices["r1:u09:fly"]);
+  assert.strictEqual(fromScores.practices["r1:u09:fly"].best.pct, 82);
+  assert.ok(!fromScores.practices["r1:u09:fly:a01"]);
+  const merged = pack.mergePacks(pack.emptyPack(), fromScores);
+  assert.strictEqual(merged.practices["r1:u09:fly"].best.pct, 82);
+})();
+
 (function testRicherDetection() {
   const a = pack.emptyPack();
   const b = pack.emptyPack();

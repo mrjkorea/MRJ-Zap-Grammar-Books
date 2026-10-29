@@ -22,6 +22,8 @@
   var SAVE_FAILURE_STOP_AFTER = 6;
   var STALE_SESSION_RETRY_MS = 2000;
 
+  var authProgressRows = [];
+
   var state = {
     idKey: "",
     pack: null,
@@ -30,6 +32,7 @@
     packChangeSeq: 0,
     loadOk: false,
     loadFinished: false,
+    progressHydrated: false,
     sessionGen: 0,
     loadRetryAttempt: 0,
     saveFailureCount: 0,
@@ -116,13 +119,143 @@
     return !!practice.mustRetry;
   }
 
+  function captureAuthProgressFromEvent(ev) {
+    try {
+      var rows =
+        ev && ev.detail && ev.detail.progress != null ? ev.detail.progress : authProgressRows;
+      authProgressRows = Array.isArray(rows) ? rows : [];
+    } catch (e) {
+      authProgressRows = [];
+    }
+  }
+
+  function scoreRowsForStudent(idKey) {
+    if (!authProgressRows.length) return [];
+    if (!idKey) return authProgressRows;
+    return authProgressRows;
+  }
+
+  function fetchAuthProgressRowsFallback() {
+    if (authProgressRows.length) return Promise.resolve(authProgressRows);
+    if (root.MRJ_AUTH && typeof root.MRJ_AUTH.loadProgressForApp === "function") {
+      return root.MRJ_AUTH.loadProgressForApp(PROGRAM)
+        .then(function (res) {
+          if (res && res.ok && Array.isArray(res.progress)) {
+            authProgressRows = res.progress;
+            return authProgressRows;
+          }
+          return [];
+        })
+        .catch(function () {
+          return [];
+        });
+    }
+    return Promise.resolve([]);
+  }
+
+  function scoreRowProgram(row) {
+    if (!row || typeof row !== "object") return "";
+    return String(row.program || row.curriculum_program || "")
+      .trim()
+      .toLowerCase();
+  }
+
+  function practiceIdFromScoreItemId(itemId) {
+    itemId = String(itemId == null ? "" : itemId).trim();
+    if (!itemId || itemId.indexOf("#") >= 0) return "";
+    var parts = itemId.split(":");
+    if (parts.length === 2 && /^u\d/i.test(parts[0])) return itemId;
+    if (parts.length === 3 && /^[gbr]\d+$/i.test(parts[0]) && /^u\d/i.test(parts[1])) {
+      return itemId;
+    }
+    if (parts.length >= 4 && /^[gbr]\d+$/i.test(parts[0]) && /^u\d/i.test(parts[1])) {
+      return parts[0] + ":" + parts[1] + ":" + parts[2];
+    }
+    return "";
+  }
+
+  function pctFromScoreRow(row) {
+    if (row.score_pct != null && row.score_pct !== "") {
+      var pct = Number(row.score_pct);
+      if (isFinite(pct)) return pct;
+    }
+    if (row.scorePct != null && row.scorePct !== "") {
+      pct = Number(row.scorePct);
+      if (isFinite(pct)) return pct;
+    }
+    var val = Number(row.score_value != null ? row.score_value : row.scoreValue);
+    var max = Number(row.score_max != null ? row.score_max : row.scoreMax);
+    if (isFinite(val) && isFinite(max) && max > 0) {
+      return Math.round((val / max) * 100);
+    }
+    return null;
+  }
+
+  function rowTimestampMs(row) {
+    var raw =
+      row.updated_at ||
+      row.updatedAt ||
+      row.local_date ||
+      row.localDate ||
+      row.date ||
+      "";
+    var ms = Date.parse(String(raw));
+    return isFinite(ms) ? ms : 0;
+  }
+
+  /** Build a v1 practices map from AppProgress score rows (note_score / metrics). */
+  function packFromScoreRows(rows, programFilter) {
+    programFilter = String(programFilter == null ? PROGRAM : programFilter)
+      .trim()
+      .toLowerCase();
+    var out = emptyPack();
+    var grouped = {};
+    (rows || []).forEach(function (row) {
+      if (scoreRowProgram(row) !== programFilter) return;
+      var pid = practiceIdFromScoreItemId(row.item_id || row.itemId || row.item);
+      if (!pid) return;
+      if (!grouped[pid]) grouped[pid] = [];
+      grouped[pid].push(row);
+    });
+    Object.keys(grouped).forEach(function (pid) {
+      var list = grouped[pid].slice();
+      var summaries = list.filter(function (row) {
+        var raw = String(row.item_id || row.itemId || row.item || "").trim();
+        return raw === pid;
+      });
+      var use = summaries.length ? summaries : list;
+      use.sort(function (a, b) {
+        return rowTimestampMs(a) - rowTimestampMs(b);
+      });
+      use.forEach(function (row, idx) {
+        var pct = pctFromScoreRow(row);
+        if (pct === null) return;
+        var at = rowTimestampMs(row);
+        if (!at) at = Date.now() + idx;
+        var correct = Number(row.score_value != null ? row.score_value : row.scoreValue);
+        var max = Number(row.score_max != null ? row.score_max : row.scoreMax);
+        if (!isFinite(correct)) correct = pct;
+        if (!isFinite(max)) max = 100;
+        recordPracticeAttempt(
+          out,
+          pid,
+          { correct: correct, max: max, pct: pct, durationSec: "", at: at },
+          []
+        );
+      });
+    });
+    return out;
+  }
+
   function resetInMemoryState() {
+    authProgressRows = [];
     state.sessionGen = (state.sessionGen || 0) + 1;
     state.idKey = "";
     state.pack = null;
     state.serverPack = null;
     state.dirty = false;
     state.loadOk = false;
+    state.progressHydrated = false;
     state.loadFinished = false;
     state.loadRetryAttempt = 0;
     state.saveFailureCount = 0;
@@ -475,6 +608,7 @@
 
   function handleFailedSave(errorCode) {
     state.loadOk = false;
+    state.progressHydrated = false;
     if (state.scoreResumePending) {
       state.scoreResumePending = false;
       state.saveFailureCount = SAVE_FAILURE_STOP_AFTER;
@@ -538,6 +672,7 @@
     var idKey = syncStudentContext();
     if (!idKey) {
       state.loadFinished = true;
+      state.progressHydrated = true;
       return Promise.resolve();
     }
 
@@ -557,59 +692,87 @@
     }
     state.loadFinished = false;
     state.loadOk = false;
+    state.progressHydrated = false;
     beginLoadFlight(loadIdKey, loadGen);
 
-    return authLoadPack(PROGRAM)
+    var loadPromise = authLoadPack(PROGRAM);
+
+    function finishLoad(res, scoreRows) {
+      endLoadFlight(loadIdKey, loadGen);
+      if (!contextMatches(loadIdKey, loadGen)) return;
+      state.loadFinished = true;
+      if (!res || !res.ok) {
+        handleFailedLoad(loadIdKey, res && res.error ? String(res.error) : "", scoreRows);
+        notifyPackUpdated();
+        return;
+      }
+      state.loadOk = true;
+      state.loadRetryAttempt = 0;
+      var serverJson = res.progress_json != null ? res.progress_json : "";
+      var localPack = mergePacks(readLocalPack(loadIdKey), localAtStart);
+      var merged = mergePacks(localPack, serverJson);
+      merged = mergePacks(merged, packFromScoreRows(scoreRows, PROGRAM));
+      var serverParsed = parsePackJson(serverJson).data;
+      state.serverPack = serverParsed;
+      applyMergedPack(loadIdKey, merged, serverJson);
+      state.dirty = false;
+      if (isRicherThan(merged, serverParsed)) {
+        state.dirty = true;
+        scheduleSave();
+      }
+      state.progressHydrated = true;
+      notifyPackUpdated();
+    }
+
+    return loadPromise
       .then(function (res) {
-        endLoadFlight(loadIdKey, loadGen);
-        if (!contextMatches(loadIdKey, loadGen)) return;
-        state.loadFinished = true;
-        if (!res || !res.ok) {
-          handleFailedLoad(loadIdKey, res && res.error ? String(res.error) : "");
-          notifyPackUpdated();
+        var rows = scoreRowsForStudent(loadIdKey);
+        if (rows.length) {
+          finishLoad(res, rows);
           return;
         }
-        state.loadOk = true;
-        state.loadRetryAttempt = 0;
-        var serverJson = res.progress_json != null ? res.progress_json : "";
-        var localPack = mergePacks(readLocalPack(loadIdKey), localAtStart);
-        var merged = mergePacks(localPack, serverJson);
-        var serverParsed = parsePackJson(serverJson).data;
-        state.serverPack = serverParsed;
-        applyMergedPack(loadIdKey, merged, serverJson);
-        state.dirty = false;
-        if (isRicherThan(merged, serverParsed)) {
-          state.dirty = true;
-          scheduleSave();
+        if (root.MRJ_AUTH && typeof root.MRJ_AUTH.loadProgressForApp === "function") {
+          return fetchAuthProgressRowsFallback().then(function (fetched) {
+            finishLoad(res, fetched);
+          });
         }
-        notifyPackUpdated();
+        finishLoad(res, []);
       })
       .catch(function () {
         endLoadFlight(loadIdKey, loadGen);
         if (!contextMatches(loadIdKey, loadGen)) return;
         state.loadFinished = true;
-        handleFailedLoad(loadIdKey, "network");
+        var rows = scoreRowsForStudent(loadIdKey);
+        handleFailedLoad(loadIdKey, "network", rows.length ? rows : authProgressRows);
         notifyPackUpdated();
       });
   }
 
-  function handleFailedLoad(idKey, errorCode) {
+  function handleFailedLoad(idKey, errorCode, scoreRows) {
     state.loadOk = false;
+    state.progressHydrated = false;
     if (state.scoreResumePending) {
       state.scoreResumePending = false;
       state.saveFailureCount = SAVE_FAILURE_STOP_AFTER;
       markSaveRetryStopped();
       state.lastSaveFailAt = Date.now();
       if (contextMatches(idKey, state.sessionGen)) {
-        state.pack = readLocalPack(idKey);
+        var localOnly = readLocalPack(idKey);
+        state.pack = mergePacks(localOnly, packFromScoreRows(scoreRows, PROGRAM));
         state.idKey = idKey;
+        writeLocalPack(idKey, state.pack);
       }
+      state.progressHydrated = true;
       return;
     }
     if (contextMatches(idKey, state.sessionGen)) {
-      state.pack = readLocalPack(idKey);
+      var local = readLocalPack(idKey);
+      var merged = mergePacks(local, packFromScoreRows(scoreRows, PROGRAM));
+      state.pack = merged;
       state.idKey = idKey;
+      writeLocalPack(idKey, merged);
     }
+    state.progressHydrated = true;
     scheduleLoadRetry({
       fromSaveFailure: false,
       useStaleFast: errorCode === "stale_session",
@@ -743,7 +906,8 @@
     if (root.__MRJ_GZ_PACK_BOUND) return;
     if (typeof root.addEventListener !== "function") return;
     root.__MRJ_GZ_PACK_BOUND = true;
-    root.addEventListener("mrj-auth-ready", function () {
+    root.addEventListener("mrj-auth-ready", function (ev) {
+      captureAuthProgressFromEvent(ev);
       resumeSaveRetries();
       runLoad();
     });
@@ -770,6 +934,8 @@
     emptyPack: emptyPack,
     parsePackJson: parsePackJson,
     mergePacks: mergePacks,
+    packFromScoreRows: packFromScoreRows,
+    practiceIdFromScoreItemId: practiceIdFromScoreItemId,
     mergeStartPoints: mergeStartPoints,
     mergePractice: mergePractice,
     isRicherThan: isRicherThan,

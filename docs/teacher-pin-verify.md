@@ -29,4 +29,13 @@ Backend (mrj-signin `Code.gs`, already in GitHub `main`):
 3. DevTools → Network: POST body `action: study_teacher_check`; response JSON `{ "ok": true }`.
 4. Wrong PIN once: `{ "ok": false, "message": "Wrong PIN." }` (not `bad_action`).
 
+## Progress gates smoke (AppProgress rows → pack hydrate)
+
+After merge of `20261029-progress-teacher-fix`:
+
+1. Sign in as a student who has **greenzap** AppProgress rows (e.g. `r1:u09:fly` at ≥50%) but an empty or stale `progress_json` pack blob.
+2. Open a Zap book hub — earlier units/exercises should **not** show false locks once the pack finishes loading (chip visible, brief moment with locks held).
+3. DevTools → Application → localStorage key `mrj.greenzap.pack:chanyeong` should contain `practices["r1:u09:fly"]` (or your student’s ids) after load.
+4. Teacher: sign student in → **Teacher** → PIN → **Teacher ✓** → **Open up to here** on a later exercise → exit teacher mode → that path stays open.
+
 No hardcoded PIN in this repo — PIN lives only in Apps Script `STUDY_TEACHER_PIN`.

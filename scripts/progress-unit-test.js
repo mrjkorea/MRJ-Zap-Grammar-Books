@@ -40,6 +40,7 @@ function applyPack(p, opts) {
   pack._state.pack = p;
   pack._state.loadFinished = opts.loadFinished !== false;
   pack._state.loadOk = opts.loadOk !== false;
+  pack._state.progressHydrated = opts.progressHydrated !== false;
 }
 
 function score(id, pct) {
@@ -98,6 +99,28 @@ function score(id, pct) {
   applyPack(pack.emptyPack(), { loadFinished: true, loadOk: true });
   score("g1:u01:walk1", 40);
   assert.strictEqual(progress.isExerciseUnlocked("zap-green-1", "unit-01", 1), false);
+})();
+
+(function testPackReadyWaitsForHydrateAfterFailedLoad() {
+  applyPack(pack.emptyPack(), { loadFinished: true, loadOk: false, progressHydrated: false });
+  assert.strictEqual(progress.packProgressReady(), false);
+  pack._state.pack = pack.mergePacks(
+    pack.emptyPack(),
+    pack.packFromScoreRows(
+      [
+        {
+          program: "greenzap",
+          item_id: "g1:u01:walk1",
+          score_pct: 55,
+          updated_at: "2026-10-28T00:00:00.000Z",
+        },
+      ],
+      "greenzap"
+    )
+  );
+  pack._state.progressHydrated = true;
+  assert.strictEqual(progress.packProgressReady(), true);
+  assert.strictEqual(progress.isPracticeDone("g1:u01:walk1", "zap-green-1"), true);
 })();
 
 (function testTeacherBypass() {
