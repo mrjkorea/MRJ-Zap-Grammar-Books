@@ -1,13 +1,14 @@
 /**
- * Teacher PIN unlock beside MRJ student chip (study_teacher_check — never hardcoded PIN).
- * After unlock: set per-student start points (persisted in greenzap pack.startPoints).
+ * Zap teacher tools (start point, lock bypass) — unlocked only via shared mrj-auth chip
+ * (.mrj-auth-teacher-btn + study_teacher_check). No duplicate Teacher button or PIN UI.
  */
 (function (root) {
   "use strict";
 
-  var SESSION_KEY = "gz.teacherUnlock";
-  var BUILD = "20261030-one-teacher";
+  var BUILD = "20261030-chip-teacher-only";
   var panelBookId = "";
+  var chipClickBound = false;
+  var lastActive = null;
 
   function auth() {
     return root.MRJ_AUTH || root.MRJSignin || null;
@@ -30,41 +31,6 @@
     return a && a.student ? String(a.student() || "").trim() : "";
   }
 
-  function readUnlock() {
-    try {
-      var raw = root.sessionStorage.getItem(SESSION_KEY);
-      if (!raw) return null;
-      var data = JSON.parse(raw);
-      if (!data || !data.student) return null;
-      return data;
-    } catch (e) {
-      return null;
-    }
-  }
-
-  function studentIdKeyNorm() {
-    var who = studentId();
-    if (!who) return "";
-    var pack = packApi();
-    if (pack && typeof pack.idKeyFromStudent === "function") {
-      return pack.idKeyFromStudent(who);
-    }
-    return who.trim().toLowerCase();
-  }
-
-  function pinUnlocked() {
-    var key = studentIdKeyNorm();
-    if (!key) return false;
-    var saved = readUnlock();
-    if (!saved || !saved.student) return false;
-    var pack = packApi();
-    var savedKey =
-      pack && typeof pack.idKeyFromStudent === "function"
-        ? pack.idKeyFromStudent(saved.student)
-        : String(saved.student).trim().toLowerCase();
-    return savedKey === key;
-  }
-
   function serverTeacher() {
     try {
       var a = auth();
@@ -75,21 +41,7 @@
   }
 
   function isActive() {
-    return serverTeacher() || pinUnlocked();
-  }
-
-  function setUnlocked(on) {
-    try {
-      if (on) {
-        var who = studentId();
-        if (!who) return;
-        root.sessionStorage.setItem(SESSION_KEY, JSON.stringify({ student: who, at: Date.now() }));
-      } else {
-        root.sessionStorage.removeItem(SESSION_KEY);
-      }
-    } catch (e) {}
-    syncChrome();
-    dispatchTeacherEvent();
+    return serverTeacher();
   }
 
   function dispatchTeacherEvent() {
@@ -106,12 +58,17 @@
   }
 
   function syncChrome() {
+    var active = isActive();
     try {
       if (root.document && root.document.body) {
-        root.document.body.classList.toggle("mrj-zap-teacher-active", isActive());
+        root.document.body.classList.toggle("mrj-zap-teacher-active", active);
       }
     } catch (e) {}
-    updateUi();
+    if (lastActive !== active) {
+      lastActive = active;
+      dispatchTeacherEvent();
+    }
+    layoutPanel();
   }
 
   function esc(s) {
@@ -174,53 +131,45 @@
       });
   }
 
-  var barEl, btnEl, panelEl;
+  var anchorEl, panelEl;
   var packListenerBound = false;
 
   function ensureDom() {
-    if (barEl || !root.document || !root.document.body) return;
-    barEl = root.document.createElement("div");
-    barEl.id = "mrj-zap-teacher-bar";
-    barEl.setAttribute("aria-live", "polite");
-
-    btnEl = root.document.createElement("button");
-    btnEl.type = "button";
-    btnEl.id = "mrj-zap-teacher-btn";
-    btnEl.className = "mrj-zap-teacher-btn";
-    btnEl.textContent = "Teacher";
-    btnEl.addEventListener("click", onTeacherBtnClick);
+    if (anchorEl || !root.document || !root.document.body) return;
+    anchorEl = root.document.createElement("div");
+    anchorEl.id = "mrj-zap-teacher-bar";
+    anchorEl.setAttribute("aria-live", "polite");
 
     panelEl = root.document.createElement("div");
     panelEl.id = "mrj-zap-teacher-panel";
     panelEl.className = "mrj-zap-teacher-panel";
     panelEl.hidden = true;
 
-    barEl.appendChild(btnEl);
-    barEl.appendChild(panelEl);
-    root.document.body.appendChild(barEl);
+    anchorEl.appendChild(panelEl);
+    root.document.body.appendChild(anchorEl);
 
-    root.addEventListener("resize", layoutBar);
-    root.addEventListener("orientationchange", layoutBar);
+    root.addEventListener("resize", layoutPanel);
+    root.addEventListener("orientationchange", layoutPanel);
   }
 
-  function layoutBar() {
-    if (!barEl) return;
+  function layoutPanel() {
+    if (!anchorEl) return;
     var chip = root.document.getElementById("mrj-auth-student-chip");
-    if (!chip || chip.hidden) {
-      barEl.hidden = true;
+    if (!chip || chip.hidden || !studentId()) {
+      anchorEl.hidden = true;
       return;
     }
     var rect = chip.getBoundingClientRect();
     if (!rect.width || !rect.height) {
-      barEl.hidden = true;
+      anchorEl.hidden = true;
       return;
     }
-    barEl.hidden = false;
+    anchorEl.hidden = false;
     var gap = 8;
     var top = rect.top;
     var right = root.innerWidth - rect.left + gap;
-    barEl.style.top = top + "px";
-    barEl.style.right = right + "px";
+    anchorEl.style.top = top + "px";
+    anchorEl.style.right = right + "px";
   }
 
   function closePanel() {
@@ -257,7 +206,6 @@
     if (!prog || typeof prog.getStartPoint !== "function") return null;
     var sp = prog.getStartPoint(bookId);
     if (!sp) return null;
-    var row = { unitId: sp.unitId, slug: sp.exerciseSlug, practiceId: sp.practiceId };
     if (typeof prog.pathRowLabel === "function") {
       var cat = catalogApi();
       var unitTitle = sp.unitId;
@@ -442,61 +390,8 @@
     return html;
   }
 
-  function openUnlockPanel() {
-    var who = studentId();
-    if (!who) {
-      alert("Sign the student in first.");
-      return;
-    }
-    if (isActive() && !pinUnlocked() && serverTeacher()) {
-      openTeacherMenu(who);
-      return;
-    }
-    if (isActive()) {
-      openTeacherMenu(who);
-      return;
-    }
-    panelEl.hidden = false;
-    panelEl.innerHTML =
-      '<div class="mrj-zap-teacher-panel-head">' +
-      '<strong>Teacher</strong>' +
-      '<button type="button" class="mrj-zap-teacher-close" aria-label="Close">✕</button>' +
-      "</div>" +
-      '<p class="mrj-zap-teacher-student">Student: <span>' +
-      esc(who) +
-      "</span></p>" +
-      '<label class="mrj-zap-teacher-field">PIN<input type="password" class="mrj-zap-teacher-pin" autocomplete="off" /></label>' +
-      '<p class="mrj-zap-teacher-err" role="alert"></p>' +
-      '<button type="button" class="mrj-zap-teacher-unlock">Unlock</button>';
-    var pin = panelEl.querySelector(".mrj-zap-teacher-pin");
-    var err = panelEl.querySelector(".mrj-zap-teacher-err");
-    panelEl.querySelector(".mrj-zap-teacher-close").onclick = closePanel;
-    pin.focus();
-    var go = function () {
-      err.textContent = "Checking…";
-      teacherCheck(pin.value.trim()).then(function (r) {
-        if (r && r.ok === true) {
-          err.textContent = "";
-          setUnlocked(true);
-          closePanel();
-          openTeacherMenu(who);
-          return;
-        }
-        if (r && r.error === "locked") {
-          err.textContent = r.message || "Too many tries. Wait 10 minutes and try again.";
-          return;
-        }
-        err.textContent = (r && r.message) || "Wrong PIN.";
-      });
-    };
-    panelEl.querySelector(".mrj-zap-teacher-unlock").onclick = go;
-    pin.onkeydown = function (e) {
-      if (e.key === "Enter") go();
-    };
-    layoutBar();
-  }
-
   function openTeacherMenu(who) {
+    if (!isActive()) return;
     panelBookId = panelBookId || defaultPanelBookId();
     panelEl.hidden = false;
     panelEl.classList.add("mrj-zap-teacher-panel--menu");
@@ -523,71 +418,80 @@
       '<div class="mrj-zap-teacher-path" aria-label="Book path"></div>' +
       "</section>";
     panelEl.querySelector(".mrj-zap-teacher-close").onclick = closePanel;
-    panelEl.querySelector(".mrj-zap-teacher-lock").onclick = function () {
-      if (serverTeacher()) {
-        closePanel();
-        alert("This account is signed in as a teacher. Use sign out to end the session.");
-        return;
-      }
-      setUnlocked(false);
-      closePanel();
-    };
+    panelEl.querySelector(".mrj-zap-teacher-lock").onclick = exitTeacherMode;
     bindPanelBookPicker(who);
     bindPackRefresh(who);
     renderStartPointMeta(panelBookId);
     renderStartPointPath(panelBookId, who);
-    layoutBar();
+    layoutPanel();
   }
 
-  function onTeacherBtnClick() {
+  function exitTeacherMode() {
+    closePanel();
+    if (!serverTeacher()) {
+      syncChrome();
+      return;
+    }
+    unbindChipTeacherClick();
+    var btn = root.document.querySelector(".mrj-auth-teacher-btn");
+    if (btn) btn.click();
+    bindChipTeacherClick();
+    syncChrome();
+  }
+
+  function onTeacherMenuToggle() {
     ensureDom();
+    if (!serverTeacher()) return;
     if (!panelEl.hidden) {
       closePanel();
       return;
     }
-    if (isActive()) openTeacherMenu(studentId());
-    else openUnlockPanel();
+    openTeacherMenu(studentId());
   }
 
-  function updateUi() {
-    ensureDom();
-    if (!btnEl) return;
-    var signedIn = !!studentId();
-    barEl.hidden = !signedIn;
-    if (!signedIn) {
-      closePanel();
-      return;
-    }
-    btnEl.textContent = isActive() ? "Teacher ✓" : "Teacher";
-    btnEl.classList.toggle("is-unlocked", isActive());
-    btnEl.setAttribute("aria-pressed", isActive() ? "true" : "false");
-    layoutBar();
+  function onChipTeacherClick(ev) {
+    if (!ev || !ev.target || !ev.target.closest) return;
+    if (!ev.target.closest(".mrj-auth-teacher-btn")) return;
+    if (!serverTeacher()) return;
+    ev.preventDefault();
+    ev.stopPropagation();
+    if (ev.stopImmediatePropagation) ev.stopImmediatePropagation();
+    onTeacherMenuToggle();
+  }
+
+  function bindChipTeacherClick() {
+    if (chipClickBound || !root.document) return;
+    chipClickBound = true;
+    root.document.addEventListener("click", onChipTeacherClick, true);
+  }
+
+  function unbindChipTeacherClick() {
+    if (!chipClickBound || !root.document) return;
+    root.document.removeEventListener("click", onChipTeacherClick, true);
+    chipClickBound = false;
   }
 
   function onAuthReady() {
-    var saved = readUnlock();
-    var key = studentIdKeyNorm();
-    if (saved && key) {
-      var pack = packApi();
-      var savedKey =
-        pack && typeof pack.idKeyFromStudent === "function"
-          ? pack.idKeyFromStudent(saved.student)
-          : String(saved.student).trim().toLowerCase();
-      if (savedKey !== key) setUnlocked(false);
-    }
     syncChrome();
-    updateUi();
+    layoutPanel();
+  }
+
+  function onMrjTeacherFromAuth() {
+    syncChrome();
+    if (serverTeacher() && studentId()) {
+      openTeacherMenu(studentId());
+    }
   }
 
   function boot() {
     ensureDom();
+    bindChipTeacherClick();
     onAuthReady();
     try {
       var chip = root.document.getElementById("mrj-auth-student-chip");
       if (chip && root.MutationObserver) {
         var mo = new root.MutationObserver(function () {
-          layoutBar();
-          updateUi();
+          layoutPanel();
         });
         mo.observe(chip, { attributes: true, childList: true, characterData: true, subtree: true });
       }
@@ -596,6 +500,7 @@
 
   if (root.document) {
     root.document.addEventListener("mrj-auth-ready", onAuthReady);
+    root.document.addEventListener("mrj-teacher", onMrjTeacherFromAuth);
     if (root.document.readyState === "loading") {
       root.document.addEventListener("DOMContentLoaded", boot);
     } else {
@@ -606,9 +511,7 @@
   root.MRJ_ZAP_TEACHER = {
     BUILD: BUILD,
     isActive: isActive,
-    pinUnlocked: pinUnlocked,
     teacherCheck: teacherCheck,
-    setUnlocked: setUnlocked,
-    layout: layoutBar,
+    layout: layoutPanel,
   };
 })(typeof window !== "undefined" ? window : globalThis);
