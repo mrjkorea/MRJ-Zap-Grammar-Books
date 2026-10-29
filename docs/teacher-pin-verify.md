@@ -24,14 +24,14 @@ Backend (mrj-signin `Code.gs`, already in GitHub `main`):
 
 ## CoS / Grammar smoke test (after student sign-in)
 
-1. Open Grammar Zap hub with a signed-in student (chip visible).
+1. Open Grammar Zap hub with a signed-in student (chip visible). Only **one** Teacher control should appear (`#mrj-zap-teacher-btn` beside the chip; shared `.mrj-auth-teacher-btn` is hidden on Zap).
 2. Click **Teacher** → enter known PIN → expect **Teacher ✓** and teacher menu (start point UI).
 3. DevTools → Network: POST body `action: study_teacher_check`; response JSON `{ "ok": true }`.
 4. Wrong PIN once: `{ "ok": false, "message": "Wrong PIN." }` (not `bad_action`).
 
 ## Progress gates smoke (AppProgress rows → pack hydrate)
 
-After merge of `20261029-progress-teacher-fix`:
+After merge of `20261030-one-teacher`:
 
 1. Sign in as a student who has **greenzap** AppProgress rows (e.g. `r1:u09:fly` at ≥50%) but an empty or stale `progress_json` pack blob.
 2. Open a Zap book hub — earlier units/exercises should **not** show false locks once the pack finishes loading (chip visible, brief moment with locks held).
