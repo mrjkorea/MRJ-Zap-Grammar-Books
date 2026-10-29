@@ -94,7 +94,11 @@
     if (!studentSignedIn()) return true;
     var pack = packApi();
     if (!pack || !pack._state) return false;
-    return !!pack._state.loadFinished;
+    var st = pack._state;
+    if (!st.loadFinished) return false;
+    if (st.loadOk) return true;
+    if (st.loadInFlight || st.retryLoadTimer) return false;
+    return !!st.progressHydrated;
   }
 
   function shouldHoldLockUi() {
@@ -185,7 +189,7 @@
 
   function isPracticeDone(practiceId, bookId) {
     if (bookId && isBeforeStartPoint(bookId, practiceId)) return true;
-    if (shouldHoldLockUi()) return false;
+    if (shouldHoldLockUi()) return true;
     var best = bestPct(practiceId);
     if (best !== null && best >= RETRY_PCT) return true;
     if (anyAttemptMeetsBar(practiceId)) return true;

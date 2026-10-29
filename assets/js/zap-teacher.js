@@ -6,7 +6,7 @@
   "use strict";
 
   var SESSION_KEY = "gz.teacherUnlock";
-  var BUILD = "20261028-safe-progress-fix";
+  var BUILD = "20261029-progress-teacher-fix";
   var panelBookId = "";
 
   function auth() {
@@ -42,11 +42,27 @@
     }
   }
 
-  function pinUnlocked() {
+  function studentIdKeyNorm() {
     var who = studentId();
-    if (!who) return false;
+    if (!who) return "";
+    var pack = packApi();
+    if (pack && typeof pack.idKeyFromStudent === "function") {
+      return pack.idKeyFromStudent(who);
+    }
+    return who.trim().toLowerCase();
+  }
+
+  function pinUnlocked() {
+    var key = studentIdKeyNorm();
+    if (!key) return false;
     var saved = readUnlock();
-    return !!(saved && saved.student === who);
+    if (!saved || !saved.student) return false;
+    var pack = packApi();
+    var savedKey =
+      pack && typeof pack.idKeyFromStudent === "function"
+        ? pack.idKeyFromStudent(saved.student)
+        : String(saved.student).trim().toLowerCase();
+    return savedKey === key;
   }
 
   function serverTeacher() {
@@ -459,13 +475,18 @@
     var go = function () {
       err.textContent = "Checking…";
       teacherCheck(pin.value.trim()).then(function (r) {
-        if (r && r.ok) {
+        if (r && r.ok === true) {
+          err.textContent = "";
           setUnlocked(true);
           closePanel();
           openTeacherMenu(who);
-        } else {
-          err.textContent = (r && r.message) || "Wrong PIN.";
+          return;
         }
+        if (r && r.error === "locked") {
+          err.textContent = r.message || "Too many tries. Wait 10 minutes and try again.";
+          return;
+        }
+        err.textContent = (r && r.message) || "Wrong PIN.";
       });
     };
     panelEl.querySelector(".mrj-zap-teacher-unlock").onclick = go;
@@ -545,9 +566,14 @@
 
   function onAuthReady() {
     var saved = readUnlock();
-    var who = studentId();
-    if (saved && who && saved.student !== who) {
-      setUnlocked(false);
+    var key = studentIdKeyNorm();
+    if (saved && key) {
+      var pack = packApi();
+      var savedKey =
+        pack && typeof pack.idKeyFromStudent === "function"
+          ? pack.idKeyFromStudent(saved.student)
+          : String(saved.student).trim().toLowerCase();
+      if (savedKey !== key) setUnlocked(false);
     }
     syncChrome();
     updateUi();
