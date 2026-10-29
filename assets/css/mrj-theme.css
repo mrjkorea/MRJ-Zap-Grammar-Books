@@ -280,11 +280,6 @@ html .mrj-auth button:focus-visible { outline: none; box-shadow: var(--ring); }
 html .mrj-auth .mrj-auth-error { border: 0; border-left: 6px solid var(--bad); border-radius: 0 14px 14px 0; background: #fff5f4; color: #9b1c13; font-size: 1.1rem; }
 html .mrj-auth-progress li, html .mrj-auth-empty { border: 1.5px solid var(--border); border-radius: 14px; }
 
-/* Zap Grammar: teacher unlock + start point via MRJ_ZAP_TEACHER (study_teacher_check), not shared chip teacher_unlock. */
-body.mrj-zap .mrj-auth-teacher-btn {
-  display: none !important;
-}
-
 /* =====================  v2: bold kids-app layer (preview only)  ===================== */
 html[data-book="green"] { --accent:#22a559; --accent-dark:#137a3d; --accent-soft:#e3f7ea; --accent-2:#7ddc6a; --bg:#effaf2; --banner:#e3f7ea; --border:#c7e6d1; --focus:#3dd68c; --match-selected:#dcf6e5; }
 html[data-book="blue"]  { --accent:#2f7cf6; --accent-dark:#1b55c4; --accent-soft:#e5efff; --accent-2:#5fc4ff; --bg:#eef4ff; --banner:#e5efff; --border:#c8d9f5; --focus:#5aa6ff; --match-selected:#dde9ff; --match-linked:#e2f1ff; --ok:#1b8f5a; }

@@ -1,10 +1,12 @@
 # Teacher PIN (`study_teacher_check`) verification
 
-Client: `assets/js/zap-teacher.js` posts to `MRJ_AUTH.ENDPOINT` with:
+Teacher unlock uses the **shared mrj-auth chip** only (`.mrj-auth-teacher-btn`). The chip posts to `MRJ_AUTH.ENDPOINT` with:
 
 ```json
 { "action": "study_teacher_check", "pin": "<teacher pin>", "id": "<student id>", "token": "<session token>" }
 ```
+
+(`assets/js/zap-teacher.js` exports `teacherCheck()` with the same payload for debugging; the UI does not show a second PIN dialog on Zap.)
 
 Backend (mrj-signin `Code.gs`, already in GitHub `main`):
 
@@ -24,18 +26,19 @@ Backend (mrj-signin `Code.gs`, already in GitHub `main`):
 
 ## CoS / Grammar smoke test (after student sign-in)
 
-1. Open Grammar Zap hub with a signed-in student (chip visible). Only **one** Teacher control should appear (`#mrj-zap-teacher-btn` beside the chip; shared `.mrj-auth-teacher-btn` is hidden on Zap).
-2. Click **Teacher** → enter known PIN → expect **Teacher ✓** and teacher menu (start point UI).
+1. Open Grammar Zap hub with a signed-in student (chip visible). Only **one** Teacher control should appear: the shared chip button **`.mrj-auth-teacher-btn`**. There must be **no** `#mrj-zap-teacher-btn` in the DOM.
+2. Click **Teacher** on the chip → enter known PIN in the **auth dialog** → chip shows **Exit** (teacher mode). The Zap teacher menu (start point UI) opens beside the chip.
 3. DevTools → Network: POST body `action: study_teacher_check`; response JSON `{ "ok": true }`.
 4. Wrong PIN once: `{ "ok": false, "message": "Wrong PIN." }` (not `bad_action`).
+5. Click chip **Exit** or **Lock / exit teacher mode** in the Zap panel → teacher mode ends; progress locks reflect the student again.
 
 ## Progress gates smoke (AppProgress rows → pack hydrate)
 
-After merge of `20261030-one-teacher`:
+After merge of `20261030-chip-teacher-only`:
 
 1. Sign in as a student who has **greenzap** AppProgress rows (e.g. `r1:u09:fly` at ≥50%) but an empty or stale `progress_json` pack blob.
 2. Open a Zap book hub — earlier units/exercises should **not** show false locks once the pack finishes loading (chip visible, brief moment with locks held).
 3. DevTools → Application → localStorage key `mrj.greenzap.pack:chanyeong` should contain `practices["r1:u09:fly"]` (or your student’s ids) after load.
-4. Teacher: sign student in → **Teacher** → PIN → **Teacher ✓** → **Open up to here** on a later exercise → exit teacher mode → that path stays open.
+4. Teacher: sign student in → chip **Teacher** → PIN → teacher menu → **Open up to here** on a later exercise → exit teacher mode → that path stays open.
 
 No hardcoded PIN in this repo — PIN lives only in Apps Script `STUDY_TEACHER_PIN`.
