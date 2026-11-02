@@ -20,6 +20,13 @@
       appName: "천일문 Grammar 1",
       bookTitle: "천일문 GRAMMAR LEVEL 1",
     },
+    {
+      id: "chunilmun-grammar-2",
+      title: "천일문 Grammar 2",
+      enabled: true,
+      appName: "천일문 Grammar 2",
+      bookTitle: "천일문 GRAMMAR LEVEL 2",
+    },
   ];
 
   var UNITS = {
@@ -158,6 +165,10 @@
       { id: "chapter-12", title: "Ch 12 SB — 접속사", enabled: true },
       { id: "wb-chapter-12", title: "Ch 12 WB — 접속사", enabled: true },
       { id: "review-03", title: "총괄평가 3회 (Ch09–12)", enabled: true },
+    ],
+    "chunilmun-grammar-2": [
+      { id: "chapter-01", title: "Ch 01 SB — 문장의 주요 형식", enabled: true },
+      { id: "wb-chapter-01", title: "Ch 01 WB — 문장의 주요 형식", enabled: true },
     ],
     "zap-green-2": [
       { id: "unit-01", title: "Unit 01 — 셀 수 있는 명사와 셀 수 없는 명사", enabled: true },
@@ -6032,6 +6043,122 @@
         hint: "WB · be동사",
         data: "data/chunilmun1/chapter01/wb-c01-test.json",
         practiceId: "cm1:wb-c01:test",
+      }
+    ],
+    "chunilmun-grammar-2:chapter-01": [
+      {
+        slug: "c01-u1-A",
+        title: "Unit 1 Exercise A",
+        hint: "SB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/c01-u1-A.json",
+        practiceId: "cm2:c01:u1-A",
+      },
+      {
+        slug: "c01-u1-B",
+        title: "Unit 1 Exercise B",
+        hint: "SB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/c01-u1-B.json",
+        practiceId: "cm2:c01:u1-B",
+      },
+      {
+        slug: "c01-u1-C",
+        title: "Unit 1 Exercise C",
+        hint: "SB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/c01-u1-C.json",
+        practiceId: "cm2:c01:u1-C",
+      },
+      {
+        slug: "c01-u2-A",
+        title: "Unit 2 Exercise A",
+        hint: "SB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/c01-u2-A.json",
+        practiceId: "cm2:c01:u2-A",
+      },
+      {
+        slug: "c01-u2-B",
+        title: "Unit 2 Exercise B",
+        hint: "SB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/c01-u2-B.json",
+        practiceId: "cm2:c01:u2-B",
+      },
+      {
+        slug: "c01-u2-C",
+        title: "Unit 2 Exercise C",
+        hint: "SB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/c01-u2-C.json",
+        practiceId: "cm2:c01:u2-C",
+      },
+      {
+        slug: "c01-test",
+        title: "Chapter Test",
+        hint: "SB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/c01-test.json",
+        practiceId: "cm2:c01:test",
+      }
+    ],
+    "chunilmun-grammar-2:wb-chapter-01": [
+      {
+        slug: "wb-c01-u1-A",
+        title: "WB Unit 1 A",
+        hint: "WB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/wb-c01-u1-A.json",
+        practiceId: "cm2:wb-c01:u1-A",
+      },
+      {
+        slug: "wb-c01-u1-B",
+        title: "WB Unit 1 B",
+        hint: "WB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/wb-c01-u1-B.json",
+        practiceId: "cm2:wb-c01:u1-B",
+      },
+      {
+        slug: "wb-c01-u1-C",
+        title: "WB Unit 1 C",
+        hint: "WB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/wb-c01-u1-C.json",
+        practiceId: "cm2:wb-c01:u1-C",
+      },
+      {
+        slug: "wb-c01-u1-D",
+        title: "WB Unit 1 D",
+        hint: "WB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/wb-c01-u1-D.json",
+        practiceId: "cm2:wb-c01:u1-D",
+      },
+      {
+        slug: "wb-c01-u2-A",
+        title: "WB Unit 2 A",
+        hint: "WB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/wb-c01-u2-A.json",
+        practiceId: "cm2:wb-c01:u2-A",
+      },
+      {
+        slug: "wb-c01-u2-B",
+        title: "WB Unit 2 B",
+        hint: "WB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/wb-c01-u2-B.json",
+        practiceId: "cm2:wb-c01:u2-B",
+      },
+      {
+        slug: "wb-c01-u2-C",
+        title: "WB Unit 2 C",
+        hint: "WB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/wb-c01-u2-C.json",
+        practiceId: "cm2:wb-c01:u2-C",
+      },
+      {
+        slug: "wb-c01-u2-D",
+        title: "WB Unit 2 D",
+        hint: "WB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/wb-c01-u2-D.json",
+        practiceId: "cm2:wb-c01:u2-D",
+      },
+      {
+        slug: "wb-c01-test",
+        title: "WB Chapter Test",
+        hint: "WB · 문장의 주요 형식",
+        data: "data/chunilmun2/chapter01/wb-c01-test.json",
+        practiceId: "cm2:wb-c01:test",
       }
     ],
     "chunilmun-grammar-1:chapter-02": [
