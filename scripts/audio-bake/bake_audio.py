@@ -36,7 +36,7 @@ BOOKS = [
     "blue1", "blue2", "blue3", "blue4",
     "red1", "red2",
     "chunilmun1",
-    # chunilmun2: Grammar 2 JSON lives in data/chunilmun2/. Audio bake is a later pass.
+    "chunilmun2",
 ]
 
 MAYA = "fe4921e56ebf4fcba53b09b0d73c2052"
@@ -579,7 +579,7 @@ def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
     """
     Returns ('plain', text) | ('beep', [parts]) | ('skip', reason)
     """
-    strict = book == "chunilmun1"
+    strict = book in ("chunilmun1", "chunilmun2")
     t = it.get("type")
     m = it.get("answerMode")
     if t == "match" or m == "match":
@@ -840,7 +840,7 @@ def build_jobs(book_filter: str | None = None):
                     # (e.g. failed to strip a choice / word-form reveal).
                     leak = (
                         None
-                        if book_id == "chunilmun1"
+                        if book_id in ("chunilmun1", "chunilmun2")
                         else answer_in_source(source, it.get("accept") or [])
                     )
                 if leak:
