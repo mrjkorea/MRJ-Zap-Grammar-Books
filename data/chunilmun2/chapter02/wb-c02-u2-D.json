@@ -1,0 +1,64 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c02:u2-D",
+  "title": "Workbook Unit 2 — Section D",
+  "subtitle": "현재완료 문장 · POINT 5·6 (WB p. 11)",
+  "pages": "11",
+  "timerMinutes": 18,
+  "unitId": "wb-chapter-02",
+  "unitTitle": "Ch 02 WB — 시제",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section D 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "D",
+      "title": "Section D",
+      "instructionKo": "밑줄 친 우리말과 일치하도록 주어진 단어를 사용하여 현재완료형 문장을 완성하세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "밑줄 친 우리말과 일치하도록 주어진 단어를 사용하여 현재완료형 문장을 완성하세요. POINT 5·6.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "D1",
+        "D2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "d01",
+      "section": "D",
+      "sectionTitle": "Section D",
+      "sectionInstructionKo": "밑줄 친 우리말과 일치하도록 주어진 단어를 사용하여 현재완료형 문장을 완성하세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "D1",
+      "type": "fill",
+      "promptEn": "My brother Tom is a writer. He (1) 많은 책을 썼다. His first book is a best seller. He (2) 유명한 작가가 되었다. I'm proud of him.\n(1) He ________. (write, many books)\n(2) He ________. (become, famous, writer, a)",
+      "accept": [
+        "has written many books|has become a famous writer"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "d02",
+      "section": "D",
+      "sectionTitle": "Section D",
+      "sectionInstructionKo": "밑줄 친 우리말과 일치하도록 주어진 단어를 사용하여 현재완료형 문장을 완성하세요. POINT 5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "D2",
+      "type": "fill",
+      "promptEn": "I have an English test today. I (1) 공부를 열심히 했다. (2) 아직 시험을 치지 않았다. but I'm sure that I'll pass it.\n(1) I ________. (study, hard)\n(2) I ________ yet. (take, the test)",
+      "accept": [
+        "have studied hard|have not taken the test",
+        "have studied hard|haven't taken the test"
+      ],
+      "blanks": 2
+    }
+  ]
+}
