@@ -5,7 +5,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261102-teacher-start-here";
+  var BUILD = "20261103-chunilmun2-live";
   var panelBookId = "";
   var chipClickBound = false;
   var lastActive = null;
