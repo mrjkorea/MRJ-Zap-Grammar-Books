@@ -10,7 +10,7 @@
   "unitId": "chapter-09",
   "unitTitle": "Chapter 09 — 형용사와 부사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–2] 2문항(고르기), [3] 1문항(고르기), [4–5] 2문항(고르기), [6–7] 2문항(고르기), [8–9] 2문항(빈칸 말만 쓰기), [10–11] 2문항(고르기), [12] 1문항(빈칸 말만 쓰기), [13] 1문항(빈칸 말만 쓰기), [14] 1문항(고르기), [15] 1문항(고르기), [17] 1문항(빈칸 말만 쓰기), [18] 1문항(빈칸 말만 쓰기), [19] 1문항(빈칸 말만 쓰기), [20] 1문항(빈칸 말만 쓰기), [21] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3] 1문항(고르기), [4–5] 2문항(고르기), [6–7] 2문항(고르기), [8–9] 2문항(빈칸 말만 쓰기), [10–11] 2문항(고르기), [12] 1문항(빈칸 말만 쓰기), [13] 1문항(빈칸 말만 쓰기), [14] 1문항(고르기), [15] 1문항(고르기), [16] 1문항(고르기), [17] 1문항(빈칸 말만 쓰기), [18] 1문항(빈칸 말만 쓰기), [19] 1문항(빈칸 말만 쓰기), [20] 1문항(고르기), [21] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -158,6 +158,20 @@
       ]
     },
     {
+      "id": "16",
+      "title": "[16]",
+      "instructionKo": "[16] 다음 중 <보기>의 밑줄 친 부분과 쓰임이 다른 하나를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[16] 다음 중 <보기>의 밑줄 친 부분과 쓰임이 다른 하나를 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "16"
+      ]
+    },
+    {
       "id": "17",
       "title": "[17]",
       "instructionKo": "[17] 다음 대화에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 말과 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
@@ -202,11 +216,11 @@
     {
       "id": "20",
       "title": "[20]",
-      "instructionKo": "[20] 다음 두 빈칸에 공통으로 들어갈 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "[20] 다음 두 빈칸에 공통으로 들어갈 말을 쓰세요.",
-      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "[20] 다음 중 빈칸에 공통으로 들어갈 말로 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[20] 다음 중 빈칸에 공통으로 들어갈 말로 알맞은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -216,8 +230,8 @@
     {
       "id": "21",
       "title": "[21]",
-      "instructionKo": "[21] 표의 내용과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "[21] 표의 내용과 같도록 빈칸에 알맞은 말을 쓰세요.",
+      "instructionKo": "[21] 다음 Kate의 일과표를 보고 <보기>에서 알맞은 말을 골라 질문에 대한 대답을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[21] 다음 Kate의 일과표를 보고 <보기>에서 알맞은 말을 골라 질문에 대한 대답을 완성하세요.",
       "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -560,6 +574,29 @@
       "answer": "1"
     },
     {
+      "id": "q16",
+      "section": "16",
+      "sectionTitle": "[16]",
+      "sectionInstructionKo": "[16] 다음 중 <보기>의 밑줄 친 부분과 쓰임이 다른 하나를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "16",
+      "type": "mc",
+      "promptEn": "<보기> People looked active and <u>lively</u> in the festival.\n① He sat on a chair <u>comfortably</u>.\n② My sister has many <u>lovely</u> dolls.\n③ An <u>elderly</u> couple lives in the house.\n④ They are very <u>friendly</u> with each other.\n⑤ My class has a <u>weekly</u> meeting every Friday.",
+      "choices": [
+        "He sat on a chair comfortably.",
+        "My sister has many lovely dolls.",
+        "An elderly couple lives in the house.",
+        "They are very friendly with each other.",
+        "My class has a weekly meeting every Friday."
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
       "id": "q17",
       "section": "17",
       "sectionTitle": "[17]",
@@ -632,33 +669,36 @@
       "id": "q20",
       "section": "20",
       "sectionTitle": "[20]",
-      "sectionInstructionKo": "[20] 다음 두 빈칸에 공통으로 들어갈 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[20] 다음 중 빈칸에 공통으로 들어갈 말로 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "20",
-      "type": "fill",
-      "promptEn": "Some animals such as turtles live ________.\nThey waited in a ________ line.",
-      "promptKo": "거북이와 같은 몇몇 동물들은 오래 산다. 그들은 긴 줄에서 기다렸다.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "앞",
-        "뒤"
+      "type": "mc",
+      "promptEn": "• Some animals like turtles live ________.\n• They waited in a(n) ________ line.\n① hard  ② long  ③ highly  ④ enough  ⑤ late",
+      "choices": [
+        "hard",
+        "long",
+        "highly",
+        "enough",
+        "late"
       ],
       "accept": [
-        "long|long"
-      ]
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "q21",
       "section": "21",
       "sectionTitle": "[21]",
-      "sectionInstructionKo": "[21] 표의 내용과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[21] 다음 Kate의 일과표를 보고 <보기>에서 알맞은 말을 골라 질문에 대한 대답을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "21",
       "type": "fill",
-      "promptEn": "(1) How often does Kate watch a movie? She watches a movie only on Friday.\n→ She ________.\n(2) How often does Kate clean the room? She cleans the room on three days.\n→ She ________.",
-      "promptKo": "(1) Kate는 얼마나 자주 영화를 보니? (금요일만 영화를 본다.)\n(2) Kate는 얼마나 자주 방을 청소하니? (방 청소는 3일 한다.)",
+      "promptEn": "(1) movie          (2) clean the room\nMon   ×            ○\nTue   ×            ×\nWed   ×            ○\nThur  ×            ×\nFri   ○            ○\n<보기> always  often  rarely  never\n\n(1) How often does Kate watch a movie?\n→ She ________.\n(2) How often does Kate clean the room?\n→ She ________.",
+      "promptKo": "(1) 금요일에만 영화를 본다. (2) 월·수·금요일에 방을 청소한다.",
       "blanks": 2,
       "blankPartLabels": [
         "(1)",
