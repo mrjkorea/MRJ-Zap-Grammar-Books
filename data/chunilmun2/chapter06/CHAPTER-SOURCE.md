@@ -1,4 +1,10 @@
 # Chapter 06 — page check
 
-- `cm2:c06:test` q14: page choice lines are ① `a, b`, ② `b, c`, ③ `a, c`. Choices ① and ③ were updated to match. ④ stays `ⓐ, ⓑ, ⓔ` (the sentences the key marks correct). Choice ⑤ is not on the extract.
-- `cm2:c06:test` q15–q20: the student extract ends inside item 14. q15’s stem `Studying many subjects` and q17’s corrected sentences are quoted in the key. q16, q18, q19, and the q20 email frame are not on the student page.
+Round 2 used `missing_tests/c06_test_p082.png` and `c06_test_p083.png` (printed p.88–89).
+
+- `cm2:c06:test` q14: choice ⑤ is `ⓑ, ⓒ, ⓔ`. Answer stays ④ `ⓐ, ⓑ, ⓔ`.
+- `cm2:c06:test` q15–q16: both are Korean-to-English choices. q15 answer stays ③ `Studying many subjects isn't easy for me.` q16 answer stays ③ `I look forward to seeing them again.`
+- `cm2:c06:test` q17: ⓒ is `It started to rain`, and ⓔ is `Shaking your head`. The two corrections stay ⓐ `singing` and ⓕ `Not eating breakfast`.
+- `cm2:c06:test` q18: ③ is `took a rest`. Answer stays ②.
+- `cm2:c06:test` q19: ② is `was hard`. Answer stays ④.
+- `cm2:c06:test` q20: the email is `I am planning (2) ________ (participate)`. Answers stay `taking | to participate | to become`.

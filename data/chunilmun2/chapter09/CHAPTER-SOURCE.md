@@ -1,10 +1,7 @@
 # Chapter 09 — page check
 
-SB Chapter Test extract ends at item 15 (printed p.122). Added from the key gloss where every sentence or the quoted error was present:
+The round-2 pages (`c09_test_p115.png`, `c09_test_p116.png`) are printed p.121–122 and stop at item 15. q17–q21 stay the key-gloss items added in PR #136. Those later pages are not in this upload.
 
-- `cm2:c09:test` q17, q18, q19, q21 added.
-- `cm2:c09:test` q20 added as a write-in `long` / `long`. The key’s choice number is ②, but the five printed options are not in the extract.
+Still blocked:
 
-Still uncertain:
-
-- `cm2:c09:test` q16: key answer ① (`comfortably` vs `-ly` adjectives such as `lively`, `lovely`, `elderly`, `weekly`). Choice ④’s gloss is missing, so the item was not added.
+- `cm2:c09:test` q16: not on the supplied pages. The key answer is ① (`comfortably` vs `-ly` adjectives such as `lively`, `lovely`, `elderly`, `weekly`), but choice ④’s gloss is missing, so the five printed sentences cannot be rebuilt.

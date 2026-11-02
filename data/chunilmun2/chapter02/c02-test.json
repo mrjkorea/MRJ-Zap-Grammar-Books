@@ -161,8 +161,8 @@
     {
       "id": "17",
       "title": "[17]",
-      "instructionKo": "17 다음 중 어법상 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "17 다음 중 어법상 알맞은 것을 고르세요.",
+      "instructionKo": "17 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "17 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
@@ -175,9 +175,9 @@
     {
       "id": "18",
       "title": "[18]",
-      "instructionKo": "18 다음 대화의 빈칸을 주어진 단어를 사용하여 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "18 다음 대화의 빈칸을 주어진 단어를 사용하여 완성하세요.",
-      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "18 주어진 단어를 사용하여 시제에 맞게 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "18 주어진 단어를 사용하여 시제에 맞게 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 1,
@@ -219,8 +219,8 @@
     {
       "id": "23",
       "title": "[23]",
-      "instructionKo": "23 다음 대화에서 어법상 알맞지 않은 부분을 찾아 바르게 고치세요. 틀린 곳의 기호와 고친 말을 각각 쓰세요. (두 곳, 순서는 (1) 다음 (2).)",
-      "directionKo": "23 다음 대화에서 어법상 알맞지 않은 부분을 찾아 바르게 고치세요.",
+      "instructionKo": "23 다음 대화에서 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호와 고친 말을 각각 쓰세요. (두 곳, 순서는 (1) 다음 (2).)",
+      "directionKo": "23 다음 대화에서 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요.",
       "ruleKo": "틀린 곳의 기호와 고친 말을 각각 쓰세요. (두 곳, 순서는 (1) 다음 (2).)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -556,22 +556,22 @@
       "id": "q17",
       "section": "17",
       "sectionTitle": "[17]",
-      "sectionInstructionKo": "17 다음 중 어법상 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "sectionInstructionKo": "17 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "17",
       "type": "mc",
-      "promptEn": "Mina ________ in Seoul ________ ten years.",
+      "promptKo": "그는 5년 동안 런던에 살고 있다.",
       "accept": [
         "4",
         "④"
       ],
       "choices": [
-        "lived / since",
-        "has lived / since",
-        "lives / for",
-        "has lived / for",
-        "is living / since"
+        "He lived in London for five years ago.",
+        "He lived in London since five years ago.",
+        "He has lived in London for five years ago.",
+        "He has lived in London for five years.",
+        "He has living in London since five years ago."
       ],
       "answer": "4"
     },
@@ -579,12 +579,12 @@
       "id": "q18",
       "section": "18",
       "sectionTitle": "[18]",
-      "sectionInstructionKo": "18 다음 대화의 빈칸을 주어진 단어를 사용하여 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "18 주어진 단어를 사용하여 시제에 맞게 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "18",
       "type": "fill",
-      "promptEn": "A: I ________ my bike with my dad last weekend. (ride)\nB: Oh, you had a good time. I ________ a bike. (never, ride)\nA: Really? Then I'll teach you.",
+      "promptEn": "A: I (1) ________ (ride) a bike with my father last weekend.\nB: Oh, you had a great time. I (2) ________ (never, ride) a bike.\nA: Really? Then, I will teach you.",
       "accept": [
         "rode|have never ridden",
         "rode|I've never ridden"
@@ -607,9 +607,9 @@
       ],
       "choices": [
         "A dragonfly has six legs.",
-        "She has written her diary last night.",
-        "My friends will come here soon.",
-        "The teacher has already finished the class.",
+        "She has written a diary last night.",
+        "My friends are going to come here soon.",
+        "The teacher has ended the class already.",
         "Ben is cleaning the window now."
       ],
       "answer": "2"
@@ -632,8 +632,8 @@
         "He is eating dinner now.",
         "I lost my umbrella yesterday.",
         "I have been busy for two weeks.",
-        "He has finished his work an hour ago.",
-        "They have traveled around the world for five years."
+        "He has just finished his work an hour ago.",
+        "They have traveled the world for 5 years."
       ],
       "answer": "4"
     },
@@ -653,7 +653,7 @@
       ],
       "choices": [
         "My friend has gone to France.",
-        "My dad has repaired his laptop twice.",
+        "My dad has fixed his laptop twice.",
         "Jim has used the smartphone since 2018.",
         "She has already bought a concert ticket.",
         "He has worked as an engineer for three years."
@@ -679,7 +679,7 @@
         "They have just heard the news.",
         "He has never worn sunglasses.",
         "Ted has forgotten the appointment.",
-        "We have helped poor people since last year."
+        "We have helped the poor since last year."
       ],
       "answer": "5"
     },
@@ -687,12 +687,12 @@
       "id": "q23",
       "section": "23",
       "sectionTitle": "[23]",
-      "sectionInstructionKo": "23 다음 대화에서 어법상 알맞지 않은 부분을 찾아 바르게 고치세요. 틀린 곳의 기호와 고친 말을 각각 쓰세요. (두 곳, 순서는 (1) 다음 (2).)",
+      "sectionInstructionKo": "23 다음 대화에서 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호와 고친 말을 각각 쓰세요. (두 곳, 순서는 (1) 다음 (2).)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "23",
       "type": "fill",
-      "promptEn": "A: Have you been to that new cafe downtown?\nB: Yes. It's great! My friend Yumi ⓑ have worked at the cafe since last month.\nA: Oh, really? How was the food?\nB: I ⓓ eat a piece of cake there yesterday, and it was really good.\nA: I'll try it soon!\nB: Sure. I highly recommend it.\n(1) 기호 / 고친 말    (2) 기호 / 고친 말",
+      "promptEn": "A: ⓐ Have you been to that new cafe downtown?\nB: Yes, it's great! My friend, Yumi ⓑ have worked at the cafe ⓒ since last month.\nA: Oh, really? How was the food?\nB: I ⓓ eat a piece of cake there yesterday, and it was really delicious.\nA: ⓔ I'm going to taste it soon!\nB: Of course. I highly recommend it.",
       "accept": [
         "b|has worked|d|ate",
         "ⓑ|has worked|ⓓ|ate",

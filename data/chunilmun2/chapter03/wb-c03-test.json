@@ -10,7 +10,7 @@
   "unitId": "wb-chapter-03",
   "unitTitle": "Ch 03 WB — 조동사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(고르기), [3] 1문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9] 1문항(빈칸 말만 쓰기), [10–11] 2문항(문장 전체 쓰기), [12] 1문항(고르기), [13] 1문항(고르기), [14] 1문항(고르기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(고르기), [3] 1문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(고르기), [8] 1문항(고르기), [9] 1문항(빈칸 말만 쓰기), [10–11] 2문항(문장 전체 쓰기), [12] 1문항(고르기), [13] 1문항(고르기), [14] 1문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -99,11 +99,11 @@
     {
       "id": "7",
       "title": "[7]",
-      "instructionKo": "7 다음 중 빈칸에 들어갈 말을 순서대로 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "7 다음 중 빈칸에 들어갈 말을 순서대로 쓰세요.",
-      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "instructionKo": "7 다음 중 빈칸에 들어갈 말을 <보기>에서 골라 순서대로 바르게 연결한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "7 다음 중 빈칸에 들어갈 말을 <보기>에서 골라 순서대로 바르게 연결한 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -331,17 +331,24 @@
       "id": "q07",
       "section": "7",
       "sectionTitle": "[7]",
-      "sectionInstructionKo": "7 다음 중 빈칸에 들어갈 말을 순서대로 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "7 다음 중 빈칸에 들어갈 말을 <보기>에서 골라 순서대로 바르게 연결한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
       "label": "7",
-      "type": "fill",
-      "promptEn": "(A) They ________ go to school next Wednesday. It is a holiday.\n(B) She ________ use her cell phone during class.\n(C) Sam ________ do chores because his mother has already done them.\n보기: must not, don't have to, doesn't have to",
-      "accept": [
-        "don't have to|must not|doesn't have to",
-        "do not have to|must not|does not have to"
+      "type": "mc",
+      "promptEn": "<보기> ⓐ must not  ⓑ don't have to  ⓒ doesn't have to\n(A) They ________ go to school next Wednesday. It is a holiday.\n(B) She ________ use her cell phone during class.\n(C) Sam ________ do chores because his mother has already done them.",
+      "choices": [
+        "ⓐ — ⓑ — ⓒ",
+        "ⓑ — ⓐ — ⓒ",
+        "ⓑ — ⓒ — ⓐ",
+        "ⓒ — ⓐ — ⓑ",
+        "ⓒ — ⓑ — ⓐ"
       ],
-      "blanks": 3
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     },
     {
       "id": "q08",

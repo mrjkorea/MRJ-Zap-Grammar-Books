@@ -1,11 +1,10 @@
 # Chapter 11 — page check
 
-SB Chapter Test extract includes item 16 and stops. Added from the key gloss:
+Round 2 used `missing_tests/c11_test_p143.png` (printed p.149).
 
-- `cm2:c11:test` q17 (④, ⑤), q18 (② `will exercise`), q19 (② `Unless you don't`).
-
-Still uncertain — not added:
-
-- q20: answer is ④, ⑤, and the key quotes `why she skipped the class` and `where the public library is`, but a `so … that` pants sentence is mixed into the same block. Choice ⑤’s stem is not clean.
-- q21: only choice ①’s gloss is intact (`Chris` / `can` → `cannot`). Answer number is ⑤.
-- q22: the key answer line ends at `If the weather is good, my family will go` with no word chips or Korean stem.
+- `cm2:c11:test` q17: the printed pairs replace the shortened gloss. The two wrong joins stay ④ and ⑤.
+- `cm2:c11:test` q18: ② is `you will be healthy`, ③ begins `You should not call 119`, ④ is `last customer`, ⑤ is `Jina`. Answer stays ②.
+- `cm2:c11:test` q19: ② is `you'll be late`, ③ is `I went to the Eiffel Tower when I visited Paris`, ④ is `last bus` / `will need`, ⑤ begins `While the teacher`. Answer stays ②.
+- `cm2:c11:test` q20: added. Both wrong underlines are ④ `why did she skip` and ⑤ `where is the public library`. Key answer ④, ⑤.
+- `cm2:c11:test` q21: added. The correct set is ⑤ `ⓐ, ⓒ, ⓓ, ⓔ`.
+- `cm2:c11:test` q22: added. The blank before `camping tomorrow` is `If the weather is good, my family will go`.
