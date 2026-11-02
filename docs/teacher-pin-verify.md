@@ -39,6 +39,6 @@ After merge of `20261030-chip-teacher-only`:
 1. Sign in as a student who has **greenzap** AppProgress rows (e.g. `r1:u09:fly` at ≥50%) but an empty or stale `progress_json` pack blob.
 2. Open a Zap book hub — earlier units/exercises should **not** show false locks once the pack finishes loading (chip visible, brief moment with locks held).
 3. DevTools → Application → localStorage key `mrj.greenzap.pack:chanyeong` should contain `practices["r1:u09:fly"]` (or your student’s ids) after load.
-4. Teacher: sign student in → chip **Teacher** → PIN → teacher menu → **Open up to here** on a later exercise → exit teacher mode → that path stays open.
+4. Teacher: sign student in → chip **Teacher** → PIN → teacher menu → **Start from here** on a later exercise (panel or exercise list) → exit teacher mode → that path stays open.
 
 No hardcoded PIN in this repo — PIN lives only in Apps Script `STUDY_TEACHER_PIN`.
