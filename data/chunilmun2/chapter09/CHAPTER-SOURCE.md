@@ -1,7 +1,7 @@
 # Chapter 09 — page check
 
-The round-2 pages (`c09_test_p115.png`, `c09_test_p116.png`) are printed p.121–122 and stop at item 15. q17–q21 stay the key-gloss items added in PR #136. Those later pages are not in this upload.
+Round 3 uses PDF p.117 (printed p.123) for the Chapter Test tail. q17–q19 already match that page. Keys supply the answer numbers only.
 
-Still blocked:
-
-- `cm2:c09:test` q16: not on the supplied pages. The key answer is ① (`comfortably` vs `-ly` adjectives such as `lively`, `lovely`, `elderly`, `weekly`), but choice ④’s gloss is missing, so the five printed sentences cannot be rebuilt.
+- `cm2:c09:test` q16 added. `<보기>` underlines `lively`; the different use is ① `comfortably`. Choice ④ is `They are very friendly with each other.`
+- `cm2:c09:test` q20 is now a choice item. The page prints `like turtles`, `a(n) ________ line`, and ① hard ② long ③ highly ④ enough ⑤ late. Answer ②.
+- `cm2:c09:test` q21 uses the printed week chart (movie only Friday; room cleaned Mon, Wed, Fri) and `<보기>` always / often / rarely / never. Answers stay `rarely watches a movie` and `often cleans the room`.

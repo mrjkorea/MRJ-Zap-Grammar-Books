@@ -214,12 +214,12 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "3",
       "type": "fill",
-      "promptEn": "I'll help my little brother ________________ new friends.\n① make\n② making\n③ to make\n④ made\n⑤ makes",
+      "promptEn": "I'll help my little brother ________________ new friends.\n① make\n② makes\n③ made\n④ making\n⑤ to make",
       "accept": [
-        "1|3",
-        "3|1",
-        "①|③",
-        "③|①"
+        "1|5",
+        "5|1",
+        "①|⑤",
+        "⑤|①"
       ],
       "blanks": 2,
       "unordered": true
@@ -435,13 +435,13 @@
       "answerModeTag": "Choose · 고르기",
       "label": "14",
       "type": "mc",
-      "promptEn": "ⓐ Ruth named one of her cats Percy.\nⓑ They expect us finish the work without help.\nⓒ My friend asked me to sit down for a minute.\nⓓ The pollution in the river looked serious.\nⓔ When I opened the door, I saw a dog wagging his tail.",
+      "promptEn": "ⓐ Ruth named one of her cats Percy.\nⓑ They expect us finish the work without help.\nⓒ My friend asked me to sit down for a minute.\nⓓ The pollution in the river looked serious.\nⓔ When I opened the door, I saw a dog wagging his tail.\n① ⓐ, ⓑ, ⓓ\n② ⓐ, ⓒ, ⓓ, ⓔ\n③ ⓑ, ⓓ, ⓔ\n④ ⓑ, ⓒ, ⓓ, ⓔ\n⑤ ⓒ, ⓓ, ⓔ",
       "accept": [
         "2",
         "②"
       ],
       "choices": [
-        "a, b, c",
+        "a, b, d",
         "a, c, d, e",
         "b, d, e",
         "b, c, d, e",

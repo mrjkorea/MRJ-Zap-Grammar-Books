@@ -10,7 +10,7 @@
   "pages": "133–135",
   "timerMinutes": 38,
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4] 1문항(고르기), [5] 1문항(고르기), [6–7] 2문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9] 1문항(빈칸 말만 쓰기), [10] 1문항(고르기), [11–12] 2문항(문장 전체 쓰기), [13] 1문항(고르기), [14] 1문항(고르기), [19] 1문항(고르기), [20] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4] 1문항(고르기), [5] 1문항(고르기), [6–7] 2문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9] 1문항(빈칸 말만 쓰기), [10] 1문항(고르기), [11–12] 2문항(문장 전체 쓰기), [13] 1문항(고르기), [14–15] 2문항(고르기), [16–18] 3문항(고르기), [19] 1문항(고르기), [20] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -156,24 +156,41 @@
       ]
     },
     {
-      "id": "14",
-      "title": "[14]",
-      "instructionKo": "[14] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[14] 다음 중 어법상 알맞은 문장을 고르세요.",
+      "id": "14-15",
+      "title": "[14–15]",
+      "instructionKo": "[14–15] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[14–15] 다음 중 어법상 알맞은 문장을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
-      "itemCount": 1,
+      "itemCount": 2,
       "exampleCount": 0,
       "labels": [
-        "14"
+        "14",
+        "15"
+      ]
+    },
+    {
+      "id": "16-18",
+      "title": "[16–18]",
+      "instructionKo": "[16–18] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[16–18] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "16",
+        "17",
+        "18"
       ]
     },
     {
       "id": "19",
       "title": "[19]",
-      "instructionKo": "[19] 다음 중 어법상 알맞지 않은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[19] 다음 중 어법상 알맞지 않은 문장을 고르세요.",
+      "instructionKo": "[19] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[19] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
@@ -186,8 +203,8 @@
     {
       "id": "20",
       "title": "[20]",
-      "instructionKo": "[20] 다음 글에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 말과 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "directionKo": "[20] 다음 글에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
+      "instructionKo": "[20] 다음 중 어법상 알맞지 않은 부분 두 군데를 찾아 바르게 고쳐 쓰세요. 틀린 말과 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[20] 다음 중 어법상 알맞지 않은 부분 두 군데를 찾아 바르게 고쳐 쓰세요.",
       "ruleKo": "틀린 말과 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
@@ -474,9 +491,9 @@
     },
     {
       "id": "q14",
-      "section": "14",
-      "sectionTitle": "[14]",
-      "sectionInstructionKo": "[14] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "section": "14-15",
+      "sectionTitle": "[14–15]",
+      "sectionInstructionKo": "[14–15] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "14",
@@ -496,22 +513,117 @@
       "answer": "5"
     },
     {
+      "id": "q15",
+      "section": "14-15",
+      "sectionTitle": "[14–15]",
+      "sectionInstructionKo": "[14–15] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "① Please reply to me as soon you can.\n② The earlier you arrive, the good your seats will be.\n③ This store has as twice many items as that store.\n④ The more it rains, the fastest the river flows.\n⑤ Paying online is becoming more and more common.",
+      "choices": [
+        "Please reply to me as soon you can.",
+        "The earlier you arrive, the good your seats will be.",
+        "This store has as twice many items as that store.",
+        "The more it rains, the fastest the river flows.",
+        "Paying online is becoming more and more common."
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q16",
+      "section": "16-18",
+      "sectionTitle": "[16–18]",
+      "sectionInstructionKo": "[16–18] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "16",
+      "type": "mc",
+      "promptEn": "여름은 사계절 중에서 낮이 가장 길다.\n① Summer has longer day of the four seasons.\n② Summer has longest day of the four seasons.\n③ Summer has the longer day of the four seasons.\n④ Summer has the shortest day of the four seasons.\n⑤ Summer has the longest day of the four seasons.",
+      "choices": [
+        "Summer has longer day of the four seasons.",
+        "Summer has longest day of the four seasons.",
+        "Summer has the longer day of the four seasons.",
+        "Summer has the shortest day of the four seasons.",
+        "Summer has the longest day of the four seasons."
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5",
+      "promptKo": "여름은 사계절 중에서 낮이 가장 길다."
+    },
+    {
+      "id": "q17",
+      "section": "16-18",
+      "sectionTitle": "[16–18]",
+      "sectionInstructionKo": "[16–18] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "17",
+      "type": "mc",
+      "promptEn": "새 도서관은 예전 도서관보다 두 배 정도 더 크다.\n① The new library is about as twice big as the old one.\n② The new library is about twice as big as the old one.\n③ The new library is as about twice big as the old one.\n④ The new library is about twice bigger as the old one.\n⑤ The new library is about twice as bigger as the old one.",
+      "choices": [
+        "The new library is about as twice big as the old one.",
+        "The new library is about twice as big as the old one.",
+        "The new library is as about twice big as the old one.",
+        "The new library is about twice bigger as the old one.",
+        "The new library is about twice as bigger as the old one."
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2",
+      "promptKo": "새 도서관은 예전 도서관보다 두 배 정도 더 크다."
+    },
+    {
+      "id": "q18",
+      "section": "16-18",
+      "sectionTitle": "[16–18]",
+      "sectionInstructionKo": "[16–18] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "18",
+      "type": "mc",
+      "promptEn": "그것은 세상에서 가장 재미있는 이야기 중 하나이다.\n① It's one of interesting stories in the world.\n② It's one of most interesting story in the world.\n③ It's one of most interesting stories in the world.\n④ It's one of the most interesting story in the world.\n⑤ It's one of the most interesting stories in the world.",
+      "choices": [
+        "It's one of interesting stories in the world.",
+        "It's one of most interesting story in the world.",
+        "It's one of most interesting stories in the world.",
+        "It's one of the most interesting story in the world.",
+        "It's one of the most interesting stories in the world."
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5",
+      "promptKo": "그것은 세상에서 가장 재미있는 이야기 중 하나이다."
+    },
+    {
       "id": "q19",
       "section": "19",
       "sectionTitle": "[19]",
-      "sectionInstructionKo": "[19] 다음 중 어법상 알맞지 않은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "sectionInstructionKo": "[19] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "19",
       "type": "mc",
-      "promptEn": "① He is the fastest swimmer in Asia.\n② Health is the most precious thing in life.\n③ He is one of the greatest man in history.\n④ February is the shortest month of the year.\n⑤ Helen is one of the thinnest girls in our class.",
-      "promptKo": "① 그는 아시아에서 가장 빠른 수영 선수이다.\n② 건강은 인생에서 가장 귀중한 것이다.\n③ 그는 역사상 가장 위대한 사람 중 한 명이다.\n④ 2월은 1년 중 가장 짧은 달이다.\n⑤ Helen은 우리 반에서 가장 마른 소녀 중 한 명이다.",
+      "promptEn": "① He is <u>the fastest</u> swimmer in Asia.\n② Health is <u>the most precious</u> thing in life.\n③ He is one of <u>the greatest man</u> in history.\n④ February is <u>the shortest</u> month of the year.\n⑤ Helen is one of <u>the thinnest girls</u> in my class.",
+      "promptKo": "① 그는 아시아에서 가장 빠른 수영 선수이다.\n② 건강은 인생에서 가장 귀중한 것이다.\n③ 그는 역사상 가장 위대한 사람 중 한 명이다.\n④ 2월은 1년 중 가장 짧은 달이다.\n⑤ Helen은 내 반에서 가장 마른 소녀 중 한 명이다.",
       "choices": [
         "He is the fastest swimmer in Asia.",
         "Health is the most precious thing in life.",
         "He is one of the greatest man in history.",
         "February is the shortest month of the year.",
-        "Helen is one of the thinnest girls in our class."
+        "Helen is one of the thinnest girls in my class."
       ],
       "accept": [
         "3",
@@ -523,12 +635,12 @@
       "id": "q20",
       "section": "20",
       "sectionTitle": "[20]",
-      "sectionInstructionKo": "[20] 다음 글에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 말과 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[20] 다음 중 어법상 알맞지 않은 부분 두 군데를 찾아 바르게 고쳐 쓰세요. 틀린 말과 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "20",
       "type": "fill",
-      "promptEn": "The Antarctic ice marathon is one of the toughest marathon in the world. Runners race 42.195 kilometers in the coldest place on Earth. They run on snow and ice.",
+      "promptEn": "The Antarctic Ice Marathon is one of the toughest marathon in the world. The runners race 42.195 kilometers in coldest place on the Earth. They run on snow and ice.",
       "promptKo": "남극 얼음 마라톤은 세계에서 가장 힘든 마라톤 중 하나이다. 주자들은 지구상에서 가장 추운 곳에서 42.195킬로미터를 경주한다. 그들은 눈과 얼음 위를 달린다.",
       "blanks": 4,
       "blankPartLabels": [
