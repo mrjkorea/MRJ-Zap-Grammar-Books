@@ -6,11 +6,11 @@
   "unitTitle": "Chapter 10 — 비교표현",
   "practiceId": "cm2:c10:test",
   "title": "Chapter Test",
-  "subtitle": "Chapter 10 비교표현 (p. 133–134)",
-  "pages": "133–134",
-  "timerMinutes": 32,
+  "subtitle": "Chapter 10 비교표현 (p. 133–135)",
+  "pages": "133–135",
+  "timerMinutes": 38,
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4] 1문항(고르기), [5] 1문항(고르기), [6–7] 2문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9] 1문항(빈칸 말만 쓰기), [10] 1문항(고르기), [11–12] 2문항(문장 전체 쓰기), [13] 1문항(고르기), [14] 1문항(고르기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4] 1문항(고르기), [5] 1문항(고르기), [6–7] 2문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9] 1문항(빈칸 말만 쓰기), [10] 1문항(고르기), [11–12] 2문항(문장 전체 쓰기), [13] 1문항(고르기), [14] 1문항(고르기), [19] 1문항(고르기), [20] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -167,6 +167,34 @@
       "exampleCount": 0,
       "labels": [
         "14"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "[19]",
+      "instructionKo": "[19] 다음 중 어법상 알맞지 않은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[19] 다음 중 어법상 알맞지 않은 문장을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "19"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "[20]",
+      "instructionKo": "[20] 다음 글에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 말과 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[20] 다음 글에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
+      "ruleKo": "틀린 말과 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "20"
       ]
     }
   ],
@@ -466,6 +494,52 @@
         "⑤"
       ],
       "answer": "5"
+    },
+    {
+      "id": "q19",
+      "section": "19",
+      "sectionTitle": "[19]",
+      "sectionInstructionKo": "[19] 다음 중 어법상 알맞지 않은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "19",
+      "type": "mc",
+      "promptEn": "① He is the fastest swimmer in Asia.\n② Health is the most precious thing in life.\n③ He is one of the greatest man in history.\n④ February is the shortest month of the year.\n⑤ Helen is one of the thinnest girls in our class.",
+      "promptKo": "① 그는 아시아에서 가장 빠른 수영 선수이다.\n② 건강은 인생에서 가장 귀중한 것이다.\n③ 그는 역사상 가장 위대한 사람 중 한 명이다.\n④ 2월은 1년 중 가장 짧은 달이다.\n⑤ Helen은 우리 반에서 가장 마른 소녀 중 한 명이다.",
+      "choices": [
+        "He is the fastest swimmer in Asia.",
+        "Health is the most precious thing in life.",
+        "He is one of the greatest man in history.",
+        "February is the shortest month of the year.",
+        "Helen is one of the thinnest girls in our class."
+      ],
+      "accept": [
+        "3",
+        "③"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q20",
+      "section": "20",
+      "sectionTitle": "[20]",
+      "sectionInstructionKo": "[20] 다음 글에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 말과 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "20",
+      "type": "fill",
+      "promptEn": "The Antarctic ice marathon is one of the toughest marathon in the world. Runners race 42.195 kilometers in the coldest place on Earth. They run on snow and ice.",
+      "promptKo": "남극 얼음 마라톤은 세계에서 가장 힘든 마라톤 중 하나이다. 주자들은 지구상에서 가장 추운 곳에서 42.195킬로미터를 경주한다. 그들은 눈과 얼음 위를 달린다.",
+      "blanks": 4,
+      "blankPartLabels": [
+        "(1) 틀린 말",
+        "(1) 고친 말",
+        "(2) 틀린 말",
+        "(2) 고친 말"
+      ],
+      "accept": [
+        "marathon|marathons|coldest|the coldest"
+      ]
     }
   ],
   "testId": "c10-test",

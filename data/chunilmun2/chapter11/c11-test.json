@@ -4,13 +4,13 @@
   "appName": "천일문 Grammar 2",
   "practiceId": "cm2:c11:test",
   "title": "Chapter Test",
-  "subtitle": "Chapter 11 접속사 (p. 147–148)",
-  "pages": "147–148",
-  "timerMinutes": 32,
+  "subtitle": "Chapter 11 접속사 (p. 147–149)",
+  "pages": "147–149",
+  "timerMinutes": 38,
   "unitId": "chapter-11",
   "unitTitle": "Chapter 11 — 접속사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–3] 3문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6–8] 3문항(문장 전체 쓰기), [9–10] 2문항(고르기), [11–12] 2문항(고르기), [13–14] 2문항(빈칸 말만 쓰기), [15] 1문항(고르기), [16] 1문항(문장 전체 쓰기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1–3] 3문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6–8] 3문항(문장 전체 쓰기), [9–10] 2문항(고르기), [11–12] 2문항(고르기), [13–14] 2문항(빈칸 말만 쓰기), [15] 1문항(고르기), [16] 1문항(문장 전체 쓰기), [17] 1문항(빈칸 말만 쓰기), [18] 1문항(고르기), [19] 1문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-3",
@@ -143,6 +143,48 @@
       "exampleCount": 0,
       "labels": [
         "16"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "[17]",
+      "instructionKo": "[17] 다음 중 두 문장을 한 문장으로 잘못 연결한 것을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
+      "directionKo": "[17] 다음 중 두 문장을 한 문장으로 잘못 연결한 것을 모두 고르세요.",
+      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "17"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "[18]",
+      "instructionKo": "[18] 다음 중 어법상 알맞지 않은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[18] 다음 중 어법상 알맞지 않은 문장을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "18"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "[19]",
+      "instructionKo": "[19] 다음 중 어법상 알맞지 않은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[19] 다음 중 어법상 알맞지 않은 문장을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "19"
       ]
     }
   ],
@@ -474,6 +516,78 @@
         "so late that he had to run to school",
         "so late that he had to run"
       ]
+    },
+    {
+      "id": "q17",
+      "section": "17",
+      "sectionTitle": "[17]",
+      "sectionInstructionKo": "[17] 다음 중 두 문장을 한 문장으로 잘못 연결한 것을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "17",
+      "type": "fill",
+      "promptEn": "① Did you hear what she said?\n② I am not sure whether she will come to the party.\n③ Tell me who they met yesterday.\n④ The news says where broke out the fire.\n⑤ Can you tell me whether does Peter like volleyball?",
+      "promptKo": "① 너는 그녀가 무엇을 말했는지 들었니?\n② 나는 그녀가 파티에 올지 확신할 수 없다.\n③ 그들이 어제 누구를 만났는지 나에게 알려 줘.\n④ 뉴스에서 그 화재가 어디에서 발생했는지 말한다.\n⑤ Peter가 배구를 좋아하는지 나에게 말해 줄 수 있니?",
+      "blanks": 2,
+      "unordered": true,
+      "blankPartLabels": [
+        "보기",
+        "보기"
+      ],
+      "accept": [
+        "4|5",
+        "5|4",
+        "④|⑤",
+        "⑤|④"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "18",
+      "sectionTitle": "[18]",
+      "sectionInstructionKo": "[18] 다음 중 어법상 알맞지 않은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "18",
+      "type": "mc",
+      "promptEn": "① When Mike called me, I was sleeping.\n② If you will exercise hard, you will become healthy.\n③ Unless it is an emergency, you should not call 119.\n④ The restaurant stays open until the last guest leaves.\n⑤ Because Jinny's eyesight is bad, her mom bought her glasses.",
+      "promptKo": "① Mike가 나에게 전화했을 때, 나는 자고 있었다.\n② 만약 네가 운동을 열심히 한다면, 너는 건강해질 것이다.\n③ 만약 위급 상황이 아니라면 너는 119에 전화하지 말아야 한다.\n④ 그 식당은 마지막 손님이 떠날 때까지 문을 연다.\n⑤ 지니의 시력이 좋지 않기 때문에 그녀의 엄마는 지니에게 안경을 사 주셨다.",
+      "choices": [
+        "When Mike called me, I was sleeping.",
+        "If you will exercise hard, you will become healthy.",
+        "Unless it is an emergency, you should not call 119.",
+        "The restaurant stays open until the last guest leaves.",
+        "Because Jinny's eyesight is bad, her mom bought her glasses."
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "q19",
+      "section": "19",
+      "sectionTitle": "[19]",
+      "sectionInstructionKo": "[19] 다음 중 어법상 알맞지 않은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "19",
+      "type": "mc",
+      "promptEn": "① Let's play outside until it gets dark.\n② Unless you don't leave now, you will be late.\n③ When I visited Paris, I went to the Eiffel Tower.\n④ If you miss the last train, you will have to take a taxi.\n⑤ The students took notes while the teacher gave a lecture.",
+      "promptKo": "① 어두워질 때까지 밖에서 놀자.\n② 만약 지금 출발하지 않으면, 너는 늦을 것이다.\n③ 나는 파리를 방문했을 때 에펠탑에 갔다.\n④ 만약 막차를 놓친다면, 너는 택시를 타야 할 것이다.\n⑤ 선생님이 강의를 하시는 동안에 학생들은 필기했다.",
+      "choices": [
+        "Let's play outside until it gets dark.",
+        "Unless you don't leave now, you will be late.",
+        "When I visited Paris, I went to the Eiffel Tower.",
+        "If you miss the last train, you will have to take a taxi.",
+        "The students took notes while the teacher gave a lecture."
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
     }
   ],
   "testId": "c11-test",
