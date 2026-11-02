@@ -15,7 +15,8 @@
 
   var RETRY_PCT = 50;
 
-  /** TEMP: Jay asked to unlock all path gates until teacher unlock UI ships (Nov 2026). */
+  /** TEMP: Jay asked to unlock all path gates until teacher unlock UI ships (Nov 2026).
+   *  Set UNLOCK_ALL = false here, or set globalThis.MRJ_ZAP_UNLOCK_ALL = false before zap-progress loads. */
   var UNLOCK_ALL = true;
 
   function unlockAllStudents() {

@@ -136,6 +136,8 @@ node scripts/e2e-red-full-browser.js   # all Red practices (Playwright)
 ## Student rules
 
 - Sign-in via shared [mrj-signin](https://github.com/mrjkorea/mrj-signin) (`data-mrj-app="mrj-zap-grammar-books"`).
+- **Teacher unlock:** After the shared chip **Teacher** PIN (`study_teacher_check`), tap the chip again to open the teacher panel beside the student chip. Use **Start from here** on an exercise (panel path list or each exercise row) to save a per-student start point in the progress pack (`startPoints[bookId]` in localStorage / server pack sync). Exit teacher mode to see the student’s real locks again. **Undo unlock** clears the saved start point.
+- **Temporary unlock-all:** `assets/js/zap-progress.js` sets `UNLOCK_ALL = true` so every path is open in the classroom until locks are turned back on. To disable, set `UNLOCK_ALL = false` in that file (or `globalThis.MRJ_ZAP_UNLOCK_ALL = false` before load). Gates then open if **UNLOCK_ALL** OR normal 50% progress OR a teacher start point applies.
 - Full questions on screen; students also use the paper book.
 - Each practice shows **Korean directions** per section (choose vs words-only vs full sentence). Mode chips appear on the start screen, section banners, and each question.
 - After submit: ✓/✗ by book **label**, grouped by section, plus a **wrong-answer review** (your answer, question, section instructions — still **no correct answers**). Under **50%**, the same review appears when you open **Try again**.

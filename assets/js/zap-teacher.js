@@ -5,7 +5,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261102-temp-unlock-all";
+  var BUILD = "20261102-teacher-start-here";
   var panelBookId = "";
   var chipClickBound = false;
   var lastActive = null;
@@ -229,6 +229,42 @@
     return sp.unitId + " · " + sp.exerciseSlug;
   }
 
+  function rowOpenStatus(bookId, row) {
+    var prog = progressApi();
+    if (!prog || !row) return "unknown";
+    if (prog.isPracticeDone && prog.isPracticeDone(row.practiceId, bookId)) return "done";
+    var gate =
+      prog.canOpenExercise && prog.canOpenExercise(bookId, row.unitId, row.slug)
+        ? prog.canOpenExercise(bookId, row.unitId, row.slug)
+        : { ok: true };
+    if (gate.ok) return "open";
+    return "locked";
+  }
+
+  function applySetStartPoint(bookId, row, who, onDone) {
+    if (!confirmSetStartPoint(bookId, row, who)) {
+      if (onDone) onDone(null);
+      return;
+    }
+    var pack = packApi();
+    if (!pack || typeof pack.setStartPoint !== "function") {
+      alert("Pack save is not available.");
+      if (onDone) onDone(null);
+      return;
+    }
+    pack
+      .setStartPoint(bookId, row.unitId, row.slug, row.practiceId)
+      .then(function (res) {
+        if (!res || !res.ok) {
+          alert("Could not save start point.");
+          if (onDone) onDone(null);
+          return;
+        }
+        dispatchTeacherEvent();
+        if (onDone) onDone(res);
+      });
+  }
+
   function confirmSetStartPoint(bookId, row, who) {
     var prog = progressApi();
     var label =
@@ -273,7 +309,19 @@
         if (startIdx >= 0 && row.pathIndex === startIdx) classes.push("is-start-at");
         if (startIdx >= 0 && row.pathIndex < startIdx) classes.push("is-skipped");
         html += '<li class="' + classes.join(" ") + '">';
+        var status = rowOpenStatus(bookId, row);
+        var statusLabel =
+          status === "done"
+            ? "Done"
+            : status === "open"
+              ? "Open"
+              : status === "locked"
+                ? "Locked"
+                : "";
         html += '<span class="mrj-zap-teacher-row-label">' + esc(row.exTitle) + "</span>";
+        if (statusLabel) {
+          html += '<span class="mrj-zap-teacher-row-status is-' + status + '">' + esc(statusLabel) + "</span>";
+        }
         html +=
           '<button type="button" class="mrj-zap-teacher-set" data-unit="' +
           esc(row.unitId) +
@@ -281,7 +329,13 @@
           esc(row.slug) +
           '" data-practice="' +
           esc(row.practiceId) +
-          '">Open up to here</button>';
+          '">Start from here</button>';
+        if (startIdx >= 0 && row.pathIndex === startIdx) {
+          html +=
+            '<button type="button" class="mrj-zap-teacher-undo-start" data-book="' +
+            esc(bookId) +
+            '">Undo unlock</button>';
+        }
         html += "</li>";
       });
       html += "</ul></details>";
@@ -299,22 +353,34 @@
           });
         });
         if (!row) return;
-        if (!confirmSetStartPoint(bookId, row, who)) return;
-        var pack = packApi();
-        if (!pack || typeof pack.setStartPoint !== "function") {
-          alert("Pack save is not available.");
-          return;
-        }
         btn.disabled = true;
-        pack.setStartPoint(bookId, unitId, slug, practiceId).then(function (res) {
+        applySetStartPoint(bookId, row, who, function () {
           btn.disabled = false;
-          if (!res || !res.ok) {
-            alert("Could not save start point.");
-            return;
-          }
-          dispatchTeacherEvent();
           renderStartPointMeta(bookId);
           renderStartPointPath(bookId, who);
+        });
+      });
+    });
+    pathHost.querySelectorAll(".mrj-zap-teacher-undo-start").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var book = btn.getAttribute("data-book") || bookId;
+        if (
+          !root.confirm(
+            "Remove the teacher unlock for " +
+              bookTitle(book) +
+              "? Progress locks return to normal (50% gates) for this student."
+          )
+        ) {
+          return;
+        }
+        var pack = packApi();
+        if (!pack || typeof pack.clearStartPoint !== "function") return;
+        btn.disabled = true;
+        pack.clearStartPoint(book).then(function () {
+          btn.disabled = false;
+          dispatchTeacherEvent();
+          renderStartPointMeta(book);
+          renderStartPointPath(book, who);
         });
       });
     });
@@ -410,7 +476,7 @@
       "</section>" +
       '<section class="mrj-zap-teacher-section mrj-zap-teacher-section-start">' +
       '<h3 class="mrj-zap-teacher-section-title">Set start point</h3>' +
-      '<p class="mrj-zap-teacher-hint">Choose where this student begins in a book. Earlier steps count as done after you exit teacher mode. Progress saves to their pack (server when sign-in sync is ready).</p>' +
+      '<p class="mrj-zap-teacher-hint">Choose where this student begins in a book, or use <strong>Start from here</strong> on any exercise row while teacher mode is on. Earlier steps count as done after you exit teacher mode. Saves to the student pack (localStorage + server sync when sign-in is ready).</p>' +
       '<label class="mrj-zap-teacher-field mrj-zap-teacher-book-field">Book<select class="mrj-zap-teacher-book">' +
       buildBookOptions(panelBookId) +
       "</select></label>" +
@@ -508,10 +574,36 @@
     }
   }
 
+  function setStartPointForExercise(bookId, row, who) {
+    who = who || studentId();
+    if (!isActive() || !who || !row) return Promise.resolve({ ok: false });
+    if (!confirmSetStartPoint(bookId, row, who)) return Promise.resolve({ ok: false, cancelled: true });
+    var pack = packApi();
+    if (!pack || typeof pack.setStartPoint !== "function") {
+      alert("Pack save is not available.");
+      return Promise.resolve({ ok: false });
+    }
+    return pack.setStartPoint(bookId, row.unitId, row.slug, row.practiceId).then(function (res) {
+      if (!res || !res.ok) {
+        alert("Could not save start point.");
+        return res || { ok: false };
+      }
+      dispatchTeacherEvent();
+      if (panelEl && !panelEl.hidden) {
+        panelBookId = bookId;
+        renderStartPointMeta(bookId);
+        renderStartPointPath(bookId, who);
+      }
+      return res;
+    });
+  }
+
   root.MRJ_ZAP_TEACHER = {
     BUILD: BUILD,
     isActive: isActive,
     teacherCheck: teacherCheck,
     layout: layoutPanel,
+    setStartPointForExercise: setStartPointForExercise,
+    rowOpenStatus: rowOpenStatus,
   };
 })(typeof window !== "undefined" ? window : globalThis);

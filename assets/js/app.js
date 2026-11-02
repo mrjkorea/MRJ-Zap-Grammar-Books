@@ -177,6 +177,39 @@
     }
   }
 
+  function unitTitleFor(bookId, unitId) {
+    var units = (catalog.units && catalog.units[bookId]) || [];
+    for (var i = 0; i < units.length; i++) {
+      if (units[i].id === unitId) return units[i].title || unitId;
+    }
+    return unitId;
+  }
+
+  function appendTeacherStartHere(listRow, bookId, unitId, ex, index) {
+    if (!mrjTeacher()) return;
+    var btn = $("button", "mrj-zap-start-here-btn", "Start from here");
+    btn.type = "button";
+    btn.setAttribute("aria-label", "Set student start at " + (ex.title || ex.slug));
+    btn.onclick = function (ev) {
+      ev.preventDefault();
+      ev.stopPropagation();
+      var api = window.MRJ_ZAP_TEACHER;
+      if (!api || typeof api.setStartPointForExercise !== "function") return;
+      var row = {
+        unitId: unitId,
+        slug: ex.slug,
+        practiceId: ex.practiceId,
+        unitTitle: unitTitleFor(bookId, unitId),
+        exTitle: ex.title || ex.slug,
+        exerciseIndex: index,
+      };
+      api.setStartPointForExercise(bookId, row).then(function (res) {
+        if (res && res.ok) route();
+      });
+    };
+    listRow.appendChild(btn);
+  }
+
   function practiceHref(bookId, unitId, slug) {
     return "#/p/" + bookId + "/" + unitId + "/" + slug;
   }
@@ -951,7 +984,7 @@
       list.innerHTML = "";
       var key = catalog.unitKey(bookId, unitId);
       var exs = catalog.exercises[key] || [];
-      if (progress && !progress.isUnitIdUnlocked(bookId, unitId)) {
+      if (progress && !progress.isUnitIdUnlocked(bookId, unitId) && !mrjTeacher()) {
         list.appendChild(
           $("p", "note", "This unit is locked. Finish every exercise in the previous unit at 50% or higher to continue.")
         );
@@ -962,6 +995,7 @@
         return;
       }
       exs.forEach(function (ex, index) {
+        var listRow = $("div", "exercise-list-row");
         var btn = document.createElement("a");
         btn.className = "exercise-btn";
         btn.href = practiceHref(bookId, unitId, ex.slug);
@@ -969,7 +1003,9 @@
         btn.appendChild(title);
         btn.appendChild($("span", "hint", ex.hint));
         applyExerciseLock(btn, bookId, unitId, ex, index);
-        list.appendChild(btn);
+        listRow.appendChild(btn);
+        appendTeacherStartHere(listRow, bookId, unitId, ex, index);
+        list.appendChild(listRow);
       });
     }
 
