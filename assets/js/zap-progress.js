@@ -15,6 +15,14 @@
 
   var RETRY_PCT = 50;
 
+  /** TEMP: Jay asked to unlock all path gates until teacher unlock UI ships (Nov 2026). */
+  var UNLOCK_ALL = true;
+
+  function unlockAllStudents() {
+    if (typeof root.MRJ_ZAP_UNLOCK_ALL === "boolean") return root.MRJ_ZAP_UNLOCK_ALL;
+    return UNLOCK_ALL;
+  }
+
   function packApi() {
     return root.MRJ_GREENZAP_PACK;
   }
@@ -106,6 +114,7 @@
   }
 
   function progressGatesActive() {
+    if (unlockAllStudents()) return false;
     if (teacherSkipLocks()) return false;
     if (shouldHoldLockUi()) return false;
     return true;
@@ -361,6 +370,7 @@
 
   return {
     RETRY_PCT: RETRY_PCT,
+    UNLOCK_ALL: unlockAllStudents,
     teacherSkipLocks: teacherSkipLocks,
     packProgressReady: packProgressReady,
     shouldHoldLockUi: shouldHoldLockUi,

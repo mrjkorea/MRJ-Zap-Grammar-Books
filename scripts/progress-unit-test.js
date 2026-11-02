@@ -1,6 +1,8 @@
 /* Progress gates: 50% bar, sequential exercises, unit unlock chain */
 "use strict";
 
+globalThis.MRJ_ZAP_UNLOCK_ALL = false;
+
 const assert = require("assert");
 const progress = require("../assets/js/zap-progress.js");
 const pack = require("../assets/js/greenzap-pack.js");
@@ -162,6 +164,16 @@ function score(id, pct) {
   assert.strictEqual(progress.isUnitComplete("zap-green-1", "unit-01"), true);
   assert.strictEqual(progress.isUnitIdUnlocked("zap-green-1", "unit-02"), true);
   assert.strictEqual(progress.isExerciseUnlocked("zap-green-1", "unit-02", 0), true);
+})();
+
+(function testTempUnlockAllFlag() {
+  globalThis.MRJ_ZAP_UNLOCK_ALL = true;
+  applyPack(pack.emptyPack());
+  assert.strictEqual(progress.UNLOCK_ALL(), true);
+  assert.strictEqual(progress.isExerciseUnlocked("zap-green-1", "unit-01", 1), true);
+  assert.strictEqual(progress.isUnitIdUnlocked("zap-green-1", "unit-02"), true);
+  assert.strictEqual(progress.canOpenExercise("zap-green-1", "unit-02", "walk1").ok, true);
+  globalThis.MRJ_ZAP_UNLOCK_ALL = false;
 })();
 
 console.log("progress-unit-test: ok");

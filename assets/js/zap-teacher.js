@@ -5,7 +5,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261030-chip-teacher-only";
+  var BUILD = "20261102-temp-unlock-all";
   var panelBookId = "";
   var chipClickBound = false;
   var lastActive = null;
