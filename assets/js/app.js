@@ -9,6 +9,11 @@
   var SEL_BOOK = "gz.book";
   var SEL_UNIT = "gz.unit";
   var CHUNILMUN_BOOK = "chunilmun-grammar-1";
+  var CHUNILMUN2_BOOK = "chunilmun-grammar-2";
+
+  function cmHashRoot(bookId) {
+    return bookId === CHUNILMUN2_BOOK ? "chunilmun2" : "chunilmun";
+  }
   var HUB_TITLE = "MRJ Grammar Practice Hub — ZAP & 천일문";
   var ZAP_HUB_TITLE = "MRJ Zap Grammar Books";
 
@@ -74,16 +79,17 @@
     document.title = title;
   }
 
-  function chunilmunUnitRoute(unitId) {
-    if (!unitId) return "#/chunilmun";
+  function chunilmunUnitRoute(unitId, bookId) {
+    var root = "#/" + cmHashRoot(bookId || CHUNILMUN_BOOK);
+    if (!unitId) return root;
     if (/^wb-chapter-(\d+)$/.test(unitId)) {
-      return "#/chunilmun/chapter-" + unitId.match(/^wb-chapter-(\d+)$/)[1] + "/wb";
+      return root + "/chapter-" + unitId.match(/^wb-chapter-(\d+)$/)[1] + "/wb";
     }
     if (/^chapter-(\d+)$/.test(unitId)) {
-      return "#/chunilmun/chapter-" + unitId.match(/^chapter-(\d+)$/)[1] + "/sb";
+      return root + "/chapter-" + unitId.match(/^chapter-(\d+)$/)[1] + "/sb";
     }
-    if (/^review-/.test(unitId)) return "#/chunilmun/" + unitId;
-    return "#/chunilmun";
+    if (/^review-/.test(unitId)) return root + "/" + unitId;
+    return root;
   }
 
   function chunilmunUnitFromRoute(parts) {
@@ -95,8 +101,8 @@
     return kind === "wb" ? "wb-chapter-" + m[1] : "chapter-" + m[1];
   }
 
-  function chunilmunCatalog() {
-    var units = catalog.units[CHUNILMUN_BOOK] || [];
+  function chunilmunCatalog(bookId) {
+    var units = catalog.units[bookId || CHUNILMUN_BOOK] || [];
     var chapters = [];
     var reviews = [];
     units.forEach(function (u) {
@@ -125,7 +131,7 @@
 
   function brandForBook(bookId) {
     if (isChunilmunBook(bookId)) {
-      var cm = catalog.findBook(CHUNILMUN_BOOK);
+      var cm = catalog.findBook(bookId) || catalog.findBook(CHUNILMUN_BOOK);
       return (cm && cm.appName) || "천일문 Grammar 1";
     }
     var book = catalog.findBook(bookId) || catalog.findBook("zap-green-1");
@@ -134,7 +140,7 @@
   }
 
   function indexBackHref(bookId) {
-    if (isChunilmunBook(bookId)) return chunilmunUnitRoute(getSel(SEL_UNIT, "chapter-01"));
+    if (isChunilmunBook(bookId)) return chunilmunUnitRoute(getSel(SEL_UNIT, "chapter-01"), bookId);
     var id = bookId || getSel(SEL_BOOK, "zap-green-1");
     return "#/zap/" + id;
   }
@@ -674,12 +680,13 @@
       else renderZapIndex();
       return;
     }
-    if (parts[0] === "chunilmun") {
+    if (parts[0] === "chunilmun" || parts[0] === "chunilmun2") {
+      var cmBook = parts[0] === "chunilmun2" ? CHUNILMUN2_BOOK : CHUNILMUN_BOOK;
       var unitId = chunilmunUnitFromRoute(parts);
       if (unitId) {
-        renderChunilmunUnit(unitId);
+        renderChunilmunUnit(unitId, cmBook);
       } else {
-        renderChunilmunIndex();
+        renderChunilmunIndex(cmBook);
       }
       return;
     }
@@ -692,7 +699,7 @@
       var label = backLabel;
       if (!label) {
         if (backHref === "#/") label = "← Home";
-        else if (backHref === "#/chunilmun") label = "← Chapters";
+        else if (backHref === "#/chunilmun" || backHref === "#/chunilmun2") label = "← Chapters";
         else if (backHref === "#/zap") label = "← ZAP books";
         else label = "← Back";
       }
@@ -746,16 +753,29 @@
     cmBlock.appendChild(cmGo);
     stack.appendChild(cmBlock);
 
+    var cm2Block = $("section", "hub-block hub-block-chunilmun");
+    cm2Block.appendChild($("h2", "hub-block-title", "천일문 Grammar 2"));
+    cm2Block.appendChild($("p", "hub-block-lead", "쎄듀 CEDU · GRAMMAR LEVEL 2 · Chapter 01 SB + WB"));
+    var cm2Go = document.createElement("a");
+    cm2Go.className = "hub-entry hub-entry-chunilmun";
+    cm2Go.href = "#/chunilmun2";
+    cm2Go.appendChild($("span", "hub-entry-kicker", "CEDU · 중2"));
+    cm2Go.appendChild($("span", "hub-entry-title", "천일문 Grammar 2"));
+    cm2Go.appendChild($("span", "hub-entry-sub", "Chapter 01 — 문장의 주요 형식"));
+    cm2Block.appendChild(cm2Go);
+    stack.appendChild(cm2Block);
+
     app.appendChild(stack);
     app.appendChild(
       $("p", "note", "Timer: when time runs out, your answers are submitted automatically (you cannot change them after that).")
     );
   }
 
-  function decorateChunilmunPick(link, unitId) {
+  function decorateChunilmunPick(link, unitId, bookId) {
+    bookId = bookId || CHUNILMUN_BOOK;
     if (!progress || !unitId) return;
     if (holdProgressLockUi()) return;
-    var st = progress.unitStatusLabel(CHUNILMUN_BOOK, unitId);
+    var st = progress.unitStatusLabel(bookId, unitId);
     if (st === "locked") {
       link.classList.add("locked");
       link.addEventListener("click", function (e) {
@@ -767,25 +787,29 @@
     }
     if (st === "done") link.classList.add("is-done");
     else if (st === "retry") link.classList.add("needs-retry");
-    var sum = progress.unitProgressSummary(CHUNILMUN_BOOK, unitId);
+    var sum = progress.unitProgressSummary(bookId, unitId);
     if (sum.total) {
       link.title = (link.title ? link.title + " · " : "") + sum.done + "/" + sum.total + " done (≥50%)";
     }
   }
 
-  function renderChunilmunIndex() {
+  function renderChunilmunIndex(bookId) {
+    bookId = bookId || CHUNILMUN_BOOK;
+    var book = catalog.findBook(bookId);
+    var appName = (book && book.appName) || "천일문 Grammar 1";
+    var root = "#/" + cmHashRoot(bookId);
     app.innerHTML = "";
-    setSel(SEL_BOOK, CHUNILMUN_BOOK);
-    applyBookTheme(CHUNILMUN_BOOK);
-    setDocumentTitle("천일문 Grammar 1 · CEDU · MRJ Practice Hub");
-    var bar = topbar("#/", "천일문 Grammar 1 · CEDU");
+    setSel(SEL_BOOK, bookId);
+    applyBookTheme(bookId);
+    setDocumentTitle(appName + " · CEDU · MRJ Practice Hub");
+    var bar = topbar("#/", appName + " · CEDU");
     app.appendChild(bar);
-    app.appendChild($("h1", null, "천일문 Grammar 1"));
+    app.appendChild($("h1", null, appName));
     app.appendChild(
       $("p", "lead", "Pick a chapter, then Student Book (SB) or Workbook (WB). Each opens that chapter’s practice list.")
     );
 
-    var meta = chunilmunCatalog();
+    var meta = chunilmunCatalog(bookId);
     var list = $("div", "cm-chapter-list");
     meta.chapters.forEach(function (ch) {
       var row = $("div", "cm-chapter-row");
@@ -797,15 +821,15 @@
       var actions = $("div", "cm-chapter-actions");
       var sb = document.createElement("a");
       sb.className = "cm-pick cm-pick-sb";
-      sb.href = "#/chunilmun/chapter-" + String(ch.n).padStart(2, "0") + "/sb";
+      sb.href = root + "/chapter-" + String(ch.n).padStart(2, "0") + "/sb";
       sb.textContent = "Student Book";
       var wb = document.createElement("a");
       wb.className = "cm-pick cm-pick-wb";
-      wb.href = "#/chunilmun/chapter-" + String(ch.n).padStart(2, "0") + "/wb";
+      wb.href = root + "/chapter-" + String(ch.n).padStart(2, "0") + "/wb";
       wb.textContent = "Workbook";
       if (progress) {
-        decorateChunilmunPick(sb, ch.sbId);
-        decorateChunilmunPick(wb, ch.wbId);
+        decorateChunilmunPick(sb, ch.sbId, bookId);
+        decorateChunilmunPick(wb, ch.wbId, bookId);
       }
       actions.appendChild(sb);
       actions.appendChild(wb);
@@ -820,9 +844,9 @@
       meta.reviews.forEach(function (r) {
         var a = document.createElement("a");
         a.className = "cm-review-btn";
-        a.href = "#/chunilmun/" + r.id;
+        a.href = root + "/" + r.id;
         a.textContent = r.title.replace(/^Ch\s*\d+\s*/, "");
-        if (progress) decorateChunilmunPick(a, r.id);
+        if (progress) decorateChunilmunPick(a, r.id, bookId);
         revWrap.appendChild(a);
       });
       app.appendChild(revWrap);
@@ -833,24 +857,27 @@
     );
   }
 
-  function renderChunilmunUnit(unitId) {
-    setSel(SEL_BOOK, CHUNILMUN_BOOK);
+  function renderChunilmunUnit(unitId, bookId) {
+    bookId = bookId || CHUNILMUN_BOOK;
+    var book = catalog.findBook(bookId);
+    var appName = (book && book.appName) || "천일문 Grammar 1";
+    setSel(SEL_BOOK, bookId);
     setSel(SEL_UNIT, unitId);
-    var units = catalog.units[CHUNILMUN_BOOK] || [];
+    var units = catalog.units[bookId] || [];
     var unitMeta = units.filter(function (u) {
       return u.id === unitId;
     })[0];
     var heading = unitMeta ? unitMeta.title : "천일문 · Practice";
     renderBookIndex({
-      bookId: CHUNILMUN_BOOK,
+      bookId: bookId,
       unitId: unitId,
       fixedUnitId: unitId,
-      backHref: "#/chunilmun",
-      pageTitle: "천일문 Grammar 1 · " + heading,
+      backHref: "#/" + cmHashRoot(bookId),
+      pageTitle: appName + " · " + heading,
       heading: heading,
       lead: "3 · 연습 고르기 — tap a set below to start (timed).",
       bookFilter: function (b) {
-        return b.id === CHUNILMUN_BOOK;
+        return b.id === bookId;
       },
       hideBookPicker: true,
       hideUnitPicker: true,

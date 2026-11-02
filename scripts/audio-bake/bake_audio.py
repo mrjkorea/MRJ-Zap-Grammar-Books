@@ -36,6 +36,7 @@ BOOKS = [
     "blue1", "blue2", "blue3", "blue4",
     "red1", "red2",
     "chunilmun1",
+    # chunilmun2: Grammar 2 JSON lives in data/chunilmun2/. Audio bake is a later pass.
 ]
 
 MAYA = "fe4921e56ebf4fcba53b09b0d73c2052"
