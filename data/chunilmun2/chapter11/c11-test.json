@@ -10,7 +10,7 @@
   "unitId": "chapter-11",
   "unitTitle": "Chapter 11 — 접속사",
   "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–3] 3문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6–8] 3문항(문장 전체 쓰기), [9–10] 2문항(고르기), [11–12] 2문항(고르기), [13–14] 2문항(빈칸 말만 쓰기), [15] 1문항(고르기), [16] 1문항(문장 전체 쓰기), [17] 1문항(빈칸 말만 쓰기), [18] 1문항(고르기), [19] 1문항(고르기)으로 되어 있어요.",
+  "introKo": "이 연습은 [1–3] 3문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6–8] 3문항(문장 전체 쓰기), [9–10] 2문항(고르기), [11–12] 2문항(고르기), [13–14] 2문항(빈칸 말만 쓰기), [15] 1문항(고르기), [16] 1문항(문장 전체 쓰기), [17] 1문항(빈칸 말만 쓰기), [18] 1문항(고르기), [19] 1문항(고르기), [20] 1문항(빈칸 말만 쓰기), [21] 1문항(고르기), [22] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-3",
@@ -185,6 +185,48 @@
       "exampleCount": 0,
       "labels": [
         "19"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "[20]",
+      "instructionKo": "[20] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 문장을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "directionKo": "[20] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 문장을 모두 고르세요.",
+      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "20"
+      ]
+    },
+    {
+      "id": "21",
+      "title": "[21]",
+      "instructionKo": "[21] 다음 중 어법상 알맞은 것끼리 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[21] 다음 중 어법상 알맞은 것끼리 바르게 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "21"
+      ]
+    },
+    {
+      "id": "22",
+      "title": "[22]",
+      "instructionKo": "[22] 그림과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[22] 그림과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "22"
       ]
     }
   ],
@@ -526,8 +568,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "17",
       "type": "fill",
-      "promptEn": "① Did you hear what she said?\n② I am not sure whether she will come to the party.\n③ Tell me who they met yesterday.\n④ The news says where broke out the fire.\n⑤ Can you tell me whether does Peter like volleyball?",
-      "promptKo": "① 너는 그녀가 무엇을 말했는지 들었니?\n② 나는 그녀가 파티에 올지 확신할 수 없다.\n③ 그들이 어제 누구를 만났는지 나에게 알려 줘.\n④ 뉴스에서 그 화재가 어디에서 발생했는지 말한다.\n⑤ Peter가 배구를 좋아하는지 나에게 말해 줄 수 있니?",
+      "promptEn": "① Did you hear? + What did she say?\n→ Did you hear what she said?\n② I'm not sure. + Will she come to the party?\n→ I'm not sure if she will come to the party.\n③ Let me know. + Whom did they meet yesterday?\n→ Let me know whom they met yesterday.\n④ The news tells. + Where did the fire break out?\n→ The news tells where broke out the fire.\n⑤ Can you tell me? + Does Peter like volleyball?\n→ Can you tell me whether does Peter like volleyball?",
       "blanks": 2,
       "unordered": true,
       "blankPartLabels": [
@@ -550,14 +591,13 @@
       "answerModeTag": "Choose · 고르기",
       "label": "18",
       "type": "mc",
-      "promptEn": "① When Mike called me, I was sleeping.\n② If you will exercise hard, you will become healthy.\n③ Unless it is an emergency, you should not call 119.\n④ The restaurant stays open until the last guest leaves.\n⑤ Because Jinny's eyesight is bad, her mom bought her glasses.",
-      "promptKo": "① Mike가 나에게 전화했을 때, 나는 자고 있었다.\n② 만약 네가 운동을 열심히 한다면, 너는 건강해질 것이다.\n③ 만약 위급 상황이 아니라면 너는 119에 전화하지 말아야 한다.\n④ 그 식당은 마지막 손님이 떠날 때까지 문을 연다.\n⑤ 지니의 시력이 좋지 않기 때문에 그녀의 엄마는 지니에게 안경을 사 주셨다.",
+      "promptEn": "① When Mike called me, I was sleeping.\n② If you will exercise hard, you will be healthy.\n③ You should not call 119 unless it is an emergency.\n④ The restaurant stays open until the last customer leaves.\n⑤ Because Jina's eyesight is bad, her mom bought her glasses.",
       "choices": [
         "When Mike called me, I was sleeping.",
-        "If you will exercise hard, you will become healthy.",
-        "Unless it is an emergency, you should not call 119.",
-        "The restaurant stays open until the last guest leaves.",
-        "Because Jinny's eyesight is bad, her mom bought her glasses."
+        "If you will exercise hard, you will be healthy.",
+        "You should not call 119 unless it is an emergency.",
+        "The restaurant stays open until the last customer leaves.",
+        "Because Jina's eyesight is bad, her mom bought her glasses."
       ],
       "accept": [
         "2",
@@ -574,20 +614,82 @@
       "answerModeTag": "Choose · 고르기",
       "label": "19",
       "type": "mc",
-      "promptEn": "① Let's play outside until it gets dark.\n② Unless you don't leave now, you will be late.\n③ When I visited Paris, I went to the Eiffel Tower.\n④ If you miss the last train, you will have to take a taxi.\n⑤ The students took notes while the teacher gave a lecture.",
-      "promptKo": "① 어두워질 때까지 밖에서 놀자.\n② 만약 지금 출발하지 않으면, 너는 늦을 것이다.\n③ 나는 파리를 방문했을 때 에펠탑에 갔다.\n④ 만약 막차를 놓친다면, 너는 택시를 타야 할 것이다.\n⑤ 선생님이 강의를 하시는 동안에 학생들은 필기했다.",
+      "promptEn": "① Let's play outside until it gets dark.\n② Unless you don't leave now, you'll be late.\n③ I went to the Eiffel Tower when I visited Paris.\n④ If you miss the last bus, you will need to take a taxi.\n⑤ While the teacher gave the lecture, the students took notes.",
       "choices": [
         "Let's play outside until it gets dark.",
-        "Unless you don't leave now, you will be late.",
-        "When I visited Paris, I went to the Eiffel Tower.",
-        "If you miss the last train, you will have to take a taxi.",
-        "The students took notes while the teacher gave a lecture."
+        "Unless you don't leave now, you'll be late.",
+        "I went to the Eiffel Tower when I visited Paris.",
+        "If you miss the last bus, you will need to take a taxi.",
+        "While the teacher gave the lecture, the students took notes."
       ],
       "accept": [
         "2",
         "②"
       ],
       "answer": "2"
+    },
+    {
+      "id": "q20",
+      "section": "20",
+      "sectionTitle": "[20]",
+      "sectionInstructionKo": "[20] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 문장을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "20",
+      "type": "fill",
+      "promptEn": "① We aren't sure [if it'll snow] on Sunday.\n② I can't decide [whether I will sell] the sofa.\n③ Do you know [when Ms. Park comes back]?\n④ Emma didn't tell me [why did she skip] the class.\n⑤ Can you show me [where is the public library]?",
+      "blanks": 2,
+      "unordered": true,
+      "blankPartLabels": [
+        "번호",
+        "번호"
+      ],
+      "accept": [
+        "4|5",
+        "5|4",
+        "④|⑤",
+        "⑤|④"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "21",
+      "sectionTitle": "[21]",
+      "sectionInstructionKo": "[21] 다음 중 어법상 알맞은 것끼리 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "21",
+      "type": "mc",
+      "promptEn": "ⓐ Don't go swimming if you have a cold.\nⓑ Though Chris is very thin, he can't eat a lot.\nⓒ Unless she tells us the truth, we won't see her.\nⓓ The pants were so dirty that he couldn't wear them.\nⓔ The kids don't know the songs because they are so young.\nⓕ The player couldn't play because his severe injury.",
+      "choices": [
+        "ⓒ, ⓓ, ⓔ",
+        "ⓑ, ⓓ, ⓕ",
+        "ⓐ, ⓑ, ⓒ, ⓔ",
+        "ⓐ, ⓓ, ⓕ",
+        "ⓐ, ⓒ, ⓓ, ⓔ"
+      ],
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q22",
+      "section": "22",
+      "sectionTitle": "[22]",
+      "sectionInstructionKo": "[22] 그림과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "22",
+      "type": "fill",
+      "promptEn": "________ camping tomorrow.\n(my family, if, the weather, go, be, good)",
+      "blanks": 1,
+      "accept": [
+        "If the weather is good, my family will go",
+        "If the weather is good, my family will go camping tomorrow",
+        "If the weather is good, my family will go camping tomorrow."
+      ]
     }
   ],
   "testId": "c11-test",

@@ -1,5 +1,7 @@
 # Chapter 01 — page check
 
+Round 2 did not include a new Chapter 01 or workbook page, so the items below stay as they were after PR #136.
+
 Student extract has no underline markup. O/X underlines stay on the span the key corrects (wrong items) or the grammar focus (O items).
 
 - `cm2:c01:u1-A` A2, A3, A5 and `cm2:c01:u2-A` A1, A5 and `cm2:wb-c01:u1-A` A3, A6, A8: correct (O) underlines are inferred. Wrong-item underlines match the key’s correction (`me to laugh` → `me laugh`, `get` → `to get`).

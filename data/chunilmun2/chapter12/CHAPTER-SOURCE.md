@@ -1,15 +1,10 @@
 # Chapter 12 — page check
 
-SB Chapter Test extract includes item 15 and the start of [15–16], then stops. Added from the key:
+Round 2 used `missing_tests/c12_test_p159.png` (printed p.165).
 
-- `cm2:c12:test` q16 `what | whose` (key choice number ④; the five pairings are not in the extract, so this is a write-in).
-- q17 `who/that is reading`.
-- q18 `that` (key prints ⓓ; the word the explanation names is `that`).
-- q19 `who` (key choice number ①).
-- q20 `a girl whose name is similar with mine` (key spelling `with`; `to` also accepted).
-- q21 `This is the ring Tom gave to me.`
-- q22 `The answer was not what I wanted to hear.`
-
-Still uncertain — not added:
-
-- q23: answer number is ⑤. The key says the subject relative in “실크로 만들어진 옷” cannot be omitted, but the ⓐ–ⓔ letters are duplicated in the extract, so the five sentences cannot be ordered.
+- `cm2:c12:test` q16: now a choice item. ④ is `what — whose`. The (B) line is `I like movies`.
+- `cm2:c12:test` q18: now a choice item. The common word is ④ `that` (`Amundsen was`, `My grandma`).
+- `cm2:c12:test` q19: now a choice item. The common word is ① `who`.
+- `cm2:c12:test` q20: the frame is `I know ________` with the printed chip order. Answer stays `a girl whose name is similar with mine`.
+- `cm2:c12:test` q21–q22: chip order matches the page. Answers stay `This is the ring Tom gave to me.` and `The answer was not what I wanted to hear.`
+- `cm2:c12:test` q23: added. The question asks which explanation of the underlined word is wrong. Answer is ⑤ (ⓔ `which` is a subject relative and cannot be omitted).

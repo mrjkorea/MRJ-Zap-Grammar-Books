@@ -146,8 +146,8 @@
     {
       "id": "15",
       "title": "[15]",
-      "instructionKo": "[15] 다음 중 어법상 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[15] 다음 중 어법상 알맞은 것을 고르세요.",
+      "instructionKo": "[15–16] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[15–16] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
@@ -160,8 +160,8 @@
     {
       "id": "16",
       "title": "[16]",
-      "instructionKo": "[16] 다음 중 어법상 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "directionKo": "[16] 다음 중 어법상 알맞은 것을 고르세요.",
+      "instructionKo": "[15–16] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[15–16] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요.",
       "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
@@ -174,8 +174,8 @@
     {
       "id": "17",
       "title": "[17]",
-      "instructionKo": "[17] 다음 중 어법상 알맞지 않은 문장을 찾아 바르게 고쳐 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "directionKo": "[17] 다음 중 어법상 알맞지 않은 문장을 찾아 바르게 고쳐 쓰세요.",
+      "instructionKo": "[17] 다음 중 어법상 알맞지 않은 문장을 모두 골라 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[17] 다음 중 어법상 알맞지 않은 문장을 모두 골라 바르게 고쳐 문장을 다시 쓰세요.",
       "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
@@ -506,7 +506,7 @@
         "ⓑ, ⓒ",
         "ⓐ, ⓒ",
         "ⓐ, ⓑ, ⓔ",
-        "ⓒ, ⓓ, ⓔ"
+        "ⓑ, ⓒ, ⓔ"
       ],
       "accept": [
         "4",
@@ -518,18 +518,18 @@
       "id": "q15",
       "section": "15",
       "sectionTitle": "[15]",
-      "sectionInstructionKo": "[15] 다음 중 어법상 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "sectionInstructionKo": "[15–16] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "15",
       "type": "mc",
-      "promptEn": "Studying many subjects ________ easy.",
+      "promptKo": "많은 과목을 공부하는 것은 나에게 쉽지 않다.",
       "choices": [
-        "are",
-        "aren't",
-        "isn't",
-        "don't",
-        "weren't"
+        "Study many subjects isn't easy for me.",
+        "Studied many subjects isn't easy for me.",
+        "Studying many subjects isn't easy for me.",
+        "Studying many subjects aren't easy for me.",
+        "Studying many subjects be not easy for me."
       ],
       "accept": [
         "3",
@@ -541,18 +541,18 @@
       "id": "q16",
       "section": "16",
       "sectionTitle": "[16]",
-      "sectionInstructionKo": "[16] 다음 중 어법상 알맞은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "sectionInstructionKo": "[15–16] 다음 중 주어진 우리말을 바르게 영작한 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "label": "16",
       "type": "mc",
-      "promptEn": "다음 중 어법상 알맞은 것을 고르세요.",
+      "promptKo": "나는 그들을 다시 보기를 기대한다.",
       "choices": [
-        "I look forward to see you soon.",
-        "She is looking forward to meet her uncle.",
-        "We look forward to hearing good news.",
-        "He looks forward to be a doctor.",
-        "They look forward to visit the museum."
+        "I look forward to see them again.",
+        "I look forward seeing them again.",
+        "I look forward to seeing them again.",
+        "I look forward not seeing them again.",
+        "I look forward not to see them again."
       ],
       "accept": [
         "3",
@@ -564,12 +564,12 @@
       "id": "q17",
       "section": "17",
       "sectionTitle": "[17]",
-      "sectionInstructionKo": "[17] 다음 중 어법상 알맞지 않은 문장을 찾아 바르게 고쳐 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "sectionInstructionKo": "[17] 다음 중 어법상 알맞지 않은 문장을 모두 골라 바르게 고쳐 문장을 다시 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
       "answerMode": "sentence",
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "17",
       "type": "sentence",
-      "promptEn": "ⓐ The boy is good at sing a song.\nⓑ They kept laughing at Tom's joke.\nⓒ It started raining in the afternoon.\nⓓ Are you interested in designing clothes?\nⓔ Shaking one's head usually means saying no.\nⓕ Eating not breakfast is bad for your health.\n(틀린 문장만, 기호 순서대로) ________ / ________",
+      "promptEn": "ⓐ The boy is good at sing a song.\nⓑ They kept laughing at Tom's joke.\nⓒ It started to rain in the afternoon.\nⓓ Are you interested in designing clothes?\nⓔ Shaking your head usually means saying no.\nⓕ Eating not breakfast is bad for your health.",
       "blanks": 2,
       "blankPartLabels": [
         "ⓐ",
@@ -589,11 +589,11 @@
       "answerModeTag": "Choose · 고르기",
       "label": "18",
       "type": "mc",
-      "promptEn": "다음 중 어법상 알맞지 않은 것을 고르세요.",
+      "promptEn": "① They hoped to see a shooting star.\n② The boy avoids to answer my question.\n③ He stopped working and took a rest.\n④ Thank you for listening to my speech.\n⑤ I waited for Sue, but she forgot to meet me.",
       "choices": [
         "They hoped to see a shooting star.",
         "The boy avoids to answer my question.",
-        "He stopped working and rested.",
+        "He stopped working and took a rest.",
         "Thank you for listening to my speech.",
         "I waited for Sue, but she forgot to meet me."
       ],
@@ -612,10 +612,10 @@
       "answerModeTag": "Choose · 고르기",
       "label": "19",
       "type": "mc",
-      "promptEn": "다음 중 어법상 알맞지 않은 것을 고르세요.",
+      "promptEn": "① Watching action movies is interesting.\n② Understanding my sister's mind was hard.\n③ Jim and I agreed to go to the museum by taxi.\n④ Take this medicine before go to bed tonight.\n⑤ I don't mind sleeping on the sofa instead of the bed.",
       "choices": [
         "Watching action movies is interesting.",
-        "Understanding my sister's mind was difficult.",
+        "Understanding my sister's mind was hard.",
         "Jim and I agreed to go to the museum by taxi.",
         "Take this medicine before go to bed tonight.",
         "I don't mind sleeping on the sofa instead of the bed."
@@ -635,7 +635,8 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "20",
       "type": "fill",
-      "promptEn": "안녕하세요. 제 이름은 지환입니다. 저는 사진 찍는 것을 정말로 즐깁니다. 저는 다음 달에 사진 대회에 참가할 계획입니다. 저는 최고의 사진가가 되기 위해 노력합니다.\nHello. My name is Jihwan. I really enjoy (1) ________ photos. I plan (2) ________ in a photo contest next month. I try (3) ________ the best photographer.\n(take / participate / become)",
+      "promptKo": "안녕하세요. 제 이름은 지환입니다. 저는 사진 찍는 것을 정말로 즐깁니다. 저는 다음 달에 사진 대회에 참가할 계획입니다. 저는 최고의 사진가가 되기 위해 노력합니다.",
+      "promptEn": "Hi. My name is Jihwan. I really enjoy (1) ________ (take) photos. I am planning (2) ________ (participate) in a photo contest next month. I try (3) ________ (become) the best photographer.",
       "blanks": 3,
       "blankPartLabels": [
         "(1)",
