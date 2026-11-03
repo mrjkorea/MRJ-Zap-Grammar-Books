@@ -16,6 +16,11 @@
   }
   var HUB_TITLE = "MRJ Grammar Practice Hub — ZAP & 천일문";
   var ZAP_HUB_TITLE = "MRJ Zap Grammar Books";
+  var ZAP_LANES = {
+    red: { title: "ZAP Red", kicker: "MRJ · RedZap" },
+    blue: { title: "ZAP Blue", kicker: "MRJ · BlueZap" },
+    green: { title: "ZAP Green", kicker: "MRJ · GreenZap" },
+  };
 
   function $(tag, cls, text) {
     var el = document.createElement(tag);
@@ -73,6 +78,53 @@
 
   function isZapBook(bookId) {
     return !isChunilmunBook(bookId);
+  }
+
+  function zapLaneOf(bookId) {
+    var id = String(bookId || "");
+    if (/^zap-red-/.test(id)) return "red";
+    if (/^zap-blue-/.test(id)) return "blue";
+    if (/^zap-green-/.test(id)) return "green";
+    return null;
+  }
+
+  function zapBooksInLane(lane) {
+    return (catalog.books || []).filter(function (b) {
+      return zapLaneOf(b.id) === lane;
+    });
+  }
+
+  function laneBookSummary(lane) {
+    var books = zapBooksInLane(lane).filter(function (b) {
+      return b.enabled;
+    });
+    if (!books.length) return "Coming soon";
+    var levels = books
+      .map(function (b) {
+        var m = String(b.id).match(/(\d+)$/);
+        return m ? +m[1] : null;
+      })
+      .filter(function (n) {
+        return n != null;
+      });
+    var name = lane.charAt(0).toUpperCase() + lane.slice(1);
+    if (levels.length === books.length && levels.length) {
+      var sequential = levels.every(function (n, i) {
+        return i === 0 || n === levels[i - 1] + 1;
+      });
+      if (sequential) {
+        return levels.length === 1 ? name + " " + levels[0] : name + " " + levels[0] + "–" + levels[levels.length - 1];
+      }
+    }
+    return books
+      .map(function (b) {
+        return String(b.title || "").replace(/^ZAP\s+/i, "");
+      })
+      .join(" · ");
+  }
+
+  function zapLaneRoute(lane) {
+    return "#/zap/" + lane;
   }
 
   function setDocumentTitle(title) {
@@ -152,6 +204,11 @@
   function parseZapBookRoute(parts) {
     if (parts[0] !== "zap" || !parts[1]) return null;
     return parts[1];
+  }
+
+  function parseZapLane(parts) {
+    if (!parts || parts[0] !== "zap" || parts.length !== 2) return null;
+    return ZAP_LANES[parts[1]] ? parts[1] : null;
   }
 
   function applyExerciseLock(btn, bookId, unitId, ex, index) {
@@ -239,6 +296,11 @@
   function applyHubTheme() {
     document.documentElement.setAttribute("data-book", "hub");
     document.documentElement.setAttribute("data-view", "hub");
+  }
+
+  function applyLaneTheme(lane) {
+    document.documentElement.setAttribute("data-book", lane);
+    document.documentElement.setAttribute("data-view", "lane");
   }
 
   function itemDisplayLabel(item, idx) {
@@ -748,9 +810,17 @@
       return;
     }
     if (parts[0] === "zap") {
+      var zapLane = parseZapLane(parts);
+      if (zapLane) {
+        renderZapLane(zapLane);
+        return;
+      }
       var zapBook = parseZapBookRoute(parts);
-      if (zapBook) renderZapBook(zapBook);
-      else renderZapIndex();
+      if (zapBook && catalog.findBook(zapBook) && isZapBook(zapBook)) {
+        renderZapBook(zapBook);
+        return;
+      }
+      renderZapIndex();
       return;
     }
     if (parts[0] === "chunilmun" || parts[0] === "chunilmun2") {
@@ -773,7 +843,10 @@
       if (!label) {
         if (backHref === "#/") label = "← Home";
         else if (backHref === "#/chunilmun" || backHref === "#/chunilmun2") label = "← Chapters";
-        else if (backHref === "#/zap") label = "← ZAP books";
+        else if (backHref === "#/zap") label = "← ZAP colors";
+        else if (backHref === "#/zap/red") label = "← ZAP Red";
+        else if (backHref === "#/zap/blue") label = "← ZAP Blue";
+        else if (backHref === "#/zap/green") label = "← ZAP Green";
         else label = "← Back";
       }
       var a = $("a", "back-link", label);
@@ -786,6 +859,48 @@
     return bar;
   }
 
+  function makeHubLink(className, href, kicker, title, sub) {
+    var a = document.createElement("a");
+    a.className = "hub-entry " + className;
+    a.href = href;
+    a.appendChild($("span", "hub-entry-kicker", kicker));
+    a.appendChild(hubTitleEl(title));
+    if (sub) a.appendChild($("span", "hub-entry-sub", sub));
+    return a;
+  }
+
+  function hubTitleEl(title) {
+    var el = $("span", "hub-entry-title");
+    String(title).split("\n").forEach(function (line, i) {
+      if (i) el.appendChild(document.createElement("br"));
+      el.appendChild(document.createTextNode(line));
+    });
+    return el;
+  }
+
+  function makeHubSoon(kicker, title) {
+    var b = $("button", "hub-entry hub-entry-soon");
+    b.type = "button";
+    b.disabled = true;
+    b.setAttribute("aria-disabled", "true");
+    b.setAttribute("aria-label", String(title).replace(/\n/g, " ") + " — Coming soon");
+    b.appendChild($("span", "hub-entry-kicker", kicker));
+    b.appendChild(hubTitleEl(title));
+    b.appendChild($("span", "hub-entry-sub hub-soon-label", "Coming soon"));
+    return b;
+  }
+
+  function makeZapLaneCard(lane) {
+    var meta = ZAP_LANES[lane];
+    return makeHubLink(
+      "hub-entry-" + lane,
+      zapLaneRoute(lane),
+      meta.kicker,
+      meta.title,
+      laneBookSummary(lane)
+    );
+  }
+
   function renderHomeHub() {
     app.innerHTML = "";
     applyHubTheme();
@@ -793,50 +908,52 @@
     app.appendChild(topbar(null, "MRJ Grammar Practice Hub"));
     app.appendChild($("h1", null, "Choose your book series"));
     app.appendChild(
-      $("p", "lead", "Two products live here: MRJ ZAP Grammar (Red · Blue · Green) and 천일문 Grammar from 쎄듀 CEDU. Pick one to continue.")
+      $("p", "lead", "Pick a ZAP color, or a 천일문 Middle School Grammar book. Each ZAP color opens only that series.")
     );
 
     var stack = $("div", "hub-stack");
 
-    var zapBlock = $("section", "hub-block hub-block-zap");
-    zapBlock.appendChild($("h2", "hub-block-title", "ZAP Grammar Books"));
+    var zapBlock = $("section", "hub-block hub-block-neutral");
+    zapBlock.appendChild($("h2", "hub-block-title", "ZAP Grammar"));
     zapBlock.appendChild(
-      $("p", "hub-block-lead", "MRJ’s Red, Blue, and Green ZAP series — timed practice with your student book.")
+      $("p", "hub-block-lead", "Tap Red, Blue, or Green. Each button opens that color’s book list.")
     );
-    var zapGo = document.createElement("a");
-    zapGo.className = "hub-entry hub-entry-zap";
-    zapGo.href = "#/zap";
-    zapGo.appendChild($("span", "hub-entry-kicker", "MRJ · Kids & teens"));
-    zapGo.appendChild($("span", "hub-entry-title", "ZAP Red · Blue · Green"));
-    zapGo.appendChild($("span", "hub-entry-sub", "10 books · Walk / Run / Jump / Fly"));
-    zapBlock.appendChild(zapGo);
+    var zapGrid = $("div", "hub-lane-grid");
+    ["red", "blue", "green"].forEach(function (lane) {
+      zapGrid.appendChild(makeZapLaneCard(lane));
+    });
+    zapBlock.appendChild(zapGrid);
     stack.appendChild(zapBlock);
 
-    stack.appendChild($("div", "hub-divider", "Different publisher — not part of ZAP"));
+    stack.appendChild($("div", "hub-divider", "Different publisher — 천일문 · 쎄듀 CEDU"));
 
     var cmBlock = $("section", "hub-block hub-block-chunilmun");
-    cmBlock.appendChild($("h2", "hub-block-title", "천일문 Grammar 1"));
-    cmBlock.appendChild($("p", "hub-block-lead", "쎄듀 CEDU · Student Book & Workbook · Chapters 01–12 + 총괄평가"));
-    var cmGo = document.createElement("a");
-    cmGo.className = "hub-entry hub-entry-chunilmun";
-    cmGo.href = "#/chunilmun";
-    cmGo.appendChild($("span", "hub-entry-kicker", "CEDU · Adult slate theme"));
-    cmGo.appendChild($("span", "hub-entry-title", "천일문 Grammar 1"));
-    cmGo.appendChild($("span", "hub-entry-sub", "Tap to open chapter list (SB / WB)"));
-    cmBlock.appendChild(cmGo);
+    cmBlock.appendChild($("h2", "hub-block-title", "천일문"));
+    cmBlock.appendChild(
+      $("p", "hub-block-lead", "Middle School Grammar · Student Book and Workbook chapter lists.")
+    );
+    var cmGrid = $("div", "hub-lane-grid");
+    cmGrid.appendChild(
+      makeHubLink(
+        "hub-entry-chunilmun",
+        "#/chunilmun",
+        "천일문",
+        "Middle School\nGrammar 1",
+        "Chapter list · SB / WB"
+      )
+    );
+    cmGrid.appendChild(
+      makeHubLink(
+        "hub-entry-chunilmun",
+        "#/chunilmun2",
+        "천일문",
+        "Middle School\nGrammar 2",
+        "Chapter list · SB / WB"
+      )
+    );
+    cmGrid.appendChild(makeHubSoon("천일문", "Middle School\nGrammar 3"));
+    cmBlock.appendChild(cmGrid);
     stack.appendChild(cmBlock);
-
-    var cm2Block = $("section", "hub-block hub-block-chunilmun");
-    cm2Block.appendChild($("h2", "hub-block-title", "천일문 Grammar 2"));
-    cm2Block.appendChild($("p", "hub-block-lead", "쎄듀 CEDU · GRAMMAR LEVEL 2 · Chapter 01 SB + WB"));
-    var cm2Go = document.createElement("a");
-    cm2Go.className = "hub-entry hub-entry-chunilmun";
-    cm2Go.href = "#/chunilmun2";
-    cm2Go.appendChild($("span", "hub-entry-kicker", "CEDU · 중2"));
-    cm2Go.appendChild($("span", "hub-entry-title", "천일문 Grammar 2"));
-    cm2Go.appendChild($("span", "hub-entry-sub", "Chapter 01 — 문장의 주요 형식"));
-    cm2Block.appendChild(cm2Go);
-    stack.appendChild(cm2Block);
 
     app.appendChild(stack);
     app.appendChild(
@@ -958,36 +1075,73 @@
     });
   }
 
-  function renderZapIndex() {
-    var bookId = getSel(SEL_BOOK, "zap-green-1");
-    if (isChunilmunBook(bookId)) {
-      bookId = "zap-green-1";
-      setSel(SEL_BOOK, bookId);
+  function renderZapLane(lane) {
+    var meta = ZAP_LANES[lane];
+    if (!meta) {
+      renderZapIndex();
+      return;
     }
-    renderBookIndex({
-      bookId: bookId,
-      backHref: "#/",
-      pageTitle: ZAP_HUB_TITLE,
-      heading: "ZAP practice index",
-      lead: "Choose your ZAP book, then a unit on the map. Exercises unlock in order at 50%+ (teacher can bypass).",
-      bookFilter: function (b) {
-        return isZapBook(b.id);
-      },
+    var books = zapBooksInLane(lane);
+    app.innerHTML = "";
+    applyLaneTheme(lane);
+    setDocumentTitle(meta.title + " · " + ZAP_HUB_TITLE);
+    app.appendChild(topbar("#/", meta.title));
+    app.appendChild($("h1", null, meta.title));
+    app.appendChild($("p", "lead", "Choose a book, then pick a unit on the next screen."));
+    var list = $("div", "lane-books");
+    books.forEach(function (b) {
+      var level = (String(b.id).match(/(\d+)$/) || ["", ""])[1];
+      if (!b.enabled) {
+        var soon = $("div", "lane-book lane-book-" + lane + " is-soon");
+        soon.setAttribute("aria-disabled", "true");
+        soon.appendChild($("span", "lane-book-kicker", b.appName || b.title));
+        soon.appendChild($("span", "lane-book-title", b.title));
+        soon.appendChild($("span", "lane-book-sub", "Coming soon"));
+        list.appendChild(soon);
+        return;
+      }
+      var a = document.createElement("a");
+      a.className = "lane-book lane-book-" + lane;
+      a.href = "#/zap/" + b.id;
+      a.appendChild($("span", "lane-book-kicker", b.appName || meta.kicker));
+      a.appendChild($("span", "lane-book-title", b.title));
+      if (level) a.appendChild($("span", "lane-book-level", level));
+      list.appendChild(a);
     });
+    if (!books.length) list.appendChild($("p", "note", "No books in this color yet."));
+    app.appendChild(list);
+  }
+
+  function renderZapIndex() {
+    app.innerHTML = "";
+    applyHubTheme();
+    setDocumentTitle(ZAP_HUB_TITLE);
+    app.appendChild(topbar("#/", "ZAP books"));
+    app.appendChild($("h1", null, "Choose a ZAP color"));
+    app.appendChild($("p", "lead", "Red, Blue, and Green each open their own book list."));
+    var grid = $("div", "hub-lane-grid");
+    ["red", "blue", "green"].forEach(function (lane) {
+      grid.appendChild(makeZapLaneCard(lane));
+    });
+    app.appendChild(grid);
   }
 
   function renderZapBook(bookId) {
-    if (!bookId || isChunilmunBook(bookId)) bookId = "zap-green-1";
+    var lane = zapLaneOf(bookId);
+    if (!bookId || !lane || !catalog.findBook(bookId)) {
+      bookId = "zap-green-1";
+      lane = "green";
+    }
     setSel(SEL_BOOK, bookId);
     var book = catalog.findBook(bookId);
     renderBookIndex({
       bookId: bookId,
-      backHref: "#/zap",
+      backHref: "#/zap/" + lane,
       pageTitle: (book && book.title) || "ZAP",
       heading: (book && book.title) || "ZAP book",
       lead: "Unit map — finish each unit at 50%+ on every exercise to unlock the next.",
       bookFilter: function (b) {
-        return isZapBook(b.id);
+        return zapLaneOf(b.id) === lane;
       },
       hideBookPicker: true,
     });
