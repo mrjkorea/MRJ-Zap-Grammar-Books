@@ -173,17 +173,17 @@ def mc_item(
     sec: dict,
     label: str,
     choices: list[str],
-    answer_index: int,
+    answer_index: int = 0,
     prompt_en: str = "",
+    prompt_ko: str = "",
     stem_from_choices_if_empty: bool = True,
+    multi_accept: str = "",
 ) -> dict:
     circled = ["①", "②", "③", "④", "⑤"]
-    ans = str(answer_index)
-    ans_circ = circled[answer_index - 1]
     pe = (prompt_en or "").strip()
     if not pe and stem_from_choices_if_empty and choices:
         pe = numbered_options_stem(choices)
-    return {
+    it: dict[str, Any] = {
         "id": iid,
         "section": sec["id"],
         "sectionTitle": sec["title"],
@@ -194,9 +194,19 @@ def mc_item(
         "type": "mc",
         "promptEn": pe,
         "choices": choices,
-        "accept": [ans, ans_circ],
-        "answer": ans,
     }
+    if prompt_ko:
+        it["promptKo"] = prompt_ko
+    if multi_accept:
+        it["select"] = "multi"
+        it["accept"] = [multi_accept]
+        it["answerModeTag"] = "Choose · 여러 개 고르기"
+    else:
+        ans = str(answer_index)
+        ans_circ = circled[answer_index - 1]
+        it["accept"] = [ans, ans_circ]
+        it["answer"] = ans
+    return it
 
 
 def match_item(

@@ -22,6 +22,17 @@ const WB_PLACEHOLDER = /WB\d+-U\d*-?[A-D]\d*\s+_+/;
 const ONLY_BLANK_STEM = /^[\s_]+(\.|$)/;
 const PLACEHOLDER_WORD = /\bplaceholder\b/i;
 const GENERIC_MC = /^[a-d]$/i;
+const COMBO_MARK = "①②③④⑤⑥⑦⑧⑨⑩ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙ";
+const COMBO_CHOICE = new RegExp(
+  `^[${COMBO_MARK}](?:\\s*[,，、]\\s*[${COMBO_MARK}])+$`
+);
+/** Source sentences are not in the repo extracts or the answer-key 해설. */
+const COMBO_ALLOW = new Set([
+  "data/chunilmun1/chapter06/wb-c06-test.json q11",
+  "data/chunilmun1/chapter07/wb-c07-test.json q09",
+  "data/chunilmun1/chapter08/wb-c08-test.json q14",
+  "data/chunilmun1/chapter08/wb-c08-test.json q15",
+]);
 
 function walkJsonFiles(dir, out = []) {
   for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -86,8 +97,26 @@ function checkItem(rel, it, problems) {
     if (circledOnly && !pe && it.choices.length === 5) {
       problems.push(`${rel} ${it.id}: MC has only ①–⑤ with no prompt`);
     }
+    const comboChoices =
+      it.choices.length >= 2 && it.choices.every((c) => COMBO_CHOICE.test(String(c).trim()));
+    if (comboChoices && !promptHasComboSource(pe) && !COMBO_ALLOW.has(`${rel} ${it.id}`)) {
+      problems.push(`${rel} ${it.id}: combination choices without the source sentences`);
+    }
   }
   checkTypeInLeak(rel, it, problems);
+}
+
+function promptHasComboSource(prompt) {
+  const chunks = String(prompt || "").split(new RegExp(`(?=[${COMBO_MARK}])`));
+  for (const chunk of chunks) {
+    const raw = chunk.trim();
+    const body = raw.replace(new RegExp(`^[${COMBO_MARK}]\\s*`), "");
+    if (COMBO_CHOICE.test(body) || COMBO_CHOICE.test(raw)) continue;
+    const words = body.match(/[A-Za-z가-힣']+/g) || [];
+    if (new RegExp(`[${COMBO_MARK}]`).test(raw) && words.length >= 3) return true;
+    if (words.length >= 5 && /[.?!]$/.test(body)) return true;
+  }
+  return false;
 }
 
 function checkChapterSources(problems) {

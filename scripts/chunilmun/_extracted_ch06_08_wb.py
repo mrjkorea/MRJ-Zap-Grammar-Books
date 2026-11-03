@@ -643,6 +643,7 @@ def _build_ch06_wb_test(m: dict) -> dict[str, dict]:
             prompt_en="Everyone <u>feel</u> lonely sometimes.",
             accept=["feels"],
         ),
+        # Leftover: a–f source sentences are not in the answer-key 해설. Do not invent them.
         mc_item(
             iid="q11",
             sec=secs[5],
@@ -1215,6 +1216,7 @@ def _build_ch07_wb_test(m: dict) -> dict[str, dict]:
             ],
             answer_index=5,
         ),
+        # Leftover: source sentences are not in the 해설, and the key grid (①, ②, ④) is not in these choices.
         mc_item(
             iid="q09",
             sec=secs[7],
@@ -1898,6 +1900,7 @@ def _build_ch08_wb_test(m: dict) -> dict[str, dict]:
             ],
             answer_index=4,
         ),
+        # Leftover: the sentences behind these combinations are not in the 해설.
         mc_item(
             iid="q14",
             sec=secs[12],
@@ -1905,6 +1908,7 @@ def _build_ch08_wb_test(m: dict) -> dict[str, dict]:
             choices=["①, ③", "③, ④", "③, ④, ⑤", "②, ④", "①, ⑤"],
             answer_index=2,
         ),
+        # Leftover: the ⓐ–ⓕ sentences behind this pairing are not in the 해설.
         mc_item(
             iid="q15",
             sec=secs[13],

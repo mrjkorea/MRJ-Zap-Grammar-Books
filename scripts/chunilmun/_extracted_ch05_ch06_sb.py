@@ -582,7 +582,7 @@ def build_ch05_sb() -> dict[str, dict]:
             iid="q15b",
             sec=secs[8],
             label="15-2",
-            prompt_en="(2) ________ → ________",
+            prompt_en="There ⓐ is many interesting ⓑ animals in the zoo. … sixteen ⓔ hour a day.\n(2) ________ → ________",
             accept=["e|hours", "ⓔ|hours"],
             blanks=2,
         ),
@@ -1176,7 +1176,11 @@ def build_ch06_sb() -> dict[str, dict]:
             iid="q15b",
             sec=secs[10],
             label="15-2",
-            prompt_en="(2) ________ → ________",
+            prompt_en=(
+                "Grace has many beautiful plants in her garden. She waters the flowers every day "
+                "and takes care of it. Sometimes she picks these flower and puts them in a vase.\n"
+                "(2) ________ → ________"
+            ),
             accept=["flower|flowers", "these flower|these flowers"],
             blanks=2,
         ),
