@@ -1090,7 +1090,7 @@ def _build_ch10_test(m: dict) -> dict:
             iid="q13",
             sec=secs[11],
             label="13",
-            prompt_en="Minho: What are you good at, Anne?\nAnne: I ____________________ the piano.",
+            prompt_en="그림: Anne은 피아노 연주를 잘한다.\nMinho: What are you good at, Anne?\nAnne: I ____________________ the piano.",
             accept=["am good at playing", "I am good at playing the piano"],
             blanks=3,
         ),

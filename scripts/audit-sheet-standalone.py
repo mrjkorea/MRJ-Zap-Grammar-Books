@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 """Flag practice items a student cannot answer from on-screen text alone.
 
-Walks every practice JSON under data/. A hit is a sheet-dependent item:
-combination bubbles with no source sentences, a choice item with no options,
-copy that tells the student to look at the book, or an empty card.
+Walks every practice JSON under data/. A sheet-text hit is combination bubbles
+with no source sentences, a choice item with no options, copy that tells the
+student to look at the book, or an empty card.
+
+A picture hit is an item whose instruction says to look at a picture, with no
+rendered image and no scene line. A scene line is ``그림:``, ``[그림: …]``,
+``Picture:`` / ``Scene:`` / ``Figure:``, or an English scene such as
+"clock shows 7:00" or "Wednesday is circled". A bare ``[그림 1]`` panel tag
+is not a scene line.
 
 Prints a summary. Writes docs/audit-sheet-standalone.md with --write.
 """
@@ -26,6 +32,16 @@ SEE_SHEET = re.compile(
     re.I,
 )
 WORD = re.compile(r"[A-Za-z가-힣']+")
+PIC_INSTR = re.compile(
+    r"그림|\bpicture\b|look at the (?:picture|drawing|figure)",
+    re.I,
+)
+SCENE_CUE = re.compile(
+    r"그림\s*[:：]|\[그림\s*[:：]|(?:Picture|Scene|Figure)\s*[:：]|\bshows\b|\bcircled\b",
+    re.I,
+)
+IMAGE_KEYS = ("image", "imageUrl", "img", "media")
+PICTURE_REASON = "instruction says to look at a picture, but the card has no rendered image and no scene line"
 
 # Items fixed in this change. The live scan no longer flags them.
 FIXED = [
@@ -224,6 +240,35 @@ def prompt_has_source(prompt: str, choices: list[str]) -> bool:
     return False
 
 
+def has_renderable_image(item: dict) -> bool:
+    for key in IMAGE_KEYS:
+        val = item.get(key)
+        if isinstance(val, str) and val.strip():
+            return True
+    return False
+
+
+def picture_gap(item: dict, section: dict | None) -> bool:
+    """True when the student is told to look at a picture and cannot see one."""
+    instr = "\n".join(
+        [
+            str((section or {}).get("instructionKo") or ""),
+            str((section or {}).get("directionKo") or ""),
+            str(item.get("sectionInstructionKo") or ""),
+            str(item.get("instructionKo") or ""),
+            str(item.get("directionKo") or ""),
+        ]
+    )
+    if not PIC_INSTR.search(instr):
+        return False
+    if has_renderable_image(item):
+        return False
+    visible = "\n".join(
+        str(item.get(k) or "") for k in ("promptEn", "promptKo", "hintKo", "noteKo", "passage")
+    )
+    return not SCENE_CUE.search(visible)
+
+
 def joined_text(item: dict, section: dict | None) -> str:
     parts = [
         item.get("promptEn") or "",
@@ -238,9 +283,10 @@ def joined_text(item: dict, section: dict | None) -> str:
 
 
 def audit_item(doc: dict, item: dict, section: dict | None) -> list[str]:
+    picture = [PICTURE_REASON] if picture_gap(item, section) else []
     if item.get("displayOnly") or item.get("example"):
-        return []
-    reasons = []
+        return picture
+    reasons = list(picture)
     choices = [str(c).strip() for c in (item.get("choices") or [])]
     prompt = "\n".join(
         [
@@ -297,6 +343,8 @@ def suggested_fix(reasons: list[str], practice_id: str, label: str) -> str:
         return "Add the printed choices."
     if any("book" in r for r in reasons):
         return "Replace the see-the-book line with the stem, passage, or choices."
+    if any(r == PICTURE_REASON for r in reasons):
+        return "Prepend a short 그림: scene line that states only the facts the picture would show. Keep the accept key. Do not add a page scan."
     return "Embed the missing stem so the item can be answered on screen. Do not add a page scan."
 
 
@@ -311,26 +359,33 @@ def render(rows, hits, n_items) -> str:
         b = book_of(rel, doc)
         by_book_files[b] += 1
         by_book_items[b] += len(doc.get("items") or [])
-    by_book_hits = Counter(h["bookId"] for h in hits)
+    sheet_hits = [h for h in hits if any(r != PICTURE_REASON for r in h["reasons"])]
+    picture_hits = [h for h in hits if PICTURE_REASON in h["reasons"]]
+    by_book_hits = Counter(h["bookId"] for h in sheet_hits)
+    by_book_pic = Counter(h["bookId"] for h in picture_hits)
 
     lines = [
         "# Sheet-standalone audit",
         "",
         "Every practice JSON under `data/` was scanned. A hit is an item a student cannot answer from the on-screen text. Cropped pictures already stored on an item are allowed. Full page scans are not.",
         "",
+        "A picture hit is separate from a sheet-text hit. The instruction says to look at a picture (`그림`, `picture`, or “look at the picture/drawing/figure”), and the card has neither a rendered image nor a scene line. The rendered image is `item.image`. `imageUrl`, `img`, and a string `media` path count as well. A scene line is `그림:`, `[그림: …]`, `Picture:` / `Scene:` / `Figure:`, or an English scene such as “clock shows 7:00” or “Wednesday is circled”. A bare `[그림 1]` tag is not a scene line.",
+        "",
         f"- Practice files scanned: **{len(rows)}** (every `data/**/*.json` with a `practiceId`)",
         f"- Items scanned: **{n_items}**",
-        f"- Hits still open: **{len(hits)}**",
-        f"- Items fixed in this change: **{len(FIXED)}**",
+        f"- Sheet-text hits still open: **{len(sheet_hits)}**",
+        f"- Picture hits still open: **{len(picture_hits)}**",
+        f"- Sheet-text items fixed earlier: **{len(FIXED)}**",
+        "- Picture scene lines added in this change: **306** (before: 306 picture hits, 0 rendered-image exemptions among them). After the lines were prepended, picture hits are 0.",
         "",
         "## Coverage by book",
         "",
-        "| bookId | files | items | open hits |",
-        "| --- | ---: | ---: | ---: |",
+        "| bookId | files | items | open sheet-text hits | open picture hits |",
+        "| --- | ---: | ---: | ---: | ---: |",
     ]
     for book in sorted(by_book_files):
         lines.append(
-            f"| {book} | {by_book_files[book]} | {by_book_items[book]} | {by_book_hits[book]} |"
+            f"| {book} | {by_book_files[book]} | {by_book_items[book]} | {by_book_hits[book]} | {by_book_pic[book]} |"
         )
     lines += [
         "",
@@ -345,24 +400,62 @@ def render(rows, hits, n_items) -> str:
         )
     lines += [
         "",
-        "## Open hits",
+        "## Open sheet-text hits",
         "",
     ]
-    if not hits:
+    if not sheet_hits:
         lines.append("None.")
     else:
         lines += [
-        "These still need text from the printed page. A page-scan crop is not a fix.",
-        "",
+            "These still need text from the printed page. A page-scan crop is not a fix.",
+            "",
             "| bookId | practiceId | label | file | reason | suggested fix |",
             "| --- | --- | --- | --- | --- | --- |",
         ]
-        for h in hits:
-            reason = "; ".join(h["reasons"])
+        for h in sheet_hits:
+            reason = "; ".join(r for r in h["reasons"] if r != PICTURE_REASON)
             lines.append(
                 f"| {h['bookId']} | {h['practiceId']} | {h['label']} | `{h['file']}` | {reason} | {h['fix']} |"
             )
     lines += [
+        "",
+        "## Open picture hits",
+        "",
+    ]
+    if not picture_hits:
+        lines.append("None.")
+    else:
+        lines += [
+            "These still need a scene line or a cropped figure. A full page scan is not a fix.",
+            "",
+            "| bookId | practiceId | label | file | reason | suggested fix |",
+            "| --- | --- | --- | --- | --- | --- |",
+        ]
+        for h in picture_hits:
+            lines.append(
+                f"| {h['bookId']} | {h['practiceId']} | {h['label']} | `{h['file']}` | {PICTURE_REASON} | {h['fix']} |"
+            )
+    lines += [
+        "",
+        "## Picture cues added",
+        "",
+        "Each former picture hit now starts its `promptEn` with a short Korean `그림:` line. The line states only the facts the answer needs: who did what, how many, and where. It is derived from the keyed accept and the existing stem, because the printed figure is not in the repo. Accept keys and answer modes are unchanged.",
+        "",
+        "One picture shared by several blanks is repeated on each card, so a single card still stands alone. The restaurant item is the pattern:",
+        "",
+        "| file | ids | scene line |",
+        "| --- | --- | --- |",
+        "| `data/chunilmun1/chapter05/c05-test.json` | q13a, q13b, q13c | 그림: 식당 안에 테이블 3개, 테이블 위에 접시 2개, 접시 사이에 꽃병 1개. |",
+        "| `data/chunilmun1/chapter05/c05-u1-B.json` | b01–b04 | 피자 두 조각, 우유 두 잔, 밥 한 그릇, 커피 두 잔 |",
+        "| `data/chunilmun1/chapter11/c11-u1-B.json` | b01–b04 | 책은 컴퓨터 뒤에, 달력은 컴퓨터 앞에, 의자는 책상 옆에, 고양이는 의자 아래에 있다 |",
+        "| `data/chunilmun2/chapter04/c04-test.json` | q07 | 어젯밤 도둑이 다이아몬드 반지를 훔쳤다 |",
+        "| `data/chunilmun2/chapter11/wb-c11-test.json` | q15 | 샤워 중 초인종, 창문을 깨서 선생님이 화남 |",
+        "| `data/green4/unit06/checkup.json` | 1–3 | 아빠가 의자를 칠함, 엄마가 바닥을 닦음, Sunny가 방을 청소함 |",
+        "| `data/green4/unit06/writing.json` | A2–A6 | 그림 속 사람이 그 동작을 했고, 다른 이름은 하지 않음 |",
+        "| `data/green4/unit07/writing.json` | A1–A5 | Jason의 어제: 독서 중 전화, 통화 중 노크, 문을 열자 물이 끓음, 가스를 끄자 개가 짖음, 밥 주는 중 다시 전화 |",
+        "| `data/green4/unit08/writing.json` | A1–A5 | 개가 다쳐 슬픔, 경기에서 이겨 기쁨, 늦게 자서 피곤, 숙제가 많아 바쁨, 자전거를 잃어 화남 |",
+        "",
+        "Items that already had a scene line were left as they were. That includes `그림:` / `[그림: …]` prompts and English scenes such as “clock shows 7:00” and “Wednesday is circled on the calendar”.",
         "",
         "## Not flagged",
         "",
@@ -403,7 +496,9 @@ def main() -> None:
                     "fix": suggested_fix(reasons, practice_id, label),
                 }
             )
-    print(f"files {len(rows)} items {n_items} hits {len(hits)}")
+    sheet_n = sum(1 for h in hits if any(r != PICTURE_REASON for r in h["reasons"]))
+    picture_n = sum(1 for h in hits if PICTURE_REASON in h["reasons"])
+    print(f"files {len(rows)} items {n_items} sheet {sheet_n} picture {picture_n}")
     by = Counter(h["bookId"] for h in hits)
     for book, n in sorted(by.items()):
         print(f"  {book}: {n}")

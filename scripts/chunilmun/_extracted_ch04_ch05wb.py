@@ -1376,10 +1376,10 @@ def build_ch05_wb() -> dict[str, dict]:
         "POINT 3",
     )
     unit_c = [
-        ("We drink ________ tea every morning. (cup)", ["a cup of"]),
-        ("Tom gave ________ cake to me. (piece)", ["a piece of", "two pieces of"]),
-        ("She bought ________ juice. (bottle)", ["three bottles of"]),
-        ("I ate ________ cereal for breakfast. (bowl)", ["a bowl of"]),
+        ("그림: 매일 아침 차 한 잔.\nWe drink ________ tea every morning. (cup)", ["a cup of"]),
+        ("그림: 케이크 한 조각.\nTom gave ________ cake to me. (piece)", ["a piece of", "two pieces of"]),
+        ("그림: 주스 세 병.\nShe bought ________ juice. (bottle)", ["three bottles of"]),
+        ("그림: 아침으로 시리얼 한 그릇.\nI ate ________ cereal for breakfast. (bowl)", ["a bowl of"]),
     ]
     items = [
         fill_item(iid=f"c{i:02d}", sec=sec, label=f"C{i}", prompt_en=p, accept=a)
@@ -1778,7 +1778,7 @@ def _build_ch05_wb_test(m: dict) -> dict[str, dict]:
             ],
             answer_index=4,
         ),
-        sent_item(iid="q10", sec=secs[5], label="10", prompt_en="________ on the branch. (bird, two)", accept=["There are two birds on the branch."]),
+        sent_item(iid="q10", sec=secs[5], label="10", prompt_en="그림: 나뭇가지 위에 새 두 마리.\n________ on the branch. (bird, two)", accept=["There are two birds on the branch."]),
         mc_item(iid="q11", sec=secs[6], label="11", choices=["I need four slice of cheese.", "My aunt has only one children.", "There are many passenger in the bus.", "Is there Bob and Lisa in the concert hall now?", "There are a hundred books on the bookshelf."], answer_index=5),
         mc_item(
             iid="q12",

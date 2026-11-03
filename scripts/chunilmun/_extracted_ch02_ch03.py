@@ -637,7 +637,7 @@ def build_ch02() -> dict[str, dict]:
             iid="q13",
             sec=secs[8],
             label="13",
-            prompt_en="(1) He ________ a hamburger last night. (eat)\n(2) He ________ computer games last night. (play)",
+            prompt_en="그림: 소년은 어젯밤 햄버거를 먹었고, 컴퓨터 게임은 하지 않았다.\n(1) He ________ a hamburger last night. (eat)\n(2) He ________ computer games last night. (play)",
             blanks=2,
             accept=["ate|didn't play", "ate|did not play"],
         )
@@ -1934,7 +1934,7 @@ def build_ch03() -> dict[str, dict]:
             iid="q16",
             sec=tsecs[10],
             label="16",
-            prompt_en="A: Is your brother outside?\nB: Yes, he is. ________ outside. (ride a bike)",
+            prompt_en="그림: 오빠가 밖에서 자전거를 타고 있다.\nA: Is your brother outside?\nB: Yes, he is. ________ outside. (ride a bike)",
             accept=["He is riding a bike", "He's riding a bike"],
         ),
         mc_item(

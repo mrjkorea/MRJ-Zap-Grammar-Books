@@ -53,7 +53,7 @@
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "A1",
       "type": "sentence",
-      "promptEn": "A: I have a toothache.\nB: You should not eat too many sweets. ( eat too many sweets )",
+      "promptEn": "그림: 이가 아프다. 사탕을 너무 많이 먹으면 안 된다.\nA: I have a toothache.\nB: You should not eat too many sweets. ( eat too many sweets )",
       "blanks": 0,
       "accept": [
         "You should not eat too many sweets.",
@@ -72,7 +72,7 @@
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "A2",
       "type": "sentence",
-      "promptEn": "A: I have a sore throat.\nB: ________ ( drink some warm water )",
+      "promptEn": "그림: 목이 아프다. 따뜻한 물을 마셔야 한다.\nA: I have a sore throat.\nB: ________ ( drink some warm water )",
       "blanks": 0,
       "accept": [
         "You should drink some warm water.",
@@ -88,7 +88,7 @@
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "A3",
       "type": "sentence",
-      "promptEn": "A: I can't sleep at night.\nB: ________ ( drink coffee before bed )",
+      "promptEn": "그림: 밤에 잠이 안 온다. 자기 전에 커피를 마시면 안 된다.\nA: I can't sleep at night.\nB: ________ ( drink coffee before bed )",
       "blanks": 0,
       "accept": [
         "You should not drink coffee before bed.",
@@ -104,7 +104,7 @@
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "A4",
       "type": "sentence",
-      "promptEn": "A: I have a bad cold.\nB: ________ ( take some medicine )",
+      "promptEn": "그림: 심한 감기이다. 약을 먹어야 한다.\nA: I have a bad cold.\nB: ________ ( take some medicine )",
       "blanks": 0,
       "accept": [
         "You should take some medicine.",
@@ -120,7 +120,7 @@
       "answerModeTag": "Full sentence · 문장 전체",
       "label": "A5",
       "type": "sentence",
-      "promptEn": "A: I have a stomachache.\nB: ________ ( eat spicy food )",
+      "promptEn": "그림: 배가 아프다. 매운 음식을 먹으면 안 된다.\nA: I have a stomachache.\nB: ________ ( eat spicy food )",
       "blanks": 0,
       "accept": [
         "You should not eat spicy food.",
@@ -136,7 +136,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "Mom: Will you take out the garbage, San? ( take out the garbage )",
+      "promptEn": "그림: 엄마가 San에게 쓰레기를 내다 버려 달라고 한다.\nMom: Will you take out the garbage, San? ( take out the garbage )",
       "blanks": 1,
       "accept": [
         "Will you take out the garbage"
@@ -154,7 +154,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "Dad: ________, Haneul? ( water the plants )",
+      "promptEn": "그림: 아빠가 하늘에게 화분에 물을 줘 달라고 한다.\nDad: ________, Haneul? ( water the plants )",
       "blanks": 1,
       "accept": [
         "Will you water the plants"
@@ -169,7 +169,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "Mom: ________, San? ( feed Tabby )",
+      "promptEn": "그림: 엄마가 San에게 Tabby에게 밥을 줘 달라고 한다.\nMom: ________, San? ( feed Tabby )",
       "blanks": 1,
       "accept": [
         "Will you feed Tabby"
@@ -184,7 +184,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "Mom: ________, San? ( answer the phone )",
+      "promptEn": "그림: 엄마가 San에게 전화를 받아 달라고 한다.\nMom: ________, San? ( answer the phone )",
       "blanks": 1,
       "accept": [
         "Will you answer the phone"
@@ -199,7 +199,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "Dad: ________, Haneul? ( walk Max )",
+      "promptEn": "그림: 아빠가 하늘에게 Max를 산책시켜 달라고 한다.\nDad: ________, Haneul? ( walk Max )",
       "blanks": 1,
       "accept": [
         "Will you walk Max"

@@ -39,7 +39,7 @@
       "label": "1",
       "id": "c01",
       "type": "fill",
-      "promptEn": "[그림 1] I'll make you _____.",
+      "promptEn": "그림: 상대에게 달리라고 시킨다.\n[그림 1] I'll make you _____.",
       "blanks": 1,
       "accept": [
         "run"
@@ -54,7 +54,7 @@
       "label": "2",
       "id": "c02",
       "type": "fill",
-      "promptEn": "[그림 2] We'll see Snowie _____ the ball.",
+      "promptEn": "그림: Snowie가 공을 잡는다.\n[그림 2] We'll see Snowie _____ the ball.",
       "blanks": 1,
       "accept": [
         "catch"
@@ -69,7 +69,7 @@
       "label": "3",
       "id": "c03",
       "type": "fill",
-      "promptEn": "[그림 3] I hear him _____ with it.",
+      "promptEn": "그림: 그가 공을 가지고 온다.\n[그림 3] I hear him _____ with it.",
       "blanks": 1,
       "accept": [
         "come"

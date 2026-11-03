@@ -2,31 +2,35 @@
 
 Every practice JSON under `data/` was scanned. A hit is an item a student cannot answer from the on-screen text. Cropped pictures already stored on an item are allowed. Full page scans are not.
 
+A picture hit is separate from a sheet-text hit. The instruction says to look at a picture (`그림`, `picture`, or “look at the picture/drawing/figure”), and the card has neither a rendered image nor a scene line. The rendered image is `item.image`. `imageUrl`, `img`, and a string `media` path count as well. A scene line is `그림:`, `[그림: …]`, `Picture:` / `Scene:` / `Figure:`, or an English scene such as “clock shows 7:00” or “Wednesday is circled”. A bare `[그림 1]` tag is not a scene line.
+
 - Practice files scanned: **1283** (every `data/**/*.json` with a `practiceId`)
 - Items scanned: **18756**
-- Hits still open: **0**
-- Items fixed in this change: **21**
+- Sheet-text hits still open: **0**
+- Picture hits still open: **0**
+- Sheet-text items fixed earlier: **21**
+- Picture scene lines added in this change: **306** (before: 306 picture hits, 0 rendered-image exemptions among them). After the lines were prepended, picture hits are 0.
 
 ## Coverage by book
 
-| bookId | files | items | open hits |
-| --- | ---: | ---: | ---: |
-| chunilmun-grammar-1 | 248 | 2008 | 0 |
-| chunilmun-grammar-2 | 244 | 1934 | 0 |
-| green1 | 64 | 1025 | 0 |
-| red1 | 11 | 172 | 0 |
-| red2 | 31 | 389 | 0 |
-| zap-blue-1 | 85 | 1822 | 0 |
-| zap-blue-2 | 88 | 1987 | 0 |
-| zap-blue-3 | 90 | 1887 | 0 |
-| zap-blue-4 | 84 | 1790 | 0 |
-| zap-green-1 | 1 | 25 | 0 |
-| zap-green-2 | 78 | 1446 | 0 |
-| zap-green-3 | 78 | 1377 | 0 |
-| zap-green-4 | 78 | 1369 | 0 |
-| zap-green1 | 13 | 295 | 0 |
-| zap-red-1 | 55 | 741 | 0 |
-| zap-red-2 | 35 | 489 | 0 |
+| bookId | files | items | open sheet-text hits | open picture hits |
+| --- | ---: | ---: | ---: | ---: |
+| chunilmun-grammar-1 | 248 | 2008 | 0 | 0 |
+| chunilmun-grammar-2 | 244 | 1934 | 0 | 0 |
+| green1 | 64 | 1025 | 0 | 0 |
+| red1 | 11 | 172 | 0 | 0 |
+| red2 | 31 | 389 | 0 | 0 |
+| zap-blue-1 | 85 | 1822 | 0 | 0 |
+| zap-blue-2 | 88 | 1987 | 0 | 0 |
+| zap-blue-3 | 90 | 1887 | 0 | 0 |
+| zap-blue-4 | 84 | 1790 | 0 | 0 |
+| zap-green-1 | 1 | 25 | 0 | 0 |
+| zap-green-2 | 78 | 1446 | 0 | 0 |
+| zap-green-3 | 78 | 1377 | 0 | 0 |
+| zap-green-4 | 78 | 1369 | 0 | 0 |
+| zap-green1 | 13 | 295 | 0 | 0 |
+| zap-red-1 | 55 | 741 | 0 | 0 |
+| zap-red-2 | 35 | 489 | 0 | 0 |
 
 ## Fixed
 
@@ -54,9 +58,33 @@ Every practice JSON under `data/` was scanned. A hit is an item a student cannot
 | chunilmun-grammar-1 | cm1:wb-c08:test | 14 | The card showed only combination bubbles, so the five sentences were missing. | Printed WB p.63 sentences ①–⑤ are on the card. Combinations stay ①③ / ③④ / ③④⑤ / ②④ / ①⑤. Accept stays 2 / ② (③, ④). |
 | chunilmun-grammar-1 | cm1:wb-c08:test | 15 | The card showed only letter groups, so sentences ⓐ–ⓕ were missing. | Printed WB p.63 sentences ⓐ–ⓕ are on the card. Combinations stay as printed. Accept stays 4 / ④ (ⓑ, ⓒ, ⓓ). |
 
-## Open hits
+## Open sheet-text hits
 
 None.
+
+## Open picture hits
+
+None.
+
+## Picture cues added
+
+Each former picture hit now starts its `promptEn` with a short Korean `그림:` line. The line states only the facts the answer needs: who did what, how many, and where. It is derived from the keyed accept and the existing stem, because the printed figure is not in the repo. Accept keys and answer modes are unchanged.
+
+One picture shared by several blanks is repeated on each card, so a single card still stands alone. The restaurant item is the pattern:
+
+| file | ids | scene line |
+| --- | --- | --- |
+| `data/chunilmun1/chapter05/c05-test.json` | q13a, q13b, q13c | 그림: 식당 안에 테이블 3개, 테이블 위에 접시 2개, 접시 사이에 꽃병 1개. |
+| `data/chunilmun1/chapter05/c05-u1-B.json` | b01–b04 | 피자 두 조각, 우유 두 잔, 밥 한 그릇, 커피 두 잔 |
+| `data/chunilmun1/chapter11/c11-u1-B.json` | b01–b04 | 책은 컴퓨터 뒤에, 달력은 컴퓨터 앞에, 의자는 책상 옆에, 고양이는 의자 아래에 있다 |
+| `data/chunilmun2/chapter04/c04-test.json` | q07 | 어젯밤 도둑이 다이아몬드 반지를 훔쳤다 |
+| `data/chunilmun2/chapter11/wb-c11-test.json` | q15 | 샤워 중 초인종, 창문을 깨서 선생님이 화남 |
+| `data/green4/unit06/checkup.json` | 1–3 | 아빠가 의자를 칠함, 엄마가 바닥을 닦음, Sunny가 방을 청소함 |
+| `data/green4/unit06/writing.json` | A2–A6 | 그림 속 사람이 그 동작을 했고, 다른 이름은 하지 않음 |
+| `data/green4/unit07/writing.json` | A1–A5 | Jason의 어제: 독서 중 전화, 통화 중 노크, 문을 열자 물이 끓음, 가스를 끄자 개가 짖음, 밥 주는 중 다시 전화 |
+| `data/green4/unit08/writing.json` | A1–A5 | 개가 다쳐 슬픔, 경기에서 이겨 기쁨, 늦게 자서 피곤, 숙제가 많아 바쁨, 자전거를 잃어 화남 |
+
+Items that already had a scene line were left as they were. That includes `그림:` / `[그림: …]` prompts and English scenes such as “clock shows 7:00” and “Wednesday is circled on the calendar”.
 
 ## Not flagged
 

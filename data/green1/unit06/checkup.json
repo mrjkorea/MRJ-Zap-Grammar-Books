@@ -42,7 +42,7 @@
       "label": "1",
       "id": "c01",
       "type": "fill",
-      "promptEn": "[그림 1] Mom: Zack, you must ______ open this box.",
+      "promptEn": "그림: 엄마가 Zack에게 이 상자를 열면 안 된다고 한다.\n[그림 1] Mom: Zack, you must ______ open this box.",
       "blanks": 1,
       "accept": [
         "not"
@@ -57,7 +57,7 @@
       "label": "2",
       "id": "c02",
       "type": "fill",
-      "promptEn": "[그림 2] Zack: Dad, ______ I open the box?",
+      "promptEn": "그림: Zack이 아빠에게 상자를 열어도 되는지 묻는다.\n[그림 2] Zack: Dad, ______ I open the box?",
       "blanks": 1,
       "accept": [
         "May"
@@ -72,7 +72,7 @@
       "label": "3",
       "id": "c03",
       "type": "fill",
-      "promptEn": "[그림 2] Dad: Yes, you may. But you ______ to be careful.",
+      "promptEn": "그림: 열어도 되지만 조심해야 한다.\n[그림 2] Dad: Yes, you may. But you ______ to be careful.",
       "blanks": 1,
       "accept": [
         "have"
@@ -87,7 +87,7 @@
       "label": "4",
       "id": "c04",
       "type": "fill",
-      "promptEn": "[그림 3] Girl: This must be a present for me.\nZack: No! It ______ be a present for me.",
+      "promptEn": "그림: 여자아이는 자기 선물이라고 하고, Zack은 자기 선물임이 틀림없다고 한다.\n[그림 3] Girl: This must be a present for me.\nZack: No! It ______ be a present for me.",
       "blanks": 1,
       "accept": [
         "must"
