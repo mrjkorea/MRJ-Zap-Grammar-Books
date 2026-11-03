@@ -36,7 +36,23 @@
     var m = location.hash.match(/^#\/p\/([^/]+)\/[^/]+\//);
     return m ? m[1] : sess("gz.book", "zap-green-1");
   }
+  function laneFromHash() {
+    var m = String(location.hash || "").match(/^#\/zap\/(red|blue|green)\/?$/);
+    return m ? m[1] : null;
+  }
   function setTheme(id) {
+    var lane = laneFromHash();
+    if (lane) {
+      document.documentElement.setAttribute("data-book", lane);
+      document.documentElement.setAttribute("data-view", "lane");
+      return;
+    }
+    var hash = location.hash || "";
+    if (!hash || hash === "#" || hash === "#/" || hash === "#/zap") {
+      document.documentElement.setAttribute("data-book", "hub");
+      document.documentElement.setAttribute("data-view", "hub");
+      return;
+    }
     if (document.documentElement.getAttribute("data-view") === "hub") {
       document.documentElement.setAttribute("data-book", "hub");
       return;
@@ -327,7 +343,8 @@
   function refresh() {
     queued = false;
     setTheme();
-    if (document.documentElement.getAttribute("data-view") === "hub") return;
+    var view = document.documentElement.getAttribute("data-view");
+    if (view === "hub" || view === "lane") return;
     if (document.documentElement.getAttribute("data-view") === "index") {
       if (!app.querySelector(".pv-pickers") || !app.querySelector(".pv-books")) buildIndex();
       else {
