@@ -5,7 +5,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261104-sheet-standalone";
+  var BUILD = "20261104-picture-cues";
   var panelBookId = "";
   var chipClickBound = false;
   var lastActive = null;

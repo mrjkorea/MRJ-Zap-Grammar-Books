@@ -20,7 +20,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A1",
       "type": "fill",
-      "promptEn": "Clerk: Which pizza do you want, cheese or pepperoni?\nMinsu: I want a cheese pizza.",
+      "promptEn": "그림: 점원이 치즈 피자와 페퍼로니 중 무엇을 원하는지 묻고, 민수는 치즈 피자를 원한다.\nClerk: Which pizza do you want, cheese or pepperoni?\nMinsu: I want a cheese pizza.",
       "blanks": 1,
       "accept": [
         "Which"
@@ -38,7 +38,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A2",
       "type": "fill",
-      "promptEn": "Clerk: _____ _____ pieces do you want?\nMinsu: Two pieces, please.",
+      "promptEn": "그림: 민수는 피자 두 조각을 원한다.\nClerk: _____ _____ pieces do you want?\nMinsu: Two pieces, please.",
       "blanks": 2,
       "accept": [
         "How|many"
@@ -53,7 +53,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A3",
       "type": "fill",
-      "promptEn": "Clerk: _____ drink do you want, cola or juice?\nMinsu: I want a glass of cola.",
+      "promptEn": "그림: 점원이 콜라와 주스 중 무엇을 원하는지 묻고, 민수는 콜라 한 잔을 원한다.\nClerk: _____ drink do you want, cola or juice?\nMinsu: I want a glass of cola.",
       "blanks": 1,
       "accept": [
         "Which"
@@ -68,7 +68,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A4",
       "type": "fill",
-      "promptEn": "Minsu: _____ _____ is it?\nClerk: It's five dollars.",
+      "promptEn": "그림: 가격은 5달러이다.\nMinsu: _____ _____ is it?\nClerk: It's five dollars.",
       "blanks": 2,
       "accept": [
         "How|much"
@@ -83,7 +83,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "A5",
       "type": "fill",
-      "promptEn": "Minsu: _____ _____ must I wait?\nClerk: About five minutes.",
+      "promptEn": "그림: 약 5분 기다리면 된다.\nMinsu: _____ _____ must I wait?\nClerk: About five minutes.",
       "blanks": 2,
       "accept": [
         "How|long"
@@ -98,7 +98,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B1",
       "type": "fill",
-      "promptEn": "A: What cities do the students want to visit?\nB: They want to visit Paris, Sydney, and New York.",
+      "promptEn": "그림: 학생들이 가고 싶은 도시는 Paris, Sydney, New York이다.\nA: What cities do the students want to visit?\nB: They want to visit Paris, Sydney, and New York.",
       "blanks": 1,
       "accept": [
         "What"
@@ -116,7 +116,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B2",
       "type": "fill",
-      "promptEn": "A: _____ _____ students voted for Paris?\nB: 6 students voted for Paris.",
+      "promptEn": "그림: Paris에 투표한 학생은 6명이다.\nA: _____ _____ students voted for Paris?\nB: 6 students voted for Paris.",
       "blanks": 2,
       "accept": [
         "How|many"
@@ -131,7 +131,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B3",
       "type": "fill",
-      "promptEn": "A: _____ city is closer to Korea, New York or Sydney?\nB: Sydney is closer.",
+      "promptEn": "그림: 한국에서 더 가까운 도시는 Sydney이다.\nA: _____ city is closer to Korea, New York or Sydney?\nB: Sydney is closer.",
       "blanks": 1,
       "accept": [
         "Which"
@@ -146,7 +146,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B4",
       "type": "fill",
-      "promptEn": "A: _____ _____ is New York from Korea?\nB: It is 11,043 kilometers away from Korea.",
+      "promptEn": "그림: New York은 한국에서 11,043킬로미터 떨어져 있다.\nA: _____ _____ is New York from Korea?\nB: It is 11,043 kilometers away from Korea.",
       "blanks": 2,
       "accept": [
         "How|far"
@@ -161,7 +161,7 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "B5",
       "type": "fill",
-      "promptEn": "A: ______ ______ does it take to Sydney by airplane?\nB: It takes 11 hours.",
+      "promptEn": "그림: 비행기로 Sydney까지 11시간 걸린다.\nA: ______ ______ does it take to Sydney by airplane?\nB: It takes 11 hours.",
       "blanks": 2,
       "accept": [
         "How|long"

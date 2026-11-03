@@ -92,10 +92,10 @@ def build_ch05_sb() -> dict[str, dict]:
         "POINT 3",
     )
     b_pairs = [
-        ("We had ________ ________ pizza for lunch. (slice)", ["two|slices of"]),
-        ("Laura drinks ________ ________ milk every day. (glass)", ["two|glasses of"]),
-        ("Minsu ate ________ ________ rice for breakfast. (bowl)", ["a|bowl of"]),
-        ("My sister drank ________ ________ coffee today. (cup)", ["two|cups of"]),
+        ("그림: 점심으로 피자 두 조각.\nWe had ________ ________ pizza for lunch. (slice)", ["two|slices of"]),
+        ("그림: 매일 우유 두 잔.\nLaura drinks ________ ________ milk every day. (glass)", ["two|glasses of"]),
+        ("그림: 아침으로 밥 한 그릇.\nMinsu ate ________ ________ rice for breakfast. (bowl)", ["a|bowl of"]),
+        ("그림: 오늘 커피 두 잔.\nMy sister drank ________ ________ coffee today. (cup)", ["two|cups of"]),
     ]
     items = [
         fill_item(iid=f"b{i:02d}", sec=sec, label=f"B{i}", prompt_en=p, accept=a, blanks=2)
@@ -546,21 +546,21 @@ def build_ch05_sb() -> dict[str, dict]:
             iid="q13a",
             sec=secs[6],
             label="13-1",
-            prompt_en="(1) There ________________ in the restaurant. (table)",
+            prompt_en="그림: 식당 안에 테이블 3개, 테이블 위에 접시 2개, 접시 사이에 꽃병 1개.\n(1) There ________________ in the restaurant. (table)",
             accept=["There are three tables in the restaurant."],
         ),
         sent_item(
             iid="q13b",
             sec=secs[6],
             label="13-2",
-            prompt_en="(2) There ________________ on the table. (plate)",
+            prompt_en="그림: 식당 안에 테이블 3개, 테이블 위에 접시 2개, 접시 사이에 꽃병 1개.\n(2) There ________________ on the table. (plate)",
             accept=["There are two plates on the table."],
         ),
         sent_item(
             iid="q13c",
             sec=secs[6],
             label="13-3",
-            prompt_en="(3) There ________________ between the plates. (vase)",
+            prompt_en="그림: 식당 안에 테이블 3개, 테이블 위에 접시 2개, 접시 사이에 꽃병 1개.\n(3) There ________________ between the plates. (vase)",
             accept=["There is a vase between the plates."],
         ),
         choose_all_item(

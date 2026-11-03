@@ -44,7 +44,7 @@
       "type": "fill",
       "id": "c01",
       "label": "1",
-      "promptEn": "[그림 2] Salesman: This is the ______ comfortable sofa in my shop.",
+      "promptEn": "그림: 이 소파가 가게에서 가장 편안하다.\n[그림 2] Salesman: This is the ______ comfortable sofa in my shop.",
       "blanks": 1,
       "accept": [
         "most"
@@ -59,7 +59,7 @@
       "type": "fill",
       "id": "c02",
       "label": "2",
-      "promptEn": "[그림 3] Son: That sofa looks more comfortable ______ this one.",
+      "promptEn": "그림: 저 소파가 이 소파보다 더 편안해 보인다.\n[그림 3] Son: That sofa looks more comfortable ______ this one.",
       "blanks": 1,
       "accept": [
         "than"
@@ -74,7 +74,7 @@
       "type": "fill",
       "id": "c03",
       "label": "3",
-      "promptEn": "[그림 4] Salesman: Right. This is ______ ______ comfortable sofa in the world.",
+      "promptEn": "그림: 이 소파가 세상에서 가장 편안하다.\n[그림 4] Salesman: Right. This is ______ ______ comfortable sofa in the world.",
       "blanks": 2,
       "accept": [
         "the|most"

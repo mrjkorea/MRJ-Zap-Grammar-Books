@@ -138,7 +138,7 @@
       "label": "B1",
       "type": "fill",
       "blanks": 2,
-      "promptEn": "A: Have you cleaned your room, Eric?",
+      "promptEn": "그림: Eric에게 방을 치웠는지 묻는다.\nA: Have you cleaned your room, Eric?",
       "accept": [
         "Have|cleaned"
       ],
@@ -156,7 +156,7 @@
       "label": "B2",
       "type": "fill",
       "blanks": 2,
-      "promptEn": "A: _____ you _____ … ( eat )\nB: Yes, I have.",
+      "promptEn": "그림: 이미 먹었다.\nA: _____ you _____ … ( eat )\nB: Yes, I have.",
       "accept": [
         "Have|eaten"
       ],
@@ -171,7 +171,7 @@
       "label": "B3",
       "type": "fill",
       "blanks": 2,
-      "promptEn": "A: _____ you _____ … ( water )\nB: Yes, I have.",
+      "promptEn": "그림: 이미 물을 줬다.\nA: _____ you _____ … ( water )\nB: Yes, I have.",
       "accept": [
         "Have|watered"
       ],
@@ -186,7 +186,7 @@
       "label": "B4",
       "type": "fill",
       "blanks": 2,
-      "promptEn": "A: _____ you _____ … ( wash )\nB: Yes, I have.",
+      "promptEn": "그림: 이미 씻었다.\nA: _____ you _____ … ( wash )\nB: Yes, I have.",
       "accept": [
         "Have|washed"
       ],
@@ -201,7 +201,7 @@
       "label": "B5",
       "type": "fill",
       "blanks": 2,
-      "promptEn": "A: _____ you _____ … ( make )\nB: Yes, I have.",
+      "promptEn": "그림: 이미 만들었다.\nA: _____ you _____ … ( make )\nB: Yes, I have.",
       "accept": [
         "Have|made"
       ],
@@ -216,7 +216,7 @@
       "label": "B6",
       "type": "fill",
       "blanks": 2,
-      "promptEn": "A: _____ you _____ … ( do )\nB: Yes, I have.",
+      "promptEn": "그림: 이미 했다.\nA: _____ you _____ … ( do )\nB: Yes, I have.",
       "accept": [
         "Have|done"
       ],

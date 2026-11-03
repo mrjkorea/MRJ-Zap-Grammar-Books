@@ -90,10 +90,10 @@ def build_ch11_sb() -> dict[str, dict]:
         word_bank=["in front of", "under", "behind", "by"],
     )
     u1b = [
-        ("There is a book ________ the computer.", ["behind"]),
-        ("There is a calendar ________ the computer.", ["in front of"]),
-        ("There is a chair ________ the desk.", ["by"]),
-        ("A cat is sitting ________ the chair.", ["under"]),
+        ("그림: 책은 컴퓨터 뒤에, 달력은 컴퓨터 앞에, 의자는 책상 옆에, 고양이는 의자 아래에 있다.\nThere is a book ________ the computer.", ["behind"]),
+        ("그림: 책은 컴퓨터 뒤에, 달력은 컴퓨터 앞에, 의자는 책상 옆에, 고양이는 의자 아래에 있다.\nThere is a calendar ________ the computer.", ["in front of"]),
+        ("그림: 책은 컴퓨터 뒤에, 달력은 컴퓨터 앞에, 의자는 책상 옆에, 고양이는 의자 아래에 있다.\nThere is a chair ________ the desk.", ["by"]),
+        ("그림: 책은 컴퓨터 뒤에, 달력은 컴퓨터 앞에, 의자는 책상 옆에, 고양이는 의자 아래에 있다.\nA cat is sitting ________ the chair.", ["under"]),
     ]
     items = [fill_item(iid=f"b{i:02d}", sec=sec, label=f"B{i}", prompt_en=p, accept=a) for i, (p, a) in enumerate(u1b, 1)]
     out["c11-u1-B.json"] = build_practice(
@@ -541,6 +541,7 @@ def _build_ch11_test(m: dict) -> dict:
             sec=secs[11],
             label="14",
             prompt_en=(
+                "그림: 테이블은 의자 두 개 사이에 있고, 파란 차는 차고 안에 있으며, 울타리는 뒤뜰을 따라 늘어서 있다.\n"
                 "<보기> along, in, above, between\n"
                 "1. A table is ________ two chairs.\n"
                 "2. There is a blue car ________ the garage.\n"
@@ -874,6 +875,7 @@ def _build_ch12_test(m: dict) -> dict:
             sec=secs[4],
             label="7",
             prompt_en=(
+                "그림: (1) Ann은 혼자 있을 때 그림을 그린다. (2) Sam은 시간이 날 때 수영을 한다.\n"
                 "<보기> (read books, bored) → Jack reads books when he is bored.\n"
                 "(1) (draw pictures, alone)\nAnn ________________________________.\n"
                 "(2) (go swimming, free)\nSam ________________________________."
@@ -906,6 +908,7 @@ def _build_ch12_test(m: dict) -> dict:
             sec=secs[6],
             label="10",
             prompt_en=(
+                "그림: (1) Ted는 스쿨버스를 놓쳐서 화나 있다. (2) John은 아파서 침대에 있어 학교에 오지 않았다.\n"
                 "<조건> because 포함, 과거 시제\n"
                 "(1) Ted was angry ____________________________. (the school bus, miss)\n"
                 "(2) ____________________________, he didn't come to school. (sick in bed, be)"

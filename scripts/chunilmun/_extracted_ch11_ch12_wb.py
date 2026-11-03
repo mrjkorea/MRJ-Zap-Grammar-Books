@@ -90,23 +90,25 @@ def build_ch11_wb() -> dict[str, dict]:
         labels_az("B", 6),
         "POINT 2",
     )
+    tree_cue = "그림: 새들은 나무 위 하늘을 날고, 남자아이는 나무 아래에서 책을 읽으며, 개는 나무 주위를 달린다."
+    street_cue = "그림: 카페는 병원과 은행 사이에 있고, 병원은 카페 옆에 있으며, 여자아이는 은행 앞에 서 있다."
     u1b = [
-        ("Some birds are flying ________ the tree.", ["above"], "under, around, over"),
-        ("A boy is reading a book ________ the tree.", ["under"], "under, around, over"),
-        ("A dog is running ________ the tree.", ["around"], "under, around, over"),
-        ("The cafe is ________ the hospital and the bank.", ["between"], "by, between, in front of"),
-        ("The hospital is ________ the cafe.", ["by"], "by, between, in front of"),
-        ("A girl is standing ________ the bank.", ["in front of"], "by, between, in front of"),
+        ("Some birds are flying ________ the tree.", ["above"], "under, around, over", tree_cue),
+        ("A boy is reading a book ________ the tree.", ["under"], "under, around, over", tree_cue),
+        ("A dog is running ________ the tree.", ["around"], "under, around, over", tree_cue),
+        ("The cafe is ________ the hospital and the bank.", ["between"], "by, between, in front of", street_cue),
+        ("The hospital is ________ the cafe.", ["by"], "by, between, in front of", street_cue),
+        ("A girl is standing ________ the bank.", ["in front of"], "by, between, in front of", street_cue),
     ]
     items = [
         fill_item(
             iid=f"b{i:02d}",
             sec=sec,
             label=f"B{i}",
-            prompt_en=f"<보기> {bank}\n{p}",
+            prompt_en=f"{cue}\n<보기> {bank}\n{p}",
             accept=a,
         )
-        for i, (p, a, bank) in enumerate(u1b, 1)
+        for i, (p, a, bank, cue) in enumerate(u1b, 1)
     ]
     out["wb-c11-u1-B.json"] = build_practice(
         practice_id="cm1:wb-c11:u1-B",
@@ -543,6 +545,7 @@ def _build_ch11_wb_test(m: dict) -> dict[str, dict]:
             sec=secs[1],
             label="4",
             prompt_en=(
+                "그림: 공은 테이블 아래에, 램프는 테이블 위에, 소파는 테이블과 고양이 사이에 있다.\n"
                 "<보기> A cat is next to the sofa.\n"
                 "(1) A ball is ________ the table.\n"
                 "(2) A lamp is ________ the table.\n"
@@ -1183,6 +1186,7 @@ def _build_ch12_wb_test(m: dict) -> dict[str, dict]:
             sec=secs[10],
             label="14",
             prompt_en=(
+                "그림: (1) Suji는 아침 식사 전에 조깅한다. (2) Suji는 이를 닦은 뒤에 학교에 간다.\n"
                 "<조건> before나 after 포함; (breakfast, have) / (her, brush, teeth)\n"
                 "(1) Suji jogs ________________________________.\n"
                 "(2) Suji goes to school ________________________________."
