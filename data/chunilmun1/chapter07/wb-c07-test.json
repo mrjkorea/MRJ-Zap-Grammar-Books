@@ -114,9 +114,9 @@
     {
       "id": "9",
       "title": "[9]",
-      "instructionKo": "[9] 어법상 알맞지 않은 문장을 모두 고르세요. 해당하는 것을 모두 누르세요. (직접 쓰지 않아요.)",
+      "instructionKo": "[9] 어법상 알맞지 않은 문장을 모두 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "directionKo": "[9] 어법상 알맞지 않은 문장을 모두 고르세요.",
-      "ruleKo": "해당하는 것을 모두 누르세요. (직접 쓰지 않아요.)",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
       "answerModeTag": "Choose · 고르기",
       "itemCount": 1,
@@ -382,24 +382,24 @@
       "id": "q09",
       "section": "9",
       "sectionTitle": "[9]",
-      "sectionInstructionKo": "[9] 어법상 알맞지 않은 문장을 모두 고르세요. 해당하는 것을 모두 누르세요. (직접 쓰지 않아요.)",
+      "sectionInstructionKo": "[9] 어법상 알맞지 않은 문장을 모두 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
       "answerMode": "choice",
-      "answerModeTag": "Choose · 여러 개 고르기",
+      "answerModeTag": "Choose · 고르기",
       "label": "9",
       "type": "mc",
-      "select": "multi",
-      "promptKo": "① 나는 지난주에 책 몇 권을 샀다.\n② 그녀는 보통 10시에 잠자리에 든다.\n③ 윤호는 많은 외국인 친구들이 있다.\n④ Sue는 예전보다 더 조용하다.\n⑤ 나는 많은 유용한 사이트를 안다.",
-      "promptEn": "① I bought a little books last week.\n② She goes usually to bed at 10.\n③ Yunho has many foreign friends.\n④ Sue is the quietest than before.\n⑤ I know many useful sites.",
+      "promptEn": "① I know many useful sites.\n② She goes usually to bed at 10.\n③ Sue is the quietest than before.\n④ Yunho has lots of foreign friends.\n⑤ I bought a little books last week.",
       "choices": [
-        "I bought a little books last week.",
-        "She goes usually to bed at 10.",
-        "Yunho has many foreign friends.",
-        "Sue is the quietest than before.",
-        "I know many useful sites."
+        "①, ②",
+        "②, ③",
+        "②, ⑤",
+        "③, ⑤",
+        "②, ③, ⑤"
       ],
       "accept": [
-        "1|2|4"
-      ]
+        "5",
+        "⑤"
+      ],
+      "answer": "5"
     },
     {
       "id": "q10",

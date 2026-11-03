@@ -647,16 +647,16 @@ def _build_ch06_wb_test(m: dict) -> dict[str, dict]:
             iid="q11",
             sec=secs[5],
             label="11",
-            prompt_ko="(A) 모든 사람은 그 새로운 학생을 좋아한다.\n(B) 이 장소는 그것의 야경으로 유명하다.\n(C) 그 가게는 짧은 바지밖에 없다. 나는 긴 바지가 필요하다.",
-            prompt_en="(A) Everybody ______ the new student.\n(B) This place is famous for ______ night view.\n(C) The store has only short pants. I need long ______.",
-            choices=[
-                "like — it's — one",
-                "likes — its — ones",
-                "likes — it's — ones",
-                "like — its — one",
-                "likes — it's — one",
-            ],
-            answer_index=2,
+            prompt_en=(
+                "ⓐ What is <u>it</u>?\n"
+                "ⓑ <u>It</u>'s too difficult.\n"
+                "ⓒ <u>It</u>'s October 19th.\n"
+                "ⓓ <u>It</u>'s summer in Korea.\n"
+                "ⓔ What time is <u>it</u> now?\n"
+                "ⓕ Could you give <u>it</u> to me?"
+            ),
+            choices=["ⓐ, ⓔ, ⓕ", "ⓐ, ⓑ, ⓓ", "ⓐ, ⓒ, ⓓ", "ⓑ, ⓓ, ⓕ", "ⓒ, ⓓ, ⓔ"],
+            answer_index=5,
         ),
         mc_item(
             iid="q12",
@@ -702,6 +702,12 @@ def _build_ch06_wb_test(m: dict) -> dict[str, dict]:
             accept=["I write an essay about myself."],
         ),
     ]
+    for it in items:
+        if it["id"] == "q11":
+            it["sectionInstructionKo"] = (
+                "[11] 밑줄 친 it이 같은 용법으로 쓰인 문장끼리 바르게 짝지어진 것을 고르세요. "
+                "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)"
+            )
     return {
         "wb-c06-test.json": build_practice(
             practice_id="cm1:wb-c06:test",
@@ -1132,7 +1138,7 @@ def _build_ch07_wb_test(m: dict) -> dict[str, dict]:
         section("6", "[6]", "[6] 관계가 다른 하나를 고르세요.", MC, "choice", ["6"]),
         section("7", "[7]", "[7] never의 위치로 알맞은 것을 고르세요.", MC, "choice", ["7"]),
         section("8", "[8]", "[8] 비교급·최상급 연결이 바른 것을 고르세요.", MC, "choice", ["8"]),
-        section("9", "[9]", "[9] 어법상 알맞지 않은 문장을 모두 고르세요.", "해당하는 것을 모두 누르세요. (직접 쓰지 않아요.)", "choice", ["9"]),
+        section("9", "[9]", "[9] 어법상 알맞지 않은 문장을 모두 고르세요.", MC, "choice", ["9"]),
         section("10", "[10]", "[10] 우리말과 일치하도록 문장을 완성하세요.", SENT, "sentence", ["10"]),
         section("11", "[11]", "[11] 빈칸에 들어갈 말로 어법상 알맞지 않은 것을 고르세요.", MC, "choice", ["11"]),
         section("12-13", "[12–13]", "[12–13] 빈칸에 들어갈 말로 알맞은 것을 고르세요.", MC, "choice", labels_num(2, 12)),
@@ -1226,16 +1232,15 @@ def _build_ch07_wb_test(m: dict) -> dict[str, dict]:
             iid="q09",
             sec=secs[7],
             label="9",
-            prompt_ko="① 나는 지난주에 책 몇 권을 샀다.\n② 그녀는 보통 10시에 잠자리에 든다.\n③ 윤호는 많은 외국인 친구들이 있다.\n④ Sue는 예전보다 더 조용하다.\n⑤ 나는 많은 유용한 사이트를 안다.",
-            prompt_en="① I bought a little books last week.\n② She goes usually to bed at 10.\n③ Yunho has many foreign friends.\n④ Sue is the quietest than before.\n⑤ I know many useful sites.",
-            choices=[
-                "I bought a little books last week.",
-                "She goes usually to bed at 10.",
-                "Yunho has many foreign friends.",
-                "Sue is the quietest than before.",
-                "I know many useful sites.",
-            ],
-            multi_accept="1|2|4",
+            prompt_en=(
+                "① I know many useful sites.\n"
+                "② She goes usually to bed at 10.\n"
+                "③ Sue is the quietest than before.\n"
+                "④ Yunho has lots of foreign friends.\n"
+                "⑤ I bought a little books last week."
+            ),
+            choices=["①, ②", "②, ③", "②, ⑤", "③, ⑤", "②, ③, ⑤"],
+            answer_index=5,
         ),
         sent_item(
             iid="q10",
@@ -1774,7 +1779,7 @@ def _build_ch08_wb_test(m: dict) -> dict[str, dict]:
         section("11", "[11]", "[11] 밑줄 친 부분이 어법상 알맞은 것을 고르세요.", MC, "choice", ["11"]),
         section("12", "[12]", "[12] 대화의 응답에 대한 알맞은 질문을 완성하세요.", WR2, "words", ["12-1", "12-2"]),
         section("13", "[13]", "[13] 대화가 어색한 것을 고르세요.", MC, "choice", ["13"]),
-        section("14", "[14]", "[14] 어법상 알맞은 문장을 모두 고르세요.", "해당하는 것을 모두 누르세요. (직접 쓰지 않아요.)", "choice", ["14"]),
+        section("14", "[14]", "[14] 어법상 알맞은 문장을 모두 고르세요.", MC, "choice", ["14"]),
         section("15", "[15]", "[15] 어법상 알맞은 것끼리 바르게 짝지어진 것을 고르세요.", MC, "choice", ["15"]),
         section("16", "[16]", "[16] 부가의문문을 완성하세요.", WR, "words", ["16-1", "16-2", "16-3"]),
     ]
@@ -1917,25 +1922,30 @@ def _build_ch08_wb_test(m: dict) -> dict[str, dict]:
             iid="q14",
             sec=secs[12],
             label="14",
-            prompt_ko="① 표를 잃어버리지 마라.\n② 손을 씻어라.\n③ 강에 비닐봉지를 던지지 말자.\n④ 집에 늦게 오지 마라.\n⑤ 지금 당장 숙제를 해라.",
-            prompt_en="① Don't be lose the ticket.\n② Washes your hands.\n③ Let's not throw the plastic bag into the river.\n④ Don't came home late.\n⑤ Do your homework right now.",
-            choices=[
-                "Don't be lose the ticket.",
-                "Washes your hands.",
-                "Let's not throw the plastic bag into the river.",
-                "Don't came home late.",
-                "Do your homework right now.",
-            ],
-            multi_accept="3|5",
+            prompt_en=(
+                "① Raises your right hand.\n"
+                "② Don't be lose your ticket.\n"
+                "③ Let's not throw trash in the river.\n"
+                "④ Do your homework right now.\n"
+                "⑤ Don't came home lately."
+            ),
+            choices=["①, ③", "③, ④", "③, ④, ⑤", "②, ④", "①, ⑤"],
+            answer_index=2,
         ),
         mc_item(
             iid="q15",
             sec=secs[13],
             label="15",
-            prompt_ko="ⓐ 너는 매일 과일을 먹지 않니?\nⓑ 정말 아름다운 경치구나!\nⓒ 어제 너희 오빠는 어디에 있었니?\nⓓ 그녀는 영국 출신이 아니야, 그렇지?\nⓔ 수미와 소희는 좋은 시간을 보냈어, 그렇지 않니?\nⓕ 진수는 언제 스키를 타러 갈 거니?",
-            prompt_en="ⓐ Don't you eat fruit every day?\nⓑ What a beautiful view is it!\nⓒ Where your brother was yesterday?\nⓓ She isn't from England, is she?\nⓔ Sumi and Sohui had a good time, hadn't they?\nⓕ When is Jinsu going to go skiing?",
+            prompt_en=(
+                "ⓐ What a nice house is it!\n"
+                "ⓑ When will Jinsu go skiing?\n"
+                "ⓒ Don't you eat fruit every day?\n"
+                "ⓓ She isn't from England, is she?\n"
+                "ⓔ Where your brother was yesterday?\n"
+                "ⓕ Sumi and Sohee had a good time, hadn't they?"
+            ),
             choices=["ⓐ, ⓑ, ⓒ", "ⓒ, ⓓ, ⓕ", "ⓐ, ⓓ, ⓕ", "ⓑ, ⓒ, ⓓ", "ⓑ, ⓒ, ⓔ"],
-            answer_index=3,
+            answer_index=4,
         ),
         fill_item(iid="q16a", sec=secs[14], label="16-1", prompt_en="You can't join us, ________?", accept=["can you"]),
         fill_item(iid="q16b", sec=secs[14], label="16-2", prompt_en="She went to the museum, ________?", accept=["didn't she"]),

@@ -49,10 +49,10 @@ Every practice JSON under `data/` was scanned. A hit is an item a student cannot
 | zap-green-4 | g4:u08:wrap | 1-2 | The card showed only “→ [2]”. | The if clause is on the card. Accept stays 조건. |
 | zap-green-4 | g4:u08:wrap | 1-6 | The card showed only “→ [6]”. | The clause the blank finishes is on the card. Accept stays ~한다면. |
 | zap-green-4 | g4:u08:wrap | 2-2 | The card showed only “→ [2]”. | The that-clause roles are on the card. Accept stays 목적어. |
-| chunilmun-grammar-1 | cm1:wb-c06:test | 11 | The card said “Group It by usage (a–f)” with only letter groups. The workbook answer key’s item 11 is the (A)(B)(C) everybody / night view / pants item, answer ②. | Stem is the three sentences. Choice ② is likes — its — ones, the forms named in the 해설. The other four choices use the wrong forms the 해설 names (like, it's, one). Accept is 2 / ②. |
-| chunilmun-grammar-1 | cm1:wb-c07:test | 9 | Combination bubbles did not include the key’s set ①, ②, ④. | Five sentences are the choices (multi-select). Accept is 1|2|4. English follows the 해설 errors: a little books, goes usually, the quietest than. |
-| chunilmun-grammar-1 | cm1:wb-c08:test | 14 | Combination bubbles did not include the key’s set ③, ⑤. | Five sentences are the choices (multi-select). Accept is 3|5. Error strings are the ones quoted in the 해설: Don't be lose, Washes, Don't came. |
-| chunilmun-grammar-1 | cm1:wb-c08:test | 15 | Letter groups had no sentences, and the stored answer was ④. The key is ③. | Six sentences are on the card. Choice ③ is ⓐ, ⓓ, ⓕ, the grammatical set. Accept is 3 / ③. ⓒ and ⓔ use the quoted errors (Where your brother was, hadn't they). ⓑ shows the word-order error corrected by the 해설’s “What a beautiful view it is!” |
+| chunilmun-grammar-1 | cm1:wb-c06:test | 11 | The card said “Group It by usage (a–f)” with only letter groups. | Printed WB p.47 sentences ⓐ–ⓕ are on the card, with it underlined. Combinations stay ⓐⓔⓕ / ⓐⓑⓓ / ⓐⓒⓓ / ⓑⓓⓕ / ⓒⓓⓔ. Accept stays 5 / ⑤ (ⓒ, ⓓ, ⓔ). |
+| chunilmun-grammar-1 | cm1:wb-c07:test | 9 | The card showed only combination bubbles, so the five sentences were missing. | Printed WB p.55 sentences ①–⑤ are on the card. Combinations stay ①② / ②③ / ②⑤ / ③⑤ / ②③⑤. Accept stays 5 / ⑤ (②, ③, ⑤). |
+| chunilmun-grammar-1 | cm1:wb-c08:test | 14 | The card showed only combination bubbles, so the five sentences were missing. | Printed WB p.63 sentences ①–⑤ are on the card. Combinations stay ①③ / ③④ / ③④⑤ / ②④ / ①⑤. Accept stays 2 / ② (③, ④). |
+| chunilmun-grammar-1 | cm1:wb-c08:test | 15 | The card showed only letter groups, so sentences ⓐ–ⓕ were missing. | Printed WB p.63 sentences ⓐ–ⓕ are on the card. Combinations stay as printed. Accept stays 4 / ④ (ⓑ, ⓒ, ⓓ). |
 
 ## Open hits
 
