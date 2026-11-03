@@ -215,10 +215,10 @@
       "promptEn": "Julie can't ______.",
       "choices": [
         "speak French",
-        "solves the puzzle",
+        "plays the piano",
         "ski",
         "run fast",
-        "cook pasta"
+        "bake cookies"
       ],
       "accept": [
         "2",
@@ -258,7 +258,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "3",
       "type": "mc",
-      "promptEn": "<보기> You have to break a bad habit.",
+      "promptKo": "선수들은 규칙을 따라야 한다.",
+      "promptEn": "<보기> The players <u>have to</u> follow the rules.",
       "choices": [
         "can",
         "may",
@@ -281,7 +282,7 @@
       "answerModeTag": "Choose · 고르기",
       "label": "4",
       "type": "mc",
-      "promptEn": "<보기> You may use my cell phone.",
+      "promptEn": "<보기> You <u>may</u> use my cell phone.",
       "choices": [
         "can",
         "must",
@@ -304,7 +305,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "5",
       "type": "mc",
-      "promptEn": "We must not steal others' money.",
+      "promptKo": "우리는 다른 사람의 돈을 훔치면 안 된다.",
+      "promptEn": "We ______ steal others' money.",
       "choices": [
         "should",
         "must",
@@ -419,7 +421,8 @@
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "10",
       "type": "fill",
-      "promptEn": "We don't have to worry about it.",
+      "promptKo": "우리는 그것에 대해 걱정할 필요가 없다.",
+      "promptEn": "We ________ worry about it.",
       "blanks": 1,
       "accept": [
         "don't have to",
@@ -435,7 +438,8 @@
       "answerModeTag": "Choose · 고르기",
       "label": "11",
       "type": "mc",
-      "promptEn": "① ①, ④\n② ①, ⑤\n③ ②, ④\n④ ②, ⑤\n⑤ ③, ⑤",
+      "promptKo": "① 너는 누구에게도 그 비밀을 말하면 안 된다.\n② 그녀는 아파서 누워 있을지도 모른다.\n③ Jane은 서두를 필요가 없다.\n④ 너는 8시까지 집에 와야 한다.\n⑤ 우리 개는 높이 뛸 수 있다.",
+      "promptEn": "① You must not to tell the secret to anyone.\n② She may be sick in bed.\n③ Jane doesn't have to hurry.\n④ You must came home by 8.\n⑤ Our dog can jump high.",
       "choices": [
         "①, ④",
         "①, ⑤",
@@ -444,10 +448,10 @@
         "③, ⑤"
       ],
       "accept": [
-        "4",
-        "④"
+        "1",
+        "①"
       ],
-      "answer": "4"
+      "answer": "1"
     },
     {
       "id": "q12",
@@ -599,19 +603,19 @@
       "answerModeTag": "Choose · 고르기",
       "label": "16",
       "type": "mc",
-      "promptEn": "① You must not breaks the rules.\n② We can change not our plans now.\n③ The store may is on sale this Sunday.\n④ Sujin don't have to use the Internet.\n⑤ I can't understand his story.",
+      "promptEn": "① You must not breaks the rules.\n② We can change not our plans now.\n③ The store may is on sale this Sunday.\n④ I can't understand his story.\n⑤ Sora don't have to use the Internet.",
       "choices": [
         "You must not breaks the rules.",
         "We can change not our plans now.",
         "The store may is on sale this Sunday.",
-        "Sujin don't have to use the Internet.",
-        "I can't understand his story."
+        "I can't understand his story.",
+        "Sora don't have to use the Internet."
       ],
       "accept": [
-        "5",
-        "⑤"
+        "4",
+        "④"
       ],
-      "answer": "5"
+      "answer": "4"
     }
   ],
   "testId": "wb-c04-test",

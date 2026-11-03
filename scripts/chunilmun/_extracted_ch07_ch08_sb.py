@@ -683,7 +683,13 @@ def _build_ch07_test(m: dict) -> dict:
             iid="q15b",
             sec=secs[11],
             label="15-2",
-            prompt_en="(2) ________ → ________",
+            prompt_en=(
+                "A: Did you get a new bag? It is nice!\n"
+                "B: Thank you. I bought it a little days ago.\n"
+                "A: It is a big bag. Isn't it heavy?\n"
+                "B: It is more light than my old one.\n"
+                "(2) ________ → ________"
+            ),
             accept=["more light|lighter"],
             blanks=2,
         ),

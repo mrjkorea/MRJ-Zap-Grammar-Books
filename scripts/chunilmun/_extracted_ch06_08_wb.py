@@ -647,7 +647,14 @@ def _build_ch06_wb_test(m: dict) -> dict[str, dict]:
             iid="q11",
             sec=secs[5],
             label="11",
-            prompt_en="Group It by usage (a–f):",
+            prompt_en=(
+                "ⓐ What is <u>it</u>?\n"
+                "ⓑ <u>It</u>'s too difficult.\n"
+                "ⓒ <u>It</u>'s October 19th.\n"
+                "ⓓ <u>It</u>'s summer in Korea.\n"
+                "ⓔ What time is <u>it</u> now?\n"
+                "ⓕ Could you give <u>it</u> to me?"
+            ),
             choices=["ⓐ, ⓔ, ⓕ", "ⓐ, ⓑ, ⓓ", "ⓐ, ⓒ, ⓓ", "ⓑ, ⓓ, ⓕ", "ⓒ, ⓓ, ⓔ"],
             answer_index=5,
         ),
@@ -695,6 +702,12 @@ def _build_ch06_wb_test(m: dict) -> dict[str, dict]:
             accept=["I write an essay about myself."],
         ),
     ]
+    for it in items:
+        if it["id"] == "q11":
+            it["sectionInstructionKo"] = (
+                "[11] 밑줄 친 it이 같은 용법으로 쓰인 문장끼리 바르게 짝지어진 것을 고르세요. "
+                "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)"
+            )
     return {
         "wb-c06-test.json": build_practice(
             practice_id="cm1:wb-c06:test",
@@ -1219,6 +1232,13 @@ def _build_ch07_wb_test(m: dict) -> dict[str, dict]:
             iid="q09",
             sec=secs[7],
             label="9",
+            prompt_en=(
+                "① I know many useful sites.\n"
+                "② She goes usually to bed at 10.\n"
+                "③ Sue is the quietest than before.\n"
+                "④ Yunho has lots of foreign friends.\n"
+                "⑤ I bought a little books last week."
+            ),
             choices=["①, ②", "②, ③", "②, ⑤", "③, ⑤", "②, ③, ⑤"],
             answer_index=5,
         ),
@@ -1902,6 +1922,13 @@ def _build_ch08_wb_test(m: dict) -> dict[str, dict]:
             iid="q14",
             sec=secs[12],
             label="14",
+            prompt_en=(
+                "① Raises your right hand.\n"
+                "② Don't be lose your ticket.\n"
+                "③ Let's not throw trash in the river.\n"
+                "④ Do your homework right now.\n"
+                "⑤ Don't came home lately."
+            ),
             choices=["①, ③", "③, ④", "③, ④, ⑤", "②, ④", "①, ⑤"],
             answer_index=2,
         ),
@@ -1909,6 +1936,14 @@ def _build_ch08_wb_test(m: dict) -> dict[str, dict]:
             iid="q15",
             sec=secs[13],
             label="15",
+            prompt_en=(
+                "ⓐ What a nice house is it!\n"
+                "ⓑ When will Jinsu go skiing?\n"
+                "ⓒ Don't you eat fruit every day?\n"
+                "ⓓ She isn't from England, is she?\n"
+                "ⓔ Where your brother was yesterday?\n"
+                "ⓕ Sumi and Sohee had a good time, hadn't they?"
+            ),
             choices=["ⓐ, ⓑ, ⓒ", "ⓒ, ⓓ, ⓕ", "ⓐ, ⓓ, ⓕ", "ⓑ, ⓒ, ⓓ", "ⓑ, ⓒ, ⓔ"],
             answer_index=4,
         ),

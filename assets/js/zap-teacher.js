@@ -5,7 +5,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261103-hub-lanes";
+  var BUILD = "20261104-sheet-standalone";
   var panelBookId = "";
   var chipClickBound = false;
   var lastActive = null;
