@@ -9,8 +9,8 @@
   "timerMinutes": 28,
   "unitId": "wb-chapter-07",
   "unitTitle": "Ch 07 WB — 분사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–2] 2문항(고르기), [3] 1문항(고르기), [4] 1문항(고르기), [5] 1문항(고르기), [6–7] 2문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9] 1문항(고르기), [10] 1문항(고르기), [11–12] 2문항(빈칸 말만 쓰기), [13] 1문항(고르기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3] 1문항(고르기), [4] 1문항(고르기), [5] 1문항(고르기), [6–7] 2문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9] 1문항(고르기), [10] 1문항(고르기), [11–12] 2문항(빈칸 말만 쓰기), [13] 1문항(고르기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(여러 개 고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -129,9 +129,9 @@
     {
       "id": "11-12",
       "title": "[11–12]",
-      "instructionKo": "[11–12] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[11–12] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "directionKo": "[11–12] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
-      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 2,
@@ -172,11 +172,11 @@
     {
       "id": "15",
       "title": "[15]",
-      "instructionKo": "[15] 다음 중 어법상 알맞지 않은 문장을 두 개 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "instructionKo": "[15] 다음 중 어법상 알맞지 않은 문장을 두 개 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[15] 다음 중 어법상 알맞지 않은 문장을 두 개 고르세요.",
-      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -403,7 +403,7 @@
       "id": "q11",
       "section": "11-12",
       "sectionTitle": "[11–12]",
-      "sectionInstructionKo": "[11–12] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[11–12] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "11",
@@ -416,13 +416,14 @@
       ],
       "accept": [
         "bored|boring"
-      ]
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
     },
     {
       "id": "q12",
       "section": "11-12",
       "sectionTitle": "[11–12]",
-      "sectionInstructionKo": "[11–12] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[11–12] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "12",
@@ -435,7 +436,8 @@
       ],
       "accept": [
         "exciting|excited"
-      ]
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
     },
     {
       "id": "q13",
@@ -485,24 +487,27 @@
       "id": "q15",
       "section": "15",
       "sectionTitle": "[15]",
-      "sectionInstructionKo": "[15] 다음 중 어법상 알맞지 않은 문장을 두 개 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[15] 다음 중 어법상 알맞지 않은 문장을 두 개 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "15",
-      "type": "fill",
-      "promptEn": "① The stolen car was Tommy's.\n② He couldn't move his breaking leg.\n③ The boys played basketball are very tall.\n④ English is a language spoken in many countries.\n⑤ Don't be disappointed with your failure.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "2|3",
         "②|③",
         "2|③",
         "②|3"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "The stolen car was Tommy's.",
+        "He couldn't move his breaking leg.",
+        "The boys played basketball are very tall.",
+        "English is a language spoken in many countries.",
+        "Don't be disappointed with your failure."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     }
   ],
   "testId": "wb-c07-test",

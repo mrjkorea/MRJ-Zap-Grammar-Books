@@ -9,7 +9,7 @@
   "timerMinutes": 18,
   "unitId": "chapter-12",
   "unitTitle": "Chapter 12 — 관계대명사",
-  "sectionsVersion": 2,
+  "sectionsVersion": 3,
   "introKo": "이 연습은 Section B 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
@@ -61,11 +61,9 @@
       "promptEn": "아들이 유명한 배우인 이웃이 우리 옆집에 산다.\n(a neighbor, son, a famous actor)\n→ ________________ lives next door to us.",
       "blanks": 1,
       "accept": [
-        "A neighbor whose son is a famous actor",
-        "a neighbor whose son is a famous actor",
-        "A neighbor whose son is a famous actor lives next door to us.",
-        "A neighbor whose son is a famous actor lives next door to us"
-      ]
+        "A neighbor whose son is a famous actor"
+      ],
+      "hintKo": "빈칸에 들어갈 말만 쓰세요. 이미 나와 있는 앞뒤 문장은 다시 쓰지 마세요."
     },
     {
       "id": "b03",
@@ -79,11 +77,9 @@
       "promptEn": "근처에 털이 검은 강아지를 본 적이 있니?\n(a puppy, fur, black)\n→ Have you seen ________________ nearby?",
       "blanks": 1,
       "accept": [
-        "a puppy whose fur is black",
-        "A puppy whose fur is black",
-        "Have you seen a puppy whose fur is black nearby?",
-        "Have you seen a puppy whose fur is black nearby"
-      ]
+        "a puppy whose fur is black"
+      ],
+      "hintKo": "빈칸에 들어갈 말만 쓰세요. 이미 나와 있는 앞뒤 문장은 다시 쓰지 마세요."
     },
     {
       "id": "b04",
@@ -98,10 +94,9 @@
       "blanks": 1,
       "accept": [
         "a friend whose hobby is taking pictures",
-        "A friend whose hobby is taking pictures",
-        "I have a friend whose hobby is taking pictures.",
         "I have a friend whose hobby is taking pictures"
-      ]
+      ],
+      "hintKo": "빈칸에 들어갈 말만 쓰세요. 이미 나와 있는 앞뒤 문장은 다시 쓰지 마세요."
     }
   ]
 }

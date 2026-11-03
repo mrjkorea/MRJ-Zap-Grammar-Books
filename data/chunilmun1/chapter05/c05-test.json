@@ -9,8 +9,8 @@
   "timerMinutes": 28,
   "unitId": "chapter-05",
   "unitTitle": "Chapter 05 — 명사와 관사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4–5] 2문항(고르기), [6–7] 2문항(고르기), [8] 2문항(빈칸 말만 쓰기), [9–12] 4문항(고르기), [13] 3문항(문장 전체 쓰기), [14] 1문항(고르기), [15] 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4–5] 2문항(고르기), [6–7] 2문항(고르기), [8] 2문항(빈칸 말만 쓰기), [9–12] 4문항(고르기), [13] 3문항(문장 전체 쓰기), [14] 1문항(여러 개 고르기), [15] 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -122,11 +122,11 @@
     {
       "id": "14",
       "title": "[14]",
-      "instructionKo": "[14] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "instructionKo": "[14] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[14] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요.",
-      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -480,24 +480,27 @@
       "id": "q14",
       "section": "14",
       "sectionTitle": "[14]",
-      "sectionInstructionKo": "[14] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[14] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "14",
-      "type": "fill",
-      "promptEn": "① The boxes are very heavy.\n② The black cat caught two mouses.\n③ There is four people in my family.\n④ I need three tomatoes for spaghetti.\n⑤ There are some kids in the playground.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "2|3",
         "3|2",
         "3|2",
         "2|3"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "The boxes are very heavy.",
+        "The black cat caught two mouses.",
+        "There is four people in my family.",
+        "I need three tomatoes for spaghetti.",
+        "There are some kids in the playground."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q15a",
@@ -505,15 +508,39 @@
       "sectionTitle": "[15]",
       "sectionInstructionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "15-1",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "There ⓐ is many interesting ⓑ animals in the zoo. … sixteen ⓔ hour a day.\n(1) ________ → ________",
       "blanks": 2,
       "accept": [
         "a|are",
         "ⓐ|are"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "틀린 기호",
+          "choices": [
+            "ⓐ",
+            "ⓑ",
+            "ⓔ"
+          ],
+          "accept": [
+            "ⓐ",
+            "a"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "고친 말",
+          "accept": [
+            "are"
+          ],
+          "placeholder": "고친 말만"
+        }
+      ],
+      "hintKo": "틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요."
     },
     {
       "id": "q15b",
@@ -529,7 +556,12 @@
       "accept": [
         "e|hours",
         "ⓔ|hours"
-      ]
+      ],
+      "blankPartLabels": [
+        "기호",
+        "고친 말"
+      ],
+      "hintKo": "첫 칸에는 틀린 곳의 알파벳만 (a, b, c…), 둘째 칸에는 그 부분을 바르게 고친 말만 쓰세요. 화살표, X, 원문자는 쓰지 마세요."
     }
   ],
   "testId": "c05-test",

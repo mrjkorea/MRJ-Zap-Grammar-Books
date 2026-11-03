@@ -9,8 +9,8 @@
   "timerMinutes": 30,
   "unitId": "chapter-02",
   "unitTitle": "Chapter 02 — 시제",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(고르기), [5–6] 2문항(문장 전체 쓰기), [7] 1문항(고르기), [8–9] 2문항(빈칸 말만 쓰기), [10] 1문항(고르기), [11–12] 2문항(빈칸 말만 쓰기), [13] 1문항(고르기), [14–15] 2문항(고르기), [16] 1문항(고르기), [17] 1문항(고르기), [18] 1문항(빈칸 말만 쓰기), [19–20] 2문항(고르기), [21–22] 2문항(고르기), [23] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(고르기), [5–6] 2문항(문장 전체 쓰기), [7] 1문항(고르기), [8–9] 2문항(빈칸 말만 쓰기), [10] 1문항(고르기), [11–12] 2문항(빈칸 말만 쓰기), [13] 1문항(고르기), [14–15] 2문항(고르기), [16] 1문항(고르기), [17] 1문항(고르기), [18] 1문항(빈칸 말만 쓰기), [19–20] 2문항(고르기), [21–22] 2문항(고르기), [23] 1문항(고르고 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -219,11 +219,11 @@
     {
       "id": "23",
       "title": "[23]",
-      "instructionKo": "23 다음 대화에서 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호와 고친 말을 각각 쓰세요. (두 곳, 순서는 (1) 다음 (2).)",
+      "instructionKo": "23 다음 대화에서 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요.",
       "directionKo": "23 다음 대화에서 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요.",
-      "ruleKo": "틀린 곳의 기호와 고친 말을 각각 쓰세요. (두 곳, 순서는 (1) 다음 (2).)",
+      "ruleKo": "틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -687,11 +687,11 @@
       "id": "q23",
       "section": "23",
       "sectionTitle": "[23]",
-      "sectionInstructionKo": "23 다음 대화에서 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호와 고친 말을 각각 쓰세요. (두 곳, 순서는 (1) 다음 (2).)",
+      "sectionInstructionKo": "23 다음 대화에서 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "23",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "A: ⓐ Have you been to that new cafe downtown?\nB: Yes, it's great! My friend, Yumi ⓑ have worked at the cafe ⓒ since last month.\nA: Oh, really? How was the food?\nB: I ⓓ eat a piece of cake there yesterday, and it was really delicious.\nA: ⓔ I'm going to taste it soon!\nB: Of course. I highly recommend it.",
       "accept": [
         "b|has worked|d|ate",
@@ -699,12 +699,55 @@
         "B|has worked|D|ate"
       ],
       "blanks": 4,
-      "blankPartLabels": [
-        "기호",
-        "고친 말",
-        "기호",
-        "고친 말"
-      ]
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "(1) 틀린 기호",
+          "choices": [
+            "ⓐ",
+            "ⓑ",
+            "ⓒ",
+            "ⓓ",
+            "ⓔ"
+          ],
+          "accept": [
+            "ⓑ",
+            "b"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "(1) 고친 말",
+          "accept": [
+            "has worked"
+          ],
+          "placeholder": "고친 말만"
+        },
+        {
+          "kind": "mc",
+          "label": "(2) 틀린 기호",
+          "choices": [
+            "ⓐ",
+            "ⓑ",
+            "ⓒ",
+            "ⓓ",
+            "ⓔ"
+          ],
+          "accept": [
+            "ⓓ",
+            "d"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "(2) 고친 말",
+          "accept": [
+            "ate"
+          ],
+          "placeholder": "고친 말만"
+        }
+      ],
+      "hintKo": "틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요."
     }
   ]
 }

@@ -8,7 +8,8 @@
   var ICON = { green: "🌿", blue: "💎", red: "🍎", chunilmun: "📖" };
   var MODE = {
     fill: ["words", "✏️", "단어"], sentence: ["sentence", "📝", "문장"],
-    mc: ["choice", "🔘", "고르기"], match: ["match", "🔗", "짝 맞추기"]
+    mc: ["choice", "🔘", "고르기"], match: ["match", "🔗", "짝 맞추기"],
+    ox: ["choice", "⭕", "O/X"], parts: ["words", "✏️", "고르고 쓰기"]
   };
   var modeCache = {};
 
@@ -232,9 +233,30 @@
 
   /* ---------- Practice: progress bar, card modes, how-to chips, celebration ---------- */
   function cardAnswered(card) {
-    if (card.querySelector("input[type=radio]:checked")) return true;
-    var texts = card.querySelectorAll("input[type=text]");
-    if (texts.length) return Array.prototype.every.call(texts, function (t) { return t.value.trim() !== ""; });
+    var ox = card.querySelector(".ox-widget");
+    if (ox) {
+      var picked = ox.querySelector('input[type="radio"]:checked');
+      if (!picked) return false;
+      if (picked.value !== "X") return true;
+      var rewrite = ox.querySelector('input[type="text"]');
+      return !!(rewrite && rewrite.value.trim());
+    }
+    var checks = card.querySelectorAll('input[type="checkbox"]');
+    if (checks.length && !Array.prototype.some.call(checks, function (c) { return c.checked; })) return false;
+    var radios = card.querySelectorAll('input[type="radio"]');
+    if (radios.length) {
+      var names = {};
+      Array.prototype.forEach.call(radios, function (r) { names[r.name] = true; });
+      var nameKeys = Object.keys(names);
+      for (var ni = 0; ni < nameKeys.length; ni++) {
+        if (!card.querySelector('input[type="radio"][name="' + nameKeys[ni] + '"]:checked')) return false;
+      }
+    }
+    var texts = Array.prototype.filter.call(card.querySelectorAll("input[type=text]"), function (t) {
+      return !t.closest("[hidden]");
+    });
+    if (texts.length && !texts.every(function (t) { return t.value.trim() !== ""; })) return false;
+    if (checks.length || radios.length || texts.length) return true;
     var left = card.querySelectorAll(".match-btn-left");
     if (left.length) return Array.prototype.every.call(left, function (b) { return b.classList.contains("match-linked"); });
     return false;

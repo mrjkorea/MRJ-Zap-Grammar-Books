@@ -9,8 +9,8 @@
   "timerMinutes": 28,
   "unitId": "wb-chapter-01",
   "unitTitle": "Ch 01 WB — be동사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6–7] 2문항(고르기), [8] 1문항(빈칸 말만 쓰기), [9–10] 2문항(문장 전체 쓰기), [11] 1문항(고르기), [12–13] 2문항(빈칸 말만 쓰기), [14] 1문항(고르기), [15–16] 2문항(고르기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6–7] 2문항(고르기), [8] 1문항(빈칸 말만 쓰기), [9–10] 2문항(문장 전체 쓰기), [11] 1문항(고르기), [12–13] 2문항(여러 개 고르기), [14] 1문항(고르기), [15–16] 2문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -130,11 +130,11 @@
     {
       "id": "12-13",
       "title": "[12–13]",
-      "instructionKo": "[12–13] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 알맞은 보기 번호 두 개를 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "instructionKo": "[12–13] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[12–13] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호 두 개를 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 2,
       "exampleCount": 0,
       "labels": [
@@ -402,47 +402,53 @@
       "id": "q12",
       "section": "12-13",
       "sectionTitle": "[12–13]",
-      "sectionInstructionKo": "[12–13] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 알맞은 보기 번호 두 개를 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[12–13] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "12",
-      "type": "fill",
-      "promptEn": "① Alex isn't lonely.\n② She is here yesterday.\n③ I amn't in my room now.\n④ Mike isn't good at soccer.\n⑤ They're basketball players.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "2|3",
         "3|2",
         "②|③",
         "③|②"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "Alex isn't lonely.",
+        "She is here yesterday.",
+        "I amn't in my room now.",
+        "Mike isn't good at soccer.",
+        "They're basketball players."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q13",
       "section": "12-13",
       "sectionTitle": "[12–13]",
-      "sectionInstructionKo": "[12–13] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 알맞은 보기 번호 두 개를 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[12–13] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "13",
-      "type": "fill",
-      "promptEn": "① Are you and Nick thirsty?\n② I wasn't there a week ago.\n③ The weather was nice yesterday.\n④ Andy and I am in the kitchen now.\n⑤ Are you at the festival last Sunday?",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "4|5",
         "5|4",
         "④|⑤",
         "⑤|④"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "Are you and Nick thirsty?",
+        "I wasn't there a week ago.",
+        "The weather was nice yesterday.",
+        "Andy and I am in the kitchen now.",
+        "Are you at the festival last Sunday?"
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q14",

@@ -9,17 +9,17 @@
   "timerMinutes": 22,
   "unitId": "wb-chapter-09",
   "unitTitle": "Ch 09 WB — 문장의 여러 형식",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 Section D 8문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 Section D 8문항(O/X 고르고 고치기)으로 되어 있어요.",
   "sections": [
     {
       "id": "D",
       "title": "Section D",
-      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
       "directionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6.",
-      "ruleKo": "맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "itemCount": 8,
       "exampleCount": 0,
       "labels": [
@@ -39,133 +39,165 @@
       "id": "d01",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "D1",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "Don't make <u>me madly</u>, please.",
-      "blanks": 1,
       "accept": [
-        "me mad",
-        "X me mad",
-        "X, me mad"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "me mad"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "d02",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "D2",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "Neil named <u>Leo his cat</u>.",
-      "blanks": 1,
       "accept": [
-        "his cat Leo",
-        "X his cat Leo",
-        "X, his cat Leo"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "his cat Leo"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "d03",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "D3",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "Please don't leave <u>your room dirty</u>.",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "d04",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "D4",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "They found <u>the girl lovely</u>.",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "d05",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "D5",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "Good food will make <u>you health</u>.",
-      "blanks": 1,
       "accept": [
-        "you healthy",
-        "X you healthy",
-        "X, you healthy"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "you healthy"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "d06",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "D6",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "The song made <u>him a rich man</u>.",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "d07",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "D7",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "Keep <u>your hands clean</u>.",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "d08",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X 하고 바르게 고치세요. POINT 5·6. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "D8",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "My friends <u>call to me Messi</u>.",
-      "blanks": 1,
       "accept": [
-        "call me Messi",
-        "X call me Messi",
-        "X, call me Messi"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "call me Messi"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     }
   ]
 }

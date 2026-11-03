@@ -9,8 +9,8 @@
   "timerMinutes": 30,
   "unitId": "chapter-04",
   "unitTitle": "Chapter 04 — 수동태",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(빈칸 말만 쓰기), [5–6] 2문항(고르기), [7] 1문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9–10] 2문항(빈칸 말만 쓰기), [11] 1문항(고르기), [12–13] 2문항(문장 전체 쓰기), [14] 1문항(고르기), [15] 1문항(문장 전체 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(여러 개 고르기), [5–6] 2문항(고르기), [7] 1문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9–10] 2문항(빈칸 말만 쓰기), [11] 1문항(고르기), [12–13] 2문항(문장 전체 쓰기), [14] 1문항(고르기), [15] 1문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -30,11 +30,11 @@
     {
       "id": "3-4",
       "title": "[3–4]",
-      "instructionKo": "[3–4] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 알맞은 보기 번호만 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "instructionKo": "[3–4] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[3–4] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요.",
-      "ruleKo": "알맞은 보기 번호만 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 2,
       "exampleCount": 0,
       "labels": [
@@ -209,47 +209,53 @@
       "id": "q03",
       "section": "3-4",
       "sectionTitle": "[3–4]",
-      "sectionInstructionKo": "[3–4] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 알맞은 보기 번호만 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[3–4] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "3",
-      "type": "fill",
-      "promptEn": "① The window was broken by us.\n② The park is cleaned by volunteers.\n③ This puzzle will be complete by Nancy.\n④ These flowers are found only in Africa.\n⑤ The problem not was solved by Harry.",
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "3|5",
         "5|3",
         "③|⑤",
         "⑤|③"
       ],
-      "blanks": 2,
-      "unordered": true,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ]
+      "select": "multi",
+      "choices": [
+        "The window was broken by us.",
+        "The park is cleaned by volunteers.",
+        "This puzzle will be complete by Nancy.",
+        "These flowers are found only in Africa.",
+        "The problem not was solved by Harry."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q04",
       "section": "3-4",
       "sectionTitle": "[3–4]",
-      "sectionInstructionKo": "[3–4] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 알맞은 보기 번호만 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[3–4] 다음 중 어법상 알맞지 않은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "4",
-      "type": "fill",
-      "promptEn": "① The error was catched by the software.\n② The letters were delivered this morning.\n③ The homework must be done by tomorrow.\n④ Those unique pictures was taken by Danny.\n⑤ The winner will be announced by the judge.",
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "1|4",
         "4|1",
         "①|④",
         "④|①"
       ],
-      "blanks": 2,
-      "unordered": true,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ]
+      "select": "multi",
+      "choices": [
+        "The error was catched by the software.",
+        "The letters were delivered this morning.",
+        "The homework must be done by tomorrow.",
+        "Those unique pictures was taken by Danny.",
+        "The winner will be announced by the judge."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q05",
@@ -402,7 +408,9 @@
       "accept": [
         "A baby was saved by the firefighter",
         "A baby was saved by the firefighter."
-      ]
+      ],
+      "blanks": 1,
+      "hintKo": "고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요."
     },
     {
       "id": "q13",

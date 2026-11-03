@@ -9,17 +9,17 @@
   "timerMinutes": 20,
   "unitId": "wb-chapter-08",
   "unitTitle": "Ch 08 WB — 대명사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 Section C 9문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 Section C 9문항(O/X 고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "C",
       "title": "Section C",
-      "instructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
+      "instructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
       "directionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요.",
-      "ruleKo": "생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "itemCount": 9,
       "exampleCount": 0,
       "labels": [
@@ -40,157 +40,172 @@
       "id": "c01",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "label": "C1",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "The writer wrote a story about [himself].",
-      "blanks": 1,
       "accept": [
-        "X",
-        "x",
-        "×"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요."
     },
     {
       "id": "c02",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "label": "C2",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "The little boy can dress [himself].",
-      "blanks": 1,
       "accept": [
-        "X",
-        "x",
-        "×"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요."
     },
     {
       "id": "c03",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "label": "C3",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "I finished the report [myself].",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o",
-        "○",
-        "ㅇ"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요."
     },
     {
       "id": "c04",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "label": "C4",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "You should solve the problem [yourself].",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o",
-        "○",
-        "ㅇ"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요."
     },
     {
       "id": "c05",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "label": "C5",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "My mom burned [herself] on a hot frying pan.",
-      "blanks": 1,
       "accept": [
-        "X",
-        "x",
-        "×"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요."
     },
     {
       "id": "c06",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "label": "C6",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "We [ourselves] interviewed the actor.",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o",
-        "○",
-        "ㅇ"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요."
     },
     {
       "id": "c07",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "label": "C7",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "Jerry thinks of [himself] as a good singer.",
-      "blanks": 1,
       "accept": [
-        "X",
-        "x",
-        "×"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요."
     },
     {
       "id": "c08",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "label": "C8",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "Some people hurt [themselves] during the hike.",
-      "blanks": 1,
       "accept": [
-        "X",
-        "x",
-        "×"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요."
     },
     {
       "id": "c09",
       "section": "C",
       "sectionTitle": "Section C",
-      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. 생략할 수 있으면 O, 없으면 X만 쓰세요. (O 또는 X.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "밑줄 친 부분을 생략할 수 있으면 O, 생략할 수 없으면 X 하세요. POINT 7·9. [ ] 안의 말이 밑줄 친 부분이에요. O 또는 X를 누르세요. 글자로 쓰지 마세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · O/X",
       "label": "C9",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "Please express [yourself] freely on the stage.",
-      "blanks": 1,
       "accept": [
-        "X",
-        "x",
-        "×"
-      ]
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. 글자로 쓰지 마세요."
     }
   ]
 }

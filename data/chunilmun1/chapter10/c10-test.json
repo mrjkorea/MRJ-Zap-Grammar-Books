@@ -9,8 +9,8 @@
   "timerMinutes": 32,
   "unitId": "chapter-10",
   "unitTitle": "Chapter 10 — to부정사와 동명사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(고르기), [3] 1문항(문장 전체 쓰기), [4] 1문항(고르기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(고르기), [8] 1문항(빈칸 말만 쓰기), [9] 1문항(고르기), [10–11] 2문항(문장 전체 쓰기), [12] 1문항(고르기), [13] 1문항(빈칸 말만 쓰기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(빈칸 말만 쓰기), [16] 1문항(고르기), [17] 1문항(고르기), [18] 1문항(고르기), [19–20] 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(고르기), [3] 1문항(문장 전체 쓰기), [4] 1문항(고르기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(고르기), [8] 1문항(빈칸 말만 쓰기), [9] 1문항(고르기), [10–11] 2문항(문장 전체 쓰기), [12] 1문항(고르기), [13] 1문항(빈칸 말만 쓰기), [14] 1문항(여러 개 고르기), [15] 1문항(번호만 쓰기), [16] 1문항(고르기), [17] 1문항(고르기), [18] 1문항(고르기), [19–20] 2문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -113,9 +113,9 @@
     {
       "id": "8",
       "title": "[8]",
-      "instructionKo": "[8] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[8] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요.",
       "directionKo": "[8] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
-      "ruleKo": "고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 1,
@@ -184,11 +184,11 @@
     {
       "id": "14",
       "title": "[14]",
-      "instructionKo": "[14] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "instructionKo": "[14] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[14] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -198,11 +198,11 @@
     {
       "id": "15",
       "title": "[15]",
-      "instructionKo": "[15] 다음 우리말을 영작할 때 빈칸에 들어갈 말로 알맞은 것을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "instructionKo": "[15] 다음 우리말을 영작할 때 빈칸에 들어갈 말로 알맞은 것을 모두 고르세요. 보기 번호만 숫자로 쓰세요. 순서는 상관없어요. 문장이나 기호는 쓰지 마세요.",
       "directionKo": "[15] 다음 우리말을 영작할 때 빈칸에 들어갈 말로 알맞은 것을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "ruleKo": "보기 번호만 숫자로 쓰세요. 순서는 상관없어요. 문장이나 기호는 쓰지 마세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Words only · 번호만",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -424,7 +424,7 @@
       "id": "q08",
       "section": "8",
       "sectionTitle": "[8]",
-      "sectionInstructionKo": "[8] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[8] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "8",
@@ -433,7 +433,8 @@
       "blanks": 1,
       "accept": [
         "getting up"
-      ]
+      ],
+      "hintKo": "고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요."
     },
     {
       "id": "q09",
@@ -531,37 +532,40 @@
       "id": "q14",
       "section": "14",
       "sectionTitle": "[14]",
-      "sectionInstructionKo": "[14] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[14] 다음 중 어법상 알맞지 않은 문장을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "14",
-      "type": "fill",
-      "promptEn": "① They decided to go there.\n② He was glad to get a good score.\n③ I wish having a nice vacation.\n④ She avoids to drive in the rain.\n⑤ I will practice singing pop songs.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "3|4",
         "4|3"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "They decided to go there.",
+        "He was glad to get a good score.",
+        "I wish having a nice vacation.",
+        "She avoids to drive in the rain.",
+        "I will practice singing pop songs."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q15",
       "section": "15",
       "sectionTitle": "[15]",
-      "sectionInstructionKo": "[15] 다음 우리말을 영작할 때 빈칸에 들어갈 말로 알맞은 것을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "sectionInstructionKo": "[15] 다음 우리말을 영작할 때 빈칸에 들어갈 말로 알맞은 것을 모두 고르세요. 보기 번호만 숫자로 쓰세요. 순서는 상관없어요. 문장이나 기호는 쓰지 마세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Words only · 번호만",
       "label": "15",
       "type": "fill",
       "promptEn": "자신만의 꿈을 가지는 것은 중요하다.\n________ your own dream is important.",
       "blanks": 2,
       "blankPartLabels": [
-        "보기",
-        "보기"
+        "보기 번호",
+        "보기 번호"
       ],
       "unordered": true,
       "accept": [
@@ -569,7 +573,8 @@
         "3|2",
         "3|2",
         "2|3"
-      ]
+      ],
+      "hintKo": "보기 번호만 숫자로 쓰세요. 순서는 상관없어요. 문장이나 기호는 쓰지 마세요."
     },
     {
       "id": "q16",

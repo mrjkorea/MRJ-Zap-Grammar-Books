@@ -9,8 +9,8 @@
   "timerMinutes": 28,
   "unitId": "chapter-03",
   "unitTitle": "Chapter 03 — 현재진행형과 미래 표현",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4–5] 2문항(고르기), [6] 1문항(고르기), [7–8] 2문항(문장 전체 쓰기), [9] 1문항(고르기), [10] 1문항(고르기), [11] 1문항(문장 전체 쓰기), [12–13] 2문항(문장 전체 쓰기), [14–15] 2문항(빈칸 말만 쓰기), [16] 1문항(빈칸 말만 쓰기), [17] 1문항(고르기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4–5] 2문항(고르기), [6] 1문항(고르기), [7–8] 2문항(문장 전체 쓰기), [9] 1문항(여러 개 고르기), [10] 1문항(고르기), [11] 1문항(문장 전체 쓰기), [12–13] 2문항(문장 전체 쓰기), [14–15] 2문항(빈칸 말만 쓰기), [16] 1문항(빈칸 말만 쓰기), [17] 1문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -88,11 +88,11 @@
     {
       "id": "9",
       "title": "[9]",
-      "instructionKo": "[9] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "instructionKo": "[9] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[9] 다음 중 어법상 알맞은 문장 두 개를 고르세요.",
-      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -145,9 +145,9 @@
     {
       "id": "14-15",
       "title": "[14–15]",
-      "instructionKo": "[14–15] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[14–15] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "directionKo": "[14–15] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
-      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 2,
@@ -359,24 +359,27 @@
       "id": "q09",
       "section": "9",
       "sectionTitle": "[9]",
-      "sectionInstructionKo": "[9] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[9] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "9",
-      "type": "fill",
-      "promptEn": "① She is standing on the rock.\n② She's enjoying not the concert.\n③ Is the boys playing soccer now?\n④ Are you going to meet Mr. Brown?\n⑤ I'll having a party with my friends.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "1|4",
         "4|1",
         "4|1",
         "1|4"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "She is standing on the rock.",
+        "She's enjoying not the concert.",
+        "Is the boys playing soccer now?",
+        "Are you going to meet Mr. Brown?",
+        "I'll having a party with my friends."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q10",
@@ -452,7 +455,7 @@
       "id": "q14",
       "section": "14-15",
       "sectionTitle": "[14–15]",
-      "sectionInstructionKo": "[14–15] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[14–15] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "14",
@@ -460,15 +463,19 @@
       "promptEn": "The boy is useing the glue.",
       "blanks": 2,
       "accept": [
-        "useing|using",
-        "The boy is useing|The boy is using"
-      ]
+        "useing|using"
+      ],
+      "blankPartLabels": [
+        "틀린 말",
+        "고친 말"
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
     },
     {
       "id": "q15",
       "section": "14-15",
       "sectionTitle": "[14–15]",
-      "sectionInstructionKo": "[14–15] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[14–15] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "15",
@@ -478,7 +485,12 @@
       "accept": [
         "helped|help",
         "will helped|will help"
-      ]
+      ],
+      "blankPartLabels": [
+        "틀린 말",
+        "고친 말"
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
     },
     {
       "id": "q16",

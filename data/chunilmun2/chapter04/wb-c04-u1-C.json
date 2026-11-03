@@ -9,7 +9,7 @@
   "timerMinutes": 20,
   "unitId": "wb-chapter-04",
   "unitTitle": "Ch 04 WB — 수동태",
-  "sectionsVersion": 2,
+  "sectionsVersion": 3,
   "introKo": "이 연습은 Section C 6문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
@@ -73,7 +73,9 @@
       "promptEn": "My mom will bake a cake for the party.",
       "accept": [
         "A cake will be baked by my mom for the party"
-      ]
+      ],
+      "blanks": 1,
+      "hintKo": "고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요."
     },
     {
       "id": "c04",
@@ -87,7 +89,9 @@
       "promptEn": "My family plants a few trees each year.",
       "accept": [
         "A few trees are planted by my family each year"
-      ]
+      ],
+      "blanks": 1,
+      "hintKo": "고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요."
     },
     {
       "id": "c05",

@@ -441,6 +441,41 @@ form > .section-banner:first-child {
   height: 1.2rem;
 }
 
+.mc-choice-text {
+  flex: 1;
+  line-height: 1.45;
+  white-space: pre-line;
+}
+
+.mc-options label:has(.mc-choice-text) {
+  align-items: flex-start;
+}
+
+.mc-multi-hint,
+.ox-rewrite-label,
+.part-label {
+  font-weight: 700;
+  margin: 0.35rem 0;
+}
+
+.ox-rewrite {
+  margin-top: 0.75rem;
+}
+
+.ox-rewrite[hidden] {
+  display: none;
+}
+
+.ox-rewrite input[type="text"],
+.part-block input[type="text"] {
+  width: 100%;
+  max-width: 36rem;
+}
+
+.part-block {
+  margin-top: 0.85rem;
+}
+
 .blank-row {
   display: flex;
   flex-wrap: wrap;

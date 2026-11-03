@@ -9,8 +9,8 @@
   "timerMinutes": 28,
   "unitId": "wb-chapter-02",
   "unitTitle": "Ch 02 WB — 일반동사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–3] 3문항(고르기), [4–5] 2문항(고르기), [6] 1문항(빈칸 말만 쓰기), [7] 1문항(고르기), [8–9] 2문항(고르기), [10] 1문항(고르기), [11–12] 2문항(고르기), [13] 1문항(고르기), [14] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–3] 3문항(고르기), [4–5] 2문항(고르기), [6] 1문항(빈칸 말만 쓰기), [7] 1문항(고르기), [8–9] 2문항(고르기), [10] 1문항(고르기), [11–12] 2문항(고르기), [13] 1문항(여러 개 고르기), [14] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-3",
@@ -118,11 +118,11 @@
     {
       "id": "13",
       "title": "[13]",
-      "instructionKo": "[13] 다음 중 표의 내용과 일치하지 않는 것을 모두 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "instructionKo": "[13] 다음 중 표의 내용과 일치하지 않는 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[13] 다음 중 표의 내용과 일치하지 않는 것을 모두 고르세요.",
-      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "answerMode": "choice",
-      "answerModeTag": "Choose · 고르기",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -132,11 +132,11 @@
     {
       "id": "14",
       "title": "[14]",
-      "instructionKo": "[14] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[14] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 화살표나 X는 쓰지 마세요.",
       "directionKo": "[14] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요.",
-      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 화살표나 X는 쓰지 마세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -417,40 +417,70 @@
       "id": "q13",
       "section": "13",
       "sectionTitle": "[13]",
-      "sectionInstructionKo": "[13] 다음 중 표의 내용과 일치하지 않는 것을 모두 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[13] 다음 중 표의 내용과 일치하지 않는 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "13",
-      "type": "fill",
-      "promptEn": "Ken: cook✔ walk✔ bus✘ wash✔ exercise✘ | Jim: cook✘ walk✘ bus✔ wash✘ exercise✔ | Joe: cook✔ walk✘ bus✔ wash✔ exercise✘\n① Jim exercises every day.\n② Ken cooks in the kitchen.\n③ Ken and Joe walk to school.\n④ Jim doesn't wash the dishes.\n⑤ Joe doesn't go to school by bus.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "Ken: cook✔ walk✔ bus✘ wash✔ exercise✘ | Jim: cook✘ walk✘ bus✔ wash✘ exercise✔ | Joe: cook✔ walk✘ bus✔ wash✔ exercise✘",
       "accept": [
         "3|5",
         "5|3",
         "5|3",
         "3|5"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "Jim exercises every day.",
+        "Ken cooks in the kitchen.",
+        "Ken and Joe walk to school.",
+        "Jim doesn't wash the dishes.",
+        "Joe doesn't go to school by bus."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q14",
       "section": "14",
       "sectionTitle": "[14]",
-      "sectionInstructionKo": "[14] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[14] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 화살표나 X는 쓰지 마세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "14",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "Yejin ⓐ went to the shopping mall with her sister last Saturday. She ⓑ saw pretty shoes. But she didn't ⓒ bring her wallet from home. So her sister ⓓ lended the money to her. She ⓔ wore new shoes.",
       "blanks": 2,
       "accept": [
         "ⓓ|lent",
         "d|lent",
         "④|lent"
+      ],
+      "hintKo": "틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 화살표나 X는 쓰지 마세요.",
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "틀린 기호",
+          "choices": [
+            "ⓐ",
+            "ⓑ",
+            "ⓒ",
+            "ⓓ",
+            "ⓔ"
+          ],
+          "accept": [
+            "ⓓ",
+            "d",
+            "④"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "고친 말",
+          "accept": [
+            "lent"
+          ],
+          "placeholder": "고친 말만"
+        }
       ]
     }
   ],

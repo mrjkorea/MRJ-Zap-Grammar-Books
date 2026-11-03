@@ -9,11 +9,11 @@ const BUILD = JSON.parse(fs.readFileSync(path.join(REPO, "version.json"), "utf8"
 
 function assertCacheBusters() {
   const html = fs.readFileSync(path.join(REPO, "index.html"), "utf8");
-  const versions = [...html.matchAll(/\?v=([^"']+)/g)].map((m) => m[1]);
+  const versions = [...html.matchAll(/\b(?:src|href)="(?!https?:)[^"]*\?v=([^"']+)/g)].map((m) => m[1]);
   assert(versions.length > 0, "index.html should have ?v= cache busters");
   assert(
     versions.every((v) => v === BUILD),
-    "every ?v= must match version.json build; got " + [...new Set(versions)].join(", ")
+    "every local ?v= must match version.json build; got " + [...new Set(versions)].join(", ")
   );
   assert(
     html.includes(`mrj-scores.js?v=${BUILD}`),

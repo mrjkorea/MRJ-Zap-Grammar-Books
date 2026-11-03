@@ -9,8 +9,8 @@
   "timerMinutes": 28,
   "unitId": "wb-chapter-06",
   "unitTitle": "Ch 06 WB — 동명사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(빈칸 말만 쓰기), [3] 1문항(빈칸 말만 쓰기), [4–5] 2문항(빈칸 말만 쓰기), [6] 1문항(고르기), [7] 1문항(고르기), [8] 1문항(고르기), [9–10] 2문항(빈칸 말만 쓰기), [11–12] 2문항(고르기), [13] 1문항(고르기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(고르기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(여러 개 고르기), [3] 1문항(빈칸 말만 쓰기), [4–5] 2문항(빈칸 말만 쓰기), [6] 1문항(고르기), [7] 1문항(고르기), [8] 1문항(고르기), [9–10] 2문항(빈칸 말만 쓰기), [11–12] 2문항(고르기), [13] 1문항(고르기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -29,11 +29,11 @@
     {
       "id": "2",
       "title": "[2]",
-      "instructionKo": "[2] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 다른 것을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "instructionKo": "[2] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 다른 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[2] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 다른 것을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -43,9 +43,9 @@
     {
       "id": "3",
       "title": "[3]",
-      "instructionKo": "[3] 우리말과 일치하도록 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 말과 바르게 고친 말을 빈칸에 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[3] 우리말과 일치하도록 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "directionKo": "[3] 우리말과 일치하도록 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
-      "ruleKo": "틀린 말과 바르게 고친 말을 빈칸에 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 1,
@@ -212,28 +212,31 @@
       "id": "q02",
       "section": "2",
       "sectionTitle": "[2]",
-      "sectionInstructionKo": "[2] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 다른 것을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[2] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 다른 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "2",
-      "type": "fill",
-      "promptEn": "<보기> [Preparing] for exams can be stressful.\n① My job is [selling] sandwiches.\n② The kid kept [kicking] the door.\n③ [Reading] books is a good habit.\n④ [Taking] a walk is necessary for dogs.\n⑤ [Understanding] the poem was difficult.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "<보기> [Preparing] for exams can be stressful.",
       "accept": [
         "1|2",
         "①|②"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "My job is [selling] sandwiches.",
+        "The kid kept [kicking] the door.",
+        "[Reading] books is a good habit.",
+        "[Taking] a walk is necessary for dogs.",
+        "[Understanding] the poem was difficult."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q03",
       "section": "3",
       "sectionTitle": "[3]",
-      "sectionInstructionKo": "[3] 우리말과 일치하도록 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 말과 바르게 고친 말을 빈칸에 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[3] 우리말과 일치하도록 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "3",
@@ -246,7 +249,8 @@
       ],
       "accept": [
         "take|taking"
-      ]
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
     },
     {
       "id": "q04",
