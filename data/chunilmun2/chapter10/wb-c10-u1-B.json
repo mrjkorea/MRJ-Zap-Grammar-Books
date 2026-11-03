@@ -9,17 +9,17 @@
   "subtitle": "원급·비교급·최상급 · POINT 1·3·4 (WB p. 74)",
   "pages": "74",
   "timerMinutes": 22,
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 Section B 10문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 Section B 10문항(O/X 고르고 고치기)으로 되어 있어요.",
   "sections": [
     {
       "id": "B",
       "title": "Section B",
-      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
+      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
       "directionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4.",
-      "ruleKo": "맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "itemCount": 10,
       "exampleCount": 0,
       "labels": [
@@ -41,197 +41,219 @@
       "id": "b01",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B1",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "Inho's family is <u>larger than</u> my family.",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o",
-        "○"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "b02",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B2",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "His English is as <u>better</u> as mine.",
-      "blanks": 1,
       "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
         "good",
-        "X good",
-        "X, good",
-        "as good as",
-        "X as good as",
-        "X, as good as"
-      ]
+        "as good as"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "b03",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B3",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "She is <u>as not kind as</u> you.",
-      "blanks": 1,
       "accept": [
-        "not as kind as",
-        "X not as kind as",
-        "X, not as kind as",
-        "not so kind as",
-        "X not so kind as",
-        "X, not so kind as"
+        "X"
       ],
-      "phraseBlanks": true
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "not as kind as",
+        "not so kind as"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "b04",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B4",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "My bowling score was <u>worst than</u> my brother's.",
-      "blanks": 1,
       "accept": [
-        "worse than",
-        "X worse than",
-        "X, worse than",
-        "worse",
-        "X worse",
-        "X, worse"
+        "X"
       ],
-      "phraseBlanks": true
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "worse than",
+        "worse"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "b05",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B5",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "He is as <u>brave</u> as Steve.",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o",
-        "○"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "b06",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B6",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "Yongsu studies <u>the harder</u> in his class.",
-      "blanks": 1,
       "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
         "hardest",
-        "X hardest",
-        "X, hardest",
-        "the hardest",
-        "X the hardest",
-        "X, the hardest"
-      ]
+        "the hardest"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "b07",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B7",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "I can solve the problem as <u>quickly than</u> John.",
-      "blanks": 1,
       "accept": [
-        "quickly as",
-        "X quickly as",
-        "X, quickly as",
-        "as quickly as",
-        "X as quickly as",
-        "X, as quickly as"
+        "X"
       ],
-      "phraseBlanks": true
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "quickly as",
+        "as quickly as"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "b08",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B8",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "Friends are <u>the more valuable</u> in my life.",
-      "blanks": 1,
       "accept": [
-        "the most valuable",
-        "X the most valuable",
-        "X, the most valuable",
-        "most valuable",
-        "X most valuable",
-        "X, most valuable"
+        "X"
       ],
-      "phraseBlanks": true
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "the most valuable",
+        "most valuable"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "b09",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B9",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "The baby was as <u>lightest</u> as a feather.",
-      "blanks": 1,
       "accept": [
-        "as light as",
-        "X as light as",
-        "X, as light as",
-        "light",
-        "X light",
-        "X, light"
+        "X"
       ],
-      "phraseBlanks": true
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "as light as",
+        "light"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     },
     {
       "id": "b10",
       "section": "B",
       "sectionTitle": "Section B",
-      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. 맞으면 O, 틀리면 어법에 맞게 고친 말만 쓰세요. (O 또는 고친 말.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 1·3·4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
       "label": "B10",
-      "type": "fill",
+      "type": "ox",
       "promptEn": "Cheetahs run <u>a lot faster</u> than rabbits.",
-      "blanks": 1,
       "accept": [
+        "O"
+      ],
+      "choices": [
         "O",
-        "o",
-        "○"
-      ]
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
     }
   ]
 }

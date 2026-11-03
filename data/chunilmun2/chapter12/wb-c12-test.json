@@ -9,17 +9,17 @@
   "timerMinutes": 32,
   "unitId": "wb-chapter-12",
   "unitTitle": "Ch 12 WB — 관계대명사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(빈칸 말만 쓰기), [2–3] 2문항(고르기), [4–5] 2문항(빈칸 말만 쓰기), [6] 1문항(고르기), [7] 1문항(고르기), [8–9] 2문항(문장 전체 쓰기), [10–11] 2문항(빈칸 말만 쓰기), [12] 1문항(빈칸 말만 쓰기), [13] 1문항(고르기), [14] 1문항(고르기), [15] 1문항(고르기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1] 1문항(여러 개 고르기), [2–3] 2문항(고르기), [4–5] 2문항(빈칸 말만 쓰기), [6] 1문항(고르기), [7] 1문항(고르기), [8–9] 2문항(문장 전체 쓰기), [10–11] 2문항(여러 개 고르기), [12] 1문항(빈칸 말만 쓰기), [13] 1문항(고르기), [14] 1문항(고르기), [15] 1문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
       "title": "[1]",
-      "instructionKo": "[1] 다음 중 밑줄 친 that과 바꿔 쓸 수 있는 것을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
+      "instructionKo": "[1] 다음 중 밑줄 친 that과 바꿔 쓸 수 있는 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[1] 다음 중 밑줄 친 that과 바꿔 쓸 수 있는 것을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -44,9 +44,9 @@
     {
       "id": "4-5",
       "title": "[4–5]",
-      "instructionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것의 번호를 쓰고 바르게 고쳐 쓰세요. 알맞지 않은 부분의 번호와 고친 말을 빈칸에 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것의 번호를 쓰고 바르게 고쳐 쓰세요. 첫 칸에는 보기 번호만 (숫자), 둘째 칸에는 그 부분을 바르게 고친 말만 쓰세요. 화살표는 쓰지 마세요.",
       "directionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것의 번호를 쓰고 바르게 고쳐 쓰세요.",
-      "ruleKo": "알맞지 않은 부분의 번호와 고친 말을 빈칸에 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "첫 칸에는 보기 번호만 (숫자), 둘째 칸에는 그 부분을 바르게 고친 말만 쓰세요. 화살표는 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 2,
@@ -102,11 +102,11 @@
     {
       "id": "10-11",
       "title": "[10–11]",
-      "instructionKo": "[10–11] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
+      "instructionKo": "[10–11] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[10–11] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 2,
       "exampleCount": 0,
       "labels": [
@@ -176,13 +176,12 @@
       "id": "q01",
       "section": "1",
       "sectionTitle": "[1]",
-      "sectionInstructionKo": "[1] 다음 중 밑줄 친 that과 바꿔 쓸 수 있는 것을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[1] 다음 중 밑줄 친 that과 바꿔 쓸 수 있는 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "1",
-      "type": "fill",
-      "promptEn": "The person <u>that</u> many students respect most is King Sejong.\n① what\n② which\n③ who\n④ whom\n⑤ whose",
-      "blanks": 2,
+      "type": "mc",
+      "promptEn": "The person <u>that</u> many students respect most is King Sejong.",
       "accept": [
         "3|4",
         "4|3",
@@ -191,11 +190,15 @@
         "3|④",
         "4|③"
       ],
-      "blankPartLabels": [
-        "보기",
-        "보기"
+      "select": "multi",
+      "choices": [
+        "what",
+        "which",
+        "who",
+        "whom",
+        "whose"
       ],
-      "unordered": true
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q02",
@@ -247,7 +250,7 @@
       "id": "q04",
       "section": "4-5",
       "sectionTitle": "[4–5]",
-      "sectionInstructionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것의 번호를 쓰고 바르게 고쳐 쓰세요. 알맞지 않은 부분의 번호와 고친 말을 빈칸에 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것의 번호를 쓰고 바르게 고쳐 쓰세요. 첫 칸에는 보기 번호만 (숫자), 둘째 칸에는 그 부분을 바르게 고친 말만 쓰세요. 화살표는 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "4",
@@ -263,13 +266,14 @@
       "blankPartLabels": [
         "번호",
         "고친 말"
-      ]
+      ],
+      "hintKo": "첫 칸에는 보기 번호만 (숫자), 둘째 칸에는 그 부분을 바르게 고친 말만 쓰세요. 화살표는 쓰지 마세요."
     },
     {
       "id": "q05",
       "section": "4-5",
       "sectionTitle": "[4–5]",
-      "sectionInstructionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것의 번호를 쓰고 바르게 고쳐 쓰세요. 알맞지 않은 부분의 번호와 고친 말을 빈칸에 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[4–5] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것의 번호를 쓰고 바르게 고쳐 쓰세요. 첫 칸에는 보기 번호만 (숫자), 둘째 칸에는 그 부분을 바르게 고친 말만 쓰세요. 화살표는 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "5",
@@ -289,7 +293,8 @@
       "blankPartLabels": [
         "번호",
         "고친 말"
-      ]
+      ],
+      "hintKo": "첫 칸에는 보기 번호만 (숫자), 둘째 칸에는 그 부분을 바르게 고친 말만 쓰세요. 화살표는 쓰지 마세요."
     },
     {
       "id": "q06",
@@ -373,13 +378,12 @@
       "id": "q10",
       "section": "10-11",
       "sectionTitle": "[10–11]",
-      "sectionInstructionKo": "[10–11] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[10–11] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "10",
-      "type": "fill",
-      "promptEn": "<보기> Gary is the kindest man <u>that</u> I know.\n① Kate insists <u>that</u> I should help them.\n② If you want, you can use <u>that</u> computer.\n③ <u>That</u> box is the present for your birthday.\n④ There are many creatures <u>that</u> live in the forest.\n⑤ I signed up for a dance class <u>that</u> starts at five on Fridays.",
-      "blanks": 2,
+      "type": "mc",
+      "promptEn": "<보기> Gary is the kindest man <u>that</u> I know.",
       "accept": [
         "4|5",
         "5|4",
@@ -388,23 +392,26 @@
         "4|⑤",
         "5|④"
       ],
-      "blankPartLabels": [
-        "보기",
-        "보기"
+      "select": "multi",
+      "choices": [
+        "Kate insists <u>that</u> I should help them.",
+        "If you want, you can use <u>that</u> computer.",
+        "<u>That</u> box is the present for your birthday.",
+        "There are many creatures <u>that</u> live in the forest.",
+        "I signed up for a dance class <u>that</u> starts at five on Fridays."
       ],
-      "unordered": true
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q11",
       "section": "10-11",
       "sectionTitle": "[10–11]",
-      "sectionInstructionKo": "[10–11] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 모두 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[10–11] 다음 중 <보기>의 밑줄 친 부분과 어법상 쓰임이 같은 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "11",
-      "type": "fill",
-      "promptEn": "<보기> He's the boy <u>who</u> showed me the way.\n① I wonder <u>who</u> will win first prize.\n② <u>Who</u> are those people out there?\n③ The girl <u>who</u> sits in front of me is kind.\n④ Do you know <u>who</u> wrote this letter to me?\n⑤ A neighbor <u>who</u> has a cat moved in next door.",
-      "blanks": 2,
+      "type": "mc",
+      "promptEn": "<보기> He's the boy <u>who</u> showed me the way.",
       "accept": [
         "3|5",
         "5|3",
@@ -413,11 +420,15 @@
         "3|⑤",
         "5|③"
       ],
-      "blankPartLabels": [
-        "보기",
-        "보기"
+      "select": "multi",
+      "choices": [
+        "I wonder <u>who</u> will win first prize.",
+        "<u>Who</u> are those people out there?",
+        "The girl <u>who</u> sits in front of me is kind.",
+        "Do you know <u>who</u> wrote this letter to me?",
+        "A neighbor <u>who</u> has a cat moved in next door."
       ],
-      "unordered": true
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q12",

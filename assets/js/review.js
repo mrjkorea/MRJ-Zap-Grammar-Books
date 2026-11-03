@@ -129,9 +129,60 @@
     return marks;
   }
 
+  function multiAnswerText(item, response) {
+    var values = [];
+    if (response && Array.isArray(response.values) && response.values.length) values = response.values;
+    else if (response && response.value) values = String(response.value).split("|");
+    if (!values.length) return displayText("");
+    var choices = item.choices || [];
+    return values
+      .map(function (v) {
+        var idx = choices.indexOf(v);
+        if (choices.length > 2 && idx >= 0) return idx + 1 + ". " + v;
+        return v;
+      })
+      .join(" · ");
+  }
+
   function studentAnswerLines(item, response) {
+    response = response || {};
     if (item.type === "match") {
       return [{ num: null, text: displayText(""), blankWrong: true }];
+    }
+    if (item.type === "ox") {
+      var E = engine();
+      var ox = E && E.gradeOxParts ? E.gradeOxParts(item, response) : null;
+      var lines = [{
+        num: "O/X",
+        text: displayText(response.value),
+        blankWrong: ox ? !ox.judgment : true,
+      }];
+      if (ox && ox.needsRewrite) {
+        lines.push({
+          num: "고친 말",
+          text: displayText(response.rewrite),
+          blankWrong: !ox.rewrite,
+        });
+      } else if (String(response.value || "").toUpperCase() === "X" && response.rewrite) {
+        lines.push({ num: "고친 말", text: displayText(response.rewrite), blankWrong: true });
+      }
+      return lines;
+    }
+    if (item.type === "parts") {
+      var spec = item.parts || [];
+      var got = response.parts || [];
+      var partLines = [];
+      for (var pi = 0; pi < spec.length; pi++) {
+        partLines.push({
+          num: spec[pi].label || String(pi + 1),
+          text: displayText(got[pi]),
+          blankWrong: true,
+        });
+      }
+      return partLines.length ? partLines : [{ num: null, text: displayText(""), blankWrong: true }];
+    }
+    if (item.type === "mc" && item.select === "multi") {
+      return [{ num: null, text: multiAnswerText(item, response), blankWrong: true }];
     }
     if (item.type === "mc") {
       return [{ num: null, text: displayText(response.value), blankWrong: true }];
@@ -163,7 +214,14 @@
   }
 
   function studentAnswerSummary(item, response) {
+    if (item.type === "mc" && item.select === "multi") return multiAnswerText(item, response);
     if (item.type === "mc") return mcChoiceDisplay(item, response);
+    if (item.type === "ox") {
+      var linesOx = studentAnswerLines(item, response);
+      return linesOx
+        .map(function (ln) { return (ln.num ? ln.num + " " : "") + ln.text; })
+        .join(" · ");
+    }
     var lines = studentAnswerLines(item, response);
     if (lines.length === 1 && lines[0].num == null) return lines[0].text;
     return lines
@@ -301,6 +359,48 @@
       var pi = matchPairIndex(row);
       var p = pairs[pi];
       return p ? p.left + " → " + p.right : "";
+    }
+    if (item.type === "ox") {
+      var Eox = root.MRJ_ENGINE;
+      var key = Eox && Eox.gradeOxParts ? Eox.gradeOxParts(item, { value: (item.accept || [])[0] }).key : "";
+      if (!key) key = String((item.accept || [])[0] || "");
+      if (key === "O") return "O";
+      var rw = item.rewriteAccept && item.rewriteAccept.length ? String(item.rewriteAccept[0]) : "";
+      return rw ? "X · " + rw : "X";
+    }
+    if (item.type === "parts") {
+      return (item.parts || [])
+        .map(function (part) {
+          if (part.kind === "mc") {
+            var choicesP = part.choices || [];
+            var accP = part.accept || [];
+            for (var ap = 0; ap < accP.length; ap++) {
+              var tokP = String(accP[ap]);
+              if (/^\d+$/.test(tokP)) {
+                var idxP = Number(tokP) - 1;
+                if (idxP >= 0 && idxP < choicesP.length) return (part.label ? part.label + " " : "") + choicesP[idxP];
+              }
+              if (choicesP.indexOf(tokP) >= 0) return (part.label ? part.label + " " : "") + tokP;
+            }
+            return (part.label ? part.label + " " : "") + (accP.length ? String(accP[0]) : "");
+          }
+          var fill0 = part.accept && part.accept.length ? String(part.accept[0]) : "";
+          return (part.label ? part.label + " " : "") + fill0;
+        })
+        .join(" · ");
+    }
+    if (item.type === "mc" && item.select === "multi") {
+      var Emu = root.MRJ_ENGINE;
+      var idxs = Emu && Emu.expectedChoiceIndexes ? Emu.expectedChoiceIndexes(item) : [];
+      var choicesM = item.choices || [];
+      if (idxs.length) {
+        return idxs
+          .map(function (ix) {
+            var label = choicesM[ix] || "";
+            return choicesM.length > 2 ? ix + 1 + ". " + label : label;
+          })
+          .join(" · ");
+      }
     }
     if (item.type === "mc") {
       var choices = item.choices || [];

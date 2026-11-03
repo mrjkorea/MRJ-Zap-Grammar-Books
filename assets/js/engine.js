@@ -94,12 +94,145 @@
     return true;
   }
 
+  var CIRCLED_CHOICES = "①②③④⑤⑥⑦⑧⑨⑩";
+
+  function normalizeOxPick(value) {
+    var t = String(value == null ? "" : value).trim();
+    if (/^[Oo○ㅇ]$/.test(t)) return "O";
+    if (/^[Xx×✕]$/.test(t)) return "X";
+    return "";
+  }
+
+  function oxJudgmentKey(item) {
+    var list = item.accept || [];
+    for (var i = 0; i < list.length; i++) {
+      var pick = normalizeOxPick(list[i]);
+      if (pick) return pick;
+    }
+    if (item.rewriteAccept && item.rewriteAccept.length) return "X";
+    return "";
+  }
+
+  /** O/X tap, plus a rewrite only when the key is X. O auto-passes the rewrite. */
+  function gradeOxParts(item, response) {
+    var key = oxJudgmentKey(item);
+    var picked = normalizeOxPick(response && response.value);
+    var judgment = !!key && picked === key;
+    var needsRewrite = key === "X" && item.rewriteAccept && item.rewriteAccept.length > 0;
+    var rewriteOk = true;
+    if (needsRewrite) {
+      rewriteOk = picked === "X" && N.matchAccept((response && response.rewrite) || "", item.rewriteAccept);
+    }
+    return {
+      key: key,
+      picked: picked,
+      judgment: judgment,
+      needsRewrite: !!needsRewrite,
+      rewrite: needsRewrite ? rewriteOk : true,
+      correct: judgment && (needsRewrite ? rewriteOk : true),
+    };
+  }
+
+  function choiceIndexFromToken(item, token) {
+    var raw = String(token == null ? "" : token).trim();
+    if (!raw) return -1;
+    var choices = item.choices || [];
+    var ci = CIRCLED_CHOICES.indexOf(raw);
+    if (ci >= 0 && ci < choices.length) return ci;
+    if (/^\d+$/.test(raw)) {
+      var n = Number(raw) - 1;
+      if (n >= 0 && n < choices.length) return n;
+    }
+    return choices.indexOf(raw);
+  }
+
+  function uniqueSortedIndexes(nums) {
+    var map = {};
+    for (var i = 0; i < nums.length; i++) {
+      if (nums[i] >= 0) map[nums[i]] = true;
+    }
+    return Object.keys(map)
+      .map(function (k) { return Number(k); })
+      .sort(function (a, b) { return a - b; });
+  }
+
+  function expectedChoiceIndexes(item) {
+    var acc = item.accept || [];
+    var choices = item.choices || [];
+    for (var i = 0; i < acc.length; i++) {
+      var parts = String(acc[i]).split("|");
+      var idxs = [];
+      var ok = parts.length > 0;
+      for (var p = 0; p < parts.length; p++) {
+        var ix = choiceIndexFromToken(item, parts[p]);
+        if (ix < 0 || ix >= choices.length) {
+          ok = false;
+          break;
+        }
+        idxs.push(ix);
+      }
+      if (ok && idxs.length) return uniqueSortedIndexes(idxs);
+    }
+    return [];
+  }
+
+  function selectedChoiceIndexes(item, response) {
+    var values = [];
+    if (response && Array.isArray(response.values)) values = response.values.slice();
+    else if (response && response.value != null && String(response.value) !== "") {
+      values = String(response.value).indexOf("|") >= 0 ? String(response.value).split("|") : [response.value];
+    }
+    var idxs = [];
+    for (var i = 0; i < values.length; i++) idxs.push(choiceIndexFromToken(item, values[i]));
+    return uniqueSortedIndexes(idxs);
+  }
+
+  function gradeMultiMc(item, response) {
+    var exp = expectedChoiceIndexes(item);
+    var got = selectedChoiceIndexes(item, response);
+    if (!exp.length || got.length !== exp.length) return false;
+    for (var i = 0; i < exp.length; i++) {
+      if (got[i] !== exp[i]) return false;
+    }
+    return true;
+  }
+
+  function gradePartsItem(item, response) {
+    var spec = item.parts || [];
+    if (!spec.length) return false;
+    var got = response && response.parts ? response.parts.slice() : [];
+    if (!got.length && response && response.value != null && String(response.value).indexOf("|") >= 0) {
+      got = String(response.value).split("|");
+    }
+    if (got.length < spec.length) return false;
+    for (var i = 0; i < spec.length; i++) {
+      var part = spec[i];
+      var val = got[i];
+      if (part.kind === "mc") {
+        if (!gradeItem({ type: "mc", choices: part.choices || [], accept: part.accept || [] }, { value: val })) {
+          return false;
+        }
+      } else if (!N.matchAccept(val, part.accept || [])) {
+        return false;
+      }
+    }
+    return true;
+  }
+
   function gradeItem(item, response) {
+    response = response || {};
     var type = item.type;
     if (type === "match") {
       return gradeMatchItem(item, response);
     }
+    if (type === "ox") {
+      return gradeOxParts(item, response).correct;
+    }
+    if (type === "parts") {
+      return gradePartsItem(item, response);
+    }
     if (type === "mc") {
+      if (item.select === "multi") return gradeMultiMc(item, response);
       var val = response.value;
       if (item.choices && item.choices.length) {
         var idx = item.choices.indexOf(val);
@@ -263,6 +396,9 @@
     RETRY_PCT: RETRY_PCT,
     teacherSkipLocks: teacherSkipLocks,
     gradeItem: gradeItem,
+    gradeOxParts: gradeOxParts,
+    gradeMultiMc: gradeMultiMc,
+    expectedChoiceIndexes: expectedChoiceIndexes,
     gradeMatchPair: gradeMatchPair,
     gradeMatchItem: gradeMatchItem,
     matchPairsOf: matchPairsOf,

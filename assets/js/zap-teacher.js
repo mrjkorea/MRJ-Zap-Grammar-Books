@@ -5,7 +5,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261103-chunilmun2-live";
+  var BUILD = "20261103-ox-clear";
   var panelBookId = "";
   var chipClickBound = false;
   var lastActive = null;

@@ -9,7 +9,7 @@
   "timerMinutes": 45,
   "unitId": "review-03",
   "unitTitle": "총괄평가 3회 (Ch09–12)",
-  "sectionsVersion": 2,
+  "sectionsVersion": 3,
   "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(고르기), [5] 1문항(빈칸 말만 쓰기), [6–7] 2문항(고르기), [8–9] 2문항(빈칸 말만 쓰기), [10–11] 2문항(고르기), [12–13] 2문항(고르기), [14–15] 2문항(문장 전체 쓰기), [16–17] 2문항(고르기), [18–19] 2문항(고르기), [20–21] 2문항(문장 전체 쓰기), [22–23] 2문항(고르기), [24] 1문항(고르기), [25] 1문항(고르기), [26–27] 2문항(문장 전체 쓰기), [28] 1문항(고르기), [29] 1문항(고르기), [30] 1문항(고르기), [31] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
@@ -74,9 +74,9 @@
     {
       "id": "8-9",
       "title": "[8–9]",
-      "instructionKo": "[8–9] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[8–9] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "directionKo": "[8–9] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
-      "ruleKo": "고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 2,
@@ -449,7 +449,7 @@
       "id": "q08",
       "section": "8-9",
       "sectionTitle": "[8–9]",
-      "sectionInstructionKo": "[8–9] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[8–9] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "8",
@@ -457,15 +457,19 @@
       "promptEn": "The gloves keep my hands warmly.",
       "blanks": 2,
       "accept": [
-        "warmly|warm",
-        "warm"
-      ]
+        "warmly|warm"
+      ],
+      "blankPartLabels": [
+        "틀린 말",
+        "고친 말"
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
     },
     {
       "id": "q09",
       "section": "8-9",
       "sectionTitle": "[8–9]",
-      "sectionInstructionKo": "[8–9] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[8–9] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "9",
@@ -473,9 +477,13 @@
       "promptEn": "She didn't buy the shoes because of they weren't light.",
       "blanks": 2,
       "accept": [
-        "because of|because",
-        "because"
-      ]
+        "because of|because"
+      ],
+      "blankPartLabels": [
+        "틀린 말",
+        "고친 말"
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
     },
     {
       "id": "q10",

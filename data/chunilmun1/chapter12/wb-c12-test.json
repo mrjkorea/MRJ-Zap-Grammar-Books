@@ -9,8 +9,8 @@
   "timerMinutes": 30,
   "unitId": "wb-chapter-12",
   "unitTitle": "Ch 12 WB — 접속사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–2] 2문항(고르기), [3] 1문항(빈칸 말만 쓰기), [4–5] 2문항(고르기), [6] 1문항(빈칸 말만 쓰기), [7] 1문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9] 1문항(고르기), [10] 1문항(고르기), [11] 1문항(문장 전체 쓰기), [12–13] 2문항(문장 전체 쓰기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(고르기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3] 1문항(빈칸 말만 쓰기), [4–5] 2문항(고르기), [6] 1문항(빈칸 말만 쓰기), [7] 1문항(여러 개 고르기), [8] 1문항(고르기), [9] 1문항(고르기), [10] 1문항(고르기), [11] 1문항(문장 전체 쓰기), [12–13] 2문항(문장 전체 쓰기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -73,11 +73,11 @@
     {
       "id": "7",
       "title": "[7]",
-      "instructionKo": "[7] 다음 중 어법상 알맞은 문장을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
+      "instructionKo": "[7] 다음 중 어법상 알맞은 문장을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[7] 다음 중 어법상 알맞은 문장을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -311,13 +311,12 @@
       "id": "q07",
       "section": "7",
       "sectionTitle": "[7]",
-      "sectionInstructionKo": "[7] 다음 중 어법상 알맞은 문장을 모두 고르세요. 알맞은 보기 번호를 모두 골라 빈칸에 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[7] 다음 중 어법상 알맞은 문장을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "7",
-      "type": "fill",
-      "promptEn": "① Mira likes singing and dance.\n② The street was clean and quiet.\n③ He was fast or couldn't catch the ball.\n④ She painted the house red and yellow.\n⑤ Do you want to play soccer or read a novel?",
-      "blanks": 3,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "2|4|5",
         "2|5|4",
@@ -326,7 +325,15 @@
         "5|2|4",
         "5|4|2"
       ],
-      "unordered": true
+      "select": "multi",
+      "choices": [
+        "Mira likes singing and dance.",
+        "The street was clean and quiet.",
+        "He was fast or couldn't catch the ball.",
+        "She painted the house red and yellow.",
+        "Do you want to play soccer or read a novel?"
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q08",

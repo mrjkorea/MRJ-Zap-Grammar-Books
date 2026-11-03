@@ -137,7 +137,8 @@ html[data-book="chunilmun-grammar-1"] .mc-options label:has(input:checked) {
   transform: none;
 }
 
-html[data-book="chunilmun-grammar-1"] .mc-options input[type="radio"] {
+html[data-book="chunilmun-grammar-1"] .mc-options input[type="radio"],
+html[data-book="chunilmun-grammar-1"] .mc-options input[type="checkbox"] {
   accent-color: var(--accent-dark);
 }
 

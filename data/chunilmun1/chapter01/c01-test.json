@@ -14,8 +14,8 @@
   "passPct": 80,
   "retryBelowPct": 50,
   "showAnswersToStudent": false,
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–3] 3문항(고르기), [4–5] 2문항(고르기), [6–7] 2문항(고르기), [8] 1문항(고르기), [9–10] 2문항(문장 전체 쓰기), [11] 1문항(고르기), [12–13] 2문항(빈칸 말만 쓰기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(고르기), [16] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–3] 3문항(고르기), [4–5] 2문항(고르기), [6–7] 2문항(고르기), [8] 1문항(고르기), [9–10] 2문항(문장 전체 쓰기), [11] 1문항(고르기), [12–13] 2문항(빈칸 말만 쓰기), [14] 1문항(빈칸 말만 쓰기), [15] 1문항(고르기), [16] 1문항(여러 개 고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-3",
@@ -152,11 +152,11 @@
     {
       "id": "16",
       "title": "[16]",
-      "instructionKo": "16 다음 중 어법상 알맞은 문장 두 개를 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "instructionKo": "16 다음 중 어법상 알맞은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "16 다음 중 어법상 알맞은 문장 두 개를 고르세요.",
-      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -480,24 +480,27 @@
       "id": "q16",
       "section": "16",
       "sectionTitle": "[16]",
-      "sectionInstructionKo": "16 다음 중 어법상 알맞은 문장 두 개를 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "16 다음 중 어법상 알맞은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "16",
-      "type": "fill",
-      "promptEn": "① Are your bag heavy?\n② I were nervous on the last test.\n③ His shoes were dirty and old.\n④ This camera isn't expensive.\n⑤ Was your parents at home last night?",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "3|4",
         "4|3",
         "③|④",
         "④|③"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "Are your bag heavy?",
+        "I were nervous on the last test.",
+        "His shoes were dirty and old.",
+        "This camera isn't expensive.",
+        "Was your parents at home last night?"
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     }
   ]
 }

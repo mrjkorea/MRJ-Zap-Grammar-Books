@@ -9,8 +9,8 @@
   "timerMinutes": 32,
   "unitId": "chapter-09",
   "unitTitle": "Chapter 09 — 문장의 여러 형식",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4] 1문항(고르기), [5–6] 2문항(문장 전체 쓰기), [7] 1문항(고르기), [8] 1문항(고르기), [9] 1문항(고르기), [10] 1문항(빈칸 말만 쓰기), [11–12] 2문항(고르기), [13] 1문항(문장 전체 쓰기), [14–15] 2문항(고르기), [16–17] 2문항(문장 전체 쓰기), [18–20] 3문항(문장 전체 쓰기), [21–22] 2문항(빈칸 말만 쓰기), [23–24] 2문항(빈칸 말만 쓰기), [25] 1문항(문장 전체 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1] 1문항(고르기), [2–3] 2문항(고르기), [4] 1문항(고르기), [5–6] 2문항(문장 전체 쓰기), [7] 1문항(고르기), [8] 1문항(고르기), [9] 1문항(고르기), [10] 1문항(여러 개 고르기), [11–12] 2문항(고르기), [13] 1문항(문장 전체 쓰기), [14–15] 2문항(고르기), [16–17] 2문항(문장 전체 쓰기), [18–20] 3문항(문장 전체 쓰기), [21–22] 2문항(여러 개 고르기), [23–24] 2문항(빈칸 말만 쓰기), [25] 1문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -115,11 +115,11 @@
     {
       "id": "10",
       "title": "[10]",
-      "instructionKo": "[10] 다음 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
+      "instructionKo": "[10] 다음 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[10] 다음 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요.",
-      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -204,11 +204,11 @@
     {
       "id": "21-22",
       "title": "[21–22]",
-      "instructionKo": "[21–22] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
+      "instructionKo": "[21–22] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[21–22] 다음 중 어법상 알맞은 문장 두 개를 고르세요.",
-      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 2,
       "exampleCount": 0,
       "labels": [
@@ -219,9 +219,9 @@
     {
       "id": "23-24",
       "title": "[23–24]",
-      "instructionKo": "[23–24] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[23–24] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요.",
       "directionKo": "[23–24] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
-      "ruleKo": "고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 2,
@@ -442,22 +442,25 @@
       "id": "q10",
       "section": "10",
       "sectionTitle": "[10]",
-      "sectionInstructionKo": "[10] 다음 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[10] 다음 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "10",
-      "type": "fill",
-      "promptEn": "The teacher made him _____________________.\n① tired ② happily ③ the captain ④ nervously ⑤ proudly",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "The teacher made him _____________________.",
       "accept": [
         "1|3",
         "3|1"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "tired",
+        "happily",
+        "the captain",
+        "nervously",
+        "proudly"
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q11",
@@ -642,49 +645,55 @@
       "id": "q21",
       "section": "21-22",
       "sectionTitle": "[21–22]",
-      "sectionInstructionKo": "[21–22] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[21–22] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "21",
-      "type": "fill",
-      "promptEn": "① This drink tastes coffee.\n② The baby looks an angel.\n③ It sounds like a good idea.\n④ She became a great painter.\n⑤ I feel proudly of my country.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "3|4",
         "4|3"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "This drink tastes coffee.",
+        "The baby looks an angel.",
+        "It sounds like a good idea.",
+        "She became a great painter.",
+        "I feel proudly of my country."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q22",
       "section": "21-22",
       "sectionTitle": "[21–22]",
-      "sectionInstructionKo": "[21–22] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 알맞은 보기 번호 두 개를 빈칸에 각각 쓰세요.",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[21–22] 다음 중 어법상 알맞은 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "22",
-      "type": "fill",
-      "promptEn": "① Amy is a good doctor.\n② The soup tasted very sour.\n③ The boy got angrily at his friend.\n④ She felt like hungry after she woke up.\n⑤ This T-shirt doesn't look like small for me.",
-      "blanks": 2,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ],
-      "unordered": true,
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "1|2",
         "2|1"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "Amy is a good doctor.",
+        "The soup tasted very sour.",
+        "The boy got angrily at his friend.",
+        "She felt like hungry after she woke up.",
+        "This T-shirt doesn't look like small for me."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q23",
       "section": "23-24",
       "sectionTitle": "[23–24]",
-      "sectionInstructionKo": "[23–24] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[23–24] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "23",
@@ -693,13 +702,14 @@
       "blanks": 1,
       "accept": [
         "healthy"
-      ]
+      ],
+      "hintKo": "고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요."
     },
     {
       "id": "q24",
       "section": "23-24",
       "sectionTitle": "[23–24]",
-      "sectionInstructionKo": "[23–24] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[23–24] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "24",
@@ -708,7 +718,8 @@
       "blanks": 1,
       "accept": [
         "calm"
-      ]
+      ],
+      "hintKo": "고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요."
     },
     {
       "id": "q25",

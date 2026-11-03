@@ -13,42 +13,13 @@ for (const f of ["normalize.js", "engine.js"]) {
   vm.runInContext(fs.readFileSync(path.join(JS, f), "utf8"), ctx);
 }
 const E = win.MRJ_ENGINE;
-const MODES = new Set(["choice", "words", "sentence"]);
+const { respFor, wrongFor } = require("./lib/answer-fixture").createFixtures(E);
+const MODES = new Set(["choice", "words", "sentence", "ox"]);
 let bad = 0;
 const fail = (...a) => {
   bad++;
   console.log("FAIL", ...a);
 };
-
-function respFor(it, acc) {
-  if (it.type === "mc") {
-    const circled = "①②③④⑤";
-    let i = circled.indexOf(String(acc).trim());
-    if (i < 0 && /^\d+$/.test(String(acc).trim())) i = Number(acc) - 1;
-    if (i < 0) i = (it.choices || []).indexOf(acc);
-    return i < 0 ? null : { value: it.choices[i] };
-  }
-  if ((it.blanks || 1) > 1 || String(acc).includes("|")) {
-    const p = String(acc).split("|");
-    return { parts: p, value: p.join(" ") };
-  }
-  return { value: acc };
-}
-
-function wrongFor(it) {
-  if (it.type === "mc") {
-    for (const ch of it.choices || []) {
-      if (!E.gradeItem(it, { value: ch })) return { value: ch };
-    }
-    return { value: "__WRONG_MC__" };
-  }
-  if ((it.blanks || 1) > 1 || String(it.accept[0]).includes("|")) {
-    const p = String(it.accept[0]).split("|");
-    p[p.length - 1] = "xyz";
-    return { parts: p, value: p.join(" ") };
-  }
-  return { value: "nope" };
-}
 
 const chapters = ["chapter02", "chapter03", "chapter04"];
 let fileCount = 0;

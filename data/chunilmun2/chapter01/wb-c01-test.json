@@ -9,8 +9,8 @@
   "timerMinutes": 30,
   "unitId": "wb-chapter-01",
   "unitTitle": "Ch 01 WB — 문장의 주요 형식",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6–7] 2문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9–10] 2문항(고르기), [11–12] 2문항(빈칸 말만 쓰기), [13] 1문항(빈칸 말만 쓰기), [14] 1문항(고르기), [15] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(여러 개 고르기), [5] 1문항(고르기), [6–7] 2문항(빈칸 말만 쓰기), [8] 1문항(고르기), [9–10] 2문항(고르기), [11–12] 2문항(빈칸 말만 쓰기), [13] 1문항(빈칸 말만 쓰기), [14] 1문항(고르기), [15] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -30,11 +30,11 @@
     {
       "id": "3-4",
       "title": "[3–4]",
-      "instructionKo": "[3–4] 다음 중 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 알맞은 보기 번호 두 개를 빈칸에 쓰세요. (순서 상관없음.)",
+      "instructionKo": "[3–4] 다음 중 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[3–4] 다음 중 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요.",
-      "ruleKo": "알맞은 보기 번호 두 개를 빈칸에 쓰세요. (순서 상관없음.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 2,
       "exampleCount": 0,
       "labels": [
@@ -209,39 +209,53 @@
       "id": "q03",
       "section": "3-4",
       "sectionTitle": "[3–4]",
-      "sectionInstructionKo": "[3–4] 다음 중 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 알맞은 보기 번호 두 개를 빈칸에 쓰세요. (순서 상관없음.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[3–4] 다음 중 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "3",
-      "type": "fill",
-      "promptEn": "I'll help my little brother ________________ new friends.\n① make\n② makes\n③ made\n④ making\n⑤ to make",
+      "type": "mc",
+      "promptEn": "I'll help my little brother ________________ new friends.",
       "accept": [
         "1|5",
         "5|1",
         "①|⑤",
         "⑤|①"
       ],
-      "blanks": 2,
-      "unordered": true
+      "select": "multi",
+      "choices": [
+        "make",
+        "makes",
+        "made",
+        "making",
+        "to make"
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q04",
       "section": "3-4",
       "sectionTitle": "[3–4]",
-      "sectionInstructionKo": "[3–4] 다음 중 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 알맞은 보기 번호 두 개를 빈칸에 쓰세요. (순서 상관없음.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[3–4] 다음 중 빈칸에 들어갈 말로 알맞은 것을 두 개 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "4",
-      "type": "fill",
-      "promptEn": "Frank heard someone ________________ music in the classroom.\n① play\n② plays\n③ played\n④ playing\n⑤ to play",
+      "type": "mc",
+      "promptEn": "Frank heard someone ________________ music in the classroom.",
       "accept": [
         "1|4",
         "4|1",
         "①|④",
         "④|①"
       ],
-      "blanks": 2,
-      "unordered": true
+      "select": "multi",
+      "choices": [
+        "play",
+        "plays",
+        "played",
+        "playing",
+        "to play"
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q05",

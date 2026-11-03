@@ -9,7 +9,7 @@
   "timerMinutes": 20,
   "unitId": "wb-chapter-12",
   "unitTitle": "Ch 12 WB — 관계대명사",
-  "sectionsVersion": 2,
+  "sectionsVersion": 3,
   "introKo": "이 연습은 Section C 6문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
@@ -86,18 +86,17 @@
       "section": "C",
       "sectionTitle": "Section C",
       "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
-      "answerMode": "sentence",
-      "answerModeTag": "Full sentence · 문장 전체",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
       "label": "C4",
       "type": "sentence",
       "promptEn": "(a book / that / pictures / has)\n→ ________________ looks easy.",
       "accept": [
-        "A book that has pictures looks easy.",
-        "A book that has pictures looks easy",
         "A book that has pictures",
-        "We will buy a book that has pictures.",
         "We will buy a book that has pictures"
-      ]
+      ],
+      "blanks": 1,
+      "hintKo": "빈칸에 들어갈 말만 쓰세요. 이미 나와 있는 앞뒤 문장은 다시 쓰지 마세요."
     },
     {
       "id": "c05",

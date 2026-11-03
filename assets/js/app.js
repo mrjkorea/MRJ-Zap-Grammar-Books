@@ -449,6 +449,7 @@
       en.innerHTML = promptEnToHtml(item.promptEn);
       card.appendChild(en);
     }
+    if (item.hintKo) card.appendChild($("div", "q-note", item.hintKo));
     if (item.noteKo) card.appendChild($("div", "q-note", item.noteKo));
     // Blank = box rule notes (see README): never reveal the answer, only how to type it
     if (item.sharedAnswer) card.appendChild($("div", "q-note", "※ 두 빈칸에 공통으로 들어갈 한 단어를 한 번만 쓰세요."));
@@ -569,6 +570,83 @@
     refreshButtons();
   }
 
+  function appendChoiceLabel(lab, ch, index, total) {
+    if (total > 2) lab.appendChild(document.createTextNode(index + 1 + ". "));
+    var span = document.createElement("span");
+    span.className = "mc-choice-text";
+    span.innerHTML = promptEnToHtml(ch);
+    lab.appendChild(span);
+  }
+
+  function renderMcOptions(parent, item, opts) {
+    opts = opts || {};
+    var choices = opts.choices || item.choices || [];
+    var multi = !!opts.multi;
+    var name = opts.name || item.id;
+    var box = $("div", "mc-options" + (multi ? " mc-multi" : ""));
+    choices.forEach(function (ch, ci) {
+      var lab = document.createElement("label");
+      var inp = document.createElement("input");
+      inp.type = multi ? "checkbox" : "radio";
+      inp.name = name;
+      inp.value = ch;
+      if (!multi) inp.required = true;
+      lab.appendChild(inp);
+      lab.appendChild(document.createTextNode(" "));
+      appendChoiceLabel(lab, ch, ci, choices.length);
+      box.appendChild(lab);
+    });
+    parent.appendChild(box);
+    return box;
+  }
+
+  function renderOxWidget(card, item, idx) {
+    var wrap = $("div", "ox-widget");
+    renderMcOptions(wrap, { id: item.id, choices: ["O", "X"] }, { choices: ["O", "X"] });
+    var rewrite = $("div", "ox-rewrite");
+    rewrite.hidden = true;
+    rewrite.appendChild($("div", "ox-rewrite-label", "X이면, 틀린 부분만 바르게 고친 말을 쓰세요."));
+    var inp = document.createElement("input");
+    inp.type = "text";
+    inp.name = item.id + "_rewrite";
+    inp.autocomplete = "off";
+    inp.placeholder = "고친 말만";
+    inp.setAttribute("aria-label", "Correction for " + itemDisplayLabel(item, idx));
+    rewrite.appendChild(inp);
+    wrap.appendChild(rewrite);
+    wrap.querySelectorAll('input[type="radio"]').forEach(function (radio) {
+      radio.addEventListener("change", function () {
+        var show = radio.checked && radio.value === "X";
+        var anyX = wrap.querySelector('input[value="X"]:checked');
+        rewrite.hidden = !anyX;
+        inp.required = !!anyX;
+        if (!show && !anyX) inp.value = "";
+      });
+    });
+    card.appendChild(wrap);
+  }
+
+  function renderPartsWidget(card, item, idx) {
+    var spec = item.parts || [];
+    spec.forEach(function (part, pi) {
+      var block = $("div", "part-block");
+      if (part.label) block.appendChild($("div", "part-label", part.label));
+      if (part.kind === "mc") {
+        renderMcOptions(block, item, { choices: part.choices || [], name: item.id + "_p" + pi });
+      } else {
+        var inp = document.createElement("input");
+        inp.type = "text";
+        inp.name = item.id + "_p" + pi;
+        inp.autocomplete = "off";
+        inp.required = true;
+        inp.placeholder = part.placeholder || "여기에 쓰세요";
+        inp.setAttribute("aria-label", (part.label || "Answer") + " " + itemDisplayLabel(item, idx));
+        block.appendChild(inp);
+      }
+      card.appendChild(block);
+    });
+  }
+
   function renderQuestionCard(item, idx, practiceId, matchStore) {
     var card = $("div", "q-card");
     var head = $("div", "q-head");
@@ -582,20 +660,15 @@
       return card;
     }
 
-    if (item.type === "mc") {
-      var opts = $("div", "mc-options");
-      (item.choices || []).forEach(function (ch, ci) {
-        var lab = document.createElement("label");
-        var inp = document.createElement("input");
-        inp.type = "radio";
-        inp.name = item.id;
-        inp.value = ch;
-        inp.required = true;
-        lab.appendChild(inp);
-        lab.appendChild(document.createTextNode(" " + (item.choices.length > 2 ? ci + 1 + ". " : "") + ch));
-        opts.appendChild(lab);
-      });
-      card.appendChild(opts);
+    if (item.type === "ox") {
+      renderOxWidget(card, item, idx);
+    } else if (item.type === "parts") {
+      renderPartsWidget(card, item, idx);
+    } else if (item.type === "mc") {
+      renderMcOptions(card, item, { multi: item.select === "multi" });
+      if (item.select === "multi") {
+        card.appendChild($("p", "mc-multi-hint", "해당하는 것을 모두 누르세요."));
+      }
     } else {
       var blanks = item.blanks || 1;
       var row = $("div", "blank-row");
@@ -1252,6 +1325,31 @@
         if (item.type === "match") {
           var st = matchStore[item.id] || { links: {} };
           responses[item.id] = { links: Object.assign({}, st.links) };
+        } else if (item.type === "ox") {
+          var oxPicked = form.querySelector('input[name="' + item.id + '"]:checked');
+          var oxRewrite = form.querySelector('[name="' + item.id + '_rewrite"]');
+          var oxShow = oxPicked && oxPicked.value === "X";
+          responses[item.id] = {
+            value: oxPicked ? oxPicked.value : "",
+            rewrite: oxShow && oxRewrite ? oxRewrite.value : "",
+          };
+        } else if (item.type === "parts") {
+          var partVals = [];
+          (item.parts || []).forEach(function (part, pi) {
+            if (part.kind === "mc") {
+              var partPick = form.querySelector('input[name="' + item.id + "_p" + pi + '"]:checked');
+              partVals.push(partPick ? partPick.value : "");
+            } else {
+              var partEl = form.querySelector('[name="' + item.id + "_p" + pi + '"]');
+              partVals.push(partEl ? partEl.value : "");
+            }
+          });
+          responses[item.id] = { parts: partVals, value: partVals.join("|") };
+        } else if (item.type === "mc" && item.select === "multi") {
+          var boxes = form.querySelectorAll('input[name="' + item.id + '"]:checked');
+          var pickedVals = [];
+          boxes.forEach(function (box) { pickedVals.push(box.value); });
+          responses[item.id] = { values: pickedVals, value: pickedVals.join("|") };
         } else if (item.type === "mc") {
           var picked = form.querySelector('input[name="' + item.id + '"]:checked');
           responses[item.id] = { value: picked ? picked.value : "" };
@@ -1350,6 +1448,15 @@
       return true;
     }
 
+    function multiReady() {
+      for (var i = 0; i < items.length; i++) {
+        var it = items[i];
+        if (it.type !== "mc" || it.select !== "multi") continue;
+        if (!form.querySelector('input[name="' + it.id + '"]:checked')) return false;
+      }
+      return true;
+    }
+
     function doSubmit() {
       if (locked && form.dataset.submitted) return;
       if (!matchComplete()) {
@@ -1366,6 +1473,10 @@
       e.preventDefault();
       if (!matchComplete()) {
         alert("짝 맞추기 문제에서 모든 왼쪽 항목을 연결해 주세요.");
+        return;
+      }
+      if (!multiReady()) {
+        alert("여러 개 고르기 문제에서 해당하는 보기를 하나 이상 누르세요.");
         return;
       }
       if (!locked) lockForm();

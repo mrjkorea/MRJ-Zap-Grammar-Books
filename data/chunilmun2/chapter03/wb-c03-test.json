@@ -9,8 +9,8 @@
   "timerMinutes": 30,
   "unitId": "wb-chapter-03",
   "unitTitle": "Ch 03 WB — 조동사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(고르기), [3] 1문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(고르기), [8] 1문항(고르기), [9] 1문항(빈칸 말만 쓰기), [10–11] 2문항(문장 전체 쓰기), [12] 1문항(고르기), [13] 1문항(고르기), [14] 1문항(고르기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1] 1문항(고르기), [2] 1문항(고르기), [3] 1문항(고르기), [4] 1문항(빈칸 말만 쓰기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(고르기), [8] 1문항(고르기), [9] 1문항(여러 개 고르기), [10–11] 2문항(문장 전체 쓰기), [12] 1문항(고르기), [13] 1문항(고르기), [14] 1문항(고르기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1",
@@ -127,11 +127,11 @@
     {
       "id": "9",
       "title": "[9]",
-      "instructionKo": "9 다음 밑줄 친 부분과 바꿔 쓸 수 있는 문장 두 개를 고르세요. 알맞은 보기 번호만 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
+      "instructionKo": "9 다음 밑줄 친 부분과 바꿔 쓸 수 있는 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "9 다음 밑줄 친 부분과 바꿔 쓸 수 있는 문장 두 개를 고르세요.",
-      "ruleKo": "알맞은 보기 번호만 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -377,24 +377,27 @@
       "id": "q09",
       "section": "9",
       "sectionTitle": "[9]",
-      "sectionInstructionKo": "9 다음 밑줄 친 부분과 바꿔 쓸 수 있는 문장 두 개를 고르세요. 알맞은 보기 번호만 빈칸에 각각 쓰세요. (①~⑤ 또는 1~5, 순서는 상관없어요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "9 다음 밑줄 친 부분과 바꿔 쓸 수 있는 문장 두 개를 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "9",
-      "type": "fill",
-      "promptEn": "A: Can I go outside and play now?\nB: No, don't do that. It's too cold.\n① You have to play outside now.\n② You must not play outside now.\n③ You had better play outside now.\n④ You should not play outside now.\n⑤ You don't have to play outside now.",
+      "type": "mc",
+      "promptEn": "A: Can I go outside and play now?\nB: No, don't do that. It's too cold.",
       "accept": [
         "2|4",
         "4|2",
         "②|④",
         "④|②"
       ],
-      "blanks": 2,
-      "unordered": true,
-      "blankPartLabels": [
-        "보기",
-        "보기"
-      ]
+      "select": "multi",
+      "choices": [
+        "You have to play outside now.",
+        "You must not play outside now.",
+        "You had better play outside now.",
+        "You should not play outside now.",
+        "You don't have to play outside now."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q10",

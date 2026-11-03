@@ -9,7 +9,7 @@
   "timerMinutes": 20,
   "unitId": "wb-chapter-02",
   "unitTitle": "Ch 02 WB — 시제",
-  "sectionsVersion": 2,
+  "sectionsVersion": 3,
   "introKo": "이 연습은 Section D 5문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
@@ -72,7 +72,9 @@
       "promptEn": "A thief stole my necklace. I don't have it now. (steal)",
       "accept": [
         "A thief has stolen my necklace"
-      ]
+      ],
+      "blanks": 1,
+      "hintKo": "고친 문장 전체를 한 칸에 쓰세요. 기호나 ‘틀린 말 → 고친 말’ 형식은 쓰지 마세요."
     },
     {
       "id": "d04",

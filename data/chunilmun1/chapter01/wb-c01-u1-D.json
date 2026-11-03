@@ -9,17 +9,17 @@
   "timerMinutes": 22,
   "unitId": "wb-chapter-01",
   "unitTitle": "Ch 01 WB — be동사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 Section D 8문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 Section D 8문항(고르고 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "D",
       "title": "Section D",
-      "instructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "directionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4.",
-      "ruleKo": "첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "itemCount": 8,
       "exampleCount": 0,
       "labels": [
@@ -39,177 +39,337 @@
       "id": "d01",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "D1",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "The bread ( was / were ) so sweet.",
       "promptKo": "→ 그 빵은 아주 ________________.",
       "blanks": 2,
-      "blankPartLabels": [
-        "be동사",
-        "해석"
-      ],
       "accept": [
         "was|달콤했다",
         "was|아주 달콤했다",
         "was|달콤했어",
         "was|아주 달콤했어"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "be동사",
+          "choices": [
+            "was",
+            "were"
+          ],
+          "accept": [
+            "was"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "해석",
+          "accept": [
+            "달콤했다",
+            "아주 달콤했다",
+            "달콤했어",
+            "아주 달콤했어"
+          ],
+          "placeholder": "우리말만"
+        }
+      ],
+      "hintKo": "be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요."
     },
     {
       "id": "d02",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "D2",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "I ( was / were ) in the restroom.",
       "promptKo": "→ 나는 ________________.",
       "blanks": 2,
-      "blankPartLabels": [
-        "be동사",
-        "해석"
-      ],
       "accept": [
         "was|화장실에 있었다",
         "was|화장실에 있었어"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "be동사",
+          "choices": [
+            "was",
+            "were"
+          ],
+          "accept": [
+            "was"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "해석",
+          "accept": [
+            "화장실에 있었다",
+            "화장실에 있었어"
+          ],
+          "placeholder": "우리말만"
+        }
+      ],
+      "hintKo": "be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요."
     },
     {
       "id": "d03",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "D3",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "The sky ( is / are ) so clear today.",
       "promptKo": "→ 오늘은 하늘이 아주 ________________.",
       "blanks": 2,
-      "blankPartLabels": [
-        "be동사",
-        "해석"
-      ],
       "accept": [
         "is|맑다",
         "is|맑아",
         "is|맑습니다",
         "is|아주 맑다",
         "is|아주 맑아"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "be동사",
+          "choices": [
+            "is",
+            "are"
+          ],
+          "accept": [
+            "is"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "해석",
+          "accept": [
+            "맑다",
+            "맑아",
+            "맑습니다",
+            "아주 맑다",
+            "아주 맑아"
+          ],
+          "placeholder": "우리말만"
+        }
+      ],
+      "hintKo": "be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요."
     },
     {
       "id": "d04",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "D4",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "We ( was / were ) the winners.",
       "promptKo": "→ 우리가 ________________.",
       "blanks": 2,
-      "blankPartLabels": [
-        "be동사",
-        "해석"
-      ],
       "accept": [
         "were|우승자였다",
         "were|우승자였어"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "be동사",
+          "choices": [
+            "was",
+            "were"
+          ],
+          "accept": [
+            "were"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "해석",
+          "accept": [
+            "우승자였다",
+            "우승자였어"
+          ],
+          "placeholder": "우리말만"
+        }
+      ],
+      "hintKo": "be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요."
     },
     {
       "id": "d05",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "D5",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "Your bag ( is / are ) on the bed.",
       "promptKo": "→ 너의 가방은 ________________.",
       "blanks": 2,
-      "blankPartLabels": [
-        "be동사",
-        "해석"
-      ],
       "accept": [
         "is|침대 위에 있다",
         "is|침대 위에 있어"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "be동사",
+          "choices": [
+            "is",
+            "are"
+          ],
+          "accept": [
+            "is"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "해석",
+          "accept": [
+            "침대 위에 있다",
+            "침대 위에 있어"
+          ],
+          "placeholder": "우리말만"
+        }
+      ],
+      "hintKo": "be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요."
     },
     {
       "id": "d06",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "D6",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "Tony ( is / are ) a music teacher.",
       "promptKo": "→ Tony는 ________________.",
       "blanks": 2,
-      "blankPartLabels": [
-        "be동사",
-        "해석"
-      ],
       "accept": [
         "is|음악 선생님이다",
         "is|음악 선생님이야",
         "is|음악 선생님이에요"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "be동사",
+          "choices": [
+            "is",
+            "are"
+          ],
+          "accept": [
+            "is"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "해석",
+          "accept": [
+            "음악 선생님이다",
+            "음악 선생님이야",
+            "음악 선생님이에요"
+          ],
+          "placeholder": "우리말만"
+        }
+      ],
+      "hintKo": "be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요."
     },
     {
       "id": "d07",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "D7",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "The guy ( is / are ) very handsome.",
       "promptKo": "→ 그 남자는 매우 ________________.",
       "blanks": 2,
-      "blankPartLabels": [
-        "be동사",
-        "해석"
-      ],
       "accept": [
         "is|잘생겼다",
         "is|잘생겼어",
         "is|매우 잘생겼다",
         "is|매우 잘생겼어"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "be동사",
+          "choices": [
+            "is",
+            "are"
+          ],
+          "accept": [
+            "is"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "해석",
+          "accept": [
+            "잘생겼다",
+            "잘생겼어",
+            "매우 잘생겼다",
+            "매우 잘생겼어"
+          ],
+          "placeholder": "우리말만"
+        }
+      ],
+      "hintKo": "be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요."
     },
     {
       "id": "d08",
       "section": "D",
       "sectionTitle": "Section D",
-      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "다음 중 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 1·2·3·4. be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "D8",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "Oliver and I ( was / were ) in the bank.",
       "promptKo": "→ Oliver와 나는 ________________.",
       "blanks": 2,
-      "blankPartLabels": [
-        "be동사",
-        "해석"
-      ],
       "accept": [
         "were|은행에 있었다",
         "were|은행에 있었어"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "be동사",
+          "choices": [
+            "was",
+            "were"
+          ],
+          "accept": [
+            "were"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "해석",
+          "accept": [
+            "은행에 있었다",
+            "은행에 있었어"
+          ],
+          "placeholder": "우리말만"
+        }
+      ],
+      "hintKo": "be동사는 눌러 고르고, 빈칸에는 우리말 해석만 쓰세요."
     }
   ]
 }

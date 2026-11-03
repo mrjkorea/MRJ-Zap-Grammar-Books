@@ -9,8 +9,8 @@
   "timerMinutes": 32,
   "unitId": "wb-chapter-09",
   "unitTitle": "Ch 09 WB — 형용사와 부사",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(고르기), [5] 1문항(빈칸 말만 쓰기), [6–7] 2문항(고르기), [8] 1문항(빈칸 말만 쓰기), [9] 1문항(빈칸 말만 쓰기), [10] 1문항(빈칸 말만 쓰기), [11] 1문항(고르기), [12] 1문항(고르기), [13] 1문항(고르기), [14] 1문항(고르기), [15] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(고르기), [5] 1문항(여러 개 고르기), [6–7] 2문항(고르기), [8] 1문항(빈칸 말만 쓰기), [9] 1문항(빈칸 말만 쓰기), [10] 1문항(여러 개 고르기), [11] 1문항(고르기), [12] 1문항(고르기), [13] 1문항(고르기), [14] 1문항(고르기), [15] 1문항(고르고 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -45,11 +45,11 @@
     {
       "id": "5",
       "title": "[5]",
-      "instructionKo": "[5] 다음 중 밑줄 친 부분이 어법상 알맞은 문장을 모두 고르세요. 알맞은 보기 번호를 모두 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[5] 다음 중 밑줄 친 부분이 어법상 알맞은 문장을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[5] 다음 중 밑줄 친 부분이 어법상 알맞은 문장을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호를 모두 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -102,11 +102,11 @@
     {
       "id": "10",
       "title": "[10]",
-      "instructionKo": "[10] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 모두 고르세요. 알맞은 보기 번호를 모두 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[10] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[10] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호를 모두 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -172,11 +172,11 @@
     {
       "id": "15",
       "title": "[15]",
-      "instructionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 기호와 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요.",
       "directionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요.",
-      "ruleKo": "기호와 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "ruleKo": "틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -283,22 +283,25 @@
       "id": "q05",
       "section": "5",
       "sectionTitle": "[5]",
-      "sectionInstructionKo": "[5] 다음 중 밑줄 친 부분이 어법상 알맞은 문장을 모두 고르세요. 알맞은 보기 번호를 모두 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[5] 다음 중 밑줄 친 부분이 어법상 알맞은 문장을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "5",
-      "type": "fill",
-      "promptEn": "① Mix eggs with a few flour.\n② Do you have plenty of money?\n③ Mom didn't make much sandwiches.\n④ The team won much games this week.\n⑤ He gained a little weight, but he still looks slim.",
-      "blanks": 2,
-      "unordered": true,
-      "blankPartLabels": [
-        "번호 1",
-        "번호 2"
-      ],
+      "type": "mc",
+      "promptEn": "다음 보기에서 고르세요.",
       "accept": [
         "2|5",
         "5|2"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "Mix eggs with a few flour.",
+        "Do you have plenty of money?",
+        "Mom didn't make much sandwiches.",
+        "The team won much games this week.",
+        "He gained a little weight, but he still looks slim."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q06",
@@ -385,22 +388,25 @@
       "id": "q10",
       "section": "10",
       "sectionTitle": "[10]",
-      "sectionInstructionKo": "[10] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 모두 고르세요. 알맞은 보기 번호를 모두 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[10] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "10",
-      "type": "fill",
+      "type": "mc",
       "promptEn": "The library in my town is a ① hundred-years-old building. I ② always study in the reading room, because there is ③ little noise. But the nearby cafe ④ is usually crowded. I ⑤ go rarely there.",
-      "blanks": 2,
-      "unordered": true,
-      "blankPartLabels": [
-        "번호 1",
-        "번호 2"
-      ],
       "accept": [
         "1|5",
         "5|1"
-      ]
+      ],
+      "select": "multi",
+      "choices": [
+        "hundred-years-old",
+        "always",
+        "little",
+        "is",
+        "go"
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q11",
@@ -498,23 +504,66 @@
       "id": "q15",
       "section": "15",
       "sectionTitle": "[15]",
-      "sectionInstructionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 기호와 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "sectionInstructionKo": "[15] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요.",
       "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "answerModeTag": "Choose + write · 고르고 쓰기",
       "label": "15",
-      "type": "fill",
+      "type": "parts",
       "promptEn": "There are ⓐ the number of restaurants ⓑ near my house. One of them is ⓒ high famous and crowded. ⓓ Many people always wait ⓔ long for their turn.",
       "blanks": 4,
-      "blankPartLabels": [
-        "기호 1",
-        "고친 말 1",
-        "기호 2",
-        "고친 말 2"
-      ],
       "accept": [
         "a|a number of|c|highly",
         "ⓐ|a number of|ⓒ|highly"
-      ]
+      ],
+      "parts": [
+        {
+          "kind": "mc",
+          "label": "(1) 틀린 기호",
+          "choices": [
+            "ⓐ",
+            "ⓑ",
+            "ⓒ",
+            "ⓓ",
+            "ⓔ"
+          ],
+          "accept": [
+            "ⓐ",
+            "a"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "(1) 고친 말",
+          "accept": [
+            "a number of"
+          ],
+          "placeholder": "고친 말만"
+        },
+        {
+          "kind": "mc",
+          "label": "(2) 틀린 기호",
+          "choices": [
+            "ⓐ",
+            "ⓑ",
+            "ⓒ",
+            "ⓓ",
+            "ⓔ"
+          ],
+          "accept": [
+            "ⓒ",
+            "c"
+          ]
+        },
+        {
+          "kind": "fill",
+          "label": "(2) 고친 말",
+          "accept": [
+            "highly"
+          ],
+          "placeholder": "고친 말만"
+        }
+      ],
+      "hintKo": "틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요."
     }
   ]
 }

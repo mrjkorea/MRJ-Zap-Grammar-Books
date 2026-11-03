@@ -17,62 +17,14 @@ for (const f of ["normalize.js", "engine.js", "catalog.js"]) {
   vm.runInContext(fs.readFileSync(path.join(JS, f), "utf8"), ctx);
 }
 const E = win.MRJ_ENGINE;
+const { respFor, wrongFor } = require("./lib/answer-fixture").createFixtures(E);
 const catalog = win.MRJ_CATALOG;
-const MODES = new Set(["choice", "words", "sentence", "match"]);
+const MODES = new Set(["choice", "words", "sentence", "match", "ox"]);
 let bad = 0;
 const fail = (...a) => {
   bad++;
   console.log("FAIL", ...a);
 };
-
-function respFor(it, acc) {
-  if (it.type === "match") {
-    const links = {};
-    for (const line of (it.accept || []).length ? it.accept : [acc]) {
-      const [left, right] = String(line).split("|");
-      if (left != null && right != null) links[left.trim()] = right.trim();
-    }
-    if (!Object.keys(links).length && (it.pairs || []).length) {
-      for (const p of it.pairs) links[p.left] = p.right;
-    }
-    return { links };
-  }
-  if (it.type === "mc") {
-    const circled = "①②③④⑤";
-    let i = circled.indexOf(String(acc).trim());
-    if (i < 0 && /^\d+$/.test(String(acc).trim())) i = Number(acc) - 1;
-    if (i < 0) i = (it.choices || []).indexOf(acc);
-    return i < 0 ? null : { value: it.choices[i] };
-  }
-  if ((it.blanks || 1) > 1 || String(acc).includes("|")) {
-    const p = String(acc).split("|");
-    return { parts: p, value: p.join(" ") };
-  }
-  return { value: acc };
-}
-
-function wrongFor(it) {
-  if (it.type === "match") {
-    const links = {};
-    for (const p of it.pairs || []) {
-      const alt = p.right === "2형식" ? "5형식" : "2형식";
-      links[p.left] = alt;
-    }
-    return { links };
-  }
-  if (it.type === "mc") {
-    for (const ch of it.choices || []) {
-      if (!E.gradeItem(it, { value: ch })) return { value: ch };
-    }
-    return { value: "__WRONG_MC__" };
-  }
-  if ((it.blanks || 1) > 1 || String(it.accept[0]).includes("|")) {
-    const p = String(it.accept[0]).split("|");
-    p[p.length - 1] = "xyz";
-    return { parts: p, value: p.join(" ") };
-  }
-  return { value: "nope" };
-}
 
 const practiceIds = new Set();
 const units = catalog.units[bookId] || [];

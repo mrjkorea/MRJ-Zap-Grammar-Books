@@ -11,58 +11,13 @@ for (const f of ["normalize.js", "engine.js"]) {
   vm.runInContext(fs.readFileSync(path.join(JS, f), "utf8"), ctx);
 }
 const E = win.MRJ_ENGINE;
-const MODES = new Set(["choice", "words", "sentence", "match"]);
+const { respFor, wrongFor } = require("./lib/answer-fixture").createFixtures(E);
+const MODES = new Set(["choice", "words", "sentence", "match", "ox"]);
 let bad = 0;
 const fail = (...a) => {
   bad++;
   console.log("FAIL", ...a);
 };
-
-function respFor(it, acc) {
-  if (it.type === "match") {
-    const links = {};
-    for (const line of (it.accept || []).length ? it.accept : [acc]) {
-      const [left, right] = String(line).split("|");
-      if (left != null && right != null) links[left.trim()] = right.trim();
-    }
-    if (!Object.keys(links).length && (it.pairs || []).length) {
-      for (const p of it.pairs) links[p.left] = p.right;
-    }
-    return { links };
-  }
-  if (it.type === "mc") {
-    const circled = "①②③④⑤";
-    let i = circled.indexOf(String(acc).trim());
-    if (i < 0 && /^\d+$/.test(String(acc).trim())) i = Number(acc) - 1;
-    if (i < 0) i = (it.choices || []).indexOf(acc);
-    return i < 0 ? null : { value: it.choices[i] };
-  }
-  if ((it.blanks || 1) > 1 || String(acc).includes("|")) {
-    const p = String(acc).split("|");
-    return { parts: p, value: p.join(" ") };
-  }
-  return { value: acc };
-}
-
-function wrongFor(it) {
-  if (it.type === "match") {
-    const links = {};
-    for (const p of it.pairs || []) links[p.left] = "__WRONG__";
-    return { links };
-  }
-  if (it.type === "mc") {
-    for (const ch of it.choices || []) {
-      if (!E.gradeItem(it, { value: ch })) return { value: ch };
-    }
-    return { value: "__WRONG_MC__" };
-  }
-  if ((it.blanks || 1) > 1 || String(it.accept[0]).includes("|")) {
-    const p = String(it.accept[0]).split("|");
-    p[p.length - 1] = "xyz";
-    return { parts: p, value: p.join(" ") };
-  }
-  return { value: "nope" };
-}
 
 function smokeDir(relDir) {
   const dir = path.join(REPO, relDir);
@@ -124,8 +79,25 @@ function smokeDir(relDir) {
       }
       if (it.type === "mc") {
         if (!it.choices || it.choices.length < 2) fail(rel, it.id, "mc choices");
-        const digit = String(it.accept[0]);
-        if (!/^[1-5]$/.test(digit)) fail(rel, it.id, "mc accept[0] must be 1-5", digit);
+        const key = String(it.accept[0]);
+        const ox = it.choices.length === 2 && it.choices[0] === "O" && it.choices[1] === "X";
+        if (it.select === "multi") {
+          const parts = key.split("|").filter(Boolean);
+          if (parts.length < 2) fail(rel, it.id, "multi accept needs 2+ choices", key);
+          for (const part of parts) {
+            const n = Number(part);
+            const circled = "①②③④⑤⑥⑦⑧⑨⑩".indexOf(part);
+            const ok =
+              (Number.isInteger(n) && n >= 1 && n <= it.choices.length) ||
+              (circled >= 0 && circled < it.choices.length) ||
+              it.choices.includes(part);
+            if (!ok) fail(rel, it.id, "multi accept token out of range", part);
+          }
+        } else if (ox) {
+          if (key !== "O" && key !== "X") fail(rel, it.id, "O/X accept must be O or X", key);
+        } else if (!/^[1-5]$/.test(key)) {
+          fail(rel, it.id, "mc accept[0] must be 1-5", key);
+        }
       }
     }
     for (const s of d.sections) {

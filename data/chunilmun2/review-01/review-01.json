@@ -9,8 +9,8 @@
   "timerMinutes": 45,
   "unitId": "review-01",
   "unitTitle": "총괄평가 1회 (Ch01–04)",
-  "sectionsVersion": 2,
-  "introKo": "이 연습은 [1–2] 2문항(고르기), [3] 1문항(빈칸 말만 쓰기), [4–5] 2문항(빈칸 말만 쓰기), [6–8] 3문항(고르기), [9–11] 3문항(고르기), [12–14] 3문항(문장 전체 쓰기), [15–17] 3문항(고르기), [18–19] 2문항(고르기), [20] 1문항(고르기), [21] 1문항(고르기), [22–23] 2문항(빈칸 말만 쓰기), [24] 1문항(문장 전체 쓰기), [25] 1문항(고르기), [26] 1문항(고르기), [27] 1문항(고르기), [28] 1문항(고르기), [29] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3] 1문항(여러 개 고르기), [4–5] 2문항(빈칸 말만 쓰기), [6–8] 3문항(고르기), [9–11] 3문항(고르기), [12–14] 3문항(문장 전체 쓰기), [15–17] 3문항(고르기), [18–19] 2문항(고르기), [20] 1문항(고르기), [21] 1문항(고르기), [22–23] 2문항(빈칸 말만 쓰기), [24] 1문항(문장 전체 쓰기), [25] 1문항(고르기), [26] 1문항(고르기), [27] 1문항(고르기), [28] 1문항(고르기), [29] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -30,11 +30,11 @@
     {
       "id": "3",
       "title": "[3]",
-      "instructionKo": "[3] 다음 중 밑줄 친 부분이 be able to와 의미가 다른 것을 모두 고르세요. 알맞은 보기 번호를 모두 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "[3] 다음 중 밑줄 친 부분이 be able to와 의미가 다른 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
       "directionKo": "[3] 다음 중 밑줄 친 부분이 be able to와 의미가 다른 것을 모두 고르세요.",
-      "ruleKo": "알맞은 보기 번호를 모두 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "ruleKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "itemCount": 1,
       "exampleCount": 0,
       "labels": [
@@ -44,9 +44,9 @@
     {
       "id": "4-5",
       "title": "[4–5]",
-      "instructionKo": "[4–5] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 어법에 맞지 않은 부분을 고친 말만 쓰세요.",
+      "instructionKo": "[4–5] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 부분을 바르게 고친 말만 쓰세요. 틀린 말, X, 화살표, 쉼표를 앞에 붙이지 마세요.",
       "directionKo": "[4–5] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
-      "ruleKo": "어법에 맞지 않은 부분을 고친 말만 쓰세요.",
+      "ruleKo": "틀린 부분을 바르게 고친 말만 쓰세요. 틀린 말, X, 화살표, 쉼표를 앞에 붙이지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "itemCount": 2,
@@ -314,23 +314,30 @@
       "id": "q03",
       "section": "3",
       "sectionTitle": "[3]",
-      "sectionInstructionKo": "[3] 다음 중 밑줄 친 부분이 be able to와 의미가 다른 것을 모두 고르세요. 알맞은 보기 번호를 모두 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
+      "sectionInstructionKo": "[3] 다음 중 밑줄 친 부분이 be able to와 의미가 다른 것을 모두 고르세요. 보기를 눌러 고르세요. 번호는 쓰지 않습니다.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 여러 개 고르기",
       "label": "3",
-      "type": "fill",
-      "promptEn": "밑줄 친 can이 be able to(~할 수 있다)와 의미가 다른 것을 모두 고르고, 번호를 두 칸에 쓰세요.\n① John <u>can</u> play the violin well.\n② <u>Can</u> you leave the door open?\n③ He <u>can</u> read these French sentences.\n④ I <u>can</u> help you with your homework.\n⑤ You <u>can</u> take this laptop home if you bring it back tomorrow.",
+      "type": "mc",
+      "promptEn": "밑줄 친 can이 be able to(~할 수 있다)와 의미가 다른 것을 모두 고르고, 번호를 두 칸에 쓰세요.",
       "accept": [
         "2|5"
       ],
-      "blanks": 2,
-      "unordered": true
+      "select": "multi",
+      "choices": [
+        "John <u>can</u> play the violin well.",
+        "<u>Can</u> you leave the door open?",
+        "He <u>can</u> read these French sentences.",
+        "I <u>can</u> help you with your homework.",
+        "You <u>can</u> take this laptop home if you bring it back tomorrow."
+      ],
+      "hintKo": "보기를 눌러 고르세요. 번호는 쓰지 않습니다."
     },
     {
       "id": "q04",
       "section": "4-5",
       "sectionTitle": "[4–5]",
-      "sectionInstructionKo": "[4–5] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 어법에 맞지 않은 부분을 고친 말만 쓰세요.",
+      "sectionInstructionKo": "[4–5] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 부분을 바르게 고친 말만 쓰세요. 틀린 말, X, 화살표, 쉼표를 앞에 붙이지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "4",
@@ -339,13 +346,14 @@
       "accept": [
         "is"
       ],
-      "blanks": 1
+      "blanks": 1,
+      "hintKo": "틀린 부분을 바르게 고친 말만 쓰세요. 틀린 말, X, 화살표, 쉼표를 앞에 붙이지 마세요."
     },
     {
       "id": "q05",
       "section": "4-5",
       "sectionTitle": "[4–5]",
-      "sectionInstructionKo": "[4–5] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 어법에 맞지 않은 부분을 고친 말만 쓰세요.",
+      "sectionInstructionKo": "[4–5] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 틀린 부분을 바르게 고친 말만 쓰세요. 틀린 말, X, 화살표, 쉼표를 앞에 붙이지 마세요.",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
       "label": "5",
@@ -354,7 +362,8 @@
       "accept": [
         "doesn't"
       ],
-      "blanks": 1
+      "blanks": 1,
+      "hintKo": "틀린 부분을 바르게 고친 말만 쓰세요. 틀린 말, X, 화살표, 쉼표를 앞에 붙이지 마세요."
     },
     {
       "id": "q06",
