@@ -370,19 +370,20 @@
       "answerModeTag": "Choose · 고르기",
       "label": "11",
       "type": "mc",
-      "promptEn": "Group It by usage (a–f):",
+      "promptKo": "(A) 모든 사람은 그 새로운 학생을 좋아한다.\n(B) 이 장소는 그것의 야경으로 유명하다.\n(C) 그 가게는 짧은 바지밖에 없다. 나는 긴 바지가 필요하다.",
+      "promptEn": "(A) Everybody ______ the new student.\n(B) This place is famous for ______ night view.\n(C) The store has only short pants. I need long ______.",
       "choices": [
-        "ⓐ, ⓔ, ⓕ",
-        "ⓐ, ⓑ, ⓓ",
-        "ⓐ, ⓒ, ⓓ",
-        "ⓑ, ⓓ, ⓕ",
-        "ⓒ, ⓓ, ⓔ"
+        "like — it's — one",
+        "likes — its — ones",
+        "likes — it's — ones",
+        "like — its — one",
+        "likes — it's — one"
       ],
       "accept": [
-        "5",
-        "⑤"
+        "2",
+        "②"
       ],
-      "answer": "5"
+      "answer": "2"
     },
     {
       "id": "q12",

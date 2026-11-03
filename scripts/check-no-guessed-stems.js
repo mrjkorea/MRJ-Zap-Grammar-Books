@@ -26,13 +26,7 @@ const COMBO_MARK = "①②③④⑤⑥⑦⑧⑨⑩ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙ
 const COMBO_CHOICE = new RegExp(
   `^[${COMBO_MARK}](?:\\s*[,，、]\\s*[${COMBO_MARK}])+$`
 );
-/** Source sentences are not in the repo extracts or the answer-key 해설. */
-const COMBO_ALLOW = new Set([
-  "data/chunilmun1/chapter06/wb-c06-test.json q11",
-  "data/chunilmun1/chapter07/wb-c07-test.json q09",
-  "data/chunilmun1/chapter08/wb-c08-test.json q14",
-  "data/chunilmun1/chapter08/wb-c08-test.json q15",
-]);
+const COMBO_ALLOW = new Set();
 
 function walkJsonFiles(dir, out = []) {
   for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {

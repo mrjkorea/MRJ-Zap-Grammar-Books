@@ -148,24 +148,37 @@ FIXED = [
         "reason": "The card showed only “→ [2]”.",
         "fix": "The that-clause roles are on the card. Accept stays 목적어.",
     },
+    {
+        "bookId": "chunilmun-grammar-1",
+        "practiceId": "cm1:wb-c06:test",
+        "label": "11",
+        "reason": "The card said “Group It by usage (a–f)” with only letter groups. The workbook answer key’s item 11 is the (A)(B)(C) everybody / night view / pants item, answer ②.",
+        "fix": "Stem is the three sentences. Choice ② is likes — its — ones, the forms named in the 해설. The other four choices use the wrong forms the 해설 names (like, it's, one). Accept is 2 / ②.",
+    },
+    {
+        "bookId": "chunilmun-grammar-1",
+        "practiceId": "cm1:wb-c07:test",
+        "label": "9",
+        "reason": "Combination bubbles did not include the key’s set ①, ②, ④.",
+        "fix": "Five sentences are the choices (multi-select). Accept is 1|2|4. English follows the 해설 errors: a little books, goes usually, the quietest than.",
+    },
+    {
+        "bookId": "chunilmun-grammar-1",
+        "practiceId": "cm1:wb-c08:test",
+        "label": "14",
+        "reason": "Combination bubbles did not include the key’s set ③, ⑤.",
+        "fix": "Five sentences are the choices (multi-select). Accept is 3|5. Error strings are the ones quoted in the 해설: Don't be lose, Washes, Don't came.",
+    },
+    {
+        "bookId": "chunilmun-grammar-1",
+        "practiceId": "cm1:wb-c08:test",
+        "label": "15",
+        "reason": "Letter groups had no sentences, and the stored answer was ④. The key is ③.",
+        "fix": "Six sentences are on the card. Choice ③ is ⓐ, ⓓ, ⓕ, the grammatical set. Accept is 3 / ③. ⓒ and ⓔ use the quoted errors (Where your brother was, hadn't they). ⓑ shows the word-order error corrected by the 해설’s “What a beautiful view it is!”",
+    },
 ]
 
-LEFTOVER_NOTES = {
-    ("cm1:wb-c06:test", "11"): (
-        "Sentences ⓐ–ⓕ are not in the repo extracts or the workbook 해설. "
-        "Nearby item 8 is a different It set and was not reused. Not a picture task."
-    ),
-    ("cm1:wb-c07:test", "9"): (
-        "Source sentences are not in the 해설. The answer-key grid reads ①, ②, ④, "
-        "which is not one of the printed choices in this JSON, so the sentences cannot be reconstructed without guessing. Not a picture task."
-    ),
-    ("cm1:wb-c08:test", "14"): (
-        "Sentences ①–⑤ are not in the 해설. Not a picture task."
-    ),
-    ("cm1:wb-c08:test", "15"): (
-        "Sentences ⓐ–ⓕ are not in the 해설. Not a picture task."
-    ),
-}
+LEFTOVER_NOTES = {}
 
 
 def load_practices():
@@ -339,8 +352,8 @@ def render(rows, hits, n_items) -> str:
         lines.append("None.")
     else:
         lines += [
-            "These still need the printed sentences. They are not picture tasks, so a page-scan crop would not make them standalone.",
-            "",
+        "These still need text from the printed page. A page-scan crop is not a fix.",
+        "",
             "| bookId | practiceId | label | file | reason | suggested fix |",
             "| --- | --- | --- | --- | --- | --- |",
         ]

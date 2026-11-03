@@ -4,14 +4,14 @@ Every practice JSON under `data/` was scanned. A hit is an item a student cannot
 
 - Practice files scanned: **1283** (every `data/**/*.json` with a `practiceId`)
 - Items scanned: **18756**
-- Hits still open: **4**
-- Items fixed in this change: **17**
+- Hits still open: **0**
+- Items fixed in this change: **21**
 
 ## Coverage by book
 
 | bookId | files | items | open hits |
 | --- | ---: | ---: | ---: |
-| chunilmun-grammar-1 | 248 | 2008 | 4 |
+| chunilmun-grammar-1 | 248 | 2008 | 0 |
 | chunilmun-grammar-2 | 244 | 1934 | 0 |
 | green1 | 64 | 1025 | 0 |
 | red1 | 11 | 172 | 0 |
@@ -49,17 +49,14 @@ Every practice JSON under `data/` was scanned. A hit is an item a student cannot
 | zap-green-4 | g4:u08:wrap | 1-2 | The card showed only “→ [2]”. | The if clause is on the card. Accept stays 조건. |
 | zap-green-4 | g4:u08:wrap | 1-6 | The card showed only “→ [6]”. | The clause the blank finishes is on the card. Accept stays ~한다면. |
 | zap-green-4 | g4:u08:wrap | 2-2 | The card showed only “→ [2]”. | The that-clause roles are on the card. Accept stays 목적어. |
+| chunilmun-grammar-1 | cm1:wb-c06:test | 11 | The card said “Group It by usage (a–f)” with only letter groups. The workbook answer key’s item 11 is the (A)(B)(C) everybody / night view / pants item, answer ②. | Stem is the three sentences. Choice ② is likes — its — ones, the forms named in the 해설. The other four choices use the wrong forms the 해설 names (like, it's, one). Accept is 2 / ②. |
+| chunilmun-grammar-1 | cm1:wb-c07:test | 9 | Combination bubbles did not include the key’s set ①, ②, ④. | Five sentences are the choices (multi-select). Accept is 1|2|4. English follows the 해설 errors: a little books, goes usually, the quietest than. |
+| chunilmun-grammar-1 | cm1:wb-c08:test | 14 | Combination bubbles did not include the key’s set ③, ⑤. | Five sentences are the choices (multi-select). Accept is 3|5. Error strings are the ones quoted in the 해설: Don't be lose, Washes, Don't came. |
+| chunilmun-grammar-1 | cm1:wb-c08:test | 15 | Letter groups had no sentences, and the stored answer was ④. The key is ③. | Six sentences are on the card. Choice ③ is ⓐ, ⓓ, ⓕ, the grammatical set. Accept is 3 / ③. ⓒ and ⓔ use the quoted errors (Where your brother was, hadn't they). ⓑ shows the word-order error corrected by the 해설’s “What a beautiful view it is!” |
 
 ## Open hits
 
-These still need the printed sentences. They are not picture tasks, so a page-scan crop would not make them standalone.
-
-| bookId | practiceId | label | file | reason | suggested fix |
-| --- | --- | --- | --- | --- | --- |
-| chunilmun-grammar-1 | cm1:wb-c06:test | 11 | `data/chunilmun1/chapter06/wb-c06-test.json` | combination choices (①, ④ / ⓐ, ⓑ style) with no source sentences on the card | Leave as leftover. Sentences ⓐ–ⓕ are not in the repo extracts or the workbook 해설. Nearby item 8 is a different It set and was not reused. Not a picture task. |
-| chunilmun-grammar-1 | cm1:wb-c07:test | 9 | `data/chunilmun1/chapter07/wb-c07-test.json` | combination choices (①, ④ / ⓐ, ⓑ style) with no source sentences on the card | Leave as leftover. Source sentences are not in the 해설. The answer-key grid reads ①, ②, ④, which is not one of the printed choices in this JSON, so the sentences cannot be reconstructed without guessing. Not a picture task. |
-| chunilmun-grammar-1 | cm1:wb-c08:test | 14 | `data/chunilmun1/chapter08/wb-c08-test.json` | combination choices (①, ④ / ⓐ, ⓑ style) with no source sentences on the card | Leave as leftover. Sentences ①–⑤ are not in the 해설. Not a picture task. |
-| chunilmun-grammar-1 | cm1:wb-c08:test | 15 | `data/chunilmun1/chapter08/wb-c08-test.json` | combination choices (①, ④ / ⓐ, ⓑ style) with no source sentences on the card | Leave as leftover. Sentences ⓐ–ⓕ are not in the 해설. Not a picture task. |
+None.
 
 ## Not flagged
 
