@@ -11,6 +11,12 @@ A picture hit is separate from a sheet-text hit. The instruction says to look at
 - Sheet-text items fixed earlier: **21**
 - Picture scene lines added in this change: **306** (before: 306 picture hits, 0 rendered-image exemptions among them). After the lines were prepended, picture hits are 0.
 
+> **2026-11-06 second pass.** A deeper check (`scripts/audit-sheet-standalone-v2.py` plus
+> `scripts/audit-key-answers.js`, which grades every item's own key through the live engine) found 104
+> write-in items whose keyed answer could never score, and four practices that were never in the
+> catalog. All are fixed; two cards still need a page that is not in the book PDF. Detail:
+> `docs/audit-2026-11-06-completion.md`.
+
 ## Coverage by book
 
 | bookId | files | items | open sheet-text hits | open picture hits |
