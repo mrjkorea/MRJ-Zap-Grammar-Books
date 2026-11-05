@@ -5,7 +5,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261104-picture-cues";
+  var BUILD = "20261106-blank-join";
   var panelBookId = "";
   var chipClickBound = false;
   var lastActive = null;

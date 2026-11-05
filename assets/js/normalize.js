@@ -163,8 +163,24 @@
         if (users.length === 1 && exp.length > 1) continue;
       }
       if (users.length === 1 && matchAccept(users[0], acceptList[i])) return true;
+      // Boxes and keyed words can be grouped differently (the printed stem splits
+      // a phrase over more boxes than the key words, or the other way round).
+      // Compare the whole answer word by word, in order, as a fallback.
+      if (users.length > 1 && joinedBlankMatch(users, pattern)) return true;
     }
     return false;
+  }
+
+  /** Joined fallback: the boxes read as one phrase, compared with the keyed phrase. */
+  function joinedBlankMatch(users, pattern) {
+    var keyed = String(pattern).split("|").join(" ");
+    if (!keyed.trim()) return false;
+    var typed = users
+      .map(function (part) {
+        return String(part == null ? "" : part);
+      })
+      .join(" ");
+    return matchAccept(typed, [keyed]);
   }
 
   function permuteIndices(n) {
