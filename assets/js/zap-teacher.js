@@ -5,7 +5,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261106-blank-join";
+  var BUILD = "20261106-defer-c12-16";
   var panelBookId = "";
   var chipClickBound = false;
   var lastActive = null;

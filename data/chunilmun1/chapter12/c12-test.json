@@ -9,8 +9,8 @@
   "timerMinutes": 36,
   "unitId": "chapter-12",
   "unitTitle": "Chapter 12 — 접속사",
-  "sectionsVersion": 3,
-  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(문장 전체 쓰기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(빈칸 말만 쓰기), [8–9] 2문항(문장 전체 쓰기), [10] 1문항(빈칸 말만 쓰기), [11–12] 2문항(고르기), [13] 1문항(빈칸 말만 쓰기), [14] 1문항(고르기), [15] 1문항(고르기), [16] 2문항(빈칸 말만 쓰기), [17] 1문항(고르기), [18] 1문항(여러 개 고르기), [19] 1문항(문장 전체 쓰기)으로 되어 있어요.",
+  "sectionsVersion": 4,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(문장 전체 쓰기), [5] 1문항(고르기), [6] 1문항(고르기), [7] 1문항(빈칸 말만 쓰기), [8–9] 2문항(문장 전체 쓰기), [10] 1문항(빈칸 말만 쓰기), [11–12] 2문항(고르기), [13] 1문항(빈칸 말만 쓰기), [14] 1문항(고르기), [15] 1문항(고르기), [17] 1문항(고르기), [18] 1문항(여러 개 고르기), [19] 1문항(문장 전체 쓰기)으로 되어 있어요.",
   "sections": [
     {
       "id": "1-2",
@@ -178,12 +178,14 @@
       "ruleKo": "고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
       "answerMode": "words",
       "answerModeTag": "Words only · 빈칸 말만",
-      "itemCount": 2,
+      "itemCount": 0,
       "exampleCount": 0,
       "labels": [
         "16-1",
         "16-2"
-      ]
+      ],
+      "deferred": true,
+      "deferredReason": "needs SB pp.155-157"
     },
     {
       "id": "17",
@@ -520,68 +522,6 @@
       "answer": "1"
     },
     {
-      "id": "q16a",
-      "section": "16",
-      "sectionTitle": "[16]",
-      "sectionInstructionKo": "[16] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Choose + write · 고르고 쓰기",
-      "label": "16-1",
-      "type": "parts",
-      "promptEn": "Join the English movie club! … ⓐ <u>discuss</u> … ⓔ <u>sends</u> …\n(1) 기호 → 고친 말",
-      "blanks": 2,
-      "accept": [
-        "a|discussing",
-        "ⓐ|discussing",
-        "A|discussing"
-      ],
-      "parts": [
-        {
-          "kind": "mc",
-          "label": "틀린 기호",
-          "choices": [
-            "ⓐ",
-            "ⓔ"
-          ],
-          "accept": [
-            "ⓐ",
-            "a"
-          ]
-        },
-        {
-          "kind": "fill",
-          "label": "고친 말",
-          "accept": [
-            "discussing"
-          ],
-          "placeholder": "고친 말만"
-        }
-      ],
-      "hintKo": "틀린 곳의 기호를 누르고, 고친 말만 쓰세요. 두 곳이면 지문에 먼저 나오는 곳부터입니다. 화살표나 X는 쓰지 마세요."
-    },
-    {
-      "id": "q16b",
-      "section": "16",
-      "sectionTitle": "[16]",
-      "sectionInstructionKo": "[16] 다음 중 밑줄 친 부분이 어법상 알맞지 않은 두 개를 찾아 그 기호를 쓰고 바르게 고쳐 쓰세요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
-      "answerMode": "words",
-      "answerModeTag": "Words only · 빈칸 말만",
-      "label": "16-2",
-      "type": "fill",
-      "promptEn": "(2) 기호 → 고친 말 (위 지문)",
-      "blanks": 2,
-      "accept": [
-        "e|send",
-        "ⓔ|send",
-        "E|send"
-      ],
-      "blankPartLabels": [
-        "기호",
-        "고친 말"
-      ],
-      "hintKo": "첫 칸에는 틀린 곳의 알파벳만 (a, b, c…), 둘째 칸에는 그 부분을 바르게 고친 말만 쓰세요. 화살표, X, 원문자는 쓰지 마세요."
-    },
-    {
       "id": "q17",
       "section": "17",
       "sectionTitle": "[17]",
@@ -648,5 +588,31 @@
   "testTitle": "Chapter Test",
   "passPct": 80,
   "retryBelowPct": 50,
-  "showAnswersToStudent": false
+  "showAnswersToStudent": false,
+  "deferred": [
+    {
+      "id": "q16a",
+      "label": "16-1",
+      "section": "16",
+      "reason": "needs SB pp.155-157 — the 'Join the English movie club!' notice is not on the card, not in the extract, and not in the workbook PDF",
+      "answer": [
+        "a|discussing",
+        "ⓐ|discussing",
+        "A|discussing"
+      ],
+      "promptEn": "Join the English movie club! … ⓐ <u>discuss</u> … ⓔ <u>sends</u> …\n(1) 기호 → 고친 말"
+    },
+    {
+      "id": "q16b",
+      "label": "16-2",
+      "section": "16",
+      "reason": "needs SB pp.155-157 — the 'Join the English movie club!' notice is not on the card, not in the extract, and not in the workbook PDF",
+      "answer": [
+        "e|send",
+        "ⓔ|send",
+        "E|send"
+      ],
+      "promptEn": "(2) 기호 → 고친 말 (위 지문)"
+    }
+  ]
 }

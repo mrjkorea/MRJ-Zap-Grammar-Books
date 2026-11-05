@@ -73,7 +73,13 @@ correct two marked words in a movie-club notice, but the card shows the notice a
 (답지, PDF p.286) confirms ⓐ discussing and ⓔ send, but the notice itself is nowhere in
 `천일문grammar중1.pdf` (pages 216–300 were OCR'd; the passage does not appear) and not in the extract.
 Without the surrounding words a student can only guess the -ing form. **Not fixed: needs the page text.**
-They stay on the list until it arrives.
+
+**Deferred 2026-11-06 KST (CoS call):** both cards are out of the student path. `data/chunilmun1/chapter12/c12-test.json`
+carries them under a top-level `deferred` array (labels **16-1**, **16-2**; reason `needs SB pp.155-157`), the
+`16` section reports `itemCount 0` and `deferred: true`, `sectionsVersion` is 4 so half-finished drafts clear,
+and the intro no longer lists [16]. The practice keeps its other 18 items and stays live, so no practice went
+dark. The workbook PDF in Drive is the WORKBOOK (`천일문grammar중1.pdf`: PDF p.155 = WB p.2), so the student-book
+pages are not available anywhere on this Mac. When the pages arrive, the two cards go back with the notice text.
 
 ### 4. Not flags, checked and left
 
