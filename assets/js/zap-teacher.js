@@ -5,7 +5,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261108-passage-restore";
+  var BUILD = "20261108-sound-restore";
   var panelBookId = "";
   var chipClickBound = false;
   var lastActive = null;

@@ -56,6 +56,7 @@ TAG_RE = re.compile(r"\[(?:그림|사진|밑줄|광고)[^\]]*\]")
 BRACKET_BLANK_RE = re.compile(r"\[([^\]]+)\]")
 UNDERLINE_RE = re.compile(r"<u>([^<]*)</u>", re.IGNORECASE)
 ARROW_RE = re.compile(r"^\s*(?:→|->)")
+OPTION_LINE_RE = re.compile(r"^(?:[①②③④⑤⑥⑦⑧⑨⑩]|[1-5][.)])\s*")
 BLANK_MARK = "⟦BLANK⟧"
 
 _log_lock = threading.Lock()
@@ -657,7 +658,17 @@ def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
         return "skip", "only_wordbank_or_answer_line"
 
     # Choose speak lines (two-sentence rule)
-    if len(lines) == 1:
+    if it.get("promptAudioFull"):
+        # Card carries a printed passage or dialogue. Read all of it.
+        # Keep the underlined words: here they are the words to check, not blanks.
+        kept_full = [ln for ln in lines if not OPTION_LINE_RE.match(ln)]
+        kept_full = [
+            UNDERLINE_RE.sub(r"\1", ln)
+            for ln in kept_full
+            if re.search(r"[A-Za-z]", re.sub(r"_{2,}|→|->|[0-9().]", " ", ln))
+        ]
+        speak_lines = kept_full or lines
+    elif len(lines) == 1:
         speak_lines = lines
     else:
         first, rest = lines[0], lines[1:]

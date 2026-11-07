@@ -138,6 +138,7 @@ def fill_item(
     blanks: int = 1,
     blank_labels: list[str] | None = None,
     unordered: bool = False,
+    **extra: Any,
 ) -> dict:
     it: dict[str, Any] = {
         "id": iid,
@@ -158,6 +159,8 @@ def fill_item(
         it["blankPartLabels"] = blank_labels
     if unordered:
         it["unordered"] = True
+    for k, v in extra.items():
+        it[k] = v
     return it
 
 
