@@ -60,8 +60,8 @@ OPTION_LINE_RE = re.compile(r"^(?:[①②③④⑤⑥⑦⑧⑨⑩]|[1-5][.)])\s*
 BLANK_MARK = "⟦BLANK⟧"
 
 # Jay 2026-11-08, via Fujimoto: read the whole printed passage, not the first line only.
-# Set by --full-stems (bake) or AUDIO_FULL_STEMS=1 in the environment.
-FORCE_FULL_STEMS = os.environ.get("AUDIO_FULL_STEMS") == "1"
+# On by default. --cue-only (or AUDIO_CUE_ONLY=1) restores the old first-line read.
+FORCE_FULL_STEMS = os.environ.get("AUDIO_CUE_ONLY") != "1"
 
 _log_lock = threading.Lock()
 _cache_locks_guard = threading.Lock()
@@ -819,6 +819,36 @@ def save_progress(prog: dict) -> None:
     PROGRESS_PATH.write_text(json.dumps(prog, ensure_ascii=False, indent=2))
 
 
+def extract_item_audio_cue(it: dict, book: str | None = None) -> tuple[str, object]:
+    """The cue-only read, used when the full read would speak an accepted answer."""
+    global FORCE_FULL_STEMS
+    prev = FORCE_FULL_STEMS
+    FORCE_FULL_STEMS = False
+    try:
+        return extract_item_audio(it, book)
+    finally:
+        FORCE_FULL_STEMS = prev
+
+
+def payload_leak(kind: str, payload, it: dict, book_id: str):
+    """Mirror of the build_jobs answer check, so a full read can fall back to the cue."""
+    accept = it.get("accept") or []
+    if kind == "plain":
+        emptied = re.sub(r"\s+", " ", str(payload)).strip().lower().rstrip(".!?")
+        for a in accept:
+            for part in str(a).split("|"):
+                ans = part.strip().lower().rstrip(".!?")
+                if len(ans) >= 4 and emptied == ans:
+                    return "spoken_equals_answer"
+        return None
+    if kind == "beep":
+        if book_id in ("chunilmun1", "chunilmun2"):
+            return None
+        source = " ⟦BLANK⟧ ".join(payload)
+        return answer_in_source(source, accept)
+    return None
+
+
 def build_jobs(book_filter: str | None = None):
     jobs = []
     skip_counter = Counter()
@@ -862,6 +892,14 @@ def build_jobs(book_filter: str | None = None):
                 pe_raw = strip_tags(it.get("promptEn") or "")
                 markup_blank = has_bracket_blank(pe_raw) or has_underline_blank(pe_raw)
                 kind, payload = extract_item_audio(it, book_id)
+                if FORCE_FULL_STEMS:
+                    # Fall back to the cue-only read when the full read skips the item
+                    # or would speak an accepted answer.
+                    need = kind == "skip" or payload_leak(kind, payload, it, book_id)
+                    if need:
+                        ck, cp = extract_item_audio_cue(it, book_id)
+                        if ck != "skip" and (kind == "skip" or not payload_leak(ck, cp, it, book_id)):
+                            kind, payload = ck, cp
                 if kind == "skip":
                     skip_counter[str(payload)] += 1
                     jobs.append(
