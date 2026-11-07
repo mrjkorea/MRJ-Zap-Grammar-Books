@@ -70,6 +70,9 @@ function checkItem(rel, it, problems) {
   if (PLACEHOLDER_WORD.test(pe)) {
     problems.push(`${rel} ${it.id}: contains "placeholder"`);
   }
+  if (/…|\.\.\./.test(pe)) {
+    problems.push(`${rel} ${it.id}: passage is truncated ("…") — copy the full box from the page`);
+  }
   const acc = it.accept;
   if (Array.isArray(acc) && acc.length === 1 && String(acc[0]).toLowerCase() === "answer") {
     problems.push(`${rel} ${it.id}: accept is only "answer"`);

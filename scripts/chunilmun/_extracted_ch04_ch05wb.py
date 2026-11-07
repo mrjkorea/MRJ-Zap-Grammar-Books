@@ -476,7 +476,13 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
             iid="q12a",
             sec=secs[9],
             label="12-1",
-            prompt_en="ⓒ Can Mandy bakes cookies? →",
+            prompt_en=(
+                "A: ⓐ Can you understand English well?\n"
+                "B: Yes, I can. ⓑ I can understand English well.\n"
+                "A: ⓒ Can Mandy bakes cookies?\n"
+                "B: No, ⓓ she can. But ⓔ she likes cookies.\n"
+                "(1) ________ → ________"
+            ),
             accept=["c|Can Mandy bake cookies", "ⓒ|Can Mandy bake cookies"],
             blanks=2,
         ),
@@ -484,7 +490,13 @@ def _build_c04_sb_test(m: dict) -> dict[str, dict]:
             iid="q12b",
             sec=secs[9],
             label="12-2",
-            prompt_en="ⓓ No, she can. →",
+            prompt_en=(
+                "A: ⓐ Can you understand English well?\n"
+                "B: Yes, I can. ⓑ I can understand English well.\n"
+                "A: ⓒ Can Mandy bakes cookies?\n"
+                "B: No, ⓓ she can. But ⓔ she likes cookies.\n"
+                "(2) ________ → ________"
+            ),
             accept=["d|No, she can't", "d|No, she cannot", "ⓓ|No, she can't"],
             blanks=2,
         ),
@@ -1768,7 +1780,13 @@ def _build_ch05_wb_test(m: dict) -> dict[str, dict]:
             iid="q09",
             sec=secs[4],
             label="9",
-            prompt_en="A: Can I help you? B: Yes, please. Can I get ...",
+            prompt_en=(
+                "A: Can I help you?\n"
+                "B: Yes, please. Can I get ① three hamburgeres, ② two sandwichs, "
+                "③ four apple piees and ④ two hot dogs?\n"
+                "A: OK. Anything else?\n"
+                "B: I want ⑤ five pieces of pizzas, too."
+            ),
             choices=[
                 "three hamburgeres",
                 "two sandwichs",

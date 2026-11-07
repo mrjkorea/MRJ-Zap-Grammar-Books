@@ -990,7 +990,9 @@ def _build_ch12_test(m: dict) -> dict:
             sec=secs[11],
             label="16-1",
             prompt_en=(
-                "Join the English movie club! … ⓐ <u>discuss</u> … ⓔ <u>sends</u> …\n"
+                "Join the English movie club!\n"
+                "Do you enjoy watching and ⓐ <u>discuss</u> movies? Or do you ⓑ <u>want</u> to study English interestingly?\n"
+                "Come and ⓒ <u>be</u> a member of our club! If you have any questions, ⓓ <u>meet</u> us in the media room or ⓔ <u>sends</u> us an email!\n"
                 "(1) 기호 → 고친 말"
             ),
             accept=["a|discussing", "ⓐ|discussing", "A|discussing"],
@@ -1000,7 +1002,12 @@ def _build_ch12_test(m: dict) -> dict:
             iid="q16b",
             sec=secs[11],
             label="16-2",
-            prompt_en="(2) 기호 → 고친 말 (위 지문)",
+            prompt_en=(
+                "Join the English movie club!\n"
+                "Do you enjoy watching and ⓐ <u>discuss</u> movies? Or do you ⓑ <u>want</u> to study English interestingly?\n"
+                "Come and ⓒ <u>be</u> a member of our club! If you have any questions, ⓓ <u>meet</u> us in the media room or ⓔ <u>sends</u> us an email!\n"
+                "(2) 기호 → 고친 말"
+            ),
             accept=["e|send", "ⓔ|send", "E|send"],
             blanks=2,
         ),

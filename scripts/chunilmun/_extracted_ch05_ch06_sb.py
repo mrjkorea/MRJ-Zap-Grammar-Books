@@ -574,7 +574,7 @@ def build_ch05_sb() -> dict[str, dict]:
             iid="q15a",
             sec=secs[8],
             label="15-1",
-            prompt_en="There ⓐ is many interesting ⓑ animals in the zoo. … sixteen ⓔ hour a day.\n(1) ________ → ________",
+            prompt_en="There ⓐ <u>is</u> many interesting ⓑ <u>animals</u> in the zoo. Look! ⓒ <u>A</u> koala is sleeping on the tree. ⓓ <u>Koalas</u> usually sleep for about sixteen ⓔ <u>hour</u> a day.\n(1) ________ → ________",
             accept=["a|are", "ⓐ|are"],
             blanks=2,
         ),
@@ -582,7 +582,7 @@ def build_ch05_sb() -> dict[str, dict]:
             iid="q15b",
             sec=secs[8],
             label="15-2",
-            prompt_en="There ⓐ is many interesting ⓑ animals in the zoo. … sixteen ⓔ hour a day.\n(2) ________ → ________",
+            prompt_en="There ⓐ <u>is</u> many interesting ⓑ <u>animals</u> in the zoo. Look! ⓒ <u>A</u> koala is sleeping on the tree. ⓓ <u>Koalas</u> usually sleep for about sixteen ⓔ <u>hour</u> a day.\n(2) ________ → ________",
             accept=["e|hours", "ⓔ|hours"],
             blanks=2,
         ),
@@ -1101,8 +1101,8 @@ def build_ch06_sb() -> dict[str, dict]:
             sec=secs[7],
             label="9",
             prompt_en=(
-                "Welcome to my school. … This is the school cafeteria. "
-                "ⓐ It is lunch time now. …\n"
+                "Welcome to my school. Let's take a tour. This is the school cafeteria. "
+                "ⓐ <u>It</u> is lunch time now. Today's menu is Bulgogi. It's a popular Korean dish.\n"
                 "① Do you like it?\n② It is dark outside.\n③ It is my dog, Kevin.\n"
                 "④ It is different from mine.\n⑤ It is 8 o'clock in the morning."
             ),
