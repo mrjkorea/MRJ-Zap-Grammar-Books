@@ -1,5 +1,6 @@
 """Shared helpers for GreenZap 1 Units 02-05 (same format as zapfix/build_zapfix.py, Unit 01 sections v2)."""
-import json, os, re, itertools, math
+import json
+import re, os, re, itertools, math
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))  # repo root (scripts/green1-build -> scripts -> repo)
@@ -203,11 +204,69 @@ def q_ids(d):
         it["id"] = f"q{i:02d}"
     return d
 
+def _hand_fixed(path, new_doc):
+    """True when the file on disk carries a fix that the generator would undo.
+
+    The 2026-11-04 picture-cue pass and the 2026-11-06 blank-alignment pass edited
+    the JSON directly. Regenerating a unit must not remove a scene line or merge
+    the printed boxes again, so refuse the file and say which item differs.
+    """
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, encoding="utf-8") as f:
+            old = json.load(f)
+    except Exception:
+        return None
+    old_items = {it.get("id"): it for it in (old.get("items") or [])}
+    for it in new_doc.get("items") or []:
+        prev = old_items.get(it.get("id"))
+        if not prev:
+            continue
+        old_prompt = str(prev.get("promptEn") or "")
+        new_prompt = str(it.get("promptEn") or "")
+        if old_prompt.startswith("그림:") and not new_prompt.startswith("그림:"):
+            return f"{it.get('id')}: on-disk scene line would be lost"
+        if (prev.get("blanks") or 1) != (it.get("blanks") or 1):
+            return f"{it.get('id')}: blanks {prev.get('blanks')} on disk vs {it.get('blanks')} generated"
+        old_runs = len(re.findall(r"_{2,}", old_prompt))
+        new_runs = len(re.findall(r"_{2,}", new_prompt))
+        if old_runs != new_runs:
+            return f"{it.get('id')}: {old_runs} printed blank run(s) on disk vs {new_runs} generated"
+        old_acc = [str(x) for x in (prev.get("accept") or [])]
+        new_acc = [str(x) for x in (it.get("accept") or [])]
+        extra = [a for a in old_acc if a not in new_acc]
+        if extra:
+            return f"{it.get('id')}: {len(extra)} accepted answer(s) on disk are not in the generator"
+    return None
+
+
+def _normalized(doc):
+    """Doc with accept lists sorted, so a reorder alone is not a change."""
+    copy = json.loads(json.dumps(doc))
+    for it in copy.get("items") or []:
+        if isinstance(it.get("accept"), list):
+            it["accept"] = sorted(str(a) for a in it["accept"])
+    return copy
+
+
 def write_unit(unit_dir, files):
     out = os.path.join(DATA, unit_dir)
     os.makedirs(out, exist_ok=True)
     for name, d in files.items():
-        with open(os.path.join(out, name), "w", encoding="utf-8") as f:
+        path = os.path.join(out, name)
+        if os.path.exists(path):
+            try:
+                with open(path, encoding="utf-8") as f:
+                    if _normalized(json.load(f)) == _normalized(d):
+                        continue
+            except Exception:
+                pass
+        why = _hand_fixed(path, d)
+        if why:
+            print(f"REFUSED {name}: {why}")
+            continue
+        with open(path, "w", encoding="utf-8") as f:
             json.dump(d, f, ensure_ascii=False, indent=2); f.write("\n")
     return out
 

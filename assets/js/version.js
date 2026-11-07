@@ -1,4 +1,4 @@
 (function (root) {
   "use strict";
-  root.MRJ_ZAP_BUILD = "20261106-defer-c12-16";
+  root.MRJ_ZAP_BUILD = "20261107-focus-link-fix";
 })(typeof window !== "undefined" ? window : globalThis);

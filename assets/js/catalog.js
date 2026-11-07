@@ -9522,7 +9522,19 @@
       for (var i = 0; i < list.length; i++) {
         if (list[i].slug === slug) return list[i];
       }
-      return null;
+      // Deep links written before a group was split into SB and WB pages carry
+      // the page name without its prefix (e.g. chapter-09 for wb-chapter-09).
+      // Accept that only when exactly one other group of this book has the slug.
+      var alt = [bookId + ":wb-" + unitId, bookId + ":" + String(unitId).replace(/^wb-/, "")];
+      var found = [];
+      for (var a = 0; a < alt.length; a++) {
+        if (alt[a] === bookId + ":" + unitId) continue;
+        var other = EXERCISES[alt[a]] || [];
+        for (var o = 0; o < other.length; o++) {
+          if (other[o].slug === slug) found.push(other[o]);
+        }
+      }
+      return found.length === 1 ? found[0] : null;
     },
     findBook: function (bookId) {
       for (var i = 0; i < BOOKS.length; i++) {
