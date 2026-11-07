@@ -59,6 +59,10 @@ ARROW_RE = re.compile(r"^\s*(?:→|->)")
 OPTION_LINE_RE = re.compile(r"^(?:[①②③④⑤⑥⑦⑧⑨⑩]|[1-5][.)])\s*")
 BLANK_MARK = "⟦BLANK⟧"
 
+# Jay 2026-11-08, via Fujimoto: read the whole printed passage, not the first line only.
+# Set by --full-stems (bake) or AUDIO_FULL_STEMS=1 in the environment.
+FORCE_FULL_STEMS = os.environ.get("AUDIO_FULL_STEMS") == "1"
+
 _log_lock = threading.Lock()
 _cache_locks_guard = threading.Lock()
 _cache_locks: dict[str, threading.Lock] = {}
@@ -576,6 +580,37 @@ def match_speak_text(it: dict) -> str:
     return ". ".join(lefts)
 
 
+def _cue_lines(lines: list[str]) -> list[str]:
+    """The old cue-only rule: read the first line, never the answer context after it."""
+    if len(lines) <= 1:
+        return list(lines)
+    first, rest = lines[0], lines[1:]
+    if is_complete_english(first) and any(has_blank(r) for r in rest):
+        return [first]
+    if has_blank(first):
+        return [first]
+    blank_lines = [ln for ln in lines if has_blank(ln)]
+    return [blank_lines[0]] if blank_lines else [first]
+
+
+def _spoken_text(lines: list[str]) -> str:
+    text = re.sub(r"\s+", " ", " ".join(lines)).strip()
+    marked = replace_blanks(text)
+    return re.sub(r"\s+", " ", marked.replace(BLANK_MARK, " ")).strip().lower()
+
+
+def _speaks_answer(cue: list[str], full: list[str], it: dict, accept_words: set) -> bool:
+    """True when the longer read says an accepted answer that the cue did not say."""
+    cue_text, full_text = _spoken_text(cue), _spoken_text(full)
+    for word in accept_words:
+        if len(word) < 3 or " " in word:
+            continue
+        pat = r"\b" + re.escape(word) + r"\b"
+        if re.search(pat, full_text) and not re.search(pat, cue_text):
+            return True
+    return False
+
+
 def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
     """
     Returns ('plain', text) | ('beep', [parts]) | ('skip', reason)
@@ -658,27 +693,37 @@ def extract_item_audio(it: dict, book: str | None = None) -> tuple[str, object]:
         return "skip", "only_wordbank_or_answer_line"
 
     # Choose speak lines (two-sentence rule)
-    if it.get("promptAudioFull"):
-        # Card carries a printed passage or dialogue. Read all of it.
-        # Keep the underlined words: here they are the words to check, not blanks.
+    if it.get("promptAudioFull") or (FORCE_FULL_STEMS and len(lines) > 1):
+        # Card carries a printed passage or dialogue. Read all of it, not the first line.
+        # An underlined word is read out when it is NOT an accepted answer. When it is the
+        # accepted answer, keep the underline so replace_blanks turns it into a beep.
+        accept_words = {
+            w.strip().lower().rstrip(".!?")
+            for a in (it.get("accept") or [])
+            for w in re.split(r"[|/]", str(a))
+            if w.strip()
+        }
+        def _keep_answer_hidden(line: str) -> str:
+            def repl(m: re.Match) -> str:
+                word = (m.group(1) or "").strip().lower().rstrip(".!?")
+                return m.group(0) if word in accept_words else m.group(1)
+            return UNDERLINE_RE.sub(repl, line)
         kept_full = [ln for ln in lines if not OPTION_LINE_RE.match(ln)]
         kept_full = [
-            UNDERLINE_RE.sub(r"\1", ln)
+            _keep_answer_hidden(ln)
             for ln in kept_full
             if re.search(r"[A-Za-z]", re.sub(r"_{2,}|→|->|[0-9().]", " ", ln))
         ]
         speak_lines = kept_full or lines
+        if FORCE_FULL_STEMS and not it.get("promptAudioFull"):
+            # Do not read a line that hands the answer over, e.g. "B: Yes, it did."
+            cue = _cue_lines(lines)
+            if _speaks_answer(cue, speak_lines, it, accept_words):
+                speak_lines = cue
     elif len(lines) == 1:
         speak_lines = lines
     else:
-        first, rest = lines[0], lines[1:]
-        if is_complete_english(first) and any(has_blank(r) for r in rest):
-            speak_lines = [first]  # cue only
-        elif has_blank(first):
-            speak_lines = [first]  # blank line; drop following answer context
-        else:
-            blank_lines = [ln for ln in lines if has_blank(ln)]
-            speak_lines = [blank_lines[0]] if blank_lines else [first]
+        speak_lines = _cue_lines(lines)
 
     blank_only = not speak_lines or all(
         has_blank(ln) and not visible_after_blanks(ln) for ln in speak_lines
@@ -1107,7 +1152,9 @@ def cmd_count(args):
 
 
 def cmd_bake(args):
-    global _tts_limiter
+    global _tts_limiter, FORCE_FULL_STEMS
+    if getattr(args, "full_stems", False):
+        FORCE_FULL_STEMS = True
     ensure_beep()
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     prog = load_progress()
@@ -1367,6 +1414,11 @@ def main():
     b = sp.add_parser("bake")
     b.add_argument("--book", default=None)
     b.add_argument("--commit", action="store_true")
+    b.add_argument(
+        "--full-stems",
+        action="store_true",
+        help="read every line of a printed passage or dialogue (not only the first line)",
+    )
     b.add_argument(
         "--workers",
         type=int,
