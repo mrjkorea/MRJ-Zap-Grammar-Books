@@ -93,6 +93,37 @@
     showWho();
   }
 
+  // ------------------------------------------------- one topic (deep link target)
+  function renderTopic(topicId) {
+    var t = index.filter(function (x) { return x.id === topicId; })[0];
+    if (!t) {
+      app.innerHTML = '<div class="card"><h2>없는 문법입니다.</h2>' +
+        '<p class="note">링크를 확인해 주세요.</p>' +
+        '<p><a class="chip" href="#/">← 목록으로</a></p></div>';
+      showWho();
+      return;
+    }
+    var ks = ready(t);
+    var cards = ks.map(function (k) {
+      var s = t.shapes[k], h = history(t.id, k);
+      var best = h.length ? Math.max.apply(null, h.map(function (r) { return r.correct; })) : null;
+      return '<a class="chip primary" style="flex:1;min-width:150px;justify-content:center" href="#/test/' +
+        encodeURIComponent(t.id) + '/' + k + '">' + k +
+        ' <small>' + s.minutes + '분 · ' + s.items + '문항</small></a>' +
+        '<div class="note" style="flex-basis:100%">' +
+        (h.length ? '응시 ' + h.length + '회 · 최고 ' + best + '/' + (h[0].total || 25) : '아직 응시하지 않았습니다.') +
+        '</div>';
+    }).join("");
+    app.innerHTML =
+      '<div class="card"><p><a class="chip" href="#/">← 목록으로</a></p>' +
+      '<h2>' + esc(t.topic) + '</h2>' +
+      '<p class="lead">T3 = 틀린 문장 고르기 (15분) · F3 = 맞는 문장 고르기 (15분) · ' +
+      'TF = 맞으면 TRUE, 틀리면 FALSE (5분). 25문항 중 23개 이상이면 통과입니다. ' +
+      '다시 볼 수 있고, 문항 순서와 보기 순서는 매번 바뀝니다.</p>' +
+      '<div class="chips" style="flex-wrap:wrap">' + (cards || '<p class="note">준비 중입니다.</p>') + '</div></div>';
+    showWho();
+  }
+
   // ---------------------------------------------------------------- the test
   function startTest(topicId, shape) {
     var t = index.filter(function (x) { return x.id === topicId; })[0];
@@ -278,6 +309,9 @@
     var parts = h.split("/").filter(Boolean);
     if (parts[0] === "test" && parts[1] && parts[2]) {
       startTest(decodeURIComponent(parts[1]), parts[2]);
+    } else if (parts[0] === "topic" && parts[1]) {
+      clearInterval(timerId);
+      renderTopic(decodeURIComponent(parts[1]));
     } else {
       clearInterval(timerId);
       renderIndex();
