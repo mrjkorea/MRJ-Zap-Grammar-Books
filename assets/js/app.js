@@ -16,6 +16,7 @@
   }
   var HUB_TITLE = "MRJ Grammar Practice Hub — ZAP & 천일문";
   var ZAP_HUB_TITLE = "MRJ Zap Grammar Books";
+  var QUICK_TEST_URL = "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/";
   var ZAP_LANES = {
     red: { title: "ZAP Red", kicker: "MRJ · RedZap" },
     blue: { title: "ZAP Blue", kicker: "MRJ · BlueZap" },
@@ -954,6 +955,19 @@
     cmGrid.appendChild(makeHubSoon("천일문", "Middle School\nGrammar 3"));
     cmBlock.appendChild(cmGrid);
     stack.appendChild(cmBlock);
+
+    var qtBlock = $("section", "hub-block hub-block-neutral");
+    qtBlock.appendChild($("h2", "hub-block-title", "Quick Test · 중학 영문법"));
+    qtBlock.appendChild(
+      $("p", "hub-block-lead", "25 questions, timed. T3 and F3 give you 15 minutes, TF gives you 5. Pass at 23 of 25, and you may try again as often as you like.")
+    );
+    var qtGrid = $("div", "hub-lane-grid");
+    var qtLink = makeHubLink("hub-entry-quick", QUICK_TEST_URL, "Quick Test", "빠른 문법 테스트", "50 grammar points · 3 test types");
+    qtLink.target = "_blank";
+    qtLink.rel = "noopener";
+    qtGrid.appendChild(qtLink);
+    qtBlock.appendChild(qtGrid);
+    stack.appendChild(qtBlock);
 
     app.appendChild(stack);
     app.appendChild(
