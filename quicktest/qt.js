@@ -61,14 +61,19 @@
   }
 
   // ---------------------------------------------------------------- topic list
+  function ready(t) {
+    return ["T3", "F3", "TF"].filter(function (k) { return t.shapes[k] && t.shapes[k].items >= 25; });
+  }
+
   function renderIndex() {
-    var rows = index.map(function (t) {
-      var chips = ["T3", "F3", "TF"].filter(function (k) { return t.shapes[k]; }).map(function (k) {
+    var usable = index.filter(function (t) { return ready(t).length; });
+    var rows = usable.map(function (t) {
+      var chips = ready(t).map(function (k) {
         var s = t.shapes[k];
         return '<a class="chip" href="#/test/' + encodeURIComponent(t.id) + "/" + k + '">' +
           k + ' <small>' + s.minutes + '분 · ' + s.items + '문항</small></a>';
       }).join("");
-      var tries = ["T3", "F3", "TF"].filter(function (k) { return t.shapes[k]; }).map(function (k) {
+      var tries = ready(t).map(function (k) {
         var h = history(t.id, k);
         return h.length ? k + " " + h.length + "회" : "";
       }).filter(Boolean).join(" · ");
@@ -81,7 +86,10 @@
       '<p class="lead">T3 = 틀린 문장 고르기 (15분) · F3 = 맞는 문장 고르기 (15분) · ' +
       'TF = 맞으면 TRUE, 틀리면 FALSE (5분). 25문항 중 23개 이상이면 통과입니다. ' +
       '다시 볼 수 있고, 문항 순서와 보기 순서는 매번 바뀝니다.</p>' +
-      '<div class="topics">' + rows + "</div></div>";
+      '<div class="topics">' + rows + "</div>" +
+      '<p class="note" style="margin-top:14px">' + usable.length + '개 문법 · ' +
+      usable.reduce(function (n, t) { return n + ready(t).length; }, 0) + '개 테스트. ' +
+      '새로 만드는 중인 테스트는 목록에 없습니다.</p></div>';
     showWho();
   }
 
