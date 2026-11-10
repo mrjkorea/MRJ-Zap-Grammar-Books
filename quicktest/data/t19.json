@@ -1,284 +1,802 @@
 {
-  "id": "t19",
-  "topic": "hard 조동사 있는 수동태",
-  "shapes": {
-    "TF": {
-      "title": "TF hard 조동사 있는 수동태",
-      "minutes": 5,
-      "passCorrect": 23,
-      "items": [
-        {
-          "id": "t19-TF-900",
-          "prompt": "The bridge must be repaired before winter.",
-          "options": [
-            "TRUE",
-            "FALSE"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-901",
-          "prompt": "The results will be announced on Friday.",
-          "options": [
-            "TRUE",
-            "FALSE"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-902",
-          "prompt": "New ideas should be share in class.",
-          "options": [
-            "TRUE",
-            "FALSE"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "t19-TF-903",
-          "prompt": "The trees must be plant in spring.",
-          "options": [
-            "TRUE",
-            "FALSE"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "t19-TF-904",
-          "prompt": "The story can be tell by anyone.",
-          "options": [
-            "TRUE",
-            "FALSE"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "t19-TF-2",
-          "prompt": "These cookies must not be baked for the party.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-3",
-          "prompt": "Your wish may not be granted by a fairy.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-4",
-          "prompt": "Scary nightmares should be discussed.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-5",
-          "prompt": "This game cannot be won with patience.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-11",
-          "prompt": "The sandwich will be made by the chef.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-12",
-          "prompt": "These pebbles must be collected at the beach.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-13",
-          "prompt": "Your ticket may be checked by a conductor.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-14",
-          "prompt": "Throwing sand should not be encouraged.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-15",
-          "prompt": "This picture can be colored with crayons.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-16",
-          "prompt": "The cat will be feed by Grandma.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "t19-TF-20",
-          "prompt": "This puzzle can be complete in an hour.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "t19-TF-23",
-          "prompt": "Your ticket may not be check by a conductor.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "t19-TF-1",
-          "prompt": "The teddy bear will not be fixed by the doctor.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "t19-TF-905",
-          "prompt": "These cookies must not be bake for the party.",
-          "answer": 1,
-          "options": [
-            "TRUE",
-            "FALSE"
-          ]
-        },
-        {
-          "id": "t19-TF-906",
-          "prompt": "Your wish may not be grant by a fairy.",
-          "answer": 1,
-          "options": [
-            "TRUE",
-            "FALSE"
-          ]
-        },
-        {
-          "id": "t19-TF-907",
-          "prompt": "The sandwich will be make by the chef.",
-          "answer": 1,
-          "options": [
-            "TRUE",
-            "FALSE"
-          ]
-        },
-        {
-          "id": "t19-TF-908",
-          "prompt": "These pebbles must be collect at the beach.",
-          "answer": 1,
-          "options": [
-            "TRUE",
-            "FALSE"
-          ]
-        },
-        {
-          "id": "t19-TF-909",
-          "prompt": "The bridge must be repair before winter.",
-          "answer": 1,
-          "options": [
-            "TRUE",
-            "FALSE"
-          ]
-        },
-        {
-          "id": "t19-TF-910",
-          "prompt": "Scary nightmares should be discuss.",
-          "answer": 1,
-          "options": [
-            "TRUE",
-            "FALSE"
-          ]
-        },
-        {
-          "id": "t19-TF-911",
-          "prompt": "Your ticket may be checked by a conductors.",
-          "answer": 1,
-          "options": [
-            "TRUE",
-            "FALSE"
-          ]
-        }
-      ],
-      "dropped": [
-        [
-          6,
-          "true/false on a question"
-        ],
-        [
-          7,
-          "true/false on a question"
-        ],
-        [
-          8,
-          "true/false on a question"
-        ],
-        [
-          10,
-          "true/false on a question"
-        ],
-        [
-          26,
-          "true/false on a question"
-        ],
-        [
-          27,
-          "true/false on a question"
-        ],
-        [
-          29,
-          "true/false on a question"
-        ],
-        [
-          30,
-          "true/false on a question"
-        ],
-        [
-          9,
-          "true/false on a question"
-        ],
-        [
-          28,
-          "true/false on a question"
-        ]
-      ],
-      "pool": 30,
-      "new": 5,
-      "usable": 25,
-      "short": 0
+ "id": "t19",
+ "topic": "hard 조동사 있는 수동태",
+ "shapes": {
+  "T3": {
+   "title": "T3 조동사 있는 수동태",
+   "minutes": 15,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t19-T3-1",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "My old phone must not be sold by my father.",
+      "The pet must be washed by my brother after school.",
+      "The new song can be heard by my friends at home.",
+      "The gym floor should cleaned by the boys after the game."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t19-T3-3",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "My pet can be washed by my sister at home.",
+      "The classroom must be cleaned by my friends after school.",
+      "The fish can be cooked by my mother for dinner.",
+      "The school garden must be watered by a watering can."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t19-T3-4",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The homework can be finished by my brother before dinner.",
+      "The old desks must repaired by the students in the classroom.",
+      "The food can be cooked by my mother at home.",
+      "The school bus can be cleaned by my teacher every morning."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-T3-5",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The windows should be open by the students in the morning.",
+      "The door must not be left open by my friends.",
+      "The new music can be played by my friends at home.",
+      "My homework can be checked by my teacher every morning."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-T3-7",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The bus can be cleaned by my teacher every morning.",
+      "The gym floor must cleaned by the boys after school.",
+      "My phone can't be used by my brother at school.",
+      "The cat can be washed by my brother after dinner."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-T3-8",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The school gate can closed by the teacher at night.",
+      "My homework can be checked by my mother before dinner.",
+      "The cake can be made by my sister for my family.",
+      "The phone must be kept by my mother at home."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-T3-10",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The homework must be can finished by the students before dinner.",
+      "The soccer ball must be brought by my friend to school.",
+      "The bus must not be missed by my sister this morning.",
+      "My school bag must not be moved by my brother today."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-T3-11",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The classroom windows must be cleaned by a boys every Friday.",
+      "The window must be opened by my teacher in hot weather.",
+      "My pet must not be left by my friend at home.",
+      "My phone must not be used by my sister at home."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-T3-12",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "My homework can be finished by my friend in the library.",
+      "The food must be cooked by my mother before six.",
+      "The cat must not be washed by my little sister.",
+      "The school bus can cleaned by the driver every morning."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t19-T3-13",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The fish must be cooked by my mother.",
+      "The cat can't be found in my home.",
+      "The soccer game must be watched by my family.",
+      "The classroom can cleaned by the students after school."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t19-T3-14",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "My phone can be used by my sister.",
+      "My phone can be used by my teacher.",
+      "The pet must not be fed by my brother.",
+      "The door must be close by the last student."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t19-T3-15",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The fish can be cooked by my mother.",
+      "The classroom must cleaned by the students after lunch.",
+      "My lunch must be eaten by my brother.",
+      "My homework can be checked by my teacher."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-T3-16",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The window can be cleaned by my sister.",
+      "My soccer ball can't be found by my father.",
+      "My lunch must not be eaten by my friend.",
+      "The window must be be cleaned by the girls."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t19-T3-17",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "My pet must not be fed by my friend.",
+      "My phone can't be used by my little sister.",
+      "The white board should cleaned by the class leader.",
+      "The pet must not be fed by my sister."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "t19-T3-18",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The teacher must be called by a student.",
+      "The room must cleaned by the students today.",
+      "My homework must be finished by my friend.",
+      "The pet must be fed by my sister."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-T3-19",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "My homework must not be lost by my brother.",
+      "The school gate should be locked with the teacher.",
+      "The homework can be finished by my friend.",
+      "The school bus must be cleaned by the driver."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-T3-20",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "My homework can't be done by my brother.",
+      "The bus can be taken by my family.",
+      "The cake can be made by my mother.",
+      "The homework must be finished by a blue pen."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t19-T3-21",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The song can be sung by my friends.",
+      "The tree house can be built by a hammer.",
+      "The window must be closed by my teacher.",
+      "The soccer ball can be kicked by my father."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-T3-22",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Our soccer ball can be kicked by my brother.",
+      "The music can be heard by my family.",
+      "The song can be sung by my teacher.",
+      "The classroom must cleaned by the students every day."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t19-T3-23",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The music must be heard by my friends.",
+      "The homework can be finished by my sister.",
+      "The homework was did by my brother before dinner.",
+      "My lunch can be eaten by my friend."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "t19-T3-24",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The food must be kept away from my pet.",
+      "The door must be closed by my teacher.",
+      "The classroom can cleaned by the students after lunch.",
+      "My phone must not be lost by my brother."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "t19-T3-25",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "My room must not be cleaned by my brother.",
+      "The new library opened by our principal last Monday.",
+      "The ball must be kicked by my friend.",
+      "My phone must not be taken by my brother."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-T3-26",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The classroom windows must opened by the class leader.",
+      "The weather can be seen from my window.",
+      "The fish must be eaten by my cat.",
+      "The homework must be done by my friend."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-T3-29",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "My phone must be kept in my school bag.",
+      "The door can be be opened by the teacher.",
+      "The dog can be washed with warm water.",
+      "My bag can be carried by my friend."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-T3-30",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The windows must cleaned by the students before lunch.",
+      "My soccer shoes can't be found at home.",
+      "Our classroom can be cleaned by my friends.",
+      "The bus can be driven by my teacher today."
+     ],
+     "answer": 0
     }
+   ]
+  },
+  "F3": {
+   "title": "F3 조동사 있는 수동태",
+   "minutes": 15,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t19-F3-1",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The flowers in the garden watered by my grandmother every morning.",
+      "The soccer game can be watched by my family on Sunday.",
+      "The school gym must cleaned by the boys after lunch.",
+      "The broken desk must be fixed by a strong glue."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-F3-2",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The song can be sung by my friends at school.",
+      "The windows can be open by the teacher in the morning.",
+      "The school gate must closed by the guard at night.",
+      "The letters can be wrote by the students in class."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-3",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The windows should be open by the class leader every morning.",
+      "The classroom windows must be opened by the students after lunch.",
+      "The homework must be finished by my sister before dinner.",
+      "The cake was cut by a sharp knife by my mother."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "t19-F3-4",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The fish must not be eaten by my pet at home.",
+      "The classroom can be be cleaned by the boys after school.",
+      "The music room can cleaned by the students after school.",
+      "The homework must be finished by a pencil on the desk."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-5",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The small window was opened by a key by the teacher.",
+      "The school bus must be washed by my father on Sunday.",
+      "The classroom windows must opened by the students after lunch.",
+      "The new desks can be moved by the student after lunch."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-F3-7",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The art room should be clean by the girls every morning.",
+      "The classroom must cleaned by the boys before the test.",
+      "The old phone must be fixed by my father this week.",
+      "The small garden can be watered by the children after school."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "t19-F3-8",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The homework can be finished by my friend before dinner.",
+      "The classroom floor can be swept with the girls after lunch.",
+      "The classroom must be cleaned by the students every day.",
+      "The bread was baked by my aunt in the kitchen."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-10",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The classroom floor must swept by the students after lunch.",
+      "The whiteboard must wiped by the teacher before the test.",
+      "The school bus can be driven by a careful teacher.",
+      "The tree must be plant by the students in the garden."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "t19-F3-12",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The new desks must carried by the boys to the classroom.",
+      "The school bus can stopped by the driver at the gate.",
+      "The bus must be stopped by the driver near school.",
+      "The classroom windows must be opened with the class leader."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "t19-F3-13",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The song can be played by my friend on the phone.",
+      "The homework must be finished by a pencil before dinner.",
+      "The library books can returned by the boys before Friday.",
+      "The school garden should be watered by the children every morning."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-15",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The school garden should watered by the girls every morning.",
+      "The bus must be taken by my family every morning.",
+      "The letter was written with my best friend in the library.",
+      "The desks in our classroom moved by the students yesterday."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-F3-16",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The fish can be cooked by my father for my family.",
+      "The classroom window was broken with a baseball by the boys.",
+      "The chairs can be move by the children after class.",
+      "The school gym must cleaned by the students after lunch."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-17",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The heavy box must be be carried by the boys.",
+      "The art room must be cleaned with the girls after lunch.",
+      "The window can be opened by my teacher before lunch.",
+      "The homework should be finish by the students before dinner."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "t19-F3-18",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The lost key can be finded by the guard at night.",
+      "The fish can be cooked by my father for dinner.",
+      "The classroom floor should swept by the students after lunch.",
+      "The library books can be borrowed by the students every week."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-F3-19",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The library books can be return by the girls before Friday.",
+      "The art room should cleaned by the girls this afternoon.",
+      "The old toys must be throw by the children after lunch.",
+      "The food must be kept by my friend in the bag."
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t19-F3-20",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The music must not be played too loudly at home.",
+      "The cake was was made by my mother for my birthday.",
+      "The art room must be cleaned with the girls this afternoon.",
+      "The classroom windows can cleaned by the students on Friday."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-21",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The class rules should followed by every student in the room.",
+      "The tree was cut by a small knife in the garden.",
+      "The music must not be played by my sister at home.",
+      "The school computers can be fixed by the teachers this week."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "t19-F3-22",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The school garden should watered by the children every day.",
+      "The food can be shared with my friends at school.",
+      "The windows should be opened with the students in the morning.",
+      "The music room speakers can be turned off by the teachers."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-F3-23",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The lunch boxes should be be washed by the girls.",
+      "The phone must be put by my mother on the table.",
+      "The classroom floor should be swept with the students after lunch.",
+      "The pictures were took by the students on the school trip."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-F3-24",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The school garden must watered by the students every morning.",
+      "The cake must be made by my mother for my friends.",
+      "The school gym can cleaned by the students after lunch.",
+      "The cake was cut with a sharp knife by my mother."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-F3-25",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The homework must be finished by my friend before dinner.",
+      "The school gym can be cleaned with the boys after lunch.",
+      "The lost bag can found by the teacher before lunch.",
+      "The school bus can washed by the driver every morning."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-27",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The food must be eaten by my family before the bus comes.",
+      "The old piano should be move by the workers to the music room.",
+      "The class rules must be followed with every student in the room.",
+      "The library books must be be returned by the students before Friday."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-28",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The soccer ball can be kicked by my father in the park.",
+      "The paper must be brought by the students to art class tomorrow.",
+      "The classroom windows must be washed with the class leader every Friday.",
+      "The heavy boxes can be moved by the boy to the school office."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-29",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The school bus must be driven by my teacher every morning before eight.",
+      "The windows must be clean by the students before the school festival.",
+      "The old desks must be carried with the strong boys to the gym.",
+      "The art paper must be cut by the children with a small scissors."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-F3-34",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The pet must be washed by my brother after the soccer game.",
+      "The new chairs should moved by the boys to the art room.",
+      "The old chairs must be carry by the boys to the gym.",
+      "The new books can be bring by the girls to the library."
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  "TF": {
+   "title": "TF 조동사 있는 수동태",
+   "minutes": 5,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t19-TF-1",
+     "prompt": "My pet can be fed by my sister.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-2",
+     "prompt": "The pet must be fed by my sister every morning at home.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-4",
+     "prompt": "Can the window be closed by my sister before the rain comes?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-5",
+     "prompt": "The homework can be finished by my friend after school.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-10",
+     "prompt": "Can the homework be finished by my sister before dinner with my help?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-11",
+     "prompt": "Can the song be played by my friend?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-12",
+     "prompt": "The food must be kept in the fridge.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-13",
+     "prompt": "My homework must not be lost by my friend.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-14",
+     "prompt": "The classroom must be cleaned by my friends after lunch.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-17",
+     "prompt": "The bus must be cleaned by my father every morning.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-18",
+     "prompt": "The school bus must be washed by my father every week.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-22",
+     "prompt": "Must my homework be finished by my friend before dinner today?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-25",
+     "prompt": "The cake must be baked by my mother today.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-6",
+     "prompt": "The floor must cleaned by the students after art class.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-7",
+     "prompt": "Must the room be clean by the students every morning?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-8",
+     "prompt": "The trees should watered by the boys every morning.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-15",
+     "prompt": "When the school bell can be heard by the children?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-16",
+     "prompt": "The old piano should be took by the music teacher.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-19",
+     "prompt": "The math homework should be finished by a students before dinner.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-20",
+     "prompt": "The floor can be be swept by the students.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-21",
+     "prompt": "The school garden should be watered by a students every morning.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-23",
+     "prompt": "The classroom must be cleaned by a students after lunch.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-24",
+     "prompt": "The window was broken with the strong wind.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-26",
+     "prompt": "The art room can be be cleaned by the girls this afternoon.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-29",
+     "prompt": "The picture can be drawn with a pencil by the art room.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    }
+   ]
   }
+ }
 }
