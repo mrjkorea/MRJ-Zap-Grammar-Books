@@ -573,15 +573,6 @@
    "items": [
     {
      "id": "t05-TF-1",
-     "prompt": "The boys are not ready for the bus.",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 0
-    },
-    {
-     "id": "t05-TF-2",
      "prompt": "The weather is cold at home in the morning today.",
      "options": [
       "TRUE",
@@ -590,8 +581,35 @@
      "answer": 0
     },
     {
+     "id": "t05-TF-2",
+     "prompt": "Those boys were were late for class today.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
      "id": "t05-TF-3",
-     "prompt": "Is the music class fun today?",
+     "prompt": "Is the soup good for your family at home tonight?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t05-TF-4",
+     "prompt": "His father a kind doctor at the big hospital.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t05-TF-5",
+     "prompt": "Are your little pets hungry for dinner at home after school today?",
      "options": [
       "TRUE",
       "FALSE"
@@ -600,16 +618,16 @@
     },
     {
      "id": "t05-TF-6",
-     "prompt": "The classroom is quiet because the students are busy with their homework now.",
+     "prompt": "How is your favorite food?",
      "options": [
       "TRUE",
       "FALSE"
      ],
-     "answer": 0
+     "answer": 1
     },
     {
      "id": "t05-TF-7",
-     "prompt": "I am not a music teacher.",
+     "prompt": "Is the new teacher funny today?",
      "options": [
       "TRUE",
       "FALSE"
@@ -617,8 +635,17 @@
      "answer": 0
     },
     {
+     "id": "t05-TF-8",
+     "prompt": "She a good cook for her family at home on Sundays.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
      "id": "t05-TF-9",
-     "prompt": "The weather was not warm yesterday.",
+     "prompt": "Our English teacher is very kind, so we are happy in class every morning.",
      "options": [
       "TRUE",
       "FALSE"
@@ -627,7 +654,16 @@
     },
     {
      "id": "t05-TF-10",
-     "prompt": "His phone is not new.",
+     "prompt": "How is the answer to the first question in class?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t05-TF-11",
+     "prompt": "Your mother was at home, and she was happy about your music homework yesterday.",
      "options": [
       "TRUE",
       "FALSE"
@@ -635,13 +671,31 @@
      "answer": 0
     },
     {
-     "id": "t05-TF-11",
-     "prompt": "Your sister is not ready for the bus now.",
+     "id": "t05-TF-12",
+     "prompt": "Her school bag too heavy for the long walk home after school.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t05-TF-13",
+     "prompt": "Weren't your little sisters happy about the family dinner at home yesterday evening?",
      "options": [
       "TRUE",
       "FALSE"
      ],
      "answer": 0
+    },
+    {
+     "id": "t05-TF-14",
+     "prompt": "How is the price of your bag?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
     },
     {
      "id": "t05-TF-15",
@@ -653,98 +707,8 @@
      "answer": 0
     },
     {
-     "id": "t05-TF-19",
-     "prompt": "Were your pets very hungry yesterday?",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 0
-    },
-    {
-     "id": "t05-TF-20",
-     "prompt": "Is the pet dog very big?",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 0
-    },
-    {
-     "id": "t05-TF-24",
-     "prompt": "Are your classmates ready for the soccer game now?",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 0
-    },
-    {
-     "id": "t05-TF-25",
-     "prompt": "Is your new phone at home?",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 0
-    },
-    {
-     "id": "t05-TF-4",
-     "prompt": "She met an old friends near our school yesterday.",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 1
-    },
-    {
-     "id": "t05-TF-5",
-     "prompt": "She is is kind to us.",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 1
-    },
-    {
-     "id": "t05-TF-8",
-     "prompt": "His father a kind doctor at the big hospital.",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 1
-    },
-    {
-     "id": "t05-TF-12",
-     "prompt": "My sister is an student at this school.",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 1
-    },
-    {
-     "id": "t05-TF-13",
-     "prompt": "My best friend be late for our class this morning.",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 1
-    },
-    {
-     "id": "t05-TF-14",
-     "prompt": "Those boys were were late for class today.",
-     "options": [
-      "TRUE",
-      "FALSE"
-     ],
-     "answer": 1
-    },
-    {
      "id": "t05-TF-16",
-     "prompt": "Yesterday the children was very quiet.",
+     "prompt": "Those sandwiches were were really delicious during lunch at our school yesterday.",
      "options": [
       "TRUE",
       "FALSE"
@@ -753,7 +717,16 @@
     },
     {
      "id": "t05-TF-17",
-     "prompt": "These days the boys were busy with homework at home.",
+     "prompt": "The soup was not cold.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t05-TF-18",
+     "prompt": "He needs an pencil for the math test in our classroom today.",
      "options": [
       "TRUE",
       "FALSE"
@@ -761,8 +734,17 @@
      "answer": 1
     },
     {
-     "id": "t05-TF-18",
-     "prompt": "Our new teacher from a big school far from our home.",
+     "id": "t05-TF-19",
+     "prompt": "Your aunt is kind to the students after class.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t05-TF-20",
+     "prompt": "Where the gym is now?",
      "options": [
       "TRUE",
       "FALSE"
@@ -771,16 +753,16 @@
     },
     {
      "id": "t05-TF-21",
-     "prompt": "Those girls being happy after the school game.",
+     "prompt": "Is your dog hungry after school?",
      "options": [
       "TRUE",
       "FALSE"
      ],
-     "answer": 1
+     "answer": 0
     },
     {
      "id": "t05-TF-22",
-     "prompt": "We late for the first bus after school today.",
+     "prompt": "The new student shy in our English class today.",
      "options": [
       "TRUE",
       "FALSE"
@@ -789,12 +771,30 @@
     },
     {
      "id": "t05-TF-23",
-     "prompt": "These red apples was very sweet in our kitchen yesterday.",
+     "prompt": "They are very happy at home.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t05-TF-24",
+     "prompt": "I is not ready for school yet.",
      "options": [
       "TRUE",
       "FALSE"
      ],
      "answer": 1
+    },
+    {
+     "id": "t05-TF-25",
+     "prompt": "Was the bus late after the soccer game?",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
     }
    ]
   }
