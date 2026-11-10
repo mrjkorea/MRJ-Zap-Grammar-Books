@@ -1,0 +1,852 @@
+{
+ "id": "t67",
+ "topic": "감탄문 How/What",
+ "shapes": {
+  "T3": {
+   "title": "T3 감탄문",
+   "minutes": 15,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t67-T3-1",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How nicely he cooks!",
+      "What a new bike!",
+      "What an nice cake!",
+      "How loudly they laugh!"
+     ],
+     "answer": 2,
+     "rule": "article_agreement"
+    },
+    {
+     "id": "t67-T3-2",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What a tall boy he is!",
+      "What a nice picture!",
+      "How his house is big!",
+      "How cloudy the sky is!"
+     ],
+     "answer": 2,
+     "rule": "word_order"
+    },
+    {
+     "id": "t67-T3-3",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How far she swims!",
+      "What a small cat!",
+      "What a big cows they are!",
+      "How soft the bread is!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_plural"
+    },
+    {
+     "id": "t67-T3-4",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How kindly she helps!",
+      "How tall my brother is!",
+      "What clean shirt it is!",
+      "What a kind teacher she is!"
+     ],
+     "answer": 2,
+     "rule": "missing_article"
+    },
+    {
+     "id": "t67-T3-5",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What a good friend you are!",
+      "What hard we play!",
+      "How dirty those shoes are!",
+      "How dangerous!"
+     ],
+     "answer": 1,
+     "rule": "how_what_swap"
+    },
+    {
+     "id": "t67-T3-6",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How politely they speak!",
+      "What a heavy box that is!",
+      "How suddenly the rain starts!",
+      "What a cold milk it is!"
+     ],
+     "answer": 3,
+     "rule": "a_plus_uncount"
+    },
+    {
+     "id": "t67-T3-7",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What a fun game it is!",
+      "What a fast horse!",
+      "How slow he drives!",
+      "How warmly she smiles!"
+     ],
+     "answer": 2,
+     "rule": "adj_for_adv"
+    },
+    {
+     "id": "t67-T3-8",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What a smart student he is!",
+      "How sadly the woman cries!",
+      "How hot tea it is!",
+      "What a slow bus that is!"
+     ],
+     "answer": 2,
+     "rule": "how_plus_noun"
+    },
+    {
+     "id": "t67-T3-9",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What an easy test this is!",
+      "How wonderful!",
+      "How cold it is!",
+      "What white sheep are they!"
+     ],
+     "answer": 3,
+     "rule": "question_order"
+    },
+    {
+     "id": "t67-T3-10",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How lovely!",
+      "How beautiful the park is!",
+      "What long bridges they are!",
+      "What an heavy door!"
+     ],
+     "answer": 3,
+     "rule": "article_agreement"
+    },
+    {
+     "id": "t67-T3-11",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How boring!",
+      "How the park is quiet!",
+      "What a sad song this is!",
+      "What a delicious pizza!"
+     ],
+     "answer": 1,
+     "rule": "word_order"
+    },
+    {
+     "id": "t67-T3-12",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What a clean room it is!",
+      "How quietly my father sleeps!",
+      "How important this is!",
+      "What a brown bears they are!"
+     ],
+     "answer": 3,
+     "rule": "a_plus_plural"
+    },
+    {
+     "id": "t67-T3-13",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What a broken chair!",
+      "What fast horse it is!",
+      "How spicy the food is!",
+      "How messy!"
+     ],
+     "answer": 1,
+     "rule": "missing_article"
+    },
+    {
+     "id": "t67-T3-14",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What a big bear it is!",
+      "How useful this is!",
+      "How happy they are!",
+      "What far the rabbit jumps!"
+     ],
+     "answer": 3,
+     "rule": "how_what_swap"
+    },
+    {
+     "id": "t67-T3-15",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How expensive this phone is!",
+      "How clearly the child reads!",
+      "What a white snow it is!",
+      "What a golden ring!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_uncount"
+    },
+    {
+     "id": "t67-T3-16",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What a red apple it is!",
+      "How slow the clock moves!",
+      "What big trees they are!",
+      "How cute this dog is!"
+     ],
+     "answer": 1,
+     "rule": "adj_for_adv"
+    },
+    {
+     "id": "t67-T3-17",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How bright light it is!",
+      "What a green leaf!",
+      "How nice!",
+      "What a long train!"
+     ],
+     "answer": 0,
+     "rule": "how_plus_noun"
+    },
+    {
+     "id": "t67-T3-18",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How sweet that cake is!",
+      "What a careful driver she is!",
+      "How safe this place is!",
+      "What pretty fish are they!"
+     ],
+     "answer": 3,
+     "rule": "question_order"
+    },
+    {
+     "id": "t67-T3-19",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How high the kite flies!",
+      "What sweet cookies they are!",
+      "How quiet you are!",
+      "What an new watch!"
+     ],
+     "answer": 3,
+     "rule": "article_agreement"
+    },
+    {
+     "id": "t67-T3-20",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How special!",
+      "What a cold drink this is!",
+      "How the sun is bright!",
+      "What a soft pillow!"
+     ],
+     "answer": 2,
+     "rule": "word_order"
+    },
+    {
+     "id": "t67-T3-21",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How hot the soup is!",
+      "What a wide river!",
+      "What a cute ducks they are!",
+      "How bright the moon is!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_plural"
+    },
+    {
+     "id": "t67-T3-22",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What an interesting book!",
+      "How famous she is!",
+      "What kind friend she is!",
+      "How bravely the team plays!"
+     ],
+     "answer": 2,
+     "rule": "missing_article"
+    },
+    {
+     "id": "t67-T3-23",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How hungry I am!",
+      "How late the party starts!",
+      "What a quiet park that is!",
+      "What happily they play!"
+     ],
+     "answer": 3,
+     "rule": "how_what_swap"
+    },
+    {
+     "id": "t67-T3-24",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "How happily we dance!",
+      "What a fresh bread it is!",
+      "How strange!",
+      "What a busy street!"
+     ],
+     "answer": 1,
+     "rule": "a_plus_uncount"
+    },
+    {
+     "id": "t67-T3-25",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "What tall mountains they are!",
+      "How tired we are!",
+      "What cute rabbits they are!",
+      "How good my father cooks!"
+     ],
+     "answer": 3,
+     "rule": "adj_for_adv"
+    }
+   ]
+  },
+  "F3": {
+   "title": "F3 감탄문",
+   "minutes": 15,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t67-F3-1",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "How white sugar it is!",
+      "What happy people are you!",
+      "How heavy my bag is!",
+      "What an big bus!"
+     ],
+     "answer": 2,
+     "rule": "article_agreement+how_plus_noun+question_order"
+    },
+    {
+     "id": "t67-F3-2",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What funny hat it is!",
+      "How crowded!",
+      "What a tall boots they are!",
+      "How the weather is cold!"
+     ],
+     "answer": 1,
+     "rule": "a_plus_plural+missing_article+word_order"
+    },
+    {
+     "id": "t67-F3-3",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What early the puppy wakes up!",
+      "How loud the baby cries!",
+      "What a hot sand it is!",
+      "How strongly the wind blows!"
+     ],
+     "answer": 3,
+     "rule": "a_plus_uncount+adj_for_adv+how_what_swap"
+    },
+    {
+     "id": "t67-F3-4",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What an sweet cookie!",
+      "How the song is nice!",
+      "How hot coffee it is!",
+      "How smart he is!"
+     ],
+     "answer": 3,
+     "rule": "article_agreement+how_plus_noun+word_order"
+    },
+    {
+     "id": "t67-F3-5",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "How kind she is!",
+      "What fast the train goes!",
+      "What small mouse it is!",
+      "What a big dogs they are!"
+     ],
+     "answer": 0,
+     "rule": "a_plus_plural+how_what_swap+missing_article"
+    },
+    {
+     "id": "t67-F3-6",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What a clean air it is!",
+      "How slowly the turtle walks!",
+      "How happy the dancer dances!",
+      "How green tea it is!"
+     ],
+     "answer": 1,
+     "rule": "a_plus_uncount+adj_for_adv+how_plus_noun"
+    },
+    {
+     "id": "t67-F3-7",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "How my brother is tired!",
+      "What a pretty pictures those are!",
+      "What an new bike this is!",
+      "How brave my uncle is!"
+     ],
+     "answer": 3,
+     "rule": "a_plus_plural+article_agreement+word_order"
+    },
+    {
+     "id": "t67-F3-8",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "How funny that joke is!",
+      "What a green grass it is!",
+      "What carefully she paints!",
+      "What big lion it is!"
+     ],
+     "answer": 0,
+     "rule": "a_plus_uncount+how_what_swap+missing_article"
+    },
+    {
+     "id": "t67-F3-9",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "How hard work it is!",
+      "How carefully you draw!",
+      "What an clean window!",
+      "How quick the horse runs!"
+     ],
+     "answer": 1,
+     "rule": "adj_for_adv+article_agreement+how_plus_noun"
+    },
+    {
+     "id": "t67-F3-10",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What a little boats they are!",
+      "What small ball it is!",
+      "How gently she speaks!",
+      "How our teacher is kind!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_plural+missing_article+word_order"
+    },
+    {
+     "id": "t67-F3-11",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What a old owl!",
+      "What a good food it is!",
+      "How hard I work!",
+      "What high the bird flies!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_uncount+article_agreement+how_what_swap"
+    },
+    {
+     "id": "t67-F3-12",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What a tiny bug!",
+      "What new bike it is!",
+      "What a pink pigs they are!",
+      "How these children are happy!"
+     ],
+     "answer": 0,
+     "rule": "a_plus_plural+missing_article+word_order"
+    },
+    {
+     "id": "t67-F3-13",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What a fresh air it is!",
+      "How popular this song is!",
+      "What fast the cat runs!",
+      "What an big window!"
+     ],
+     "answer": 1,
+     "rule": "a_plus_uncount+article_agreement+how_what_swap"
+    },
+    {
+     "id": "t67-F3-14",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What a round cake this is!",
+      "What a new toys they are!",
+      "How the night is dark!",
+      "What nice pen it is!"
+     ],
+     "answer": 0,
+     "rule": "a_plus_plural+missing_article+word_order"
+    },
+    {
+     "id": "t67-F3-15",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What an nice camera!",
+      "What a hard homework it is!",
+      "What a hot day!",
+      "What softly the snow falls!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_uncount+article_agreement+how_what_swap"
+    },
+    {
+     "id": "t67-F3-16",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "How terrible!",
+      "What little kitten it is!",
+      "What a old coins they are!",
+      "How the sea is blue!"
+     ],
+     "answer": 0,
+     "rule": "a_plus_plural+missing_article+word_order"
+    },
+    {
+     "id": "t67-F3-17",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What an small boat!",
+      "How fresh the milk is!",
+      "What hard it rains!",
+      "What a hot soup it is!"
+     ],
+     "answer": 1,
+     "rule": "a_plus_uncount+article_agreement+how_what_swap"
+    },
+    {
+     "id": "t67-F3-18",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What kind woman she is!",
+      "How the milk is cold!",
+      "What a cheap pen!",
+      "What a green frogs those are!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_plural+missing_article+word_order"
+    },
+    {
+     "id": "t67-F3-19",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What fast the wind blows!",
+      "What a open door!",
+      "How difficult!",
+      "What a nice music it is!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_uncount+article_agreement+how_what_swap"
+    },
+    {
+     "id": "t67-F3-20",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What a cute baby it is!",
+      "How the game is easy!",
+      "What a nice shoes these are!",
+      "What angry lion it is!"
+     ],
+     "answer": 0,
+     "rule": "a_plus_plural+missing_article+word_order"
+    },
+    {
+     "id": "t67-F3-21",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What an high mountain!",
+      "What a good cheese it is!",
+      "What a pretty girl she is!",
+      "What fast I run!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_uncount+article_agreement+how_what_swap"
+    },
+    {
+     "id": "t67-F3-22",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What cute doll it is!",
+      "How my sister is tall!",
+      "What a blue bird!",
+      "What a big waves they are!"
+     ],
+     "answer": 2,
+     "rule": "a_plus_plural+missing_article+word_order"
+    },
+    {
+     "id": "t67-F3-23",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "How early the bus comes!",
+      "How my bed is soft!",
+      "What an warm jacket!",
+      "What a small keys they are!"
+     ],
+     "answer": 0,
+     "rule": "a_plus_plural+article_agreement+word_order"
+    },
+    {
+     "id": "t67-F3-24",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "How the bus is slow!",
+      "What an long bridge!",
+      "How quickly my sister eats!",
+      "What pretty doll it is!"
+     ],
+     "answer": 2,
+     "rule": "article_agreement+missing_article+word_order"
+    },
+    {
+     "id": "t67-F3-25",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "What an pretty cup!",
+      "What ugly spider!",
+      "What a small birds those are!",
+      "What a brave doctor he is!"
+     ],
+     "answer": 3,
+     "rule": "a_plus_plural+article_agreement+missing_article"
+    }
+   ]
+  },
+  "TF": {
+   "title": "TF 감탄문",
+   "minutes": 5,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t67-TF-1",
+     "prompt": "How well she sings!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-2",
+     "prompt": "How her baby is cute!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-3",
+     "prompt": "How beautifully she paints!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-4",
+     "prompt": "What a warm socks these are!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-5",
+     "prompt": "What nice aunt she is!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-6",
+     "prompt": "How awful!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-7",
+     "prompt": "What a bright star it is!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-8",
+     "prompt": "What an clean mirror!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-9",
+     "prompt": "How that box is heavy!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-10",
+     "prompt": "What a nice toys they are!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-11",
+     "prompt": "What an angry lion!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-12",
+     "prompt": "How tidy!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-13",
+     "prompt": "What a loud bell!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-14",
+     "prompt": "What nice house it is!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-15",
+     "prompt": "What an hot pizza!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-16",
+     "prompt": "How my dad is tall!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-17",
+     "prompt": "What a funny movie!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-18",
+     "prompt": "What a warm coat!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-19",
+     "prompt": "What a loud songs they are!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-20",
+     "prompt": "What easy test it is!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-21",
+     "prompt": "What a young singer she is!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-22",
+     "prompt": "How fast he runs!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-23",
+     "prompt": "What an old house it is!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t67-TF-24",
+     "prompt": "What a old church!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t67-TF-25",
+     "prompt": "How softly my mom talks!",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ }
+}
