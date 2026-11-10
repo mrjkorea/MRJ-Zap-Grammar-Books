@@ -1,1 +1,256 @@
-{"id": "t19", "topic": "hard 조동사 있는 수동태", "shapes": {"TF": {"title": "TF hard 조동사 있는 수동태", "minutes": 5, "passCorrect": 23, "items": [{"id": "t19-TF-900", "prompt": "The bridge must be repaired before winter.", "options": ["TRUE", "FALSE"], "answer": 0}, {"id": "t19-TF-901", "prompt": "The results will be announced on Friday.", "options": ["TRUE", "FALSE"], "answer": 0}, {"id": "t19-TF-902", "prompt": "New ideas should be share in class.", "options": ["TRUE", "FALSE"], "answer": 1}, {"id": "t19-TF-903", "prompt": "The trees must be plant in spring.", "options": ["TRUE", "FALSE"], "answer": 1}, {"id": "t19-TF-904", "prompt": "The story can be tell by anyone.", "options": ["TRUE", "FALSE"], "answer": 1}, {"id": "t19-TF-2", "prompt": "These cookies must not be baked for the party.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-3", "prompt": "Your wish may not be granted by a fairy.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-4", "prompt": "Scary nightmares should be discussed.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-5", "prompt": "This game cannot be won with patience.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-11", "prompt": "The sandwich will be made by the chef.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-12", "prompt": "These pebbles must be collected at the beach.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-13", "prompt": "Your ticket may be checked by a conductor.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-14", "prompt": "Throwing sand should not be encouraged.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-15", "prompt": "This picture can be colored with crayons.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-16", "prompt": "The cat will be feed by Grandma.", "options": ["True", "False"], "answer": 1}, {"id": "t19-TF-17", "prompt": "These shoes must be tien properly.", "options": ["True", "False"], "answer": 1}, {"id": "t19-TF-18", "prompt": "Your room may be cleanen by a robot.", "options": ["True", "False"], "answer": 1}, {"id": "t19-TF-20", "prompt": "This puzzle can be complete in an hour.", "options": ["True", "False"], "answer": 1}, {"id": "t19-TF-21", "prompt": "The sandwich will not be maden by the chef.", "options": ["True", "False"], "answer": 1}, {"id": "t19-TF-22", "prompt": "These pebbles must not be collecten at the beach.", "options": ["True", "False"], "answer": 1}, {"id": "t19-TF-23", "prompt": "Your ticket may not be check by a conductor.", "options": ["True", "False"], "answer": 1}, {"id": "t19-TF-24", "prompt": "Throwing sand should be encouragen.", "options": ["True", "False"], "answer": 1}, {"id": "t19-TF-25", "prompt": "This picture cannot be coloren with crayons.", "options": ["True", "False"], "answer": 1}, {"id": "t19-TF-1", "prompt": "The teddy bear will not be fixed by the doctor.", "options": ["True", "False"], "answer": 0}, {"id": "t19-TF-19", "prompt": "Shouting in the library should not be toleraten.", "options": ["True", "False"], "answer": 1}], "dropped": [[6, "true/false on a question"], [7, "true/false on a question"], [8, "true/false on a question"], [10, "true/false on a question"], [26, "true/false on a question"], [27, "true/false on a question"], [29, "true/false on a question"], [30, "true/false on a question"], [9, "true/false on a question"], [28, "true/false on a question"]], "pool": 30, "new": 5, "usable": 25, "short": 0}}}
+{
+ "id": "t19",
+ "topic": "hard 조동사 있는 수동태",
+ "shapes": {
+  "TF": {
+   "title": "TF hard 조동사 있는 수동태",
+   "minutes": 5,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t19-TF-900",
+     "prompt": "The bridge must be repaired before winter.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-901",
+     "prompt": "The results will be announced on Friday.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-902",
+     "prompt": "New ideas should be share in class.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-903",
+     "prompt": "The trees must be plant in spring.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-904",
+     "prompt": "The story can be tell by anyone.",
+     "options": [
+      "TRUE",
+      "FALSE"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-2",
+     "prompt": "These cookies must not be baked for the party.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-3",
+     "prompt": "Your wish may not be granted by a fairy.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-4",
+     "prompt": "Scary nightmares should be discussed.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-5",
+     "prompt": "This game cannot be won with patience.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-11",
+     "prompt": "The sandwich will be made by the chef.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-12",
+     "prompt": "These pebbles must be collected at the beach.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-13",
+     "prompt": "Your ticket may be checked by a conductor.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-14",
+     "prompt": "Throwing sand should not be encouraged.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-15",
+     "prompt": "This picture can be colored with crayons.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-16",
+     "prompt": "The cat will be feed by Grandma.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-20",
+     "prompt": "This puzzle can be complete in an hour.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-23",
+     "prompt": "Your ticket may not be check by a conductor.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-1",
+     "prompt": "The teddy bear will not be fixed by the doctor.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t19-TF-905",
+     "prompt": "These cookies must not be bake for the party.",
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-906",
+     "prompt": "Your wish may not be grant by a fairy.",
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-907",
+     "prompt": "The sandwich will be make by the chef.",
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-908",
+     "prompt": "These pebbles must be collect at the beach.",
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-909",
+     "prompt": "The bridge must be repair before winter.",
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-910",
+     "prompt": "Scary nightmares should be discuss.",
+     "answer": 1
+    },
+    {
+     "id": "t19-TF-911",
+     "prompt": "Your ticket may be checked by a conductors.",
+     "answer": 1
+    }
+   ],
+   "dropped": [
+    [
+     6,
+     "true/false on a question"
+    ],
+    [
+     7,
+     "true/false on a question"
+    ],
+    [
+     8,
+     "true/false on a question"
+    ],
+    [
+     10,
+     "true/false on a question"
+    ],
+    [
+     26,
+     "true/false on a question"
+    ],
+    [
+     27,
+     "true/false on a question"
+    ],
+    [
+     29,
+     "true/false on a question"
+    ],
+    [
+     30,
+     "true/false on a question"
+    ],
+    [
+     9,
+     "true/false on a question"
+    ],
+    [
+     28,
+     "true/false on a question"
+    ]
+   ],
+   "pool": 30,
+   "new": 5,
+   "usable": 25,
+   "short": 0
+  }
+ }
+}
