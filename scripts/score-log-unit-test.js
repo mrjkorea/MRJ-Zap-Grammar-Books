@@ -53,6 +53,9 @@ function loadScoresHarness(studentFn) {
       });
     },
   };
+  // The canonical mrj-scores.js binds to the browser global `window` (Reg/Metrics),
+  // so the sandbox must carry that name too, pointing at the same object.
+  root.window = root;
   const ctx = vm.createContext(root);
   vm.runInContext(fs.readFileSync(path.join(REPO, "mrj-scores.js"), "utf8"), ctx);
   return { root, fetchUrls, noteScoreCalls };
@@ -89,7 +92,10 @@ async function runPostTests() {
   });
 
   assert.strictEqual(fetchUrls.length, 1, "question: one fetch");
-  assert.strictEqual(noteScoreCalls.length, 0, "question: no noteScore");
+  /* Canonical client (Reg/Metrics 2026-11-11) notes every posted score for the
+     teacher view, not only practice summaries. */
+  assert.strictEqual(noteScoreCalls.length, 1, "question: notes once for the teacher view");
+  assert.strictEqual(noteScoreCalls[0].itemId, "g1:u01:walk:a01#2");
 
   const signedOut = loadScoresHarness(() => "");
   await signedOut.root.MRJ_SCORES.post({
