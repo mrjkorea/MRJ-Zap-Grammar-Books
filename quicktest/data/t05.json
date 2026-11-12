@@ -1,803 +1,932 @@
 {
-"id": "t05",
-"topic": "BE동사",
-"version": 2,
-"shapes": {
-"T3": {
-"title": "T3 BE동사",
-"minutes": 15,
-"passCorrect": 23,
-"items": [
-{
-"id": "t05-T3-1",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The dog is hungry before dinner.",
-"The windows open this morning.",
-"The movie is boring for the young children.",
-"My sister is busy with homework."
-],
-"answer": 1
-},
-{
-"id": "t05-T3-2",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The windows are open in the classroom now.",
-"The players excited before the big game today.",
-"The children are noisy in the small classroom.",
-"His hands are dirty after soccer."
-],
-"answer": 1
-},
-{
-"id": "t05-T3-3",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The classroom quiet before the first morning class.",
-"My shoes are under the bed.",
-"My bag is heavy with many school books.",
-"My grandparents are happy at the party."
-],
-"answer": 0
-},
-{
-"id": "t05-T3-4",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"Her answers are correct on the science quiz.",
-"The students quiet in class.",
-"I am tired after the long walk.",
-"The students are quiet in class."
-],
-"answer": 1
-},
-{
-"id": "t05-T3-5",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"My father is busy in the kitchen.",
-"The dogs are not hungry now.",
-"My grandparents are healthy and active every day.",
-"This homework easy for my smart friend."
-],
-"answer": 3
-},
-{
-"id": "t05-T3-6",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"Her answer is correct on the first try.",
-"I am not tired after lunch.",
-"The cat under the table now.",
-"My bag is under the chair."
-],
-"answer": 2
-},
-{
-"id": "t05-T3-7",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"Those shoes are too small for me.",
-"My brother very hungry after school today.",
-"The dogs are loud at night in the yard.",
-"Her room is clean and bright."
-],
-"answer": 1
-},
-{
-"id": "t05-T3-8",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"We are happy about the school trip tomorrow.",
-"We are happy about the school trip.",
-"My shoes are wet from the rain.",
-"The weather very rainy today."
-],
-"answer": 3
-},
-{
-"id": "t05-T3-9",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"My sister is happy at school.",
-"I am not cold in this room.",
-"My father busy in the kitchen.",
-"My hands are cold in the winter wind."
-],
-"answer": 2
-},
-{
-"id": "t05-T3-10",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The dog is in the garden.",
-"My sister is happy at the new school.",
-"The dog hungry before dinner.",
-"My parents are busy on Monday."
-],
-"answer": 2
-},
-{
-"id": "t05-T3-11",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"Those apples are sweet and fresh from the farm.",
-"My sister very happy today.",
-"Her room is messy on weekends.",
-"The bus is late again this cold morning."
-],
-"answer": 1
-},
-{
-"id": "t05-T3-12",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The bus late again today.",
-"The water is cold in the pool.",
-"The soup is hot on the kitchen table.",
-"The movie is boring and long."
-],
-"answer": 0
-},
-{
-"id": "t05-T3-13",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The windows are open during the hot summer day.",
-"My brother is tall for his age.",
-"This homework is easy for my smart friend.",
-"My brother hungry after school."
-],
-"answer": 3
-},
-{
-"id": "t05-T3-14",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"My grandparents are kind to everyone.",
-"I am not tired after the long bus ride.",
-"The books heavy in my school bag.",
-"I am at home after lunch."
-],
-"answer": 2
-},
-{
-"id": "t05-T3-15",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"These pencils are on the desk.",
-"Our teacher is kind to everyone.",
-"The flowers pretty near the gate.",
-"Her hands are clean after washing them carefully."
-],
-"answer": 2
-},
-{
-"id": "t05-T3-16",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The teachers are in the office.",
-"My shoes are dirty after the rainy walk.",
-"My shoes dirty after the rainy walk.",
-"The players are excited before the big game."
-],
-"answer": 2
-},
-{
-"id": "t05-T3-17",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"My hands are cold in winter.",
-"The girls are ready for the piano lesson now.",
-"The windows open in the warm classroom.",
-"The test is easy for my best friend."
-],
-"answer": 2
-},
-{
-"id": "t05-T3-18",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The test is easy for my class.",
-"The window open in my room.",
-"My cousins are funny at every family dinner.",
-"We are not late for class."
-],
-"answer": 1
-},
-{
-"id": "t05-T3-19",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"My brother is hungry after school today.",
-"My father is tired after work.",
-"The soup is too hot for my little sister.",
-"The movie boring for young kids."
-],
-"answer": 3
-},
-{
-"id": "t05-T3-20",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"My friends are ready for the school trip.",
-"The shoes are not clean now.",
-"Those apples are sweet from the school garden.",
-"My friends in the gym."
-],
-"answer": 3
-},
-{
-"id": "t05-T3-26",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The classroom is quiet in the morning.",
-"The boys are loud in the gym.",
-"The children are noisy in the gym.",
-"The students quiet in the library."
-],
-"answer": 3
-},
-{
-"id": "t05-T3-27",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"My shoes are dirty after the rainy soccer practice.",
-"My bag is on the chair.",
-"The kitchen is clean and bright.",
-"I ready for the math test today."
-],
-"answer": 3
-},
-{
-"id": "t05-T3-28",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"You very kind to me.",
-"The trees are tall and green.",
-"I am not late for class.",
-"The movie is boring for my little sister."
-],
-"answer": 0
-},
-{
-"id": "t05-T3-29",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"I am late for the music class.",
-"The teacher kind to us.",
-"The test is not easy for us.",
-"The streets are busy near our school gate."
-],
-"answer": 1
-},
-{
-"id": "t05-T3-30",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The classroom is clean this morning.",
-"My brother is in the kitchen now.",
-"I not tired after school.",
-"Dinner is ready on the table."
-],
-"answer": 2
-}
-]
-},
-"F3": {
-"title": "F3 BE동사",
-"minutes": 15,
-"passCorrect": 23,
-"items": [
-{
-"id": "t05-F3-1",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I am not tired after school.",
-"I tired after the game.",
-"I busy with my homework after lunch.",
-"The students quiet during the reading time."
-],
-"answer": 0
-},
-{
-"id": "t05-F3-2",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The chairs clean after the school event.",
-"My grandfather is quiet after his long walk.",
-"The shoes not clean now.",
-"We ready for the math test."
-],
-"answer": 1
-},
-{
-"id": "t05-F3-3",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"Her new bike is red and very fast.",
-"My hands cold after the walk.",
-"The test easy for my best friend.",
-"My sister happy at school."
-],
-"answer": 0
-},
-{
-"id": "t05-F3-4",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My shoes under the bed.",
-"We are ready for the math test now.",
-"My father busy on Mondays.",
-"My cousins happy at the party."
-],
-"answer": 1
-},
-{
-"id": "t05-F3-5",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The shoes new and clean.",
-"The movie boring for the young children.",
-"My bag on the chair.",
-"The teacher is kind to every student."
-],
-"answer": 3
-},
-{
-"id": "t05-F3-6",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The bus late on Monday morning.",
-"I hungry after the game.",
-"My friends are in the library.",
-"The classroom quiet this morning."
-],
-"answer": 2
-},
-{
-"id": "t05-F3-9",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My friends not late for school.",
-"We not sad about the rain.",
-"My shoes dirty after the rainy soccer practice.",
-"The classroom is very quiet today."
-],
-"answer": 3
-},
-{
-"id": "t05-F3-10",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"His room is clean after the weekend.",
-"The soup hot on the kitchen table.",
-"My sister quiet during the math class.",
-"Her answer correct on the first try."
-],
-"answer": 0
-},
-{
-"id": "t05-F3-11",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I very busy after lunch.",
-"The eggs fresh from the farm market.",
-"The dogs noisy in the small park.",
-"The weather is very cold today."
-],
-"answer": 3
-},
-{
-"id": "t05-F3-12",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My sister is very happy today.",
-"The teachers in the office.",
-"The floor wet after the morning cleaning.",
-"The eggs fresh in the basket."
-],
-"answer": 0
-},
-{
-"id": "t05-F3-13",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My grandparents kind to everyone.",
-"My sister good at math.",
-"My bag heavy with books.",
-"This pencil is short and yellow."
-],
-"answer": 3
-},
-{
-"id": "t05-F3-14",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My new gloves warm and soft.",
-"The weather very cold today.",
-"The flowers are pretty in spring.",
-"My sister happy at school today."
-],
-"answer": 2
-},
-{
-"id": "t05-F3-15",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My grandparents are old but very healthy.",
-"Her room clean and bright.",
-"They in the classroom now.",
-"The dog small and cute."
-],
-"answer": 0
-},
-{
-"id": "t05-F3-16",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The classroom quiet in the morning.",
-"You late for music class.",
-"My friends are happy after the fun picnic.",
-"The soup very hot on the table."
-],
-"answer": 2
-},
-{
-"id": "t05-F3-17",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The kitchen clean and bright.",
-"The dogs not hungry now.",
-"We not late for dinner.",
-"My sister is good at drawing pictures."
-],
-"answer": 3
-},
-{
-"id": "t05-F3-18",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The kitchen is clean after our family dinner.",
-"The water cold in the pool.",
-"My grandfather quiet after his long walk.",
-"My grandparents happy at the family dinner."
-],
-"answer": 0
-},
-{
-"id": "t05-F3-19",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The sky gray before the heavy rain starts.",
-"My hands cold in the winter wind.",
-"My brother hungry after school today.",
-"The puppy is cute and small."
-],
-"answer": 3
-},
-{
-"id": "t05-F3-20",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The books on the desk in my room.",
-"The apples sweet in the small basket.",
-"My friends are not late for the soccer game.",
-"The boys loud in the gym."
-],
-"answer": 2
-},
-{
-"id": "t05-F3-21",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The teacher is kind to us.",
-"My friends ready for the school trip.",
-"My hands cold in the winter classroom.",
-"My sister happy at the new school."
-],
-"answer": 0
-},
-{
-"id": "t05-F3-22",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"Her new bike red and very fast.",
-"The cake sweet and soft.",
-"Our teacher is kind to every student.",
-"His hands dirty after soccer."
-],
-"answer": 2
-},
-{
-"id": "t05-F3-23",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"Our teacher is kind to us.",
-"I tired after lunch today.",
-"My father busy at work.",
-"The library quiet in the early morning."
-],
-"answer": 0
-},
-{
-"id": "t05-F3-24",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The classroom quiet in the early morning.",
-"I ready for the math test.",
-"The homework easy for the smart students.",
-"My sister is good at drawing."
-],
-"answer": 3
-},
-{
-"id": "t05-F3-25",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I not tired after lunch.",
-"My shoes wet from the rain this morning.",
-"My shoes near the door.",
-"My shoes are wet from the rain this morning."
-],
-"answer": 3
-},
-{
-"id": "t05-F3-26",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The bus is late on Monday morning.",
-"My grandparents old but very healthy.",
-"Our teacher kind to every student in class.",
-"The soup very hot today."
-],
-"answer": 0
-},
-{
-"id": "t05-F3-27",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My mother sleepy after dinner.",
-"The sky blue this morning.",
-"My father is busy with work every evening.",
-"The soup too hot for me."
-],
-"answer": 2
-}
-]
-},
-"TF": {
-"title": "TF BE동사",
-"minutes": 5,
-"passCorrect": 23,
-"items": [
-{
-"id": "t05-TF-r1",
-"prompt": "The players excited before the big game.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-2",
-"prompt": "The classroom is quiet before the first lesson starts.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-8",
-"prompt": "The bus is late again this morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-r14",
-"prompt": "My shoes dirty after the rainy day.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-11",
-"prompt": "The books are on the desk.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-r6",
-"prompt": "The movie boring for my older brother.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r10",
-"prompt": "I very hungry after soccer practice.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-12",
-"prompt": "The dogs are not hungry after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-10",
-"prompt": "The eggs are fresh this morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-9",
-"prompt": "I am hungry after the long walk.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-7",
-"prompt": "The window is open in my room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-r2",
-"prompt": "I very tired after the long bus ride.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-6",
-"prompt": "My brother is hungry after lunch at school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-r9",
-"prompt": "The streets busy after the long holiday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r4",
-"prompt": "The children noisy in the small classroom.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-13",
-"prompt": "My books are on the desk.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-r7",
-"prompt": "We ready for the math test now.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r12",
-"prompt": "The new movie funny and exciting.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r13",
-"prompt": "My parents not at home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r11",
-"prompt": "We happy about the news.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-1",
-"prompt": "The soup is very hot today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-3",
-"prompt": "The movie is boring for my brother.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-r3",
-"prompt": "Her answers correct on the science quiz.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-5",
-"prompt": "The apples are in the basket.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-4",
-"prompt": "The weather is very rainy today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-}
-]
-}
-}
+  "id": "t05",
+  "topic": "BE동사",
+  "shapes": {
+    "T3": {
+      "title": "T3 BE동사",
+      "minutes": 15,
+      "passCorrect": 23,
+      "items": [
+        {
+          "id": "t05-T3-27",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "He is strong.",
+            "I am not strong.",
+            "Is he strong?",
+            "He am strong."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-28",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "She is kind.",
+            "They are not kind.",
+            "Is she kind?",
+            "She are kind."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-30",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "He is happy.",
+            "He is not happy.",
+            "Am I happy?",
+            "I is happy."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-11",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The rainbow is colorful.",
+            "The rainbow is not colorful.",
+            "Am I colorful?",
+            "The rainbow am not colorful."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-13",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "I am round.",
+            "The moon is not round.",
+            "Is the moon round?",
+            "The moon am not round."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-14",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The grass is green.",
+            "The grass is not green.",
+            "Is the grass green?",
+            "The grass are not green."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-15",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The tree is tall.",
+            "The trees are not tall.",
+            "Is the tree tall?",
+            "The tree are not tall."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-17",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The butterfly is colorful.",
+            "The butterfly is not colorful.",
+            "Am I colorful?",
+            "The butterfly am not colorful."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-18",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The bird is small.",
+            "The birds are not small.",
+            "Is the bird small?",
+            "The bird are not small."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-19",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "You and I are cute.",
+            "I am not cute.",
+            "Am I cute?",
+            "I are not cute."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-20",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The dogs are friendly.",
+            "The dog is not friendly.",
+            "Is the dog friendly?",
+            "The dog are not friendly."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-21",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The sun is hot.",
+            "I am not hot.",
+            "Is the sun hot?",
+            "The sun am hot."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-22",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The sky is blue.",
+            "The sky is not blue.",
+            "Is the sky blue?",
+            "The sky are blue."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-23",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The flower is pretty.",
+            "The flowers are not pretty.",
+            "Are the flowers pretty?",
+            "The flowers is pretty."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-25",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "They are friends.",
+            "They are not friends.",
+            "Am I a friend?",
+            "They am friends."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-26",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "It is a family.",
+            "We are not a family.",
+            "Are we a family?",
+            "We is a family."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-31",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "These books are not on my desk.",
+            "Our dog is not in the garden.",
+            "The tables are clean in the lunch room.",
+            "These books is not on my desk."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-32",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Rain is not good for the park today.",
+            "That movie is not fun for us.",
+            "My phone is in the shop now.",
+            "The teacher are in the classroom now."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-33",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "These books are not on my desk.",
+            "Today is a good day for a walk.",
+            "The window is open in the morning.",
+            "My lunch are on the table."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-34",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The window is open in the morning.",
+            "The teacher is in the classroom now.",
+            "Rain is not good for the park today.",
+            "My phone are in the shop now."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-35",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The tables are clean in the lunch room.",
+            "That movie is not fun for us.",
+            "The window is open in the morning.",
+            "The river are very cold in winter."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-36",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "This book is not very easy.",
+            "After school, the bus is very crowded.",
+            "My dog is not in the garden.",
+            "My friends is not at home right now."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-37",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Our home is near the school.",
+            "The window is open in the morning.",
+            "That tall teacher is very kind to us.",
+            "Her books is on the small table."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-38",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Those two dogs are friendly to my friend.",
+            "Those children are in the park now.",
+            "The shop is not open this morning.",
+            "Homework are easy for my friend."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-T3-39",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "My homework is not hard for me.",
+            "We are happy at school today.",
+            "This morning the rain is cold and heavy.",
+            "The window are open in my room today."
+          ],
+          "answer": 3
+        }
+      ],
+      "dropped": [
+        [
+          29,
+          "option cut off"
+        ],
+        [
+          9,
+          "lower rank"
+        ],
+        [
+          16,
+          "lower rank"
+        ],
+        [
+          24,
+          "lower rank"
+        ],
+        [
+          12,
+          "lower rank"
+        ]
+      ],
+      "pool": 30,
+      "new": 0,
+      "usable": 25,
+      "short": 0
+    },
+    "F3": {
+      "title": "F3 BE동사",
+      "minutes": 15,
+      "passCorrect": 23,
+      "items": [
+        {
+          "id": "t05-F3-900",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "The children is in the garden.",
+            "The children in the garden.",
+            "Are the children in the garden.",
+            "The children are in the garden."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t05-F3-906",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "My phone is in my school bag.",
+            "My phone are on the desk.",
+            "They is hungry after lunch.",
+            "She are happy in the park today."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-907",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "This book is very easy.",
+            "I is a middle school student.",
+            "The window are open in the morning.",
+            "Lunch are at twelve every day."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-908",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "We are late for the bus.",
+            "He are not at home now.",
+            "Lunch are at twelve every school day.",
+            "My phone are in my school bag."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-909",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "It is cold and rainy this morning.",
+            "They is good at math homework.",
+            "My teacher are not in the classroom.",
+            "The teacher are in the classroom now."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-910",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "The window is open in the morning.",
+            "She are happy in the park.",
+            "You is very kind to your friends.",
+            "The movie are very funny and short."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-911",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "You are very kind to your friends.",
+            "The teacher are in the classroom.",
+            "We is in the same class.",
+            "It are cold this morning."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-912",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "He is at the bus stop now.",
+            "He are at the bus stop now.",
+            "My dog are under the table.",
+            "We is in the same class this year."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-913",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "She is happy in the park today.",
+            "The river are near the park.",
+            "You is very kind to me.",
+            "She are my best friend."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-914",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "She is my best friend.",
+            "We is late for the bus.",
+            "The river are near my house.",
+            "The book are on the desk."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-915",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "The teacher is in the classroom now.",
+            "This book are very easy.",
+            "They is on the bus.",
+            "This book are on the small table."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-916",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "They are good at math homework.",
+            "The dog are under the table.",
+            "The window are open in my room.",
+            "He are my best friend at school."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-917",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Lunch is ready on the kitchen table.",
+            "Those books is new and very thin.",
+            "My lunch are on the table now.",
+            "This shop are small but very clean."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-918",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "You are a good friend to me.",
+            "My lunch are on the table now.",
+            "His homework are on the desk, not here.",
+            "The movie are fun for my family."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-919",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "I am very hungry after school today.",
+            "I is very hungry after school today.",
+            "The movie are fun for my family.",
+            "You is a good friend to me."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-920",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "The park is very busy this morning.",
+            "You is early for class today.",
+            "The teacher am happy with our class.",
+            "My homework are on the desk now."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-921",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "We are at the river with our dog.",
+            "Our bus stop are near the small shop.",
+            "That teacher are very nice to us.",
+            "The movie are at seven tonight."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-922",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "We are very busy with homework tonight.",
+            "The books is on the small table.",
+            "My lunch are in the blue bag today.",
+            "This river are deep and very cold."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-923",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "The teacher is happy with our class.",
+            "We is at the river with our dog.",
+            "The dog are under the table now.",
+            "My phone are new, and it is fast."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-924",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Rain is good for the small garden.",
+            "Her phone are on the kitchen table.",
+            "We is at the river with our dog.",
+            "In the morning, the river are quiet and calm."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-925",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Our bus stop is near the small shop.",
+            "The dog are very happy in the park.",
+            "It are quiet in the school library.",
+            "My phone are new, and it is fast."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-926",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Those children are very quiet at school.",
+            "In the morning, the school are very quiet.",
+            "The window are dirty, but the room is fine.",
+            "The park are very busy this morning."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-927",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "The dog is under the table now.",
+            "We is very busy with homework tonight.",
+            "My friend are at home this morning.",
+            "My dog are very happy in the garden."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-928",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "That teacher is very nice to us.",
+            "Those children is very quiet at school.",
+            "The shop are not open on Sunday.",
+            "Rain are good for the small garden."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-F3-929",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Those books are new and very thin.",
+            "The movie are funny and very short.",
+            "Lunch are ready on the kitchen table.",
+            "The bus are often late in the rain."
+          ],
+          "answer": 0
+        }
+      ],
+      "dropped": [
+        [
+          30,
+          "option cut off"
+        ],
+        [
+          20,
+          "error is only punctuation"
+        ],
+        [
+          12,
+          "error is only punctuation"
+        ],
+        [
+          13,
+          "error is only punctuation"
+        ],
+        [
+          14,
+          "error is only punctuation"
+        ],
+        [
+          15,
+          "error is only punctuation"
+        ],
+        [
+          16,
+          "error is only punctuation"
+        ],
+        [
+          18,
+          "error is only punctuation"
+        ],
+        [
+          19,
+          "error is only punctuation"
+        ],
+        [
+          21,
+          "error is only punctuation"
+        ],
+        [
+          17,
+          "error is only punctuation"
+        ],
+        [
+          2,
+          "lower rank"
+        ]
+      ],
+      "pool": 31,
+      "new": 6,
+      "usable": 25,
+      "short": 0
+    },
+    "TF": {
+      "title": "TF BE동사",
+      "minutes": 5,
+      "passCorrect": 23,
+      "items": [
+        {
+          "id": "t05-TF-900",
+          "prompt": "The baby is sleepy.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-901",
+          "prompt": "My shoes are new.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-902",
+          "prompt": "The cats is hungry.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t05-TF-904",
+          "prompt": "He are my brother.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t05-TF-905",
+          "prompt": "You are a good friend.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-16",
+          "prompt": "The toys are fun.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-17",
+          "prompt": "The candy is tasty.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-18",
+          "prompt": "The pizza is yummy.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-19",
+          "prompt": "The ice cream is cold.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-20",
+          "prompt": "The cake is sweet.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-26",
+          "prompt": "We are not a family.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-27",
+          "prompt": "He is not strong.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-28",
+          "prompt": "She is not kind.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-29",
+          "prompt": "You and I are not friends",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-30",
+          "prompt": "I am not happy.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t05-TF-9",
+          "prompt": "The ice cream not cold.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t05-TF-10",
+          "prompt": "The cake not sweet.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t05-TF-11",
+          "prompt": "The fish in the pond.",
+          "options": [
+            "TRUE",
+            "FALSE"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t05-TF-906",
+          "prompt": "The babies is sleepy.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        },
+        {
+          "id": "t05-TF-907",
+          "prompt": "My shoe are new.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        },
+        {
+          "id": "t05-TF-908",
+          "prompt": "The toy are fun.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        },
+        {
+          "id": "t05-TF-909",
+          "prompt": "The candies is tasty.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        },
+        {
+          "id": "t05-TF-910",
+          "prompt": "The ice creams is cold.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        },
+        {
+          "id": "t05-TF-911",
+          "prompt": "The cakes is sweet.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        },
+        {
+          "id": "t05-TF-912",
+          "prompt": "The pizzas is yummy.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        }
+      ],
+      "dropped": [
+        [
+          14,
+          "true/false on a fragment"
+        ],
+        [
+          1,
+          "true/false on a question"
+        ],
+        [
+          2,
+          "true/false on a question"
+        ],
+        [
+          3,
+          "true/false on a question"
+        ],
+        [
+          5,
+          "true/false on a question"
+        ],
+        [
+          24,
+          "true/false on a question"
+        ],
+        [
+          4,
+          "true/false on a question"
+        ],
+        [
+          21,
+          "true/false on a question"
+        ],
+        [
+          22,
+          "true/false on a question"
+        ],
+        [
+          23,
+          "true/false on a question"
+        ],
+        [
+          25,
+          "true/false on a question"
+        ]
+      ],
+      "pool": 30,
+      "new": 6,
+      "usable": 25,
+      "short": 0
+    }
+  }
 }

@@ -1,803 +1,880 @@
 {
-"id": "t20",
-"topic": "if whether",
-"version": 2,
-"shapes": {
-"T3": {
-"title": "T3 if whether",
-"minutes": 15,
-"passCorrect": 23,
-"items": [
-{
-"id": "t20-T3-1",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"I ask if my room is clean enough.",
-"They ask the room is quiet.",
-"I wonder whether the bus is late.",
-"I wonder if my room is tidy."
-],
-"answer": 1
-},
-{
-"id": "t20-T3-2",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"We ask if the bus arrives early.",
-"I ask if my friend needs help.",
-"He wonders the room is quiet.",
-"He asks if my bike is new."
-],
-"answer": 2
-},
-{
-"id": "t20-T3-3",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"I ask if the shop is open.",
-"They ask if the movie is funny.",
-"I wonder the baby is asleep.",
-"They wonder whether the garden is beautiful."
-],
-"answer": 2
-},
-{
-"id": "t20-T3-4",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"I ask if my pencil is on the desk.",
-"We wonder whether the kitchen is tidy.",
-"I wonder if my dog is happy today.",
-"I wonder my sister likes this song."
-],
-"answer": 3
-},
-{
-"id": "t20-T3-5",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"He wonders whether the game is fun.",
-"He wonders if my bike is safe.",
-"They ask whether the game ends after lunch.",
-"He asks my bike is new."
-],
-"answer": 3
-},
-{
-"id": "t20-T3-6",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"I wonder the movie is funny.",
-"They ask whether the train is late.",
-"He asks if the chair is soft.",
-"Do you know if the game starts soon?"
-],
-"answer": 0
-},
-{
-"id": "t20-T3-7",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They ask if the library opens early.",
-"We wonder whether the cat sleeps outside.",
-"He asks the library opens early.",
-"I ask if my friend is home."
-],
-"answer": 2
-},
-{
-"id": "t20-T3-8",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"I ask if the teacher is busy.",
-"They wonder the room is quiet.",
-"He asks whether the store is open.",
-"I ask whether the park is quiet."
-],
-"answer": 1
-},
-{
-"id": "t20-T3-9",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"He asks whether the window is open.",
-"They wonder the test is easy.",
-"I wonder whether the bag is heavy.",
-"He asks if his bike is safe outside."
-],
-"answer": 1
-},
-{
-"id": "t20-T3-10",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They ask if the game starts soon.",
-"She asks whether the library is quiet.",
-"We wonder the kitchen is tidy.",
-"She asks if the water is cold."
-],
-"answer": 2
-},
-{
-"id": "t20-T3-11",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They ask if the game is fun.",
-"He wonders the water is cold.",
-"I ask if the window is closed.",
-"She wonders whether her cat likes fish."
-],
-"answer": 1
-},
-{
-"id": "t20-T3-12",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"He wonders whether the water is cold.",
-"She asks the chair is comfortable.",
-"They ask if the park is open.",
-"They wonder whether the water is warm."
-],
-"answer": 1
-},
-{
-"id": "t20-T3-13",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"We wonder whether the park is near.",
-"She asks whether my sister likes music.",
-"I ask if the library is quiet.",
-"I wonder this chair is comfortable."
-],
-"answer": 3
-},
-{
-"id": "t20-T3-14",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"She wonders the park is clean.",
-"We ask if the water is cold.",
-"I wonder if the milk is cold.",
-"I ask whether the garden looks nice."
-],
-"answer": 0
-},
-{
-"id": "t20-T3-15",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"She wonders whether the shoes fit well.",
-"He wonders if the soup is hot.",
-"We ask whether the library opens on Sunday.",
-"We wonder the park is open."
-],
-"answer": 3
-},
-{
-"id": "t20-T3-16",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They ask that the train is late.",
-"He wonders whether the shop sells pencils.",
-"He doesn't know if the store sells bread.",
-"She asks whether the milk is cold."
-],
-"answer": 0
-},
-{
-"id": "t20-T3-17",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They wonder whether the park is clean.",
-"He wonders the shop sells pencils.",
-"I wonder whether my bike is safe.",
-"I wonder whether my shoes are clean."
-],
-"answer": 1
-},
-{
-"id": "t20-T3-18",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"I wonder whether the movie is funny.",
-"She asks the library is quiet.",
-"She wonders whether the song is new.",
-"I ask whether the pencil is sharp."
-],
-"answer": 1
-},
-{
-"id": "t20-T3-19",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"I wonder whether my friend likes math.",
-"He wonders the chair is soft.",
-"We ask if the store sells pencils.",
-"She wonders if the bread is fresh."
-],
-"answer": 1
-},
-{
-"id": "t20-T3-20",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They ask if the train is fast.",
-"She wonders whether her sister likes carrots.",
-"I wonder my bike is safe.",
-"We wonder whether the bird is hungry."
-],
-"answer": 2
-},
-{
-"id": "t20-T3-21",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They ask that the game starts soon.",
-"He wonders whether the phone works well.",
-"I wonder if my sister likes the new song.",
-"We wonder if the bus is late."
-],
-"answer": 0
-},
-{
-"id": "t20-T3-22",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They wonder whether the game is fun.",
-"I wonder my friend knows the answer.",
-"They wonder whether the book is long.",
-"He asks whether my cousin plays the piano."
-],
-"answer": 1
-},
-{
-"id": "t20-T3-23",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"She asks whether the baby sleeps well.",
-"They ask if the train is late.",
-"They ask whether the park is open.",
-"We wonder our teacher is busy."
-],
-"answer": 3
-},
-{
-"id": "t20-T3-24",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"He wonders whether my friend speaks English.",
-"We ask whether the kitchen is very dirty.",
-"I ask my friend can swim.",
-"We ask if the clock is fast."
-],
-"answer": 2
-},
-{
-"id": "t20-T3-25",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"He wonders if the water is warm.",
-"They wonder the teacher is busy.",
-"We ask if the train comes soon.",
-"She asks whether the street is busy."
-],
-"answer": 1
-}
-]
-},
-"F3": {
-"title": "F3 if whether",
-"minutes": 15,
-"passCorrect": 23,
-"items": [
-{
-"id": "t20-F3-1",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I wonder that the rain stops soon.",
-"We wonder whether the park is open.",
-"Tell me your room is clean.",
-"I wonder the cake is sweet."
-],
-"answer": 1
-},
-{
-"id": "t20-F3-2",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"They wonder the park is safe.",
-"I ask the room is clean today.",
-"I wonder that my sister likes math.",
-"They ask whether the game starts at noon."
-],
-"answer": 3
-},
-{
-"id": "t20-F3-3",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"We ask that the teacher knows my name.",
-"We ask if the game starts soon.",
-"We ask our dinner is ready.",
-"We wonder the movie is funny."
-],
-"answer": 1
-},
-{
-"id": "t20-F3-5",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"She asks if the library is quiet.",
-"They wonder that the test is easy.",
-"She asks that the bus stops near school.",
-"They wonder the garden is pretty."
-],
-"answer": 0
-},
-{
-"id": "t20-F3-6",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I ask the garden looks nice.",
-"She wonders her cat is hungry.",
-"I wonder whether the baby sleeps well.",
-"They ask the water is cold."
-],
-"answer": 2
-},
-{
-"id": "t20-F3-7",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"They ask the shop opens early.",
-"He asks if his sister found the key.",
-"He wonders the phone works well.",
-"They ask the library opens early."
-],
-"answer": 1
-},
-{
-"id": "t20-F3-8",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"They wonder if the movie starts at seven.",
-"We wonder the test is easy.",
-"They ask that the park is open.",
-"She wonders the story is true."
-],
-"answer": 0
-},
-{
-"id": "t20-F3-9",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I ask the shop opens early.",
-"He wonders the math test is easy.",
-"They ask whether the game starts soon.",
-"They ask the floor is dry."
-],
-"answer": 2
-},
-{
-"id": "t20-F3-10",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I wonder my dog is happy today.",
-"She wonders if the water is cold.",
-"We ask the clock is fast.",
-"He asks his bike is safe outside."
-],
-"answer": 1
-},
-{
-"id": "t20-F3-11",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"They ask the homework is easy.",
-"He asks the store sells bread.",
-"I ask whether my sister needs help.",
-"I wonder the store sells pencils."
-],
-"answer": 2
-},
-{
-"id": "t20-F3-12",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I wonder whether the cake is sweet.",
-"We wonder the movie is long.",
-"He wonders that the classroom feels warm enough.",
-"We ask the train comes soon."
-],
-"answer": 0
-},
-{
-"id": "t20-F3-13",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"We ask whether the park is near.",
-"I wonder my friend is at home.",
-"I wonder the train leaves early.",
-"Dad asks the car is safe."
-],
-"answer": 0
-},
-{
-"id": "t20-F3-14",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I wonder the book is funny.",
-"I ask my bag is heavy.",
-"We wonder if the garden looks nice.",
-"I ask my cousin needs help."
-],
-"answer": 2
-},
-{
-"id": "t20-F3-15",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"She wonders that the baby sleeps well.",
-"They ask the train is late.",
-"I ask the milk is cold.",
-"He asks whether the test is difficult."
-],
-"answer": 3
-},
-{
-"id": "t20-F3-16",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"She asks that the milk is cold.",
-"He wonders whether the movie is funny.",
-"We wonder the cake is sweet.",
-"We wonder the eggs are fresh."
-],
-"answer": 1
-},
-{
-"id": "t20-F3-17",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I wonder if my sister likes math.",
-"They wonder the book is long.",
-"She asks the water is cold.",
-"They ask the classroom is clean."
-],
-"answer": 0
-},
-{
-"id": "t20-F3-18",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"They ask the store sells bread.",
-"I wonder if the library opens today.",
-"They ask the classroom is empty.",
-"He wonders the milk is cold."
-],
-"answer": 1
-},
-{
-"id": "t20-F3-19",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"We ask the water is cold.",
-"She wonders the water is warm.",
-"He asks the train is late.",
-"We wonder whether the game is fun."
-],
-"answer": 3
-},
-{
-"id": "t20-F3-20",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"He wonders whether the street is busy.",
-"We ask the bus arrives early.",
-"I wonder the test is easy.",
-"We wonder and the classroom is clean."
-],
-"answer": 0
-},
-{
-"id": "t20-F3-21",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I wonder if the park is near.",
-"We ask that the library opens on Sunday.",
-"We wonder the park is near.",
-"She wonders the movie is funny."
-],
-"answer": 0
-},
-{
-"id": "t20-F3-22",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"We wonder if the sky is clear.",
-"They ask the park is open now.",
-"We ask of the bus is late again.",
-"I wonder or the park is open now."
-],
-"answer": 0
-},
-{
-"id": "t20-F3-23",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I wonder if my friend knows the answer.",
-"We ask the library is quiet.",
-"We ask the test is easy.",
-"We ask the bus is late again."
-],
-"answer": 0
-},
-{
-"id": "t20-F3-24",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I wonder the library is open.",
-"I wonder that my bike is safe.",
-"I ask that the store sells pencils.",
-"I ask if my friend is busy."
-],
-"answer": 3
-},
-{
-"id": "t20-F3-25",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I wonder the cake is sweet enough.",
-"We ask the game starts soon.",
-"He asks if the test is easy.",
-"We wonder the baby sleeps well."
-],
-"answer": 2
-},
-{
-"id": "t20-F3-27",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"I ask that the cake is ready.",
-"I wonder the library opens today.",
-"We wonder that the room is quiet.",
-"I ask if the shop is far."
-],
-"answer": 3
-}
-]
-},
-"TF": {
-"title": "TF if whether",
-"minutes": 5,
-"passCorrect": 23,
-"items": [
-{
-"id": "t20-TF-10",
-"prompt": "I wonder if the water is cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-r3",
-"prompt": "She wonders that the soup needs more salt.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r4",
-"prompt": "He asks the window is open.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-12",
-"prompt": "He asks if the library opens early.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-6",
-"prompt": "He asks whether my bike is new.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-2",
-"prompt": "They ask whether the store sells bread.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-r13",
-"prompt": "She wonders the test is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-4",
-"prompt": "We wonder whether the room is quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-5",
-"prompt": "He asks if the bicycle is new.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-r7",
-"prompt": "We wonder our teacher is strict.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-13",
-"prompt": "I ask whether the milk is fresh.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-7",
-"prompt": "She asks if the soup is hot.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-r8",
-"prompt": "We do not know the test is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r6",
-"prompt": "They wonder the garden is beautiful.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r5",
-"prompt": "She asks that the baby is sleepy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-9",
-"prompt": "Please check whether the door is locked.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-3",
-"prompt": "He asks if the homework is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-r1",
-"prompt": "We wonder that the game is fun.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r2",
-"prompt": "They ask the test is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-8",
-"prompt": "She wonders if the door is locked.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-r11",
-"prompt": "He wonders the test is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r12",
-"prompt": "They wonder the park is quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-11",
-"prompt": "I wonder whether my sister likes fish.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-1",
-"prompt": "I wonder whether the train is late.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-r9",
-"prompt": "He wonders the street is busy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-}
-]
-}
-}
+  "id": "t20",
+  "topic": "if whether",
+  "shapes": {
+    "T3": {
+      "title": "T3 if whether",
+      "minutes": 15,
+      "passCorrect": 23,
+      "items": [
+        {
+          "id": "t20-T3-21",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "I wonder if you want to ride my bike.",
+            "I wonder whether you want to ride my bike.",
+            "Whether you want to ride my bike is not important.",
+            "If you want to ride my bike is not important."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-31",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Nobody knows whether the shop is open.",
+            "She asks whether the bus is late.",
+            "She asked if the bus was late again.",
+            "I asked my friend if she likes the movie."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-32",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "She will find out if lunch is ready.",
+            "I forgot if my phone is on the table.",
+            "Let me know if the teacher comes this morning.",
+            "Tell me whether you see the river this morning."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-33",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "He asked if the bus stops near the park.",
+            "He checks if the window is open.",
+            "They asked if we want lunch at the park.",
+            "She asked me whether I want lunch."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-34",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "We need to know whether the dog is hungry.",
+            "My teacher asked whether I read the book.",
+            "We asked if the garden gate was open.",
+            "He wonders if his dog is in a garden."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-35",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "We need to know whether the river is deep.",
+            "It is not clear whether we can go.",
+            "He asked me if I could hear him.",
+            "If the window is open I feels cold."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-36",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "If the window is open I feel cold.",
+            "My mother asked if I had my lunch.",
+            "I don't know if the bus is late.",
+            "I don't know if the bus are late."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-37",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Please tell me whether it will rain.",
+            "My mother asked if I had my lunch.",
+            "He asked me if I could hear him.",
+            "Please tell me whether it will rains."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-38",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "My mother asked if I had my lunch.",
+            "It is not clear whether we can go.",
+            "Nobody knows if the shop opens early.",
+            "We need to know whether the river are deep."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-39",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Whether the shop is open today is still a question.",
+            "The boy wondered if his phone was on the table.",
+            "We need to know whether the river is deep.",
+            "Please ask whether the movie start in the morning."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-40",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "She asked whether the dog was in the park.",
+            "Please tell me whether it will rain.",
+            "Tell me if you can see the river from school.",
+            "Whether the bus is late worry my teacher."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-41",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "My mother asked if I had my lunch.",
+            "He asked me if I could hear him.",
+            "Tell me if you find the book on the table.",
+            "Nobody know if the teacher will give us homework."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-42",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "We need to know whether the river is deep.",
+            "Whether we eat lunch at home depends on the rain.",
+            "Whether the bus is late worries my friend.",
+            "Whether we go to the park depend on the rain."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-43",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "I asked my friend if she saw the movie.",
+            "The question is whether the rain will stop soon.",
+            "Nobody knows whether the garden is open today.",
+            "Whether the homework is hard are not important."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-44",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Tell me whether you can come to my home tomorrow.",
+            "Whether the homework is hard is not important.",
+            "Nobody knows if the shop opens early.",
+            "My friend asks whether I finish my homework."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-45",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Please check whether the book is on the table.",
+            "I do not know if the garden is behind the house.",
+            "Please ask your mom whether lunch is ready now.",
+            "I don't know if the shop are open today."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-46",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "We should find out if the school bus stops at the shop.",
+            "I can't tell if the homework is easy.",
+            "Ask your friend if she likes the river near our town.",
+            "We should check if the window are closed."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-47",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Please check if the window is open in the morning.",
+            "My friend asks whether the bus comes at eight.",
+            "We should check whether the movie starts in the morning.",
+            "Whether it rains we will stay at home today."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-48",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Whether the shop is open is a big question.",
+            "I wonder whether the river is deep near here.",
+            "We should ask if the teacher has a book.",
+            "We should see whether the bus stop here."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-49",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "I can't say if the river is deep here.",
+            "Nobody knows if the phone is on the table.",
+            "My friend asks if I finished the homework.",
+            "Please check if the window is close now."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-50",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "I wonder if the dog is in the garden.",
+            "We don't know if lunch is ready on the table.",
+            "She wants to know whether the shop opens early.",
+            "Tell me whether the movie start at noon."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-51",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "The question is whether the bus comes soon.",
+            "Nobody knows if the phone is on the table.",
+            "Please check whether the door is closed now.",
+            "My friend asked whether lunch were ready today."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-52",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Whether we go out depends on the weather.",
+            "My friend asks if I finished the homework.",
+            "Do you know whether the bus stops here?",
+            "She wants to know whether the shop open early."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-53",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "Do you know whether the bus stops here?",
+            "We asked if the teacher gave us homework.",
+            "Do you know if the phone is on the table?",
+            "Can you ask if the teacher have a phone?"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-T3-54",
+          "prompt": "CHOOSE THE WRONG ONE!",
+          "options": [
+            "We don't know if lunch is ready on the table.",
+            "Can you ask if the teacher has a phone?",
+            "She wonders if the book is on the table.",
+            "Ask the teacher whether the school are open today."
+          ],
+          "answer": 3
+        }
+      ],
+      "dropped": [
+        [
+          24,
+          "lower rank"
+        ],
+        [
+          5,
+          "lower rank"
+        ],
+        [
+          22,
+          "lower rank"
+        ],
+        [
+          28,
+          "lower rank"
+        ],
+        [
+          25,
+          "lower rank"
+        ]
+      ],
+      "pool": 30,
+      "new": 0,
+      "usable": 25,
+      "short": 0
+    },
+    "F3": {
+      "title": "F3 if whether",
+      "minutes": 15,
+      "passCorrect": 23,
+      "items": [
+        {
+          "id": "t20-F3-3",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Tell us we can watch a cartoon.",
+            "She does not know my teddy bear is real.",
+            "Ask we can get a cat.",
+            "We asked whether we can get a cat."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-F3-5",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Only God knows if he will win the race or lose.",
+            "We wonder whether will the circus come to town.",
+            "Do you wonder whether want the dog to play fetch?",
+            "Whether the tooth fairy visited is not important."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-F3-24",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "We wonder if the circus will come to town or skip us.",
+            "We asked whether can we get a cat.",
+            "If you want to ride my bike is not important.",
+            "I wonder whether you want to ride my bike."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-F3-21",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Tell me if needs dinner more salt.",
+            "She knows we will go today.",
+            "Do we know we can eat ice cream?",
+            "She knows if we will go today."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "t20-F3-30",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "They asked if the movie starts at noon.",
+            "Tell me whether you likes this book.",
+            "I don't remember if I lock the window.",
+            "She asked if the dog were in the garden."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-31",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Tell me whether you like this book.",
+            "We wonder whether it will rains this morning.",
+            "I don't remember if I lock the window.",
+            "I don't know if the bus are late today."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-32",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Check whether the river is deep here.",
+            "Please tell me whether the shop are open.",
+            "I don't know if the bus are late today.",
+            "Tell me whether you likes this book."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-33",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "We wonder whether it will rain this morning.",
+            "I don't know if the bus are late today.",
+            "She asked if the dog were in the garden.",
+            "We wonder whether it will rains this morning."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-34",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "He asked if I finished my homework.",
+            "Please tell me whether the shop are open.",
+            "She asked if the dog were in the garden.",
+            "They asked if the movie start at noon."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-35",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Please tell me whether the shop is open.",
+            "They asked if the movie start at noon.",
+            "Please tell me whether the shop are open.",
+            "We wonder whether it will rains this morning."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-36",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "I don't know if the bus is late today.",
+            "Nobody knows whether the teacher are coming.",
+            "She asked whether the bus stop at the park.",
+            "Mom asked if I feed the dog this morning."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-37",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "I wonder if my phone is on the table.",
+            "We wondered if the dog were in the garden.",
+            "She asked whether the bus stop at the park.",
+            "Mom asked if I feed the dog this morning."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-38",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "He doesn't care if we eat lunch now.",
+            "She asked whether the bus stop at the park.",
+            "Nobody knows whether the teacher are coming.",
+            "I asked my friend if she like the movie."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-39",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "They don't know if the movie is funny.",
+            "She asks whether the teacher are in the classroom.",
+            "He wonders whether his friend is at the park?",
+            "She didn't say whether she finish her homework."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-40",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "I don't remember if I locked the window.",
+            "He wonders whether his friend is at the park?",
+            "She didn't say whether she finish her homework.",
+            "Nobody know if the window is closed."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-41",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Nobody knows whether the teacher is coming.",
+            "She didn't say whether she finish her homework.",
+            "She asks whether the teacher are in the classroom.",
+            "Nobody know if the window is closed."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-42",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Please check whether your friend is at home.",
+            "Please check whether the phone is in my bags.",
+            "My mom asks if I wants lunch now.",
+            "I wonder whether the homework are easy."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-43",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "He asks if the morning is warm today.",
+            "Please check whether the phone is in my bags.",
+            "We don't know whether the river are cold.",
+            "She can't say if the bus will comes soon."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-44",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "We asked if the rain would stop soon.",
+            "She can't say if the bus will comes soon.",
+            "I wonder whether the homework are easy.",
+            "My mom asks if I wants lunch now."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-45",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Please ask your friend if the homework is hard.",
+            "We should check if the dog need water.",
+            "Whether this phone work I really cannot say.",
+            "Please ask your friend if the homework are hard."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-46",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "She wonders whether her book is on the table.",
+            "Please ask your friend if the homework are hard.",
+            "We should check if the dog need water.",
+            "Whether this phone work I really cannot say."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-47",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "I want to know if the shop is open.",
+            "We should check if the dog need water.",
+            "Whether this phone work I really cannot say.",
+            "Please ask your friend if the homework are hard."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-48",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "It matters whether the window is open or closed.",
+            "Whether the teacher are free nobody in class knows.",
+            "Tell the teacher if you finished the book.",
+            "If the dog are in the garden we can play."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-49",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Ask your brother if the movie starts at seven.",
+            "Please tell me whether the dog are in the garden.",
+            "She don't care if we eat lunch now.",
+            "The question is whether the window are open."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-F3-50",
+          "prompt": "CHOOSE THE RIGHT ONE!",
+          "options": [
+            "Is the dog in the garden or the park?",
+            "Can you see if the rain stop before lunch?",
+            "Will you find out whether the bus stop near school?",
+            "Does she knows if the bus is early this morning?"
+          ],
+          "answer": 0
+        }
+      ],
+      "dropped": [
+        [
+          12,
+          "lower rank"
+        ],
+        [
+          18,
+          "lower rank"
+        ],
+        [
+          30,
+          "lower rank"
+        ],
+        [
+          17,
+          "lower rank"
+        ],
+        [
+          1,
+          "lower rank"
+        ]
+      ],
+      "pool": 30,
+      "new": 0,
+      "usable": 25,
+      "short": 0
+    },
+    "TF": {
+      "title": "TF if whether",
+      "minutes": 5,
+      "passCorrect": 23,
+      "items": [
+        {
+          "id": "t20-TF-2",
+          "prompt": "We wonder whether the tooth fairy visited.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-4",
+          "prompt": "I wonder whether the dog wants to play fetch.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-8",
+          "prompt": "It is not decided whether we will go today.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-11",
+          "prompt": "I wonder if you want to ride my bike.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-12",
+          "prompt": "Only God knows if he will win the race.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-13",
+          "prompt": "We ask if we can make cookies.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-1",
+          "prompt": "She does not know whether it's time for a story.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-3",
+          "prompt": "We ask whether we can visit the zoo or stay home.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-7",
+          "prompt": "Do not tell us if we can go to the beach.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-10",
+          "prompt": "We did not ask whether our friend can come over.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-5",
+          "prompt": "He ponders whether he should share his toy.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-14",
+          "prompt": "We ponder if we should play tag.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-15",
+          "prompt": "He pondered if he should eat the red candy.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "t20-TF-21",
+          "prompt": "I wonder whether want you to ride my bike.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t20-TF-22",
+          "prompt": "Only God knows whether will he win the race.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t20-TF-23",
+          "prompt": "We ask whether can we make cookies.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t20-TF-26",
+          "prompt": "She knows if is it time for a story.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t20-TF-27",
+          "prompt": "If the tooth fairy visited is not important.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t20-TF-16",
+          "prompt": "He ponders if should he climb the tree.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t20-TF-24",
+          "prompt": "We ponder whether should we play tag.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t20-TF-25",
+          "prompt": "He pondered whether should he eat the red candy.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "t20-TF-28",
+          "prompt": "We ask if we can making cookies today.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        },
+        {
+          "id": "t20-TF-29",
+          "prompt": "We ask if we can makes cookies.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        },
+        {
+          "id": "t20-TF-30",
+          "prompt": "We asks if we can make cookies.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        },
+        {
+          "id": "t20-TF-31",
+          "prompt": "We did not ask whether our friends can comes over.",
+          "answer": 1,
+          "options": [
+            "TRUE",
+            "FALSE"
+          ]
+        }
+      ],
+      "dropped": [
+        [
+          28,
+          "true/false on a question"
+        ],
+        [
+          29,
+          "true/false on a question"
+        ],
+        [
+          9,
+          "true/false on a question"
+        ],
+        [
+          6,
+          "true/false on a question"
+        ],
+        [
+          30,
+          "lower rank"
+        ]
+      ],
+      "pool": 30,
+      "new": 0,
+      "usable": 25,
+      "short": 0
+    }
+  }
 }

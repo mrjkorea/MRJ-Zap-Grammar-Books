@@ -467,15 +467,21 @@
   "shapes": {
    "T3": {
     "items": 25,
-    "minutes": 15
-   },
-   "F3": {
-    "items": 25,
-    "minutes": 15
+    "minutes": 15,
+    "dropped": 5,
+    "pool": 30,
+    "short": 0,
+    "remade_2026_11_10": 25,
+    "kept": 0
    },
    "TF": {
     "items": 25,
-    "minutes": 5
+    "minutes": 5,
+    "dropped": 5,
+    "pool": 30,
+    "short": 0,
+    "remade_2026_11_10": 0,
+    "kept": 25
    }
   }
  },
@@ -483,17 +489,14 @@
   "id": "t16",
   "topic": "easy 조동사 있는 수동태",
   "shapes": {
-   "T3": {
-    "items": 25,
-    "minutes": 15
-   },
-   "F3": {
-    "items": 25,
-    "minutes": 15
-   },
    "TF": {
     "items": 25,
-    "minutes": 5
+    "minutes": 5,
+    "dropped": 10,
+    "pool": 30,
+    "short": 0,
+    "remade_2026_11_10": 0,
+    "kept": 25
    }
   }
  },
@@ -536,15 +539,21 @@
   "shapes": {
    "T3": {
     "items": 25,
-    "minutes": 15
-   },
-   "F3": {
-    "items": 25,
-    "minutes": 15
+    "minutes": 15,
+    "dropped": 5,
+    "pool": 30,
+    "short": 0,
+    "remade_2026_11_10": 14,
+    "kept": 11
    },
    "TF": {
     "items": 25,
-    "minutes": 5
+    "minutes": 5,
+    "dropped": 35,
+    "pool": 60,
+    "short": 0,
+    "remade_2026_11_10": 0,
+    "kept": 25
    }
   }
  },
@@ -552,17 +561,14 @@
   "id": "t19",
   "topic": "hard 조동사 있는 수동태",
   "shapes": {
-   "T3": {
-    "items": 25,
-    "minutes": 15
-   },
-   "F3": {
-    "items": 25,
-    "minutes": 15
-   },
    "TF": {
     "items": 25,
-    "minutes": 5
+    "minutes": 5,
+    "dropped": 10,
+    "pool": 30,
+    "short": 0,
+    "remade_2026_11_10": 0,
+    "kept": 25
    }
   }
  },
@@ -1329,17 +1335,14 @@
   "id": "t43",
   "topic": "빈도부사",
   "shapes": {
-   "T3": {
-    "items": 25,
-    "minutes": 15
-   },
    "F3": {
     "items": 25,
-    "minutes": 15
-   },
-   "TF": {
-    "items": 25,
-    "minutes": 5
+    "minutes": 15,
+    "dropped": 5,
+    "pool": 30,
+    "short": 0,
+    "remade_2026_11_10": 25,
+    "kept": 0
    }
   }
  },
@@ -1547,15 +1550,21 @@
   "shapes": {
    "T3": {
     "items": 25,
-    "minutes": 15
+    "minutes": 15,
+    "dropped": 5,
+    "pool": 30,
+    "short": 0,
+    "remade_2026_11_10": 25,
+    "kept": 0
    },
    "F3": {
     "items": 25,
-    "minutes": 15
-   },
-   "TF": {
-    "items": 25,
-    "minutes": 5
+    "minutes": 15,
+    "dropped": 5,
+    "pool": 30,
+    "short": 0,
+    "remade_2026_11_10": 24,
+    "kept": 1
    }
   }
  },
@@ -2090,33 +2099,6 @@
  {
   "id": "t67",
   "topic": "감탄문 How/What",
-  "shapes": {
-   "T3": {
-    "items": 25,
-    "minutes": 15,
-    "dropped": 0,
-    "pool": 25,
-    "short": 0
-   },
-   "F3": {
-    "items": 25,
-    "minutes": 15,
-    "dropped": 0,
-    "pool": 25,
-    "short": 0
-   },
-   "TF": {
-    "items": 25,
-    "minutes": 5,
-    "dropped": 0,
-    "pool": 25,
-    "short": 0
-   }
-  }
- },
- {
-  "id": "t68",
-  "topic": "관계대명사 what",
   "shapes": {
    "T3": {
     "items": 25,

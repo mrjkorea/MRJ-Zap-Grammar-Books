@@ -1,803 +1,880 @@
 {
-"id": "t38",
-"topic": "부가의문문",
-"version": 2,
-"shapes": {
-"T3": {
-"title": "T3 부가의문문",
-"minutes": 15,
-"passCorrect": 23,
-"items": [
-{
-"id": "t38-T3-1",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The test was very easy for the whole class wasn't it?",
-"He was late for the bus this morning wasn't he?",
-"You can help me carry these books can you?",
-"Your brother can swim very well can't he?"
-],
-"answer": 2
-},
-{
-"id": "t38-T3-2",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The windows were open during the storm weren't they?",
-"The windows were open during the heavy rain were they?",
-"She closed the classroom door quietly didn't she?",
-"The bird sings a loud song every morning doesn't it?"
-],
-"answer": 1
-},
-{
-"id": "t38-T3-3",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"This computer works well in the school library doesn't it?",
-"The rooms are bright in the new building aren't they?",
-"She was happy at the school party on Friday wasn't she?",
-"The bus stopped at the school gate did it?"
-],
-"answer": 3
-},
-{
-"id": "t38-T3-4",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The girls were at the bus stop early weren't they?",
-"Your friends are busy with group homework tonight aren't they?",
-"You were quiet during the science test weren't you?",
-"My sister washes the dishes in the kitchen after dinner does she?"
-],
-"answer": 3
-},
-{
-"id": "t38-T3-5",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"Your brother can swim in the deep pool can't he?",
-"Our teacher closed the noisy door after lunch yesterday did she?",
-"The boys played soccer in the sunny park yesterday didn't they?",
-"Your parents were happy about the test scores weren't they?"
-],
-"answer": 1
-},
-{
-"id": "t38-T3-6",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The cat sleeps on the warm sofa at home doesn't her?",
-"You are happy about the school trip aren't you?",
-"The movie was funny for the whole class wasn't it?",
-"My father cooks hot soup for dinner every evening doesn't he?"
-],
-"answer": 0
-},
-{
-"id": "t38-T3-7",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The students were tired after the long test were they?",
-"The girls were quiet in the classroom yesterday weren't they?",
-"She can carry the heavy bag to the bus stop can't she?",
-"He can ride his old bike to school alone can't he?"
-],
-"answer": 0
-},
-{
-"id": "t38-T3-8",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They can swim in the school pool after class can't they?",
-"We are late for the science class are we?",
-"Your friends are good at drawing funny pictures aren't they?",
-"The test was easy for our class wasn't it?"
-],
-"answer": 1
-},
-{
-"id": "t38-T3-9",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The children watched a short movie last Friday didn't they?",
-"It was cold in the gym this morning wasn't it?",
-"Your sister reads a short story in her room does she?",
-"My mother cooks hot rice for dinner doesn't she?"
-],
-"answer": 2
-},
-{
-"id": "t38-T3-10",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The players were thirsty after gym class weren't they?",
-"The kids are excited about the school trip aren't they?",
-"We were happy after the school game weren't us?",
-"She can draw pretty pictures for art class can't she?"
-],
-"answer": 2
-},
-{
-"id": "t38-T3-11",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"We drink cold milk in the kitchen every morning don't us?",
-"The bus was late again this morning wasn't it?",
-"Small children can learn simple songs at home can't they?",
-"The girls are excited about the school trip aren't they?"
-],
-"answer": 0
-},
-{
-"id": "t38-T3-12",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"His sister opened the window in the morning didn't she?",
-"We saw a funny movie at home last Sunday didn't us?",
-"The girls are ready for the music show aren't they?",
-"He finished his homework before dinner last night didn't he?"
-],
-"answer": 1
-},
-{
-"id": "t38-T3-13",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"Your father cooked dinner for us last night didn't he?",
-"The students were late for the morning bus weren't they?",
-"His sister washed her blue shirt last night didn't she?",
-"These bags are heavy for the young students are they?"
-],
-"answer": 3
-},
-{
-"id": "t38-T3-14",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"My brother can swim very well can't he?",
-"Your sister washes the dishes after dinner doesn't she?",
-"The girls sang a song in music class yesterday did they?",
-"Your father washed the blue car last Sunday didn't he?"
-],
-"answer": 2
-},
-{
-"id": "t38-T3-15",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"His mother cooks spicy soup in the kitchen does she?",
-"They opened the classroom window in the morning didn't they?",
-"It was very cold in the gym yesterday wasn't it?",
-"Your sister reads a long book in bed doesn't she?"
-],
-"answer": 0
-},
-{
-"id": "t38-T3-16",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"We watched a funny movie last Sunday didn't we?",
-"We study English in the library before the test don't we?",
-"You can open the big window in class can you?",
-"She washes the dirty dishes every evening doesn't she?"
-],
-"answer": 2
-},
-{
-"id": "t38-T3-17",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The library was quiet all afternoon was it?",
-"Your sister cleans her room every Sunday morning doesn't she?",
-"The children can draw pictures in the art room can't they?",
-"Those boys can swim across the small lake can't they?"
-],
-"answer": 0
-},
-{
-"id": "t38-T3-18",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"He can swim fast in the school pool can't he?",
-"You can play games at home on Sunday can't you?",
-"The boys were happy about the science project weren't them?",
-"You can finish this easy page before lunch can't you?"
-],
-"answer": 2
-},
-{
-"id": "t38-T3-19",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The girls are singing a happy song aren't they?",
-"The little girl was sick at home on Monday wasn't she?",
-"The bus stops near our house every morning doesn't it?",
-"The students can use the library can they?"
-],
-"answer": 3
-},
-{
-"id": "t38-T3-20",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"My father washes dirty dishes after dinner does he?",
-"We can finish this easy homework before dinner can't we?",
-"You were very tired after gym class weren't you?",
-"We watch a funny movie at home on Saturday don't we?"
-],
-"answer": 0
-},
-{
-"id": "t38-T3-21",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The new student was late for the first bus wasn't he?",
-"He will call his mother after school today won't him?",
-"His sister was sick at home yesterday wasn't she?",
-"It rains a lot in summer here doesn't it?"
-],
-"answer": 1
-},
-{
-"id": "t38-T3-22",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"They watched a funny movie at home last night didn't they?",
-"The students can open the classroom windows in hot weather can't they?",
-"You can finish the science project before dinner can't you?",
-"She cooks dinner for her family on Sundays does she?"
-],
-"answer": 3
-},
-{
-"id": "t38-T3-23",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"The students cleaned the classroom after lunch didn't they?",
-"The weather was cold at the school gate yesterday wasn't it?",
-"The bus stops near our school does it?",
-"Your brother brings fresh water to the game doesn't he?"
-],
-"answer": 2
-},
-{
-"id": "t38-T3-24",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"You can see the board from your seat can't you?",
-"The old clock works well in the living room doesn't them?",
-"The children were quiet during the long test weren't they?",
-"They can play basketball in the gym after class can't they?"
-],
-"answer": 1
-},
-{
-"id": "t38-T3-25",
-"prompt": "CHOOSE THE WRONG ONE!",
-"options": [
-"His father was kind to the little boy at school wasn't he?",
-"The soup was too hot for the little kids wasn't it?",
-"Your sister can draw nice pictures at home can she?",
-"The teacher gives us homework every Friday doesn't she?"
-],
-"answer": 2
-}
-]
-},
-"F3": {
-"title": "F3 부가의문문",
-"minutes": 15,
-"passCorrect": 23,
-"items": [
-{
-"id": "t38-F3-1",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The students finished their homework before dinner did they?",
-"My cousins were at the beach last weekend were they?",
-"The children are excited about the school picnic aren't they?",
-"They were tired after the long bus ride were they?"
-],
-"answer": 2
-},
-{
-"id": "t38-F3-2",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The students finished homework at home yesterday did they?",
-"He finished his homework before dinner did he?",
-"She wrote a short story for English class didn't she?",
-"The small cat sleeps on the warm sofa does it?"
-],
-"answer": 2
-},
-{
-"id": "t38-F3-3",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The soup was too hot for the baby was it?",
-"We can swim in the school pool can't we?",
-"My father can fix the broken bike after school can he?",
-"Your sister reads a long book in bed does she?"
-],
-"answer": 1
-},
-{
-"id": "t38-F3-4",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"Your brother can swim in the deep pool can he?",
-"The old bus was slow on the hill was it?",
-"The students cleaned the classroom after art class did they?",
-"The little cat sleeps on the sofa doesn't it?"
-],
-"answer": 3
-},
-{
-"id": "t38-F3-5",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"He can play the piano in the hall can't him?",
-"You put the red cup on the shelf did you?",
-"His sister was sick at home on Monday wasn't she?",
-"His team won the basketball game last Friday did they?"
-],
-"answer": 2
-},
-{
-"id": "t38-F3-6",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"Your classmates are busy with group work in class aren't they?",
-"Your sister can swim very well in the pool can she?",
-"The test was very hard in math class was it?",
-"We watched a short cartoon last Friday did we?"
-],
-"answer": 0
-},
-{
-"id": "t38-F3-7",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The old clock works well in the living room doesn't it?",
-"The little cat sleeps on the sofa does it?",
-"We were late for music class this morning weren't us?",
-"His sister opened the window in the morning didn't her?"
-],
-"answer": 0
-},
-{
-"id": "t38-F3-8",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The windows are open in the sunny classroom are they?",
-"The girls were quiet in the classroom yesterday were they?",
-"We are ready for the science test today aren't we?",
-"The soup smells really good today does it?"
-],
-"answer": 2
-},
-{
-"id": "t38-F3-9",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The movie was funny for the whole family was it?",
-"The old clock was noisy in the quiet classroom was it?",
-"The library was quiet all afternoon wasn't it?",
-"The kids are excited about the school trip are they?"
-],
-"answer": 2
-},
-{
-"id": "t38-F3-10",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"You can finish the math homework before eight can you?",
-"She can cook simple meals for her family can't she?",
-"The children were happy at the school party yesterday were they?",
-"Your cousins are coming to dinner tonight are they?"
-],
-"answer": 1
-},
-{
-"id": "t38-F3-12",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The kittens were hungry after the long nap weren't they?",
-"You can hear the loud music from the hall can't your?",
-"Your sister likes cold juice after lunch does she?",
-"He was late for the morning class yesterday was he?"
-],
-"answer": 0
-},
-{
-"id": "t38-F3-13",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The windows were open during the storm were they?",
-"My father washes dirty dishes after dinner doesn't he?",
-"You finished the science project before dinner did you?",
-"The old clock works well in the living room does it?"
-],
-"answer": 1
-},
-{
-"id": "t38-F3-14",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"You can finish the homework before dinner can you?",
-"You can finish the puzzle before dinner can't you?",
-"Your sister can swim very well can she?",
-"Dad cooks spicy noodles at home on Fridays does he?"
-],
-"answer": 1
-},
-{
-"id": "t38-F3-15",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My brother draws funny pictures in art class doesn't him?",
-"We are ready for the science test today are we?",
-"The soup was too hot for the little kids was it?",
-"My father cooks rice and soup at home doesn't he?"
-],
-"answer": 3
-},
-{
-"id": "t38-F3-16",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The boys are cleaning the classroom after lunch aren't they?",
-"The young girls are happy in music class are they?",
-"She can clean her room before breakfast on weekdays can she?",
-"Those shoes are dirty from the rainy street are they?"
-],
-"answer": 0
-},
-{
-"id": "t38-F3-17",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"His homework was very easy for him last night was it?",
-"Her sister opened the red door for the guest did she?",
-"The children are excited about the school picnic are they?",
-"The baby drinks warm milk before bed at home doesn't it?"
-],
-"answer": 3
-},
-{
-"id": "t38-F3-18",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My brother feeds the small dog before breakfast doesn't him?",
-"The girls were tired after the long race yesterday weren't they?",
-"We watch a funny movie at home on Saturday don't us?",
-"Your dog sleeps on the soft sofa after dinner does it?"
-],
-"answer": 1
-},
-{
-"id": "t38-F3-19",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The children ate all the sandwiches at lunch did they?",
-"Your dog was hungry before dinner was it?",
-"The cat sleeps on a soft chair at night does it?",
-"You can play the piano very well can't you?"
-],
-"answer": 3
-},
-{
-"id": "t38-F3-20",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"Our dog can run very fast in the yard can it?",
-"The test was easy for most students in class was it?",
-"Those girls play badminton in the park after lunch are they?",
-"My friends ride bikes to the park on sunny days don't they?"
-],
-"answer": 3
-},
-{
-"id": "t38-F3-21",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"The students cleaned the classroom before the test did they?",
-"She can ride her bike to school can't she?",
-"The boys played soccer in the sunny park yesterday did they?",
-"The movie was boring for the young kids was it?"
-],
-"answer": 1
-},
-{
-"id": "t38-F3-22",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"Your sister cooked dinner for the family last night did she?",
-"You can help your teacher after class can't you?",
-"She reads comic books in the living room does she?",
-"The students are quiet in the big library this morning are they?"
-],
-"answer": 1
-},
-{
-"id": "t38-F3-23",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"You can play games at home on Sunday can you?",
-"You can help your teacher after class can you?",
-"The girls watched a movie at home yesterday did they?",
-"Your friends went to the library after lunch didn't they?"
-],
-"answer": 3
-},
-{
-"id": "t38-F3-24",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"My sister reads comic books in her room every night doesn't she?",
-"The girls are ready for the school trip are they?",
-"My mother cooks hot rice for dinner does she?",
-"The new student was late for the first bus was he?"
-],
-"answer": 0
-},
-{
-"id": "t38-F3-25",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"He was late for the morning bus wasn't he?",
-"Mr. Park teaches math at our school does he?",
-"Your uncle fixes the old bike at home doesn't him?",
-"Your sister reads a story in bed every night does she?"
-],
-"answer": 0
-},
-{
-"id": "t38-F3-26",
-"prompt": "CHOOSE THE RIGHT ONE!",
-"options": [
-"Your brother brings his phone to school for music class does he?",
-"Your sister cleans her room every Sunday morning does she?",
-"The girls played soccer in the park last Sunday didn't they?",
-"The children watched a short movie last Friday did they?"
-],
-"answer": 2
-}
-]
-},
-"TF": {
-"title": "TF 부가의문문",
-"minutes": 5,
-"passCorrect": 23,
-"items": [
-{
-"id": "t38-TF-8",
-"prompt": "We can finish the project before dinner can't we?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-r17",
-"prompt": "His uncle was kind at the family dinner last night was he?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-5",
-"prompt": "We can eat lunch together in the sunny garden can't we?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-r18",
-"prompt": "You can finish the math homework before dinner can you?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-6",
-"prompt": "We watched a funny movie last night didn't we?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-r15",
-"prompt": "You can see the tall trees from school can you?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-3",
-"prompt": "The bread was soft on the plate after dinner wasn't it?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-13",
-"prompt": "We need warm coats for the cold trip don't we?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-r9",
-"prompt": "The cat sleeps on the warm chair all day does it?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-r12",
-"prompt": "They can swim in the school pool after class can they?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-4",
-"prompt": "The movie was really funny for the whole family wasn't it?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-7",
-"prompt": "We watched a sad movie at home yesterday didn't we?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-r20",
-"prompt": "She reads many books in the school library does she?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-10",
-"prompt": "His father works at a big store near home doesn't he?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-r16",
-"prompt": "The teachers are in the meeting room now are they?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-r11",
-"prompt": "The players were thirsty after gym class were they?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-2",
-"prompt": "Your sister reads a story in her room every night doesn't she?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-r14",
-"prompt": "The students are quiet during the reading test are they?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-r19",
-"prompt": "The players played the game at school last week did they?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-9",
-"prompt": "The students cleaned the classroom after school didn't they?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-1",
-"prompt": "We can finish this project today can't we?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-r13",
-"prompt": "Your cat sleeps on the warm sofa all day doesn't that?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t38-TF-11",
-"prompt": "We are late for the first class today aren't we?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-12",
-"prompt": "The math test was easy for the class yesterday wasn't it?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t38-TF-r10",
-"prompt": "My uncle can repair the old radio at home can he?",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-}
-]
-}
-}
+ "id": "t38",
+ "topic": "부가의문문",
+ "shapes": {
+  "T3": {
+   "title": "T3 부가의문문",
+   "minutes": 15,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t38-T3-4",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Kangaroos play basketball, don't they?",
+      "Bees were comedians, weren't they?",
+      "You won't eat the last cookie, will you?",
+      "She'll skip dessert, does she?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-5",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Fish climb trees, don't they?",
+      "Giraffes don't wear ties, do they?",
+      "Robots will replace teachers, won't they?",
+      "Shoes aren't allergic to socks, do they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-6",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Dragons breathe fire, don't they?",
+      "Mountains are made of marshmallows, aren't they?",
+      "She'll skip dessert, won't she?",
+      "Dogs play chess, can't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-1",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Aliens live in your backyard, don't they?",
+      "Zebras don't change their stripes, do they?",
+      "You won't go skiing on sand dunes, will you?",
+      "You found a golden carrot, wasn't you?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-9",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Goblins play hide and seek, don't they?",
+      "Sandwiches don't eat people, do they?",
+      "We won't ride a rollercoaster to the moon, will we?",
+      "Fish climb trees, do they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-15",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Elephants fly, don't they?",
+      "Mountains aren't made of marshmallows, are they?",
+      "You'll build a snowman in the desert, won't you?",
+      "You'll hide in a cloud, will you?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-21",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "She isn't an alien princess, is she?",
+      "Zebras change their stripes, don't they?",
+      "You won't eat the last cookie, will you?",
+      "Clouds play hopscotch, aren't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-26",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Pencils don't write by themselves, do they?",
+      "You weren't a superhero this morning, were you?",
+      "They'll play tricks on the moon, won't they?",
+      "She is scared of the dark, is she?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-28",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Squirrels use umbrellas, don't they?",
+      "He was a ninja at the party, wasn't he?",
+      "Birds will join a book club, won't they?",
+      "Birds will join a book club, will they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-13",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Aliens live in your backyard, don't they?",
+      "Turtles can't dance, can they?",
+      "You'll remember your magic wand, won't you?",
+      "Bees weren't comedians, weren't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-2",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "You aren't wearing my hat, are you?",
+      "Cupcakes lead rebellions, don't they?",
+      "We'll have a picnic on Mars, won't we?",
+      "You'll go skiing on sand dunes, are you?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-8",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "He can see through walls, can't he?",
+      "Clouds don't play hopscotch, do they?",
+      "Tomorrow will bring flying pigs, won't it?",
+      "Robots will replace teachers, will they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-19",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "You don't like spiders, do you?",
+      "You didn't find a golden carrot, did you?",
+      "You'll go skiing on sand dunes, won't you?",
+      "Kangaroos play basketball, do they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-30",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "You don't have a pet unicorn, do you?",
+      "You found a golden carrot, didn't you?",
+      "Potatoes will sing lullabies, won't they?",
+      "She isn't an alien princess, does she?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-3",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Shoes are allergic to socks, aren't they?",
+      "Trees don't talk, do they?",
+      "She'll skip dessert, won't she?",
+      "Trees do not talk, do they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-11",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Elephants fly, don't they?",
+      "Dinosaurs had smartphones, didn't they?",
+      "You'll hide in a cloud, won't you?",
+      "You do not like spiders, do you?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-31",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The bus is late, isn't it?",
+      "We should eat lunch now, shouldn't we?",
+      "She can't read that book, can she?",
+      "Your dog likes the park, doesn't he?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-32",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The window is open, isn't it?",
+      "Your friend won't come to the shop, will he?",
+      "The teacher is nice, isn't she?",
+      "The teacher is nice, isn't he?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-33",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "It rains a lot here in June, doesn't it?",
+      "You have a new phone, don't you?",
+      "Homework is easy today, isn't it?",
+      "The bus arrives at seven, is it?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-34",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "We should close the window, shouldn't we?",
+      "They are in the garden, aren't they?",
+      "Your friend can swim, can't she?",
+      "They will come to lunch, won't he?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-35",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Your phone is new, isn't it?",
+      "The movie starts at eight, doesn't it?",
+      "They will come to lunch, won't they?",
+      "Your brother plays the piano, doesn't she?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-36",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "We should close the window, shouldn't we?",
+      "This movie is funny, isn't it?",
+      "We should finish our homework early, shouldn't we?",
+      "Your dog sleeps in the garden, does it?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-37",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "Your friend can swim, can't she?",
+      "You don't have a phone, do you?",
+      "Homework is easy today, isn't it?",
+      "We should close the window, should we?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-38",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The bus is late, isn't it?",
+      "We should finish our homework early, shouldn't we?",
+      "Tom can ride a bike, can't he?",
+      "It rains a lot here in June, is it?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-T3-39",
+     "prompt": "CHOOSE THE WRONG ONE!",
+     "options": [
+      "The teacher is nice, isn't she?",
+      "Tom can ride a bike, can't he?",
+      "We should eat lunch now, shouldn't we?",
+      "The movie starts at eight, is it?"
+     ],
+     "answer": 3
+    }
+   ],
+   "dropped": [
+    [
+     17,
+     "lower rank"
+    ],
+    [
+     14,
+     "lower rank"
+    ],
+    [
+     18,
+     "lower rank"
+    ],
+    [
+     12,
+     "lower rank"
+    ],
+    [
+     25,
+     "lower rank"
+    ]
+   ],
+   "pool": 30,
+   "new": 0,
+   "usable": 25,
+   "short": 0
+  },
+  "F3": {
+   "title": "F3 부가의문문",
+   "minutes": 15,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t38-F3-4",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Fish climb trees, do they?",
+      "Mountains aren't made of marshmallows, aren't they?",
+      "Donuts will go on treasure hunts, will they?",
+      "Squirrels use umbrellas, don't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-11",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Elephants fly, do they?",
+      "Your dog didn't speak Spanish, didn't he?",
+      "They'll play tricks on the moon, will they?",
+      "She'll skip dessert, won't she?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-25",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "You aren't wearing my hat, aren't you?",
+      "Turtles can't dance, do they?",
+      "You'll remember your magic wand, will you?",
+      "You don't like spiders, do you?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-7",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "He can see through walls, can he?",
+      "You were a superhero this morning, didn't you?",
+      "They won't play tricks on the moon, are they?",
+      "You'll hide in a cloud, won't you?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-19",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "She isn't an alien princess, does she?",
+      "Zebras change their stripes, can't they?",
+      "Robots will replace teachers, will they?",
+      "Mountains aren't made of marshmallows, are they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-21",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Kangaroos play basketball, do not they?",
+      "Oceans aren't made of soda, aren't they?",
+      "They'll discover a new planet, will not they?",
+      "Aliens live in your backyard, don't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-28",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Kangaroos play basketball, do they?",
+      "You found a golden carrot, wasn't you?",
+      "Tomorrow will bring flying pigs, will not it?",
+      "You aren't wearing my hat, are you?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-5",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "You don't like spiders, don't you?",
+      "Dogs play chess, can't they?",
+      "You'll go skiing on sand dunes, are you?",
+      "Fish climb trees, don't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-17",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Fish don't climb trees, are they?",
+      "Giraffes wear ties, aren't they?",
+      "She'll skip dessert, will she?",
+      "Clouds don't play hopscotch, do they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-29",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Pencils don't write by themselves, are they?",
+      "Clouds play hopscotch, aren't they?",
+      "Llamas will become famous movie stars, will they?",
+      "Kangaroos play basketball, don't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-1",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "She is scared of the dark, is she?",
+      "Sandwiches don't eat people, don't they?",
+      "Potatoes will sing lullabies, do they?",
+      "Oceans aren't made of soda, are they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-24",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "She is scared of the dark, is not she?",
+      "Cupcakes lead rebellions, do not they?",
+      "You'll hide in a cloud, do you?",
+      "Cupcakes don't lead rebellions, do they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-26",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "He can see through walls, can not he?",
+      "Bees weren't comedians, weren't they?",
+      "You'll hide in a cloud, will you?",
+      "She is scared of the dark, isn't she?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-27",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Dragons breathe fire, aren't they?",
+      "Mountains are made of marshmallows, are not they?",
+      "We'll ride a rollercoaster to the moon, will we?",
+      "Bees weren't comedians, were they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-30",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "He isn't made of candy, does he?",
+      "Trees talk, aren't they?",
+      "We will not ride a rollercoaster to the moon, will we?",
+      "Zebras don't change their stripes, do they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-22",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Goblins play hide and seek, aren't they?",
+      "Trees do not talk, do they?",
+      "She'll skip dessert, does she?",
+      "Shoes are allergic to socks, aren't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-2",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "You do not like spiders, do you?",
+      "Dinosaurs had smartphones, weren't they?",
+      "You'll build a snowman in the desert, are you?",
+      "Robots will replace teachers, won't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-10",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Squirrels use umbrellas, do they?",
+      "You were not a superhero this morning, were you?",
+      "You'll remember your magic wand, do you?",
+      "Your dog didn't speak Spanish, did he?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-13",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Squirrels use umbrellas, aren't they?",
+      "Dogs do not play chess, do they?",
+      "You will not build a snowman in the desert, will you?",
+      "He can see through walls, can't he?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-15",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Stars aren't made of glitter, do they?",
+      "Turtles can not dance, can they?",
+      "The sun will wear sunglasses, will not it?",
+      "They'll play tricks on the moon, won't they?"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "t38-F3-31",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The rain stopped before lunch, didn't it?",
+      "You didn't forget your phone, didn't you?",
+      "The rain stopped before lunch, didn't he?",
+      "The movie start at seven, doesn't it?"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-F3-32",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "You didn't forget your phone, did you?",
+      "You didn't forget your phone, didn't you?",
+      "We should finish our homework early, don't we?",
+      "The teacher will give us a test, doesn't she?"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-F3-33",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "The teacher will give us a test, won't she?",
+      "The movie start at seven, doesn't it?",
+      "The rain stopped before lunch, didn't he?",
+      "The teacher will give us a test, doesn't she?"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-F3-34",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "We can sit at this table, can't we?",
+      "Junho can ride a bike to the park, doesn't he?",
+      "The teacher will give us a test, doesn't she?",
+      "Mina plays the piano very well, doesn't he?"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-F3-35",
+     "prompt": "CHOOSE THE RIGHT ONE!",
+     "options": [
+      "Mina plays the piano very well, doesn't she?",
+      "The rain stopped before lunch, didn't he?",
+      "Mina plays the piano very well, doesn't he?",
+      "We should finish our homework early, don't we?"
+     ],
+     "answer": 0
+    }
+   ],
+   "dropped": [
+    [
+     12,
+     "lower rank"
+    ],
+    [
+     14,
+     "lower rank"
+    ],
+    [
+     6,
+     "lower rank"
+    ],
+    [
+     16,
+     "lower rank"
+    ],
+    [
+     20,
+     "lower rank"
+    ]
+   ],
+   "pool": 30,
+   "new": 0,
+   "usable": 25,
+   "short": 0
+  },
+  "TF": {
+   "title": "TF 부가의문문",
+   "minutes": 5,
+   "passCorrect": 23,
+   "items": [
+    {
+     "id": "t38-TF-1",
+     "prompt": "Turtles can't dance, can they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-2",
+     "prompt": "Dogs play chess, don't they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-3",
+     "prompt": "He was a ninja at the party, wasn't he?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-4",
+     "prompt": "Dinosaurs had smartphones, didn't they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-5",
+     "prompt": "You found a golden carrot, didn't you?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-6",
+     "prompt": "Potatoes will sing lullabies, won't they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-7",
+     "prompt": "You'll go skiing on sand dunes, won't you?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-8",
+     "prompt": "You'll build a snowman in the desert, won't you?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-9",
+     "prompt": "You won't eat the last cookie, will you?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-10",
+     "prompt": "She'll skip dessert, won't she?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-11",
+     "prompt": "You don't have a pet unicorn, do you?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-12",
+     "prompt": "She isn't an alien princess, is she?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-13",
+     "prompt": "Goblins play hide and seek, don't they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-14",
+     "prompt": "Squirrels use umbrellas, don't they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "t38-TF-17",
+     "prompt": "Elephants fly, do not they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-18",
+     "prompt": "She is scared of the dark, is not she?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-20",
+     "prompt": "Aliens live in your backyard, do not they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-22",
+     "prompt": "Giraffes don't wear ties, don't they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-23",
+     "prompt": "Zebras don't change their stripes, don't they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-24",
+     "prompt": "Mountains aren't made of marshmallows, aren't they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-27",
+     "prompt": "You'll build a snowman in the desert, are you?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-28",
+     "prompt": "You won't eat the last cookie, do you?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-29",
+     "prompt": "She'll skip dessert, does she?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-30",
+     "prompt": "Robots won't replace teachers, are they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "t38-TF-21",
+     "prompt": "Clouds don't play hopscotch, don't they?",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1
+    }
+   ],
+   "dropped": [
+    [
+     15,
+     "lower rank"
+    ],
+    [
+     25,
+     "lower rank"
+    ],
+    [
+     26,
+     "lower rank"
+    ],
+    [
+     16,
+     "lower rank"
+    ],
+    [
+     19,
+     "lower rank"
+    ]
+   ],
+   "pool": 30,
+   "new": 0,
+   "usable": 25,
+   "short": 0
+  }
+ }
 }
