@@ -573,8 +573,8 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t15-TF-1",
-"prompt": "I hardly ever ride my bike at night.",
+"id": "t15-TF-13",
+"prompt": "We never go to the park on Sunday.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,8 +582,35 @@
 "answer": 0
 },
 {
-"id": "t15-TF-2",
-"prompt": "I never drink coffee at night.",
+"id": "t15-TF-r6",
+"prompt": "We do usually homework in the evening.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t15-TF-r9",
+"prompt": "Our teacher usual gives us easy tests.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t15-TF-r11",
+"prompt": "They usual study English in the library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t15-TF-8",
+"prompt": "My sister rarely cooks dinner at home.",
 "options": [
 "TRUE",
 "FALSE"
@@ -591,17 +618,26 @@
 "answer": 0
 },
 {
-"id": "t15-TF-3",
-"prompt": "My cousin sometimes visits us on Sundays.",
+"id": "t15-TF-r7",
+"prompt": "They sometime watch movies on Friday night.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t15-TF-4",
-"prompt": "They never go to bed before ten.",
+"id": "t15-TF-r4",
+"prompt": "My cousin usual walks to school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t15-TF-7",
+"prompt": "She always does her homework after dinner.",
 "options": [
 "TRUE",
 "FALSE"
@@ -618,8 +654,8 @@
 "answer": 0
 },
 {
-"id": "t15-TF-6",
-"prompt": "We never sleep in class.",
+"id": "t15-TF-4",
+"prompt": "They never go to bed before ten.",
 "options": [
 "TRUE",
 "FALSE"
@@ -627,8 +663,17 @@
 "answer": 0
 },
 {
-"id": "t15-TF-7",
-"prompt": "She always does her homework after dinner.",
+"id": "t15-TF-r12",
+"prompt": "We not never go to the park on Sunday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t15-TF-2",
+"prompt": "I never drink coffee at night.",
 "options": [
 "TRUE",
 "FALSE"
@@ -636,8 +681,35 @@
 "answer": 0
 },
 {
-"id": "t15-TF-8",
-"prompt": "My sister rarely cooks dinner at home.",
+"id": "t15-TF-r10",
+"prompt": "The cat usual sleeps under the table.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t15-TF-r5",
+"prompt": "My cousin sometime visits us on Sundays.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t15-TF-r2",
+"prompt": "The students do usually homework in the library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t15-TF-3",
+"prompt": "My cousin sometimes visits us on Sundays.",
 "options": [
 "TRUE",
 "FALSE"
@@ -645,13 +717,22 @@
 "answer": 0
 },
 {
-"id": "t15-TF-9",
-"prompt": "We usually eat lunch at school.",
+"id": "t15-TF-12",
+"prompt": "Our teacher usually gives us homework on Friday.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t15-TF-r1",
+"prompt": "We never go never swimming in winter.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t15-TF-10",
@@ -672,85 +753,13 @@
 "answer": 0
 },
 {
-"id": "t15-TF-12",
-"prompt": "Our teacher usually gives us homework on Friday.",
+"id": "t15-TF-9",
+"prompt": "We usually eat lunch at school.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
-},
-{
-"id": "t15-TF-13",
-"prompt": "We never go to the park on Sunday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t15-TF-r1",
-"prompt": "We never go never swimming in winter.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t15-TF-r2",
-"prompt": "The students do usually homework in the library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t15-TF-r3",
-"prompt": "The baby usual smiles at strangers.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t15-TF-r4",
-"prompt": "My cousin usual walks to school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t15-TF-r5",
-"prompt": "My cousin sometime visits us on Sundays.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t15-TF-r6",
-"prompt": "We do usually homework in the evening.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t15-TF-r7",
-"prompt": "They sometime watch movies on Friday night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
 },
 {
 "id": "t15-TF-r8",
@@ -762,8 +771,17 @@
 "answer": 1
 },
 {
-"id": "t15-TF-r9",
-"prompt": "Our teacher usual gives us easy tests.",
+"id": "t15-TF-6",
+"prompt": "We never sleep in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t15-TF-r3",
+"prompt": "The baby usual smiles at strangers.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,31 +789,13 @@
 "answer": 1
 },
 {
-"id": "t15-TF-r10",
-"prompt": "The cat usual sleeps under the table.",
+"id": "t15-TF-1",
+"prompt": "I hardly ever ride my bike at night.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t15-TF-r11",
-"prompt": "They usual study English in the library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t15-TF-r12",
-"prompt": "We not never go to the park on Sunday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 }
 ]
 }

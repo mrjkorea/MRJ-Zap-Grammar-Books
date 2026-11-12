@@ -573,49 +573,13 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t11-TF-1",
-"prompt": "The fluffy cat will sleep on my bed tonight.",
+"id": "t11-TF-r9",
+"prompt": "The children not play soccer in the rain.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t11-TF-2",
-"prompt": "I will not read comic books during the math lesson.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t11-TF-3",
-"prompt": "My friends will bring a blue notebook to class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t11-TF-4",
-"prompt": "The girls will sing happy songs in the music room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t11-TF-5",
-"prompt": "The baby will not eat sweet snacks before dinner time.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t11-TF-6",
@@ -627,13 +591,22 @@
 "answer": 0
 },
 {
-"id": "t11-TF-7",
-"prompt": "The children will not play soccer in the rain.",
+"id": "t11-TF-12",
+"prompt": "She will open the bright window in the morning.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t11-TF-r16",
+"prompt": "Dad not fix the old bike this weekend.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t11-TF-8",
@@ -654,8 +627,8 @@
 "answer": 0
 },
 {
-"id": "t11-TF-10",
-"prompt": "Our teacher will not give a hard test tomorrow.",
+"id": "t11-TF-1",
+"prompt": "The fluffy cat will sleep on my bed tonight.",
 "options": [
 "TRUE",
 "FALSE"
@@ -663,8 +636,17 @@
 "answer": 0
 },
 {
-"id": "t11-TF-11",
-"prompt": "They will paint the old school fence on Saturday.",
+"id": "t11-TF-r8",
+"prompt": "The cook not burn the sweet cake tonight.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t11-TF-3",
+"prompt": "My friends will bring a blue notebook to class.",
 "options": [
 "TRUE",
 "FALSE"
@@ -672,26 +654,8 @@
 "answer": 0
 },
 {
-"id": "t11-TF-12",
-"prompt": "She will open the bright window in the morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t11-TF-13",
-"prompt": "We will wash our dirty shoes after the game.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t11-TF-r1",
-"prompt": "Our teacher check the long homework after lunch.",
+"id": "t11-TF-r4",
+"prompt": "My aunt give a soft toy to the baby.",
 "options": [
 "TRUE",
 "FALSE"
@@ -708,26 +672,44 @@
 "answer": 1
 },
 {
+"id": "t11-TF-r13",
+"prompt": "Our teacher close the noisy window during class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t11-TF-5",
+"prompt": "The baby will not eat sweet snacks before dinner time.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t11-TF-r7",
+"prompt": "My uncle not buy expensive toys for his son.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t11-TF-r1",
+"prompt": "Our teacher check the long homework after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t11-TF-r3",
 "prompt": "Our class start a new lesson next Monday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t11-TF-r4",
-"prompt": "My aunt give a soft toy to the baby.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t11-TF-r5",
-"prompt": "My cousin not eat spicy food at the party.",
 "options": [
 "TRUE",
 "FALSE"
@@ -744,8 +726,26 @@
 "answer": 1
 },
 {
-"id": "t11-TF-r7",
-"prompt": "My uncle not buy expensive toys for his son.",
+"id": "t11-TF-13",
+"prompt": "We will wash our dirty shoes after the game.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t11-TF-2",
+"prompt": "I will not read comic books during the math lesson.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t11-TF-r5",
+"prompt": "My cousin not eat spicy food at the party.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,40 +753,31 @@
 "answer": 1
 },
 {
-"id": "t11-TF-r8",
-"prompt": "The cook not burn the sweet cake tonight.",
+"id": "t11-TF-11",
+"prompt": "They will paint the old school fence on Saturday.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t11-TF-r9",
-"prompt": "The children not play soccer in the rain.",
+"id": "t11-TF-10",
+"prompt": "Our teacher will not give a hard test tomorrow.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t11-TF-r13",
-"prompt": "Our teacher close the noisy window during class.",
+"id": "t11-TF-7",
+"prompt": "The children will not play soccer in the rain.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t11-TF-r16",
-"prompt": "Dad not fix the old bike this weekend.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t11-TF-r17",
@@ -796,6 +787,15 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t11-TF-4",
+"prompt": "The girls will sing happy songs in the music room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

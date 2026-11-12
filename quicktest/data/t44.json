@@ -573,60 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t44-TF-1",
-"prompt": "Our coach lent me the blue ball after school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t44-TF-2",
-"prompt": "I lent him my umbrella on the rainy day.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t44-TF-3",
-"prompt": "Our cook brings him the hot soup bowl.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t44-TF-4",
-"prompt": "My coach taught me some easy songs yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t44-TF-5",
-"prompt": "Our teacher showed us the new chart in class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t44-TF-6",
-"prompt": "The boy shows them his yellow bike at school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t44-TF-7",
 "prompt": "Dad tells him the bus time every day.",
 "options": [
@@ -636,26 +582,26 @@
 "answer": 0
 },
 {
-"id": "t44-TF-8",
-"prompt": "My sister sent him a cute card from home.",
+"id": "t44-TF-r4",
+"prompt": "The guide us shows the big hall every hour.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t44-TF-9",
-"prompt": "The art teacher teaches her some easy rules at school.",
+"id": "t44-TF-r11",
+"prompt": "The old cook made some bread us this morning.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t44-TF-10",
-"prompt": "My brother teaches them a fun game after class.",
+"id": "t44-TF-5",
+"prompt": "Our teacher showed us the new chart in class.",
 "options": [
 "TRUE",
 "FALSE"
@@ -672,89 +618,8 @@
 "answer": 0
 },
 {
-"id": "t44-TF-12",
-"prompt": "Our uncle made us a chair for the small room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t44-TF-14",
-"prompt": "Dad brought them a little fruit basket.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t44-TF-r1",
-"prompt": "Our club her sends a long letter each week.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t44-TF-r2",
-"prompt": "My friends send a note me from the small farm.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t44-TF-r3",
-"prompt": "The shopkeeper us buys some new pencils every term.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t44-TF-r4",
-"prompt": "The guide us shows the big hall every hour.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t44-TF-r5",
 "prompt": "The guide me shows some rare coins at the museum.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t44-TF-r6",
-"prompt": "Please give the blue her water bottle.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t44-TF-r7",
-"prompt": "The boy them shows his yellow bike at school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t44-TF-r8",
-"prompt": "Our teacher us showed the new chart in class.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,6 +636,15 @@
 "answer": 1
 },
 {
+"id": "t44-TF-10",
+"prompt": "My brother teaches them a fun game after class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t44-TF-r10",
 "prompt": "Grandma him tells a long story every night.",
 "options": [
@@ -780,13 +654,139 @@
 "answer": 1
 },
 {
-"id": "t44-TF-r11",
-"prompt": "The old cook made some bread us this morning.",
+"id": "t44-TF-6",
+"prompt": "The boy shows them his yellow bike at school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t44-TF-12",
+"prompt": "Our uncle made us a chair for the small room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t44-TF-4",
+"prompt": "My coach taught me some easy songs yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t44-TF-r2",
+"prompt": "My friends send a note me from the small farm.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t44-TF-r6",
+"prompt": "Please give the blue her water bottle.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t44-TF-2",
+"prompt": "I lent him my umbrella on the rainy day.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t44-TF-r8",
+"prompt": "Our teacher us showed the new chart in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t44-TF-r1",
+"prompt": "Our club her sends a long letter each week.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t44-TF-r7",
+"prompt": "The boy them shows his yellow bike at school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t44-TF-14",
+"prompt": "Dad brought them a little fruit basket.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t44-TF-8",
+"prompt": "My sister sent him a cute card from home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t44-TF-r3",
+"prompt": "The shopkeeper us buys some new pencils every term.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t44-TF-1",
+"prompt": "Our coach lent me the blue ball after school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t44-TF-3",
+"prompt": "Our cook brings him the hot soup bowl.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t44-TF-9",
+"prompt": "The art teacher teaches her some easy rules at school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t44-TF-r12",

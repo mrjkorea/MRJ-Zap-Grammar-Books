@@ -573,6 +573,24 @@
 "passCorrect": 23,
 "items": [
 {
+"id": "t42-TF-12",
+"prompt": "His bike rolls smoother than my old wagon.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t42-TF-r5",
+"prompt": "My uncle walks quick than my aunt after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t42-TF-1",
 "prompt": "The bus moves slower than the small car.",
 "options": [
@@ -582,13 +600,13 @@
 "answer": 0
 },
 {
-"id": "t42-TF-2",
-"prompt": "My little sister sings sweeter than the radio star on Sundays.",
+"id": "t42-TF-r8",
+"prompt": "Her voice sounds loud than his in the gym.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t42-TF-3",
@@ -600,85 +618,40 @@
 "answer": 0
 },
 {
-"id": "t42-TF-4",
-"prompt": "His bike goes faster than my scooter downhill.",
+"id": "t42-TF-r12",
+"prompt": "The small car turns sharp than the big truck.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t42-TF-5",
-"prompt": "The green plant grows taller than the small tree.",
+"id": "t42-TF-r10",
+"prompt": "My team plays smart than the other group today.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t42-TF-6",
-"prompt": "His voice sounds deeper than mine on the phone.",
+"id": "t42-TF-r4",
+"prompt": "My new shoes feel soft than my old boots.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t42-TF-7",
-"prompt": "My sister draws neater than her classmates in art.",
+"id": "t42-TF-r11",
+"prompt": "My cousin jumps high than his friends during practice.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t42-TF-8",
-"prompt": "His cousin jumps farther than the others at practice.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t42-TF-9",
-"prompt": "My friend climbs higher than the tall tree behind the house.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t42-TF-10",
-"prompt": "His cousin reads quicker than his sister at home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t42-TF-12",
-"prompt": "His bike rolls smoother than my old wagon.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t42-TF-13",
-"prompt": "We finish homework quicker than our cousins after dinner.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t42-TF-14",
@@ -699,6 +672,15 @@
 "answer": 1
 },
 {
+"id": "t42-TF-13",
+"prompt": "We finish homework quicker than our cousins after dinner.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t42-TF-r2",
 "prompt": "His sister sings sweet than the birds outside.",
 "options": [
@@ -706,6 +688,24 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t42-TF-5",
+"prompt": "The green plant grows taller than the small tree.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t42-TF-4",
+"prompt": "His bike goes faster than my scooter downhill.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t42-TF-r3",
@@ -717,49 +717,13 @@
 "answer": 1
 },
 {
-"id": "t42-TF-r4",
-"prompt": "My new shoes feel soft than my old boots.",
+"id": "t42-TF-9",
+"prompt": "My friend climbs higher than the tall tree behind the house.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t42-TF-r5",
-"prompt": "My uncle walks quick than my aunt after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t42-TF-r6",
-"prompt": "The bus moves slow than the cars on this road.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t42-TF-r7",
-"prompt": "His little brother climbs high than the wall in the park.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t42-TF-r8",
-"prompt": "Her voice sounds loud than his in the gym.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t42-TF-r9",
@@ -771,8 +735,26 @@
 "answer": 1
 },
 {
-"id": "t42-TF-r10",
-"prompt": "My team plays smart than the other group today.",
+"id": "t42-TF-8",
+"prompt": "His cousin jumps farther than the others at practice.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t42-TF-7",
+"prompt": "My sister draws neater than her classmates in art.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t42-TF-r7",
+"prompt": "His little brother climbs high than the wall in the park.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,8 +762,17 @@
 "answer": 1
 },
 {
-"id": "t42-TF-r11",
-"prompt": "My cousin jumps high than his friends during practice.",
+"id": "t42-TF-6",
+"prompt": "His voice sounds deeper than mine on the phone.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t42-TF-r6",
+"prompt": "The bus moves slow than the cars on this road.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,13 +780,22 @@
 "answer": 1
 },
 {
-"id": "t42-TF-r12",
-"prompt": "The small car turns sharp than the big truck.",
+"id": "t42-TF-2",
+"prompt": "My little sister sings sweeter than the radio star on Sundays.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
+},
+{
+"id": "t42-TF-10",
+"prompt": "His cousin reads quicker than his sister at home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

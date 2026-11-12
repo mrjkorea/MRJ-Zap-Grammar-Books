@@ -573,69 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t02-TF-1",
-"prompt": "We study math and science.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-2",
-"prompt": "The desk is old and wooden.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-3",
-"prompt": "The students listen and write carefully.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-4",
-"prompt": "You can sit or stand here.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-5",
-"prompt": "Take a hat or a coat.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-6",
-"prompt": "She wants tea but gets coffee.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-7",
-"prompt": "The cat is small and cute.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t02-TF-8",
 "prompt": "The movie was long but really funny.",
 "options": [
@@ -645,107 +582,8 @@
 "answer": 0
 },
 {
-"id": "t02-TF-9",
-"prompt": "The room is clean but a little cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-10",
-"prompt": "The dog is loud but friendly.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-11",
-"prompt": "The cat sleeps and eats all day.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-12",
-"prompt": "The test was short but quite difficult.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-13",
-"prompt": "This bag is old but useful.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t02-TF-r1",
-"prompt": "My sister sings dances well.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t02-TF-r2",
-"prompt": "You may draw a picture write a story.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t02-TF-r3",
-"prompt": "He washes dishes cleans floors.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t02-TF-r4",
-"prompt": "You can read draw in class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t02-TF-r5",
 "prompt": "The park is green wide.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t02-TF-r6",
-"prompt": "They play soccer not tennis.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t02-TF-r7",
-"prompt": "He does not swim fish.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,6 +600,51 @@
 "answer": 1
 },
 {
+"id": "t02-TF-r11",
+"prompt": "The chair is old still useful.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t02-TF-11",
+"prompt": "The cat sleeps and eats all day.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t02-TF-r4",
+"prompt": "You can read draw in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t02-TF-3",
+"prompt": "The students listen and write carefully.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t02-TF-1",
+"prompt": "We study math and science.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t02-TF-r9",
 "prompt": "The shoes are new dirty.",
 "options": [
@@ -769,6 +652,123 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t02-TF-r1",
+"prompt": "My sister sings dances well.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t02-TF-2",
+"prompt": "The desk is old and wooden.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t02-TF-5",
+"prompt": "Take a hat or a coat.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t02-TF-r6",
+"prompt": "They play soccer not tennis.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t02-TF-9",
+"prompt": "The room is clean but a little cold.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t02-TF-r2",
+"prompt": "You may draw a picture write a story.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t02-TF-6",
+"prompt": "She wants tea but gets coffee.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t02-TF-r12",
+"prompt": "Take a hat a coat.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t02-TF-13",
+"prompt": "This bag is old but useful.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t02-TF-r3",
+"prompt": "He washes dishes cleans floors.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t02-TF-4",
+"prompt": "You can sit or stand here.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t02-TF-12",
+"prompt": "The test was short but quite difficult.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t02-TF-10",
+"prompt": "The dog is loud but friendly.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t02-TF-r10",
@@ -780,17 +780,17 @@
 "answer": 1
 },
 {
-"id": "t02-TF-r11",
-"prompt": "The chair is old still useful.",
+"id": "t02-TF-7",
+"prompt": "The cat is small and cute.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t02-TF-r12",
-"prompt": "Take a hat a coat.",
+"id": "t02-TF-r7",
+"prompt": "He does not swim fish.",
 "options": [
 "TRUE",
 "FALSE"

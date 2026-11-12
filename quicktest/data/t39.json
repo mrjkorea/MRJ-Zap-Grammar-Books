@@ -573,8 +573,8 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t39-TF-1",
-"prompt": "The shirt washed by my mother is still wet.",
+"id": "t39-TF-7",
+"prompt": "The room cleaned by my sister looks nice.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,22 +582,22 @@
 "answer": 0
 },
 {
-"id": "t39-TF-2",
-"prompt": "The room cleaned by my mother is bright.",
+"id": "t39-TF-r11",
+"prompt": "The food cook by my mother tastes good.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t39-TF-3",
-"prompt": "The car washed by the boy is not clean.",
+"id": "t39-TF-r14",
+"prompt": "The bike fix by my uncle works well.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t39-TF-4",
@@ -618,51 +618,6 @@
 "answer": 0
 },
 {
-"id": "t39-TF-6",
-"prompt": "The car parked near the school is old.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t39-TF-7",
-"prompt": "The room cleaned by my sister looks nice.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t39-TF-8",
-"prompt": "The room cleaned after lunch is quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t39-TF-9",
-"prompt": "The poem written in class was quite short.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t39-TF-10",
-"prompt": "The game played after school was really fun.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t39-TF-11",
 "prompt": "The cake baked by my sister smells wonderful.",
 "options": [
@@ -672,8 +627,17 @@
 "answer": 0
 },
 {
-"id": "t39-TF-12",
-"prompt": "The car washed by my brother is clean.",
+"id": "t39-TF-r20",
+"prompt": "The desk paint blue is in my room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t39-TF-1",
+"prompt": "The shirt washed by my mother is still wet.",
 "options": [
 "TRUE",
 "FALSE"
@@ -681,17 +645,8 @@
 "answer": 0
 },
 {
-"id": "t39-TF-13",
-"prompt": "The room cleaned by my brother is very bright.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t39-TF-r9",
-"prompt": "The poem write in class was quite short.",
+"id": "t39-TF-r15",
+"prompt": "The car wash by my father is in the yard.",
 "options": [
 "TRUE",
 "FALSE"
@@ -708,49 +663,22 @@
 "answer": 1
 },
 {
-"id": "t39-TF-r11",
-"prompt": "The food cook by my mother tastes good.",
+"id": "t39-TF-3",
+"prompt": "The car washed by the boy is not clean.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t39-TF-r12",
-"prompt": "The cake eat by the dog was on the table.",
+"id": "t39-TF-9",
+"prompt": "The poem written in class was quite short.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t39-TF-r13",
-"prompt": "The song play on the radio is new.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t39-TF-r14",
-"prompt": "The bike fix by my uncle works well.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t39-TF-r15",
-"prompt": "The car wash by my father is in the yard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t39-TF-r16",
@@ -762,8 +690,8 @@
 "answer": 1
 },
 {
-"id": "t39-TF-r17",
-"prompt": "The food cook for lunch was delicious.",
+"id": "t39-TF-r9",
+"prompt": "The poem write in class was quite short.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,8 +699,17 @@
 "answer": 1
 },
 {
-"id": "t39-TF-r18",
-"prompt": "The test give by the teacher was not hard.",
+"id": "t39-TF-12",
+"prompt": "The car washed by my brother is clean.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t39-TF-r13",
+"prompt": "The song play on the radio is new.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,13 +726,76 @@
 "answer": 1
 },
 {
-"id": "t39-TF-r20",
-"prompt": "The desk paint blue is in my room.",
+"id": "t39-TF-r17",
+"prompt": "The food cook for lunch was delicious.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t39-TF-6",
+"prompt": "The car parked near the school is old.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t39-TF-8",
+"prompt": "The room cleaned after lunch is quiet.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t39-TF-r12",
+"prompt": "The cake eat by the dog was on the table.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t39-TF-10",
+"prompt": "The game played after school was really fun.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t39-TF-13",
+"prompt": "The room cleaned by my brother is very bright.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t39-TF-r18",
+"prompt": "The test give by the teacher was not hard.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t39-TF-2",
+"prompt": "The room cleaned by my mother is bright.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

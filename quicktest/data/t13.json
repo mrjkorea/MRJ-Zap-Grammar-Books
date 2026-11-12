@@ -573,78 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t13-TF-1",
-"prompt": "We stay inside because the wind is strong.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-2",
-"prompt": "They sit inside because the sun is hot.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-3",
-"prompt": "She turns on the lamp because the room is dark.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-4",
-"prompt": "My mother calls me because dinner is ready.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-5",
-"prompt": "He runs fast because his dog chases him.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-6",
-"prompt": "We study quietly because the library is very quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-7",
-"prompt": "The boy sits down because his legs are tired.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-8",
-"prompt": "She smiles because her test score is high.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t13-TF-9",
 "prompt": "He closes the door because the noise is loud.",
 "options": [
@@ -654,98 +582,8 @@
 "answer": 0
 },
 {
-"id": "t13-TF-10",
-"prompt": "She opens her book because the test starts now.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-11",
-"prompt": "We walk home because the bus stops early.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-13",
-"prompt": "She stays inside because the wind is strong.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-14",
-"prompt": "She smiles because her friend tells a joke.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t13-TF-r3",
-"prompt": "I wear a coat or snow falls today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t13-TF-r4",
 "prompt": "He closes the door or the noise is loud.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t13-TF-r5",
-"prompt": "The bird sings or the morning is warm.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t13-TF-r7",
-"prompt": "Her dog runs outside or a cat sits near.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t13-TF-r8",
-"prompt": "She wears a coat or snow falls outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t13-TF-r9",
-"prompt": "The students rest or the test ends early.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t13-TF-r10",
-"prompt": "I close the window and the room is noisy.",
 "options": [
 "TRUE",
 "FALSE"
@@ -760,6 +598,15 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t13-TF-5",
+"prompt": "He runs fast because his dog chases him.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t13-TF-r12",
@@ -789,8 +636,161 @@
 "answer": 1
 },
 {
+"id": "t13-TF-14",
+"prompt": "She smiles because her friend tells a joke.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-4",
+"prompt": "My mother calls me because dinner is ready.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-13",
+"prompt": "She stays inside because the wind is strong.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t13-TF-r16",
 "prompt": "His mother smiles and he cleans his room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t13-TF-11",
+"prompt": "We walk home because the bus stops early.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-r9",
+"prompt": "The students rest or the test ends early.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t13-TF-2",
+"prompt": "They sit inside because the sun is hot.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-r7",
+"prompt": "Her dog runs outside or a cat sits near.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t13-TF-7",
+"prompt": "The boy sits down because his legs are tired.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-6",
+"prompt": "We study quietly because the library is very quiet.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-r5",
+"prompt": "The bird sings or the morning is warm.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t13-TF-8",
+"prompt": "She smiles because her test score is high.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-r8",
+"prompt": "She wears a coat or snow falls outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t13-TF-10",
+"prompt": "She opens her book because the test starts now.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-1",
+"prompt": "We stay inside because the wind is strong.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-r10",
+"prompt": "I close the window and the room is noisy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t13-TF-3",
+"prompt": "She turns on the lamp because the room is dark.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t13-TF-r3",
+"prompt": "I wear a coat or snow falls today.",
 "options": [
 "TRUE",
 "FALSE"

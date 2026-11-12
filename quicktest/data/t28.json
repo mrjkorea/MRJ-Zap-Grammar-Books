@@ -573,8 +573,8 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t28-TF-1",
-"prompt": "Our school lunch was really good for the hungry students yesterday afternoon.",
+"id": "t28-TF-13",
+"prompt": "She did not read the long book in her room last night.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,62 +582,17 @@
 "answer": 0
 },
 {
-"id": "t28-TF-2",
-"prompt": "I did not see my red bag in the hallway yesterday.",
+"id": "t28-TF-r12",
+"prompt": "The answer not on the blackboard after class yesterday.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t28-TF-3",
-"prompt": "The students did not sing or dance in the music room yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t28-TF-5",
-"prompt": "The math test was very hard for many students yesterday morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t28-TF-6",
 "prompt": "My mother did not wash the dirty cups after dinner yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t28-TF-7",
-"prompt": "The white cat was quiet on my bed at home last night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t28-TF-8",
-"prompt": "The young students did not play soccer in the park yesterday afternoon.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t28-TF-9",
-"prompt": "The small kitchen was not warm before breakfast yesterday.",
 "options": [
 "TRUE",
 "FALSE"
@@ -654,8 +609,8 @@
 "answer": 0
 },
 {
-"id": "t28-TF-11",
-"prompt": "His small dog did not sleep in my room at home last night.",
+"id": "t28-TF-7",
+"prompt": "The white cat was quiet on my bed at home last night.",
 "options": [
 "TRUE",
 "FALSE"
@@ -663,35 +618,35 @@
 "answer": 0
 },
 {
-"id": "t28-TF-12",
-"prompt": "The soup was hot in the kitchen yesterday evening.",
+"id": "t28-TF-r10",
+"prompt": "We not eat the sweet cake in the kitchen last night.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t28-TF-13",
-"prompt": "She did not read the long book in her room last night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t28-TF-14",
-"prompt": "The hot soup was not ready for lunch in the cafeteria yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t28-TF-r1",
 "prompt": "Those heavy books or on the desk after class yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t28-TF-5",
+"prompt": "The math test was very hard for many students yesterday morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t28-TF-r7",
+"prompt": "Her little sister not read a story in bed last night.",
 "options": [
 "TRUE",
 "FALSE"
@@ -708,8 +663,8 @@
 "answer": 1
 },
 {
-"id": "t28-TF-r3",
-"prompt": "The young teachers busy in the office before school yesterday.",
+"id": "t28-TF-r9",
+"prompt": "That long movie not funny for my family last night.",
 "options": [
 "TRUE",
 "FALSE"
@@ -717,8 +672,44 @@
 "answer": 1
 },
 {
-"id": "t28-TF-r5",
-"prompt": "My uncle not fix the clock in the hallway yesterday.",
+"id": "t28-TF-2",
+"prompt": "I did not see my red bag in the hallway yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t28-TF-r13",
+"prompt": "Our classroom very cold for the students before class yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t28-TF-11",
+"prompt": "His small dog did not sleep in my room at home last night.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t28-TF-1",
+"prompt": "Our school lunch was really good for the hungry students yesterday afternoon.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t28-TF-r8",
+"prompt": "They not play soccer in the park after school yesterday.",
 "options": [
 "TRUE",
 "FALSE"
@@ -735,42 +726,6 @@
 "answer": 1
 },
 {
-"id": "t28-TF-r7",
-"prompt": "Her little sister not read a story in bed last night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t28-TF-r8",
-"prompt": "They not play soccer in the park after school yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t28-TF-r9",
-"prompt": "That long movie not funny for my family last night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t28-TF-r10",
-"prompt": "We not eat the sweet cake in the kitchen last night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t28-TF-r11",
 "prompt": "The small kitchen very clean after dinner yesterday evening.",
 "options": [
@@ -780,8 +735,44 @@
 "answer": 1
 },
 {
-"id": "t28-TF-r12",
-"prompt": "The answer not on the blackboard after class yesterday.",
+"id": "t28-TF-14",
+"prompt": "The hot soup was not ready for lunch in the cafeteria yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t28-TF-12",
+"prompt": "The soup was hot in the kitchen yesterday evening.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t28-TF-9",
+"prompt": "The small kitchen was not warm before breakfast yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t28-TF-3",
+"prompt": "The students did not sing or dance in the music room yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t28-TF-r3",
+"prompt": "The young teachers busy in the office before school yesterday.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,8 +780,17 @@
 "answer": 1
 },
 {
-"id": "t28-TF-r13",
-"prompt": "Our classroom very cold for the students before class yesterday.",
+"id": "t28-TF-8",
+"prompt": "The young students did not play soccer in the park yesterday afternoon.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t28-TF-r5",
+"prompt": "My uncle not fix the clock in the hallway yesterday.",
 "options": [
 "TRUE",
 "FALSE"

@@ -573,78 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t60-TF-1",
-"prompt": "My grandmother asked me to carry her bag.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-2",
-"prompt": "My brother wants me to play outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-3",
-"prompt": "My mother needs me to buy some milk.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-4",
-"prompt": "My friend needs me to help him today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-5",
-"prompt": "The teacher needs us to finish the work.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-6",
-"prompt": "The science teacher expects us to finish the project.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-7",
-"prompt": "My aunt would like us to visit soon.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-8",
-"prompt": "My father asked me to clean my room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t60-TF-9",
 "prompt": "The teacher expects us to finish the homework early.",
 "options": [
@@ -654,53 +582,8 @@
 "answer": 0
 },
 {
-"id": "t60-TF-11",
-"prompt": "The coach expects us to win the game.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-12",
-"prompt": "My friend asked me to open the window.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-13",
-"prompt": "The librarian asked us to be quiet in the library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-14",
-"prompt": "The doctor wants him to take this medicine.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t60-TF-r1",
-"prompt": "My aunt asked us visit her house.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t60-TF-r2",
-"prompt": "My uncle expects us visit his farm.",
+"id": "t60-TF-r5",
+"prompt": "The teacher asked us bring our notebooks.",
 "options": [
 "TRUE",
 "FALSE"
@@ -717,8 +600,17 @@
 "answer": 1
 },
 {
-"id": "t60-TF-r4",
-"prompt": "His father asked him wash the car.",
+"id": "t60-TF-4",
+"prompt": "My friend needs me to help him today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t60-TF-r9",
+"prompt": "The teacher asked us open our books.",
 "options": [
 "TRUE",
 "FALSE"
@@ -726,17 +618,35 @@
 "answer": 1
 },
 {
-"id": "t60-TF-r5",
-"prompt": "The teacher asked us bring our notebooks.",
+"id": "t60-TF-13",
+"prompt": "The librarian asked us to be quiet in the library.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t60-TF-r6",
-"prompt": "My grandmother wants us visit her often.",
+"id": "t60-TF-2",
+"prompt": "My brother wants me to play outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t60-TF-14",
+"prompt": "The doctor wants him to take this medicine.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t60-TF-r11",
+"prompt": "The principal asked students wear school uniforms.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,24 +663,6 @@
 "answer": 1
 },
 {
-"id": "t60-TF-r8",
-"prompt": "My mother told me wear a coat.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t60-TF-r9",
-"prompt": "The teacher asked us open our books.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t60-TF-r10",
 "prompt": "The librarian told us be quiet.",
 "options": [
@@ -780,13 +672,22 @@
 "answer": 1
 },
 {
-"id": "t60-TF-r11",
-"prompt": "The principal asked students wear school uniforms.",
+"id": "t60-TF-r6",
+"prompt": "My grandmother wants us visit her often.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t60-TF-8",
+"prompt": "My father asked me to clean my room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t60-TF-r12",
@@ -796,6 +697,105 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t60-TF-1",
+"prompt": "My grandmother asked me to carry her bag.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t60-TF-11",
+"prompt": "The coach expects us to win the game.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t60-TF-r8",
+"prompt": "My mother told me wear a coat.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t60-TF-7",
+"prompt": "My aunt would like us to visit soon.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t60-TF-r4",
+"prompt": "His father asked him wash the car.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t60-TF-r1",
+"prompt": "My aunt asked us visit her house.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t60-TF-3",
+"prompt": "My mother needs me to buy some milk.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t60-TF-r2",
+"prompt": "My uncle expects us visit his farm.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t60-TF-6",
+"prompt": "The science teacher expects us to finish the project.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t60-TF-12",
+"prompt": "My friend asked me to open the window.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t60-TF-5",
+"prompt": "The teacher needs us to finish the work.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

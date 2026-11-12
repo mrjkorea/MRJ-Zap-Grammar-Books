@@ -573,8 +573,8 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t59-TF-1",
-"prompt": "We wonder whether the game starts after dinner.",
+"id": "t59-TF-9",
+"prompt": "They wonder if the shop opens early.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,17 +582,17 @@
 "answer": 0
 },
 {
-"id": "t59-TF-2",
-"prompt": "I ask when the movie starts.",
+"id": "t59-TF-r8",
+"prompt": "She tells me when does the movie begins.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t59-TF-3",
-"prompt": "I asked whether my friend liked the new game.",
+"id": "t59-TF-11",
+"prompt": "The boy asked what his mother cooked for dinner.",
 "options": [
 "TRUE",
 "FALSE"
@@ -609,69 +609,6 @@
 "answer": 0
 },
 {
-"id": "t59-TF-5",
-"prompt": "I wonder if my friend is home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t59-TF-6",
-"prompt": "My dad knows when the train leaves.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t59-TF-7",
-"prompt": "My aunt asks if the shop sells fresh bread.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t59-TF-8",
-"prompt": "The teacher asked why the students were late today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t59-TF-9",
-"prompt": "They wonder if the shop opens early.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t59-TF-10",
-"prompt": "The mother knows why her son looks tired.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t59-TF-11",
-"prompt": "The boy asked what his mother cooked for dinner.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t59-TF-12",
 "prompt": "My dad asked when the train arrives.",
 "options": [
@@ -681,17 +618,8 @@
 "answer": 0
 },
 {
-"id": "t59-TF-13",
-"prompt": "The teacher told us when the test begins.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t59-TF-r1",
-"prompt": "We know where do the children play after school.",
+"id": "t59-TF-r18",
+"prompt": "The students know how does the old machine works.",
 "options": [
 "TRUE",
 "FALSE"
@@ -699,8 +627,35 @@
 "answer": 1
 },
 {
-"id": "t59-TF-r2",
-"prompt": "The teacher told us when does the test starts.",
+"id": "t59-TF-3",
+"prompt": "I asked whether my friend liked the new game.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t59-TF-r6",
+"prompt": "She knows who did broke the window.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t59-TF-2",
+"prompt": "I ask when the movie starts.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t59-TF-r7",
+"prompt": "She wonders how does her brother finds the answer.",
 "options": [
 "TRUE",
 "FALSE"
@@ -717,44 +672,26 @@
 "answer": 1
 },
 {
-"id": "t59-TF-r4",
-"prompt": "Nobody knows whether does the shop opens on Sunday.",
+"id": "t59-TF-7",
+"prompt": "My aunt asks if the shop sells fresh bread.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t59-TF-r5",
-"prompt": "They wonder how does the teacher knows answers.",
+"id": "t59-TF-1",
+"prompt": "We wonder whether the game starts after dinner.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t59-TF-r6",
-"prompt": "She knows who did broke the window.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t59-TF-r7",
-"prompt": "She wonders how does her brother finds the answer.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t59-TF-r8",
-"prompt": "She tells me when does the movie begins.",
+"id": "t59-TF-r20",
+"prompt": "She knows what does her brother wants for his birthday.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,26 +708,89 @@
 "answer": 1
 },
 {
-"id": "t59-TF-r18",
-"prompt": "The students know how does the old machine works.",
+"id": "t59-TF-10",
+"prompt": "The mother knows why her son looks tired.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t59-TF-r4",
+"prompt": "Nobody knows whether does the shop opens on Sunday.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t59-TF-6",
+"prompt": "My dad knows when the train leaves.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t59-TF-r1",
+"prompt": "We know where do the children play after school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t59-TF-5",
+"prompt": "I wonder if my friend is home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t59-TF-r5",
+"prompt": "They wonder how does the teacher knows answers.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t59-TF-r2",
+"prompt": "The teacher told us when does the test starts.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t59-TF-13",
+"prompt": "The teacher told us when the test begins.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t59-TF-8",
+"prompt": "The teacher asked why the students were late today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t59-TF-r19",
 "prompt": "They wondered what did the new teacher said.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t59-TF-r20",
-"prompt": "She knows what does her brother wants for his birthday.",
 "options": [
 "TRUE",
 "FALSE"

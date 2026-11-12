@@ -573,80 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t49-TF-1",
-"prompt": "I see that the door is open.",
+"id": "t49-TF-r6",
+"prompt": "The class thinks that the homework hard.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t49-TF-2",
-"prompt": "They say that the homework is hard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t49-TF-3",
-"prompt": "My sister sees that the window is open.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t49-TF-4",
-"prompt": "They feel that the water is cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t49-TF-5",
 "prompt": "She knows that the test is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t49-TF-6",
-"prompt": "We know that the test is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t49-TF-7",
-"prompt": "The girl knows that the cake is ready.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t49-TF-8",
-"prompt": "We think that the book is short.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t49-TF-9",
-"prompt": "We know that our teacher is kind.",
 "options": [
 "TRUE",
 "FALSE"
@@ -663,8 +600,8 @@
 "answer": 0
 },
 {
-"id": "t49-TF-11",
-"prompt": "I think that math is easy.",
+"id": "t49-TF-4",
+"prompt": "They feel that the water is cold.",
 "options": [
 "TRUE",
 "FALSE"
@@ -672,103 +609,13 @@
 "answer": 0
 },
 {
-"id": "t49-TF-12",
-"prompt": "They know that the street is safe.",
+"id": "t49-TF-6",
+"prompt": "We know that the test is easy.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
-},
-{
-"id": "t49-TF-13",
-"prompt": "He knows that the milk is cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t49-TF-r1",
-"prompt": "We know and that the test is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t49-TF-r2",
-"prompt": "She knows that the test easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t49-TF-r3",
-"prompt": "I feel that the room cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t49-TF-r4",
-"prompt": "He thinks that the milk cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t49-TF-r5",
-"prompt": "He sees that the window open.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t49-TF-r6",
-"prompt": "The class thinks that the homework hard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t49-TF-r7",
-"prompt": "They know that the street safe.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t49-TF-r8",
-"prompt": "I think or that math is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t49-TF-r17",
-"prompt": "She says that the water cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
 },
 {
 "id": "t49-TF-r18",
@@ -789,6 +636,42 @@
 "answer": 1
 },
 {
+"id": "t49-TF-r8",
+"prompt": "I think or that math is easy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t49-TF-r3",
+"prompt": "I feel that the room cold.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t49-TF-7",
+"prompt": "The girl knows that the cake is ready.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t49-TF-r4",
+"prompt": "He thinks that the milk cold.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t49-TF-r20",
 "prompt": "They say that the library open.",
 "options": [
@@ -796,6 +679,123 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t49-TF-r17",
+"prompt": "She says that the water cold.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t49-TF-3",
+"prompt": "My sister sees that the window is open.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t49-TF-r7",
+"prompt": "They know that the street safe.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t49-TF-12",
+"prompt": "They know that the street is safe.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t49-TF-r1",
+"prompt": "We know and that the test is easy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t49-TF-1",
+"prompt": "I see that the door is open.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t49-TF-11",
+"prompt": "I think that math is easy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t49-TF-8",
+"prompt": "We think that the book is short.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t49-TF-13",
+"prompt": "He knows that the milk is cold.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t49-TF-r2",
+"prompt": "She knows that the test easy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t49-TF-r5",
+"prompt": "He sees that the window open.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t49-TF-9",
+"prompt": "We know that our teacher is kind.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t49-TF-2",
+"prompt": "They say that the homework is hard.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

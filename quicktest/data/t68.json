@@ -573,96 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t68-TF-1",
-"prompt": "What the boys need is a new ball.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-2",
-"prompt": "Her small bedroom is what the girl cleans.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-3",
-"prompt": "What the students collect is old coins.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-4",
-"prompt": "What the children draw is a tall tree.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-5",
-"prompt": "I use what my sister found.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-6",
-"prompt": "She never forgets what her father teaches.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-8",
-"prompt": "The students read what the teacher writes on the board.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-9",
-"prompt": "He remembers what the coach said yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-10",
-"prompt": "They eat what the school cooks today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-11",
-"prompt": "I remember what my cousin tells me.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t68-TF-12",
 "prompt": "The girl happily opens what her mother packs for lunch.",
 "options": [
@@ -672,44 +582,8 @@
 "answer": 0
 },
 {
-"id": "t68-TF-13",
-"prompt": "My father fixes what the neighbor breaks outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-14",
-"prompt": "I see what the baby wants now.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t68-TF-r9",
-"prompt": "That my dog wants is a soft warm bed.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t68-TF-r10",
-"prompt": "I don't know that the teacher wants.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t68-TF-r11",
-"prompt": "I understand that the guide explains.",
+"id": "t68-TF-r19",
+"prompt": "The small boy likes that his sister paints after lunch.",
 "options": [
 "TRUE",
 "FALSE"
@@ -726,44 +600,17 @@
 "answer": 1
 },
 {
-"id": "t68-TF-r13",
-"prompt": "He drinks that the nurse brings.",
+"id": "t68-TF-10",
+"prompt": "They eat what the school cooks today.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t68-TF-r14",
-"prompt": "That the students draw is a small house.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t68-TF-r15",
-"prompt": "He likes that his friends bring to school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t68-TF-r16",
-"prompt": "The cat hides that it finds in the garden.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t68-TF-r17",
-"prompt": "She writes down that the guide explains.",
+"id": "t68-TF-r20",
+"prompt": "We eat that our mother cooks every evening.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,8 +627,8 @@
 "answer": 1
 },
 {
-"id": "t68-TF-r19",
-"prompt": "The small boy likes that his sister paints after lunch.",
+"id": "t68-TF-r15",
+"prompt": "He likes that his friends bring to school.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,13 +636,166 @@
 "answer": 1
 },
 {
-"id": "t68-TF-r20",
-"prompt": "We eat that our mother cooks every evening.",
+"id": "t68-TF-5",
+"prompt": "I use what my sister found.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-2",
+"prompt": "Her small bedroom is what the girl cleans.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-11",
+"prompt": "I remember what my cousin tells me.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-r13",
+"prompt": "He drinks that the nurse brings.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t68-TF-r10",
+"prompt": "I don't know that the teacher wants.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t68-TF-14",
+"prompt": "I see what the baby wants now.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-9",
+"prompt": "He remembers what the coach said yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-3",
+"prompt": "What the students collect is old coins.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-8",
+"prompt": "The students read what the teacher writes on the board.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-r16",
+"prompt": "The cat hides that it finds in the garden.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t68-TF-4",
+"prompt": "What the children draw is a tall tree.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-r11",
+"prompt": "I understand that the guide explains.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t68-TF-1",
+"prompt": "What the boys need is a new ball.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-r9",
+"prompt": "That my dog wants is a soft warm bed.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t68-TF-6",
+"prompt": "She never forgets what her father teaches.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t68-TF-r14",
+"prompt": "That the students draw is a small house.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t68-TF-r17",
+"prompt": "She writes down that the guide explains.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t68-TF-13",
+"prompt": "My father fixes what the neighbor breaks outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

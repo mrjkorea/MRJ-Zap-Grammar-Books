@@ -573,96 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t31-TF-1",
-"prompt": "You looked for my green pencil under the sofa yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-2",
-"prompt": "We painted a tall tree on white paper in class yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-3",
-"prompt": "The students watched a fun movie at school yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-4",
-"prompt": "The children colored the wall and the floor badly.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-5",
-"prompt": "Dad fixed the old chair at home yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-6",
-"prompt": "Dad fixed my old bike and radio last weekend.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-7",
-"prompt": "I folded the clean shirts on the chair last night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-8",
-"prompt": "She painted a pretty picture last weekend.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-9",
-"prompt": "They played soccer in the park yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-10",
-"prompt": "We packed our bags and left the hotel early.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t31-TF-11",
 "prompt": "My brother watched a funny movie at home last night.",
 "options": [
@@ -672,26 +582,8 @@
 "answer": 0
 },
 {
-"id": "t31-TF-12",
-"prompt": "The girls called their aunt from the school office yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-13",
-"prompt": "My aunt mailed a short letter to her son last Monday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t31-TF-r1",
-"prompt": "They dance and sang at the school party.",
+"id": "t31-TF-r5",
+"prompt": "The cat climb the tall tree this morning.",
 "options": [
 "TRUE",
 "FALSE"
@@ -708,8 +600,8 @@
 "answer": 1
 },
 {
-"id": "t31-TF-r4",
-"prompt": "The boys kick a new ball in the gym yesterday.",
+"id": "t31-TF-r1",
+"prompt": "They dance and sang at the school party.",
 "options": [
 "TRUE",
 "FALSE"
@@ -717,13 +609,22 @@
 "answer": 1
 },
 {
-"id": "t31-TF-r5",
-"prompt": "The cat climb the tall tree this morning.",
+"id": "t31-TF-7",
+"prompt": "I folded the clean shirts on the chair last night.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
+},
+{
+"id": "t31-TF-3",
+"prompt": "The students watched a fun movie at school yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t31-TF-r6",
@@ -735,26 +636,35 @@
 "answer": 1
 },
 {
-"id": "t31-TF-r7",
-"prompt": "My brother wash his dirty hands and face quickly.",
+"id": "t31-TF-5",
+"prompt": "Dad fixed the old chair at home yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t31-TF-r15",
+"prompt": "My brother play soccer and tennis after lunch.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t31-TF-9",
+"prompt": "They played soccer in the park yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t31-TF-r8",
 "prompt": "She mail a short letter to her friend.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t31-TF-r10",
-"prompt": "We visit our school library after lunch yesterday.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,6 +681,51 @@
 "answer": 1
 },
 {
+"id": "t31-TF-r4",
+"prompt": "The boys kick a new ball in the gym yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t31-TF-r7",
+"prompt": "My brother wash his dirty hands and face quickly.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t31-TF-8",
+"prompt": "She painted a pretty picture last weekend.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t31-TF-10",
+"prompt": "We packed our bags and left the hotel early.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t31-TF-2",
+"prompt": "We painted a tall tree on white paper in class yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t31-TF-r12",
 "prompt": "The rain stop before lunch today.",
 "options": [
@@ -778,6 +733,51 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t31-TF-4",
+"prompt": "The children colored the wall and the floor badly.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t31-TF-13",
+"prompt": "My aunt mailed a short letter to her son last Monday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t31-TF-r10",
+"prompt": "We visit our school library after lunch yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t31-TF-1",
+"prompt": "You looked for my green pencil under the sofa yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t31-TF-6",
+"prompt": "Dad fixed my old bike and radio last weekend.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t31-TF-r14",
@@ -789,13 +789,13 @@
 "answer": 1
 },
 {
-"id": "t31-TF-r15",
-"prompt": "My brother play soccer and tennis after lunch.",
+"id": "t31-TF-12",
+"prompt": "The girls called their aunt from the school office yesterday.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 }
 ]
 }

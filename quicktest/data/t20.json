@@ -573,8 +573,44 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t20-TF-1",
-"prompt": "I wonder whether the train is late.",
+"id": "t20-TF-10",
+"prompt": "I wonder if the water is cold.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t20-TF-r3",
+"prompt": "She wonders that the soup needs more salt.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t20-TF-r4",
+"prompt": "He asks the window is open.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t20-TF-12",
+"prompt": "He asks if the library opens early.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t20-TF-6",
+"prompt": "He asks whether my bike is new.",
 "options": [
 "TRUE",
 "FALSE"
@@ -591,13 +627,13 @@
 "answer": 0
 },
 {
-"id": "t20-TF-3",
-"prompt": "He asks if the homework is easy.",
+"id": "t20-TF-r13",
+"prompt": "She wonders the test is easy.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t20-TF-4",
@@ -618,8 +654,17 @@
 "answer": 0
 },
 {
-"id": "t20-TF-6",
-"prompt": "He asks whether my bike is new.",
+"id": "t20-TF-r7",
+"prompt": "We wonder our teacher is strict.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t20-TF-13",
+"prompt": "I ask whether the milk is fresh.",
 "options": [
 "TRUE",
 "FALSE"
@@ -636,13 +681,31 @@
 "answer": 0
 },
 {
-"id": "t20-TF-8",
-"prompt": "She wonders if the door is locked.",
+"id": "t20-TF-r8",
+"prompt": "We do not know the test is easy.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
+},
+{
+"id": "t20-TF-r6",
+"prompt": "They wonder the garden is beautiful.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t20-TF-r5",
+"prompt": "She asks that the baby is sleepy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t20-TF-9",
@@ -654,35 +717,8 @@
 "answer": 0
 },
 {
-"id": "t20-TF-10",
-"prompt": "I wonder if the water is cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-11",
-"prompt": "I wonder whether my sister likes fish.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-12",
-"prompt": "He asks if the library opens early.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t20-TF-13",
-"prompt": "I ask whether the milk is fresh.",
+"id": "t20-TF-3",
+"prompt": "He asks if the homework is easy.",
 "options": [
 "TRUE",
 "FALSE"
@@ -708,67 +744,13 @@
 "answer": 1
 },
 {
-"id": "t20-TF-r3",
-"prompt": "She wonders that the soup needs more salt.",
+"id": "t20-TF-8",
+"prompt": "She wonders if the door is locked.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t20-TF-r4",
-"prompt": "He asks the window is open.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r5",
-"prompt": "She asks that the baby is sleepy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r6",
-"prompt": "They wonder the garden is beautiful.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r7",
-"prompt": "We wonder our teacher is strict.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r8",
-"prompt": "We do not know the test is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t20-TF-r9",
-"prompt": "He wonders the street is busy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t20-TF-r11",
@@ -789,8 +771,26 @@
 "answer": 1
 },
 {
-"id": "t20-TF-r13",
-"prompt": "She wonders the test is easy.",
+"id": "t20-TF-11",
+"prompt": "I wonder whether my sister likes fish.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t20-TF-1",
+"prompt": "I wonder whether the train is late.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t20-TF-r9",
+"prompt": "He wonders the street is busy.",
 "options": [
 "TRUE",
 "FALSE"

@@ -573,6 +573,69 @@
 "passCorrect": 23,
 "items": [
 {
+"id": "t40-TF-5",
+"prompt": "Fixing the bike the father got dirty hands.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t40-TF-r9",
+"prompt": "Listen to music the girl fell asleep.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t40-TF-r5",
+"prompt": "Feed the cat the sister smiled brightly.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t40-TF-6",
+"prompt": "Cooking dinner the girl burned her finger.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t40-TF-13",
+"prompt": "Reading a book the girl forgot the time.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t40-TF-r1",
+"prompt": "Painted the wall the student wore gloves.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t40-TF-r8",
+"prompt": "Clean his room the boy found his old cap.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t40-TF-1",
 "prompt": "Watching the game the girls shouted with joy.",
 "options": [
@@ -582,13 +645,22 @@
 "answer": 0
 },
 {
-"id": "t40-TF-2",
-"prompt": "Reading a book the student forgot the time.",
+"id": "t40-TF-9",
+"prompt": "Waiting for the train the student read a book.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t40-TF-r7",
+"prompt": "Eat lunch the boys talked about games.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t40-TF-3",
@@ -609,89 +681,8 @@
 "answer": 0
 },
 {
-"id": "t40-TF-5",
-"prompt": "Fixing the bike the father got dirty hands.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t40-TF-6",
-"prompt": "Cooking dinner the girl burned her finger.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t40-TF-7",
-"prompt": "Planting a small tree the class dug the soil.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t40-TF-8",
-"prompt": "Carrying two books the student walked upstairs.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t40-TF-9",
-"prompt": "Waiting for the train the student read a book.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t40-TF-11",
-"prompt": "Feeding the dog the boy heard a noise.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t40-TF-12",
-"prompt": "Eating breakfast the man read the morning news.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t40-TF-13",
-"prompt": "Reading a book the girl forgot the time.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t40-TF-14",
-"prompt": "Buying some bread the man met his neighbor.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t40-TF-r1",
-"prompt": "Painted the wall the student wore gloves.",
+"id": "t40-TF-r11",
+"prompt": "Watch the game the fans shouted very loudly.",
 "options": [
 "TRUE",
 "FALSE"
@@ -708,13 +699,13 @@
 "answer": 1
 },
 {
-"id": "t40-TF-r3",
-"prompt": "Borrow a book the girl visited the library.",
+"id": "t40-TF-8",
+"prompt": "Carrying two books the student walked upstairs.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t40-TF-r4",
@@ -726,13 +717,31 @@
 "answer": 1
 },
 {
-"id": "t40-TF-r5",
-"prompt": "Feed the cat the sister smiled brightly.",
+"id": "t40-TF-12",
+"prompt": "Eating breakfast the man read the morning news.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
+},
+{
+"id": "t40-TF-7",
+"prompt": "Planting a small tree the class dug the soil.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t40-TF-2",
+"prompt": "Reading a book the student forgot the time.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t40-TF-r6",
@@ -744,8 +753,17 @@
 "answer": 1
 },
 {
-"id": "t40-TF-r7",
-"prompt": "Eat lunch the boys talked about games.",
+"id": "t40-TF-14",
+"prompt": "Buying some bread the man met his neighbor.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t40-TF-r12",
+"prompt": "Carry a heavy bag the boy walked slowly.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,17 +771,8 @@
 "answer": 1
 },
 {
-"id": "t40-TF-r8",
-"prompt": "Clean his room the boy found his old cap.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t40-TF-r9",
-"prompt": "Listen to music the girl fell asleep.",
+"id": "t40-TF-r3",
+"prompt": "Borrow a book the girl visited the library.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,22 +789,13 @@
 "answer": 1
 },
 {
-"id": "t40-TF-r11",
-"prompt": "Watch the game the fans shouted very loudly.",
+"id": "t40-TF-11",
+"prompt": "Feeding the dog the boy heard a noise.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t40-TF-r12",
-"prompt": "Carry a heavy bag the boy walked slowly.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 }
 ]
 }

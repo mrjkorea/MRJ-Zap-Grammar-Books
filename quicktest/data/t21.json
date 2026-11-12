@@ -573,8 +573,8 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t21-TF-1",
-"prompt": "Not only our dog but also our cat sleeps on the sofa.",
+"id": "t21-TF-12",
+"prompt": "The boys play not only soccer but also baseball after school.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,8 +582,17 @@
 "answer": 0
 },
 {
-"id": "t21-TF-2",
-"prompt": "Not only my sister but also my brother likes science.",
+"id": "t21-TF-r2",
+"prompt": "Not only the park but and the museum is near my house.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t21-TF-16",
+"prompt": "Not only the movie but also the song is famous.",
 "options": [
 "TRUE",
 "FALSE"
@@ -591,17 +600,17 @@
 "answer": 0
 },
 {
-"id": "t21-TF-3",
-"prompt": "Not only the red bag but also the blue bag is under the desk.",
+"id": "t21-TF-r7",
+"prompt": "Not only my brother or also my uncle plays tennis.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t21-TF-4",
-"prompt": "Not only my sister but also my brother likes music.",
+"id": "t21-TF-7",
+"prompt": "Not only the happy children but also the parents enjoy the school festival.",
 "options": [
 "TRUE",
 "FALSE"
@@ -618,161 +627,8 @@
 "answer": 0
 },
 {
-"id": "t21-TF-6",
-"prompt": "Not only my sister but also my cousin likes math.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t21-TF-7",
-"prompt": "Not only the happy children but also the parents enjoy the school festival.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t21-TF-8",
-"prompt": "Not only the students but also the teacher reads books in class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t21-TF-9",
-"prompt": "Not only the teacher but also the students enjoy the game.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t21-TF-10",
-"prompt": "My dad fixes not only the chair but also the table.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t21-TF-12",
-"prompt": "The boys play not only soccer but also baseball after school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t21-TF-16",
-"prompt": "Not only the movie but also the song is famous.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t21-TF-17",
-"prompt": "Not only our teacher but also our friends watch movies on Friday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t21-TF-r1",
-"prompt": "Not only my sister and also my cousin likes math.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t21-TF-r2",
-"prompt": "Not only the park but and the museum is near my house.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t21-TF-r3",
 "prompt": "Not only the science teacher and also the math teacher checks our homework.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t21-TF-r4",
-"prompt": "Not only the rainy day but or the cold day keeps us inside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t21-TF-r5",
-"prompt": "Only our teacher but also our coach watches the game on Friday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t21-TF-r6",
-"prompt": "Not only my cousin and also my brother has a pet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t21-TF-r7",
-"prompt": "Not only my brother or also my uncle plays tennis.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t21-TF-r8",
-"prompt": "Not only the bus also the train stops here.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t21-TF-r9",
-"prompt": "Not or the coach but also the captain runs on the field.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t21-TF-r10",
-"prompt": "I read not and comics but also poems before bed.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,8 +645,152 @@
 "answer": 1
 },
 {
+"id": "t21-TF-3",
+"prompt": "Not only the red bag but also the blue bag is under the desk.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t21-TF-2",
+"prompt": "Not only my sister but also my brother likes science.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t21-TF-17",
+"prompt": "Not only our teacher but also our friends watch movies on Friday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t21-TF-r8",
+"prompt": "Not only the bus also the train stops here.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t21-TF-r10",
+"prompt": "I read not and comics but also poems before bed.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t21-TF-10",
+"prompt": "My dad fixes not only the chair but also the table.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t21-TF-6",
+"prompt": "Not only my sister but also my cousin likes math.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t21-TF-r6",
+"prompt": "Not only my cousin and also my brother has a pet.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t21-TF-1",
+"prompt": "Not only our dog but also our cat sleeps on the sofa.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t21-TF-4",
+"prompt": "Not only my sister but also my brother likes music.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t21-TF-9",
+"prompt": "Not only the teacher but also the students enjoy the game.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t21-TF-r9",
+"prompt": "Not or the coach but also the captain runs on the field.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t21-TF-r5",
+"prompt": "Only our teacher but also our coach watches the game on Friday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t21-TF-r4",
+"prompt": "Not only the rainy day but or the cold day keeps us inside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t21-TF-8",
+"prompt": "Not only the students but also the teacher reads books in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t21-TF-r12",
 "prompt": "Not only the apple also the banana tastes sweet at lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t21-TF-r1",
+"prompt": "Not only my sister and also my cousin likes math.",
 "options": [
 "TRUE",
 "FALSE"

@@ -573,15 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t33-TF-1",
-"prompt": "The book which is on my desk is not very thick.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t33-TF-2",
 "prompt": "The pencil which he uses is very short.",
 "options": [
@@ -591,107 +582,8 @@
 "answer": 0
 },
 {
-"id": "t33-TF-3",
-"prompt": "The child who draws pictures is very quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-4",
-"prompt": "The bus which takes us home is often late.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-5",
-"prompt": "The baby who sleeps in the room is not very loud.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-6",
-"prompt": "The bus which stops at our school is always late.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-7",
-"prompt": "The book which I read last night was interesting.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-8",
-"prompt": "The bag which she bought is very small.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-9",
-"prompt": "The student who answers every question is not very quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-10",
-"prompt": "The song which she sings is very slow.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-11",
-"prompt": "The nurse who helps patients is very patient.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-12",
-"prompt": "The bus which goes to my school is always late.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-13",
-"prompt": "The shirt which I wear on Mondays is not very new.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t33-TF-r1",
-"prompt": "The garden or is behind our house is very green.",
+"id": "t33-TF-r12",
+"prompt": "The movie and we watch at home is very boring.",
 "options": [
 "TRUE",
 "FALSE"
@@ -708,44 +600,26 @@
 "answer": 1
 },
 {
-"id": "t33-TF-r3",
-"prompt": "The girl and won the singing contest is my classmate.",
+"id": "t33-TF-13",
+"prompt": "The shirt which I wear on Mondays is not very new.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t33-TF-r4",
-"prompt": "The friend not helps me study is very patient.",
+"id": "t33-TF-1",
+"prompt": "The book which is on my desk is not very thick.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t33-TF-r5",
 "prompt": "The bus and takes us to school is not very fast.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t33-TF-r6",
-"prompt": "The picture not hangs on the wall is beautiful.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t33-TF-r7",
-"prompt": "The movie not we watched was quite boring.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,22 +636,13 @@
 "answer": 1
 },
 {
-"id": "t33-TF-r9",
-"prompt": "The book or I read last night was interesting.",
+"id": "t33-TF-4",
+"prompt": "The bus which takes us home is often late.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t33-TF-r10",
-"prompt": "The bag and my sister bought is very pretty.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t33-TF-r11",
@@ -789,8 +654,143 @@
 "answer": 1
 },
 {
-"id": "t33-TF-r12",
-"prompt": "The movie and we watch at home is very boring.",
+"id": "t33-TF-9",
+"prompt": "The student who answers every question is not very quiet.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t33-TF-12",
+"prompt": "The bus which goes to my school is always late.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t33-TF-r7",
+"prompt": "The movie not we watched was quite boring.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t33-TF-r4",
+"prompt": "The friend not helps me study is very patient.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t33-TF-r6",
+"prompt": "The picture not hangs on the wall is beautiful.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t33-TF-5",
+"prompt": "The baby who sleeps in the room is not very loud.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t33-TF-7",
+"prompt": "The book which I read last night was interesting.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t33-TF-6",
+"prompt": "The bus which stops at our school is always late.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t33-TF-8",
+"prompt": "The bag which she bought is very small.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t33-TF-r10",
+"prompt": "The bag and my sister bought is very pretty.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t33-TF-r1",
+"prompt": "The garden or is behind our house is very green.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t33-TF-11",
+"prompt": "The nurse who helps patients is very patient.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t33-TF-10",
+"prompt": "The song which she sings is very slow.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t33-TF-r9",
+"prompt": "The book or I read last night was interesting.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t33-TF-3",
+"prompt": "The child who draws pictures is very quiet.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t33-TF-r3",
+"prompt": "The girl and won the singing contest is my classmate.",
 "options": [
 "TRUE",
 "FALSE"

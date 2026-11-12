@@ -573,116 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t08-TF-1",
-"prompt": "Grandma has cooked a warm soup.",
+"id": "t08-TF-r3",
+"prompt": "The students have clean the classroom already.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t08-TF-2",
-"prompt": "She has taken her umbrella to school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-3",
-"prompt": "The team has practiced hard for the match.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t08-TF-4",
 "prompt": "My sister has taken the early bus.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-5",
-"prompt": "Dad has washed his car in the yard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-6",
-"prompt": "Grandma has cooked some warm soup.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-7",
-"prompt": "We have finished our math homework already.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-8",
-"prompt": "They have watched two funny movies.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-10",
-"prompt": "I have learned many new words today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-11",
-"prompt": "We have cleaned the classroom already.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-12",
-"prompt": "The dog has taken my blue ball.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-13",
-"prompt": "The students have cleaned the small classroom.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t08-TF-14",
-"prompt": "We have finished our homework early.",
 "options": [
 "TRUE",
 "FALSE"
@@ -699,22 +600,13 @@
 "answer": 1
 },
 {
-"id": "t08-TF-r2",
-"prompt": "The girls have paint the old fence.",
+"id": "t08-TF-12",
+"prompt": "The dog has taken my blue ball.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t08-TF-r3",
-"prompt": "The students have clean the classroom already.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t08-TF-r4",
@@ -726,8 +618,8 @@
 "answer": 1
 },
 {
-"id": "t08-TF-r5",
-"prompt": "The children have eat their lunch quickly.",
+"id": "t08-TF-r12",
+"prompt": "We have watch a funny movie together.",
 "options": [
 "TRUE",
 "FALSE"
@@ -744,6 +636,33 @@
 "answer": 1
 },
 {
+"id": "t08-TF-7",
+"prompt": "We have finished our math homework already.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t08-TF-11",
+"prompt": "We have cleaned the classroom already.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t08-TF-r9",
+"prompt": "My sister has borrow my blue umbrella.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t08-TF-r7",
 "prompt": "My friends have watch that funny movie.",
 "options": [
@@ -751,6 +670,15 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t08-TF-1",
+"prompt": "Grandma has cooked a warm soup.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t08-TF-r8",
@@ -762,8 +690,71 @@
 "answer": 1
 },
 {
-"id": "t08-TF-r9",
-"prompt": "My sister has borrow my blue umbrella.",
+"id": "t08-TF-14",
+"prompt": "We have finished our homework early.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t08-TF-13",
+"prompt": "The students have cleaned the small classroom.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t08-TF-8",
+"prompt": "They have watched two funny movies.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t08-TF-3",
+"prompt": "The team has practiced hard for the match.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t08-TF-r2",
+"prompt": "The girls have paint the old fence.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t08-TF-5",
+"prompt": "Dad has washed his car in the yard.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t08-TF-2",
+"prompt": "She has taken her umbrella to school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t08-TF-r11",
+"prompt": "The team has practice soccer after school.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,8 +771,8 @@
 "answer": 1
 },
 {
-"id": "t08-TF-r11",
-"prompt": "The team has practice soccer after school.",
+"id": "t08-TF-r5",
+"prompt": "The children have eat their lunch quickly.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,13 +780,22 @@
 "answer": 1
 },
 {
-"id": "t08-TF-r12",
-"prompt": "We have watch a funny movie together.",
+"id": "t08-TF-6",
+"prompt": "Grandma has cooked some warm soup.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
+},
+{
+"id": "t08-TF-10",
+"prompt": "I have learned many new words today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

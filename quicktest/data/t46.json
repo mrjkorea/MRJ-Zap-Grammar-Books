@@ -573,13 +573,40 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t46-TF-1",
-"prompt": "The teacher opens the big window in the morning.",
+"id": "t46-TF-r4",
+"prompt": "Her friend draw a big picture for art.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t46-TF-6",
+"prompt": "The baby sleeps in a warm bed.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t46-TF-r6",
+"prompt": "My grandma tell a funny story every evening.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t46-TF-r8",
+"prompt": "My friend send me a short message.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t46-TF-2",
@@ -591,8 +618,17 @@
 "answer": 0
 },
 {
-"id": "t46-TF-3",
-"prompt": "The cat sleeps on the soft chair.",
+"id": "t46-TF-r10",
+"prompt": "My friend need a new pencil case.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t46-TF-11",
+"prompt": "He plays soccer after school every day.",
 "options": [
 "TRUE",
 "FALSE"
@@ -600,26 +636,17 @@
 "answer": 0
 },
 {
-"id": "t46-TF-4",
-"prompt": "My dad does not drink cold coffee.",
+"id": "t46-TF-r11",
+"prompt": "My brother play soccer in the park.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t46-TF-5",
-"prompt": "She cleans her room every Saturday morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t46-TF-6",
-"prompt": "The baby sleeps in a warm bed.",
+"id": "t46-TF-12",
+"prompt": "My aunt sends a short letter every month.",
 "options": [
 "TRUE",
 "FALSE"
@@ -645,15 +672,6 @@
 "answer": 0
 },
 {
-"id": "t46-TF-9",
-"prompt": "My brother carries a heavy bag to school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t46-TF-10",
 "prompt": "My father washes the car on Sunday.",
 "options": [
@@ -663,8 +681,17 @@
 "answer": 0
 },
 {
-"id": "t46-TF-11",
-"prompt": "He plays soccer after school every day.",
+"id": "t46-TF-r5",
+"prompt": "Our team win the last game today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t46-TF-1",
+"prompt": "The teacher opens the big window in the morning.",
 "options": [
 "TRUE",
 "FALSE"
@@ -672,8 +699,17 @@
 "answer": 0
 },
 {
-"id": "t46-TF-12",
-"prompt": "My aunt sends a short letter every month.",
+"id": "t46-TF-r9",
+"prompt": "The nurse help sick children every morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t46-TF-4",
+"prompt": "My dad does not drink cold coffee.",
 "options": [
 "TRUE",
 "FALSE"
@@ -690,8 +726,17 @@
 "answer": 0
 },
 {
-"id": "t46-TF-r1",
-"prompt": "Her cat eat fish and milk.",
+"id": "t46-TF-5",
+"prompt": "She cleans her room every Saturday morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t46-TF-r7",
+"prompt": "The bird sing a happy song.",
 "options": [
 "TRUE",
 "FALSE"
@@ -708,80 +753,26 @@
 "answer": 1
 },
 {
-"id": "t46-TF-r3",
-"prompt": "My aunt send a short letter every month.",
+"id": "t46-TF-3",
+"prompt": "The cat sleeps on the soft chair.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t46-TF-r4",
-"prompt": "Her friend draw a big picture for art.",
+"id": "t46-TF-9",
+"prompt": "My brother carries a heavy bag to school.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t46-TF-r5",
-"prompt": "Our team win the last game today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t46-TF-r6",
-"prompt": "My grandma tell a funny story every evening.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t46-TF-r7",
-"prompt": "The bird sing a happy song.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t46-TF-r8",
-"prompt": "My friend send me a short message.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t46-TF-r9",
-"prompt": "The nurse help sick children every morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t46-TF-r10",
-"prompt": "My friend need a new pencil case.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t46-TF-r11",
-"prompt": "My brother play soccer in the park.",
+"id": "t46-TF-r1",
+"prompt": "Her cat eat fish and milk.",
 "options": [
 "TRUE",
 "FALSE"
@@ -791,6 +782,15 @@
 {
 "id": "t46-TF-r12",
 "prompt": "The nurse help sick children at the hospital.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t46-TF-r3",
+"prompt": "My aunt send a short letter every month.",
 "options": [
 "TRUE",
 "FALSE"

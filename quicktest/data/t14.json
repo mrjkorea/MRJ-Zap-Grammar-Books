@@ -573,8 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t14-TF-1",
-"prompt": "It was the dark room that scared the cat.",
+"id": "t14-TF-r6",
+"prompt": "It was the bus arrived late.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t14-TF-13",
+"prompt": "It is the girl that draws the picture.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,62 +591,17 @@
 "answer": 0
 },
 {
-"id": "t14-TF-2",
-"prompt": "It was the boy that cleaned the board.",
+"id": "t14-TF-r12",
+"prompt": "It the storm that broke the old tree.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t14-TF-3",
-"prompt": "It is the map that helps the lost hiker.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t14-TF-4",
-"prompt": "It was the small key that opened the door.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t14-TF-5",
-"prompt": "It was the wind that closed the front door.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t14-TF-6",
 "prompt": "It is my friend that draws the nice picture.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t14-TF-7",
-"prompt": "It is the song that makes us happy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t14-TF-8",
-"prompt": "It was the tall boy that carried the chairs.",
 "options": [
 "TRUE",
 "FALSE"
@@ -654,22 +618,13 @@
 "answer": 0
 },
 {
-"id": "t14-TF-10",
-"prompt": "It was the bus that brought the team.",
+"id": "t14-TF-r4",
+"prompt": "It is the clock wakes me every morning.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t14-TF-11",
-"prompt": "It is the soap that cleans the dishes.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t14-TF-12",
@@ -681,31 +636,13 @@
 "answer": 0
 },
 {
-"id": "t14-TF-13",
-"prompt": "It is the girl that draws the picture.",
+"id": "t14-TF-2",
+"prompt": "It was the boy that cleaned the board.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
-},
-{
-"id": "t14-TF-r1",
-"prompt": "It is the green ball rolls under the bed.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t14-TF-r2",
-"prompt": "It were the storm that scared the birds.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
 },
 {
 "id": "t14-TF-r3",
@@ -717,31 +654,13 @@
 "answer": 1
 },
 {
-"id": "t14-TF-r4",
-"prompt": "It is the clock wakes me every morning.",
+"id": "t14-TF-1",
+"prompt": "It was the dark room that scared the cat.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t14-TF-r5",
-"prompt": "It the snow that covered the whole road.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t14-TF-r6",
-"prompt": "It was the bus arrived late.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t14-TF-r7",
@@ -753,8 +672,17 @@
 "answer": 1
 },
 {
-"id": "t14-TF-r8",
-"prompt": "It the loud noise that woke the baby.",
+"id": "t14-TF-4",
+"prompt": "It was the small key that opened the door.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t14-TF-r9",
+"prompt": "It is the light helps me read.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,8 +690,53 @@
 "answer": 1
 },
 {
-"id": "t14-TF-r9",
-"prompt": "It is the light helps me read.",
+"id": "t14-TF-11",
+"prompt": "It is the soap that cleans the dishes.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t14-TF-r2",
+"prompt": "It were the storm that scared the birds.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t14-TF-3",
+"prompt": "It is the map that helps the lost hiker.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t14-TF-10",
+"prompt": "It was the bus that brought the team.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t14-TF-8",
+"prompt": "It was the tall boy that carried the chairs.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t14-TF-r8",
+"prompt": "It the loud noise that woke the baby.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,6 +753,24 @@
 "answer": 1
 },
 {
+"id": "t14-TF-r5",
+"prompt": "It the snow that covered the whole road.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t14-TF-5",
+"prompt": "It was the wind that closed the front door.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t14-TF-r11",
 "prompt": "It was my brother broke the window.",
 "options": [
@@ -789,13 +780,22 @@
 "answer": 1
 },
 {
-"id": "t14-TF-r12",
-"prompt": "It the storm that broke the old tree.",
+"id": "t14-TF-r1",
+"prompt": "It is the green ball rolls under the bed.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t14-TF-7",
+"prompt": "It is the song that makes us happy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

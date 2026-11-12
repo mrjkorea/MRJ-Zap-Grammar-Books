@@ -573,24 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t64-TF-1",
-"prompt": "The nurse who carries bags walks.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t64-TF-2",
-"prompt": "A cat which sleeps all day eats little.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t64-TF-3",
 "prompt": "The girl who wears glasses reads books.",
 "options": [
@@ -598,6 +580,15 @@
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t64-TF-r4",
+"prompt": "The cat sleeps outside is quiet.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t64-TF-4",
@@ -609,8 +600,26 @@
 "answer": 0
 },
 {
-"id": "t64-TF-5",
-"prompt": "The bag which holds books is heavy.",
+"id": "t64-TF-r2",
+"prompt": "The book falls down opens.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t64-TF-r6",
+"prompt": "A child eats lunch sings.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t64-TF-6",
+"prompt": "A man who drives trucks eats.",
 "options": [
 "TRUE",
 "FALSE"
@@ -618,8 +627,17 @@
 "answer": 0
 },
 {
-"id": "t64-TF-6",
-"prompt": "A man who drives trucks eats.",
+"id": "t64-TF-r1",
+"prompt": "A boy and makes bread laughs.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t64-TF-1",
+"prompt": "The nurse who carries bags walks.",
 "options": [
 "TRUE",
 "FALSE"
@@ -636,8 +654,80 @@
 "answer": 0
 },
 {
+"id": "t64-TF-r9",
+"prompt": "A boy makes lunch laughs.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t64-TF-13",
+"prompt": "The bike which has a basket moves.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t64-TF-r12",
+"prompt": "A cousin or visits grandma waves.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t64-TF-r5",
+"prompt": "The garden gets sun looks green.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t64-TF-8",
 "prompt": "The bus that stops early leaves soon.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t64-TF-5",
+"prompt": "The bag which holds books is heavy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t64-TF-r8",
+"prompt": "The room has windows stays warm.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t64-TF-2",
+"prompt": "A cat which sleeps all day eats little.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t64-TF-12",
+"prompt": "A boy who plays guitar sings well.",
 "options": [
 "TRUE",
 "FALSE"
@@ -652,6 +742,33 @@
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t64-TF-r11",
+"prompt": "A cook not makes soup smiles.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t64-TF-r7",
+"prompt": "A nurse wears gloves helps.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t64-TF-r3",
+"prompt": "The garden grows tomatoes looks green.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t64-TF-10",
@@ -672,125 +789,8 @@
 "answer": 0
 },
 {
-"id": "t64-TF-12",
-"prompt": "A boy who plays guitar sings well.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t64-TF-13",
-"prompt": "The bike which has a basket moves.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t64-TF-r1",
-"prompt": "A boy and makes bread laughs.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r2",
-"prompt": "The book falls down opens.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r3",
-"prompt": "The garden grows tomatoes looks green.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r4",
-"prompt": "The cat sleeps outside is quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r5",
-"prompt": "The garden gets sun looks green.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r6",
-"prompt": "A child eats lunch sings.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r7",
-"prompt": "A nurse wears gloves helps.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r8",
-"prompt": "The room has windows stays warm.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r9",
-"prompt": "A boy makes lunch laughs.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t64-TF-r10",
 "prompt": "A brother feeds pets rests.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r11",
-"prompt": "A cook not makes soup smiles.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t64-TF-r12",
-"prompt": "A cousin or visits grandma waves.",
 "options": [
 "TRUE",
 "FALSE"

@@ -573,8 +573,80 @@
 "passCorrect": 23,
 "items": [
 {
+"id": "t12-TF-r8",
+"prompt": "They play soccer not school finishes.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t12-TF-5",
+"prompt": "We sing a song when the music starts.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t12-TF-r11",
+"prompt": "We turn up the heat and the room is chilly.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t12-TF-10",
+"prompt": "They clean the room when guests come home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t12-TF-r10",
+"prompt": "He washes dishes or dinner ends.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t12-TF-r9",
+"prompt": "He closes the window not it snows.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t12-TF-1",
 "prompt": "We wear warm coats when winter starts.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t12-TF-r1",
+"prompt": "She answers the phone not it rings twice.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t12-TF-3",
+"prompt": "She packs her bag when the weekend comes.",
 "options": [
 "TRUE",
 "FALSE"
@@ -591,15 +663,6 @@
 "answer": 0
 },
 {
-"id": "t12-TF-3",
-"prompt": "She packs her bag when the weekend comes.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t12-TF-4",
 "prompt": "The cat hides when the door opens.",
 "options": [
@@ -609,13 +672,22 @@
 "answer": 0
 },
 {
-"id": "t12-TF-5",
-"prompt": "We sing a song when the music starts.",
+"id": "t12-TF-11",
+"prompt": "We wear coats when winter comes.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t12-TF-r4",
+"prompt": "We play outside and the weather is warm.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t12-TF-6",
@@ -636,44 +708,8 @@
 "answer": 0
 },
 {
-"id": "t12-TF-8",
-"prompt": "We play outside when the sun shines.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t12-TF-9",
 "prompt": "We close the window when it snows.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t12-TF-10",
-"prompt": "They clean the room when guests come home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t12-TF-11",
-"prompt": "We wear coats when winter comes.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t12-TF-12",
-"prompt": "My brother hides when friends visit.",
 "options": [
 "TRUE",
 "FALSE"
@@ -690,44 +726,8 @@
 "answer": 0
 },
 {
-"id": "t12-TF-r1",
-"prompt": "She answers the phone not it rings twice.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t12-TF-r2",
-"prompt": "She opens the door or the bell rings.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t12-TF-r3",
-"prompt": "I close the window and the wind blows.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t12-TF-r4",
-"prompt": "We play outside and the weather is warm.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t12-TF-r5",
-"prompt": "My brother runs fast or the dog barks.",
+"id": "t12-TF-r12",
+"prompt": "I feel happy and my friends visit.",
 "options": [
 "TRUE",
 "FALSE"
@@ -744,53 +744,53 @@
 "answer": 1
 },
 {
+"id": "t12-TF-r2",
+"prompt": "She opens the door or the bell rings.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t12-TF-12",
+"prompt": "My brother hides when friends visit.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t12-TF-8",
+"prompt": "We play outside when the sun shines.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t12-TF-r3",
+"prompt": "I close the window and the wind blows.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t12-TF-r5",
+"prompt": "My brother runs fast or the dog barks.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t12-TF-r7",
 "prompt": "I call my friend and I feel sad.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t12-TF-r8",
-"prompt": "They play soccer not school finishes.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t12-TF-r9",
-"prompt": "He closes the window not it snows.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t12-TF-r10",
-"prompt": "He washes dishes or dinner ends.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t12-TF-r11",
-"prompt": "We turn up the heat and the room is chilly.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t12-TF-r12",
-"prompt": "I feel happy and my friends visit.",
 "options": [
 "TRUE",
 "FALSE"

@@ -573,6 +573,15 @@
 "passCorrect": 23,
 "items": [
 {
+"id": "t26-TF-r4",
+"prompt": "It is kind you to help the old man.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t26-TF-1",
 "prompt": "It is helpful for them to bring the chairs.",
 "options": [
@@ -582,8 +591,17 @@
 "answer": 0
 },
 {
-"id": "t26-TF-2",
-"prompt": "It is noisy for you to sing in the room.",
+"id": "t26-TF-r6",
+"prompt": "It is wonderful for us sing together today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t26-TF-14",
+"prompt": "It is wrong for you to break the rule.",
 "options": [
 "TRUE",
 "FALSE"
@@ -591,26 +609,35 @@
 "answer": 0
 },
 {
-"id": "t26-TF-3",
-"prompt": "It is boring for her to watch the game.",
+"id": "t26-TF-10",
+"prompt": "It is lucky for you to meet the coach.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t26-TF-r3",
+"prompt": "Us to sing together is wonderful.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t26-TF-r11",
+"prompt": "It is fun to us visit the museum.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t26-TF-4",
 "prompt": "It is exciting for them to win the prize.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t26-TF-5",
-"prompt": "For him to open the window is easy.",
 "options": [
 "TRUE",
 "FALSE"
@@ -636,116 +663,8 @@
 "answer": 0
 },
 {
-"id": "t26-TF-9",
-"prompt": "It is healthy for you to eat vegetables.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t26-TF-10",
-"prompt": "It is lucky for you to meet the coach.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t26-TF-11",
-"prompt": "It is not smart for him to skip lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t26-TF-12",
-"prompt": "It is safe for them to stay inside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t26-TF-13",
-"prompt": "It is healthy for me to eat fruit.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t26-TF-14",
-"prompt": "It is wrong for you to break the rule.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t26-TF-r1",
 "prompt": "It is healthy for hers to eat fruit.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t26-TF-r2",
-"prompt": "It is dangerous him to run there.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t26-TF-r3",
-"prompt": "Us to sing together is wonderful.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t26-TF-r4",
-"prompt": "It is kind you to help the old man.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t26-TF-r5",
-"prompt": "It is useful to her keep a notebook.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t26-TF-r6",
-"prompt": "It is wonderful for us sing together today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t26-TF-r7",
-"prompt": "It is easy me to draw a map.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,6 +681,24 @@
 "answer": 1
 },
 {
+"id": "t26-TF-r13",
+"prompt": "It is easy me to finish this homework.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t26-TF-12",
+"prompt": "It is safe for them to stay inside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t26-TF-r10",
 "prompt": "It is quiet to them read in the library.",
 "options": [
@@ -771,13 +708,58 @@
 "answer": 1
 },
 {
-"id": "t26-TF-r11",
-"prompt": "It is fun to us visit the museum.",
+"id": "t26-TF-13",
+"prompt": "It is healthy for me to eat fruit.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t26-TF-11",
+"prompt": "It is not smart for him to skip lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t26-TF-9",
+"prompt": "It is healthy for you to eat vegetables.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t26-TF-r2",
+"prompt": "It is dangerous him to run there.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t26-TF-5",
+"prompt": "For him to open the window is easy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t26-TF-3",
+"prompt": "It is boring for her to watch the game.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t26-TF-r12",
@@ -789,8 +771,26 @@
 "answer": 1
 },
 {
-"id": "t26-TF-r13",
-"prompt": "It is easy me to finish this homework.",
+"id": "t26-TF-r7",
+"prompt": "It is easy me to draw a map.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t26-TF-2",
+"prompt": "It is noisy for you to sing in the room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t26-TF-r5",
+"prompt": "It is useful to her keep a notebook.",
 "options": [
 "TRUE",
 "FALSE"

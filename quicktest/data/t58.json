@@ -573,94 +573,13 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t58-TF-1",
-"prompt": "It is not easy to learn Chinese.",
+"id": "t58-TF-r5",
+"prompt": "It is very cold swim today.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t58-TF-2",
-"prompt": "It was too hot to sit outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t58-TF-3",
-"prompt": "It is difficult to draw a horse.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t58-TF-4",
-"prompt": "It is important to bring your pencil to class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t58-TF-5",
-"prompt": "It is not safe to run in the hall.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t58-TF-6",
-"prompt": "It is so nice to meet your teacher.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t58-TF-7",
-"prompt": "It is not easy to learn this song.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t58-TF-8",
-"prompt": "It was not hard to find the answer.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t58-TF-9",
-"prompt": "It was not fun to clean the room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t58-TF-10",
-"prompt": "It was fun to visit the new library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t58-TF-11",
@@ -681,33 +600,6 @@
 "answer": 0
 },
 {
-"id": "t58-TF-13",
-"prompt": "It is not fun to clean the classroom.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t58-TF-r1",
-"prompt": "It fun to play in the park.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t58-TF-r2",
-"prompt": "It is too cold open the window.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t58-TF-r3",
 "prompt": "It is not hard learn new words.",
 "options": [
@@ -717,44 +609,35 @@
 "answer": 1
 },
 {
-"id": "t58-TF-r4",
-"prompt": "It was not fun clean the room.",
+"id": "t58-TF-1",
+"prompt": "It is not easy to learn Chinese.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t58-TF-r5",
-"prompt": "It is very cold swim today.",
+"id": "t58-TF-7",
+"prompt": "It is not easy to learn this song.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
+},
+{
+"id": "t58-TF-9",
+"prompt": "It was not fun to clean the room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t58-TF-r6",
 "prompt": "It was really strange see snow in spring.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t58-TF-r7",
-"prompt": "It not is hard to ride a bike.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t58-TF-r8",
-"prompt": "It is hard carry this bag.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,8 +654,17 @@
 "answer": 1
 },
 {
-"id": "t58-TF-r10",
-"prompt": "It was lucky catch the bus.",
+"id": "t58-TF-2",
+"prompt": "It was too hot to sit outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t58-TF-r2",
+"prompt": "It is too cold open the window.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,8 +672,26 @@
 "answer": 1
 },
 {
-"id": "t58-TF-r11",
-"prompt": "It is healthy walk to school every day.",
+"id": "t58-TF-3",
+"prompt": "It is difficult to draw a horse.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t58-TF-r1",
+"prompt": "It fun to play in the park.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t58-TF-r7",
+"prompt": "It not is hard to ride a bike.",
 "options": [
 "TRUE",
 "FALSE"
@@ -796,6 +706,96 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t58-TF-r8",
+"prompt": "It is hard carry this bag.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t58-TF-8",
+"prompt": "It was not hard to find the answer.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t58-TF-r11",
+"prompt": "It is healthy walk to school every day.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t58-TF-r10",
+"prompt": "It was lucky catch the bus.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t58-TF-10",
+"prompt": "It was fun to visit the new library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t58-TF-6",
+"prompt": "It is so nice to meet your teacher.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t58-TF-5",
+"prompt": "It is not safe to run in the hall.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t58-TF-r4",
+"prompt": "It was not fun clean the room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t58-TF-4",
+"prompt": "It is important to bring your pencil to class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t58-TF-13",
+"prompt": "It is not fun to clean the classroom.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

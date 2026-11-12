@@ -573,89 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t45-TF-1",
-"prompt": "The test was as easy as pie.",
+"id": "t45-TF-r10",
+"prompt": "He waits as patiently than a farmer.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t45-TF-2",
-"prompt": "We run as fast as the wind.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t45-TF-3",
-"prompt": "His joke was as funny as the show.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t45-TF-4",
 "prompt": "My brother draws as neatly as a printer.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t45-TF-5",
-"prompt": "He answers as politely as a guide.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t45-TF-6",
-"prompt": "The wind blows as softly as a fan.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t45-TF-7",
-"prompt": "Tom speaks as clearly as the newsreader.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t45-TF-8",
-"prompt": "The lake looks as deep as the sea.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t45-TF-9",
-"prompt": "We walk as carefully as the guide.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t45-TF-10",
-"prompt": "My bag is as heavy as a big rock.",
 "options": [
 "TRUE",
 "FALSE"
@@ -672,8 +600,8 @@
 "answer": 0
 },
 {
-"id": "t45-TF-12",
-"prompt": "The rice cooks as fast as the noodles on the stove.",
+"id": "t45-TF-7",
+"prompt": "Tom speaks as clearly as the newsreader.",
 "options": [
 "TRUE",
 "FALSE"
@@ -681,8 +609,17 @@
 "answer": 0
 },
 {
-"id": "t45-TF-13",
-"prompt": "I run as fast as my brother in the park.",
+"id": "t45-TF-r12",
+"prompt": "We must walk as fast than the guide on the trip.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t45-TF-9",
+"prompt": "We walk as carefully as the guide.",
 "options": [
 "TRUE",
 "FALSE"
@@ -690,71 +627,17 @@
 "answer": 0
 },
 {
-"id": "t45-TF-r1",
-"prompt": "Her hair is as long than a rope.",
+"id": "t45-TF-3",
+"prompt": "His joke was as funny as the show.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t45-TF-r2",
-"prompt": "Her hair feels as soft so silk.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t45-TF-r3",
 "prompt": "The room looks as clean than the kitchen.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t45-TF-r4",
-"prompt": "The test was as easy than a game for us.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t45-TF-r5",
-"prompt": "The bus moves as slowly so a turtle.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t45-TF-r6",
-"prompt": "I wake up as early than my brother.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t45-TF-r7",
-"prompt": "This room stays as cool than a cave.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t45-TF-r8",
-"prompt": "The dog barks as loudly so a truck.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,13 +654,85 @@
 "answer": 1
 },
 {
-"id": "t45-TF-r10",
-"prompt": "He waits as patiently than a farmer.",
+"id": "t45-TF-13",
+"prompt": "I run as fast as my brother in the park.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t45-TF-5",
+"prompt": "He answers as politely as a guide.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t45-TF-8",
+"prompt": "The lake looks as deep as the sea.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t45-TF-r7",
+"prompt": "This room stays as cool than a cave.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t45-TF-12",
+"prompt": "The rice cooks as fast as the noodles on the stove.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t45-TF-1",
+"prompt": "The test was as easy as pie.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t45-TF-r1",
+"prompt": "Her hair is as long than a rope.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t45-TF-r8",
+"prompt": "The dog barks as loudly so a truck.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t45-TF-6",
+"prompt": "The wind blows as softly as a fan.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t45-TF-r11",
@@ -789,13 +744,58 @@
 "answer": 1
 },
 {
-"id": "t45-TF-r12",
-"prompt": "We must walk as fast than the guide on the trip.",
+"id": "t45-TF-r4",
+"prompt": "The test was as easy than a game for us.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t45-TF-r6",
+"prompt": "I wake up as early than my brother.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t45-TF-r2",
+"prompt": "Her hair feels as soft so silk.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t45-TF-2",
+"prompt": "We run as fast as the wind.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t45-TF-r5",
+"prompt": "The bus moves as slowly so a turtle.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t45-TF-10",
+"prompt": "My bag is as heavy as a big rock.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

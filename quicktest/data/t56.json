@@ -573,8 +573,8 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t56-TF-1",
-"prompt": "The baby will cry if the milk is cold.",
+"id": "t56-TF-13",
+"prompt": "The teacher will help if the question is hard.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,8 +582,17 @@
 "answer": 0
 },
 {
-"id": "t56-TF-2",
-"prompt": "The dog will jump if the ball rolls.",
+"id": "t56-TF-r3",
+"prompt": "He will swim and the pool opens.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t56-TF-7",
+"prompt": "I will rest if the bus is late.",
 "options": [
 "TRUE",
 "FALSE"
@@ -591,8 +600,17 @@
 "answer": 0
 },
 {
-"id": "t56-TF-3",
-"prompt": "We will paint if the wall is dry.",
+"id": "t56-TF-r6",
+"prompt": "She will draw a picture or she finds paper.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t56-TF-10",
+"prompt": "I will buy snacks if the shop is open.",
 "options": [
 "TRUE",
 "FALSE"
@@ -600,13 +618,13 @@
 "answer": 0
 },
 {
-"id": "t56-TF-4",
-"prompt": "Dad will fix the bike if he has time.",
+"id": "t56-TF-r16",
+"prompt": "We will eat or dad cooks rice.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t56-TF-5",
@@ -627,67 +645,13 @@
 "answer": 0
 },
 {
-"id": "t56-TF-7",
-"prompt": "I will rest if the bus is late.",
+"id": "t56-TF-r10",
+"prompt": "The team will win not the players practice daily.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t56-TF-8",
-"prompt": "The kids will laugh if the clown falls.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t56-TF-9",
-"prompt": "The bus will stop if you press the button.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t56-TF-10",
-"prompt": "I will buy snacks if the shop is open.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t56-TF-11",
-"prompt": "I will cook if my sister helps.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t56-TF-12",
-"prompt": "I will read if the book is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t56-TF-13",
-"prompt": "The teacher will help if the question is hard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t56-TF-r1",
@@ -699,53 +663,17 @@
 "answer": 1
 },
 {
-"id": "t56-TF-r2",
-"prompt": "He will buy a book not he has money.",
+"id": "t56-TF-1",
+"prompt": "The baby will cry if the milk is cold.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t56-TF-r3",
-"prompt": "He will swim and the pool opens.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t56-TF-r4",
-"prompt": "I will draw or the pencil is sharp.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t56-TF-r5",
-"prompt": "He will fish or the lake is calm.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t56-TF-r6",
-"prompt": "She will draw a picture or she finds paper.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t56-TF-r7",
-"prompt": "The kids will laugh and the clown falls.",
+"id": "t56-TF-r17",
+"prompt": "He will wear a coat or the wind is strong.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,13 +690,76 @@
 "answer": 1
 },
 {
-"id": "t56-TF-r10",
-"prompt": "The team will win not the players practice daily.",
+"id": "t56-TF-r7",
+"prompt": "The kids will laugh and the clown falls.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t56-TF-r2",
+"prompt": "He will buy a book not he has money.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t56-TF-12",
+"prompt": "I will read if the book is easy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t56-TF-8",
+"prompt": "The kids will laugh if the clown falls.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t56-TF-2",
+"prompt": "The dog will jump if the ball rolls.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t56-TF-11",
+"prompt": "I will cook if my sister helps.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t56-TF-r4",
+"prompt": "I will draw or the pencil is sharp.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t56-TF-9",
+"prompt": "The bus will stop if you press the button.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t56-TF-r12",
@@ -780,17 +771,26 @@
 "answer": 1
 },
 {
-"id": "t56-TF-r16",
-"prompt": "We will eat or dad cooks rice.",
+"id": "t56-TF-3",
+"prompt": "We will paint if the wall is dry.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t56-TF-r17",
-"prompt": "He will wear a coat or the wind is strong.",
+"id": "t56-TF-4",
+"prompt": "Dad will fix the bike if he has time.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t56-TF-r5",
+"prompt": "He will fish or the lake is calm.",
 "options": [
 "TRUE",
 "FALSE"

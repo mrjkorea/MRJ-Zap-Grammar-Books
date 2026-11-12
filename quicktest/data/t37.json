@@ -573,53 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t37-TF-1",
-"prompt": "Please wash your hands first.",
+"id": "t37-TF-r6",
+"prompt": "Lets study English together tonight.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t37-TF-2",
-"prompt": "Do not make noise in the library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t37-TF-3",
-"prompt": "Do not sit on the desk in class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t37-TF-4",
-"prompt": "Let's play soccer after school today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t37-TF-5",
-"prompt": "Let's visit the museum today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t37-TF-6",
-"prompt": "Please wash your hands carefully.",
+"id": "t37-TF-11",
+"prompt": "Let's meet in the school yard.",
 "options": [
 "TRUE",
 "FALSE"
@@ -636,8 +600,8 @@
 "answer": 0
 },
 {
-"id": "t37-TF-8",
-"prompt": "Let's study English together today.",
+"id": "t37-TF-1",
+"prompt": "Please wash your hands first.",
 "options": [
 "TRUE",
 "FALSE"
@@ -645,134 +609,17 @@
 "answer": 0
 },
 {
-"id": "t37-TF-9",
-"prompt": "Let us share the pencils now.",
+"id": "t37-TF-4",
+"prompt": "Let's play soccer after school today.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
-},
-{
-"id": "t37-TF-10",
-"prompt": "Please share your small snacks with your friends.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t37-TF-11",
-"prompt": "Let's meet in the school yard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t37-TF-12",
-"prompt": "Please wash your hands before every meal.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t37-TF-13",
-"prompt": "Never play near the busy road.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t37-TF-r1",
-"prompt": "Let clean the classroom after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t37-TF-r2",
-"prompt": "Not leave your bag here.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t37-TF-r4",
-"prompt": "Let close the windows after the class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t37-TF-r5",
-"prompt": "Let help the teacher after school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t37-TF-r6",
-"prompt": "Lets study English together tonight.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t37-TF-r7",
-"prompt": "Let meet at the school gate.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t37-TF-r8",
-"prompt": "Let study in the library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
 },
 {
 "id": "t37-TF-r17",
 "prompt": "Let sing a happy song in the music room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t37-TF-r18",
-"prompt": "Let clean the classroom together.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t37-TF-r19",
-"prompt": "Let draw a big tree.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,6 +636,60 @@
 "answer": 1
 },
 {
+"id": "t37-TF-r19",
+"prompt": "Let draw a big tree.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t37-TF-r1",
+"prompt": "Let clean the classroom after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t37-TF-8",
+"prompt": "Let's study English together today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t37-TF-r5",
+"prompt": "Let help the teacher after school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t37-TF-3",
+"prompt": "Do not sit on the desk in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t37-TF-9",
+"prompt": "Let us share the pencils now.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t37-TF-r21",
 "prompt": "Let clean the board together.",
 "options": [
@@ -796,6 +697,105 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t37-TF-r7",
+"prompt": "Let meet at the school gate.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t37-TF-r4",
+"prompt": "Let close the windows after the class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t37-TF-2",
+"prompt": "Do not make noise in the library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t37-TF-r2",
+"prompt": "Not leave your bag here.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t37-TF-6",
+"prompt": "Please wash your hands carefully.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t37-TF-5",
+"prompt": "Let's visit the museum today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t37-TF-12",
+"prompt": "Please wash your hands before every meal.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t37-TF-r18",
+"prompt": "Let clean the classroom together.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t37-TF-10",
+"prompt": "Please share your small snacks with your friends.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t37-TF-r8",
+"prompt": "Let study in the library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t37-TF-13",
+"prompt": "Never play near the busy road.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

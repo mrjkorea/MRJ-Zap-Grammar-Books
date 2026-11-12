@@ -573,42 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t36-TF-1",
-"prompt": "I enjoy watching movies on weekends.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t36-TF-2",
-"prompt": "They enjoy hiking in the mountains.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t36-TF-3",
-"prompt": "My friend enjoys cooking simple meals at home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t36-TF-4",
-"prompt": "Running in the park is good for health.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t36-TF-5",
 "prompt": "My brother enjoys drawing funny animals.",
 "options": [
@@ -618,13 +582,13 @@
 "answer": 0
 },
 {
-"id": "t36-TF-6",
-"prompt": "He enjoys building small model cars.",
+"id": "t36-TF-r2",
+"prompt": "Play the piano is difficult for my sister.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t36-TF-7",
@@ -636,13 +600,40 @@
 "answer": 0
 },
 {
-"id": "t36-TF-8",
-"prompt": "My dad likes fishing by the river.",
+"id": "t36-TF-r11",
+"prompt": "My teacher enjoys talk with students after class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t36-TF-r12",
+"prompt": "Clean my room takes time.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t36-TF-12",
+"prompt": "Walking to school is healthy for us.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t36-TF-r3",
+"prompt": "Listen to music helps me relax.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t36-TF-9",
@@ -654,8 +645,17 @@
 "answer": 0
 },
 {
-"id": "t36-TF-10",
-"prompt": "Playing soccer after school is very fun.",
+"id": "t36-TF-r10",
+"prompt": "My friend enjoys paint flowers in art class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t36-TF-8",
+"prompt": "My dad likes fishing by the river.",
 "options": [
 "TRUE",
 "FALSE"
@@ -672,8 +672,53 @@
 "answer": 0
 },
 {
-"id": "t36-TF-12",
-"prompt": "Walking to school is healthy for us.",
+"id": "t36-TF-4",
+"prompt": "Running in the park is good for health.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t36-TF-1",
+"prompt": "I enjoy watching movies on weekends.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t36-TF-r8",
+"prompt": "My grandma loves plant flowers in the garden.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t36-TF-10",
+"prompt": "Playing soccer after school is very fun.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t36-TF-r6",
+"prompt": "Study English every day is very important.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t36-TF-3",
+"prompt": "My friend enjoys cooking simple meals at home.",
 "options": [
 "TRUE",
 "FALSE"
@@ -690,6 +735,24 @@
 "answer": 0
 },
 {
+"id": "t36-TF-r9",
+"prompt": "My cousin practices write English words daily.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t36-TF-2",
+"prompt": "They enjoy hiking in the mountains.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t36-TF-r1",
 "prompt": "Play soccer after school is very fun.",
 "options": [
@@ -699,17 +762,17 @@
 "answer": 1
 },
 {
-"id": "t36-TF-r2",
-"prompt": "Play the piano is difficult for my sister.",
+"id": "t36-TF-6",
+"prompt": "He enjoys building small model cars.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t36-TF-r3",
-"prompt": "Listen to music helps me relax.",
+"id": "t36-TF-r7",
+"prompt": "Cook breakfast for my family is easy.",
 "options": [
 "TRUE",
 "FALSE"
@@ -728,69 +791,6 @@
 {
 "id": "t36-TF-r5",
 "prompt": "My grandmother likes knit warm socks in winter.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t36-TF-r6",
-"prompt": "Study English every day is very important.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t36-TF-r7",
-"prompt": "Cook breakfast for my family is easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t36-TF-r8",
-"prompt": "My grandma loves plant flowers in the garden.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t36-TF-r9",
-"prompt": "My cousin practices write English words daily.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t36-TF-r10",
-"prompt": "My friend enjoys paint flowers in art class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t36-TF-r11",
-"prompt": "My teacher enjoys talk with students after class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t36-TF-r12",
-"prompt": "Clean my room takes time.",
 "options": [
 "TRUE",
 "FALSE"

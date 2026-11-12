@@ -573,69 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t23-TF-1",
-"prompt": "The more vegetables my mother buys the happier my father is.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-2",
-"prompt": "The cheaper the shoes the faster they break.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-3",
-"prompt": "The more milk I drink the stronger I feel.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-4",
-"prompt": "The more slowly we speak the clearer our words sound.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-5",
-"prompt": "The less noise we make the happier she looks.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-6",
-"prompt": "The faster he runs the more tired he feels.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-7",
-"prompt": "The higher the sun the hotter the day.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t23-TF-8",
 "prompt": "The more carefully we walk the safer the road is.",
 "options": [
@@ -645,53 +582,8 @@
 "answer": 0
 },
 {
-"id": "t23-TF-9",
-"prompt": "The longer we walk the more tired my dog looks.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-10",
-"prompt": "The longer we wait the more nervous we feel.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-11",
-"prompt": "The more homework he has the later he sleeps.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-12",
-"prompt": "The more vegetables we cook the stronger we grow.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-13",
-"prompt": "The more water plants drink the taller their stems grow.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t23-TF-r1",
-"prompt": "The more carefully you listen the few mistakes you make.",
+"id": "t23-TF-r11",
+"prompt": "The long we wait the more tired we get.",
 "options": [
 "TRUE",
 "FALSE"
@@ -699,8 +591,8 @@
 "answer": 1
 },
 {
-"id": "t23-TF-r2",
-"prompt": "The louder the music plays the happy the children dance.",
+"id": "t23-TF-r8",
+"prompt": "The more vegetables my mother cooks the strong my father feels.",
 "options": [
 "TRUE",
 "FALSE"
@@ -708,13 +600,31 @@
 "answer": 1
 },
 {
-"id": "t23-TF-r3",
-"prompt": "The thinner the ice the dangerous the lake is.",
+"id": "t23-TF-r10",
+"prompt": "The more slowly you speak the clear your words are.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t23-TF-r7",
+"prompt": "The brighter the room is the easy reading becomes.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t23-TF-6",
+"prompt": "The faster he runs the more tired he feels.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t23-TF-r4",
@@ -735,6 +645,69 @@
 "answer": 1
 },
 {
+"id": "t23-TF-1",
+"prompt": "The more vegetables my mother buys the happier my father is.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t23-TF-4",
+"prompt": "The more slowly we speak the clearer our words sound.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t23-TF-r1",
+"prompt": "The more carefully you listen the few mistakes you make.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t23-TF-3",
+"prompt": "The more milk I drink the stronger I feel.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t23-TF-13",
+"prompt": "The more water plants drink the taller their stems grow.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t23-TF-12",
+"prompt": "The more vegetables we cook the stronger we grow.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t23-TF-9",
+"prompt": "The longer we walk the more tired my dog looks.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t23-TF-r6",
 "prompt": "The near the bus stop the shorter our walk is.",
 "options": [
@@ -744,8 +717,17 @@
 "answer": 1
 },
 {
-"id": "t23-TF-r7",
-"prompt": "The brighter the room is the easy reading becomes.",
+"id": "t23-TF-10",
+"prompt": "The longer we wait the more nervous we feel.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t23-TF-r3",
+"prompt": "The thinner the ice the dangerous the lake is.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,8 +735,35 @@
 "answer": 1
 },
 {
-"id": "t23-TF-r8",
-"prompt": "The more vegetables my mother cooks the strong my father feels.",
+"id": "t23-TF-2",
+"prompt": "The cheaper the shoes the faster they break.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t23-TF-7",
+"prompt": "The higher the sun the hotter the day.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t23-TF-5",
+"prompt": "The less noise we make the happier she looks.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t23-TF-r2",
+"prompt": "The louder the music plays the happy the children dance.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,22 +780,13 @@
 "answer": 1
 },
 {
-"id": "t23-TF-r10",
-"prompt": "The more slowly you speak the clear your words are.",
+"id": "t23-TF-11",
+"prompt": "The more homework he has the later he sleeps.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t23-TF-r11",
-"prompt": "The long we wait the more tired we get.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t23-TF-r12",

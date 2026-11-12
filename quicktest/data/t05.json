@@ -573,62 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t05-TF-1",
-"prompt": "The soup is very hot today.",
+"id": "t05-TF-r1",
+"prompt": "The players excited before the big game.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t05-TF-2",
 "prompt": "The classroom is quiet before the first lesson starts.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-3",
-"prompt": "The movie is boring for my brother.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-4",
-"prompt": "The weather is very rainy today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-5",
-"prompt": "The apples are in the basket.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-6",
-"prompt": "My brother is hungry after lunch at school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-7",
-"prompt": "The window is open in my room.",
 "options": [
 "TRUE",
 "FALSE"
@@ -645,22 +600,13 @@
 "answer": 0
 },
 {
-"id": "t05-TF-9",
-"prompt": "I am hungry after the long walk.",
+"id": "t05-TF-r14",
+"prompt": "My shoes dirty after the rainy day.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t05-TF-10",
-"prompt": "The eggs are fresh this morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t05-TF-11",
@@ -672,80 +618,8 @@
 "answer": 0
 },
 {
-"id": "t05-TF-12",
-"prompt": "The dogs are not hungry after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-13",
-"prompt": "My books are on the desk.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t05-TF-r1",
-"prompt": "The players excited before the big game.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r2",
-"prompt": "I very tired after the long bus ride.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r3",
-"prompt": "Her answers correct on the science quiz.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r4",
-"prompt": "The children noisy in the small classroom.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t05-TF-r6",
 "prompt": "The movie boring for my older brother.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r7",
-"prompt": "We ready for the math test now.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t05-TF-r9",
-"prompt": "The streets busy after the long holiday.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,8 +636,89 @@
 "answer": 1
 },
 {
-"id": "t05-TF-r11",
-"prompt": "We happy about the news.",
+"id": "t05-TF-12",
+"prompt": "The dogs are not hungry after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t05-TF-10",
+"prompt": "The eggs are fresh this morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t05-TF-9",
+"prompt": "I am hungry after the long walk.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t05-TF-7",
+"prompt": "The window is open in my room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t05-TF-r2",
+"prompt": "I very tired after the long bus ride.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t05-TF-6",
+"prompt": "My brother is hungry after lunch at school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t05-TF-r9",
+"prompt": "The streets busy after the long holiday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t05-TF-r4",
+"prompt": "The children noisy in the small classroom.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t05-TF-13",
+"prompt": "My books are on the desk.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t05-TF-r7",
+"prompt": "We ready for the math test now.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,13 +744,58 @@
 "answer": 1
 },
 {
-"id": "t05-TF-r14",
-"prompt": "My shoes dirty after the rainy day.",
+"id": "t05-TF-r11",
+"prompt": "We happy about the news.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t05-TF-1",
+"prompt": "The soup is very hot today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t05-TF-3",
+"prompt": "The movie is boring for my brother.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t05-TF-r3",
+"prompt": "Her answers correct on the science quiz.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t05-TF-5",
+"prompt": "The apples are in the basket.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t05-TF-4",
+"prompt": "The weather is very rainy today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

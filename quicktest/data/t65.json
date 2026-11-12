@@ -573,35 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t65-TF-1",
-"prompt": "Our teacher notices students read in the library.",
+"id": "t65-TF-r17",
+"prompt": "My friend did not see me to come to school.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t65-TF-2",
 "prompt": "They saw us kick the ball in the park.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t65-TF-3",
-"prompt": "People notice planes fly over the tall school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t65-TF-4",
-"prompt": "I noticed him close the kitchen window quietly.",
 "options": [
 "TRUE",
 "FALSE"
@@ -618,60 +600,6 @@
 "answer": 0
 },
 {
-"id": "t65-TF-6",
-"prompt": "My friends did not see us enter the dark room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t65-TF-7",
-"prompt": "The girls watch leaves drop from the tall tree.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t65-TF-8",
-"prompt": "We did not watch him play soccer outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t65-TF-9",
-"prompt": "My sister notices cats sit on the warm sofa.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t65-TF-10",
-"prompt": "Dad notices them kick the red ball.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t65-TF-11",
-"prompt": "I did not see students open the window.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t65-TF-12",
 "prompt": "I feel rain fall on my warm face.",
 "options": [
@@ -681,71 +609,8 @@
 "answer": 0
 },
 {
-"id": "t65-TF-13",
-"prompt": "I saw him run to the big park.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t65-TF-r1",
-"prompt": "I heard them to talk during lunch today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t65-TF-r2",
-"prompt": "They watch us to play soccer after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t65-TF-r3",
-"prompt": "My little sister did not hear me to call from the bedroom.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t65-TF-r4",
-"prompt": "She watches birds to fly over the small park.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t65-TF-r5",
-"prompt": "My brother sees planes to pass above our small town.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t65-TF-r6",
-"prompt": "The teacher watches students to write in the quiet class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t65-TF-r7",
-"prompt": "I notice friends to sit near the front door.",
+"id": "t65-TF-r18",
+"prompt": "I saw him to cross the street.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,8 +627,8 @@
 "answer": 1
 },
 {
-"id": "t65-TF-r17",
-"prompt": "My friend did not see me to come to school.",
+"id": "t65-TF-r3",
+"prompt": "My little sister did not hear me to call from the bedroom.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,8 +636,44 @@
 "answer": 1
 },
 {
-"id": "t65-TF-r18",
-"prompt": "I saw him to cross the street.",
+"id": "t65-TF-10",
+"prompt": "Dad notices them kick the red ball.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t65-TF-r7",
+"prompt": "I notice friends to sit near the front door.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t65-TF-9",
+"prompt": "My sister notices cats sit on the warm sofa.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t65-TF-r1",
+"prompt": "I heard them to talk during lunch today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t65-TF-r5",
+"prompt": "My brother sees planes to pass above our small town.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,6 +690,96 @@
 "answer": 1
 },
 {
+"id": "t65-TF-4",
+"prompt": "I noticed him close the kitchen window quietly.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t65-TF-3",
+"prompt": "People notice planes fly over the tall school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t65-TF-8",
+"prompt": "We did not watch him play soccer outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t65-TF-r6",
+"prompt": "The teacher watches students to write in the quiet class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t65-TF-7",
+"prompt": "The girls watch leaves drop from the tall tree.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t65-TF-13",
+"prompt": "I saw him run to the big park.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t65-TF-1",
+"prompt": "Our teacher notices students read in the library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t65-TF-6",
+"prompt": "My friends did not see us enter the dark room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t65-TF-r2",
+"prompt": "They watch us to play soccer after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t65-TF-r4",
+"prompt": "She watches birds to fly over the small park.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t65-TF-r20",
 "prompt": "My sister saw him to run to the small park yesterday.",
 "options": [
@@ -796,6 +787,15 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t65-TF-11",
+"prompt": "I did not see students open the window.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

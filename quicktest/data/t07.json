@@ -573,44 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t07-TF-1",
-"prompt": "I do not bring my bag to school.",
+"id": "t07-TF-r12",
+"prompt": "I and read that short book last month.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t07-TF-2",
-"prompt": "Our teacher does not shout in the hall.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-3",
-"prompt": "We do enjoy short art class after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-4",
-"prompt": "The teacher did not check our homework last night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-5",
-"prompt": "He does read short books at home.",
+"id": "t07-TF-7",
+"prompt": "They did not clean the classroom after lunch.",
 "options": [
 "TRUE",
 "FALSE"
@@ -627,89 +600,8 @@
 "answer": 0
 },
 {
-"id": "t07-TF-7",
-"prompt": "They did not clean the classroom after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-8",
-"prompt": "He does not drink cold milk at breakfast.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-9",
-"prompt": "The students did not open their books this morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-11",
-"prompt": "He does want a blue pen for class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-12",
-"prompt": "I do like quiet study time at home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-13",
-"prompt": "They did not buy bread at the store.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-14",
-"prompt": "She did not bring her bag to school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t07-TF-r1",
-"prompt": "I and not eat spicy food at school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t07-TF-r2",
-"prompt": "My sister or not lose her notebook today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t07-TF-r3",
-"prompt": "The boys and keep the room clean every day.",
+"id": "t07-TF-r8",
+"prompt": "She not eat spicy food at home.",
 "options": [
 "TRUE",
 "FALSE"
@@ -726,6 +618,42 @@
 "answer": 1
 },
 {
+"id": "t07-TF-r10",
+"prompt": "We or wash the dishes after dinner.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t07-TF-1",
+"prompt": "I do not bring my bag to school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t07-TF-r1",
+"prompt": "I and not eat spicy food at school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t07-TF-14",
+"prompt": "She did not bring her bag to school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t07-TF-r5",
 "prompt": "They and not clean the room after lunch.",
 "options": [
@@ -733,6 +661,42 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t07-TF-5",
+"prompt": "He does read short books at home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t07-TF-r2",
+"prompt": "My sister or not lose her notebook today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t07-TF-3",
+"prompt": "We do enjoy short art class after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t07-TF-13",
+"prompt": "They did not buy bread at the store.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t07-TF-r6",
@@ -744,8 +708,44 @@
 "answer": 1
 },
 {
-"id": "t07-TF-r8",
-"prompt": "She not eat spicy food at home.",
+"id": "t07-TF-11",
+"prompt": "He does want a blue pen for class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t07-TF-2",
+"prompt": "Our teacher does not shout in the hall.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t07-TF-12",
+"prompt": "I do like quiet study time at home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t07-TF-8",
+"prompt": "He does not drink cold milk at breakfast.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t07-TF-r3",
+"prompt": "The boys and keep the room clean every day.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,15 +762,6 @@
 "answer": 1
 },
 {
-"id": "t07-TF-r10",
-"prompt": "We or wash the dishes after dinner.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t07-TF-r11",
 "prompt": "The girls not talk during the test.",
 "options": [
@@ -780,13 +771,13 @@
 "answer": 1
 },
 {
-"id": "t07-TF-r12",
-"prompt": "I and read that short book last month.",
+"id": "t07-TF-9",
+"prompt": "The students did not open their books this morning.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t07-TF-r13",
@@ -796,6 +787,15 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t07-TF-4",
+"prompt": "The teacher did not check our homework last night.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

@@ -573,24 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t61-TF-1",
-"prompt": "The phone which he buys is not cheap.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t61-TF-2",
-"prompt": "The puzzle which he solves is not hard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t61-TF-3",
 "prompt": "The bag that I carry is quite heavy.",
 "options": [
@@ -600,8 +582,26 @@
 "answer": 0
 },
 {
-"id": "t61-TF-4",
-"prompt": "The room that she cleans is not small.",
+"id": "t61-TF-r3",
+"prompt": "The book that he reads it is about animals.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t61-TF-r12",
+"prompt": "The homework which she checks it is not hard.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t61-TF-1",
+"prompt": "The phone which he buys is not cheap.",
 "options": [
 "TRUE",
 "FALSE"
@@ -618,134 +618,8 @@
 "answer": 0
 },
 {
-"id": "t61-TF-6",
-"prompt": "The test that they take is not easy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t61-TF-7",
-"prompt": "The dog that we see is very friendly.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t61-TF-8",
-"prompt": "The bike that I ride is not new.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t61-TF-9",
-"prompt": "The game that they play is not difficult.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t61-TF-10",
-"prompt": "The room which she cleans is not small.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t61-TF-11",
-"prompt": "The homework which she checks is not hard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t61-TF-12",
-"prompt": "The soup that grandma makes is very hot.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t61-TF-13",
-"prompt": "The pizza that they make is not cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t61-TF-r1",
-"prompt": "The game that they play it is really fun.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t61-TF-r2",
-"prompt": "The garden that they visit it is not small.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t61-TF-r3",
-"prompt": "The book that he reads it is about animals.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t61-TF-r4",
-"prompt": "The film that they watch is not sadly.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t61-TF-r5",
-"prompt": "The dog that she feeds it is very hungry.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t61-TF-r6",
 "prompt": "The desk that we share it is not messy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t61-TF-r7",
-"prompt": "The letter that I write it is not short.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,17 +636,17 @@
 "answer": 1
 },
 {
-"id": "t61-TF-r9",
-"prompt": "The game which they play that is not easy.",
+"id": "t61-TF-7",
+"prompt": "The dog that we see is very friendly.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t61-TF-r10",
-"prompt": "The homework that we finish it is not long.",
+"id": "t61-TF-r9",
+"prompt": "The game which they play that is not easy.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,13 +663,139 @@
 "answer": 1
 },
 {
-"id": "t61-TF-r12",
-"prompt": "The homework which she checks it is not hard.",
+"id": "t61-TF-2",
+"prompt": "The puzzle which he solves is not hard.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t61-TF-r7",
+"prompt": "The letter that I write it is not short.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t61-TF-11",
+"prompt": "The homework which she checks is not hard.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t61-TF-6",
+"prompt": "The test that they take is not easy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t61-TF-9",
+"prompt": "The game that they play is not difficult.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t61-TF-r4",
+"prompt": "The film that they watch is not sadly.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t61-TF-8",
+"prompt": "The bike that I ride is not new.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t61-TF-r5",
+"prompt": "The dog that she feeds it is very hungry.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t61-TF-10",
+"prompt": "The room which she cleans is not small.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t61-TF-r1",
+"prompt": "The game that they play it is really fun.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t61-TF-12",
+"prompt": "The soup that grandma makes is very hot.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t61-TF-4",
+"prompt": "The room that she cleans is not small.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t61-TF-r2",
+"prompt": "The garden that they visit it is not small.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t61-TF-r10",
+"prompt": "The homework that we finish it is not long.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t61-TF-13",
+"prompt": "The pizza that they make is not cold.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

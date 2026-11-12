@@ -573,114 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t54-TF-1",
-"prompt": "Her story made us all sad.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-2",
-"prompt": "My dad makes me wash the dishes.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-3",
-"prompt": "The teacher made us read the book.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-4",
-"prompt": "Our teacher makes us clean the classroom.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-5",
-"prompt": "The joke made everyone laugh.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-6",
-"prompt": "His words made me angry yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-7",
-"prompt": "My dad made me wash the car.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-8",
-"prompt": "Her smile made everyone comfortable.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-9",
-"prompt": "The school made him class leader this year.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-10",
-"prompt": "The movie made her sad.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-11",
-"prompt": "The news made everyone happy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t54-TF-12",
-"prompt": "My dad made me wash the dishes.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t54-TF-13",
 "prompt": "The loud music made me tired.",
 "options": [
@@ -688,6 +580,15 @@
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t54-TF-r6",
+"prompt": "Her smile made everyone comfortably.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t54-TF-r1",
@@ -699,8 +600,26 @@
 "answer": 1
 },
 {
-"id": "t54-TF-r2",
-"prompt": "Our teacher made us to clean the classroom.",
+"id": "t54-TF-9",
+"prompt": "The school made him class leader this year.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t54-TF-r4",
+"prompt": "The game made us to tired.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t54-TF-r10",
+"prompt": "My dad made me to wash the dishes.",
 "options": [
 "TRUE",
 "FALSE"
@@ -717,13 +636,40 @@
 "answer": 1
 },
 {
-"id": "t54-TF-r4",
-"prompt": "The game made us to tired.",
+"id": "t54-TF-1",
+"prompt": "Her story made us all sad.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t54-TF-6",
+"prompt": "His words made me angry yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t54-TF-r9",
+"prompt": "The funny movie made us to laugh loudly.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t54-TF-2",
+"prompt": "My dad makes me wash the dishes.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t54-TF-r5",
@@ -735,8 +681,62 @@
 "answer": 1
 },
 {
-"id": "t54-TF-r6",
-"prompt": "Her smile made everyone comfortably.",
+"id": "t54-TF-11",
+"prompt": "The news made everyone happy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t54-TF-5",
+"prompt": "The joke made everyone laugh.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t54-TF-3",
+"prompt": "The teacher made us read the book.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t54-TF-8",
+"prompt": "Her smile made everyone comfortable.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t54-TF-r11",
+"prompt": "His words made me to sad.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t54-TF-7",
+"prompt": "My dad made me wash the car.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t54-TF-r2",
+"prompt": "Our teacher made us to clean the classroom.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,31 +762,22 @@
 "answer": 1
 },
 {
-"id": "t54-TF-r9",
-"prompt": "The funny movie made us to laugh loudly.",
+"id": "t54-TF-4",
+"prompt": "Our teacher makes us clean the classroom.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t54-TF-r10",
-"prompt": "My dad made me to wash the dishes.",
+"id": "t54-TF-12",
+"prompt": "My dad made me wash the dishes.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t54-TF-r11",
-"prompt": "His words made me to sad.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t54-TF-r12",
@@ -796,6 +787,15 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t54-TF-10",
+"prompt": "The movie made her sad.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

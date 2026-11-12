@@ -573,62 +573,26 @@
 "passCorrect": 23,
 "items": [
 {
+"id": "t10-TF-r1",
+"prompt": "She not read comic books in bed.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t10-TF-11",
+"prompt": "We did not see the movie last night.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t10-TF-1",
 "prompt": "The boys did not clean the blackboard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t10-TF-2",
-"prompt": "Our cat does not drink milk in the morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t10-TF-3",
-"prompt": "The teachers do not arrive early on Monday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t10-TF-4",
-"prompt": "The cat does not sleep on my bed.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t10-TF-5",
-"prompt": "We do not watch scary movies on Sunday night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t10-TF-6",
-"prompt": "I do not like cold soup.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t10-TF-7",
-"prompt": "The children do not run in the hall.",
 "options": [
 "TRUE",
 "FALSE"
@@ -645,26 +609,17 @@
 "answer": 0
 },
 {
-"id": "t10-TF-9",
-"prompt": "They did not open the window in class.",
+"id": "t10-TF-r2",
+"prompt": "I not see my cousin at the bus stop.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t10-TF-10",
-"prompt": "My sister does not like vegetables.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t10-TF-11",
-"prompt": "We did not see the movie last night.",
+"id": "t10-TF-5",
+"prompt": "We do not watch scary movies on Sunday night.",
 "options": [
 "TRUE",
 "FALSE"
@@ -679,33 +634,6 @@
 "FALSE"
 ],
 "answer": 0
-},
-{
-"id": "t10-TF-13",
-"prompt": "The girls do not sing loudly in music class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t10-TF-r1",
-"prompt": "She not read comic books in bed.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t10-TF-r2",
-"prompt": "I not see my cousin at the bus stop.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
 },
 {
 "id": "t10-TF-r3",
@@ -726,44 +654,44 @@
 "answer": 1
 },
 {
+"id": "t10-TF-3",
+"prompt": "The teachers do not arrive early on Monday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t10-TF-9",
+"prompt": "They did not open the window in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t10-TF-2",
+"prompt": "Our cat does not drink milk in the morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t10-TF-4",
+"prompt": "The cat does not sleep on my bed.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t10-TF-r5",
 "prompt": "The students not eat in the library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t10-TF-r6",
-"prompt": "Our dog not sleep on the soft sofa.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t10-TF-r7",
-"prompt": "The girls not sing loudly in the morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t10-TF-r8",
-"prompt": "The cat not drink milk every morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t10-TF-r9",
-"prompt": "My friend not speak English at home.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,8 +708,17 @@
 "answer": 1
 },
 {
-"id": "t10-TF-r11",
-"prompt": "They not wear hats in the library.",
+"id": "t10-TF-7",
+"prompt": "The children do not run in the hall.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t10-TF-r7",
+"prompt": "The girls not sing loudly in the morning.",
 "options": [
 "TRUE",
 "FALSE"
@@ -791,6 +728,69 @@
 {
 "id": "t10-TF-r12",
 "prompt": "They not finish their lunch quickly.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t10-TF-r8",
+"prompt": "The cat not drink milk every morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t10-TF-6",
+"prompt": "I do not like cold soup.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t10-TF-10",
+"prompt": "My sister does not like vegetables.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t10-TF-r11",
+"prompt": "They not wear hats in the library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t10-TF-r6",
+"prompt": "Our dog not sleep on the soft sofa.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t10-TF-13",
+"prompt": "The girls do not sing loudly in music class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t10-TF-r9",
+"prompt": "My friend not speak English at home.",
 "options": [
 "TRUE",
 "FALSE"

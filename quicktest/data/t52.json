@@ -573,8 +573,53 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t52-TF-1",
-"prompt": "The teacher is drawing a big map.",
+"id": "t52-TF-3",
+"prompt": "She is buying fresh bread at the shop.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t52-TF-r9",
+"prompt": "Grandpa is plant flowers in the yard.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t52-TF-r7",
+"prompt": "My brother fixing his broken bicycle.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t52-TF-r3",
+"prompt": "The boys are carry heavy bags upstairs.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t52-TF-4",
+"prompt": "The girls are dancing to loud music now.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t52-TF-9",
+"prompt": "Dad is fixing my old bike in the garage.",
 "options": [
 "TRUE",
 "FALSE"
@@ -591,8 +636,26 @@
 "answer": 0
 },
 {
-"id": "t52-TF-3",
-"prompt": "She is buying fresh bread at the shop.",
+"id": "t52-TF-r12",
+"prompt": "Dad is wash the old car outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t52-TF-r5",
+"prompt": "I am clean my small bedroom now.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t52-TF-10",
+"prompt": "My brother is fixing his old bike.",
 "options": [
 "TRUE",
 "FALSE"
@@ -600,13 +663,76 @@
 "answer": 0
 },
 {
-"id": "t52-TF-4",
-"prompt": "The girls are dancing to loud music now.",
+"id": "t52-TF-r6",
+"prompt": "The cat is sleep on the warm sofa.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t52-TF-6",
+"prompt": "We are studying English words in our classroom.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t52-TF-r11",
+"prompt": "The girls are dance to loud music.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t52-TF-r10",
+"prompt": "My mother cooking dinner in the kitchen.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t52-TF-13",
+"prompt": "The cat is running quickly across the yard.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t52-TF-1",
+"prompt": "The teacher is drawing a big map.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t52-TF-11",
+"prompt": "My dad is washing the old car outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t52-TF-r1",
+"prompt": "The boys are play soccer in the park.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t52-TF-5",
@@ -618,13 +744,31 @@
 "answer": 0
 },
 {
-"id": "t52-TF-6",
-"prompt": "We are studying English words in our classroom.",
+"id": "t52-TF-r4",
+"prompt": "Dad fixing my old bike in the garage.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
+},
+{
+"id": "t52-TF-r8",
+"prompt": "The boys flying a small kite.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t52-TF-r2",
+"prompt": "The cat is drink cold water outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t52-TF-7",
@@ -645,33 +789,6 @@
 "answer": 0
 },
 {
-"id": "t52-TF-9",
-"prompt": "Dad is fixing my old bike in the garage.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t52-TF-10",
-"prompt": "My brother is fixing his old bike.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t52-TF-11",
-"prompt": "My dad is washing the old car outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t52-TF-12",
 "prompt": "Dad is cooking noodles for dinner tonight.",
 "options": [
@@ -679,123 +796,6 @@
 "FALSE"
 ],
 "answer": 0
-},
-{
-"id": "t52-TF-13",
-"prompt": "The cat is running quickly across the yard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t52-TF-r1",
-"prompt": "The boys are play soccer in the park.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r2",
-"prompt": "The cat is drink cold water outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r3",
-"prompt": "The boys are carry heavy bags upstairs.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r4",
-"prompt": "Dad fixing my old bike in the garage.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r5",
-"prompt": "I am clean my small bedroom now.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r6",
-"prompt": "The cat is sleep on the warm sofa.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r7",
-"prompt": "My brother fixing his broken bicycle.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r8",
-"prompt": "The boys flying a small kite.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r9",
-"prompt": "Grandpa is plant flowers in the yard.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r10",
-"prompt": "My mother cooking dinner in the kitchen.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r11",
-"prompt": "The girls are dance to loud music.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t52-TF-r12",
-"prompt": "Dad is wash the old car outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
 }
 ]
 }

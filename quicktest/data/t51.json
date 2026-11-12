@@ -573,8 +573,35 @@
 "passCorrect": 23,
 "items": [
 {
+"id": "t51-TF-r1",
+"prompt": "My uncle drives the faster car on our street this weekend.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t51-TF-1",
 "prompt": "I wear the thickest coat on the cold school morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-r2",
+"prompt": "My mother buys freshest bread on Tuesday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t51-TF-8",
+"prompt": "Our teacher gives the easiest quiz before lunch today.",
 "options": [
 "TRUE",
 "FALSE"
@@ -591,161 +618,8 @@
 "answer": 0
 },
 {
-"id": "t51-TF-3",
-"prompt": "We hear the loudest music from the next room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-4",
-"prompt": "The gym holds the longest race before summer.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-5",
-"prompt": "My father fixes the oldest clock in the kitchen.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-6",
-"prompt": "The team wins the biggest prize at the school fair this week.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-7",
-"prompt": "She learns the easiest song in music class today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-8",
-"prompt": "Our teacher gives the easiest quiz before lunch today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-9",
-"prompt": "Our neighbor grows the greenest grass beside the fence.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-11",
-"prompt": "The workers build the strongest bridge near the river.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-12",
-"prompt": "The girls pick the reddest flowers near the fence.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-13",
-"prompt": "My mother makes the best soup in the kitchen every morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-14",
-"prompt": "The students wear the brightest shirts on Friday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t51-TF-r1",
-"prompt": "My uncle drives the faster car on our street this weekend.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t51-TF-r2",
-"prompt": "My mother buys freshest bread on Tuesday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t51-TF-r3",
-"prompt": "We visit tallest building near the park.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t51-TF-r4",
-"prompt": "The cat sleeps on highest shelf at home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t51-TF-r5",
-"prompt": "My friend solves hardest puzzle before lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t51-TF-r6",
-"prompt": "My mother buys freshest bread at the market every morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t51-TF-r7",
-"prompt": "The team wins the higher score at the school game.",
+"id": "t51-TF-r17",
+"prompt": "Our class plants tallest tree behind school.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,8 +636,134 @@
 "answer": 1
 },
 {
-"id": "t51-TF-r17",
-"prompt": "Our class plants tallest tree behind school.",
+"id": "t51-TF-r7",
+"prompt": "The team wins the higher score at the school game.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t51-TF-5",
+"prompt": "My father fixes the oldest clock in the kitchen.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-r4",
+"prompt": "The cat sleeps on highest shelf at home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t51-TF-4",
+"prompt": "The gym holds the longest race before summer.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-12",
+"prompt": "The girls pick the reddest flowers near the fence.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-r5",
+"prompt": "My friend solves hardest puzzle before lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t51-TF-3",
+"prompt": "We hear the loudest music from the next room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-7",
+"prompt": "She learns the easiest song in music class today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-r20",
+"prompt": "The small cat has softest fur in our home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t51-TF-6",
+"prompt": "The team wins the biggest prize at the school fair this week.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-14",
+"prompt": "The students wear the brightest shirts on Friday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-9",
+"prompt": "Our neighbor grows the greenest grass beside the fence.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-r19",
+"prompt": "We watch fastest runner at the school track.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t51-TF-11",
+"prompt": "The workers build the strongest bridge near the river.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t51-TF-r6",
+"prompt": "My mother buys freshest bread at the market every morning.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,17 +780,17 @@
 "answer": 1
 },
 {
-"id": "t51-TF-r19",
-"prompt": "We watch fastest runner at the school track.",
+"id": "t51-TF-13",
+"prompt": "My mother makes the best soup in the kitchen every morning.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t51-TF-r20",
-"prompt": "The small cat has softest fur in our home.",
+"id": "t51-TF-r3",
+"prompt": "We visit tallest building near the park.",
 "options": [
 "TRUE",
 "FALSE"

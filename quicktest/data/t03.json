@@ -573,8 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t03-TF-1",
-"prompt": "She is going to draw a picture of her dog.",
+"id": "t03-TF-r11",
+"prompt": "We are not going watch television tonight.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t03-TF-11",
+"prompt": "My parents are going to plant flowers in the garden.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,8 +591,8 @@
 "answer": 0
 },
 {
-"id": "t03-TF-2",
-"prompt": "My mother is going to buy some fruit at the market.",
+"id": "t03-TF-1",
+"prompt": "She is going to draw a picture of her dog.",
 "options": [
 "TRUE",
 "FALSE"
@@ -598,6 +607,141 @@
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t03-TF-r8",
+"prompt": "They are going move the desks to the back.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t03-TF-r2",
+"prompt": "The children are going plant flowers in spring.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t03-TF-r9",
+"prompt": "We are going study English in the library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t03-TF-13",
+"prompt": "We are going to sing a song in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t03-TF-10",
+"prompt": "My father is going to wash his car this weekend.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t03-TF-r3",
+"prompt": "The children are not going swim in the cold lake.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t03-TF-2",
+"prompt": "My mother is going to buy some fruit at the market.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t03-TF-r12",
+"prompt": "The boys are not going eat lunch at home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t03-TF-r6",
+"prompt": "My sister going to clean her room after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t03-TF-9",
+"prompt": "My grandparents are going to plant flowers in the garden.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t03-TF-14",
+"prompt": "The children are not going to shout in the hall.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t03-TF-r10",
+"prompt": "We are going plant flowers in the garden.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t03-TF-r4",
+"prompt": "My uncle is going fix the broken chair today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t03-TF-12",
+"prompt": "We are not going to leave the classroom early.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t03-TF-r5",
+"prompt": "My cousin is going learn to swim this summer.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t03-TF-4",
@@ -618,6 +762,15 @@
 "answer": 0
 },
 {
+"id": "t03-TF-r7",
+"prompt": "The students are not going use their phones in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t03-TF-6",
 "prompt": "My mother is going to make some sandwiches for us.",
 "options": [
@@ -636,161 +789,8 @@
 "answer": 0
 },
 {
-"id": "t03-TF-9",
-"prompt": "My grandparents are going to plant flowers in the garden.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t03-TF-10",
-"prompt": "My father is going to wash his car this weekend.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t03-TF-11",
-"prompt": "My parents are going to plant flowers in the garden.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t03-TF-12",
-"prompt": "We are not going to leave the classroom early.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t03-TF-13",
-"prompt": "We are going to sing a song in class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t03-TF-14",
-"prompt": "The children are not going to shout in the hall.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t03-TF-r1",
 "prompt": "I am not going forget my homework again.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r2",
-"prompt": "The children are going plant flowers in spring.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r3",
-"prompt": "The children are not going swim in the cold lake.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r4",
-"prompt": "My uncle is going fix the broken chair today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r5",
-"prompt": "My cousin is going learn to swim this summer.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r6",
-"prompt": "My sister going to clean her room after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r7",
-"prompt": "The students are not going use their phones in class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r8",
-"prompt": "They are going move the desks to the back.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r9",
-"prompt": "We are going study English in the library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r10",
-"prompt": "We are going plant flowers in the garden.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r11",
-"prompt": "We are not going watch television tonight.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t03-TF-r12",
-"prompt": "The boys are not going eat lunch at home.",
 "options": [
 "TRUE",
 "FALSE"

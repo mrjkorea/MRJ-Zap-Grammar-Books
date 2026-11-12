@@ -573,8 +573,8 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t16-TF-1",
-"prompt": "The room may be cleaned after school.",
+"id": "t16-TF-11",
+"prompt": "The door will be closed at night.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,62 +582,17 @@
 "answer": 0
 },
 {
-"id": "t16-TF-2",
-"prompt": "The cake must be baked before noon.",
+"id": "t16-TF-r10",
+"prompt": "The dishes must washed after lunch.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t16-TF-3",
-"prompt": "The shoes will be fixed by the shop.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t16-TF-4",
-"prompt": "The plants could be watered by the girl.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t16-TF-5",
 "prompt": "The dishes should be dried by my brother.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t16-TF-6",
-"prompt": "The car could be fixed by the man.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t16-TF-7",
-"prompt": "The shoes must be cleaned before school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t16-TF-8",
-"prompt": "The bike might be repaired this afternoon.",
 "options": [
 "TRUE",
 "FALSE"
@@ -654,8 +609,8 @@
 "answer": 0
 },
 {
-"id": "t16-TF-10",
-"prompt": "The cake will be baked by my father.",
+"id": "t16-TF-1",
+"prompt": "The room may be cleaned after school.",
 "options": [
 "TRUE",
 "FALSE"
@@ -663,8 +618,8 @@
 "answer": 0
 },
 {
-"id": "t16-TF-11",
-"prompt": "The door will be closed at night.",
+"id": "t16-TF-7",
+"prompt": "The shoes must be cleaned before school.",
 "options": [
 "TRUE",
 "FALSE"
@@ -672,35 +627,8 @@
 "answer": 0
 },
 {
-"id": "t16-TF-12",
-"prompt": "The floor must be cleaned after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t16-TF-13",
-"prompt": "The room could be painted by my father.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t16-TF-r1",
-"prompt": "The book must returned to the school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t16-TF-r2",
-"prompt": "The cake must baked before noon.",
+"id": "t16-TF-r8",
+"prompt": "The bike must repaired before school.",
 "options": [
 "TRUE",
 "FALSE"
@@ -717,6 +645,24 @@
 "answer": 1
 },
 {
+"id": "t16-TF-r12",
+"prompt": "The bike will repaired this afternoon.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t16-TF-12",
+"prompt": "The floor must be cleaned after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t16-TF-r4",
 "prompt": "The homework should finished today.",
 "options": [
@@ -726,35 +672,26 @@
 "answer": 1
 },
 {
+"id": "t16-TF-13",
+"prompt": "The room could be painted by my father.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t16-TF-4",
+"prompt": "The plants could be watered by the girl.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t16-TF-r5",
 "prompt": "My pet should not fed by my friend.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t16-TF-r6",
-"prompt": "The ball might kicked by the boy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t16-TF-r7",
-"prompt": "The lunch must cooked by my mother.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t16-TF-r8",
-"prompt": "The bike must repaired before school.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,13 +708,58 @@
 "answer": 1
 },
 {
-"id": "t16-TF-r10",
-"prompt": "The dishes must washed after lunch.",
+"id": "t16-TF-r2",
+"prompt": "The cake must baked before noon.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t16-TF-10",
+"prompt": "The cake will be baked by my father.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t16-TF-2",
+"prompt": "The cake must be baked before noon.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t16-TF-r7",
+"prompt": "The lunch must cooked by my mother.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t16-TF-3",
+"prompt": "The shoes will be fixed by the shop.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t16-TF-8",
+"prompt": "The bike might be repaired this afternoon.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t16-TF-r11",
@@ -789,8 +771,26 @@
 "answer": 1
 },
 {
-"id": "t16-TF-r12",
-"prompt": "The bike will repaired this afternoon.",
+"id": "t16-TF-6",
+"prompt": "The car could be fixed by the man.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t16-TF-r1",
+"prompt": "The book must returned to the school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t16-TF-r6",
+"prompt": "The ball might kicked by the boy.",
 "options": [
 "TRUE",
 "FALSE"

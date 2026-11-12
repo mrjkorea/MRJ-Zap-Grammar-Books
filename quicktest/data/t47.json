@@ -573,105 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t47-TF-1",
-"prompt": "I can fix my bike myself after school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-2",
-"prompt": "The little cat cleaned itself under the table.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-3",
-"prompt": "The bird cleaned itself in the small pond.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-5",
-"prompt": "Please help yourself to some fruit at the party.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-6",
-"prompt": "The children dressed themselves before breakfast today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-7",
-"prompt": "They cleaned themselves after the game.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-8",
-"prompt": "He enjoyed himself at the birthday party last week.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-9",
-"prompt": "You can fix yourself a quick snack.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-10",
-"prompt": "The girls dressed themselves quickly before the bus came.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-11",
-"prompt": "We painted the classroom ourselves last week.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t47-TF-12",
-"prompt": "He cut himself while cooking.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t47-TF-13",
 "prompt": "The dog found itself in the wrong room.",
 "options": [
@@ -679,6 +580,15 @@
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t47-TF-r16",
+"prompt": "I made me a cheese sandwich before school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t47-TF-14",
@@ -690,17 +600,17 @@
 "answer": 0
 },
 {
-"id": "t47-TF-r2",
-"prompt": "The old clock stopped it at noon.",
+"id": "t47-TF-1",
+"prompt": "I can fix my bike myself after school.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t47-TF-r3",
-"prompt": "We can cook us dinner on Friday.",
+"id": "t47-TF-r14",
+"prompt": "The cat cleaned it after eating in the kitchen.",
 "options": [
 "TRUE",
 "FALSE"
@@ -717,33 +627,6 @@
 "answer": 1
 },
 {
-"id": "t47-TF-r6",
-"prompt": "My friends enjoyed them at the school dance on Friday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t47-TF-r7",
-"prompt": "I made me a big sandwich before the game.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t47-TF-r8",
-"prompt": "We warmed us by the fire.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t47-TF-r9",
 "prompt": "We should save us some time.",
 "options": [
@@ -753,8 +636,8 @@
 "answer": 1
 },
 {
-"id": "t47-TF-r10",
-"prompt": "I bought me a new pencil case yesterday.",
+"id": "t47-TF-r2",
+"prompt": "The old clock stopped it at noon.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,13 +645,13 @@
 "answer": 1
 },
 {
-"id": "t47-TF-r12",
-"prompt": "My dad cooked him dinner in the kitchen last night.",
+"id": "t47-TF-2",
+"prompt": "The little cat cleaned itself under the table.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t47-TF-r13",
@@ -780,8 +663,17 @@
 "answer": 1
 },
 {
-"id": "t47-TF-r14",
-"prompt": "The cat cleaned it after eating in the kitchen.",
+"id": "t47-TF-11",
+"prompt": "We painted the classroom ourselves last week.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t47-TF-r12",
+"prompt": "My dad cooked him dinner in the kitchen last night.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,8 +681,116 @@
 "answer": 1
 },
 {
-"id": "t47-TF-r16",
-"prompt": "I made me a cheese sandwich before school.",
+"id": "t47-TF-7",
+"prompt": "They cleaned themselves after the game.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t47-TF-9",
+"prompt": "You can fix yourself a quick snack.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t47-TF-5",
+"prompt": "Please help yourself to some fruit at the party.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t47-TF-r10",
+"prompt": "I bought me a new pencil case yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t47-TF-r3",
+"prompt": "We can cook us dinner on Friday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t47-TF-12",
+"prompt": "He cut himself while cooking.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t47-TF-10",
+"prompt": "The girls dressed themselves quickly before the bus came.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t47-TF-8",
+"prompt": "He enjoyed himself at the birthday party last week.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t47-TF-r6",
+"prompt": "My friends enjoyed them at the school dance on Friday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t47-TF-3",
+"prompt": "The bird cleaned itself in the small pond.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t47-TF-6",
+"prompt": "The children dressed themselves before breakfast today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t47-TF-r8",
+"prompt": "We warmed us by the fire.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t47-TF-r7",
+"prompt": "I made me a big sandwich before the game.",
 "options": [
 "TRUE",
 "FALSE"

@@ -573,78 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t48-TF-1",
-"prompt": "Dad fixed the broken chair. Thus, we can sit at dinner.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t48-TF-2",
-"prompt": "The test had many questions. Moreover, the time was too short.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t48-TF-3",
-"prompt": "The bread was still warm. Moreover, the butter tasted very fresh.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t48-TF-5",
-"prompt": "We missed the morning bus. Therefore, we walked to school today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t48-TF-6",
-"prompt": "Our dog was very hungry. Therefore, I gave him some food.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t48-TF-7",
-"prompt": "My bag was heavy. However, I carried it home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t48-TF-8",
-"prompt": "The bus came very late. Thus, we missed the first class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t48-TF-9",
-"prompt": "The puppy is very small. Moreover, it sleeps under my bed.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t48-TF-10",
 "prompt": "The song was slow. Moreover, the words were very sad.",
 "options": [
@@ -654,8 +582,17 @@
 "answer": 0
 },
 {
-"id": "t48-TF-12",
-"prompt": "We planted flowers in spring. In addition, we watered them every day.",
+"id": "t48-TF-r10",
+"prompt": "The math test was hard. And, I studied more at home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t48-TF-2",
+"prompt": "The test had many questions. Moreover, the time was too short.",
 "options": [
 "TRUE",
 "FALSE"
@@ -672,71 +609,8 @@
 "answer": 0
 },
 {
-"id": "t48-TF-16",
-"prompt": "The homework was very hard. Therefore, I asked my teacher for help.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t48-TF-19",
-"prompt": "I studied math last night. However, the quiz was difficult.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t48-TF-r1",
-"prompt": "Birds eat small seeds. Or example, they eat corn daily.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t48-TF-r2",
 "prompt": "The bus left very early. Not, I ran to the bus stop.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t48-TF-r3",
-"prompt": "The homework was hard. But, she solved every problem.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t48-TF-r4",
-"prompt": "The homework was easy. Because, I finished it fast.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t48-TF-r5",
-"prompt": "I lost my red pen. Or, I forgot my notebook today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t48-TF-r6",
-"prompt": "The bus was late. Also, we missed the game.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,13 +627,31 @@
 "answer": 1
 },
 {
-"id": "t48-TF-r8",
-"prompt": "My bag was heavy. But, I used a cart.",
+"id": "t48-TF-6",
+"prompt": "Our dog was very hungry. Therefore, I gave him some food.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
+},
+{
+"id": "t48-TF-1",
+"prompt": "Dad fixed the broken chair. Thus, we can sit at dinner.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t48-TF-5",
+"prompt": "We missed the morning bus. Therefore, we walked to school today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t48-TF-r9",
@@ -771,8 +663,17 @@
 "answer": 1
 },
 {
-"id": "t48-TF-r10",
-"prompt": "The math test was hard. And, I studied more at home.",
+"id": "t48-TF-7",
+"prompt": "My bag was heavy. However, I carried it home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t48-TF-r12",
+"prompt": "We use school tools. For not, we use pencils and rulers.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,13 +690,112 @@
 "answer": 1
 },
 {
-"id": "t48-TF-r12",
-"prompt": "We use school tools. For not, we use pencils and rulers.",
+"id": "t48-TF-r8",
+"prompt": "My bag was heavy. But, I used a cart.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t48-TF-r5",
+"prompt": "I lost my red pen. Or, I forgot my notebook today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t48-TF-12",
+"prompt": "We planted flowers in spring. In addition, we watered them every day.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t48-TF-r3",
+"prompt": "The homework was hard. But, she solved every problem.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t48-TF-r6",
+"prompt": "The bus was late. Also, we missed the game.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t48-TF-3",
+"prompt": "The bread was still warm. Moreover, the butter tasted very fresh.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t48-TF-r4",
+"prompt": "The homework was easy. Because, I finished it fast.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t48-TF-r1",
+"prompt": "Birds eat small seeds. Or example, they eat corn daily.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t48-TF-19",
+"prompt": "I studied math last night. However, the quiz was difficult.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t48-TF-16",
+"prompt": "The homework was very hard. Therefore, I asked my teacher for help.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t48-TF-9",
+"prompt": "The puppy is very small. Moreover, it sleeps under my bed.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t48-TF-8",
+"prompt": "The bus came very late. Thus, we missed the first class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

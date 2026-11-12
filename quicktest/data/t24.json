@@ -582,116 +582,8 @@
 "answer": 0
 },
 {
-"id": "t24-TF-2",
-"prompt": "That movie is too scary for young kids.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-3",
-"prompt": "The soup is too hot for lunch today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-4",
-"prompt": "This pencil is too short for writing now.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-5",
-"prompt": "The soup is too hot to eat now.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-6",
-"prompt": "Her answer was too short for the test.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-7",
-"prompt": "The coffee is too cold this morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-8",
-"prompt": "The test was too hard for the class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-9",
-"prompt": "The movie was too sad for young kids.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-10",
-"prompt": "His jacket is too thin for the cold wind.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-11",
-"prompt": "The lake is too deep for small boats.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-12",
-"prompt": "This bag is too heavy for the walk.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-13",
-"prompt": "The cartoon ends too late for bedtime at our house.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t24-TF-r1",
-"prompt": "His jacket is too thin for the cold too wind.",
+"id": "t24-TF-r5",
+"prompt": "The water is too warm for the cold too drink.",
 "options": [
 "TRUE",
 "FALSE"
@@ -699,8 +591,8 @@
 "answer": 1
 },
 {
-"id": "t24-TF-r2",
-"prompt": "The cake is too sweet for the small too party.",
+"id": "t24-TF-r12",
+"prompt": "This book is to hard for new readers.",
 "options": [
 "TRUE",
 "FALSE"
@@ -717,6 +609,24 @@
 "answer": 1
 },
 {
+"id": "t24-TF-10",
+"prompt": "His jacket is too thin for the cold wind.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-r10",
+"prompt": "Our teacher talks to fast in English class every morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t24-TF-r4",
 "prompt": "The homework was to long for tonight.",
 "options": [
@@ -726,13 +636,22 @@
 "answer": 1
 },
 {
-"id": "t24-TF-r5",
-"prompt": "The water is too warm for the cold too drink.",
+"id": "t24-TF-6",
+"prompt": "Her answer was too short for the test.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
+},
+{
+"id": "t24-TF-9",
+"prompt": "The movie was too sad for young kids.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t24-TF-r6",
@@ -744,8 +663,17 @@
 "answer": 1
 },
 {
-"id": "t24-TF-r7",
-"prompt": "The line was to long at the store.",
+"id": "t24-TF-4",
+"prompt": "This pencil is too short for writing now.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-r1",
+"prompt": "His jacket is too thin for the cold too wind.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,8 +681,44 @@
 "answer": 1
 },
 {
-"id": "t24-TF-r8",
-"prompt": "Our classroom is to cold in winter.",
+"id": "t24-TF-5",
+"prompt": "The soup is too hot to eat now.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-8",
+"prompt": "The test was too hard for the class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-12",
+"prompt": "This bag is too heavy for the walk.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-3",
+"prompt": "The soup is too hot for lunch today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-r11",
+"prompt": "The soup is to hot for lunch in the school cafeteria.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,8 +735,17 @@
 "answer": 1
 },
 {
-"id": "t24-TF-r10",
-"prompt": "Our teacher talks to fast in English class every morning.",
+"id": "t24-TF-11",
+"prompt": "The lake is too deep for small boats.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-r8",
+"prompt": "Our classroom is to cold in winter.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,8 +753,35 @@
 "answer": 1
 },
 {
-"id": "t24-TF-r11",
-"prompt": "The soup is to hot for lunch in the school cafeteria.",
+"id": "t24-TF-2",
+"prompt": "That movie is too scary for young kids.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-13",
+"prompt": "The cartoon ends too late for bedtime at our house.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-7",
+"prompt": "The coffee is too cold this morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t24-TF-r7",
+"prompt": "The line was to long at the store.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,8 +789,8 @@
 "answer": 1
 },
 {
-"id": "t24-TF-r12",
-"prompt": "This book is to hard for new readers.",
+"id": "t24-TF-r2",
+"prompt": "The cake is too sweet for the small too party.",
 "options": [
 "TRUE",
 "FALSE"

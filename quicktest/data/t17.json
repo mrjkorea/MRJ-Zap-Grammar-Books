@@ -573,8 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t17-TF-1",
-"prompt": "It was the teacher that opened the window.",
+"id": "t17-TF-r11",
+"prompt": "It was my friend cleaned the classroom yesterday.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t17-TF-9",
+"prompt": "It was the rain that made the floor wet.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,8 +591,80 @@
 "answer": 0
 },
 {
+"id": "t17-TF-r9",
+"prompt": "Is it the train that brings the mail.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t17-TF-r12",
+"prompt": "It this key is that opens the front door.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t17-TF-13",
+"prompt": "It is the small store that sells cold drinks.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t17-TF-r7",
+"prompt": "It were the boy that fixed my broken bike.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t17-TF-6",
+"prompt": "It is my friend that draws funny pictures.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t17-TF-r8",
+"prompt": "It the nurse that helps sick children.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t17-TF-r10",
+"prompt": "It is the library keeps our town quiet.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t17-TF-2",
 "prompt": "It is not the bus that stops near my house.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t17-TF-8",
+"prompt": "It is this song that wakes me up.",
 "options": [
 "TRUE",
 "FALSE"
@@ -609,17 +690,17 @@
 "answer": 0
 },
 {
-"id": "t17-TF-5",
-"prompt": "It was the cat that sat on my warm chair.",
+"id": "t17-TF-r5",
+"prompt": "It my brother was that broke the small window.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t17-TF-6",
-"prompt": "It is my friend that draws funny pictures.",
+"id": "t17-TF-12",
+"prompt": "It is this song that makes me very happy.",
 "options": [
 "TRUE",
 "FALSE"
@@ -636,31 +717,13 @@
 "answer": 0
 },
 {
-"id": "t17-TF-8",
-"prompt": "It is this song that wakes me up.",
+"id": "t17-TF-r3",
+"prompt": "It is the library has many old books.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t17-TF-9",
-"prompt": "It was the rain that made the floor wet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t17-TF-10",
-"prompt": "It is my sister that draws the funny pictures.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t17-TF-11",
@@ -672,44 +735,17 @@
 "answer": 0
 },
 {
-"id": "t17-TF-12",
-"prompt": "It is this song that makes me very happy.",
+"id": "t17-TF-5",
+"prompt": "It was the cat that sat on my warm chair.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
-},
-{
-"id": "t17-TF-13",
-"prompt": "It is the small store that sells cold drinks.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t17-TF-r1",
-"prompt": "It is my friend draws funny pictures.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
 },
 {
 "id": "t17-TF-r2",
 "prompt": "It was the bus came late this morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t17-TF-r3",
-"prompt": "It is the library has many old books.",
 "options": [
 "TRUE",
 "FALSE"
@@ -726,8 +762,8 @@
 "answer": 1
 },
 {
-"id": "t17-TF-r5",
-"prompt": "It my brother was that broke the small window.",
+"id": "t17-TF-r1",
+"prompt": "It is my friend draws funny pictures.",
 "options": [
 "TRUE",
 "FALSE"
@@ -744,58 +780,22 @@
 "answer": 1
 },
 {
-"id": "t17-TF-r7",
-"prompt": "It were the boy that fixed my broken bike.",
+"id": "t17-TF-1",
+"prompt": "It was the teacher that opened the window.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t17-TF-r8",
-"prompt": "It the nurse that helps sick children.",
+"id": "t17-TF-10",
+"prompt": "It is my sister that draws the funny pictures.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t17-TF-r9",
-"prompt": "Is it the train that brings the mail.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t17-TF-r10",
-"prompt": "It is the library keeps our town quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t17-TF-r11",
-"prompt": "It was my friend cleaned the classroom yesterday.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t17-TF-r12",
-"prompt": "It this key is that opens the front door.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 }
 ]
 }

@@ -573,13 +573,13 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t55-TF-2",
-"prompt": "My brother has cleaned his small room today.",
+"id": "t55-TF-r10",
+"prompt": "The girls have paint the wall pink.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t55-TF-3",
@@ -591,152 +591,8 @@
 "answer": 0
 },
 {
-"id": "t55-TF-4",
-"prompt": "She has written a short letter to Grandma.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-5",
-"prompt": "Her brother has borrowed my pencil again.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-6",
-"prompt": "My friend has called his grandmother this morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-7",
-"prompt": "Her grandmother has planted pretty flowers outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-8",
-"prompt": "The dog has eaten all its food today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-9",
-"prompt": "Our class has studied English songs since March.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-10",
-"prompt": "My mother has planted flowers in the garden.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-11",
-"prompt": "They have watched that movie twice.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-12",
-"prompt": "The students have finished their science project.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-13",
-"prompt": "She has borrowed three books from the library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-15",
-"prompt": "They have painted the old fence since morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t55-TF-r1",
-"prompt": "Grandma has plant pretty flowers in the garden.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t55-TF-r2",
-"prompt": "My friend has take many photos today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t55-TF-r3",
-"prompt": "The girls have watch a movie at home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t55-TF-r4",
-"prompt": "My grandma has bake a sweet cake.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t55-TF-r5",
-"prompt": "The little cat has jump over the low wall.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t55-TF-r6",
-"prompt": "My dad has cook dinner for us.",
+"id": "t55-TF-r9",
+"prompt": "My mother has cook dinner for the family.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,6 +609,69 @@
 "answer": 1
 },
 {
+"id": "t55-TF-7",
+"prompt": "Her grandmother has planted pretty flowers outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t55-TF-4",
+"prompt": "She has written a short letter to Grandma.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t55-TF-11",
+"prompt": "They have watched that movie twice.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t55-TF-r1",
+"prompt": "Grandma has plant pretty flowers in the garden.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t55-TF-2",
+"prompt": "My brother has cleaned his small room today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t55-TF-r6",
+"prompt": "My dad has cook dinner for us.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t55-TF-13",
+"prompt": "She has borrowed three books from the library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t55-TF-r8",
 "prompt": "The baby has smile at the funny toy.",
 "options": [
@@ -762,8 +681,17 @@
 "answer": 1
 },
 {
-"id": "t55-TF-r9",
-"prompt": "My mother has cook dinner for the family.",
+"id": "t55-TF-6",
+"prompt": "My friend has called his grandmother this morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t55-TF-r2",
+"prompt": "My friend has take many photos today.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,13 +699,67 @@
 "answer": 1
 },
 {
-"id": "t55-TF-r10",
-"prompt": "The girls have paint the wall pink.",
+"id": "t55-TF-r4",
+"prompt": "My grandma has bake a sweet cake.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t55-TF-9",
+"prompt": "Our class has studied English songs since March.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t55-TF-r3",
+"prompt": "The girls have watch a movie at home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t55-TF-10",
+"prompt": "My mother has planted flowers in the garden.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t55-TF-8",
+"prompt": "The dog has eaten all its food today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t55-TF-r12",
+"prompt": "Her grandmother has plant pretty flowers outside.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t55-TF-12",
+"prompt": "The students have finished their science project.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t55-TF-r11",
@@ -789,13 +771,31 @@
 "answer": 1
 },
 {
-"id": "t55-TF-r12",
-"prompt": "Her grandmother has plant pretty flowers outside.",
+"id": "t55-TF-5",
+"prompt": "Her brother has borrowed my pencil again.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t55-TF-r5",
+"prompt": "The little cat has jump over the low wall.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t55-TF-15",
+"prompt": "They have painted the old fence since morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

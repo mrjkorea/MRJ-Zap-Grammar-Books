@@ -573,8 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t18-TF-1",
-"prompt": "My cousin sometimes visits us on weekends.",
+"id": "t18-TF-r9",
+"prompt": "We usual play soccer in the park on Sundays.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t18-TF-11",
+"prompt": "The baby usually sleeps after lunch.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,17 +591,17 @@
 "answer": 0
 },
 {
-"id": "t18-TF-2",
-"prompt": "We always walk to school in the morning.",
+"id": "t18-TF-r8",
+"prompt": "My friend usually finishes usually his lunch quickly.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t18-TF-3",
-"prompt": "She usually walks to school with her friends.",
+"id": "t18-TF-12",
+"prompt": "We usually walk to school in the morning.",
 "options": [
 "TRUE",
 "FALSE"
@@ -609,13 +618,58 @@
 "answer": 0
 },
 {
-"id": "t18-TF-5",
-"prompt": "The baby usually sleeps in the afternoon.",
+"id": "t18-TF-r3",
+"prompt": "My brother hard eats vegetables at lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t18-TF-9",
+"prompt": "My friend usually finishes his lunch quickly.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 0
+},
+{
+"id": "t18-TF-r11",
+"prompt": "They usual study math in the library.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t18-TF-3",
+"prompt": "She usually walks to school with her friends.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t18-TF-8",
+"prompt": "My cousin usually rides her bike to the park.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t18-TF-r4",
+"prompt": "My mother hard watches music shows on the phone.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
 },
 {
 "id": "t18-TF-6",
@@ -636,89 +690,8 @@
 "answer": 0
 },
 {
-"id": "t18-TF-8",
-"prompt": "My cousin usually rides her bike to the park.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t18-TF-9",
-"prompt": "My friend usually finishes his lunch quickly.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t18-TF-10",
-"prompt": "My brother always does his homework in the kitchen.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t18-TF-11",
-"prompt": "The baby usually sleeps after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t18-TF-12",
-"prompt": "We usually walk to school in the morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t18-TF-13",
-"prompt": "She seldom wears a hat in winter.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t18-TF-r1",
-"prompt": "She usually walks to usually school with her friends.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t18-TF-r2",
-"prompt": "They always clean hardly the classroom after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t18-TF-r3",
-"prompt": "My brother hard eats vegetables at lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t18-TF-r4",
-"prompt": "My mother hard watches music shows on the phone.",
+"id": "t18-TF-r12",
+"prompt": "My friend sometime draws pictures in class.",
 "options": [
 "TRUE",
 "FALSE"
@@ -735,6 +708,15 @@
 "answer": 1
 },
 {
+"id": "t18-TF-13",
+"prompt": "She seldom wears a hat in winter.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t18-TF-r6",
 "prompt": "They usual eat breakfast at seven.",
 "options": [
@@ -744,26 +726,26 @@
 "answer": 1
 },
 {
+"id": "t18-TF-r2",
+"prompt": "They always clean hardly the classroom after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t18-TF-2",
+"prompt": "We always walk to school in the morning.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t18-TF-r7",
 "prompt": "We seldom watch hardly movies on school nights.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t18-TF-r8",
-"prompt": "My friend usually finishes usually his lunch quickly.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t18-TF-r9",
-"prompt": "We usual play soccer in the park on Sundays.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,8 +762,8 @@
 "answer": 1
 },
 {
-"id": "t18-TF-r11",
-"prompt": "They usual study math in the library.",
+"id": "t18-TF-r1",
+"prompt": "She usually walks to usually school with her friends.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,13 +771,31 @@
 "answer": 1
 },
 {
-"id": "t18-TF-r12",
-"prompt": "My friend sometime draws pictures in class.",
+"id": "t18-TF-5",
+"prompt": "The baby usually sleeps in the afternoon.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
+},
+{
+"id": "t18-TF-10",
+"prompt": "My brother always does his homework in the kitchen.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t18-TF-1",
+"prompt": "My cousin sometimes visits us on weekends.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

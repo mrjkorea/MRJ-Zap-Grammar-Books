@@ -573,42 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t01-TF-1",
-"prompt": "They watch the game although the seats are far.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-2",
-"prompt": "The students open the window although the air is cold.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-3",
-"prompt": "They clean the classroom although the bell rings.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-4",
-"prompt": "My sister wears a coat although the sun is bright.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t01-TF-5",
 "prompt": "She helps her mother although the work is hard.",
 "options": [
@@ -618,98 +582,8 @@
 "answer": 0
 },
 {
-"id": "t01-TF-6",
-"prompt": "He walks to school although it rains today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-7",
-"prompt": "We make a cake although the kitchen is messy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-8",
-"prompt": "The train moves slowly although the track is new.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-9",
-"prompt": "The shop opens early although the street is quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-10",
-"prompt": "My sister does not eat fish although her friends do.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-11",
-"prompt": "My friend plays the piano although the room is noisy.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-12",
-"prompt": "She reads comics although her eyes are tired.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-13",
-"prompt": "My dog sleeps outside although the night is warm.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t01-TF-r6",
-"prompt": "The baby laughs not the room is quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t01-TF-r9",
-"prompt": "The students talk quietly or the teacher left.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t01-TF-r10",
-"prompt": "He walks to school or it rains today.",
+"id": "t01-TF-r21",
+"prompt": "The baby sleeps well or the room is noisy.",
 "options": [
 "TRUE",
 "FALSE"
@@ -726,8 +600,62 @@
 "answer": 1
 },
 {
-"id": "t01-TF-r13",
-"prompt": "I walk to school or the bus is fast.",
+"id": "t01-TF-r20",
+"prompt": "The bus is late not the driver runs fast.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t01-TF-1",
+"prompt": "They watch the game although the seats are far.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-r16",
+"prompt": "The cat sleeps inside or the sun is bright.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t01-TF-10",
+"prompt": "My sister does not eat fish although her friends do.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-r17",
+"prompt": "She reads a book not the room is dark.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t01-TF-11",
+"prompt": "My friend plays the piano although the room is noisy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-r9",
+"prompt": "The students talk quietly or the teacher left.",
 "options": [
 "TRUE",
 "FALSE"
@@ -744,8 +672,8 @@
 "answer": 1
 },
 {
-"id": "t01-TF-r16",
-"prompt": "The cat sleeps inside or the sun is bright.",
+"id": "t01-TF-r22",
+"prompt": "My teacher does not smile but the music is soft.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,8 +681,35 @@
 "answer": 1
 },
 {
-"id": "t01-TF-r17",
-"prompt": "She reads a book not the room is dark.",
+"id": "t01-TF-2",
+"prompt": "The students open the window although the air is cold.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-13",
+"prompt": "My dog sleeps outside although the night is warm.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-8",
+"prompt": "The train moves slowly although the track is new.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-r13",
+"prompt": "I walk to school or the bus is fast.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,8 +726,17 @@
 "answer": 1
 },
 {
-"id": "t01-TF-r20",
-"prompt": "The bus is late not the driver runs fast.",
+"id": "t01-TF-7",
+"prompt": "We make a cake although the kitchen is messy.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-r10",
+"prompt": "He walks to school or it rains today.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,8 +744,44 @@
 "answer": 1
 },
 {
-"id": "t01-TF-r21",
-"prompt": "The baby sleeps well or the room is noisy.",
+"id": "t01-TF-9",
+"prompt": "The shop opens early although the street is quiet.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-6",
+"prompt": "He walks to school although it rains today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-12",
+"prompt": "She reads comics although her eyes are tired.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-4",
+"prompt": "My sister wears a coat although the sun is bright.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t01-TF-r6",
+"prompt": "The baby laughs not the room is quiet.",
 "options": [
 "TRUE",
 "FALSE"
@@ -789,13 +789,13 @@
 "answer": 1
 },
 {
-"id": "t01-TF-r22",
-"prompt": "My teacher does not smile but the music is soft.",
+"id": "t01-TF-3",
+"prompt": "They clean the classroom although the bell rings.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 }
 ]
 }

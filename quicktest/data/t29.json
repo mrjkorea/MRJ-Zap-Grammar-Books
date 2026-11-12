@@ -573,87 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t29-TF-1",
-"prompt": "She makes it easy to clean the room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-2",
-"prompt": "He found it easy to fix the chair.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-3",
-"prompt": "I make it a rule to read books.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-5",
-"prompt": "They consider it rude to shout in class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-6",
-"prompt": "He makes it a rule to check his bag.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-7",
-"prompt": "They made it easy to find the bus.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-8",
-"prompt": "He found it easy to fix his bike.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-9",
-"prompt": "She thinks it nice to share snacks.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-10",
-"prompt": "I consider it rude to shout in class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t29-TF-11",
 "prompt": "They feel it important to keep promises.",
 "options": [
@@ -663,53 +582,8 @@
 "answer": 0
 },
 {
-"id": "t29-TF-12",
-"prompt": "I consider it kind to feed the birds.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-13",
-"prompt": "She felt it strange to see snow in May.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-14",
-"prompt": "They think it cool to ride a bike.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t29-TF-r1",
-"prompt": "They found strange to see snow here.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t29-TF-r2",
-"prompt": "I feel good to rest after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t29-TF-r3",
-"prompt": "I thought hard to finish the test.",
+"id": "t29-TF-r9",
+"prompt": "We feel nice to eat lunch together.",
 "options": [
 "TRUE",
 "FALSE"
@@ -726,44 +600,35 @@
 "answer": 1
 },
 {
-"id": "t29-TF-r5",
-"prompt": "They think safe to cross here.",
+"id": "t29-TF-12",
+"prompt": "I consider it kind to feed the birds.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t29-TF-r6",
-"prompt": "He makes fun to learn new words.",
+"id": "t29-TF-3",
+"prompt": "I make it a rule to read books.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t29-TF-r7",
-"prompt": "We find boring to wait for buses.",
+"id": "t29-TF-6",
+"prompt": "He makes it a rule to check his bag.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t29-TF-r8",
-"prompt": "They made easy to find the bus.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t29-TF-r9",
-"prompt": "We feel nice to eat lunch together.",
+"id": "t29-TF-r11",
+"prompt": "We consider easy to ride bikes.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,8 +645,17 @@
 "answer": 1
 },
 {
-"id": "t29-TF-r11",
-"prompt": "We consider easy to ride bikes.",
+"id": "t29-TF-8",
+"prompt": "He found it easy to fix his bike.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t29-TF-r3",
+"prompt": "I thought hard to finish the test.",
 "options": [
 "TRUE",
 "FALSE"
@@ -796,6 +670,132 @@
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t29-TF-r6",
+"prompt": "He makes fun to learn new words.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t29-TF-r1",
+"prompt": "They found strange to see snow here.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t29-TF-9",
+"prompt": "She thinks it nice to share snacks.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t29-TF-r5",
+"prompt": "They think safe to cross here.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t29-TF-r7",
+"prompt": "We find boring to wait for buses.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t29-TF-5",
+"prompt": "They consider it rude to shout in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t29-TF-1",
+"prompt": "She makes it easy to clean the room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t29-TF-r2",
+"prompt": "I feel good to rest after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t29-TF-14",
+"prompt": "They think it cool to ride a bike.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t29-TF-13",
+"prompt": "She felt it strange to see snow in May.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t29-TF-r8",
+"prompt": "They made easy to find the bus.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t29-TF-2",
+"prompt": "He found it easy to fix the chair.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t29-TF-7",
+"prompt": "They made it easy to find the bus.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t29-TF-10",
+"prompt": "I consider it rude to shout in class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 }
 ]
 }

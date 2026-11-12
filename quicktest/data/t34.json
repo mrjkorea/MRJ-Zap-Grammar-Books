@@ -573,85 +573,13 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t34-TF-2",
-"prompt": "She wrote about the year when her family moved here.",
+"id": "t34-TF-r8",
+"prompt": "Children play in the old park not friends meet.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t34-TF-3",
-"prompt": "I want to see how my uncle fixes the broken bike.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-4",
-"prompt": "I found the desk where I keep my pencils.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-5",
-"prompt": "Please show me how you fold paper boats.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-6",
-"prompt": "I like the month when snow covers our town.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-7",
-"prompt": "My grandparents live on the street where buses stop.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-8",
-"prompt": "I always forget when the history homework is due.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-9",
-"prompt": "I learned how the class choir sings softly.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-10",
-"prompt": "Nobody explained why the gym lights were off.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t34-TF-11",
@@ -663,42 +591,6 @@
 "answer": 0
 },
 {
-"id": "t34-TF-12",
-"prompt": "I finally learned the reason why cats hate loud noise.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-14",
-"prompt": "Our teacher likes the room where students practice music.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-15",
-"prompt": "The afternoon when we visited the museum was really fun.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t34-TF-r1",
-"prompt": "I forgot not our music club meets tomorrow morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
 "id": "t34-TF-r2",
 "prompt": "Students asked the cafeteria closed early yesterday.",
 "options": [
@@ -708,62 +600,8 @@
 "answer": 1
 },
 {
-"id": "t34-TF-r4",
-"prompt": "We eat lunch in the cafeteria friends meet daily.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t34-TF-r5",
-"prompt": "The bedroom and my sister sleeps stays quiet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t34-TF-r6",
-"prompt": "There is a clear reason because the bus arrives late.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t34-TF-r7",
-"prompt": "My sister explained not she cleans her small room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t34-TF-r8",
-"prompt": "Children play in the old park not friends meet.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t34-TF-r9",
-"prompt": "The quiet room and we study is very small.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t34-TF-r10",
-"prompt": "The way and my uncle fixes bikes is simple.",
+"id": "t34-TF-r1",
+"prompt": "I forgot not our music club meets tomorrow morning.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,6 +618,141 @@
 "answer": 1
 },
 {
+"id": "t34-TF-r5",
+"prompt": "The bedroom and my sister sleeps stays quiet.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t34-TF-3",
+"prompt": "I want to see how my uncle fixes the broken bike.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-8",
+"prompt": "I always forget when the history homework is due.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-r7",
+"prompt": "My sister explained not she cleans her small room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t34-TF-10",
+"prompt": "Nobody explained why the gym lights were off.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-5",
+"prompt": "Please show me how you fold paper boats.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-9",
+"prompt": "I learned how the class choir sings softly.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-r4",
+"prompt": "We eat lunch in the cafeteria friends meet daily.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t34-TF-4",
+"prompt": "I found the desk where I keep my pencils.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-7",
+"prompt": "My grandparents live on the street where buses stop.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-6",
+"prompt": "I like the month when snow covers our town.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-r6",
+"prompt": "There is a clear reason because the bus arrives late.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t34-TF-15",
+"prompt": "The afternoon when we visited the museum was really fun.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-r9",
+"prompt": "The quiet room and we study is very small.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t34-TF-12",
+"prompt": "I finally learned the reason why cats hate loud noise.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t34-TF-r12",
 "prompt": "This is the reason or he brings a big umbrella.",
 "options": [
@@ -791,6 +764,33 @@
 {
 "id": "t34-TF-r13",
 "prompt": "I miss the party and my class sang songs.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t34-TF-14",
+"prompt": "Our teacher likes the room where students practice music.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-2",
+"prompt": "She wrote about the year when her family moved here.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t34-TF-r10",
+"prompt": "The way and my uncle fixes bikes is simple.",
 "options": [
 "TRUE",
 "FALSE"

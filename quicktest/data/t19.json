@@ -573,8 +573,8 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t19-TF-1",
-"prompt": "The book may be borrowed by my friend.",
+"id": "t19-TF-5",
+"prompt": "The shoes will be cleaned by the boy.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,17 +582,35 @@
 "answer": 0
 },
 {
-"id": "t19-TF-2",
-"prompt": "The books must be carried by the students.",
+"id": "t19-TF-r10",
+"prompt": "The white board should wiped by the helper.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t19-TF-3",
 "prompt": "The letter could be written by my brother.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t19-TF-r3",
+"prompt": "The fish should not eaten by the cat.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t19-TF-9",
+"prompt": "The floor must be washed every morning.",
 "options": [
 "TRUE",
 "FALSE"
@@ -609,62 +627,17 @@
 "answer": 0
 },
 {
-"id": "t19-TF-5",
-"prompt": "The shoes will be cleaned by the boy.",
+"id": "t19-TF-r9",
+"prompt": "The dirty floor would washed by the cleaner.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t19-TF-6",
-"prompt": "The game may be played by the class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t19-TF-7",
-"prompt": "The desk can be moved by two boys.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t19-TF-8",
-"prompt": "The door should not be closed by the wind.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t19-TF-9",
-"prompt": "The floor must be washed every morning.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t19-TF-10",
-"prompt": "The room might be painted by the team.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t19-TF-11",
-"prompt": "The window should be closed by the teacher.",
+"id": "t19-TF-2",
+"prompt": "The books must be carried by the students.",
 "options": [
 "TRUE",
 "FALSE"
@@ -681,62 +654,8 @@
 "answer": 0
 },
 {
-"id": "t19-TF-13",
-"prompt": "The cake will be baked by my mother today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t19-TF-r1",
-"prompt": "The small window should closed at night.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t19-TF-r2",
-"prompt": "The car may not parked by the gate.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t19-TF-r3",
-"prompt": "The fish should not eaten by the cat.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t19-TF-r4",
-"prompt": "The bike would fixed by my brother.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t19-TF-r5",
-"prompt": "The books could moved to the shelf.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t19-TF-r6",
-"prompt": "The door should be lock by the guard.",
+"id": "t19-TF-r11",
+"prompt": "The test should taken by all students.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,8 +672,8 @@
 "answer": 1
 },
 {
-"id": "t19-TF-r8",
-"prompt": "The shoes should cleaned by the boy.",
+"id": "t19-TF-r1",
+"prompt": "The small window should closed at night.",
 "options": [
 "TRUE",
 "FALSE"
@@ -762,8 +681,17 @@
 "answer": 1
 },
 {
-"id": "t19-TF-r9",
-"prompt": "The dirty floor would washed by the cleaner.",
+"id": "t19-TF-10",
+"prompt": "The room might be painted by the team.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t19-TF-r4",
+"prompt": "The bike would fixed by my brother.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,8 +699,8 @@
 "answer": 1
 },
 {
-"id": "t19-TF-r10",
-"prompt": "The white board should wiped by the helper.",
+"id": "t19-TF-r6",
+"prompt": "The door should be lock by the guard.",
 "options": [
 "TRUE",
 "FALSE"
@@ -780,17 +708,89 @@
 "answer": 1
 },
 {
-"id": "t19-TF-r11",
-"prompt": "The test should taken by all students.",
+"id": "t19-TF-r2",
+"prompt": "The car may not parked by the gate.",
 "options": [
 "TRUE",
 "FALSE"
 ],
 "answer": 1
+},
+{
+"id": "t19-TF-6",
+"prompt": "The game may be played by the class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
 },
 {
 "id": "t19-TF-r12",
 "prompt": "The desk may moved by the workers.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t19-TF-8",
+"prompt": "The door should not be closed by the wind.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t19-TF-11",
+"prompt": "The window should be closed by the teacher.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t19-TF-7",
+"prompt": "The desk can be moved by two boys.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t19-TF-13",
+"prompt": "The cake will be baked by my mother today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t19-TF-r5",
+"prompt": "The books could moved to the shelf.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t19-TF-1",
+"prompt": "The book may be borrowed by my friend.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t19-TF-r8",
+"prompt": "The shoes should cleaned by the boy.",
 "options": [
 "TRUE",
 "FALSE"

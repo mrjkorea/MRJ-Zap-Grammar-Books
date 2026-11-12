@@ -573,8 +573,8 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t62-TF-1",
-"prompt": "The big dog made the children run away.",
+"id": "t62-TF-9",
+"prompt": "My father lets me use his computer.",
 "options": [
 "TRUE",
 "FALSE"
@@ -582,44 +582,17 @@
 "answer": 0
 },
 {
-"id": "t62-TF-2",
-"prompt": "My mother had me wash the dishes.",
+"id": "t62-TF-r12",
+"prompt": "The heavy rain made the children stayed inside.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t62-TF-3",
-"prompt": "The funny story made them smile again.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t62-TF-4",
-"prompt": "The teacher had us write a short story today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t62-TF-5",
 "prompt": "The news made them sad.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t62-TF-6",
-"prompt": "His jokes make us smile every day.",
 "options": [
 "TRUE",
 "FALSE"
@@ -636,33 +609,6 @@
 "answer": 0
 },
 {
-"id": "t62-TF-8",
-"prompt": "The teacher made the class write a story.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t62-TF-9",
-"prompt": "My father lets me use his computer.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t62-TF-10",
-"prompt": "My friend lets me borrow her notes.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t62-TF-11",
 "prompt": "The teacher let him go home early yesterday.",
 "options": [
@@ -672,8 +618,89 @@
 "answer": 0
 },
 {
+"id": "t62-TF-r8",
+"prompt": "The loud noise made the baby to wake.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t62-TF-r9",
+"prompt": "The joke made us laughing a lot.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t62-TF-8",
+"prompt": "The teacher made the class write a story.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t62-TF-r2",
+"prompt": "The teacher had us to write a short story today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t62-TF-r11",
+"prompt": "His mother made him to clean his room.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t62-TF-3",
+"prompt": "The funny story made them smile again.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t62-TF-12",
 "prompt": "The teacher has us write a short story.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t62-TF-4",
+"prompt": "The teacher had us write a short story today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t62-TF-r13",
+"prompt": "The funny joke made the class to laugh.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t62-TF-10",
+"prompt": "My friend lets me borrow her notes.",
 "options": [
 "TRUE",
 "FALSE"
@@ -699,17 +726,8 @@
 "answer": 1
 },
 {
-"id": "t62-TF-r2",
-"prompt": "The teacher had us to write a short story today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t62-TF-r3",
-"prompt": "The teacher let the students to leave early.",
+"id": "t62-TF-r10",
+"prompt": "The teacher let us to leave ten minutes early today.",
 "options": [
 "TRUE",
 "FALSE"
@@ -735,6 +753,15 @@
 "answer": 1
 },
 {
+"id": "t62-TF-6",
+"prompt": "His jokes make us smile every day.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t62-TF-r7",
 "prompt": "Dad had him to wash the car.",
 "options": [
@@ -744,8 +771,8 @@
 "answer": 1
 },
 {
-"id": "t62-TF-r8",
-"prompt": "The loud noise made the baby to wake.",
+"id": "t62-TF-r3",
+"prompt": "The teacher let the students to leave early.",
 "options": [
 "TRUE",
 "FALSE"
@@ -753,49 +780,22 @@
 "answer": 1
 },
 {
-"id": "t62-TF-r9",
-"prompt": "The joke made us laughing a lot.",
+"id": "t62-TF-2",
+"prompt": "My mother had me wash the dishes.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t62-TF-r10",
-"prompt": "The teacher let us to leave ten minutes early today.",
+"id": "t62-TF-1",
+"prompt": "The big dog made the children run away.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t62-TF-r11",
-"prompt": "His mother made him to clean his room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t62-TF-r12",
-"prompt": "The heavy rain made the children stayed inside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t62-TF-r13",
-"prompt": "The funny joke made the class to laugh.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 }
 ]
 }

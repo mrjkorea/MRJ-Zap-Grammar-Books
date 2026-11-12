@@ -573,17 +573,17 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t27-TF-1",
-"prompt": "She wants to draw a picture at home.",
+"id": "t27-TF-r8",
+"prompt": "My brother likes draw pictures in his room.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t27-TF-2",
-"prompt": "He learned to ride a bike.",
+"id": "t27-TF-12",
+"prompt": "He likes to draw funny pictures at home.",
 "options": [
 "TRUE",
 "FALSE"
@@ -598,177 +598,6 @@
 "FALSE"
 ],
 "answer": 0
-},
-{
-"id": "t27-TF-4",
-"prompt": "I forgot to bring my small umbrella today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-5",
-"prompt": "She chose to wear the blue jacket today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-6",
-"prompt": "She tries to draw animals in her notebook.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-7",
-"prompt": "We prefer to play soccer with friends after school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-8",
-"prompt": "She started to read a funny book.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-9",
-"prompt": "They love to watch funny movies at home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-10",
-"prompt": "My brother likes to draw happy animals.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-11",
-"prompt": "They decided to paint the wall.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-12",
-"prompt": "He likes to draw funny pictures at home.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-13",
-"prompt": "We learned to swim in the small pool.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t27-TF-r1",
-"prompt": "He hopes visit the museum with his class.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t27-TF-r2",
-"prompt": "They plan clean the classroom today.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t27-TF-r3",
-"prompt": "My brother needs buy a blue notebook.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t27-TF-r4",
-"prompt": "We started paint the wooden fence.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t27-TF-r5",
-"prompt": "He promised call his friend tonight.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t27-TF-r6",
-"prompt": "They plan clean the classroom this afternoon.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t27-TF-r7",
-"prompt": "He decides clean his room after lunch.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t27-TF-r8",
-"prompt": "My brother likes draw pictures in his room.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t27-TF-r9",
-"prompt": "I like read books in the library.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
 },
 {
 "id": "t27-TF-r10",
@@ -789,8 +618,179 @@
 "answer": 1
 },
 {
+"id": "t27-TF-r5",
+"prompt": "He promised call his friend tonight.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t27-TF-8",
+"prompt": "She started to read a funny book.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-9",
+"prompt": "They love to watch funny movies at home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-r1",
+"prompt": "He hopes visit the museum with his class.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t27-TF-11",
+"prompt": "They decided to paint the wall.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-r4",
+"prompt": "We started paint the wooden fence.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t27-TF-r3",
+"prompt": "My brother needs buy a blue notebook.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
 "id": "t27-TF-r12",
 "prompt": "We like sing happy songs together.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t27-TF-1",
+"prompt": "She wants to draw a picture at home.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-6",
+"prompt": "She tries to draw animals in her notebook.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-r6",
+"prompt": "They plan clean the classroom this afternoon.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t27-TF-5",
+"prompt": "She chose to wear the blue jacket today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-2",
+"prompt": "He learned to ride a bike.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-7",
+"prompt": "We prefer to play soccer with friends after school.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-13",
+"prompt": "We learned to swim in the small pool.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-r7",
+"prompt": "He decides clean his room after lunch.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t27-TF-10",
+"prompt": "My brother likes to draw happy animals.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-r2",
+"prompt": "They plan clean the classroom today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t27-TF-4",
+"prompt": "I forgot to bring my small umbrella today.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t27-TF-r9",
+"prompt": "I like read books in the library.",
 "options": [
 "TRUE",
 "FALSE"

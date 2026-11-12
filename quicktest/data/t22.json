@@ -573,33 +573,6 @@
 "passCorrect": 23,
 "items": [
 {
-"id": "t22-TF-1",
-"prompt": "He opens the window so that air comes in.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t22-TF-2",
-"prompt": "I finish my homework early so that I can play outside.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
-"id": "t22-TF-3",
-"prompt": "We lock the gate so that the sheep stay in.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
-},
-{
 "id": "t22-TF-4",
 "prompt": "They clean the room so that guests feel welcome.",
 "options": [
@@ -609,31 +582,22 @@
 "answer": 0
 },
 {
-"id": "t22-TF-5",
-"prompt": "The class sits quietly so that everyone hears the story.",
+"id": "t22-TF-r6",
+"prompt": "Dad washes the car so not it looks clean today.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t22-TF-6",
-"prompt": "Children read books quietly so that others can study well.",
+"id": "t22-TF-r11",
+"prompt": "I set my alarm and that I wake up early.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
-},
-{
-"id": "t22-TF-7",
-"prompt": "She writes the words slowly so that we understand them.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 0
+"answer": 1
 },
 {
 "id": "t22-TF-8",
@@ -654,8 +618,8 @@
 "answer": 0
 },
 {
-"id": "t22-TF-10",
-"prompt": "She reads books at home so that she learns new words.",
+"id": "t22-TF-6",
+"prompt": "Children read books quietly so that others can study well.",
 "options": [
 "TRUE",
 "FALSE"
@@ -663,8 +627,17 @@
 "answer": 0
 },
 {
-"id": "t22-TF-11",
-"prompt": "He writes the words so that he remembers them tomorrow.",
+"id": "t22-TF-r5",
+"prompt": "I study English every day and that I can read books.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t22-TF-3",
+"prompt": "We lock the gate so that the sheep stay in.",
 "options": [
 "TRUE",
 "FALSE"
@@ -672,17 +645,17 @@
 "answer": 0
 },
 {
-"id": "t22-TF-12",
-"prompt": "I set an alarm so that I wake up early.",
+"id": "t22-TF-r8",
+"prompt": "The boys sweep the hall and that dust does not stay.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 0
+"answer": 1
 },
 {
-"id": "t22-TF-13",
-"prompt": "She hides the gift so that her brother is surprised.",
+"id": "t22-TF-2",
+"prompt": "I finish my homework early so that I can play outside.",
 "options": [
 "TRUE",
 "FALSE"
@@ -699,6 +672,69 @@
 "answer": 1
 },
 {
+"id": "t22-TF-5",
+"prompt": "The class sits quietly so that everyone hears the story.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t22-TF-r13",
+"prompt": "I write the words so and I remember them later.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t22-TF-r15",
+"prompt": "We water the garden so or that the flowers bloom.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t22-TF-13",
+"prompt": "She hides the gift so that her brother is surprised.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t22-TF-1",
+"prompt": "He opens the window so that air comes in.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
+"id": "t22-TF-r14",
+"prompt": "I set my alarm so and I wake up early.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 1
+},
+{
+"id": "t22-TF-12",
+"prompt": "I set an alarm so that I wake up early.",
+"options": [
+"TRUE",
+"FALSE"
+],
+"answer": 0
+},
+{
 "id": "t22-TF-r2",
 "prompt": "I write clear notes so and I remember every lesson.",
 "options": [
@@ -708,53 +744,26 @@
 "answer": 1
 },
 {
-"id": "t22-TF-r5",
-"prompt": "I study English every day and that I can read books.",
+"id": "t22-TF-7",
+"prompt": "She writes the words slowly so that we understand them.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t22-TF-r6",
-"prompt": "Dad washes the car so not it looks clean today.",
+"id": "t22-TF-10",
+"prompt": "She reads books at home so that she learns new words.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
-},
-{
-"id": "t22-TF-r7",
-"prompt": "She packs her bag so or she is ready for school.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t22-TF-r8",
-"prompt": "The boys sweep the hall and that dust does not stay.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
+"answer": 0
 },
 {
 "id": "t22-TF-r9",
 "prompt": "We carry small umbrellas not that rain does not wet us.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t22-TF-r11",
-"prompt": "I set my alarm and that I wake up early.",
 "options": [
 "TRUE",
 "FALSE"
@@ -771,26 +780,17 @@
 "answer": 1
 },
 {
-"id": "t22-TF-r13",
-"prompt": "I write the words so and I remember them later.",
+"id": "t22-TF-11",
+"prompt": "He writes the words so that he remembers them tomorrow.",
 "options": [
 "TRUE",
 "FALSE"
 ],
-"answer": 1
+"answer": 0
 },
 {
-"id": "t22-TF-r14",
-"prompt": "I set my alarm so and I wake up early.",
-"options": [
-"TRUE",
-"FALSE"
-],
-"answer": 1
-},
-{
-"id": "t22-TF-r15",
-"prompt": "We water the garden so or that the flowers bloom.",
+"id": "t22-TF-r7",
+"prompt": "She packs her bag so or she is ready for school.",
 "options": [
 "TRUE",
 "FALSE"
